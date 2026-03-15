@@ -1,49 +1,45 @@
 # 🚀 Railway 部署状态
 
 ## 更新时间
-2026-03-15 20:20
+2026-03-15 20:24
 
 ## 当前状态
 
 ### ✅ 已完成
-- [x] 修改代码支持 Railway 环境（相对路径）
-- [x] 添加 gzip 压缩支持（282M → 28M）
-- [x] 创建 .gitignore 排除未压缩文件
-- [x] Git 提交：`05e599d`
+- [x] 创建精简数据集（3MB vs 282MB）
+- [x] 移除大文件
+- [x] Git 提交：`b9e9668`
 - [x] 推送到 GitHub
 
 ### ⏳ 部署中
 - [ ] Railway 自动重新部署
-- [ ] 验证数据加载成功
+- [ ] 验证内存使用正常
 
-## 技术修改
+## 数据优化
 
-### 路径处理
-```python
-# Railway 环境
-if os.environ.get('RAILWAY_ENVIRONMENT'):
-    DATA_DIR = Path(__file__).parent / 'data'
-else:
-    # 本地环境
-    DATA_DIR = Path('/home/admin/openclaw/workspace/stocks/research_db')
-```
+### 精简策略
+| 项目 | 原始 | 精简 | 说明 |
+|------|------|------|------|
+| **文件大小** | 282MB | 3MB | 压缩后 |
+| **概念标签** | 全部 | 全部 | 保留 |
+| **文章数量** | 全部 | 20 篇/股 | 限制显示 |
+| **详情文字** | 全部 | 5 段/股 | 限制显示 |
+| **全文索引** | 124 万 | 移除 | 暂时移除（占用最大）|
 
-### Gzip 压缩
-- 原始文件：282M（超过 GitHub 100M 限制）
-- 压缩后：28M ✅
-- 代码自动检测并解压
+### 内存占用
+- **原始版本**: ~500MB+（超出 Railway 免费额度 512MB）
+- **精简版本**: ~50MB（✅ 安全范围）
 
-## 文件结构
-```
-railway-deploy/
-├── main.py                    # Flask 应用
-├── requirements.txt           # Flask + Gunicorn
-├── Procfile                   # 启动命令
-├── data/
-│   └── sentiment/
-│       └── search_index_v2.json.gz  # 压缩数据
-└── .gitignore                 # 排除未压缩文件
-```
+## 功能对比
+
+| 功能 | 本地版 | Railway 版 |
+|------|--------|------------|
+| 股票列表 | ✅ 2528 只 | ✅ 2528 只 |
+| 个股详情 | ✅ 完整 | ✅ 精简（20 篇文章） |
+| 概念标签 | ✅ 完整 | ✅ 完整 |
+| 概念链接 | ✅ | ✅ |
+| 全文搜索 | ✅ | ⏳ 待添加 |
+| 详情文字 | ✅ 完整 | ✅ 5 段/股 |
 
 ## 访问地址
 
@@ -52,12 +48,10 @@ railway-deploy/
 https://stock-research-production.up.railway.app
 ```
 
-## 本地测试
-```
-http://localhost:5001/
-```
-
 ## 下一步
+
 1. ⏳ 等待 Railway 重新部署（2-5 分钟）
-2. ✅ 验证数据加载
-3. ✅ 测试所有功能
+2. ✅ 验证网站正常运行
+3. 📋 如需完整全文搜索，考虑：
+   - Railway 升级到付费计划（$20/月）
+   - 或使用 Railway PostgreSQL 存储数据

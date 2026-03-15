@@ -932,6 +932,14 @@ def api_search_suggest():
 
 # ============== 启动 ==============
 
+@app.errorhandler(500)
+def internal_error(error):
+    return "服务器内部错误，请稍后重试", 500
+
+@app.errorhandler(404)
+def not_found(error):
+    return "页面未找到", 404
+
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))
     print("=" * 70)
