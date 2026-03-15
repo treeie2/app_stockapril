@@ -56,10 +56,25 @@ def stock_detail(code):
     if code not in stocks:
         return jsonify({'error': '股票不存在'}), 404
     d = stocks[code]
+    
+    # 筛选核心概念：按概念热度排序，最多显示 10 个
+    all_concepts = d.get('concepts', [])
+    core_concepts = []
+    other_concepts = []
+    
+    # 按概念包含的股票数量排序（热门概念优先）
+    sorted_concepts = sorted(all_concepts, key=lambda c: len(concepts.get(c, [])), reverse=True)
+    
+    # 前 10 个为核心概念，其余为其他概念
+    core_concepts = sorted_concepts[:10]
+    other_concepts = sorted_concepts[10:]
+    
     return render_template('stock_detail.html', 
         code=code, name=d.get('name',''), board=d.get('board',''),
         mention_count=d.get('mention_count',0),
-        concepts=d.get('concepts',[]), industries=d.get('industries',[]),
+        core_concepts=core_concepts, other_concepts=other_concepts,
+        all_concepts=all_concepts,
+        industries=d.get('industries',[]),
         products=d.get('products',[]), articles=d.get('articles',[])[:20],
         detail_texts=d.get('detail_texts',[])[:5])
 
