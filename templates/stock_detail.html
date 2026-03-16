@@ -21,25 +21,19 @@
             --text-dim: #8888aa;
         }
         
-        * {
-            box-sizing: border-box;
-        }
+        * { box-sizing: border-box; }
         
         body {
             font-family: 'Noto Sans SC', sans-serif;
             background: var(--bg-dark);
             color: var(--text);
             min-height: 100vh;
-            overflow-x: hidden;
         }
         
-        /* 动态背景 */
         .bg-grid {
             position: fixed;
-            top: 0;
-            left: 0;
-            width: 100vw;
-            height: 100vh;
+            top: 0; left: 0;
+            width: 100vw; height: 100vh;
             background-image: 
                 linear-gradient(rgba(0, 240, 255, 0.03) 1px, transparent 1px),
                 linear-gradient(90deg, rgba(0, 240, 255, 0.03) 1px, transparent 1px);
@@ -50,23 +44,14 @@
         
         .bg-glow {
             position: fixed;
-            width: 600px;
-            height: 600px;
-            background: radial-gradient(circle, rgba(123, 47, 255, 0.15) 0%, transparent 70%);
-            top: 50%;
-            left: 50%;
+            width: 600px; height: 600px;
+            background: radial-gradient(circle, rgba(123, 47, 255, 0.08) 0%, transparent 70%);
+            top: 50%; left: 50%;
             transform: translate(-50%, -50%);
             pointer-events: none;
             z-index: 0;
-            animation: pulse 8s ease-in-out infinite;
         }
         
-        @keyframes pulse {
-            0%, 100% { opacity: 0.5; transform: translate(-50%, -50%) scale(1); }
-            50% { opacity: 0.8; transform: translate(-50%, -50%) scale(1.1); }
-        }
-        
-        /* 导航栏 */
         .nav-glass {
             background: var(--bg-glass);
             backdrop-filter: blur(20px);
@@ -90,19 +75,14 @@
         .nav-link::after {
             content: '';
             position: absolute;
-            bottom: -2px;
-            left: 0;
-            width: 0;
-            height: 2px;
+            bottom: -2px; left: 0;
+            width: 0; height: 2px;
             background: linear-gradient(90deg, var(--primary), var(--secondary));
             transition: width 0.3s ease;
         }
         
-        .nav-link:hover::after {
-            width: 100%;
-        }
+        .nav-link:hover::after { width: 100%; }
         
-        /* 卡片 */
         .card {
             background: var(--bg-card);
             border: 1px solid var(--border);
@@ -116,9 +96,7 @@
         .card::before {
             content: '';
             position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
+            top: 0; left: 0; right: 0;
             height: 1px;
             background: linear-gradient(90deg, transparent, var(--primary), transparent);
         }
@@ -128,7 +106,6 @@
             box-shadow: 0 0 30px rgba(0, 240, 255, 0.1);
         }
         
-        /* 标题 */
         .title-tech {
             font-family: 'JetBrains Mono', monospace;
             background: linear-gradient(135deg, var(--primary), var(--secondary));
@@ -137,7 +114,6 @@
             background-clip: text;
         }
         
-        /* 标签 */
         .tag {
             background: rgba(0, 240, 255, 0.1);
             border: 1px solid rgba(0, 240, 255, 0.3);
@@ -171,7 +147,6 @@
             box-shadow: 0 0 15px rgba(123, 47, 255, 0.3);
         }
         
-        /* 数据展示 */
         .stat-box {
             background: rgba(0, 0, 0, 0.3);
             border-radius: 12px;
@@ -198,11 +173,6 @@
             letter-spacing: 1px;
         }
         
-        /* 内容区块 */
-        .content-section {
-            margin-bottom: 24px;
-        }
-        
         .section-title {
             font-size: 14px;
             font-weight: 700;
@@ -223,14 +193,12 @@
             border-radius: 2px;
         }
         
-        /* 催化剂/洞察 多来源显示 */
         .source-block {
             background: rgba(0, 0, 0, 0.2);
             border-left: 3px solid var(--primary);
             padding: 16px 20px;
             margin-bottom: 16px;
             border-radius: 0 12px 12px 0;
-            position: relative;
             transition: all 0.3s ease;
         }
         
@@ -267,48 +235,6 @@
             margin: 20px 0;
         }
         
-        /* 滚动条 */
-        ::-webkit-scrollbar {
-            width: 8px;
-            height: 8px;
-        }
-        
-        ::-webkit-scrollbar-track {
-            background: var(--bg-dark);
-        }
-        
-        ::-webkit-scrollbar-thumb {
-            background: var(--border);
-            border-radius: 4px;
-        }
-        
-        ::-webkit-scrollbar-thumb:hover {
-            background: var(--primary);
-        }
-        
-        /* 文章列表 */
-        .article-item {
-            padding: 16px;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-            transition: all 0.3s ease;
-        }
-        
-        .article-item:hover {
-            background: rgba(0, 240, 255, 0.05);
-        }
-        
-        .article-title {
-            color: var(--text);
-            font-weight: 500;
-            margin-bottom: 8px;
-        }
-        
-        .article-meta {
-            font-size: 12px;
-            color: var(--text-dim);
-        }
-        
-        /* 徽章 */
         .badge {
             display: inline-flex;
             align-items: center;
@@ -331,28 +257,76 @@
             color: var(--secondary);
         }
         
-        /* 动画 */
-        .fade-in {
-            animation: fadeIn 0.6s ease-out;
+        .article-item {
+            padding: 16px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            transition: all 0.3s ease;
         }
         
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
+        .article-item:hover {
+            background: rgba(0, 240, 255, 0.05);
         }
         
-        .stagger-1 { animation-delay: 0.1s; }
-        .stagger-2 { animation-delay: 0.2s; }
-        .stagger-3 { animation-delay: 0.3s; }
-        .stagger-4 { animation-delay: 0.4s; }
+        .article-title {
+            color: var(--text);
+            font-weight: 500;
+            margin-bottom: 8px;
+        }
+        
+        .article-meta {
+            font-size: 12px;
+            color: var(--text-dim);
+        }
+        
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 16px;
+        }
+        
+        .info-item {
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+            padding: 12px;
+        }
+        
+        .info-label {
+            font-size: 11px;
+            color: var(--text-dim);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 6px;
+        }
+        
+        .info-value {
+            color: var(--text);
+            font-size: 14px;
+            line-height: 1.6;
+        }
+        
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        
+        ::-webkit-scrollbar-track {
+            background: var(--bg-dark);
+        }
+        
+        ::-webkit-scrollbar-thumb {
+            background: var(--border);
+            border-radius: 4px;
+        }
+        
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--primary);
+        }
     </style>
 </head>
 <body>
-    <!-- 背景效果 -->
     <div class="bg-grid"></div>
     <div class="bg-glow"></div>
     
-    <!-- 导航栏 -->
     <nav class="nav-glass">
         <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
             <div class="flex items-center gap-6">
@@ -373,7 +347,7 @@
     
     <main class="max-w-7xl mx-auto px-4 py-8 relative z-10">
         <!-- 头部信息 -->
-        <div class="card fade-in mb-6">
+        <div class="card mb-6">
             <div class="flex items-start justify-between mb-6">
                 <div>
                     <h1 class="text-4xl font-bold title-tech mb-2">{{ name }}</h1>
@@ -395,7 +369,7 @@
                     <div class="stat-label">Board</div>
                 </div>
                 <div class="stat-box">
-                    <div class="stat-value" style="color: var(--accent)">{{ core_concepts|length }}</div>
+                    <div class="stat-value" style="color: var(--accent)">{{ concepts|length }}</div>
                     <div class="stat-label">Concepts</div>
                 </div>
                 <div class="stat-box">
@@ -406,76 +380,64 @@
         </div>
 
         <!-- 概念标签 -->
-        {% if core_concepts %}
-        <div class="card fade-in stagger-1 mb-6">
+        {% if concepts and concepts|length > 0 %}
+        <div class="card mb-6">
             <div class="section-title">核心概念标签</div>
-            <div class="flex flex-wrap gap-2 mb-4">
-                {% for c in core_concepts %}
+            <div class="flex flex-wrap gap-2">
+                {% for c in concepts %}
                 <a href="/concept/{{ c }}" class="tag">{{ c }}</a>
                 {% endfor %}
             </div>
-            {% if other_concepts %}
-            <div class="pt-4 border-t" style="border-color: rgba(255,255,255,0.05)">
-                <button onclick="document.getElementById('other-concepts').classList.toggle('hidden')" class="text-sm text-blue-400 hover:text-blue-300 transition flex items-center gap-2">
-                    <span>展开更多概念 ({{ other_concepts|length }} 个)</span>
-                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-                </button>
-                <div id="other-concepts" class="hidden mt-4 pt-4" style="border-top: 1px dashed rgba(255,255,255,0.1)">
-                    <div class="flex flex-wrap gap-2">
-                        {% for c in other_concepts %}
-                        <a href="/concept/{{ c }}" class="tag tag-secondary">{{ c }}</a>
-                        {% endfor %}
-                    </div>
+        </div>
+        {% endif %}
+
+        <!-- 核心业务 + 行业地位 -->
+        {% if core_business or industry_position %}
+        <div class="card mb-6">
+            <div class="section-title">公司概况</div>
+            <div class="info-grid">
+                {% if core_business %}
+                <div class="info-item">
+                    <div class="info-label">核心业务</div>
+                    <div class="info-value">{{ core_business }}</div>
                 </div>
+                {% endif %}
+                {% if industry_position %}
+                <div class="info-item">
+                    <div class="info-label">行业地位</div>
+                    <div class="info-value">{{ industry_position }}</div>
+                </div>
+                {% endif %}
             </div>
-            {% endif %}
-        </div>
-        {% endif %}
-
-        <!-- 核心业务 -->
-        {% if core_business %}
-        <div class="card fade-in stagger-2 mb-6">
-            <div class="section-title">核心业务</div>
-            <p class="text-gray-300 leading-relaxed">{{ core_business }}</p>
-        </div>
-        {% endif %}
-
-        <!-- 行业地位 -->
-        {% if industry_position %}
-        <div class="card fade-in stagger-2 mb-6">
-            <div class="section-title">行业地位</div>
-            <p class="text-gray-300 leading-relaxed">{{ industry_position }}</p>
         </div>
         {% endif %}
 
         <!-- 催化剂（多来源） -->
-        {% if accident %}
-        <div class="card fade-in stagger-3 mb-6">
+        {% if accident and accident|length > 0 %}
+        <div class="card mb-6">
             <div class="section-title">
                 <span style="color: var(--accent)">⚡</span> 催化剂 / 事件驱动
             </div>
             <div class="mt-4">
-                {% if '---' in accident %}
-                    {% set parts = accident.split('\n\n---\n\n') %}
-                    {% for part in parts %}
-                        {% if part.strip() %}
-                            {% set cleaned = part.replace('[', '').replace(']', '').split(' ', 1) %}
-                            {% if cleaned|length >= 2 %}
-                                <div class="source-block">
-                                    <div class="source-number">{{ cleaned[0] }}</div>
-                                    <div class="source-content">{{ cleaned[1] }}</div>
-                                </div>
-                                {% if not loop.last %}
-                                <div class="source-divider"></div>
-                                {% endif %}
-                            {% else %}
-                                <div class="source-block">
-                                    <div class="source-content">{{ part }}</div>
-                                </div>
+                {% if '[1]' in accident %}
+                    <!-- 多来源格式 -->
+                    {% set parts = accident.split('[0]') %}
+                    {% for i in range(1, 10) %}
+                        {% set marker = '[' + i|string + ']' %}
+                        {% if marker in accident %}
+                            {% set start = accident.index(marker) + marker|length %}
+                            {% set end = accident.index('[' + (i+1)|string + ']', start) if '[' + (i+1)|string + ']' in accident else accident|length %}
+                            <div class="source-block">
+                                <div class="source-number">{{ i }}</div>
+                                <div class="source-content">{{ accident[start:end].strip() }}</div>
+                            </div>
+                            {% if i < 9 and '[' + (i+1)|string + ']' in accident %}
+                            <div class="source-divider"></div>
                             {% endif %}
                         {% endif %}
                     {% endfor %}
                 {% else %}
+                    <!-- 单来源格式 -->
                     <div class="source-block">
                         <div class="source-content">{{ accident }}</div>
                     </div>
@@ -485,29 +447,24 @@
         {% endif %}
 
         <!-- 投资洞察（多来源） -->
-        {% if insights %}
-        <div class="card fade-in stagger-3 mb-6">
+        {% if insights and insights|length > 0 %}
+        <div class="card mb-6">
             <div class="section-title">
                 <span style="color: var(--secondary)">💡</span> 投资洞察
             </div>
             <div class="mt-4">
-                {% if '---' in insights %}
-                    {% set parts = insights.split('\n\n---\n\n') %}
-                    {% for part in parts %}
-                        {% if part.strip() %}
-                            {% set cleaned = part.replace('[', '').replace(']', '').split(' ', 1) %}
-                            {% if cleaned|length >= 2 %}
-                                <div class="source-block" style="border-left-color: var(--secondary)">
-                                    <div class="source-number" style="background: linear-gradient(135deg, var(--secondary), var(--accent))">{{ cleaned[0] }}</div>
-                                    <div class="source-content">{{ cleaned[1] }}</div>
-                                </div>
-                                {% if not loop.last %}
-                                <div class="source-divider"></div>
-                                {% endif %}
-                            {% else %}
-                                <div class="source-block" style="border-left-color: var(--secondary)">
-                                    <div class="source-content">{{ part }}</div>
-                                </div>
+                {% if '[1]' in insights %}
+                    {% for i in range(1, 10) %}
+                        {% set marker = '[' + i|string + ']' %}
+                        {% if marker in insights %}
+                            {% set start = insights.index(marker) + marker|length %}
+                            {% set end = insights.index('[' + (i+1)|string + ']', start) if '[' + (i+1)|string + ']' in insights else insights|length %}
+                            <div class="source-block" style="border-left-color: var(--secondary)">
+                                <div class="source-number" style="background: linear-gradient(135deg, var(--secondary), var(--accent))">{{ i }}</div>
+                                <div class="source-content">{{ insights[start:end].strip() }}</div>
+                            </div>
+                            {% if i < 9 and '[' + (i+1)|string + ']' in insights %}
+                            <div class="source-divider" style="background: linear-gradient(90deg, rgba(123, 47, 255, 0.2), transparent)"></div>
                             {% endif %}
                         {% endif %}
                     {% endfor %}
@@ -520,25 +477,30 @@
         </div>
         {% endif %}
 
-        <!-- 产业链 -->
-        {% if chain %}
-        <div class="card fade-in stagger-3 mb-6">
-            <div class="section-title">🔗 产业链位置</div>
-            <p class="text-gray-300 leading-relaxed">{{ chain }}</p>
-        </div>
-        {% endif %}
-
-        <!-- 关键指标 -->
-        {% if key_metrics %}
-        <div class="card fade-in stagger-3 mb-6">
-            <div class="section-title">📊 关键指标</div>
-            <p class="text-gray-300 leading-relaxed font-mono text-sm">{{ key_metrics }}</p>
+        <!-- 产业链 + 关键指标 -->
+        {% if chain or key_metrics %}
+        <div class="card mb-6">
+            <div class="section-title">📊 业务数据</div>
+            <div class="info-grid">
+                {% if chain %}
+                <div class="info-item">
+                    <div class="info-label">产业链位置</div>
+                    <div class="info-value">{{ chain }}</div>
+                </div>
+                {% endif %}
+                {% if key_metrics %}
+                <div class="info-item">
+                    <div class="info-label">关键指标</div>
+                    <div class="info-value font-mono text-sm">{{ key_metrics }}</div>
+                </div>
+                {% endif %}
+            </div>
         </div>
         {% endif %}
 
         <!-- 合作伙伴 -->
-        {% if partners %}
-        <div class="card fade-in stagger-3 mb-6">
+        {% if partners and partners|length > 0 %}
+        <div class="card mb-6">
             <div class="section-title">🤝 合作伙伴</div>
             <div class="flex flex-wrap gap-2">
                 {% for p in partners %}
@@ -549,8 +511,8 @@
         {% endif %}
 
         <!-- 产品列表 -->
-        {% if products %}
-        <div class="card fade-in stagger-3 mb-6">
+        {% if products and products|length > 0 %}
+        <div class="card mb-6">
             <div class="section-title">📦 产品/服务</div>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
                 {% for p in products %}
@@ -564,16 +526,16 @@
         {% endif %}
 
         <!-- 提及文章 -->
-        {% if articles %}
-        <div class="card fade-in stagger-4">
+        {% if articles and articles|length > 0 %}
+        <div class="card">
             <div class="section-title">📰 提及文章 <span class="text-gray-500">({{ articles|length }})</span></div>
             <div class="mt-4">
                 {% for a in articles %}
                 <div class="article-item">
-                    <div class="article-title">{{ a.article_title or a.source }}</div>
+                    <div class="article-title">{{ a.article_title or a.source or '未命名文章' }}</div>
                     <div class="article-meta">
-                        <span class="badge badge-secondary">{{ a.date }}</span>
-                        <span class="ml-3">{{ a.source }}</span>
+                        <span class="badge badge-secondary">{{ a.date or '未知日期' }}</span>
+                        <span class="ml-3">{{ a.source or '未知来源' }}</span>
                     </div>
                 </div>
                 {% endfor %}
