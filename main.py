@@ -141,6 +141,17 @@ def api_suggest():
 # 数据文件路径
 MASTER_FILE = Path(__file__).parent / 'data' / 'master' / 'stocks_master.json'
 
+@app.route('/api/stock/<code>/accident', methods=['PUT'])
+def update_accident(code):
+    """更新股票的 accident（催化剂）字段"""
+    if code not in stocks:
+        return jsonify({'error': '股票不存在'}), 404
+    
+    data = request.get_json()
+    new_accident = data.get('accident', '')
+    
+    return update_stock_field(code, 'accident', new_accident)
+
 @app.route('/api/stock/<code>/insights', methods=['PUT'])
 def update_insights(code):
     """更新股票的 insights 字段"""
@@ -150,7 +161,10 @@ def update_insights(code):
     data = request.get_json()
     new_insights = data.get('insights', '')
     
-    # 加载主数据文件
+    return update_stock_field(code, 'insights', new_insights)
+
+def update_stock_field(code, field, value):
+    """通用函数：更新股票字段"""
     try:
         with open(MASTER_FILE, 'r', encoding='utf-8') as f:
             master_data = json.load(f)
@@ -161,11 +175,11 @@ def update_insights(code):
             if stock.get('code') == code:
                 if 'llm_summary' not in stock:
                     stock['llm_summary'] = {}
-                stock['llm_summary']['insights'] = new_insights
+                stock['llm_summary'][field] = value
                 updated = True
                 
                 # 同步更新内存中的 stocks 字典
-                stocks[code]['insights'] = new_insights
+                stocks[code][field] = value
                 break
         
         if not updated:
