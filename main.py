@@ -4,9 +4,17 @@
 """
 
 from flask import Flask, jsonify, render_template, request, send_file
-import json, gzip, os, requests
+import json, gzip, os
 from pathlib import Path
 from datetime import datetime
+
+# 延迟导入 akshare（避免加载慢）
+def get_akshare():
+    try:
+        import akshare as ak
+        return ak
+    except ImportError:
+        return None
 
 app = Flask(__name__)
 
@@ -287,7 +295,7 @@ def clear_edits():
 
 @app.route('/api/market-data')
 def get_market_data():
-    """获取实时行情数据（东方财富 API）"""
+    """获取实时行情数据（Akshare）"""
     codes = request.args.get('codes', '').split(',')
     codes = [c for c in codes if c.strip()]
     
@@ -295,53 +303,44 @@ def get_market_data():
         return jsonify({'totalCap': 0}), 200
     
     try:
-        # 构建东方财富 API 请求
-        secids = ','.join([f'1.{c}' if c.startswith('6') else f'0.{c}' for c in codes])
-        url = 'https://push2.eastmoney.com/api/qt/ulist/get'
-        params = {
-            'invt': 2,
-            'fltt': 2,
-            'fields': 'f43,f44,f45,f46,f47,f48,f13,f14,f2,f3,f196',
-            'secids': secids,
-            'poit': 1
-        }
+        ak = get_akshare()
+        if not ak:
+            return jsonify({'totalCap': 0, 'error': 'Akshare 未安装'}), 200
         
-        headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
-            'Referer': 'http://quote.eastmoney.com/'
-        }
-        
-        resp = requests.get(url, params=params, headers=headers, timeout=10)
-        resp.raise_for_status()
-        data = resp.json()
+        # 一次性获取所有 A 股行情
+        df = ak.stock_zh_a_spot_em()
         
         result = {}
         total_cap = 0
         
-        if data.get('data') and data['data'].get('diff'):
-            for item in data['data']['diff']:
-                code = item.get('f12')
-                if code:
-                    price = item.get('f2')
-                    change = item.get('f3')
-                    market_cap = item.get('f46')
-                    market_cap_yi = market_cap / 100000000 if market_cap else None
-                    
-                    result[code] = {
-                        'price': price,
-                        'change': change,
-                        'marketCap': market_cap_yi
-                    }
-                    
-                    if market_cap_yi:
-                        total_cap += market_cap_yi
+        if df is not None and len(df) > 0:
+            for code in codes:
+                try:
+                    stock_df = df[df['代码'] == code]
+                    if len(stock_df) > 0:
+                        row = stock_df.iloc[0]
+                        price = float(row.get('最新价', 0))
+                        change = float(row.get('涨跌幅', 0))
+                        market_cap = float(row.get('总市值', 0))
+                        market_cap_yi = market_cap / 100000000 if market_cap else None
+                        
+                        result[code] = {
+                            'price': price,
+                            'change': change,
+                            'marketCap': market_cap_yi
+                        }
+                        
+                        if market_cap_yi:
+                            total_cap += market_cap_yi
+                except Exception as e:
+                    print(f"处理 {code} 失败：{e}")
+                    continue
         
         result['totalCap'] = total_cap
         return jsonify(result)
     
     except Exception as e:
         print(f"获取行情数据失败：{e}")
-        # 返回空数据，不让页面崩溃
         return jsonify({'totalCap': 0, 'error': str(e)}), 200
 
 def update_stock_field(code, field, value):
