@@ -125,8 +125,13 @@ def search():
                 results.append({'code': c, 'name': d.get('name',''), 
                                'mention_count': d.get('mention_count',0),
                                'concepts': d.get('concepts',[])[:5]})
-    results.sort(key=lambda x: x['mention_count'], reverse=True)
-    return render_template('search.html', query=q, results=results, total=len(results))
+        results.sort(key=lambda x: x['mention_count'], reverse=True)
+    
+    # 热门搜索（Top 20）
+    top_stocks = sorted([{'code': c, **d} for c, d in stocks.items()], 
+                        key=lambda x: x['mention_count'], reverse=True)[:20]
+    
+    return render_template('search.html', query=q, results=results, total=len(results), top_stocks=top_stocks)
 
 @app.route('/api/stock/<code>')
 def api_stock(code):
