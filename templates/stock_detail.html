@@ -419,29 +419,10 @@
                 <span style="color: var(--accent)">⚡</span> 催化剂 / 事件驱动
             </div>
             <div class="mt-4">
-                {% if '[1]' in accident %}
-                    <!-- 多来源格式 -->
-                    {% set parts = accident.split('[0]') %}
-                    {% for i in range(1, 10) %}
-                        {% set marker = '[' + i|string + ']' %}
-                        {% if marker in accident %}
-                            {% set start = accident.index(marker) + marker|length %}
-                            {% set end = accident.index('[' + (i+1)|string + ']', start) if '[' + (i+1)|string + ']' in accident else accident|length %}
-                            <div class="source-block">
-                                <div class="source-number">{{ i }}</div>
-                                <div class="source-content">{{ accident[start:end].strip() }}</div>
-                            </div>
-                            {% if i < 9 and '[' + (i+1)|string + ']' in accident %}
-                            <div class="source-divider"></div>
-                            {% endif %}
-                        {% endif %}
-                    {% endfor %}
-                {% else %}
-                    <!-- 单来源格式 -->
-                    <div class="source-block">
-                        <div class="source-content">{{ accident }}</div>
-                    </div>
-                {% endif %}
+                <!-- 简单处理：直接显示，CSS 处理换行 -->
+                <div class="source-block">
+                    <div class="source-content" style="white-space: pre-wrap;">{{ accident }}</div>
+                </div>
             </div>
         </div>
         {% endif %}
@@ -453,26 +434,10 @@
                 <span style="color: var(--secondary)">💡</span> 投资洞察
             </div>
             <div class="mt-4">
-                {% if '[1]' in insights %}
-                    {% for i in range(1, 10) %}
-                        {% set marker = '[' + i|string + ']' %}
-                        {% if marker in insights %}
-                            {% set start = insights.index(marker) + marker|length %}
-                            {% set end = insights.index('[' + (i+1)|string + ']', start) if '[' + (i+1)|string + ']' in insights else insights|length %}
-                            <div class="source-block" style="border-left-color: var(--secondary)">
-                                <div class="source-number" style="background: linear-gradient(135deg, var(--secondary), var(--accent))">{{ i }}</div>
-                                <div class="source-content">{{ insights[start:end].strip() }}</div>
-                            </div>
-                            {% if i < 9 and '[' + (i+1)|string + ']' in insights %}
-                            <div class="source-divider" style="background: linear-gradient(90deg, rgba(123, 47, 255, 0.2), transparent)"></div>
-                            {% endif %}
-                        {% endif %}
-                    {% endfor %}
-                {% else %}
-                    <div class="source-block" style="border-left-color: var(--secondary)">
-                        <div class="source-content">{{ insights }}</div>
-                    </div>
-                {% endif %}
+                <!-- 简单处理：直接显示，CSS 处理换行 -->
+                <div class="source-block" style="border-left-color: var(--secondary)">
+                    <div class="source-content" style="white-space: pre-wrap;">{{ insights }}</div>
+                </div>
             </div>
         </div>
         {% endif %}
