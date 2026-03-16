@@ -3,9 +3,10 @@
 个股研究数据库 Web 界面 - Railway 极简版
 """
 
-from flask import Flask, jsonify, render_template, request
+from flask import Flask, jsonify, render_template, request, send_file
 import json, gzip, os
 from pathlib import Path
+from datetime import datetime
 
 app = Flask(__name__)
 
@@ -140,6 +141,18 @@ def api_suggest():
 
 # 数据文件路径
 MASTER_FILE = Path(__file__).parent / 'data' / 'master' / 'stocks_master.json'
+EDIT_LOG_FILE = Path(__file__).parent / 'data' / 'edit_log.json'
+
+# 编辑记录
+edit_log = []
+
+# 加载编辑记录
+if EDIT_LOG_FILE.exists():
+    try:
+        with open(EDIT_LOG_FILE, 'r', encoding='utf-8') as f:
+            edit_log = json.load(f)
+    except:
+        edit_log = []
 
 @app.route('/api/stock/<code>/accident', methods=['PUT'])
 def update_accident(code):
@@ -150,7 +163,20 @@ def update_accident(code):
     data = request.get_json()
     new_accident = data.get('accident', '')
     
-    return update_stock_field(code, 'accident', new_accident)
+    result = update_stock_field(code, 'accident', new_accident)
+    
+    # 记录编辑日志
+    if result.get('success'):
+        edit_log.append({
+            'timestamp': datetime.now().isoformat(),
+            'code': code,
+            'name': stocks[code].get('name', ''),
+            'field': 'accident',
+            'content': new_accident[:200] + '...' if len(new_accident) > 200 else new_accident
+        })
+        save_edit_log()
+    
+    return result
 
 @app.route('/api/stock/<code>/insights', methods=['PUT'])
 def update_insights(code):
@@ -161,7 +187,103 @@ def update_insights(code):
     data = request.get_json()
     new_insights = data.get('insights', '')
     
-    return update_stock_field(code, 'insights', new_insights)
+    result = update_stock_field(code, 'insights', new_insights)
+    
+    # 记录编辑日志
+    if result.get('success'):
+        edit_log.append({
+            'timestamp': datetime.now().isoformat(),
+            'code': code,
+            'name': stocks[code].get('name', ''),
+            'field': 'insights',
+            'content': new_insights[:200] + '...' if len(new_insights) > 200 else new_insights
+        })
+        save_edit_log()
+    
+    return result
+
+def save_edit_log():
+    """保存编辑日志"""
+    try:
+        with open(EDIT_LOG_FILE, 'w', encoding='utf-8') as f:
+            json.dump(edit_log, f, ensure_ascii=False, indent=2)
+    except Exception as e:
+        print(f"保存编辑日志失败：{e}")
+
+@app.route('/api/sync', methods=['GET'])
+def sync_edits():
+    """同步编辑记录 - 导出所有修改"""
+    return jsonify({
+        'success': True,
+        'count': len(edit_log),
+        'edits': edit_log
+    })
+
+@app.route('/api/sync/export', methods=['GET'])
+def export_edits():
+    """导出编辑记录为 JSON 文件"""
+    if not edit_log:
+        return jsonify({'error': '没有编辑记录'}), 404
+    
+    # 生成导出文件
+    export_data = {
+        'export_time': datetime.now().isoformat(),
+        'total_edits': len(edit_log),
+        'edits': edit_log
+    }
+    
+    export_file = EDIT_LOG_FILE.parent / f'edit_export_{datetime.now().strftime("%Y%m%d_%H%M%S")}.json'
+    with open(export_file, 'w', encoding='utf-8') as f:
+        json.dump(export_data, f, ensure_ascii=False, indent=2)
+    
+    return send_file(export_file, as_attachment=True)
+
+@app.route('/api/sync/email', methods=['POST'])
+def email_edits():
+    """通过邮件发送编辑记录"""
+    if not edit_log:
+        return jsonify({'error': '没有编辑记录'}), 404
+    
+    data = request.get_json() or {}
+    recipient = data.get('email', '')
+    
+    # 生成邮件内容
+    email_content = f"""
+主题：股票数据编辑同步 - {len(edit_log)} 条更新
+
+编辑记录汇总：
+================
+
+"""
+    for edit in edit_log:
+        email_content += f"""
+时间：{edit['timestamp']}
+股票：{edit['name']} ({edit['code']})
+字段：{edit['field']}
+内容：{edit['content']}
+
+---
+
+"""
+    
+    # 保存到临时文件
+    email_file = EDIT_LOG_FILE.parent / f'email_draft_{datetime.now().strftime("%Y%m%d_%H%M%S")}.txt'
+    with open(email_file, 'w', encoding='utf-8') as f:
+        f.write(email_content)
+    
+    return jsonify({
+        'success': True,
+        'message': f'邮件草稿已生成：{email_file.name}',
+        'content': email_content
+    })
+
+@app.route('/api/sync/clear', methods=['POST'])
+def clear_edits():
+    """清空编辑记录"""
+    global edit_log
+    edit_log = []
+    save_edit_log()
+    return jsonify({'success': True, 'message': '编辑记录已清空'})
 
 def update_stock_field(code, field, value):
     """通用函数：更新股票字段"""

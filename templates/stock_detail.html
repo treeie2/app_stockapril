@@ -339,6 +339,14 @@
                     style="background: rgba(255,255,255,0.05); border-color: rgba(255,255,255,0.1); color: var(--text-dim);">
                     🔒 编辑模式：关闭
                 </button>
+                <!-- 同步按钮 -->
+                <button onclick="showSyncPanel()" 
+                    class="text-xs px-4 py-2 rounded-lg font-medium transition border"
+                    style="background: rgba(0, 240, 255, 0.15); border-color: rgba(0, 240, 255, 0.3); color: var(--primary);"
+                    onmouseover="this.style.background='rgba(0, 240, 255, 0.25)'" 
+                    onmouseout="this.style.background='rgba(0, 240, 255, 0.15)'">
+                    🔄 同步
+                </button>
                 <span class="badge badge-primary">LIVE</span>
                 <span class="text-xs text-gray-500 font-mono">{{ code }}</span>
             </div>
@@ -624,6 +632,61 @@
         {% endif %}
     </main>
     
+    <!-- 同步面板 -->
+    <div id="sync-panel" class="hidden fixed inset-0 z-[200] flex items-center justify-center" style="background: rgba(0,0,0,0.8); backdrop-filter: blur(5px);">
+        <div class="card max-w-2xl w-full mx-4 max-h-[80vh] overflow-y-auto" style="background: var(--bg-card); border: 2px solid var(--primary);">
+            <div class="flex items-center justify-between mb-6">
+                <h2 class="text-2xl font-bold title-tech">🔄 数据同步</h2>
+                <button onclick="closeSyncPanel()" class="text-gray-400 hover:text-white text-2xl">×</button>
+            </div>
+            
+            <div class="space-y-4">
+                <!-- 统计信息 -->
+                <div class="grid grid-cols-3 gap-4">
+                    <div class="stat-box">
+                        <div class="stat-value" id="sync-total">0</div>
+                        <div class="stat-label">总编辑数</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-value" id="sync-stocks" style="color: var(--secondary)">0</div>
+                        <div class="stat-label">涉及股票</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-value" id="sync-time" style="color: var(--accent)">-</div>
+                        <div class="stat-label">最后编辑</div>
+                    </div>
+                </div>
+                
+                <!-- 编辑列表 -->
+                <div class="border-t" style="border-color: var(--border); padding-top: 16px;">
+                    <h3 class="text-sm font-bold text-gray-400 uppercase tracking-wider mb-3">编辑记录</h3>
+                    <div id="sync-edits-list" class="space-y-2 max-h-64 overflow-y-auto">
+                        <div class="text-gray-500 text-sm text-center py-8">加载中...</div>
+                    </div>
+                </div>
+                
+                <!-- 操作按钮 -->
+                <div class="flex flex-wrap gap-3 pt-4 border-t" style="border-color: var(--border);">
+                    <button onclick="downloadEdits()" 
+                        class="flex-1 px-4 py-3 rounded-lg font-medium transition"
+                        style="background: linear-gradient(135deg, var(--primary), var(--secondary)); color: #fff;">
+                        📥 下载 JSON
+                    </button>
+                    <button onclick="copyEdits()" 
+                        class="flex-1 px-4 py-3 rounded-lg font-medium transition"
+                        style="background: rgba(255,255,255,0.1); color: var(--text); border: 1px solid var(--border);">
+                        📋 复制内容
+                    </button>
+                    <button onclick="clearEdits()" 
+                        class="flex-1 px-4 py-3 rounded-lg font-medium transition"
+                        style="background: rgba(255, 68, 68, 0.2); color: #ff4444; border: 1px solid rgba(255, 68, 68, 0.3);">
+                        🗑️ 清空记录
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <footer class="relative z-10 border-t" style="border-color: var(--border); background: var(--bg-card)">
         <div class="max-w-7xl mx-auto px-4 py-6 text-center text-gray-500 text-sm">
             <p>CYBER<span style="color: var(--primary)">RESEARCH</span> © 2026 - AI-Powered Investment Research Platform</p>
@@ -631,6 +694,148 @@
     </footer>
     
     <script>
+        // 同步面板状态
+        let syncData = null;
+        
+        // 显示同步面板
+        async function showSyncPanel() {
+            const panel = document.getElementById('sync-panel');
+            panel.classList.remove('hidden');
+            
+            // 加载数据
+            try {
+                const response = await fetch('/api/sync');
+                const data = await response.json();
+                syncData = data;
+                
+                // 更新统计
+                document.getElementById('sync-total').textContent = data.count || 0;
+                
+                const uniqueStocks = new Set((data.edits || []).map(e => e.code)).size;
+                document.getElementById('sync-stocks').textContent = uniqueStocks;
+                
+                if (data.edits && data.edits.length > 0) {
+                    const lastEdit = data.edits[data.edits.length - 1];
+                    const time = new Date(lastEdit.timestamp).toLocaleTimeString('zh-CN', {hour: '2-digit', minute:'2-digit'});
+                    document.getElementById('sync-time').textContent = time;
+                } else {
+                    document.getElementById('sync-time').textContent = '-';
+                }
+                
+                // 渲染编辑列表
+                renderEditsList(data.edits || []);
+            } catch (error) {
+                console.error('加载同步数据失败:', error);
+                document.getElementById('sync-edits-list').innerHTML = 
+                    '<div class="text-red-400 text-sm text-center py-8">加载失败</div>';
+            }
+        }
+        
+        // 关闭同步面板
+        function closeSyncPanel() {
+            document.getElementById('sync-panel').classList.add('hidden');
+        }
+        
+        // 渲染编辑列表
+        function renderEditsList(edits) {
+            const container = document.getElementById('sync-edits-list');
+            
+            if (!edits || edits.length === 0) {
+                container.innerHTML = '<div class="text-gray-500 text-sm text-center py-8">暂无编辑记录</div>';
+                return;
+            }
+            
+            let html = '';
+            // 倒序显示（最新的在前）
+            edits.slice().reverse().forEach((edit, index) => {
+                const time = new Date(edit.timestamp).toLocaleString('zh-CN', {
+                    month: '2-digit',
+                    day: '2-digit',
+                    hour: '2-digit',
+                    minute: '2-digit'
+                });
+                const fieldLabel = edit.field === 'accident' ? '⚡ 催化剂' : '💡 投资洞察';
+                html += `
+                    <div class="p-3 rounded-lg" style="background: rgba(0,0,0,0.2); border-left: 3px solid ${edit.field === 'accident' ? 'var(--accent)' : 'var(--secondary)'}">
+                        <div class="flex items-center justify-between mb-2">
+                            <span class="text-xs font-bold" style="color: ${edit.field === 'accident' ? 'var(--accent)' : 'var(--secondary)'}">${fieldLabel}</span>
+                            <span class="text-xs text-gray-500">${time}</span>
+                        </div>
+                        <div class="text-sm text-white font-medium">${edit.name} (${edit.code})</div>
+                        <div class="text-xs text-gray-400 mt-1 line-clamp-2">${edit.content}</div>
+                    </div>
+                `;
+            });
+            
+            container.innerHTML = html;
+        }
+        
+        // 下载编辑记录
+        async function downloadEdits() {
+            try {
+                const response = await fetch('/api/sync/export');
+                const blob = await response.blob();
+                const url = window.URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = `edit_export_${new Date().toISOString().slice(0,19).replace(/:/g,'')}.json`;
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                window.URL.revokeObjectURL(url);
+            } catch (error) {
+                alert('下载失败：' + error.message);
+            }
+        }
+        
+        // 复制编辑记录
+        async function copyEdits() {
+            if (!syncData || !syncData.edits || syncData.edits.length === 0) {
+                alert('没有可复制的内容');
+                return;
+            }
+            
+            let text = `股票数据编辑同步 - ${syncData.count} 条更新\n`;
+            text += '='.repeat(50) + '\n\n';
+            
+            syncData.edits.forEach(edit => {
+                const time = new Date(edit.timestamp).toLocaleString('zh-CN');
+                text += `时间：${time}\n`;
+                text += `股票：${edit.name} (${edit.code})\n`;
+                text += `字段：${edit.field === 'accident' ? '催化剂' : '投资洞察'}\n`;
+                text += `内容：${edit.content}\n`;
+                text += '\n---\n\n';
+            });
+            
+            try {
+                await navigator.clipboard.writeText(text);
+                alert('✅ 已复制到剪贴板');
+            } catch (error) {
+                alert('复制失败：' + error.message);
+            }
+        }
+        
+        // 清空编辑记录
+        async function clearEdits() {
+            if (!confirm('确定要清空所有编辑记录吗？此操作不可恢复。')) {
+                return;
+            }
+            
+            try {
+                const response = await fetch('/api/sync/clear', { method: 'POST' });
+                const result = await response.json();
+                
+                if (result.success) {
+                    alert('✅ 编辑记录已清空');
+                    closeSyncPanel();
+                } else {
+                    alert('❌ 清空失败：' + result.error);
+                }
+            } catch (error) {
+                alert('清空失败：' + error.message);
+            }
+        }
+        
         // 全局编辑模式状态
         let globalEditMode = false;
         
