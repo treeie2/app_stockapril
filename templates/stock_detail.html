@@ -644,6 +644,88 @@
             font-style: italic;
         }
         
+        /* ─── 相似股票推荐 ─── */
+        .similar-section {
+            margin-top: 1.5rem;
+        }
+        
+        .similar-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 0.75rem;
+        }
+        
+        .similar-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            padding: 1rem 1.1rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .similar-card:hover {
+            border-color: var(--border-hover);
+            background: var(--bg-card-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+        
+        .similar-card-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 0.6rem;
+        }
+        
+        .similar-name {
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+        
+        .similar-code {
+            font-size: 0.7rem;
+            font-family: var(--mono);
+            color: var(--accent-cyan);
+        }
+        
+        .similar-similarity {
+            font-size: 0.7rem;
+            font-weight: 700;
+            color: var(--accent-amber);
+            background: rgba(245,158,11,0.1);
+            border: 1px solid rgba(245,158,11,0.25);
+            border-radius: 20px;
+            padding: 0.15rem 0.5rem;
+        }
+        
+        .similar-common {
+            font-size: 0.68rem;
+            color: var(--text-secondary);
+            margin-bottom: 0.5rem;
+        }
+        
+        .similar-common-label {
+            color: var(--text-muted);
+            margin-right: 0.3rem;
+        }
+        
+        .similar-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.3rem;
+        }
+        
+        .similar-tag {
+            font-size: 0.62rem;
+            padding: 0.15rem 0.5rem;
+            border-radius: 20px;
+            background: rgba(59,130,246,0.1);
+            border: 1px solid rgba(59,130,246,0.25);
+            color: #93c5fd;
+        }
+        
         /* ─── 页脚 ─── */
         .footer {
             text-align: center;
@@ -935,6 +1017,19 @@
                 </div>
             {% endif %}
         </div>
+        
+        <!-- ─── 相似股票推荐 ─── -->
+        <div class="similar-section">
+            <div class="articles-header">
+                <div class="articles-heading">🎯 相似标的推荐</div>
+                <span class="articles-count" id="similarCount">加载中…</span>
+            </div>
+            <div class="similar-grid" id="similarGrid">
+                <div style="grid-column:1/-1;text-align:center;padding:2rem;color:var(--text-muted)">
+                    正在计算相似度…
+                </div>
+            </div>
+        </div>
     </div>
     
     <footer class="footer">
@@ -978,6 +1073,50 @@
                 }
             } catch(e) {
                 document.getElementById('priceChange').textContent = '行情暂不可用';
+            }
+        })();
+        
+        // ─── 加载相似股票 ───
+        (async function() {
+            const code = '{{ stock.code }}';
+            try {
+                const res = await fetch(`/api/stock/${code}/similar?top=8&min_sim=0.15`);
+                const data = await res.json();
+                
+                const grid = document.getElementById('similarGrid');
+                const countEl = document.getElementById('similarCount');
+                
+                if (!data.similar || data.similar.length === 0) {
+                    grid.innerHTML = '<div style="grid-column:1/-1;text-align:center;padding:2rem;color:var(--text-muted)">暂无相似标的</div>';
+                    countEl.textContent = '0 个';
+                    return;
+                }
+                
+                countEl.textContent = `${data.similar.length} 个`;
+                
+                grid.innerHTML = data.similar.map((s, i) => `
+                    <div class="similar-card" onclick="window.location='/stock/${s.code}'">
+                        <div class="similar-card-header">
+                            <div>
+                                <div class="similar-name">${s.name}</div>
+                                <div class="similar-code">${s.code}</div>
+                            </div>
+                            <div class="similar-similarity">${(s.similarity * 100).toFixed(0)}%</div>
+                        </div>
+                        <div class="similar-common">
+                            <span class="similar-common-label">共同概念:</span>
+                            <span style="color:var(--accent-cyan)">${s.common_count} 个</span>
+                        </div>
+                        <div class="similar-tags">
+                            ${s.common_concepts.slice(0, 5).map(c => `<span class="similar-tag">${c}</span>`).join('')}
+                            ${s.common_concepts.length > 5 ? `<span class="similar-tag">+${s.common_concepts.length - 5}</span>` : ''}
+                        </div>
+                    </div>
+                `).join('');
+            } catch(e) {
+                console.log('相似股票加载失败', e);
+                document.getElementById('similarGrid').innerHTML = '<div style="grid-column:1/-1;text-align:center;padding:2rem;color:var(--text-muted)">加载失败</div>';
+                document.getElementById('similarCount').textContent = '—';
             }
         })();
     

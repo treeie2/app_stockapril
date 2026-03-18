@@ -466,11 +466,6 @@
                 <div class="page-title">📊 智能投研仪表板</div>
                 <div class="page-sub">实时追踪 · AI 洞察 · 个股深度研究</div>
             </div>
-            <div class="stat-row">
-                <div class="stat-chip"><span class="stat-num" id="sCnt">—</span><span class="stat-lbl">覆盖个股</span></div>
-                <div class="stat-chip"><span class="stat-num" id="aCnt">—</span><span class="stat-lbl">调研文章</span></div>
-                <div class="stat-chip"><span class="stat-num" id="mCnt">—</span><span class="stat-lbl">总提及次数</span></div>
-            </div>
         </div>
         
         <!-- Toolbar -->
@@ -560,24 +555,8 @@
     <footer class="footer">CYBERRESEARCH © 2026 &nbsp;·&nbsp; AI-Powered Investment Research Platform</footer>
     
     <script>
-        // ─── Stats ───
+        // ─── Get rows ───
         const rows = [...document.querySelectorAll('#tbody tr[data-code]')];
-        let totA = 0, totM = 0;
-        rows.forEach(r => {
-            totA += +r.dataset.articles;
-            totM += +r.dataset.mention;
-        });
-        function anim(el, n) {
-            let c=0, s=Math.ceil(n/40);
-            const t=setInterval(()=>{
-                c=Math.min(c+s,n);
-                el.textContent=c;
-                if(c>=n)clearInterval(t);
-            },20);
-        }
-        anim(document.getElementById('sCnt'), rows.length);
-        anim(document.getElementById('aCnt'), totA);
-        anim(document.getElementById('mCnt'), totM);
         
         // ─── Concepts count filter ───
         document.querySelectorAll('.fbtn').forEach(b =>

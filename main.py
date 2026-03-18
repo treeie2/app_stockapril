@@ -22,6 +22,50 @@ app = Flask(__name__)
 DATA_DIR = Path(__file__).parent / 'data' / 'sentiment'
 SEARCH_INDEX_FILE = DATA_DIR / 'search_index_full.json.gz'
 
+# ─── Jaccard 相似度计算 ───
+def jaccard_similarity(set1, set2):
+    """计算两个集合的 Jaccard 相似度"""
+    if not set1 or not set2:
+        return 0.0
+    intersection = len(set1 & set2)
+    union = len(set1 | set2)
+    return intersection / union if union > 0 else 0.0
+
+def find_similar_stocks(code, top_k=10, min_similarity=0.1):
+    """找出与指定股票最相似的股票"""
+    if code not in stocks:
+        return []
+    
+    target_concepts = set(stocks[code].get('concepts', []))
+    if not target_concepts:
+        return []
+    
+    similarities = []
+    for c, d in stocks.items():
+        if c == code:
+            continue
+        other_concepts = set(d.get('concepts', []))
+        if not other_concepts:
+            continue
+        
+        sim = jaccard_similarity(target_concepts, other_concepts)
+        if sim >= min_similarity:
+            # 找出共同概念
+            common = target_concepts & other_concepts
+            similarities.append({
+                'code': c,
+                'name': d.get('name', ''),
+                'similarity': sim,
+                'common_concepts': list(common),
+                'common_count': len(common),
+                'mention_count': d.get('mention_count', 0),
+                'concepts': d.get('concepts', [])
+            })
+    
+    # 按相似度排序
+    similarities.sort(key=lambda x: x['similarity'], reverse=True)
+    return similarities[:top_k]
+
 # 加载数据
 print("📋 加载数据...")
 try:
@@ -364,6 +408,15 @@ def clear_edits():
     edit_log = []
     save_edit_log()
     return jsonify({'success': True, 'message': '编辑记录已清空'})
+
+@app.route('/api/stock/<code>/similar')
+def get_similar_stocks(code):
+    """获取相似股票推荐"""
+    top_k = request.args.get('top', 10, type=int)
+    min_sim = request.args.get('min_sim', 0.1, type=float)
+    
+    similar = find_similar_stocks(code, top_k=top_k, min_similarity=min_sim)
+    return jsonify({'similar': similar, 'count': len(similar)})
 
 @app.route('/api/market-data')
 def get_market_data():
