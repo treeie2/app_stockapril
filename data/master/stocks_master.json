@@ -59916,6 +59916,78 @@
           "target_valuation": []
         }
       ]
+    },
+    {
+      "name": "金安国纪",
+      "code": "002636",
+      "board": "",
+      "industry": "",
+      "concepts": [],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "金安国纪，翻倍空间？",
+          "date": "2026-03-19",
+          "source": "https://mp.weixin.qq.com/s/M9PN5-Vl1-vkX1IyT1b-Dg",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ]
+    },
+    {
+      "name": "鑫磊股份",
+      "code": "301317",
+      "board": "",
+      "industry": "",
+      "concepts": [],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "鑫磊股份，3倍空间？",
+          "date": "2026-03-19",
+          "source": "https://mp.weixin.qq.com/s/2CnFIwr5OkAW6NWiAvO9pw",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ]
+    },
+    {
+      "name": "智立方",
+      "code": "301312",
+      "board": "",
+      "industry": "",
+      "concepts": [],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "智立方，250%空间？",
+          "date": "2026-03-19",
+          "source": "https://mp.weixin.qq.com/s/rhAht_cOB_4uAmIhV1CpYQ",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ]
     }
   ]
 }
