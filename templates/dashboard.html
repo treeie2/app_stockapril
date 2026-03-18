@@ -306,23 +306,29 @@
             font-weight:600;
             font-size:.85rem;
         }
-        .refresh-btn {
-            background: transparent;
-            border: none;
+        .market-refresh {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: linear-gradient(135deg, rgba(139,92,246,.1), rgba(139,92,246,.05));
+            border: 1px solid rgba(139,92,246,.3);
+            border-radius: 6px;
+            padding: 4px 10px;
             cursor: pointer;
-            font-size: 0.9rem;
-            margin-left: 6px;
-            padding: 2px 6px;
-            border-radius: 4px;
             transition: all 0.2s;
+            font-size: 0.75rem;
+            color: #a78bfa;
+            margin-left: 8px;
         }
-        .refresh-btn:hover {
+        .market-refresh:hover {
             background: rgba(139,92,246,.15);
+            border-color: rgba(139,92,246,.5);
         }
-        .refresh-btn:active {
-            transform: rotate(180deg);
+        .market-refresh .icon {
+            font-size: 0.9rem;
+            transition: transform 0.3s;
         }
-        .refresh-btn.spinning {
+        .market-refresh.refreshing .icon {
             animation: spin 1s linear infinite;
         }
         @keyframes spin {
@@ -422,11 +428,11 @@
         }
         /* responsive */
         @media(max-width:900px){
-            .col-cap,.col-articles,.col-concepts { display:none; }
+            .col-cap,.col-articles { display:none; }
             .search-wrap { width:150px; }
         }
         @media(max-width:640px){
-            .col-board,.col-mention { display:none; }
+            .col-mention { display:none; }
             .wrap { padding:1rem .75rem 3rem; }
             thead th, tbody td { padding:.6rem .7rem; }
         }
@@ -469,9 +475,11 @@
         
         <!-- Toolbar -->
         <div class="toolbar">
-            <span class="filter-lbl">行业</span>
-            <button class="fbtn active" data-industry="all">全部</button>
-            <div id="industryFilters" style="display:flex;gap:.4rem;flex-wrap:wrap"></div>
+            <span class="filter-lbl">概念数</span>
+            <button class="fbtn active" data-concepts="all">全部</button>
+            <button class="fbtn" data-concepts="10+">10+ 概念</button>
+            <button class="fbtn" data-concepts="20+">20+ 概念</button>
+            <button class="fbtn" data-concepts="30+">30+ 概念</button>
             <select class="sort-sel" id="sortSel">
                 <option value="mention">按热度</option>
                 <option value="chg_up">涨幅 ↑</option>
@@ -488,11 +496,13 @@
                     <tr>
                         <th style="width:36px;text-align:center;">#</th>
                         <th>股票</th>
-                        <th class="col-board">行业</th>
                         <th class="col-concepts">概念</th>
                         <th class="num" style="min-width:80px;">
                             最新价
-                            <button id="refreshBtn" class="refresh-btn" title="刷新股价" onclick="fetchMarket(true)">🔄</button>
+                            <button id="refreshBtn" class="market-refresh" title="刷新股价" onclick="fetchMarket(true)">
+                                <span class="icon">🔄</span>
+                                <span class="text">刷新</span>
+                            </button>
                         </th>
                         <th class="num" style="min-width:80px;">涨跌幅</th>
                         <th class="num col-cap" style="min-width:76px;">总市值</th>
@@ -502,19 +512,13 @@
                 </thead>
                 <tbody id="tbody">
                     {% for stock in stocks %}
-                    <tr data-code="{{ stock.code }}" data-industry="{{ stock.industry | default('') }}" data-mention="{{ stock.mention_count | default(0) }}" data-articles="{{ stock.articles | length }}" data-name="{{ stock.name }}" data-chg="0" onclick="window.location='/stock/{{ stock.code }}'">
+                    <tr data-code="{{ stock.code }}" data-concepts="{{ stock.concepts | length }}" data-mention="{{ stock.mention_count | default(0) }}" data-articles="{{ stock.articles | length }}" data-name="{{ stock.name }}" data-chg="0" onclick="window.location='/stock/{{ stock.code }}'">
                         <td class="col-rank">{{ loop.index }}</td>
                         <td>
                             <div class="col-name">{{ stock.name }}</div>
                             <div class="col-code">{{ stock.code }}</div>
                         </td>
-                        <td class="col-board">
-                            {% if stock.industry %}
-                            <span class="board-b">{{ stock.industry }}</span>
-                            {% else %}
-                            <span style="color:var(--t3)">—</span>
-                            {% endif %}
-                        </td>
+                        <td class="col-concepts">
                         <td class="col-concepts">
                             {% if stock.concepts %}
                             <div class="tags">
@@ -575,14 +579,20 @@
         anim(document.getElementById('aCnt'), totA);
         anim(document.getElementById('mCnt'), totM);
         
-        // ─── Industry filter ───
+        // ─── Concepts count filter ───
         document.querySelectorAll('.fbtn').forEach(b =>
             b.addEventListener('click', () => {
                 document.querySelectorAll('.fbtn').forEach(x => x.classList.remove('active'));
                 b.classList.add('active');
-                const industry = b.dataset.industry;
+                const minConcepts = b.dataset.concepts;
                 rows.forEach(r => {
-                    r.style.display = (industry==='all' || r.dataset.industry===industry) ? '' : 'none';
+                    const count = +r.dataset.concepts;
+                    let show = false;
+                    if(minConcepts === 'all') show = true;
+                    else if(minConcepts === '10+') show = count >= 10;
+                    else if(minConcepts === '20+') show = count >= 20;
+                    else if(minConcepts === '30+') show = count >= 30;
+                    r.style.display = show ? '' : 'none';
                 });
                 renumber();
             })
@@ -626,9 +636,8 @@
             
             const btn = document.getElementById('refreshBtn');
             
-            // 手动刷新：显示加载状态
             if(force) {
-                btn?.classList.add('spinning');
+                btn?.classList.add('refreshing');
                 rows.forEach(r => {
                     const code = r.dataset.code;
                     const pEl = document.getElementById(`p-${code}`);
@@ -643,17 +652,20 @@
             try {
                 const res = await fetch(`/api/market-data?codes=${codes.join(',')}`);
                 const data = await res.json();
+                
+                let loaded = 0;
                 codes.forEach(code => {
                     const d = data[code];
                     const pEl = document.getElementById(`p-${code}`);
                     const cEl = document.getElementById(`c-${code}`);
                     const mcEl = document.getElementById(`mc-${code}`);
                     if(!pEl) return;
-                    if(!d) {
+                    if(!d || !d.price) {
                         pEl.innerHTML = '<span style="color:var(--t3)">—</span>';
                         cEl.innerHTML = '<span style="color:var(--t3)">—</span>';
                         return;
                     }
+                    loaded++;
                     const isUp = d.change >= 0;
                     const cls = isUp ? 'up' : 'down';
                     const sign = isUp ? '+' : '';
@@ -664,7 +676,15 @@
                     const row = document.querySelector(`tr[data-code="${code}"]`);
                     if(row) row.dataset.chg = d.change;
                 });
-                marketLoaded = true;
+                
+                if(loaded > 0) marketLoaded = true;
+                
+                // 更新按钮文本
+                if(btn) {
+                    const textSpan = btn.querySelector('.text');
+                    if(textSpan) textSpan.textContent = loaded > 0 ? '已更新' : '无数据';
+                    setTimeout(() => { if(textSpan) textSpan.textContent = '刷新'; }, 2000);
+                }
             } catch(e) {
                 console.log('行情获取失败', e);
                 if(force) {
@@ -672,12 +692,13 @@
                         const code = r.dataset.code;
                         const pEl = document.getElementById(`p-${code}`);
                         const cEl = document.getElementById(`c-${code}`);
-                        if(pEl) pEl.innerHTML = '<span style="color:var(--t3)">失败</span>';
+                        if(pEl) pEl.innerHTML = '<span style="color:var(--t3)">—</span>';
                         if(cEl) cEl.innerHTML = '<span style="color:var(--t3)">—</span>';
                     });
+                    alert('行情获取失败，请稍后重试');
                 }
             } finally {
-                if(force && btn) btn.classList.remove('spinning');
+                if(force && btn) btn.classList.remove('refreshing');
             }
         }
         // 3 秒后自动刷新一次

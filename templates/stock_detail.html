@@ -962,8 +962,6 @@
     
         function editStock(code) {
             const data = {
-                concepts: {{ stock.concepts | tojson }},
-                core_business: {{ stock.core_business | tojson }},
                 industry_position: {{ stock.industry_position | tojson }},
                 chain: {{ stock.chain | tojson }},
                 partners: {{ stock.partners | tojson }}
@@ -974,8 +972,9 @@
             modal.innerHTML = `
                 <div class="edit-content">
                     <h3>编辑股票信息 - ${code}</h3>
-                    <div class="edit-section"><label>概念标签（逗号分隔）</label><textarea id="edit-concepts">${data.concepts.join(',')}</textarea></div>
-                    <div class="edit-section"><label>核心业务（逗号分隔）</label><textarea id="edit-core">${data.core_business.join(',')}</textarea></div>
+                    <div style="font-size:0.75rem;color:var(--text-muted);margin-bottom:1rem;">
+                        💡 提示：概念标签和核心业务由系统自动生成，暂不支持手动编辑
+                    </div>
                     <div class="edit-section"><label>行业地位（逗号分隔）</label><textarea id="edit-pos">${data.industry_position.join(',')}</textarea></div>
                     <div class="edit-section"><label>产业链（逗号分隔）</label><textarea id="edit-chain">${data.chain.join(',')}</textarea></div>
                     <div class="edit-section"><label>合作伙伴（逗号分隔）</label><textarea id="edit-partners">${data.partners.join(',')}</textarea></div>
@@ -990,8 +989,6 @@
         
         function saveEdit(code) {
             const data = {
-                concepts: document.getElementById('edit-concepts').value.split(',').map(s => s.trim()).filter(s => s),
-                core_business: document.getElementById('edit-core').value.split(',').map(s => s.trim()).filter(s => s),
                 industry_position: document.getElementById('edit-pos').value.split(',').map(s => s.trim()).filter(s => s),
                 chain: document.getElementById('edit-chain').value.split(',').map(s => s.trim()).filter(s => s),
                 partners: document.getElementById('edit-partners').value.split(',').map(s => s.trim()).filter(s => s)

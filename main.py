@@ -187,16 +187,17 @@ def search():
 
 @app.route('/api/stock/<code>/edit', methods=['POST'])
 def api_stock_edit(code):
+    """编辑股票信息（只允许编辑部分字段）"""
     if code not in stocks:
         return jsonify({'success': False, 'error': '股票不存在'}), 404
     data = request.json
     if not data:
         return jsonify({'success': False, 'error': '无效数据'}), 400
-    if 'concepts' in data: stocks[code]['concepts'] = data['concepts']
-    if 'core_business' in data: stocks[code]['core_business'] = data['core_business']
+    # 只允许编辑以下字段
     if 'industry_position' in data: stocks[code]['industry_position'] = data['industry_position']
     if 'chain' in data: stocks[code]['chain'] = data['chain']
     if 'partners' in data: stocks[code]['partners'] = data['partners']
+    # 注意：concepts 和 core_business 不可编辑
     return jsonify({'success': True})
 
 @app.route('/api/stock/<code>')
