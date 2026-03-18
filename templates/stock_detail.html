@@ -162,6 +162,24 @@
             margin-top: 0.2rem;
         }
         
+        .edit-btn-hero {
+            background: linear-gradient(135deg, rgba(139,92,246,.15), rgba(124,58,237,.1));
+            border: 1px solid rgba(139,92,246,.4);
+            color: #a78bfa;
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.85rem;
+            font-weight: 600;
+            transition: all 0.2s;
+            white-space: nowrap;
+        }
+        .edit-btn-hero:hover {
+            background: rgba(139,92,246,.25);
+            border-color: rgba(139,92,246,.6);
+            transform: translateY(-1px);
+        }
+        
         .hero-price-block {
             text-align: right;
         }
@@ -681,8 +699,11 @@
         <div class="stock-hero">
             <div class="hero-top">
                 <div class="hero-title-group">
-                    <div class="stock-name-hero">{{ stock.name }}</div>
-                    <div class="stock-code-hero">{{ stock.code }}</div>
+                    <div style="display:flex;align-items:center;gap:0.8rem;">
+                        <div class="stock-name-hero">{{ stock.name }}</div>
+                        <div class="stock-code-hero">{{ stock.code }}</div>
+                    </div>
+                    <button class="edit-btn-hero" onclick="editStock('{{ stock.code }}')" title="编辑股票信息">✏️ 编辑</button>
                 </div>
                 <!-- 实时行情 -->
                 <div class="hero-price-block" id="priceBlock">
