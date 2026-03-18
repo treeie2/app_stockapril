@@ -469,12 +469,9 @@
         
         <!-- Toolbar -->
         <div class="toolbar">
-            <span class="filter-lbl">板块</span>
-            <button class="fbtn active" data-board="all">全部</button>
-            <button class="fbtn" data-board="主板">主板</button>
-            <button class="fbtn" data-board="创业板">创业板</button>
-            <button class="fbtn" data-board="科创板">科创板</button>
-            <button class="fbtn" data-board="北交所">北交所</button>
+            <span class="filter-lbl">行业</span>
+            <button class="fbtn active" data-industry="all">全部</button>
+            <div id="industryFilters" style="display:flex;gap:.4rem;flex-wrap:wrap"></div>
             <select class="sort-sel" id="sortSel">
                 <option value="mention">按热度</option>
                 <option value="chg_up">涨幅 ↑</option>
@@ -491,7 +488,7 @@
                     <tr>
                         <th style="width:36px;text-align:center;">#</th>
                         <th>股票</th>
-                        <th class="col-board">板块</th>
+                        <th class="col-board">行业</th>
                         <th class="col-concepts">概念</th>
                         <th class="num" style="min-width:80px;">
                             最新价
@@ -505,15 +502,18 @@
                 </thead>
                 <tbody id="tbody">
                     {% for stock in stocks %}
-                    <tr data-code="{{ stock.code }}" data-board="{{ stock.board | default('') }}" data-mention="{{ stock.mention_count | default(0) }}" data-articles="{{ stock.articles | length }}" data-name="{{ stock.name }}" data-chg="0" onclick="window.location='/stock/{{ stock.code }}'">
+                    <tr data-code="{{ stock.code }}" data-industry="{{ stock.industry | default('') }}" data-mention="{{ stock.mention_count | default(0) }}" data-articles="{{ stock.articles | length }}" data-name="{{ stock.name }}" data-chg="0" onclick="window.location='/stock/{{ stock.code }}'">
                         <td class="col-rank">{{ loop.index }}</td>
                         <td>
                             <div class="col-name">{{ stock.name }}</div>
                             <div class="col-code">{{ stock.code }}</div>
                         </td>
                         <td class="col-board">
-                            {% if stock.board %}<span class="board-b">{{ stock.board }}</span>{% endif %}
-                            {% if stock.industry %}<div style="font-size:.65rem;color:var(--t3);margin-top:.2rem">{{ stock.industry }}</div>{% endif %}
+                            {% if stock.industry %}
+                            <span class="board-b">{{ stock.industry }}</span>
+                            {% else %}
+                            <span style="color:var(--t3)">—</span>
+                            {% endif %}
                         </td>
                         <td class="col-concepts">
                             {% if stock.concepts %}
@@ -575,14 +575,14 @@
         anim(document.getElementById('aCnt'), totA);
         anim(document.getElementById('mCnt'), totM);
         
-        // ─── Board filter ───
+        // ─── Industry filter ───
         document.querySelectorAll('.fbtn').forEach(b =>
             b.addEventListener('click', () => {
                 document.querySelectorAll('.fbtn').forEach(x => x.classList.remove('active'));
                 b.classList.add('active');
-                const board = b.dataset.board;
+                const industry = b.dataset.industry;
                 rows.forEach(r => {
-                    r.style.display = (board==='all' || r.dataset.board===board) ? '' : 'none';
+                    r.style.display = (industry==='all' || r.dataset.industry===industry) ? '' : 'none';
                 });
                 renumber();
             })

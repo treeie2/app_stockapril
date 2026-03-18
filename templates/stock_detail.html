@@ -717,6 +717,13 @@
             <div class="info-card">
                 <div class="section-title">公司画像</div>
                 
+                {% if stock.industries and stock.industries[0] %}
+                    <div>
+                        <div style="font-size:0.7rem;color:var(--text-muted);margin-bottom:0.4rem;font-weight:600;">所属行业</div>
+                        <div style="font-size:0.85rem;color:var(--text-primary);">{{ stock.industries[0] }}</div>
+                    </div>
+                {% endif %}
+                
                 {% if stock.core_business and stock.core_business | length > 0 %}
                     <div>
                         <div style="font-size:0.7rem;color:var(--text-muted);margin-bottom:0.4rem;font-weight:600;">核心业务</div>
@@ -952,6 +959,71 @@
                 document.getElementById('priceChange').textContent = '行情暂不可用';
             }
         })();
+    
+        function editStock(code) {
+            const data = {
+                concepts: {{ stock.concepts | tojson }},
+                core_business: {{ stock.core_business | tojson }},
+                industry_position: {{ stock.industry_position | tojson }},
+                chain: {{ stock.chain | tojson }},
+                partners: {{ stock.partners | tojson }}
+            };
+            
+            const modal = document.createElement('div');
+            modal.className = 'edit-modal';
+            modal.innerHTML = `
+                <div class="edit-content">
+                    <h3>编辑股票信息 - ${code}</h3>
+                    <div class="edit-section"><label>概念标签（逗号分隔）</label><textarea id="edit-concepts">${data.concepts.join(',')}</textarea></div>
+                    <div class="edit-section"><label>核心业务（逗号分隔）</label><textarea id="edit-core">${data.core_business.join(',')}</textarea></div>
+                    <div class="edit-section"><label>行业地位（逗号分隔）</label><textarea id="edit-pos">${data.industry_position.join(',')}</textarea></div>
+                    <div class="edit-section"><label>产业链（逗号分隔）</label><textarea id="edit-chain">${data.chain.join(',')}</textarea></div>
+                    <div class="edit-section"><label>合作伙伴（逗号分隔）</label><textarea id="edit-partners">${data.partners.join(',')}</textarea></div>
+                    <div class="edit-actions">
+                        <button class="edit-save" onclick="saveEdit('${code}')">💾 保存</button>
+                        <button class="edit-cancel" onclick="this.closest('.edit-modal').remove()">✖ 取消</button>
+                    </div>
+                </div>
+            `;
+            document.body.appendChild(modal);
+        }
+        
+        function saveEdit(code) {
+            const data = {
+                concepts: document.getElementById('edit-concepts').value.split(',').map(s => s.trim()).filter(s => s),
+                core_business: document.getElementById('edit-core').value.split(',').map(s => s.trim()).filter(s => s),
+                industry_position: document.getElementById('edit-pos').value.split(',').map(s => s.trim()).filter(s => s),
+                chain: document.getElementById('edit-chain').value.split(',').map(s => s.trim()).filter(s => s),
+                partners: document.getElementById('edit-partners').value.split(',').map(s => s.trim()).filter(s => s)
+            };
+            
+            fetch(`/api/stock/${code}/edit`, {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify(data)
+            })
+            .then(r => r.json())
+            .then(res => {
+                if(res.success) { alert('保存成功！'); location.reload(); }
+                else { alert('保存失败：' + res.error); }
+            })
+            .catch(e => alert('请求失败：' + e));
+        }
+        
+        const editStyle = document.createElement('style');
+        editStyle.textContent = `
+            .edit-modal{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.7);display:flex;align-items:center;justify-content:center;z-index:10000}
+            .edit-content{background:var(--card-bg);padding:2rem;border-radius:12px;max-width:600px;width:90%;max-height:80vh;overflow-y:auto}
+            .edit-content h3{margin:0 0 1.5rem 0;color:var(--text-primary)}
+            .edit-section{margin-bottom:1rem}
+            .edit-section label{display:block;font-size:0.8rem;color:var(--text-muted);margin-bottom:0.4rem}
+            .edit-section textarea{width:100%;min-height:60px;background:var(--input-bg);border:1px solid var(--border);border-radius:6px;padding:0.6rem;color:var(--text-primary);font-size:0.85rem;resize:vertical}
+            .edit-actions{display:flex;gap:0.8rem;margin-top:1.5rem}
+            .edit-save,.edit-cancel{padding:0.6rem 1.2rem;border-radius:6px;border:none;cursor:pointer;font-size:0.85rem}
+            .edit-save{background:linear-gradient(135deg,#8b5cf6,#7c3aed);color:white}
+            .edit-cancel{background:var(--card-bg);color:var(--text-muted);border:1px solid var(--border)}
+        `;
+        document.head.appendChild(editStyle);
     </script>
 </body>
 </html>

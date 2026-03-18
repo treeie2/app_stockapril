@@ -185,6 +185,20 @@ def search():
     
     return render_template('search.html', query=q, results=results, total=len(results), top_stocks=top_stocks)
 
+@app.route('/api/stock/<code>/edit', methods=['POST'])
+def api_stock_edit(code):
+    if code not in stocks:
+        return jsonify({'success': False, 'error': '股票不存在'}), 404
+    data = request.json
+    if not data:
+        return jsonify({'success': False, 'error': '无效数据'}), 400
+    if 'concepts' in data: stocks[code]['concepts'] = data['concepts']
+    if 'core_business' in data: stocks[code]['core_business'] = data['core_business']
+    if 'industry_position' in data: stocks[code]['industry_position'] = data['industry_position']
+    if 'chain' in data: stocks[code]['chain'] = data['chain']
+    if 'partners' in data: stocks[code]['partners'] = data['partners']
+    return jsonify({'success': True})
+
 @app.route('/api/stock/<code>')
 def api_stock(code):
     if code not in stocks:
