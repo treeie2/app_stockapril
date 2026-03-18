@@ -85,13 +85,32 @@ def main():
         master_data = json.load(f)
     
     stocks_dict = {}
+    total_articles = 0
     for stock in master_data.get('stocks', []):
         code = stock['code']
         llm = extract_stock_fields(stock)
+        
+        # 从主数据加载 articles
+        articles = []
+        for article in stock.get('articles', []):
+            articles.append({
+                'article_id': f"{code}_{article.get('title', '')}_{article.get('date', '')}",
+                'article_title': clean_text(article.get('title', '')),
+                'article_url': article.get('source', ''),
+                'date': article.get('date', ''),
+                'source': article.get('source', ''),
+                'context': '',
+                'accident': article.get('accidents', []) if isinstance(article.get('accidents'), list) else clean_text(article.get('accidents', '')),
+                'insights': article.get('insights', []) if isinstance(article.get('insights'), list) else clean_text(article.get('insights', '')),
+                'key_metrics': article.get('key_metrics', []) if isinstance(article.get('key_metrics'), list) else clean_text(article.get('key_metrics', '')),
+                'target_valuation': article.get('target_valuation', []) if isinstance(article.get('target_valuation'), list) else clean_text(article.get('target_valuation', ''))
+            })
+        total_articles += len(articles)
+        
         stocks_dict[code] = {
             'name': stock['name'],
             'board': stock.get('market', ''),
-            'mention_count': stock.get('mention_count', 0),
+            'mention_count': stock.get('mention_count', 0) or len(articles),
             'concepts': stock.get('concepts', []) or stock.get('concept_tags', []) or [],
             'industries': [stock.get('industry_sw', ''), stock.get('industry_citic', '')],
             'products': llm.get('products', []) or [],
@@ -102,8 +121,11 @@ def main():
             'partners': llm.get('partners', []) or [],
             'accident': clean_text(llm.get('accident', '')),
             'insights': clean_text(llm.get('insights', '')),
-            'articles': []
+            'articles': articles
         }
+    
+    print(f"  ✅ 加载 {len(stocks_dict)} 只股票")
+    print(f"  ✅ 加载 {total_articles} 篇文章")
     
     print(f"  ✅ 加载 {len(stocks_dict)} 只股票")
     
