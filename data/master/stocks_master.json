@@ -59928,12 +59928,21 @@
       "industry_position": [],
       "chain": [],
       "partners": [],
-      "mention_count": 2,
+      "mention_count": 3,
       "articles": [
         {
           "title": "金安国纪，翻倍空间？",
           "date": "2026-03-19",
           "source": "https://mp.weixin.qq.com/s/M9PN5-Vl1-vkX1IyT1b-Dg",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "金安国纪：CCL 涨价持续，Q2 业绩有望翻倍",
+          "date": "2026-03-19",
+          "source": "https://mp.weixin.qq.com/s/test-article-2",
           "accidents": [],
           "insights": [],
           "key_metrics": [],
