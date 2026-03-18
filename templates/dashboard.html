@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/static/css/cyber-theme.css">
+    <link rel="stylesheet" href="/static/css/stock-card.css">
 </head>
 <body>
     <div class="bg-grid"></div>
@@ -78,7 +79,7 @@
             </div>
         </div>
         
-        <!-- Top 20 表格 -->
+        <!-- Top 20 卡片网格 (新版) -->
         <div class="card">
             <div class="flex items-center justify-between mb-6">
                 <div class="section-title" style="margin-bottom: 0;">
@@ -92,56 +93,74 @@
                 </button>
             </div>
             
-            <div class="overflow-x-auto">
-                <table class="min-w-full">
-                    <thead>
-                        <tr class="border-b" style="border-color: var(--border);">
-                            <th class="px-4 py-3 text-left text-xs font-bold uppercase tracking-wider" style="color: var(--text-dim);">排名</th>
-                            <th class="px-4 py-3 text-left text-xs font-bold uppercase tracking-wider" style="color: var(--text-dim);">股票</th>
-                            <th class="px-4 py-3 text-left text-xs font-bold uppercase tracking-wider" style="color: var(--text-dim);">价格</th>
-                            <th class="px-4 py-3 text-left text-xs font-bold uppercase tracking-wider" style="color: var(--text-dim);">涨跌</th>
-                            <th class="px-4 py-3 text-left text-xs font-bold uppercase tracking-wider" style="color: var(--text-dim);">市值 (亿)</th>
-                            <th class="px-4 py-3 text-left text-xs font-bold uppercase tracking-wider" style="color: var(--text-dim);">市盈率</th>
-                            <th class="px-4 py-3 text-left text-xs font-bold uppercase tracking-wider" style="color: var(--text-dim);">提及次数</th>
-                            <th class="px-4 py-3 text-left text-xs font-bold uppercase tracking-wider" style="color: var(--text-dim);">概念标签</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {% for stock in top_20 %}
-                        <tr class="border-b hover:bg-white/5 transition" style="border-color: rgba(255,255,255,0.05);">
-                            <td class="px-4 py-4 text-sm font-mono" style="color: var(--text-dim);">{{ stock.rank }}</td>
-                            <td class="px-4 py-4">
-                                <a href="/stock/{{ stock.code }}" class="text-white font-medium hover:text-[var(--primary)] transition">
-                                    {{ stock.name }}
-                                    <span class="text-xs" style="color: var(--text-dim);">({{ stock.code }})</span>
-                                </a>
-                            </td>
-                            <td class="px-4 py-4 text-sm font-mono market-price" data-code="{{ stock.code }}" style="color: var(--text);">
-                                <span class="loading">-</span>
-                            </td>
-                            <td class="px-4 py-4 text-sm font-mono market-change" data-code="{{ stock.code }}">
-                                <span class="loading">-</span>
-                            </td>
-                            <td class="px-4 py-4 text-sm font-mono market-cap" data-code="{{ stock.code }}" style="color: var(--text-dim);">
-                                <span class="loading">-</span>
-                            </td>
-                            <td class="px-4 py-4 text-sm font-mono market-pe" data-code="{{ stock.code }}" style="color: var(--text-dim);">
-                                <span class="loading">-</span>
-                            </td>
-                            <td class="px-4 py-4">
-                                <span class="badge badge-primary">{{ stock.mention_count }}</span>
-                            </td>
-                            <td class="px-4 py-4">
-                                <div class="flex flex-wrap gap-1">
-                                    {% for concept in stock.concepts[:5] %}
-                                    <a href="/concept/{{ concept }}" class="tag">{{ concept }}</a>
-                                    {% endfor %}
+            <!-- 卡片网格 -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                {% for stock in top_20 %}
+                    {% set card_type = 'base' %}
+                    {% set stock_data = stock %}
+                    <div class="stock-card stock-card-animate" 
+                         onclick="window.location.href='/stock/{{ stock.code }}'"
+                         style="--card-index: {{ loop.index0 }}">
+                        
+                        <!-- 卡片头部 -->
+                        <div class="stock-card-header">
+                            <div>
+                                <div class="stock-code">{{ stock.code }}</div>
+                                <div class="stock-name">{{ stock.name }}</div>
+                            </div>
+                            
+                            <!-- 热度徽章 -->
+                            {% if stock.mention_count >= 100 %}
+                                <div class="heat-badge heat-badge-high">
+                                    <span>🔥</span>
+                                    <span>{{ stock.mention_count }}</span>
                                 </div>
-                            </td>
-                        </tr>
-                        {% endfor %}
-                    </tbody>
-                </table>
+                            {% elif stock.mention_count >= 30 %}
+                                <div class="heat-badge heat-badge-medium">
+                                    <span>⚡</span>
+                                    <span>{{ stock.mention_count }}</span>
+                                </div>
+                            {% else %}
+                                <div class="heat-badge heat-badge-low">
+                                    <span>📊</span>
+                                    <span>{{ stock.mention_count }}</span>
+                                </div>
+                            {% endif %}
+                        </div>
+                        
+                        <!-- 指标网格 -->
+                        <div class="stock-metrics">
+                            <div class="metric-item">
+                                <div class="metric-value">{{ stock.concepts | default([]) | length }}</div>
+                                <div class="metric-label">概念数</div>
+                            </div>
+                            <div class="metric-item">
+                                <div class="metric-value">{{ stock.articles | default([]) | length }}</div>
+                                <div class="metric-label">文章数</div>
+                            </div>
+                        </div>
+                        
+                        <!-- 概念标签 -->
+                        {% if stock.concepts and stock.concepts|length > 0 %}
+                        <div class="stock-concepts">
+                            {% for concept in stock.concepts[:6] %}
+                                {% if loop.index <= 3 %}
+                                    <a href="/concept/{{ concept }}" class="concept-tag" onclick="event.stopPropagation()">
+                                        {{ concept }}
+                                    </a>
+                                {% else %}
+                                    <a href="/concept/{{ concept }}" class="concept-tag concept-tag-secondary" onclick="event.stopPropagation()">
+                                        {{ concept }}
+                                    </a>
+                                {% endif %}
+                            {% endfor %}
+                            {% if stock.concepts|length > 6 %}
+                                <span class="concept-tag" style="cursor: default;">+{{ stock.concepts|length - 6 }}</span>
+                            {% endif %}
+                        </div>
+                        {% endif %}
+                    </div>
+                {% endfor %}
             </div>
         </div>
         

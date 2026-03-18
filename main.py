@@ -60,6 +60,11 @@ def stocks_list():
                  key=lambda x: x['mention_count'], reverse=True)
     return render_template('stocks.html', total=len(lst), stocks=lst)
 
+@app.route('/demo/cards')
+def demo_cards():
+    """卡片组件演示页面"""
+    return render_template('demo_cards.html')
+
 @app.route('/stock/<code>')
 def stock_detail(code):
     if code not in stocks:

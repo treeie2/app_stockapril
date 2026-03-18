@@ -13,10 +13,17 @@ MASTER_FILE = Path(__file__).parent / 'data' / 'master' / 'stocks_master.json'
 SENTIMENT_FILE = DATA_DIR / 'company_mentions.json'
 OUTPUT_FILE = DATA_DIR / 'search_index_full.json.gz'
 
-def clean_text(text: str) -> str:
+def clean_text(text) -> str:
     """清理文本中的 Markdown/HTML 格式，保留多来源分隔格式"""
     if not text:
         return ""
+    
+    # 如果是数组，转换为字符串
+    if isinstance(text, list):
+        text = ' '.join(str(t) for t in text if t)
+    
+    if not isinstance(text, str):
+        return str(text)
     
     import re
     
