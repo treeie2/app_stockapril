@@ -928,13 +928,14 @@
             
             {% if stock.articles and stock.articles | length > 0 %}
                 <div class="timeline">
+                    <!-- 文章循环：{{ stock.articles | length }} 篇 -->
                     {% for article in stock.articles %}
                         <div class="article-item">
                             <div class="article-card {% if loop.index > 1 %}collapsed{% endif %}" id="article-{{ loop.index }}">
                                 <!-- 文章头部（可点击折叠） -->
                                 <div class="article-card-header" onclick="toggleArticle('article-{{ loop.index }}')">
                                     <div style="flex:1">
-                                        <div class="article-title">{{ article.title | default('（无标题）') }}</div>
+                                        <div class="article-title">{{ article.article_title | default('（无标题）') }}</div>
                                         <div class="article-meta-row">
                                             {% if article.source %}
                                                 <span class="article-source">{{ article.source }}</span>
