@@ -231,18 +231,52 @@ def search():
 
 @app.route('/api/stock/<code>/edit', methods=['POST'])
 def api_stock_edit(code):
-    """编辑股票信息（只允许编辑部分字段）"""
+    """编辑股票信息（支持更多字段）"""
     if code not in stocks:
         return jsonify({'success': False, 'error': '股票不存在'}), 404
+    
     data = request.json
     if not data:
         return jsonify({'success': False, 'error': '无效数据'}), 400
-    # 只允许编辑以下字段
-    if 'industry_position' in data: stocks[code]['industry_position'] = data['industry_position']
-    if 'chain' in data: stocks[code]['chain'] = data['chain']
-    if 'partners' in data: stocks[code]['partners'] = data['partners']
-    # 注意：concepts 和 core_business 不可编辑
-    return jsonify({'success': True})
+    
+    # 可编辑的股票字段
+    editable_fields = [
+        'core_business', 'products', 'industry_position', 
+        'chain', 'partners'
+    ]
+    
+    updated = []
+    for field in editable_fields:
+        if field in data:
+            stocks[code][field] = data[field]
+            updated.append(field)
+    
+    # 文章相关字段（更新最新的一篇文章）
+    article_fields = ['accidents', 'insights', 'target_valuation']
+    article_updated = False
+    
+    if stocks[code].get('articles') and len(stocks[code]['articles']) > 0:
+        latest_article = stocks[code]['articles'][0]
+        for field in article_fields:
+            if field in data:
+                latest_article[field] = data[field]
+                article_updated = True
+    
+    # 记录编辑日志
+    if updated or article_updated:
+        edit_log.append({
+            'timestamp': datetime.now().isoformat(),
+            'code': code,
+            'name': stocks[code].get('name', ''),
+            'fields': updated + (['articles'] if article_updated else []),
+            'changes': {field: data[field] for field in updated}
+        })
+        save_edit_log()
+        
+        # 保存到文件
+        save_stocks_to_file()
+    
+    return jsonify({'success': True, 'updated_fields': updated})
 
 @app.route('/api/stock/<code>')
 def api_stock(code):
@@ -340,6 +374,37 @@ def save_edit_log():
             json.dump(edit_log, f, ensure_ascii=False, indent=2)
     except Exception as e:
         print(f"保存编辑日志失败：{e}")
+
+def save_stocks_to_file():
+    """保存股票数据到文件"""
+    try:
+        # 转换为列表格式
+        stocks_list = []
+        for code, d in stocks.items():
+            stock = {
+                'code': code,
+                'name': d.get('name', ''),
+                'board': d.get('board', ''),
+                'industry': d.get('industry', ''),
+                'concepts': d.get('concepts', []),
+                'products': d.get('products', []),
+                'core_business': d.get('core_business', []),
+                'industry_position': d.get('industry_position', []),
+                'chain': d.get('chain', []),
+                'partners': d.get('partners', []),
+                'mention_count': d.get('mention_count', 0),
+                'articles': d.get('articles', [])
+            }
+            stocks_list.append(stock)
+        
+        # 保存到文件
+        data = {'stocks': stocks_list}
+        with open(MASTER_FILE, 'w', encoding='utf-8') as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+        
+        print(f"✅ 已保存 {len(stocks_list)} 只股票到 {MASTER_FILE}")
+    except Exception as e:
+        print(f"❌ 保存股票数据失败：{e}")
 
 @app.route('/api/sync', methods=['GET'])
 def sync_edits():

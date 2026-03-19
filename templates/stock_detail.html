@@ -1122,37 +1122,150 @@
         })();
     
         function editStock(code) {
-            const data = {
-                industry_position: {{ stock.industry_position | tojson }},
-                chain: {{ stock.chain | tojson }},
-                partners: {{ stock.partners | tojson }}
-            };
-            
-            const modal = document.createElement('div');
-            modal.className = 'edit-modal';
-            modal.innerHTML = `
-                <div class="edit-content">
-                    <h3>编辑股票信息 - ${code}</h3>
-                    <div style="font-size:0.75rem;color:var(--text-muted);margin-bottom:1rem;">
-                        💡 提示：概念标签和核心业务由系统自动生成，暂不支持手动编辑
-                    </div>
-                    <div class="edit-section"><label>行业地位（逗号分隔）</label><textarea id="edit-pos">${data.industry_position.join(',')}</textarea></div>
-                    <div class="edit-section"><label>产业链（逗号分隔）</label><textarea id="edit-chain">${data.chain.join(',')}</textarea></div>
-                    <div class="edit-section"><label>合作伙伴（逗号分隔）</label><textarea id="edit-partners">${data.partners.join(',')}</textarea></div>
-                    <div class="edit-actions">
-                        <button class="edit-save" onclick="saveEdit('${code}')">💾 保存</button>
-                        <button class="edit-cancel" onclick="this.closest('.edit-modal').remove()">✖ 取消</button>
-                    </div>
-                </div>
-            `;
-            document.body.appendChild(modal);
+            // 获取当前数据
+            fetch(`/api/stock/${code}`)
+                .then(r => r.json())
+                .then(data => {
+                    const modal = document.createElement('div');
+                    modal.className = 'edit-modal';
+                    modal.innerHTML = `
+                        <div class="edit-content">
+                            <div class="edit-header">
+                                <h3>✏️ 编辑股票信息</h3>
+                                <div class="edit-stock-info">
+                                    <span class="stock-name">${data.name}</span>
+                                    <span class="stock-code">${code}</span>
+                                </div>
+                            </div>
+                            
+                            <div class="edit-hint">
+                                💡 提示：概念标签和行业由系统自动生成，以下字段支持手动编辑
+                            </div>
+                            
+                            <div class="edit-tabs">
+                                <button class="edit-tab active" data-tab="basic">基本信息</button>
+                                <button class="edit-tab" data-tab="business">业务信息</button>
+                                <button class="edit-tab" data-tab="article">文章数据</button>
+                            </div>
+                            
+                            <div class="edit-body">
+                                <!-- 基本信息 -->
+                                <div class="edit-tab-panel active" data-panel="basic">
+                                    <div class="edit-section">
+                                        <label>
+                                            核心业务
+                                            <span class="field-hint">公司主营业务描述</span>
+                                        </label>
+                                        <textarea id="edit-core" placeholder="例如：覆铜板研发、生产和销售">${(data.core_business || []).join(', ')}</textarea>
+                                    </div>
+                                    
+                                    <div class="edit-section">
+                                        <label>
+                                            主要产品
+                                            <span class="field-hint">逗号分隔多个产品</span>
+                                        </label>
+                                        <textarea id="edit-products" placeholder="例如：覆铜板，粘结片，半固化片">${(data.products || []).join(', ')}</textarea>
+                                    </div>
+                                    
+                                    <div class="edit-section">
+                                        <label>
+                                            行业地位
+                                            <span class="field-hint">市场地位、市场份额等</span>
+                                        </label>
+                                        <textarea id="edit-pos" placeholder="例如：国内覆铜板行业龙头，全球市场份额领先">${(data.industry_position || []).join(', ')}</textarea>
+                                    </div>
+                                </div>
+                                
+                                <!-- 业务信息 -->
+                                <div class="edit-tab-panel" data-panel="business">
+                                    <div class="edit-section">
+                                        <label>
+                                            产业链
+                                            <span class="field-hint">上中下游位置描述</span>
+                                        </label>
+                                        <textarea id="edit-chain" placeholder="例如：上游 - 铜箔，中游 - 覆铜板制造，下游 - 消费电子">${(data.chain || []).join(', ')}</textarea>
+                                    </div>
+                                    
+                                    <div class="edit-section">
+                                        <label>
+                                            合作伙伴
+                                            <span class="field-hint">主要客户、供应商</span>
+                                        </label>
+                                        <textarea id="edit-partners" placeholder="例如：华为，小米，OPPO，VIVO">${(data.partners || []).join(', ')}</textarea>
+                                    </div>
+                                </div>
+                                
+                                <!-- 文章数据 -->
+                                <div class="edit-tab-panel" data-panel="article">
+                                    <div class="edit-section">
+                                        <label>
+                                            催化剂/风险事件
+                                            <span class="field-hint">影响股价的事件</span>
+                                        </label>
+                                        <textarea id="edit-accidents" placeholder="例如：产品涨价，政策利好">${(data.articles?.[0]?.accidents || []).join(', ')}</textarea>
+                                        <div class="field-note">⚠️ 此字段将应用到最新一篇文章</div>
+                                    </div>
+                                    
+                                    <div class="edit-section">
+                                        <label>
+                                            核心洞察
+                                            <span class="field-hint">投资亮点</span>
+                                        </label>
+                                        <textarea id="edit-insights" placeholder="例如：预计未来 3 倍增长空间">${(data.articles?.[0]?.insights || []).join(', ')}</textarea>
+                                        <div class="field-note">⚠️ 此字段将应用到最新一篇文章</div>
+                                    </div>
+                                    
+                                    <div class="edit-section">
+                                        <label>
+                                            目标估值
+                                            <span class="field-hint">目标市值或目标价</span>
+                                        </label>
+                                        <textarea id="edit-valuation" placeholder="例如：3 倍空间，300 亿市值">${(data.articles?.[0]?.target_valuation || []).join(', ')}</textarea>
+                                        <div class="field-note">⚠️ 此字段将应用到最新一篇文章</div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="edit-footer">
+                                <div class="edit-status" id="edit-status"></div>
+                                <div class="edit-actions">
+                                    <button class="edit-btn edit-preview" onclick="previewEdit()">👁️ 预览</button>
+                                    <button class="edit-btn edit-cancel" onclick="this.closest('.edit-modal').remove()">✖ 取消</button>
+                                    <button class="edit-btn edit-save" onclick="saveEdit('${code}')">💾 保存并更新</button>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                    document.body.appendChild(modal);
+                    
+                    // 绑定 tab 切换
+                    modal.querySelectorAll('.edit-tab').forEach(tab => {
+                        tab.addEventListener('click', () => {
+                            modal.querySelectorAll('.edit-tab').forEach(t => t.classList.remove('active'));
+                            modal.querySelectorAll('.edit-tab-panel').forEach(p => p.classList.remove('active'));
+                            tab.classList.add('active');
+                            modal.querySelector(`[data-panel="${tab.dataset.tab}"]`).classList.add('active');
+                        });
+                    });
+                });
         }
         
         function saveEdit(code) {
+            const statusEl = document.getElementById('edit-status');
+            statusEl.textContent = '⏳ 保存中...';
+            statusEl.className = 'edit-status saving';
+            
             const data = {
+                // 股票基本信息
+                core_business: document.getElementById('edit-core').value.split(',').map(s => s.trim()).filter(s => s),
+                products: document.getElementById('edit-products').value.split(',').map(s => s.trim()).filter(s => s),
                 industry_position: document.getElementById('edit-pos').value.split(',').map(s => s.trim()).filter(s => s),
                 chain: document.getElementById('edit-chain').value.split(',').map(s => s.trim()).filter(s => s),
-                partners: document.getElementById('edit-partners').value.split(',').map(s => s.trim()).filter(s => s)
+                partners: document.getElementById('edit-partners').value.split(',').map(s => s.trim()).filter(s => s),
+                // 文章数据
+                accidents: document.getElementById('edit-accidents').value.split(',').map(s => s.trim()).filter(s => s),
+                insights: document.getElementById('edit-insights').value.split(',').map(s => s.trim()).filter(s => s),
+                target_valuation: document.getElementById('edit-valuation').value.split(',').map(s => s.trim()).filter(s => s)
             };
             
             fetch(`/api/stock/${code}/edit`, {
@@ -1162,24 +1275,106 @@
             })
             .then(r => r.json())
             .then(res => {
-                if(res.success) { alert('保存成功！'); location.reload(); }
-                else { alert('保存失败：' + res.error); }
+                if(res.success) {
+                    statusEl.textContent = '✅ 保存成功！3 秒后刷新...';
+                    statusEl.className = 'edit-status success';
+                    setTimeout(() => {
+                        location.reload();
+                    }, 3000);
+                } else {
+                    statusEl.textContent = '❌ 保存失败：' + res.error;
+                    statusEl.className = 'edit-status error';
+                }
             })
-            .catch(e => alert('请求失败：' + e));
+            .catch(e => {
+                statusEl.textContent = '❌ 请求失败：' + e.message;
+                statusEl.className = 'edit-status error';
+            });
+        }
+        
+        function previewEdit() {
+            const core = document.getElementById('edit-core').value;
+            const products = document.getElementById('edit-products').value;
+            const pos = document.getElementById('edit-pos').value;
+            const chain = document.getElementById('edit-chain').value;
+            const partners = document.getElementById('edit-partners').value;
+            
+            const preview = document.createElement('div');
+            preview.className = 'edit-preview-modal';
+            preview.innerHTML = `
+                <div class="edit-content">
+                    <h3>👁️ 编辑预览</h3>
+                    <div class="preview-grid">
+                        <div class="preview-item">
+                            <div class="preview-label">核心业务</div>
+                            <div class="preview-value">${core || '（空）'}</div>
+                        </div>
+                        <div class="preview-item">
+                            <div class="preview-label">主要产品</div>
+                            <div class="preview-value">${products || '（空）'}</div>
+                        </div>
+                        <div class="preview-item">
+                            <div class="preview-label">行业地位</div>
+                            <div class="preview-value">${pos || '（空）'}</div>
+                        </div>
+                        <div class="preview-item">
+                            <div class="preview-label">产业链</div>
+                            <div class="preview-value">${chain || '（空）'}</div>
+                        </div>
+                        <div class="preview-item">
+                            <div class="preview-label">合作伙伴</div>
+                            <div class="preview-value">${partners || '（空）'}</div>
+                        </div>
+                    </div>
+                    <div class="edit-actions" style="margin-top:1.5rem">
+                        <button class="edit-btn edit-cancel" onclick="this.closest('.edit-preview-modal').remove()">关闭</button>
+                    </div>
+                </div>
+            `;
+            document.body.appendChild(preview);
         }
         
         const editStyle = document.createElement('style');
         editStyle.textContent = `
             .edit-modal{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.7);display:flex;align-items:center;justify-content:center;z-index:10000}
-            .edit-content{background:var(--card-bg);padding:2rem;border-radius:12px;max-width:600px;width:90%;max-height:80vh;overflow-y:auto}
-            .edit-content h3{margin:0 0 1.5rem 0;color:var(--text-primary)}
-            .edit-section{margin-bottom:1rem}
-            .edit-section label{display:block;font-size:0.8rem;color:var(--text-muted);margin-bottom:0.4rem}
-            .edit-section textarea{width:100%;min-height:60px;background:var(--input-bg);border:1px solid var(--border);border-radius:6px;padding:0.6rem;color:var(--text-primary);font-size:0.85rem;resize:vertical}
-            .edit-actions{display:flex;gap:0.8rem;margin-top:1.5rem}
-            .edit-save,.edit-cancel{padding:0.6rem 1.2rem;border-radius:6px;border:none;cursor:pointer;font-size:0.85rem}
-            .edit-save{background:linear-gradient(135deg,#8b5cf6,#7c3aed);color:white}
+            .edit-content{background:var(--card-bg);padding:0;border-radius:12px;max-width:700px;width:90%;max-height:85vh;overflow:hidden;display:flex;flex-direction:column}
+            .edit-header{padding:1.25rem 1.5rem;border-bottom:1px solid var(--border);background:rgba(139,92,246,0.08)}
+            .edit-header h3{margin:0 0 0.5rem 0;color:var(--text-primary);font-size:1.1rem}
+            .edit-stock-info{display:flex;gap:0.75rem;align-items:center}
+            .stock-name{font-size:0.95rem;font-weight:600;color:var(--text-primary)}
+            .stock-code{font-size:0.75rem;font-family:var(--mono);color:var(--accent-cyan);background:rgba(6,182,212,0.1);padding:0.2rem 0.5rem;border-radius:4px}
+            .edit-hint{padding:0.75rem 1.5rem;font-size:0.75rem;color:var(--text-muted);background:rgba(245,158,11,0.05);border-bottom:1px solid var(--border)}
+            .edit-tabs{display:flex;gap:0.5rem;padding:0.75rem 1.5rem;border-bottom:1px solid var(--border);background:var(--bg-card)}
+            .edit-tab{padding:0.4rem 0.85rem;background:transparent;border:1px solid var(--border);border-radius:6px;color:var(--text-muted);font-size:0.8rem;cursor:pointer;transition:all 0.18s}
+            .edit-tab:hover{border-color:var(--accent-cyan);color:var(--text-primary)}
+            .edit-tab.active{background:linear-gradient(135deg,#8b5cf6,#7c3aed);border-color:transparent;color:#fff}
+            .edit-body{flex:1;overflow-y:auto;padding:1.25rem 1.5rem}
+            .edit-tab-panel{display:none}
+            .edit-tab-panel.active{display:block}
+            .edit-section{margin-bottom:1.25rem}
+            .edit-section label{display:block;font-size:0.8rem;color:var(--text-muted);margin-bottom:0.5rem;font-weight:500}
+            .field-hint{display:block;font-size:0.7rem;color:var(--text-muted);font-weight:400;margin-top:0.15rem}
+            .field-note{display:block;font-size:0.7rem;color:var(--accent-amber);margin-top:0.35rem}
+            .edit-section textarea{width:100%;min-height:70px;background:rgba(255,255,255,0.03);border:1px solid var(--border);border-radius:6px;padding:0.7rem;color:var(--text-primary);font-size:0.85rem;resize:vertical;transition:border-color 0.18s}
+            .edit-section textarea:focus{outline:none;border-color:var(--accent-cyan);background:rgba(255,255,255,0.05)}
+            .edit-footer{padding:1rem 1.5rem;border-top:1px solid var(--border);background:var(--bg-card);display:flex;align-items:center;justify-content:space-between}
+            .edit-status{font-size:0.8rem;font-weight:500}
+            .edit-status.saving{color:var(--accent-amber)}
+            .edit-status.success{color:var(--accent-green)}
+            .edit-status.error{color:var(--accent-rose)}
+            .edit-actions{display:flex;gap:0.75rem}
+            .edit-btn{padding:0.6rem 1.1rem;border-radius:6px;border:none;cursor:pointer;font-size:0.85rem;font-weight:500;transition:all 0.18s}
+            .edit-preview{background:rgba(255,255,255,0.05);color:var(--text-muted)}
+            .edit-preview:hover{background:rgba(255,255,255,0.08);color:var(--text-primary)}
             .edit-cancel{background:var(--card-bg);color:var(--text-muted);border:1px solid var(--border)}
+            .edit-cancel:hover{border-color:var(--accent-rose);color:var(--accent-rose)}
+            .edit-save{background:linear-gradient(135deg,#8b5cf6,#7c3aed);color:#fff;box-shadow:0 2px 8px rgba(139,92,246,0.3)}
+            .edit-save:hover{transform:translateY(-1px);box-shadow:0 4px 12px rgba(139,92,246,0.4)}
+            .edit-preview-modal{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.7);display:flex;align-items:center;justify-content:center;z-index:10001}
+            .preview-grid{display:grid;gap:0.75rem;margin-top:1rem}
+            .preview-item{background:rgba(255,255,255,0.03);border:1px solid var(--border);border-radius:6px;padding:0.75rem}
+            .preview-label{font-size:0.7rem;color:var(--text-muted);margin-bottom:0.35rem;text-transform:uppercase;letter-spacing:0.05em}
+            .preview-value{font-size:0.85rem;color:var(--text-primary);line-height:1.5}
         `;
         document.head.appendChild(editStyle);
     </script>
