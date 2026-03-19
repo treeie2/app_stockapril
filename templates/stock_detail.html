@@ -935,7 +935,13 @@
                                 <!-- 文章头部（可点击折叠） -->
                                 <div class="article-card-header" onclick="toggleArticle('article-{{ loop.index }}')">
                                     <div style="flex:1">
-                                        <div class="article-title">{{ article.article_title | default(article.title) | default('（无标题）') }}</div>
+                                        {% if article.url %}
+                                            <a href="{{ article.url }}" target="_blank" rel="noopener" class="article-title-link" style="color:var(--text-primary);text-decoration:none;display:block;margin-bottom:0.25rem" onclick="event.stopPropagation()">
+                                                <div class="article-title">{{ article.title | default('（无标题）') }}</div>
+                                            </a>
+                                        {% else %}
+                                            <div class="article-title">{{ article.title | default('（无标题）') }}</div>
+                                        {% endif %}
                                         <div class="article-meta-row">
                                             {% if article.source %}
                                                 <span class="article-source">{{ article.source }}</span>

@@ -203,9 +203,31 @@ def stock_detail(code):
         'key_metrics': d.get('key_metrics', []),
         'partners': d.get('partners', []),
         'products': d.get('products', []),
-        'articles': d.get('articles', [])[:20],
         'detail_texts': d.get('detail_texts', [])[:5]
     }
+    
+    # 统一文章字段格式
+    raw_articles = d.get('articles', [])[:20]
+    articles = []
+    for a in raw_articles:
+        article = {
+            'id': a.get('article_id', ''),
+            'title': a.get('article_title', a.get('title', '（无标题）')),
+            'url': a.get('article_url', a.get('url', '')),
+            'date': a.get('date', a.get('published_at', '')),
+            'source': a.get('source', ''),
+            'context': a.get('context', ''),
+            'insights': a.get('insights', a.get('insight', [])),
+            'accidents': a.get('accidents', [a.get('accident', '')] if a.get('accident') else []),
+            'key_metrics': a.get('key_metrics', []),
+            'target_valuation': a.get('target_valuation', []),
+            'industry_position': a.get('industry_position', []),
+            'products': a.get('products', []),
+            'partners': a.get('partners', [])
+        }
+        articles.append(article)
+    
+    stock['articles'] = articles
     
     return render_template('stock_detail.html', stock=stock)
 
