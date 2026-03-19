@@ -60524,11 +60524,16 @@
       ]
     },
     {
-      "name": "鑫磊股份",
+      "name": "佛燃能源",
       "code": "002911",
       "board": "",
-      "industry": "",
-      "concepts": [],
+      "industry": "公用事业-燃气-燃气Ⅲ",
+      "concepts": [
+        "天然气",
+        "燃气",
+        "粤港澳大湾区",
+        "广东国资"
+      ],
       "products": [],
       "core_business": [],
       "industry_position": [],
