@@ -102,6 +102,14 @@ except Exception as e:
 
 @app.route('/')
 def dashboard():
+    # 获取分页参数
+    try:
+        limit = int(request.args.get('limit', 20))
+        offset = int(request.args.get('offset', 0))
+    except:
+        limit = 20
+        offset = 0
+    
     # 传递所有股票数据（只保留 A 股个股，过滤 ETF 和指数）
     all_stocks = []
     for c, d in stocks.items():
@@ -131,17 +139,36 @@ def dashboard():
     # 默认按最新文章日期倒序排列
     all_stocks.sort(key=lambda x: x.get('latest_article_date', ''), reverse=True)
     
+    # 分页
+    total = len(all_stocks)
+    has_more = offset + limit < total
+    paginated_stocks = all_stocks[offset:offset + limit]
+    
     # 计算文章数（安全方式）
     articles = set()
     for code, s in stocks.items():
         for a in s.get('articles', []):
             articles.add(f"{code}_{a.get('article_id', '')}")
     
+    # 如果是 AJAX 请求，返回 JSON
+    if request.headers.get('X-Requested-With') == 'XMLHttpRequest':
+        return jsonify({
+            'stocks': paginated_stocks,
+            'offset': offset + limit,
+            'limit': limit,
+            'total': total,
+            'has_more': has_more
+        })
+    
+    # 首次加载，渲染完整页面
     return render_template('dashboard.html', 
-        stocks=all_stocks,
-        total_stocks=len(all_stocks),
-        total_mentions=sum(s.get('mention_count', 0) for s in all_stocks),
-        total_articles=len(articles))
+        stocks=paginated_stocks,
+        total_stocks=len(paginated_stocks),
+        total_mentions=sum(s.get('mention_count', 0) for s in paginated_stocks),
+        total_articles=len(articles),
+        has_more=has_more,
+        next_offset=offset + limit,
+        limit=limit)
 
 @app.route('/stocks')
 def stocks_list():

@@ -258,6 +258,47 @@
             color:var(--accent-green);
             font-weight:500;
         }
+        .load-more-wrap {
+            padding:1.5rem;
+            text-align:center;
+            background:rgba(255,255,255,0.02);
+            border-top:1px solid var(--border);
+        }
+        .load-more-btn {
+            background:linear-gradient(135deg,#8b5cf6,#7c3aed);
+            color:#fff;
+            border:none;
+            padding:0.75rem 2rem;
+            border-radius:8px;
+            font-size:0.9rem;
+            font-weight:600;
+            cursor:pointer;
+            transition:all 0.2s;
+            box-shadow:0 2px 8px rgba(139,92,246,0.3);
+        }
+        .load-more-btn:hover {
+            transform:translateY(-2px);
+            box-shadow:0 4px 12px rgba(139,92,246,0.4);
+        }
+        .load-more-btn:active {
+            transform:translateY(0);
+        }
+        .load-more-btn.loading {
+            opacity:0.7;
+            cursor:not-allowed;
+        }
+        .load-more-btn.loading::before {
+            content:'';
+            display:inline-block;
+            width:16px;
+            height:16px;
+            border:2px solid rgba(255,255,255,0.3);
+            border-top-color:#fff;
+            border-radius:50%;
+            animation:spin 0.8s linear infinite;
+            margin-right:0.5rem;
+            vertical-align:middle;
+        }
         .sort-sel {
             margin-left:auto;
             background:rgba(255,255,255,.04);
@@ -591,6 +632,15 @@
                 </tbody>
             </table>
         </div>
+        
+        <!-- 加载更多按钮 -->
+        {% if has_more %}
+        <div class="load-more-wrap">
+            <button class="load-more-btn" id="loadMoreBtn" onclick="loadMore()">
+                📥 加载更多（还剩 {{ total_stocks - (limit or 20) }} 只）
+            </button>
+        </div>
+        {% endif %}
     </div>
     
     <footer class="footer">CYBERRESEARCH © 2026 &nbsp;·&nbsp; AI-Powered Investment Research Platform</footer>
@@ -744,6 +794,109 @@
         // 手动刷新函数
         function refreshMarket() {
             fetchMarket(true);
+        }
+        
+        // ─── 加载更多 ───
+        let isLoadingMore = false;
+        
+        function loadMore() {
+            if (isLoadingMore) return;
+            
+            const btn = document.getElementById('loadMoreBtn');
+            if (!btn) return;
+            
+            isLoadingMore = true;
+            btn.classList.add('loading');
+            btn.disabled = true;
+            
+            const offset = {{ next_offset }};
+            const limit = {{ limit or 20 }};
+            
+            fetch(`/?limit=${limit}&offset=${offset}`, {
+                headers: {
+                    'X-Requested-With': 'XMLHttpRequest'
+                }
+            })
+            .then(r => r.json())
+            .then(data => {
+                const tbody = document.getElementById('tbody');
+                const rows = data.stocks || [];
+                
+                rows.forEach(stock => {
+                    const tr = document.createElement('tr');
+                    tr.dataset.code = stock.code;
+                    tr.dataset.concepts = (stock.concepts || []).length;
+                    tr.dataset.mention = stock.mention_count || 0;
+                    tr.dataset.articles = (stock.articles || []).length;
+                    tr.dataset.name = stock.name;
+                    tr.dataset.latestDate = stock.latest_article_date || '';
+                    tr.dataset.chg = '0';
+                    tr.onclick = () => window.location = `/stock/${stock.code}`;
+                    
+                    const industry = stock.industry || stock.industries || '—';
+                    const concepts = stock.concepts || [];
+                    const mentionCount = stock.mention_count || 0;
+                    const articlesCount = (stock.articles || []).length;
+                    
+                    tr.innerHTML = `
+                        <td class="col-rank">${tbody.children.length + 1}</td>
+                        <td>
+                            <div class="col-name">${stock.name}</div>
+                            <div class="col-code">${stock.code}</div>
+                        </td>
+                        <td class="col-industry" style="color:var(--t2);font-size:.72rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">
+                            ${industry}
+                        </td>
+                        <td class="col-concepts">
+                            ${concepts.length > 0 ? `
+                            <div class="tags">
+                                ${concepts.slice(0, 3).map((c, i) => 
+                                    `<span class="tag t${i % 6}" onclick="event.stopPropagation();window.location='/concept/${encodeURIComponent(c)}'">${c}</span>`
+                                ).join('')}
+                                ${concepts.length > 3 ? `<span class="tag t5">+${concepts.length - 3}</span>` : ''}
+                            </div>` : ''}
+                        </td>
+                        <td class="num col-price" id="p-${stock.code}">
+                            <span class="loading-price">—</span>
+                        </td>
+                        <td class="num col-chg" id="c-${stock.code}">
+                            <span class="loading-price">—</span>
+                        </td>
+                        <td class="num col-cap" id="mc-${stock.code}">
+                            <span style="color:var(--t3)">—</span>
+                        </td>
+                        <td class="num col-mention">
+                            ${mentionCount > 0 ? `<span class="mention-b">🔥 ${mentionCount}</span>` : '<span style="color:var(--t3)">—</span>'}
+                        </td>
+                        <td class="num col-articles">
+                            ${articlesCount > 0 ? `<span class="art-b">📰 ${articlesCount}</span>` : '<span style="color:var(--t3)">—</span>'}
+                        </td>
+                    `;
+                    
+                    tbody.appendChild(tr);
+                });
+                
+                // 重新绑定行情获取
+                fetchMarket(false);
+                
+                // 更新或移除加载更多按钮
+                if (data.has_more) {
+                    const remaining = data.total - data.offset;
+                    btn.innerHTML = `📥 加载更多（还剩 ${remaining} 只）`;
+                    btn.classList.remove('loading');
+                    btn.disabled = false;
+                    isLoadingMore = false;
+                } else {
+                    btn.closest('.load-more-wrap').remove();
+                }
+            })
+            .catch(e => {
+                console.error('加载更多失败', e);
+                btn.classList.remove('loading');
+                btn.disabled = false;
+                isLoadingMore = false;
+                alert('加载更多失败，请刷新页面重试');
+            });
         }
         
         // ─── Search ───
