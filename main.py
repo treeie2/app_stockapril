@@ -250,9 +250,16 @@ def api_stock(code):
         return jsonify({'error': '股票不存在'}), 404
     d = stocks[code]
     return jsonify({'code': code, 'name': d.get('name',''), 'board': d.get('board',''),
-                   'mention_count': d.get('mention_count',0), 'concepts': d.get('concepts',[]),
-                   'industries': d.get('industries',[]), 'products': d.get('products',[]),
-                   'articles': d.get('articles',[])[:20], 'detail_texts': d.get('detail_texts',[])[:5]})
+                   'mention_count': d.get('mention_count',0), 
+                   'concepts': d.get('concepts',[]),
+                   'industries': d.get('industries',[]), 
+                   'products': d.get('products',[]),
+                   'core_business': d.get('core_business',[]),
+                   'industry_position': d.get('industry_position',[]),
+                   'chain': d.get('chain',[]),
+                   'partners': d.get('partners',[]),
+                   'articles': d.get('articles',[])[:20], 
+                   'detail_texts': d.get('detail_texts',[])[:5]})
 
 @app.route('/api/search/suggest')
 def api_suggest():
