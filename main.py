@@ -81,10 +81,22 @@ except Exception as e:
 
 @app.route('/')
 def dashboard():
-    # 传递所有股票数据
+    # 传递所有股票数据（只保留 A 股个股，过滤 ETF 和指数）
     all_stocks = []
     for c, d in stocks.items():
+        # 过滤：只保留 A 股个股（code 以 00/30/60/68 开头）
+        if not (c.startswith('00') or c.startswith('30') or c.startswith('60') or c.startswith('68')):
+            continue
+        
+        # 过滤：名称包含 ETF、指数、中证、上证的
+        name = d.get('name', '')
+        if any(x in name for x in ['ETF', '指数', '中证', '上证', '深证', '创业板指']):
+            continue
+        
         stock = {'code': c, **d}
+        # 修复：字段名是 industries 不是 industry
+        stock['industry'] = d.get('industry', '') or d.get('industries', '')
+        
         # 获取最新文章日期用于排序
         articles = d.get('articles', [])
         if articles:
@@ -106,8 +118,8 @@ def dashboard():
     
     return render_template('dashboard.html', 
         stocks=all_stocks,
-        total_stocks=len(stocks),
-        total_mentions=sum(s.get('mention_count', 0) for s in stocks.values()),
+        total_stocks=len(all_stocks),
+        total_mentions=sum(s.get('mention_count', 0) for s in all_stocks),
         total_articles=len(articles))
 
 @app.route('/stocks')
