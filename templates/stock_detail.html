@@ -935,7 +935,7 @@
                                 <!-- 文章头部（可点击折叠） -->
                                 <div class="article-card-header" onclick="toggleArticle('article-{{ loop.index }}')">
                                     <div style="flex:1">
-                                        <div class="article-title">{{ article.article_title | default('（无标题）') }}</div>
+                                        <div class="article-title">{{ article.article_title | default(article.title) | default('（无标题）') }}</div>
                                         <div class="article-meta-row">
                                             {% if article.source %}
                                                 <span class="article-source">{{ article.source }}</span>
@@ -965,6 +965,11 @@
                                                     <li><span>{{ item }}</span></li>
                                                 {% endfor %}
                                             </ul>
+                                        </div>
+                                    {% elif article.context %}
+                                        <div class="info-block block-insights">
+                                            <div class="info-block-title">核心洞察</div>
+                                            <div style="color:var(--text-secondary);font-size:0.85rem;line-height:1.6">{{ article.context }}</div>
                                         </div>
                                     {% endif %}
                                     
@@ -1001,6 +1006,11 @@
                                                     <li><span>{{ item }}</span></li>
                                                 {% endfor %}
                                             </ul>
+                                        </div>
+                                    {% elif article.accident %}
+                                        <div class="info-block block-accidents">
+                                            <div class="info-block-title">风险 / 催化剂事件</div>
+                                            <div style="color:var(--text-secondary);font-size:0.85rem;line-height:1.6">{{ article.accident }}</div>
                                         </div>
                                     {% endif %}
                                     
