@@ -232,6 +232,9 @@
             background:rgba(16,185,129,0.08);
             border-color:rgba(16,185,129,0.3);
             color:#10b981;
+            display:inline-flex;
+            align-items:center;
+            gap:0.35rem;
         }
         .refresh-btn:hover {
             background:rgba(16,185,129,0.15);
@@ -241,6 +244,9 @@
         .refresh-btn.refreshing {
             animation:spin 1s linear infinite;
             background:rgba(16,185,129,0.15);
+        }
+        .refresh-btn.refreshing .btn-icon {
+            animation:spin 1s linear infinite;
         }
         @keyframes spin {
             0% { transform:rotate(0deg); }
@@ -500,9 +506,13 @@
             <button class="fbtn" data-concepts="10+">10+ 概念</button>
             <button class="fbtn" data-concepts="20+">20+ 概念</button>
             <button class="fbtn" data-concepts="30+">30+ 概念</button>
-            <button class="fbtn refresh-btn" id="refreshBtn" title="刷新股价" onclick="refreshMarket()">🔄 刷新股价</button>
+            <button class="fbtn refresh-btn" id="refreshBtn" title="刷新股价" onclick="refreshMarket()">
+                <span class="btn-icon">🔄</span>
+                <span class="btn-text">刷新股价</span>
+            </button>
             <span class="refresh-status" id="refreshStatus"></span>
             <select class="sort-sel" id="sortSel">
+                <option value="date">按日期</option>
                 <option value="mention">按热度</option>
                 <option value="chg_up">涨幅 ↑</option>
                 <option value="chg_down">跌幅 ↑</option>
@@ -529,7 +539,14 @@
                 </thead>
                 <tbody id="tbody">
                     {% for stock in stocks %}
-                    <tr data-code="{{ stock.code }}" data-concepts="{{ stock.concepts | length }}" data-mention="{{ stock.mention_count | default(0) }}" data-articles="{{ stock.articles | length }}" data-name="{{ stock.name }}" data-chg="0" onclick="window.location='/stock/{{ stock.code }}'">
+                    <tr data-code="{{ stock.code }}" 
+                        data-concepts="{{ stock.concepts | length }}" 
+                        data-mention="{{ stock.mention_count | default(0) }}" 
+                        data-articles="{{ stock.articles | length }}" 
+                        data-name="{{ stock.name }}" 
+                        data-latest-date="{{ stock.latest_article_date or '' }}"
+                        data-chg="0" 
+                        onclick="window.location='/stock/{{ stock.code }}'">
                         <td class="col-rank">{{ loop.index }}</td>
                         <td>
                             <div class="col-name">{{ stock.name }}</div>
@@ -614,6 +631,12 @@
                 if(mode==='name') return a.dataset.name.localeCompare(b.dataset.name,'zh');
                 if(mode==='chg_up') return +b.dataset.chg - +a.dataset.chg;
                 if(mode==='chg_down') return +a.dataset.chg - +b.dataset.chg;
+                if(mode==='date') {
+                    // 按最新文章日期排序（从行数据中获取）
+                    const dateA = a.dataset.latestDate || '';
+                    const dateB = b.dataset.latestDate || '';
+                    return dateB.localeCompare(dateA);
+                }
                 return 0;
             });
             rows.forEach(r => tbody.appendChild(r));
@@ -687,9 +710,9 @@
                 
                 // 更新按钮文本
                 if(btn) {
-                    const textSpan = btn.querySelector('.text');
+                    const textSpan = btn.querySelector('.btn-text');
                     if(textSpan) textSpan.textContent = loaded > 0 ? '已更新' : '无数据';
-                    setTimeout(() => { if(textSpan) textSpan.textContent = '刷新'; }, 2000);
+                    setTimeout(() => { if(textSpan) textSpan.textContent = '刷新股价'; }, 2000);
                 }
             } catch(e) {
                 console.log('行情获取失败', e);

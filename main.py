@@ -81,9 +81,22 @@ except Exception as e:
 
 @app.route('/')
 def dashboard():
-    # 传递所有股票数据（按提及次数排序）
-    all_stocks = sorted([{'code': c, **d} for c, d in stocks.items()], 
-                        key=lambda x: x['mention_count'], reverse=True)
+    # 传递所有股票数据
+    all_stocks = []
+    for c, d in stocks.items():
+        stock = {'code': c, **d}
+        # 获取最新文章日期用于排序
+        articles = d.get('articles', [])
+        if articles:
+            # 从 article_id 提取日期或从 published_at 获取
+            first_article = articles[0]
+            stock['latest_article_date'] = first_article.get('published_at', '') or first_article.get('article_id', '')[:10]
+        else:
+            stock['latest_article_date'] = ''
+        all_stocks.append(stock)
+    
+    # 默认按最新文章日期倒序排列
+    all_stocks.sort(key=lambda x: x.get('latest_article_date', ''), reverse=True)
     
     # 计算文章数（安全方式）
     articles = set()
