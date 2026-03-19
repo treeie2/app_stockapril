@@ -227,6 +227,31 @@
             border-color:var(--blue);
             color:#fff;
         }
+        .refresh-btn {
+            margin-left:0.5rem;
+            background:rgba(16,185,129,0.08);
+            border-color:rgba(16,185,129,0.3);
+            color:#10b981;
+        }
+        .refresh-btn:hover {
+            background:rgba(16,185,129,0.15);
+            border-color:#10b981;
+            color:#065f46;
+        }
+        .refresh-btn.refreshing {
+            animation:spin 1s linear infinite;
+            background:rgba(16,185,129,0.15);
+        }
+        @keyframes spin {
+            0% { transform:rotate(0deg); }
+            100% { transform:rotate(360deg); }
+        }
+        .refresh-status {
+            margin-left:0.75rem;
+            font-size:0.75rem;
+            color:var(--accent-green);
+            font-weight:500;
+        }
         .sort-sel {
             margin-left:auto;
             background:rgba(255,255,255,.04);
@@ -475,6 +500,8 @@
             <button class="fbtn" data-concepts="10+">10+ 概念</button>
             <button class="fbtn" data-concepts="20+">20+ 概念</button>
             <button class="fbtn" data-concepts="30+">30+ 概念</button>
+            <button class="fbtn refresh-btn" id="refreshBtn" title="刷新股价" onclick="refreshMarket()">🔄 刷新股价</button>
+            <span class="refresh-status" id="refreshStatus"></span>
             <select class="sort-sel" id="sortSel">
                 <option value="mention">按热度</option>
                 <option value="chg_up">涨幅 ↑</option>
@@ -604,6 +631,9 @@
         // default sort by mention
         sortRows('mention');
         
+        // Auto fetch market data on page load
+        fetchMarket(false);
+        
         // ─── Market data ───
         let marketLoaded = false;
         async function fetchMarket(force = false) {
@@ -687,6 +717,11 @@
         // 3 秒后自动刷新一次
         setTimeout(() => fetchMarket(false), 3000);
         setInterval(fetchMarket, 60000);
+        
+        // 手动刷新函数
+        function refreshMarket() {
+            fetchMarket(true);
+        }
         
         // ─── Search ───
         const si = document.getElementById('searchInput');
