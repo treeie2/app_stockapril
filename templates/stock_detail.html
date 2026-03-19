@@ -767,6 +767,114 @@
             }
             .breadcrumb { display: none; }
         }
+        
+        /* ─── 内联编辑表单 ─── */
+        .inline-edit-form {
+            background: var(--bg-card);
+            border: 2px solid var(--accent-purple);
+            border-radius: var(--radius-lg);
+            margin-bottom: 1.5rem;
+            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(139,92,246,0.15);
+        }
+        
+        .inline-edit-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1rem 1.5rem;
+            background: linear-gradient(135deg, rgba(139,92,246,0.15), rgba(124,58,237,0.1));
+            border-bottom: 1px solid rgba(139,92,246,0.3);
+        }
+        
+        .inline-edit-header h3 {
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--accent-purple);
+            margin: 0;
+        }
+        
+        .close-edit-btn {
+            background: transparent;
+            border: none;
+            color: var(--text-secondary);
+            font-size: 1.5rem;
+            cursor: pointer;
+            padding: 0 0.5rem;
+            line-height: 1;
+            transition: all 0.2s;
+        }
+        
+        .close-edit-btn:hover {
+            color: var(--accent-rose);
+            transform: scale(1.1);
+        }
+        
+        .inline-edit-hint {
+            padding: 0.75rem 1.5rem;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            background: rgba(245,158,11,0.05);
+            border-bottom: 1px solid var(--border);
+        }
+        
+        .inline-edit-body {
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1.25rem;
+        }
+        
+        .inline-edit-row {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+        
+        .inline-edit-row label {
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+        }
+        
+        .inline-edit-row textarea {
+            width: 100%;
+            min-height: 70px;
+            background: rgba(255,255,255,0.03);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            padding: 0.75rem;
+            color: var(--text-primary);
+            font-size: 0.85rem;
+            font-family: inherit;
+            resize: vertical;
+            transition: all 0.2s;
+        }
+        
+        .inline-edit-row textarea:focus {
+            outline: none;
+            border-color: var(--accent-purple);
+            background: rgba(255,255,255,0.05);
+            box-shadow: 0 0 0 3px rgba(139,92,246,0.1);
+        }
+        
+        .inline-edit-footer {
+            padding: 1rem 1.5rem;
+            border-top: 1px solid var(--border);
+            background: rgba(139,92,246,0.05);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1rem;
+        }
+        
+        .inline-edit-footer .edit-actions {
+            display: flex;
+            gap: 0.75rem;
+        }
     </style>
 </head>
 <body>
@@ -1159,131 +1267,114 @@
         })();
     
         function editStock(code) {
+            // 检查是否已存在编辑表单
+            const existingForm = document.getElementById('inline-edit-form');
+            if (existingForm) {
+                existingForm.remove();
+                return;
+            }
+            
             // 获取当前数据
             fetch(`/api/stock/${code}`)
                 .then(r => r.json())
                 .then(data => {
-                    const modal = document.createElement('div');
-                    modal.className = 'edit-modal';
-                    modal.innerHTML = `
-                        <div class="edit-content">
-                            <div class="edit-header">
-                                <h3>✏️ 编辑股票信息</h3>
-                                <div class="edit-stock-info">
-                                    <span class="stock-name">${data.name}</span>
-                                    <span class="stock-code">${code}</span>
-                                </div>
+                    const form = document.createElement('div');
+                    form.id = 'inline-edit-form';
+                    form.className = 'inline-edit-form';
+                    form.innerHTML = `
+                        <div class="inline-edit-header">
+                            <h3>✏️ 编辑股票信息 - ${data.name} (${code})</h3>
+                            <button class="close-edit-btn" onclick="document.getElementById('inline-edit-form').remove()">✖</button>
+                        </div>
+                        
+                        <div class="inline-edit-hint">
+                            💡 提示：概念标签和行业由系统自动生成，以下字段支持手动编辑。逗号分隔多个值。
+                        </div>
+                        
+                        <div class="inline-edit-body">
+                            <div class="inline-edit-row">
+                                <label>
+                                    📊 核心业务
+                                    <span class="field-hint">公司主营业务描述</span>
+                                </label>
+                                <textarea id="edit-core" placeholder="例如：覆铜板研发、生产和销售">${(data.core_business || []).join(', ')}</textarea>
                             </div>
                             
-                            <div class="edit-hint">
-                                💡 提示：概念标签和行业由系统自动生成，以下字段支持手动编辑
+                            <div class="inline-edit-row">
+                                <label>
+                                    📦 主要产品
+                                    <span class="field-hint">逗号分隔多个产品</span>
+                                </label>
+                                <textarea id="edit-products" placeholder="例如：覆铜板，粘结片，半固化片">${(data.products || []).join(', ')}</textarea>
                             </div>
                             
-                            <div class="edit-tabs">
-                                <button class="edit-tab active" data-tab="basic"><span class="tab-icon">📊</span>基本信息</button>
-                                <button class="edit-tab" data-tab="business"><span class="tab-icon">💼</span>业务信息</button>
-                                <button class="edit-tab" data-tab="article"><span class="tab-icon">📝</span>文章数据</button>
+                            <div class="inline-edit-row">
+                                <label>
+                                    🏆 行业地位
+                                    <span class="field-hint">市场地位、市场份额等</span>
+                                </label>
+                                <textarea id="edit-pos" placeholder="例如：国内覆铜板行业龙头，全球市场份额领先">${(data.industry_position || []).join(', ')}</textarea>
                             </div>
                             
-                            <div class="edit-body">
-                                <!-- 基本信息 -->
-                                <div class="edit-tab-panel active" data-panel="basic">
-                                    <div class="edit-section">
-                                        <label>
-                                            核心业务
-                                            <span class="field-hint">公司主营业务描述</span>
-                                        </label>
-                                        <textarea id="edit-core" placeholder="例如：覆铜板研发、生产和销售">${(data.core_business || []).join(', ')}</textarea>
-                                    </div>
-                                    
-                                    <div class="edit-section">
-                                        <label>
-                                            主要产品
-                                            <span class="field-hint">逗号分隔多个产品</span>
-                                        </label>
-                                        <textarea id="edit-products" placeholder="例如：覆铜板，粘结片，半固化片">${(data.products || []).join(', ')}</textarea>
-                                    </div>
-                                    
-                                    <div class="edit-section">
-                                        <label>
-                                            行业地位
-                                            <span class="field-hint">市场地位、市场份额等</span>
-                                        </label>
-                                        <textarea id="edit-pos" placeholder="例如：国内覆铜板行业龙头，全球市场份额领先">${(data.industry_position || []).join(', ')}</textarea>
-                                    </div>
-                                </div>
-                                
-                                <!-- 业务信息 -->
-                                <div class="edit-tab-panel" data-panel="business">
-                                    <div class="edit-section">
-                                        <label>
-                                            产业链
-                                            <span class="field-hint">上中下游位置描述</span>
-                                        </label>
-                                        <textarea id="edit-chain" placeholder="例如：上游 - 铜箔，中游 - 覆铜板制造，下游 - 消费电子">${(data.chain || []).join(', ')}</textarea>
-                                    </div>
-                                    
-                                    <div class="edit-section">
-                                        <label>
-                                            合作伙伴
-                                            <span class="field-hint">主要客户、供应商</span>
-                                        </label>
-                                        <textarea id="edit-partners" placeholder="例如：华为，小米，OPPO，VIVO">${(data.partners || []).join(', ')}</textarea>
-                                    </div>
-                                </div>
-                                
-                                <!-- 文章数据 -->
-                                <div class="edit-tab-panel" data-panel="article">
-                                    <div class="edit-section">
-                                        <label>
-                                            催化剂/风险事件
-                                            <span class="field-hint">影响股价的事件</span>
-                                        </label>
-                                        <textarea id="edit-accidents" placeholder="例如：产品涨价，政策利好">${(data.articles?.[0]?.accidents || []).join(', ')}</textarea>
-                                        <div class="field-note">⚠️ 此字段将应用到最新一篇文章</div>
-                                    </div>
-                                    
-                                    <div class="edit-section">
-                                        <label>
-                                            核心洞察
-                                            <span class="field-hint">投资亮点</span>
-                                        </label>
-                                        <textarea id="edit-insights" placeholder="例如：预计未来 3 倍增长空间">${(data.articles?.[0]?.insights || []).join(', ')}</textarea>
-                                        <div class="field-note">⚠️ 此字段将应用到最新一篇文章</div>
-                                    </div>
-                                    
-                                    <div class="edit-section">
-                                        <label>
-                                            目标估值
-                                            <span class="field-hint">目标市值或目标价</span>
-                                        </label>
-                                        <textarea id="edit-valuation" placeholder="例如：3 倍空间，300 亿市值">${(data.articles?.[0]?.target_valuation || []).join(', ')}</textarea>
-                                        <div class="field-note">⚠️ 此字段将应用到最新一篇文章</div>
-                                    </div>
-                                </div>
+                            <div class="inline-edit-row">
+                                <label>
+                                    🔗 产业链
+                                    <span class="field-hint">上中下游位置描述</span>
+                                </label>
+                                <textarea id="edit-chain" placeholder="例如：上游 - 铜箔，中游 - 覆铜板制造，下游 - 消费电子">${(data.chain || []).join(', ')}</textarea>
                             </div>
                             
-                            <div class="edit-footer">
-                                <div class="edit-status" id="edit-status"></div>
-                                <div class="edit-actions">
-                                    <button class="edit-btn edit-preview" onclick="previewEdit()">👁️ 预览</button>
-                                    <button class="edit-btn edit-cancel" onclick="this.closest('.edit-modal').remove()">✖ 取消</button>
-                                    <button class="edit-btn edit-save" onclick="saveEdit('${code}')">💾 保存并更新</button>
-                                </div>
+                            <div class="inline-edit-row">
+                                <label>
+                                    🤝 合作伙伴
+                                    <span class="field-hint">主要客户、供应商</span>
+                                </label>
+                                <textarea id="edit-partners" placeholder="例如：华为，小米，OPPO，VIVO">${(data.partners || []).join(', ')}</textarea>
+                            </div>
+                            
+                            <div class="inline-edit-row">
+                                <label>
+                                    ⚡ 催化剂/风险事件
+                                    <span class="field-hint">影响股价的事件</span>
+                                </label>
+                                <textarea id="edit-accidents" placeholder="例如：产品涨价，政策利好">${(data.articles?.[0]?.accidents || []).join(', ')}</textarea>
+                                <div class="field-note">⚠️ 此字段将应用到最新一篇文章</div>
+                            </div>
+                            
+                            <div class="inline-edit-row">
+                                <label>
+                                    💡 核心洞察
+                                    <span class="field-hint">投资亮点</span>
+                                </label>
+                                <textarea id="edit-insights" placeholder="例如：预计未来 3 倍增长空间">${(data.articles?.[0]?.insights || []).join(', ')}</textarea>
+                                <div class="field-note">⚠️ 此字段将应用到最新一篇文章</div>
+                            </div>
+                            
+                            <div class="inline-edit-row">
+                                <label>
+                                    🎯 目标估值
+                                    <span class="field-hint">目标市值或目标价</span>
+                                </label>
+                                <textarea id="edit-valuation" placeholder="例如：3 倍空间，300 亿市值">${(data.articles?.[0]?.target_valuation || []).join(', ')}</textarea>
+                                <div class="field-note">⚠️ 此字段将应用到最新一篇文章</div>
+                            </div>
+                        </div>
+                        
+                        <div class="inline-edit-footer">
+                            <div class="edit-status" id="edit-status"></div>
+                            <div class="edit-actions">
+                                <button class="edit-btn edit-cancel" onclick="document.getElementById('inline-edit-form').remove()">✖ 取消</button>
+                                <button class="edit-btn edit-save" onclick="saveEdit('${code}')">💾 保存并更新</button>
                             </div>
                         </div>
                     `;
-                    document.body.appendChild(modal);
                     
-                    // 绑定 tab 切换
-                    modal.querySelectorAll('.edit-tab').forEach(tab => {
-                        tab.addEventListener('click', () => {
-                            modal.querySelectorAll('.edit-tab').forEach(t => t.classList.remove('active'));
-                            modal.querySelectorAll('.edit-tab-panel').forEach(p => p.classList.remove('active'));
-                            tab.classList.add('active');
-                            modal.querySelector(`[data-panel="${tab.dataset.tab}"]`).classList.add('active');
-                        });
-                    });
+                    // 插入到股票信息卡片下方
+                    const stockHero = document.querySelector('.stock-hero');
+                    stockHero.parentNode.insertBefore(form, stockHero.nextSibling);
+                    
+                    // 滚动到编辑表单
+                    form.scrollIntoView({ behavior: 'smooth', block: 'start' });
                 });
         }
         
