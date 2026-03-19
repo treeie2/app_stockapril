@@ -1,49 +1,454 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>股票列表</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>股票列表 - 智能投研平台</title>
+    <meta name="description" content="全市场股票列表 - 智能投研平台">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #080c14;
+            --bg-secondary: #0d1220;
+            --bg-card: #111827;
+            --bg-card-hover: #16202e;
+            --border: rgba(99, 179, 237, 0.12);
+            --border-hover: rgba(99, 179, 237, 0.35);
+            --accent-blue: #3b82f6;
+            --accent-cyan: #06b6d4;
+            --accent-green: #10b981;
+            --accent-amber: #f59e0b;
+            --accent-rose: #f43f5e;
+            --accent-purple: #8b5cf6;
+            --text-primary: #e2e8f0;
+            --text-secondary: #94a3b8;
+            --text-muted: #4b5563;
+            --radius-sm: 6px;
+            --radius-md: 10px;
+            --radius-lg: 16px;
+        }
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            min-height: 100vh;
+        }
+        
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            z-index: 0;
+            background: 
+                radial-gradient(ellipse 60% 40% at 30% 0%, rgba(59,130,246,0.07) 0%, transparent 60%),
+                radial-gradient(ellipse 40% 30% at 90% 70%, rgba(6,182,212,0.05) 0%, transparent 50%);
+            pointer-events: none;
+        }
+        
+        /* 导航 */
+        .navbar {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(8, 12, 20, 0.88);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            height: 60px;
+        }
+        
+        .navbar-brand {
+            font-size: 0.95rem;
+            font-weight: 700;
+            letter-spacing: 0.12em;
+            color: var(--accent-cyan);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-right: 0.5rem;
+        }
+        
+        .navbar-brand svg { width: 18px; height: 18px; }
+        
+        .nav-link {
+            padding: 0.35rem 0.8rem;
+            border-radius: var(--radius-sm);
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.8rem;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+        
+        .nav-link:hover {
+            color: var(--text-primary);
+            background: rgba(255,255,255,0.05);
+        }
+        
+        .nav-link.active {
+            color: var(--accent-cyan);
+            background: rgba(6,182,212,0.1);
+        }
+        
+        /* 主容器 */
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+            position: relative;
+            z-index: 1;
+        }
+        
+        /* 页面头部 */
+        .page-header {
+            margin-bottom: 2rem;
+        }
+        
+        .page-title {
+            font-size: 1.8rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+        
+        .page-subtitle {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+        
+        /* 搜索框 */
+        .search-box {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            padding: 1.25rem;
+            margin-bottom: 1.5rem;
+            display: flex;
+            gap: 0.75rem;
+        }
+        
+        .search-input {
+            flex: 1;
+            background: rgba(255,255,255,0.03);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: 0.75rem 1rem;
+            color: var(--text-primary);
+            font-size: 0.9rem;
+            font-family: inherit;
+            transition: all 0.2s;
+        }
+        
+        .search-input:focus {
+            outline: none;
+            border-color: var(--accent-cyan);
+            background: rgba(255,255,255,0.05);
+        }
+        
+        .search-btn {
+            background: linear-gradient(135deg, var(--accent-cyan), #0891b2);
+            color: #fff;
+            border: none;
+            border-radius: var(--radius-md);
+            padding: 0.75rem 1.5rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .search-btn:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(6,182,212,0.3);
+        }
+        
+        /* 统计卡片 */
+        .stats-bar {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+        }
+        
+        .stat-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: 1rem 1.25rem;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            min-width: 180px;
+        }
+        
+        .stat-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: var(--radius-sm);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+        }
+        
+        .stat-icon.blue { background: rgba(59,130,246,0.1); }
+        .stat-icon.purple { background: rgba(139,92,246,0.1); }
+        .stat-icon.green { background: rgba(16,185,129,0.1); }
+        
+        .stat-value {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+        
+        .stat-label {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+        }
+        
+        /* 股票表格 */
+        .stocks-table {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+        }
+        
+        .table-header {
+            display: grid;
+            grid-template-columns: 80px 1fr 100px 2fr;
+            gap: 1rem;
+            padding: 1rem 1.5rem;
+            background: rgba(255,255,255,0.02);
+            border-bottom: 1px solid var(--border);
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        
+        .stock-row {
+            display: grid;
+            grid-template-columns: 80px 1fr 100px 2fr;
+            gap: 1rem;
+            padding: 1rem 1.5rem;
+            border-bottom: 1px solid var(--border);
+            transition: all 0.2s;
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+        }
+        
+        .stock-row:hover {
+            background: var(--bg-card-hover);
+            border-color: var(--border-hover);
+        }
+        
+        .stock-row:last-child {
+            border-bottom: none;
+        }
+        
+        .stock-code {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--accent-cyan);
+        }
+        
+        .stock-name {
+            font-weight: 600;
+            font-size: 0.95rem;
+        }
+        
+        .stock-mention {
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+        
+        .stock-mention.high { color: var(--accent-rose); }
+        .stock-mention.medium { color: var(--accent-amber); }
+        .stock-mention.low { color: var(--text-secondary); }
+        
+        .stock-concepts {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.4rem;
+        }
+        
+        .concept-tag {
+            font-size: 0.7rem;
+            padding: 0.2rem 0.6rem;
+            border-radius: 20px;
+            background: rgba(59,130,246,0.1);
+            border: 1px solid rgba(59,130,246,0.25);
+            color: #93c5fd;
+            transition: all 0.2s;
+        }
+        
+        .concept-tag:hover {
+            background: rgba(59,130,246,0.2);
+            border-color: var(--accent-blue);
+        }
+        
+        /* 空状态 */
+        .empty-state {
+            text-align: center;
+            padding: 4rem 2rem;
+            color: var(--text-muted);
+        }
+        
+        .empty-state-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            opacity: 0.5;
+        }
+        
+        /* 响应式 */
+        @media (max-width: 768px) {
+            .navbar { padding: 0 1rem; }
+            .container { padding: 1rem; }
+            .table-header, .stock-row {
+                grid-template-columns: 70px 1fr;
+                gap: 0.5rem;
+            }
+            .table-header > *:nth-child(3),
+            .table-header > *:nth-child(4),
+            .stock-row > *:nth-child(3),
+            .stock-row > *:nth-child(4) {
+                display: none;
+            }
+        }
+    </style>
 </head>
-<body class="bg-gray-50">
-    <nav class="bg-white shadow p-4">
-        <div class="max-w-7xl mx-auto flex gap-4">
-            <a href="/" class="text-blue-600">仪表板</a>
-            <a href="/stocks" class="font-bold">股票列表</a>
-            <a href="/concepts">概念大全</a>
-            <a href="/search">搜索</a>
-        </div>
+<body>
+    <!-- 导航 -->
+    <nav class="navbar">
+        <a href="/" class="navbar-brand">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
+            </svg>
+            CYBERRESEARCH
+        </a>
+        <a href="/" class="nav-link">仪表板</a>
+        <a href="/stocks" class="nav-link active">股票列表</a>
+        <a href="/concepts" class="nav-link">概念大全</a>
+        <a href="/search" class="nav-link">🔍 搜索</a>
     </nav>
-    <main class="max-w-7xl mx-auto p-4">
-        <h1 class="text-2xl font-bold mb-4">股票列表 ({{ total }})</h1>
-        <div class="bg-white rounded shadow overflow-hidden">
-            <table class="min-w-full">
-                <thead class="bg-gray-50">
-                    <tr>
-                        <th class="px-4 py-2 text-left">代码</th>
-                        <th class="px-4 py-2 text-left">名称</th>
-                        <th class="px-4 py-2 text-left">提及</th>
-                        <th class="px-4 py-2 text-left">概念</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {% for s in stocks %}
-                    <tr class="border-t hover:bg-gray-50">
-                        <td class="px-4 py-2 font-mono">{{ s.code }}</td>
-                        <td class="px-4 py-2">
-                            <a href="/stock/{{ s.code }}" class="text-blue-600 hover:underline">{{ s.name }}</a>
-                        </td>
-                        <td class="px-4 py-2">{{ s.mention_count }}</td>
-                        <td class="px-4 py-2">
-                            {% for c in s.concepts[:3] %}
-                            <a href="/concept/{{ c }}" class="px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded mr-1">{{ c }}</a>
-                            {% endfor %}
-                        </td>
-                    </tr>
-                    {% endfor %}
-                </tbody>
-            </table>
+    
+    <div class="container">
+        <!-- 页面头部 -->
+        <div class="page-header">
+            <h1 class="page-title">
+                📊 股票列表
+                <span style="font-size: 0.9rem; font-weight: 500; color: var(--text-secondary);">({{ total }} 只)</span>
+            </h1>
+            <p class="page-subtitle">全市场股票研究数据库 - 按提及热度排序</p>
         </div>
-    </main>
+        
+        <!-- 搜索框 -->
+        <div class="search-box">
+            <input type="text" class="search-input" id="searchInput" 
+                   placeholder="快速搜索股票代码、名称或概念..."
+                   onkeyup="filterStocks()">
+            <button class="search-btn" onclick="filterStocks()">🔍 搜索</button>
+        </div>
+        
+        <!-- 统计卡片 -->
+        <div class="stats-bar">
+            <div class="stat-card">
+                <div class="stat-icon blue">📈</div>
+                <div>
+                    <div class="stat-value">{{ total }}</div>
+                    <div class="stat-label">股票总数</div>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon purple">🔥</div>
+                <div>
+                    <div class="stat-value">{{ stocks|selectattr('mention_count', 'gt', 5)|list|length }}</div>
+                    <div class="stat-label">热门股票 (>5 提及)</div>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon green">📄</div>
+                <div>
+                    <div class="stat-value">{{ stocks|sum(attribute='articles')|length }}</div>
+                    <div class="stat-label">研究文章</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 股票表格 -->
+        <div class="stocks-table" id="stocksTable">
+            <div class="table-header">
+                <div>代码</div>
+                <div>名称</div>
+                <div>提及</div>
+                <div>概念</div>
+            </div>
+            
+            {% for s in stocks %}
+            <a href="/stock/{{ s.code }}" class="stock-row" 
+               data-code="{{ s.code }}" 
+               data-name="{{ s.name }}" 
+               data-concepts="{{ s.concepts|join(',') }}">
+                <div class="stock-code">{{ s.code }}</div>
+                <div class="stock-name">{{ s.name }}</div>
+                <div class="stock-mention {% if s.mention_count > 5 %}high{% elif s.mention_count > 2 %}medium{% else %}low{% endif %}">
+                    {% if s.mention_count > 0 %}🔥 {{ s.mention_count }}{% else %}—{% endif %}
+                </div>
+                <div class="stock-concepts">
+                    {% for c in s.concepts[:5] %}
+                    <span class="concept-tag">{{ c }}</span>
+                    {% endfor %}
+                    {% if s.concepts|length > 5 %}
+                    <span class="concept-tag" style="background:transparent;border-color:var(--border);color:var(--text-muted)">+{{ s.concepts|length - 5 }}</span>
+                    {% endif %}
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+        
+        {% if not stocks %}
+        <div class="empty-state">
+            <div class="empty-state-icon">🔍</div>
+            <div style="font-size: 1.1rem; margin-bottom: 0.5rem;">未找到匹配的股票</div>
+            <div style="color: var(--text-secondary); font-size: 0.9rem;">尝试其他搜索关键词</div>
+        </div>
+        {% endif %}
+    </div>
+    
+    <script>
+        function filterStocks() {
+            const query = document.getElementById('searchInput').value.toLowerCase();
+            const rows = document.querySelectorAll('.stock-row');
+            
+            rows.forEach(row => {
+                const code = row.dataset.code.toLowerCase();
+                const name = row.dataset.name.toLowerCase();
+                const concepts = row.dataset.concepts.toLowerCase();
+                
+                if (code.includes(query) || name.includes(query) || concepts.includes(query)) {
+                    row.style.display = 'grid';
+                } else {
+                    row.style.display = 'none';
+                }
+            });
+        }
+    </script>
 </body>
 </html>
