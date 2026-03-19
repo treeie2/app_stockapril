@@ -79,6 +79,27 @@ except Exception as e:
     print(f"  ❌ 错误：{e}")
     stocks, concepts = {}, {}
 
+# 从 stocks_master.json 补充行业数据
+print("📋 补充行业数据...")
+try:
+    MASTER_FILE = Path(__file__).parent / 'data' / 'master' / 'stocks_master.json'
+    with open(MASTER_FILE, 'r', encoding='utf-8') as f:
+        master_data = json.load(f)
+    
+    master_stocks = master_data.get('stocks', [])
+    industry_count = 0
+    for s in master_stocks:
+        code = s.get('code')
+        if code and code in stocks:
+            industry = s.get('industry', '')
+            if industry:
+                stocks[code]['industries'] = industry
+                industry_count += 1
+    
+    print(f"  ✅ 补充 {industry_count} 只股票的行业数据")
+except Exception as e:
+    print(f"  ⚠️ 行业数据补充失败：{e}")
+
 @app.route('/')
 def dashboard():
     # 传递所有股票数据（只保留 A 股个股，过滤 ETF 和指数）
