@@ -1180,9 +1180,9 @@
                             </div>
                             
                             <div class="edit-tabs">
-                                <button class="edit-tab active" data-tab="basic">基本信息</button>
-                                <button class="edit-tab" data-tab="business">业务信息</button>
-                                <button class="edit-tab" data-tab="article">文章数据</button>
+                                <button class="edit-tab active" data-tab="basic"><span class="tab-icon">📊</span>基本信息</button>
+                                <button class="edit-tab" data-tab="business"><span class="tab-icon">💼</span>业务信息</button>
+                                <button class="edit-tab" data-tab="article"><span class="tab-icon">📝</span>文章数据</button>
                             </div>
                             
                             <div class="edit-body">
@@ -1381,10 +1381,11 @@
             .stock-name{font-size:0.95rem;font-weight:600;color:var(--text-primary)}
             .stock-code{font-size:0.75rem;font-family:var(--mono);color:var(--accent-cyan);background:rgba(6,182,212,0.1);padding:0.2rem 0.5rem;border-radius:4px}
             .edit-hint{padding:0.75rem 1.5rem;font-size:0.75rem;color:var(--text-muted);background:rgba(245,158,11,0.05);border-bottom:1px solid var(--border)}
-            .edit-tabs{display:flex;gap:0.5rem;padding:0.75rem 1.5rem;border-bottom:1px solid var(--border);background:var(--bg-card)}
-            .edit-tab{padding:0.4rem 0.85rem;background:transparent;border:1px solid var(--border);border-radius:6px;color:var(--text-muted);font-size:0.8rem;cursor:pointer;transition:all 0.18s}
-            .edit-tab:hover{border-color:var(--accent-cyan);color:var(--text-primary)}
-            .edit-tab.active{background:linear-gradient(135deg,#8b5cf6,#7c3aed);border-color:transparent;color:#fff}
+            .edit-tabs{display:flex;gap:0.5rem;padding:0 1.5rem;margin-top:1rem;border-bottom:2px solid var(--border);background:transparent}
+            .edit-tab{padding:0.75rem 1.25rem;background:transparent;border:none;border-bottom:2px solid transparent;color:var(--text-secondary);font-size:0.9rem;font-weight:500;cursor:pointer;transition:all 0.2s;margin-bottom:-2px;position:relative}
+            .edit-tab:hover{color:var(--text-primary);background:rgba(139,92,246,0.05)}
+            .edit-tab.active{color:var(--accent-purple);border-bottom-color:var(--accent-purple);background:rgba(139,92,246,0.08)}
+            .edit-tab .tab-icon{margin-right:0.4rem;font-size:1rem}
             .edit-body{flex:1;overflow-y:auto;padding:1.25rem 1.5rem}
             .edit-tab-panel{display:none}
             .edit-tab-panel.active{display:block}
