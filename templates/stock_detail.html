@@ -490,6 +490,22 @@
             font-weight: 600;
             color: var(--text-primary);
             line-height: 1.45;
+            transition: all 0.2s;
+        }
+        
+        .article-title-link {
+            transition: all 0.2s;
+        }
+        
+        .article-title-link:hover {
+            opacity: 0.85;
+        }
+        
+        .article-title-link:hover .article-title {
+            text-decoration: underline;
+            text-decoration-color: var(--accent-cyan);
+            text-decoration-thickness: 2px;
+            text-underline-offset: 3px;
         }
         
         .article-meta-row {
@@ -936,15 +952,20 @@
                                 <div class="article-card-header" onclick="toggleArticle('article-{{ loop.index }}')">
                                     <div style="flex:1">
                                         {% if article.url %}
-                                            <a href="{{ article.url }}" target="_blank" rel="noopener" class="article-title-link" style="color:var(--text-primary);text-decoration:none;display:block;margin-bottom:0.25rem" onclick="event.stopPropagation()">
-                                                <div class="article-title">{{ article.title | default('（无标题）') }}</div>
+                                            <a href="{{ article.url }}" target="_blank" rel="noopener" class="article-title-link" style="color:var(--accent-cyan);text-decoration:none;display:flex;align-items:center;gap:0.5rem;margin-bottom:0.25rem" onclick="event.stopPropagation()">
+                                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="flex-shrink:0">
+                                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                                </svg>
+                                                <div class="article-title" style="color:inherit">{{ article.title | default('（无标题）') }}</div>
                                             </a>
                                         {% else %}
                                             <div class="article-title">{{ article.title | default('（无标题）') }}</div>
                                         {% endif %}
                                         <div class="article-meta-row">
                                             {% if article.source %}
-                                                <span class="article-source">{{ article.source }}</span>
+                                                <span class="article-source">📤 {{ article.source | replace('https://mp.weixin.qq.com/s/', '微信 · ') | replace('https://', '') | truncate(40) }}</span>
                                             {% endif %}
                                             {% if article.date %}
                                                 <span class="article-date">📅 {{ article.date }}</span>
