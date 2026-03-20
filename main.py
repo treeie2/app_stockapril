@@ -413,7 +413,7 @@ def api_suggest():
 
 # 数据文件路径
 # 优先使用未压缩的 JSON 文件
-if Path(__file__).parent / 'data' / 'master' / 'stocks_master.json'.exists():
+if (Path(__file__).parent / 'data' / 'master' / 'stocks_master.json').exists():
     MASTER_FILE = Path(__file__).parent / 'data' / 'master' / 'stocks_master.json'
 else:
     MASTER_FILE = Path(__file__).parent / 'data' / 'master' / 'stocks_master.json.gz'
