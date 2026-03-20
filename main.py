@@ -83,14 +83,20 @@ except Exception as e:
 # 从 stocks_master.json 补充行业数据
 print("📋 补充行业数据...")
 try:
-    MASTER_FILE = Path(__file__).parent / 'data' / 'master' / 'stocks_master.json.gz'
-    # 支持读取压缩文件
-    if MASTER_FILE.suffix == '.gz':
-        with gzip.open(MASTER_FILE, 'rt', encoding='utf-8') as f:
+    # 优先读取未压缩的 JSON 文件（Railway 部署用）
+    MASTER_FILE_JSON = Path(__file__).parent / 'data' / 'master' / 'stocks_master.json'
+    MASTER_FILE_GZ = Path(__file__).parent / 'data' / 'master' / 'stocks_master.json.gz'
+    
+    if MASTER_FILE_JSON.exists():
+        print(f"  📋 读取 stocks_master.json ({MASTER_FILE_JSON.stat().st_size / 1024 / 1024:.2f} MB)...")
+        with open(MASTER_FILE_JSON, 'r', encoding='utf-8') as f:
+            master_data = json.load(f)
+    elif MASTER_FILE_GZ.exists():
+        print(f"  📋 读取 stocks_master.json.gz...")
+        with gzip.open(MASTER_FILE_GZ, 'rt', encoding='utf-8') as f:
             master_data = json.load(f)
     else:
-        with open(MASTER_FILE, 'r', encoding='utf-8') as f:
-            master_data = json.load(f)
+        raise FileNotFoundError("未找到 stocks_master 数据文件")
     
     master_stocks = master_data.get('stocks', [])
     industry_count = 0
@@ -406,7 +412,11 @@ def api_suggest():
     return jsonify({'suggestions': sug[:10]})
 
 # 数据文件路径
-MASTER_FILE = Path(__file__).parent / 'data' / 'master' / 'stocks_master.json.gz'
+# 优先使用未压缩的 JSON 文件
+if Path(__file__).parent / 'data' / 'master' / 'stocks_master.json'.exists():
+    MASTER_FILE = Path(__file__).parent / 'data' / 'master' / 'stocks_master.json'
+else:
+    MASTER_FILE = Path(__file__).parent / 'data' / 'master' / 'stocks_master.json.gz'
 EDIT_LOG_FILE = Path(__file__).parent / 'data' / 'edit_log.json'
 
 # 编辑记录
