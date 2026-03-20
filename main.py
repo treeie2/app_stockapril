@@ -1,3 +1,4 @@
+import gzip
 #!/usr/bin/env python3
 """
 个股研究数据库 Web 界面 - Railway 极简版

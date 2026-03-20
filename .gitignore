@@ -25,3 +25,8 @@ data/sentiment/search_index_lite*
 
 # 日志
 *.log
+
+# 排除大文件
+data/fundamentals/market_data.json
+data/master/*.json
+!data/master/*.json.gz
