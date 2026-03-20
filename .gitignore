@@ -1,4 +1,3 @@
-# Python
 __pycache__/
 *.py[cod]
 *$py.class
@@ -7,26 +6,15 @@ __pycache__/
 *.egg-info/
 dist/
 build/
-
-# 数据文件（只保留压缩的 full 版本）
 data/sentiment/*.json
 data/sentiment/search_index_lite*
 !data/sentiment/search_index_full.json.gz
-
-# 环境变量
 .env
 .env.local
-
-# IDE
 .vscode/
 .idea/
 *.swp
 *.swo
-
-# 日志
 *.log
-
-# 排除大文件
+# 大文件（但保留 stocks_master.json 用于部署）
 data/fundamentals/market_data.json
-data/master/*.json
-!data/master/*.json.gz
