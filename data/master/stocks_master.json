@@ -17842,8 +17842,19 @@
             "国内第一"
           ],
           "target_valuation": []
+        },
+        {
+          "title": "心似白云常自在，意如流水任东西 -20260322",
+          "date": "2026-03-22",
+          "source": "https://mp.weixin.qq.com/s/WSm7Q7UxXKMtW5PLOkJ_Og",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
         }
-      ]
+      ],
+      "mention_count": 1,
+      "article_count": 2
     },
     {
       "name": "光伏储能",
@@ -20035,9 +20046,20 @@
           "insights": [],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "title": "心似白云常自在，意如流水任东西 -20260322",
+          "date": "2026-03-22",
+          "source": "https://mp.weixin.qq.com/s/WSm7Q7UxXKMtW5PLOkJ_Og",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "industry": "电力设备-光伏设备-硅料硅片"
+      "industry": "电力设备-光伏设备-硅料硅片",
+      "mention_count": 1,
+      "article_count": 2
     },
     {
       "name": "物联网",
@@ -55453,7 +55475,7 @@
         "沪股通",
         "融资融券"
       ],
-      "mention_count": 1,
+      "mention_count": 2,
       "products": [],
       "core_business": [],
       "industry_position": [],
@@ -55476,8 +55498,18 @@
             "占比达 20%"
           ],
           "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理 3.20",
+          "date": "2026-03-22",
+          "source": "https://mp.weixin.qq.com/s/p9aGFNVo822RLlakCtHW5w",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
         }
-      ]
+      ],
+      "article_count": 2
     },
     {
       "name": "火炬电子",
@@ -79218,7 +79250,7 @@
       "partners": [
         "航母舰载机空调系统独家供应商"
       ],
-      "article_count": 1,
+      "article_count": 2,
       "articles": [
         {
           "title": "“国产航母概念”深度解析与操作策略，6月28日",
@@ -79230,8 +79262,18 @@
             "航母舰载机空调系统独家供应商，军用电源覆盖全军种，2025年Q1净利润同比增长751.84%"
           ],
           "target_valuation": []
+        },
+        {
+          "title": "泰豪科技，翻倍空间？",
+          "date": "2026-03-22",
+          "source": "https://mp.weixin.qq.com/s/zW8vwd4_UsOjlERZexj4pg",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
         }
-      ]
+      ],
+      "mention_count": 1
     },
     {
       "name": "金陵饭店",
@@ -84661,6 +84703,140 @@
           "key_metrics": [
             "锌冶炼加工费上调驱动，半年度净利预增51%~75%"
           ],
+          "target_valuation": []
+        }
+      ]
+    },
+    {
+      "name": "强瑞技术",
+      "code": "301128",
+      "board": "SZ",
+      "industry": "机械设备-专用设备-其他专用设备",
+      "concepts": [],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": null,
+      "mention_count": 1,
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "强瑞技术，128% 空间？",
+          "date": "2026-03-22",
+          "source": "https://mp.weixin.qq.com/s/b3NUnawZjYqvODGhItNxcQ",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ]
+    },
+    {
+      "name": "山东赫达",
+      "code": "002810",
+      "board": "SZ",
+      "industry": "基础化工-塑料和橡胶制品-其他塑料制品",
+      "concepts": [],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": null,
+      "mention_count": 1,
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "山东赫达，2 倍空间？",
+          "date": "2026-03-22",
+          "source": "https://mp.weixin.qq.com/s/r5Z3Q0ACXUPJwXULvUxp_Q",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ]
+    },
+    {
+      "name": "唯科科技",
+      "code": "301196",
+      "board": "SZ",
+      "industry": "基础化工-塑料和橡胶制品-其他塑料制品",
+      "concepts": [],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": null,
+      "mention_count": 1,
+      "article_count": 2,
+      "articles": [
+        {
+          "title": "今天的一些信息整理 3.20",
+          "date": "2026-03-22",
+          "source": "https://mp.weixin.qq.com/s/p9aGFNVo822RLlakCtHW5w",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "唯科科技，3 倍空间？",
+          "date": "2026-03-22",
+          "source": "https://mp.weixin.qq.com/s/dq1FIvwRVwSkg-MupLiFig",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ]
+    },
+    {
+      "name": "昱能科技",
+      "code": "688348",
+      "board": "SH",
+      "industry": "电力设备-光伏设备-逆变器",
+      "concepts": [],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": null,
+      "mention_count": 1,
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "今天的一些信息整理 3.20",
+          "date": "2026-03-22",
+          "source": "https://mp.weixin.qq.com/s/p9aGFNVo822RLlakCtHW5w",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ]
+    },
+    {
+      "name": "富临精工",
+      "code": "300432",
+      "board": "SZ",
+      "industry": "汽车-汽车零部件-底盘与发动机系统",
+      "concepts": [],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": null,
+      "mention_count": 1,
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "今天的一些信息整理 3.20",
+          "date": "2026-03-22",
+          "source": "https://mp.weixin.qq.com/s/p9aGFNVo822RLlakCtHW5w",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
           "target_valuation": []
         }
       ]
