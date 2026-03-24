@@ -1,5 +1,0 @@
-# 强制重新部署触发文件
-# Created: 2026-03-25 00:15
-# Reason: Railway 部署数据未更新
-
-DEPLOY_TRIGGER=20260325_0015
