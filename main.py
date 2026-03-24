@@ -187,6 +187,61 @@ def stocks_list():
                  key=lambda x: x['mention_count'], reverse=True)
     return render_template('stocks.html', total=len(lst), stocks=lst)
 
+@app.route('/social-security-new')
+def social_security_new():
+    """2025Q4 社保基金新进股票页面"""
+    # 加载社保基金数据
+    SS_FILE = Path(__file__).parent / 'data' / 'master' / 'social_security_2025q4.json'
+    try:
+        with open(SS_FILE, 'r', encoding='utf-8') as f:
+            ss_data = json.load(f)
+    except Exception as e:
+        print(f"⚠️ 加载社保基金数据失败：{e}")
+        ss_data = {'stocks': [], 'total_count': 0}
+    
+    # 检查哪些股票在数据库中
+    enhanced_stocks = []
+    for stock in ss_data.get('stocks', []):
+        code = stock.get('code')
+        in_db = code in stocks
+        enhanced_stocks.append({**stock, 'in_database': in_db})
+    
+    # 按行业分组
+    industry_groups = {}
+    for stock in enhanced_stocks:
+        industry = stock.get('industry_category', '其他')
+        if industry not in industry_groups:
+            industry_groups[industry] = []
+        industry_groups[industry].append(stock)
+    
+    # 计算统计数据
+    total_count = len(enhanced_stocks)
+    industry_count = len(industry_groups)
+    
+    # 平均持股比例
+    ratios = []
+    max_ratio = 0
+    max_ratio_stock = ''
+    for stock in enhanced_stocks:
+        ratio_str = stock.get('ratio', '0%')
+        try:
+            ratio_val = float(ratio_str.replace('%', ''))
+            ratios.append(ratio_val)
+            if ratio_val > max_ratio:
+                max_ratio = ratio_val
+                max_ratio_stock = f"{stock.get('name', '')} {ratio_str}"
+        except:
+            pass
+    
+    avg_ratio = f"{sum(ratios)/len(ratios):.2f}%" if ratios else '0%'
+    
+    return render_template('social_security_new.html',
+                         industry_groups=industry_groups,
+                         total_count=total_count,
+                         industry_count=industry_count,
+                         avg_ratio=avg_ratio,
+                         max_ratio_stock=max_ratio_stock)
+
 @app.route('/demo/cards')
 def demo_cards():
     """卡片组件演示页面"""

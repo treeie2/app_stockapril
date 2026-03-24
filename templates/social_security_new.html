@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2025Q4 社保基金新进 - 智能投研平台</title>
+    <meta name="description" content="2025Q4 社保基金新进入前十大流通股股东的 23 家 A 股公司">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #080c14;
+            --bg-secondary: #0d1220;
+            --bg-card: #111827;
+            --bg-card-hover: #16202e;
+            --border: rgba(99, 179, 237, 0.12);
+            --border-hover: rgba(99, 179, 237, 0.35);
+            --accent-blue: #3b82f6;
+            --accent-cyan: #06b6d4;
+            --accent-green: #10b981;
+            --accent-amber: #f59e0b;
+            --accent-rose: #f43f5e;
+            --accent-purple: #8b5cf6;
+            --text-primary: #e2e8f0;
+            --text-secondary: #94a3b8;
+            --text-muted: #4b5563;
+            --radius-sm: 6px;
+            --radius-md: 10px;
+            --radius-lg: 16px;
+        }
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            min-height: 100vh;
+        }
+        
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            z-index: 0;
+            background: 
+                radial-gradient(ellipse 60% 40% at 30% 0%, rgba(59,130,246,0.07) 0%, transparent 60%),
+                radial-gradient(ellipse 40% 30% at 90% 70%, rgba(6,182,212,0.05) 0%, transparent 50%);
+            pointer-events: none;
+        }
+        
+        /* 导航 */
+        .navbar {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(8, 12, 20, 0.88);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            height: 60px;
+        }
+        
+        .navbar-brand {
+            font-size: 0.95rem;
+            font-weight: 700;
+            letter-spacing: 0.12em;
+            color: var(--accent-cyan);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-right: 0.5rem;
+        }
+        
+        .navbar-brand svg { width: 18px; height: 18px; }
+        
+        .nav-link {
+            padding: 0.35rem 0.8rem;
+            border-radius: var(--radius-sm);
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.8rem;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+        
+        .nav-link:hover {
+            color: var(--text-primary);
+            background: rgba(255,255,255,0.05);
+        }
+        
+        .nav-link.active {
+            color: var(--accent-cyan);
+            background: rgba(6,182,212,0.1);
+        }
+        
+        /* 主容器 */
+        .container {
+            position: relative;
+            z-index: 1;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        /* 页面标题 */
+        .page-header {
+            margin-bottom: 2rem;
+        }
+        
+        .page-title {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+        
+        .page-title .badge {
+            font-size: 0.75rem;
+            padding: 0.25rem 0.75rem;
+            background: linear-gradient(135deg, var(--accent-blue), var(--accent-cyan));
+            border-radius: 20px;
+            font-weight: 600;
+        }
+        
+        .page-subtitle {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+        
+        /* 统计卡片 */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .stat-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: 1.25rem;
+            transition: all 0.2s;
+        }
+        
+        .stat-card:hover {
+            border-color: var(--border-hover);
+            background: var(--bg-card-hover);
+        }
+        
+        .stat-value {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: var(--accent-cyan);
+            margin-bottom: 0.25rem;
+        }
+        
+        .stat-label {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+        }
+        
+        /* 行业分类 */
+        .industry-section {
+            margin-bottom: 2rem;
+        }
+        
+        .industry-header {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            margin-bottom: 1rem;
+            padding-bottom: 0.75rem;
+            border-bottom: 1px solid var(--border);
+        }
+        
+        .industry-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+        
+        .industry-count {
+            font-size: 0.75rem;
+            padding: 0.2rem 0.6rem;
+            background: var(--bg-card-hover);
+            border-radius: 12px;
+            color: var(--text-secondary);
+        }
+        
+        /* 股票卡片网格 */
+        .stock-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1rem;
+        }
+        
+        .stock-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: 1.25rem;
+            transition: all 0.2s;
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+        
+        .stock-card:hover {
+            border-color: var(--border-hover);
+            background: var(--bg-card-hover);
+            transform: translateY(-2px);
+        }
+        
+        .stock-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 0.75rem;
+        }
+        
+        .stock-name {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+        
+        .stock-code {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            font-family: 'JetBrains Mono', monospace;
+        }
+        
+        .stock-ratio {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--accent-green);
+            margin-bottom: 0.5rem;
+        }
+        
+        .stock-info {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            margin-bottom: 0.25rem;
+        }
+        
+        .stock-info strong {
+            color: var(--text-secondary);
+        }
+        
+        .stock-business {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            margin-top: 0.75rem;
+            padding-top: 0.75rem;
+            border-top: 1px solid var(--border);
+        }
+        
+        /* 链接样式 */
+        a.stock-card {
+            color: inherit;
+        }
+        
+        /* 响应式 */
+        @media (max-width: 768px) {
+            .container { padding: 1rem; }
+            .navbar { padding: 0 1rem; }
+            .stock-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <a href="/" class="navbar-brand">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M3 3v18h18"/>
+                <path d="M18 17V9"/>
+                <path d="M13 17V5"/>
+                <path d="M8 17v-3"/>
+            </svg>
+            智能投研
+        </a>
+        <a href="/" class="nav-link">首页</a>
+        <a href="/stocks" class="nav-link">股票列表</a>
+        <a href="/social-security-new" class="nav-link active">社保新进</a>
+        <a href="/search" class="nav-link">搜索</a>
+    </nav>
+
+    <!-- 主容器 -->
+    <div class="container">
+        <!-- 页面标题 -->
+        <div class="page-header">
+            <h1 class="page-title">
+                2025Q4 社保基金新进
+                <span class="badge">23 家公司</span>
+            </h1>
+            <p class="page-subtitle">社保基金新进入前十大流通股股东的 A 股公司名单</p>
+        </div>
+
+        <!-- 统计卡片 -->
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-value">{{ total_count }}</div>
+                <div class="stat-label">新进公司总数</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">{{ industry_count }}</div>
+                <div class="stat-label">覆盖行业数</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">{{ avg_ratio }}</div>
+                <div class="stat-label">平均持股比例</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">{{ max_ratio_stock }}</div>
+                <div class="stat-label">最高持股比例</div>
+            </div>
+        </div>
+
+        <!-- 按行业分类展示 -->
+        {% for industry, stocks in industry_groups.items() %}
+        <div class="industry-section">
+            <div class="industry-header">
+                <h2 class="industry-title">{{ industry }}</h2>
+                <span class="industry-count">{{ stocks|length }}家</span>
+            </div>
+            <div class="stock-grid">
+                {% for stock in stocks %}
+                {% if stock.in_database %}
+                <a href="/stock/{{ stock.code }}" class="stock-card">
+                {% else %}
+                <div class="stock-card">
+                {% endif %}
+                    <div class="stock-header">
+                        <div>
+                            <div class="stock-name">{{ stock.name }}</div>
+                            <div class="stock-code">{{ stock.code }}</div>
+                        </div>
+                    </div>
+                    <div class="stock-ratio">{{ stock.ratio }}</div>
+                    <div class="stock-info">
+                        <strong>社保组合:</strong> {{ stock.social_security_fund }}
+                    </div>
+                    <div class="stock-info">
+                        <strong>变动类型:</strong> {{ stock.change_type }}
+                    </div>
+                    <div class="stock-business">
+                        {{ stock.core_business }}
+                    </div>
+                    {% if not stock.in_database %}
+                    <div style="margin-top: 0.5rem; font-size: 0.7rem; color: var(--accent-amber);">
+                        ⚠️ 数据库中暂无此股详细信息
+                    </div>
+                    {% endif %}
+                {% if stock.in_database %}
+                </a>
+                {% else %}
+                </div>
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+    <script>
+        // 点击卡片跳转（对于没有链接的卡片）
+        document.querySelectorAll('.stock-card:not([href])').forEach(card => {
+            card.addEventListener('click', (e) => {
+                const code = card.querySelector('.stock-code').textContent.trim();
+                const name = card.querySelector('.stock-name').textContent.trim();
+                alert(`"${name} (${code})" 的详细信息正在收录中，敬请期待。`);
+            });
+        });
+    </script>
+</body>
+</html>
