@@ -1,10 +1,10 @@
 {
-  "version": "v12-gateway-llm-mapped",
-  "update_time": "2026-03-24T23:59:18.925974",
+  "version": "v12-merged-20260325_0006",
+  "update_time": "2026-03-25T00:06:58.755802",
   "source": "wechat_stock_extractor_v12 + gateway_llm",
   "data_source": "同花顺 iFinD + 正文提取 v11",
   "total_emails": 6,
-  "total_stocks": 15,
+  "total_stocks": 46,
   "stocks": [
     {
       "name": "唯科科技",
@@ -942,7 +942,1574 @@
       "industry_l1": "医药生物",
       "industry_l2": "医疗服务",
       "industry_l3": "医疗研发外包"
+    },
+    {
+      "name": "海光信息",
+      "code": "688041",
+      "board": "SH",
+      "industry": "电子-半导体-数字芯片设计",
+      "industry_l1": "电子",
+      "industry_l2": "半导体",
+      "industry_l3": "数字芯片设计",
+      "concepts": [
+        "中国AI 50",
+        "东数西算(算力)",
+        "芯片概念",
+        "阿里巴巴概念",
+        "腾讯概念",
+        "抖音概念(字节概念)",
+        "信创",
+        "百度概念",
+        "人工智能",
+        "DeepSeek概念",
+        "同花顺中特估100",
+        "沪股通",
+        "融资融券"
+      ],
+      "core_business": "",
+      "products": [],
+      "partners": [],
+      "accidents": [
+        "英伟达生态兼容国产 GPU 龙头"
+      ],
+      "insights": [
+        "英伟达 MGX ETL 开放机架兼容国产芯片，率先受益"
+      ],
+      "articles": [
+        {
+          "title": "自动导入 - 2026-03-25",
+          "url": "",
+          "date": "2026-03-25",
+          "accidents": [
+            "英伟达生态兼容国产 GPU 龙头"
+          ],
+          "insights": [
+            "英伟达 MGX ETL 开放机架兼容国产芯片，率先受益"
+          ],
+          "key_metrics": [],
+          "target_valuation": ""
+        }
+      ]
+    },
+    {
+      "name": "沪电股份",
+      "code": "002463",
+      "board": "SZ",
+      "industry": "电子-元件-印制电路板",
+      "industry_l1": "电子",
+      "industry_l2": "元件",
+      "industry_l3": "印制电路板",
+      "concepts": [
+        "PCB概念",
+        "5G",
+        "汽车电子",
+        "芯片概念",
+        "毫米波雷达",
+        "数据中心",
+        "华为概念",
+        "无人驾驶",
+        "人民币贬值受益",
+        "海峡两岸",
+        "污水处理",
+        "同花顺出海50",
+        "深股通",
+        "融资融券"
+      ],
+      "core_business": "",
+      "products": [],
+      "partners": [],
+      "accidents": [
+        "高频高速 PCB 龙头"
+      ],
+      "insights": [
+        "AI 算力需求爆发，PCB 需求激增"
+      ],
+      "articles": [
+        {
+          "title": "自动导入 - 2026-03-25",
+          "url": "",
+          "date": "2026-03-25",
+          "accidents": [
+            "高频高速 PCB 龙头"
+          ],
+          "insights": [
+            "AI 算力需求爆发，PCB 需求激增"
+          ],
+          "key_metrics": [],
+          "target_valuation": ""
+        }
+      ]
+    },
+    {
+      "name": "阳光电源",
+      "code": "300274",
+      "board": "SZ",
+      "industry": "电力设备-光伏设备-逆变器",
+      "industry_l1": "电力设备",
+      "industry_l2": "光伏设备",
+      "industry_l3": "逆变器",
+      "concepts": [
+        "虚拟电厂",
+        "宁德时代概念",
+        "储能",
+        "光伏概念",
+        "充电桩",
+        "氢能源",
+        "风电",
+        "数据中心",
+        "同花顺漂亮100",
+        "新能源汽车",
+        "深股通",
+        "融资融券",
+        "回购增持再贷款概念",
+        "数字经济"
+      ],
+      "core_business": "",
+      "products": [],
+      "partners": [],
+      "accidents": [
+        "国家数据局推进算电协同，绿电占比 80% 目标"
+      ],
+      "insights": [
+        "储能龙头，受益算电协同政策"
+      ],
+      "articles": [
+        {
+          "title": "自动导入 - 2026-03-25",
+          "url": "",
+          "date": "2026-03-25",
+          "accidents": [
+            "国家数据局推进算电协同，绿电占比 80% 目标"
+          ],
+          "insights": [
+            "储能龙头，受益算电协同政策"
+          ],
+          "key_metrics": [],
+          "target_valuation": ""
+        }
+      ]
+    },
+    {
+      "name": "国能日新",
+      "code": "301162",
+      "board": "SZ",
+      "industry": "计算机-软件开发-垂直应用软件",
+      "industry_l1": "计算机",
+      "industry_l2": "软件开发",
+      "industry_l3": "垂直应用软件",
+      "concepts": [
+        "人工智能",
+        "智能电网",
+        "虚拟电厂",
+        "碳交易",
+        "专精特新",
+        "风电",
+        "光伏概念",
+        "绿色电力",
+        "储能",
+        "深股通",
+        "融资融券"
+      ],
+      "core_business": "",
+      "products": [],
+      "partners": [],
+      "accidents": [
+        "算电协同政策推进"
+      ],
+      "insights": [
+        "电网 IT 受益，绿电管理需求提升"
+      ],
+      "articles": [
+        {
+          "title": "自动导入 - 2026-03-25",
+          "url": "",
+          "date": "2026-03-25",
+          "accidents": [
+            "算电协同政策推进"
+          ],
+          "insights": [
+            "电网 IT 受益，绿电管理需求提升"
+          ],
+          "key_metrics": [],
+          "target_valuation": ""
+        }
+      ]
+    },
+    {
+      "name": "利通电子",
+      "code": "603629",
+      "board": "SH",
+      "industry": "电子-消费电子-消费电子零部件及组装",
+      "industry_l1": "电子",
+      "industry_l2": "消费电子",
+      "industry_l3": "消费电子零部件及组装",
+      "concepts": [
+        "算力租赁",
+        "液冷服务器",
+        "东数西算(算力)",
+        "英伟达概念",
+        "云计算",
+        "腾讯概念",
+        "芯片概念",
+        "华为概念",
+        "2025年报预增",
+        "消费电子概念",
+        "军工",
+        "小米概念",
+        "OLED",
+        "沪股通"
+      ],
+      "core_business": "",
+      "products": [],
+      "partners": [],
+      "accidents": [
+        "AIDC 受益标的"
+      ],
+      "insights": [
+        "算力租赁需求爆发"
+      ],
+      "articles": [
+        {
+          "title": "自动导入 - 2026-03-25",
+          "url": "",
+          "date": "2026-03-25",
+          "accidents": [
+            "AIDC 受益标的"
+          ],
+          "insights": [
+            "算力租赁需求爆发"
+          ],
+          "key_metrics": [],
+          "target_valuation": ""
+        }
+      ]
+    },
+    {
+      "name": "宏景科技",
+      "code": "301396",
+      "board": "SZ",
+      "industry": "计算机-IT服务-IT服务Ⅲ",
+      "industry_l1": "计算机",
+      "industry_l2": "IT服务",
+      "industry_l3": "IT服务Ⅲ",
+      "concepts": [
+        "算力租赁",
+        "云计算",
+        "财税数字化",
+        "东数西算(算力)",
+        "多模态AI",
+        "ChatGPT概念",
+        "智慧政务",
+        "信创",
+        "腾讯概念",
+        "AI智能体",
+        "数据要素",
+        "数据中心",
+        "MR(混合现实)",
+        "空间计算",
+        "DeepSeek概念",
+        "智慧城市",
+        "华为概念",
+        "数字经济",
+        "安防",
+        "人工智能",
+        "AI应用",
+        "物联网",
+        "职业教育",
+        "智能医疗",
+        "专精特新",
+        "智能物流",
+        "乡村振兴",
+        "旅游概念",
+        "新型城镇化",
+        "深股通",
+        "融资融券"
+      ],
+      "core_business": "",
+      "products": [],
+      "partners": [],
+      "accidents": [
+        "AIDC 受益标的"
+      ],
+      "insights": [
+        "算力服务需求提升"
+      ],
+      "articles": [
+        {
+          "title": "自动导入 - 2026-03-25",
+          "url": "",
+          "date": "2026-03-25",
+          "accidents": [
+            "AIDC 受益标的"
+          ],
+          "insights": [
+            "算力服务需求提升"
+          ],
+          "key_metrics": [],
+          "target_valuation": ""
+        }
+      ]
+    },
+    {
+      "name": "协创数据",
+      "code": "300857",
+      "board": "SZ",
+      "industry": "电子-消费电子-消费电子零部件及组装",
+      "industry_l1": "电子",
+      "industry_l2": "消费电子",
+      "industry_l3": "消费电子零部件及组装",
+      "concepts": [
+        "EDR概念",
+        "英伟达概念",
+        "存储芯片",
+        "智能音箱",
+        "云游戏",
+        "AI眼镜",
+        "算力租赁",
+        "东数西算(算力)",
+        "共封装光学(CPO)",
+        "芯片概念",
+        "智能穿戴",
+        "云计算",
+        "消费电子概念",
+        "小米概念",
+        "数据中心",
+        "AI智能体",
+        "汽车电子",
+        "腾讯概念",
+        "人脸识别",
+        "车联网(车路协同)",
+        "AIGC概念",
+        "安防",
+        "2025年报预增",
+        "物联网",
+        "人形机器人",
+        "人工智能",
+        "短剧游戏",
+        "DeepSeek概念",
+        "机器人概念",
+        "AI应用",
+        "网络游戏",
+        "智能家居",
+        "粤港澳大湾区",
+        "人民币贬值受益",
+        "家用电器",
+        "净水概念",
+        "跨境电商",
+        "融资融券",
+        "深股通"
+      ],
+      "core_business": "",
+      "products": [],
+      "partners": [],
+      "accidents": [
+        "AIDC 受益标的"
+      ],
+      "insights": [
+        "数据存储需求增长"
+      ],
+      "articles": [
+        {
+          "title": "自动导入 - 2026-03-25",
+          "url": "",
+          "date": "2026-03-25",
+          "accidents": [
+            "AIDC 受益标的"
+          ],
+          "insights": [
+            "数据存储需求增长"
+          ],
+          "key_metrics": [],
+          "target_valuation": ""
+        }
+      ]
+    },
+    {
+      "name": "数据港",
+      "code": "603881",
+      "board": "SH",
+      "industry": "通信-通信服务-通信应用增值服务",
+      "industry_l1": "通信",
+      "industry_l2": "通信服务",
+      "industry_l3": "通信应用增值服务",
+      "concepts": [
+        "算力租赁",
+        "云计算",
+        "中国AI 50",
+        "国资云",
+        "腾讯概念",
+        "阿里巴巴概念",
+        "百度概念",
+        "东数西算(算力)",
+        "蚂蚁集团概念",
+        "数据中心",
+        "液冷服务器",
+        "国企改革",
+        "沪股通",
+        "融资融券"
+      ],
+      "core_business": "",
+      "products": [],
+      "partners": [],
+      "accidents": [
+        "AIDC 受益标的"
+      ],
+      "insights": [
+        "数据中心需求稳定增长"
+      ],
+      "articles": [
+        {
+          "title": "自动导入 - 2026-03-25",
+          "url": "",
+          "date": "2026-03-25",
+          "accidents": [
+            "AIDC 受益标的"
+          ],
+          "insights": [
+            "数据中心需求稳定增长"
+          ],
+          "key_metrics": [],
+          "target_valuation": ""
+        }
+      ]
+    },
+    {
+      "name": "润泽科技",
+      "code": "300442",
+      "board": "SZ",
+      "industry": "通信-通信服务-通信应用增值服务",
+      "industry_l1": "通信",
+      "industry_l2": "通信服务",
+      "industry_l3": "通信应用增值服务",
+      "concepts": [
+        "中国AI 50",
+        "抖音概念(字节概念)",
+        "算力租赁",
+        "东数西算(算力)",
+        "数据中心",
+        "液冷服务器",
+        "京津冀一体化",
+        "机器人概念",
+        "2025年报预增",
+        "回购增持再贷款概念",
+        "融资融券",
+        "深股通"
+      ],
+      "core_business": "",
+      "products": [],
+      "partners": [],
+      "accidents": [
+        "AIDC 受益标的"
+      ],
+      "insights": [
+        "数据中心龙头"
+      ],
+      "articles": [
+        {
+          "title": "自动导入 - 2026-03-25",
+          "url": "",
+          "date": "2026-03-25",
+          "accidents": [
+            "AIDC 受益标的"
+          ],
+          "insights": [
+            "数据中心龙头"
+          ],
+          "key_metrics": [],
+          "target_valuation": ""
+        }
+      ]
+    },
+    {
+      "name": "长飞光纤",
+      "code": "601869",
+      "board": "SH",
+      "industry": "通信-通信设备-通信线缆及配套",
+      "industry_l1": "通信",
+      "industry_l2": "通信设备",
+      "industry_l3": "通信线缆及配套",
+      "concepts": [
+        "光纤概念",
+        "共封装光学(CPO)",
+        "铜缆高速连接",
+        "特高压",
+        "第三代半导体",
+        "5G",
+        "风电",
+        "智能电网",
+        "海工装备",
+        "太赫兹",
+        "芯片概念",
+        "新能源汽车",
+        "专精特新",
+        "沪股通",
+        "人形机器人",
+        "一带一路",
+        "量子科技",
+        "机器人概念",
+        "工业互联网",
+        "创投",
+        "抖音概念(字节概念)",
+        "融资融券"
+      ],
+      "core_business": "",
+      "products": [],
+      "partners": [],
+      "accidents": [
+        "运营商光纤采购价格提升，单芯公里超 105 元"
+      ],
+      "insights": [
+        "棒纤缆一体化龙头，受益光纤涨价"
+      ],
+      "articles": [
+        {
+          "title": "自动导入 - 2026-03-25",
+          "url": "",
+          "date": "2026-03-25",
+          "accidents": [
+            "运营商光纤采购价格提升，单芯公里超 105 元"
+          ],
+          "insights": [
+            "棒纤缆一体化龙头，受益光纤涨价"
+          ],
+          "key_metrics": [],
+          "target_valuation": ""
+        }
+      ]
+    },
+    {
+      "name": "亨通光电",
+      "code": "600487",
+      "board": "SH",
+      "industry": "通信-通信设备-通信线缆及配套",
+      "industry_l1": "通信",
+      "industry_l2": "通信设备",
+      "industry_l3": "通信线缆及配套",
+      "concepts": [
+        "光纤概念",
+        "共封装光学(CPO)",
+        "F5G概念",
+        "特高压",
+        "液冷服务器",
+        "柔性直流输电",
+        "5G",
+        "6G概念",
+        "风电",
+        "芯片概念",
+        "太赫兹",
+        "智能电网",
+        "数据中心",
+        "海工装备",
+        "新能源汽车",
+        "长三角一体化",
+        "小米汽车",
+        "量子科技",
+        "军工",
+        "一带一路",
+        "无人驾驶",
+        "华为概念",
+        "人形机器人",
+        "机器人概念",
+        "水利",
+        "创投",
+        "智慧城市",
+        "网络安全",
+        "沪股通",
+        "融资融券",
+        "DeepSeek概念"
+      ],
+      "core_business": "",
+      "products": [],
+      "partners": [],
+      "accidents": [
+        "光纤光缆采购价格提升"
+      ],
+      "insights": [
+        "棒纤缆一体化，受益行业景气"
+      ],
+      "articles": [
+        {
+          "title": "自动导入 - 2026-03-25",
+          "url": "",
+          "date": "2026-03-25",
+          "accidents": [
+            "光纤光缆采购价格提升"
+          ],
+          "insights": [
+            "棒纤缆一体化，受益行业景气"
+          ],
+          "key_metrics": [],
+          "target_valuation": ""
+        }
+      ]
+    },
+    {
+      "name": "中天科技",
+      "code": "600522",
+      "board": "SH",
+      "industry": "通信-通信设备-通信线缆及配套",
+      "industry_l1": "通信",
+      "industry_l2": "通信设备",
+      "industry_l3": "通信线缆及配套",
+      "concepts": [
+        "光纤概念",
+        "铜缆高速连接",
+        "共封装光学(CPO)",
+        "液冷服务器",
+        "超导概念",
+        "超级电容",
+        "特高压",
+        "可控核聚变",
+        "柔性直流输电",
+        "钙钛矿电池",
+        "6G概念",
+        "5G",
+        "光伏概念",
+        "风电",
+        "数据中心",
+        "核电",
+        "海工装备",
+        "智能电网",
+        "固态电池",
+        "储能",
+        "汽车电子",
+        "锂电池概念",
+        "新能源汽车",
+        "氢能源",
+        "绿色电力",
+        "东数西算(算力)",
+        "商业航天",
+        "量子科技",
+        "华为概念",
+        "工业互联网",
+        "一带一路",
+        "机器人概念",
+        "碳中和",
+        "低空经济",
+        "阿里巴巴概念",
+        "DeepSeek概念",
+        "数字经济",
+        "沪股通",
+        "融资融券",
+        "数据要素",
+        "证金持股"
+      ],
+      "core_business": "",
+      "products": [],
+      "partners": [],
+      "accidents": [
+        "光纤光缆采购价格提升"
+      ],
+      "insights": [
+        "棒纤缆一体化龙头"
+      ],
+      "articles": [
+        {
+          "title": "自动导入 - 2026-03-25",
+          "url": "",
+          "date": "2026-03-25",
+          "accidents": [
+            "光纤光缆采购价格提升"
+          ],
+          "insights": [
+            "棒纤缆一体化龙头"
+          ],
+          "key_metrics": [],
+          "target_valuation": ""
+        }
+      ]
+    },
+    {
+      "name": "福晶科技",
+      "code": "002222",
+      "board": "SZ",
+      "industry": "电子-光学光电子-光学元件",
+      "industry_l1": "电子",
+      "industry_l2": "光学光电子",
+      "industry_l3": "光学元件",
+      "concepts": [
+        "光纤概念",
+        "无人驾驶",
+        "华为概念",
+        "虚拟现实",
+        "海峡两岸",
+        "福建自贸区",
+        "国企改革",
+        "深股通",
+        "融资融券"
+      ],
+      "core_business": "",
+      "products": [],
+      "partners": [],
+      "accidents": [
+        "日本 Granopt 法拉第旋光片停炉减产"
+      ],
+      "insights": [
+        "国产法拉第旋光片龙头，受益进口替代"
+      ],
+      "articles": [
+        {
+          "title": "自动导入 - 2026-03-25",
+          "url": "",
+          "date": "2026-03-25",
+          "accidents": [
+            "日本 Granopt 法拉第旋光片停炉减产"
+          ],
+          "insights": [
+            "国产法拉第旋光片龙头，受益进口替代"
+          ],
+          "key_metrics": [],
+          "target_valuation": ""
+        }
+      ]
+    },
+    {
+      "name": "海星股份",
+      "code": "603115",
+      "board": "SH",
+      "industry": "电子-电子化学品-电子化学品Ⅲ",
+      "industry_l1": "电子",
+      "industry_l2": "电子化学品",
+      "industry_l3": "电子化学品Ⅲ",
+      "concepts": [
+        "汽车电子",
+        "储能",
+        "专精特新"
+      ],
+      "core_business": "",
+      "products": [],
+      "partners": [],
+      "accidents": [
+        "海外 AIDC 对铝电容器需求激增"
+      ],
+      "insights": [
+        "铝电极箔龙头，AI 需求提升带来技术溢价"
+      ],
+      "articles": [
+        {
+          "title": "自动导入 - 2026-03-25",
+          "url": "",
+          "date": "2026-03-25",
+          "accidents": [
+            "海外 AIDC 对铝电容器需求激增"
+          ],
+          "insights": [
+            "铝电极箔龙头，AI 需求提升带来技术溢价"
+          ],
+          "key_metrics": [],
+          "target_valuation": ""
+        }
+      ]
+    },
+    {
+      "name": "汇绿生态",
+      "code": "001267",
+      "board": "SZ",
+      "industry": "建筑装饰-建筑装饰-装饰园林",
+      "industry_l1": "建筑装饰",
+      "industry_l2": "建筑装饰",
+      "industry_l3": "装饰园林",
+      "concepts": [
+        "共封装光学(CPO)",
+        "深股通",
+        "土壤修复",
+        "乡村振兴",
+        "股权转让(并购重组)",
+        "新型城镇化",
+        "污水处理",
+        "铜缆高速连接"
+      ],
+      "core_business": "",
+      "products": [],
+      "partners": [],
+      "accidents": [
+        "Coherent 最核心合作伙伴，物料充足"
+      ],
+      "insights": [
+        "二线光中物料最足，业绩确定性高"
+      ],
+      "articles": [
+        {
+          "title": "自动导入 - 2026-03-25",
+          "url": "",
+          "date": "2026-03-25",
+          "accidents": [
+            "Coherent 最核心合作伙伴，物料充足不短缺"
+          ],
+          "insights": [
+            "二线光中物料最足，业绩确定性高，空间看 600-800 亿"
+          ],
+          "key_metrics": [],
+          "target_valuation": ""
+        }
+      ]
+    },
+    {
+      "name": "光环新网",
+      "code": "300383",
+      "board": "SZ",
+      "industry": "通信-通信服务-通信应用增值服务",
+      "industry_l1": "通信",
+      "industry_l2": "通信服务",
+      "industry_l3": "通信应用增值服务",
+      "concepts": [
+        "算力租赁",
+        "MLOps概念",
+        "华为昇腾",
+        "云计算",
+        "抖音概念(字节概念)",
+        "AIGC概念",
+        "华为鲲鹏",
+        "东数西算(算力)",
+        "百度概念",
+        "区块链",
+        "DeepSeek概念",
+        "数据中心",
+        "数字经济",
+        "华为概念",
+        "液冷服务器",
+        "工业互联网",
+        "京津冀一体化",
+        "深股通",
+        "融资融券"
+      ],
+      "core_business": "",
+      "products": [],
+      "partners": [],
+      "accidents": [
+        "词元经济受益，Token 调用量爆发"
+      ],
+      "insights": [
+        "IDC 龙头，受益 AI 调用量增长"
+      ],
+      "articles": [
+        {
+          "title": "自动导入 - 2026-03-25",
+          "url": "",
+          "date": "2026-03-25",
+          "accidents": [
+            "词元经济受益，Token 调用量爆发"
+          ],
+          "insights": [
+            "IDC 龙头，受益 AI 调用量增长"
+          ],
+          "key_metrics": [],
+          "target_valuation": ""
+        }
+      ]
+    },
+    {
+      "name": "奥飞数据",
+      "code": "300738",
+      "board": "SZ",
+      "industry": "通信-通信服务-通信应用增值服务",
+      "industry_l1": "通信",
+      "industry_l2": "通信服务",
+      "industry_l3": "通信应用增值服务",
+      "concepts": [
+        "智谱AI",
+        "算力租赁",
+        "快手概念",
+        "云计算",
+        "东数西算(算力)",
+        "腾讯概念",
+        "网络安全",
+        "阿里巴巴概念",
+        "百度概念",
+        "数据要素",
+        "数据中心",
+        "DeepSeek概念",
+        "人工智能",
+        "华为概念",
+        "芯片概念",
+        "粤港澳大湾区",
+        "光伏概念",
+        "一带一路",
+        "绿色电力",
+        "融资融券",
+        "深股通"
+      ],
+      "core_business": "",
+      "products": [],
+      "partners": [],
+      "accidents": [
+        "词元经济受益"
+      ],
+      "insights": [
+        "数据中心受益 AI 商业化"
+      ],
+      "articles": [
+        {
+          "title": "自动导入 - 2026-03-25",
+          "url": "",
+          "date": "2026-03-25",
+          "accidents": [
+            "词元经济受益"
+          ],
+          "insights": [
+            "数据中心受益 AI 商业化"
+          ],
+          "key_metrics": [],
+          "target_valuation": ""
+        }
+      ]
+    },
+    {
+      "name": "法拉电子",
+      "code": "600563",
+      "board": "SH",
+      "industry": "电子-元件-被动元件",
+      "industry_l1": "电子",
+      "industry_l2": "元件",
+      "industry_l3": "被动元件",
+      "concepts": [
+        "超级电容",
+        "高压快充",
+        "新能源汽车",
+        "储能",
+        "光伏概念",
+        "特高压",
+        "人形机器人",
+        "军工",
+        "柔性直流输电",
+        "海峡两岸",
+        "福建自贸区",
+        "沪股通",
+        "融资融券",
+        "证金持股"
+      ],
+      "core_business": "",
+      "products": [],
+      "partners": [],
+      "accidents": [
+        "AIDC 推动 800V HVDC 与 SST 升级"
+      ],
+      "insights": [
+        "薄膜电容全球龙头，受益 AIDC 拓展"
+      ],
+      "articles": [
+        {
+          "title": "自动导入 - 2026-03-25",
+          "url": "",
+          "date": "2026-03-25",
+          "accidents": [
+            "AIDC 推动 800V HVDC 与 SST 升级"
+          ],
+          "insights": [
+            "薄膜电容全球龙头，受益 AIDC 拓展"
+          ],
+          "key_metrics": [],
+          "target_valuation": ""
+        }
+      ]
+    },
+    {
+      "name": "富祥药业",
+      "code": "300497",
+      "board": "SZ",
+      "industry": "医药生物-化学制药-原料药",
+      "industry_l1": "医药生物",
+      "industry_l2": "化学制药",
+      "industry_l3": "原料药",
+      "concepts": [
+        "锂电池概念",
+        "有机硅概念",
+        "人造肉",
+        "光刻胶",
+        "化肥",
+        "CRO概念",
+        "合成生物",
+        "创新药",
+        "猴痘概念",
+        "肝炎概念",
+        "融资融券",
+        "深股通"
+      ],
+      "core_business": "",
+      "products": [],
+      "partners": [],
+      "accidents": [
+        "26Q1 业绩预告 +2590%，VC 涨价兑现"
+      ],
+      "insights": [
+        "VC 龙头，业绩第一枪，吨净利超 8w"
+      ],
+      "articles": [
+        {
+          "title": "自动导入 - 2026-03-25",
+          "url": "",
+          "date": "2026-03-25",
+          "accidents": [
+            "26Q1 业绩预告 +2590%，VC 涨价兑现"
+          ],
+          "insights": [
+            "VC 龙头，业绩第一枪，吨净利超 8w"
+          ],
+          "key_metrics": [],
+          "target_valuation": ""
+        }
+      ]
+    },
+    {
+      "name": "华盛锂电",
+      "code": "688353",
+      "board": "SH",
+      "industry": "电力设备-电池-电池化学品",
+      "industry_l1": "电力设备",
+      "industry_l2": "电池",
+      "industry_l3": "电池化学品",
+      "concepts": [
+        "专精特新",
+        "锂电池概念",
+        "沪股通",
+        "宁德时代概念",
+        "融资融券",
+        "钠离子电池",
+        "有机硅概念",
+        "固态电池",
+        "比亚迪概念"
+      ],
+      "core_business": "",
+      "products": [],
+      "partners": [],
+      "accidents": [
+        "电解液添加剂价格跳涨"
+      ],
+      "insights": [
+        "VC 龙头，盈利拐点已现，26 年 26.4 亿净利润"
+      ],
+      "articles": [
+        {
+          "title": "自动导入 - 2026-03-25",
+          "url": "",
+          "date": "2026-03-25",
+          "accidents": [
+            "电解液添加剂价格跳涨，VC 供需格局反转"
+          ],
+          "insights": [
+            "电解液添加剂龙头，盈利拐点已现，26 年目标价 280 亿元"
+          ],
+          "key_metrics": [],
+          "target_valuation": ""
+        }
+      ]
+    },
+    {
+      "name": "海科新源",
+      "code": "301292",
+      "board": "SZ",
+      "industry": "电力设备-电池-电池化学品",
+      "industry_l1": "电力设备",
+      "industry_l2": "电池",
+      "industry_l3": "电池化学品",
+      "concepts": [
+        "钠离子电池",
+        "固态电池",
+        "锂电池概念",
+        "比亚迪概念",
+        "新能源汽车",
+        "专精特新",
+        "深股通",
+        "融资融券"
+      ],
+      "core_business": "",
+      "products": [],
+      "partners": [],
+      "accidents": [
+        "VC 厂商 Q2 业绩环比高增"
+      ],
+      "insights": [
+        "VC 厂商，保守 15e 业绩 9 倍 PE"
+      ],
+      "articles": [
+        {
+          "title": "自动导入 - 2026-03-25",
+          "url": "",
+          "date": "2026-03-25",
+          "accidents": [
+            "VC 厂商 Q2 业绩环比高增"
+          ],
+          "insights": [
+            "VC 厂商，保守 15e 业绩 9 倍 PE"
+          ],
+          "key_metrics": [],
+          "target_valuation": ""
+        }
+      ]
+    },
+    {
+      "name": "中远海能",
+      "code": "600026",
+      "board": "SH",
+      "industry": "交通运输-港口航运-航运",
+      "industry_l1": "交通运输",
+      "industry_l2": "港口航运",
+      "industry_l3": "航运",
+      "concepts": [
+        "俄乌冲突概念",
+        "天然气",
+        "航运概念",
+        "同花顺中特估100",
+        "央企国企改革",
+        "一带一路",
+        "上海自贸区",
+        "沪股通",
+        "融资融券",
+        "回购增持再贷款概念",
+        "证金持股",
+        "国企改革",
+        "人民币贬值受益",
+        "中字头股票"
+      ],
+      "core_business": "",
+      "products": [],
+      "partners": [],
+      "accidents": [
+        "霍尔木兹海峡或现小规模通航"
+      ],
+      "insights": [
+        "油运龙头，受益运价上涨弹性"
+      ],
+      "articles": [
+        {
+          "title": "自动导入 - 2026-03-25",
+          "url": "",
+          "date": "2026-03-25",
+          "accidents": [
+            "霍尔木兹海峡或现小规模通航"
+          ],
+          "insights": [
+            "油运龙头，受益运价上涨弹性"
+          ],
+          "key_metrics": [],
+          "target_valuation": ""
+        }
+      ]
+    },
+    {
+      "name": "招商轮船",
+      "code": "601872",
+      "board": "SH",
+      "industry": "交通运输-港口航运-航运",
+      "industry_l1": "交通运输",
+      "industry_l2": "港口航运",
+      "industry_l3": "航运",
+      "concepts": [
+        "天然气",
+        "俄乌冲突概念",
+        "航运概念",
+        "上海自贸区",
+        "央企国企改革",
+        "一带一路",
+        "融资融券",
+        "回购增持再贷款概念",
+        "国企改革",
+        "海峡两岸",
+        "沪股通"
+      ],
+      "core_business": "",
+      "products": [],
+      "partners": [],
+      "accidents": [
+        "油轮股大涨"
+      ],
+      "insights": [
+        "油运龙头，中长期景气度高"
+      ],
+      "articles": [
+        {
+          "title": "自动导入 - 2026-03-25",
+          "url": "",
+          "date": "2026-03-25",
+          "accidents": [
+            "油轮股大涨"
+          ],
+          "insights": [
+            "油运龙头，中长期景气度高"
+          ],
+          "key_metrics": [],
+          "target_valuation": ""
+        }
+      ]
+    },
+    {
+      "name": "国城矿业",
+      "code": "000688",
+      "board": "SZ",
+      "industry": "有色金属-工业金属-铅锌",
+      "industry_l1": "有色金属",
+      "industry_l2": "工业金属",
+      "industry_l3": "铅锌",
+      "concepts": [
+        "金属铅",
+        "金属锌",
+        "金属铜",
+        "小金属概念",
+        "黄金概念",
+        "钛白粉概念",
+        "锂电池概念",
+        "2025年报预增",
+        "西部大开发",
+        "深股通",
+        "股权转让(并购重组)",
+        "融资融券"
+      ],
+      "core_business": "",
+      "products": [],
+      "partners": [],
+      "accidents": [
+        "矿产资源储备丰富"
+      ],
+      "insights": [
+        "矿业龙头，翻倍空间预期"
+      ],
+      "articles": [
+        {
+          "title": "自动导入 - 2026-03-25",
+          "url": "",
+          "date": "2026-03-25",
+          "accidents": [
+            "矿产资源储备丰富"
+          ],
+          "insights": [
+            "矿业龙头，翻倍空间预期"
+          ],
+          "key_metrics": [],
+          "target_valuation": ""
+        }
+      ]
+    },
+    {
+      "name": "源杰科技",
+      "code": "688498",
+      "board": "SH",
+      "industry": "电子-半导体-分立器件",
+      "industry_l1": "电子",
+      "industry_l2": "半导体",
+      "industry_l3": "分立器件",
+      "concepts": [
+        "共封装光学(CPO)",
+        "光纤概念",
+        "5G",
+        "汽车芯片",
+        "芯片概念",
+        "数据中心",
+        "西部大开发",
+        "沪股通",
+        "融资融券"
+      ],
+      "core_business": "",
+      "products": [],
+      "partners": [],
+      "accidents": [
+        "光芯片 EML 主线领军者"
+      ],
+      "insights": [
+        "光芯片龙头，受益 AI 算力需求"
+      ],
+      "articles": [
+        {
+          "title": "自动导入 - 2026-03-25",
+          "url": "",
+          "date": "2026-03-25",
+          "accidents": [
+            "光芯片 EML 主线领军者"
+          ],
+          "insights": [
+            "光芯片龙头，受益 AI 算力需求"
+          ],
+          "key_metrics": [],
+          "target_valuation": ""
+        }
+      ]
+    },
+    {
+      "name": "长光华芯",
+      "code": "688048",
+      "board": "SH",
+      "industry": "电子-半导体-分立器件",
+      "industry_l1": "电子",
+      "industry_l2": "半导体",
+      "industry_l3": "分立器件",
+      "concepts": [
+        "光纤概念",
+        "共封装光学(CPO)",
+        "第三代半导体",
+        "可控核聚变",
+        "芯片概念",
+        "商业航天",
+        "数据中心",
+        "汽车芯片",
+        "专精特新",
+        "华为概念",
+        "无人驾驶",
+        "医美概念",
+        "沪股通",
+        "融资融券"
+      ],
+      "core_business": "",
+      "products": [],
+      "partners": [],
+      "accidents": [
+        "光芯片芯片供应商"
+      ],
+      "insights": [
+        "激光芯片龙头"
+      ],
+      "articles": [
+        {
+          "title": "自动导入 - 2026-03-25",
+          "url": "",
+          "date": "2026-03-25",
+          "accidents": [
+            "光芯片芯片供应商"
+          ],
+          "insights": [
+            "激光芯片龙头"
+          ],
+          "key_metrics": [],
+          "target_valuation": ""
+        }
+      ]
+    },
+    {
+      "name": "仕佳光子",
+      "code": "688313",
+      "board": "SH",
+      "industry": "通信-通信设备-通信网络设备及器件",
+      "industry_l1": "通信",
+      "industry_l2": "通信设备",
+      "industry_l3": "通信网络设备及器件",
+      "concepts": [
+        "共封装光学(CPO)",
+        "F5G概念",
+        "光纤概念",
+        "芯片概念",
+        "5G",
+        "数据中心",
+        "专精特新",
+        "2025年报预增",
+        "沪股通",
+        "融资融券"
+      ],
+      "core_business": "",
+      "products": [],
+      "partners": [],
+      "accidents": [
+        "光通信器件供应商"
+      ],
+      "insights": [
+        "AWG 芯片龙头"
+      ],
+      "articles": [
+        {
+          "title": "自动导入 - 2026-03-25",
+          "url": "",
+          "date": "2026-03-25",
+          "accidents": [
+            "光通信器件供应商"
+          ],
+          "insights": [
+            "AWG 芯片龙头"
+          ],
+          "key_metrics": [],
+          "target_valuation": ""
+        }
+      ]
+    },
+    {
+      "name": "光库科技",
+      "code": "300620",
+      "board": "SZ",
+      "industry": "通信-通信设备-通信网络设备及器件",
+      "industry_l1": "通信",
+      "industry_l2": "通信设备",
+      "industry_l3": "通信网络设备及器件",
+      "concepts": [
+        "共封装光学(CPO)",
+        "光纤概念",
+        "5G",
+        "芯片概念",
+        "数据中心",
+        "3D打印",
+        "量子科技",
+        "海工装备",
+        "商业航天",
+        "卫星导航",
+        "无人驾驶",
+        "2025年报预增",
+        "2025三季报预增",
+        "粤港澳大湾区",
+        "一带一路",
+        "横琴新区",
+        "国企改革",
+        "股权转让(并购重组)",
+        "深股通",
+        "融资融券"
+      ],
+      "core_business": "",
+      "products": [],
+      "partners": [],
+      "accidents": [
+        "TFLN 薄膜铌酸锂调制器"
+      ],
+      "insights": [
+        "薄膜铌酸锂龙头"
+      ],
+      "articles": [
+        {
+          "title": "自动导入 - 2026-03-25",
+          "url": "",
+          "date": "2026-03-25",
+          "accidents": [
+            "TFLN 薄膜铌酸锂调制器"
+          ],
+          "insights": [
+            "薄膜铌酸锂龙头"
+          ],
+          "key_metrics": [],
+          "target_valuation": ""
+        }
+      ]
+    },
+    {
+      "name": "*ST聆达",
+      "code": "300125",
+      "board": "SZ",
+      "industry": "电力设备-光伏设备-光伏电池组件",
+      "industry_l1": "电力设备",
+      "industry_l2": "光伏设备",
+      "industry_l3": "光伏电池组件",
+      "concepts": [
+        "烟草",
+        "新型烟草(电子烟)",
+        "HJT电池",
+        "TOPCON电池",
+        "光伏概念",
+        "ST板块",
+        "工业大麻",
+        "绿色电力"
+      ],
+      "core_business": "",
+      "products": [],
+      "partners": [],
+      "accidents": [
+        "硅光设备供应商"
+      ],
+      "insights": [
+        "硅光技术受益"
+      ],
+      "articles": [
+        {
+          "title": "自动导入 - 2026-03-25",
+          "url": "",
+          "date": "2026-03-25",
+          "accidents": [
+            "硅光设备供应商"
+          ],
+          "insights": [
+            "硅光技术受益"
+          ],
+          "key_metrics": [],
+          "target_valuation": ""
+        }
+      ]
+    },
+    {
+      "name": "新易盛",
+      "code": "300502",
+      "board": "SZ",
+      "industry": "通信-通信设备-通信网络设备及器件",
+      "industry_l1": "通信",
+      "industry_l2": "通信设备",
+      "industry_l3": "通信网络设备及器件",
+      "concepts": [
+        "共封装光学(CPO)",
+        "5G",
+        "中国AI 50",
+        "芯片概念",
+        "深股通",
+        "数据中心",
+        "2025年报预增",
+        "人民币贬值受益",
+        "西部大开发",
+        "融资融券"
+      ],
+      "core_business": "",
+      "products": [],
+      "partners": [],
+      "accidents": [
+        "光模块龙头"
+      ],
+      "insights": [
+        "800G 光模块领先"
+      ],
+      "articles": [
+        {
+          "title": "自动导入 - 2026-03-25",
+          "url": "",
+          "date": "2026-03-25",
+          "accidents": [
+            "光模块龙头"
+          ],
+          "insights": [
+            "800G 光模块领先"
+          ],
+          "key_metrics": [],
+          "target_valuation": ""
+        }
+      ]
+    },
+    {
+      "name": "中际旭创",
+      "code": "300308",
+      "board": "SZ",
+      "industry": "通信-通信设备-通信网络设备及器件",
+      "industry_l1": "通信",
+      "industry_l2": "通信设备",
+      "industry_l3": "通信网络设备及器件",
+      "concepts": [
+        "共封装光学(CPO)",
+        "F5G概念",
+        "液冷服务器",
+        "汽车电子",
+        "5G",
+        "中国AI 50",
+        "芯片概念",
+        "同花顺新质50",
+        "深股通",
+        "数据中心",
+        "2025年报预增",
+        "无人驾驶",
+        "人民币贬值受益",
+        "创投",
+        "融资融券"
+      ],
+      "core_business": "",
+      "products": [],
+      "partners": [],
+      "accidents": [
+        "光模块全球龙头"
+      ],
+      "insights": [
+        "AI 算力核心受益"
+      ],
+      "articles": [
+        {
+          "title": "自动导入 - 2026-03-25",
+          "url": "",
+          "date": "2026-03-25",
+          "accidents": [
+            "光模块全球龙头"
+          ],
+          "insights": [
+            "AI 算力核心受益"
+          ],
+          "key_metrics": [],
+          "target_valuation": ""
+        }
+      ]
     }
   ],
-  "last_updated": "2026-03-24 23:59:18"
+  "last_updated": "2026-03-25 00:06:58"
 }
