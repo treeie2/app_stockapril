@@ -66,6 +66,27 @@ def find_similar_stocks(code, top_k=10, min_similarity=0.1):
     similarities.sort(key=lambda x: x['similarity'], reverse=True)
     return similarities[:top_k]
 
+# 加载社保基金数据
+print("📋 加载社保基金数据...")
+SOCIAL_SECURITY_FILE = Path(__file__).parent / 'data' / 'master' / 'social_security_2025q4.json'
+social_security_stocks = set()
+social_security_info = {}
+try:
+    with open(SOCIAL_SECURITY_FILE, 'r', encoding='utf-8') as f:
+        ss_data = json.load(f)
+    for stock in ss_data.get('stocks', []):
+        code = stock.get('code')
+        if code:
+            social_security_stocks.add(code)
+            social_security_info[code] = {
+                'holding_ratio': stock.get('holding_ratio', ''),
+                'note': stock.get('note', ''),
+                'industry_group': stock.get('industry_group', '')
+            }
+    print(f"  ✅ 加载 {len(social_security_stocks)} 只社保基金新进股票")
+except Exception as e:
+    print(f"  ⚠️ 社保基金数据加载失败：{e}")
+
 # 加载数据
 print("📋 加载数据...")
 try:
@@ -294,6 +315,14 @@ def stock_detail(code):
         articles.append(article)
     
     stock['articles'] = articles
+    
+    # 添加社保基金信息
+    stock['is_social_security'] = code in social_security_stocks
+    if stock['is_social_security']:
+        ss_info = social_security_info.get(code, {})
+        stock['social_security_holding_ratio'] = ss_info.get('holding_ratio', '')
+        stock['social_security_note'] = ss_info.get('note', '')
+        stock['social_security_industry_group'] = ss_info.get('industry_group', '')
     
     return render_template('stock_detail.html', stock=stock)
 

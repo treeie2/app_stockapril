@@ -258,6 +258,34 @@
             font-weight: 600;
         }
         
+        /* 社保基金标记 */
+        .social-security-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            background: linear-gradient(135deg, rgba(234,179,8,0.15) 0%, rgba(234,179,8,0.08) 100%);
+            border: 1px solid rgba(234,179,8,0.4);
+            color: #fbbf24;
+            border-radius: 20px;
+            padding: 0.25rem 0.85rem;
+            font-size: 0.78rem;
+            font-weight: 700;
+            box-shadow: 0 0 12px rgba(234,179,8,0.2);
+            animation: ss-glow 2s ease-in-out infinite;
+        }
+        
+        .social-security-badge .ss-ratio {
+            font-size: 0.7rem;
+            font-weight: 500;
+            opacity: 0.9;
+            margin-left: 0.2rem;
+        }
+        
+        @keyframes ss-glow {
+            0%, 100% { box-shadow: 0 0 12px rgba(234,179,8,0.2); }
+            50% { box-shadow: 0 0 20px rgba(234,179,8,0.35); }
+        }
+        
         /* 概念标签行 */
         .concept-strip {
             margin-top: 0.75rem;
@@ -920,12 +948,20 @@
                 </div>
             </div>
             
-            <!-- 板块 · 行业 · 提及次数 -->
+            <!-- 板块 · 行业 · 提及次数 · 社保基金 -->
             <div class="hero-bottom">
                 {% if stock.board %}<span class="board-badge">{{ stock.board }}</span>{% endif %}
                 {% if stock.industry %}<span class="industry-badge">{{ stock.industry }}</span>{% endif %}
                 {% if stock.mention_count and stock.mention_count > 0 %}
                     <div class="mention-badge-hero">🔥 已提及 {{ stock.mention_count }} 次</div>
+                {% endif %}
+                {% if stock.is_social_security %}
+                    <div class="social-security-badge" title="社保基金 2025Q4 新进持仓">
+                        🏆 社保新进
+                        {% if stock.social_security_holding_ratio %}
+                            <span class="ss-ratio">{{ stock.social_security_holding_ratio }}</span>
+                        {% endif %}
+                    </div>
                 {% endif %}
             </div>
             
