@@ -387,7 +387,11 @@
             <div class="stat-card">
                 <div class="stat-icon green">📄</div>
                 <div>
-                    <div class="stat-value">{{ stocks|sum(attribute='articles')|length }}</div>
+                    {% set total_articles = namespace(count=0) %}
+                    {% for s in stocks %}
+                        {% set total_articles.count = total_articles.count + (s.articles|default([])|length) %}
+                    {% endfor %}
+                    <div class="stat-value">{{ total_articles.count }}</div>
                     <div class="stat-label">研究文章</div>
                 </div>
             </div>
