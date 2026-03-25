@@ -111,6 +111,7 @@ def main():
             'name': stock['name'],
             'board': stock.get('market', ''),
             'mention_count': stock.get('mention_count', 0) or len(articles),
+            'last_updated': stock.get('last_updated', ''),
             'concepts': stock.get('concepts', []) or stock.get('concept_tags', []) or [],
             'industries': [stock.get('industry_sw', ''), stock.get('industry_citic', '')],
             'products': llm.get('products', []) or [],
