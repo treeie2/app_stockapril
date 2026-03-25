@@ -158,12 +158,18 @@ def main():
             }
             mentions_by_code[code].append(article)
     
-    # 合并到股票数据
-    for code, articles in mentions_by_code.items():
+    # 合并到股票数据（合并而不是覆盖）
+    for code, new_articles in mentions_by_code.items():
         if code in stocks_dict:
-            stocks_dict[code]['articles'] = articles
+            # 合并文章（去重）
+            existing_ids = {a.get('article_id') for a in stocks_dict[code].get('articles', [])}
+            merged_articles = stocks_dict[code].get('articles', [])[:]
+            for a in new_articles:
+                if a.get('article_id') not in existing_ids:
+                    merged_articles.append(a)
+            stocks_dict[code]['articles'] = merged_articles
             # 更新提及数
-            stocks_dict[code]['mention_count'] = len(articles)
+            stocks_dict[code]['mention_count'] = len(merged_articles)
     
     total_articles = sum(len(s['articles']) for s in stocks_dict.values())
     print(f"  ✅ 加载 {len(sentiment_data.get('mentions', []))} 条提及")
