@@ -2546,7 +2546,23 @@
       "current_price": null,
       "pe_ratio": null,
       "pb_ratio": null,
-      "roe": null
+      "roe": null,
+      "articles": [
+        {
+          "title": "0324信息汇总",
+          "source": "wechat",
+          "date": "2026-03-25",
+          "insights": [
+            "技术领先",
+            "业绩增长"
+          ],
+          "accidents": [],
+          "products": [],
+          "chain": [],
+          "industry_position": "龙头",
+          "context": ""
+        }
+      ]
     },
     {
       "code": "002353",
@@ -2571,7 +2587,26 @@
       "current_price": null,
       "pe_ratio": null,
       "pb_ratio": null,
-      "roe": null
+      "roe": null,
+      "articles": [
+        {
+          "title": "0324信息汇总",
+          "source": "wechat",
+          "date": "2026-03-25",
+          "insights": [
+            "产能扩张",
+            "技术领先",
+            "需求旺盛"
+          ],
+          "accidents": [
+            "成本上升"
+          ],
+          "products": [],
+          "chain": [],
+          "industry_position": "",
+          "context": ""
+        }
+      ]
     },
     {
       "code": "002202",
@@ -2595,7 +2630,25 @@
       "current_price": null,
       "pe_ratio": null,
       "pb_ratio": null,
-      "roe": null
+      "roe": null,
+      "articles": [
+        {
+          "title": "0324信息汇总",
+          "source": "wechat",
+          "date": "2026-03-25",
+          "insights": [
+            "业绩增长"
+          ],
+          "accidents": [
+            "成本上升",
+            "政策风险"
+          ],
+          "products": [],
+          "chain": [],
+          "industry_position": "",
+          "context": ""
+        }
+      ]
     },
     {
       "code": "601567",
@@ -2617,7 +2670,23 @@
       "current_price": null,
       "pe_ratio": null,
       "pb_ratio": null,
-      "roe": null
+      "roe": null,
+      "articles": [
+        {
+          "title": "0324信息汇总",
+          "source": "wechat",
+          "date": "2026-03-25",
+          "insights": [],
+          "accidents": [
+            "成本上升",
+            "需求下滑"
+          ],
+          "products": [],
+          "chain": [],
+          "industry_position": "",
+          "context": ""
+        }
+      ]
     },
     {
       "code": "300975",
@@ -2636,7 +2705,20 @@
       "current_price": null,
       "pe_ratio": null,
       "pb_ratio": null,
-      "roe": null
+      "roe": null,
+      "articles": [
+        {
+          "title": "商络电子，2倍空间？",
+          "source": "wechat",
+          "date": "2026-03-25",
+          "insights": [],
+          "accidents": [],
+          "products": [],
+          "chain": [],
+          "industry_position": "",
+          "context": ""
+        }
+      ]
     },
     {
       "code": "600141",
@@ -2659,7 +2741,24 @@
       "current_price": null,
       "pe_ratio": null,
       "pb_ratio": null,
-      "roe": null
+      "roe": null,
+      "articles": [
+        {
+          "title": "磷化工/磷酸铁锂，相关公司全梳理",
+          "source": "wechat",
+          "date": "2026-03-25",
+          "insights": [
+            "产能扩张"
+          ],
+          "accidents": [],
+          "products": [
+            "磷矿"
+          ],
+          "chain": [],
+          "industry_position": "",
+          "context": ""
+        }
+      ]
     },
     {
       "code": "002895",
@@ -2682,7 +2781,24 @@
       "current_price": null,
       "pe_ratio": null,
       "pb_ratio": null,
-      "roe": null
+      "roe": null,
+      "articles": [
+        {
+          "title": "磷化工/磷酸铁锂，相关公司全梳理",
+          "source": "wechat",
+          "date": "2026-03-25",
+          "insights": [
+            "产能扩张"
+          ],
+          "accidents": [],
+          "products": [
+            "磷矿"
+          ],
+          "chain": [],
+          "industry_position": "",
+          "context": ""
+        }
+      ]
     },
     {
       "code": "002170",
@@ -2705,7 +2821,24 @@
       "current_price": null,
       "pe_ratio": null,
       "pb_ratio": null,
-      "roe": null
+      "roe": null,
+      "articles": [
+        {
+          "title": "磷化工/磷酸铁锂，相关公司全梳理",
+          "source": "wechat",
+          "date": "2026-03-25",
+          "insights": [
+            "产能扩张"
+          ],
+          "accidents": [],
+          "products": [
+            "磷矿"
+          ],
+          "chain": [],
+          "industry_position": "",
+          "context": ""
+        }
+      ]
     },
     {
       "code": "002539",
@@ -2726,7 +2859,22 @@
       "current_price": null,
       "pe_ratio": null,
       "pb_ratio": null,
-      "roe": null
+      "roe": null,
+      "articles": [
+        {
+          "title": "磷化工/磷酸铁锂，相关公司全梳理",
+          "source": "wechat",
+          "date": "2026-03-25",
+          "insights": [
+            "产能扩张"
+          ],
+          "accidents": [],
+          "products": [],
+          "chain": [],
+          "industry_position": "",
+          "context": ""
+        }
+      ]
     },
     {
       "code": "603077",
@@ -2747,7 +2895,22 @@
       "current_price": null,
       "pe_ratio": null,
       "pb_ratio": null,
-      "roe": null
+      "roe": null,
+      "articles": [
+        {
+          "title": "磷化工/磷酸铁锂，相关公司全梳理",
+          "source": "wechat",
+          "date": "2026-03-25",
+          "insights": [
+            "产能扩张"
+          ],
+          "accidents": [],
+          "products": [],
+          "chain": [],
+          "industry_position": "",
+          "context": ""
+        }
+      ]
     },
     {
       "code": "002386",
@@ -2770,7 +2933,24 @@
       "current_price": null,
       "pe_ratio": null,
       "pb_ratio": null,
-      "roe": null
+      "roe": null,
+      "articles": [
+        {
+          "title": "磷化工/磷酸铁锂，相关公司全梳理",
+          "source": "wechat",
+          "date": "2026-03-25",
+          "insights": [
+            "产能扩张"
+          ],
+          "accidents": [],
+          "products": [
+            "磷矿"
+          ],
+          "chain": [],
+          "industry_position": "",
+          "context": ""
+        }
+      ]
     },
     {
       "code": "600078",
@@ -2793,7 +2973,24 @@
       "current_price": null,
       "pe_ratio": null,
       "pb_ratio": null,
-      "roe": null
+      "roe": null,
+      "articles": [
+        {
+          "title": "磷化工/磷酸铁锂，相关公司全梳理",
+          "source": "wechat",
+          "date": "2026-03-25",
+          "insights": [
+            "产能扩张"
+          ],
+          "accidents": [],
+          "products": [
+            "黄磷"
+          ],
+          "chain": [],
+          "industry_position": "",
+          "context": ""
+        }
+      ]
     },
     {
       "code": "300801",
@@ -2816,7 +3013,24 @@
       "current_price": null,
       "pe_ratio": null,
       "pb_ratio": null,
-      "roe": null
+      "roe": null,
+      "articles": [
+        {
+          "title": "磷化工/磷酸铁锂，相关公司全梳理",
+          "source": "wechat",
+          "date": "2026-03-25",
+          "insights": [
+            "产能扩张"
+          ],
+          "accidents": [],
+          "products": [
+            "三氯化磷"
+          ],
+          "chain": [],
+          "industry_position": "",
+          "context": ""
+        }
+      ]
     },
     {
       "code": "301118",
@@ -2840,7 +3054,25 @@
       "current_price": null,
       "pe_ratio": null,
       "pb_ratio": null,
-      "roe": null
+      "roe": null,
+      "articles": [
+        {
+          "title": "磷化工/磷酸铁锂，相关公司全梳理",
+          "source": "wechat",
+          "date": "2026-03-25",
+          "insights": [],
+          "accidents": [],
+          "products": [
+            "三氯化磷",
+            "六氟磷酸锂"
+          ],
+          "chain": [
+            "磷化工"
+          ],
+          "industry_position": "",
+          "context": ""
+        }
+      ]
     },
     {
       "code": "603010",
@@ -2863,7 +3095,24 @@
       "current_price": null,
       "pe_ratio": null,
       "pb_ratio": null,
-      "roe": null
+      "roe": null,
+      "articles": [
+        {
+          "title": "磷化工/磷酸铁锂，相关公司全梳理",
+          "source": "wechat",
+          "date": "2026-03-25",
+          "insights": [
+            "产能扩张"
+          ],
+          "accidents": [],
+          "products": [
+            "五氯化磷"
+          ],
+          "chain": [],
+          "industry_position": "",
+          "context": ""
+        }
+      ]
     },
     {
       "code": "002709",
@@ -2884,7 +3133,22 @@
       "current_price": null,
       "pe_ratio": null,
       "pb_ratio": null,
-      "roe": null
+      "roe": null,
+      "articles": [
+        {
+          "title": "磷化工/磷酸铁锂，相关公司全梳理",
+          "source": "wechat",
+          "date": "2026-03-25",
+          "insights": [
+            "产能扩张"
+          ],
+          "accidents": [],
+          "products": [],
+          "chain": [],
+          "industry_position": "",
+          "context": ""
+        }
+      ]
     },
     {
       "code": "002759",
@@ -2905,7 +3169,22 @@
       "current_price": null,
       "pe_ratio": null,
       "pb_ratio": null,
-      "roe": null
+      "roe": null,
+      "articles": [
+        {
+          "title": "磷化工/磷酸铁锂，相关公司全梳理",
+          "source": "wechat",
+          "date": "2026-03-25",
+          "insights": [
+            "产能扩张"
+          ],
+          "accidents": [],
+          "products": [],
+          "chain": [],
+          "industry_position": "",
+          "context": ""
+        }
+      ]
     },
     {
       "code": "002250",
@@ -2926,7 +3205,22 @@
       "current_price": null,
       "pe_ratio": null,
       "pb_ratio": null,
-      "roe": null
+      "roe": null,
+      "articles": [
+        {
+          "title": "磷化工/磷酸铁锂，相关公司全梳理",
+          "source": "wechat",
+          "date": "2026-03-25",
+          "insights": [
+            "产能扩张"
+          ],
+          "accidents": [],
+          "products": [],
+          "chain": [],
+          "industry_position": "",
+          "context": ""
+        }
+      ]
     },
     {
       "code": "002326",
@@ -2947,7 +3241,22 @@
       "current_price": null,
       "pe_ratio": null,
       "pb_ratio": null,
-      "roe": null
+      "roe": null,
+      "articles": [
+        {
+          "title": "磷化工/磷酸铁锂，相关公司全梳理",
+          "source": "wechat",
+          "date": "2026-03-25",
+          "insights": [
+            "产能扩张"
+          ],
+          "accidents": [],
+          "products": [],
+          "chain": [],
+          "industry_position": "",
+          "context": ""
+        }
+      ]
     },
     {
       "code": "301246",
@@ -2968,7 +3277,22 @@
       "current_price": null,
       "pe_ratio": null,
       "pb_ratio": null,
-      "roe": null
+      "roe": null,
+      "articles": [
+        {
+          "title": "磷化工/磷酸铁锂，相关公司全梳理",
+          "source": "wechat",
+          "date": "2026-03-25",
+          "insights": [
+            "产能扩张"
+          ],
+          "accidents": [],
+          "products": [],
+          "chain": [],
+          "industry_position": "",
+          "context": ""
+        }
+      ]
     },
     {
       "code": "600378",
@@ -2989,7 +3313,22 @@
       "current_price": null,
       "pe_ratio": null,
       "pb_ratio": null,
-      "roe": null
+      "roe": null,
+      "articles": [
+        {
+          "title": "磷化工/磷酸铁锂，相关公司全梳理",
+          "source": "wechat",
+          "date": "2026-03-25",
+          "insights": [
+            "产能扩张"
+          ],
+          "accidents": [],
+          "products": [],
+          "chain": [],
+          "industry_position": "",
+          "context": ""
+        }
+      ]
     },
     {
       "code": "600884",
@@ -3010,7 +3349,22 @@
       "current_price": null,
       "pe_ratio": null,
       "pb_ratio": null,
-      "roe": null
+      "roe": null,
+      "articles": [
+        {
+          "title": "磷化工/磷酸铁锂，相关公司全梳理",
+          "source": "wechat",
+          "date": "2026-03-25",
+          "insights": [
+            "产能扩张"
+          ],
+          "accidents": [],
+          "products": [],
+          "chain": [],
+          "industry_position": "",
+          "context": ""
+        }
+      ]
     },
     {
       "code": "603906",
@@ -3029,7 +3383,20 @@
       "current_price": null,
       "pe_ratio": null,
       "pb_ratio": null,
-      "roe": null
+      "roe": null,
+      "articles": [
+        {
+          "title": "磷化工/磷酸铁锂，相关公司全梳理",
+          "source": "wechat",
+          "date": "2026-03-25",
+          "insights": [],
+          "accidents": [],
+          "products": [],
+          "chain": [],
+          "industry_position": "",
+          "context": ""
+        }
+      ]
     },
     {
       "code": "002805",
@@ -3048,7 +3415,20 @@
       "current_price": null,
       "pe_ratio": null,
       "pb_ratio": null,
-      "roe": null
+      "roe": null,
+      "articles": [
+        {
+          "title": "磷化工/磷酸铁锂，相关公司全梳理",
+          "source": "wechat",
+          "date": "2026-03-25",
+          "insights": [],
+          "accidents": [],
+          "products": [],
+          "chain": [],
+          "industry_position": "",
+          "context": ""
+        }
+      ]
     },
     {
       "code": "301486",
@@ -3078,7 +3458,31 @@
       "current_price": null,
       "pe_ratio": null,
       "pb_ratio": null,
-      "roe": null
+      "roe": null,
+      "articles": [
+        {
+          "title": "今天的一些信息整理3.25",
+          "source": "wechat",
+          "date": "2026-03-25",
+          "insights": [
+            "产能扩张",
+            "技术领先",
+            "业绩增长"
+          ],
+          "accidents": [
+            "成本上升"
+          ],
+          "products": [
+            "CPO",
+            "MPO"
+          ],
+          "chain": [
+            "光通信"
+          ],
+          "industry_position": "",
+          "context": ""
+        }
+      ]
     },
     {
       "code": "601198",
@@ -3102,7 +3506,25 @@
       "current_price": null,
       "pe_ratio": null,
       "pb_ratio": null,
-      "roe": null
+      "roe": null,
+      "articles": [
+        {
+          "title": "今天的一些信息整理3.25",
+          "source": "wechat",
+          "date": "2026-03-25",
+          "insights": [],
+          "accidents": [],
+          "products": [
+            "光模块"
+          ],
+          "chain": [
+            "光通信",
+            "半导体"
+          ],
+          "industry_position": "",
+          "context": ""
+        }
+      ]
     },
     {
       "code": "000166",
@@ -3134,7 +3556,33 @@
       "current_price": null,
       "pe_ratio": null,
       "pb_ratio": null,
-      "roe": null
+      "roe": null,
+      "articles": [
+        {
+          "title": "今天的一些信息整理3.25",
+          "source": "wechat",
+          "date": "2026-03-25",
+          "insights": [
+            "产能扩张",
+            "技术领先",
+            "需求旺盛"
+          ],
+          "accidents": [
+            "政策风险",
+            "技术风险"
+          ],
+          "products": [
+            "CPO"
+          ],
+          "chain": [
+            "AI 算力",
+            "光通信",
+            "半导体"
+          ],
+          "industry_position": "龙头",
+          "context": ""
+        }
+      ]
     },
     {
       "code": "301529",
@@ -3161,7 +3609,45 @@
       "current_price": null,
       "pe_ratio": null,
       "pb_ratio": null,
-      "roe": null
+      "roe": null,
+      "articles": [
+        {
+          "title": "今天的一些信息整理3.25",
+          "source": "wechat",
+          "date": "2026-03-25",
+          "insights": [
+            "技术领先"
+          ],
+          "accidents": [],
+          "products": [
+            "机器人",
+            "灵巧手"
+          ],
+          "chain": [
+            "机器人"
+          ],
+          "industry_position": "龙头",
+          "context": ""
+        },
+        {
+          "title": "0325信息汇总",
+          "source": "wechat",
+          "date": "2026-03-25",
+          "insights": [
+            "技术领先"
+          ],
+          "accidents": [],
+          "products": [
+            "机器人",
+            "灵巧手"
+          ],
+          "chain": [
+            "机器人"
+          ],
+          "industry_position": "龙头",
+          "context": ""
+        }
+      ]
     },
     {
       "code": "300121",
@@ -3186,7 +3672,26 @@
       "current_price": null,
       "pe_ratio": null,
       "pb_ratio": null,
-      "roe": null
+      "roe": null,
+      "articles": [
+        {
+          "title": "今天的一些信息整理3.25",
+          "source": "wechat",
+          "date": "2026-03-25",
+          "insights": [
+            "技术领先",
+            "需求旺盛"
+          ],
+          "accidents": [
+            "竞争加剧",
+            "成本上升"
+          ],
+          "products": [],
+          "chain": [],
+          "industry_position": "龙头",
+          "context": ""
+        }
+      ]
     },
     {
       "code": "601689",
@@ -3255,7 +3760,26 @@
       "current_price": null,
       "pe_ratio": null,
       "pb_ratio": null,
-      "roe": null
+      "roe": null,
+      "articles": [
+        {
+          "title": "0325信息汇总",
+          "source": "wechat",
+          "date": "2026-03-25",
+          "insights": [
+            "需求旺盛",
+            "客户优质"
+          ],
+          "accidents": [],
+          "products": [
+            "机器人",
+            "灵巧手"
+          ],
+          "chain": [],
+          "industry_position": "龙头",
+          "context": ""
+        }
+      ]
     },
     {
       "code": "300398",
@@ -3282,7 +3806,28 @@
       "current_price": null,
       "pe_ratio": null,
       "pb_ratio": null,
-      "roe": null
+      "roe": null,
+      "articles": [
+        {
+          "title": "0325信息汇总",
+          "source": "wechat",
+          "date": "2026-03-25",
+          "insights": [
+            "技术领先",
+            "需求旺盛",
+            "业绩增长"
+          ],
+          "accidents": [
+            "技术风险"
+          ],
+          "products": [],
+          "chain": [
+            "半导体"
+          ],
+          "industry_position": "",
+          "context": ""
+        }
+      ]
     },
     {
       "code": "601778",
@@ -3307,7 +3852,26 @@
       "current_price": null,
       "pe_ratio": null,
       "pb_ratio": null,
-      "roe": null
+      "roe": null,
+      "articles": [
+        {
+          "title": "0325信息汇总",
+          "source": "wechat",
+          "date": "2026-03-25",
+          "insights": [
+            "需求旺盛",
+            "客户优质"
+          ],
+          "accidents": [],
+          "products": [
+            "机器人",
+            "灵巧手"
+          ],
+          "chain": [],
+          "industry_position": "龙头",
+          "context": ""
+        }
+      ]
     }
   ],
   "last_updated": "2026-03-25"
