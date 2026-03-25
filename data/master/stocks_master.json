@@ -1,10 +1,10 @@
 {
-  "version": "v12-merged-20260325_0006",
+  "version": "v12-2026-03-25",
   "update_time": "2026-03-25T00:06:58.755802",
   "source": "wechat_stock_extractor_v12 + gateway_llm",
   "data_source": "同花顺 iFinD + 正文提取 v11",
   "total_emails": 6,
-  "total_stocks": 46,
+  "total_stocks": 79,
   "stocks": [
     {
       "name": "唯科科技",
@@ -37,7 +37,8 @@
       "products": [
         "塑胶模具",
         "MPO 插芯",
-        "MPO 总成"
+        "MPO 总成",
+        "MPO"
       ],
       "core_business": [
         "塑胶模具制造",
@@ -106,7 +107,14 @@
       ],
       "industry_l1": "基础化工",
       "industry_l2": "塑料制品",
-      "industry_l3": "其他塑料制品"
+      "industry_l3": "其他塑料制品",
+      "insights": [
+        "客户优质"
+      ],
+      "last_updated": "2026-03-25",
+      "source_articles": [
+        "今天的一些信息整理3.25"
+      ]
     },
     {
       "name": "山东赫达",
@@ -619,7 +627,8 @@
         "5 代铁锂",
         "磷酸二氢锂",
         "草酸",
-        "草酸亚铁"
+        "草酸亚铁",
+        "磷酸铁锂"
       ],
       "core_business": [
         "锂电正极材料磷酸铁锂生产",
@@ -664,7 +673,14 @@
       ],
       "industry_l1": "汽车",
       "industry_l2": "汽车零部件",
-      "industry_l3": "底盘与发动机系统"
+      "industry_l3": "底盘与发动机系统",
+      "insights": [
+        "产能扩张"
+      ],
+      "last_updated": "2026-03-25",
+      "source_articles": [
+        "磷化工/磷酸铁锂，相关公司全梳理"
+      ]
     },
     {
       "name": "璞泰来",
@@ -2509,7 +2525,771 @@
           "target_valuation": ""
         }
       ]
+    },
+    {
+      "code": "688062",
+      "name": "迈威生物",
+      "opinion": "bullish",
+      "products": [],
+      "chain": [],
+      "industry_position": "龙头",
+      "insights": [
+        "技术领先",
+        "业绩增长"
+      ],
+      "accidents": [],
+      "source_articles": [
+        "0324信息汇总"
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-03-25",
+      "current_price": null,
+      "pe_ratio": null,
+      "pb_ratio": null,
+      "roe": null
+    },
+    {
+      "code": "002353",
+      "name": "杰瑞股份",
+      "opinion": "bullish",
+      "products": [],
+      "chain": [],
+      "industry_position": "",
+      "insights": [
+        "产能扩张",
+        "技术领先",
+        "需求旺盛"
+      ],
+      "accidents": [
+        "成本上升"
+      ],
+      "source_articles": [
+        "0324信息汇总"
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-03-25",
+      "current_price": null,
+      "pe_ratio": null,
+      "pb_ratio": null,
+      "roe": null
+    },
+    {
+      "code": "002202",
+      "name": "金风科技",
+      "opinion": "bullish",
+      "products": [],
+      "chain": [],
+      "industry_position": "",
+      "insights": [
+        "业绩增长"
+      ],
+      "accidents": [
+        "成本上升",
+        "政策风险"
+      ],
+      "source_articles": [
+        "0324信息汇总"
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-03-25",
+      "current_price": null,
+      "pe_ratio": null,
+      "pb_ratio": null,
+      "roe": null
+    },
+    {
+      "code": "601567",
+      "name": "三星医疗",
+      "opinion": "bearish",
+      "products": [],
+      "chain": [],
+      "industry_position": "",
+      "insights": [],
+      "accidents": [
+        "成本上升",
+        "需求下滑"
+      ],
+      "source_articles": [
+        "0324信息汇总"
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-03-25",
+      "current_price": null,
+      "pe_ratio": null,
+      "pb_ratio": null,
+      "roe": null
+    },
+    {
+      "code": "300975",
+      "name": "商络电子",
+      "opinion": "bullish",
+      "products": [],
+      "chain": [],
+      "industry_position": "",
+      "insights": [],
+      "accidents": [],
+      "source_articles": [
+        "商络电子，2倍空间？"
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-03-25",
+      "current_price": null,
+      "pe_ratio": null,
+      "pb_ratio": null,
+      "roe": null
+    },
+    {
+      "code": "600141",
+      "name": "兴发集团",
+      "opinion": "neutral",
+      "products": [
+        "磷矿"
+      ],
+      "chain": [],
+      "industry_position": "",
+      "insights": [
+        "产能扩张"
+      ],
+      "accidents": [],
+      "source_articles": [
+        "磷化工/磷酸铁锂，相关公司全梳理"
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-03-25",
+      "current_price": null,
+      "pe_ratio": null,
+      "pb_ratio": null,
+      "roe": null
+    },
+    {
+      "code": "002895",
+      "name": "川恒股份",
+      "opinion": "neutral",
+      "products": [
+        "磷矿"
+      ],
+      "chain": [],
+      "industry_position": "",
+      "insights": [
+        "产能扩张"
+      ],
+      "accidents": [],
+      "source_articles": [
+        "磷化工/磷酸铁锂，相关公司全梳理"
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-03-25",
+      "current_price": null,
+      "pe_ratio": null,
+      "pb_ratio": null,
+      "roe": null
+    },
+    {
+      "code": "002170",
+      "name": "芭田股份",
+      "opinion": "neutral",
+      "products": [
+        "磷矿"
+      ],
+      "chain": [],
+      "industry_position": "",
+      "insights": [
+        "产能扩张"
+      ],
+      "accidents": [],
+      "source_articles": [
+        "磷化工/磷酸铁锂，相关公司全梳理"
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-03-25",
+      "current_price": null,
+      "pe_ratio": null,
+      "pb_ratio": null,
+      "roe": null
+    },
+    {
+      "code": "002539",
+      "name": "云图控股",
+      "opinion": "neutral",
+      "products": [],
+      "chain": [],
+      "industry_position": "",
+      "insights": [
+        "产能扩张"
+      ],
+      "accidents": [],
+      "source_articles": [
+        "磷化工/磷酸铁锂，相关公司全梳理"
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-03-25",
+      "current_price": null,
+      "pe_ratio": null,
+      "pb_ratio": null,
+      "roe": null
+    },
+    {
+      "code": "603077",
+      "name": "和邦生物",
+      "opinion": "neutral",
+      "products": [],
+      "chain": [],
+      "industry_position": "",
+      "insights": [
+        "产能扩张"
+      ],
+      "accidents": [],
+      "source_articles": [
+        "磷化工/磷酸铁锂，相关公司全梳理"
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-03-25",
+      "current_price": null,
+      "pe_ratio": null,
+      "pb_ratio": null,
+      "roe": null
+    },
+    {
+      "code": "002386",
+      "name": "天原股份",
+      "opinion": "neutral",
+      "products": [
+        "磷矿"
+      ],
+      "chain": [],
+      "industry_position": "",
+      "insights": [
+        "产能扩张"
+      ],
+      "accidents": [],
+      "source_articles": [
+        "磷化工/磷酸铁锂，相关公司全梳理"
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-03-25",
+      "current_price": null,
+      "pe_ratio": null,
+      "pb_ratio": null,
+      "roe": null
+    },
+    {
+      "code": "600078",
+      "name": "澄星股份",
+      "opinion": "neutral",
+      "products": [
+        "黄磷"
+      ],
+      "chain": [],
+      "industry_position": "",
+      "insights": [
+        "产能扩张"
+      ],
+      "accidents": [],
+      "source_articles": [
+        "磷化工/磷酸铁锂，相关公司全梳理"
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-03-25",
+      "current_price": null,
+      "pe_ratio": null,
+      "pb_ratio": null,
+      "roe": null
+    },
+    {
+      "code": "300801",
+      "name": "泰和科技",
+      "opinion": "neutral",
+      "products": [
+        "三氯化磷"
+      ],
+      "chain": [],
+      "industry_position": "",
+      "insights": [
+        "产能扩张"
+      ],
+      "accidents": [],
+      "source_articles": [
+        "磷化工/磷酸铁锂，相关公司全梳理"
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-03-25",
+      "current_price": null,
+      "pe_ratio": null,
+      "pb_ratio": null,
+      "roe": null
+    },
+    {
+      "code": "301118",
+      "name": "恒光股份",
+      "opinion": "neutral",
+      "products": [
+        "三氯化磷",
+        "六氟磷酸锂"
+      ],
+      "chain": [
+        "磷化工"
+      ],
+      "industry_position": "",
+      "insights": [],
+      "accidents": [],
+      "source_articles": [
+        "磷化工/磷酸铁锂，相关公司全梳理"
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-03-25",
+      "current_price": null,
+      "pe_ratio": null,
+      "pb_ratio": null,
+      "roe": null
+    },
+    {
+      "code": "603010",
+      "name": "万盛股份",
+      "opinion": "neutral",
+      "products": [
+        "五氯化磷"
+      ],
+      "chain": [],
+      "industry_position": "",
+      "insights": [
+        "产能扩张"
+      ],
+      "accidents": [],
+      "source_articles": [
+        "磷化工/磷酸铁锂，相关公司全梳理"
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-03-25",
+      "current_price": null,
+      "pe_ratio": null,
+      "pb_ratio": null,
+      "roe": null
+    },
+    {
+      "code": "002709",
+      "name": "天赐材料",
+      "opinion": "neutral",
+      "products": [],
+      "chain": [],
+      "industry_position": "",
+      "insights": [
+        "产能扩张"
+      ],
+      "accidents": [],
+      "source_articles": [
+        "磷化工/磷酸铁锂，相关公司全梳理"
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-03-25",
+      "current_price": null,
+      "pe_ratio": null,
+      "pb_ratio": null,
+      "roe": null
+    },
+    {
+      "code": "002759",
+      "name": "天际股份",
+      "opinion": "neutral",
+      "products": [],
+      "chain": [],
+      "industry_position": "",
+      "insights": [
+        "产能扩张"
+      ],
+      "accidents": [],
+      "source_articles": [
+        "磷化工/磷酸铁锂，相关公司全梳理"
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-03-25",
+      "current_price": null,
+      "pe_ratio": null,
+      "pb_ratio": null,
+      "roe": null
+    },
+    {
+      "code": "002250",
+      "name": "联化科技",
+      "opinion": "neutral",
+      "products": [],
+      "chain": [],
+      "industry_position": "",
+      "insights": [
+        "产能扩张"
+      ],
+      "accidents": [],
+      "source_articles": [
+        "磷化工/磷酸铁锂，相关公司全梳理"
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-03-25",
+      "current_price": null,
+      "pe_ratio": null,
+      "pb_ratio": null,
+      "roe": null
+    },
+    {
+      "code": "002326",
+      "name": "永太科技",
+      "opinion": "neutral",
+      "products": [],
+      "chain": [],
+      "industry_position": "",
+      "insights": [
+        "产能扩张"
+      ],
+      "accidents": [],
+      "source_articles": [
+        "磷化工/磷酸铁锂，相关公司全梳理"
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-03-25",
+      "current_price": null,
+      "pe_ratio": null,
+      "pb_ratio": null,
+      "roe": null
+    },
+    {
+      "code": "301246",
+      "name": "宏源药业",
+      "opinion": "neutral",
+      "products": [],
+      "chain": [],
+      "industry_position": "",
+      "insights": [
+        "产能扩张"
+      ],
+      "accidents": [],
+      "source_articles": [
+        "磷化工/磷酸铁锂，相关公司全梳理"
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-03-25",
+      "current_price": null,
+      "pe_ratio": null,
+      "pb_ratio": null,
+      "roe": null
+    },
+    {
+      "code": "600378",
+      "name": "昊华科技",
+      "opinion": "neutral",
+      "products": [],
+      "chain": [],
+      "industry_position": "",
+      "insights": [
+        "产能扩张"
+      ],
+      "accidents": [],
+      "source_articles": [
+        "磷化工/磷酸铁锂，相关公司全梳理"
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-03-25",
+      "current_price": null,
+      "pe_ratio": null,
+      "pb_ratio": null,
+      "roe": null
+    },
+    {
+      "code": "600884",
+      "name": "杉杉股份",
+      "opinion": "neutral",
+      "products": [],
+      "chain": [],
+      "industry_position": "",
+      "insights": [
+        "产能扩张"
+      ],
+      "accidents": [],
+      "source_articles": [
+        "磷化工/磷酸铁锂，相关公司全梳理"
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-03-25",
+      "current_price": null,
+      "pe_ratio": null,
+      "pb_ratio": null,
+      "roe": null
+    },
+    {
+      "code": "603906",
+      "name": "龙蟠科技",
+      "opinion": "neutral",
+      "products": [],
+      "chain": [],
+      "industry_position": "",
+      "insights": [],
+      "accidents": [],
+      "source_articles": [
+        "磷化工/磷酸铁锂，相关公司全梳理"
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-03-25",
+      "current_price": null,
+      "pe_ratio": null,
+      "pb_ratio": null,
+      "roe": null
+    },
+    {
+      "code": "002805",
+      "name": "丰元股份",
+      "opinion": "neutral",
+      "products": [],
+      "chain": [],
+      "industry_position": "",
+      "insights": [],
+      "accidents": [],
+      "source_articles": [
+        "磷化工/磷酸铁锂，相关公司全梳理"
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-03-25",
+      "current_price": null,
+      "pe_ratio": null,
+      "pb_ratio": null,
+      "roe": null
+    },
+    {
+      "code": "301486",
+      "name": "致尚科技",
+      "opinion": "bullish",
+      "products": [
+        "CPO",
+        "MPO"
+      ],
+      "chain": [
+        "光通信"
+      ],
+      "industry_position": "",
+      "insights": [
+        "产能扩张",
+        "技术领先",
+        "业绩增长"
+      ],
+      "accidents": [
+        "成本上升"
+      ],
+      "source_articles": [
+        "今天的一些信息整理3.25"
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-03-25",
+      "current_price": null,
+      "pe_ratio": null,
+      "pb_ratio": null,
+      "roe": null
+    },
+    {
+      "code": "601198",
+      "name": "东兴证券",
+      "opinion": "bullish",
+      "products": [
+        "光模块"
+      ],
+      "chain": [
+        "光通信",
+        "半导体"
+      ],
+      "industry_position": "",
+      "insights": [],
+      "accidents": [],
+      "source_articles": [
+        "今天的一些信息整理3.25"
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-03-25",
+      "current_price": null,
+      "pe_ratio": null,
+      "pb_ratio": null,
+      "roe": null
+    },
+    {
+      "code": "000166",
+      "name": "申万宏源",
+      "opinion": "bullish",
+      "products": [
+        "CPO"
+      ],
+      "chain": [
+        "AI 算力",
+        "光通信",
+        "半导体"
+      ],
+      "industry_position": "龙头",
+      "insights": [
+        "产能扩张",
+        "技术领先",
+        "需求旺盛"
+      ],
+      "accidents": [
+        "政策风险",
+        "技术风险"
+      ],
+      "source_articles": [
+        "今天的一些信息整理3.25"
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-03-25",
+      "current_price": null,
+      "pe_ratio": null,
+      "pb_ratio": null,
+      "roe": null
+    },
+    {
+      "code": "301529",
+      "name": "福赛科技",
+      "opinion": "bullish",
+      "products": [
+        "机器人",
+        "灵巧手"
+      ],
+      "chain": [
+        "机器人"
+      ],
+      "industry_position": "龙头",
+      "insights": [
+        "技术领先"
+      ],
+      "accidents": [],
+      "source_articles": [
+        "今天的一些信息整理3.25",
+        "0325信息汇总"
+      ],
+      "mention_count": 2,
+      "last_updated": "2026-03-25",
+      "current_price": null,
+      "pe_ratio": null,
+      "pb_ratio": null,
+      "roe": null
+    },
+    {
+      "code": "300121",
+      "name": "阳谷华泰",
+      "opinion": "bullish",
+      "products": [],
+      "chain": [],
+      "industry_position": "龙头",
+      "insights": [
+        "技术领先",
+        "需求旺盛"
+      ],
+      "accidents": [
+        "竞争加剧",
+        "成本上升"
+      ],
+      "source_articles": [
+        "今天的一些信息整理3.25"
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-03-25",
+      "current_price": null,
+      "pe_ratio": null,
+      "pb_ratio": null,
+      "roe": null
+    },
+    {
+      "code": "601689",
+      "name": "拓普集团",
+      "opinion": "bullish",
+      "products": [
+        "机器人",
+        "灵巧手"
+      ],
+      "chain": [],
+      "industry_position": "龙头",
+      "insights": [
+        "需求旺盛",
+        "客户优质"
+      ],
+      "accidents": [],
+      "source_articles": [
+        "0325信息汇总"
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-03-25",
+      "current_price": null,
+      "pe_ratio": null,
+      "pb_ratio": null,
+      "roe": null
+    },
+    {
+      "code": "603730",
+      "name": "岱美股份",
+      "opinion": "bullish",
+      "products": [
+        "机器人",
+        "灵巧手"
+      ],
+      "chain": [],
+      "industry_position": "龙头",
+      "insights": [
+        "需求旺盛",
+        "客户优质"
+      ],
+      "accidents": [],
+      "source_articles": [
+        "0325信息汇总"
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-03-25",
+      "current_price": null,
+      "pe_ratio": null,
+      "pb_ratio": null,
+      "roe": null
+    },
+    {
+      "code": "300398",
+      "name": "飞凯材料",
+      "opinion": "bullish",
+      "products": [],
+      "chain": [
+        "半导体"
+      ],
+      "industry_position": "",
+      "insights": [
+        "技术领先",
+        "需求旺盛",
+        "业绩增长"
+      ],
+      "accidents": [
+        "技术风险"
+      ],
+      "source_articles": [
+        "0325信息汇总"
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-03-25",
+      "current_price": null,
+      "pe_ratio": null,
+      "pb_ratio": null,
+      "roe": null
+    },
+    {
+      "code": "601778",
+      "name": "晶科科技",
+      "opinion": "bullish",
+      "products": [
+        "机器人",
+        "灵巧手"
+      ],
+      "chain": [],
+      "industry_position": "龙头",
+      "insights": [
+        "需求旺盛",
+        "客户优质"
+      ],
+      "accidents": [],
+      "source_articles": [
+        "0325信息汇总"
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-03-25",
+      "current_price": null,
+      "pe_ratio": null,
+      "pb_ratio": null,
+      "roe": null
     }
   ],
-  "last_updated": "2026-03-25 00:06:58"
+  "last_updated": "2026-03-25"
 }

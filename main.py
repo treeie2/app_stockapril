@@ -166,10 +166,14 @@ def dashboard():
             stock['latest_article_date'] = first_article.get('published_at', '') or first_article.get('article_id', '')[:10]
         else:
             stock['latest_article_date'] = ''
+        
+        # 优先使用 last_updated 字段（如果有）
+        stock['last_updated'] = d.get('last_updated', '')
+        
         all_stocks.append(stock)
     
-    # 默认按最新文章日期倒序排列
-    all_stocks.sort(key=lambda x: x.get('latest_article_date', ''), reverse=True)
+    # 默认按 last_updated 排序（优先），没有则按最新文章日期倒序排列
+    all_stocks.sort(key=lambda x: (x.get('last_updated', '') or '', x.get('latest_article_date', '')), reverse=True)
     
     # 分页
     total = len(all_stocks)
@@ -204,8 +208,10 @@ def dashboard():
 
 @app.route('/stocks')
 def stocks_list():
+    # 按 last_updated 排序（最新的在前），没有更新时间的排在后面
     lst = sorted([{'code': c, **d} for c, d in stocks.items()], 
-                 key=lambda x: x['mention_count'], reverse=True)
+                 key=lambda x: (x.get('last_updated', '') or '', x.get('mention_count', 0)), 
+                 reverse=True)
     return render_template('stocks.html', total=len(lst), stocks=lst)
 
 @app.route('/social-security-new')
