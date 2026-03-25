@@ -3211,7 +3211,26 @@
       "current_price": null,
       "pe_ratio": null,
       "pb_ratio": null,
-      "roe": null
+      "roe": null,
+      "articles": [
+        {
+          "title": "0325信息汇总",
+          "source": "wechat",
+          "date": "2026-03-25",
+          "insights": [
+            "需求旺盛",
+            "客户优质"
+          ],
+          "accidents": [],
+          "products": [
+            "机器人",
+            "灵巧手"
+          ],
+          "chain": [],
+          "industry_position": "龙头",
+          "context": ""
+        }
+      ]
     },
     {
       "code": "603730",
