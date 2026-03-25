@@ -2758,6 +2758,9 @@
           "industry_position": "",
           "context": ""
         }
+      ],
+      "concepts": [
+        "磷化工"
       ]
     },
     {
@@ -2798,6 +2801,9 @@
           "industry_position": "",
           "context": ""
         }
+      ],
+      "concepts": [
+        "磷化工"
       ]
     },
     {
@@ -2838,6 +2844,9 @@
           "industry_position": "",
           "context": ""
         }
+      ],
+      "concepts": [
+        "磷化工"
       ]
     },
     {
@@ -2950,6 +2959,9 @@
           "industry_position": "",
           "context": ""
         }
+      ],
+      "concepts": [
+        "磷化工"
       ]
     },
     {
@@ -2990,6 +3002,9 @@
           "industry_position": "",
           "context": ""
         }
+      ],
+      "concepts": [
+        "磷化工"
       ]
     },
     {
@@ -3030,6 +3045,9 @@
           "industry_position": "",
           "context": ""
         }
+      ],
+      "concepts": [
+        "磷化工"
       ]
     },
     {
@@ -3072,6 +3090,10 @@
           "industry_position": "",
           "context": ""
         }
+      ],
+      "concepts": [
+        "磷化工",
+        "锂电池"
       ]
     },
     {
@@ -3482,6 +3504,9 @@
           "industry_position": "",
           "context": ""
         }
+      ],
+      "concepts": [
+        "CPO 概念"
       ]
     },
     {
@@ -3524,6 +3549,10 @@
           "industry_position": "",
           "context": ""
         }
+      ],
+      "concepts": [
+        "CPO 概念",
+        "半导体"
       ]
     },
     {
@@ -3582,6 +3611,11 @@
           "industry_position": "龙头",
           "context": ""
         }
+      ],
+      "concepts": [
+        "AI 算力",
+        "CPO 概念",
+        "半导体"
       ]
     },
     {
@@ -3647,6 +3681,9 @@
           "industry_position": "龙头",
           "context": ""
         }
+      ],
+      "concepts": [
+        "人形机器人"
       ]
     },
     {
@@ -3735,6 +3772,9 @@
           "industry_position": "龙头",
           "context": ""
         }
+      ],
+      "concepts": [
+        "人形机器人"
       ]
     },
     {
@@ -3779,6 +3819,9 @@
           "industry_position": "龙头",
           "context": ""
         }
+      ],
+      "concepts": [
+        "人形机器人"
       ]
     },
     {
@@ -3827,6 +3870,9 @@
           "industry_position": "",
           "context": ""
         }
+      ],
+      "concepts": [
+        "半导体"
       ]
     },
     {
@@ -3871,6 +3917,9 @@
           "industry_position": "龙头",
           "context": ""
         }
+      ],
+      "concepts": [
+        "人形机器人"
       ]
     }
   ],
