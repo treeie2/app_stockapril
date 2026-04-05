@@ -92,24 +92,12 @@ except Exception as e:
 
 # 加载数据
 print("📋 加载数据...")
-try:
-    with gzip.open(SEARCH_INDEX_FILE, 'rt', encoding='utf-8') as f:
-        data = json.load(f)
-    stocks = data.get('stocks', {})
-    concepts = data.get('concepts', {})
-    print(f"  ✅ 加载 {len(stocks)} 只股票")
-    print(f"  ✅ 加载 {len(concepts)} 个概念")
-except Exception as e:
-    print(f"  ❌ 错误：{e}")
-    stocks, concepts = {}, {}
 
-# 从 stocks_master.json 补充行业数据
-print("📋 补充行业数据...")
+# 优先从 stocks_master.json 加载
+MASTER_FILE_JSON = Path(__file__).parent / 'data' / 'master' / 'stocks_master.json'
+MASTER_FILE_GZ = Path(__file__).parent / 'data' / 'master' / 'stocks_master.json.gz'
+
 try:
-    # 优先读取未压缩的 JSON 文件（Railway 部署用）
-    MASTER_FILE_JSON = Path(__file__).parent / 'data' / 'master' / 'stocks_master.json'
-    MASTER_FILE_GZ = Path(__file__).parent / 'data' / 'master' / 'stocks_master.json.gz'
-    
     if MASTER_FILE_JSON.exists():
         print(f"  📋 读取 stocks_master.json ({MASTER_FILE_JSON.stat().st_size / 1024 / 1024:.2f} MB)...")
         with open(MASTER_FILE_JSON, 'r', encoding='utf-8') as f:
@@ -120,6 +108,40 @@ try:
             master_data = json.load(f)
     else:
         raise FileNotFoundError("未找到 stocks_master 数据文件")
+    
+    # 转换为字典格式
+    stocks_list = master_data.get('stocks', [])
+    stocks = {s['code']: s for s in stocks_list if 'code' in s}
+    
+    # 从概念字段提取所有概念
+    concepts = {}
+    for stock in stocks_list:
+        for concept in stock.get('concepts', []):
+            if concept not in concepts:
+                concepts[concept] = {'stocks': []}
+            concepts[concept]['stocks'].append(stock['code'])
+    
+    print(f"  ✅ 加载 {len(stocks)} 只股票")
+    print(f"  ✅ 加载 {len(concepts)} 个概念")
+    
+except Exception as e:
+    print(f"  ❌ 错误：{e}")
+    stocks, concepts = {}, {}
+
+# 从 stocks_master.json 补充行业数据（如果上面没有加载成功）
+print("📋 补充行业数据...")
+try:
+    if not stocks:
+        if MASTER_FILE_JSON.exists():
+            print(f"  📋 读取 stocks_master.json ({MASTER_FILE_JSON.stat().st_size / 1024 / 1024:.2f} MB)...")
+            with open(MASTER_FILE_JSON, 'r', encoding='utf-8') as f:
+                master_data = json.load(f)
+        elif MASTER_FILE_GZ.exists():
+            print(f"  📋 读取 stocks_master.json.gz...")
+            with gzip.open(MASTER_FILE_GZ, 'rt', encoding='utf-8') as f:
+                master_data = json.load(f)
+        else:
+            raise FileNotFoundError("未找到 stocks_master 数据文件")
     
     master_stocks = master_data.get('stocks', [])
     industry_count = 0
@@ -134,6 +156,25 @@ try:
     print(f"  ✅ 补充 {industry_count} 只股票的行业数据")
 except Exception as e:
     print(f"  ⚠️ 行业数据补充失败：{e}")
+    # 如果 stocks 为空，尝试直接加载 stocks_master
+    if not stocks:
+        try:
+            with open(MASTER_FILE_JSON, 'r', encoding='utf-8') as f:
+                master_data = json.load(f)
+            stocks_list = master_data.get('stocks', [])
+            stocks = {s['code']: s for s in stocks_list if 'code' in s}
+            
+            # 构建概念索引
+            concepts = {}
+            for stock in stocks_list:
+                for concept in stock.get('concepts', []):
+                    if concept not in concepts:
+                        concepts[concept] = {'stocks': []}
+                    concepts[concept]['stocks'].append(stock['code'])
+            
+            print(f"  ✅ 备用加载：{len(stocks)} 只股票，{len(concepts)} 个概念")
+        except Exception as e2:
+            print(f"  ❌ 备用加载也失败：{e2}")
 
 @app.route('/')
 def dashboard():
@@ -906,6 +947,95 @@ def get_article_api_status():
         })
 
 
+# Firebase 配置
+FIREBASE_PROJECT_ID = "webstock-724"
+FIREBASE_API_KEY = "AIzaSyDnWABBE1WZ3H_il95-TcBqpIAH9sisLUo"
+
+def sync_to_firebase(stocks_dict, stats):
+    """同步导入的数据到 Firebase Firestore"""
+    try:
+        import requests
+        
+        # 构建 Firestore REST API URL
+        base_url = f"https://firestore.googleapis.com/v1/projects/{FIREBASE_PROJECT_ID}/databases/(default)/documents"
+        
+        sync_count = 0
+        errors = []
+        
+        # 只同步本次导入/更新的股票
+        for code, stock in stocks_dict.items():
+            try:
+                # 构建文档路径
+                doc_url = f"{base_url}/stocks/{code}"
+                
+                # 转换数据为 Firestore 格式
+                firestore_data = {
+                    "fields": {
+                        "name": {"stringValue": stock.get("name", "")},
+                        "code": {"stringValue": code},
+                        "board": {"stringValue": stock.get("board", "")},
+                        "industry": {"stringValue": stock.get("industry", "")},
+                        "mention_count": {"integerValue": str(stock.get("mention_count", 0))},
+                        "updated_at": {"timestampValue": datetime.now().isoformat() + "Z"}
+                    }
+                }
+                
+                # 添加概念数组
+                concepts = stock.get("concepts", [])
+                if concepts:
+                    firestore_data["fields"]["concepts"] = {
+                        "arrayValue": {
+                            "values": [{"stringValue": c} for c in concepts]
+                        }
+                    }
+                
+                # 添加文章数组
+                articles = stock.get("articles", [])
+                if articles:
+                    article_values = []
+                    for article in articles:
+                        article_values.append({
+                            "mapValue": {
+                                "fields": {
+                                    "title": {"stringValue": article.get("title", "")},
+                                    "date": {"stringValue": article.get("date", "")},
+                                    "source": {"stringValue": article.get("source", "")},
+                                    "insights": {
+                                        "arrayValue": {
+                                            "values": [{"stringValue": i} for i in article.get("insights", [])]
+                                        }
+                                    } if article.get("insights") else {"nullValue": None}
+                                }
+                            }
+                        })
+                    firestore_data["fields"]["articles"] = {
+                        "arrayValue": {"values": article_values}
+                    }
+                
+                # 发送到 Firestore
+                resp = requests.patch(doc_url, json=firestore_data, timeout=10)
+                if resp.status_code in [200, 201]:
+                    sync_count += 1
+                else:
+                    errors.append(f"{code}: HTTP {resp.status_code}")
+                    
+            except Exception as e:
+                errors.append(f"{code}: {str(e)}")
+        
+        return {
+            'success': True,
+            'synced_count': sync_count,
+            'total_stocks': len(stocks_dict),
+            'errors': errors[:5]  # 只返回前5个错误
+        }
+        
+    except Exception as e:
+        return {
+            'success': False,
+            'error': str(e)
+        }
+
+
 # Firebase 测试页面
 @app.route('/test-firebase')
 def test_firebase():
@@ -995,7 +1125,7 @@ def import_stocks():
                 stats['new_stocks'] += 1
                 stats['imported_articles'] += len(stock.get('articles', []))
         
-        # 保存数据
+        # 保存数据到本地
         output_data = {'stocks': list(existing_stocks.values())}
         with open(master_file, 'w', encoding='utf-8') as f:
             json.dump(output_data, f, ensure_ascii=False, indent=2)
@@ -1004,10 +1134,14 @@ def import_stocks():
         global stocks
         stocks = existing_stocks
         
+        # 同步到 Firebase
+        firebase_sync_result = sync_to_firebase(existing_stocks, stats)
+        
         return jsonify({
             'success': True,
             'message': f'成功导入 {stats["imported_stocks"]} 只股票，新增 {stats["new_stocks"]} 只，更新 {stats["updated_stocks"]} 只',
-            'stats': stats
+            'stats': stats,
+            'firebase_sync': firebase_sync_result
         })
         
     except json.JSONDecodeError as e:
