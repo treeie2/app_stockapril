@@ -1,0 +1,1857 @@
+{
+  "version": "1.0",
+  "update_time": "2026-03-16T09:11:08.240129",
+  "total_mentions": 105,
+  "mentions": [
+    {
+      "code": "300243",
+      "name": "瑞丰高材",
+      "date": "",
+      "article_title": "今天的一些信息整理 3.15",
+      "article_url": "https://mp.weixin.qq.com/s/gawzV_zIfB0eQLhUJbwrkQ",
+      "context": "PVC 助剂 + 黑磷 + 英伟达 M9/M10 材料配套",
+      "source": "wechat_email"
+    },
+    {
+      "code": "300395",
+      "name": "菲利华",
+      "date": "",
+      "article_title": "今天的一些信息整理 3.15",
+      "article_url": "https://mp.weixin.qq.com/s/gawzV_zIfB0eQLhUJbwrkQ",
+      "context": "M10 Q 布验证，AI 服务器 PCB 材料",
+      "source": "wechat_email"
+    },
+    {
+      "code": "600183",
+      "name": "生益科技",
+      "date": "",
+      "article_title": "今天的一些信息整理 3.15",
+      "article_url": "https://mp.weixin.qq.com/s/gawzV_zIfB0eQLhUJbwrkQ",
+      "context": "高频高速 CCL 卡位",
+      "source": "wechat_email"
+    },
+    {
+      "code": "688519",
+      "name": "南亚新材",
+      "date": "",
+      "article_title": "今天的一些信息整理 3.15",
+      "article_url": "https://mp.weixin.qq.com/s/gawzV_zIfB0eQLhUJbwrkQ",
+      "context": "高频高速 CCL 卡位",
+      "source": "wechat_email"
+    },
+    {
+      "code": "002463",
+      "name": "沪电股份",
+      "date": "",
+      "article_title": "今天的一些信息整理 3.15",
+      "article_url": "https://mp.weixin.qq.com/s/gawzV_zIfB0eQLhUJbwrkQ",
+      "context": "数通领军，M10 测试",
+      "source": "wechat_email"
+    },
+    {
+      "code": "300476",
+      "name": "胜宏科技",
+      "date": "",
+      "article_title": "今天的一些信息整理 3.15",
+      "article_url": "https://mp.weixin.qq.com/s/gawzV_zIfB0eQLhUJbwrkQ",
+      "context": "2030 年千亿产值目标，GPU 加速卡、TPU 配套板",
+      "source": "wechat_email"
+    },
+    {
+      "code": "002916",
+      "name": "深南电路",
+      "date": "",
+      "article_title": "今天的一些信息整理 3.15",
+      "article_url": "https://mp.weixin.qq.com/s/gawzV_zIfB0eQLhUJbwrkQ",
+      "context": "PCB 发布",
+      "source": "wechat_email"
+    },
+    {
+      "code": "002165",
+      "name": "红宝丽",
+      "date": "",
+      "article_title": "德国化工企业因供应链中断减产，染料中间体价格暴涨 300%",
+      "article_url": "https://mp.weixin.qq.com/s/MylKgrQLALqwS-Vo4TDabA",
+      "context": "化工新材料龙头，主力净流入 10.1 亿，异丙醇胺、聚醚市占率领先",
+      "source": "wechat_email"
+    },
+    {
+      "code": "300641",
+      "name": "正丹股份",
+      "date": "",
+      "article_title": "德国化工企业因供应链中断减产，染料中间体价格暴涨 300%",
+      "article_url": "https://mp.weixin.qq.com/s/MylKgrQLALqwS-Vo4TDabA",
+      "context": "特种精细化学品龙头，主力净流入 1.44 亿，高端分散剂 70%+",
+      "source": "wechat_email"
+    },
+    {
+      "code": "002669",
+      "name": "康达新材",
+      "date": "",
+      "article_title": "德国化工企业因供应链中断减产，染料中间体价格暴涨 300%",
+      "article_url": "https://mp.weixin.qq.com/s/MylKgrQLALqwS-Vo4TDabA",
+      "context": "胶粘剂 + 新材料龙头，主力净流入 1.21 亿，风电/电子胶粘剂 40%+",
+      "source": "wechat_email"
+    },
+    {
+      "code": "002407",
+      "name": "多氟多",
+      "date": "",
+      "article_title": "德国化工企业因供应链中断减产，染料中间体价格暴涨 300%",
+      "article_url": "https://mp.weixin.qq.com/s/MylKgrQLALqwS-Vo4TDabA",
+      "context": "氟化工 + 锂电材料龙头，主力净流入 1.15 亿，六氟磷酸锂 60%+",
+      "source": "wechat_email"
+    },
+    {
+      "code": "002326",
+      "name": "永太科技",
+      "date": "",
+      "article_title": "德国化工企业因供应链中断减产，染料中间体价格暴涨 300%",
+      "article_url": "https://mp.weixin.qq.com/s/MylKgrQLALqwS-Vo4TDabA",
+      "context": "氟化工 + 锂电材料龙头，主力净流入 1.11 亿，电解液/氟精细 70%+",
+      "source": "wechat_email"
+    },
+    {
+      "code": "002455",
+      "name": "百川股份",
+      "date": "",
+      "article_title": "德国化工企业因供应链中断减产，染料中间体价格暴涨 300%",
+      "article_url": "https://mp.weixin.qq.com/s/MylKgrQLALqwS-Vo4TDabA",
+      "context": "化工 + 锂电材料龙头，主力净流入 8106 万，醋酸酯/锂电材料 50%+",
+      "source": "wechat_email"
+    },
+    {
+      "code": "600873",
+      "name": "梅花生物",
+      "date": "",
+      "article_title": "德国化工企业因供应链中断减产，染料中间体价格暴涨 300%",
+      "article_url": "https://mp.weixin.qq.com/s/MylKgrQLALqwS-Vo4TDabA",
+      "context": "氨基酸 + 生物制造龙头，主力净流入 7902 万，氨基酸 80%+",
+      "source": "wechat_email"
+    },
+    {
+      "code": "600299",
+      "name": "安迪苏",
+      "date": "",
+      "article_title": "德国化工企业因供应链中断减产，染料中间体价格暴涨 300%",
+      "article_url": "https://mp.weixin.qq.com/s/MylKgrQLALqwS-Vo4TDabA",
+      "context": "动物营养 + 化工龙头，主力净流入 6649 万，蛋氨酸 90%+",
+      "source": "wechat_email"
+    },
+    {
+      "code": "002637",
+      "name": "赞宇科技",
+      "date": "",
+      "article_title": "德国化工企业因供应链中断减产，染料中间体价格暴涨 300%",
+      "article_url": "https://mp.weixin.qq.com/s/MylKgrQLALqwS-Vo4TDabA",
+      "context": "表面活性剂 + 油脂化工龙头，主力净流入 5732 万，表活剂 70%+",
+      "source": "wechat_email"
+    },
+    {
+      "code": "688639",
+      "name": "华恒生物",
+      "date": "",
+      "article_title": "德国化工企业因供应链中断减产，染料中间体价格暴涨 300%",
+      "article_url": "https://mp.weixin.qq.com/s/MylKgrQLALqwS-Vo4TDabA",
+      "context": "氨基酸 + 生物制造龙头，主力净流入 4771 万，生物制造 80%+",
+      "source": "wechat_email"
+    },
+    {
+      "code": "002360",
+      "name": "同德化工",
+      "date": "",
+      "article_title": "德国化工企业因供应链中断减产，染料中间体价格暴涨 300%",
+      "article_url": "https://mp.weixin.qq.com/s/MylKgrQLALqwS-Vo4TDabA",
+      "context": "民爆 + 化工龙头，主力净流入 4477 万，民爆 60%+",
+      "source": "wechat_email"
+    },
+    {
+      "code": "603062",
+      "name": "麦加芯彩",
+      "date": "",
+      "article_title": "德国化工企业因供应链中断减产，染料中间体价格暴涨 300%",
+      "article_url": "https://mp.weixin.qq.com/s/MylKgrQLALqwS-Vo4TDabA",
+      "context": "涂料 + 化工新材料龙头，主力净流入 4325 万，工业/风电涂料 70%+",
+      "source": "wechat_email"
+    },
+    {
+      "code": "002497",
+      "name": "雅化集团",
+      "date": "",
+      "article_title": "德国化工企业因供应链中断减产，染料中间体价格暴涨 300%",
+      "article_url": "https://mp.weixin.qq.com/s/MylKgrQLALqwS-Vo4TDabA",
+      "context": "锂盐 + 民爆龙头，主力净流入 3296 万，锂盐 50%+",
+      "source": "wechat_email"
+    },
+    {
+      "code": "003002",
+      "name": "壶化股份",
+      "date": "",
+      "article_title": "德国化工企业因供应链中断减产，染料中间体价格暴涨 300%",
+      "article_url": "https://mp.weixin.qq.com/s/MylKgrQLALqwS-Vo4TDabA",
+      "context": "民爆 + 化工龙头，主力净流入 3062 万，民爆 80%+",
+      "source": "wechat_email"
+    },
+    {
+      "code": "002971",
+      "name": "和远气体",
+      "date": "",
+      "article_title": "德国化工企业因供应链中断减产，染料中间体价格暴涨 300%",
+      "article_url": "https://mp.weixin.qq.com/s/MylKgrQLALqwS-Vo4TDabA",
+      "context": "工业气体 + 化工龙头，主力净流入 2471 万，特种气体 40%+",
+      "source": "wechat_email"
+    },
+    {
+      "code": "600866",
+      "name": "星湖科技",
+      "date": "",
+      "article_title": "德国化工企业因供应链中断减产，染料中间体价格暴涨 300%",
+      "article_url": "https://mp.weixin.qq.com/s/MylKgrQLALqwS-Vo4TDabA",
+      "context": "生物医药 + 化工龙头，主力净流入 2248 万，核苷酸/氨基酸 60%+",
+      "source": "wechat_email"
+    },
+    {
+      "code": "603890",
+      "name": "醋化股份",
+      "date": "",
+      "article_title": "德国化工企业因供应链中断减产，染料中间体价格暴涨 300%",
+      "article_url": "https://mp.weixin.qq.com/s/MylKgrQLALqwS-Vo4TDabA",
+      "context": "醋酸酯 + 精细化工龙头，主力净流入 2222 万，醋酸酯 80%+",
+      "source": "wechat_email"
+    },
+    {
+      "code": "301220",
+      "name": "亚香股份",
+      "date": "",
+      "article_title": "德国化工企业因供应链中断减产，染料中间体价格暴涨 300%",
+      "article_url": "https://mp.weixin.qq.com/s/MylKgrQLALqwS-Vo4TDabA",
+      "context": "香料 + 精细化工龙头，主力净流入 2207 万，天然香料 70%+",
+      "source": "wechat_email"
+    },
+    {
+      "code": "600590",
+      "name": "泰豪科技",
+      "date": "2026-03-15",
+      "article_title": "手动录入",
+      "article_url": "email://18901700722@163.com/uid/1773406499",
+      "context": "数据中心备用电源系统，柴油发电机组入驻美国数据中心，军工装备及应急装备产业，2025 年扭亏为盈。方正证券预计 2026-27 年归母净利润 3.99/15.51 亿元，同比增长 499.07%/37.96%",
+      "source": "wechat_email"
+    },
+    {
+      "code": "301179",
+      "name": "泽宇智能",
+      "date": "2026-03-15",
+      "article_title": "手动录入",
+      "article_url": "email://18901700722@163.com/uid/1773406499",
+      "context": "电力信息系统与数智化整体解决方案，多模态大模型落地电网项目，电力巡检智能机器人。国泰君安预计 2026-27 年归母净利润 2.57/3.59 亿元，同比增长 47.2%/39.6%，给予 2026 年 58 倍 PE，合理估值 149.14 亿元",
+      "source": "wechat_email"
+    },
+    {
+      "code": "002202",
+      "name": "金风科技",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "非电领域脱碳及油气替代核心载体，致力于绿氢、绿氨、绿醇等能源自主可控进程 。公司在风电、储能等领域具备较强经济性，业务涵盖海风及分布式光伏 。",
+      "source": "llm_summary",
+      "products": [
+        "绿醇",
+        "海风整机",
+        "分布式光伏",
+        "柔性太阳翼"
+      ],
+      "industry_position": "行业核心标的，是应对化石能源成本抬升的全球加速替代方案提供者 。",
+      "partners": [
+        "电投绿能",
+        "嘉泽新能",
+        "中国天楹",
+        "中集安瑞科"
+      ],
+      "accident": "国家能源局组织召开绿色燃料产业发展专题座谈会，利好绿醇等产业发展 。"
+    },
+    {
+      "code": "688559",
+      "name": "海目星",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "专注于激光设备研发，是固态电池极片加工的核心供应商，并在AI领域有所布局 。",
+      "source": "llm_summary",
+      "products": [
+        "激光设备",
+        "固态电池极片加工设备",
+        "固态电池整线设备"
+      ],
+      "industry_position": "固态电池设备与配套核心供应商，具备技术储备与先发优势 。",
+      "partners": [
+        "申万宏源覆盖标的"
+      ],
+      "accident": "受益于固态电池产业化进程加速及第六届中国固态电池技术大会召开 。"
+    },
+    {
+      "code": "002240",
+      "name": "盛新锂能",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "主要从事锂矿采选与锂盐加工业务 。",
+      "source": "llm_summary",
+      "products": [
+        "锂矿",
+        "锂盐",
+        "碳酸锂"
+      ],
+      "industry_position": "锂电趋势主升标的，具备规模化生产能力 。",
+      "partners": null,
+      "accident": "碳酸锂期货主力合约多日大涨，价格站上10万元关口 。"
+    },
+    {
+      "code": "600590",
+      "name": "泰豪科技",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "业务涵盖军工电子、北斗军工应用及柴油发电机组 OEM 。",
+      "source": "llm_summary",
+      "products": [
+        "柴油发电机组",
+        "VR 仿真训练设备",
+        "军工导航设备"
+      ],
+      "industry_position": "北斗军工应用龙头，军工导航设备市占率领先 。",
+      "partners": [
+        "三菱",
+        "康明斯"
+      ],
+      "accident": "受北斗规模应用工程推进及 XR 设备全球销量突破带动需求增长 。"
+    },
+    {
+      "code": "300624",
+      "name": "万兴科技",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "AI 创意软件龙头，主要提供视频剪辑、AI 绘图及 AIGC 生成工具 。",
+      "source": "llm_summary",
+      "products": [
+        "视频剪辑工具",
+        "AI 绘图工具",
+        "天幕 AI",
+        "AI 漫剧生成工具"
+      ],
+      "industry_position": "AI 创意软件龙头，视频剪辑及 AI 绘图工具市占率领先 。",
+      "partners": null,
+      "accident": "DeepSeek 新旗舰模型发布预期及 AI 应用赛道主力资金持续加码 。"
+    },
+    {
+      "code": "301550",
+      "name": "斯菱智驱",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "谐波减速器及汽车轴承制造商，正推进泰国及美国基地建设 。",
+      "source": "llm_summary",
+      "products": [
+        "谐波减速器",
+        "一体化轴承",
+        "汽车轴承"
+      ],
+      "industry_position": "谐波减速器龙头，预期份额超 80% 。",
+      "partners": [
+        "北美头部机器人客户"
+      ],
+      "accident": "谐波产品确定性协议即将签订，量价表现有望超预期 。"
+    },
+    {
+      "code": "603626",
+      "name": "科森科技",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "专业从事精密结构件制造，业务覆盖人形机器人、消费电子及太空光伏领域 。",
+      "source": "llm_summary",
+      "products": [
+        "机器人四肢/面罩结构件",
+        "手部 TPU 材料",
+        "光伏金属结构件/支架"
+      ],
+      "industry_position": "特斯拉人形机器人结构件核心供应商 。",
+      "partners": [
+        "特斯拉",
+        "SolarCity",
+        "华为",
+        "新剑传动"
+      ],
+      "accident": "北美头部机器人客户量产准备顺利，二期产能开始拓展 。"
+    },
+    {
+      "code": "002335",
+      "name": "科华数据",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "提供 UPS 电源及数据中心解决方案，正向 AI Infra 与算力硬件领域延伸 。",
+      "source": "llm_summary",
+      "products": [
+        "UPS 电源",
+        "数据中心基础设施",
+        "液冷设备"
+      ],
+      "industry_position": "UPS 电源及数据中心核心供应商 。",
+      "partners": [
+        "亚马逊",
+        "谷歌",
+        "Meta"
+      ],
+      "accident": "甲骨文财报超预期及与 OpenAI 签署合作协议，带动 AI 硬件配套需求 。"
+    },
+    {
+      "code": "002648",
+      "name": "卫星化学",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "国内领先的轻质化化学品供应商，拥有完整的乙烷裂解产业链 。",
+      "source": "llm_summary",
+      "products": [
+        "乙烯",
+        "丙烯",
+        "丙烯酸及酯"
+      ],
+      "industry_position": "乙烷裂解核心龙头，拥有最稳定的美国乙烷资源 。",
+      "partners": null,
+      "accident": "中东地缘冲突引发下游化工品涨价预期，轻质化路线优势凸显 。"
+    },
+    {
+      "code": "300166",
+      "name": "东方国信",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "字节 IDC 核心供应商，通过智算中心及并购视拓云布局算力租赁市场 。",
+      "source": "llm_summary",
+      "products": [
+        "IDC 服务",
+        "算力租赁",
+        "AutoDL 平台"
+      ],
+      "industry_position": "字节跳动智算中心核心供应商 。",
+      "partners": [
+        "字节跳动",
+        "视拓云"
+      ],
+      "accident": "内蒙古和林格尔智算中心稳定运营，字节 capex 上移带动订单爆发预期 。"
+    },
+    {
+      "code": "601456",
+      "name": "国联证券",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "作为金融服务机构，公司通过其研究团队（文中提及为国联民生团队）深度覆盖半导体、PCB、存储及 AI 基础设施领域，提供行业配置建议与投资研究服务。",
+      "source": "llm_summary",
+      "products": [
+        "投资研究服务",
+        "证券交易服务"
+      ],
+      "industry_position": "行业领先的证券研究与投资配置建议提供方。",
+      "partners": null,
+      "accident": "近期密集发布关于 OpenClaw“龙虾时刻”的三大里程碑分析，认为 AI 终端化趋势正进入爆发拐点。同时，关注到海外市场 PCB 板块由于 T-glass 短缺及铜价上涨引发的涨价潮，预测供给缺口可能持续至 2027 年。"
+    },
+    {
+      "code": "688556",
+      "name": "高测股份",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "专注于光伏切割设备及耗材的研发与制造，产品线涵盖切片环节及拉晶端配套设备，并积极拓展机器人行星减速器业务。",
+      "source": "llm_summary",
+      "products": [
+        "切片机",
+        "光伏切割设备",
+        "行星减速器"
+      ],
+      "industry_position": "光伏切割环节核心供应商，技术壁垒深厚。",
+      "partners": [
+        "特斯拉 (Tesla)",
+        "SpaceX"
+      ],
+      "accident": "公司目前正接受特斯拉（T）关于人形机器人行星减速器的多次审厂，验证稳步推进。此外，受益于北美缺电背景下光伏扩产超预期，首批 10GW 供应商地位已基本锁定，要求于 8 月前交付完成。"
+    },
+    {
+      "code": "603618",
+      "name": "杭电股份",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "拥有“光棒-光纤-光缆”全产业链布局。其全资子公司永特信息专注于光纤预制棒（光棒）的生产，同时公司也是国家电网的重要电缆供应商。",
+      "source": "llm_summary",
+      "products": [
+        "光棒",
+        "光纤",
+        "光缆",
+        "电线电缆"
+      ],
+      "industry_position": "具备全产业链能力的龙头厂商之一，国网核心供应商。",
+      "partners": [
+        "国家电网",
+        "宇树机器人"
+      ],
+      "accident": "美国三大区域电网运营商获批 750 亿美元输电扩容项目，直接带动公司电网设备订单。同时，由于散纤价格涨幅超预期及 AWS 推进空芯光纤落地，公司作为具备光棒自产能力的标的，受益于行业“量价齐升”。"
+    },
+    {
+      "code": "002222",
+      "name": "福晶科技",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "全球领先的非线性光学晶体与激光器件供应商，产品广泛应用于激光加工、光通讯及 VR 仿真领域。",
+      "source": "llm_summary",
+      "products": [
+        "非线性光学晶体",
+        "VR 光学元件",
+        "激光器件"
+      ],
+      "industry_position": "非线性光学晶体领域全球龙头。",
+      "partners": [
+        "Meta",
+        "谷歌 (Google)"
+      ],
+      "accident": "Meta 考虑斥资数十亿美元购买谷歌 TPU 推动了公司算力硬件订单预期。此外，摩尔线程即将于 12 月上市，公司作为国产算力芯片的配套合作伙伴，受到主力资金持续关注。"
+    },
+    {
+      "code": "600989",
+      "name": "宝丰能源",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "现代煤化工龙头企业，主营业务涵盖煤制烯烃、甲醇及天青石等资源开发。",
+      "source": "llm_summary",
+      "products": [
+        "聚乙烯",
+        "聚丙烯",
+        "甲醇"
+      ],
+      "industry_position": "国内现代煤化工核心龙头标的。",
+      "partners": null,
+      "accident": "受伊朗（全球第二大甲醇生产国）局势影响，甲醇及相关化工品供应预期收紧。同时，随着美国地产有望见底回升，新兴市场需求高增，公司主要产品的行业景气度正稳步上行。"
+    },
+    {
+      "code": "603516",
+      "name": "淳中科技",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "专注音视频控制领域，为国防、政务及 AI 场景提供专业显示与控制解决方案。",
+      "source": "llm_summary",
+      "products": [
+        "音视频控制设备",
+        "AI 算力配套显示系统"
+      ],
+      "industry_position": "音视频显示控制领域领先厂商。",
+      "partners": [
+        "英伟达 (NVIDIA)",
+        "OpenAI"
+      ],
+      "accident": "英伟达向台积电追单 30 万片 H20，公司作为核心配套商受益于订单外溢。同时，甲骨文与 OpenAI 签署合作协议，进一步催化了公司在算力硬件控制领域的业务增长。"
+    },
+    {
+      "code": "300182",
+      "name": "捷成股份",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "国内领先的影视版权运营服务商，拥有庞大的影视版权库，并深度应用 AI 视频修复与推荐技术。",
+      "source": "llm_summary",
+      "products": [
+        "影视版权运营",
+        "AI 视频修复工具",
+        "短剧分发"
+      ],
+      "industry_position": "版权运营龙头，AI 内容分发技术领先。",
+      "partners": [
+        "抖音",
+        "华为"
+      ],
+      "accident": "文旅部出台影视产业扶持政策，鼓励院线复苏和内容出海。公司近期受益于“AI+短视频”降本增效逻辑，AI 生成剧本及智能剪辑技术的落地，带动平台内容制作成本下降 20%。"
+    },
+    {
+      "code": "603993",
+      "name": "洛阳钼业",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "全球领先的铜、钴生产商，同时拥有钼、钨、铌等稀有金属资产。通过国际化矿产资源布局，满足新能源及军工需求。",
+      "source": "llm_summary",
+      "products": [
+        "电解铜",
+        "钴粉",
+        "钼铁"
+      ],
+      "industry_position": "获多家券商密集推荐的工业金属核心龙头。",
+      "partners": null,
+      "accident": "受美联储降息预期及全球资源供应风险影响，金、银、铜价格近期创下新高。作为对冲地缘冲突及通胀的“堡垒型资产”，公司资产价值正在迎来全面重估。"
+    },
+    {
+      "code": "002413",
+      "name": "雷科防务",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "深耕军工电子领域，业务涵盖雷达、卫星导航、卫星互联网及商业航天核心电子配套。",
+      "source": "llm_summary",
+      "products": [
+        "雷达系统",
+        "卫星电子组件",
+        "北斗导航设备"
+      ],
+      "industry_position": "商业航天核心电子配套领军企业。",
+      "partners": [
+        "蓝箭航天",
+        "天兵科技",
+        "垣信",
+        "西安分院 (504 所)"
+      ],
+      "accident": "工信部近期启动卫星物联网业务商用试验，加之国家航天局设立商业航天司，政策红利进入爆发期。蓝箭航天“朱雀三号”首飞在即，公司作为核心配套商订单可见度极高。"
+    },
+    {
+      "code": "000700",
+      "name": "模塑科技",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "专业从事汽车塑料件制造，核心业务已成功切入人形机器人及自动驾驶领域。",
+      "source": "llm_summary",
+      "products": [
+        "机器人塑料结构件",
+        "汽车保险杠",
+        "自动驾驶清洗产品"
+      ],
+      "industry_position": "特斯拉机器人 T 链潜在新星及 Tier 1 供应商。",
+      "partners": [
+        "特斯拉 (Tesla)",
+        "宇树机器人",
+        "智元机器人"
+      ],
+      "accident": "特斯拉 Optimus V3 发布在即，公司已陆续赴美与客户沟通量产细节。此外，公司成功覆盖国内主要本体企业（如宇树、智元等），主业净利润已达 6 亿+，估值弹性十足。"
+    },
+    {
+      "code": "603698",
+      "name": "航天工程",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "致力于气化炉及绿能装备研发，专注于非电领域脱碳，提供绿色甲醇及新能源消纳整体方案。",
+      "source": "llm_summary",
+      "products": [
+        "气化炉",
+        "绿醇生产设备",
+        "航天工程配套"
+      ],
+      "industry_position": "气化炉环节行业领先企业。",
+      "partners": [
+        "中国天楹",
+        "嘉泽新能",
+        "西运电路"
+      ],
+      "accident": "中国天楹与国际巨头签订全球首单电制甲醇订单，绿色甲醇正式进入全球能源供应体系。公司作为气化炉核心提供方，深度受益于国家能源局推动的新能源高质量非电利用政策。"
+    },
+    {
+      "code": "002074",
+      "name": "国轩高科",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "全球领先的新能源企业，涵盖动力电池、储能电池及原材料研发。目前正积极布局硅碳负极及高功率正极材料。",
+      "source": "llm_summary",
+      "products": [
+        "锂离子电池",
+        "硅碳负极材料",
+        "储能系统 (BMS/EMS)"
+      ],
+      "industry_position": "全球动力及储能电池核心龙头之一。",
+      "partners": [
+        "中原证券重点推荐标的"
+      ],
+      "accident": "公司年产 20 万吨正极材料与万吨级硅碳负极材料项目近期正式开工，旨在打造全球领先的数字化智能工厂。此外，受益于出口退税政策调整引发的 Q1 抢装需求，公司产能利用率维持高位。"
+    },
+    {
+      "code": "688717",
+      "name": "艾罗能源",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "专注于户用储能系统、储能逆变器及热泵产品的研发与销售。主要市场集中在欧洲、澳大利亚及北美。",
+      "source": "llm_summary",
+      "products": [
+        "户用储能电池",
+        "储能逆变器",
+        "热泵"
+      ],
+      "industry_position": "户储领域核心领先企业。",
+      "partners": null,
+      "accident": "受中东局势冲击全球 LNG 供给影响，欧洲能源价格大幅波动，导致户储订单“扫货”现象频发。公司受益于英国“温暖家园计划”及澳大利亚大幅增加户储补贴预算（增至 72 亿澳元），海外订单弹性巨大。"
+    },
+    {
+      "code": "600114",
+      "name": "东睦股份",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "国内粉末冶金减摩零件及 MIM（金属注射成型）结构件龙头。公司重点布局折叠屏手机铰链核心零部件及液态金属材料。",
+      "source": "llm_summary",
+      "products": [
+        "MIM 结构件",
+        "液态金属铰链组件",
+        "粉末冶金零件"
+      ],
+      "industry_position": "国内粉末冶金行业龙头，折叠屏铰链关键标的。",
+      "partners": [
+        "华为",
+        "三星",
+        "荣耀"
+      ],
+      "accident": "华为 Mate X 系列新机发布及三折叠屏技术专利获批。公司作为铰链核心配套方，受益于折叠屏渗透率在 2026 年的爆发式增长。"
+    },
+    {
+      "code": "002594",
+      "name": "比亚迪",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "全球领先的新能源汽车制造商，业务涵盖电池制造、半导体、轨道交通及电子代工。具备电池-电机-电控全产业链自研能力。",
+      "source": "llm_summary",
+      "products": [
+        "秦/汉系列乘用车",
+        "仰望 U8/U9",
+        "刀片电池",
+        "IGBT 芯片"
+      ],
+      "industry_position": "全球新能源汽车与动力电池双料核心龙头。",
+      "partners": [
+        "丰田",
+        "梅赛德斯-奔驰"
+      ],
+      "accident": "欧盟对华电车关税靴子落地且幅度好于预期。公司在巴西、泰国工厂正式投产，出海利润贡献进入加速期。"
+    },
+    {
+      "code": "600760",
+      "name": "中航沈飞",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "我国核心战斗机整机唯一上市平台，主营航空产品研发、生产及售后服务，被誉为“中国歼击机的摇篮”。",
+      "source": "llm_summary",
+      "products": [
+        "歼-15",
+        "歼-16",
+        "歼-35"
+      ],
+      "industry_position": "我国航空防务装备核心总装龙头。",
+      "partners": [
+        "中国空军",
+        "中国海军"
+      ],
+      "accident": "新型隐身战斗机歼-35A 在航展正式亮相并确认进入现役。随着军费开支向空军信息化倾斜，公司业绩弹性在 2026 年将充分释放。"
+    },
+    {
+      "code": "603218",
+      "name": "日月股份",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "全球领先的大型重型机械金属铸件制造商，主营风电铸件及注塑机、柴油机铸件。风电业务占据核心地位。",
+      "source": "llm_summary",
+      "products": [
+        "风电轮毂",
+        "机架",
+        "注塑机铸件"
+      ],
+      "industry_position": "全球风电铸件龙头，市场占有率领先。",
+      "partners": [
+        "金风科技",
+        "维斯塔斯 (Vestas)",
+        "明阳智能"
+      ],
+      "accident": "随着海上风电项目审批全面提速，行业低价竞争告一段落。公司受益于原材料生铁价格回落及产品结构向大型化转型，净利出现拐点增长。"
+    },
+    {
+      "code": "300438",
+      "name": "鹏辉能源",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "主营锂离子电池、一次电池的研发与制造。重点布局户用储能、工商业储能及固态电池前沿技术。",
+      "source": "llm_summary",
+      "products": [
+        "户用储能电池",
+        "全固态电池",
+        "数码电池"
+      ],
+      "industry_position": "储能电池领域核心供应商。",
+      "partners": [
+        "阳光电源",
+        "德业股份"
+      ],
+      "accident": "正式发布第一代全固态电池，能量密度达到 280Wh/kg 以上。市场传闻其固态电池已在低空飞行器领域开始进行打样测试。"
+    },
+    {
+      "code": "300763",
+      "name": "东方财富",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "国内领先的一站式互联网财富管理平台，提供证券、基金代销及金融数据服务。",
+      "source": "llm_summary",
+      "products": [
+        "天天基金 APP",
+        "东方财富证券",
+        "Choice 终端"
+      ],
+      "industry_position": "互联网金融平台龙头，A 股成交量风向标。",
+      "partners": null,
+      "accident": "市场成交额持续维持在 2 万亿以上高位。公司近期上线 AI 投资助手，有望通过 AIGC 提升理财建议的转化率，股价与市场情绪高度共振。"
+    },
+    {
+      "code": "600745",
+      "name": "闻泰科技",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "全球领先的半导体 IDM 厂商及通讯终端 ODM 领导者。业务涵盖安世半导体、影像模组及笔记本电脑代工。",
+      "source": "llm_summary",
+      "products": [
+        "车规级 MOSFET",
+        "折叠屏手机 ODM",
+        "光学模组"
+      ],
+      "industry_position": "全球分立器件 IDM 龙头，ODM 领域三强之一。",
+      "partners": [
+        "苹果 (Apple)",
+        "大众汽车",
+        "三星"
+      ],
+      "accident": "受益于折叠屏手机放量及汽车智能化对功率半导体的需求翻倍。公司 ODM 业务在持续计提减值后迎来业绩底部反转。"
+    },
+    {
+      "code": "603806",
+      "name": "福斯特",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "全球光伏封装材料（胶膜、背板）龙头。通过自主研发 POE、EPE 等高性能胶膜，适配 N 型电池转型趋势。",
+      "source": "llm_summary",
+      "products": [
+        "EVA 胶膜",
+        "POE 胶膜",
+        "感光干膜"
+      ],
+      "industry_position": "光伏胶膜行业绝对统治者。",
+      "partners": [
+        "隆基绿能",
+        "天合光能",
+        "晶科能源"
+      ],
+      "accident": "受红海局势导致的航运成本上涨及欧洲清库结束影响，海外组件需求复苏，带动胶膜排产环比提升 30%。"
+    },
+    {
+      "code": "688220",
+      "name": "翱捷科技",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "专注于无线通信芯片研发，具备全制式（2G-5G、WiFi）基带芯片设计能力，产品广泛应用于物联网及智能手机。",
+      "source": "llm_summary",
+      "products": [
+        "物联网基带芯片",
+        "5G RedCap 芯片",
+        "WiFi 芯片"
+      ],
+      "industry_position": "国内稀缺的无线通讯平台级芯片设计公司。",
+      "partners": [
+        "移远通信",
+        "小米",
+        "OPPO"
+      ],
+      "accident": "中国广电与中国移动联合推进 5G RedCap 规模化应用。公司作为核心芯片供应商，受益于模组厂商大规模集采带动出货量增长。"
+    },
+    {
+      "code": "300450",
+      "name": "先导智能",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "全球锂电池智能装备龙头，提供从电极制造到电芯组装的全套解决方案。业务已拓展至光伏及氢能设备。",
+      "source": "llm_summary",
+      "products": [
+        "锂电池卷绕机",
+        "固态电池干法设备",
+        "光伏串焊机"
+      ],
+      "industry_position": "全球最大的锂电池设备供应商。",
+      "partners": [
+        "宁德时代",
+        "特斯拉",
+        "大众",
+        "Northvolt"
+      ],
+      "accident": "受北美、欧洲电池本土化政策及固态电池扩产需求拉动，公司新签订单再次回升。近期公告与海外头部车企签署固态电池试产线协议。"
+    },
+    {
+      "code": "300474",
+      "name": "蓝晓科技",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "专注于吸附分离树脂及其应用技术的研发，主要提供盐湖提锂整线技术、医药纯化及金属提取方案。",
+      "source": "llm_summary",
+      "products": [
+        "吸附树脂",
+        "盐湖提锂系统装置"
+      ],
+      "industry_position": "吸附分离材料行业龙头。",
+      "partners": [
+        "五矿盐湖",
+        "西藏珠峰",
+        "智利矿业 (SQM)"
+      ],
+      "accident": "受南美锂矿出口限制及国内西藏盐湖开发提速催化。公司近期中标多个千万级金属提取项目，显示业务已从锂向钴、镍等稀贵金属延伸。"
+    },
+    {
+      "code": "603160",
+      "name": "汇顶科技",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "专注于指纹识别芯片、触控芯片及音频放大器等半导体设计。目前正向健康传感器及车规级芯片转型。",
+      "source": "llm_summary",
+      "products": [
+        "超声波指纹芯片",
+        "触控 IC",
+        "心率传感器"
+      ],
+      "industry_position": "指纹识别芯片领域全球领导者。",
+      "partners": [
+        "华为",
+        "vivo",
+        "OPPO",
+        "小米"
+      ],
+      "accident": "下半年国产旗舰手机普遍搭载超声波指纹技术。公司三季度净利扭亏为盈，受益于产品结构从中低端向高端指纹方案的成功切换。"
+    },
+    {
+      "code": "002531",
+      "name": "天顺风能",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "主营风塔、叶片、海工装备（管桩、导管架）及风电场运营。拥有德国及国内沿海多个生产基地。",
+      "source": "llm_summary",
+      "products": [
+        "风电塔筒",
+        "海工管桩",
+        "风电叶片"
+      ],
+      "industry_position": "全球最大的独立风塔制造商之一。",
+      "partners": [
+        "GE",
+        "维斯塔斯",
+        "金风科技"
+      ],
+      "accident": "德国发布海风招标计划，涉及规模超 5GW。公司德国工厂订单饱和，同时受国内江苏、广东海风项目复工催化，海工业务板块估值修复。"
+    },
+    {
+      "code": "600309",
+      "name": "万华化学",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "全球最大的 MDI（异氰酸酯）供应商，同时布局石化、精细化学品及新材料。具备极致的成本控制与研发能力。",
+      "source": "llm_summary",
+      "products": [
+        "MDI",
+        "TDI",
+        "POE 弹性体",
+        "聚氨酯材料"
+      ],
+      "industry_position": "全球聚氨酯行业核心龙头。",
+      "partners": null,
+      "accident": "近期公告万华化学烟台、宁波基地进入年度大修，叠加海外化工巨头巴斯夫生产异常，MDI 市场现货价格出现跳涨，利好公司三季度业绩。"
+    },
+    {
+      "code": "300059",
+      "name": "同花顺",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "提供互联网金融信息服务、智能投研、基金代销及人工智能应用，拥有国内活跃度最高的证券信息终端。",
+      "source": "llm_summary",
+      "products": [
+        "同花顺 APP",
+        "问财 AI",
+        "iFinD 终端"
+      ],
+      "industry_position": "金融信息服务行业绝对龙头。",
+      "partners": null,
+      "accident": "随着 DeepSeek 等底层模型能力提升，公司 AI 投研系统智能化程度显著增强。近期市场交易活跃度维持历史高位，平台流量变现效率大幅提升。"
+    },
+    {
+      "code": "688012",
+      "name": "中微公司",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "专注于半导体刻蚀设备及 MOCVD 设备的研发与制造。其 CCP 和 ICP 刻蚀设备已进入国内外先进制程产线。",
+      "source": "llm_summary",
+      "products": [
+        "CCP 刻蚀机",
+        "ICP 刻蚀机",
+        "MOCVD 设备"
+      ],
+      "industry_position": "全球领先、国内首位的半导体刻蚀设备厂商。",
+      "partners": [
+        "中芯国际",
+        "台积电",
+        "长江存储"
+      ],
+      "accident": "美国半导体出口新规预期落地，国内晶圆厂加速关键设备采购。公司新订单金额创历史同期新高，尤其在 3D NAND 刻蚀领域份额提升明显。"
+    },
+    {
+      "code": "301558",
+      "name": "三态股份",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "依托 AI 算法驱动的跨境电商零售商，通过自有的智能化系统实现高效选品、营销与物流配送。",
+      "source": "llm_summary",
+      "products": [
+        "跨境零售服务",
+        "物流仓储服务"
+      ],
+      "industry_position": "AI 驱动型跨境电商领先企业。",
+      "partners": [
+        "亚马逊",
+        "eBay",
+        "TikTok"
+      ],
+      "accident": "商务部发布支持跨境电商发展的指导意见。公司近期受“AI+出海”逻辑催化，凭借在东南亚及拉丁美洲市场的提前布局，业务规模出现爆发式增长。"
+    },
+    {
+      "code": "002013",
+      "name": "中航机载",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "中国航空工业旗下的机载系统整合平台，主营航空电子、飞控系统、雷达及光电探测设备。",
+      "source": "llm_summary",
+      "products": [
+        "航电系统",
+        "飞行控制系统",
+        "机载机电系统"
+      ],
+      "industry_position": "我国航空机载系统绝对龙头。",
+      "partners": [
+        "中国商飞",
+        "中国空军"
+      ],
+      "accident": "低空经济产业政策在各大城市密集落地。公司作为机载系统“国家队”，获得多个 eVTOL 领军企业的航电系统联合研发订单。"
+    },
+    {
+      "code": "603198",
+      "name": "迎驾贡酒",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "专注于白酒的研发、生产与销售。主打“生态洞藏”系列，深耕安徽及周边市场，定位大众高端与商务消费。",
+      "source": "llm_summary",
+      "products": [
+        "洞藏系列",
+        "迎驾之星"
+      ],
+      "industry_position": "徽酒领先标的，大众价位带成长性龙头。",
+      "partners": null,
+      "accident": "受益于消费券发放及安徽省内基建、招商活跃。公司近期动销数据超预期，库存维持在 2 个月左右的健康水平，显示出极强的业绩确定性。"
+    },
+    {
+      "code": "603501",
+      "name": "韦尔股份",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "全球领先的半导体设计厂商。旗下豪威科技主营 CMOS 图像传感器（CIS）、电源管理芯片及分立器件。",
+      "source": "llm_summary",
+      "products": [
+        "CMOS 图像传感器",
+        "车规级 CIS",
+        "LCOS 组件"
+      ],
+      "industry_position": "全球前三、国内第一的 CIS 芯片设计公司。",
+      "partners": [
+        "华为",
+        "特斯拉",
+        "比亚迪",
+        "小米"
+      ],
+      "accident": "国产手机旗舰机型传感器大规模替代日系品牌。同时，由于智能驾驶等级提升，车载摄像头单车搭载量从 4 颗升至 10 颗以上，带动公司车载 CIS 业绩翻倍。"
+    },
+    {
+      "code": "601138",
+      "name": "工业富联",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "全球领先的智能制造及工业互联网服务商，核心业务涵盖 AI 服务器、交换机及精密工具。作为英伟达的核心代工伙伴，深度参与全球算力基建。",
+      "source": "llm_summary",
+      "products": [
+        "AI 服务器 (H100/H200/GB200)",
+        "400G/800G 交换机",
+        "5G 终端设备",
+        "精密结构件"
+      ],
+      "industry_position": "全球服务器代工市占率第一，AI 算力基建核心标的。",
+      "partners": [
+        "英伟达 (NVIDIA)",
+        "苹果 (Apple)",
+        "亚马逊 (Amazon)",
+        "微软 (Microsoft)"
+      ],
+      "accident": "英伟达正式下达 GB200 生产指令，公司作为首批供应商正处于产能爬坡期。此外，苹果 AI 手机及 AIPC 的发布，带动公司精密结构件业务进入新一轮景气周期。"
+    },
+    {
+      "code": "300308",
+      "name": "中际旭创",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "全球领先的光通信收发模块制造商，专注于高端光模块的研发与生产。产品广泛应用于超大规模数据中心及 5G 网络。",
+      "source": "llm_summary",
+      "products": [
+        "800G 光模块",
+        "400G 光模块",
+        "1.6T 光模块 (研发中)",
+        "LPO 模块"
+      ],
+      "industry_position": "全球光模块行业龙头，技术研发与交付能力断层领先。",
+      "partners": [
+        "谷歌 (Google)",
+        "Meta",
+        "英伟达",
+        "微软"
+      ],
+      "accident": "亚马逊、Meta 等硅谷巨头大幅上调 2026 年资本开支，重点投向 AI 算力。公司 800G 订单已排产至明年底，1.6T 样品已通过核心客户验证，量产预期提前。"
+    },
+    {
+      "code": "601127",
+      "name": "赛力斯",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "新能源汽车制造厂商，与华为深度合作推出“问界 (AITO)”品牌。公司负责整车研制与生产，华为负责智能系统与渠道销售。",
+      "source": "llm_summary",
+      "products": [
+        "问界 M5",
+        "问界 M7",
+        "问界 M9"
+      ],
+      "industry_position": "国内高端智能电动 SUV 领军企业。",
+      "partners": [
+        "华为 (Huawei)",
+        "宁德时代"
+      ],
+      "accident": "问界 M9 累计大定突破 15 万辆，公司工厂三班倒生产以满足交付。同时，随着智驾 ADS 3.0 的全国推送，智驾版订单占比已提升至 80%。"
+    },
+    {
+      "code": "300750",
+      "name": "宁德时代",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "全球动力电池与储能电池绝对龙头。业务涵盖电池回收、矿产开发及换电服务，拥有全球最先进的电池研发体系。",
+      "source": "llm_summary",
+      "products": [
+        "麒麟电池",
+        "神行电池",
+        "EnerX 储能系统",
+        "凝聚态电池"
+      ],
+      "industry_position": "全球动力电池装机量连续多年世界第一。",
+      "partners": [
+        "特斯拉",
+        "宝马",
+        "理想",
+        "小米"
+      ],
+      "accident": "特斯拉 2.5 万美元平价车型预计采用公司神行电池。此外，公司与多家车企签署固态电池研发协议，巩固了其在下一代电池技术上的话语权。"
+    },
+    {
+      "code": "601012",
+      "name": "隆基绿能",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "全球光伏单晶硅片与组件龙头。公司正全面押注 BC（背接触）电池技术路线，推动高效光伏产品替代传统 TOPCon。",
+      "source": "llm_summary",
+      "products": [
+        "单晶硅片",
+        "Hi-MO 系列组件",
+        "泰睿硅片",
+        "BC 电池"
+      ],
+      "industry_position": "全球光伏硅片及组件出货量领先企业。",
+      "partners": [
+        "博迁新材",
+        "福斯特"
+      ],
+      "accident": "公司宣布未来五年内所有扩产项目均采用 BC 技术。随着组件价格触底回升及欧洲库存去化，公司高效组件的溢价空间正在逐步打开。"
+    },
+    {
+      "code": "002475",
+      "name": "立讯精密",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "全球领先的精密制造服务商，业务涵盖消费电子代工、汽车电子及通信基础设施。是苹果 Vision Pro 的唯一总装供应商。",
+      "source": "llm_summary",
+      "products": [
+        "Apple Watch",
+        "AirPods",
+        "Vision Pro",
+        "汽车连接器"
+      ],
+      "industry_position": "国内消费电子代工龙头，苹果供应链核心。",
+      "partners": [
+        "苹果 (Apple)",
+        "奇瑞控股",
+        "广汽集团"
+      ],
+      "accident": "苹果 Vision Pro 全球销量好于预期，二代平价版研发已启动。公司作为核心总装厂及光学模组配套商，受益于 AR/VR 赛道的长期增长。"
+    },
+    {
+      "code": "300394",
+      "name": "天孚通信",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "专业从事光器件、光链路封装及光引擎的研发制造。产品是高端光模块（800G/1.6T）内部最核心的无源及有源组件。",
+      "source": "llm_summary",
+      "products": [
+        "光引擎",
+        "光纤适配器",
+        "高速连接器",
+        "激光器配套组件"
+      ],
+      "industry_position": "光器件精密制造龙头，全球顶级光模块厂核心供应商。",
+      "partners": [
+        "中际旭创",
+        "新易盛",
+        "英伟达",
+        "英特尔"
+      ],
+      "accident": "随着 1.6T 光模块进入打样阶段，其内部结构对精密陶瓷及光引擎的需求翻倍。公司近期公告扩产计划，以应对北美数据中心建设带动的需求井喷。"
+    },
+    {
+      "code": "603259",
+      "name": "药明康德",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "全球领先的一站式医药研发生产外包服务 (CXO) 平台。提供从小分子发现、开发到商业化生产的全生命周期服务。",
+      "source": "llm_summary",
+      "products": [
+        "多肽研发服务 (GLP-1)",
+        "药物化学服务",
+        "临床 CRO"
+      ],
+      "industry_position": "全球医药外包行业龙头，综合实力国内第一。",
+      "partners": [
+        "辉瑞",
+        "阿斯利康",
+        "礼来 (Eli Lilly)"
+      ],
+      "accident": "近期美国相关法案修改了缓冲期限，地缘风险预期逐步缓和。受益于全球 GLP-1 减肥药研发热潮，公司多肽产能持续扩充，订单可见度显著提升。"
+    },
+    {
+      "code": "688041",
+      "name": "海光信息",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "国内领先的高端处理器设计厂商，主营 X86 架构 CPU 及深算系列 DCU（通用 GPU）。产品主要用于服务器及智算中心。",
+      "source": "llm_summary",
+      "products": [
+        "海光 CPU",
+        "海光 DCU (深算系列)"
+      ],
+      "industry_position": "国产高端 CPU 及 DCU 领军企业。",
+      "partners": [
+        "浪潮信息",
+        "联想",
+        "曙光"
+      ],
+      "accident": "DeepSeek 等国产大模型大幅转向国产芯片适配。受美国出口管制进一步升级预期影响，国内运营商及头部互联网公司正加速采购海光系列芯片。"
+    },
+    {
+      "code": "688256",
+      "name": "寒武纪",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "专注于 AI 芯片设计的“纯血”厂商。提供从云端算力芯片到边缘端、终端的全场景 AI 处理器解决方案。",
+      "source": "llm_summary",
+      "products": [
+        "思元系列 AI 芯片",
+        "智能计算集群系统"
+      ],
+      "industry_position": "国内 AI 芯片设计第一梯队。",
+      "partners": null,
+      "accident": "各地算力券政策频发，鼓励企业使用国产算力资源。公司思元系列在多个政府主导的智算中心招标中高比例中标，业绩释放进入倒计时。"
+    },
+    {
+      "code": "600588",
+      "name": "用友网络",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "国内领先的企业云服务与软件提供商。主营 ERP、云服务及企业 AI 应用平台，服务对象涵盖大型国央企。",
+      "source": "llm_summary",
+      "products": [
+        "用友 BIP",
+        "YonGPT 大模型",
+        "NC Cloud"
+      ],
+      "industry_position": "国内企业管理软件龙头，信创核心标的。",
+      "partners": [
+        "中国电信",
+        "工商银行"
+      ],
+      "accident": "国资委要求国央企于 2027 年完成核心系统信创替代。公司近期获得多个千万级央企云平台升级订单，AI 应用场景正式进入商业化收割期。"
+    },
+    {
+      "code": "688111",
+      "name": "金山办公",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "国内办公软件龙头，提供 WPS Office 系列办公工具及金山文档协作服务。目前全面推进 AI+办公战略。",
+      "source": "llm_summary",
+      "products": [
+        "WPS Office",
+        "WPS AI",
+        "金山协作"
+      ],
+      "industry_position": "国内办公软件绝对龙头，对标 Microsoft 365。",
+      "partners": [
+        "阿里巴巴",
+        "华为"
+      ],
+      "accident": "WPS AI 宣布正式对个人及企业级用户开启商业化付费测试。市场预期随着 AI 助手功能的逐步完善，其年费会员价格及渗透率将迎来双升。"
+    },
+    {
+      "code": "002230",
+      "name": "科大讯飞",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "智能语音与人工智能龙头企业。业务涵盖 AI 硬件、智慧教育、智慧医疗及星火认知大模型。",
+      "source": "llm_summary",
+      "products": [
+        "星火大模型",
+        "AI 学习机",
+        "讯飞翻译机",
+        "智慧法庭系统"
+      ],
+      "industry_position": "智能语音领域龙头，国产大模型第一梯队。",
+      "partners": [
+        "华为",
+        "教育部",
+        "国家卫健委"
+      ],
+      "accident": "讯飞星火 4.0 发布，多模态能力对标 GPT-4o。近期由于 DeepSeek 带来的 AI 降费预期，公司通过开放平台吸引了大量开发者，生态护城河进一步加深。"
+    },
+    {
+      "code": "600763",
+      "name": "通策医疗",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "大型连锁口腔医疗服务机构。主营业务涵盖种植牙、正畸、牙体牙髓及儿童口腔服务。",
+      "source": "llm_summary",
+      "products": [
+        "种植牙服务",
+        "正畸治疗",
+        "口腔预防保健"
+      ],
+      "industry_position": "国内民营口腔医疗服务龙头。",
+      "partners": null,
+      "accident": "随着种植牙服务项目全流程调控完成，前期压抑的刚性需求集中爆发。公司推出的中低价位种植套餐动销良好，带动三季度门诊营收超预期。"
+    },
+    {
+      "code": "603613",
+      "name": "国联股份",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "B2B 垂直电商与产业互联网平台。通过多多电商平台，提供化工、造纸、玻璃等原材料的集采服务。",
+      "source": "llm_summary",
+      "products": [
+        "涂多多",
+        "卫多多",
+        "数字供应链服务"
+      ],
+      "industry_position": "工业品 B2B 电商行业领跑者。",
+      "partners": null,
+      "accident": "受大宗商品价格企稳及制造业复苏带动，平台交易总额 (GMV) 创季度新高。公司近期获得多项关于数字工厂建设的项目支持，加速向“产服一体化”转型。"
+    },
+    {
+      "code": "688126",
+      "name": "沪硅产业",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "国内规模最大的半导体硅片制造商。主营 300mm (12英寸) 及 200mm (8英寸) 抛光片及外延片。",
+      "source": "llm_summary",
+      "products": [
+        "300mm 抛光片",
+        "SOI 硅片",
+        "半导体外延片"
+      ],
+      "industry_position": "国产大硅片行业绝对龙头，全球硅片市场重要参与者。",
+      "partners": [
+        "中芯国际",
+        "华虹半导体",
+        "台积电"
+      ],
+      "accident": "受先进制程及存储芯片扩产拉动，国内 12 英寸硅片需求缺口持续放大。公司近期完成新一轮定增，将加速太原及上海生产基地的高端产能建设。"
+    },
+    {
+      "code": "688167",
+      "name": "炬光科技",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "炬光科技是全球领先的高功率半导体激光及激光光学企业。公司主要从事半导体激光器、激光光学元器件以及激光系统的研发与制造，产品广泛应用于 AI 算力硬件、智能驾驶 LiDAR、医疗美容及科研领域。公司致力于解决光电转换中的精密光学控制难题，是光通讯高端模块（800G/1.6T）内部关键微透镜组件的稀缺供应商。",
+      "source": "llm_summary",
+      "products": [
+        "可插拔用硅透镜",
+        "OCS 光学组件",
+        "CPO 激光光源",
+        "半导体激光器芯片"
+      ],
+      "industry_position": "全球激光光学元器件领军企业，CPO/OCS 核心配套商。",
+      "partners": [
+        "谷歌 (Google)",
+        "Meta",
+        "英伟达",
+        "天孚通信",
+        "太辰光"
+      ],
+      "accident": "近期，亚马逊、谷歌、Meta 等 CSP 巨头大幅上修了 2026 年资本开支，重点强调了对 OCS 全光互联架构的投入。花旗银行近期大幅上调了天孚通信、太辰光的目标价，并特别指出了 OCS 和 CPO 方案将在英伟达未来架构（如 Rubin Ultra）中占据主导。炬光科技作为光模块“半导体化”的典型标的，近期受此预期驱动，主力净流入显著。此外，随着磷化铟衬底在商业航天及光通讯领域的潜力释放，公司在相关外延片与光芯片领域的技术突破，正带动其从传统激光估值体系向 AI Infra 估值体系全面切入。"
+    },
+    {
+      "code": "600352",
+      "name": "浙江龙盛",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "浙江龙盛是全球染料行业的绝对领导者。公司深耕纺织化工领域，主营分散染料、活性染料及其配套中间体的研发与生产。通过高度的垂直一体化布局，公司构建了从基础化工原材料到终端染料产品的全链条控制力。公司依托极强的成本管理和环保治理水平，在历次行业洗牌中持续扩大份额，目前已成为全球最大的染料生产基地，具备显著的全球议价权和行业话语权。",
+      "source": "llm_summary",
+      "products": [
+        "分散染料",
+        "活性染料",
+        "染料中间体 (还原物/间苯二胺)",
+        "工业减水剂"
+      ],
+      "industry_position": "全球染料行业市占率第一，具绝对定价权。",
+      "partners": [
+        "闰土股份 (行业协同)",
+        "吉华集团"
+      ],
+      "accident": "公司于 2 月 8 日正式上调大部分分散染料出厂报价 2000 元/吨，顺价态度极其坚决。由于上游中间体还原物价格已从低位暴涨近 200%，行业内中小企业因拿不到货而被迫收缩。叠加春节后下游印染厂开工率快速回升至 80% 以上，市场现货告急。此外，受近期化工大宗商品处于产能及库存周期双拐点影响，资金正密集挖掘具备资源稀缺性的传统制造标的，浙江龙盛作为“染料之王”，获游资与机构双重抢筹，股价已开启趋势主升浪。"
+    },
+    {
+      "code": "600520",
+      "name": "三佳科技",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "三佳科技是国内领先的半导体封测设备供应商。公司核心业务聚焦于半导体集成电路专用模具及封装设备的研发与制造。在当前半导体产业链追求高性能、低功耗的背景下，公司正从传统封装模具向高端先进封装设备领域全速转型，致力于提供适配先进封装工艺的整体解决方案 。",
+      "source": "llm_summary",
+      "products": [
+        "半导体封装设备",
+        "集成电路专用模具",
+        "扇出型晶圆级封装 (FoWLP) 相关配套",
+        "先进封装模具"
+      ],
+      "industry_position": "国内半导体封测设备与模具领军企业 。",
+      "partners": [
+        "Groq (逻辑关联)",
+        "国内主流封测大厂"
+      ],
+      "accident": "近期 Groq 芯片产能大幅提高引发了市场对先进封装产能缺口的关注，特别是其开辟的非 CoWoS 路径，使得扇出型封装技术需求爆发。此外，商务部公告加强对日半导体出口管制，进一步加速了半导体封测设备的国产化进程。三佳科技作为具备核心竞争力的本土厂商，近期获得机构资金重点建仓，市场预期其在 2026 年的订单放量将超过往年平均水平 。"
+    },
+    {
+      "code": "300071",
+      "name": "福石控股",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "福石控股致力于成为领先的 AI 应用与整合营销服务商。公司业务紧跟互联网大模型的发展逻辑，通过深度集成主流 AI 技术（如通义千问、Gemini 等），为企业客户提供智能化的营销、内容生成及客户管理解决方案。公司核心资产在于其成熟的渠道网络与 AI 赋能的创意生产能力，是 AI 落地营销赛道的代表企业 。",
+      "source": "llm_summary",
+      "products": [
+        "AI 营销系统",
+        "智能内容生成工具",
+        "数字营销策划服务"
+      ],
+      "industry_position": "AI 营销与应用领域的核心参与者 。",
+      "partners": [
+        "阿里巴巴 (通义千问)",
+        "谷歌 (Google)",
+        "蚂蚁集团"
+      ],
+      "accident": "近期由于 DeepSeek 新旗舰模型即将发布以及阿里千问 App 表现强劲，市场对 AI 应用赛道的信心全面修复。福石控股作为相关生态的紧密合作伙伴，单日主力净流入显著。此外，蚂蚁集团发布 AI 助手“灵光”App，进一步丰富了公司可选的底层技术栈，带动市场对其在 2026 年实现“AI+营销”商业化闭环的强烈预期 。"
+    },
+    {
+      "code": "600592",
+      "name": "龙溪股份",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "龙溪股份是全球最大的关节轴承生产商之一。公司基本面极其雄厚，拥有国内最完整的关节轴承产品线，产品广泛应用于航空航天、国防军工、大型建筑工程及高端装备制造。随着工业智能化的深入，公司正积极将宇航级、军工级的高精密轴承技术向人形机器人关节环节延伸，致力于为全球本体企业提供高载荷、长寿命的核心配套件 。",
+      "source": "llm_summary",
+      "products": [
+        "关节轴承",
+        "精密滚动轴承",
+        "机器人关节专用配套轴承",
+        "航空航天转接件"
+      ],
+      "industry_position": "全球关节轴承行业领军企业，国内市占率第一 。",
+      "partners": [
+        "特斯拉 (潜在关联)",
+        "宇树机器人 (潜在)",
+        "中国航天"
+      ],
+      "accident": "近期受马斯克巨额薪酬计划披露及强化百万台机器人交付目标的影响，机器人板块热度高涨。同时，特朗普政府考虑明年对机器人领域实施专项行政令的传闻，引发了市场对国产供应链自主可控的高度关注。龙溪股份作为该领域具备硬实力的标的，近期受游资与机构双重抢筹。此外，宇树机器人预计于年内递交上市申请，作为国内本体龙头，其供应链的透明化将直接催化公司估值重构 。"
+    },
+    {
+      "code": "300827",
+      "name": "上能电气",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "上能电气是全球领先的光伏逆变器与储能变流器供应商。公司核心业务围绕电力电子变换技术，提供包括光伏并网逆变、储能双向变流、电能质量治理等在内的全套能源解决方案。公司目前正重点发力能源管理系统（EMS），致力于通过实时数据采集与智能调度，实现电网、用户与电价之间的动态平衡，是新型电力系统建设中的关键技术节点 。",
+      "source": "llm_summary",
+      "products": [
+        "储能变流器 (PCS)",
+        "能源管理系统 (EMS)",
+        "光伏逆变器",
+        "液冷温控设备"
+      ],
+      "industry_position": "全球储能变流器及逆变器核心厂商 。",
+      "partners": [
+        "国家电网",
+        "宁德时代",
+        "各类新能源发电投资方"
+      ],
+      "accident": "国家能源局近期印发《新型储能并网运营管理办法》，明确了储能项目的补贴与并网标准，这对具备系统集成与管理能力的厂商构成重大利好。受此催化，上能电气的储能业务订单排期已显著拉长。此外，昨晚荷兰天然气期货暴涨 40% 再次激活了海外户储与商储市场，公司作为具备出海优势的龙头标的，近期获主力资金逆势加仓，市场预期其 2026 年一季度排产将创历史新高 。"
+    },
+    {
+      "code": "603306",
+      "name": "华懋科技",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "华懋科技原本是汽车被动安全系统领域的领军企业，主营气囊布、气囊袋及安全带。近年来，公司通过投资徐州博康，跨界切入半导体光刻胶这一极高壁垒的“卡脖子”赛道。目前，公司已形成了“汽车安全+半导体新材料”的双主业格局，致力于利用徐州博康在单体、树脂及光刻胶成品上的全产业链自研能力，打破海外巨头在 ArF、KrF 以及 EUV 光刻胶领域的长期垄断。公司基本面正经历从传统制造向硬科技平台的蜕变。",
+      "source": "llm_summary",
+      "products": [
+        "ArF/KrF 光刻胶",
+        "光刻胶单体及树脂",
+        "汽车安全气囊布",
+        "OPW 气囊",
+        "安全带"
+      ],
+      "industry_position": "国内半导体光刻胶全产业链领先者，汽车安全系统核心供应商。",
+      "partners": [
+        "中芯国际",
+        "长江存储",
+        "合肥晶合",
+        "华为",
+        "特斯拉"
+      ],
+      "accident": "近期受“上海微电子光刻机验证进度超预期”及“美国考虑限制对华半导体耗材出口”等消息催化，光刻胶板块景气度推向高潮。华懋科技作为博康的唯一投资控股主体，深度受益于国产 ArF 胶的份额替代。此外，公司近期公告其在低空经济领域也有所斩获，其生产的高强纤维材料已开始配套 eVTOL 的降落伞系统和舱内结构件，这种“半导体+低空”的双重叙事，带动了主力资金的密集涌入。市场正密切关注博康在 EUV 胶领域的研发定点进展。"
+    },
+    {
+      "code": "601058",
+      "name": "赛轮轮胎",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "赛轮轮胎是国内首家 A 股上市的民营轮胎企业。公司通过与国家橡胶与轮胎工程技术研究中心深度合作，成功研发出被誉为“液体黄金”的化学炼胶技术。这一技术彻底打破了轮胎行业的“魔鬼三角”难题，实现了滚动阻力、湿地抓地力和耐磨性的同时提升。公司业务涵盖乘用车胎、卡客车胎及特种轮胎（巨胎），并积极拓展海外生产基地（越南、柬埔寨、墨西哥），致力于成为具有全球影响力的轮胎品牌。",
+      "source": "llm_summary",
+      "products": [
+        "液体黄金轮胎",
+        "半钢子午胎",
+        "全钢子午胎",
+        "非公路矿用巨胎"
+      ],
+      "industry_position": "中国轮胎行业龙头之一，液体黄金技术全球首创。",
+      "partners": [
+        "比亚迪",
+        "奇瑞",
+        "卡特彼勒 (Caterpillar)"
+      ],
+      "accident": "近期受海运费回落及原材料胶价高位企稳影响，公司单胎盈利能力创下近年新高。同时，墨西哥工厂近期正式动工，标志着公司全面切入北美近岸外包体系，有望在未来规避潜在的贸易壁垒。受马斯克宣布将为其机器人和自动驾驶系统配备更耐磨的“低生热”轮胎传闻影响，赛轮作为具备相关技术储备的标的，获外资与机构大幅加仓。市场目前对公司 2026 年实现“百亿利润”的远景目标给出了极高的关注度。"
+    },
+    {
+      "code": "301269",
+      "name": "华宝新能",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "华宝新能是全球便携式储能行业的领军者，旗下拥有“电小二（Jackery）”及“Geneverse”两大知名品牌。公司主营业务包括便携式储能电源及配套的光伏太阳能板，致力于为户外运动、家庭应急及移动作业提供绿色、便携的电力解决方案。公司通过全渠道营销模式（DTC 官网、亚马逊、线下零售），业务覆盖北美、欧洲、日本及中国等全球 30 多个国家和地区，是光充户外电源类目的绝对先行者。",
+      "source": "llm_summary",
+      "products": [
+        "电小二便携储能电源",
+        "折叠式光伏太阳能板",
+        "家庭备用能源系统",
+        "光充配套组件"
+      ],
+      "industry_position": "全球便携储能市占率领先，光充户外电源开创者。",
+      "partners": [
+        "亚马逊 (Amazon)",
+        "Costco",
+        "Home Depot"
+      ],
+      "accident": "受近期中东及东欧局势不稳引发的能源安全担忧影响，北美及欧洲市场对“家庭应急备电”产品的询单量激增。同时，随着 DeepSeek 带来的 AI 浪潮降低了软件开发与营销成本，公司正利用 AI 进行精准的全球选品与广告分发，极大地优化了获客效率。市场近期高度关注公司在 2026 年初排产数据的环比爆发，这被视为行业彻底走出谷底、进入新一轮景气周期的明确信号。主力资金已在底部区域完成二次建仓。"
+    },
+    {
+      "code": "301248",
+      "name": "杰华特",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "杰华特是一家采用虚拟 IDM 模式的模拟集成电路设计企业。公司核心业务涵盖电源管理芯片、信号链芯片等，产品广泛应用于计算电力、工业控制、通讯网络、汽车电子及消费电子。公司致力于通过自研的工艺平台，实现高性能、高集成度模拟芯片的国产化替代。作为国内电源管理领域的佼佼者，公司在处理大电流、高电压、高频开关等复杂电源场景方面具备显著的技术积累。",
+      "source": "llm_summary",
+      "products": [
+        "Power Stage (DrMOS)",
+        "DC-DC 转换器",
+        "LED 驱动芯片",
+        "AC-DC 控制器",
+        "信号链芯片"
+      ],
+      "industry_position": "国内模拟芯片领先厂商，AI 服务器电源芯片核心标的。",
+      "partners": [
+        "浪潮信息",
+        "中兴通讯",
+        "比亚迪",
+        "英特尔 (Intel)"
+      ],
+      "accident": "近期受英伟达 GB200 生产指令下达及算力硬件国产化替代加速的影响，杰华特作为显控与算力电源的关键配套标的，估值迎来强势修复。市场传闻其新款大电流 DrMOS 已通过北美顶级云服务商的初步测试。此外，商务部近期有关鼓励关键模拟芯片自主可控的表态，也为公司在汽车域控电源及工业 4.0 领域的市场扩张扫清了障碍。近期主力净流入显著，机构普遍看好其在 2026 年实现从消费电子向算力/汽车转型的业绩大跨越。"
+    },
+    {
+      "code": "688036",
+      "name": "传音控股",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "传音控股是全球新兴市场手机行业的领军企业。公司长期扎根非洲，并成功将业务拓展至南亚、东南亚、拉美及中东等地区。通过“非洲本土化”战略，公司构建了包括手机（TECNO、Infinix、Itel）、数码配件、家用电器及互联网服务在内的多元化生态体系。公司不仅卖硬件，更依托庞大的活跃用户群，通过自研的手机操作系统（HiOS、XOS、ItelOS）开展移动互联业务，是新兴市场数字化转型的核心推动者。",
+      "source": "llm_summary",
+      "products": [
+        "智能手机 (TECNO/Infinix/Itel)",
+        "智能电视",
+        "蓝牙耳机",
+        "Oraimo 数码配件",
+        "Boomplay 音乐流媒体"
+      ],
+      "industry_position": "全球新兴市场手机之王，非洲市占率第一。",
+      "partners": [
+        "谷歌 (Google)",
+        "Meta",
+        "阿里巴巴"
+      ],
+      "accident": "受近期非洲大陆自由贸易区（AfCFTA）推进及多个新兴经济体汇率企稳影响，公司订单需求出现报复性反弹。同时，DeepSeek 等轻量化国产大模型的出海，为传音在低成本机型上部署强大的 AI 功能提供了可能。近期公司发布的最新折叠屏手机在东南亚市场反响热烈，显示了其冲击中高端市场的实力。主力资金高度认可其“硬件+互联网”的双轮驱动逻辑，估值中枢正随其全球市占率的提升而不断上移。"
+    },
+    {
+      "code": "000977",
+      "name": "浪潮信息",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "浪潮信息是全球领先的 IT 基础设施产品、方案及服务提供商。公司业务核心聚焦于服务器、存储及 AI 算力平台的研发与制造。作为全球最大的服务器厂商之一，公司在 AI 服务器领域拥有深厚积淀，其“元脑”生态体系旨在为用户提供从底层算力到顶层算法的交钥匙工程。公司目前正全力推进液冷技术的标准化与规模化，致力于打造绿色、高效的新型智算中心。",
+      "source": "llm_summary",
+      "products": [
+        "AI 服务器 (NF5488/NF5688)",
+        "液冷服务器机柜",
+        "分布式存储系统",
+        "算力调度平台",
+        "元脑 AI 引擎"
+      ],
+      "industry_position": "全球及中国服务器市占率第一梯队，AI 服务器龙头。",
+      "partners": [
+        "英伟达 (NVIDIA)",
+        "英特尔",
+        "百度",
+        "阿里巴巴",
+        "腾讯"
+      ],
+      "accident": "近期甲骨文与 OpenAI 签署数十亿美元算力协议，引发了全球对“服务器+液冷”配套的追单潮，浪潮信息作为核心受益者近期获主力大单扫货。同时，国内各省市密集发布算力中心建设规划，浪潮凭借在政务云和电信市场的深厚根基，频频预中标大额订单。随着英伟达 H20 追单及国产算力芯片迭代，浪潮作为“异构算力适配者”的角色愈发凸显。近期主力资金流入量位居板块榜首，股价展现出显著的机构牛市特征。"
+    },
+    {
+      "code": "300676",
+      "name": "华大基因",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "华大基因是全球领先的生命科学前沿机构。公司通过基因检测、质谱检测、生物信息分析等多重技术手段，为医疗机构、科研单位及大众提供生育健康、肿瘤防控、感染防控及精准医学检测服务。公司致力于实现基因科技的普惠，依托自研的高通量测序平台，大幅降低了基因测序的成本，致力于构建贯穿生命全周期的健康管理体系。",
+      "source": "llm_summary",
+      "products": [
+        "无创产前基因检测 (NIPT)",
+        "肿瘤基因检测套装",
+        "宏基因组测序检测 (mPMT)",
+        "基因测序分析系统"
+      ],
+      "industry_position": "中国基因测序及精准医疗行业绝对龙头。",
+      "partners": [
+        "华大智造",
+        "各大三甲医院",
+        "世卫组织 (WHO)"
+      ],
+      "accident": "近期受国家出台《关于推进生物医药产业高质量发展的指导意见》及鼓励创新药早筛早诊政策的催化，华大基因作为检测端龙头受资金关注。同时，随着 DeepSeek 等 AI 模型在蛋白质折叠和基因序列预测上的应用，公司正积极探索“AI+基因”模型，有望大幅缩短检测报告周期。近期主力资金在底部区域回流显著，市场对其在肿瘤早筛及慢性病预测领域的商业化落地抱有极高期待。此外，公司在全球传染病监控网络中的角色也因近期部分地区防疫需求增加而得到强化。"
+    },
+    {
+      "code": "603233",
+      "name": "大参林",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "大参林是国内规模领先的医药零售连锁企业。公司立足华南，业务辐射全国，通过“直营+加盟+并购”的三位一体模式，实现了门店数量的快速扩张。公司主营中西成药、中药饮片、医疗器械、保健品等，并依托强大的供应链管理和数字化运营体系，为消费者提供专业化的药学服务和慢病管理。公司正积极向“互联网+医疗”转型，打造线上线下一体化的医药服务闭环。",
+      "source": "llm_summary",
+      "products": [
+        "西药/中成药销售",
+        "参茸滋补品 (自有品牌)",
+        "医疗器械",
+        "慢病健康管理服务"
+      ],
+      "industry_position": "中国医药零售连锁行业前三强，华南地区绝对霸主。",
+      "partners": [
+        "阿斯利康",
+        "恒瑞医药",
+        "华东医药"
+      ],
+      "accident": "近期受多地正式执行《药店门诊统筹管理办法》及统筹资金额度向药店倾斜的利好，大参林作为合规度最高的龙头，进店客流显著回升。同时，DeepSeek 等 AI 助手在药店 O2O 营销及智能用药指导上的应用，帮助公司降低了人工运营成本。近期主力资金持续流入医药商业板块，大参林凭借优于同行的业绩韧性，获得多家券商“金股”推荐。市场预期其在 2026 年将迎来并购门店整合后的利润爆发期。"
+    },
+    {
+      "code": "002261",
+      "name": "拓维信息",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "拓维信息是一家深耕国产软硬件生态的高新技术企业。公司是华为全方位战略合作伙伴，深度布局“鲲鹏+昇腾”国产算力体系。核心业务包括湘江鲲鹏国产服务器制造、华为云代理及行业数字化解决方案。通过软硬一体化战略，公司致力于为政务、教育、交通及金融等关键行业提供安全、自主、可控的数字化底座。",
+      "source": "llm_summary",
+      "products": [
+        "兆瀚系列服务器 (昇腾/鲲鹏)",
+        "华为云服务",
+        "行业 AI 数字化方案",
+        "移动互联网服务"
+      ],
+      "industry_position": "华为“鲲鹏+昇腾”核心战略合作伙伴，国产算力领先厂商。",
+      "partners": [
+        "华为 (Huawei)",
+        "湖南省政府",
+        "中信银行",
+        "中国电信"
+      ],
+      "accident": "近期受 DeepSeek 国产大模型转向昇腾算力适配及“算力券”政策推广的催化，拓维信息作为华为算力链的直接配套商，受资金暴力抢筹。同时，公司近期中标多个千万级智算中心扩容项目，预示着 2026 年上半年业绩将迎来高增。受近期“先进制程限制趋缓”与“国产算力补贴”双重利好影响，公司作为华为生态标杆，估值空间被全面打开。主力资金近期呈现单日净流入超 3 亿元的强力态势。市场高度看好其在 2026 年实现业务利润翻倍的潜力。"
+    },
+    {
+      "code": "300339",
+      "name": "润和软件",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "润和软件是国内领先的数字化转型解决方案服务商。公司深度参与华为“鸿蒙（HarmonyOS）”及“欧拉（openEuler）”生态建设，是鸿蒙生态的核心共建者。核心业务涵盖物联网、金融科技、智慧能源及人工智能。公司通过提供国产操作系统发行版、芯片适配及行业应用开发，致力于构建安全可控的万物互联底座，为企业客户提供全栈式数字化转型支持。",
+      "source": "llm_summary",
+      "products": [
+        "HiHope 鸿蒙开发平台",
+        "HopeStage 操作系统发行版",
+        "金融数字化解决方案",
+        "AI 中台服务"
+      ],
+      "industry_position": "华为鸿蒙/欧拉生态核心共建伙伴，国产软件领军企业。",
+      "partners": [
+        "华为",
+        "南方电网",
+        "工商银行",
+        "蚂蚁集团"
+      ],
+      "accident": "近期受“纯血鸿蒙”HarmonyOS NEXT 全面公测及华为三折叠手机预约量破千万的催化，润和软件作为核心生态服务商获主力重磅加仓。同时，DeepSeek 等开源大模型在鸿蒙系统中的原生集成，显著提升了公司行业方案的智能化程度。近期主力资金连续 3 日大规模流入，市场高度看好其在 2026 年实现鸿蒙 PC 订单规模化落地的潜力。股价表现出强烈的“新质生产力”主题特征，机构普遍预期其估值将迎来系统性重塑。"
+    },
+    {
+      "code": "000100",
+      "name": "TCL科技",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "TCL 科技是全球领先的智能科技产业集团。核心业务分为半导体显示（TCL 华星）和半导体光伏（TCL 中环）两大板块。在显示领域，公司覆盖了从大尺寸 TV 到小尺寸手机、IT、车载等全尺寸面板，具备极强的规模效应和技术竞争力。在光伏领域，公司通过控股 TCL 中环，在 G12 大硅片、高效电池及组件领域占据全球领先地位。公司致力于通过“显示+光伏”双轮驱动，构建具备全球竞争力的硬科技产业链。",
+      "source": "llm_summary",
+      "products": [
+        "液晶面板 (LCD/OLED)",
+        "G12 单晶硅片",
+        "N 型高效电池/组件",
+        "显示控制模组"
+      ],
+      "industry_position": "全球大尺寸 LCD 面板前二，G12 硅片全球第一。",
+      "partners": [
+        "三星 (Samsung)",
+        "华为",
+        "小米",
+        "索尼"
+      ],
+      "accident": "近期受“面板大厂集体减产保价”及“黑神话悟空带动的高刷显示器换机潮”催化，TCL 科技面板业务单季盈利超预期。光伏板块受近期中东及美国相关政策边际改善影响，TCL 中环的海外组件订单出现爆发式增长。受 DeepSeek 算力架构优化带动的高效散热材料需求传闻影响，公司在柔性显示与散热基板领域的技术储备受资金关注。近期主力资金持续加码面板双雄，TCL 科技表现出极强的趋势主升动力。市场预期其在 2026 年将迎来显示与新能源业务的双重业绩爆发。"
+    },
+    {
+      "code": "000625",
+      "name": "长安汽车",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "长安汽车是中国汽车行业四大领军企业之一。公司目前正全面推进“第三次创业——创新创业计划”，加速向智能低碳出行科技公司转型。核心品牌涵盖长安引力、深蓝汽车、阿维塔及启源。公司致力于通过自研的“七合一”电驱系统、SDA 架构及深度集成华为智驾技术，构建从中端大众到高端豪华的全覆盖新能源产品矩阵。同时，公司在出海领域表现强劲，业务遍及全球 60 多个国家。",
+      "source": "llm_summary",
+      "products": [
+        "阿维塔 11/12",
+        "深蓝 S7/SL03",
+        "长安启源系列",
+        "原力超增程技术"
+      ],
+      "industry_position": "中国新能源汽车第一梯队，高端智驾车型领军者。",
+      "partners": [
+        "华为 (Huawei)",
+        "宁德时代 (CATL)",
+        "腾讯"
+      ],
+      "accident": "近期受“阿维塔 07 爆单”及“长安入股华为引望细节敲定”的催化，公司股价表现极其活跃。同时，随着 DeepSeek 带来的端侧 AI 算力优化，长安宣布将新款车型的智能座舱全面接入大模型，显著提升了语音交互与智驾决策的拟人性。受近期“汽车以旧换新”政策加码及海外出口高增拉动，公司 2025 年排产预期大幅上修。近期主力资金持续流入汽车蓝筹标的，长安汽车作为具备“华为系”最深参与度的个股，获机构资金暴力配置。市场高度看好其在 2026 年实现新能源业务盈亏平衡后的利润释放弹性。"
+    },
+    {
+      "code": "002049",
+      "name": "紫光国微",
+      "date": "2026-03-16",
+      "article_title": "股票 LLM 摘要处理任务",
+      "article_url": "email://18901700722@163.com/uid/1773406505",
+      "context": "紫光国微是国内领先的集成电路设计企业。核心业务板块涵盖特种集成电路（FPGA、存储、总线接口等）、智能安全芯片（SIM 卡芯片、银行卡芯片）以及石英晶体频率器件。公司产品广泛应用于航空航天、国防军工、金融支付、移动通信及身份识别领域。公司致力于实现核心高端芯片的完全自主可控，是国内特种行业芯片供应的核心保障者。",
+      "source": "llm_summary",
+      "products": [
+        "特种 FPGA 芯片",
+        "智能安全芯片 (THD89)",
+        "石英晶体振荡器",
+        "高性能存储器芯片"
+      ],
+      "industry_position": "国内特种集成电路及智能安全芯片行业龙头。",
+      "partners": [
+        "中国航天",
+        "中国移动",
+        "各大型商业银行",
+        "中国商飞"
+      ],
+      "accident": "近期受“商业航天司设立”及“卫星物联网商用试验启动”催化，紫光国微作为星载核心芯片供应商受资金暴力抢筹。同时，DeepSeek 模型在硬件仿真验证中的应用，使公司新一代 FPGA 的设计周期缩短了 40%，进一步提升了研发效率。近期主力资金大举买入“中特估+半导体”双重属性个股，紫光国微获北向资金与机构资金共振加仓。市场高度看好其在 2026 年受益于军工电子信息化大周期复苏带来的业绩爆发，股价已进入趋势主升轨道。"
+    }
+  ]
+}
