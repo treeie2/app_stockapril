@@ -18,6 +18,9 @@ def get_akshare():
 
 app = Flask(__name__)
 
+# 文章API服务配置
+ARTICLE_API_URL = os.environ.get('ARTICLE_API_URL', 'http://localhost:5001')
+
 # 数据路径
 DATA_DIR = Path(__file__).parent / 'data' / 'sentiment'
 SEARCH_INDEX_FILE = DATA_DIR / 'search_index_full.json.gz'
@@ -799,6 +802,109 @@ def update_stock_field(code, field, value):
         return jsonify({'success': True, 'message': '已保存'})
     except Exception as e:
         return jsonify({'error': str(e)}), 500
+
+# ═══════════════════════════════════════════════════════════
+# 文章数据同步 API（对接智能体）
+# ═══════════════════════════════════════════════════════════
+
+@app.route('/api/articles/sync', methods=['POST'])
+def sync_articles_from_api():
+    """
+    从文章API服务同步数据到主项目
+    可以手动触发或设置定时任务
+    """
+    try:
+        # 1. 从API获取待导入数据
+        resp = requests.post(
+            f'{ARTICLE_API_URL}/api/sync/to-main',
+            timeout=30
+        )
+        
+        if resp.status_code != 200:
+            return jsonify({
+                'success': False,
+                'error': f'API服务返回错误: {resp.status_code}'
+            }), 500
+        
+        data = resp.json()
+        if not data.get('success'):
+            return jsonify({
+                'success': False,
+                'error': data.get('error', 'Unknown error')
+            }), 500
+        
+        sync_data = data.get('data', {})
+        articles = sync_data.get('articles', [])
+        stocks_data = sync_data.get('stocks', [])
+        
+        if not articles:
+            return jsonify({
+                'success': True,
+                'message': '没有待同步的数据',
+                'imported': 0
+            })
+        
+        # 2. 导入数据
+        from article_importer import ArticleImporter
+        importer = ArticleImporter(api_base_url=ARTICLE_API_URL)
+        stats = importer.import_articles(auto_confirm=True)
+        
+        return jsonify({
+            'success': True,
+            'message': f'同步完成',
+            'stats': {
+                'articles_processed': stats.get('articles_processed', 0),
+                'stocks_created': stats.get('stocks_created', 0),
+                'stocks_updated': stats.get('stocks_updated', 0),
+                'errors': len(stats.get('errors', []))
+            }
+        })
+        
+    except requests.exceptions.ConnectionError:
+        return jsonify({
+            'success': False,
+            'error': f'无法连接到文章API服务: {ARTICLE_API_URL}'
+        }), 503
+    except Exception as e:
+        return jsonify({
+            'success': False,
+            'error': str(e)
+        }), 500
+
+
+@app.route('/api/articles/status', methods=['GET'])
+def get_article_api_status():
+    """检查文章API服务状态"""
+    try:
+        resp = requests.get(f'{ARTICLE_API_URL}/api/health', timeout=5)
+        if resp.status_code == 200:
+            return jsonify({
+                'success': True,
+                'api_status': 'connected',
+                'api_url': ARTICLE_API_URL,
+                'details': resp.json()
+            })
+        else:
+            return jsonify({
+                'success': False,
+                'api_status': 'error',
+                'api_url': ARTICLE_API_URL,
+                'status_code': resp.status_code
+            })
+    except requests.exceptions.ConnectionError:
+        return jsonify({
+            'success': False,
+            'api_status': 'disconnected',
+            'api_url': ARTICLE_API_URL,
+            'message': '文章API服务未启动'
+        })
+    except Exception as e:
+        return jsonify({
+            'success': False,
+            'api_status': 'error',
+            'error': str(e)
+        })
+
 
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))

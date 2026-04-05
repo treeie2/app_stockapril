@@ -452,23 +452,26 @@
       "board": "SZ",
       "industry": "通信-通信设备-通信网络设备及器件",
       "concepts": [
-        "共封装光学(CPO)",
-        "F5G概念",
-        "液冷服务器",
+        "无人驾驶",
         "汽车电子",
-        "5G",
-        "中国AI 50",
+        "CPO",
         "芯片概念",
         "同花顺新质50",
-        "深股通",
-        "数据中心",
         "2025年报预增",
-        "无人驾驶",
         "人民币贬值受益",
+        "中国AI 50",
         "创投",
-        "融资融券"
+        "数据中心",
+        "融资融券",
+        "F5G概念",
+        "5G",
+        "AI算力",
+        "深股通",
+        "光模块",
+        "共封装光学(CPO)",
+        "液冷服务器"
       ],
-      "mention_count": 15,
+      "mention_count": 16,
       "products": [
         "芯片",
         "服务器",
@@ -523,10 +526,30 @@
           ],
           "key_metrics": [],
           "target_valuation": ""
+        },
+        {
+          "article_id": "300308_30eb473d4bb54135a95d",
+          "article_title": "光模块行业深度分析",
+          "article_url": "https://mp.weixin.qq.com/s/ABC123",
+          "date": "2026-03-30",
+          "source": "wechat",
+          "context": "",
+          "accident": "AI算力需求爆发",
+          "accidents": [
+            "AI算力需求爆发"
+          ],
+          "insights": [
+            "全球光模块龙头，800G市占率超50%",
+            "深度绑定海外云厂商"
+          ],
+          "key_metrics": [
+            "25年预期净利超60亿"
+          ],
+          "target_valuation": []
         }
       ],
       "article_count": 1,
-      "last_updated": "2026-03-25",
+      "last_updated": "2026-04-05T16:47:32.890728",
       "insights": [
         "AI 算力核心受益"
       ],
