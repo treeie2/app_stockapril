@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>导入股票数据 - 个股研究数据库</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #080c14;
+            --bg-card: #0f1623;
+            --bg-input: #131d2e;
+            --border: rgba(99,179,237,0.1);
+            --border-h: rgba(99,179,237,0.3);
+            --cyan: #06b6d4;
+            --blue: #3b82f6;
+            --green: #10b981;
+            --rose: #f43f5e;
+            --amber: #f59e0b;
+            --t1: #e2e8f0;
+            --t2: #94a3b8;
+            --t3: #4b5563;
+            --r: 8px;
+        }
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg);
+            color: var(--t1);
+            min-height: 100vh;
+            padding: 2rem;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h1 {
+            font-size: 1.8rem;
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+        .subtitle {
+            color: var(--t2);
+            margin-bottom: 2rem;
+        }
+        .card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--r);
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .card-title {
+            font-size: 1.1rem;
+            color: var(--cyan);
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .format-example {
+            background: var(--bg-input);
+            border: 1px solid var(--border);
+            border-radius: var(--r);
+            padding: 1rem;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--t2);
+            overflow-x: auto;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        .upload-area {
+            border: 2px dashed var(--border-h);
+            border-radius: var(--r);
+            padding: 3rem 2rem;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s;
+            background: rgba(59,130,246,0.02);
+        }
+        .upload-area:hover {
+            border-color: var(--blue);
+            background: rgba(59,130,246,0.05);
+        }
+        .upload-area.dragover {
+            border-color: var(--green);
+            background: rgba(16,185,129,0.05);
+        }
+        .upload-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        .upload-text {
+            color: var(--t2);
+            margin-bottom: 0.5rem;
+        }
+        .upload-hint {
+            color: var(--t3);
+            font-size: 0.85rem;
+        }
+        #fileInput { display: none; }
+        .json-input {
+            width: 100%;
+            min-height: 300px;
+            background: var(--bg-input);
+            border: 1px solid var(--border);
+            border-radius: var(--r);
+            padding: 1rem;
+            color: var(--t1);
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.9rem;
+            resize: vertical;
+            line-height: 1.5;
+        }
+        .json-input:focus {
+            outline: none;
+            border-color: var(--blue);
+        }
+        .btn-group {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+        .btn {
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: var(--r);
+            font-size: 0.95rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .btn-primary {
+            background: linear-gradient(135deg, var(--blue), #2563eb);
+            color: white;
+        }
+        .btn-primary:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(59,130,246,0.3);
+        }
+        .btn-secondary {
+            background: transparent;
+            border: 1px solid var(--border);
+            color: var(--t2);
+        }
+        .btn-secondary:hover {
+            border-color: var(--blue);
+            color: var(--t1);
+        }
+        .btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        .result-panel {
+            display: none;
+            margin-top: 1.5rem;
+            padding: 1rem;
+            border-radius: var(--r);
+        }
+        .result-panel.success {
+            display: block;
+            background: rgba(16,185,129,0.1);
+            border: 1px solid rgba(16,185,129,0.3);
+        }
+        .result-panel.error {
+            display: block;
+            background: rgba(244,63,94,0.1);
+            border: 1px solid rgba(244,63,94,0.3);
+        }
+        .result-title {
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .result-panel.success .result-title { color: var(--green); }
+        .result-panel.error .result-title { color: var(--rose); }
+        .result-detail {
+            color: var(--t2);
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        .stat-item {
+            background: rgba(255,255,255,0.03);
+            padding: 1rem;
+            border-radius: var(--r);
+            text-align: center;
+        }
+        .stat-value {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--cyan);
+        }
+        .stat-label {
+            font-size: 0.8rem;
+            color: var(--t3);
+            margin-top: 0.25rem;
+        }
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 2rem;
+        }
+        .loading.active {
+            display: block;
+        }
+        .spinner {
+            width: 40px;
+            height: 40px;
+            border: 3px solid var(--border);
+            border-top-color: var(--blue);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 1rem;
+        }
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--t2);
+            text-decoration: none;
+            margin-bottom: 1rem;
+            transition: color 0.2s;
+        }
+        .back-link:hover {
+            color: var(--cyan);
+        }
+        .tabs {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 0.5rem;
+        }
+        .tab {
+            padding: 0.5rem 1rem;
+            background: transparent;
+            border: none;
+            color: var(--t2);
+            cursor: pointer;
+            border-radius: var(--r);
+            transition: all 0.2s;
+        }
+        .tab.active {
+            background: rgba(59,130,246,0.1);
+            color: var(--blue);
+        }
+        .tab:hover:not(.active) {
+            color: var(--t1);
+        }
+        .tab-content {
+            display: none;
+        }
+        .tab-content.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="/" class="back-link">← 返回首页</a>
+        
+        <h1>📥 导入股票数据</h1>
+        <p class="subtitle">将JSON格式的股票数据导入到 stocks_master.json</p>
+        
+        <div class="card">
+            <div class="card-title">📋 数据格式说明</div>
+            <p style="color: var(--t2); margin-bottom: 1rem;">请输入符合以下格式的JSON数据：</p>
+            <div class="format-example">{
+  "stocks": [
+    {
+      "name": "股票名称",
+      "code": "股票代码",
+      "board": "SZ/SH",
+      "industry": "行业分类",
+      "concepts": ["概念1", "概念2"],
+      "mention_count": 10,
+      "articles": [
+        {
+          "title": "文章标题",
+          "date": "2024-03-15",
+          "source": "文章来源",
+          "insights": ["投资洞察1", "投资洞察2"]
+        }
+      ]
+    }
+  ]
+}</div>
+            <ul style="color: var(--t2); margin-top: 1rem; padding-left: 1.5rem; line-height: 1.8;">
+                <li>如果股票代码已存在，将合并文章数据（自动去重）</li>
+                <li>如果股票代码不存在，将创建新股票条目</li>
+                <li>支持批量导入多只股票</li>
+            </ul>
+        </div>
+        
+        <div class="card">
+            <div class="tabs">
+                <button class="tab active" onclick="switchTab('paste')">📋 粘贴JSON</button>
+                <button class="tab" onclick="switchTab('file')">📁 上传文件</button>
+            </div>
+            
+            <div id="paste-tab" class="tab-content active">
+                <textarea id="jsonInput" class="json-input" placeholder="在此粘贴JSON数据..."></textarea>
+            </div>
+            
+            <div id="file-tab" class="tab-content">
+                <div class="upload-area" onclick="document.getElementById('fileInput').click()" ondrop="handleDrop(event)" ondragover="handleDragOver(event)" ondragleave="handleDragLeave(event)">
+                    <div class="upload-icon">📁</div>
+                    <div class="upload-text">点击或拖拽JSON文件到此处</div>
+                    <div class="upload-hint">支持 .json 格式文件</div>
+                </div>
+                <input type="file" id="fileInput" accept=".json" onchange="handleFileSelect(event)">
+                <div id="fileName" style="margin-top: 1rem; color: var(--cyan);"></div>
+            </div>
+            
+            <div class="btn-group">
+                <button class="btn btn-primary" onclick="importData()">
+                    <span>🚀</span> 开始导入
+                </button>
+                <button class="btn btn-secondary" onclick="clearData()">
+                    <span>🗑️</span> 清空
+                </button>
+                <button class="btn btn-secondary" onclick="loadExample()">
+                    <span>📄</span> 加载示例
+                </button>
+            </div>
+            
+            <div id="loading" class="loading">
+                <div class="spinner"></div>
+                <p>正在导入数据...</p>
+            </div>
+            
+            <div id="result" class="result-panel">
+                <div class="result-title"></div>
+                <div class="result-detail"></div>
+                <div class="stats-grid" id="statsGrid"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let currentData = null;
+        
+        function switchTab(tab) {
+            document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+            document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+            
+            event.target.classList.add('active');
+            document.getElementById(tab + '-tab').classList.add('active');
+        }
+        
+        function handleDragOver(e) {
+            e.preventDefault();
+            e.currentTarget.classList.add('dragover');
+        }
+        
+        function handleDragLeave(e) {
+            e.currentTarget.classList.remove('dragover');
+        }
+        
+        function handleDrop(e) {
+            e.preventDefault();
+            e.currentTarget.classList.remove('dragover');
+            
+            const files = e.dataTransfer.files;
+            if (files.length > 0) {
+                processFile(files[0]);
+            }
+        }
+        
+        function handleFileSelect(e) {
+            const file = e.target.files[0];
+            if (file) {
+                processFile(file);
+            }
+        }
+        
+        function processFile(file) {
+            document.getElementById('fileName').textContent = `已选择: ${file.name}`;
+            
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                document.getElementById('jsonInput').value = e.target.result;
+                currentData = e.target.result;
+            };
+            reader.readAsText(file);
+        }
+        
+        function loadExample() {
+            const example = {
+                "stocks": [
+                    {
+                        "name": "测试科技",
+                        "code": "999999",
+                        "board": "SZ",
+                        "industry": "电子 - 半导体 - 芯片设计",
+                        "concepts": ["人工智能", "芯片", "物联网"],
+                        "mention_count": 5,
+                        "articles": [
+                            {
+                                "title": "测试科技2024年业绩展望",
+                                "date": "2024-04-01",
+                                "source": "证券时报",
+                                "insights": [
+                                    "营收预计增长30%，超出市场预期",
+                                    "新产品线即将量产，有望打开第二增长曲线"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            };
+            document.getElementById('jsonInput').value = JSON.stringify(example, null, 2);
+        }
+        
+        function clearData() {
+            document.getElementById('jsonInput').value = '';
+            document.getElementById('fileName').textContent = '';
+            document.getElementById('fileInput').value = '';
+            document.getElementById('result').className = 'result-panel';
+            currentData = null;
+        }
+        
+        async function importData() {
+            const jsonText = document.getElementById('jsonInput').value.trim();
+            
+            if (!jsonText) {
+                showResult('error', '请输入JSON数据', '请粘贴JSON数据或上传JSON文件');
+                return;
+            }
+            
+            // 验证JSON格式
+            let data;
+            try {
+                data = JSON.parse(jsonText);
+            } catch (e) {
+                showResult('error', 'JSON格式错误', e.message);
+                return;
+            }
+            
+            // 显示加载状态
+            document.getElementById('loading').classList.add('active');
+            document.getElementById('result').className = 'result-panel';
+            
+            try {
+                const response = await fetch('/api/import/stocks', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(data)
+                });
+                
+                const result = await response.json();
+                
+                if (result.success) {
+                    showResult('success', '✅ 导入成功', result.message, result.stats);
+                } else {
+                    showResult('error', '❌ 导入失败', result.message || result.error);
+                }
+            } catch (error) {
+                showResult('error', '❌ 请求失败', error.message);
+            } finally {
+                document.getElementById('loading').classList.remove('active');
+            }
+        }
+        
+        function showResult(type, title, detail, stats = null) {
+            const resultPanel = document.getElementById('result');
+            resultPanel.className = `result-panel ${type}`;
+            resultPanel.querySelector('.result-title').textContent = title;
+            resultPanel.querySelector('.result-detail').textContent = detail;
+            
+            const statsGrid = document.getElementById('statsGrid');
+            statsGrid.innerHTML = '';
+            
+            if (stats) {
+                const statItems = [
+                    { label: '导入股票', value: stats.imported_stocks || 0 },
+                    { label: '新增股票', value: stats.new_stocks || 0 },
+                    { label: '更新股票', value: stats.updated_stocks || 0 },
+                    { label: '导入文章', value: stats.imported_articles || 0 },
+                    { label: '新增文章', value: stats.new_articles || 0 },
+                    { label: '跳过重复', value: stats.duplicate_articles || 0 }
+                ];
+                
+                statItems.forEach(item => {
+                    const div = document.createElement('div');
+                    div.className = 'stat-item';
+                    div.innerHTML = `
+                        <div class="stat-value">${item.value}</div>
+                        <div class="stat-label">${item.label}</div>
+                    `;
+                    statsGrid.appendChild(div);
+                });
+            }
+        }
+    </script>
+</body>
+</html>

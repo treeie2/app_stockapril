@@ -2,12 +2,12 @@
 // 注意：这是客户端配置，使用 Firebase 的公开 API Key
 // 请从 Firebase Console > 项目设置 > 常规 > 您的应用 中获取实际配置
 const firebaseConfig = {
-    apiKey: "YOUR_API_KEY",
+    apiKey: "AIzaSyDnWABBE1WZ3H_il95-TcBqpIAH9sisLUo",
     authDomain: "webstock-724.firebaseapp.com",
     projectId: "webstock-724",
     storageBucket: "webstock-724.firebasestorage.app",
-    messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-    appId: "YOUR_APP_ID"
+    messagingSenderId: "249403550581",
+    appId: "1:249403550581:web:16a0aeaadad8f22501413c"
 };
 
 // 初始化 Firebase

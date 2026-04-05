@@ -906,6 +906,122 @@ def get_article_api_status():
         })
 
 
+# Firebase 测试页面
+@app.route('/test-firebase')
+def test_firebase():
+    return render_template('test_firebase.html')
+
+
+# 数据导入页面
+@app.route('/import')
+def import_data_page():
+    return render_template('import_data.html')
+
+
+# API: 导入股票数据
+@app.route('/api/import/stocks', methods=['POST'])
+def import_stocks():
+    """导入股票数据JSON"""
+    try:
+        data = request.get_json()
+        
+        if not data or 'stocks' not in data:
+            return jsonify({
+                'success': False,
+                'error': '无效的JSON格式，必须包含 "stocks" 字段'
+            })
+        
+        import_stocks = data['stocks']
+        if not isinstance(import_stocks, list):
+            return jsonify({
+                'success': False,
+                'error': '"stocks" 必须是数组'
+            })
+        
+        # 加载现有数据
+        master_file = Path(__file__).parent / 'data' / 'master' / 'stocks_master.json'
+        existing_stocks = {}
+        if master_file.exists():
+            with open(master_file, 'r', encoding='utf-8') as f:
+                existing_data = json.load(f)
+                existing_stocks = {s['code']: s for s in existing_data.get('stocks', [])}
+        
+        # 统计
+        stats = {
+            'imported_stocks': 0,
+            'new_stocks': 0,
+            'updated_stocks': 0,
+            'imported_articles': 0,
+            'new_articles': 0,
+            'duplicate_articles': 0
+        }
+        
+        # 处理导入的股票
+        for stock in import_stocks:
+            code = stock.get('code')
+            if not code:
+                continue
+            
+            stats['imported_stocks'] += 1
+            
+            if code in existing_stocks:
+                # 更新现有股票
+                existing = existing_stocks[code]
+                
+                # 合并文章（去重）
+                existing_articles = existing.get('articles', [])
+                new_articles = stock.get('articles', [])
+                
+                existing_titles = {a.get('title') for a in existing_articles}
+                
+                for article in new_articles:
+                    if article.get('title') not in existing_titles:
+                        existing_articles.append(article)
+                        stats['new_articles'] += 1
+                        stats['imported_articles'] += 1
+                    else:
+                        stats['duplicate_articles'] += 1
+                
+                # 更新其他字段
+                for key in ['name', 'board', 'industry', 'concepts', 'mention_count']:
+                    if key in stock:
+                        existing[key] = stock[key]
+                
+                existing['articles'] = existing_articles
+                stats['updated_stocks'] += 1
+            else:
+                # 新增股票
+                existing_stocks[code] = stock
+                stats['new_stocks'] += 1
+                stats['imported_articles'] += len(stock.get('articles', []))
+        
+        # 保存数据
+        output_data = {'stocks': list(existing_stocks.values())}
+        with open(master_file, 'w', encoding='utf-8') as f:
+            json.dump(output_data, f, ensure_ascii=False, indent=2)
+        
+        # 更新内存中的数据
+        global stocks
+        stocks = existing_stocks
+        
+        return jsonify({
+            'success': True,
+            'message': f'成功导入 {stats["imported_stocks"]} 只股票，新增 {stats["new_stocks"]} 只，更新 {stats["updated_stocks"]} 只',
+            'stats': stats
+        })
+        
+    except json.JSONDecodeError as e:
+        return jsonify({
+            'success': False,
+            'error': f'JSON解析错误: {str(e)}'
+        })
+    except Exception as e:
+        return jsonify({
+            'success': False,
+            'error': f'导入失败: {str(e)}'
+        })
+
+
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))
     print(f"🚀 启动于 port {port}")
