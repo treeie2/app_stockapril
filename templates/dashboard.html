@@ -926,5 +926,118 @@
             if(!e.target.closest('.search-wrap')) sg.classList.remove('on');
         });
     </script>
+    
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore-compat.js"></script>
+    <script src="{{ url_for('static', filename='js/firebase-config.js') }}"></script>
+    
+    <!-- Firebase 数据加载 -->
+    <script>
+        // 标记是否使用 Firebase
+        const useFirebase = true;
+        
+        // 从 Firebase 加载股票数据
+        async function loadStocksFromFirebase() {
+            try {
+                console.log('🔄 正在从 Firebase 加载数据...');
+                const stocks = await FirebaseDB.getAllStocks();
+                
+                if (stocks && stocks.length > 0) {
+                    console.log(`✅ 从 Firebase 加载了 ${stocks.length} 只股票`);
+                    renderStocksFromFirebase(stocks);
+                    return true;
+                } else {
+                    console.log('⚠️ Firebase 中没有股票数据');
+                    return false;
+                }
+            } catch (error) {
+                console.error('❌ 从 Firebase 加载失败:', error);
+                return false;
+            }
+        }
+        
+        // 渲染 Firebase 数据到页面
+        function renderStocksFromFirebase(stocks) {
+            const tbody = document.querySelector('.stocks-table tbody');
+            if (!tbody) return;
+            
+            // 清空现有内容
+            tbody.innerHTML = '';
+            
+            // 按提及次数排序
+            stocks.sort((a, b) => (b.mention_count || 0) - (a.mention_count || 0));
+            
+            // 只显示前 50 只
+            const displayStocks = stocks.slice(0, 50);
+            
+            displayStocks.forEach(stock => {
+                const row = document.createElement('tr');
+                row.className = 'stock-row';
+                row.onclick = () => window.location.href = `/stock/${stock.code}`;
+                
+                const concepts = stock.concepts?.slice(0, 3).map(c => 
+                    `<span class="concept-tag" onclick="event.stopPropagation(); window.location.href='/concept/${encodeURIComponent(c)}'">${c}</span>`
+                ).join('') || '';
+                
+                const latestArticle = stock.articles?.[0];
+                const insight = latestArticle?.insights?.[0] || '';
+                
+                row.innerHTML = `
+                    <td>
+                        <div class="stock-name">${stock.name || ''}</div>
+                        <div class="stock-code">${stock.code || ''}</div>
+                    </td>
+                    <td>
+                        <div class="concepts-wrap">${concepts}</div>
+                    </td>
+                    <td>
+                        <div class="insight-text" title="${insight}">${insight.substring(0, 60)}${insight.length > 60 ? '...' : ''}</div>
+                    </td>
+                    <td class="mention-count">${stock.mention_count || 0}</td>
+                    <td class="price-cell">-</td>
+                    <td class="change-cell">-</td>
+                `;
+                
+                tbody.appendChild(row);
+            });
+            
+            // 更新统计
+            document.querySelector('.stats-grid').innerHTML = `
+                <div class="stat-card">
+                    <div class="stat-value">${stocks.length}</div>
+                    <div class="stat-label">股票总数</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">${new Set(stocks.flatMap(s => s.concepts || [])).size}</div>
+                    <div class="stat-label">概念标签</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">${stocks.reduce((sum, s) => sum + (s.articles?.length || 0), 0)}</div>
+                    <div class="stat-label">文章总数</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">${stocks.filter(s => (s.articles?.length || 0) > 0).length}</div>
+                    <div class="stat-label">有研报股票</div>
+                </div>
+            `;
+            
+            // 添加 Firebase 标识
+            const title = document.querySelector('h1');
+            if (title && !title.innerHTML.includes('🔥')) {
+                title.innerHTML += ' <span style="font-size:0.5em;color:#ff6b35">🔥 Firebase</span>';
+            }
+        }
+        
+        // 页面加载时尝试从 Firebase 获取数据
+        document.addEventListener('DOMContentLoaded', async () => {
+            if (useFirebase) {
+                const success = await loadStocksFromFirebase();
+                if (!success) {
+                    console.log('⚠️ Firebase 加载失败，使用本地数据');
+                }
+            }
+        });
+    </script>
 </body>
 </html>
