@@ -90,48 +90,106 @@ try:
 except Exception as e:
     print(f"  ⚠️ 社保基金数据加载失败：{e}")
 
-# 加载数据
-print("📋 加载数据...")
+# Firebase 配置
+FIREBASE_PROJECT_ID = "stock-research-669e1"
+FIREBASE_BASE_URL = f"https://firestore.googleapis.com/v1/projects/{FIREBASE_PROJECT_ID}/databases/(default)/documents"
 
-# 优先从 stocks_master.json 加载
-MASTER_FILE_JSON = Path(__file__).parent / 'data' / 'master' / 'stocks_master.json'
-MASTER_FILE_GZ = Path(__file__).parent / 'data' / 'master' / 'stocks_master.json.gz'
+def load_data_from_firebase():
+    """从 Firebase 加载股票数据"""
+    print("📋 尝试从 Firebase 加载数据...")
+    
+    try:
+        url = f"{FIREBASE_BASE_URL}/stocks"
+        response = requests.get(url, timeout=30)
+        
+        if response.status_code == 200:
+            data = response.json()
+            documents = data.get('documents', [])
+            
+            stocks = {}
+            concepts = {}
+            
+            for doc in documents:
+                fields = doc.get('fields', {})
+                
+                # 转换 Firestore 格式
+                code = fields.get('code', {}).get('stringValue', '')
+                if not code:
+                    continue
+                
+                stock = {
+                    'name': fields.get('name', {}).get('stringValue', ''),
+                    'code': code,
+                    'board': fields.get('board', {}).get('stringValue', ''),
+                    'industry': fields.get('industry', {}).get('stringValue', ''),
+                    'concepts': [],
+                    'products': [],
+                    'core_business': [],
+                    'industry_position': [],
+                    'chain': [],
+                    'partners': [],
+                    'mention_count': int(fields.get('mention_count', {}).get('integerValue', '0') or 0),
+                    'articles': []
+                }
+                
+                # 获取概念
+                concepts_arr = fields.get('concepts', {}).get('arrayValue', {}).get('values', [])
+                stock['concepts'] = [c.get('stringValue', '') for c in concepts_arr if c.get('stringValue')]
+                
+                # 构建概念索引
+                for concept in stock['concepts']:
+                    if concept not in concepts:
+                        concepts[concept] = {'stocks': []}
+                    concepts[concept]['stocks'].append(code)
+                
+                # 获取文章
+                articles = fields.get('articles', {}).get('arrayValue', {}).get('values', [])
+                for article in articles:
+                    article_fields = article.get('mapValue', {}).get('fields', {})
+                    article_data = {
+                        'title': article_fields.get('title', {}).get('stringValue', ''),
+                        'date': article_fields.get('date', {}).get('stringValue', ''),
+                        'source': article_fields.get('source', {}).get('stringValue', ''),
+                        'accidents': [],
+                        'insights': [],
+                        'key_metrics': [],
+                        'target_valuation': []
+                    }
+                    
+                    # 获取 accidents
+                    accidents = article_fields.get('accidents', {}).get('arrayValue', {}).get('values', [])
+                    article_data['accidents'] = [a.get('stringValue', '') for a in accidents if a.get('stringValue')]
+                    
+                    # 获取 insights
+                    insights = article_fields.get('insights', {}).get('arrayValue', {}).get('values', [])
+                    article_data['insights'] = [i.get('stringValue', '') for i in insights if i.get('stringValue')]
+                    
+                    # 获取 key_metrics
+                    metrics = article_fields.get('key_metrics', {}).get('arrayValue', {}).get('values', [])
+                    article_data['key_metrics'] = [m.get('stringValue', '') for m in metrics if m.get('stringValue')]
+                    
+                    stock['articles'].append(article_data)
+                
+                stocks[code] = stock
+            
+            print(f"  ✅ 从 Firebase 加载 {len(stocks)} 只股票")
+            print(f"  ✅ 加载 {len(concepts)} 个概念")
+            return stocks, concepts
+        else:
+            print(f"  ⚠️ Firebase 加载失败: HTTP {response.status_code}")
+            return None, None
+    except Exception as e:
+        print(f"  ⚠️ Firebase 加载出错: {e}")
+        return None, None
 
-try:
-    if MASTER_FILE_JSON.exists():
-        print(f"  📋 读取 stocks_master.json ({MASTER_FILE_JSON.stat().st_size / 1024 / 1024:.2f} MB)...")
-        with open(MASTER_FILE_JSON, 'r', encoding='utf-8') as f:
-            master_data = json.load(f)
-    elif MASTER_FILE_GZ.exists():
-        print(f"  📋 读取 stocks_master.json.gz...")
-        with gzip.open(MASTER_FILE_GZ, 'rt', encoding='utf-8') as f:
-            master_data = json.load(f)
-    else:
-        raise FileNotFoundError("未找到 stocks_master 数据文件")
+def load_data_from_local():
+    """从本地 JSON 加载数据"""
+    print("📋 从本地文件加载数据...")
     
-    # 转换为字典格式
-    stocks_list = master_data.get('stocks', [])
-    stocks = {s['code']: s for s in stocks_list if 'code' in s}
+    MASTER_FILE_JSON = Path(__file__).parent / 'data' / 'master' / 'stocks_master.json'
+    MASTER_FILE_GZ = Path(__file__).parent / 'data' / 'master' / 'stocks_master.json.gz'
     
-    # 从概念字段提取所有概念
-    concepts = {}
-    for stock in stocks_list:
-        for concept in stock.get('concepts', []):
-            if concept not in concepts:
-                concepts[concept] = {'stocks': []}
-            concepts[concept]['stocks'].append(stock['code'])
-    
-    print(f"  ✅ 加载 {len(stocks)} 只股票")
-    print(f"  ✅ 加载 {len(concepts)} 个概念")
-    
-except Exception as e:
-    print(f"  ❌ 错误：{e}")
-    stocks, concepts = {}, {}
-
-# 从 stocks_master.json 补充行业数据（如果上面没有加载成功）
-print("📋 补充行业数据...")
-try:
-    if not stocks:
+    try:
         if MASTER_FILE_JSON.exists():
             print(f"  📋 读取 stocks_master.json ({MASTER_FILE_JSON.stat().st_size / 1024 / 1024:.2f} MB)...")
             with open(MASTER_FILE_JSON, 'r', encoding='utf-8') as f:
@@ -142,39 +200,35 @@ try:
                 master_data = json.load(f)
         else:
             raise FileNotFoundError("未找到 stocks_master 数据文件")
-    
-    master_stocks = master_data.get('stocks', [])
-    industry_count = 0
-    for s in master_stocks:
-        code = s.get('code')
-        if code and code in stocks:
-            industry = s.get('industry', '')
-            if industry:
-                stocks[code]['industries'] = industry
-                industry_count += 1
-    
-    print(f"  ✅ 补充 {industry_count} 只股票的行业数据")
-except Exception as e:
-    print(f"  ⚠️ 行业数据补充失败：{e}")
-    # 如果 stocks 为空，尝试直接加载 stocks_master
-    if not stocks:
-        try:
-            with open(MASTER_FILE_JSON, 'r', encoding='utf-8') as f:
-                master_data = json.load(f)
-            stocks_list = master_data.get('stocks', [])
-            stocks = {s['code']: s for s in stocks_list if 'code' in s}
-            
-            # 构建概念索引
-            concepts = {}
-            for stock in stocks_list:
-                for concept in stock.get('concepts', []):
-                    if concept not in concepts:
-                        concepts[concept] = {'stocks': []}
-                    concepts[concept]['stocks'].append(stock['code'])
-            
-            print(f"  ✅ 备用加载：{len(stocks)} 只股票，{len(concepts)} 个概念")
-        except Exception as e2:
-            print(f"  ❌ 备用加载也失败：{e2}")
+        
+        # 转换为字典格式
+        stocks_list = master_data.get('stocks', [])
+        stocks = {s['code']: s for s in stocks_list if 'code' in s}
+        
+        # 从概念字段提取所有概念
+        concepts = {}
+        for stock in stocks_list:
+            for concept in stock.get('concepts', []):
+                if concept not in concepts:
+                    concepts[concept] = {'stocks': []}
+                concepts[concept]['stocks'].append(stock['code'])
+        
+        print(f"  ✅ 加载 {len(stocks)} 只股票")
+        print(f"  ✅ 加载 {len(concepts)} 个概念")
+        return stocks, concepts
+        
+    except Exception as e:
+        print(f"  ❌ 错误：{e}")
+        return {}, {}
+
+# 加载数据 - 优先从 Firebase，失败则从本地
+print("📋 加载数据...")
+stocks, concepts = load_data_from_firebase()
+if stocks is None:
+    stocks, concepts = load_data_from_local()
+
+# 数据加载完成
+print(f"📊 数据加载完成：{len(stocks)} 只股票，{len(concepts)} 个概念")
 
 @app.route('/')
 def dashboard():
@@ -1157,6 +1211,6 @@ def import_stocks():
 
 
 if __name__ == '__main__':
-    port = int(os.environ.get('PORT', 5000))
+    port = int(os.environ.get('PORT', 7860))
     print(f"🚀 启动于 port {port}")
     app.run(host='0.0.0.0', port=port, debug=False)
