@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个股卡片组件展示 - CyberResearch</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/stock-card.css">
+    <style>
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            z-index: 0;
+            background: 
+                radial-gradient(ellipse 80% 40% at 20% 10%, rgba(59,130,246,0.06) 0%, transparent 60%),
+                radial-gradient(ellipse 60% 30% at 80% 80%, rgba(6,182,212,0.05) 0%, transparent 50%);
+            pointer-events: none;
+        }
+        
+        .navbar {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(8, 12, 20, 0.85);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(99, 179, 237, 0.12);
+            padding: 0 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 60px;
+        }
+        
+        .navbar-brand {
+            font-size: 1rem;
+            font-weight: 700;
+            letter-spacing: 0.12em;
+            color: #06b6d4;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .nav-link {
+            padding: 0.4rem 0.85rem;
+            border-radius: 6px;
+            color: #94a3b8;
+            text-decoration: none;
+            font-size: 0.82rem;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+        
+        .nav-link:hover, .nav-link.active {
+            color: #e2e8f0;
+            background: rgba(255,255,255,0.05);
+        }
+        
+        .nav-link.active {
+            color: #06b6d4;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem 2rem 4rem;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .page-header {
+            margin-bottom: 2rem;
+        }
+        
+        .page-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #e2e8f0;
+        }
+        
+        .page-subtitle {
+            font-size: 0.8rem;
+            color: #4b5563;
+            margin-top: 0.25rem;
+        }
+        
+        .demo-section {
+            margin-bottom: 3rem;
+        }
+        
+        .demo-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #e2e8f0;
+            margin-bottom: 0.5rem;
+        }
+        
+        .demo-desc {
+            font-size: 0.8rem;
+            color: #94a3b8;
+            margin-bottom: 1.25rem;
+        }
+        
+        .stocks-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1rem;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            font-size: 0.72rem;
+            color: #94a3b8;
+            border-top: 1px solid rgba(99, 179, 237, 0.12);
+            position: relative;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <a href="/" class="navbar-brand">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
+            </svg>
+            CYBERRESEARCH
+        </a>
+        <nav class="navbar-nav" style="display: flex; gap: 0.25rem;">
+            <a href="/" class="nav-link">仪表板</a>
+            <a href="/stocks" class="nav-link">股票列表</a>
+            <a href="/concepts" class="nav-link">概念大全</a>
+            <a href="/demo/cards" class="nav-link active">组件展示</a>
+        </nav>
+    </nav>
+    
+    <div class="container">
+        <!-- 页面标题 -->
+        <div class="page-header">
+            <div class="page-title">🎨 个股卡片组件展示</div>
+            <div class="page-subtitle">深蓝商务风格 · Tailwind CSS · 2.0 升级版</div>
+        </div>
+        
+        <!-- 1. 基础卡片 -->
+        <div class="demo-section">
+            <div class="demo-title">📦 基础卡片 (Base Card)</div>
+            <div class="demo-desc">用于仪表盘、股票列表页 · 悬停微光效果 · 6 色概念标签系统</div>
+            
+            <div class="stocks-grid">
+                <!-- 高热度股票 -->
+                <a href="#" class="stock-card stock-card-animate">
+                    <div class="stock-card-header">
+                        <div>
+                            <div class="stock-name">机器人</div>
+                            <div class="stock-code">300024</div>
+                        </div>
+                        <div class="mention-badge mention-badge-high">🔥 207</div>
+                    </div>
+                    
+                    <div class="market-row" id="mkt-300024">
+                        <span class="market-loading">行情加载中…</span>
+                    </div>
+                    
+                    <div class="board-row">
+                        <span class="board-tag">创业板</span>
+                        <span class="industry-tag">通用设备</span>
+                    </div>
+                    
+                    <div class="concepts-row">
+                        <span class="concept-tag concept-tag-0">机器人</span>
+                        <span class="concept-tag concept-tag-1">人工智能</span>
+                        <span class="concept-tag concept-tag-2">智能制造</span>
+                        <span class="concept-tag concept-tag-3">+9</span>
+                    </div>
+                </a>
+                
+                <!-- 中热度股票 -->
+                <a href="#" class="stock-card stock-card-animate">
+                    <div class="stock-card-header">
+                        <div>
+                            <div class="stock-name">英维克</div>
+                            <div class="stock-code">002837</div>
+                        </div>
+                        <div class="mention-badge mention-badge-medium">⚡ 52</div>
+                    </div>
+                    
+                    <div class="market-row" id="mkt-002837">
+                        <span class="market-loading">行情加载中…</span>
+                    </div>
+                    
+                    <div class="board-row">
+                        <span class="board-tag">深市主板</span>
+                        <span class="industry-tag">专用设备</span>
+                    </div>
+                    
+                    <div class="concepts-row">
+                        <span class="concept-tag concept-tag-0">液冷</span>
+                        <span class="concept-tag concept-tag-1">数据中心</span>
+                        <span class="concept-tag concept-tag-2">储能</span>
+                        <span class="concept-tag concept-tag-3">+5</span>
+                    </div>
+                </a>
+                
+                <!-- 低热度股票 -->
+                <a href="#" class="stock-card stock-card-animate">
+                    <div class="stock-card-header">
+                        <div>
+                            <div class="stock-name">长飞光纤</div>
+                            <div class="stock-code">601869</div>
+                        </div>
+                        <div class="mention-badge mention-badge-low">📊 15</div>
+                    </div>
+                    
+                    <div class="market-row" id="mkt-601869">
+                        <span class="market-loading">行情加载中…</span>
+                    </div>
+                    
+                    <div class="board-row">
+                        <span class="board-tag">沪市主板</span>
+                        <span class="industry-tag">通信设备</span>
+                    </div>
+                    
+                    <div class="concepts-row">
+                        <span class="concept-tag concept-tag-0">5G</span>
+                        <span class="concept-tag concept-tag-1">光纤光缆</span>
+                        <span class="concept-tag concept-tag-2">+3</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+        
+        <!-- 2. 详细卡片 + 紧凑卡片 -->
+        <div class="demo-section">
+            <div class="demo-title">📊 详细卡片 (Detail Card) + 🔗 紧凑卡片</div>
+            <div class="demo-desc">用于个股详情页侧边栏 · 相似度推荐</div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem;">
+                <!-- 详细卡片 -->
+                <div class="stock-detail-card">
+                    <div class="detail-card-title">📊 核心数据</div>
+                    
+                    <div style="margin-bottom: 1.25rem;">
+                        <div class="text-xl font-bold" style="color: #e2e8f0; margin-bottom: 0.25rem;">机器人</div>
+                        <span class="stock-code">300024</span>
+                    </div>
+                    
+                    <div class="price-row">
+                        <span class="price-label">当前价格</span>
+                        <span class="price-value">18.52</span>
+                    </div>
+                    <div class="price-row">
+                        <span class="price-label">涨跌幅</span>
+                        <span class="price-value" style="color: #f43f5e;">+2.35%</span>
+                    </div>
+                    <div class="price-row">
+                        <span class="price-label">总市值</span>
+                        <span class="price-value">142.8 亿</span>
+                    </div>
+                    <div class="price-row">
+                        <span class="price-label">市盈率 (TTM)</span>
+                        <span class="price-value">45.2</span>
+                    </div>
+                    
+                    <div style="margin-top: 1.25rem; padding-top: 1rem; border-top: 1px solid rgba(99, 179, 237, 0.12);">
+                        <div class="stock-metrics">
+                            <div class="metric-item">
+                                <div class="metric-value">207</div>
+                                <div class="metric-label">提及次数</div>
+                            </div>
+                            <div class="metric-item">
+                                <div class="metric-value">12</div>
+                                <div class="metric-label">概念数量</div>
+                            </div>
+                            <div class="metric-item">
+                                <div class="metric-value">45</div>
+                                <div class="metric-label">相关文章</div>
+                            </div>
+                            <div class="metric-item">
+                                <div class="metric-value" style="font-size: 0.9rem;">创业板</div>
+                                <div class="metric-label">板块</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div style="margin-top: 1.25rem; padding-top: 1rem; border-top: 1px solid rgba(99, 179, 237, 0.12);">
+                        <div class="detail-card-title">🏷️ 核心概念</div>
+                        <div class="concepts-row">
+                            <span class="concept-tag concept-tag-0">机器人</span>
+                            <span class="concept-tag concept-tag-1">人工智能</span>
+                            <span class="concept-tag concept-tag-2">智能制造</span>
+                            <span class="concept-tag concept-tag-3">工业互联网</span>
+                            <span class="concept-tag concept-tag-4">自动化</span>
+                            <span class="concept-tag concept-tag-5">传感器</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 紧凑卡片（相似度推荐） -->
+                <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+                    <div class="detail-card-title">🔗 高度相关标的</div>
+                    
+                    <a href="#" class="stock-card-compact">
+                        <div class="compact-code">002520</div>
+                        <div class="compact-info">
+                            <div class="compact-name">日发精机</div>
+                            <div class="compact-meta">通用设备 · 共同概念：机器人，智能制造</div>
+                        </div>
+                        <div class="compact-similarity">67%</div>
+                    </a>
+                    
+                    <a href="#" class="stock-card-compact">
+                        <div class="compact-code">300607</div>
+                        <div class="compact-info">
+                            <div class="compact-name">拓斯达</div>
+                            <div class="compact-meta">专用设备 · 共同概念：机器人，工业互联网</div>
+                        </div>
+                        <div class="compact-similarity">58%</div>
+                    </a>
+                    
+                    <a href="#" class="stock-card-compact">
+                        <div class="compact-code">603658</div>
+                        <div class="compact-info">
+                            <div class="compact-name">安图生物</div>
+                            <div class="compact-meta">医疗器械 · 共同概念：智能制造，自动化</div>
+                        </div>
+                        <div class="compact-similarity">42%</div>
+                    </a>
+                    
+                    <a href="#" class="stock-card-compact">
+                        <div class="compact-code">002747</div>
+                        <div class="compact-info">
+                            <div class="compact-name">埃斯顿</div>
+                            <div class="compact-meta">通用设备 · 共同概念：机器人，人工智能</div>
+                        </div>
+                        <div class="compact-similarity">75%</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 3. 时间轴组件 -->
+        <div class="demo-section">
+            <div class="demo-title">📅 时间轴组件 (Timeline)</div>
+            <div class="demo-desc">用于主题时间轴联动 · 按日期罗列 insights</div>
+            
+            <div class="timeline" style="max-width: 700px;">
+                <div class="timeline-item">
+                    <div class="timeline-date">📅 2026-03-15</div>
+                    <div class="timeline-content">
+                        <strong>低空经济政策利好持续</strong>
+                        <div style="margin-top: 0.4rem; color: #94a3b8;">
+                            工信部发布低空经济发展指导意见，明确 2027 年产业规模目标...
+                        </div>
+                    </div>
+                    <div class="timeline-tags">
+                        <span class="timeline-tag">政策催化</span>
+                        <span class="timeline-tag">低空经济</span>
+                        <span class="timeline-tag">利好</span>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">📅 2026-03-14</div>
+                    <div class="timeline-content">
+                        <strong>碳纤维材料技术突破</strong>
+                        <div style="margin-top: 0.4rem; color: #94a3b8;">
+                            国内企业成功研发高强度碳纤维，成本降低 30%...
+                        </div>
+                    </div>
+                    <div class="timeline-tags">
+                        <span class="timeline-tag">技术突破</span>
+                        <span class="timeline-tag">碳纤维</span>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">📅 2026-03-12</div>
+                    <div class="timeline-content">
+                        <strong>军工订单放量</strong>
+                        <div style="margin-top: 0.4rem; color: #94a3b8;">
+                            多家军工企业公告大额订单，行业景气度持续提升...
+                        </div>
+                    </div>
+                    <div class="timeline-tags">
+                        <span class="timeline-tag">订单</span>
+                        <span class="timeline-tag">军工</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 4. 概念标签展示 -->
+        <div class="demo-section">
+            <div class="demo-title">🏷️ 概念标签 6 色系统</div>
+            <div class="demo-desc">循环配色 · 悬停高亮 · 视觉区分</div>
+            
+            <div class="card" style="background: #111827; border: 1px solid rgba(99, 179, 237, 0.12); border-radius: 16px; padding: 1.5rem;">
+                <div class="concepts-row">
+                    <span class="concept-tag concept-tag-0">蓝色 · 人工智能</span>
+                    <span class="concept-tag concept-tag-1">青色 · 5G</span>
+                    <span class="concept-tag concept-tag-2">绿色 · 新能源</span>
+                    <span class="concept-tag concept-tag-3">琥珀 · 芯片</span>
+                    <span class="concept-tag concept-tag-4">红色 · 军工</span>
+                    <span class="concept-tag concept-tag-5">紫色 · 低空经济</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 使用说明 -->
+        <div class="demo-section">
+            <div class="card" style="background: rgba(255,255,255,0.03); border: 1px solid rgba(99, 179, 237, 0.12); border-radius: 16px; padding: 1.5rem;">
+                <div class="demo-title">📖 使用说明</div>
+                <div style="color: #94a3b8; line-height: 1.8; font-size: 0.85rem;">
+                    <p style="margin-bottom: 0.75rem;"><strong style="color: #06b6d4;">文件位置:</strong></p>
+                    <ul style="margin-left: 1.5rem; margin-bottom: 1rem;">
+                        <li>CSS: <code style="background: rgba(255,255,255,0.05); padding: 0.15rem 0.4rem; border-radius: 4px; font-family: 'JetBrains Mono', monospace;">/static/css/stock-card.css</code></li>
+                        <li>模板：<code style="background: rgba(255,255,255,0.05); padding: 0.15rem 0.4rem; border-radius: 4px; font-family: 'JetBrains Mono', monospace;">/templates/components/stock_card.html</code></li>
+                    </ul>
+                    
+                    <p style="margin-bottom: 0.75rem;"><strong style="color: #06b6d4;">使用方式:</strong></p>
+                    <p style="margin-bottom: 1rem; font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; background: rgba(255,255,255,0.05); padding: 0.75rem; border-radius: 6px;">
+                        {% raw %}{% set card_type = 'base' %}
+{% set stock_data = stock %}
+{% include 'components/stock_card.html' %}{% endraw %}
+                    </p>
+                    
+                    <p style="margin-bottom: 0.75rem;"><strong style="color: #06b6d4;">文档:</strong></p>
+                    <p>查看 <a href="/STOCK_CARD_UI_2.0.md" style="color: #06b6d4; text-decoration: underline;">STOCK_CARD_UI_2.0.md</a> 获取完整说明</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="footer">
+        CYBERRESEARCH © 2026 · AI-Powered Investment Research Platform
+    </footer>
+    
+    <script>
+        // 模拟行情数据
+        async function fetchMarketData() {
+            const codes = ['300024', '002837', '601869'];
+            const mockData = {
+                '300024': { price: 18.52, change: 2.35, marketCap: 142.8 },
+                '002837': { price: 32.15, change: -1.23, marketCap: 89.5 },
+                '601869': { price: 9.87, change: 0.45, marketCap: 76.2 }
+            };
+            
+            codes.forEach(code => {
+                const el = document.getElementById(`mkt-${code}`);
+                if (!el) return;
+                const d = mockData[code];
+                if (d) {
+                    const changeClass = d.change >= 0 ? 'change-up' : 'change-down';
+                    const changeSign = d.change >= 0 ? '+' : '';
+                    el.innerHTML = `
+                        <span class="price-val" style="color:${d.change>=0?'#f43f5e':'#10b981'}">${d.price.toFixed(2)}</span>
+                        <span class="${changeClass}">${changeSign}${d.change.toFixed(2)}%</span>
+                        <span class="market-cap">${d.marketCap.toFixed(1)}亿</span>
+                    `;
+                }
+            });
+        }
+        
+        document.addEventListener('DOMContentLoaded', fetchMarketData);
+    </script>
+</body>
+</html>

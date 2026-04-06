@@ -1,0 +1,217 @@
+{# ============================================
+   个股卡片组件库 - 深蓝商务风格
+   用法：{% include 'components/stock_card.html' %}
+   ============================================ #}
+
+{% if card_type == 'base' or not card_type %}
+{# ============================================
+   基础个股卡片
+   用于仪表盘、股票列表页
+   ============================================ #}
+<a href="/stock/{{ stock_data.code }}" class="stock-card stock-card-animate" 
+   style="--card-index: {{ loop.index0 | default(0) }}">
+    
+    {# 卡片头部 #}
+    <div class="stock-card-header">
+        <div>
+            <div class="stock-name">{{ stock_data.name }}</div>
+            <div class="stock-code">{{ stock_data.code }}</div>
+        </div>
+        
+        {# 热度徽章 #}
+        {% set mention_count = stock_data.mention_count | default(0) %}
+        {% if mention_count >= 100 %}
+            <div class="mention-badge mention-badge-high">
+                <span>🔥 {{ mention_count }}</span>
+            </div>
+        {% elif mention_count >= 30 %}
+            <div class="mention-badge mention-badge-medium">
+                <span>⚡ {{ mention_count }}</span>
+            </div>
+        {% else %}
+            <div class="mention-badge mention-badge-low">
+                <span>📊 {{ mention_count }}</span>
+            </div>
+        {% endif %}
+    </div>
+    
+    {# 实时行情（JS 填充） #}
+    <div class="market-row" id="mkt-{{ stock_data.code }}">
+        <span class="market-loading">行情加载中…</span>
+    </div>
+    
+    {# 板块 & 行业 #}
+    {% if stock_data.board or stock_data.industry %}
+    <div class="board-row">
+        {% if stock_data.board %}
+            <span class="board-tag">{{ stock_data.board }}</span>
+        {% endif %}
+        {% if stock_data.industry %}
+            <span class="industry-tag">{{ stock_data.industry }}</span>
+        {% endif %}
+    </div>
+    {% endif %}
+    
+    {# 概念标签 #}
+    {% if stock_data.concepts and stock_data.concepts|length > 0 %}
+    <div class="concepts-row">
+        {% for concept in stock_data.concepts[:4] %}
+            <a href="/concept/{{ concept }}" class="concept-tag concept-tag-{{ loop.index0 % 6 }}" 
+               onclick="event.stopPropagation()">
+                {{ concept }}
+            </a>
+        {% endfor %}
+        {% if stock_data.concepts|length > 4 %}
+            <span class="concept-tag concept-tag-5">+{{ stock_data.concepts|length - 4 }}</span>
+        {% endif %}
+    </div>
+    {% endif %}
+    
+    {# 最新文章预览 #}
+    {% if stock_data.articles and stock_data.articles|length > 0 %}
+    <hr class="card-divider">
+    <div class="latest-article">
+        <span class="article-label">最新调研</span>
+        <span class="article-title">{{ stock_data.articles[0].title | default('') | truncate(52) }}</span>
+        {% if stock_data.articles[0].source %}
+        <span class="article-meta">{{ stock_data.articles[0].source }} · {{ stock_data.articles[0].date | default('') }}</span>
+        {% endif %}
+    </div>
+    {% endif %}
+</a>
+
+{% elif card_type == 'detail' %}
+{# ============================================
+   详细卡片
+   用于个股详情页侧边栏
+   ============================================ #}
+<div class="stock-detail-card">
+    <div class="detail-card-title">📊 核心数据</div>
+    
+    {# 股票名称和代码 #}
+    <div style="margin-bottom: 1.25rem;">
+        <div class="text-xl font-bold" style="color: var(--text-primary); margin-bottom: 0.25rem;">
+            {{ stock_data.name }}
+        </div>
+        <span class="stock-code" style="display: inline-block;">{{ stock_data.code }}</span>
+    </div>
+    
+    {# 行情数据（实时填充） #}
+    <div class="price-row">
+        <span class="price-label">当前价格</span>
+        <span class="price-value market-price" data-code="{{ stock_data.code }}">加载中...</span>
+    </div>
+    <div class="price-row">
+        <span class="price-label">涨跌幅</span>
+        <span class="price-value market-change" data-code="{{ stock_data.code }}">-</span>
+    </div>
+    <div class="price-row">
+        <span class="price-label">总市值</span>
+        <span class="price-value market-cap" data-code="{{ stock_data.code }}">-</span>
+    </div>
+    <div class="price-row">
+        <span class="price-label">市盈率 (TTM)</span>
+        <span class="price-value market-pe" data-code="{{ stock_data.code }}">-</span>
+    </div>
+    
+    {# 统计信息 #}
+    <div style="margin-top: 1.25rem; padding-top: 1rem; border-top: 1px solid var(--border);">
+        <div class="stock-metrics">
+            <div class="metric-item">
+                <div class="metric-value">{{ stock_data.mention_count | default(0) }}</div>
+                <div class="metric-label">提及次数</div>
+            </div>
+            <div class="metric-item">
+                <div class="metric-value">{{ stock_data.concepts | default([]) | length }}</div>
+                <div class="metric-label">概念数量</div>
+            </div>
+            <div class="metric-item">
+                <div class="metric-value">{{ stock_data.articles | default([]) | length }}</div>
+                <div class="metric-label">相关文章</div>
+            </div>
+            <div class="metric-item">
+                <div class="metric-value" style="font-size: 0.9rem;">{{ stock_data.board | default('-') }}</div>
+                <div class="metric-label">板块</div>
+            </div>
+        </div>
+    </div>
+    
+    {# 概念标签 #}
+    {% if stock_data.concepts and stock_data.concepts|length > 0 %}
+    <div style="margin-top: 1.25rem; padding-top: 1rem; border-top: 1px solid var(--border);">
+        <div class="detail-card-title">🏷️ 核心概念</div>
+        <div class="concepts-row" style="margin-top: 0;">
+            {% for concept in stock_data.concepts[:12] %}
+                <a href="/concept/{{ concept }}" class="concept-tag concept-tag-{{ loop.index0 % 6 }}">
+                    {{ concept }}
+                </a>
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+</div>
+
+{% elif card_type == 'compact' %}
+{# ============================================
+   紧凑卡片
+   用于相似度推荐、快速浏览
+   ============================================ #}
+<a href="/stock/{{ stock_data.code }}" class="stock-card-compact">
+    {# 股票代码 #}
+    <div class="compact-code">{{ stock_data.code }}</div>
+    
+    {# 股票信息 #}
+    <div class="compact-info">
+        <div class="compact-name">{{ stock_data.name }}</div>
+        <div class="compact-meta">
+            {{ stock_data.industry | default('未知行业') }}
+            {% if stock_data.common_concepts %}
+                · 共同概念：{{ stock_data.common_concepts[:3] | join(', ') }}
+            {% endif %}
+        </div>
+    </div>
+    
+    {# 相似度（仅相似度推荐显示） #}
+    {% if show_similarity and stock_data.similarity %}
+    <div class="compact-similarity">
+        {{ (stock_data.similarity * 100) | round(0) }}%
+    </div>
+    {% endif %}
+</a>
+
+{% elif card_type == 'timeline' %}
+{# ============================================
+   时间轴卡片
+   用于主题时间轴联动
+   ============================================ #}
+<div class="timeline">
+    {% for article in stock_data.articles | default([]) %}
+    <div class="timeline-item">
+        <div class="timeline-date">
+            📅 {{ article.date | default('未知日期') }}
+        </div>
+        <div class="timeline-content">
+            {% if article.title %}
+                <strong>{{ article.title }}</strong>
+            {% endif %}
+            {% if article.summary %}
+                <div style="margin-top: 0.4rem; color: var(--text-secondary);">
+                    {{ article.summary[:150] }}{% if article.summary|length > 150 %}...{% endif %}
+                </div>
+            {% endif %}
+        </div>
+        {% if article.insights or article.tags %}
+        <div class="timeline-tags">
+            {% for insight in article.insights | default([]) %}
+                <span class="timeline-tag">{{ insight }}</span>
+            {% endfor %}
+            {% for tag in article.tags | default([]) %}
+                <span class="timeline-tag">{{ tag }}</span>
+            {% endfor %}
+        </div>
+        {% endif %}
+    </div>
+    {% endfor %}
+</div>
+
+{% endif %}

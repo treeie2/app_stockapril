@@ -1,0 +1,1237 @@
+{
+  "update_time": "2026-03-25T15:30:15.028478",
+  "source": "腾讯财经 API",
+  "total_stocks": 41,
+  "stocks": {
+    "301196": {
+      "code": "301196",
+      "name": "唯科科技",
+      "update_time": "2026-03-25T15:30:15.027997",
+      "price": {
+        "open": 110.16,
+        "close": 96.99,
+        "high": 118282.0,
+        "low": 64341.0,
+        "pre_close": 91.8,
+        "change": 5.189999999999998,
+        "change_pct": 5.653594771241828
+      },
+      "volume": {
+        "volume": 0.0,
+        "turnover": 0.0,
+        "turnover_rate": 20.0
+      },
+      "market_cap": {
+        "total": 138.05,
+        "float": 4.27,
+        "currency": "CNY"
+      },
+      "valuation": {
+        "pe_ttm": 110.16,
+        "pb": 96.41,
+        "ps_ttm": null,
+        "peg": null
+      }
+    },
+    "002810": {
+      "code": "002810",
+      "name": "山东赫达",
+      "update_time": "2026-03-25T15:30:15.028021",
+      "price": {
+        "open": 20.81,
+        "close": 20.63,
+        "high": 141034.0,
+        "low": 68128.0,
+        "pre_close": 20.57,
+        "change": 0.05999999999999872,
+        "change_pct": 0.29168692270295926
+      },
+      "volume": {
+        "volume": 42200.0,
+        "turnover": 20.78,
+        "turnover_rate": 1.17
+      },
+      "market_cap": {
+        "total": 72.6,
+        "float": 3.26,
+        "currency": "CNY"
+      },
+      "valuation": {
+        "pe_ttm": 20.99,
+        "pb": 20.36,
+        "ps_ttm": null,
+        "peg": null
+      }
+    },
+    "600590": {
+      "code": "600590",
+      "name": "泰豪科技",
+      "update_time": "2026-03-25T15:30:15.028030",
+      "price": {
+        "open": 13.8,
+        "close": 15.7,
+        "high": 1756920.0,
+        "low": 710262.0,
+        "pre_close": 15.12,
+        "change": 0.5800000000000001,
+        "change_pct": 3.8359788359788363
+      },
+      "volume": {
+        "volume": 157100.0,
+        "turnover": 13.78,
+        "turnover_rate": -8.73
+      },
+      "market_cap": {
+        "total": 117.7,
+        "float": 3.68,
+        "currency": "CNY"
+      },
+      "valuation": {
+        "pe_ttm": 16.06,
+        "pb": 13.64,
+        "ps_ttm": null,
+        "peg": null
+      }
+    },
+    "301128": {
+      "code": "301128",
+      "name": "强瑞技术",
+      "update_time": "2026-03-25T15:30:15.028038",
+      "price": {
+        "open": 139.42,
+        "close": 132.59,
+        "high": 135444.0,
+        "low": 66499.0,
+        "pre_close": 133.92,
+        "change": -1.329999999999984,
+        "change_pct": -0.993130227001183
+      },
+      "volume": {
+        "volume": 0.0,
+        "turnover": 0.0,
+        "turnover_rate": 4.11
+      },
+      "market_cap": {
+        "total": 144.22,
+        "float": 16.21,
+        "currency": "CNY"
+      },
+      "valuation": {
+        "pe_ttm": 144.5,
+        "pb": 127.11,
+        "ps_ttm": null,
+        "peg": null
+      }
+    },
+    "002328": {
+      "code": "002328",
+      "name": "新朋股份",
+      "update_time": "2026-03-25T15:30:15.028045",
+      "price": {
+        "open": 6.76,
+        "close": 6.47,
+        "high": 423562.0,
+        "low": 228716.0,
+        "pre_close": 6.46,
+        "change": 0.009999999999999787,
+        "change_pct": 0.1547987616099038
+      },
+      "volume": {
+        "volume": 154300.0,
+        "turnover": 6.74,
+        "turnover_rate": 4.64
+      },
+      "market_cap": {
+        "total": 52.17,
+        "float": 1.57,
+        "currency": "CNY"
+      },
+      "valuation": {
+        "pe_ttm": 6.87,
+        "pb": 6.47,
+        "ps_ttm": null,
+        "peg": null
+      }
+    },
+    "300345": {
+      "code": "300345",
+      "name": "华民股份",
+      "update_time": "2026-03-25T15:30:15.028054",
+      "price": {
+        "open": 8.63,
+        "close": 8.97,
+        "high": 1204710.0,
+        "low": 505359.0,
+        "pre_close": 9.06,
+        "change": -0.08999999999999986,
+        "change_pct": -0.9933774834437069
+      },
+      "volume": {
+        "volume": 0.0,
+        "turnover": 0.0,
+        "turnover_rate": -4.75
+      },
+      "market_cap": {
+        "total": 50.07,
+        "float": 9.61,
+        "currency": "CNY"
+      },
+      "valuation": {
+        "pe_ttm": 9.07,
+        "pb": 8.59,
+        "ps_ttm": null,
+        "peg": null
+      }
+    },
+    "688348": {
+      "code": "688348",
+      "name": "昱能科技",
+      "update_time": "2026-03-25T15:30:15.028060",
+      "price": {
+        "open": 62.46,
+        "close": 61.92,
+        "high": 7988900.0,
+        "low": 3396416.0,
+        "pre_close": 62.96,
+        "change": -1.0399999999999991,
+        "change_pct": -1.651842439644217
+      },
+      "volume": {
+        "volume": 0.0,
+        "turnover": 0.0,
+        "turnover_rate": -0.79
+      },
+      "market_cap": {
+        "total": 97.61,
+        "float": 2.85,
+        "currency": "CNY"
+      },
+      "valuation": {
+        "pe_ttm": 64.38,
+        "pb": 61.8,
+        "ps_ttm": null,
+        "peg": null
+      }
+    },
+    "300432": {
+      "code": "300432",
+      "name": "富临精工",
+      "update_time": "2026-03-25T15:30:15.028067",
+      "price": {
+        "open": 23.65,
+        "close": 23.28,
+        "high": 1092727.0,
+        "low": 596340.0,
+        "pre_close": 23.26,
+        "change": 0.019999999999999574,
+        "change_pct": 0.0859845227858967
+      },
+      "volume": {
+        "volume": 0.0,
+        "turnover": 0.0,
+        "turnover_rate": 1.68
+      },
+      "market_cap": {
+        "total": 404.36,
+        "float": 8.81,
+        "currency": "CNY"
+      },
+      "valuation": {
+        "pe_ttm": 24.0,
+        "pb": 22.46,
+        "ps_ttm": null,
+        "peg": null
+      }
+    },
+    "603659": {
+      "code": "603659",
+      "name": "璞泰来",
+      "update_time": "2026-03-25T15:30:15.028074",
+      "price": {
+        "open": 32.35,
+        "close": 31.9,
+        "high": 942845.0,
+        "low": 441691.0,
+        "pre_close": 31.9,
+        "change": 0.0,
+        "change_pct": 0.0
+      },
+      "volume": {
+        "volume": 180800.0,
+        "turnover": 32.32,
+        "turnover_rate": 1.41
+      },
+      "market_cap": {
+        "total": 691.13,
+        "float": 3.38,
+        "currency": "CNY"
+      },
+      "valuation": {
+        "pe_ttm": 32.85,
+        "pb": 31.5,
+        "ps_ttm": null,
+        "peg": null
+      }
+    },
+    "300866": {
+      "code": "300866",
+      "name": "安克创新",
+      "update_time": "2026-03-25T15:30:15.028081",
+      "price": {
+        "open": 110.18,
+        "close": 108.31,
+        "high": 104974.0,
+        "low": 46468.0,
+        "pre_close": 110.14,
+        "change": -1.8299999999999983,
+        "change_pct": -1.661521699654983
+      },
+      "volume": {
+        "volume": 0.0,
+        "turnover": 0.0,
+        "turnover_rate": 0.04
+      },
+      "market_cap": {
+        "total": 590.74,
+        "float": 5.97,
+        "currency": "CNY"
+      },
+      "valuation": {
+        "pe_ttm": 110.3,
+        "pb": 103.88,
+        "ps_ttm": null,
+        "peg": null
+      }
+    },
+    "688041": {
+      "code": "688041",
+      "name": "海光信息",
+      "update_time": "2026-03-25T15:30:15.028087",
+      "price": {
+        "open": 217.4,
+        "close": 214.45,
+        "high": 21293732.0,
+        "low": 10692353.0,
+        "pre_close": 213.27,
+        "change": 1.1799999999999784,
+        "change_pct": 0.5532892577483839
+      },
+      "volume": {
+        "volume": 0.0,
+        "turnover": 0.0,
+        "turnover_rate": 1.94
+      },
+      "market_cap": {
+        "total": 5053.11,
+        "float": 22.46,
+        "currency": "CNY"
+      },
+      "valuation": {
+        "pe_ttm": 221.53,
+        "pb": 212.55,
+        "ps_ttm": null,
+        "peg": null
+      }
+    },
+    "002463": {
+      "code": "002463",
+      "name": "沪电股份",
+      "update_time": "2026-03-25T15:30:15.028096",
+      "price": {
+        "open": 82.52,
+        "close": 83.3,
+        "high": 909748.0,
+        "low": 439144.0,
+        "pre_close": 82.29,
+        "change": 1.009999999999991,
+        "change_pct": 1.227366630210221
+      },
+      "volume": {
+        "volume": 25900.0,
+        "turnover": 82.5,
+        "turnover_rate": 0.28
+      },
+      "market_cap": {
+        "total": 1587.98,
+        "float": 10.51,
+        "currency": "CNY"
+      },
+      "valuation": {
+        "pe_ttm": 85.39,
+        "pb": 81.76,
+        "ps_ttm": null,
+        "peg": null
+      }
+    },
+    "300274": {
+      "code": "300274",
+      "name": "阳光电源",
+      "update_time": "2026-03-25T15:30:15.028103",
+      "price": {
+        "open": 167.08,
+        "close": 164.69,
+        "high": 693258.0,
+        "low": 334131.0,
+        "pre_close": 164.68,
+        "change": 0.009999999999990905,
+        "change_pct": 0.006072382803006379
+      },
+      "volume": {
+        "volume": 0.0,
+        "turnover": 0.0,
+        "turnover_rate": 1.46
+      },
+      "market_cap": {
+        "total": 3463.92,
+        "float": 7.7,
+        "currency": "CNY"
+      },
+      "valuation": {
+        "pe_ttm": 168.49,
+        "pb": 160.1,
+        "ps_ttm": null,
+        "peg": null
+      }
+    },
+    "301162": {
+      "code": "301162",
+      "name": "国能日新",
+      "update_time": "2026-03-25T15:30:15.028109",
+      "price": {
+        "open": 71.75,
+        "close": 70.02,
+        "high": 21608.0,
+        "low": 11911.0,
+        "pre_close": 70.02,
+        "change": 0.0,
+        "change_pct": 0.0
+      },
+      "volume": {
+        "volume": 0.0,
+        "turnover": 0.0,
+        "turnover_rate": 2.47
+      },
+      "market_cap": {
+        "total": 95.13,
+        "float": 6.22,
+        "currency": "CNY"
+      },
+      "valuation": {
+        "pe_ttm": 72.72,
+        "pb": 70.02,
+        "ps_ttm": null,
+        "peg": null
+      }
+    },
+    "603629": {
+      "code": "603629",
+      "name": "利通电子",
+      "update_time": "2026-03-25T15:30:15.028115",
+      "price": {
+        "open": 62.68,
+        "close": 57.63,
+        "high": 153890.0,
+        "low": 72053.0,
+        "pre_close": 56.98,
+        "change": 0.6500000000000057,
+        "change_pct": 1.1407511407511508
+      },
+      "volume": {
+        "volume": 138000.0,
+        "turnover": 62.66,
+        "turnover_rate": 10.0
+      },
+      "market_cap": {
+        "total": 164.46,
+        "float": 8.66,
+        "currency": "CNY"
+      },
+      "valuation": {
+        "pe_ttm": 62.68,
+        "pb": 57.63,
+        "ps_ttm": null,
+        "peg": null
+      }
+    },
+    "301396": {
+      "code": "301396",
+      "name": "宏景科技",
+      "update_time": "2026-03-25T15:30:15.028122",
+      "price": {
+        "open": 163.65,
+        "close": 154.99,
+        "high": 163980.0,
+        "low": 85741.0,
+        "pre_close": 154.0,
+        "change": 0.9900000000000091,
+        "change_pct": 0.6428571428571488
+      },
+      "volume": {
+        "volume": 0.0,
+        "turnover": 0.0,
+        "turnover_rate": 6.27
+      },
+      "market_cap": {
+        "total": 251.23,
+        "float": 19.49,
+        "currency": "CNY"
+      },
+      "valuation": {
+        "pe_ttm": 167.96,
+        "pb": 154.26,
+        "ps_ttm": null,
+        "peg": null
+      }
+    },
+    "300857": {
+      "code": "300857",
+      "name": "协创数据",
+      "update_time": "2026-03-25T15:30:15.028130",
+      "price": {
+        "open": 224.7,
+        "close": 211.3,
+        "high": 141399.0,
+        "low": 81831.0,
+        "pre_close": 207.45,
+        "change": 3.8500000000000227,
+        "change_pct": 1.8558688840684612
+      },
+      "volume": {
+        "volume": 0.0,
+        "turnover": 0.0,
+        "turnover_rate": 8.32
+      },
+      "market_cap": {
+        "total": 777.73,
+        "float": 17.71,
+        "currency": "CNY"
+      },
+      "valuation": {
+        "pe_ttm": 230.0,
+        "pb": 211.23,
+        "ps_ttm": null,
+        "peg": null
+      }
+    },
+    "603881": {
+      "code": "603881",
+      "name": "数据港",
+      "update_time": "2026-03-25T15:30:15.028139",
+      "price": {
+        "open": 38.3,
+        "close": 36.47,
+        "high": 788002.0,
+        "low": 429442.0,
+        "pre_close": 36.37,
+        "change": 0.10000000000000142,
+        "change_pct": 0.2749518834204054
+      },
+      "volume": {
+        "volume": 31900.0,
+        "turnover": 38.27,
+        "turnover_rate": 5.31
+      },
+      "market_cap": {
+        "total": 275.14,
+        "float": 8.33,
+        "currency": "CNY"
+      },
+      "valuation": {
+        "pe_ttm": 39.07,
+        "pb": 36.47,
+        "ps_ttm": null,
+        "peg": null
+      }
+    },
+    "300442": {
+      "code": "300442",
+      "name": "润泽科技",
+      "update_time": "2026-03-25T15:30:15.028147",
+      "price": {
+        "open": 87.65,
+        "close": 85.6,
+        "high": 529013.0,
+        "low": 279034.0,
+        "pre_close": 84.4,
+        "change": 1.1999999999999886,
+        "change_pct": 1.421800947867285
+      },
+      "volume": {
+        "volume": 0.0,
+        "turnover": 0.0,
+        "turnover_rate": 3.85
+      },
+      "market_cap": {
+        "total": 1432.5,
+        "float": 10.58,
+        "currency": "CNY"
+      },
+      "valuation": {
+        "pe_ttm": 89.9,
+        "pb": 85.58,
+        "ps_ttm": null,
+        "peg": null
+      }
+    },
+    "601869": {
+      "code": "601869",
+      "name": "长飞光纤",
+      "update_time": "2026-03-25T15:30:15.028155",
+      "price": {
+        "open": 256.64,
+        "close": 246.0,
+        "high": 216140.0,
+        "low": 106879.0,
+        "pre_close": 233.31,
+        "change": 12.689999999999998,
+        "change_pct": 5.439115340105438
+      },
+      "volume": {
+        "volume": 24100.0,
+        "turnover": 256.62,
+        "turnover_rate": 10.0
+      },
+      "market_cap": {
+        "total": 2124.74,
+        "float": 17.97,
+        "currency": "CNY"
+      },
+      "valuation": {
+        "pe_ttm": 256.64,
+        "pb": 243.0,
+        "ps_ttm": null,
+        "peg": null
+      }
+    },
+    "600487": {
+      "code": "600487",
+      "name": "亨通光电",
+      "update_time": "2026-03-25T15:30:15.028235",
+      "price": {
+        "open": 48.17,
+        "close": 46.08,
+        "high": 1802096.0,
+        "low": 927556.0,
+        "pre_close": 44.37,
+        "change": 1.7100000000000009,
+        "change_pct": 3.853955375253552
+      },
+      "volume": {
+        "volume": 60300.0,
+        "turnover": 48.14,
+        "turnover_rate": 8.56
+      },
+      "market_cap": {
+        "total": 1188.06,
+        "float": 3.86,
+        "currency": "CNY"
+      },
+      "valuation": {
+        "pe_ttm": 48.6,
+        "pb": 46.0,
+        "ps_ttm": null,
+        "peg": null
+      }
+    },
+    "600522": {
+      "code": "600522",
+      "name": "中天科技",
+      "update_time": "2026-03-25T15:30:15.028242",
+      "price": {
+        "open": 27.67,
+        "close": 27.0,
+        "high": 1762654.0,
+        "low": 921417.0,
+        "pre_close": 26.1,
+        "change": 0.8999999999999986,
+        "change_pct": 3.44827586206896
+      },
+      "volume": {
+        "volume": 112400.0,
+        "turnover": 27.64,
+        "turnover_rate": 6.02
+      },
+      "market_cap": {
+        "total": 944.36,
+        "float": 2.58,
+        "currency": "CNY"
+      },
+      "valuation": {
+        "pe_ttm": 27.93,
+        "pb": 26.71,
+        "ps_ttm": null,
+        "peg": null
+      }
+    },
+    "002222": {
+      "code": "002222",
+      "name": "福晶科技",
+      "update_time": "2026-03-25T15:30:15.028248",
+      "price": {
+        "open": 67.35,
+        "close": 69.94,
+        "high": 426715.0,
+        "low": 224525.0,
+        "pre_close": 64.79,
+        "change": 5.1499999999999915,
+        "change_pct": 7.9487575243092925
+      },
+      "volume": {
+        "volume": 29800.0,
+        "turnover": 67.33,
+        "turnover_rate": 3.95
+      },
+      "market_cap": {
+        "total": 316.71,
+        "float": 18.15,
+        "currency": "CNY"
+      },
+      "valuation": {
+        "pe_ttm": 70.1,
+        "pb": 65.9,
+        "ps_ttm": null,
+        "peg": null
+      }
+    },
+    "603115": {
+      "code": "603115",
+      "name": "海星股份",
+      "update_time": "2026-03-25T15:30:15.028254",
+      "price": {
+        "open": 36.33,
+        "close": 36.5,
+        "high": 119455.0,
+        "low": 55076.0,
+        "pre_close": 35.21,
+        "change": 1.2899999999999991,
+        "change_pct": 3.663731894348194
+      },
+      "volume": {
+        "volume": 26300.0,
+        "turnover": 36.29,
+        "turnover_rate": 3.18
+      },
+      "market_cap": {
+        "total": 87.88,
+        "float": 4.26,
+        "currency": "CNY"
+      },
+      "valuation": {
+        "pe_ttm": 37.71,
+        "pb": 35.6,
+        "ps_ttm": null,
+        "peg": null
+      }
+    },
+    "001267": {
+      "code": "001267",
+      "name": "汇绿生态",
+      "update_time": "2026-03-25T15:30:15.028262",
+      "price": {
+        "open": 40.89,
+        "close": 42.0,
+        "high": 659112.0,
+        "low": 302341.0,
+        "pre_close": 40.19,
+        "change": 1.8100000000000023,
+        "change_pct": 4.503607862652407
+      },
+      "volume": {
+        "volume": 6300.0,
+        "turnover": 40.86,
+        "turnover_rate": 1.74
+      },
+      "market_cap": {
+        "total": 321.05,
+        "float": 20.23,
+        "currency": "CNY"
+      },
+      "valuation": {
+        "pe_ttm": 43.52,
+        "pb": 40.2,
+        "ps_ttm": null,
+        "peg": null
+      }
+    },
+    "300383": {
+      "code": "300383",
+      "name": "光环新网",
+      "update_time": "2026-03-25T15:30:15.028270",
+      "price": {
+        "open": 18.23,
+        "close": 16.01,
+        "high": 4358142.0,
+        "low": 2081805.0,
+        "pre_close": 15.48,
+        "change": 0.5300000000000011,
+        "change_pct": 3.4237726098191286
+      },
+      "volume": {
+        "volume": 0.0,
+        "turnover": 0.0,
+        "turnover_rate": 17.76
+      },
+      "market_cap": {
+        "total": 327.7,
+        "float": 2.57,
+        "currency": "CNY"
+      },
+      "valuation": {
+        "pe_ttm": 18.58,
+        "pb": 16.01,
+        "ps_ttm": null,
+        "peg": null
+      }
+    },
+    "300738": {
+      "code": "300738",
+      "name": "奥飞数据",
+      "update_time": "2026-03-25T15:30:15.028277",
+      "price": {
+        "open": 22.73,
+        "close": 21.5,
+        "high": 1176581.0,
+        "low": 620542.0,
+        "pre_close": 21.16,
+        "change": 0.33999999999999986,
+        "change_pct": 1.6068052930056704
+      },
+      "volume": {
+        "volume": 0.0,
+        "turnover": 0.0,
+        "turnover_rate": 7.42
+      },
+      "market_cap": {
+        "total": 223.93,
+        "float": 6.37,
+        "currency": "CNY"
+      },
+      "valuation": {
+        "pe_ttm": 23.45,
+        "pb": 21.5,
+        "ps_ttm": null,
+        "peg": null
+      }
+    },
+    "600563": {
+      "code": "600563",
+      "name": "法拉电子",
+      "update_time": "2026-03-25T15:30:15.028285",
+      "price": {
+        "open": 136.77,
+        "close": 132.0,
+        "high": 157737.0,
+        "low": 85920.0,
+        "pre_close": 127.18,
+        "change": 4.819999999999993,
+        "change_pct": 3.789904072967442
+      },
+      "volume": {
+        "volume": 1300.0,
+        "turnover": 136.73,
+        "turnover_rate": 7.54
+      },
+      "market_cap": {
+        "total": 307.73,
+        "float": 5.37,
+        "currency": "CNY"
+      },
+      "valuation": {
+        "pe_ttm": 139.33,
+        "pb": 130.9,
+        "ps_ttm": null,
+        "peg": null
+      }
+    },
+    "300497": {
+      "code": "300497",
+      "name": "富祥药业",
+      "update_time": "2026-03-25T15:30:15.028293",
+      "price": {
+        "open": 17.3,
+        "close": 16.95,
+        "high": 1293223.0,
+        "low": 644788.0,
+        "pre_close": 17.0,
+        "change": -0.05000000000000071,
+        "change_pct": -0.2941176470588277
+      },
+      "volume": {
+        "volume": 0.0,
+        "turnover": 0.0,
+        "turnover_rate": 1.76
+      },
+      "market_cap": {
+        "total": 93.19,
+        "float": 4.26,
+        "currency": "CNY"
+      },
+      "valuation": {
+        "pe_ttm": 17.8,
+        "pb": 16.87,
+        "ps_ttm": null,
+        "peg": null
+      }
+    },
+    "688353": {
+      "code": "688353",
+      "name": "华盛锂电",
+      "update_time": "2026-03-25T15:30:15.028299",
+      "price": {
+        "open": 111.28,
+        "close": 107.01,
+        "high": 8512137.0,
+        "low": 4243584.0,
+        "pre_close": 109.71,
+        "change": -2.6999999999999886,
+        "change_pct": -2.461033634126323
+      },
+      "volume": {
+        "volume": 0.0,
+        "turnover": 0.0,
+        "turnover_rate": 1.43
+      },
+      "market_cap": {
+        "total": 177.49,
+        "float": 5.04,
+        "currency": "CNY"
+      },
+      "valuation": {
+        "pe_ttm": 112.45,
+        "pb": 106.06,
+        "ps_ttm": null,
+        "peg": null
+      }
+    },
+    "301292": {
+      "code": "301292",
+      "name": "海科新源",
+      "update_time": "2026-03-25T15:30:15.028304",
+      "price": {
+        "open": 69.01,
+        "close": 70.74,
+        "high": 218329.0,
+        "low": 99694.0,
+        "pre_close": 70.75,
+        "change": -0.010000000000005116,
+        "change_pct": -0.01413427561838179
+      },
+      "volume": {
+        "volume": 0.0,
+        "turnover": 0.0,
+        "turnover_rate": -2.46
+      },
+      "market_cap": {
+        "total": 153.75,
+        "float": 5.68,
+        "currency": "CNY"
+      },
+      "valuation": {
+        "pe_ttm": 70.75,
+        "pb": 66.58,
+        "ps_ttm": null,
+        "peg": null
+      }
+    },
+    "600026": {
+      "code": "600026",
+      "name": "中远海能",
+      "update_time": "2026-03-25T15:30:15.028315",
+      "price": {
+        "open": 25.33,
+        "close": 26.7,
+        "high": 1443013.0,
+        "low": 650679.0,
+        "pre_close": 25.87,
+        "change": 0.8299999999999983,
+        "change_pct": 3.208349439505212
+      },
+      "volume": {
+        "volume": 13200.0,
+        "turnover": 25.31,
+        "turnover_rate": -2.09
+      },
+      "market_cap": {
+        "total": 1384.34,
+        "float": 3.05,
+        "currency": "CNY"
+      },
+      "valuation": {
+        "pe_ttm": 27.17,
+        "pb": 24.68,
+        "ps_ttm": null,
+        "peg": null
+      }
+    },
+    "601872": {
+      "code": "601872",
+      "name": "招商轮船",
+      "update_time": "2026-03-25T15:30:15.028321",
+      "price": {
+        "open": 17.41,
+        "close": 18.41,
+        "high": 2240066.0,
+        "low": 1035482.0,
+        "pre_close": 18.1,
+        "change": 0.3099999999999987,
+        "change_pct": 1.712707182320435
+      },
+      "volume": {
+        "volume": 242000.0,
+        "turnover": 17.39,
+        "turnover_rate": -3.81
+      },
+      "market_cap": {
+        "total": 1405.78,
+        "float": 3.45,
+        "currency": "CNY"
+      },
+      "valuation": {
+        "pe_ttm": 18.53,
+        "pb": 17.07,
+        "ps_ttm": null,
+        "peg": null
+      }
+    },
+    "000688": {
+      "code": "000688",
+      "name": "国城矿业",
+      "update_time": "2026-03-25T15:30:15.028326",
+      "price": {
+        "open": 37.7,
+        "close": 36.83,
+        "high": 392160.0,
+        "low": 191335.0,
+        "pre_close": 35.86,
+        "change": 0.9699999999999989,
+        "change_pct": 2.70496374790853
+      },
+      "volume": {
+        "volume": 2700.0,
+        "turnover": 37.68,
+        "turnover_rate": 5.13
+      },
+      "market_cap": {
+        "total": 446.77,
+        "float": 17.17,
+        "currency": "CNY"
+      },
+      "valuation": {
+        "pe_ttm": 37.95,
+        "pb": 36.28,
+        "ps_ttm": null,
+        "peg": null
+      }
+    },
+    "688498": {
+      "code": "688498",
+      "name": "源杰科技",
+      "update_time": "2026-03-25T15:30:15.028333",
+      "price": {
+        "open": 1141.0,
+        "close": 1124.0,
+        "high": 3543143.0,
+        "low": 1685585.0,
+        "pre_close": 1065.0,
+        "change": 59.0,
+        "change_pct": 5.539906103286385
+      },
+      "volume": {
+        "volume": 0.0,
+        "turnover": 0.0,
+        "turnover_rate": 7.14
+      },
+      "market_cap": {
+        "total": 980.66,
+        "float": 42.05,
+        "currency": "CNY"
+      },
+      "valuation": {
+        "pe_ttm": 1166.0,
+        "pb": 1094.0,
+        "ps_ttm": null,
+        "peg": null
+      }
+    },
+    "688048": {
+      "code": "688048",
+      "name": "长光华芯",
+      "update_time": "2026-03-25T15:30:15.028338",
+      "price": {
+        "open": 224.18,
+        "close": 210.0,
+        "high": 18575817.0,
+        "low": 9055755.0,
+        "pre_close": 195.99,
+        "change": 14.009999999999991,
+        "change_pct": 7.148323894076223
+      },
+      "volume": {
+        "volume": 0.0,
+        "turnover": 0.0,
+        "turnover_rate": 14.38
+      },
+      "market_cap": {
+        "total": 395.18,
+        "float": 13.15,
+        "currency": "CNY"
+      },
+      "valuation": {
+        "pe_ttm": 233.25,
+        "pb": 210.0,
+        "ps_ttm": null,
+        "peg": null
+      }
+    },
+    "688313": {
+      "code": "688313",
+      "name": "仕佳光子",
+      "update_time": "2026-03-25T15:30:15.028344",
+      "price": {
+        "open": 85.77,
+        "close": 82.5,
+        "high": 46131000.0,
+        "low": 27583464.0,
+        "pre_close": 80.19,
+        "change": 2.3100000000000023,
+        "change_pct": 2.8806584362139946
+      },
+      "volume": {
+        "volume": 0.0,
+        "turnover": 0.0,
+        "turnover_rate": 6.96
+      },
+      "market_cap": {
+        "total": 387.67,
+        "float": 25.53,
+        "currency": "CNY"
+      },
+      "valuation": {
+        "pe_ttm": 86.75,
+        "pb": 82.31,
+        "ps_ttm": null,
+        "peg": null
+      }
+    },
+    "300620": {
+      "code": "300620",
+      "name": "光库科技",
+      "update_time": "2026-03-25T15:30:15.028352",
+      "price": {
+        "open": 184.52,
+        "close": 188.72,
+        "high": 275006.0,
+        "low": 144545.0,
+        "pre_close": 179.73,
+        "change": 8.990000000000009,
+        "change_pct": 5.001947365492689
+      },
+      "volume": {
+        "volume": 0.0,
+        "turnover": 0.0,
+        "turnover_rate": 2.67
+      },
+      "market_cap": {
+        "total": 459.79,
+        "float": 21.18,
+        "currency": "CNY"
+      },
+      "valuation": {
+        "pe_ttm": 194.94,
+        "pb": 178.0,
+        "ps_ttm": null,
+        "peg": null
+      }
+    },
+    "300125": {
+      "code": "300125",
+      "name": "*ST聆达",
+      "update_time": "2026-03-25T15:30:15.028359",
+      "price": {
+        "open": 8.45,
+        "close": 8.12,
+        "high": 56585.0,
+        "low": 32699.0,
+        "pre_close": 8.09,
+        "change": 0.02999999999999936,
+        "change_pct": 0.3708281829418957
+      },
+      "volume": {
+        "volume": 0.0,
+        "turnover": 0.0,
+        "turnover_rate": 4.45
+      },
+      "market_cap": {
+        "total": 56.26,
+        "float": -8.46,
+        "currency": "CNY"
+      },
+      "valuation": {
+        "pe_ttm": 8.49,
+        "pb": 8.12,
+        "ps_ttm": null,
+        "peg": null
+      }
+    },
+    "300502": {
+      "code": "300502",
+      "name": "新易盛",
+      "update_time": "2026-03-25T15:30:15.028369",
+      "price": {
+        "open": 476.2,
+        "close": 490.21,
+        "high": 458162.0,
+        "low": 229266.0,
+        "pre_close": 468.0,
+        "change": 22.20999999999998,
+        "change_pct": 4.745726495726491
+      },
+      "volume": {
+        "volume": 0.0,
+        "turnover": 0.0,
+        "turnover_rate": 1.75
+      },
+      "market_cap": {
+        "total": 4733.47,
+        "float": 32.59,
+        "currency": "CNY"
+      },
+      "valuation": {
+        "pe_ttm": 492.0,
+        "pb": 463.0,
+        "ps_ttm": null,
+        "peg": null
+      }
+    },
+    "300308": {
+      "code": "300308",
+      "name": "中际旭创",
+      "update_time": "2026-03-25T15:30:15.028376",
+      "price": {
+        "open": 628.4,
+        "close": 625.0,
+        "high": 335631.0,
+        "low": 179745.0,
+        "pre_close": 603.19,
+        "change": 21.809999999999945,
+        "change_pct": 3.615776123609467
+      },
+      "volume": {
+        "volume": 0.0,
+        "turnover": 0.0,
+        "turnover_rate": 4.18
+      },
+      "market_cap": {
+        "total": 6982.27,
+        "float": 23.27,
+        "currency": "CNY"
+      },
+      "valuation": {
+        "pe_ttm": 635.0,
+        "pb": 616.05,
+        "ps_ttm": null,
+        "peg": null
+      }
+    }
+  }
+}

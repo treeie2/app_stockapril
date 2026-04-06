@@ -1,0 +1,1044 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个股研究数据库 - 仪表板</title>
+    <meta name="description" content="AI 驱动的个股研究平台，聚合个股深度研究与投资洞察">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #080c14;
+            --bg-card: #0f1623;
+            --bg-row-hover: #131d2e;
+            --border: rgba(99,179,237,0.1);
+            --border-h: rgba(99,179,237,0.3);
+            --cyan: #06b6d4;
+            --blue: #3b82f6;
+            --green: #10b981;
+            --rose: #f43f5e;
+            --amber: #f59e0b;
+            --purple: #8b5cf6;
+            --t1: #e2e8f0;
+            --t2: #94a3b8;
+            --t3: #4b5563;
+            --mono: 'JetBrains Mono', monospace;
+            --r: 8px;
+        }
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg);
+            color: var(--t1);
+            min-height: 100vh;
+        }
+        body::before {
+            content:'';
+            position:fixed;
+            inset:0;
+            z-index:0;
+            pointer-events:none;
+            background:
+                radial-gradient(ellipse 80% 40% at 15% 0%, rgba(59,130,246,.06) 0%, transparent 60%),
+                radial-gradient(ellipse 50% 30% at 85% 80%, rgba(6,182,212,.04) 0%, transparent 50%);
+        }
+        /* ─── Navbar ─── */
+        .nav {
+            position:sticky;
+            top:0;
+            z-index:100;
+            background:rgba(8,12,20,.9);
+            backdrop-filter:blur(20px);
+            border-bottom:1px solid var(--border);
+            display:flex;
+            align-items:center;
+            gap:.5rem;
+            height:56px;
+            padding:0 1.5rem;
+        }
+        .nav-brand {
+            font-weight:700;
+            font-size:.9rem;
+            letter-spacing:.12em;
+            color:var(--cyan);
+            text-decoration:none;
+            display:flex;
+            align-items:center;
+            gap:.45rem;
+            margin-right:.75rem;
+        }
+        .nav-brand svg { width:17px; height:17px; }
+        .nav-link {
+            padding:.3rem .75rem;
+            border-radius:6px;
+            color:var(--t2);
+            text-decoration:none;
+            font-size:.78rem;
+            font-weight:500;
+            transition:all .18s;
+        }
+        .nav-link:hover, .nav-link.active {
+            color:var(--t1);
+            background:rgba(255,255,255,.05);
+        }
+        .nav-link.active { color:var(--cyan); }
+        /* search */
+        .search-wrap {
+            position:relative;
+            margin-left:auto;
+            width:200px;
+        }
+        .search-wrap input {
+            width:100%;
+            padding:.35rem .7rem .35rem 2rem;
+            background:rgba(255,255,255,.04);
+            border:1px solid var(--border);
+            border-radius:20px;
+            color:var(--t1);
+            font-size:.76rem;
+            font-family:inherit;
+            outline:none;
+            transition:all .2s;
+        }
+        .search-wrap input:focus {
+            border-color:var(--blue);
+            background:rgba(59,130,246,.06);
+        }
+        .search-wrap .si {
+            position:absolute;
+            left:.6rem;
+            top:50%;
+            transform:translateY(-50%);
+            color:var(--t3);
+            pointer-events:none;
+        }
+        .search-sug {
+            display:none;
+            position:absolute;
+            top:calc(100% + 5px);
+            left:0;
+            right:0;
+            background:var(--bg-card);
+            border:1px solid var(--border);
+            border-radius:var(--r);
+            box-shadow:0 8px 28px rgba(0,0,0,.4);
+            z-index:999;
+            overflow:hidden;
+        }
+        .search-sug.on { display:block; }
+        .sug-item {
+            padding:.5rem .8rem;
+            display:flex;
+            justify-content:space-between;
+            cursor:pointer;
+            font-size:.76rem;
+            transition:background .12s;
+        }
+        .sug-item:hover { background:rgba(59,130,246,.1); }
+        .sug-code {
+            color:var(--t3);
+            font-family:var(--mono);
+            font-size:.68rem;
+        }
+        /* ─── Container ─── */
+        .wrap {
+            max-width:1300px;
+            margin:0 auto;
+            padding:1.75rem 1.5rem 4rem;
+            position:relative;
+            z-index:1;
+        }
+        /* ─── Header row ─── */
+        .page-hd {
+            display:flex;
+            align-items:flex-end;
+            justify-content:space-between;
+            margin-bottom:1.4rem;
+            flex-wrap:wrap;
+            gap:1rem;
+        }
+        .page-title {
+            font-size:1.3rem;
+            font-weight:700;
+        }
+        .page-sub {
+            font-size:.75rem;
+            color:var(--t3);
+            margin-top:.2rem;
+        }
+        .stat-row {
+            display:flex;
+            gap:.75rem;
+            flex-wrap:wrap;
+        }
+        .stat-chip {
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+            padding:.5rem 1rem;
+            background:rgba(255,255,255,.03);
+            border:1px solid var(--border);
+            border-radius:var(--r);
+        }
+        .stat-num {
+            font-size:1.25rem;
+            font-weight:700;
+            font-family:var(--mono);
+            color:var(--cyan);
+        }
+        .stat-lbl {
+            font-size:.63rem;
+            color:var(--t3);
+            margin-top:.1rem;
+            letter-spacing:.04em;
+        }
+        /* ─── Toolbar ─── */
+        .toolbar {
+            display:flex;
+            align-items:center;
+            gap:.6rem;
+            margin-bottom:1rem;
+            flex-wrap:wrap;
+        }
+        .filter-lbl {
+            font-size:.72rem;
+            color:var(--t3);
+        }
+        .fbtn {
+            padding:.26rem .75rem;
+            border:1px solid var(--border);
+            border-radius:20px;
+            background:transparent;
+            color:var(--t2);
+            font-size:.72rem;
+            font-weight:500;
+            cursor:pointer;
+            transition:all .18s;
+            font-family:inherit;
+        }
+        .fbtn:hover {
+            border-color:var(--blue);
+            color:var(--t1);
+            background:rgba(59,130,246,.08);
+        }
+        .fbtn.active {
+            background:var(--blue);
+            border-color:var(--blue);
+            color:#fff;
+        }
+        .refresh-btn {
+            margin-left:0.5rem;
+            background:rgba(16,185,129,0.08);
+            border-color:rgba(16,185,129,0.3);
+            color:#10b981;
+            display:inline-flex;
+            align-items:center;
+            gap:0.35rem;
+        }
+        .refresh-btn:hover {
+            background:rgba(16,185,129,0.15);
+            border-color:#10b981;
+            color:#065f46;
+        }
+        .refresh-btn.refreshing {
+            animation:spin 1s linear infinite;
+            background:rgba(16,185,129,0.15);
+        }
+        .refresh-btn.refreshing .btn-icon {
+            animation:spin 1s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform:rotate(0deg); }
+            100% { transform:rotate(360deg); }
+        }
+        .refresh-status {
+            margin-left:0.75rem;
+            font-size:0.75rem;
+            color:var(--accent-green);
+            font-weight:500;
+        }
+        .load-more-wrap {
+            padding:1.5rem;
+            text-align:center;
+            background:rgba(255,255,255,0.02);
+            border-top:1px solid var(--border);
+        }
+        .load-more-btn {
+            background:linear-gradient(135deg,#8b5cf6,#7c3aed);
+            color:#fff;
+            border:none;
+            padding:0.75rem 2rem;
+            border-radius:8px;
+            font-size:0.9rem;
+            font-weight:600;
+            cursor:pointer;
+            transition:all 0.2s;
+            box-shadow:0 2px 8px rgba(139,92,246,0.3);
+        }
+        .load-more-btn:hover {
+            transform:translateY(-2px);
+            box-shadow:0 4px 12px rgba(139,92,246,0.4);
+        }
+        .load-more-btn:active {
+            transform:translateY(0);
+        }
+        .load-more-btn.loading {
+            opacity:0.7;
+            cursor:not-allowed;
+        }
+        .load-more-btn.loading::before {
+            content:'';
+            display:inline-block;
+            width:16px;
+            height:16px;
+            border:2px solid rgba(255,255,255,0.3);
+            border-top-color:#fff;
+            border-radius:50%;
+            animation:spin 0.8s linear infinite;
+            margin-right:0.5rem;
+            vertical-align:middle;
+        }
+        .sort-sel {
+            margin-left:auto;
+            background:rgba(255,255,255,.04);
+            border:1px solid var(--border);
+            border-radius:6px;
+            padding:.28rem .65rem;
+            color:var(--t2);
+            font-size:.72rem;
+            font-family:inherit;
+            cursor:pointer;
+            outline:none;
+        }
+        .sort-sel:focus { border-color:var(--blue); }
+        /* ─── Table ─── */
+        .tbl-wrap {
+            background:var(--bg-card);
+            border:1px solid var(--border);
+            border-radius:12px;
+            overflow:hidden;
+        }
+        table { width:100%; border-collapse:collapse; }
+        thead th {
+            padding:.65rem 1rem .65rem 1rem;
+            font-size:.65rem;
+            font-weight:700;
+            letter-spacing:.08em;
+            text-transform:uppercase;
+            color:var(--t3);
+            text-align:left;
+            border-bottom:1px solid var(--border);
+            white-space:nowrap;
+            cursor:pointer;
+            user-select:none;
+            transition:color .15s;
+        }
+        thead th:hover { color:var(--t2); }
+        thead th.num, tbody td.num { text-align:right; }
+        thead th .sort-ico {
+            opacity:.4;
+            margin-left:.3rem;
+            font-size:.6rem;
+        }
+        thead th.sorted { color:var(--cyan); }
+        thead th.sorted .sort-ico { opacity:1; }
+        tbody tr {
+            border-bottom:1px solid var(--border);
+            transition:background .15s;
+            cursor:pointer;
+        }
+        tbody tr:last-child { border-bottom:none; }
+        tbody tr:hover { background:var(--bg-row-hover); }
+        tbody td {
+            padding:.75rem 1rem;
+            font-size:.8rem;
+            color:var(--t2);
+            white-space:nowrap;
+            vertical-align:middle;
+        }
+        /* col styles */
+        .col-rank {
+            width:36px;
+            color:var(--t3);
+            font-size:.7rem;
+            text-align:center;
+        }
+        .col-name {
+            color:var(--t1);
+            font-weight:600;
+        }
+        .col-code {
+            font-family:var(--mono);
+            font-size:.7rem;
+            color:var(--cyan);
+        }
+        .col-price {
+            font-family:var(--mono);
+            font-weight:600;
+            font-size:.85rem;
+        }
+        .market-refresh {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: linear-gradient(135deg, rgba(139,92,246,.1), rgba(139,92,246,.05));
+            border: 1px solid rgba(139,92,246,.3);
+            border-radius: 6px;
+            padding: 4px 10px;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-size: 0.75rem;
+            color: #a78bfa;
+            margin-left: 8px;
+        }
+        .market-refresh:hover {
+            background: rgba(139,92,246,.15);
+            border-color: rgba(139,92,246,.5);
+        }
+        .market-refresh .icon {
+            font-size: 0.9rem;
+            transition: transform 0.3s;
+        }
+        .market-refresh.refreshing .icon {
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+        .col-chg {
+            font-family:var(--mono);
+            font-weight:600;
+            font-size:.82rem;
+        }
+        .col-cap {
+            font-family:var(--mono);
+            font-size:.78rem;
+        }
+        .up { color:var(--rose); }
+        .down { color:var(--green); }
+        .flat { color:var(--t2); }
+        /* board badge */
+        .board-b {
+            display:inline-block;
+            font-size:.6rem;
+            font-weight:600;
+            padding:.1rem .45rem;
+            border-radius:4px;
+            background:rgba(139,92,246,.12);
+            border:1px solid rgba(139,92,246,.25);
+            color:#a78bfa;
+        }
+        /* concept tags */
+        .tags {
+            display:flex;
+            gap:.3rem;
+            flex-wrap:wrap;
+            max-width:260px;
+        }
+        .tag {
+            font-size:.62rem;
+            padding:.1rem .45rem;
+            border-radius:20px;
+            font-weight:500;
+            white-space:nowrap;
+        }
+        .t0 { background:rgba(59,130,246,.12); border:1px solid rgba(59,130,246,.28); color:#93c5fd; }
+        .t1 { background:rgba(6,182,212,.12); border:1px solid rgba(6,182,212,.28); color:#67e8f9; }
+        .t2 { background:rgba(16,185,129,.12); border:1px solid rgba(16,185,129,.28); color:#6ee7b7; }
+        .t3c { background:rgba(245,158,11,.12); border:1px solid rgba(245,158,11,.28); color:#fcd34d; }
+        .t4 { background:rgba(244,63,94,.12); border:1px solid rgba(244,63,94,.28); color:#fda4af; }
+        .t5 { background:rgba(139,92,246,.12); border:1px solid rgba(139,92,246,.28); color:#c4b5fd; }
+        /* mention */
+        .mention-b {
+            display:inline-flex;
+            align-items:center;
+            gap:.2rem;
+            background:rgba(245,158,11,.1);
+            border:1px solid rgba(245,158,11,.22);
+            color:var(--amber);
+            border-radius:20px;
+            padding:.12rem .5rem;
+            font-size:.65rem;
+            font-weight:600;
+        }
+        /* articles count */
+        .art-b {
+            display:inline-flex;
+            align-items:center;
+            gap:.2rem;
+            background:rgba(6,182,212,.08);
+            border:1px solid rgba(6,182,212,.2);
+            color:var(--cyan);
+            border-radius:20px;
+            padding:.12rem .5rem;
+            font-size:.65rem;
+        }
+        /* loading state */
+        .loading-price {
+            color:var(--t3);
+            font-size:.72rem;
+            font-style:italic;
+        }
+        /* empty row */
+        .empty-row td {
+            text-align:center;
+            padding:3rem;
+            color:var(--t3);
+            font-style:italic;
+        }
+        /* ─── footer ─── */
+        .footer {
+            text-align:center;
+            padding:1.75rem;
+            font-size:.7rem;
+            color:var(--t3);
+            border-top:1px solid var(--border);
+            position:relative;
+            z-index:1;
+        }
+        /* responsive */
+        @media(max-width:900px){
+            .col-cap,.col-articles { display:none; }
+            .search-wrap { width:150px; }
+        }
+        @media(max-width:640px){
+            .col-mention,.col-industry { display:none; }
+            .wrap { padding:1rem .75rem 3rem; }
+            thead th, tbody td { padding:.6rem .7rem; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="nav">
+        <a href="/" class="nav-brand">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="22 12 18 12 15 21 9 3 6 12"/>
+            </svg>
+            CYBERRESEARCH
+        </a>
+        <a href="/" class="nav-link active">仪表板</a>
+        <a href="/stocks" class="nav-link">股票列表</a>
+        <a href="/social-security-new" class="nav-link">社保新进</a>
+        <a href="/concepts" class="nav-link">概念大全</a>
+        <a href="/import" class="nav-link" style="color:var(--amber);">📥 导入数据</a>
+        <div class="search-wrap">
+            <svg class="si" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+            </svg>
+            <input id="searchInput" type="text" placeholder="搜索股票…" autocomplete="off">
+            <div class="search-sug" id="searchSug"></div>
+        </div>
+    </nav>
+    
+    <div class="wrap">
+        <!-- Header -->
+        <div class="page-hd">
+            <div>
+                <div class="page-title">📊 智能投研仪表板</div>
+                <div class="page-sub">实时追踪 · AI 洞察 · 个股深度研究</div>
+            </div>
+        </div>
+        
+        <!-- Toolbar -->
+        <div class="toolbar">
+            <span class="filter-lbl">概念数</span>
+            <button class="fbtn active" data-concepts="all">全部</button>
+            <button class="fbtn" data-concepts="10+">10+ 概念</button>
+            <button class="fbtn" data-concepts="20+">20+ 概念</button>
+            <button class="fbtn" data-concepts="30+">30+ 概念</button>
+            <button class="fbtn refresh-btn" id="refreshBtn" title="刷新股价" onclick="refreshMarket()">
+                <span class="btn-icon">🔄</span>
+                <span class="btn-text">刷新股价</span>
+            </button>
+            <span class="refresh-status" id="refreshStatus"></span>
+            <select class="sort-sel" id="sortSel">
+                <option value="date">按日期</option>
+                <option value="mention">按热度</option>
+                <option value="chg_up">涨幅 ↑</option>
+                <option value="chg_down">跌幅 ↑</option>
+                <option value="articles">按文章数</option>
+                <option value="name">名称</option>
+            </select>
+        </div>
+        
+        <!-- Table -->
+        <div class="tbl-wrap">
+            <table id="stockTable">
+                <thead>
+                    <tr>
+                        <th style="width:36px;text-align:center;">#</th>
+                        <th>股票</th>
+                        <th>行业</th>
+                        <th class="col-concepts">概念</th>
+                        <th class="num" style="min-width:80px;">最新价</th>
+                        <th class="num" style="min-width:80px;">涨跌幅</th>
+                        <th class="num col-cap" style="min-width:76px;">总市值</th>
+                        <th class="num col-mention" style="min-width:60px;">提及</th>
+                        <th class="num col-articles" style="min-width:60px;">文章</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+                    {% for stock in stocks %}
+                    <tr data-code="{{ stock.code }}" 
+                        data-concepts="{{ stock.concepts | length }}" 
+                        data-mention="{{ stock.mention_count | default(0) }}" 
+                        data-articles="{{ stock.articles | length }}" 
+                        data-name="{{ stock.name }}" 
+                        data-latest-date="{{ stock.latest_article_date or '' }}"
+                        data-chg="0" 
+                        onclick="window.location='/stock/{{ stock.code }}'">
+                        <td class="col-rank">{{ loop.index }}</td>
+                        <td>
+                            <div class="col-name">{{ stock.name }}</div>
+                            <div class="col-code">{{ stock.code }}</div>
+                        </td>
+                        <td class="col-industry" style="color:var(--t2);font-size:.72rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">
+                            {{ stock.industry if stock.industry else '—' }}
+                        </td>
+                        <td class="col-concepts">
+                            {% if stock.concepts %}
+                            <div class="tags">
+                                {% for c in stock.concepts[:3] %}
+                                <span class="tag t{{ loop.index0 % 6 if loop.index0 < 5 else '5' }}{% if loop.index0 >= 3 %}c{% endif %}" onclick="event.stopPropagation();window.location='/concept/{{ c | urlencode }}'">{{ c }}</span>
+                                {% endfor %}
+                                {% if stock.concepts | length > 3 %}<span class="tag t5">+{{ stock.concepts|length - 3 }}</span>{% endif %}
+                            </div>
+                            {% endif %}
+                        </td>
+                        <td class="num col-price" id="p-{{ stock.code }}">
+                            <span class="loading-price">—</span>
+                        </td>
+                        <td class="num col-chg" id="c-{{ stock.code }}">
+                            <span class="loading-price">—</span>
+                        </td>
+                        <td class="num col-cap" id="mc-{{ stock.code }}">
+                            <span style="color:var(--t3)">—</span>
+                        </td>
+                        <td class="num col-mention">
+                            {% if stock.mention_count and stock.mention_count > 0 %}
+                            <span class="mention-b">🔥 {{ stock.mention_count }}</span>
+                            {% else %}<span style="color:var(--t3)">—</span>{% endif %}
+                        </td>
+                        <td class="num col-articles">
+                            {% if stock.articles | length > 0 %}
+                            <span class="art-b">📰 {{ stock.articles | length }}</span>
+                            {% else %}<span style="color:var(--t3)">—</span>{% endif %}
+                        </td>
+                    </tr>
+                    {% else %}
+                    <tr class="empty-row"><td colspan="9">暂无股票数据</td></tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        
+        <!-- 加载更多按钮 -->
+        {% if has_more %}
+        <div class="load-more-wrap">
+            <button class="load-more-btn" id="loadMoreBtn" onclick="loadMore()">
+                📥 加载更多（还剩 {{ total_stocks - (limit or 20) }} 只）
+            </button>
+        </div>
+        {% endif %}
+    </div>
+    
+    <footer class="footer">CYBERRESEARCH © 2026 &nbsp;·&nbsp; AI-Powered Investment Research Platform</footer>
+    
+    <script>
+        // ─── Get rows ───
+        const rows = [...document.querySelectorAll('#tbody tr[data-code]')];
+        
+        // ─── Concepts count filter ───
+        document.querySelectorAll('.fbtn').forEach(b =>
+            b.addEventListener('click', () => {
+                document.querySelectorAll('.fbtn').forEach(x => x.classList.remove('active'));
+                b.classList.add('active');
+                const minConcepts = b.dataset.concepts;
+                rows.forEach(r => {
+                    const count = +r.dataset.concepts;
+                    let show = false;
+                    if(minConcepts === 'all') show = true;
+                    else if(minConcepts === '10+') show = count >= 10;
+                    else if(minConcepts === '20+') show = count >= 20;
+                    else if(minConcepts === '30+') show = count >= 30;
+                    r.style.display = show ? '' : 'none';
+                });
+                renumber();
+            })
+        );
+        
+        // ─── Sort ───
+        document.getElementById('sortSel').addEventListener('change', function() {
+            sortRows(this.value);
+        });
+        
+        function sortRows(mode) {
+            const tbody = document.getElementById('tbody');
+            rows.sort((a,b) => {
+                if(mode==='mention') return +b.dataset.mention - +a.dataset.mention;
+                if(mode==='articles') return +b.dataset.articles - +a.dataset.articles;
+                if(mode==='name') return a.dataset.name.localeCompare(b.dataset.name,'zh');
+                if(mode==='chg_up') return +b.dataset.chg - +a.dataset.chg;
+                if(mode==='chg_down') return +a.dataset.chg - +b.dataset.chg;
+                if(mode==='date') {
+                    // 按最新文章日期排序（从行数据中获取）
+                    const dateA = a.dataset.latestDate || '';
+                    const dateB = b.dataset.latestDate || '';
+                    return dateB.localeCompare(dateA);
+                }
+                return 0;
+            });
+            rows.forEach(r => tbody.appendChild(r));
+            renumber();
+        }
+        
+        function renumber() {
+            let i=1;
+            rows.forEach(r => {
+                if(r.style.display!=='none')
+                    r.querySelector('.col-rank').textContent=i++;
+            });
+        }
+        
+        // default sort by mention
+        sortRows('mention');
+        
+        // Auto fetch market data on page load
+        fetchMarket(false);
+        
+        // ─── Market data ───
+        let marketLoaded = false;
+        async function fetchMarket(force = false) {
+            const codes = rows.map(r => r.dataset.code);
+            if(!codes.length) return;
+            
+            const btn = document.getElementById('refreshBtn');
+            
+            if(force) {
+                btn?.classList.add('refreshing');
+                rows.forEach(r => {
+                    const code = r.dataset.code;
+                    const pEl = document.getElementById(`p-${code}`);
+                    const cEl = document.getElementById(`c-${code}`);
+                    const mcEl = document.getElementById(`mc-${code}`);
+                    if(pEl) pEl.innerHTML = '<span class="loading-price">🔄</span>';
+                    if(cEl) cEl.innerHTML = '<span class="loading-price">—</span>';
+                    if(mcEl) mcEl.innerHTML = '<span style="color:var(--t3)">—</span>';
+                });
+            }
+            
+            try {
+                const res = await fetch(`/api/market-data?codes=${codes.join(',')}`);
+                const data = await res.json();
+                
+                let loaded = 0;
+                codes.forEach(code => {
+                    const d = data[code];
+                    const pEl = document.getElementById(`p-${code}`);
+                    const cEl = document.getElementById(`c-${code}`);
+                    const mcEl = document.getElementById(`mc-${code}`);
+                    if(!pEl) return;
+                    if(!d || !d.price) {
+                        pEl.innerHTML = '<span style="color:var(--t3)">—</span>';
+                        cEl.innerHTML = '<span style="color:var(--t3)">—</span>';
+                        return;
+                    }
+                    loaded++;
+                    const isUp = d.change >= 0;
+                    const cls = isUp ? 'up' : 'down';
+                    const sign = isUp ? '+' : '';
+                    pEl.innerHTML = `<span class="col-price ${cls}">${d.price.toFixed(2)}</span>`;
+                    cEl.innerHTML = `<span class="col-chg ${cls}">${sign}${d.change.toFixed(2)}%</span>`;
+                    if(mcEl)
+                        mcEl.innerHTML = d.marketCap ? `<span class="col-cap">${d.marketCap.toFixed(0)}亿</span>` : '—';
+                    const row = document.querySelector(`tr[data-code="${code}"]`);
+                    if(row) row.dataset.chg = d.change;
+                });
+                
+                if(loaded > 0) marketLoaded = true;
+                
+                // 更新按钮文本
+                if(btn) {
+                    const textSpan = btn.querySelector('.btn-text');
+                    if(textSpan) textSpan.textContent = loaded > 0 ? '已更新' : '无数据';
+                    setTimeout(() => { if(textSpan) textSpan.textContent = '刷新股价'; }, 2000);
+                }
+            } catch(e) {
+                console.log('行情获取失败', e);
+                if(force) {
+                    rows.forEach(r => {
+                        const code = r.dataset.code;
+                        const pEl = document.getElementById(`p-${code}`);
+                        const cEl = document.getElementById(`c-${code}`);
+                        if(pEl) pEl.innerHTML = '<span style="color:var(--t3)">—</span>';
+                        if(cEl) cEl.innerHTML = '<span style="color:var(--t3)">—</span>';
+                    });
+                    alert('行情获取失败，请稍后重试');
+                }
+            } finally {
+                if(force && btn) {
+                btn.classList.remove('refreshing');
+                const status = document.getElementById('refreshStatus');
+                if(status) {
+                    status.textContent = loaded > 0 ? `✅ 已更新 ${loaded} 只股票` : '⚠️ 无数据';
+                    setTimeout(() => status.textContent = '', 3000);
+                }
+            }
+            }
+        }
+        // 3 秒后自动刷新一次
+        setTimeout(() => fetchMarket(false), 3000);
+        setInterval(fetchMarket, 60000);
+        
+        // 手动刷新函数
+        function refreshMarket() {
+            fetchMarket(true);
+        }
+        
+        // ─── 加载更多 ───
+        let isLoadingMore = false;
+        
+        function loadMore() {
+            if (isLoadingMore) return;
+            
+            const btn = document.getElementById('loadMoreBtn');
+            if (!btn) return;
+            
+            isLoadingMore = true;
+            btn.classList.add('loading');
+            btn.disabled = true;
+            
+            const offset = {{ next_offset }};
+            const limit = {{ limit or 20 }};
+            
+            fetch(`/?limit=${limit}&offset=${offset}`, {
+                headers: {
+                    'X-Requested-With': 'XMLHttpRequest'
+                }
+            })
+            .then(r => r.json())
+            .then(data => {
+                const tbody = document.getElementById('tbody');
+                const rows = data.stocks || [];
+                
+                rows.forEach(stock => {
+                    const tr = document.createElement('tr');
+                    tr.dataset.code = stock.code;
+                    tr.dataset.concepts = (stock.concepts || []).length;
+                    tr.dataset.mention = stock.mention_count || 0;
+                    tr.dataset.articles = (stock.articles || []).length;
+                    tr.dataset.name = stock.name;
+                    tr.dataset.latestDate = stock.latest_article_date || '';
+                    tr.dataset.chg = '0';
+                    tr.onclick = () => window.location = `/stock/${stock.code}`;
+                    
+                    const industry = stock.industry || stock.industries || '—';
+                    const concepts = stock.concepts || [];
+                    const mentionCount = stock.mention_count || 0;
+                    const articlesCount = (stock.articles || []).length;
+                    
+                    tr.innerHTML = `
+                        <td class="col-rank">${tbody.children.length + 1}</td>
+                        <td>
+                            <div class="col-name">${stock.name}</div>
+                            <div class="col-code">${stock.code}</div>
+                        </td>
+                        <td class="col-industry" style="color:var(--t2);font-size:.72rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">
+                            ${industry}
+                        </td>
+                        <td class="col-concepts">
+                            ${concepts.length > 0 ? `
+                            <div class="tags">
+                                ${concepts.slice(0, 3).map((c, i) => 
+                                    `<span class="tag t${i % 6}" onclick="event.stopPropagation();window.location='/concept/${encodeURIComponent(c)}'">${c}</span>`
+                                ).join('')}
+                                ${concepts.length > 3 ? `<span class="tag t5">+${concepts.length - 3}</span>` : ''}
+                            </div>` : ''}
+                        </td>
+                        <td class="num col-price" id="p-${stock.code}">
+                            <span class="loading-price">—</span>
+                        </td>
+                        <td class="num col-chg" id="c-${stock.code}">
+                            <span class="loading-price">—</span>
+                        </td>
+                        <td class="num col-cap" id="mc-${stock.code}">
+                            <span style="color:var(--t3)">—</span>
+                        </td>
+                        <td class="num col-mention">
+                            ${mentionCount > 0 ? `<span class="mention-b">🔥 ${mentionCount}</span>` : '<span style="color:var(--t3)">—</span>'}
+                        </td>
+                        <td class="num col-articles">
+                            ${articlesCount > 0 ? `<span class="art-b">📰 ${articlesCount}</span>` : '<span style="color:var(--t3)">—</span>'}
+                        </td>
+                    `;
+                    
+                    tbody.appendChild(tr);
+                });
+                
+                // 重新绑定行情获取
+                fetchMarket(false);
+                
+                // 更新或移除加载更多按钮
+                if (data.has_more) {
+                    const remaining = data.total - data.offset;
+                    btn.innerHTML = `📥 加载更多（还剩 ${remaining} 只）`;
+                    btn.classList.remove('loading');
+                    btn.disabled = false;
+                    isLoadingMore = false;
+                } else {
+                    btn.closest('.load-more-wrap').remove();
+                }
+            })
+            .catch(e => {
+                console.error('加载更多失败', e);
+                btn.classList.remove('loading');
+                btn.disabled = false;
+                isLoadingMore = false;
+                alert('加载更多失败，请刷新页面重试');
+            });
+        }
+        
+        // ─── Search ───
+        const si = document.getElementById('searchInput');
+        const sg = document.getElementById('searchSug');
+        let dbt;
+        si.addEventListener('input', () => {
+            clearTimeout(dbt);
+            dbt = setTimeout(async () => {
+                const q = si.value.trim();
+                if(q.length < 1) { sg.classList.remove('on'); return; }
+                try {
+                    const res = await fetch(`/api/search/suggest?q=${encodeURIComponent(q)}`);
+                    const data = await res.json();
+                    if(!data.suggestions.length) { sg.classList.remove('on'); return; }
+                    sg.innerHTML = data.suggestions.map(s =>
+                        `<div class="sug-item" onclick="window.location='/stock/${s.code}'">
+                            <span>${s.name}</span><span class="sug-code">${s.code}</span>
+                        </div>`
+                    ).join('');
+                    sg.classList.add('on');
+                } catch(e){}
+            }, 200);
+        });
+        document.addEventListener('click', e => {
+            if(!e.target.closest('.search-wrap')) sg.classList.remove('on');
+        });
+    </script>
+    
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore-compat.js"></script>
+    <script src="{{ url_for('static', filename='js/firebase-config.js') }}"></script>
+    
+    <!-- Firebase 数据加载 -->
+    <script>
+        // 标记是否使用 Firebase
+        const useFirebase = true;
+        
+        // 从 Firebase 加载股票数据
+        async function loadStocksFromFirebase() {
+            try {
+                console.log('🔄 正在从 Firebase 加载数据...');
+                const stocks = await FirebaseDB.getAllStocks();
+                
+                if (stocks && stocks.length > 0) {
+                    console.log(`✅ 从 Firebase 加载了 ${stocks.length} 只股票`);
+                    renderStocksFromFirebase(stocks);
+                    return true;
+                } else {
+                    console.log('⚠️ Firebase 中没有股票数据');
+                    return false;
+                }
+            } catch (error) {
+                console.error('❌ 从 Firebase 加载失败:', error);
+                return false;
+            }
+        }
+        
+        // 渲染 Firebase 数据到页面
+        function renderStocksFromFirebase(stocks) {
+            const tbody = document.querySelector('.stocks-table tbody');
+            if (!tbody) return;
+            
+            // 清空现有内容
+            tbody.innerHTML = '';
+            
+            // 按提及次数排序
+            stocks.sort((a, b) => (b.mention_count || 0) - (a.mention_count || 0));
+            
+            // 只显示前 50 只
+            const displayStocks = stocks.slice(0, 50);
+            
+            displayStocks.forEach(stock => {
+                const row = document.createElement('tr');
+                row.className = 'stock-row';
+                row.onclick = () => window.location.href = `/stock/${stock.code}`;
+                
+                const concepts = stock.concepts?.slice(0, 3).map(c => 
+                    `<span class="concept-tag" onclick="event.stopPropagation(); window.location.href='/concept/${encodeURIComponent(c)}'">${c}</span>`
+                ).join('') || '';
+                
+                const latestArticle = stock.articles?.[0];
+                const insight = latestArticle?.insights?.[0] || '';
+                
+                row.innerHTML = `
+                    <td>
+                        <div class="stock-name">${stock.name || ''}</div>
+                        <div class="stock-code">${stock.code || ''}</div>
+                    </td>
+                    <td>
+                        <div class="concepts-wrap">${concepts}</div>
+                    </td>
+                    <td>
+                        <div class="insight-text" title="${insight}">${insight.substring(0, 60)}${insight.length > 60 ? '...' : ''}</div>
+                    </td>
+                    <td class="mention-count">${stock.mention_count || 0}</td>
+                    <td class="price-cell">-</td>
+                    <td class="change-cell">-</td>
+                `;
+                
+                tbody.appendChild(row);
+            });
+            
+            // 更新统计
+            document.querySelector('.stats-grid').innerHTML = `
+                <div class="stat-card">
+                    <div class="stat-value">${stocks.length}</div>
+                    <div class="stat-label">股票总数</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">${new Set(stocks.flatMap(s => s.concepts || [])).size}</div>
+                    <div class="stat-label">概念标签</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">${stocks.reduce((sum, s) => sum + (s.articles?.length || 0), 0)}</div>
+                    <div class="stat-label">文章总数</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">${stocks.filter(s => (s.articles?.length || 0) > 0).length}</div>
+                    <div class="stat-label">有研报股票</div>
+                </div>
+            `;
+            
+            // 添加 Firebase 标识
+            const title = document.querySelector('h1');
+            if (title && !title.innerHTML.includes('🔥')) {
+                title.innerHTML += ' <span style="font-size:0.5em;color:#ff6b35">🔥 Firebase</span>';
+            }
+        }
+        
+        // 页面加载时尝试从 Firebase 获取数据
+        document.addEventListener('DOMContentLoaded', async () => {
+            if (useFirebase) {
+                const success = await loadStocksFromFirebase();
+                if (!success) {
+                    console.log('⚠️ Firebase 加载失败，使用本地数据');
+                }
+            }
+        });
+    </script>
+</body>
+</html>

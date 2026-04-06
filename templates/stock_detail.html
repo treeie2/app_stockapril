@@ -1,0 +1,1548 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ stock.name }} ({{ stock.code }}) - 智能投研平台</title>
+    <meta name="description" content="{{ stock.name }} 个股深度研究 - {{ stock.industry }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/stock-card.css">
+    <style>
+        :root {
+            --bg-primary: #080c14;
+            --bg-secondary: #0d1220;
+            --bg-card: #111827;
+            --bg-card-hover: #16202e;
+            --border: rgba(99, 179, 237, 0.12);
+            --border-hover: rgba(99, 179, 237, 0.35);
+            --accent-blue: #3b82f6;
+            --accent-cyan: #06b6d4;
+            --accent-green: #10b981;
+            --accent-amber: #f59e0b;
+            --accent-rose: #f43f5e;
+            --accent-purple: #8b5cf6;
+            --text-primary: #e2e8f0;
+            --text-secondary: #94a3b8;
+            --text-muted: #4b5563;
+            --radius-sm: 6px;
+            --radius-md: 10px;
+            --radius-lg: 16px;
+        }
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            min-height: 100vh;
+        }
+        
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            z-index: 0;
+            background: 
+                radial-gradient(ellipse 60% 40% at 30% 0%, rgba(59,130,246,0.07) 0%, transparent 60%),
+                radial-gradient(ellipse 40% 30% at 90% 70%, rgba(6,182,212,0.05) 0%, transparent 50%);
+            pointer-events: none;
+        }
+        
+        /* ─── 导航 ─── */
+        .navbar {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(8, 12, 20, 0.88);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            height: 60px;
+        }
+        
+        .navbar-brand {
+            font-size: 0.95rem;
+            font-weight: 700;
+            letter-spacing: 0.12em;
+            color: var(--accent-cyan);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-right: 0.5rem;
+        }
+        
+        .navbar-brand svg { width: 18px; height: 18px; }
+        
+        .nav-link {
+            padding: 0.35rem 0.8rem;
+            border-radius: var(--radius-sm);
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.8rem;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+        
+        .nav-link:hover {
+            color: var(--text-primary);
+            background: rgba(255,255,255,0.05);
+        }
+        
+        .breadcrumb {
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            margin-left: auto;
+        }
+        
+        .breadcrumb a {
+            color: var(--text-secondary);
+            text-decoration: none;
+        }
+        
+        .breadcrumb a:hover { color: var(--accent-cyan); }
+        .breadcrumb-sep { color: var(--text-muted); }
+        
+        /* ─── 主区域 ─── */
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 2rem 2rem 5rem;
+            position: relative;
+            z-index: 1;
+        }
+        
+        /* ─── 股票头部 ─── */
+        .stock-hero {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            padding: 1.75rem 2rem;
+            margin-bottom: 1.25rem;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .stock-hero::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 2px;
+            background: linear-gradient(90deg, var(--accent-blue), var(--accent-cyan), transparent);
+        }
+        
+        .hero-top {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+        
+        .hero-title-group { flex: 1; }
+        
+        .stock-name-hero {
+            font-size: 1.8rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+        }
+        
+        .stock-code-hero {
+            font-size: 0.85rem;
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--accent-cyan);
+            margin-top: 0.2rem;
+        }
+        
+        .edit-btn-hero {
+            background: linear-gradient(135deg, rgba(139,92,246,.15), rgba(124,58,237,.1));
+            border: 1px solid rgba(139,92,246,.4);
+            color: #a78bfa;
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.85rem;
+            font-weight: 600;
+            transition: all 0.2s;
+            white-space: nowrap;
+        }
+        .edit-btn-hero:hover {
+            background: rgba(139,92,246,.25);
+            border-color: rgba(139,92,246,.6);
+            transform: translateY(-1px);
+        }
+        
+        .hero-price-block {
+            text-align: right;
+        }
+        
+        .price-big {
+            font-size: 2rem;
+            font-weight: 700;
+            font-family: 'JetBrains Mono', monospace;
+        }
+        
+        .price-up { color: var(--accent-rose); }
+        .price-down { color: var(--accent-green); }
+        .price-flat { color: var(--text-secondary); }
+        
+        .price-change {
+            font-size: 0.85rem;
+            margin-top: 0.2rem;
+        }
+        
+        .hero-meta-row {
+            display: flex;
+            gap: 1.5rem;
+            margin-top: 0.75rem;
+            font-size: 0.75rem;
+            color: var(--text-muted);
+        }
+        
+        .hero-meta-item span {
+            color: var(--text-secondary);
+            font-weight: 500;
+        }
+        
+        .hero-bottom {
+            margin-top: 1.25rem;
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            flex-wrap: wrap;
+        }
+        
+        .board-badge {
+            display: inline-flex;
+            align-items: center;
+            background: rgba(139,92,246,0.12);
+            border: 1px solid rgba(139,92,246,0.3);
+            color: #a78bfa;
+            border-radius: var(--radius-sm);
+            padding: 0.2rem 0.65rem;
+            font-size: 0.72rem;
+            font-weight: 600;
+        }
+        
+        .industry-badge {
+            display: inline-flex;
+            align-items: center;
+            background: rgba(6,182,212,0.08);
+            border: 1px solid rgba(6,182,212,0.2);
+            color: var(--accent-cyan);
+            border-radius: var(--radius-sm);
+            padding: 0.2rem 0.65rem;
+            font-size: 0.72rem;
+            font-weight: 500;
+        }
+        
+        .mention-badge-hero {
+            margin-left: auto;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.3rem;
+            background: rgba(245,158,11,0.1);
+            border: 1px solid rgba(245,158,11,0.25);
+            color: var(--accent-amber);
+            border-radius: 20px;
+            padding: 0.2rem 0.75rem;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+        
+        /* 社保基金标记 */
+        .social-security-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            background: linear-gradient(135deg, rgba(234,179,8,0.15) 0%, rgba(234,179,8,0.08) 100%);
+            border: 1px solid rgba(234,179,8,0.4);
+            color: #fbbf24;
+            border-radius: 20px;
+            padding: 0.25rem 0.85rem;
+            font-size: 0.78rem;
+            font-weight: 700;
+            box-shadow: 0 0 12px rgba(234,179,8,0.2);
+            animation: ss-glow 2s ease-in-out infinite;
+        }
+        
+        .social-security-badge .ss-ratio {
+            font-size: 0.7rem;
+            font-weight: 500;
+            opacity: 0.9;
+            margin-left: 0.2rem;
+        }
+        
+        @keyframes ss-glow {
+            0%, 100% { box-shadow: 0 0 12px rgba(234,179,8,0.2); }
+            50% { box-shadow: 0 0 20px rgba(234,179,8,0.35); }
+        }
+        
+        /* 概念标签行 */
+        .concept-strip {
+            margin-top: 0.75rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.4rem;
+        }
+        
+        /* ─── 二栏布局 ─── */
+        .two-col {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+        
+        /* ─── 信息卡片 ─── */
+        .info-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            padding: 1.25rem 1.4rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.85rem;
+        }
+        
+        .section-title {
+            font-size: 0.7rem;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .section-title::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: var(--border);
+        }
+        
+        /* 列表条目 */
+        .info-list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 0.45rem;
+        }
+        
+        .info-list li {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.5rem;
+            font-size: 0.82rem;
+            color: var(--text-secondary);
+            line-height: 1.5;
+        }
+        
+        .info-list li::before {
+            content: '▸';
+            color: var(--accent-cyan);
+            font-size: 0.65rem;
+            margin-top: 0.22rem;
+            flex-shrink: 0;
+        }
+        
+        /* 标签组 */
+        .tag-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.4rem;
+        }
+        
+        .pill {
+            font-size: 0.72rem;
+            padding: 0.2rem 0.65rem;
+            border-radius: 20px;
+            background: rgba(255,255,255,0.05);
+            border: 1px solid var(--border);
+            color: var(--text-secondary);
+        }
+        
+        /* 产业链 */
+        .chain-flow {
+            display: flex;
+            align-items: stretch;
+            gap: 0;
+            border-radius: var(--radius-md);
+            overflow: hidden;
+            border: 1px solid var(--border);
+        }
+        
+        .chain-col {
+            flex: 1;
+            padding: 0.85rem 0.75rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.4rem;
+        }
+        
+        .chain-col:not(:last-child) {
+            border-right: 1px solid var(--border);
+        }
+        
+        .chain-col-upstream { background: rgba(6,182,212,0.04); }
+        .chain-col-self { background: rgba(59,130,246,0.07); }
+        .chain-col-downstream { background: rgba(16,185,129,0.04); }
+        
+        .chain-col-title {
+            font-size: 0.62rem;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            margin-bottom: 0.25rem;
+        }
+        
+        .chain-col-upstream .chain-col-title { color: var(--accent-cyan); }
+        .chain-col-self .chain-col-title { color: var(--accent-blue); }
+        .chain-col-downstream .chain-col-title { color: var(--accent-green); }
+        
+        .chain-item {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            padding: 0.2rem 0;
+        }
+        
+        /* 合作伙伴 */
+        .partners-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.4rem;
+        }
+        
+        .partner-tag {
+            font-size: 0.72rem;
+            padding: 0.25rem 0.75rem;
+            border-radius: var(--radius-sm);
+            background: rgba(139,92,246,0.08);
+            border: 1px solid rgba(139,92,246,0.2);
+            color: #c4b5fd;
+        }
+        
+        /* ─── 时间轴 · 文章列表 ─── */
+        .articles-section {
+            margin-top: 1rem;
+        }
+        
+        .articles-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 1rem;
+        }
+        
+        .articles-heading {
+            font-size: 1rem;
+            font-weight: 600;
+        }
+        
+        .articles-count {
+            font-size: 0.72rem;
+            color: var(--accent-cyan);
+            background: rgba(6,182,212,0.1);
+            border: 1px solid rgba(6,182,212,0.2);
+            border-radius: 20px;
+            padding: 0.15rem 0.6rem;
+        }
+        
+        .timeline {
+            position: relative;
+            padding-left: 1.5rem;
+        }
+        
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 0; top: 0; bottom: 0;
+            width: 1px;
+            background: var(--border);
+        }
+        
+        .article-item {
+            position: relative;
+            margin-bottom: 1rem;
+        }
+        
+        .article-item::before {
+            content: '';
+            position: absolute;
+            left: -1.56rem; top: 1.1rem;
+            width: 8px; height: 8px;
+            border-radius: 50%;
+            background: var(--accent-blue);
+            border: 2px solid var(--bg-primary);
+            box-shadow: 0 0 8px rgba(59,130,246,0.5);
+        }
+        
+        .article-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            padding: 1.25rem 1.4rem;
+            transition: all 0.2s;
+        }
+        
+        .article-card:hover {
+            border-color: var(--border-hover);
+            box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+        }
+        
+        .article-card.collapsed .article-body {
+            display: none;
+        }
+        
+        .article-card-header {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 1rem;
+            cursor: pointer;
+            user-select: none;
+        }
+        
+        .article-title {
+            font-size: 0.92rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            line-height: 1.45;
+            transition: all 0.2s;
+        }
+        
+        .article-title-link {
+            transition: all 0.2s;
+        }
+        
+        .article-title-link:hover {
+            opacity: 0.85;
+        }
+        
+        .article-title-link:hover .article-title {
+            text-decoration: underline;
+            text-decoration-color: var(--accent-cyan);
+            text-decoration-thickness: 2px;
+            text-underline-offset: 3px;
+        }
+        
+        .article-meta-row {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            margin-top: 0.4rem;
+            flex-wrap: wrap;
+        }
+        
+        .article-source {
+            font-size: 0.7rem;
+            color: var(--text-muted);
+            background: rgba(255,255,255,0.04);
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            padding: 0.1rem 0.45rem;
+        }
+        
+        .article-date {
+            font-size: 0.7rem;
+            color: var(--text-muted);
+        }
+        
+        .toggle-btn {
+            background: none;
+            border: none;
+            cursor: pointer;
+            color: var(--text-muted);
+            padding: 0.25rem;
+            flex-shrink: 0;
+            transition: transform 0.25s;
+        }
+        
+        .article-card:not(.collapsed) .toggle-btn {
+            transform: rotate(180deg);
+        }
+        
+        /* 文章正文 */
+        .article-body {
+            margin-top: 1rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.85rem;
+        }
+        
+        .article-divider {
+            border: none;
+            border-top: 1px solid var(--border);
+        }
+        
+        /* 四类信息块 */
+        .info-block {
+            border-radius: var(--radius-md);
+            padding: 0.85rem 1rem;
+        }
+        
+        .info-block-title {
+            font-size: 0.65rem;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            margin-bottom: 0.55rem;
+        }
+        
+        .info-block-list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 0.35rem;
+        }
+        
+        .info-block-list li {
+            font-size: 0.8rem;
+            line-height: 1.5;
+            display: flex;
+            gap: 0.5rem;
+        }
+        
+        /* insights */
+        .block-insights {
+            background: rgba(6,182,212,0.06);
+            border: 1px solid rgba(6,182,212,0.2);
+        }
+        
+        .block-insights .info-block-title { color: var(--accent-cyan); }
+        .block-insights li::before { content: '💡'; font-size: 0.72rem; }
+        .block-insights li { color: var(--text-secondary); }
+        
+        /* accidents */
+        .block-accidents {
+            background: rgba(244,63,94,0.06);
+            border: 1px solid rgba(244,63,94,0.2);
+        }
+        
+        .block-accidents .info-block-title { color: var(--accent-rose); }
+        .block-accidents li::before { content: '⚠️'; font-size: 0.72rem; }
+        .block-accidents li { color: #fda4af; }
+        
+        /* key_metrics */
+        .block-metrics {
+            background: rgba(16,185,129,0.06);
+            border: 1px solid rgba(16,185,129,0.2);
+        }
+        
+        .block-metrics .info-block-title { color: var(--accent-green); }
+        .block-metrics .metrics-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+        
+        .metric-chip {
+            font-size: 0.75rem;
+            font-family: 'JetBrains Mono', monospace;
+            background: rgba(16,185,129,0.1);
+            border: 1px solid rgba(16,185,129,0.25);
+            border-radius: var(--radius-sm);
+            padding: 0.25rem 0.65rem;
+            color: #6ee7b7;
+        }
+        
+        /* target_valuation */
+        .block-valuation {
+            background: rgba(245,158,11,0.06);
+            border: 1px solid rgba(245,158,11,0.2);
+        }
+        
+        .block-valuation .info-block-title { color: var(--accent-amber); }
+        .valuation-chips {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+        
+        .valuation-chip {
+            font-size: 0.8rem;
+            font-weight: 600;
+            background: rgba(245,158,11,0.12);
+            border: 1px solid rgba(245,158,11,0.3);
+            border-radius: var(--radius-sm);
+            padding: 0.3rem 0.85rem;
+            color: #fcd34d;
+        }
+        
+        /* ─── 空状态 ─── */
+        .empty-block {
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-muted);
+            font-size: 0.8rem;
+            font-style: italic;
+        }
+        
+        /* ─── 相似股票推荐 ─── */
+        .similar-section {
+            margin-top: 1.5rem;
+        }
+        
+        .similar-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 0.75rem;
+        }
+        
+        .similar-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            padding: 1rem 1.1rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .similar-card:hover {
+            border-color: var(--border-hover);
+            background: var(--bg-card-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+        
+        .similar-card-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 0.6rem;
+        }
+        
+        .similar-name {
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+        
+        .similar-code {
+            font-size: 0.7rem;
+            font-family: var(--mono);
+            color: var(--accent-cyan);
+        }
+        
+        .similar-similarity {
+            font-size: 0.7rem;
+            font-weight: 700;
+            color: var(--accent-amber);
+            background: rgba(245,158,11,0.1);
+            border: 1px solid rgba(245,158,11,0.25);
+            border-radius: 20px;
+            padding: 0.15rem 0.5rem;
+        }
+        
+        .similar-common {
+            font-size: 0.68rem;
+            color: var(--text-secondary);
+            margin-bottom: 0.5rem;
+        }
+        
+        .similar-common-label {
+            color: var(--text-muted);
+            margin-right: 0.3rem;
+        }
+        
+        .similar-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.3rem;
+        }
+        
+        .similar-tag {
+            font-size: 0.62rem;
+            padding: 0.15rem 0.5rem;
+            border-radius: 20px;
+            background: rgba(59,130,246,0.1);
+            border: 1px solid rgba(59,130,246,0.25);
+            color: #93c5fd;
+        }
+        
+        /* ─── 页脚 ─── */
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            font-size: 0.72rem;
+            color: var(--text-muted);
+            border-top: 1px solid var(--border);
+            position: relative;
+            z-index: 1;
+        }
+        
+        /* ─── 响应式 ─── */
+        @media (max-width: 768px) {
+            .navbar { padding: 0 1rem; }
+            .container { padding: 1.25rem 1rem 3rem; }
+            .two-col { grid-template-columns: 1fr; }
+            .stock-name-hero { font-size: 1.4rem; }
+            .price-big { font-size: 1.5rem; }
+            .chain-flow { flex-direction: column; }
+            .chain-col:not(:last-child) {
+                border-right: none;
+                border-bottom: 1px solid var(--border);
+            }
+            .breadcrumb { display: none; }
+        }
+        
+        /* ─── 内联编辑表单 ─── */
+        .inline-edit-form {
+            background: var(--bg-card);
+            border: 2px solid var(--accent-purple);
+            border-radius: var(--radius-lg);
+            margin-bottom: 1.5rem;
+            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(139,92,246,0.15);
+        }
+        
+        .inline-edit-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1rem 1.5rem;
+            background: linear-gradient(135deg, rgba(139,92,246,0.15), rgba(124,58,237,0.1));
+            border-bottom: 1px solid rgba(139,92,246,0.3);
+        }
+        
+        .inline-edit-header h3 {
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--accent-purple);
+            margin: 0;
+        }
+        
+        .close-edit-btn {
+            background: transparent;
+            border: none;
+            color: var(--text-secondary);
+            font-size: 1.5rem;
+            cursor: pointer;
+            padding: 0 0.5rem;
+            line-height: 1;
+            transition: all 0.2s;
+        }
+        
+        .close-edit-btn:hover {
+            color: var(--accent-rose);
+            transform: scale(1.1);
+        }
+        
+        .inline-edit-hint {
+            padding: 0.75rem 1.5rem;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            background: rgba(245,158,11,0.05);
+            border-bottom: 1px solid var(--border);
+        }
+        
+        .inline-edit-body {
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1.25rem;
+        }
+        
+        .inline-edit-row {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+        
+        .inline-edit-row label {
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+        }
+        
+        .inline-edit-row textarea {
+            width: 100%;
+            min-height: 70px;
+            background: rgba(255,255,255,0.03);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            padding: 0.75rem;
+            color: var(--text-primary);
+            font-size: 0.85rem;
+            font-family: inherit;
+            resize: vertical;
+            transition: all 0.2s;
+        }
+        
+        .inline-edit-row textarea:focus {
+            outline: none;
+            border-color: var(--accent-purple);
+            background: rgba(255,255,255,0.05);
+            box-shadow: 0 0 0 3px rgba(139,92,246,0.1);
+        }
+        
+        .inline-edit-footer {
+            padding: 1rem 1.5rem;
+            border-top: 1px solid var(--border);
+            background: rgba(139,92,246,0.05);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1rem;
+        }
+        
+        .inline-edit-footer .edit-actions {
+            display: flex;
+            gap: 0.75rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- ─── 导航 ─── -->
+    <nav class="navbar">
+        <a href="/" class="navbar-brand">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
+            </svg>
+            CYBERRESEARCH
+        </a>
+        <a href="/" class="nav-link">仪表板</a>
+        <a href="/stocks" class="nav-link">股票列表</a>
+        <a href="/social-security-new" class="nav-link">社保新进</a>
+        <a href="/concepts" class="nav-link">概念大全</a>
+        <div class="breadcrumb">
+            <a href="/">首页</a>
+            <span class="breadcrumb-sep">/</span>
+            {% if stock.industry %}
+                <a href="/concept/{{ stock.industry | urlencode }}">{{ stock.industry }}</a>
+                <span class="breadcrumb-sep">/</span>
+            {% endif %}
+            <span style="color:var(--text-primary)">{{ stock.name }}</span>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <!-- ─── 股票主信息卡 ─── -->
+        <div class="stock-hero">
+            <div class="hero-top">
+                <div class="hero-title-group">
+                    <div style="display:flex;align-items:center;gap:0.8rem;">
+                        <div class="stock-name-hero">{{ stock.name }}</div>
+                        <div class="stock-code-hero">{{ stock.code }}</div>
+                    </div>
+                    <button class="edit-btn-hero" onclick="editStock('{{ stock.code }}')" title="编辑股票信息">✏️ 编辑</button>
+                </div>
+                <!-- 实时行情 -->
+                <div class="hero-price-block" id="priceBlock">
+                    <div class="price-big price-flat" id="priceVal">—</div>
+                    <div class="price-change" id="priceChange" style="color:var(--text-muted)">获取行情中…</div>
+                    <div class="hero-meta-row" id="priceExtras"></div>
+                </div>
+            </div>
+            
+            <!-- 板块 · 行业 · 提及次数 · 社保基金 -->
+            <div class="hero-bottom">
+                {% if stock.board %}<span class="board-badge">{{ stock.board }}</span>{% endif %}
+                {% if stock.industry %}<span class="industry-badge">{{ stock.industry }}</span>{% endif %}
+                {% if stock.mention_count and stock.mention_count > 0 %}
+                    <div class="mention-badge-hero">🔥 已提及 {{ stock.mention_count }} 次</div>
+                {% endif %}
+                {% if stock.is_social_security %}
+                    <div class="social-security-badge" title="社保基金 2025Q4 新进持仓">
+                        🏆 社保新进
+                        {% if stock.social_security_holding_ratio %}
+                            <span class="ss-ratio">{{ stock.social_security_holding_ratio }}</span>
+                        {% endif %}
+                    </div>
+                {% endif %}
+            </div>
+            
+            <!-- 概念标签 -->
+            {% if stock.concepts %}
+                <div class="concept-strip">
+                    {% for concept in stock.concepts %}
+                        <a href="/concept/{{ concept | urlencode }}" class="concept-tag concept-tag-{{ loop.index0 % 6 }}">{{ concept }}</a>
+                    {% endfor %}
+                </div>
+            {% endif %}
+        </div>
+        
+        <!-- ─── 公司画像 · 产业链 ─── -->
+        <div class="two-col">
+            <!-- 左栏：公司画像 -->
+            <div class="info-card">
+                <div class="section-title">公司画像</div>
+                
+                {% if stock.industries and stock.industries[0] %}
+                    <div>
+                        <div style="font-size:0.7rem;color:var(--text-muted);margin-bottom:0.4rem;font-weight:600;">所属行业</div>
+                        <div style="font-size:0.85rem;color:var(--text-primary);">{{ stock.industries[0] }}</div>
+                    </div>
+                {% endif %}
+                
+                {% if stock.core_business and stock.core_business | length > 0 %}
+                    <div>
+                        <div style="font-size:0.7rem;color:var(--text-muted);margin-bottom:0.4rem;font-weight:600;">核心业务</div>
+                        <ul class="info-list">
+                            {% for item in stock.core_business %}
+                                <li>{{ item }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                {% endif %}
+                
+                {% if stock.products and stock.products | length > 0 %}
+                    <div>
+                        <div style="font-size:0.7rem;color:var(--text-muted);margin-bottom:0.4rem;font-weight:600;">主要产品</div>
+                        <div class="tag-group">
+                            {% for product in stock.products %}
+                                <span class="pill">{{ product }}</span>
+                            {% endfor %}
+                        </div>
+                    </div>
+                {% endif %}
+                
+                {% if stock.industry_position and stock.industry_position | length > 0 %}
+                    <div>
+                        <div style="font-size:0.7rem;color:var(--text-muted);margin-bottom:0.4rem;font-weight:600;">行业地位</div>
+                        <ul class="info-list">
+                            {% for item in stock.industry_position %}
+                                <li>{{ item }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                {% endif %}
+                
+                {% if stock.partners and stock.partners | length > 0 %}
+                    <div>
+                        <div style="font-size:0.7rem;color:var(--text-muted);margin-bottom:0.4rem;font-weight:600;">合作伙伴</div>
+                        <div class="partners-grid">
+                            {% for partner in stock.partners %}
+                                <span class="partner-tag">{{ partner }}</span>
+                            {% endfor %}
+                        </div>
+                    </div>
+                {% endif %}
+                
+                {% if not stock.core_business and not stock.products and not stock.industry_position and not stock.partners %}
+                    <div class="empty-block">暂无公司画像数据</div>
+                {% endif %}
+            </div>
+            
+            <!-- 右栏：产业链 -->
+            <div class="info-card">
+                <div class="section-title">产业链</div>
+                
+                {% if stock.chain and stock.chain | length > 0 %}
+                    <div class="chain-flow">
+                        <div class="chain-col chain-col-upstream">
+                            <div class="chain-col-title">上游</div>
+                            {% for item in stock.chain %}
+                                {% if item.role == 'upstream' or item.type == '上游' %}
+                                    <div class="chain-item">{{ item.name | default(item) }}</div>
+                                {% endif %}
+                            {% endfor %}
+                        </div>
+                        <div class="chain-col chain-col-self">
+                            <div class="chain-col-title">本体</div>
+                            <div class="chain-item" style="font-weight:600;color:var(--accent-blue)">{{ stock.name }}</div>
+                        </div>
+                        <div class="chain-col chain-col-downstream">
+                            <div class="chain-col-title">下游</div>
+                            {% for item in stock.chain %}
+                                {% if item.role == 'downstream' or item.type == '下游' %}
+                                    <div class="chain-item">{{ item.name | default(item) }}</div>
+                                {% endif %}
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <!-- 如果 chain 是简单字符串列表 -->
+                    <div class="tag-group" style="margin-top:0.5rem">
+                        {% for item in stock.chain %}
+                            {% if item is string %}
+                                <span class="pill">{{ item }}</span>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                {% else %}
+                    <div class="empty-block">暂无产业链数据</div>
+                {% endif %}
+            </div>
+        </div>
+        
+        <!-- ─── 调研文章时间轴 ─── -->
+        <div class="articles-section">
+            <div class="articles-header">
+                <div class="articles-heading">📰 调研文章</div>
+                {% if stock.articles %}
+                    <span class="articles-count">共 {{ stock.articles | length }} 篇</span>
+                {% endif %}
+            </div>
+            
+            {% if stock.articles and stock.articles | length > 0 %}
+                <div class="timeline">
+                    <!-- 文章循环：{{ stock.articles | length }} 篇 -->
+                    {% for article in stock.articles %}
+                        <div class="article-item">
+                            <div class="article-card {% if loop.index > 1 %}collapsed{% endif %}" id="article-{{ loop.index }}">
+                                <!-- 文章头部（可点击折叠） -->
+                                <div class="article-card-header" onclick="toggleArticle('article-{{ loop.index }}')">
+                                    <div style="flex:1">
+                                        {% if article.url %}
+                                            <a href="{{ article.url }}" target="_blank" rel="noopener" class="article-title-link" style="color:var(--accent-cyan);text-decoration:none;display:flex;align-items:center;gap:0.5rem;margin-bottom:0.25rem" onclick="event.stopPropagation()">
+                                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="flex-shrink:0">
+                                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                                </svg>
+                                                <div class="article-title" style="color:inherit">{{ article.title | default('（无标题）') }}</div>
+                                            </a>
+                                        {% else %}
+                                            <div class="article-title">{{ article.title | default('（无标题）') }}</div>
+                                        {% endif %}
+                                        <div class="article-meta-row">
+                                            {% if article.source %}
+                                                <span class="article-source">📤 {{ article.source | replace('https://mp.weixin.qq.com/s/', '微信 · ') | replace('https://', '') | truncate(40) }}</span>
+                                            {% endif %}
+                                            {% if article.date %}
+                                                <span class="article-date">📅 {{ article.date }}</span>
+                                            {% endif %}
+                                        </div>
+                                    </div>
+                                    <button class="toggle-btn" aria-label="展开/折叠">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                            <polyline points="6 9 12 15 18 9"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                                
+                                <!-- 文章正文 -->
+                                <div class="article-body">
+                                    <hr class="article-divider">
+                                    
+                                    <!-- 核心洞察 -->
+                                    {% if article.insights and article.insights | length > 0 %}
+                                        <div class="info-block block-insights">
+                                            <div class="info-block-title">核心洞察</div>
+                                            <ul class="info-block-list">
+                                                {% for item in article.insights %}
+                                                    <li><span>{{ item }}</span></li>
+                                                {% endfor %}
+                                            </ul>
+                                        </div>
+                                    {% elif article.context %}
+                                        <div class="info-block block-insights">
+                                            <div class="info-block-title">核心洞察</div>
+                                            <div style="color:var(--text-secondary);font-size:0.85rem;line-height:1.6">{{ article.context }}</div>
+                                        </div>
+                                    {% endif %}
+                                    
+                                    <!-- 关键指标 -->
+                                    {% if article.key_metrics and article.key_metrics | length > 0 %}
+                                        <div class="info-block block-metrics">
+                                            <div class="info-block-title">关键指标</div>
+                                            <div class="metrics-grid">
+                                                {% for metric in article.key_metrics %}
+                                                    <span class="metric-chip">{{ metric }}</span>
+                                                {% endfor %}
+                                            </div>
+                                        </div>
+                                    {% endif %}
+                                    
+                                    <!-- 目标估值 -->
+                                    {% if article.target_valuation and article.target_valuation | length > 0 %}
+                                        <div class="info-block block-valuation">
+                                            <div class="info-block-title">目标估值 / 目标价</div>
+                                            <div class="valuation-chips">
+                                                {% for val in article.target_valuation %}
+                                                    <span class="valuation-chip">🎯 {{ val }}</span>
+                                                {% endfor %}
+                                            </div>
+                                        </div>
+                                    {% endif %}
+                                    
+                                    <!-- 风险事件 -->
+                                    {% if article.accidents and article.accidents | length > 0 %}
+                                        <div class="info-block block-accidents">
+                                            <div class="info-block-title">风险 / 催化剂事件</div>
+                                            <ul class="info-block-list">
+                                                {% for item in article.accidents %}
+                                                    <li><span>{{ item }}</span></li>
+                                                {% endfor %}
+                                            </ul>
+                                        </div>
+                                    {% elif article.accident %}
+                                        <div class="info-block block-accidents">
+                                            <div class="info-block-title">风险 / 催化剂事件</div>
+                                            <div style="color:var(--text-secondary);font-size:0.85rem;line-height:1.6">{{ article.accident }}</div>
+                                        </div>
+                                    {% endif %}
+                                    
+                                    {% if not article.insights and not article.key_metrics and not article.target_valuation and not article.accidents %}
+                                        <div class="empty-block">该文章暂无结构化数据</div>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            {% else %}
+                <div class="empty-block" style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-lg);padding:3rem">
+                    📭 暂无调研文章
+                </div>
+            {% endif %}
+        </div>
+        
+        <!-- ─── 相似股票推荐 ─── -->
+        <div class="similar-section">
+            <div class="articles-header">
+                <div class="articles-heading">🎯 相似标的推荐</div>
+                <span class="articles-count" id="similarCount">加载中…</span>
+            </div>
+            <div class="similar-grid" id="similarGrid">
+                <div style="grid-column:1/-1;text-align:center;padding:2rem;color:var(--text-muted)">
+                    正在计算相似度…
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="footer">
+        CYBERRESEARCH © 2026 &nbsp;·&nbsp; AI-Powered Investment Research Platform
+    </footer>
+    
+    <script>
+        // ─── 折叠/展开 文章 ───
+        function toggleArticle(id) {
+            const card = document.getElementById(id);
+            if (card) card.classList.toggle('collapsed');
+        }
+        
+        // ─── 实时行情 ───
+        (async function() {
+            const code = '{{ stock.code }}';
+            try {
+                const res = await fetch(`/api/market-data?codes=${code}`);
+                const data = await res.json();
+                const d = data[code];
+                if (!d) return;
+                
+                const priceEl = document.getElementById('priceVal');
+                const changeEl = document.getElementById('priceChange');
+                const extrasEl = document.getElementById('priceExtras');
+                
+                const isUp = d.change >= 0;
+                const cls = isUp ? 'price-up' : 'price-down';
+                
+                priceEl.textContent = d.price.toFixed(2);
+                priceEl.className = `price-big ${cls}`;
+                
+                changeEl.textContent = `${isUp ? '▲' : '▼'} ${isUp ? '+' : ''}${d.change.toFixed(2)}%`;
+                changeEl.style.color = isUp ? 'var(--accent-rose)' : 'var(--accent-green)';
+                
+                if (d.marketCap || d.peRatio) {
+                    extrasEl.innerHTML = `
+                        ${d.marketCap ? `<div>总市值 <span>${d.marketCap.toFixed(0)}亿</span></div>` : ''}
+                        ${d.peRatio ? `<div>市盈率 <span>${d.peRatio.toFixed(1)}x</span></div>` : ''}
+                    `;
+                }
+            } catch(e) {
+                document.getElementById('priceChange').textContent = '行情暂不可用';
+            }
+        })();
+        
+        // ─── 加载相似股票 ───
+        (async function() {
+            const code = '{{ stock.code }}';
+            try {
+                const res = await fetch(`/api/stock/${code}/similar?top=8&min_sim=0.15`);
+                const data = await res.json();
+                
+                const grid = document.getElementById('similarGrid');
+                const countEl = document.getElementById('similarCount');
+                
+                if (!data.similar || data.similar.length === 0) {
+                    grid.innerHTML = '<div style="grid-column:1/-1;text-align:center;padding:2rem;color:var(--text-muted)">暂无相似标的</div>';
+                    countEl.textContent = '0 个';
+                    return;
+                }
+                
+                countEl.textContent = `${data.similar.length} 个`;
+                
+                grid.innerHTML = data.similar.map((s, i) => `
+                    <div class="similar-card" onclick="window.location='/stock/${s.code}'">
+                        <div class="similar-card-header">
+                            <div>
+                                <div class="similar-name">${s.name}</div>
+                                <div class="similar-code">${s.code}</div>
+                            </div>
+                            <div class="similar-similarity">${(s.similarity * 100).toFixed(0)}%</div>
+                        </div>
+                        <div class="similar-common">
+                            <span class="similar-common-label">共同概念:</span>
+                            <span style="color:var(--accent-cyan)">${s.common_count} 个</span>
+                        </div>
+                        <div class="similar-tags">
+                            ${s.common_concepts.slice(0, 5).map(c => `<span class="similar-tag">${c}</span>`).join('')}
+                            ${s.common_concepts.length > 5 ? `<span class="similar-tag">+${s.common_concepts.length - 5}</span>` : ''}
+                        </div>
+                    </div>
+                `).join('');
+            } catch(e) {
+                console.log('相似股票加载失败', e);
+                document.getElementById('similarGrid').innerHTML = '<div style="grid-column:1/-1;text-align:center;padding:2rem;color:var(--text-muted)">加载失败</div>';
+                document.getElementById('similarCount').textContent = '—';
+            }
+        })();
+    
+        function editStock(code) {
+            // 检查是否已存在编辑表单
+            const existingForm = document.getElementById('inline-edit-form');
+            if (existingForm) {
+                existingForm.remove();
+                return;
+            }
+            
+            // 获取当前数据
+            fetch(`/api/stock/${code}`)
+                .then(r => r.json())
+                .then(data => {
+                    const form = document.createElement('div');
+                    form.id = 'inline-edit-form';
+                    form.className = 'inline-edit-form';
+                    form.innerHTML = `
+                        <div class="inline-edit-header">
+                            <h3>✏️ 编辑股票信息 - ${data.name} (${code})</h3>
+                            <button class="close-edit-btn" onclick="document.getElementById('inline-edit-form').remove()">✖</button>
+                        </div>
+                        
+                        <div class="inline-edit-hint">
+                            💡 提示：概念标签和行业由系统自动生成，以下字段支持手动编辑。逗号分隔多个值。
+                        </div>
+                        
+                        <div class="inline-edit-body">
+                            <div class="inline-edit-row">
+                                <label>
+                                    📊 核心业务
+                                    <span class="field-hint">公司主营业务描述</span>
+                                </label>
+                                <textarea id="edit-core" placeholder="例如：覆铜板研发、生产和销售">${(data.core_business || []).join(', ')}</textarea>
+                            </div>
+                            
+                            <div class="inline-edit-row">
+                                <label>
+                                    📦 主要产品
+                                    <span class="field-hint">逗号分隔多个产品</span>
+                                </label>
+                                <textarea id="edit-products" placeholder="例如：覆铜板，粘结片，半固化片">${(data.products || []).join(', ')}</textarea>
+                            </div>
+                            
+                            <div class="inline-edit-row">
+                                <label>
+                                    🏆 行业地位
+                                    <span class="field-hint">市场地位、市场份额等</span>
+                                </label>
+                                <textarea id="edit-pos" placeholder="例如：国内覆铜板行业龙头，全球市场份额领先">${(data.industry_position || []).join(', ')}</textarea>
+                            </div>
+                            
+                            <div class="inline-edit-row">
+                                <label>
+                                    🔗 产业链
+                                    <span class="field-hint">上中下游位置描述</span>
+                                </label>
+                                <textarea id="edit-chain" placeholder="例如：上游 - 铜箔，中游 - 覆铜板制造，下游 - 消费电子">${(data.chain || []).join(', ')}</textarea>
+                            </div>
+                            
+                            <div class="inline-edit-row">
+                                <label>
+                                    🤝 合作伙伴
+                                    <span class="field-hint">主要客户、供应商</span>
+                                </label>
+                                <textarea id="edit-partners" placeholder="例如：华为，小米，OPPO，VIVO">${(data.partners || []).join(', ')}</textarea>
+                            </div>
+                            
+                            <div class="inline-edit-row">
+                                <label>
+                                    ⚡ 催化剂/风险事件
+                                    <span class="field-hint">影响股价的事件</span>
+                                </label>
+                                <textarea id="edit-accidents" placeholder="例如：产品涨价，政策利好">${(data.articles?.[0]?.accidents || []).join(', ')}</textarea>
+                                <div class="field-note">⚠️ 此字段将应用到最新一篇文章</div>
+                            </div>
+                            
+                            <div class="inline-edit-row">
+                                <label>
+                                    💡 核心洞察
+                                    <span class="field-hint">投资亮点</span>
+                                </label>
+                                <textarea id="edit-insights" placeholder="例如：预计未来 3 倍增长空间">${(data.articles?.[0]?.insights || []).join(', ')}</textarea>
+                                <div class="field-note">⚠️ 此字段将应用到最新一篇文章</div>
+                            </div>
+                            
+                            <div class="inline-edit-row">
+                                <label>
+                                    🎯 目标估值
+                                    <span class="field-hint">目标市值或目标价</span>
+                                </label>
+                                <textarea id="edit-valuation" placeholder="例如：3 倍空间，300 亿市值">${(data.articles?.[0]?.target_valuation || []).join(', ')}</textarea>
+                                <div class="field-note">⚠️ 此字段将应用到最新一篇文章</div>
+                            </div>
+                        </div>
+                        
+                        <div class="inline-edit-footer">
+                            <div class="edit-status" id="edit-status"></div>
+                            <div class="edit-actions">
+                                <button class="edit-btn edit-cancel" onclick="document.getElementById('inline-edit-form').remove()">✖ 取消</button>
+                                <button class="edit-btn edit-save" onclick="saveEdit('${code}')">💾 保存并更新</button>
+                            </div>
+                        </div>
+                    `;
+                    
+                    // 插入到股票信息卡片下方
+                    const stockHero = document.querySelector('.stock-hero');
+                    stockHero.parentNode.insertBefore(form, stockHero.nextSibling);
+                    
+                    // 滚动到编辑表单
+                    form.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                });
+        }
+        
+        function saveEdit(code) {
+            const statusEl = document.getElementById('edit-status');
+            statusEl.textContent = '⏳ 保存中...';
+            statusEl.className = 'edit-status saving';
+            
+            const data = {
+                // 股票基本信息
+                core_business: document.getElementById('edit-core').value.split(',').map(s => s.trim()).filter(s => s),
+                products: document.getElementById('edit-products').value.split(',').map(s => s.trim()).filter(s => s),
+                industry_position: document.getElementById('edit-pos').value.split(',').map(s => s.trim()).filter(s => s),
+                chain: document.getElementById('edit-chain').value.split(',').map(s => s.trim()).filter(s => s),
+                partners: document.getElementById('edit-partners').value.split(',').map(s => s.trim()).filter(s => s),
+                // 文章数据
+                accidents: document.getElementById('edit-accidents').value.split(',').map(s => s.trim()).filter(s => s),
+                insights: document.getElementById('edit-insights').value.split(',').map(s => s.trim()).filter(s => s),
+                target_valuation: document.getElementById('edit-valuation').value.split(',').map(s => s.trim()).filter(s => s)
+            };
+            
+            fetch(`/api/stock/${code}/edit`, {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify(data)
+            })
+            .then(r => r.json())
+            .then(res => {
+                if(res.success) {
+                    statusEl.textContent = '✅ 保存成功！3 秒后刷新...';
+                    statusEl.className = 'edit-status success';
+                    setTimeout(() => {
+                        location.reload();
+                    }, 3000);
+                } else {
+                    statusEl.textContent = '❌ 保存失败：' + res.error;
+                    statusEl.className = 'edit-status error';
+                }
+            })
+            .catch(e => {
+                statusEl.textContent = '❌ 请求失败：' + e.message;
+                statusEl.className = 'edit-status error';
+            });
+        }
+        
+        function previewEdit() {
+            const core = document.getElementById('edit-core').value;
+            const products = document.getElementById('edit-products').value;
+            const pos = document.getElementById('edit-pos').value;
+            const chain = document.getElementById('edit-chain').value;
+            const partners = document.getElementById('edit-partners').value;
+            
+            const preview = document.createElement('div');
+            preview.className = 'edit-preview-modal';
+            preview.innerHTML = `
+                <div class="edit-content">
+                    <h3>👁️ 编辑预览</h3>
+                    <div class="preview-grid">
+                        <div class="preview-item">
+                            <div class="preview-label">核心业务</div>
+                            <div class="preview-value">${core || '（空）'}</div>
+                        </div>
+                        <div class="preview-item">
+                            <div class="preview-label">主要产品</div>
+                            <div class="preview-value">${products || '（空）'}</div>
+                        </div>
+                        <div class="preview-item">
+                            <div class="preview-label">行业地位</div>
+                            <div class="preview-value">${pos || '（空）'}</div>
+                        </div>
+                        <div class="preview-item">
+                            <div class="preview-label">产业链</div>
+                            <div class="preview-value">${chain || '（空）'}</div>
+                        </div>
+                        <div class="preview-item">
+                            <div class="preview-label">合作伙伴</div>
+                            <div class="preview-value">${partners || '（空）'}</div>
+                        </div>
+                    </div>
+                    <div class="edit-actions" style="margin-top:1.5rem">
+                        <button class="edit-btn edit-cancel" onclick="this.closest('.edit-preview-modal').remove()">关闭</button>
+                    </div>
+                </div>
+            `;
+            document.body.appendChild(preview);
+        }
+        
+        const editStyle = document.createElement('style');
+        editStyle.textContent = `
+            .edit-modal{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.7);display:flex;align-items:center;justify-content:center;z-index:10000}
+            .edit-content{background:var(--card-bg);padding:0;border-radius:12px;max-width:700px;width:90%;max-height:85vh;overflow:hidden;display:flex;flex-direction:column}
+            .edit-header{padding:1.25rem 1.5rem;border-bottom:1px solid var(--border);background:rgba(139,92,246,0.08)}
+            .edit-header h3{margin:0 0 0.5rem 0;color:var(--text-primary);font-size:1.1rem}
+            .edit-stock-info{display:flex;gap:0.75rem;align-items:center}
+            .stock-name{font-size:0.95rem;font-weight:600;color:var(--text-primary)}
+            .stock-code{font-size:0.75rem;font-family:var(--mono);color:var(--accent-cyan);background:rgba(6,182,212,0.1);padding:0.2rem 0.5rem;border-radius:4px}
+            .edit-hint{padding:0.75rem 1.5rem;font-size:0.75rem;color:var(--text-muted);background:rgba(245,158,11,0.05);border-bottom:1px solid var(--border)}
+            .edit-tabs{display:flex;gap:0.5rem;padding:0 1.5rem;margin-top:1rem;border-bottom:2px solid var(--border);background:transparent}
+            .edit-tab{padding:0.75rem 1.25rem;background:transparent;border:none;border-bottom:2px solid transparent;color:var(--text-secondary);font-size:0.9rem;font-weight:500;cursor:pointer;transition:all 0.2s;margin-bottom:-2px;position:relative}
+            .edit-tab:hover{color:var(--text-primary);background:rgba(139,92,246,0.05)}
+            .edit-tab.active{color:var(--accent-purple);border-bottom-color:var(--accent-purple);background:rgba(139,92,246,0.08)}
+            .edit-tab .tab-icon{margin-right:0.4rem;font-size:1rem}
+            .edit-body{flex:1;overflow-y:auto;padding:1.25rem 1.5rem}
+            .edit-tab-panel{display:none}
+            .edit-tab-panel.active{display:block}
+            .edit-section{margin-bottom:1.25rem}
+            .edit-section label{display:block;font-size:0.8rem;color:var(--text-muted);margin-bottom:0.5rem;font-weight:500}
+            .field-hint{display:block;font-size:0.7rem;color:var(--text-muted);font-weight:400;margin-top:0.15rem}
+            .field-note{display:block;font-size:0.7rem;color:var(--accent-amber);margin-top:0.35rem}
+            .edit-section textarea{width:100%;min-height:70px;background:rgba(255,255,255,0.03);border:1px solid var(--border);border-radius:6px;padding:0.7rem;color:var(--text-primary);font-size:0.85rem;resize:vertical;transition:border-color 0.18s}
+            .edit-section textarea:focus{outline:none;border-color:var(--accent-cyan);background:rgba(255,255,255,0.05)}
+            .edit-footer{padding:1rem 1.5rem;border-top:1px solid var(--border);background:var(--bg-card);display:flex;align-items:center;justify-content:space-between}
+            .edit-status{font-size:0.8rem;font-weight:500}
+            .edit-status.saving{color:var(--accent-amber)}
+            .edit-status.success{color:var(--accent-green)}
+            .edit-status.error{color:var(--accent-rose)}
+            .edit-actions{display:flex;gap:0.75rem}
+            .edit-btn{padding:0.6rem 1.1rem;border-radius:6px;border:none;cursor:pointer;font-size:0.85rem;font-weight:500;transition:all 0.18s}
+            .edit-preview{background:rgba(255,255,255,0.05);color:var(--text-muted)}
+            .edit-preview:hover{background:rgba(255,255,255,0.08);color:var(--text-primary)}
+            .edit-cancel{background:var(--card-bg);color:var(--text-muted);border:1px solid var(--border)}
+            .edit-cancel:hover{border-color:var(--accent-rose);color:var(--accent-rose)}
+            .edit-save{background:linear-gradient(135deg,#8b5cf6,#7c3aed);color:#fff;box-shadow:0 2px 8px rgba(139,92,246,0.3)}
+            .edit-save:hover{transform:translateY(-1px);box-shadow:0 4px 12px rgba(139,92,246,0.4)}
+            .edit-preview-modal{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.7);display:flex;align-items:center;justify-content:center;z-index:10001}
+            .preview-grid{display:grid;gap:0.75rem;margin-top:1rem}
+            .preview-item{background:rgba(255,255,255,0.03);border:1px solid var(--border);border-radius:6px;padding:0.75rem}
+            .preview-label{font-size:0.7rem;color:var(--text-muted);margin-bottom:0.35rem;text-transform:uppercase;letter-spacing:0.05em}
+            .preview-value{font-size:0.85rem;color:var(--text-primary);line-height:1.5}
+        `;
+        document.head.appendChild(editStyle);
+    </script>
+</body>
+</html>
