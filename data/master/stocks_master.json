@@ -9546,7 +9546,7 @@
       "industry_position": [],
       "chain": [],
       "partners": null,
-      "mention_count": 4,
+      "mention_count": 5,
       "articles": [
         {
           "title": "01月15日___公告精选",
@@ -9582,6 +9582,21 @@
           "accidents": [],
           "insights": [],
           "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "【诗思浮沉樯影里，梦魂摇曳橹声中】-20260409",
+          "date": "2026-04-09",
+          "source": "https://mp.weixin.qq.com/s/aTxp_KtKx0p1VOq86rriQA",
+          "accidents": [],
+          "insights": [
+            "浙江省建筑施工类龙头民企之一",
+            "参股中经云布局IDC业务，客户包括腾讯、阿里、百度",
+            "与国盾量子共同成立中经量通科技主营量子通信"
+          ],
+          "key_metrics": [
+            "持有中经云32.37%股权"
+          ],
           "target_valuation": []
         }
       ],
@@ -61282,7 +61297,7 @@
         "深股通",
         "融资融券"
       ],
-      "mention_count": 1,
+      "mention_count": 2,
       "products": [
         "锂电池"
       ],
@@ -61302,6 +61317,26 @@
             "同比 +75%、环比 +30%）",
             "同比 +60%） 蔚蓝锂芯（.SZ）：宇树机器人锂电池核心供应商",
             "增长 20%）"
+          ],
+          "target_valuation": []
+        },
+        {
+          "title": "【诗思浮沉樯影里，梦魂摇曳橹声中】-20260409",
+          "date": "2026-04-09",
+          "source": "https://mp.weixin.qq.com/s/aTxp_KtKx0p1VOq86rriQA",
+          "accidents": [
+            "拓展英伟达等头部客户供应链",
+            "与中科海钠合作推动钠电池量产",
+            "拓展eVTOL电池业务"
+          ],
+          "insights": [
+            "子公司天鹏电源在圆柱动力电池领域技术领先，是全球电动工具电池市场的重要供应商",
+            "是国内少数能供应AI服务器备用电源（BBU）的企业",
+            "是宇树科技等机器人头部企业的电池供应商"
+          ],
+          "key_metrics": [
+            "拥有18年圆柱动力电池研发制造经验",
+            "全球电动工具电池市场市占率位居全球前列"
           ],
           "target_valuation": []
         }
@@ -105058,7 +105093,7 @@
       "name": "鑫科材料",
       "market": "SH",
       "industry": "沪市主板",
-      "mention_count": 1,
+      "mention_count": 2,
       "sample_articles": [
         "A股AI_硬件赛道彻底燃爆_97只AI硬件股集体暴涨21__外资爆买_散户躺赢机会来了_错过等1年_.txt"
       ],
@@ -105066,7 +105101,8 @@
         "market_data": false,
         "financials": false,
         "sentiment": true
-      }
+      },
+      "board": "SH"
     },
     {
       "code": "605258",
@@ -110259,7 +110295,7 @@
       "name": "君逸数码",
       "market": "SZ",
       "industry": "创业板",
-      "mention_count": 1,
+      "mention_count": 2,
       "sample_articles": [
         "0205汇总__受美股动量因子极端反转拖累.txt"
       ],
@@ -110267,7 +110303,8 @@
         "market_data": false,
         "financials": false,
         "sentiment": true
-      }
+      },
+      "board": "SZ"
     },
     {
       "code": "688605",
@@ -110968,11 +111005,37 @@
           "target_valuation": []
         }
       ]
+    },
+    {
+      "name": "木林森",
+      "code": "002745",
+      "board": "SZ",
+      "industry": "",
+      "concepts": [],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "【诗思浮沉樯影里，梦魂摇曳橹声中】-20260409",
+          "date": "2026-04-09",
+          "source": "https://mp.weixin.qq.com/s/aTxp_KtKx0p1VOq86rriQA",
+          "accidents": [],
+          "insights": [
+            "全球 LED 封装绝对龙头、中国照明领军企业"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ]
     }
   ],
   "meta": {
-    "total": 3153,
-    "updated_at": "2026-04-08T11:03:55.146492",
+    "total": 3154,
+    "updated_at": "2026-04-09T20:53:52.890803",
     "source": "agent_merge"
   }
 }
