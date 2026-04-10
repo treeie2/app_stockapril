@@ -1,8 +1,25 @@
 {
+  "version": 2,
   "git": {
     "submodules": false
   },
-  "buildCommand": null,
-  "installCommand": "pip install -r requirements.txt",
-  "framework": null
+  "builds": [
+    {
+      "src": "api/index.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/static/(.*)",
+      "dest": "/static/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/api/index.py"
+    }
+  ],
+  "env": {
+    "PYTHONUNBUFFERED": "1"
+  }
 }
