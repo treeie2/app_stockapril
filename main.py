@@ -598,6 +598,103 @@ def api_suggest():
            for c, d in stocks.items() if q.lower() in d.get('name','').lower()]
     return jsonify({'suggestions': sug[:10]})
 
+@app.route('/api/search/fulltext')
+def api_fulltext_search():
+    """全文搜索 API - 搜索文章标题、摘要、分析内容"""
+    q = request.args.get('q', '').lower().strip()
+    limit = request.args.get('limit', 20, type=int)
+    
+    if len(q) < 2:
+        return jsonify({'results': [], 'total': 0})
+    
+    results = []
+    
+    for code, stock_data in stocks.items():
+        name = stock_data.get('name', '')
+        articles = stock_data.get('articles', [])
+        
+        for article in articles:
+            title = article.get('title', '')
+            content = article.get('content', '')
+            analysis = article.get('analysis', '')
+            summary = article.get('summary', '')
+            date = article.get('date', '')
+            source = article.get('source', '')
+            
+            # 构建搜索文本
+            search_text = f"{title} {content} {analysis} {summary}".lower()
+            
+            # 计算匹配度
+            if q in search_text:
+                # 计算匹配分数
+                score = 0
+                if q in title.lower():
+                    score += 0.5  # 标题匹配权重高
+                if q in content.lower():
+                    score += 0.3
+                if q in analysis.lower():
+                    score += 0.2
+                
+                # 计算匹配次数
+                match_count = search_text.count(q)
+                score += min(match_count * 0.05, 0.2)  # 匹配次数加分，最高0.2
+                
+                # 生成摘要片段
+                snippet = generate_snippet(search_text, q, content or summary or title)
+                
+                results.append({
+                    'code': code,
+                    'name': name,
+                    'article_title': title,
+                    'article_date': date,
+                    'article_source': source,
+                    'snippet': snippet,
+                    'score': min(score, 1.0),
+                    'match_count': match_count
+                })
+    
+    # 按匹配分数排序
+    results.sort(key=lambda x: x['score'], reverse=True)
+    
+    # 限制返回数量
+    total = len(results)
+    results = results[:limit]
+    
+    return jsonify({
+        'results': results,
+        'total': total,
+        'query': q,
+        'limit': limit
+    })
+
+def generate_snippet(text, query, original_content, max_length=150):
+    """生成包含关键词的摘要片段"""
+    if not original_content:
+        return ""
+    
+    content_lower = original_content.lower()
+    query_lower = query.lower()
+    
+    # 找到关键词位置
+    pos = content_lower.find(query_lower)
+    if pos == -1:
+        # 如果找不到（可能因为大小写或特殊字符），返回前 max_length 个字符
+        return original_content[:max_length] + "..." if len(original_content) > max_length else original_content
+    
+    # 计算片段起始位置（关键词前后各留一些上下文）
+    start = max(0, pos - 50)
+    end = min(len(original_content), pos + len(query) + 100)
+    
+    snippet = original_content[start:end]
+    
+    # 添加省略号
+    if start > 0:
+        snippet = "..." + snippet
+    if end < len(original_content):
+        snippet = snippet + "..."
+    
+    return snippet
+
 # 数据文件路径
 # 优先使用未压缩的 JSON 文件
 if (Path(__file__).parent / 'data' / 'master' / 'stocks_master.json').exists():

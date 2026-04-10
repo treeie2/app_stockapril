@@ -1,0 +1,564 @@
+{
+  "stocks": [
+    {
+      "name": "腾景科技",
+      "code": "688195",
+      "board": "SH",
+      "industry": "",
+      "concepts": [],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "光学/激光聚焦星间链路，材料聚焦卫星结构件，芯片聚焦卫星通信，设备聚焦卫星批产！商业航天爆发！谁能扛住市场波动，成2季度牛股？",
+          "date": "2026-04-05",
+          "source": "https://mp.weixin.qq.com/s/Vx91s9_FGW1M3e-8hoDqwQ",
+          "accidents": [
+            "光学器件+光通信业务占比超70%",
+            "卫星光通信核心配套",
+            "低轨星座核心受益标的"
+          ],
+          "insights": [
+            "光学元器件龙头，技术壁垒高，业绩弹性足，受益低轨星座建设，业绩弹性充足，戴维斯双击空间大。"
+          ],
+          "key_metrics": [
+            "光学器件+光通信业务占比超70%"
+          ],
+          "target_valuation": []
+        }
+      ]
+    },
+    {
+      "name": "光库科技",
+      "code": "300620",
+      "board": "SZ",
+      "industry": "",
+      "concepts": [],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "光学/激光聚焦星间链路，材料聚焦卫星结构件，芯片聚焦卫星通信，设备聚焦卫星批产！商业航天爆发！谁能扛住市场波动，成2季度牛股？",
+          "date": "2026-04-05",
+          "source": "https://mp.weixin.qq.com/s/Vx91s9_FGW1M3e-8hoDqwQ",
+          "accidents": [
+            "光器件+激光业务占比超75%",
+            "卫星光通信+激光通信核心配套",
+            "星间链路核心标的"
+          ],
+          "insights": [
+            "光器件+激光龙头，国产替代核心，市盈率处于行业低位，技术壁垒高，订单充足，是2季度布局核心压舱石。"
+          ],
+          "key_metrics": [
+            "光器件+激光业务占比超75%"
+          ],
+          "target_valuation": []
+        }
+      ]
+    },
+    {
+      "name": "罗博特科",
+      "code": "300757",
+      "board": "SZ",
+      "industry": "",
+      "concepts": [],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "光学/激光聚焦星间链路，材料聚焦卫星结构件，芯片聚焦卫星通信，设备聚焦卫星批产！商业航天爆发！谁能扛住市场波动，成2季度牛股？",
+          "date": "2026-04-05",
+          "source": "https://mp.weixin.qq.com/s/Vx91s9_FGW1M3e-8hoDqwQ",
+          "accidents": [
+            "自动化设备+卫星制造业务占比超60%",
+            "卫星批产核心配套"
+          ],
+          "insights": [
+            "智能制造+卫星制造龙头，商业航天制造环节核心标的，业绩增长明确，商业航天扩产核心受益，长期成长空间大。"
+          ],
+          "key_metrics": [
+            "自动化设备+卫星制造业务占比超60%"
+          ],
+          "target_valuation": []
+        }
+      ]
+    },
+    {
+      "name": "锐科激光",
+      "code": "300747",
+      "board": "SZ",
+      "industry": "",
+      "concepts": [],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "光学/激光聚焦星间链路，材料聚焦卫星结构件，芯片聚焦卫星通信，设备聚焦卫星批产！商业航天爆发！谁能扛住市场波动，成2季度牛股？",
+          "date": "2026-04-05",
+          "source": "https://mp.weixin.qq.com/s/Vx91s9_FGW1M3e-8hoDqwQ",
+          "accidents": [
+            "激光设备+激光器件业务占比超80%",
+            "卫星制造+火箭加工核心配套"
+          ],
+          "insights": [
+            "激光设备龙头，国产激光龙头，市盈率处于行业低位，技术壁垒高，订单充足，是2季度布局核心压舱石。"
+          ],
+          "key_metrics": [
+            "激光设备+激光器件业务占比超80%"
+          ],
+          "target_valuation": []
+        }
+      ]
+    },
+    {
+      "name": "圣泉集团",
+      "code": "605589",
+      "board": "SH",
+      "industry": "",
+      "concepts": [],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "光学/激光聚焦星间链路，材料聚焦卫星结构件，芯片聚焦卫星通信，设备聚焦卫星批产！商业航天爆发！谁能扛住市场波动，成2季度牛股？",
+          "date": "2026-04-05",
+          "source": "https://mp.weixin.qq.com/s/Vx91s9_FGW1M3e-8hoDqwQ",
+          "accidents": [
+            "树脂+复合材料业务占比超70%",
+            "卫星结构件+火箭材料核心配套"
+          ],
+          "insights": [
+            "树脂+复合材料龙头，商业航天材料环节核心，低估值高成长，商业航天扩产核心受益，长期成长空间大。"
+          ],
+          "key_metrics": [
+            "树脂+复合材料业务占比超70%"
+          ],
+          "target_valuation": []
+        }
+      ]
+    },
+    {
+      "name": "通宇通讯",
+      "code": "002792",
+      "board": "SZ",
+      "industry": "",
+      "concepts": [],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "光学/激光聚焦星间链路，材料聚焦卫星结构件，芯片聚焦卫星通信，设备聚焦卫星批产！商业航天爆发！谁能扛住市场波动，成2季度牛股？",
+          "date": "2026-04-05",
+          "source": "https://mp.weixin.qq.com/s/Vx91s9_FGW1M3e-8hoDqwQ",
+          "accidents": [
+            "天线+卫星通信业务占比超75%",
+            "地面站+卫星终端核心配套"
+          ],
+          "insights": [
+            "天线+卫星通信龙头，低轨星座地面环节核心，业绩稳健。"
+          ],
+          "key_metrics": [
+            "天线+卫星通信业务占比超75%"
+          ],
+          "target_valuation": []
+        }
+      ]
+    },
+    {
+      "name": "长光华芯",
+      "code": "688048",
+      "board": "SH",
+      "industry": "",
+      "concepts": [],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "光学/激光聚焦星间链路，材料聚焦卫星结构件，芯片聚焦卫星通信，设备聚焦卫星批产！商业航天爆发！谁能扛住市场波动，成2季度牛股？",
+          "date": "2026-04-05",
+          "source": "https://mp.weixin.qq.com/s/Vx91s9_FGW1M3e-8hoDqwQ",
+          "accidents": [
+            "激光芯片+光电器件业务占比超80%",
+            "卫星激光通信+激光雷达核心配套"
+          ],
+          "insights": [
+            "激光芯片龙头，商业航天光电子核心标的，高成长，受益低轨星座建设，业绩弹性充足，戴维斯双击空间大。"
+          ],
+          "key_metrics": [
+            "激光芯片+光电器件业务占比超80%"
+          ],
+          "target_valuation": []
+        }
+      ]
+    },
+    {
+      "name": "云南锗业",
+      "code": "002428",
+      "board": "SZ",
+      "industry": "",
+      "concepts": [],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "光学/激光聚焦星间链路，材料聚焦卫星结构件，芯片聚焦卫星通信，设备聚焦卫星批产！商业航天爆发！谁能扛住市场波动，成2季度牛股？",
+          "date": "2026-04-05",
+          "source": "https://mp.weixin.qq.com/s/Vx91s9_FGW1M3e-8hoDqwQ",
+          "accidents": [
+            "锗材料+红外器件业务占比超70%",
+            "卫星红外遥感+航天材料核心配套"
+          ],
+          "insights": [
+            "锗材料+红外龙头，商业航天材料环节核心，资源稀缺性强，商业航天扩产核心受益，长期成长空间大。"
+          ],
+          "key_metrics": [
+            "锗材料+红外器件业务占比超70%"
+          ],
+          "target_valuation": []
+        }
+      ]
+    },
+    {
+      "name": "德龙激光",
+      "code": "688170",
+      "board": "SH",
+      "industry": "",
+      "concepts": [],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "光学/激光聚焦星间链路，材料聚焦卫星结构件，芯片聚焦卫星通信，设备聚焦卫星批产！商业航天爆发！谁能扛住市场波动，成2季度牛股？",
+          "date": "2026-04-05",
+          "source": "https://mp.weixin.qq.com/s/Vx91s9_FGW1M3e-8hoDqwQ",
+          "accidents": [
+            "激光设备+精密加工业务占比超65%",
+            "卫星零部件+火箭加工核心配套"
+          ],
+          "insights": [
+            "激光设备+精密加工龙头，商业航天制造环节核心，技术领先，商业航天扩产核心受益，长期成长空间大。"
+          ],
+          "key_metrics": [
+            "激光设备+精密加工业务占比超65%"
+          ],
+          "target_valuation": []
+        }
+      ]
+    },
+    {
+      "name": "华丰科技",
+      "code": "688629",
+      "board": "SH",
+      "industry": "",
+      "concepts": [],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "光学/激光聚焦星间链路，材料聚焦卫星结构件，芯片聚焦卫星通信，设备聚焦卫星批产！商业航天爆发！谁能扛住市场波动，成2季度牛股？",
+          "date": "2026-04-05",
+          "source": "https://mp.weixin.qq.com/s/Vx91s9_FGW1M3e-8hoDqwQ",
+          "accidents": [
+            "连接器+光模块业务占比超75%",
+            "卫星通信+航天设备核心配套"
+          ],
+          "insights": [
+            "连接器+光模块龙头，商业航天配套环节核心，订单充足。"
+          ],
+          "key_metrics": [
+            "连接器+光模块业务占比超75%"
+          ],
+          "target_valuation": []
+        }
+      ]
+    },
+    {
+      "name": "福光股份",
+      "code": "688010",
+      "board": "SH",
+      "industry": "",
+      "concepts": [],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "光学/激光聚焦星间链路，材料聚焦卫星结构件，芯片聚焦卫星通信，设备聚焦卫星批产！商业航天爆发！谁能扛住市场波动，成2季度牛股？",
+          "date": "2026-04-05",
+          "source": "https://mp.weixin.qq.com/s/Vx91s9_FGW1M3e-8hoDqwQ",
+          "accidents": [
+            "光学镜头+遥感相机业务占比超80%",
+            "卫星遥感+航天光学核心配套"
+          ],
+          "insights": [
+            "光学镜头+遥感龙头，商业航天遥感环节核心，国产替代核心。"
+          ],
+          "key_metrics": [
+            "光学镜头+遥感相机业务占比超80%"
+          ],
+          "target_valuation": []
+        }
+      ]
+    },
+    {
+      "name": "天通股份",
+      "code": "600330",
+      "board": "SH",
+      "industry": "",
+      "concepts": [],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "光学/激光聚焦星间链路，材料聚焦卫星结构件，芯片聚焦卫星通信，设备聚焦卫星批产！商业航天爆发！谁能扛住市场波动，成2季度牛股？",
+          "date": "2026-04-05",
+          "source": "https://mp.weixin.qq.com/s/Vx91s9_FGW1M3e-8hoDqwQ",
+          "accidents": [
+            "磁性材料+设备业务占比超70%",
+            "卫星电子+航天设备核心配套"
+          ],
+          "insights": [
+            "磁性材料+设备龙头，商业航天配套环节核心，低估值稳健。"
+          ],
+          "key_metrics": [
+            "磁性材料+设备业务占比超70%"
+          ],
+          "target_valuation": []
+        }
+      ]
+    },
+    {
+      "name": "卓胜微",
+      "code": "300782",
+      "board": "SZ",
+      "industry": "",
+      "concepts": [],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "光学/激光聚焦星间链路，材料聚焦卫星结构件，芯片聚焦卫星通信，设备聚焦卫星批产！商业航天爆发！谁能扛住市场波动，成2季度牛股？",
+          "date": "2026-04-05",
+          "source": "https://mp.weixin.qq.com/s/Vx91s9_FGW1M3e-8hoDqwQ",
+          "accidents": [
+            "射频芯片业务占比超85%",
+            "卫星通信+航天终端核心配套"
+          ],
+          "insights": [
+            "射频芯片龙头，商业航天芯片环节核心，国产射频龙头，业绩稳健，市盈率处于行业低位，技术壁垒高，订单充足，是2季度布局核心压舱石。"
+          ],
+          "key_metrics": [
+            "射频芯片业务占比超85%"
+          ],
+          "target_valuation": []
+        }
+      ]
+    },
+    {
+      "name": "芯动联科",
+      "code": "688582",
+      "board": "SH",
+      "industry": "",
+      "concepts": [],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "光学/激光聚焦星间链路，材料聚焦卫星结构件，芯片聚焦卫星通信，设备聚焦卫星批产！商业航天爆发！谁能扛住市场波动，成2季度牛股？",
+          "date": "2026-04-05",
+          "source": "https://mp.weixin.qq.com/s/Vx91s9_FGW1M3e-8hoDqwQ",
+          "accidents": [
+            "MEMS+传感器业务占比超70%",
+            "卫星姿态控制+航天传感器核心配套"
+          ],
+          "insights": [
+            "MEMS+传感器龙头，商业航天核心器件标的，高成长，受益低轨星座建设，业绩弹性充足，戴维斯双击空间大。"
+          ],
+          "key_metrics": [
+            "MEMS+传感器业务占比超70%"
+          ],
+          "target_valuation": []
+        }
+      ]
+    },
+    {
+      "name": "大元泵业",
+      "code": "603757",
+      "board": "SH",
+      "industry": "",
+      "concepts": [],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "光学/激光聚焦星间链路，材料聚焦卫星结构件，芯片聚焦卫星通信，设备聚焦卫星批产！商业航天爆发！谁能扛住市场波动，成2季度牛股？",
+          "date": "2026-04-05",
+          "source": "https://mp.weixin.qq.com/s/Vx91s9_FGW1M3e-8hoDqwQ",
+          "accidents": [
+            "泵阀+流体设备业务占比超60%",
+            "火箭推进+卫星流体系统核心配套"
+          ],
+          "insights": [
+            "泵阀+航天配套龙头，商业航天配套环节核心，业绩稳健。"
+          ],
+          "key_metrics": [
+            "泵阀+流体设备业务占比超60%"
+          ],
+          "target_valuation": []
+        }
+      ]
+    },
+    {
+      "name": "瑞华泰",
+      "code": "688323",
+      "board": "SH",
+      "industry": "",
+      "concepts": [],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "光学/激光聚焦星间链路，材料聚焦卫星结构件，芯片聚焦卫星通信，设备聚焦卫星批产！商业航天爆发！谁能扛住市场波动，成2季度牛股？",
+          "date": "2026-04-05",
+          "source": "https://mp.weixin.qq.com/s/Vx91s9_FGW1M3e-8hoDqwQ",
+          "accidents": [
+            "PI薄膜+复合材料业务占比超75%",
+            "卫星结构件+航天材料核心配套"
+          ],
+          "insights": [
+            "PI材料龙头，商业航天材料环节核心，国产替代核心，商业航天扩产核心受益，长期成长空间大。"
+          ],
+          "key_metrics": [
+            "PI薄膜+复合材料业务占比超75%"
+          ],
+          "target_valuation": []
+        }
+      ]
+    },
+    {
+      "name": "理工导航",
+      "code": "688282",
+      "board": "SH",
+      "industry": "",
+      "concepts": [],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "光学/激光聚焦星间链路，材料聚焦卫星结构件，芯片聚焦卫星通信，设备聚焦卫星批产！商业航天爆发！谁能扛住市场波动，成2季度牛股？",
+          "date": "2026-04-05",
+          "source": "https://mp.weixin.qq.com/s/Vx91s9_FGW1M3e-8hoDqwQ",
+          "accidents": [
+            "惯导+导航业务占比超80%",
+            "卫星导航+火箭制导核心配套"
+          ],
+          "insights": [
+            "导航+惯导龙头，商业航天导航环节核心，军工+商业航天双驱动。"
+          ],
+          "key_metrics": [
+            "惯导+导航业务占比超80%"
+          ],
+          "target_valuation": []
+        }
+      ]
+    },
+    {
+      "name": "沃格光电",
+      "code": "603773",
+      "board": "SH",
+      "industry": "",
+      "concepts": [],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "光学/激光聚焦星间链路，材料聚焦卫星结构件，芯片聚焦卫星通信，设备聚焦卫星批产！商业航天爆发！谁能扛住市场波动，成2季度牛股？",
+          "date": "2026-04-05",
+          "source": "https://mp.weixin.qq.com/s/Vx91s9_FGW1M3e-8hoDqwQ",
+          "accidents": [
+            "显示+光电子业务占比超70%",
+            "卫星显示+光通信核心配套"
+          ],
+          "insights": [
+            "显示+光电子龙头，商业航天配套环节核心，技术突破带动业绩弹性。"
+          ],
+          "key_metrics": [
+            "显示+光电子业务占比超70%"
+          ],
+          "target_valuation": []
+        }
+      ]
+    }
+  ]
+}

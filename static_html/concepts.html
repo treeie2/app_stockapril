@@ -1,0 +1,4694 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>概念板块 - 股票研究数据库</title>
+    <style>
+        :root {
+            --bg: #0a0e1a;
+            --bg-card: rgba(20, 25, 40, 0.7);
+            --border: rgba(100, 120, 180, 0.15);
+            --cyan: #00d4ff;
+            --amber: #f59e0b;
+            --t1: #f0f4f8;
+            --t2: #94a3b8;
+            --t3: #64748b;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+            background: var(--bg);
+            color: var(--t1);
+            min-height: 100vh;
+        }
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            background: rgba(8, 12, 20, 0.95);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border);
+            padding: 0 1.5rem;
+            height: 56px;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        .nav-brand {
+            font-weight: 700;
+            font-size: 1.1rem;
+            color: var(--cyan);
+            text-decoration: none;
+        }
+        .nav-link {
+            color: var(--t2);
+            text-decoration: none;
+            font-size: 0.9rem;
+            padding: 0.3rem 0.8rem;
+            border-radius: 6px;
+            transition: all 0.2s;
+        }
+        .nav-link:hover, .nav-link.active {
+            color: var(--t1);
+            background: rgba(255, 255, 255, 0.05);
+        }
+        .nav-link.active { color: var(--cyan); }
+        .main-container {
+            padding-top: 80px;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+            padding-bottom: 2rem;
+        }
+        .page-header {
+            margin-bottom: 1.5rem;
+        }
+        .page-header h1 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--t1);
+        }
+        .concepts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1rem;
+        }
+        .concept-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1rem;
+            transition: all 0.2s;
+        }
+        .concept-card:hover {
+            border-color: rgba(245, 158, 11, 0.3);
+            transform: translateY(-2px);
+        }
+        .concept-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.5rem;
+        }
+        .concept-title {
+            font-weight: 600;
+            color: var(--amber);
+        }
+        .concept-badge {
+            font-size: 0.75rem;
+            padding: 0.2rem 0.5rem;
+            background: rgba(0, 212, 255, 0.1);
+            color: var(--cyan);
+            border-radius: 10px;
+        }
+        .concept-stocks {
+            font-size: 0.8rem;
+            color: var(--t2);
+            line-height: 1.4;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="nav-brand">📊 股票研究数据库</a>
+        <a href="index.html" class="nav-link">仪表板</a>
+        <a href="stocks.html" class="nav-link">股票列表</a>
+        <a href="concepts.html" class="nav-link active">概念板块</a>
+    </nav>
+    
+    <div class="main-container">
+        <div class="page-header">
+            <h1>🏷️ 概念板块</h1>
+            <p style="color: var(--t2); margin-top: 0.5rem;">共 570 个概念</p>
+        </div>
+        
+        <div class="concepts-grid">
+            
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">融资融券</span>
+                    <span class="concept-badge">1165 只股票</span>
+                </div>
+                <div class="concept-stocks">中科曙光, 亚康股份, 海光信息, 中际旭创, 科大讯飞</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">创业板</span>
+                    <span class="concept-badge">850 只股票</span>
+                </div>
+                <div class="concept-stocks">智飞生物, 邵阳液压, 康龙化成, 大族数控, 百邦科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">深股通</span>
+                    <span class="concept-badge">628 只股票</span>
+                </div>
+                <div class="concept-stocks">亚康股份, 中际旭创, 科大讯飞, 新易盛, 赣锋锂业</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">沪股通</span>
+                    <span class="concept-badge">571 只股票</span>
+                </div>
+                <div class="concept-stocks">中科曙光, 海光信息, 寒武纪, 航天电子, 中国卫星</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">上证主板</span>
+                    <span class="concept-badge">487 只股票</span>
+                </div>
+                <div class="concept-stocks">宁波建工, 浙数文化, 润达医疗, 华夏幸福, 今创集团</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">国企改革</span>
+                    <span class="concept-badge">441 只股票</span>
+                </div>
+                <div class="concept-stocks">中科曙光, 航天电子, 中国卫星, 三变科技, 成都华微</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">深证主板</span>
+                    <span class="concept-badge">427 只股票</span>
+                </div>
+                <div class="concept-stocks">美格智能, 圣农发展, 友邦吊顶, 杰瑞股份, 中旗新材</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">科创板</span>
+                    <span class="concept-badge">413 只股票</span>
+                </div>
+                <div class="concept-stocks">容百科技, 国科军工, 秦川物联, 盛科通信, 安必平</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">沪市主板</span>
+                    <span class="concept-badge">381 只股票</span>
+                </div>
+                <div class="concept-stocks">应流股份, 联德股份, 国联民生, 远东股份, 招商南油</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">机器人概念</span>
+                    <span class="concept-badge">379 只股票</span>
+                </div>
+                <div class="concept-stocks">科大讯飞, 成都华微, 道氏技术, 三花智控, 华工科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">华为概念</span>
+                    <span class="concept-badge">365 只股票</span>
+                </div>
+                <div class="concept-stocks">亚康股份, 科大讯飞, 卫宁健康, 金山办公, 伊戈尔</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">芯片概念</span>
+                    <span class="concept-badge">329 只股票</span>
+                </div>
+                <div class="concept-stocks">中科曙光, 海光信息, 中际旭创, 寒武纪, 航天电子</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">人工智能</span>
+                    <span class="concept-badge">328 只股票</span>
+                </div>
+                <div class="concept-stocks">中科曙光, 海光信息, 科大讯飞, 寒武纪, 中国卫星</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">新能源汽车</span>
+                    <span class="concept-badge">311 只股票</span>
+                </div>
+                <div class="concept-stocks">赣锋锂业, 道氏技术, 伊戈尔, 宁德时代, 三花智控</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">深市主板</span>
+                    <span class="concept-badge">311 只股票</span>
+                </div>
+                <div class="concept-stocks">太阳能, 特发信息, 万向钱潮, 科达利, 中恒电气</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">DeepSeek概念</span>
+                    <span class="concept-badge">272 只股票</span>
+                </div>
+                <div class="concept-stocks">中科曙光, 亚康股份, 海光信息, 科大讯飞, 卫宁健康</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">专精特新</span>
+                    <span class="concept-badge">262 只股票</span>
+                </div>
+                <div class="concept-stocks">三变科技, 华工科技, 普利特, 北方稀土, 广钢气体</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">储能</span>
+                    <span class="concept-badge">248 只股票</span>
+                </div>
+                <div class="concept-stocks">赣锋锂业, 三变科技, 伊戈尔, 顺钠股份, 宁德时代</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">数据中心</span>
+                    <span class="concept-badge">244 只股票</span>
+                </div>
+                <div class="concept-stocks">中科曙光, 亚康股份, 中际旭创, 寒武纪, 新易盛</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">一带一路</span>
+                    <span class="concept-badge">235 只股票</span>
+                </div>
+                <div class="concept-stocks">亚康股份, 中国卫星, 伊戈尔, 三花智控, 中国卫通</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">军工</span>
+                    <span class="concept-badge">235 只股票</span>
+                </div>
+                <div class="concept-stocks">航天电子, 中国卫星, 成都华微, 普利特, 北方稀土</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">商业航天</span>
+                    <span class="concept-badge">223 只股票</span>
+                </div>
+                <div class="concept-stocks">航天电子, 中国卫星, 成都华微, 华工科技, 普利特</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">比亚迪概念</span>
+                    <span class="concept-badge">215 只股票</span>
+                </div>
+                <div class="concept-stocks">道氏技术, 顺钠股份, 三花智控, 华工科技, 京泉华</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">光伏概念</span>
+                    <span class="concept-badge">205 只股票</span>
+                </div>
+                <div class="concept-stocks">赣锋锂业, 三变科技, 兆易创新, 伊戈尔, 顺钠股份</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">锂电池概念</span>
+                    <span class="concept-badge">192 只股票</span>
+                </div>
+                <div class="concept-stocks">赣锋锂业, 道氏技术, 兆易创新, 宁德时代, 华工科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">低空经济</span>
+                    <span class="concept-badge">188 只股票</span>
+                </div>
+                <div class="concept-stocks">航天电子, 中国卫星, 赣锋锂业, 普利特, 中国卫通</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">人形机器人</span>
+                    <span class="concept-badge">184 只股票</span>
+                </div>
+                <div class="concept-stocks">科大讯飞, 赣锋锂业, 成都华微, 道氏技术, 兆易创新</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">5G</span>
+                    <span class="concept-badge">182 只股票</span>
+                </div>
+                <div class="concept-stocks">中际旭创, 新易盛, 伊戈尔, 华工科技, 光迅科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">2025年报预增</span>
+                    <span class="concept-badge">173 只股票</span>
+                </div>
+                <div class="concept-stocks">中际旭创, 新易盛, 成都华微, 道氏技术, 越秀资本</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">无人机</span>
+                    <span class="concept-badge">166 只股票</span>
+                </div>
+                <div class="concept-stocks">航天电子, 中国卫星, 赣锋锂业, 光威复材, 海格通信</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">数字经济</span>
+                    <span class="concept-badge">164 只股票</span>
+                </div>
+                <div class="concept-stocks">中科曙光, 亚康股份, 顺钠股份, 三安光电, 九丰能源</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">无人驾驶</span>
+                    <span class="concept-badge">164 只股票</span>
+                </div>
+                <div class="concept-stocks">中际旭创, 成都华微, 浪潮信息, 三安光电, 海格通信</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">消费电子概念</span>
+                    <span class="concept-badge">160 只股票</span>
+                </div>
+                <div class="concept-stocks">科大讯飞, 中芯国际, 赣锋锂业, 道氏技术, 京泉华</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">央企国企改革</span>
+                    <span class="concept-badge">157 只股票</span>
+                </div>
+                <div class="concept-stocks">航天电子, 中国卫星, 成都华微, 光迅科技, 保变电气</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">AI应用</span>
+                    <span class="concept-badge">156 只股票</span>
+                </div>
+                <div class="concept-stocks">科大讯飞, 卫宁健康, 金山办公, 拓维信息, 恒生电子</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">西部大开发</span>
+                    <span class="concept-badge">153 只股票</span>
+                </div>
+                <div class="concept-stocks">新易盛, 成都华微, 北方稀土, 望变电气, 西部证券</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">东数西算(算力)</span>
+                    <span class="concept-badge">148 只股票</span>
+                </div>
+                <div class="concept-stocks">中科曙光, 亚康股份, 海光信息, 科大讯飞, 寒武纪</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">工业互联网</span>
+                    <span class="concept-badge">147 只股票</span>
+                </div>
+                <div class="concept-stocks">中科曙光, 科大讯飞, 华工科技, 拓维信息, 望变电气</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">回购增持再贷款概念</span>
+                    <span class="concept-badge">146 只股票</span>
+                </div>
+                <div class="concept-stocks">兆易创新, 浪潮信息, 三花智控, 华工科技, 北方稀土</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">AI智能体</span>
+                    <span class="concept-badge">144 只股票</span>
+                </div>
+                <div class="concept-stocks">亚康股份, 科大讯飞, 卫宁健康, 金山办公, 华工科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">风电</span>
+                    <span class="concept-badge">142 只股票</span>
+                </div>
+                <div class="concept-stocks">三变科技, 顺钠股份, 越秀资本, 光威复材, 中国中车</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">阿里巴巴概念</span>
+                    <span class="concept-badge">141 只股票</span>
+                </div>
+                <div class="concept-stocks">亚康股份, 海光信息, 科大讯飞, 寒武纪, 卫宁健康</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">人民币贬值受益</span>
+                    <span class="concept-badge">139 只股票</span>
+                </div>
+                <div class="concept-stocks">中际旭创, 新易盛, 道氏技术, 兆易创新, 阿特斯</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">物联网</span>
+                    <span class="concept-badge">137 只股票</span>
+                </div>
+                <div class="concept-stocks">航天电子, 中芯国际, 兆易创新, 华工科技, 拓维信息</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">创投</span>
+                    <span class="concept-badge">136 只股票</span>
+                </div>
+                <div class="concept-stocks">中科曙光, 中际旭创, 越秀资本, 华工科技, 九丰能源</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">汽车电子</span>
+                    <span class="concept-badge">135 只股票</span>
+                </div>
+                <div class="concept-stocks">中际旭创, 中芯国际, 兆易创新, 华工科技, 京泉华</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">粤港澳大湾区</span>
+                    <span class="concept-badge">132 只股票</span>
+                </div>
+                <div class="concept-stocks">道氏技术, 伊戈尔, 顺钠股份, 越秀资本, 京泉华</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">小米概念</span>
+                    <span class="concept-badge">132 只股票</span>
+                </div>
+                <div class="concept-stocks">兆易创新, 金山办公, 三花智控, 京泉华, 胜宏科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">卫星导航</span>
+                    <span class="concept-badge">130 只股票</span>
+                </div>
+                <div class="concept-stocks">航天电子, 中国卫星, 华工科技, 普利特, 光威复材</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">氢能源</span>
+                    <span class="concept-badge">128 只股票</span>
+                </div>
+                <div class="concept-stocks">华工科技, 北方稀土, 广钢气体, 光威复材, 昊志机电</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">高端装备</span>
+                    <span class="concept-badge">120 只股票</span>
+                </div>
+                <div class="concept-stocks">航天电子, 中国卫星, 华工科技, 昊志机电, 中国中车</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">智慧城市</span>
+                    <span class="concept-badge">119 只股票</span>
+                </div>
+                <div class="concept-stocks">中科曙光, 科大讯飞, 卫宁健康, 浪潮信息, 华工科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">核电</span>
+                    <span class="concept-badge">119 只股票</span>
+                </div>
+                <div class="concept-stocks">三变科技, 顺钠股份, 保变电气, 新特电气, 华菱线缆</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">固态电池</span>
+                    <span class="concept-badge">118 只股票</span>
+                </div>
+                <div class="concept-stocks">赣锋锂业, 道氏技术, 宁德时代, 普利特, 先导智能</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">车联网(车路协同)</span>
+                    <span class="concept-badge">117 只股票</span>
+                </div>
+                <div class="concept-stocks">科大讯飞, 浪潮信息, 拓维信息, 海格通信, 比亚迪</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">充电桩</span>
+                    <span class="concept-badge">117 只股票</span>
+                </div>
+                <div class="concept-stocks">赣锋锂业, 伊戈尔, 顺钠股份, 华工科技, 京泉华</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">数据要素</span>
+                    <span class="concept-badge">115 只股票</span>
+                </div>
+                <div class="concept-stocks">科大讯飞, 卫宁健康, 华工科技, 恒生电子, 中国联通</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">证金持股</span>
+                    <span class="concept-badge">113 只股票</span>
+                </div>
+                <div class="concept-stocks">广日股份, 中国中车, 恒生电子, 中兴通讯, 立讯精密</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">信创</span>
+                    <span class="concept-badge">111 只股票</span>
+                </div>
+                <div class="concept-stocks">中科曙光, 海光信息, 卫宁健康, 金山办公, 浪潮信息</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">绿色电力</span>
+                    <span class="concept-badge">109 只股票</span>
+                </div>
+                <div class="concept-stocks">越秀资本, 九丰能源, 拓日新能, 新特电气, 金风科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">宁德时代概念</span>
+                    <span class="concept-badge">106 只股票</span>
+                </div>
+                <div class="concept-stocks">道氏技术, 宁德时代, 三花智控, 华工科技, 湖北宜化</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">智能医疗</span>
+                    <span class="concept-badge">105 只股票</span>
+                </div>
+                <div class="concept-stocks">中科曙光, 科大讯飞, 中国卫星, 卫宁健康, 拓维信息</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">区块链</span>
+                    <span class="concept-badge">104 只股票</span>
+                </div>
+                <div class="concept-stocks">中科曙光, 卫宁健康, 恒生电子, 中兴通讯, 中国联通</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">乡村振兴</span>
+                    <span class="concept-badge">104 只股票</span>
+                </div>
+                <div class="concept-stocks">越秀资本, 华工科技, 保变电气, 湖北宜化, 胜宏科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">腾讯概念</span>
+                    <span class="concept-badge">103 只股票</span>
+                </div>
+                <div class="concept-stocks">中科曙光, 亚康股份, 海光信息, 卫宁健康, 金山办公</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">军民融合</span>
+                    <span class="concept-badge">102 只股票</span>
+                </div>
+                <div class="concept-stocks">航天电子, 中国卫星, 光威复材, 海格通信, 际华集团</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">海工装备</span>
+                    <span class="concept-badge">101 只股票</span>
+                </div>
+                <div class="concept-stocks">顺钠股份, 新特电气, 华菱线缆, 雅克科技, 亨通光电</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">虚拟现实</span>
+                    <span class="concept-badge">101 只股票</span>
+                </div>
+                <div class="concept-stocks">胜宏科技, 海格通信, 中兴通讯, 立讯精密, 昆仑万维</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">医疗器械概念</span>
+                    <span class="concept-badge">96 只股票</span>
+                </div>
+                <div class="concept-stocks">航天电子, 佳禾智能, 迈瑞医疗, 金发科技, 埃斯顿</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">海峡两岸</span>
+                    <span class="concept-badge">95 只股票</span>
+                </div>
+                <div class="concept-stocks">保变电气, 胜宏科技, 三安光电, 昊志机电, 中兴通讯</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">新型工业化</span>
+                    <span class="concept-badge">94 只股票</span>
+                </div>
+                <div class="concept-stocks">中科曙光, 华工科技, 昊志机电, 广日股份, 先导智能</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">AIGC概念</span>
+                    <span class="concept-badge">93 只股票</span>
+                </div>
+                <div class="concept-stocks">科大讯飞, 卫宁健康, 浪潮信息, 恒生电子, 用友网络</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">云计算</span>
+                    <span class="concept-badge">92 只股票</span>
+                </div>
+                <div class="concept-stocks">中科曙光, 科大讯飞, 金山办公, 浪潮信息, 拓维信息</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">京津冀一体化</span>
+                    <span class="concept-badge">92 只股票</span>
+                </div>
+                <div class="concept-stocks">亚康股份, 航天电子, 中国卫星, 保变电气, 探路者</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">特斯拉概念</span>
+                    <span class="concept-badge">91 只股票</span>
+                </div>
+                <div class="concept-stocks">赣锋锂业, 宁德时代, 三花智控, 华工科技, 胜宏科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">鸿蒙概念</span>
+                    <span class="concept-badge">91 只股票</span>
+                </div>
+                <div class="concept-stocks">卫宁健康, 金山办公, 拓维信息, 恒生电子, 龙芯中科</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">股权转让(并购重组)</span>
+                    <span class="concept-badge">90 只股票</span>
+                </div>
+                <div class="concept-stocks">保变电气, 湖北宜化, 江天化学, 光库科技, 海汽集团</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">机器视觉</span>
+                    <span class="concept-badge">87 只股票</span>
+                </div>
+                <div class="concept-stocks">科大讯飞, 先导智能, 立讯精密, 高德红外, 佳禾智能</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">智能穿戴</span>
+                    <span class="concept-badge">87 只股票</span>
+                </div>
+                <div class="concept-stocks">科大讯飞, 探路者, 海格通信, 际华集团, 中兴通讯</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">百度概念</span>
+                    <span class="concept-badge">86 只股票</span>
+                </div>
+                <div class="concept-stocks">中科曙光, 亚康股份, 海光信息, 顺钠股份, 浪潮信息</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">存储芯片</span>
+                    <span class="concept-badge">86 只股票</span>
+                </div>
+                <div class="concept-stocks">中芯国际, 成都华微, 兆易创新, 北方华创, 杭氧股份</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">智能电网</span>
+                    <span class="concept-badge">86 只股票</span>
+                </div>
+                <div class="concept-stocks">三变科技, 顺钠股份, 保变电气, 胜宏科技, 思源电气</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">液冷服务器</span>
+                    <span class="concept-badge">83 只股票</span>
+                </div>
+                <div class="concept-stocks">中科曙光, 中际旭创, 浪潮信息, 三花智控, 光迅科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">跨境电商</span>
+                    <span class="concept-badge">82 只股票</span>
+                </div>
+                <div class="concept-stocks">探路者, 中国中免, 软通动力, 海南机场, 王府井</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">共封装光学(CPO)</span>
+                    <span class="concept-badge">81 只股票</span>
+                </div>
+                <div class="concept-stocks">亚康股份, 中际旭创, 新易盛, 华工科技, 光迅科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">同花顺漂亮100</span>
+                    <span class="concept-badge">80 只股票</span>
+                </div>
+                <div class="concept-stocks">科大讯飞, 中芯国际, 赣锋锂业, 金山办公, 宁德时代</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">传感器</span>
+                    <span class="concept-badge">79 只股票</span>
+                </div>
+                <div class="concept-stocks">航天电子, 兆易创新, 华工科技, 昊志机电, 纳芯微</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">智能物流</span>
+                    <span class="concept-badge">79 只股票</span>
+                </div>
+                <div class="concept-stocks">九丰能源, 先导智能, 超捷股份, 奥比中光, 航天彩虹</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">抖音概念(字节概念)</span>
+                    <span class="concept-badge">78 只股票</span>
+                </div>
+                <div class="concept-stocks">中科曙光, 亚康股份, 海光信息, 浪潮信息, 光迅科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">数据安全</span>
+                    <span class="concept-badge">77 只股票</span>
+                </div>
+                <div class="concept-stocks">中科曙光, 中国联通, 万兴科技, 江波龙, 烽火通信</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">智能座舱</span>
+                    <span class="concept-badge">76 只股票</span>
+                </div>
+                <div class="concept-stocks">科大讯飞, 华工科技, 立讯精密, 鸣志电器, 江波龙</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">中字头股票</span>
+                    <span class="concept-badge">74 只股票</span>
+                </div>
+                <div class="concept-stocks">中科曙光, 中国卫星, 中国卫通, 中国中车, 中远海能</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">互联网金融</span>
+                    <span class="concept-badge">74 只股票</span>
+                </div>
+                <div class="concept-stocks">恒生电子, 用友网络, 汉威科技, 拓尔思, 信雅达</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">智慧政务</span>
+                    <span class="concept-badge">73 只股票</span>
+                </div>
+                <div class="concept-stocks">亚康股份, 科大讯飞, 拓维信息, 恒生电子, 用友网络</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">智能家居</span>
+                    <span class="concept-badge">73 只股票</span>
+                </div>
+                <div class="concept-stocks">科大讯飞, 伊戈尔, 华工科技, 中国联通, 乾照光电</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">小金属概念</span>
+                    <span class="concept-badge">73 只股票</span>
+                </div>
+                <div class="concept-stocks">赣锋锂业, 道氏技术, 北方稀土, 厦门钨业, 洛阳钼业</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">燃料电池</span>
+                    <span class="concept-badge">72 只股票</span>
+                </div>
+                <div class="concept-stocks">赣锋锂业, 道氏技术, 三花智控, 昊志机电, 中国中车</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">网络安全</span>
+                    <span class="concept-badge">71 只股票</span>
+                </div>
+                <div class="concept-stocks">中科曙光, 中兴通讯, 用友网络, 亨通光电, 烽火通信</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">AI眼镜</span>
+                    <span class="concept-badge">71 只股票</span>
+                </div>
+                <div class="concept-stocks">探路者, 三安光电, 中兴通讯, 立讯精密, 江波龙</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">华为鲲鹏</span>
+                    <span class="concept-badge">69 只股票</span>
+                </div>
+                <div class="concept-stocks">亚康股份, 卫宁健康, 拓维信息, 恒生电子, 用友网络</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">养老概念</span>
+                    <span class="concept-badge">69 只股票</span>
+                </div>
+                <div class="concept-stocks">卫宁健康, 汉威科技, 龙佰集团, 软通动力, 埃斯顿</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">华为汽车</span>
+                    <span class="concept-badge">69 只股票</span>
+                </div>
+                <div class="concept-stocks">宁德时代, 三花智控, 华工科技, 京泉华, 三安光电</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">长安汽车概念</span>
+                    <span class="concept-badge">68 只股票</span>
+                </div>
+                <div class="concept-stocks">赣锋锂业, 宁德时代, 三花智控, 华工科技, 软通动力</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">同花顺中特估100</span>
+                    <span class="concept-badge">67 只股票</span>
+                </div>
+                <div class="concept-stocks">中科曙光, 海光信息, 中国卫通, 中国中车, 中远海能</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">第三代半导体</span>
+                    <span class="concept-badge">67 只股票</span>
+                </div>
+                <div class="concept-stocks">华工科技, 京泉华, 北方华创, 三安光电, 乾照光电</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">汽车芯片</span>
+                    <span class="concept-badge">66 只股票</span>
+                </div>
+                <div class="concept-stocks">寒武纪, 成都华微, 兆易创新, 探路者, 三安光电</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">水利</span>
+                    <span class="concept-badge">66 只股票</span>
+                </div>
+                <div class="concept-stocks">中国卫星, 顺钠股份, 中兴通讯, 新特电气, 望变电气</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">其他</span>
+                    <span class="concept-badge">66 只股票</span>
+                </div>
+                <div class="concept-stocks">交量更是达到了惊人的, 交量更是达到了惊人的, 交量更是达到了惊人的, ETF, ETF</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">元宇宙</span>
+                    <span class="concept-badge">65 只股票</span>
+                </div>
+                <div class="concept-stocks">科大讯飞, 浪潮信息, 中兴通讯, 万兴科技, 汉威科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">大飞机</span>
+                    <span class="concept-badge">65 只股票</span>
+                </div>
+                <div class="concept-stocks">中国卫星, 华工科技, 光威复材, 海格通信, 五洲新春</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">PCB概念</span>
+                    <span class="concept-badge">64 只股票</span>
+                </div>
+                <div class="concept-stocks">华工科技, 胜宏科技, 昊志机电, 先导智能, 德福科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">碳中和</span>
+                    <span class="concept-badge">63 只股票</span>
+                </div>
+                <div class="concept-stocks">恒生电子, 金风科技, 汉威科技, 朗新科技, 金发科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">先进封装</span>
+                    <span class="concept-badge">62 只股票</span>
+                </div>
+                <div class="concept-stocks">寒武纪, 华工科技, 纳芯微, 赛伍技术, 天孚通信</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">虚拟数字人</span>
+                    <span class="concept-badge">59 只股票</span>
+                </div>
+                <div class="concept-stocks">科大讯飞, 卫宁健康, 拓维信息, 昆仑万维, 万兴科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">OLED</span>
+                    <span class="concept-badge">58 只股票</span>
+                </div>
+                <div class="concept-stocks">京泉华, 探路者, 北方华创, 赛伍技术, 雅克科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">创新药</span>
+                    <span class="concept-badge">58 只股票</span>
+                </div>
+                <div class="concept-stocks">北陆药业, 恒瑞医药, 药明康德, 百利天恒, 乐普医疗</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">ChatGPT概念</span>
+                    <span class="concept-badge">57 只股票</span>
+                </div>
+                <div class="concept-stocks">科大讯飞, 卫宁健康, 恒生电子, 中兴通讯, 用友网络</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">数字孪生</span>
+                    <span class="concept-badge">56 只股票</span>
+                </div>
+                <div class="concept-stocks">中科曙光, 科大讯飞, 华工科技, 广钢气体, 际华集团</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">多模态AI</span>
+                    <span class="concept-badge">56 只股票</span>
+                </div>
+                <div class="concept-stocks">科大讯飞, 恒生电子, 中兴通讯, 昆仑万维, 万兴科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">可控核聚变</span>
+                    <span class="concept-badge">55 只股票</span>
+                </div>
+                <div class="concept-stocks">顺钠股份, 保变电气, 杭氧股份, 厦门钨业, 华菱线缆</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">算力租赁</span>
+                    <span class="concept-badge">54 只股票</span>
+                </div>
+                <div class="concept-stocks">中科曙光, 亚康股份, 浪潮信息, 拓维信息, 润泽科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">华为昇腾</span>
+                    <span class="concept-badge">52 只股票</span>
+                </div>
+                <div class="concept-stocks">亚康股份, 科大讯飞, 拓维信息, 恒生电子, 烽火通信</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">钠离子电池</span>
+                    <span class="concept-badge">52 只股票</span>
+                </div>
+                <div class="concept-stocks">道氏技术, 宁德时代, 普利特, 先导智能, 比亚迪</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">量子科技</span>
+                    <span class="concept-badge">50 只股票</span>
+                </div>
+                <div class="concept-stocks">中科曙光, 科大讯飞, 航天电子, 成都华微, 华工科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">6G概念</span>
+                    <span class="concept-badge">50 只股票</span>
+                </div>
+                <div class="concept-stocks">中国卫星, 华工科技, 光迅科技, 普利特, 中国卫通</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">苹果概念</span>
+                    <span class="concept-badge">50 只股票</span>
+                </div>
+                <div class="concept-stocks">华工科技, 三安光电, 立讯精密, 佳禾智能, 信维通信</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">毫米波雷达</span>
+                    <span class="concept-badge">50 只股票</span>
+                </div>
+                <div class="concept-stocks">普利特, 立讯精密, 沪电股份, 通富微电, 高德红外</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">天然气</span>
+                    <span class="concept-badge">50 只股票</span>
+                </div>
+                <div class="concept-stocks">九丰能源, 杭氧股份, 中远海能, 招商轮船, 雅克科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">军工信息化</span>
+                    <span class="concept-badge">48 只股票</span>
+                </div>
+                <div class="concept-stocks">航天电子, 海格通信, 航天南湖, 拓尔思, 华力创通</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">飞行汽车(eVTOL)</span>
+                    <span class="concept-badge">48 只股票</span>
+                </div>
+                <div class="concept-stocks">华力创通, 当升科技, 拓斯达, 超捷股份, 嘉元科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">其他-其他-其他</span>
+                    <span class="concept-badge">48 只股票</span>
+                </div>
+                <div class="concept-stocks">年Q1半导体设备ETF, 长江电力, 黄金ETF, 科创50ETF, 银泰黄金</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">安防</span>
+                    <span class="concept-badge">47 只股票</span>
+                </div>
+                <div class="concept-stocks">际华集团, 高德红外, 狄耐克, 北京君正, 三六零</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">数字货币</span>
+                    <span class="concept-badge">46 只股票</span>
+                </div>
+                <div class="concept-stocks">恒生电子, 拓尔思, 软通动力, 紫光国微, 润和软件</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">中芯国际概念</span>
+                    <span class="concept-badge">45 只股票</span>
+                </div>
+                <div class="concept-stocks">中芯国际, 顺钠股份, 北方华创, 雅克科技, 澜起科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">共同富裕示范区</span>
+                    <span class="concept-badge">45 只股票</span>
+                </div>
+                <div class="concept-stocks">三变科技, 中大力德, 信雅达, *ST铖昌, 创新医疗</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">高压快充</span>
+                    <span class="concept-badge">45 只股票</span>
+                </div>
+                <div class="concept-stocks">伊戈尔, 华工科技, 京泉华, 比亚迪, 赛伍技术</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">家用电器</span>
+                    <span class="concept-badge">45 只股票</span>
+                </div>
+                <div class="concept-stocks">三花智控, 华工科技, 乾照光电, 香农芯创, 超捷股份</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">光纤概念</span>
+                    <span class="concept-badge">45 只股票</span>
+                </div>
+                <div class="concept-stocks">光迅科技, 中兴通讯, 天孚通信, 亨通光电, 烽火通信</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">小米汽车</span>
+                    <span class="concept-badge">44 只股票</span>
+                </div>
+                <div class="concept-stocks">宁德时代, 江波龙, 亨通光电, 超捷股份, 拓普集团</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">虚拟电厂</span>
+                    <span class="concept-badge">44 只股票</span>
+                </div>
+                <div class="concept-stocks">保变电气, 天合光能, 特变电工, 朗新科技, 软通动力</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">高铁</span>
+                    <span class="concept-badge">44 只股票</span>
+                </div>
+                <div class="concept-stocks">光威复材, 中国中车, 望变电气, 赛伍技术, 华菱线缆</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">雄安新区</span>
+                    <span class="concept-badge">43 只股票</span>
+                </div>
+                <div class="concept-stocks">中科曙光, 科大讯飞, 保变电气, 中国中车, 国投资本</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">特高压</span>
+                    <span class="concept-badge">43 只股票</span>
+                </div>
+                <div class="concept-stocks">航天电子, 保变电气, 思源电气, 中国中车, 华菱线缆</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">IP经济(谷子经济)</span>
+                    <span class="concept-badge">43 只股票</span>
+                </div>
+                <div class="concept-stocks">珠江钢琴, 王府井, 中国电影, 横店影视, 永辉超市</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">冷链物流</span>
+                    <span class="concept-badge">43 只股票</span>
+                </div>
+                <div class="concept-stocks">英维克, 福田汽车, 永辉超市, 常山北明, 怡亚通</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">独角兽概念</span>
+                    <span class="concept-badge">42 只股票</span>
+                </div>
+                <div class="concept-stocks">科大讯飞, 越秀资本, 华工科技, 北陆药业, 昆仑万维</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">富士康概念</span>
+                    <span class="concept-badge">41 只股票</span>
+                </div>
+                <div class="concept-stocks">亚康股份, 京泉华, 胜宏科技, 昊志机电, 信维通信</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">同花顺新质50</span>
+                    <span class="concept-badge">41 只股票</span>
+                </div>
+                <div class="concept-stocks">中际旭创, 寒武纪, 宁德时代, 三花智控, 中国卫通</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">跨境支付(CIPS)</span>
+                    <span class="concept-badge">41 只股票</span>
+                </div>
+                <div class="concept-stocks">恒生电子, 信雅达, 软通动力, 润和软件, 浔兴股份</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">参股银行</span>
+                    <span class="concept-badge">41 只股票</span>
+                </div>
+                <div class="concept-stocks">用友网络, 永鼎股份, 西藏天路, 三六零, 上汽集团</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">无线耳机</span>
+                    <span class="concept-badge">40 只股票</span>
+                </div>
+                <div class="concept-stocks">科大讯飞, 赣锋锂业, 兆易创新, 立讯精密, 赛伍技术</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">英伟达概念</span>
+                    <span class="concept-badge">40 只股票</span>
+                </div>
+                <div class="concept-stocks">浪潮信息, 胜宏科技, 天孚通信, 紫光股份, 神州数码</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">汽车热管理</span>
+                    <span class="concept-badge">40 只股票</span>
+                </div>
+                <div class="concept-stocks">三花智控, 华工科技, 五洲新春, 超捷股份, 拓普集团</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">长三角一体化</span>
+                    <span class="concept-badge">40 只股票</span>
+                </div>
+                <div class="concept-stocks">普利特, 中大力德, 赛伍技术, 亨通光电, 南大光电</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">煤化工概念</span>
+                    <span class="concept-badge">40 只股票</span>
+                </div>
+                <div class="concept-stocks">湖北宜化, 九丰能源, 杭氧股份, 金风科技, 特变电工</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">福建自贸区</span>
+                    <span class="concept-badge">40 只股票</span>
+                </div>
+                <div class="concept-stocks">三安光电, 厦门钨业, 紫金矿业, 乾照光电, 科华数据</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">金属铜</span>
+                    <span class="concept-badge">39 只股票</span>
+                </div>
+                <div class="concept-stocks">道氏技术, 洛阳钼业, 紫金矿业, 西藏天路, 中金黄金</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">工业母机</span>
+                    <span class="concept-badge">39 只股票</span>
+                </div>
+                <div class="concept-stocks">华工科技, 昊志机电, 拓斯达, 上海电气, 埃斯顿</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">三胎概念</span>
+                    <span class="concept-badge">39 只股票</span>
+                </div>
+                <div class="concept-stocks">拓维信息, 探路者, 珠江钢琴, 三夫户外, 鱼跃医疗</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">旅游概念</span>
+                    <span class="concept-badge">39 只股票</span>
+                </div>
+                <div class="concept-stocks">珠江钢琴, 三夫户外, 中国中免, 海汽集团, 海峡股份</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">中国AI 50</span>
+                    <span class="concept-badge">38 只股票</span>
+                </div>
+                <div class="concept-stocks">中科曙光, 海光信息, 中际旭创, 科大讯飞, 寒武纪</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">脑机接口</span>
+                    <span class="concept-badge">38 只股票</span>
+                </div>
+                <div class="concept-stocks">科大讯飞, 成都华微, 道氏技术, 普利特, 海格通信</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">MCU芯片</span>
+                    <span class="concept-badge">38 只股票</span>
+                </div>
+                <div class="concept-stocks">成都华微, 兆易创新, 探路者, 纳芯微, 龙芯中科</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">MiniLED</span>
+                    <span class="concept-badge">38 只股票</span>
+                </div>
+                <div class="concept-stocks">华工科技, 探路者, 三安光电, 赛伍技术, 乾照光电</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">钙钛矿电池</span>
+                    <span class="concept-badge">38 只股票</span>
+                </div>
+                <div class="concept-stocks">华工科技, 阿特斯, 先导智能, 拓日新能, 赛伍技术</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">移动支付</span>
+                    <span class="concept-badge">38 只股票</span>
+                </div>
+                <div class="concept-stocks">拓维信息, 中国联通, 信雅达, 奥比中光, 紫光国微</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">减速器</span>
+                    <span class="concept-badge">38 只股票</span>
+                </div>
+                <div class="concept-stocks">昊志机电, 中大力德, 鸣志电器, 五洲新春, 绿的谐波</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">文化传媒概念</span>
+                    <span class="concept-badge">38 只股票</span>
+                </div>
+                <div class="concept-stocks">珠江钢琴, 际华集团, 三六零, 蓝色光标, 中国电影</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">统一大市场</span>
+                    <span class="concept-badge">38 只股票</span>
+                </div>
+                <div class="concept-stocks">永辉超市, 厦门国贸, 厦门港务, 怡亚通, 中集集团</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">动力电池回收</span>
+                    <span class="concept-badge">37 只股票</span>
+                </div>
+                <div class="concept-stocks">赣锋锂业, 道氏技术, 宁德时代, 比亚迪, 厦门钨业</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">俄乌冲突概念</span>
+                    <span class="concept-badge">37 只股票</span>
+                </div>
+                <div class="concept-stocks">九丰能源, 中远海能, 招商轮船, 天山铝业, 华特气体</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">新疆振兴</span>
+                    <span class="concept-badge">37 只股票</span>
+                </div>
+                <div class="concept-stocks">九丰能源, 华菱线缆, 金风科技, 特变电工, 如意集团</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">物业管理</span>
+                    <span class="concept-badge">37 只股票</span>
+                </div>
+                <div class="concept-stocks">海南机场, 王府井, 张江高科, 珠免集团, 常山北明</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">流感</span>
+                    <span class="concept-badge">36 只股票</span>
+                </div>
+                <div class="concept-stocks">乐普医疗, 众生药业, 翰宇药业, 康芝药业, 以岭药业</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">蚂蚁集团概念</span>
+                    <span class="concept-badge">35 只股票</span>
+                </div>
+                <div class="concept-stocks">卫宁健康, 拓维信息, 恒生电子, 拓尔思, 朗新科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">人脸识别</span>
+                    <span class="concept-badge">34 只股票</span>
+                </div>
+                <div class="concept-stocks">科大讯飞, 乾照光电, 奥比中光, 狄耐克, 北京君正</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">同花顺出海50</span>
+                    <span class="concept-badge">34 只股票</span>
+                </div>
+                <div class="concept-stocks">宁德时代, 三花智控, 胜宏科技, 中国中车, 比亚迪</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">柔性屏(折叠屏)</span>
+                    <span class="concept-badge">34 只股票</span>
+                </div>
+                <div class="concept-stocks">华工科技, 探路者, 德福科技, 汉威科技, 信维通信</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">航空发动机</span>
+                    <span class="concept-badge">34 只股票</span>
+                </div>
+                <div class="concept-stocks">华工科技, 海格通信, 超捷股份, 上海电气, 西部超导</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">氟化工概念</span>
+                    <span class="concept-badge">34 只股票</span>
+                </div>
+                <div class="concept-stocks">湖北宜化, 雅克科技, 天赐材料, 云南锗业, 南大光电</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">航运概念</span>
+                    <span class="concept-badge">34 只股票</span>
+                </div>
+                <div class="concept-stocks">九丰能源, 中远海能, 招商轮船, 华尔泰, 海峡股份</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">雅下水电概念</span>
+                    <span class="concept-badge">34 只股票</span>
+                </div>
+                <div class="concept-stocks">望变电气, 特变电工, 国电南瑞, 西藏天路, 鱼跃医疗</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">合成生物</span>
+                    <span class="concept-badge">34 只股票</span>
+                </div>
+                <div class="concept-stocks">金发科技, 至纯科技, 雅本化学, 翰宇药业, 平潭发展</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">电池</span>
+                    <span class="concept-badge">33 只股票</span>
+                </div>
+                <div class="concept-stocks">中科曙光, 寒武纪, 先导智能, 天赐材料, 当升科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">国产操作系统</span>
+                    <span class="concept-badge">33 只股票</span>
+                </div>
+                <div class="concept-stocks">中科曙光, 寒武纪, 浪潮信息, 拓维信息, 海格通信</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">2025三季报预增</span>
+                    <span class="concept-badge">33 只股票</span>
+                </div>
+                <div class="concept-stocks">越秀资本, 普利特, 北方稀土, 山东黄金, 长川科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">参股券商</span>
+                    <span class="concept-badge">33 只股票</span>
+                </div>
+                <div class="concept-stocks">越秀资本, 国投资本, 东方电缆, 信雅达, 张江高科</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">污水处理</span>
+                    <span class="concept-badge">33 只股票</span>
+                </div>
+                <div class="concept-stocks">沪电股份, 金风科技, 汉威科技, 中材科技, 中国电建</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">中俄贸易概念</span>
+                    <span class="concept-badge">33 只股票</span>
+                </div>
+                <div class="concept-stocks">南山智尚, 高澜股份, 特锐德, 包钢股份, 厦门国贸</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">换电概念</span>
+                    <span class="concept-badge">32 只股票</span>
+                </div>
+                <div class="concept-stocks">宁德时代, 佳禾智能, 超捷股份, 软通动力, 国电南瑞</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">MicroLED概念</span>
+                    <span class="concept-badge">32 只股票</span>
+                </div>
+                <div class="concept-stocks">华工科技, 探路者, 三安光电, 赛伍技术, 乾照光电</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">职业教育</span>
+                    <span class="concept-badge">32 只股票</span>
+                </div>
+                <div class="concept-stocks">珠江钢琴, 软通动力, 蓝色光标, 中文在线, 纵横股份</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">医药电商</span>
+                    <span class="concept-badge">32 只股票</span>
+                </div>
+                <div class="concept-stocks">北陆药业, 乐普医疗, 众生药业, 雅本化学, 康芝药业</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">智谱AI</span>
+                    <span class="concept-badge">31 只股票</span>
+                </div>
+                <div class="concept-stocks">中科曙光, 金山办公, 神州数码, 拓斯达, 三六零</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">在线教育</span>
+                    <span class="concept-badge">31 只股票</span>
+                </div>
+                <div class="concept-stocks">科大讯飞, 拓维信息, 珠江钢琴, 昆仑万维, 软通动力</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">硅能源</span>
+                    <span class="concept-badge">31 只股票</span>
+                </div>
+                <div class="concept-stocks">道氏技术, 拓日新能, 特变电工, 隆基绿能, 合盛硅业</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">抽水蓄能</span>
+                    <span class="concept-badge">31 只股票</span>
+                </div>
+                <div class="concept-stocks">顺钠股份, 保变电气, 思源电气, 金风科技, 特变电工</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">机器人</span>
+                    <span class="concept-badge">31 只股票</span>
+                </div>
+                <div class="concept-stocks">三花智控, 鸣志电器, 汉威科技, 绿的谐波, 拓普集团</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">3D打印</span>
+                    <span class="concept-badge">31 只股票</span>
+                </div>
+                <div class="concept-stocks">华工科技, 先导智能, 光库科技, 永鼎股份, 奥比中光</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">碳纤维</span>
+                    <span class="concept-badge">31 只股票</span>
+                </div>
+                <div class="concept-stocks">普利特, 光威复材, 特变电工, 金发科技, 航天彩虹</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">体育产业</span>
+                    <span class="concept-badge">31 只股票</span>
+                </div>
+                <div class="concept-stocks">探路者, 光威复材, 三夫户外, 际华集团, 隆华新材</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">MR(混合现实)</span>
+                    <span class="concept-badge">31 只股票</span>
+                </div>
+                <div class="concept-stocks">立讯精密, 歌尔股份, 兆威机电, 联建光电, 长盈精密</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">仿制药一致性评价</span>
+                    <span class="concept-badge">31 只股票</span>
+                </div>
+                <div class="concept-stocks">北陆药业, 恒瑞医药, 乐普医疗, 众生药业, 翰宇药业</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">TOPCON电池</span>
+                    <span class="concept-badge">30 只股票</span>
+                </div>
+                <div class="concept-stocks">阿特斯, 先导智能, 赛伍技术, 天合光能, 隆基绿能</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">财税数字化</span>
+                    <span class="concept-badge">30 只股票</span>
+                </div>
+                <div class="concept-stocks">用友网络, 软通动力, 润和软件, 长亮科技, 科蓝软件</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">肝炎概念</span>
+                    <span class="concept-badge">30 只股票</span>
+                </div>
+                <div class="concept-stocks">乐普医疗, 众生药业, 雅本化学, 翰宇药业, 康芝药业</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">新型城镇化</span>
+                    <span class="concept-badge">30 只股票</span>
+                </div>
+                <div class="concept-stocks">张江高科, 中国电建, 中国能建, 合肥城建, 海南瑞泽</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">煤炭概念</span>
+                    <span class="concept-badge">29 只股票</span>
+                </div>
+                <div class="concept-stocks">湖北宜化, 特变电工, 中国神华, 合锻智能, 兖矿能源</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">HJT电池</span>
+                    <span class="concept-badge">29 只股票</span>
+                </div>
+                <div class="concept-stocks">阿特斯, 先导智能, 拓日新能, 赛伍技术, 明阳智能</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">PPP概念</span>
+                    <span class="concept-badge">29 只股票</span>
+                </div>
+                <div class="concept-stocks">中国中车, 望变电气, 金风科技, 国电南瑞, 特锐德</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">星闪概念</span>
+                    <span class="concept-badge">29 只股票</span>
+                </div>
+                <div class="concept-stocks">中兴通讯, 佳禾智能, 四维图新, 北斗星通, 润和软件</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">国家大基金持股</span>
+                    <span class="concept-badge">28 只股票</span>
+                </div>
+                <div class="concept-stocks">中芯国际, 北方华创, 雅克科技, 江波龙, 通富微电</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">光刻胶</span>
+                    <span class="concept-badge">28 只股票</span>
+                </div>
+                <div class="concept-stocks">普利特, 湖北宜化, 雅克科技, 南大光电, 西陇科学</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">光伏建筑一体化</span>
+                    <span class="concept-badge">28 只股票</span>
+                </div>
+                <div class="concept-stocks">拓日新能, 明阳智能, 天合光能, 隆基绿能, 卧龙电驱</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">黄金概念</span>
+                    <span class="concept-badge">28 只股票</span>
+                </div>
+                <div class="concept-stocks">洛阳钼业, 紫金矿业, 山东黄金, 特变电工, 驰宏锌锗</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">数字乡村</span>
+                    <span class="concept-badge">28 只股票</span>
+                </div>
+                <div class="concept-stocks">烽火通信, 紫光股份, 软通动力, 张江高科, 普天科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">医美概念</span>
+                    <span class="concept-badge">28 只股票</span>
+                </div>
+                <div class="concept-stocks">汉威科技, 乐普医疗, 创新医疗, 爱朋医疗, 伟思医疗</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">算力</span>
+                    <span class="concept-badge">27 只股票</span>
+                </div>
+                <div class="concept-stocks">中科曙光, 科大讯飞, 新易盛, 胜宏科技, 北方华创</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">磷化工</span>
+                    <span class="concept-badge">27 只股票</span>
+                </div>
+                <div class="concept-stocks">湖北宜化, 洛阳钼业, 雅克科技, 南大光电, 西陇科学</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">Web3.0</span>
+                    <span class="concept-badge">26 只股票</span>
+                </div>
+                <div class="concept-stocks">中科曙光, 昆仑万维, 万兴科技, 拓尔思, 蓝色光标</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">AI</span>
+                    <span class="concept-badge">26 只股票</span>
+                </div>
+                <div class="concept-stocks">科大讯飞, 新易盛, 胜宏科技, 北方华创, 沪电股份</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">碳交易</span>
+                    <span class="concept-badge">26 只股票</span>
+                </div>
+                <div class="concept-stocks">恒生电子, 金风科技, 巨化股份, 中科星图, 昊华科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">网红经济</span>
+                    <span class="concept-badge">26 只股票</span>
+                </div>
+                <div class="concept-stocks">昆仑万维, 万兴科技, 蓝色光标, 浔兴股份, 宋城演艺</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">WiFi 6</span>
+                    <span class="concept-badge">26 只股票</span>
+                </div>
+                <div class="concept-stocks">烽火通信, 紫光股份, 信维通信, 中电港, 金信诺</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">宠物经济</span>
+                    <span class="concept-badge">26 只股票</span>
+                </div>
+                <div class="concept-stocks">迈瑞医疗, 海南发展, 唯科科技, 冰轮环境, 大北农</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">语音技术</span>
+                    <span class="concept-badge">25 只股票</span>
+                </div>
+                <div class="concept-stocks">科大讯飞, 汉威科技, 佳禾智能, 歌尔股份, 中电港</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">智能音箱</span>
+                    <span class="concept-badge">25 只股票</span>
+                </div>
+                <div class="concept-stocks">科大讯飞, 立讯精密, 佳禾智能, 信维通信, 北京君正</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">超超临界发电</span>
+                    <span class="concept-badge">25 只股票</span>
+                </div>
+                <div class="concept-stocks">顺钠股份, 保变电气, 特变电工, 上海电气, 中国能建</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">铜缆高速连接</span>
+                    <span class="concept-badge">25 只股票</span>
+                </div>
+                <div class="concept-stocks">华工科技, 立讯精密, 华丰科技, 中天科技, 长芯博创</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">金属回收</span>
+                    <span class="concept-badge">25 只股票</span>
+                </div>
+                <div class="concept-stocks">北方稀土, 三安光电, 南山铝业, 驰宏锌锗, 明泰铝业</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">超级品牌</span>
+                    <span class="concept-badge">25 只股票</span>
+                </div>
+                <div class="concept-stocks">比亚迪, 美的集团, 上汽集团, 贵州茅台, 中国移动</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">期货概念</span>
+                    <span class="concept-badge">24 只股票</span>
+                </div>
+                <div class="concept-stocks">越秀资本, 国投资本, 西部证券, 中金岭南, 五矿资本</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">华为欧拉</span>
+                    <span class="concept-badge">24 只股票</span>
+                </div>
+                <div class="concept-stocks">拓维信息, 拓斯达, 软通动力, 景嘉微, 润和软件</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">PEEK材料</span>
+                    <span class="concept-badge">24 只股票</span>
+                </div>
+                <div class="concept-stocks">普利特, 光威复材, 天赐材料, 超捷股份, 金发科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">BC电池</span>
+                    <span class="concept-badge">24 只股票</span>
+                </div>
+                <div class="concept-stocks">阿特斯, 先导智能, 赛伍技术, 天合光能, 隆基绿能</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">短剧游戏</span>
+                    <span class="concept-badge">24 只股票</span>
+                </div>
+                <div class="concept-stocks">昆仑万维, 蓝色光标, 中国电影, 横店影视, 幸福蓝海</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">自由贸易港</span>
+                    <span class="concept-badge">24 只股票</span>
+                </div>
+                <div class="concept-stocks">中国中免, 海南机场, 海汽集团, 海峡股份, 珠免集团</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">柔性直流输电</span>
+                    <span class="concept-badge">23 只股票</span>
+                </div>
+                <div class="concept-stocks">保变电气, 亨通光电, 金风科技, 东方电缆, 特变电工</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">稀土永磁</span>
+                    <span class="concept-badge">23 只股票</span>
+                </div>
+                <div class="concept-stocks">北方稀土, 厦门钨业, 中国稀土, 盛和资源, 安泰科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">NFT概念</span>
+                    <span class="concept-badge">23 只股票</span>
+                </div>
+                <div class="concept-stocks">蓝色光标, 中文在线, 捷成股份, 四方精创, 神州信息</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">国产航母</span>
+                    <span class="concept-badge">22 只股票</span>
+                </div>
+                <div class="concept-stocks">中国卫星, 海格通信, 北斗星通, 昊华科技, 金信诺</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">化肥</span>
+                    <span class="concept-badge">22 只股票</span>
+                </div>
+                <div class="concept-stocks">赣锋锂业, 湖北宜化, 华尔泰, 天齐锂业, 盐湖股份</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">石墨烯</span>
+                    <span class="concept-badge">22 只股票</span>
+                </div>
+                <div class="concept-stocks">道氏技术, 翔丰华, 广汽集团, 格林美, 沃特股份</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">华为数字能源</span>
+                    <span class="concept-badge">22 只股票</span>
+                </div>
+                <div class="concept-stocks">伊戈尔, 德福科技, 润和软件, 厦门国贸, 协鑫能科</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">农机</span>
+                    <span class="concept-badge">22 只股票</span>
+                </div>
+                <div class="concept-stocks">华工科技, 华力创通, 埃斯顿, 汇川技术, 北斗星通</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">无线充电</span>
+                    <span class="concept-badge">22 只股票</span>
+                </div>
+                <div class="concept-stocks">京泉华, 信维通信, 安泰科技, 许继电气, 硕贝德</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">时空大数据</span>
+                    <span class="concept-badge">22 只股票</span>
+                </div>
+                <div class="concept-stocks">海格通信, 华力创通, 四维图新, 中科星图, 浙大网新</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">固废处理</span>
+                    <span class="concept-badge">22 只股票</span>
+                </div>
+                <div class="concept-stocks">上海电气, 雅本化学, 合锻智能, 格林美, 海南瑞泽</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">F5G概念</span>
+                    <span class="concept-badge">21 只股票</span>
+                </div>
+                <div class="concept-stocks">中际旭创, 华工科技, 光迅科技, 亨通光电, 烽火通信</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">上海自贸区</span>
+                    <span class="concept-badge">21 只股票</span>
+                </div>
+                <div class="concept-stocks">中芯国际, 中远海能, 招商轮船, 张江高科, 安集科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">国资云</span>
+                    <span class="concept-badge">21 只股票</span>
+                </div>
+                <div class="concept-stocks">浪潮信息, 中国联通, 烽火通信, 紫光股份, 数据港</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">可降解塑料</span>
+                    <span class="concept-badge">21 只股票</span>
+                </div>
+                <div class="concept-stocks">湖北宜化, 金发科技, 万华化学, 恒力石化, 力合科创</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">华为海思概念股</span>
+                    <span class="concept-badge">21 只股票</span>
+                </div>
+                <div class="concept-stocks">北方华创, 神州数码, 通富微电, 润和软件, 华天科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">海南自贸区</span>
+                    <span class="concept-badge">21 只股票</span>
+                </div>
+                <div class="concept-stocks">海南机场, 海汽集团, 海南发展, 海峡股份, 中钨高新</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">一体化压铸</span>
+                    <span class="concept-badge">21 只股票</span>
+                </div>
+                <div class="concept-stocks">拓普集团, 汇川技术, 美利信, 北汽蓝谷, 创世纪</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">盐湖提锂</span>
+                    <span class="concept-badge">20 只股票</span>
+                </div>
+                <div class="concept-stocks">赣锋锂业, 比亚迪, 洛阳钼业, 紫金矿业, 天齐锂业</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">电力物联网</span>
+                    <span class="concept-badge">20 只股票</span>
+                </div>
+                <div class="concept-stocks">思源电气, 朗新科技, 国电南瑞, 润和软件, 科陆电子</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">参股保险</span>
+                    <span class="concept-badge">20 只股票</span>
+                </div>
+                <div class="concept-stocks">中国中车, 用友网络, 乐普医疗, 申能股份, 四维图新</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">辅助生殖</span>
+                    <span class="concept-badge">20 只股票</span>
+                </div>
+                <div class="concept-stocks">恒瑞医药, 西陇科学, 众生药业, 翰宇药业, 开能健康</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">光刻机</span>
+                    <span class="concept-badge">20 只股票</span>
+                </div>
+                <div class="concept-stocks">华特气体, 张江高科, 新莱应材, 赛微电子, 江丰电子</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">金属钴</span>
+                    <span class="concept-badge">19 只股票</span>
+                </div>
+                <div class="concept-stocks">赣锋锂业, 道氏技术, 厦门钨业, 洛阳钼业, 紫金矿业</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">手机游戏</span>
+                    <span class="concept-badge">19 只股票</span>
+                </div>
+                <div class="concept-stocks">拓维信息, 昆仑万维, 宋城演艺, 万达电影, 上海电影</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">页岩气</span>
+                    <span class="concept-badge">19 只股票</span>
+                </div>
+                <div class="concept-stocks">九丰能源, 昊华科技, 厚普股份, 新锦动力, 海默科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">垃圾分类</span>
+                    <span class="concept-badge">19 只股票</span>
+                </div>
+                <div class="concept-stocks">宇通重工, 九洲集团, 北化股份, 雅本化学, 汉马科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">预制菜</span>
+                    <span class="concept-badge">19 只股票</span>
+                </div>
+                <div class="concept-stocks">永辉超市, 通威股份, 金健米业, 大北农, 国联水产</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">快手概念</span>
+                    <span class="concept-badge">18 只股票</span>
+                </div>
+                <div class="concept-stocks">亚康股份, 法本信息, 蓝色光标, 中文在线, 首都在线</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">AI语料</span>
+                    <span class="concept-badge">18 只股票</span>
+                </div>
+                <div class="concept-stocks">科大讯飞, 昆仑万维, 拓尔思, 三六零, 中文在线</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">AI手机</span>
+                    <span class="concept-badge">18 只股票</span>
+                </div>
+                <div class="concept-stocks">科大讯飞, 胜宏科技, 中兴通讯, 江波龙, 佰维存储</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">核污染防治</span>
+                    <span class="concept-badge">18 只股票</span>
+                </div>
+                <div class="concept-stocks">际华集团, 汉威科技, 上海电气, 西陇科学, 安泰科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">金属铅</span>
+                    <span class="concept-badge">18 只股票</span>
+                </div>
+                <div class="concept-stocks">紫金矿业, 驰宏锌锗, 湖南黄金, 中金岭南, 锡业股份</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">Sora概念(文生视频)</span>
+                    <span class="concept-badge">18 只股票</span>
+                </div>
+                <div class="concept-stocks">昆仑万维, 万兴科技, 拓尔思, 三六零, 中文在线</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">网络游戏</span>
+                    <span class="concept-badge">18 只股票</span>
+                </div>
+                <div class="concept-stocks">昆仑万维, 三六零, 岩山科技, 万达电影, 光线传媒</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">电子身份证</span>
+                    <span class="concept-badge">18 只股票</span>
+                </div>
+                <div class="concept-stocks">拓尔思, 科蓝软件, 中国软件, 京北方, 东港股份</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">新型烟草(电子烟)</span>
+                    <span class="concept-badge">18 只股票</span>
+                </div>
+                <div class="concept-stocks">聚辰股份, 蓝思科技, 唯科科技, 顺灏股份, 合锻智能</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">光热发电</span>
+                    <span class="concept-badge">18 只股票</span>
+                </div>
+                <div class="concept-stocks">中国电建, 中国能建, 三峡能源, 双良节能, 东华科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">金属镍</span>
+                    <span class="concept-badge">17 只股票</span>
+                </div>
+                <div class="concept-stocks">道氏技术, 洛阳钼业, 中金岭南, 格林美, 铜陵有色</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">基因测序</span>
+                    <span class="concept-badge">17 只股票</span>
+                </div>
+                <div class="concept-stocks">华工科技, 北陆药业, 美年健康, 隆平高科, 开能健康</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">足球概念</span>
+                    <span class="concept-badge">17 只股票</span>
+                </div>
+                <div class="concept-stocks">探路者, 艾比森, 上汽集团, 共创草坪, 海康威视</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">超级电容</span>
+                    <span class="concept-badge">17 只股票</span>
+                </div>
+                <div class="concept-stocks">思源电气, 中天科技, 新宙邦, 东阳光, 风华高科</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">华为手机</span>
+                    <span class="concept-badge">17 只股票</span>
+                </div>
+                <div class="concept-stocks">立讯精密, 水晶光电, 安泰科技, 国际复材, 宏和科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">金属锌</span>
+                    <span class="concept-badge">17 只股票</span>
+                </div>
+                <div class="concept-stocks">紫金矿业, 驰宏锌锗, 湖南黄金, 中金岭南, 锡业股份</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">猴痘概念</span>
+                    <span class="concept-badge">17 只股票</span>
+                </div>
+                <div class="concept-stocks">乐普医疗, 众生药业, 君实生物, 翰宇药业, 华大基因</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">数据确权</span>
+                    <span class="concept-badge">17 只股票</span>
+                </div>
+                <div class="concept-stocks">中文在线, 拉卡拉, 四方精创, 科蓝软件, 云从科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">白酒概念</span>
+                    <span class="concept-badge">17 只股票</span>
+                </div>
+                <div class="concept-stocks">贵州茅台, 山西汾酒, 古井贡酒, 怡亚通, 建发股份</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">小红书概念</span>
+                    <span class="concept-badge">16 只股票</span>
+                </div>
+                <div class="concept-stocks">亚康股份, 科华数据, 联建光电, 法本信息, 蓝色光标</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">冰雪产业</span>
+                    <span class="concept-badge">16 只股票</span>
+                </div>
+                <div class="concept-stocks">探路者, 三夫户外, 王府井, 吉林化纤, 华策影视</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">PET铜箔</span>
+                    <span class="concept-badge">16 只股票</span>
+                </div>
+                <div class="concept-stocks">先导智能, 德福科技, 嘉元科技, 诺德股份, 隆扬电子</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">细胞免疫治疗</span>
+                    <span class="concept-badge">16 只股票</span>
+                </div>
+                <div class="concept-stocks">恒瑞医药, 荣昌生物, 翰宇药业, 华海药业, 开能健康</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">有机硅概念</span>
+                    <span class="concept-badge">16 只股票</span>
+                </div>
+                <div class="concept-stocks">天赐材料, 合盛硅业, 硅宝科技, 东岳硅材, 兴发集团</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">两轮车</span>
+                    <span class="concept-badge">16 只股票</span>
+                </div>
+                <div class="concept-stocks">四维图新, 北斗星通, 国轩高科, 移远通信, 亿纬锂能</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">眼科医疗</span>
+                    <span class="concept-badge">15 只股票</span>
+                </div>
+                <div class="concept-stocks">科大讯飞, 恒瑞医药, 荣昌生物, 鱼跃医疗, 众生药业</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">超导概念</span>
+                    <span class="concept-badge">15 只股票</span>
+                </div>
+                <div class="concept-stocks">杭氧股份, 永鼎股份, 联创光电, 西部超导, 中天科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">减肥药</span>
+                    <span class="concept-badge">15 只股票</span>
+                </div>
+                <div class="concept-stocks">恒瑞医药, 乐普医疗, 众生药业, 美好医疗, 翰宇药业</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">CRO概念</span>
+                    <span class="concept-badge">15 只股票</span>
+                </div>
+                <div class="concept-stocks">药明康德, 美好医疗, 雅本化学, 翰宇药业, 奥翔药业</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">装配式建筑</span>
+                    <span class="concept-badge">15 只股票</span>
+                </div>
+                <div class="concept-stocks">隆华新材, 硅宝科技, 海螺水泥, 海南瑞泽, 中国铁建</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">ETC</span>
+                    <span class="concept-badge">15 只股票</span>
+                </div>
+                <div class="concept-stocks">紫光国微, 航天长峰, 科大国创, 迪普科技, 南天信息</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">消毒剂</span>
+                    <span class="concept-badge">15 只股票</span>
+                </div>
+                <div class="concept-stocks">西陇科学, 巨化股份, 鱼跃医疗, 康芝药业, 东阳光</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">环氧丙烷</span>
+                    <span class="concept-badge">15 只股票</span>
+                </div>
+                <div class="concept-stocks">红宝丽, 万华化学, 航锦科技, 永和股份, 华泰股份</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">生物疫苗</span>
+                    <span class="concept-badge">15 只股票</span>
+                </div>
+                <div class="concept-stocks">君实生物, 塞力医疗, 冠昊生物, 泰格医药, 蓝晓科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">智慧灯杆</span>
+                    <span class="concept-badge">15 只股票</span>
+                </div>
+                <div class="concept-stocks">超讯通信, 聚飞光电, 震有科技, 三维通信, 英可瑞</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">云办公</span>
+                    <span class="concept-badge">14 只股票</span>
+                </div>
+                <div class="concept-stocks">金山办公, 万兴科技, 三六零, 深信服, 二六三</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">AI PC</span>
+                    <span class="concept-badge">14 只股票</span>
+                </div>
+                <div class="concept-stocks">江波龙, 神州数码, 佰维存储, 软通动力, 长盈精密</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">地下管网</span>
+                    <span class="concept-badge">14 只股票</span>
+                </div>
+                <div class="concept-stocks">汉威科技, 航宇微, 碧水源, 中铁工业, 铁建重工</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">生态农业</span>
+                    <span class="concept-badge">14 只股票</span>
+                </div>
+                <div class="concept-stocks">顺灏股份, 新洋丰, 北大荒, 隆平高科, 登海种业</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">北交所</span>
+                    <span class="concept-badge">14 只股票</span>
+                </div>
+                <div class="concept-stocks">并行科技, 辰光医疗, 液集团已经总共增持了, 众诚科技, 吉林碳谷</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">AIPC</span>
+                    <span class="concept-badge">13 只股票</span>
+                </div>
+                <div class="concept-stocks">胜宏科技, 通富微电, 德明利, 中国软件, 云从科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">同花顺果指数</span>
+                    <span class="concept-badge">13 只股票</span>
+                </div>
+                <div class="concept-stocks">立讯精密, 信维通信, 东山精密, 蓝思科技, 长电科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">特钢概念</span>
+                    <span class="concept-badge">13 只股票</span>
+                </div>
+                <div class="concept-stocks">望变电气, 五洲新春, 包钢股份, 八一钢铁, 钢研高纳</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">免税店</span>
+                    <span class="concept-badge">13 只股票</span>
+                </div>
+                <div class="concept-stocks">中国中免, 海南机场, 王府井, 海南发展, 珠免集团</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">食品安全</span>
+                    <span class="concept-badge">13 只股票</span>
+                </div>
+                <div class="concept-stocks">汉威科技, 西陇科学, 合锻智能, 新莱应材, 云赛智联</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">华为</span>
+                    <span class="concept-badge">13 只股票</span>
+                </div>
+                <div class="concept-stocks">中贝通信, 德赛西威, 埃夫特, 中科创达, 光庭信息</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">上海国企改革</span>
+                    <span class="concept-badge">13 只股票</span>
+                </div>
+                <div class="concept-stocks">上海电气, 申能股份, 上汽集团, 华虹公司, 上海电影</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">民营医院</span>
+                    <span class="concept-badge">13 只股票</span>
+                </div>
+                <div class="concept-stocks">乐普医疗, 创新医疗, 平潭发展, 京东方A, 三博脑科</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">水泥概念</span>
+                    <span class="concept-badge">13 只股票</span>
+                </div>
+                <div class="concept-stocks">西藏天路, 红宝丽, 海螺水泥, 华新水泥, 中国能建</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">幽门螺杆菌概念</span>
+                    <span class="concept-badge">13 只股票</span>
+                </div>
+                <div class="concept-stocks">鱼跃医疗, 众生药业, 翰宇药业, 康芝药业, 中核科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">土壤修复</span>
+                    <span class="concept-badge">13 只股票</span>
+                </div>
+                <div class="concept-stocks">上海港湾, 顺灏股份, 中国电建, 中国能建, 格林美</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">农业种植</span>
+                    <span class="concept-badge">13 只股票</span>
+                </div>
+                <div class="concept-stocks">北大荒, 隆平高科, 登海种业, 大北农, 厦门象屿</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">拼多多概念</span>
+                    <span class="concept-badge">13 只股票</span>
+                </div>
+                <div class="concept-stocks">东港股份, 值得买, 引力传媒, 水羊股份, 每日互动</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">化债概念(AMC概念)</span>
+                    <span class="concept-badge">12 只股票</span>
+                </div>
+                <div class="concept-stocks">越秀资本, 上海电气, 长亮科技, 科蓝软件, 中科金财</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">露营经济</span>
+                    <span class="concept-badge">12 只股票</span>
+                </div>
+                <div class="concept-stocks">探路者, 三夫户外, 际华集团, 太力科技, 宇通客车</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">成飞概念</span>
+                    <span class="concept-badge">12 只股票</span>
+                </div>
+                <div class="concept-stocks">海格通信, 华力创通, 申菱环境, 中航光电, 厚普股份</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">阿尔茨海默概念</span>
+                    <span class="concept-badge">12 只股票</span>
+                </div>
+                <div class="concept-stocks">北陆药业, 网宿科技, 联影医疗, 美年健康, 以岭药业</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">ERP概念</span>
+                    <span class="concept-badge">12 只股票</span>
+                </div>
+                <div class="concept-stocks">用友网络, 软通动力, 润和软件, 鼎捷数智, 常山北明</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">空间计算</span>
+                    <span class="concept-badge">12 只股票</span>
+                </div>
+                <div class="concept-stocks">佳禾智能, 奥比中光, 中科星图, 航天宏图, 每日互动</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">钒电池</span>
+                    <span class="concept-badge">12 只股票</span>
+                </div>
+                <div class="concept-stocks">龙佰集团, 上海电气, 申能股份, 三峡能源, 楚江新材</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">知识产权保护</span>
+                    <span class="concept-badge">12 只股票</span>
+                </div>
+                <div class="concept-stocks">拓尔思, 中文在线, 京北方, 华策影视, 东港股份</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">数字水印</span>
+                    <span class="concept-badge">12 只股票</span>
+                </div>
+                <div class="concept-stocks">信雅达, 通鼎互联, 东方国信, 迪普科技, 鸿博股份</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">横琴新区</span>
+                    <span class="concept-badge">12 只股票</span>
+                </div>
+                <div class="concept-stocks">光库科技, 普天科技, 全志科技, 珠免集团, 航宇微</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">粮食概念</span>
+                    <span class="concept-badge">12 只股票</span>
+                </div>
+                <div class="concept-stocks">金健米业, 北大荒, 隆平高科, 登海种业, 大北农</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">太赫兹</span>
+                    <span class="concept-badge">11 只股票</span>
+                </div>
+                <div class="concept-stocks">航天电子, 海格通信, 中兴通讯, 亨通光电, 长飞光纤</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">石墨电极</span>
+                    <span class="concept-badge">11 只股票</span>
+                </div>
+                <div class="concept-stocks">道氏技术, 龙佰集团, 合盛硅业, 翔丰华, 中科电气</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">空气能热泵</span>
+                    <span class="concept-badge">11 只股票</span>
+                </div>
+                <div class="concept-stocks">三花智控, 美的集团, 申菱环境, 冰轮环境, 海立股份</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">芯片</span>
+                    <span class="concept-badge">11 只股票</span>
+                </div>
+                <div class="concept-stocks">昆仑万维, 拓普集团, 德明利, 致尚科技, 半导体ETF</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">建筑节能</span>
+                    <span class="concept-badge">11 只股票</span>
+                </div>
+                <div class="concept-stocks">隆华新材, 红宝丽, 力合科创, 金晶科技, 再升科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">网约车</span>
+                    <span class="concept-badge">11 只股票</span>
+                </div>
+                <div class="concept-stocks">海汽集团, 长安汽车, 上汽集团, 北汽蓝谷, 广汽集团</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">净水概念</span>
+                    <span class="concept-badge">11 只股票</span>
+                </div>
+                <div class="concept-stocks">华融化学, 开能健康, 碧水源, 蓝晓科技, 协创数据</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">可燃冰</span>
+                    <span class="concept-badge">11 只股票</span>
+                </div>
+                <div class="concept-stocks">中集集团, 新锦动力, 海默科技, 潜能恒信, 广州发展</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">玉米</span>
+                    <span class="concept-badge">11 只股票</span>
+                </div>
+                <div class="concept-stocks">金健米业, 北大荒, 隆平高科, 登海种业, 大北农</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">锂电</span>
+                    <span class="concept-badge">10 只股票</span>
+                </div>
+                <div class="concept-stocks">中科曙光, 寒武纪, 工业富联, 英维克, 天际股份</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">家庭医生</span>
+                    <span class="concept-badge">10 只股票</span>
+                </div>
+                <div class="concept-stocks">科大讯飞, 卫宁健康, 美年健康, 海峡创新, 创业慧康</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">POE胶膜</span>
+                    <span class="concept-badge">10 只股票</span>
+                </div>
+                <div class="concept-stocks">拓日新能, 赛伍技术, 万华化学, 东华科技, 深圳燃气</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">EDR概念</span>
+                    <span class="concept-badge">10 只股票</span>
+                </div>
+                <div class="concept-stocks">江波龙, 三六零, 全志科技, 光弘科技, 协创数据</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">MLOps概念</span>
+                    <span class="concept-badge">10 只股票</span>
+                </div>
+                <div class="concept-stocks">拓尔思, 奥比中光, 润和软件, 科大国创, 东方国信</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">聚变</span>
+                    <span class="concept-badge">10 只股票</span>
+                </div>
+                <div class="concept-stocks">联创光电, 西部超导, 斯瑞新材, 安泰科技, 国光电气</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">重组蛋白</span>
+                    <span class="concept-badge">10 只股票</span>
+                </div>
+                <div class="concept-stocks">西陇科学, 爱美客, 百普赛斯, 中源协和, 丸美生物</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">ST板块</span>
+                    <span class="concept-badge">10 只股票</span>
+                </div>
+                <div class="concept-stocks">*ST铖昌, ST东尼, ST创意, *ST新元, *ST汇科</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">云游戏</span>
+                    <span class="concept-badge">10 只股票</span>
+                </div>
+                <div class="concept-stocks">首都在线, 旋极信息, 顺网科技, 协创数据, 优刻得</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">DRG/DIP</span>
+                    <span class="concept-badge">9 只股票</span>
+                </div>
+                <div class="concept-stocks">卫宁健康, 塞力医疗, 创业慧康, 数字认证, 佳缘科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">华为盘古</span>
+                    <span class="concept-badge">9 只股票</span>
+                </div>
+                <div class="concept-stocks">拓维信息, 拓尔思, 软通动力, 法本信息, 捷成股份</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">PVDF概念</span>
+                    <span class="concept-badge">9 只股票</span>
+                </div>
+                <div class="concept-stocks">巨化股份, 多氟多, 昊华科技, 东阳光, 永和股份</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">中韩自贸区</span>
+                    <span class="concept-badge">9 只股票</span>
+                </div>
+                <div class="concept-stocks">明泰铝业, 连云港, 江丰电子, 锦江航运, 日照港</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">培育钻石</span>
+                    <span class="concept-badge">9 只股票</span>
+                </div>
+                <div class="concept-stocks">晶盛机电, 国机精工, 楚江新材, 四方达, 力量钻石</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">注册制次新股</span>
+                    <span class="concept-badge">9 只股票</span>
+                </div>
+                <div class="concept-stocks">矽电股份, 太力科技, 摩尔线程, 电科蓝天, 中国铀业</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">新股与次新股</span>
+                    <span class="concept-badge">9 只股票</span>
+                </div>
+                <div class="concept-stocks">矽电股份, 太力科技, 摩尔线程, 电科蓝天, 中国铀业</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">黑龙江自贸区</span>
+                    <span class="concept-badge">9 只股票</span>
+                </div>
+                <div class="concept-stocks">九洲集团, 北大荒, 中直股份, ST信通, 威帝股份</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">工业大麻</span>
+                    <span class="concept-badge">9 只股票</span>
+                </div>
+                <div class="concept-stocks">雅本化学, 顺灏股份, 翰宇药业, 诚益通, 蓝晓科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">电子竞技</span>
+                    <span class="concept-badge">9 只股票</span>
+                </div>
+                <div class="concept-stocks">宋城演艺, 值得买, 顺网科技, 世纪华通, 天娱数科</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">广东自贸区</span>
+                    <span class="concept-badge">9 只股票</span>
+                </div>
+                <div class="concept-stocks">珠免集团, 广州发展, 岭南控股, 奥拓电子, 粤传媒</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">大豆</span>
+                    <span class="concept-badge">9 只股票</span>
+                </div>
+                <div class="concept-stocks">新洋丰, 北大荒, 大北农, 新安股份, 秋乐种业</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">特色小镇</span>
+                    <span class="concept-badge">8 只股票</span>
+                </div>
+                <div class="concept-stocks">珠江钢琴, 盐湖股份, 海南瑞泽, 中国铁建, 长白山</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">土地流转</span>
+                    <span class="concept-badge">8 只股票</span>
+                </div>
+                <div class="concept-stocks">海南机场, 北大荒, 厦门象屿, 洲际油气, 中国武夷</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">电子</span>
+                    <span class="concept-badge">8 只股票</span>
+                </div>
+                <div class="concept-stocks">拓普集团, 唯科科技, 致尚科技, 商络电子, 存储芯片</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">牙科医疗</span>
+                    <span class="concept-badge">8 只股票</span>
+                </div>
+                <div class="concept-stocks">乐普医疗, 东方锆业, 美年健康, 迈普医学, 国瓷材料</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">租售同权</span>
+                    <span class="concept-badge">8 只股票</span>
+                </div>
+                <div class="concept-stocks">张江高科, 合肥城建, 首开股份, 悦心健康, 万科A</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">转基因</span>
+                    <span class="concept-badge">8 只股票</span>
+                </div>
+                <div class="concept-stocks">隆平高科, 登海种业, 大北农, 新安股份, 科前生物</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">计算机-IT服务-IT服务Ⅲ</span>
+                    <span class="concept-badge">8 只股票</span>
+                </div>
+                <div class="concept-stocks">航天信息, 华胜天成, 杰创智能, 工业互联, 智能连接(F5G)</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">互联网保险</span>
+                    <span class="concept-badge">7 只股票</span>
+                </div>
+                <div class="concept-stocks">科大讯飞, 卫宁健康, 东方国信, 东方财富, 中国平安</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">信托概念</span>
+                    <span class="concept-badge">7 只股票</span>
+                </div>
+                <div class="concept-stocks">国投资本, 五矿资本, 南天信息, 茂业商业, 中油资本</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">液冷</span>
+                    <span class="concept-badge">7 只股票</span>
+                </div>
+                <div class="concept-stocks">山东黄金, 天赐材料, 英维克, 中金黄金, 盛弘股份</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">血氧仪</span>
+                    <span class="concept-badge">7 只股票</span>
+                </div>
+                <div class="concept-stocks">佳禾智能, 乐普医疗, 鱼跃医疗, 爱朋医疗, 九安医疗</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">丙烯酸</span>
+                    <span class="concept-badge">7 只股票</span>
+                </div>
+                <div class="concept-stocks">江天化学, 万华化学, 兄弟科技, 国恩股份, 卫星化学</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">电子纸</span>
+                    <span class="concept-badge">7 只股票</span>
+                </div>
+                <div class="concept-stocks">瑞丰光电, 京东方A, 长信科技, 飞凯材料, 汇顶科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">PM2.5</span>
+                    <span class="concept-badge">7 只股票</span>
+                </div>
+                <div class="concept-stocks">狄耐克, 贵研铂业, 日盈电子, 再升科技, 禾信仪器</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">C2M概念</span>
+                    <span class="concept-badge">7 只股票</span>
+                </div>
+                <div class="concept-stocks">南山智尚, 鼎捷数智, 润本股份, 汉得信息, 南钢股份</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">光伏</span>
+                    <span class="concept-badge">7 只股票</span>
+                </div>
+                <div class="concept-stocks">阳光电源, 双良节能, 昱能科技, 三超新材, 固德威</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">摘帽</span>
+                    <span class="concept-badge">7 只股票</span>
+                </div>
+                <div class="concept-stocks">汉马科技, 海峡创新, 威帝股份, 理工导航, 世纪华通</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">中船系</span>
+                    <span class="concept-badge">7 只股票</span>
+                </div>
+                <div class="concept-stocks">中国船舶, 中船防务, 中船科技, 中国动力, 中国海防</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">民爆概念</span>
+                    <span class="concept-badge">7 只股票</span>
+                </div>
+                <div class="concept-stocks">中国能建, 高争民爆, 雪峰科技, 金石资源, 保利联合</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">乳业</span>
+                    <span class="concept-badge">7 只股票</span>
+                </div>
+                <div class="concept-stocks">怡亚通, 金健米业, 大北农, 伊利股份, 贝因美</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">高股息精选</span>
+                    <span class="concept-badge">6 只股票</span>
+                </div>
+                <div class="concept-stocks">龙佰集团, 南山铝业, 思维列控, 东方雨虹, 粤高速A</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">维生素</span>
+                    <span class="concept-badge">6 只股票</span>
+                </div>
+                <div class="concept-stocks">安迪苏, 众生药业, 兄弟科技, 金城医药, 昂利康</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">禽流感</span>
+                    <span class="concept-badge">6 只股票</span>
+                </div>
+                <div class="concept-stocks">众生药业, 以岭药业, 华兰疫苗, 科前生物, 华润三九</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">生物质能发电</span>
+                    <span class="concept-badge">6 只股票</span>
+                </div>
+                <div class="concept-stocks">九洲集团, 中国能建, 协鑫能科, 华泰股份, 福龙马</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">无人零售</span>
+                    <span class="concept-badge">6 只股票</span>
+                </div>
+                <div class="concept-stocks">移远通信, 科蓝软件, 云从科技, 苏宁易购, 天奇股份</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">农村电商</span>
+                    <span class="concept-badge">6 只股票</span>
+                </div>
+                <div class="concept-stocks">通威股份, 新洋丰, 大北农, 苏宁易购, 合百集团</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">汽车拆解概念</span>
+                    <span class="concept-badge">6 只股票</span>
+                </div>
+                <div class="concept-stocks">格林美, 杭钢股份, 保利联合, 浙富控股, 天奇股份</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">深圳国企改革</span>
+                    <span class="concept-badge">6 只股票</span>
+                </div>
+                <div class="concept-stocks">怡亚通, 力合科创, 深圳燃气, 兆驰股份, 深圳机场</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">医疗废物处理</span>
+                    <span class="concept-badge">6 只股票</span>
+                </div>
+                <div class="concept-stocks">京城股份, 东华科技, 塞力医疗, 现代投资, 首创环保</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">猪肉</span>
+                    <span class="concept-badge">6 只股票</span>
+                </div>
+                <div class="concept-stocks">大北农, 罗牛山, 顺鑫农业, 牧原股份, 得利斯</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">医药生物-化学制药-原料药</span>
+                    <span class="concept-badge">6 只股票</span>
+                </div>
+                <div class="concept-stocks">新和成, 浙江医药, 天新药业, 广济药业, 花园生物</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">草甘膦</span>
+                    <span class="concept-badge">5 只股票</span>
+                </div>
+                <div class="concept-stocks">江天化学, 扬农化工, 兴发集团, 利尔化学, 新安股份</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">染料</span>
+                    <span class="concept-badge">5 只股票</span>
+                </div>
+                <div class="concept-stocks">华尔泰, 浙江龙盛, 美瑞新材, 闰土股份, 怡达股份</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">兵装重组概念</span>
+                    <span class="concept-badge">5 只股票</span>
+                </div>
+                <div class="concept-stocks">长安汽车, 建设工业, 长城军工, 中光学, 华强科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">NMN概念</span>
+                    <span class="concept-badge">5 只股票</span>
+                </div>
+                <div class="concept-stocks">众生药业, 雅本化学, 兄弟科技, 美邦科技, 特一药业</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">锂电池</span>
+                    <span class="concept-badge">5 只股票</span>
+                </div>
+                <div class="concept-stocks">唯科科技, 璞泰来, 山东赫达, 富临精工, 恒光股份</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">毛发医疗</span>
+                    <span class="concept-badge">5 只股票</span>
+                </div>
+                <div class="concept-stocks">科伦药业, 孩子王, 水羊股份, 爱美客, 百诚医药</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">国防军工-军工装备-航空装备</span>
+                    <span class="concept-badge">5 只股票</span>
+                </div>
+                <div class="concept-stocks">航发控制, 航新科技, 航空维修, 商业航天, 航空发动机零部件</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">电力设备-电网设备-线缆部件及其他</span>
+                    <span class="concept-badge">5 只股票</span>
+                </div>
+                <div class="concept-stocks">长缆科技, 光纤, AI推理, 光通讯, 汉缆股份</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">机械设备-专用设备-其他专用设备</span>
+                    <span class="concept-badge">5 只股票</span>
+                </div>
+                <div class="concept-stocks">豪迈科技, 赛象科技, 佰奥智能, 蓝半导体, 半导体设备</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">机械设备-通用设备-金属制品</span>
+                    <span class="concept-badge">5 只股票</span>
+                </div>
+                <div class="concept-stocks">智能自控, 商业航天, 商业航天, 人形机器人, 罐式集装箱制造</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">医药生物-化学制药-化学制剂</span>
+                    <span class="concept-badge">5 只股票</span>
+                </div>
+                <div class="concept-stocks">亿帆医药, 华北制药, 东北制药, 创新药, 辰欣药业</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">钛白粉概念</span>
+                    <span class="concept-badge">4 只股票</span>
+                </div>
+                <div class="concept-stocks">龙佰集团, 东华科技, 鲁北化工, 国城矿业</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">CPO 概念</span>
+                    <span class="concept-badge">4 只股票</span>
+                </div>
+                <div class="concept-stocks">唯科科技, 致尚科技, 东兴证券, 申万宏源</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">计算机-计算机设备-其他计算机设备</span>
+                    <span class="concept-badge">4 只股票</span>
+                </div>
+                <div class="concept-stocks">智微智能, 新零售, 存储芯片与数据存储, 储存芯片</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">电力设备-电网设备-输变电设备</span>
+                    <span class="concept-badge">4 只股票</span>
+                </div>
+                <div class="concept-stocks">正泰电器, 大烨智能, 氢能源, AI 数据中心</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">汽车-汽车零部件-底盘与发动机系统</span>
+                    <span class="concept-badge">4 只股票</span>
+                </div>
+                <div class="concept-stocks">潍柴动力, 新能源车, 航空航天, 金麒麟</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">机械设备-通用设备-其他通用设备</span>
+                    <span class="concept-badge">4 只股票</span>
+                </div>
+                <div class="concept-stocks">祥明智能, 川润股份, ：液冷服务器＋数据中心, 大元泵业</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">半导体</span>
+                    <span class="concept-badge">4 只股票</span>
+                </div>
+                <div class="concept-stocks">飞凯材料, 存储芯片, 东兴证券, 申万宏源</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">人造肉</span>
+                    <span class="concept-badge">4 只股票</span>
+                </div>
+                <div class="concept-stocks">国恩股份, 海欣食品, 双汇发展, 富祥药业</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">啤酒概念</span>
+                    <span class="concept-badge">4 只股票</span>
+                </div>
+                <div class="concept-stocks">泸州老窖, 合百集团, 苏垦农发, 珠海中富</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">托育服务</span>
+                    <span class="concept-badge">3 只股票</span>
+                </div>
+                <div class="concept-stocks">拓维信息, 爱婴室, 孚日股份</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">高压氧舱</span>
+                    <span class="concept-badge">3 只股票</span>
+                </div>
+                <div class="concept-stocks">杭氧股份, 创新医疗, 铁建重工</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">共享单车</span>
+                    <span class="concept-badge">3 只股票</span>
+                </div>
+                <div class="concept-stocks">四维图新, 赫美集团, 爱玛科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">智能制造</span>
+                    <span class="concept-badge">3 只股票</span>
+                </div>
+                <div class="concept-stocks">新朋股份, 智立方, 强瑞技术</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">机械设备-专用设备-能源及重型设备</span>
+                    <span class="concept-badge">3 只股票</span>
+                </div>
+                <div class="concept-stocks">杰瑞股份, 中国一重, 中泰股份</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">房屋检测</span>
+                    <span class="concept-badge">3 只股票</span>
+                </div>
+                <div class="concept-stocks">中国核建, 东方雨虹, 启迪设计</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">代糖概念</span>
+                    <span class="concept-badge">3 只股票</span>
+                </div>
+                <div class="concept-stocks">鲁信创投, 星湖科技, 佳禾食品</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">动物疫苗</span>
+                    <span class="concept-badge">3 只股票</span>
+                </div>
+                <div class="concept-stocks">大北农, 科前生物, 罗牛山</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">基础化工-化学制品-其他化学制品</span>
+                    <span class="concept-badge">3 只股票</span>
+                </div>
+                <div class="concept-stocks">中化国际, 光刻胶, 高端光刻胶材料</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">电力设备-其他电源设备-其他电源设备Ⅲ</span>
+                    <span class="concept-badge">3 只股票</span>
+                </div>
+                <div class="concept-stocks">西子洁能, 算电协同, 无人机</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">建筑装饰-建筑装饰-专业工程</span>
+                    <span class="concept-badge">3 只股票</span>
+                </div>
+                <div class="concept-stocks">圣晖集成, 为半导体及泛半导体, 深桑达A</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">有色金属-工业金属-铝</span>
+                    <span class="concept-badge">3 只股票</span>
+                </div>
+                <div class="concept-stocks">银邦股份, 复合铜箔, 有色金属</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">电子-其他电子-其他电子Ⅲ</span>
+                    <span class="concept-badge">3 只股票</span>
+                </div>
+                <div class="concept-stocks">可立克, 半导体, 盈方微</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">汽车-汽车零部件-其他汽车零部件</span>
+                    <span class="concept-badge">3 只股票</span>
+                </div>
+                <div class="concept-stocks">天汽模, MEMS 微振镜, 新能源汽车零部件</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">光通信</span>
+                    <span class="concept-badge">3 只股票</span>
+                </div>
+                <div class="concept-stocks">致尚科技, 东兴证券, 申万宏源</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">机械设备-通用设备-仪器仪表</span>
+                    <span class="concept-badge">3 只股票</span>
+                </div>
+                <div class="concept-stocks">赛摩智能, 普源精电, 物联网</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">基础化工-化学制品-食品及饲料添加剂</span>
+                    <span class="concept-badge">3 只股票</span>
+                </div>
+                <div class="concept-stocks">梅花生物, 华恒生物, 圣达生物</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">医药生物-医疗器械-医疗耗材</span>
+                    <span class="concept-badge">3 只股票</span>
+                </div>
+                <div class="concept-stocks">欧普康视, 赛诺医疗, 康拓医疗</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">烟草</span>
+                    <span class="concept-badge">3 只股票</span>
+                </div>
+                <div class="concept-stocks">启明星辰, 恩捷股份, *ST聆达</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">传媒-文化传媒-广告营销</span>
+                    <span class="concept-badge">3 只股票</span>
+                </div>
+                <div class="concept-stocks">数字经济, 智谱AI, AI应用</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">计算机-软件开发-垂直应用软件</span>
+                    <span class="concept-badge">3 只股票</span>
+                </div>
+                <div class="concept-stocks">RWA, RWA服务, 先进侧封+新能源汽车+固态电池+消防新材料</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">轻工制造-包装印刷-包装</span>
+                    <span class="concept-badge">3 只股票</span>
+                </div>
+                <div class="concept-stocks">互联网精准营销, 医用包装材料, 包装印刷</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">电子-电子化学品-电子化学品Ⅲ</span>
+                    <span class="concept-badge">3 只股票</span>
+                </div>
+                <div class="concept-stocks">：半导体光刻胶专用化学品龙头, 环氧树脂, 电子级磷酸</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">CPO</span>
+                    <span class="concept-badge">2 只股票</span>
+                </div>
+                <div class="concept-stocks">中际旭创, 致尚科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">光模块</span>
+                    <span class="concept-badge">2 只股票</span>
+                </div>
+                <div class="concept-stocks">中际旭创, 东兴证券</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">通信-通信设备-通信终端及配件</span>
+                    <span class="concept-badge">2 只股票</span>
+                </div>
+                <div class="concept-stocks">美格智能, 卫星导航</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">传媒-游戏-游戏Ⅲ</span>
+                    <span class="concept-badge">2 只股票</span>
+                </div>
+                <div class="concept-stocks">浙数文化, 富春股份</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">集成电路</span>
+                    <span class="concept-badge">2 只股票</span>
+                </div>
+                <div class="concept-stocks">金安国纪, 存储芯片</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">MPO</span>
+                    <span class="concept-badge">2 只股票</span>
+                </div>
+                <div class="concept-stocks">唯科科技, 申万宏源</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">特斯拉</span>
+                    <span class="concept-badge">2 只股票</span>
+                </div>
+                <div class="concept-stocks">新朋股份, 富临精工</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">计算机-软件开发-横向通用软件</span>
+                    <span class="concept-badge">2 只股票</span>
+                </div>
+                <div class="concept-stocks">海量数据, 量子科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">基础化工-化学原料-无机盐</span>
+                    <span class="concept-badge">2 只股票</span>
+                </div>
+                <div class="concept-stocks">振华股份, 锶盐产业链</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">电子-消费电子-消费电子零部件及组装</span>
+                    <span class="concept-badge">2 只股票</span>
+                </div>
+                <div class="concept-stocks">亿道信息, 消费电子</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">通用设备</span>
+                    <span class="concept-badge">2 只股票</span>
+                </div>
+                <div class="concept-stocks">鑫磊股份, 电脱设备</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">消费电子</span>
+                    <span class="concept-badge">2 只股票</span>
+                </div>
+                <div class="concept-stocks">智立方, 强瑞技术</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">电力设备-电池-电池化学品</span>
+                    <span class="concept-badge">2 只股票</span>
+                </div>
+                <div class="concept-stocks">容百科技, 壹石通</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">机械设备-自动化设备-其他自动化设备</span>
+                    <span class="concept-badge">2 只股票</span>
+                </div>
+                <div class="concept-stocks">大族数控, 机器视觉</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">建筑材料-建筑材料-玻璃玻纤</span>
+                    <span class="concept-badge">2 只股票</span>
+                </div>
+                <div class="concept-stocks">山东玻纤, 电子玻璃</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">通信-通信设备-通信网络设备及器件</span>
+                    <span class="concept-badge">2 只股票</span>
+                </div>
+                <div class="concept-stocks">阿莱德, 通讯射频</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">天津自贸区</span>
+                    <span class="concept-badge">2 只股票</span>
+                </div>
+                <div class="concept-stocks">天津普林, 九安医疗</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">电力设备-电网设备-电气自控设备</span>
+                    <span class="concept-badge">2 只股票</span>
+                </div>
+                <div class="concept-stocks">科大智能, 虚拟电厂</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">机械设备-自动化设备-工控设备</span>
+                    <span class="concept-badge">2 只股票</span>
+                </div>
+                <div class="concept-stocks">宏英智能, 光伏储能</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">社会服务-其他社会服务-专业服务</span>
+                    <span class="concept-badge">2 只股票</span>
+                </div>
+                <div class="concept-stocks">兰生股份, 谱尼测试</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">传媒-影视院线-影视院线Ⅲ</span>
+                    <span class="concept-badge">2 只股票</span>
+                </div>
+                <div class="concept-stocks">*ST天择, 谷子经济</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">青蒿素</span>
+                    <span class="concept-badge">2 只股票</span>
+                </div>
+                <div class="concept-stocks">复星医药, 润都股份</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">科创次新股</span>
+                    <span class="concept-badge">2 只股票</span>
+                </div>
+                <div class="concept-stocks">摩尔线程, 电科蓝天</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">养鸡</span>
+                    <span class="concept-badge">2 只股票</span>
+                </div>
+                <div class="concept-stocks">罗牛山, 双汇发展</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">基础化工-塑料制品-膜材料</span>
+                    <span class="concept-badge">2 只股票</span>
+                </div>
+                <div class="concept-stocks">特高压, 东材科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">基础化工-化学制品-纺织化学用品</span>
+                    <span class="concept-badge">2 只股票</span>
+                </div>
+                <div class="concept-stocks">AI算力, 化工原料</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">基础化工-塑料制品-改性塑料</span>
+                    <span class="concept-badge">2 只股票</span>
+                </div>
+                <div class="concept-stocks">3D打印, 新能源车</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">国防军工-军工电子-军工电子Ⅲ</span>
+                    <span class="concept-badge">2 只股票</span>
+                </div>
+                <div class="concept-stocks">军工信息化, 天基互联</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">轻工制造-家居用品-其他家居用品</span>
+                    <span class="concept-badge">2 只股票</span>
+                </div>
+                <div class="concept-stocks">3D打印, 新材料</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">电子-半导体-半导体材料</span>
+                    <span class="concept-badge">2 只股票</span>
+                </div>
+                <div class="concept-stocks">半导体设备, 半导体</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">AI算力</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">中际旭创</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">能源</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">金风科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">卫星通信</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">达华智能</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">频轨资源</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">达华智能</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">建筑装饰-建筑装饰-房屋建设</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">宁波建工</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">英伟达</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">英维克</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">战争金属</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">攀钢钒钛</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">钛</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">攀钢钒钛</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">钒</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">攀钢钒钛</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">存储</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">德明利</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">覆铜板</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">金安国纪</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">5G 概念</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">金安国纪</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">新能源</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">唯科科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">特钢</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">华民股份</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">高端制造</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">华民股份</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">农林牧渔-养殖业-肉鸡养殖</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">圣农发展</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">医药生物-生物制品-疫苗</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">智飞生物</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">医药生物-医药商业-医药流通</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">润达医疗</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">房地产-房地产-产业地产</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">华夏幸福</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">次新股</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">鑫磊股份</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">工业 4.0</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">泰豪科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">食品饮料-白酒-白酒Ⅲ</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">*ST岩石</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">国防军工-军工装备-地面兵装</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">国科军工</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">电子-光学光电子-面板</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">沃格光电</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">电力设备-光伏设备-光伏电池组件</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">亿晶光电</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">医药生物-医疗服务-医疗研发外包</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">康龙化成</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">农林牧渔-农产品加工-粮油加工</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">*ST万方</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">电子-半导体-数字芯片设计</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">盛科通信</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">医药生物-医疗器械-体外诊断</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">安必平</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">汽车-汽车零部件-车身附件及饰件</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">航天智造</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">基础化工-化学原料-煤化工</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">宝丰能源</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">钢铁-钢铁-特钢</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">常宝股份</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">石油石化-石油加工贸易-油品石化贸易</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">润贝航科</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">电力设备-电池-其他电池</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">安孚科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">家用电器-小家电-小家电Ⅲ</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">比依股份</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">轻工制造-家居用品-成品家居</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">恒林股份</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">房地产-房地产-住宅开发</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">万通发展</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">家用电器-厨卫电器-厨卫电器Ⅲ</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">亿田智能</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">机械设备-专用设备-印刷包装机械</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">春光智能</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">基础化工-化学制品-民爆用品</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">同德化工</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">基础化工-农化制品-磷肥及磷化工</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">和邦生物</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">食品饮料-食品加工制造-其他食品</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">金达威</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">石油石化-石油加工贸易-石油加工</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">岳阳兴长</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">基础化工-农化制品-农药</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">长青股份</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">汽车-汽车零部件-轮胎轮毂</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">雷迪克</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">医药生物-医疗器械-医疗设备</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">港通医疗</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">医药生物</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">医疗健康ETF泰康</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">医疗器械</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">医疗健康ETF泰康</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">医疗设备</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">医疗健康ETF泰康</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">传媒</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">影视ETF</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">数字媒体</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">影视ETF</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">游戏</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">影视ETF</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">赛马概念</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">中体产业</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">芬太尼</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">国药股份</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">快充</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">璞泰来</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">供销社</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">万润股份</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">燃气</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">佛燃能源</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">广东国资</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">佛燃能源</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">有机硅</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">山东赫达</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">新材料</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">山东赫达</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">化工</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">山东赫达</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">微逆</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">昱能科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">分布式能源</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">昱能科技</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">社会服务-旅游及酒店-自然景点</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">：重组转型</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">有色金属-金属新材料-磁性材料</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">稀土永磁</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">农林牧渔-养殖业-海洋捕捞</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">远洋渔业</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">轻工制造-造纸-造纸Ⅲ</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">涉足人形机器人</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">商贸零售-零售-百货零售</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">零售业务</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">综合-综合-综合Ⅲ</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">AI玩具</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">基础化工-化学原料-氯碱</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">氯化亚砜</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">机械设备-通用设备-机床工具</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">数控磨削设备</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">基础化工-化学制品-有机硅</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">固态电池</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">农林牧渔-农产品加工-其他农产品加工</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">、数据确权</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">有色金属-贵金属-贵金属Ⅲ</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">集成电路</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">医药生物-中药-中药Ⅲ</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">创新药</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">社会服务-教育-教育Ⅲ</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">教育和AI双驱动</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">机械设备-工程机械-工程机械Ⅲ</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">低空经济</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">通信-通信设备-其他通信设备</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">物联网</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">电力设备-光伏设备-光伏加工设备</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">5G通讯</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">通信-通信服务-通信应用增值服务</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">通信</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">电子-元件-被动元件</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">一体成型电感</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">通信-通信服务-通信工程及服务</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">通信服务</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">传媒-文化传媒-出版</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">AI智能体</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">基础化工-化学制品-涂料油墨</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">化工</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">电子-元件-印制电路板</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">国内PCB服务龙头</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">汽车-汽车零部件-汽车电子电气系统</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">汽车核心零部件</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">建筑装饰-建筑装饰-工程咨询服务</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">低空经济</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">环保-环境治理-综合环境治理</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">并购重组</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">纺织服饰-服装家纺-鞋帽及其他</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">并购重组</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">电力设备-光伏设备-光伏辅材</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">固态电池铝塑膜</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">家用电器-黑色家电-其他黑色家电</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">鸿蒙生态</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">基础化工-化学纤维-其他纤维</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">商业航天</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">机械设备</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">电脱设备</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">机械基础件</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">电脱设备</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">房地产</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">商业航天</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">商业地产</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">商业航天</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">商业运营</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">商业航天</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">纺织服饰-服装家纺-服装</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">洪兴股份</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">美容护理-美容护理-化妆品</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">敷尔佳</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">汽车-汽车整车-商用载货车</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">江铃汽车</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">银行-银行-城商行</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">江苏银行</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">建筑装饰-建筑装饰-基础建设</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">新疆交建</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">商贸零售-零售-商业物业经营</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">御银股份</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">电力设备-电机-电机Ⅲ</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">江特电机</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">AI 算力</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">申万宏源</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">电摩</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">雅迪控股</div>
+            </div>
+        
+            <div class="concept-card">
+                <div class="concept-header">
+                    <span class="concept-title">东南亚消费</span>
+                    <span class="concept-badge">1 只股票</span>
+                </div>
+                <div class="concept-stocks">雅迪控股</div>
+            </div>
+        
+        </div>
+    </div>
+</body>
+</html>
