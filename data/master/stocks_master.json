@@ -5266,64 +5266,70 @@
       "name": "德福科技",
       "code": "301511",
       "board": "SZ",
-      "mention_count": 5,
       "industry": "电力设备-电池-锂电池",
-      "article_date": "2026-03-16",
       "concepts": [
-        "PET铜箔",
-        "共封装光学(CPO)",
-        "PCB概念",
-        "固态电池",
-        "存储芯片",
-        "宁德时代概念",
-        "锂电池概念",
-        "柔性屏(折叠屏)",
-        "消费电子概念",
-        "5G",
-        "华为数字能源",
-        "比亚迪概念",
-        "新能源汽车",
-        "储能",
-        "专精特新",
-        "无人机",
-        "军工",
-        "华为概念",
-        "深股通",
-        "融资融券"
+        "锂电池",
+        "铜箔",
+        "电子箔",
+        "载体铜箔",
+        "动力电池",
+        "储能"
       ],
+      "mention_count": 1,
       "products": [
-        "3–10μm全系列极薄/载体铜箔",
-        "HVLP",
-        "双面光铜箔"
+        "高端电子箔",
+        "载体铜箔",
+        "锂电铜箔"
       ],
       "core_business": [
-        "电子铜箔生产"
+        "高端电子箔",
+        "载体铜箔",
+        "锂电铜箔"
       ],
       "industry_position": [
-        "高端电子铜箔龙头"
+        "高端电子箔&载体铜箔放量",
+        "锂电二线涨价标的"
       ],
-      "chain": [
-        "上游-半导体材料"
-      ],
-      "partners": null,
+      "chain": [],
+      "partners": [],
       "articles": [
         {
-          "title": "半导体极薄铜箔涨价_6家核心公司梳理",
-          "date": "2026-03-16",
-          "source": "https://mp.weixin.qq.com/s/gvb6iCub1hfiIKL33fsSAQ",
-          "accidents": [
-            "半导体极薄铜箔涨价"
-          ],
+          "title": "德福科技：高端电子箔&载体铜箔放量+锂电二线涨价，目标市值400亿",
+          "date": "2026-04-12",
+          "source": "内部研究",
+          "content": "德福科技(301511)是高端电子箔&载体铜箔放量。\n\n主营业务：高端电子箔, 载体铜箔, 锂电铜箔。\n\n2027年产能规划：\n- 锂电: 16万吨（并表扣减兰州+安徽4.5万吨，单吨6-7k）\n- 普通标箔: 3万吨+（单吨6-7k）\n- RTF_HVLP: 2.5-3万吨（单月2500+，单吨小万）\n- 载体铜箔: 1000万平（单平35元）\n\n目标市值：400亿",
+          "analysis": "德福科技作为电力设备-电池-锂电池领域的高端电子箔&载体铜箔放量，具有以下核心优势：\n1. 业务聚焦：专注高端电子箔, 载体铜箔等核心业务\n2. 产能扩张：2027年产能规划明确，成长空间大\n\n风险提示：下游需求不及预期、产能释放不及预期、市场竞争加剧",
+          "summary": "高端电子箔&载体铜箔放量+锂电二线涨价，目标市值400亿",
+          "accidents": [],
           "insights": [
-            "受益于半导体极薄铜箔需求增长"
+            "高端电子箔&载体铜箔放量",
+            "锂电二线涨价标的",
+            "高端电子箔&载体铜箔放量+锂电二线涨价，目标市值400亿"
           ],
           "key_metrics": [
-            "3μm极薄铜箔稳定量产"
+            "目标市值400亿"
           ],
-          "target_valuation": []
+          "target_valuation": [
+            "目标市值400亿"
+          ]
         }
       ],
-      "last_updated": "2026-03-25"
+      "valuation": {
+        "target_market_cap": "400亿",
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
     },
     {
       "name": "中国联通",
@@ -13410,118 +13416,171 @@
       "name": "嘉元科技",
       "code": "688388",
       "board": "SH",
-      "mention_count": 3,
       "industry": "电力设备-电池-锂电池",
-      "article_date": "2026-03-16",
       "concepts": [
-        "共封装光学(CPO)",
-        "PCB概念",
-        "PET铜箔",
-        "宁德时代概念",
+        "锂电池",
         "固态电池",
         "新能源汽车",
-        "锂电池概念",
-        "飞行汽车(eVTOL)",
         "储能",
-        "低空经济",
-        "光伏概念",
+        "AI算力",
+        "人形机器人",
+        "铜箔",
+        "复合铜箔",
+        "动力电池",
+        "宁德时代概念",
+        "比亚迪概念",
         "沪股通",
         "融资融券"
       ],
+      "mention_count": 1,
       "products": [
-        "HVLP",
-        "≤9μm超薄电子铜箔",
-        "可剥离超薄铜箔"
+        "高性能电解铜箔",
+        "复合铜箔",
+        "精密铜线",
+        "极薄铜箔"
       ],
       "core_business": [
-        "铜箔生产"
+        "高性能锂电铜箔",
+        "高端极薄铜箔",
+        "复合铜箔",
+        "精密铜线"
       ],
       "industry_position": [
-        "高端锂电+电子铜箔双轮驱动"
+        "国内高性能锂电铜箔领军企业",
+        "高端极薄铜箔核心供应商"
       ],
       "chain": [
-        "上游-半导体材料"
+        "锂电铜箔龙头",
+        "动力电池上游材料",
+        "AI服务器PCB供应链",
+        "人形机器人相关材料"
       ],
-      "partners": null,
+      "partners": [
+        "宁德时代（三年62.6万吨长单）",
+        "比亚迪",
+        "亿纬锂能",
+        "中创新航",
+        "固态电池厂商",
+        "AI服务器PCB供应链企业",
+        "人形机器人相关企业",
+        "日韩知名电池企业",
+        "欧洲知名电池企业",
+        "北美知名电池企业"
+      ],
       "articles": [
         {
-          "title": "半导体极薄铜箔涨价_6家核心公司梳理",
-          "date": "2026-03-16",
-          "source": "https://mp.weixin.qq.com/s/gvb6iCub1hfiIKL33fsSAQ",
-          "accidents": [
-            "半导体极薄铜箔涨价"
-          ],
+          "title": "嘉元科技：国内高性能锂电铜箔领军企业，高端极薄铜箔核心供应商",
+          "date": "2026-04-12",
+          "source": "内部研究",
+          "content": "嘉元科技(688388)是国内高性能锂电铜箔领军企业、高端极薄铜箔核心供应商。\n\n主营产品：高性能电解铜箔、复合铜箔、精密铜线\n\n产品应用领域：\n- 新能源汽车\n- 储能\n- 固态电池\n- AI算力\n- 人形机器人\n\n核心客户：\n动力电池客户主要为宁德时代（三年62.6万吨长单）、比亚迪、亿纬锂能、中创新航等头部电池厂；\n新兴领域包含固态电池厂商、AI服务器PCB供应链、人形机器人相关企业；\n海外市场主要包含日韩、欧洲、北美知名电池企业，订单稳步放量。\n\n产能规划：\n2027年预计锂电产能18.5万吨（扩产3.5万吨，单吨盈利5k-考虑涨价中性落地）+海外2万吨（单吨1万），\n电子标箔产能3万吨+，根据客户验证放量；\n恩达通有望并表70%（2026年10亿，2027年20亿）。\n\n目标市值：350亿",
+          "analysis": "嘉元科技作为锂电铜箔龙头，具有以下核心优势：\n1. 技术领先：国内高性能锂电铜箔领军企业\n2. 客户优质：深度绑定宁德时代、比亚迪等头部电池厂\n3. 产能扩张：2027年产能规划明确，海外布局加速\n4. 新兴领域：切入AI算力、人形机器人等高增长赛道\n5. 业绩弹性：单吨盈利有望提升，恩达通并表贡献增量\n\n风险提示：原材料价格波动、下游需求不及预期、产能释放不及预期",
+          "summary": "嘉元科技是国内锂电铜箔龙头，深度绑定宁德时代等头部客户，2027年产能规划明确，切入AI算力、人形机器人等新兴领域，目标市值350亿。",
+          "accidents": [],
           "insights": [
-            "受益于半导体极薄铜箔需求增长"
+            "国内高性能锂电铜箔领军企业",
+            "高端极薄铜箔核心供应商",
+            "宁德时代三年62.6万吨长单",
+            "切入AI算力、人形机器人赛道",
+            "2027年目标市值350亿"
           ],
           "key_metrics": [
-            "预计2026年底70万㎡/年芯片封装极薄铜箔产能"
+            "2027年锂电产能18.5万吨",
+            "海外产能2万吨",
+            "电子标箔产能3万吨+",
+            "单吨盈利5k-1万",
+            "恩达通2026年10亿/2027年20亿",
+            "目标市值350亿"
           ],
-          "target_valuation": []
+          "target_valuation": [
+            "目标市值350亿"
+          ]
         }
       ],
-      "last_updated": "2026-03-25"
+      "valuation": {
+        "target_market_cap": "350亿",
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        " circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
     },
     {
       "name": "诺德股份",
       "code": "600110",
       "board": "SH",
-      "mention_count": 3,
       "industry": "电力设备-电池-锂电池",
-      "article_date": "2026-03-16",
       "concepts": [
-        "PET铜箔",
-        "固态电池",
-        "PCB概念",
-        "宁德时代概念",
-        "锂电池概念",
-        "比亚迪概念",
-        "特斯拉概念",
-        "军工",
-        "新能源汽车",
+        "锂电池",
+        "铜箔",
+        "极薄铜箔",
+        "动力电池",
         "储能",
-        "无人机",
-        "核电",
-        "粤港澳大湾区",
-        "绿色电力",
-        "融资融券",
-        "股权转让(并购重组)",
-        "沪股通"
+        "固态电池"
       ],
+      "mention_count": 1,
       "products": [
-        "3–9μm极薄铜箔",
-        "HVLP4",
-        "RTF",
-        "可剥离载体铜箔"
+        "锂电铜箔",
+        "极薄铜箔",
+        "标准铜箔"
       ],
       "core_business": [
-        "1. 外部环境风险"
+        "锂电铜箔",
+        "极薄铜箔",
+        "标准铜箔"
       ],
       "industry_position": [
-        "锂电铜箔龙头"
+        "纯正锂电涨价标的",
+        "极薄化领先"
       ],
-      "chain": [
-        "上游-半导体材料"
-      ],
-      "partners": [
-        "英伟达",
-        "深南电路"
-      ],
+      "chain": [],
+      "partners": [],
       "articles": [
         {
-          "title": "9月23日，热点关注，今日操作策略与风险提示，文末本周3篇报告",
-          "date": "2025-09-23",
-          "source": "https://mp.weixin.qq.com/s/uWL50qMe1Q8eb1Z6M_20hQ",
+          "title": "诺德股份：纯正锂电涨价标的&极薄化，目标市值300亿",
+          "date": "2026-04-12",
+          "source": "内部研究",
+          "content": "诺德股份(600110)是纯正锂电涨价标的。\n\n主营业务：锂电铜箔, 极薄铜箔, 标准铜箔。\n\n2027年产能规划：\n- 锂电: 13万吨（4.5/5μm占比75%+，单吨7-8k）\n- 标箔: 3万吨（单吨小万，RTF和HVLP1-2为主）\n\n目标市值：300亿",
+          "analysis": "诺德股份作为电力设备-电池-锂电池领域的纯正锂电涨价标的，具有以下核心优势：\n1. 业务聚焦：专注锂电铜箔, 极薄铜箔等核心业务\n2. 产能扩张：2027年产能规划明确，成长空间大\n\n风险提示：下游需求不及预期、产能释放不及预期、市场竞争加剧",
+          "summary": "纯正锂电涨价标的&极薄化，目标市值300亿",
           "accidents": [],
-          "insights": [],
-          "key_metrics": [
-            "1. 外部环境风险：美国对华技术管制可能进一步升级，半导体设备、AI算法等领域面临供应链不确定性"
+          "insights": [
+            "纯正锂电涨价标的",
+            "极薄化领先",
+            "纯正锂电涨价标的&极薄化，目标市值300亿"
           ],
-          "target_valuation": []
+          "key_metrics": [
+            "目标市值300亿"
+          ],
+          "target_valuation": [
+            "目标市值300亿"
+          ]
         }
       ],
-      "article_count": 1,
-      "last_updated": "2026-03-25"
+      "valuation": {
+        "target_market_cap": "300亿",
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
     },
     {
       "name": "隆扬电子",
@@ -19996,59 +20055,70 @@
       "name": "铜冠铜箔",
       "code": "301217",
       "board": "SZ",
-      "mention_count": 2,
       "industry": "电力设备-电池-锂电池",
-      "article_date": "2026-03-16",
       "concepts": [
-        "PET铜箔",
-        "PCB概念",
-        "宁德时代概念",
-        "固态电池",
-        "5G",
-        "锂电池概念",
-        "比亚迪概念",
-        "储能",
-        "国企改革",
-        "深股通",
-        "融资融券"
+        "锂电池",
+        "铜箔",
+        "HVLP",
+        "RTF",
+        "PCB",
+        "台资链"
       ],
+      "mention_count": 1,
       "products": [
-        "HVLP1-4代量产（≤9μm）",
-        "IC载板极薄铜箔",
-        "可剥离载体铜箔"
+        "锂电铜箔",
+        "标准铜箔",
+        "HVLP铜箔",
+        "RTF铜箔"
       ],
       "core_business": [
-        "铜箔生产"
+        "锂电铜箔",
+        "标准铜箔",
+        "HVLP铜箔",
+        "RTF铜箔"
       ],
       "industry_position": [
-        "国产HVLP+极薄铜箔领跑者"
+        "台资链HVLP核心供应商"
       ],
-      "chain": [
-        "上游-半导体材料"
-      ],
-      "partners": [
-        "生益科技",
-        "台光电子",
-        "华正新材"
-      ],
+      "chain": [],
+      "partners": [],
       "articles": [
         {
-          "title": "半导体极薄铜箔涨价_6家核心公司梳理",
-          "date": "2026-03-16",
-          "source": "https://mp.weixin.qq.com/s/gvb6iCub1hfiIKL33fsSAQ",
-          "accidents": [
-            "半导体极薄铜箔涨价"
-          ],
+          "title": "铜冠铜箔：台资链HVLP核心供应商，目标市值450亿+",
+          "date": "2026-04-12",
+          "source": "内部研究",
+          "content": "铜冠铜箔(301217)是台资链HVLP核心供应商。\n\n主营业务：锂电铜箔, 标准铜箔, HVLP铜箔, RTF铜箔。\n\n2027年产能规划：\n- 锂电_普通标箔: 5万吨（单吨5k）\n- RTF_HVLP1_2: 2.5-3万吨（单吨小万）\n- HVLP_3_4: 4k左右（单吨大万）\n\n目标市值：450亿+",
+          "analysis": "铜冠铜箔作为电力设备-电池-锂电池领域的台资链HVLP核心供应商，具有以下核心优势：\n1. 业务聚焦：专注锂电铜箔, 标准铜箔等核心业务\n2. 产能扩张：2027年产能规划明确，成长空间大\n\n风险提示：下游需求不及预期、产能释放不及预期、市场竞争加剧",
+          "summary": "台资链HVLP核心供应商，目标市值450亿+",
+          "accidents": [],
           "insights": [
-            "受益于半导体极薄铜箔需求增长"
+            "台资链HVLP核心供应商",
+            "台资链HVLP核心供应商，目标市值450亿+"
           ],
           "key_metrics": [
-            "HVLP占PCB铜箔超30%"
+            "目标市值450亿+"
           ],
-          "target_valuation": []
+          "target_valuation": [
+            "目标市值450亿+"
+          ]
         }
       ],
-      "last_updated": "2026-03-25"
+      "valuation": {
+        "target_market_cap": "450亿+",
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
     },
     {
       "name": "中国电信",
@@ -32423,56 +32493,69 @@
       "name": "中一科技",
       "code": "301150",
       "board": "SZ",
-      "mention_count": 1,
       "industry": "电力设备-电池-锂电池",
-      "article_date": "2026-03-16",
       "concepts": [
-        "PET铜箔",
+        "锂电池",
+        "铜箔",
         "固态电池",
-        "宁德时代概念",
-        "锂电池概念",
-        "PCB概念",
-        "比亚迪概念",
-        "专精特新",
-        "深股通",
-        "融资融券"
+        "无负极",
+        "动力电池"
       ],
+      "mention_count": 1,
       "products": [
-        "≤9μm超薄PCB铜箔",
-        "HVLP",
-        "挠性铜箔"
+        "锂电铜箔",
+        "标准铜箔",
+        "固态电池铜箔"
       ],
       "core_business": [
-        "PCB电子铜箔生产"
+        "锂电铜箔",
+        "标准铜箔",
+        "固态电池铜箔"
       ],
       "industry_position": [
-        "PCB电子铜箔龙头"
+        "成本曲线左侧",
+        "固态无负极+收购期权"
       ],
-      "chain": [
-        "上游-半导体材料"
-      ],
-      "partners": [
-        "深南电路",
-        "沪电股份"
-      ],
+      "chain": [],
+      "partners": [],
       "articles": [
         {
-          "title": "半导体极薄铜箔涨价_6家核心公司梳理",
-          "date": "2026-03-16",
-          "source": "https://mp.weixin.qq.com/s/gvb6iCub1hfiIKL33fsSAQ",
-          "accidents": [
-            "半导体极薄铜箔涨价"
-          ],
+          "title": "中一科技：成本曲线左侧&固态无负极+收购期权，目标市值200亿",
+          "date": "2026-04-12",
+          "source": "内部研究",
+          "content": "中一科技(301150)是成本曲线左侧。\n\n主营业务：锂电铜箔, 标准铜箔, 固态电池铜箔。\n\n2027年产能规划：\n- 锂电: 7万吨+（单吨6-7k）\n- 标箔: 3万吨（高端1万吨，综合单吨小万）\n- 固态期权: 50-100亿估值\n\n目标市值：200亿",
+          "analysis": "中一科技作为电力设备-电池-锂电池领域的成本曲线左侧，具有以下核心优势：\n1. 业务聚焦：专注锂电铜箔, 标准铜箔等核心业务\n2. 产能扩张：2027年产能规划明确，成长空间大\n\n风险提示：下游需求不及预期、产能释放不及预期、市场竞争加剧",
+          "summary": "成本曲线左侧&固态无负极+收购期权，目标市值200亿",
+          "accidents": [],
           "insights": [
-            "受益于半导体极薄铜箔需求增长"
+            "成本曲线左侧",
+            "固态无负极+收购期权",
+            "成本曲线左侧&固态无负极+收购期权，目标市值200亿"
           ],
           "key_metrics": [
-            "高频高速+极薄布局"
+            "目标市值200亿"
           ],
-          "target_valuation": []
+          "target_valuation": [
+            "目标市值200亿"
+          ]
         }
       ],
-      "last_updated": "2026-03-25"
+      "valuation": {
+        "target_market_cap": "200亿",
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
     },
     {
       "name": "中国移动",
@@ -78935,60 +79018,63 @@
       "board": "SH",
       "industry": "电子-消费电子-消费电子零部件及组装",
       "concepts": [
-        "算力租赁",
-        "液冷服务器",
-        "东数西算(算力)",
-        "英伟达概念",
-        "云计算",
-        "腾讯概念",
-        "芯片概念",
-        "华为概念",
-        "2025年报预增",
-        "消费电子概念",
-        "军工",
-        "小米概念",
-        "OLED",
-        "沪股通"
+        "算力",
+        "AI算力",
+        "NCP",
+        "B300",
+        "东阳光"
       ],
-      "products": [],
-      "core_business": [],
-      "industry_position": [],
+      "mention_count": 1,
+      "products": [
+        "算力租赁",
+        "AI服务器"
+      ],
+      "core_business": [
+        "算力租赁",
+        "AI服务器"
+      ],
+      "industry_position": [
+        "NCP渠道算力供应商"
+      ],
       "chain": [],
       "partners": [],
-      "article_count": 1,
       "articles": [
         {
-          "title": "4月30日-今日操作策略与风险提示-文末竞价参考",
-          "date": "2025-04-30",
-          "source": "https://mp.weixin.qq.com/s/Xw7joDqZHMaQ_f90tbvTBQ",
+          "title": "利通电子：NCP渠道算力供应商，与东阳光合作，27年净利润超18亿，目标市值380亿",
+          "date": "2026-04-12",
+          "source": "内部研究",
+          "content": "利通电子(603629)是NCP渠道算力供应商。\n\n主营业务：算力租赁, AI服务器。\n\n财务数据：\n- current_market_cap: 190亿\n- annualized_profit: 12亿\n- b300_cluster_profit: 6.5亿（单集群）\n- cooperation: 与东阳光合作，东阳光出钱，利通买卡（利通分成20%）\n- profit_2027: 超18亿\n\n目标市值：380亿\n上涨空间：翻倍空间",
+          "analysis": "利通电子作为电子-消费电子-消费电子零部件及组装领域的NCP渠道算力供应商，具有以下核心优势：\n1. 业务聚焦：专注算力租赁, AI服务器等核心业务\n4. 业绩弹性：算力业务带来新增量\n\n风险提示：下游需求不及预期、产能释放不及预期、市场竞争加剧",
+          "summary": "NCP渠道算力供应商，与东阳光合作，27年净利润超18亿，目标市值380亿",
           "accidents": [],
-          "insights": [],
-          "key_metrics": [
-            "* **防御仓位（20%）**"
-          ],
-          "target_valuation": []
-        },
-        {
-          "title": "自动导入 - 2026-03-25",
-          "url": "",
-          "date": "2026-03-25",
-          "accidents": [
-            "AIDC 受益标的"
-          ],
           "insights": [
-            "算力租赁需求爆发"
+            "NCP渠道算力供应商",
+            "NCP渠道算力供应商，与东阳光合作，27年净利润超18亿，目"
           ],
-          "key_metrics": [],
-          "target_valuation": ""
+          "key_metrics": [
+            "目标市值380亿"
+          ],
+          "target_valuation": [
+            "目标市值380亿"
+          ]
         }
       ],
-      "last_updated": "2026-03-25",
-      "insights": [
-        "算力租赁需求爆发"
-      ],
-      "accidents": [
-        "AIDC 受益标的"
-      ]
+      "valuation": {
+        "target_market_cap": "380亿",
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
     },
     {
       "name": "春兴精工",
@@ -113454,22 +113540,74 @@
       ]
     },
     {
-      "code": "002203",
       "name": "海亮股份",
-      "market": "SZ",
-      "industry": "深市主板",
-      "mention_count": 1,
-      "sample_articles": [
-        "今天的一些信息整理2_9.txt"
-      ],
-      "data_completeness": {
-        "market_data": false,
-        "financials": false,
-        "sentiment": true
-      },
+      "code": "002203",
+      "board": "SZ",
+      "industry": "有色金属-工业金属-铜",
       "concepts": [
-        "深市主板"
-      ]
+        "锂电池",
+        "铜箔",
+        "美国基地",
+        "液冷",
+        "铜加工"
+      ],
+      "mention_count": 1,
+      "products": [
+        "铜加工",
+        "锂电铜箔",
+        "液冷材料"
+      ],
+      "core_business": [
+        "铜加工",
+        "锂电铜箔",
+        "液冷材料"
+      ],
+      "industry_position": [
+        "锂电量增",
+        "美国基地",
+        "液冷逻辑"
+      ],
+      "chain": [],
+      "partners": [],
+      "articles": [
+        {
+          "title": "海亮股份：锂电量增&美国基地&液冷逻辑，目标市值450亿",
+          "date": "2026-04-12",
+          "source": "内部研究",
+          "content": "海亮股份(002203)是锂电量增。\n\n主营业务：铜加工, 锂电铜箔, 液冷材料。\n\n2027年产能规划：\n- 美国业务: 26年5万吨（单吨3000美金）\n- 铜箔: 26年扩产3万吨，公告规划6.75万吨，单吨盈利5-6k\n\n目标市值：450亿",
+          "analysis": "海亮股份作为有色金属-工业金属-铜领域的锂电量增，具有以下核心优势：\n1. 业务聚焦：专注铜加工, 锂电铜箔等核心业务\n2. 产能扩张：2027年产能规划明确，成长空间大\n\n风险提示：下游需求不及预期、产能释放不及预期、市场竞争加剧",
+          "summary": "锂电量增&美国基地&液冷逻辑，目标市值450亿",
+          "accidents": [],
+          "insights": [
+            "锂电量增",
+            "美国基地",
+            "液冷逻辑",
+            "锂电量增&美国基地&液冷逻辑，目标市值450亿"
+          ],
+          "key_metrics": [
+            "目标市值450亿"
+          ],
+          "target_valuation": [
+            "目标市值450亿"
+          ]
+        }
+      ],
+      "valuation": {
+        "target_market_cap": "450亿",
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
     },
     {
       "code": "300426",
@@ -113724,22 +113862,66 @@
       ]
     },
     {
-      "code": "688372",
       "name": "伟测科技",
-      "market": "SH",
-      "industry": "科创板",
-      "mention_count": 1,
-      "sample_articles": [
-        "今天的一些信息整理3_04.txt"
-      ],
-      "data_completeness": {
-        "market_data": false,
-        "financials": false,
-        "sentiment": true
-      },
+      "code": "688372",
+      "board": "SH",
+      "industry": "电子-半导体-集成电路封测",
       "concepts": [
-        "科技"
-      ]
+        "半导体",
+        "芯片测试",
+        "算力芯片",
+        "H客户",
+        "国产算力"
+      ],
+      "mention_count": 1,
+      "products": [
+        "独立第三方测试",
+        "算力芯片测试"
+      ],
+      "core_business": [
+        "独立第三方测试",
+        "算力芯片测试"
+      ],
+      "industry_position": [
+        "独立第三方测试龙头",
+        "算力芯片测试核心供应商"
+      ],
+      "chain": [],
+      "partners": [],
+      "articles": [
+        {
+          "title": "伟测科技：独立第三方测试龙头，算力芯片测试核心供应商，受益国产算力成长",
+          "date": "2026-04-12",
+          "source": "内部研究",
+          "content": "伟测科技(688372)是独立第三方测试龙头。\n\n主营业务：独立第三方测试, 算力芯片测试。\n\n核心看点：\n- 公司定位独立第三方测试，受益China for China策略下测试需求回流\n- 算力芯片业务是公司26年最核心成长点\n- 公司以H大客户为基本盘，国产算力客户覆盖度极高\n- 有望受益海光、昆仑芯、摩尔等客户端成长\n- 算力芯片端以高端机台为主，毛利率更高\n- 目前在H端测试份额仅个位数，后续成长弹性大、增速高",
+          "analysis": "伟测科技作为电子-半导体-集成电路封测领域的独立第三方测试龙头，具有以下核心优势：\n1. 业务聚焦：专注独立第三方测试, 算力芯片测试等核心业务\n3. 核心看点：受益国产替代和AI算力需求增长\n\n风险提示：下游需求不及预期、产能释放不及预期、市场竞争加剧",
+          "summary": "独立第三方测试龙头，算力芯片测试核心供应商，受益国产算力成长",
+          "accidents": [],
+          "insights": [
+            "独立第三方测试龙头",
+            "算力芯片测试核心供应商",
+            "独立第三方测试龙头，算力芯片测试核心供应商，受益国产算力成长"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
     },
     {
       "code": "688533",
@@ -116036,6 +116218,135 @@
           "target_valuation": []
         }
       ]
+    },
+    {
+      "name": "盈峰环境",
+      "code": "000967",
+      "board": "SZ",
+      "industry": "环保-环保设备-环保设备",
+      "concepts": [
+        "算力",
+        "AI算力",
+        "NCP",
+        "环保",
+        "环卫"
+      ],
+      "mention_count": 1,
+      "products": [
+        "环卫装备",
+        "算力租赁"
+      ],
+      "core_business": [
+        "环卫装备",
+        "算力租赁"
+      ],
+      "industry_position": [
+        "NCP渠道算力供应商",
+        "环卫装备龙头"
+      ],
+      "chain": [],
+      "partners": [],
+      "articles": [
+        {
+          "title": "盈峰环境：NCP渠道算力供应商，4000台B300集群，27年利润25亿，目标市值500亿",
+          "date": "2026-04-12",
+          "source": "内部研究",
+          "content": "盈峰环境(000967)是NCP渠道算力供应商。\n\n主营业务：环卫装备, 算力租赁。\n\n财务数据：\n- current_market_cap: 324亿\n- clusters: 4000台B300建设集群\n- profit_2027: 年化20亿（算力）+ 5亿（主业）= 25亿\n\n目标市值：500亿\n上涨空间：60%空间",
+          "analysis": "盈峰环境作为环保-环保设备-环保设备领域的NCP渠道算力供应商，具有以下核心优势：\n1. 业务聚焦：专注环卫装备, 算力租赁等核心业务\n4. 业绩弹性：算力业务带来新增量\n\n风险提示：下游需求不及预期、产能释放不及预期、市场竞争加剧",
+          "summary": "NCP渠道算力供应商，4000台B300集群，27年利润25亿，目标市值500亿",
+          "accidents": [],
+          "insights": [
+            "NCP渠道算力供应商",
+            "环卫装备龙头",
+            "NCP渠道算力供应商，4000台B300集群，27年利润25"
+          ],
+          "key_metrics": [
+            "目标市值500亿"
+          ],
+          "target_valuation": [
+            "目标市值500亿"
+          ]
+        }
+      ],
+      "valuation": {
+        "target_market_cap": "500亿",
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    {
+      "name": "行云科技",
+      "code": "300467",
+      "board": "SZ",
+      "industry": "计算机-IT服务-IT服务",
+      "concepts": [
+        "算力",
+        "AI算力",
+        "NCP",
+        "B300"
+      ],
+      "mention_count": 1,
+      "products": [
+        "算力租赁",
+        "IT服务"
+      ],
+      "core_business": [
+        "算力租赁",
+        "IT服务"
+      ],
+      "industry_position": [
+        "NCP渠道算力供应商"
+      ],
+      "chain": [],
+      "partners": [],
+      "articles": [
+        {
+          "title": "行云科技：NCP渠道算力供应商，2000台B300集群，27年利润13.6亿，目标市值272亿",
+          "date": "2026-04-12",
+          "source": "内部研究",
+          "content": "行云科技(300467)是NCP渠道算力供应商。\n\n主营业务：算力租赁, IT服务。\n\n财务数据：\n- current_market_cap: 107亿\n- clusters: 已锁定2000台B300建设集群\n- profit_2027: 年化13.2亿（算力）+ 0.4亿（主业）= 13.6亿\n\n目标市值：272亿\n上涨空间：154%空间",
+          "analysis": "行云科技作为计算机-IT服务-IT服务领域的NCP渠道算力供应商，具有以下核心优势：\n1. 业务聚焦：专注算力租赁, IT服务等核心业务\n4. 业绩弹性：算力业务带来新增量\n\n风险提示：下游需求不及预期、产能释放不及预期、市场竞争加剧",
+          "summary": "NCP渠道算力供应商，2000台B300集群，27年利润13.6亿，目标市值272亿",
+          "accidents": [],
+          "insights": [
+            "NCP渠道算力供应商",
+            "NCP渠道算力供应商，2000台B300集群，27年利润13"
+          ],
+          "key_metrics": [
+            "目标市值272亿"
+          ],
+          "target_valuation": [
+            "目标市值272亿"
+          ]
+        }
+      ],
+      "valuation": {
+        "target_market_cap": "272亿",
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
     }
   ],
   "meta": {
@@ -116044,5 +116355,7 @@
     "source": "agent_merge",
     "supplemented": true,
     "concepts_supplemented_from_excel": true
-  }
+  },
+  "total_stocks": 3155,
+  "last_updated": "2026-04-12 22:09:58"
 }
