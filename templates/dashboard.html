@@ -168,6 +168,88 @@
             margin-top:.2rem;
         }
         /* ─── Full-text Search ─── */
+        /* 本月热点 */
+        .hot-topics-section {
+            margin:1.5rem 0;
+            padding:1.25rem;
+            background:linear-gradient(135deg, rgba(245,158,11,.08) 0%, rgba(139,92,246,.06) 100%);
+            border:1px solid rgba(245,158,11,.15);
+            border-radius:12px;
+        }
+        .hot-topics-title {
+            font-size:1rem;
+            font-weight:700;
+            color:var(--amber);
+            margin-bottom:1rem;
+            display:flex;
+            align-items:center;
+            gap:.5rem;
+        }
+        .hot-topics-grid {
+            display:grid;
+            grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));
+            gap:1rem;
+        }
+        .hot-topic-card {
+            background:rgba(15,22,35,.8);
+            border:1px solid var(--border);
+            border-radius:10px;
+            padding:1rem;
+            transition:all .2s;
+        }
+        .hot-topic-card:hover {
+            border-color:var(--border-h);
+            transform:translateY(-2px);
+            box-shadow:0 4px 20px rgba(0,0,0,.3);
+        }
+        .hot-topic-header {
+            display:flex;
+            align-items:center;
+            gap:.5rem;
+            margin-bottom:.5rem;
+        }
+        .hot-topic-icon {
+            font-size:1.2rem;
+        }
+        .hot-topic-name {
+            font-size:.95rem;
+            font-weight:600;
+            color:var(--cyan);
+        }
+        .hot-topic-desc {
+            font-size:.78rem;
+            color:var(--t2);
+            line-height:1.5;
+            margin-bottom:.75rem;
+            padding-bottom:.75rem;
+            border-bottom:1px solid var(--border);
+        }
+        .hot-topic-stocks {
+            display:flex;
+            flex-wrap:wrap;
+            gap:.4rem;
+        }
+        .hot-stock-tag {
+            display:inline-block;
+            padding:.25rem .6rem;
+            background:rgba(59,130,246,.12);
+            border:1px solid rgba(59,130,246,.25);
+            border-radius:15px;
+            color:var(--blue);
+            font-size:.72rem;
+            text-decoration:none;
+            transition:all .15s;
+        }
+        .hot-stock-tag:hover {
+            background:rgba(59,130,246,.25);
+            color:#60a5fa;
+        }
+        @media (max-width:768px) {
+            .hot-topics-grid {
+                grid-template-columns:1fr;
+            }
+        }
+        
         .fulltext-search-wrap {
             width:100%;
             max-width:600px;
@@ -659,6 +741,74 @@
             <div>
                 <div class="page-title">📊 智能投研仪表板</div>
                 <div class="page-sub">实时追踪 · AI 洞察 · 个股深度研究</div>
+            </div>
+        </div>
+        
+        <!-- 本月热点 -->
+        <div class="hot-topics-section">
+            <div class="hot-topics-title">🔥 本月热点</div>
+            <div class="hot-topics-grid">
+                <!-- 光互联 -->
+                <div class="hot-topic-card">
+                    <div class="hot-topic-header">
+                        <span class="hot-topic-icon">💡</span>
+                        <span class="hot-topic-name">光互联</span>
+                    </div>
+                    <div class="hot-topic-desc">Lumentum表示目前订单量已可排至2028年</div>
+                    <div class="hot-topic-stocks">
+                        <a href="/stock/600105" class="hot-stock-tag">永鼎股份</a>
+                        <a href="/stock/300308" class="hot-stock-tag">中际旭创</a>
+                        <a href="/stock/002281" class="hot-stock-tag">光迅科技</a>
+                        <a href="/stock/300548" class="hot-stock-tag">长芯博创</a>
+                        <a href="/stock/002475" class="hot-stock-tag">立讯精密</a>
+                    </div>
+                </div>
+                
+                <!-- PCB/CCL -->
+                <div class="hot-topic-card">
+                    <div class="hot-topic-header">
+                        <span class="hot-topic-icon">🖥️</span>
+                        <span class="hot-topic-name">PCB/CCL</span>
+                    </div>
+                    <div class="hot-topic-desc">三菱瓦斯化学、建滔积层板先后发布涨价函</div>
+                    <div class="hot-topic-stocks">
+                        <a href="/stock/002384" class="hot-stock-tag">东山精密</a>
+                        <a href="/stock/002463" class="hot-stock-tag">沪电股份</a>
+                        <a href="/stock/603256" class="hot-stock-tag">宏和科技</a>
+                        <a href="/stock/002008" class="hot-stock-tag">大族激光</a>
+                        <a href="/stock/002636" class="hot-stock-tag">金安国纪</a>
+                    </div>
+                </div>
+                
+                <!-- 锂电 -->
+                <div class="hot-topic-card">
+                    <div class="hot-topic-header">
+                        <span class="hot-topic-icon">🔋</span>
+                        <span class="hot-topic-name">锂电</span>
+                    </div>
+                    <div class="hot-topic-desc">宜春四矿或于5月进入停产换证阶段，锂矿供应或进一步收紧</div>
+                    <div class="hot-topic-stocks">
+                        <a href="/stock/300390" class="hot-stock-tag">天华新能</a>
+                        <a href="/stock/002580" class="hot-stock-tag">圣阳股份</a>
+                        <a href="/stock/603026" class="hot-stock-tag">石大胜华</a>
+                        <a href="/stock/002074" class="hot-stock-tag">国轩高科</a>
+                    </div>
+                </div>
+                
+                <!-- 半导体 -->
+                <div class="hot-topic-card">
+                    <div class="hot-topic-header">
+                        <span class="hot-topic-icon">💾</span>
+                        <span class="hot-topic-name">半导体</span>
+                    </div>
+                    <div class="hot-topic-desc">美股存储板块延续涨势，闪迪再创历史新高</div>
+                    <div class="hot-topic-stocks">
+                        <a href="/stock/001309" class="hot-stock-tag">德明利</a>
+                        <a href="/stock/002213" class="hot-stock-tag">大为股份</a>
+                        <a href="/stock/603306" class="hot-stock-tag">华懋科技</a>
+                        <a href="/stock/300782" class="hot-stock-tag">卓胜微</a>
+                    </div>
+                </div>
             </div>
         </div>
         
