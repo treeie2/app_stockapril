@@ -552,6 +552,22 @@
             border-radius: 4px;
             padding: 0.1rem 0.45rem;
         }
+        .article-source-link {
+            font-size: 0.7rem;
+            color: var(--accent-cyan);
+            background: rgba(6,182,212,0.08);
+            border: 1px solid rgba(6,182,212,0.2);
+            border-radius: 4px;
+            padding: 0.1rem 0.45rem;
+            text-decoration: none;
+            transition: all 0.2s;
+            display: inline-block;
+        }
+        .article-source-link:hover {
+            background: rgba(6,182,212,0.15);
+            border-color: rgba(6,182,212,0.35);
+            color: #22d3ee;
+        }
         
         .article-date {
             font-size: 0.7rem;
@@ -1200,7 +1216,15 @@
                                         {% endif %}
                                         <div class="article-meta-row">
                                             {% if article.source %}
-                                                <span class="article-source">📤 {{ article.source | replace('https://mp.weixin.qq.com/s/', '微信 · ') | replace('https://', '') | truncate(40) }}</span>
+                                                {% if 'mp.weixin.qq.com' in article.source %}
+                                                    <a href="{{ article.source }}" target="_blank" rel="noopener" class="article-source-link" onclick="event.stopPropagation()">
+                                                        📤 微信 · {{ article.source.split('/')[-1][:20] }}
+                                                    </a>
+                                                {% else %}
+                                                    <a href="{{ article.source }}" target="_blank" rel="noopener" class="article-source-link" onclick="event.stopPropagation()">
+                                                        📤 {{ article.source | replace('https://', '') | truncate(40) }}
+                                                    </a>
+                                                {% endif %}
                                             {% endif %}
                                             {% if article.date %}
                                                 <span class="article-date">📅 {{ article.date }}</span>
