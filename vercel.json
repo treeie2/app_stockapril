@@ -3,11 +3,15 @@
   "git": {
     "submodules": false
   },
-  "functions": {
-    "api/index.py": {
-      "maxDuration": 30
+  "builds": [
+    {
+      "src": "api/index.py",
+      "use": "@vercel/python",
+      "config": {
+        "maxLambdaSize": "15mb"
+      }
     }
-  },
+  ],
   "routes": [
     {
       "src": "/static/(.*)",
