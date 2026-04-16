@@ -585,9 +585,9 @@ def api_stock(code):
         return jsonify({'error': '股票不存在'}), 404
     d = stocks[code]
     return jsonify({'code': code, 'name': d.get('name',''), 'board': d.get('board',''),
+                   'industry': d.get('industry',''),
                    'mention_count': d.get('mention_count',0), 
                    'concepts': d.get('concepts',[]),
-                   'industries': d.get('industries',[]), 
                    'products': d.get('products',[]),
                    'core_business': d.get('core_business',[]),
                    'industry_position': d.get('industry_position',[]),
