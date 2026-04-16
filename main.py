@@ -289,8 +289,16 @@ def dashboard():
         
         all_stocks.append(stock)
     
-    # 默认按 last_updated 排序（优先），没有则按最新文章日期倒序排列
-    all_stocks.sort(key=lambda x: (x.get('last_updated', '') or '', x.get('latest_article_date', '')), reverse=True)
+    # 按最后更新时间排序：优先使用 last_updated，没有的用今天日期（确保新股票排在前面）
+    from datetime import date
+    today_str = date.today().isoformat()  # 格式：2026-04-16
+    
+    def sort_key(x):
+        # 优先使用 last_updated，如果没有则用今天日期
+        last_updated = x.get('last_updated', '') or today_str
+        return last_updated
+    
+    all_stocks.sort(key=sort_key, reverse=True)
     
     # 分页
     total = len(all_stocks)
