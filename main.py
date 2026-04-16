@@ -201,9 +201,16 @@ def load_data_from_local():
         else:
             raise FileNotFoundError("未找到 stocks_master 数据文件")
         
-        # 转换为字典格式
-        stocks_list = master_data.get('stocks', [])
-        stocks = {s['code']: s for s in stocks_list if 'code' in s}
+        # 处理数据格式（支持列表或字典格式）
+        stocks_data = master_data.get('stocks', [])
+        
+        # 如果是字典格式（code 为 key），转换为列表
+        if isinstance(stocks_data, dict):
+            stocks_list = list(stocks_data.values())
+            stocks = stocks_data
+        else:
+            stocks_list = stocks_data
+            stocks = {s['code']: s for s in stocks_list if 'code' in s}
         
         # 从概念字段提取所有概念
         concepts = {}
