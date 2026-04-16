@@ -234,8 +234,20 @@ stocks, concepts = load_data_from_firebase()
 if stocks is None:
     stocks, concepts = load_data_from_local()
 
+# 加载热点数据
+HOT_TOPICS_FILE = Path(__file__).parent / 'data' / 'hot_topics.json'
+hot_topics = []
+if HOT_TOPICS_FILE.exists():
+    try:
+        with open(HOT_TOPICS_FILE, 'r', encoding='utf-8') as f:
+            hot_topics_data = json.load(f)
+            hot_topics = hot_topics_data.get('topics', [])
+        print(f"📊 加载热点数据：{len(hot_topics)} 个热点")
+    except Exception as e:
+        print(f"⚠️ 加载热点数据失败: {e}")
+
 # 数据加载完成
-print(f"📊 数据加载完成：{len(stocks)} 只股票，{len(concepts)} 个概念")
+print(f"📊 数据加载完成：{len(stocks)} 只股票，{len(concepts)} 个概念，{len(hot_topics)} 个热点")
 
 @app.route('/')
 def dashboard():
@@ -309,7 +321,8 @@ def dashboard():
         total_articles=len(articles),
         has_more=has_more,
         next_offset=offset + limit,
-        limit=limit)
+        limit=limit,
+        hot_topics=hot_topics)
 
 @app.route('/stocks')
 def stocks_list():
