@@ -289,14 +289,15 @@ def dashboard():
         
         all_stocks.append(stock)
     
-    # 按最后更新时间排序：优先使用 last_updated，没有的用今天日期（确保新股票排在前面）
-    from datetime import date
-    today_str = date.today().isoformat()  # 格式：2026-04-16
-    
+    # 按最后更新时间排序：有 last_updated 的排在前面（按时间倒序），没有的排在后面
     def sort_key(x):
-        # 优先使用 last_updated，如果没有则用今天日期
-        last_updated = x.get('last_updated', '') or today_str
-        return last_updated
+        last_updated = x.get('last_updated', '')
+        if last_updated:
+            # 有 last_updated 的排在前面，按时间倒序（最新的在前）
+            return ('0', last_updated)
+        else:
+            # 没有 last_updated 的排在后面
+            return ('1', '')
     
     all_stocks.sort(key=sort_key, reverse=True)
     
