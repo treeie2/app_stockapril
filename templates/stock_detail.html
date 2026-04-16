@@ -281,6 +281,19 @@
             margin-left: 0.2rem;
         }
         
+        .update-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.35rem;
+            padding: 0.35rem 0.7rem;
+            border-radius: 20px;
+            background: rgba(99, 179, 237, 0.1);
+            border: 1px solid rgba(99, 179, 237, 0.25);
+            color: var(--accent-cyan);
+            font-size: 0.75rem;
+            font-weight: 500;
+        }
+        
         @keyframes ss-glow {
             0%, 100% { box-shadow: 0 0 12px rgba(234,179,8,0.2); }
             50% { box-shadow: 0 0 20px rgba(234,179,8,0.35); }
@@ -964,7 +977,7 @@
                 </div>
             </div>
             
-            <!-- 板块 · 行业 · 提及次数 · 社保基金 -->
+            <!-- 板块 · 行业 · 提及次数 · 社保基金 · 更新时间 -->
             <div class="hero-bottom">
                 {% if stock.board %}<span class="board-badge">{{ stock.board }}</span>{% endif %}
                 {% if stock.industry %}<span class="industry-badge">{{ stock.industry }}</span>{% endif %}
@@ -977,6 +990,11 @@
                         {% if stock.social_security_holding_ratio %}
                             <span class="ss-ratio">{{ stock.social_security_holding_ratio }}</span>
                         {% endif %}
+                    </div>
+                {% endif %}
+                {% if stock.last_updated %}
+                    <div class="update-badge" title="最后更新时间">
+                        🕐 {{ stock.last_updated[:10] }}
                     </div>
                 {% endif %}
             </div>

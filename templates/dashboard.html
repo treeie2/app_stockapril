@@ -859,6 +859,7 @@
                         <th class="num col-cap" style="min-width:76px;">总市值</th>
                         <th class="num col-mention" style="min-width:60px;">提及</th>
                         <th class="num col-articles" style="min-width:60px;">文章</th>
+                        <th class="col-updated" style="min-width:100px;">更新时间</th>
                     </tr>
                 </thead>
                 <tbody id="tbody">
@@ -908,9 +909,16 @@
                             <span class="art-b">📰 {{ stock.articles | length }}</span>
                             {% else %}<span style="color:var(--t3)">—</span>{% endif %}
                         </td>
+                        <td class="col-updated" style="font-size:.72rem;color:var(--t2);">
+                            {% if stock.last_updated %}
+                                {{ stock.last_updated[:10] }}
+                            {% else %}
+                                <span style="color:var(--t3)">—</span>
+                            {% endif %}
+                        </td>
                     </tr>
                     {% else %}
-                    <tr class="empty-row"><td colspan="9">暂无股票数据</td></tr>
+                    <tr class="empty-row"><td colspan="10">暂无股票数据</td></tr>
                     {% endfor %}
                 </tbody>
             </table>
