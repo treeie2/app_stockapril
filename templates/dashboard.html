@@ -780,6 +780,7 @@
                 </button>
             </div>
             <div class="hot-topics-grid">
+                <!-- 动态热点 -->
                 {% if hot_topics %}
                     {% for topic in hot_topics %}
                     <div class="hot-topic-card">
@@ -795,21 +796,70 @@
                         </div>
                     </div>
                     {% endfor %}
-                {% else %}
-                    <!-- 默认热点（当没有数据时显示） -->
-                    <div class="hot-topic-card">
-                        <div class="hot-topic-header">
-                            <span class="hot-topic-icon">💡</span>
-                            <span class="hot-topic-name">光互联</span>
-                        </div>
-                        <div class="hot-topic-desc">Lumentum表示目前订单量已可排至2028年</div>
-                        <div class="hot-topic-stocks">
-                            <span class="hot-stock-tag">永鼎股份</span>
-                            <span class="hot-stock-tag">中际旭创</span>
-                            <span class="hot-stock-tag">光迅科技</span>
-                        </div>
-                    </div>
                 {% endif %}
+                
+                <!-- 默认热点 -->
+                <!-- 光互联 -->
+                <div class="hot-topic-card">
+                    <div class="hot-topic-header">
+                        <span class="hot-topic-icon">💡</span>
+                        <span class="hot-topic-name">光互联</span>
+                    </div>
+                    <div class="hot-topic-desc">Lumentum表示目前订单量已可排至2028年</div>
+                    <div class="hot-topic-stocks">
+                        <span class="hot-stock-tag">永鼎股份</span>
+                        <span class="hot-stock-tag">中际旭创</span>
+                        <span class="hot-stock-tag">光迅科技</span>
+                        <span class="hot-stock-tag">长芯博创</span>
+                        <span class="hot-stock-tag">立讯精密</span>
+                    </div>
+                </div>
+                
+                <!-- PCB/CCL -->
+                <div class="hot-topic-card">
+                    <div class="hot-topic-header">
+                        <span class="hot-topic-icon">🖥️</span>
+                        <span class="hot-topic-name">PCB/CCL</span>
+                    </div>
+                    <div class="hot-topic-desc">三菱瓦斯化学、建滔积层板先后发布涨价函</div>
+                    <div class="hot-topic-stocks">
+                        <span class="hot-stock-tag">东山精密</span>
+                        <span class="hot-stock-tag">沪电股份</span>
+                        <span class="hot-stock-tag">宏和科技</span>
+                        <span class="hot-stock-tag">大族激光</span>
+                        <span class="hot-stock-tag">金安国纪</span>
+                    </div>
+                </div>
+                
+                <!-- 锂电 -->
+                <div class="hot-topic-card">
+                    <div class="hot-topic-header">
+                        <span class="hot-topic-icon">🔋</span>
+                        <span class="hot-topic-name">锂电</span>
+                    </div>
+                    <div class="hot-topic-desc">宜春四矿或于5月进入停产换证阶段，锂矿供应或进一步收紧</div>
+                    <div class="hot-topic-stocks">
+                        <span class="hot-stock-tag">天华新能</span>
+                        <span class="hot-stock-tag">圣阳股份</span>
+                        <span class="hot-stock-tag">石大胜华</span>
+                        <span class="hot-stock-tag">国轩高科</span>
+                    </div>
+                </div>
+                
+                <!-- 半导体 -->
+                <div class="hot-topic-card">
+                    <div class="hot-topic-header">
+                        <span class="hot-topic-icon">💾</span>
+                        <span class="hot-topic-name">半导体</span>
+                    </div>
+                    <div class="hot-topic-desc">美股存储板块延续涨势，闪迪再创历史新高</div>
+                    <div class="hot-topic-stocks">
+                        <span class="hot-stock-tag">德明利</span>
+                        <span class="hot-stock-tag">大为股份</span>
+                        <span class="hot-stock-tag">华懋科技</span>
+                        <span class="hot-stock-tag">卓胜微</span>
+                    </div>
+                </div>
             </div>
         </div>
         
