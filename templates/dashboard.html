@@ -234,6 +234,7 @@
             align-items:center;
             gap:.5rem;
             margin-bottom:.5rem;
+            position:relative;
         }
         .hot-topic-icon {
             font-size:1.2rem;
@@ -242,6 +243,28 @@
             font-size:.95rem;
             font-weight:600;
             color:var(--cyan);
+            flex:1;
+        }
+        .delete-topic-btn {
+            width:22px;
+            height:22px;
+            border-radius:50%;
+            border:1px solid rgba(244,63,94,0.3);
+            background:rgba(244,63,94,0.1);
+            color:var(--rose);
+            font-size:14px;
+            font-weight:600;
+            cursor:pointer;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            transition:all .2s;
+            margin-left:auto;
+        }
+        .delete-topic-btn:hover {
+            background:rgba(244,63,94,0.25);
+            border-color:rgba(244,63,94,0.5);
+            transform:scale(1.1);
         }
         .hot-topic-desc {
             font-size:.78rem;
@@ -783,10 +806,11 @@
                 <!-- 动态热点 -->
                 {% if hot_topics %}
                     {% for topic in hot_topics %}
-                    <div class="hot-topic-card">
+                    <div class="hot-topic-card" data-topic-id="{{ topic.id }}">
                         <div class="hot-topic-header">
                             <span class="hot-topic-icon">🔥</span>
                             <span class="hot-topic-name">{{ topic.name }}</span>
+                            <button class="delete-topic-btn" onclick="deleteHotTopic('{{ topic.id }}', '{{ topic.name }}')" title="删除此热点">×</button>
                         </div>
                         <div class="hot-topic-desc">{{ topic.drivers[:80] }}{% if topic.drivers|length > 80 %}...{% endif %}</div>
                         <div class="hot-topic-stocks">
@@ -1734,6 +1758,28 @@
                 closeAddHotTopicModal();
             }
         });
+        
+        // 删除热点功能
+        function deleteHotTopic(topicId, topicName) {
+            if (!confirm(`确定要删除热点 "${topicName}" 吗？`)) {
+                return;
+            }
+            
+            // 从界面上移除
+            const card = document.querySelector(`[data-topic-id="${topicId}"]`);
+            if (card) {
+                card.style.opacity = '0';
+                card.style.transform = 'scale(0.9)';
+                setTimeout(() => {
+                    card.remove();
+                }, 200);
+            }
+            
+            // 可选：发送到后端删除（如果需要持久化删除）
+            // fetch('/api/delete-hot-topic', { method: 'POST', body: JSON.stringify({ id: topicId }) });
+            
+            console.log(`已删除热点: ${topicName} (${topicId})`);
+        }
     </script>
 </body>
 </html>
