@@ -1730,11 +1730,30 @@
                 }, 200);
             }
             
-            // 可选：发送到后端删除（如果需要持久化删除）
-            // fetch('/api/delete-hot-topic', { method: 'POST', body: JSON.stringify({ id: topicId }) });
+            // 保存到 localStorage，刷新后保持删除状态
+            let deletedTopics = JSON.parse(localStorage.getItem('deletedHotTopics') || '[]');
+            if (!deletedTopics.includes(topicId)) {
+                deletedTopics.push(topicId);
+                localStorage.setItem('deletedHotTopics', JSON.stringify(deletedTopics));
+            }
             
             console.log(`已删除热点: ${topicName} (${topicId})`);
         }
+        
+        // 页面加载时，恢复删除状态
+        function applyDeletedTopics() {
+            const deletedTopics = JSON.parse(localStorage.getItem('deletedHotTopics') || '[]');
+            deletedTopics.forEach(topicId => {
+                const card = document.querySelector(`[data-topic-id="${topicId}"]`);
+                if (card) {
+                    card.remove();
+                }
+            });
+            console.log(`已恢复 ${deletedTopics.length} 个删除状态`);
+        }
+        
+        // 页面加载完成后应用删除状态
+        document.addEventListener('DOMContentLoaded', applyDeletedTopics);
     </script>
 </body>
 </html>

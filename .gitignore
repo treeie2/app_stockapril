@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+data/sentiment/*.json
+data/sentiment/search_index_lite*
+!data/sentiment/search_index_full.json.gz
+.env
+.env.local
+.vscode/
+.idea/
+*.swp
+*.swo
+*.log
+# 大文件（但保留 stocks_master.json 用于部署）
+data/fundamentals/market_data.json
+
+# Skill 文件（不需要同步到 GitHub）
+.trae/skills/
