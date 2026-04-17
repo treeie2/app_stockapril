@@ -344,12 +344,23 @@ def dashboard():
         last_updated = x.get('last_updated', '')
         if last_updated:
             # 有 last_updated 的排在前面，按时间倒序（最新的在前）
-            return ('0', last_updated)
+            # 返回元组：(优先级, 日期)，优先级0表示有更新时间
+            return (0, last_updated)
         else:
             # 没有 last_updated 的排在后面
-            return ('1', '')
+            # 优先级1表示无更新时间，用空字符串占位
+            return (1, '')
     
-    all_stocks.sort(key=sort_key, reverse=True)
+    # 按排序键排序（日期倒序，所以第二个元素要 reverse）
+    # 但元组排序会整体 reverse，所以我们手动实现排序
+    stocks_with_update = [s for s in all_stocks if s.get('last_updated')]
+    stocks_without_update = [s for s in all_stocks if not s.get('last_updated')]
+    
+    # 有更新时间的按日期倒序（最新的在前）
+    stocks_with_update.sort(key=lambda x: x.get('last_updated', ''), reverse=True)
+    
+    # 合并：先排有更新时间的，再排没有更新时间的
+    all_stocks = stocks_with_update + stocks_without_update
     
     # 分页
     total = len(all_stocks)
