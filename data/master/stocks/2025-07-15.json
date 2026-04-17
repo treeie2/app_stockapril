@@ -1,0 +1,71 @@
+{
+  "date": "2025-07-15",
+  "update_count": 1,
+  "stocks": {
+    "600027": {
+      "name": "华电国际",
+      "code": "600027",
+      "board": "SH",
+      "industry": "公用事业-电力-火电",
+      "concepts": [
+        "超超临界发电",
+        "煤炭概念",
+        "绿色电力",
+        "证金持股",
+        "虚拟电厂",
+        "央企国企改革",
+        "国企改革",
+        "风电",
+        "氢能源",
+        "沪股通",
+        "融资融券",
+        "股权转让(并购重组)"
+      ],
+      "mention_count": 1,
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "articles": [
+        {
+          "title": "风口byTY",
+          "date": "2025-07-15",
+          "source": "https://mp.weixin.qq.com/s/40IzNebEqen_GMid8BvSzg",
+          "accidents": [
+            "政策暖风之下，",
+            "从政策风向到市场趋势，"
+          ],
+          "insights": [],
+          "key_metrics": [
+            "同比增长 26.1% 横向对比",
+            "同比降 7.0% 对比华能国际 5.8% 的煤价降幅和 5.2% 的燃料成本降幅",
+            "增长 26.1% 横向对比",
+            "营收 1129.9 亿元",
+            "净利润 57.0 亿元"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    }
+  }
+}

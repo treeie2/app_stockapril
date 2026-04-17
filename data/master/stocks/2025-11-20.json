@@ -1,0 +1,104 @@
+{
+  "date": "2025-11-20",
+  "update_count": 2,
+  "stocks": {
+    "601059": {
+      "name": "信达证券",
+      "code": "601059",
+      "board": "SH",
+      "industry": "非银金融-证券-证券Ⅲ",
+      "concepts": [
+        "期货概念",
+        "京津冀一体化",
+        "国企改革",
+        "央企国企改革",
+        "沪股通",
+        "融资融券"
+      ],
+      "mention_count": 1,
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "articles": [
+        {
+          "title": "11月20日，热点关注，今日操作策略与风险提示，文末本周1篇报告",
+          "date": "2025-11-20",
+          "source": "https://mp.weixin.qq.com/s/nIuDr8zsHw6Ub8hBoe5SfA",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "2. **中日摩擦衍生题材**："
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "article_count": 1,
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "300245": {
+      "name": "国产操作系统",
+      "code": "300245",
+      "articles": [
+        {
+          "title": "300245  国产操作系统 数据中心 算力网络 云服务 华为欧拉 区块链 IT服务领域的上市公司",
+          "date": "2025-11-20",
+          "source": "https://mp.weixin.qq.com/s/3dwlCPe00G6PbQdtPdpbKw",
+          "accidents": [
+            "公司研发了DCOS云操作系统等产品，积极参与国产操作系统生态建设，具备国产化信息系统集成和服务能力，符合信创政策导向，为政府、企业等提供自主可控的IT解决方案。"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "industry": "科技",
+      "concepts": [
+        "科技"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": []
+    }
+  }
+}

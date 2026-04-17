@@ -1,0 +1,74 @@
+{
+  "date": "2025-07-01",
+  "update_count": 1,
+  "stocks": {
+    "688697": {
+      "name": "华卓精科",
+      "code": "688697",
+      "board": "SH",
+      "mention_count": 1,
+      "industry": "其他-其他-其他",
+      "article_date": "2026-03-11",
+      "concepts": [
+        "工业母机",
+        "新能源汽车",
+        "人形机器人",
+        "新型工业化",
+        "高端装备",
+        "机器人概念",
+        "低空经济",
+        "长三角一体化",
+        "大飞机",
+        "融资融券",
+        "沪股通"
+      ],
+      "products": [
+        "卧式加工中心",
+        "中高端数控机床"
+      ],
+      "core_business": [
+        "机床制造"
+      ],
+      "industry_position": [
+        "中高端数控机床出口主力"
+      ],
+      "chain": [
+        "中游-数控系统与核心部件"
+      ],
+      "partners": null,
+      "articles": [
+        {
+          "title": "昨日市场复盘及操作策略，底部尾盘参考，7月1日",
+          "date": "2025-07-01",
+          "source": "https://mp.weixin.qq.com/s/ffe3J224kIYMb2doZ_eY3w",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "3. **光刻胶**：国产化率次低（约15%-20%），且技术迭代快（KrF/ArF胶是当前突破重点），短期弹性更大"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "article_count": 1,
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "date": "2026-02-05",
+  "update_count": 1,
+  "stocks": {
+    "000676": {
+      "name": "数字营销",
+      "code": "000676",
+      "articles": [
+        {
+          "title": "000676  数字营销 AI智能体 Web3 0 人工智能 数字货币 互联网金融 区块链 元宇宙 互联网媒体业务和数字营销业务",
+          "date": "2026-02-05",
+          "source": "https://mp.weixin.qq.com/s/kizSHDxRnDD3vs17YuKx9A",
+          "accidents": [],
+          "insights": [
+            "作为华为云鲸鸿动能的独家广告代理商，代理华为系操作系统（如鸿蒙系统）的广告业务，直接受益于鸿蒙系统的推广和应用。"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "industry": "制造业",
+      "concepts": [
+        "制造业"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": []
+    }
+  }
+}

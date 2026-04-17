@@ -1,0 +1,269 @@
+{
+  "date": "2025-04-02",
+  "update_count": 5,
+  "stocks": {
+    "600059": {
+      "name": "古越龙山",
+      "code": "600059",
+      "board": "SH",
+      "industry": "食品饮料-饮料制造-其他酒类",
+      "concepts": [
+        "白酒概念",
+        "超级品牌",
+        "跨境电商",
+        "乡村振兴",
+        "国企改革",
+        "融资融券",
+        "回购增持再贷款概念",
+        "沪股通"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "20250402-今日操作建议参考-关注回复“今日标的”已更新",
+          "date": "2025-04-02",
+          "source": "https://mp.weixin.qq.com/s/GXdidEa2t4WV_bTuGm9smg",
+          "accidents": [],
+          "insights": [
+            "板块轮动特征与核心矛盾"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "601579": {
+      "name": "会稽山",
+      "code": "601579",
+      "board": "SH",
+      "industry": "食品饮料-饮料制造-其他酒类",
+      "concepts": [
+        "白酒概念",
+        "共同富裕示范区",
+        "沪股通",
+        "融资融券"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "20250402-今日操作建议参考-关注回复“今日标的”已更新",
+          "date": "2025-04-02",
+          "source": "https://mp.weixin.qq.com/s/GXdidEa2t4WV_bTuGm9smg",
+          "accidents": [],
+          "insights": [
+            "板块轮动特征与核心矛盾"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "000963": {
+      "name": "华东医药",
+      "code": "000963",
+      "board": "SZ",
+      "industry": "医药生物-化学制药-化学制剂",
+      "concepts": [
+        "创新药",
+        "医药电商",
+        "肝炎概念",
+        "减肥药",
+        "细胞免疫治疗",
+        "宠物经济",
+        "合成生物",
+        "医美概念",
+        "医疗器械概念",
+        "智能医疗",
+        "冷链物流",
+        "证金持股",
+        "人工智能",
+        "深股通",
+        "融资融券"
+      ],
+      "products": [],
+      "core_business": [
+        "GLP-1赛道双寡头之一"
+      ],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "20250402-今日操作建议参考-关注回复“今日标的”已更新",
+          "date": "2025-04-02",
+          "source": "https://mp.weixin.qq.com/s/GXdidEa2t4WV_bTuGm9smg",
+          "accidents": [
+            "GLP-1赛道双寡头之一"
+          ],
+          "insights": [],
+          "key_metrics": [
+            "GLP-1赛道双寡头之一，司美格鲁肽获批+医美业务放量，外资持股占比达22%"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "159567": {
+      "name": "港股创新药ETF",
+      "code": "159567",
+      "board": "SZ",
+      "industry": "其他-其他-其他",
+      "concepts": [
+        "其他-其他-其他"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "“创新药”深度解析与操作策略（2025年4月更新）",
+          "date": "2025-04-02",
+          "source": "https://mp.weixin.qq.com/s/IEmOlii6kWkcP-FSLoaBmQ",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "风控：严格止损（个股跌幅超15%减仓50%），避免过度集中单一赛道"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "159992": {
+      "name": "或A股创新药ETF",
+      "code": "159992",
+      "board": "SZ",
+      "industry": "其他-其他-其他",
+      "concepts": [
+        "其他-其他-其他"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "“创新药”深度解析与操作策略（2025年4月更新）",
+          "date": "2025-04-02",
+          "source": "https://mp.weixin.qq.com/s/IEmOlii6kWkcP-FSLoaBmQ",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "风控：严格止损（个股跌幅超15%减仓50%），避免过度集中单一赛道"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "date": "2025-09-24",
+  "update_count": 1,
+  "stocks": {
+    "002040": {
+      "name": "南京港",
+      "code": "002040",
+      "board": "SZ",
+      "industry": "交通运输-港口航运-港口",
+      "concepts": [
+        "航运概念",
+        "统一大市场",
+        "国企改革",
+        "深股通"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "9月23日，市场复盘及操作策略",
+          "date": "2025-09-24",
+          "source": "https://mp.weixin.qq.com/s/QhLTnGMBbIZ8yUyFJk2Fmw",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "**3\\. 防御性配置**"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    }
+  }
+}

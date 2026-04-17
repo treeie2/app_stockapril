@@ -1,0 +1,526 @@
+{
+  "date": "2025-04-11",
+  "update_count": 9,
+  "stocks": {
+    "001283": {
+      "name": "豪鹏科技",
+      "code": "001283",
+      "board": "SZ",
+      "industry": "电力设备-电池-锂电池",
+      "concepts": [
+        "两轮车",
+        "固态电池",
+        "比亚迪概念",
+        "钠离子电池",
+        "新型烟草(电子烟)",
+        "小米概念",
+        "智能穿戴",
+        "新能源汽车",
+        "锂电池概念",
+        "消费电子概念",
+        "粤港澳大湾区",
+        "人形机器人",
+        "AI眼镜",
+        "人民币贬值受益",
+        "机器人概念",
+        "动力电池回收",
+        "2025年报预增",
+        "储能",
+        "AIPC",
+        "人工智能",
+        "数据中心",
+        "回购增持再贷款概念",
+        "深股通"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": null,
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "4月11日今日操作策略与风险提示-文末竞价参考",
+          "date": "2025-04-11",
+          "source": "https://mp.weixin.qq.com/s/eQMHqqwV-ajjET0SmduFZQ",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "TWS耳机及扫地机器人电池需求爆发，Q1净利润预增846%-1004%"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "article_count": 1,
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "002570": {
+      "name": "贝因美",
+      "code": "002570",
+      "board": "SZ",
+      "industry": "食品饮料-饮料制造-乳品",
+      "concepts": [
+        "乳业",
+        "三胎概念",
+        "跨境电商",
+        "宠物经济",
+        "网红经济",
+        "共同富裕示范区",
+        "养老概念",
+        "回购增持再贷款概念",
+        "DeepSeek概念",
+        "NFT概念",
+        "深股通",
+        "融资融券"
+      ],
+      "mention_count": 1,
+      "products": [],
+      "core_business": [
+        "业务逻辑"
+      ],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "articles": [
+        {
+          "title": "4月11日今日操作策略与风险提示-文末竞价参考",
+          "date": "2025-04-11",
+          "source": "https://mp.weixin.qq.com/s/eQMHqqwV-ajjET0SmduFZQ",
+          "accidents": [],
+          "insights": [
+            "国产奶粉龙头"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "article_count": 1,
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "002762": {
+      "name": "金发拉比",
+      "code": "002762",
+      "board": "SZ",
+      "industry": "其他-其他-其他",
+      "concepts": [
+        "其他-其他-其他"
+      ],
+      "products": [],
+      "core_business": [
+        "业务逻辑"
+      ],
+      "industry_position": [],
+      "chain": [
+        "业务逻辑"
+      ],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "“多胎概念”深度解析与操作策略-文末盘中参考",
+          "date": "2025-04-11",
+          "source": "https://mp.weixin.qq.com/s/-pa5TqwlLpCD_30D4zS5-A",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "业务逻辑：母婴消费品全产业链覆盖，旗下“拉比”品牌专注0-3岁服饰，延伸至孕产服务"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "600180": {
+      "name": "瑞茂通",
+      "code": "600180",
+      "board": "SH",
+      "industry": "交通运输-物流-物流Ⅲ",
+      "concepts": [
+        "统一大市场",
+        "煤化工概念",
+        "大豆",
+        "粮食概念",
+        "煤炭概念",
+        "航运概念",
+        "一带一路",
+        "互联网金融",
+        "数据要素",
+        "工业互联网",
+        "沪股通",
+        "融资融券"
+      ],
+      "products": [],
+      "core_business": [
+        "大宗供应链龙头"
+      ],
+      "industry_position": [],
+      "chain": [
+        "大宗供应链龙头",
+        "核心逻辑"
+      ],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "4月11日今日操作策略与风险提示-文末竞价参考",
+          "date": "2025-04-11",
+          "source": "https://mp.weixin.qq.com/s/eQMHqqwV-ajjET0SmduFZQ",
+          "accidents": [],
+          "insights": [
+            "大宗供应链龙头"
+          ],
+          "key_metrics": [
+            "大宗供应链龙头，3连板加速，豆粕及能源物流业务量价齐升"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "000089": {
+      "name": "深圳机场",
+      "code": "000089",
+      "board": "SZ",
+      "industry": "交通运输-机场航运-机场",
+      "concepts": [
+        "证金持股",
+        "深圳国企改革",
+        "国企改革",
+        "跨境电商",
+        "粤港澳大湾区",
+        "深股通",
+        "融资融券",
+        "华为概念"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "4月11日今日操作策略与风险提示-文末竞价参考",
+          "date": "2025-04-11",
+          "source": "https://mp.weixin.qq.com/s/eQMHqqwV-ajjET0SmduFZQ",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "国际航线恢复至疫前80%+，免税店扩容，Q1净利润预增41%-94%"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "300898": {
+      "name": "熊猫乳品",
+      "code": "300898",
+      "board": "SZ",
+      "industry": "食品饮料-饮料制造-乳品",
+      "concepts": [
+        "乳业",
+        "网红经济",
+        "三胎概念",
+        "自由贸易港",
+        "融资融券"
+      ],
+      "products": [],
+      "core_business": [
+        "业务逻辑"
+      ],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "“多胎概念”深度解析与操作策略-文末盘中参考",
+          "date": "2025-04-11",
+          "source": "https://mp.weixin.qq.com/s/-pa5TqwlLpCD_30D4zS5-A",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "业务逻辑：儿童奶酪细分龙头，乳铁蛋白保留率92%，低温乳制品需求爆发，线上销售额增速58%"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "600763": {
+      "name": "通策医疗",
+      "code": "600763",
+      "board": "SH",
+      "industry": "医药生物-医疗服务-医院",
+      "concepts": [
+        "牙科医疗",
+        "民营医院",
+        "医美概念",
+        "辅助生殖",
+        "智能医疗",
+        "DeepSeek概念",
+        "AI应用",
+        "沪股通",
+        "融资融券"
+      ],
+      "products": [],
+      "core_business": [
+        "业务逻辑"
+      ],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "“多胎概念”深度解析与操作策略-文末盘中参考",
+          "date": "2025-04-11",
+          "source": "https://mp.weixin.qq.com/s/-pa5TqwlLpCD_30D4zS5-A",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "业务逻辑：辅助生殖服务龙头，试管婴儿成功率58%（行业平均52%），2024年辅助生殖业务营收增长45%"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "300314": {
+      "name": "戴维医疗",
+      "code": "300314",
+      "board": "SZ",
+      "industry": "医药生物-医疗器械-医疗设备",
+      "concepts": [
+        "血氧仪",
+        "医疗器械概念",
+        "细胞免疫治疗",
+        "三胎概念",
+        "智能医疗",
+        "共同富裕示范区",
+        "DeepSeek概念"
+      ],
+      "products": [],
+      "core_business": [
+        "业务逻辑"
+      ],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "“多胎概念”深度解析与操作策略-文末盘中参考",
+          "date": "2025-04-11",
+          "source": "https://mp.weixin.qq.com/s/-pa5TqwlLpCD_30D4zS5-A",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "业务逻辑：婴儿保育设备龙头，新生儿辐射保暖台市占率超40%，产科设备升级需求释放"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "002875": {
+      "name": "安奈儿",
+      "code": "002875",
+      "board": "SZ",
+      "industry": "纺织服饰-服装家纺-服装",
+      "concepts": [
+        "三胎概念",
+        "广东自贸区",
+        "跨境电商",
+        "粤港澳大湾区",
+        "IP经济(谷子经济)",
+        "股权转让(并购重组)"
+      ],
+      "products": [],
+      "core_business": [
+        "业务逻辑"
+      ],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "“多胎概念”深度解析与操作策略-文末盘中参考",
+          "date": "2025-04-11",
+          "source": "https://mp.weixin.qq.com/s/-pa5TqwlLpCD_30D4zS5-A",
+          "accidents": [],
+          "insights": [
+            "仓位配置建议"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "date": "2025-09-23",
+  "update_count": 1,
+  "stocks": {
+    "000922": {
+      "name": "佳电股份",
+      "code": "000922",
+      "board": "SZ",
+      "industry": "电力设备-电机-电机Ⅲ",
+      "concepts": [
+        "核电",
+        "军工",
+        "风电",
+        "机器人概念",
+        "新能源汽车",
+        "水利",
+        "央企国企改革",
+        "氢能源",
+        "黑龙江自贸区",
+        "国企改革",
+        "深股通",
+        "融资融券"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "9月23日，热点关注，今日操作策略与风险提示，文末本周3篇报告",
+          "date": "2025-09-23",
+          "source": "https://mp.weixin.qq.com/s/uWL50qMe1Q8eb1Z6M_20hQ",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "**4\\. 事件驱动机会**"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    }
+  }
+}

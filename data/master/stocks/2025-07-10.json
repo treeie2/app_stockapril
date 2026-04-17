@@ -1,0 +1,54 @@
+{
+  "date": "2025-07-10",
+  "update_count": 1,
+  "stocks": {
+    "002645": {
+      "name": "稀土永磁",
+      "code": "002645",
+      "articles": [
+        {
+          "title": "002645  稀土永磁 机器人 资源回收 节能环保 再生资源装备服务商",
+          "date": "2025-07-10",
+          "source": "https://mp.weixin.qq.com/s/WRhigg5LHJpi0RQDl\\_tziQ",
+          "accidents": [
+            "稀土回收利用具有刚需属性，稀土下游行业市场需求快速增加，以及政策鼓励稀土回收利用，驱动稀土回收利用行业发展。",
+            "稀土回收行业具有政策、资金、回收渠道三大壁垒，行业集中度较高，前5家企业稀土回收产量占比为50%。"
+          ],
+          "insights": [],
+          "key_metrics": [
+            "龙头地位"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "industry": "制造业",
+      "concepts": [
+        "制造业"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": []
+    }
+  }
+}

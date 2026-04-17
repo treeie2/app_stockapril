@@ -1,0 +1,71 @@
+{
+  "date": "2025-03-25",
+  "update_count": 1,
+  "stocks": {
+    "002387": {
+      "name": "维信诺",
+      "code": "002387",
+      "board": "SZ",
+      "industry": "电子-光学光电子-面板",
+      "concepts": [
+        "MicroLED概念",
+        "柔性屏(折叠屏)",
+        "虚拟现实",
+        "智能穿戴",
+        "OLED",
+        "人脸识别",
+        "小米概念",
+        "汽车电子",
+        "消费电子概念",
+        "芯片概念",
+        "华为手机",
+        "绿色电力",
+        "深股通",
+        "股权转让(并购重组)",
+        "融资融券"
+      ],
+      "products": [],
+      "core_business": [
+        "折叠屏OLED核心供应商"
+      ],
+      "industry_position": [],
+      "chain": [],
+      "partners": [
+        "折叠屏OLED核心供应商"
+      ],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "20250325-今日操盘参考-海洋经济",
+          "date": "2025-03-25",
+          "source": "https://mp.weixin.qq.com/s/lH3HMnbG8UldKCo1nYesVA",
+          "accidents": [],
+          "insights": [
+            "折叠屏OLED核心供应商"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    }
+  }
+}

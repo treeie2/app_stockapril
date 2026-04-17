@@ -1,0 +1,192 @@
+{
+  "date": "2026-01-11",
+  "update_count": 3,
+  "stocks": {
+    "002512": {
+      "name": "达华智能",
+      "code": "002512",
+      "board": "SZ",
+      "mention_count": 4,
+      "industry": "风电设备",
+      "article_date": "2026-01-11",
+      "concepts": [
+        "卫星通信",
+        "频轨资源",
+        "一带一路"
+      ],
+      "products": [
+        "卫星通信服务"
+      ],
+      "core_business": [
+        "卫星通信"
+      ],
+      "industry_position": [
+        "A股民营稀缺标的"
+      ],
+      "chain": [
+        "中游-卫星运营"
+      ],
+      "partners": null,
+      "articles": [
+        {
+          "title": "关于达华智能的分析",
+          "date": "2026-01-11",
+          "source": "https://mp.weixin.qq.com/s/XxhoaFbH-aIDvDafJslM7A",
+          "accidents": [
+            "我国新增20万颗卫星申请"
+          ],
+          "insights": [
+            "受益于卫星频轨资源申请上升至国家战略层面"
+          ],
+          "key_metrics": [
+            "拥有ITU认证的Ka频段GEO轨位"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "301007": {
+      "name": "德迈仕",
+      "code": "301007",
+      "board": "SZ",
+      "mention_count": 2,
+      "industry": "汽车-汽车零部件-底盘与发动机系统",
+      "article_date": "2026-01-11",
+      "concepts": [
+        "减速器",
+        "人形机器人",
+        "汽车热管理",
+        "新能源汽车",
+        "机器人概念",
+        "专精特新",
+        "无人驾驶",
+        "无人机",
+        "燃料电池",
+        "氢能源",
+        "深股通",
+        "股权转让(并购重组)",
+        "融资融券"
+      ],
+      "products": [
+        "汽车行星轴",
+        "齿轮轴"
+      ],
+      "core_business": [
+        "精密零部件制造"
+      ],
+      "industry_position": [
+        "向新剑传动批量供应零件"
+      ],
+      "chain": [
+        "中游-机器人零部件"
+      ],
+      "partners": [
+        "新剑传动"
+      ],
+      "articles": [
+        {
+          "title": "越疆机器人冲刺A股上市_2025年12月29日公告确",
+          "date": "2026-01-11",
+          "source": "https://mp.weixin.qq.com/s/XxhoaFbH-aIDvDafJslM7A",
+          "accidents": [
+            "人形机器人T链一级供应商新剑传动冲刺IPO"
+          ],
+          "insights": [
+            "受益于人形机器人产业链发展"
+          ],
+          "key_metrics": [
+            "验证了其高精密加工能力"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "300232": {
+      "name": "AI智能体",
+      "code": "300232",
+      "articles": [
+        {
+          "title": "300232  AI智能体 多模态AI 第三代半导体 虚拟人 车路云 智慧城市 体育产业 专业LED应用产品及解决方案供应商",
+          "date": "2026-01-11",
+          "source": "https://mp.weixin.qq.com/s/rqxKgDKlkWWeghTv0x8PzQ",
+          "accidents": [
+            "早在2019年，公司就领先业界实现了间距P0.9的Mini LED产品的批量出货，今年P0.9、P0.7产品订单更是实现同比较大的增幅，并且供不应求。"
+          ],
+          "insights": [
+            "令业界倍加关注的是，洲明最新的Mini LED生产线也在此次启用投产。"
+          ],
+          "key_metrics": [
+            "行业领先"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "industry": "科技",
+      "concepts": [
+        "科技"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": []
+    }
+  }
+}

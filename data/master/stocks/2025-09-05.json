@@ -1,0 +1,153 @@
+{
+  "date": "2025-09-05",
+  "update_count": 2,
+  "stocks": {
+    "600036": {
+      "name": "招商银行",
+      "code": "600036",
+      "board": "SH",
+      "industry": "银行-银行-股份制银行",
+      "concepts": [
+        "证金持股",
+        "同花顺中特估100",
+        "沪股通",
+        "融资融券",
+        "同花顺漂亮100",
+        "跨境支付(CIPS)"
+      ],
+      "mention_count": 1,
+      "products": [],
+      "core_business": [
+        "零售业务护城河",
+        "净流出前三",
+        "市场传闻显示特斯拉给出明年乐观的产能指引"
+      ],
+      "industry_position": [
+        "行业领先",
+        "字化服务能力行业领先"
+      ],
+      "chain": [
+        "人形机器人产业链午后出现强势反弹",
+        "受特斯拉宏图计划第四篇章及市场传闻影响",
+        "市场传闻显示特斯拉给出明年乐观的产能指引"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "“国常会”深度解析与操作策略",
+          "date": "2025-04-20",
+          "source": "https://mp.weixin.qq.com/s/YWKVCNAZs75j142ZKpVTaw",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "零售业务护城河，分红率6.5%+"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        },
+        {
+          "title": "市场放量调整释放抛压，科技主线休整中孕育机会，资金正悄然布局未来。昨日市场复盘及操作策略，9月3日，星期三。",
+          "date": "2025-09-03",
+          "source": "https://mp.weixin.qq.com/s/VruazvYMo81Achb9GIUCug",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [
+            "减速器概念位居板块涨幅榜首位"
+          ],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        },
+        {
+          "title": "昨日市场复盘及操作策略，9月5日，星期五，文末本周的3篇报告",
+          "date": "2025-09-05",
+          "source": "https://mp.weixin.qq.com/s/PAAde84PcFtOx_obQFJaiQ",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "5. **中期主线布局方向**"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "article_count": 3,
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "603839": {
+      "name": "安正时尚",
+      "code": "603839",
+      "board": "SH",
+      "industry": "纺织服饰-服装家纺-服装",
+      "concepts": [
+        "三胎概念",
+        "跨境电商",
+        "网红经济",
+        "长三角一体化",
+        "抖音概念(字节概念)"
+      ],
+      "products": [],
+      "core_business": [
+        "运动服饰龙头"
+      ],
+      "industry_position": [],
+      "chain": [],
+      "partners": [
+        "运动服饰龙头"
+      ],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "热点关注，今日操作策略与风险提示，9月5日，星期五，文末本周的3篇报告",
+          "date": "2025-09-05",
+          "source": "https://mp.weixin.qq.com/s/deXSWCnUV7ciGyKwydUtYg",
+          "accidents": [],
+          "insights": [
+            "运动服饰龙头"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "date": "2025-12-17",
+  "update_count": 1,
+  "stocks": {
+    "300194": {
+      "name": "抗生素",
+      "code": "300194",
+      "articles": [
+        {
+          "title": "300194  抗生素 创新药 工业大麻 抗肿瘤 打造医药大健康",
+          "date": "2025-12-17",
+          "source": "https://mp.weixin.qq.com/s/6cTUNoJzg6BzpkLOjYqyEw",
+          "accidents": [
+            "*   **仿制药一致性评价概念**：公司积极参与仿制药一致性评价工作，多个产品通过一致性评价，符合国家政策导向，有助于提升产品市场竞争力。",
+            "3.  **政策与区域类**",
+            "*   **西部大开发概念**：公司注册地在重庆，属于西部地区企业，受益于西部大开发政策支持。"
+          ],
+          "insights": [
+            "*   **西部大开发概念**：公司注册地在重庆，属于西部地区企业，受益于西部大开发政策支持。"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "industry": "科技",
+      "concepts": [
+        "科技"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": []
+    }
+  }
+}

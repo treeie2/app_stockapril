@@ -1,0 +1,81 @@
+{
+  "date": "2025-06-21",
+  "update_count": 1,
+  "stocks": {
+    "512660": {
+      "name": "军工ETF",
+      "code": "512660",
+      "board": "SZ",
+      "industry": "国防军工-军工电子-军工信息化",
+      "concepts": [
+        "军工"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 3,
+      "articles": [
+        {
+          "title": "“军工信息化概念”深度解析与操作策略，8月2日",
+          "date": "2025-08-02",
+          "source": "https://mp.weixin.qq.com/s/dDkeb8ZA-t5a8QyRFgl9gA",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "**3\\. 技术驱动与业绩验证**"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        },
+        {
+          "title": "“军工概念”深度解析与操作策略-文末盘中参考",
+          "date": "2025-05-08",
+          "source": "https://mp.weixin.qq.com/s/qq75mPhUd01P6v1b0xICbA",
+          "accidents": [],
+          "insights": [
+            "资金面核心逻辑"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        },
+        {
+          "title": "“军工装备概念”深度解析与操作策略-6月21日",
+          "date": "2025-06-21",
+          "source": "https://mp.weixin.qq.com/s/bBwgUOPSkgm6xhsLjXhwGw",
+          "accidents": [
+            "巴黎航展/珠海航展军贸订单规模及技术突破官宣（如六代机原型机亮相）"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    }
+  }
+}

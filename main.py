@@ -182,6 +182,52 @@ def load_data_from_firebase():
         print(f"  ⚠️ Firebase 加载出错: {e}")
         return None, None
 
+def load_data_incremental(days=7):
+    """从增量文件加载最近 N 天的数据"""
+    print(f"📋 从增量文件加载最近 {days} 天数据...")
+    
+    INDEX_FILE = Path(__file__).parent / 'data' / 'master' / 'stocks_index.json'
+    STOCKS_DIR = Path(__file__).parent / 'data' / 'master' / 'stocks'
+    
+    try:
+        # 读取索引文件
+        with open(INDEX_FILE, 'r', encoding='utf-8') as f:
+            index_data = json.load(f)
+        
+        # 获取最近 N 天的日期
+        today = datetime.now()
+        recent_dates = []
+        for i in range(days):
+            date = today.replace(day=today.day - i)
+            recent_dates.append(date.strftime("%Y-%m-%d"))
+        
+        # 加载对应日期的数据
+        all_stocks = {}
+        concepts = {}
+        
+        for date in recent_dates:
+            file_path = STOCKS_DIR / f"{date}.json"
+            if file_path.exists():
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                    daily_stocks = data.get('stocks', {})
+                    all_stocks.update(daily_stocks)
+                    
+                    # 构建概念索引
+                    for code, stock in daily_stocks.items():
+                        for concept in stock.get('concepts', []):
+                            if concept not in concepts:
+                                concepts[concept] = {'stocks': []}
+                            concepts[concept]['stocks'].append(code)
+        
+        print(f"  ✅ 从增量文件加载 {len(all_stocks)} 只股票")
+        print(f"  ✅ 加载 {len(concepts)} 个概念")
+        return all_stocks, concepts
+        
+    except Exception as e:
+        print(f"  ⚠️ 增量加载失败: {e}")
+        return None, None
+
 def load_data_from_local():
     """从本地 JSON 加载数据"""
     print("📋 从本地文件加载数据...")
@@ -228,10 +274,14 @@ def load_data_from_local():
         print(f"  ❌ 错误：{e}")
         return {}, {}
 
-# 加载数据 - 优先从 Firebase，失败则从本地
+# 加载数据 - 优先从 Firebase，其次增量文件，最后完整文件
 print("📋 加载数据...")
 stocks, concepts = load_data_from_firebase()
 if stocks is None:
+    # 尝试增量加载（最近7天）
+    stocks, concepts = load_data_incremental(days=7)
+if stocks is None:
+    # 回退到完整文件加载
     stocks, concepts = load_data_from_local()
 
 # 加载热点数据

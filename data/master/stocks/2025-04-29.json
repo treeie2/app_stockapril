@@ -1,0 +1,66 @@
+{
+  "date": "2025-04-29",
+  "update_count": 1,
+  "stocks": {
+    "688716": {
+      "name": "中研股份",
+      "code": "688716",
+      "board": "SH",
+      "industry": "基础化工-塑料制品-合成树脂",
+      "concepts": [
+        "PEEK材料",
+        "人形机器人",
+        "新能源汽车",
+        "3D打印",
+        "机器人概念",
+        "专精特新",
+        "碳纤维",
+        "大飞机",
+        "商业航天",
+        "医疗器械概念",
+        "融资融券"
+      ],
+      "mention_count": 1,
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [
+        "5. **下游应用**"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "“PEEK材料概念”深度解析与操作策略-文末盘中参考",
+          "date": "2025-04-29",
+          "source": "https://mp.weixin.qq.com/s/QDclQCEwHGHb-FO7ZlYe2w",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "5. **下游应用**："
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "article_count": 1,
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    }
+  }
+}

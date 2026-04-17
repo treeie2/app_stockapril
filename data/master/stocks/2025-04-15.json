@@ -1,0 +1,88 @@
+{
+  "date": "2025-04-15",
+  "update_count": 1,
+  "stocks": {
+    "601800": {
+      "name": "中国交建",
+      "code": "601800",
+      "board": "SH",
+      "industry": "建筑装饰-建筑装饰-基础建设",
+      "concepts": [
+        "算力",
+        "中字头股票",
+        "证金持股",
+        "同花顺中特估100",
+        "参股券商",
+        "雄安新区",
+        "国企改革",
+        "水利",
+        "雅下水电概念",
+        "央企国企改革",
+        "一带一路",
+        "风电",
+        "高铁",
+        "沪股通",
+        "融资融券",
+        "核电",
+        "AI智能体",
+        "商业航天"
+      ],
+      "mention_count": 2,
+      "products": [],
+      "core_business": [],
+      "industry_position": [
+        "龙头",
+        "济带污水管网改造龙头"
+      ],
+      "chain": [],
+      "partners": [],
+      "articles": [
+        {
+          "title": "1月20日，复盘分析与展望，指数弱势调整，算力链领跌",
+          "date": "2026-01-21",
+          "source": "https://mp.weixin.qq.com/s/lGvBI9b0qVjX4i4hFn-k-A",
+          "accidents": [
+            "基建/银行护盘"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        },
+        {
+          "title": "“一带一路”深度解析与操作策略（4月15日）-文末盘中参考",
+          "date": "2025-04-15",
+          "source": "https://mp.weixin.qq.com/s/PVeAhOJuKL10QlW3Di7_hQ",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "逻辑：全球基建龙头，中标平陆运河（投资超千亿）及东南亚港口项目，海外订单占比30%，受益东南亚基建需求爆发"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "article_count": 2,
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "date": "2025-08-03",
+  "update_count": 1,
+  "stocks": {
+    "300635": {
+      "name": "新型城镇化",
+      "code": "300635",
+      "articles": [
+        {
+          "title": "300635  新型城镇化 数据中心 低空经济 水利 智算与大数据 工程监理业务龙头",
+          "date": "2025-08-03",
+          "source": "https://mp.weixin.qq.com/s/uSb-2CnVJoh2MG8LZLExPg",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "industry": "科技",
+      "concepts": [
+        "科技"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": []
+    }
+  }
+}

@@ -1,0 +1,274 @@
+{
+  "date": "2025-04-22",
+  "update_count": 4,
+  "stocks": {
+    "688192": {
+      "name": "迪哲医药",
+      "code": "688192",
+      "board": "SH",
+      "industry": "医药生物-化学制药-化学制剂",
+      "concepts": [
+        "创新药",
+        "沪股通",
+        "融资融券"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": null,
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "4月22日-今日操作策略与风险提示-文末竞价参考",
+          "date": "2025-04-22",
+          "source": "https://mp.weixin.qq.com/s/BmXA_b4riyd3e_gt4o0yug",
+          "accidents": [
+            "戈利昔替尼（血液瘤药物）获FDA突破性疗法认定"
+          ],
+          "insights": [],
+          "key_metrics": [
+            "戈利昔替尼（血液瘤药物）获FDA突破性疗法认定，2025年海外授权收入有望落地"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "article_count": 1,
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "835185": {
+      "name": "贝特瑞",
+      "code": "835185",
+      "board": "BJ",
+      "industry": "电力设备-电池-电池化学品",
+      "concepts": [
+        "电池",
+        "氢能源",
+        "储能",
+        "锂电池概念",
+        "融资融券",
+        "石墨电极",
+        "一带一路",
+        "比亚迪概念",
+        "固态电池",
+        "宁德时代概念",
+        "钠离子电池",
+        "石墨烯",
+        "燃料电池"
+      ],
+      "mention_count": 1,
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "articles": [
+        {
+          "title": "10月30日，热点关注，今日操作策略与风险提示，文末本周1篇报告",
+          "date": "2025-10-30",
+          "source": "https://mp.weixin.qq.com/s/Mw4qwtWhdevurhQcAoh7rw",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "* **策略**：采用分批建仓策略布局北证50成分股中研发投入高的专精特新企业"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        },
+        {
+          "title": "“钠电池概念（钠离子电池）”深度解析与操作策略",
+          "date": "2025-04-22",
+          "source": "https://mp.weixin.qq.com/s/MWnwAeGZw1HJsrbBDgSp6A",
+          "accidents": [],
+          "insights": [
+            "硬碳负极龙头（市占率40%）"
+          ],
+          "key_metrics": [
+            "硬碳负极龙头（市占率40%），技术壁垒高（比容量350mAh/g）"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "article_count": 2,
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "300605": {
+      "name": "恒锋信息",
+      "code": "300605",
+      "articles": [
+        {
+          "title": "4月22日-今日操作策略与风险提示-文末竞价参考",
+          "date": "2025-04-22",
+          "source": "https://mp.weixin.qq.com/s/BmXA_b4riyd3e_gt4o0yug",
+          "accidents": [
+            "政务AIAgent平台落地厦门、福州等10个城市"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "board": "SZ",
+      "industry": "计算机-软件开发-垂直应用软件",
+      "concepts": [
+        "虚拟数字人",
+        "在线教育",
+        "智慧政务",
+        "云办公",
+        "数据要素",
+        "AIGC概念",
+        "华为鲲鹏",
+        "Sora概念(文生视频)",
+        "数据安全",
+        "鸿蒙概念",
+        "数字乡村",
+        "AI智能体",
+        "网络安全",
+        "腾讯概念",
+        "智慧城市",
+        "国产操作系统",
+        "人脸识别",
+        "语音技术",
+        "养老概念",
+        "人工智能",
+        "智能医疗",
+        "DeepSeek概念",
+        "体育产业",
+        "福建自贸区",
+        "东数西算(算力)",
+        "海峡两岸",
+        "华为概念",
+        "新型城镇化",
+        "AI应用",
+        "卫星导航",
+        "乡村振兴",
+        "眼科医疗",
+        "水利",
+        "数据中心",
+        "无人机",
+        "机器视觉"
+      ],
+      "article_count": 1,
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": []
+    },
+    "603110": {
+      "name": "东方材料",
+      "code": "603110",
+      "board": "SH",
+      "industry": "基础化工-化学制品-涂料油墨",
+      "concepts": [
+        "PCB概念",
+        "数据中心",
+        "石墨烯",
+        "东数西算(算力)",
+        "算力租赁",
+        "DeepSeek概念",
+        "AIGC概念"
+      ],
+      "products": [],
+      "core_business": [
+        "PCB电子油墨业务绑定苹果、三星供应链"
+      ],
+      "industry_position": [],
+      "chain": [
+        "PCB电子油墨业务绑定苹果、三星供应链"
+      ],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "4月22日-今日操作策略与风险提示-文末竞价参考",
+          "date": "2025-04-22",
+          "source": "https://mp.weixin.qq.com/s/BmXA_b4riyd3e_gt4o0yug",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "“东方六合”MCP平台支持万亿参数模型训练，自研存算一体芯片功耗降低40%，已获华为昇腾认证",
+            "PCB电子油墨业务绑定苹果、三星供应链，毛利率稳定在45%以上"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    }
+  }
+}

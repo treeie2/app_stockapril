@@ -1,0 +1,53 @@
+{
+  "date": "2025-09-29",
+  "update_count": 1,
+  "stocks": {
+    "300464": {
+      "name": "跨境电商",
+      "code": "300464",
+      "articles": [
+        {
+          "title": "300464  跨境电商 第三代半导体 氧化镓 无线耳机 精密金属企业",
+          "date": "2025-09-29",
+          "source": "https://mp.weixin.qq.com/s/PpNdVk8Ivb1v8RHlKz1g-A",
+          "accidents": [],
+          "insights": [
+            "3.  **人民币贬值受益**：出口业务占比较高，人民币贬值有利于降低出口成本，提升产品竞争力和利润空间。"
+          ],
+          "key_metrics": [
+            "行业领先"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "industry": "科技",
+      "concepts": [
+        "科技"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": []
+    }
+  }
+}

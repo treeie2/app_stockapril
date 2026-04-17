@@ -1,0 +1,100 @@
+{
+  "date": "2025-09-17",
+  "update_count": 2,
+  "stocks": {
+    "300234": {
+      "name": "氢能源",
+      "code": "300234",
+      "articles": [
+        {
+          "title": "300234  氢能源 光伏太阳能 第三代半导体材料（氧化锌） 碳交易 环保新型材料 功能性搪瓷材料产业化企业",
+          "date": "2025-09-17",
+          "source": "https://mp.weixin.qq.com/s/HrPemoXAq\\_7Fmr0Y9hHCQQ",
+          "accidents": [
+            "此外，工业保护搪瓷材料方面，在环保政策趋严的背景下，开尔新材的锅炉智慧燃烧系统，助力电厂进一步节煤降耗。",
+            "主营工业保护搪瓷材料，应用于电厂脱硫脱硝等节能环保设施建设，符合国家环保政策导向。"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "industry": "科技",
+      "concepts": [
+        "新能源"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": []
+    },
+    "300352": {
+      "name": "网络安全",
+      "code": "300352",
+      "articles": [
+        {
+          "title": "300352  网络安全 大数据 信创 数字货币 智慧政务 国内网络与信息安全领域领先的决绝方案提供商",
+          "date": "2025-09-17",
+          "source": "https://mp.weixin.qq.com/s/ZBzWE4UE0Xkr0hPnvELpyA",
+          "accidents": [
+            "信息安全行业投资加速，工控、物联网扩宽安全市场空间，信息安全迎强政策周期。",
+            "在贸易摩擦因素刺激下，国家政策持续加码， 2018 年发起的自主可控需求进入落地年，采用国产 CPU、国产操作系统以及配套信息安全产品的专用计算机进入广泛推广配备阶段，为基于国产操作系统的系列安全保密产品的推广应用提供新一轮驱动力。"
+          ],
+          "insights": [],
+          "key_metrics": [
+            "行业领先"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "industry": "科技",
+      "concepts": [
+        "科技"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": []
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "date": "2025-07-28",
+  "update_count": 1,
+  "stocks": {
+    "301319": {
+      "name": "先进侧封",
+      "code": "301319",
+      "articles": [
+        {
+          "title": "301319  先进侧封 新能源汽车 固态电池 消防新材料 微电子焊接材料龙头企业",
+          "date": "2025-07-28",
+          "source": "https://mp.weixin.qq.com/s/41Q-HxGbcSay6ryECpsElw",
+          "accidents": [
+            "公司将抓住下游应用市场快速增长的机会，以及国家产业政策的支持，利用公司的技术优势、客户资源优势、供应链优势，借助资本市场融资渠道，在巩固现有市场的基础上，积极开拓国际市场和新兴市场。"
+          ],
+          "insights": [],
+          "key_metrics": [
+            "行业领先",
+            "国内第一"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "industry": "科技",
+      "concepts": [
+        "科技"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": []
+    }
+  }
+}

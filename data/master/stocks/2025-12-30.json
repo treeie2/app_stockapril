@@ -1,0 +1,63 @@
+{
+  "date": "2025-12-30",
+  "update_count": 1,
+  "stocks": {
+    "308005": {
+      "name": "欧科亿",
+      "code": "308005",
+      "board": "SZ",
+      "industry": "机械设备-通用设备-金属制品",
+      "concepts": [
+        "机器人",
+        "PCB概念",
+        "光伏概念",
+        "工业母机",
+        "2025年报预增",
+        "航空发动机",
+        "专精特新",
+        "人形机器人",
+        "机器人概念",
+        "商业航天",
+        "融资融券"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "12月29日，复盘及操作策略，指数继续震荡，机器人轮动反弹",
+          "date": "2025-12-30",
+          "source": "https://mp.weixin.qq.com/s/F2aaS4wCJPRHvX1axY4lgA",
+          "accidents": [],
+          "insights": [
+            "### 2\\. 操作策略建议"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    }
+  }
+}

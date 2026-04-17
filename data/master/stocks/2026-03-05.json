@@ -1,0 +1,460 @@
+{
+  "date": "2026-03-05",
+  "update_count": 9,
+  "stocks": {
+    "300389": {
+      "name": "艾比森",
+      "code": "300389",
+      "board": "SZ",
+      "mention_count": 2,
+      "industry": "电子-光学光电子-LED",
+      "article_date": "2026-03-05",
+      "concepts": [
+        "MicroLED概念",
+        "MiniLED",
+        "柔性屏(折叠屏)",
+        "足球概念",
+        "虚拟现实",
+        "华为概念",
+        "2025年报预增",
+        "人民币贬值受益",
+        "储能",
+        "创投",
+        "数字经济",
+        "深股通"
+      ],
+      "products": [
+        "LED显示屏"
+      ],
+      "core_business": [
+        "LED显示屏（95%）、少量储能/运营服务"
+      ],
+      "industry_position": [
+        "全球LED显示屏龙头"
+      ],
+      "chain": [
+        "下游-应用"
+      ],
+      "partners": null,
+      "articles": [
+        {
+          "title": "Micro_LED爆发_打破光铜困境",
+          "date": "2026-03-05",
+          "source": "https://mp.weixin.qq.com/s/MDRtgLRc0CN3WgPYH9Cf3A",
+          "accidents": [
+            "Micro LED爆发"
+          ],
+          "insights": [
+            "受益于Micro LED和CPO技术发展"
+          ],
+          "key_metrics": [
+            "海外占比高，毛利率领先"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "300670": {
+      "name": "大烨智能",
+      "code": "300670",
+      "board": "SZ",
+      "industry": "电力设备-电网设备-输变电设备",
+      "concepts": [
+        "科技"
+      ],
+      "products": [
+        "包括站房智能辅助与人工智能可视化网关"
+      ],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": null,
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "智能经济概念股全梳理",
+          "date": "2026-03-05",
+          "source": "https://mp.weixin.qq.com/s/38wLfMEVaATcpweuQ7AKMg",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "001266": {
+      "name": "宏英智能",
+      "code": "001266",
+      "board": "SZ",
+      "industry": "机械设备-自动化设备-工控设备",
+      "concepts": [
+        "科技"
+      ],
+      "products": [],
+      "core_business": [
+        "中涉及了AI智能体的应用"
+      ],
+      "industry_position": [],
+      "chain": [],
+      "partners": null,
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "智能经济概念股全梳理",
+          "date": "2026-03-05",
+          "source": "https://mp.weixin.qq.com/s/38wLfMEVaATcpweuQ7AKMg",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "002877": {
+      "name": "智能自控",
+      "code": "002877",
+      "board": "SZ",
+      "industry": "机械设备-通用设备-金属制品",
+      "concepts": [
+        "科技"
+      ],
+      "products": [
+        "应用领域包括人工智能"
+      ],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": null,
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "智能经济概念股全梳理",
+          "date": "2026-03-05",
+          "source": "https://mp.weixin.qq.com/s/38wLfMEVaATcpweuQ7AKMg",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "300466": {
+      "name": "赛摩智能",
+      "code": "300466",
+      "board": "SZ",
+      "industry": "机械设备-通用设备-仪器仪表",
+      "concepts": [
+        "科技"
+      ],
+      "products": [
+        "包括AI多维智能整理机"
+      ],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": null,
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "智能经济概念股全梳理",
+          "date": "2026-03-05",
+          "source": "https://mp.weixin.qq.com/s/38wLfMEVaATcpweuQ7AKMg",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "300911": {
+      "name": "亿田智能",
+      "code": "300911",
+      "board": "SZ",
+      "industry": "家用电器-厨卫电器-厨卫电器Ⅲ",
+      "concepts": [
+        "科技"
+      ],
+      "products": [
+        "力生态圈战略合作框架协议"
+      ],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": null,
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "智能经济概念股全梳理",
+          "date": "2026-03-05",
+          "source": "https://mp.weixin.qq.com/s/38wLfMEVaATcpweuQ7AKMg",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "920810": {
+      "name": "春光智能",
+      "code": "920810",
+      "board": "SZ",
+      "industry": "机械设备-专用设备-印刷包装机械",
+      "concepts": [
+        "科技"
+      ],
+      "products": [],
+      "core_business": [
+        ",拓展智能机器人领域;致力于打造“智能工厂大脑”",
+        "打造“智能工厂大脑”"
+      ],
+      "industry_position": [],
+      "chain": [],
+      "partners": null,
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "智能经济概念股全梳理",
+          "date": "2026-03-05",
+          "source": "https://mp.weixin.qq.com/s/38wLfMEVaATcpweuQ7AKMg",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "603721": {
+      "name": "*ST天择",
+      "code": "603721",
+      "board": "SH",
+      "industry": "传媒-影视院线-影视院线Ⅲ",
+      "concepts": [
+        "传媒-影视院线-影视院线Ⅲ"
+      ],
+      "products": [
+        "视频语料"
+      ],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": null,
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "阶跃星辰_概念股全梳理",
+          "date": "2026-03-05",
+          "source": "https://mp.weixin.qq.com/s/x5SI-nZsEJACW5ptKWuU7Q",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "688352": {
+      "name": "集成电路封测",
+      "code": "688352",
+      "articles": [
+        {
+          "title": "688352  集成电路封测 显示驱动芯片封测 国产芯片 国内集成电路先进封装测试领域的核心企业",
+          "date": "2026-03-05",
+          "source": "https://mp.weixin.qq.com/s/cVod\\_gsNcJYgH1wtHY30Vw",
+          "accidents": [
+            "4.  **国产替代与政策支持**",
+            "作为国内半导体封测企业，颀中科技受益于国产替代趋势，其技术与产能发展符合国家半导体产业政策导向，是地方国企改革重点标的，实际控制人为合肥市国资委。"
+          ],
+          "insights": [
+            "受益于在集成电路先进封装测试领域较强的技术储备和生产制造能力，公司各主要工艺良率稳定保持在99.95%以上。",
+            "作为国内半导体封测企业，颀中科技受益于国产替代趋势，其技术与产能发展符合国家半导体产业政策导向，是地方国企改革重点标的，实际控制人为合肥市国资委。"
+          ],
+          "key_metrics": [
+            "行业领先",
+            "行业领先",
+            "龙头地位"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "industry": "科技",
+      "concepts": [
+        "科技"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": []
+    }
+  }
+}

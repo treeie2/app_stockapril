@@ -1,0 +1,405 @@
+{
+  "date": "2025-07-17",
+  "update_count": 6,
+  "stocks": {
+    "300386": {
+      "name": "飞天诚信",
+      "code": "300386",
+      "board": "SZ",
+      "industry": "计算机-计算机设备-其他计算机设备",
+      "concepts": [
+        "数字货币",
+        "移动支付",
+        "跨境支付(CIPS)",
+        "人脸识别",
+        "区块链",
+        "车联网(车路协同)",
+        "鸿蒙概念",
+        "国产操作系统",
+        "华为鲲鹏",
+        "网络安全",
+        "AI智能体",
+        "物联网",
+        "知识产权保护",
+        "量子科技",
+        "MCU芯片",
+        "芯片概念",
+        "汽车芯片",
+        "深股通"
+      ],
+      "mention_count": 1,
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [
+        "F310智能POS终端获银联/Visa双认证"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "“跨境支付”深度解析与操作策略（4月12日更新）",
+          "date": "2025-04-12",
+          "source": "https://mp.weixin.qq.com/s/xLog4pBNM6biwe4VuUYdPA",
+          "accidents": [
+            "F310智能POS终端获银联/Visa双认证"
+          ],
+          "insights": [],
+          "key_metrics": [
+            "F310智能POS终端获银联/Visa双认证，支持多币种跨境支付，2024年海外订单增长120%"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        },
+        {
+          "title": "上周市场复盘及本周操作策略，文末尾盘参考，6月23日",
+          "date": "2025-06-23",
+          "source": "https://mp.weixin.qq.com/s/YHG38q3afnQpU-UgK9lpXA",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "* **逻辑**：华为盘古大模型5.5支持千亿参数，英伟达股东大会（6/26）或披露GB200量产计划"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        },
+        {
+          "title": "热点关注，今日操作策略与风险提示，底部竞价参考，7月17日",
+          "date": "2025-07-17",
+          "source": "https://mp.weixin.qq.com/s/HbcSc94rA8Zc33_7oMB5bQ",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "* **策略**：轻仓布局跨境支付协议服务商（年海外收入占比＞30%）"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "article_count": 3,
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "000513": {
+      "name": "丽珠集团",
+      "code": "000513",
+      "board": "SZ",
+      "industry": "医药生物-化学制药-化学制剂",
+      "concepts": [
+        "创新药",
+        "重组蛋白",
+        "仿制药一致性评价",
+        "减肥药",
+        "流感",
+        "生物疫苗",
+        "辅助生殖",
+        "宠物经济",
+        "基因测序",
+        "猴痘概念",
+        "横琴新区",
+        "DeepSeek概念",
+        "深股通",
+        "融资融券"
+      ],
+      "mention_count": 1,
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "articles": [
+        {
+          "title": "热点关注，今日操作策略与风险提示，底部竞价参考，7月17日",
+          "date": "2025-07-17",
+          "source": "https://mp.weixin.qq.com/s/HbcSc94rA8Zc33_7oMB5bQ",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "* 器械：6月医疗设备中标额同比+30%（CT/MRI占比38%），国产替代率突破50%",
+            "* **策略**：聚焦研发管线进度领先企业（临床III期以上品种≥2个），中药优先配置医保覆盖品种"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "article_count": 1,
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "300513": {
+      "name": "恒实科技",
+      "code": "300513",
+      "board": "SZ",
+      "industry": "通信-通信服务-通信工程及服务",
+      "concepts": [
+        "电力物联网",
+        "虚拟电厂",
+        "智能电网",
+        "语音技术",
+        "华为数字能源",
+        "职业教育",
+        "碳交易",
+        "智慧城市",
+        "物联网",
+        "充电桩",
+        "数字孪生",
+        "碳中和",
+        "数字乡村",
+        "数据要素",
+        "智慧政务",
+        "数字经济",
+        "智能家居",
+        "乡村振兴",
+        "东数西算(算力)",
+        "工业互联网",
+        "华为概念",
+        "储能",
+        "光伏概念",
+        "虚拟现实",
+        "农机",
+        "5G",
+        "芯片概念"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "热点关注，今日操作策略与风险提示，底部竞价参考，7月17日",
+          "date": "2025-07-17",
+          "source": "https://mp.weixin.qq.com/s/HbcSc94rA8Zc33_7oMB5bQ",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "* 储能：超级电容国际标准立项（新筑股份002480技术参数达标率100%）",
+            "* **策略**：虚拟电厂标的需满足负荷响应能力＞500MW，储能企业循环寿命≥50万次"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "002082": {
+      "name": "万邦德",
+      "code": "002082",
+      "board": "SZ",
+      "industry": "医药生物-中药-中药Ⅲ",
+      "concepts": [
+        "阿尔茨海默概念",
+        "共同富裕示范区",
+        "医疗器械概念",
+        "仿制药一致性评价",
+        "创新药",
+        "肝炎概念",
+        "生物疫苗",
+        "流感",
+        "一带一路",
+        "医药电商",
+        "深股通"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "热点关注，今日操作策略与风险提示，底部竞价参考，7月17日",
+          "date": "2025-07-17",
+          "source": "https://mp.weixin.qq.com/s/HbcSc94rA8Zc33_7oMB5bQ",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "* **策略**：聚焦研发管线进度领先企业（临床III期以上品种≥2个），中药优先配置医保覆盖品种"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "002480": {
+      "name": "新筑股份",
+      "code": "002480",
+      "board": "SZ",
+      "industry": "公用事业-电力-新能源发电",
+      "concepts": [
+        "光热发电",
+        "绿色电力",
+        "高铁",
+        "燃料电池",
+        "一带一路",
+        "数据中心",
+        "机器人概念",
+        "西部大开发",
+        "国企改革",
+        "超级电容",
+        "钒电池",
+        "股权转让(并购重组)",
+        "深股通"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "热点关注，今日操作策略与风险提示，底部竞价参考，7月17日",
+          "date": "2025-07-17",
+          "source": "https://mp.weixin.qq.com/s/HbcSc94rA8Zc33_7oMB5bQ",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "* **策略**：虚拟电厂标的需满足负荷响应能力＞500MW，储能企业循环寿命≥50万次"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "002891": {
+      "name": "中宠股份",
+      "code": "002891",
+      "board": "SZ",
+      "industry": "农林牧渔-农产品加工-宠物食品",
+      "concepts": [
+        "宠物经济",
+        "人民币贬值受益",
+        "融资融券",
+        "深股通"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "热点关注，今日操作策略与风险提示，底部竞价参考，7月17日",
+          "date": "2025-07-17",
+          "source": "https://mp.weixin.qq.com/s/HbcSc94rA8Zc33_7oMB5bQ",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "5. **流动性风险**："
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    }
+  }
+}

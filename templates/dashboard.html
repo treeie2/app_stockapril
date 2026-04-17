@@ -854,7 +854,8 @@
             </button>
             <span class="refresh-status" id="refreshStatus"></span>
             <select class="sort-sel" id="sortSel">
-                <option value="date">按日期</option>
+                <option value="updated">按更新时间</option>
+                <option value="date">按最新文章</option>
                 <option value="mention">按热度</option>
                 <option value="chg_up">涨幅 ↑</option>
                 <option value="chg_down">跌幅 ↑</option>
@@ -888,6 +889,7 @@
                         data-articles="{{ stock.articles | length }}" 
                         data-name="{{ stock.name }}" 
                         data-latest-date="{{ stock.latest_article_date or '' }}"
+                        data-last-updated="{{ stock.last_updated or '' }}"
                         data-chg="0" 
                         onclick="window.location='/stock/{{ stock.code }}'">
                         <td class="col-rank">{{ loop.index }}</td>
@@ -991,10 +993,19 @@
                 if(mode==='chg_up') return +b.dataset.chg - +a.dataset.chg;
                 if(mode==='chg_down') return +a.dataset.chg - +b.dataset.chg;
                 if(mode==='date') {
-                    // 按最新文章日期排序（从行数据中获取）
+                    // 按最新文章日期排序
                     const dateA = a.dataset.latestDate || '';
                     const dateB = b.dataset.latestDate || '';
                     return dateB.localeCompare(dateA);
+                }
+                if(mode==='updated') {
+                    // 按最后更新时间排序：有更新时间的排在前面（最新的在前）
+                    const updatedA = a.dataset.lastUpdated || '';
+                    const updatedB = b.dataset.lastUpdated || '';
+                    if(updatedA && updatedB) return updatedB.localeCompare(updatedA);
+                    if(updatedA) return -1;  // A有更新时间，排在前面
+                    if(updatedB) return 1;   // B有更新时间，排在前面
+                    return 0;  // 都没有更新时间，保持原顺序
                 }
                 return 0;
             });
@@ -1010,8 +1021,8 @@
             });
         }
         
-        // default sort by mention
-        sortRows('mention');
+        // default sort by last updated
+        sortRows('updated');
         
         // Auto fetch market data on page load
         fetchMarket(false);

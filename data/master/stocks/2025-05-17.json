@@ -1,0 +1,76 @@
+{
+  "date": "2025-05-17",
+  "update_count": 1,
+  "stocks": {
+    "002223": {
+      "name": "鱼跃医疗",
+      "code": "002223",
+      "board": "SZ",
+      "industry": "医药生物-医疗器械-医疗设备",
+      "concepts": [
+        "蚂蚁集团概念",
+        "智能医疗",
+        "养老概念",
+        "三胎概念",
+        "医疗器械概念",
+        "血氧仪",
+        "幽门螺杆菌概念",
+        "眼科医疗",
+        "雅下水电概念",
+        "消毒剂",
+        "深股通",
+        "融资融券"
+      ],
+      "mention_count": 3,
+      "products": [
+        "平台",
+        "设备"
+      ],
+      "core_business": [],
+      "industry_position": [
+        "龙头",
+        "机市占率稳居全国第一",
+        "跃医疗：硬件入口龙头",
+        "鱼跃医疗作为行业龙头"
+      ],
+      "chain": [
+        "下游-设备",
+        "平台"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "“新冠概念”深度解析与操作策略5月17日",
+          "date": "2025-05-17",
+          "source": "https://mp.weixin.qq.com/s/iBIofgKMT8npKNpfEP_G3A",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "3. **政策催化**："
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "article_count": 1,
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    }
+  }
+}

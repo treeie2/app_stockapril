@@ -1,0 +1,108 @@
+{
+  "date": "2025-08-14",
+  "update_count": 1,
+  "stocks": {
+    "600585": {
+      "name": "海螺水泥",
+      "code": "600585",
+      "board": "SH",
+      "industry": "建筑材料-建筑材料-水泥",
+      "concepts": [
+        "水泥概念",
+        "同花顺中特估100",
+        "证金持股",
+        "装配式建筑",
+        "国企改革",
+        "雅下水电概念",
+        "同花顺漂亮100",
+        "一带一路",
+        "沪股通",
+        "融资融券",
+        "储能"
+      ],
+      "mention_count": 2,
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "articles": [
+        {
+          "title": "9月25日，热点关注，今日操作策略与风险提示，文末本周3篇报告",
+          "date": "2025-09-25",
+          "source": "https://mp.weixin.qq.com/s/uvITwnVH1eQO0Cx88_g9Tg",
+          "accidents": [],
+          "insights": [
+            "操作策略：逢低配置区域龙头，关注兼并重组及产能置换执行进度"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        },
+        {
+          "title": "9月26日，热点关注，今日操作策略与风险提示，文末本周3篇报告",
+          "date": "2025-09-26",
+          "source": "https://mp.weixin.qq.com/s/XGSqsT3RvBbu4ugLPYJntg",
+          "accidents": [
+            "政策推动行业供给侧进一步收紧"
+          ],
+          "insights": [],
+          "key_metrics": [
+            "水泥企业需在2025年底前对超出备案产能制定置换方案，促进实际产能与备案产能统一"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        },
+        {
+          "title": "“反内卷概念”深度解析与操作策略，底部盘中参考，7月3日",
+          "date": "2025-07-03",
+          "source": "https://mp.weixin.qq.com/s/L7UoXD0ZuxuhrKCg69Ja8Q",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "_逻辑_：区域协同限产（协会推动价格协调），库存压力小的龙头盈利修复弹性大，华东地区水泥价格上调20元/吨"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        },
+        {
+          "title": "热点关注，今日操作策略与风险提示，8月14日",
+          "date": "2025-08-14",
+          "source": "https://mp.weixin.qq.com/s/5diYauNPQrjutw1UWgNbEQ",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "3. **氨纶（供给突发收缩）**"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "article_count": 4,
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    }
+  }
+}

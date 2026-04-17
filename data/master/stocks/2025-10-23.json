@@ -1,0 +1,101 @@
+{
+  "date": "2025-10-23",
+  "update_count": 2,
+  "stocks": {
+    "300227": {
+      "name": "商业航天",
+      "code": "300227",
+      "articles": [
+        {
+          "title": "300227  商业航天 大飞机 低空经济 3D打印 军工 全激光产业链布局的智能制造解决方案与服务提供商",
+          "date": "2025-10-23",
+          "source": "https://mp.weixin.qq.com/s/LvXA6A\\_VLQsWdnvomECGxg",
+          "accidents": [
+            "（2）3D 打印受益于 国家政策扶持和广泛的应用空间，潜在市场需求大；"
+          ],
+          "insights": [
+            "2.激光精密加工下游多点开花 受益于下游需求增长，精密激光应用与服务业发展前景广阔：",
+            "（2）3D 打印受益于 国家政策扶持和广泛的应用空间，潜在市场需求大；"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "industry": "科技",
+      "concepts": [
+        "军工"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": []
+    },
+    "300986": {
+      "name": "新型城镇化",
+      "code": "300986",
+      "articles": [
+        {
+          "title": "300986  新型城镇化 量子科技 化学机器人 人工智能 国内知名建筑铝模系统的综合服务提供商",
+          "date": "2025-10-23",
+          "source": "https://mp.weixin.qq.com/s/P22rSbfuBdr66E-S1A1e6w",
+          "accidents": [
+            "“志特小临”主营业务为化学机器人平台以及通过Al for Science新范式进行新材料研发与产业落地，已在防火、吸热、催化剂材料研发等孵化出成果。",
+            "公司通过“AI+机器人”结合的方式仅用数月就完成了催化剂材料及配方的筛选，研发出超级隔热材料，大幅降低材料熔点和反应温度，性能相比气凝胶提升2倍以上，而成本仅为其1/3左右。",
+            "量子科技的突破不仅重塑了技术底座，更成为人工智能与实体经济深度融合的“催化剂”。"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "industry": "科技",
+      "concepts": [
+        "科技"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": []
+    }
+  }
+}

@@ -1,0 +1,366 @@
+{
+  "date": "2025-03-27",
+  "update_count": 6,
+  "stocks": {
+    "300161": {
+      "name": "华中数控",
+      "code": "300161",
+      "board": "SZ",
+      "mention_count": 1,
+      "industry": "机械设备-通用设备-机床工具",
+      "article_date": "2026-03-11",
+      "concepts": [
+        "工业母机",
+        "新型工业化",
+        "新能源汽车",
+        "机器人概念",
+        "工业互联网",
+        "高端装备",
+        "军工",
+        "数据中心",
+        "数字孪生",
+        "航空发动机",
+        "锂电池概念",
+        "智能物流",
+        "人工智能",
+        "阿里巴巴概念",
+        "职业教育",
+        "深股通"
+      ],
+      "products": [
+        "华中9/10型数控系统"
+      ],
+      "core_business": [
+        "数控系统研发"
+      ],
+      "industry_position": [
+        "国产数控系统龙头"
+      ],
+      "chain": [
+        "中游-数控系统与核心部件"
+      ],
+      "partners": null,
+      "articles": [
+        {
+          "title": "3月26日市场复盘及操作建议-值得看",
+          "date": "2025-03-27",
+          "source": "https://mp.weixin.qq.com/s/__p2dnnGhCtt0FDfA8ONqw",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "数控系统市占率28%，Q1业绩预增30%，股价回调至60日均线企稳"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "article_count": 1,
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "300343": {
+      "name": "联创股份",
+      "code": "300343",
+      "board": "SZ",
+      "industry": "其他-其他-其他",
+      "concepts": [
+        "其他-其他-其他"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [
+        "四代制冷剂HFO-1234yf专利持有者（产能1.2万吨）",
+        "核心逻辑"
+      ],
+      "article_count": 2,
+      "articles": [
+        {
+          "title": "“制冷剂”深度解析与操作策略（2025年4月更新）",
+          "date": "2025-04-06",
+          "source": "https://mp.weixin.qq.com/s/oc_04dGeA_XsKEgZ90RN5Q",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "四代制冷剂HFO-1234yf专利持有者（产能1.2万吨），客户覆盖美的、格力，需注意目前ST"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        },
+        {
+          "title": "制冷剂行业深度分析及操作策略（2025年3月更新）",
+          "date": "2025-03-27",
+          "source": "https://mp.weixin.qq.com/s/k36UvkLh11fY5UMEEGx1Pw",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "核心逻辑：四代制冷剂HFO-1234yf专利持有者，产能1.2万吨，客户覆盖美的、格力",
+            "2025年专利授权收入或达2亿元，技术溢价尚未充分定价"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "600123": {
+      "name": "兰花科创",
+      "code": "600123",
+      "board": "SH",
+      "industry": "煤炭-煤炭开采加工-煤炭开采",
+      "concepts": [
+        "煤炭概念",
+        "煤化工概念",
+        "化肥",
+        "国企改革",
+        "沪股通",
+        "融资融券"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "3月26日市场复盘及操作建议-值得看",
+          "date": "2025-03-27",
+          "source": "https://mp.weixin.qq.com/s/__p2dnnGhCtt0FDfA8ONqw",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "动态市盈率不足6倍，春耕用煤需求回升，日线RSI底背离"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "600011": {
+      "name": "华能国际",
+      "code": "600011",
+      "board": "SH",
+      "industry": "公用事业-电力-火电",
+      "concepts": [
+        "超超临界发电",
+        "证金持股",
+        "绿色电力",
+        "国企改革",
+        "央企国企改革",
+        "碳中和",
+        "风电",
+        "核电",
+        "沪股通",
+        "融资融券"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "3月26日市场复盘及操作建议-值得看",
+          "date": "2025-03-27",
+          "source": "https://mp.weixin.qq.com/s/__p2dnnGhCtt0FDfA8ONqw",
+          "accidents": [
+            "Q1净利润环比预增120%"
+          ],
+          "insights": [],
+          "key_metrics": [
+            "Q1净利润环比预增120%，放量突破10元压力位，周线筑底完成"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "600886": {
+      "name": "国投电力",
+      "code": "600886",
+      "board": "SH",
+      "industry": "公用事业-电力-水电",
+      "concepts": [
+        "同花顺中特估100",
+        "证金持股",
+        "抽水蓄能",
+        "绿色电力",
+        "国企改革",
+        "央企国企改革",
+        "沪股通",
+        "融资融券"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "3月26日市场复盘及操作建议-值得看",
+          "date": "2025-03-27",
+          "source": "https://mp.weixin.qq.com/s/__p2dnnGhCtt0FDfA8ONqw",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "雅砻江水电来水增15%，筹码集中度提升至12%，日线RSI底背离强化"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "300809": {
+      "name": "华辰装备",
+      "code": "300809",
+      "board": "SZ",
+      "industry": "机械设备-通用设备-机床工具",
+      "concepts": [
+        "人形机器人",
+        "工业母机",
+        "新型工业化",
+        "第三代半导体",
+        "光刻机",
+        "专精特新",
+        "机器人概念",
+        "高端装备",
+        "2025年报预增",
+        "一带一路",
+        "深股通"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "3月26日市场复盘及操作建议-值得看",
+          "date": "2025-03-27",
+          "source": "https://mp.weixin.qq.com/s/__p2dnnGhCtt0FDfA8ONqw",
+          "accidents": [
+            "轴联动技术突破"
+          ],
+          "insights": [],
+          "key_metrics": [
+            "五轴联动技术突破，4月订单环比增25%，日线MACD金叉共振"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    }
+  }
+}

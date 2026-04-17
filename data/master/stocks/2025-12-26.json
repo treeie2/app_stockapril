@@ -1,0 +1,64 @@
+{
+  "date": "2025-12-26",
+  "update_count": 1,
+  "stocks": {
+    "600103": {
+      "name": "青山纸业",
+      "code": "600103",
+      "board": "SH",
+      "industry": "轻工制造-造纸-造纸Ⅲ",
+      "concepts": [
+        "海峡两岸",
+        "5G",
+        "共封装光学(CPO)",
+        "创投",
+        "数据中心",
+        "一带一路",
+        "碳中和",
+        "乡村振兴",
+        "国企改革",
+        "沪股通"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "12月26日，热点关注，今日操作策略与风险提示",
+          "date": "2025-12-26",
+          "source": "https://mp.weixin.qq.com/s/V2P62J78hUeO9bywG8S4Ew",
+          "accidents": [
+            "操作逻辑是人民币升值降低原材料进口成本"
+          ],
+          "insights": [
+            "操作逻辑是人民币升值降低原材料进口成本"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    }
+  }
+}

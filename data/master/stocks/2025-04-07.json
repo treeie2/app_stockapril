@@ -1,0 +1,828 @@
+{
+  "date": "2025-04-07",
+  "update_count": 12,
+  "stocks": {
+    "300760": {
+      "name": "迈瑞医疗",
+      "code": "300760",
+      "board": "SZ",
+      "industry": "医药生物-医疗器械-医疗设备",
+      "concepts": [
+        "智能医疗",
+        "医疗器械概念",
+        "宠物经济",
+        "同花顺漂亮100",
+        "DeepSeek概念",
+        "AIGC概念",
+        "AI应用",
+        "同花顺出海50",
+        "融资融券",
+        "深股通"
+      ],
+      "mention_count": 4,
+      "products": [
+        "设备"
+      ],
+      "core_business": [],
+      "industry_position": [
+        "高端监护仪、影像设备国产替代龙头"
+      ],
+      "chain": [
+        "下游-设备"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "1月14日，复盘及操作策略，政策突发降温，指数盘中跳水；政策降温下的市场分析与布局策略",
+          "date": "2026-01-15",
+          "source": "https://mp.weixin.qq.com/s/WLRxB382m2zGwD4TdnIEfw",
+          "accidents": [],
+          "insights": [
+            "> 市场短期调整有利于长期健康走势"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        },
+        {
+          "title": "上周复盘及操作建议-实时更新自动回复“今日标的”",
+          "date": "2025-04-07",
+          "source": "https://mp.weixin.qq.com/s/IrfiJ_hpbPVHzj2a8vLKpA",
+          "accidents": [],
+          "insights": [
+            "高端监护仪、影像设备国产替代龙头"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "article_count": 2,
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "000998": {
+      "name": "隆平高科",
+      "code": "000998",
+      "board": "SZ",
+      "mention_count": 1,
+      "industry": "农林牧渔-种植业与林业-种子生产",
+      "article_date": "2026-03-04",
+      "concepts": [
+        "转基因",
+        "玉米",
+        "粮食概念",
+        "农业种植",
+        "生态农业",
+        "俄乌冲突概念",
+        "乡村振兴",
+        "国企改革",
+        "深股通",
+        "融资融券",
+        "基因测序",
+        "鸿蒙概念"
+      ],
+      "products": [
+        "杂交水稻种子",
+        "玉米种子",
+        "小麦种子"
+      ],
+      "core_business": [
+        "种子研发与销售"
+      ],
+      "industry_position": [
+        "杂交水稻龙头"
+      ],
+      "chain": [
+        "中游-种业龙头"
+      ],
+      "partners": null,
+      "articles": [
+        {
+          "title": "20250409-今日操作建议参考-自动回复“今日标的”实时更新",
+          "date": "2025-04-09",
+          "source": "https://mp.weixin.qq.com/s/EuiBwA6RmntItlwcI5w2ng",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "种业央企，转基因玉米品种过审，2024年生物育种商业化收入占比预计超30%"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        },
+        {
+          "title": "5月7日市场复盘及操作策略-文末尾盘参考",
+          "date": "2025-05-08",
+          "source": "https://mp.weixin.qq.com/s/8rjMNaapXrIc-VX-BWpXFg",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "* **激进型（6-7成）**："
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        },
+        {
+          "title": "“关税”深度解析与操作策略（4月6日更新）",
+          "date": "2025-04-08",
+          "source": "https://mp.weixin.qq.com/s/T4u3t7nK9-8rXOE4lDTHGA",
+          "accidents": [
+            "转基因技术商业化加速"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        },
+        {
+          "title": "上周复盘及操作建议-实时更新自动回复“今日标的”",
+          "date": "2025-04-07",
+          "source": "https://mp.weixin.qq.com/s/IrfiJ_hpbPVHzj2a8vLKpA",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "医药生物（+1.20%）："
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "article_count": 4,
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "002041": {
+      "name": "登海种业",
+      "code": "002041",
+      "board": "SZ",
+      "mention_count": 1,
+      "industry": "农林牧渔-种植业与林业-种子生产",
+      "article_date": "2026-03-04",
+      "concepts": [
+        "转基因",
+        "玉米",
+        "粮食概念",
+        "农业种植",
+        "生态农业",
+        "俄乌冲突概念",
+        "乡村振兴",
+        "2025年报预增",
+        "深股通",
+        "融资融券"
+      ],
+      "products": [
+        "玉米种子"
+      ],
+      "core_business": [
+        "种子研发与销售"
+      ],
+      "industry_position": [
+        "玉米种业领军企业"
+      ],
+      "chain": [
+        "中游-种业龙头"
+      ],
+      "partners": null,
+      "articles": [
+        {
+          "title": "1月30日，复盘分析与展望，指数V型反弹，板块冰火两重天",
+          "date": "2026-01-31",
+          "source": "https://mp.weixin.qq.com/s/AJAfyabmlKFe0aZbYXi-6A",
+          "accidents": [
+            "节后随着春节消费数据出炉、AI应用大战有催化"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        },
+        {
+          "title": "上周复盘及操作建议-实时更新自动回复“今日标的”",
+          "date": "2025-04-07",
+          "source": "https://mp.weixin.qq.com/s/IrfiJ_hpbPVHzj2a8vLKpA",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "医药生物（+1.20%）："
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "article_count": 2,
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "600057": {
+      "name": "厦门象屿",
+      "code": "600057",
+      "board": "SH",
+      "industry": "交通运输-物流-物流Ⅲ",
+      "concepts": [
+        "玉米",
+        "统一大市场",
+        "土地流转",
+        "农业种植",
+        "冷链物流",
+        "国企改革",
+        "乡村振兴",
+        "福建自贸区",
+        "海峡两岸",
+        "一带一路",
+        "智能物流",
+        "商业航天",
+        "DeepSeek概念",
+        "数据要素",
+        "沪股通",
+        "融资融券"
+      ],
+      "mention_count": 1,
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [
+        "核心逻辑"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "“统一大市场”深度解析与操作策略（4月7日更新）",
+          "date": "2025-04-07",
+          "source": "https://mp.weixin.qq.com/s/DCDp1qniHL0ucYFbO2BWxA",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "核心逻辑：中欧班列与国际海运协同，“一带一路”供应链业务增速超30%，全球资源整合能力突出"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "article_count": 1,
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "003816": {
+      "name": "中国广核",
+      "code": "003816",
+      "board": "SZ",
+      "industry": "公用事业-电力-新能源发电",
+      "concepts": [
+        "同花顺中特估100",
+        "绿色电力",
+        "央企国企改革",
+        "国企改革",
+        "核电",
+        "一带一路",
+        "核污染防治",
+        "DeepSeek概念",
+        "中字头股票",
+        "融资融券",
+        "深股通"
+      ],
+      "mention_count": 1,
+      "products": [],
+      "core_business": [],
+      "industry_position": [
+        "龙头",
+        "中国广核：运营双龙头"
+      ],
+      "chain": [
+        "运营"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "上周复盘及操作建议-实时更新自动回复“今日标的”",
+          "date": "2025-04-07",
+          "source": "https://mp.weixin.qq.com/s/IrfiJ_hpbPVHzj2a8vLKpA",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [
+            "核电运营稀缺标的"
+          ],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "article_count": 1,
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "601668": {
+      "name": "中国建筑",
+      "code": "601668",
+      "board": "SH",
+      "industry": "建筑装饰-建筑装饰-房屋建设",
+      "concepts": [
+        "中字头股票",
+        "同花顺中特估100",
+        "证金持股",
+        "装配式建筑",
+        "地下管网",
+        "PPP概念",
+        "新型城镇化",
+        "绿色电力",
+        "国企改革",
+        "央企国企改革",
+        "水利",
+        "沪股通",
+        "融资融券",
+        "一带一路",
+        "回购增持再贷款概念",
+        "风电",
+        "数字孪生",
+        "核电"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "上周复盘及操作建议-实时更新自动回复“今日标的”",
+          "date": "2025-04-07",
+          "source": "https://mp.weixin.qq.com/s/IrfiJ_hpbPVHzj2a8vLKpA",
+          "accidents": [
+            "稳增长核心标的"
+          ],
+          "insights": [
+            "稳增长核心标的"
+          ],
+          "key_metrics": [
+            "稳增长核心标的，海外订单占比提升至25%"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "603569": {
+      "name": "长久物流",
+      "code": "603569",
+      "board": "SH",
+      "industry": "交通运输-物流-物流Ⅲ",
+      "concepts": [
+        "统一大市场",
+        "中俄贸易概念",
+        "智能物流",
+        "雄安新区",
+        "航运概念",
+        "一带一路",
+        "无人驾驶",
+        "数字经济",
+        "比亚迪概念",
+        "数据要素",
+        "储能",
+        "动力电池回收",
+        "沪股通"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "“统一大市场”深度解析与操作策略（4月7日更新）",
+          "date": "2025-04-07",
+          "source": "https://mp.weixin.qq.com/s/DCDp1qniHL0ucYFbO2BWxA",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "核心逻辑：汽车物流全国龙头，净利润增长370%，新能源汽车运输需求激增，覆盖全国运输网络"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "872351": {
+      "name": "华光源海",
+      "code": "872351",
+      "board": "BJ",
+      "industry": "交通运输-物流-物流Ⅲ",
+      "concepts": [
+        "融资融券",
+        "中韩自贸区",
+        "一带一路",
+        "航运概念",
+        "跨境电商",
+        "统一大市场"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "“统一大市场”深度解析与操作策略（4月7日更新）",
+          "date": "2025-04-07",
+          "source": "https://mp.weixin.qq.com/s/DCDp1qniHL0ucYFbO2BWxA",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "核心逻辑：多式联运政策敏感标的，4月3日单日涨幅近30%，江海联运+跨境电商物流订单占比提升"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "600704": {
+      "name": "物产中大",
+      "code": "600704",
+      "board": "SH",
+      "industry": "交通运输-物流-物流Ⅲ",
+      "concepts": [
+        "国企改革",
+        "参股保险",
+        "期货概念",
+        "参股银行",
+        "统一大市场",
+        "汽车拆解概念",
+        "化债概念(AMC概念)",
+        "大豆",
+        "小金属概念",
+        "一带一路",
+        "医美概念",
+        "养老概念",
+        "辅助生殖",
+        "跨境电商",
+        "共同富裕示范区",
+        "DeepSeek概念",
+        "脑机接口",
+        "储能",
+        "机器人概念",
+        "小米汽车",
+        "沪股通",
+        "融资融券"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [
+        "核心逻辑"
+      ],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "“统一大市场”深度解析与操作策略（4月7日更新）",
+          "date": "2025-04-07",
+          "source": "https://mp.weixin.qq.com/s/DCDp1qniHL0ucYFbO2BWxA",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "核心逻辑：大宗商品供应链龙头，净利润增长100%，区域资源整合能力强，政策推动国企改革"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "833171": {
+      "name": "国航远洋",
+      "code": "833171",
+      "board": "BJ",
+      "industry": "交通运输-港口航运-航运",
+      "concepts": [
+        "福建自贸区",
+        "融资融券",
+        "低空经济",
+        "人民币贬值受益",
+        "航运概念",
+        "海峡两岸"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "“统一大市场”深度解析与操作策略（4月7日更新）",
+          "date": "2025-04-07",
+          "source": "https://mp.weixin.qq.com/s/DCDp1qniHL0ucYFbO2BWxA",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "核心逻辑：干散货航运龙头，净利润暴增1210%，内贸物流需求爆发，船舶运力利用率提升至90%"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "600025": {
+      "name": "华能水电",
+      "code": "600025",
+      "board": "SH",
+      "industry": "公用事业-电力-水电",
+      "concepts": [
+        "绿色电力",
+        "央企国企改革",
+        "国企改革",
+        "风电",
+        "西部大开发",
+        "水利",
+        "同花顺漂亮100",
+        "沪股通",
+        "DeepSeek概念",
+        "华为概念",
+        "融资融券"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "上周复盘及操作建议-实时更新自动回复“今日标的”",
+          "date": "2025-04-07",
+          "source": "https://mp.weixin.qq.com/s/IrfiJ_hpbPVHzj2a8vLKpA",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "农林牧渔（+1.51%）："
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "600008": {
+      "name": "首创环保",
+      "code": "600008",
+      "board": "SH",
+      "industry": "环保-环境治理-综合环境治理",
+      "concepts": [
+        "医疗废物处理",
+        "煤化工概念",
+        "绿色电力",
+        "PPP概念",
+        "固废处理",
+        "乡村振兴",
+        "国企改革",
+        "污水处理",
+        "地下管网",
+        "土壤修复",
+        "净水概念",
+        "雄安新区",
+        "垃圾分类",
+        "新型城镇化",
+        "京津冀一体化",
+        "智慧城市",
+        "DeepSeek概念",
+        "人工智能",
+        "沪股通",
+        "融资融券",
+        "机器人概念"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "上周复盘及操作建议-实时更新自动回复“今日标的”",
+          "date": "2025-04-07",
+          "source": "https://mp.weixin.qq.com/s/IrfiJ_hpbPVHzj2a8vLKpA",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "农林牧渔（+1.51%）："
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    }
+  }
+}

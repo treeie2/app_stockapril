@@ -1,0 +1,51 @@
+{
+  "date": "2026-03-06",
+  "update_count": 1,
+  "stocks": {
+    "603395": {
+      "name": "复合肥",
+      "code": "603395",
+      "articles": [
+        {
+          "title": "603395  复合肥 氮肥 煤化工 农业种植 复合肥和氮肥 双百企业",
+          "date": "2026-03-06",
+          "source": "https://mp.weixin.qq.com/s/41ZSIMWdOKsxuNOix-ERgw",
+          "accidents": [
+            "这一背景为其带来原材料采购、融资成本、政策支持等优势，如可通过中盐集团的采购网络获取稳定低价的原材料，融资成本低于民营同行，且在国家化肥保供稳价等政策中优先获得支持。"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "industry": "制造业",
+      "concepts": [
+        "制造业"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": []
+    }
+  }
+}

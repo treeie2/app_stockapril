@@ -1,0 +1,57 @@
+{
+  "date": "2025-12-21",
+  "update_count": 1,
+  "stocks": {
+    "002590": {
+      "name": "智能驾驶",
+      "code": "002590",
+      "articles": [
+        {
+          "title": "002590  智能驾驶 机器人 毫米波雷达 大功率无线充电桩 汽车底盘轻量化 汽车底盘控制系统及制动系统零部件关键供应商",
+          "date": "2025-12-21",
+          "source": "https://mp.weixin.qq.com/s/QW-mV7M0-RXkgNtbIn7U8w",
+          "accidents": [
+            "5.  **政策驱动概念**",
+            "*   **AEBS概念**：作为国内商用车AEBS市场龙头，受益于强制安装政策（2028年实施），公司将迎来大规模订单增长。",
+            "以上概念反映了万安科技在汽车产业链中的多元化布局，以及对新兴技术、政策机遇的积极响应。"
+          ],
+          "insights": [
+            "*   **AEBS概念**：作为国内商用车AEBS市场龙头，受益于强制安装政策（2028年实施），公司将迎来大规模订单增长。",
+            "*   **融资融券/转融券标的**：作为沪深两市的融资融券标的股，具备一定的市场活跃度和资金关注度。"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "industry": "制造业",
+      "concepts": [
+        "科技",
+        "汽车"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": []
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "date": "2025-12-16",
+  "update_count": 2,
+  "stocks": {
+    "002825": {
+      "name": "氢能源",
+      "code": "002825",
+      "articles": [
+        {
+          "title": "002825  氢能源 燃料电池 精密涂布材料领军者",
+          "date": "2025-12-16",
+          "source": "https://mp.weixin.qq.com/s/NzrXGHQj5B6uL\\_XaN\\_cvsA",
+          "accidents": [],
+          "insights": [
+            "3.  **汽车功能膜概念**：作为汽车保护膜、改色膜、窗膜等汽车功能膜产品的龙头企业，公司产品广泛应用于汽车后市场及前装领域，受益于汽车消费升级和新能源汽车发展的行业趋势。"
+          ],
+          "key_metrics": [
+            "龙头地位"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "industry": "制造业",
+      "concepts": [
+        "新能源"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": []
+    },
+    "300306": {
+      "name": "智能检测",
+      "code": "300306",
+      "articles": [
+        {
+          "title": "300306  智能检测 机器人 电子身份证 LED 金融科技 创投 机器视觉 光电检测设备和校准服务专业供应商",
+          "date": "2025-12-16",
+          "source": "https://mp.weixin.qq.com/s/uasRcPY9EsvBW8eaPOZnWw",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "industry": "科技",
+      "concepts": [
+        "科技"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": []
+    }
+  }
+}

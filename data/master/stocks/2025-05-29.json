@@ -1,0 +1,113 @@
+{
+  "date": "2025-05-29",
+  "update_count": 2,
+  "stocks": {
+    "300896": {
+      "name": "爱美客",
+      "code": "300896",
+      "board": "SZ",
+      "industry": "美容护理-美容护理-医疗美容",
+      "concepts": [
+        "毛发医疗",
+        "医美概念",
+        "重组蛋白",
+        "合成生物",
+        "同花顺漂亮100",
+        "减肥药",
+        "医疗器械概念",
+        "专精特新",
+        "深股通",
+        "融资融券"
+      ],
+      "mention_count": 1,
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "articles": [
+        {
+          "title": "5月29日操作策略与风险提示-文末竞价参考",
+          "date": "2025-05-29",
+          "source": "https://mp.weixin.qq.com/s/D1PSp-C7MfK8xG7evvqphQ",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "#### **6\\. 核聚变/固态电池**"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "article_count": 1,
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "300673": {
+      "name": "佩蒂股份",
+      "code": "300673",
+      "board": "SZ",
+      "industry": "农林牧渔-农产品加工-宠物食品",
+      "concepts": [
+        "宠物经济",
+        "人民币贬值受益"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "5月28日市场复盘及操作策略-文末尾盘参考",
+          "date": "2025-05-29",
+          "source": "https://mp.weixin.qq.com/s/8NemucL3-1rDkLZEaPKY2w",
+          "accidents": [
+            "政策驱动方向"
+          ],
+          "insights": [],
+          "key_metrics": [
+            "3. **政策驱动方向**："
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    }
+  }
+}

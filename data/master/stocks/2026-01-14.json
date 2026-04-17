@@ -1,0 +1,244 @@
+{
+  "date": "2026-01-14",
+  "update_count": 5,
+  "stocks": {
+    "605499": {
+      "name": "东鹏饮料",
+      "code": "605499",
+      "board": "SH",
+      "industry": "制造业",
+      "concepts": [
+        "消费"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": null,
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "01月14日___公告精选",
+          "date": "2026-01-14",
+          "source": "https://mp.weixin.qq.com/s/Bb2447-2lU2LGAVbW38B0Q",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "预计2025年净利润最高达45.9亿元"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "002107": {
+      "name": "沃华医药",
+      "code": "002107",
+      "board": "SZ",
+      "industry": "制造业",
+      "concepts": [
+        "医疗"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": null,
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "01月14日___公告精选",
+          "date": "2026-01-14",
+          "source": "https://mp.weixin.qq.com/s/Bb2447-2lU2LGAVbW38B0Q",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "预计2025年净利润同比增长119.76%～215.90%",
+            "净利润同比增长119.76%～215.90%",
+            "同比增长119.76%～215.90%"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "600231": {
+      "name": "凌钢股份",
+      "code": "600231",
+      "board": "SH",
+      "industry": "制造业",
+      "concepts": [
+        "制造业"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": null,
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "01月14日___公告精选",
+          "date": "2026-01-14",
+          "source": "https://mp.weixin.qq.com/s/Bb2447-2lU2LGAVbW38B0Q",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "预计2025年净利润亏损16.7亿元到-14.5亿元",
+            "亏损16.7亿元到-14.5亿元"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "000638": {
+      "name": "*ST万方",
+      "code": "000638",
+      "board": "SZ",
+      "industry": "农林牧渔-农产品加工-粮油加工",
+      "concepts": [
+        "农林牧渔-农产品加工-粮油加工"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": null,
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "01月14日___公告精选",
+          "date": "2026-01-14",
+          "source": "https://mp.weixin.qq.com/s/Bb2447-2lU2LGAVbW38B0Q",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "预计2025年度营业收入不足3亿元"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "600697": {
+      "name": "欧亚集团",
+      "code": "600697",
+      "board": "SH",
+      "industry": "其他-其他-其他",
+      "concepts": [
+        "其他-其他-其他"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "欧亚集团600697，主板商贸零售、区域龙头、资产重估与改革预期催化，1月14日，星期三",
+          "date": "2026-01-14",
+          "source": "https://mp.weixin.qq.com/s/MLDvszV7m6y4n9GpzJvhmw",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "**报告日期**：2026年1月13日"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    }
+  }
+}

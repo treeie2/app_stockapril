@@ -1,0 +1,189 @@
+{
+  "date": "2026-01-22",
+  "update_count": 3,
+  "stocks": {
+    "002427": {
+      "name": "尤夫股份",
+      "code": "002427",
+      "board": "SZ",
+      "mention_count": 2,
+      "industry": "基础化工-化学纤维-涤纶",
+      "article_date": "2026-01-22",
+      "concepts": [
+        "国企改革",
+        "海工装备",
+        "新能源汽车",
+        "深股通"
+      ],
+      "products": [
+        "涤纶"
+      ],
+      "core_business": [
+        "涤纶工业"
+      ],
+      "industry_position": [
+        "中国涤纶工业领域龙头企业之一"
+      ],
+      "chain": [
+        "中游-化工生产"
+      ],
+      "partners": null,
+      "articles": [
+        {
+          "title": "关于尤夫股份的分析",
+          "date": "2026-01-22",
+          "source": "https://mp.weixin.qq.com/s/8y7i1j66926cxTQx3rbS6A",
+          "accidents": [
+            "市场情绪修复，轮动行情"
+          ],
+          "insights": [
+            "受益于化工行业复苏"
+          ],
+          "key_metrics": [
+            "中国涤纶工业领域龙头企业之一"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "301256": {
+      "name": "华融化学",
+      "code": "301256",
+      "board": "SZ",
+      "mention_count": 1,
+      "industry": "基础化工-化学原料-无机盐",
+      "article_date": "2026-01-22",
+      "concepts": [
+        "光刻胶",
+        "光伏概念",
+        "芯片概念",
+        "消毒剂",
+        "净水概念",
+        "专精特新",
+        "化肥",
+        "污水处理",
+        "西部大开发",
+        "深股通",
+        "融资融券"
+      ],
+      "products": [
+        "氢氧化钾"
+      ],
+      "core_business": [
+        "氢氧化钾生产"
+      ],
+      "industry_position": [
+        "国内氢氧化钾行业领先企业"
+      ],
+      "chain": [
+        "中游-化工生产"
+      ],
+      "partners": null,
+      "articles": [
+        {
+          "title": "关于华融化学的分析",
+          "date": "2026-01-22",
+          "source": "https://mp.weixin.qq.com/s/8y7i1j66926cxTQx3rbS6A",
+          "accidents": [
+            "市场情绪修复，轮动行情"
+          ],
+          "insights": [
+            "受益于化工行业复苏"
+          ],
+          "key_metrics": [
+            "国内氢氧化钾行业领先企业"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "300310": {
+      "name": "智能驾驶",
+      "code": "300310",
+      "articles": [
+        {
+          "title": "300310  智能驾驶 低空经济 5G通讯 工业互联 智慧医疗 华为概念 布局物联网产业",
+          "date": "2026-01-22",
+          "source": "https://mp.weixin.qq.com/s/lSYP81P-5EBSw-YtqWneBg",
+          "accidents": [
+            "2015 年 9 月，公司公告拟收购天河鸿城 100%股权，作价10 亿元，其中发行股份支付5亿元，现金支付5亿元，天河鸿城于2016年2月15日正式完成过户。"
+          ],
+          "insights": [
+            "CMP平台业务运营与中国联通合作，商业模式上采用收入分成，受益于物联网流量的增长。",
+            "随着公司业务布局的日益完善，未来随着5G进程的日益临近，以及物联网产业的快速发展，公司将显著受益，将再次买入快速发展期。",
+            "我们看好物联网产业的发展，以及宜通世纪在物联网产业链CMP/AEP平台+垂直行业应用的整体布局。"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "industry": "科技",
+      "concepts": [
+        "科技",
+        "汽车"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": []
+    }
+  }
+}

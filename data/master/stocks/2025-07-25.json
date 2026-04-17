@@ -1,0 +1,285 @@
+{
+  "date": "2025-07-25",
+  "update_count": 5,
+  "stocks": {
+    "600859": {
+      "name": "王府井",
+      "code": "600859",
+      "board": "SH",
+      "industry": "商贸零售-零售-百货零售",
+      "concepts": [
+        "免税店",
+        "冰雪产业",
+        "物业管理",
+        "IP经济(谷子经济)",
+        "跨境电商",
+        "京津冀一体化",
+        "国企改革",
+        "抖音概念(字节概念)",
+        "沪股通",
+        "融资融券"
+      ],
+      "mention_count": 4,
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "articles": [
+        {
+          "title": "“海南概念”深度解析与操作策略，底部盘中参考，7月25日",
+          "date": "2025-07-25",
+          "source": "https://mp.weixin.qq.com/s/e0qwNkZlGT6uoscZpdkacw",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "* **逻辑**：封关后琼州海峡物流量翻倍，国际航线加密（海口美兰机场客流增102%），港口、航运需求激增"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "article_count": 1,
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "601118": {
+      "name": "海南橡胶",
+      "code": "601118",
+      "board": "SH",
+      "industry": "农林牧渔-种植业与林业-其他种植业",
+      "concepts": [
+        "海南自贸区",
+        "农业种植",
+        "碳中和",
+        "乡村振兴",
+        "国企改革",
+        "可降解塑料",
+        "军工",
+        "融资融券",
+        "沪股通"
+      ],
+      "mention_count": 1,
+      "products": [],
+      "core_business": [
+        "我国最大的天然橡胶生产企业"
+      ],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "articles": [
+        {
+          "title": "“海南概念”深度解析与操作策略，底部盘中参考，7月25日",
+          "date": "2025-07-25",
+          "source": "https://mp.weixin.qq.com/s/e0qwNkZlGT6uoscZpdkacw",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "* **逻辑**：离岛免税额度提升至10万元，跨境资管需求年增35%，利好免税运营商及金融机构"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "article_count": 1,
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "601969": {
+      "name": "海南矿业",
+      "code": "601969",
+      "board": "SH",
+      "industry": "钢铁-钢铁-冶钢原料",
+      "concepts": [
+        "海南自贸区",
+        "天然气",
+        "黄金概念",
+        "金属铜",
+        "自由贸易港",
+        "小金属概念",
+        "金属钴",
+        "氟化工概念",
+        "固废处理",
+        "参股保险",
+        "碳中和",
+        "乡村振兴",
+        "参股银行",
+        "旅游概念",
+        "土壤修复",
+        "锂电池概念",
+        "回购增持再贷款概念",
+        "创投",
+        "沪股通",
+        "融资融券"
+      ],
+      "mention_count": 1,
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "articles": [
+        {
+          "title": "昨日市场复盘及操作策略，底部尾盘参考，7月25日",
+          "date": "2025-07-25",
+          "source": "https://mp.weixin.qq.com/s/3AHBxiMe0U4l9uW9xBYeJw",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "3. **稀土及小金属**（周期复苏+供给受限）："
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "article_count": 1,
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "300786": {
+      "name": "国产芯片",
+      "code": "300786",
+      "articles": [
+        {
+          "title": "300786  国产芯片 光刻机 光伏 碳中和 冷链物流 全球臭氧系统供应商 中国臭氧技术领军企业",
+          "date": "2025-07-25",
+          "source": "https://mp.weixin.qq.com/s/bTeNumNBpEjrqJVcBxgVeQ",
+          "accidents": [],
+          "insights": [
+            "国林科技(300786.SZ)5公司出口印度以大型VPSA制氧设备为主，医用设备许可证我公司正在申请中，感谢您的支持与关注。",
+            "**国林科技：公司产品臭氧尾气处理装置 主要应用于臭氧发生器产生臭氧的处理**公司产品臭氧尾气处理装置，主要应用于臭氧发生器产生臭氧的处理，感谢您的关注。"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "industry": "科技",
+      "concepts": [
+        "科技"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": []
+    },
+    "000567": {
+      "name": "海德股份",
+      "code": "000567",
+      "board": "SZ",
+      "industry": "非银金融-多元金融-多元金融Ⅲ",
+      "concepts": [
+        "海南自贸区",
+        "化债概念(AMC概念)",
+        "钒电池",
+        "融资融券",
+        "深股通"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "“海南概念”深度解析与操作策略，底部盘中参考，7月25日",
+          "date": "2025-07-25",
+          "source": "https://mp.weixin.qq.com/s/e0qwNkZlGT6uoscZpdkacw",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "* **逻辑**：封关后琼州海峡物流量翻倍，国际航线加密（海口美兰机场客流增102%），港口、航运需求激增"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    }
+  }
+}

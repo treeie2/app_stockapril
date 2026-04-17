@@ -1,0 +1,175 @@
+{
+  "date": "2025-06-24",
+  "update_count": 2,
+  "stocks": {
+    "002537": {
+      "name": "海联金汇",
+      "code": "002537",
+      "board": "SZ",
+      "industry": "汽车-汽车零部件-车身附件及饰件",
+      "concepts": [
+        "数字货币",
+        "移动支付",
+        "互联网金融",
+        "蚂蚁集团概念",
+        "区块链",
+        "数字经济",
+        "跨境电商",
+        "元宇宙",
+        "华为汽车",
+        "冷链物流",
+        "NFT概念",
+        "华为概念",
+        "家用电器",
+        "比亚迪概念",
+        "特斯拉概念",
+        "新能源汽车",
+        "5G",
+        "2025年报预增",
+        "深股通",
+        "融资融券"
+      ],
+      "mention_count": 1,
+      "products": [
+        "系统"
+      ],
+      "core_business": [
+        "跨境支付牌照齐全"
+      ],
+      "industry_position": [],
+      "chain": [
+        "跨境支付牌照齐全"
+      ],
+      "partners": [
+        "* **逻辑**",
+        "跨境人民币结算市占率18%"
+      ],
+      "articles": [
+        {
+          "title": "“蚂蚁金服概念”深度解析与操作策略-底部盘中参考-6月13日",
+          "date": "2025-06-13",
+          "source": "https://mp.weixin.qq.com/s/Q6oFOu8-mS37L0WIqDDK_A",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "跨境人民币结算市占率18%，合作蚂蚁链升级系统"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        },
+        {
+          "title": "“跨境支付”深度解析与操作策略（4月12日更新）",
+          "date": "2025-04-12",
+          "source": "https://mp.weixin.qq.com/s/xLog4pBNM6biwe4VuUYdPA",
+          "accidents": [
+            "持有跨境外汇/人民币双牌照"
+          ],
+          "insights": [],
+          "key_metrics": [
+            "持有跨境外汇/人民币双牌照，覆盖东南亚电商支付2024年跨境交易流水突破500亿元，市占率提升至8%"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        },
+        {
+          "title": "热点关注，今日操作策略与风险提示，底部竞价参考，6月24日",
+          "date": "2025-06-24",
+          "source": "https://mp.weixin.qq.com/s/exaHU0-Xyn1YDfApfLpDdQ",
+          "accidents": [
+            "现金储备（30%）"
+          ],
+          "insights": [],
+          "key_metrics": [
+            "* **现金储备（30%）**：应对中东局势突变或小米发布会利好兑现抛压，择机低吸机构增持生物科技"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "article_count": 3,
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "600650": {
+      "name": "锦江在线",
+      "code": "600650",
+      "board": "SH",
+      "industry": "交通运输-公路铁路运输-公交",
+      "concepts": [
+        "网约车",
+        "旅游概念",
+        "预制菜",
+        "上海国企改革",
+        "无人驾驶",
+        "冷链物流",
+        "自由贸易港",
+        "数字经济",
+        "参股券商",
+        "上海自贸区",
+        "国企改革",
+        "航运概念",
+        "沪股通"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "热点关注，今日操作策略与风险提示，底部竞价参考，6月24日",
+          "date": "2025-06-24",
+          "source": "https://mp.weixin.qq.com/s/exaHU0-Xyn1YDfApfLpDdQ",
+          "accidents": [
+            "现金储备（30%）"
+          ],
+          "insights": [],
+          "key_metrics": [
+            "* **现金储备（30%）**：应对中东局势突变或小米发布会利好兑现抛压，择机低吸机构增持生物科技"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    }
+  }
+}
