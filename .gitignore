@@ -1,23 +1,68 @@
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
-*.egg-info/
-dist/
 build/
-data/sentiment/*.json
-data/sentiment/search_index_lite*
-!data/sentiment/search_index_full.json.gz
-.env
-.env.local
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
 .vscode/
 .idea/
 *.swp
 *.swo
-*.log
-# 大文件（但保留 stocks_master.json 用于部署）
-data/fundamentals/market_data.json
+*~
 
-# Skill 文件（不需要同步到 GitHub）
-.trae/skills/
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Firebase credentials
+*.json.key
+firebase-credentials.json
+.trae/rules/firebase-credentials.json
+serviceAccountKey.json
+
+# GitHub tokens and sensitive files
+*token*
+*secret*
+push_*.py
+update_*.py
+force_*.py
+manual_push.md
+upload_data_to_github.py
+
+# Data files (optional - remove if you want to track them)
+# data/master/stocks/*.json
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Modelscope app
+modelscope-app/
+model_app_stock/
