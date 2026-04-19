@@ -21,8 +21,26 @@ app = Flask(__name__)
 # 文章API服务配置
 ARTICLE_API_URL = os.environ.get('ARTICLE_API_URL', 'http://localhost:5001')
 
+# 获取项目根目录（兼容 Vercel 和本地环境）
+def get_base_dir():
+    """获取项目根目录"""
+    # 尝试从当前文件位置获取
+    try:
+        return Path(__file__).parent
+    except:
+        pass
+    
+    # 尝试从环境变量获取（Vercel）
+    if 'VERCEL' in os.environ:
+        return Path('/var/task')
+    
+    # 默认使用当前工作目录
+    return Path(os.getcwd())
+
+BASE_DIR = get_base_dir()
+
 # 数据路径
-DATA_DIR = Path(__file__).parent / 'data' / 'sentiment'
+DATA_DIR = BASE_DIR / 'data' / 'sentiment'
 SEARCH_INDEX_FILE = DATA_DIR / 'search_index_full.json.gz'
 
 # ─── Jaccard 相似度计算 ───
@@ -71,7 +89,7 @@ def find_similar_stocks(code, top_k=10, min_similarity=0.1):
 
 # 加载社保基金数据
 print("📋 加载社保基金数据...")
-SOCIAL_SECURITY_FILE = Path(__file__).parent / 'data' / 'master' / 'social_security_2025q4.json'
+SOCIAL_SECURITY_FILE = BASE_DIR / 'data' / 'master' / 'social_security_2025q4.json'
 social_security_stocks = set()
 social_security_info = {}
 try:
@@ -186,8 +204,8 @@ def load_data_incremental(days=7):
     """从增量文件加载最近 N 天的数据"""
     print(f"📋 从增量文件加载最近 {days} 天数据...")
     
-    INDEX_FILE = Path(__file__).parent / 'data' / 'master' / 'stocks_index.json'
-    STOCKS_DIR = Path(__file__).parent / 'data' / 'master' / 'stocks'
+    INDEX_FILE = BASE_DIR / 'data' / 'master' / 'stocks_index.json'
+    STOCKS_DIR = BASE_DIR / 'data' / 'master' / 'stocks'
     
     try:
         # 读取索引文件
@@ -232,8 +250,8 @@ def load_data_from_local():
     """从本地 JSON 加载数据"""
     print("📋 从本地文件加载数据...")
     
-    MASTER_FILE_JSON = Path(__file__).parent / 'data' / 'master' / 'stocks_master.json'
-    MASTER_FILE_GZ = Path(__file__).parent / 'data' / 'master' / 'stocks_master.json.gz'
+    MASTER_FILE_JSON = BASE_DIR / 'data' / 'master' / 'stocks_master.json'
+    MASTER_FILE_GZ = BASE_DIR / 'data' / 'master' / 'stocks_master.json.gz'
     
     try:
         if MASTER_FILE_JSON.exists():
@@ -320,8 +338,6 @@ if firebase_stocks:
                     concepts[concept]['stocks'].append(code)
 
 # 加载热点数据
-import os
-BASE_DIR = Path(os.path.dirname(os.path.abspath(__file__)))
 HOT_TOPICS_FILE = BASE_DIR / 'data' / 'hot_topics.json'
 hot_topics = []
 if HOT_TOPICS_FILE.exists():
@@ -477,7 +493,7 @@ def stocks_list():
 def social_security_new():
     """2025Q4 社保基金新进股票页面"""
     # 加载社保基金数据
-    SS_FILE = Path(__file__).parent / 'data' / 'master' / 'social_security_2025q4.json'
+    SS_FILE = BASE_DIR / 'data' / 'master' / 'social_security_2025q4.json'
     try:
         with open(SS_FILE, 'r', encoding='utf-8') as f:
             ss_data = json.load(f)
@@ -963,11 +979,11 @@ def generate_snippet(text, query, original_content, max_length=150):
 
 # 数据文件路径
 # 优先使用未压缩的 JSON 文件
-if (Path(__file__).parent / 'data' / 'master' / 'stocks_master.json').exists():
-    MASTER_FILE = Path(__file__).parent / 'data' / 'master' / 'stocks_master.json'
+if (BASE_DIR / 'data' / 'master' / 'stocks_master.json').exists():
+    MASTER_FILE = BASE_DIR / 'data' / 'master' / 'stocks_master.json'
 else:
-    MASTER_FILE = Path(__file__).parent / 'data' / 'master' / 'stocks_master.json.gz'
-EDIT_LOG_FILE = Path(__file__).parent / 'data' / 'edit_log.json'
+    MASTER_FILE = BASE_DIR / 'data' / 'master' / 'stocks_master.json.gz'
+EDIT_LOG_FILE = BASE_DIR / 'data' / 'edit_log.json'
 
 # 编辑记录
 edit_log = []
@@ -1254,7 +1270,7 @@ def update_stock_field(code, field, value):
         # 重新构建搜索索引
         import subprocess
         subprocess.run(['python3', 'build_index.py'], 
-                      cwd=Path(__file__).parent, 
+                      cwd=BASE_DIR, 
                       capture_output=True)
         
         return jsonify({'success': True, 'message': '已保存'})
@@ -1486,7 +1502,7 @@ def import_stocks():
             })
         
         # 加载现有数据
-        master_file = Path(__file__).parent / 'data' / 'master' / 'stocks_master.json'
+        master_file = BASE_DIR / 'data' / 'master' / 'stocks_master.json'
         existing_stocks = {}
         if master_file.exists():
             with open(master_file, 'r', encoding='utf-8') as f:
