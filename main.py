@@ -274,15 +274,50 @@ def load_data_from_local():
         print(f"  ❌ 错误：{e}")
         return {}, {}
 
-# 加载数据 - 优先从 Firebase，其次增量文件，最后完整文件
+# 加载数据 - 优先从本地 stocks_master.json 加载完整数据
 print("📋 加载数据...")
-stocks, concepts = load_data_from_firebase()
-if stocks is None:
-    # 尝试增量加载（最近7天）
-    stocks, concepts = load_data_incremental(days=7)
-if stocks is None:
-    # 回退到完整文件加载
-    stocks, concepts = load_data_from_local()
+
+# 1. 从 stocks_master.json 加载完整数据作为基础
+print("📋 从 stocks_master.json 加载完整数据...")
+stocks, concepts = load_data_from_local()
+if not stocks:
+    stocks = {}
+    concepts = {}
+
+# 2. 从增量文件加载最近数据（覆盖 master 中的旧数据）
+print("📋 从增量文件加载最新数据...")
+incremental_stocks, incremental_concepts = load_data_incremental(days=30)
+if incremental_stocks:
+    # 用增量数据覆盖 master 数据（增量数据更新）
+    stocks.update(incremental_stocks)
+    # 合并概念索引
+    for concept, data in incremental_concepts.items():
+        if concept not in concepts:
+            concepts[concept] = data
+        else:
+            # 合并股票列表，去重
+            existing_codes = set(concepts[concept]['stocks'])
+            for code in data['stocks']:
+                if code not in existing_codes:
+                    concepts[concept]['stocks'].append(code)
+
+# 3. 尝试从 Firebase 加载（可选，作为补充）
+print("📋 尝试从 Firebase 加载数据...")
+firebase_stocks, firebase_concepts = load_data_from_firebase()
+if firebase_stocks:
+    # Firebase 数据作为补充，不覆盖本地数据
+    for code, stock in firebase_stocks.items():
+        if code not in stocks:
+            stocks[code] = stock
+    # 合并概念索引
+    for concept, data in firebase_concepts.items():
+        if concept not in concepts:
+            concepts[concept] = data
+        else:
+            existing_codes = set(concepts[concept]['stocks'])
+            for code in data['stocks']:
+                if code not in existing_codes:
+                    concepts[concept]['stocks'].append(code)
 
 # 加载热点数据
 HOT_TOPICS_FILE = Path(__file__).parent / 'data' / 'hot_topics.json'
