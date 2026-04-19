@@ -806,16 +806,16 @@
                 <!-- 动态热点（全部从 JSON 加载） -->
                 {% if hot_topics %}
                     {% for topic in hot_topics %}
-                    <div class="hot-topic-card" data-topic-id="{{ topic.id }}">
+                    <div class="hot-topic-card" data-topic-id="{{ topic.id }}" onclick="window.location.href='/hot-topic/{{ topic.id }}'" style="cursor:pointer;">
                         <div class="hot-topic-header">
                             <span class="hot-topic-icon">🔥</span>
                             <span class="hot-topic-name">{{ topic.name }}</span>
-                            <button class="delete-topic-btn" onclick="deleteHotTopic('{{ topic.id }}', '{{ topic.name }}')" title="删除此热点">×</button>
+                            <button class="delete-topic-btn" onclick="event.stopPropagation();deleteHotTopic('{{ topic.id }}', '{{ topic.name }}')" title="删除此热点">×</button>
                         </div>
                         <div class="hot-topic-desc">{{ topic.drivers[:80] }}{% if topic.drivers|length > 80 %}...{% endif %}</div>
-                        <div class="hot-topic-stocks">
+                        <div class="hot-topic-stocks" onclick="event.stopPropagation();">
                             {% for stock_name in topic.stocks %}
-                                <span class="hot-stock-tag">{{ stock_name }}</span>
+                                <a href="/stock/{{ stock_name }}" class="hot-stock-tag" onclick="event.stopPropagation();">{{ stock_name }}</a>
                             {% endfor %}
                         </div>
                     </div>
