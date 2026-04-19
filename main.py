@@ -394,6 +394,38 @@ def dashboard():
         limit=limit,
         hot_topics=hot_topics)
 
+@app.route('/hot-topic/<topic_id>')
+def hot_topic_detail(topic_id):
+    """热点详情页"""
+    # 查找热点
+    topic = None
+    for t in hot_topics:
+        if t.get('id') == topic_id:
+            topic = t
+            break
+    
+    if not topic:
+        return "热点不存在", 404
+    
+    # 获取相关股票详细信息
+    related_stocks = []
+    for stock_name in topic.get('stocks', []):
+        # 通过名称查找股票代码
+        for code, stock_data in stocks.items():
+            if stock_data.get('name') == stock_name:
+                related_stocks.append({
+                    'code': code,
+                    'name': stock_data.get('name', ''),
+                    'board': stock_data.get('board', ''),
+                    'industry': stock_data.get('industry', ''),
+                    'concepts': stock_data.get('concepts', []),
+                    'mention_count': stock_data.get('mention_count', 0),
+                    'articles': stock_data.get('articles', [])
+                })
+                break
+    
+    return render_template('hot_topic_detail.html', topic=topic, stocks=related_stocks)
+
 @app.route('/stocks')
 def stocks_list():
     # 按 last_updated 排序（最新的在前），没有更新时间的排在后面
