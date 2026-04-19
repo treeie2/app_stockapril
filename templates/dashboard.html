@@ -818,7 +818,7 @@
                 <!-- 动态热点（全部从 JSON 加载） -->
                 {% if hot_topics %}
                     {% for topic in hot_topics %}
-                    <div class="hot-topic-card" data-topic-id="{{ topic.id }}" data-topic-name="{{ topic.name|e }}" data-topic-drivers="{{ topic.drivers|e }}" data-topic-stocks="{{ topic.stocks|join(',')|e }}" style="cursor:pointer;">
+                    <div class="hot-topic-card" data-topic-id="{{ topic.id }}" data-topic-name="{{ topic.name|e }}" data-topic-drivers="{{ topic.drivers|e }}" data-topic-stocks="{{ topic.stocks|join(',')|e }}" style="cursor:pointer;" onclick="window.location='/hot-topic/{{ topic.id }}'">
                         <div class="hot-topic-header">
                             <span class="hot-topic-icon">🔥</span>
                             <span class="hot-topic-name">{{ topic.name }}</span>
