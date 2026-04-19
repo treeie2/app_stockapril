@@ -882,7 +882,7 @@ def sync_hot_topics_to_agent_store():
 
 @app.route('/api/search/fulltext')
 def api_fulltext_search():
-    """全文搜索 API - 搜索文章标题、摘要、分析内容"""
+    """全文搜索 API - 搜索股票名称、概念、产品、业务、文章内容"""
     q = request.args.get('q', '').lower().strip()
     limit = request.args.get('limit', 20, type=int)
     
@@ -893,57 +893,126 @@ def api_fulltext_search():
     
     for code, stock_data in stocks.items():
         name = stock_data.get('name', '')
+        
+        # 搜索股票级别的字段
+        stock_text = ""
+        stock_fields = ['name', 'industry']
+        array_fields = ['concepts', 'products', 'core_business', 'industry_position', 'chain', 'partners']
+        
+        for field in stock_fields:
+            stock_text += " " + str(stock_data.get(field, ''))
+        
+        for field in array_fields:
+            values = stock_data.get(field, [])
+            if values:
+                stock_text += " " + " ".join(values)
+        
+        stock_text = stock_text.lower()
+        
+        # 检查股票级别匹配
+        stock_match = q in stock_text
+        stock_score = 0
+        
+        if stock_match:
+            if q in name.lower():
+                stock_score += 1.0  # 名称匹配权重最高
+            elif q in stock_data.get('industry', '').lower():
+                stock_score += 0.6
+            else:
+                # 概念、产品等匹配
+                for field in array_fields:
+                    values = stock_data.get(field, [])
+                    for v in values:
+                        if q in v.lower():
+                            stock_score += 0.5
+                            break
+        
+        # 搜索文章级别的字段
         articles = stock_data.get('articles', [])
+        article_results = []
         
         for article in articles:
             title = article.get('title', '')
-            content = article.get('content', '')
-            analysis = article.get('analysis', '')
-            summary = article.get('summary', '')
             date = article.get('date', '')
             source = article.get('source', '')
             
-            # 构建搜索文本
-            search_text = f"{title} {content} {analysis} {summary}".lower()
+            # 构建文章搜索文本（包含所有文本字段）
+            article_text = ""
+            text_fields = ['title', 'content', 'analysis', 'summary']
+            array_text_fields = ['accidents', 'insights', 'key_metrics', 'target_valuation']
+            
+            for field in text_fields:
+                article_text += " " + str(article.get(field, ''))
+            
+            for field in array_text_fields:
+                values = article.get(field, [])
+                if values:
+                    article_text += " " + " ".join(values)
+            
+            article_text_lower = article_text.lower()
             
             # 计算匹配度
-            if q in search_text:
-                # 计算匹配分数
-                score = 0
-                if q in title.lower():
-                    score += 0.5  # 标题匹配权重高
-                if q in content.lower():
-                    score += 0.3
-                if q in analysis.lower():
-                    score += 0.2
+            if q in article_text_lower:
+                score = stock_score
                 
-                # 计算匹配次数
-                match_count = search_text.count(q)
-                score += min(match_count * 0.05, 0.2)  # 匹配次数加分，最高0.2
+                # 标题匹配
+                if q in title.lower():
+                    score += 0.5
+                
+                # 内容匹配
+                if q in article_text_lower:
+                    score += 0.3
+                    match_count = article_text_lower.count(q)
+                    score += min(match_count * 0.02, 0.1)
                 
                 # 生成摘要片段
-                snippet = generate_snippet(search_text, q, content or summary or title)
+                snippet = generate_snippet(article_text_lower, q, article_text[:500])
+                if not snippet:
+                    snippet = f"匹配到 '{q}' 相关内容"
                 
-                results.append({
+                article_results.append({
                     'code': code,
                     'name': name,
-                    'article_title': title,
+                    'article_title': title or '无标题',
                     'article_date': date,
                     'article_source': source,
-                    'snippet': snippet,
-                    'score': min(score, 1.0),
-                    'match_count': match_count
+                    'snippet': snippet[:200],
+                    'score': min(score, 2.0),
+                    'match_count': article_text_lower.count(q)
                 })
+        
+        # 如果没有文章匹配但股票级别匹配，添加一个结果
+        if stock_match and not article_results:
+            results.append({
+                'code': code,
+                'name': name,
+                'article_title': '股票信息匹配',
+                'article_date': '',
+                'article_source': '',
+                'snippet': f"在股票名称、概念或业务中匹配到 '{q}'",
+                'score': stock_score,
+                'match_count': 1
+            })
+        else:
+            results.extend(article_results)
     
     # 按匹配分数排序
     results.sort(key=lambda x: x['score'], reverse=True)
     
+    # 去重（同一股票只保留最高分的匹配）
+    seen_codes = set()
+    unique_results = []
+    for r in results:
+        if r['code'] not in seen_codes:
+            seen_codes.add(r['code'])
+            unique_results.append(r)
+    
     # 限制返回数量
-    total = len(results)
-    results = results[:limit]
+    total = len(unique_results)
+    final_results = unique_results[:limit]
     
     return jsonify({
-        'results': results,
+        'results': final_results,
         'total': total,
         'query': q,
         'limit': limit
