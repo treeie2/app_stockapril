@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ topic.name }} - 热点详情</title>
+    <meta name="description" content="{{ topic.drivers[:100] }}...">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #080c14;
+            --bg-card: #0f1623;
+            --bg-row-hover: #131d2e;
+            --border: rgba(99,179,237,0.1);
+            --border-h: rgba(99,179,237,0.3);
+            --cyan: #06b6d4;
+            --blue: #3b82f6;
+            --green: #10b981;
+            --rose: #f43f5e;
+            --amber: #f59e0b;
+            --purple: #8b5cf6;
+            --t1: #e2e8f0;
+            --t2: #94a3b8;
+            --t3: #4b5563;
+            --mono: 'JetBrains Mono', monospace;
+            --r: 8px;
+        }
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg);
+            color: var(--t1);
+            min-height: 100vh;
+        }
+        body::before {
+            content:'';
+            position:fixed;
+            inset:0;
+            z-index:0;
+            pointer-events:none;
+            background:
+                radial-gradient(ellipse 80% 40% at 15% 0%, rgba(59,130,246,.06) 0%, transparent 60%),
+                radial-gradient(ellipse 50% 30% at 85% 80%, rgba(6,182,212,.04) 0%, transparent 50%);
+        }
+        /* ─── Navbar ─── */
+        .nav {
+            position:sticky;
+            top:0;
+            z-index:100;
+            background:rgba(8,12,20,.9);
+            backdrop-filter:blur(20px);
+            border-bottom:1px solid var(--border);
+            display:flex;
+            align-items:center;
+            gap:.5rem;
+            height:56px;
+            padding:0 1.5rem;
+        }
+        .nav-brand {
+            font-weight:700;
+            font-size:.9rem;
+            letter-spacing:.12em;
+            color:var(--cyan);
+            text-decoration:none;
+            display:flex;
+            align-items:center;
+            gap:.45rem;
+            margin-right:.75rem;
+        }
+        .nav-link {
+            padding:.3rem .75rem;
+            border-radius:6px;
+            color:var(--t2);
+            text-decoration:none;
+            font-size:.78rem;
+            font-weight:500;
+            transition:all .18s;
+        }
+        .nav-link:hover, .nav-link.active {
+            color:var(--t1);
+            background:rgba(255,255,255,.05);
+        }
+        .nav-link.active { color:var(--cyan); }
+        /* ─── Main Content ─── */
+        .main {
+            position:relative;
+            z-index:1;
+            max-width:1200px;
+            margin:0 auto;
+            padding:2rem 1.5rem;
+        }
+        /* ─── Breadcrumb ─── */
+        .breadcrumb {
+            display:flex;
+            align-items:center;
+            gap:.5rem;
+            margin-bottom:1.5rem;
+            font-size:.8rem;
+            color:var(--t2);
+        }
+        .breadcrumb a {
+            color:var(--blue);
+            text-decoration:none;
+            transition:color .2s;
+        }
+        .breadcrumb a:hover {
+            color:#60a5fa;
+        }
+        .breadcrumb-separator {
+            color:var(--t3);
+        }
+        /* ─── Topic Header ─── */
+        .topic-header {
+            background:var(--bg-card);
+            border:1px solid var(--border);
+            border-radius:12px;
+            padding:2rem;
+            margin-bottom:2rem;
+        }
+        .topic-title {
+            font-size:1.8rem;
+            font-weight:700;
+            color:var(--cyan);
+            margin-bottom:1rem;
+            display:flex;
+            align-items:center;
+            gap:.75rem;
+        }
+        .topic-title::before {
+            content:'🔥';
+            font-size:1.5rem;
+        }
+        .topic-meta {
+            display:flex;
+            gap:1.5rem;
+            margin-bottom:1.5rem;
+            font-size:.8rem;
+            color:var(--t2);
+        }
+        .topic-meta span {
+            display:flex;
+            align-items:center;
+            gap:.35rem;
+        }
+        .topic-drivers {
+            font-size:.95rem;
+            line-height:1.8;
+            color:var(--t1);
+            padding:1.25rem;
+            background:rgba(6,182,212,.05);
+            border-left:3px solid var(--cyan);
+            border-radius:0 8px 8px 0;
+        }
+        /* ─── Section Title ─── */
+        .section-title {
+            font-size:1.1rem;
+            font-weight:600;
+            color:var(--t1);
+            margin-bottom:1rem;
+            display:flex;
+            align-items:center;
+            gap:.5rem;
+        }
+        .section-title::before {
+            content:'';
+            width:4px;
+            height:1.1rem;
+            background:var(--blue);
+            border-radius:2px;
+        }
+        /* ─── Stocks Grid ─── */
+        .stocks-grid {
+            display:grid;
+            grid-template-columns:repeat(auto-fill, minmax(320px, 1fr));
+            gap:1rem;
+            margin-bottom:2rem;
+        }
+        .stock-card {
+            background:var(--bg-card);
+            border:1px solid var(--border);
+            border-radius:10px;
+            padding:1.25rem;
+            transition:all .2s;
+            text-decoration:none;
+            color:inherit;
+            display:block;
+        }
+        .stock-card:hover {
+            border-color:var(--border-h);
+            transform:translateY(-2px);
+            box-shadow:0 4px 20px rgba(0,0,0,.3);
+        }
+        .stock-header {
+            display:flex;
+            justify-content:space-between;
+            align-items:flex-start;
+            margin-bottom:.75rem;
+        }
+        .stock-name {
+            font-size:1.1rem;
+            font-weight:600;
+            color:var(--t1);
+        }
+        .stock-code {
+            font-family:var(--mono);
+            font-size:.75rem;
+            color:var(--cyan);
+            background:rgba(6,182,212,.1);
+            padding:.2rem .5rem;
+            border-radius:4px;
+        }
+        .stock-industry {
+            font-size:.78rem;
+            color:var(--t2);
+            margin-bottom:.75rem;
+        }
+        .stock-concepts {
+            display:flex;
+            flex-wrap:wrap;
+            gap:.35rem;
+        }
+        .concept-tag {
+            padding:.2rem .5rem;
+            background:rgba(139,92,246,.12);
+            border:1px solid rgba(139,92,246,.25);
+            border-radius:12px;
+            color:var(--purple);
+            font-size:.7rem;
+        }
+        .stock-metrics {
+            margin-top:1rem;
+            padding-top:1rem;
+            border-top:1px solid var(--border);
+            display:flex;
+            gap:1rem;
+        }
+        .metric {
+            text-align:center;
+        }
+        .metric-value {
+            font-family:var(--mono);
+            font-size:.9rem;
+            font-weight:600;
+            color:var(--green);
+        }
+        .metric-label {
+            font-size:.65rem;
+            color:var(--t3);
+            margin-top:.1rem;
+        }
+        /* ─── Empty State ─── */
+        .empty-state {
+            text-align:center;
+            padding:3rem;
+            color:var(--t2);
+        }
+        .empty-state-icon {
+            font-size:3rem;
+            margin-bottom:1rem;
+            opacity:.5;
+        }
+        /* ─── Edit Button ─── */
+        .edit-btn {
+            position:fixed;
+            bottom:2rem;
+            right:2rem;
+            width:56px;
+            height:56px;
+            border-radius:50%;
+            background:linear-gradient(135deg, var(--cyan) 0%, var(--blue) 100%);
+            border:none;
+            color:#fff;
+            font-size:1.5rem;
+            cursor:pointer;
+            box-shadow:0 4px 20px rgba(6,182,212,.4);
+            transition:all .2s;
+            z-index:100;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+        }
+        .edit-btn:hover {
+            transform:scale(1.1);
+            box-shadow:0 6px 30px rgba(6,182,212,.5);
+        }
+        /* ─── Modal ─── */
+        .modal-overlay {
+            position:fixed;
+            inset:0;
+            background:rgba(0,0,0,.7);
+            backdrop-filter:blur(4px);
+            z-index:1000;
+            display:none;
+            align-items:center;
+            justify-content:center;
+            padding:1rem;
+        }
+        .modal-overlay.active {
+            display:flex;
+        }
+        .modal-content {
+            background:var(--bg-card);
+            border:1px solid var(--border);
+            border-radius:12px;
+            width:100%;
+            max-width:600px;
+            max-height:90vh;
+            overflow:auto;
+        }
+        .modal-header {
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            padding:1.25rem;
+            border-bottom:1px solid var(--border);
+        }
+        .modal-title {
+            font-size:1.1rem;
+            font-weight:600;
+            color:var(--t1);
+        }
+        .modal-close {
+            background:none;
+            border:none;
+            color:var(--t2);
+            font-size:1.5rem;
+            cursor:pointer;
+            padding:0;
+            width:32px;
+            height:32px;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            border-radius:6px;
+            transition:all .2s;
+        }
+        .modal-close:hover {
+            background:rgba(255,255,255,.1);
+            color:var(--t1);
+        }
+        .modal-body {
+            padding:1.5rem;
+        }
+        .form-group {
+            margin-bottom:1.25rem;
+        }
+        .form-label {
+            display:block;
+            font-size:.8rem;
+            color:var(--t2);
+            margin-bottom:.5rem;
+            font-weight:500;
+        }
+        .form-input, .form-textarea {
+            width:100%;
+            padding:.75rem 1rem;
+            background:rgba(255,255,255,.05);
+            border:1px solid var(--border);
+            border-radius:8px;
+            color:var(--t1);
+            font-size:.9rem;
+            font-family:inherit;
+            outline:none;
+            transition:all .2s;
+        }
+        .form-input:focus, .form-textarea:focus {
+            border-color:var(--cyan);
+            background:rgba(6,182,212,.08);
+        }
+        .form-textarea {
+            resize:vertical;
+            min-height:120px;
+        }
+        .stock-tags {
+            display:flex;
+            flex-wrap:wrap;
+            gap:.5rem;
+            margin-top:.75rem;
+        }
+        .stock-tag {
+            display:flex;
+            align-items:center;
+            gap:.35rem;
+            padding:.35rem .75rem;
+            background:rgba(139,92,246,.15);
+            border:1px solid rgba(139,92,246,.3);
+            border-radius:20px;
+            color:var(--purple);
+            font-size:.8rem;
+        }
+        .stock-tag button {
+            background:none;
+            border:none;
+            color:var(--rose);
+            cursor:pointer;
+            font-size:1rem;
+            line-height:1;
+            padding:0;
+            margin-left:.25rem;
+        }
+        .stock-tag button:hover {
+            color:#ff6b8a;
+        }
+        .add-stock-wrap {
+            display:flex;
+            gap:.5rem;
+            margin-top:.75rem;
+        }
+        .btn-add {
+            padding:.5rem 1rem;
+            background:rgba(16,185,129,.15);
+            border:1px solid rgba(16,185,129,.3);
+            border-radius:6px;
+            color:var(--green);
+            font-size:.8rem;
+            cursor:pointer;
+            transition:all .2s;
+        }
+        .btn-add:hover {
+            background:rgba(16,185,129,.25);
+        }
+        .modal-footer {
+            display:flex;
+            justify-content:flex-end;
+            gap:.75rem;
+            padding:1.25rem;
+            border-top:1px solid var(--border);
+        }
+        .btn-cancel {
+            padding:.6rem 1.25rem;
+            background:rgba(255,255,255,.05);
+            border:1px solid var(--border);
+            border-radius:8px;
+            color:var(--t2);
+            font-size:.85rem;
+            cursor:pointer;
+            transition:all .2s;
+        }
+        .btn-cancel:hover {
+            background:rgba(255,255,255,.1);
+            color:var(--t1);
+        }
+        .btn-save {
+            padding:.6rem 1.25rem;
+            background:linear-gradient(135deg, var(--cyan) 0%, var(--blue) 100%);
+            border:none;
+            border-radius:8px;
+            color:#fff;
+            font-size:.85rem;
+            font-weight:600;
+            cursor:pointer;
+            transition:all .2s;
+        }
+        .btn-save:hover {
+            transform:translateY(-1px);
+            box-shadow:0 4px 15px rgba(6,182,212,.4);
+        }
+        /* ─── Responsive ─── */
+        @media (max-width:768px) {
+            .stocks-grid {
+                grid-template-columns:1fr;
+            }
+            .topic-title {
+                font-size:1.4rem;
+            }
+            .edit-btn {
+                bottom:1rem;
+                right:1rem;
+                width:48px;
+                height:48px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="nav">
+        <a href="/" class="nav-brand">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+            </svg>
+            个股研究数据库
+        </a>
+        <a href="/" class="nav-link">仪表板</a>
+        <a href="/stocks" class="nav-link">股票列表</a>
+        <a href="/concepts" class="nav-link">概念大全</a>
+        <a href="/search" class="nav-link">搜索</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb">
+            <a href="/">仪表板</a>
+            <span class="breadcrumb-separator">/</span>
+            <a href="/#hot-topics">热点</a>
+            <span class="breadcrumb-separator">/</span>
+            <span style="color:var(--t1);">{{ topic.name }}</span>
+        </nav>
+
+        <!-- Topic Header -->
+        <div class="topic-header">
+            <h1 class="topic-title">{{ topic.name }}</h1>
+            <div class="topic-meta">
+                <span>📅 {{ topic.created_at }}</span>
+                <span>📊 {{ stocks|length }} 只相关个股</span>
+                <span>🔥 热点</span>
+            </div>
+            <div class="topic-drivers">
+                {{ topic.drivers }}
+            </div>
+        </div>
+
+        <!-- Related Stocks -->
+        <h2 class="section-title">相关个股</h2>
+        {% if stocks %}
+        <div class="stocks-grid">
+            {% for stock in stocks %}
+            <a href="/stock/{{ stock.code }}" class="stock-card">
+                <div class="stock-header">
+                    <div>
+                        <div class="stock-name">{{ stock.name }}</div>
+                        <div class="stock-industry">{{ stock.industry or '行业未知' }}</div>
+                    </div>
+                    <span class="stock-code">{{ stock.code }}</span>
+                </div>
+                {% if stock.concepts %}
+                <div class="stock-concepts">
+                    {% for concept in stock.concepts[:4] %}
+                    <span class="concept-tag">{{ concept }}</span>
+                    {% endfor %}
+                </div>
+                {% endif %}
+                <div class="stock-metrics">
+                    <div class="metric">
+                        <div class="metric-value">{{ stock.mention_count or 0 }}</div>
+                        <div class="metric-label">提及次数</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">{{ (stock.articles or [])|length }}</div>
+                        <div class="metric-label">相关文章</div>
+                    </div>
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+        {% else %}
+        <div class="empty-state">
+            <div class="empty-state-icon">📭</div>
+            <p>暂无相关个股数据</p>
+            <p style="font-size:.8rem;margin-top:.5rem;">相关个股可能尚未录入数据库</p>
+        </div>
+        {% endif %}
+    </main>
+
+    <!-- Edit Button -->
+    <button class="edit-btn" onclick="openEditModal()" title="编辑热点">✏️</button>
+
+    <!-- Edit Modal -->
+    <div id="editModal" class="modal-overlay">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">✏️ 编辑热点</h3>
+                <button class="modal-close" onclick="closeEditModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label class="form-label">热点名称</label>
+                    <input type="text" id="editName" class="form-input" value="{{ topic.name }}">
+                </div>
+                <div class="form-group">
+                    <label class="form-label">驱动因素</label>
+                    <textarea id="editDrivers" class="form-textarea">{{ topic.drivers }}</textarea>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">相关个股</label>
+                    <div id="stockTags" class="stock-tags">
+                        <!-- 动态生成个股标签 -->
+                    </div>
+                    <div class="add-stock-wrap">
+                        <input type="text" id="newStockInput" class="form-input" placeholder="输入股票代码或名称">
+                        <button class="btn-add" onclick="addStock()">+ 添加</button>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn-cancel" onclick="closeEditModal()">取消</button>
+                <button class="btn-save" onclick="saveTopic()">保存</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 当前热点数据
+        const topicId = '{{ topic.id }}';
+        let currentStocks = {{ stocks|map(attribute='name')|list|tojson }};
+
+        // 打开编辑弹窗
+        function openEditModal() {
+            document.getElementById('editModal').classList.add('active');
+            renderStockTags();
+        }
+
+        // 关闭编辑弹窗
+        function closeEditModal() {
+            document.getElementById('editModal').classList.remove('active');
+        }
+
+        // 渲染个股标签
+        function renderStockTags() {
+            const container = document.getElementById('stockTags');
+            container.innerHTML = currentStocks.map(stock => `
+                <span class="stock-tag">
+                    ${stock}
+                    <button onclick="removeStock('${stock}')">&times;</button>
+                </span>
+            `).join('');
+        }
+
+        // 添加个股
+        function addStock() {
+            const input = document.getElementById('newStockInput');
+            const stock = input.value.trim();
+            if (stock && !currentStocks.includes(stock)) {
+                currentStocks.push(stock);
+                renderStockTags();
+                input.value = '';
+            }
+        }
+
+        // 删除个股
+        function removeStock(stock) {
+            currentStocks = currentStocks.filter(s => s !== stock);
+            renderStockTags();
+        }
+
+        // 保存热点
+        async function saveTopic() {
+            const name = document.getElementById('editName').value.trim();
+            const drivers = document.getElementById('editDrivers').value.trim();
+
+            if (!name || !drivers) {
+                alert('请填写热点名称和驱动因素');
+                return;
+            }
+
+            try {
+                const response = await fetch(`/api/hot-topic/${topicId}`, {
+                    method: 'PUT',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        name: name,
+                        drivers: drivers,
+                        stocks: currentStocks
+                    })
+                });
+
+                const result = await response.json();
+
+                if (result.success) {
+                    alert('保存成功！');
+                    location.reload();
+                } else {
+                    alert('保存失败：' + (result.error || '未知错误'));
+                }
+            } catch (error) {
+                console.error('保存失败:', error);
+                alert('保存失败，请检查网络连接');
+            }
+        }
+
+        // 回车键添加个股
+        document.getElementById('newStockInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                addStock();
+            }
+        });
+
+        // 点击遮罩关闭弹窗
+        document.getElementById('editModal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeEditModal();
+            }
+        });
+
+        // ESC键关闭弹窗
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closeEditModal();
+            }
+        });
+    </script>
+</body>
+</html>
