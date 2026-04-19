@@ -1,0 +1,101 @@
+{
+  "date": "2026-01-09",
+  "update_count": 2,
+  "stocks": {
+    "000925": {
+      "name": "智慧交通",
+      "code": "000925",
+      "articles": [
+        {
+          "title": "000925  智慧交通 半导体材料 光刻机浸液 无人驾驶 算力租赁 数据确权 数据要素 芯片 虚拟数字人 全球轨道交通整体解决方案提供商",
+          "date": "2026-01-09",
+          "source": "https://mp.weixin.qq.com/s/u7gkN03e9gJhXOISMt2E-A",
+          "accidents": [
+            "关键事件：2020年8月21日，公司拟将经营发展战略优化升级为“智慧交通+泛半导体”紧密型经营发展战略。",
+            "在当前中美贸易政策等国际环境的强压之下，国家扶持政策加速推进中国自主创新与国产化替代的进程，国内半导体行业迎来快速发展的良好机遇。",
+            "众合科技发布关于优化公司经营发展战略的公告。"
+          ],
+          "insights": [
+            "因此，围绕上述产业逻辑，公司将继续对智能感知技术和传感器等工业互联网领域进行布局。",
+            "**众合科技000925的光刻机逻辑**"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "industry": "制造业",
+      "concepts": [
+        "制造业"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": []
+    },
+    "920665": {
+      "name": "商业航天",
+      "code": "920665",
+      "articles": [
+        {
+          "title": "920665  商业航天 轨道交通 光伏 核污染防治 高性能特种橡胶制品高新技术企业",
+          "date": "2026-01-09",
+          "source": "https://mp.weixin.qq.com/s/aZjxOk-DUVVDtEt3nCIFFg",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "行业领先"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "industry": "其他",
+      "concepts": [
+        "军工"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": []
+    }
+  }
+}

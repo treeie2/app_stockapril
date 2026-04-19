@@ -1,0 +1,327 @@
+{
+  "date": "2025-07-14",
+  "update_count": 5,
+  "stocks": {
+    "601318": {
+      "name": "中国平安",
+      "code": "601318",
+      "board": "SH",
+      "industry": "非银金融-保险-保险Ⅲ",
+      "concepts": [
+        "互联网保险",
+        "沪股通",
+        "融资融券",
+        "证金持股",
+        "家庭医生",
+        "同花顺漂亮100",
+        "参股券商",
+        "同花顺中特估100",
+        "独角兽概念"
+      ],
+      "mention_count": 1,
+      "products": [],
+      "core_business": [],
+      "industry_position": [
+        "龙头",
+        "科技双轮驱动龙头"
+      ],
+      "chain": [],
+      "partners": [],
+      "articles": [
+        {
+          "title": "1月27日，热点关注，今日操作策略与风险提示（下面按数字顺序排列）",
+          "date": "2026-01-27",
+          "source": "https://mp.weixin.qq.com/s/8v_tQJIUqBcvAxgqTFAVhQ",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [
+            "保险板块估值修复"
+          ],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        },
+        {
+          "title": "4月30日-今日操作策略与风险提示-文末竞价参考",
+          "date": "2025-04-30",
+          "source": "https://mp.weixin.qq.com/s/Xw7joDqZHMaQ_f90tbvTBQ",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "* **机动仓位（10%）**"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        },
+        {
+          "title": "“国常会”深度解析与操作策略",
+          "date": "2025-04-20",
+          "source": "https://mp.weixin.qq.com/s/YWKVCNAZs75j142ZKpVTaw",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "寿险改革见效，EV增速回升至15%"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        },
+        {
+          "title": "上周市场复盘及本周操作策略-底部尾盘参考，7月14日",
+          "date": "2025-07-14",
+          "source": "https://mp.weixin.qq.com/s/zyn7QY6YaPrJns2NIQNUlg",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "**成交额<9000亿**"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "article_count": 4,
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "002793": {
+      "name": "罗欣药业",
+      "code": "002793",
+      "board": "SZ",
+      "industry": "医药生物-化学制药-化学制剂",
+      "concepts": [
+        "幽门螺杆菌概念",
+        "仿制药一致性评价",
+        "创新药",
+        "流感",
+        "医药电商",
+        "民营医院",
+        "医疗器械概念",
+        "股权转让(并购重组)",
+        "深股通"
+      ],
+      "mention_count": 1,
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "articles": [
+        {
+          "title": "风口byTY",
+          "date": "2025-07-14",
+          "source": "https://mp.weixin.qq.com/s/IYenNZTztpiW3fwcF0E0SQ",
+          "accidents": [],
+          "insights": [
+            "其背后的转变逻辑与未来潜力，"
+          ],
+          "key_metrics": [
+            "第一季度成功扭亏为盈",
+            "全球范围内尚无同类注射剂产品上市"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "000993": {
+      "name": "绿色电力",
+      "code": "000993",
+      "articles": [
+        {
+          "title": "000993  绿色电力 创投 稀土 航运 磷酸铁锂 黄金 光伏 风电 储能 国资 福建省最大的电力股份制企业",
+          "date": "2025-07-14",
+          "source": "https://mp.weixin.qq.com/s/B8DKfd7r9y2bcqgu6LzjXw",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "industry": "制造业",
+      "concepts": [
+        "新能源"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": []
+    },
+    "600019": {
+      "name": "宝钢股份",
+      "code": "600019",
+      "board": "SH",
+      "industry": "钢铁-钢铁-普钢",
+      "concepts": [
+        "同花顺中特估100",
+        "证金持股",
+        "特钢概念",
+        "央企国企改革",
+        "国企改革",
+        "参股银行",
+        "石墨电极",
+        "一带一路",
+        "同花顺漂亮100",
+        "核电",
+        "沪股通",
+        "融资融券",
+        "AI智能体",
+        "新能源汽车",
+        "特斯拉概念"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "上周市场复盘及本周操作策略-底部尾盘参考，7月14日",
+          "date": "2025-07-14",
+          "source": "https://mp.weixin.qq.com/s/zyn7QY6YaPrJns2NIQNUlg",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "**成交额<9000亿**"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "600578": {
+      "name": "京能电力",
+      "code": "600578",
+      "board": "SH",
+      "industry": "公用事业-电力-火电",
+      "concepts": [
+        "超超临界发电",
+        "绿色电力",
+        "氢能源",
+        "风电",
+        "2025年报预增",
+        "国企改革",
+        "证金持股",
+        "沪股通",
+        "融资融券",
+        "京津冀一体化",
+        "蚂蚁集团概念"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "热点关注，今日操作策略与风险提示，底部竞价参考，7月14日",
+          "date": "2025-07-14",
+          "source": "https://mp.weixin.qq.com/s/KlH2Gq1yaoza1CfvHPOlSg",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "* **煤炭联动**：电厂库存周降2.6%（信达证券），焦煤期货周涨4.2%",
+            "* **卫星仓（30%）**："
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    }
+  }
+}

@@ -281,6 +281,19 @@
             margin-left: 0.2rem;
         }
         
+        .update-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.35rem;
+            padding: 0.35rem 0.7rem;
+            border-radius: 20px;
+            background: rgba(99, 179, 237, 0.1);
+            border: 1px solid rgba(99, 179, 237, 0.25);
+            color: var(--accent-cyan);
+            font-size: 0.75rem;
+            font-weight: 500;
+        }
+        
         @keyframes ss-glow {
             0%, 100% { box-shadow: 0 0 12px rgba(234,179,8,0.2); }
             50% { box-shadow: 0 0 20px rgba(234,179,8,0.35); }
@@ -551,6 +564,22 @@
             border: 1px solid var(--border);
             border-radius: 4px;
             padding: 0.1rem 0.45rem;
+        }
+        .article-source-link {
+            font-size: 0.7rem;
+            color: var(--accent-cyan);
+            background: rgba(6,182,212,0.08);
+            border: 1px solid rgba(6,182,212,0.2);
+            border-radius: 4px;
+            padding: 0.1rem 0.45rem;
+            text-decoration: none;
+            transition: all 0.2s;
+            display: inline-block;
+        }
+        .article-source-link:hover {
+            background: rgba(6,182,212,0.15);
+            border-color: rgba(6,182,212,0.35);
+            color: #22d3ee;
         }
         
         .article-date {
@@ -948,7 +977,7 @@
                 </div>
             </div>
             
-            <!-- 板块 · 行业 · 提及次数 · 社保基金 -->
+            <!-- 板块 · 行业 · 提及次数 · 社保基金 · 更新时间 -->
             <div class="hero-bottom">
                 {% if stock.board %}<span class="board-badge">{{ stock.board }}</span>{% endif %}
                 {% if stock.industry %}<span class="industry-badge">{{ stock.industry }}</span>{% endif %}
@@ -961,6 +990,11 @@
                         {% if stock.social_security_holding_ratio %}
                             <span class="ss-ratio">{{ stock.social_security_holding_ratio }}</span>
                         {% endif %}
+                    </div>
+                {% endif %}
+                {% if stock.last_updated %}
+                    <div class="update-badge" title="最后更新时间">
+                        🕐 {{ stock.last_updated[:10] }}
                     </div>
                 {% endif %}
             </div>
@@ -1078,6 +1112,96 @@
             </div>
         </div>
         
+        <!-- ─── 估值与财务指标 ─── -->
+        <div class="info-grid" style="margin-top:1.5rem">
+            <!-- 估值信息 -->
+            {% if stock.valuation and (stock.valuation.target_market_cap or stock.valuation.pe_ratio or stock.valuation.pb_ratio) %}
+            <div class="info-card">
+                <div class="section-title">📊 估值指标</div>
+                {% if stock.valuation.target_market_cap %}
+                <div style="margin-bottom:1rem">
+                    <div style="font-size:0.7rem;color:var(--text-muted);margin-bottom:0.4rem;font-weight:600;">目标市值</div>
+                    <div style="font-size:1.5rem;font-weight:700;color:var(--accent-amber)">{{ stock.valuation.target_market_cap }}</div>
+                </div>
+                {% endif %}
+                <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem">
+                    {% if stock.valuation.pe_ratio %}
+                    <div>
+                        <div style="font-size:0.7rem;color:var(--text-muted);margin-bottom:0.2rem">市盈率 (PE)</div>
+                        <div style="font-size:1.1rem;font-weight:600;color:var(--text-primary)">{{ stock.valuation.pe_ratio }}</div>
+                    </div>
+                    {% endif %}
+                    {% if stock.valuation.pb_ratio %}
+                    <div>
+                        <div style="font-size:0.7rem;color:var(--text-muted);margin-bottom:0.2rem">市净率 (PB)</div>
+                        <div style="font-size:1.1rem;font-weight:600;color:var(--text-primary)">{{ stock.valuation.pb_ratio }}</div>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+            {% endif %}
+            
+            <!-- 财务指标 -->
+            {% if stock.financial_metrics and (stock.financial_metrics.revenue_growth or stock.financial_metrics.profit_margin or stock.financial_metrics.roe) %}
+            <div class="info-card">
+                <div class="section-title">💰 财务指标</div>
+                <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:1rem">
+                    {% if stock.financial_metrics.revenue_growth %}
+                    <div>
+                        <div style="font-size:0.7rem;color:var(--text-muted);margin-bottom:0.2rem">营收增长</div>
+                        <div style="font-size:1.1rem;font-weight:600;color:var(--accent-green)">{{ stock.financial_metrics.revenue_growth }}</div>
+                    </div>
+                    {% endif %}
+                    {% if stock.financial_metrics.profit_margin %}
+                    <div>
+                        <div style="font-size:0.7rem;color:var(--text-muted);margin-bottom:0.2rem">利润率</div>
+                        <div style="font-size:1.1rem;font-weight:600;color:var(--accent-cyan)">{{ stock.financial_metrics.profit_margin }}</div>
+                    </div>
+                    {% endif %}
+                    {% if stock.financial_metrics.roe %}
+                    <div>
+                        <div style="font-size:0.7rem;color:var(--text-muted);margin-bottom:0.2rem">ROE</div>
+                        <div style="font-size:1.1rem;font-weight:600;color:var(--accent-blue)">{{ stock.financial_metrics.roe }}</div>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+            {% endif %}
+            
+            <!-- 市场数据 -->
+            {% if stock.market_data and (stock.market_data.market_cap or stock.market_data.total_shares) %}
+            <div class="info-card">
+                <div class="section-title">📈 市场数据</div>
+                <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem">
+                    {% if stock.market_data.market_cap %}
+                    <div>
+                        <div style="font-size:0.7rem;color:var(--text-muted);margin-bottom:0.2rem">总市值</div>
+                        <div style="font-size:1.1rem;font-weight:600;color:var(--text-primary)">{{ stock.market_data.market_cap }}</div>
+                    </div>
+                    {% endif %}
+                    {% if stock.market_data.circulating_market_cap %}
+                    <div>
+                        <div style="font-size:0.7rem;color:var(--text-muted);margin-bottom:0.2rem">流通市值</div>
+                        <div style="font-size:1.1rem;font-weight:600;color:var(--text-primary)">{{ stock.market_data.circulating_market_cap }}</div>
+                    </div>
+                    {% endif %}
+                    {% if stock.market_data.total_shares %}
+                    <div>
+                        <div style="font-size:0.7rem;color:var(--text-muted);margin-bottom:0.2rem">总股本</div>
+                        <div style="font-size:1.1rem;font-weight:600;color:var(--text-primary)">{{ stock.market_data.total_shares }}</div>
+                    </div>
+                    {% endif %}
+                    {% if stock.market_data.circulating_shares %}
+                    <div>
+                        <div style="font-size:0.7rem;color:var(--text-muted);margin-bottom:0.2rem">流通股本</div>
+                        <div style="font-size:1.1rem;font-weight:600;color:var(--text-primary)">{{ stock.market_data.circulating_shares }}</div>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+            {% endif %}
+        </div>
+        
         <!-- ─── 调研文章时间轴 ─── -->
         <div class="articles-section">
             <div class="articles-header">
@@ -1110,7 +1234,15 @@
                                         {% endif %}
                                         <div class="article-meta-row">
                                             {% if article.source %}
-                                                <span class="article-source">📤 {{ article.source | replace('https://mp.weixin.qq.com/s/', '微信 · ') | replace('https://', '') | truncate(40) }}</span>
+                                                {% if 'mp.weixin.qq.com' in article.source %}
+                                                    <a href="{{ article.source }}" target="_blank" rel="noopener" class="article-source-link" onclick="event.stopPropagation()">
+                                                        📤 微信 · {{ article.source.split('/')[-1][:20] }}
+                                                    </a>
+                                                {% else %}
+                                                    <a href="{{ article.source }}" target="_blank" rel="noopener" class="article-source-link" onclick="event.stopPropagation()">
+                                                        📤 {{ article.source | replace('https://', '') | truncate(40) }}
+                                                    </a>
+                                                {% endif %}
                                             {% endif %}
                                             {% if article.date %}
                                                 <span class="article-date">📅 {{ article.date }}</span>
@@ -1157,15 +1289,75 @@
                                         </div>
                                     {% endif %}
                                     
+                                    <!-- 预期价格/目标价 -->
+                                    {% if article.expected_price and article.expected_price | length > 0 %}
+                                        <div class="info-block block-valuation">
+                                            <div class="info-block-title">📈 预期价格 / 目标价</div>
+                                            <div class="valuation-chips">
+                                                {% for price in article.expected_price %}
+                                                    <span class="valuation-chip">💰 {{ price }}</span>
+                                                {% endfor %}
+                                            </div>
+                                        </div>
+                                    {% endif %}
+                                    
+                                    <!-- 预计业绩 -->
+                                    {% if article.expected_performance and article.expected_performance | length > 0 %}
+                                        <div class="info-block" style="background:rgba(16,185,129,0.08);border-color:rgba(16,185,129,0.2)">
+                                            <div class="info-block-title" style="color:var(--accent-green)">📊 预计业绩 / 盈利预测</div>
+                                            <ul class="info-block-list">
+                                                {% for perf in article.expected_performance %}
+                                                    <li><span>{{ perf }}</span></li>
+                                                {% endfor %}
+                                            </ul>
+                                        </div>
+                                    {% endif %}
+                                    
+                                    <!-- 市场估值 -->
+                                    {% if article.market_valuation and article.market_valuation | length > 0 %}
+                                        <div class="info-block" style="background:rgba(139,92,246,0.08);border-color:rgba(139,92,246,0.2)">
+                                            <div class="info-block-title" style="color:var(--accent-purple)">🧮 估值模型 / 方法论</div>
+                                            <ul class="info-block-list">
+                                                {% for val_method in article.market_valuation %}
+                                                    <li><span>{{ val_method }}</span></li>
+                                                {% endfor %}
+                                            </ul>
+                                        </div>
+                                    {% endif %}
+                                    
                                     <!-- 目标估值 -->
                                     {% if article.target_valuation and article.target_valuation | length > 0 %}
                                         <div class="info-block block-valuation">
-                                            <div class="info-block-title">目标估值 / 目标价</div>
+                                            <div class="info-block-title">🎯 目标估值 / 市场空间</div>
                                             <div class="valuation-chips">
                                                 {% for val in article.target_valuation %}
-                                                    <span class="valuation-chip">🎯 {{ val }}</span>
+                                                    <span class="valuation-chip">📍 {{ val }}</span>
                                                 {% endfor %}
                                             </div>
+                                        </div>
+                                    {% endif %}
+                                    
+                                    <!-- 文章摘要 -->
+                                    {% if article.summary %}
+                                        <div class="info-block" style="background:rgba(139,92,246,0.08);border-color:rgba(139,92,246,0.2)">
+                                            <div class="info-block-title" style="color:var(--accent-purple)">📝 摘要</div>
+                                            <div style="color:var(--text-secondary);font-size:0.85rem;line-height:1.6">{{ article.summary }}</div>
+                                        </div>
+                                    {% endif %}
+                                    
+                                    <!-- 文章内容 -->
+                                    {% if article.content %}
+                                        <div class="info-block" style="background:rgba(6,182,212,0.05);border-color:rgba(6,182,212,0.15)">
+                                            <div class="info-block-title" style="color:var(--accent-cyan)">📄 内容</div>
+                                            <div style="color:var(--text-secondary);font-size:0.85rem;line-height:1.6;white-space:pre-wrap">{{ article.content }}</div>
+                                        </div>
+                                    {% endif %}
+                                    
+                                    <!-- 深度分析 -->
+                                    {% if article.analysis %}
+                                        <div class="info-block" style="background:rgba(59,130,246,0.08);border-color:rgba(59,130,246,0.2)">
+                                            <div class="info-block-title" style="color:var(--accent-blue)">🔍 深度分析</div>
+                                            <div style="color:var(--text-secondary);font-size:0.85rem;line-height:1.6;white-space:pre-wrap">{{ article.analysis }}</div>
                                         </div>
                                     {% endif %}
                                     
@@ -1186,7 +1378,7 @@
                                         </div>
                                     {% endif %}
                                     
-                                    {% if not article.insights and not article.key_metrics and not article.target_valuation and not article.accidents %}
+                                    {% if not article.insights and not article.key_metrics and not article.target_valuation and not article.accidents and not article.summary and not article.content and not article.analysis %}
                                         <div class="empty-block">该文章暂无结构化数据</div>
                                     {% endif %}
                                 </div>
@@ -1389,8 +1581,35 @@
                             
                             <div class="inline-edit-row">
                                 <label>
+                                    📈 预期价格
+                                    <span class="field-hint">分析师目标价</span>
+                                </label>
+                                <textarea id="edit-expected-price" placeholder="例如：2026年: 84.87元, 2027年: 101.85元">${(data.articles?.[0]?.expected_price || []).join(', ')}</textarea>
+                                <div class="field-note">⚠️ 此字段将应用到最新一篇文章</div>
+                            </div>
+                            
+                            <div class="inline-edit-row">
+                                <label>
+                                    📊 预计业绩
+                                    <span class="field-hint">盈利预测</span>
+                                </label>
+                                <textarea id="edit-expected-performance" placeholder="例如：2025年扣非净利润: 8.893亿元">${(data.articles?.[0]?.expected_performance || []).join(', ')}</textarea>
+                                <div class="field-note">⚠️ 此字段将应用到最新一篇文章</div>
+                            </div>
+                            
+                            <div class="inline-edit-row">
+                                <label>
+                                    🧮 估值模型
+                                    <span class="field-hint">估值方法论</span>
+                                </label>
+                                <textarea id="edit-market-valuation" placeholder="例如：成长股估值模型, 估值公式: [8.5 + 2 X 增长率] X EPS">${(data.articles?.[0]?.market_valuation || []).join(', ')}</textarea>
+                                <div class="field-note">⚠️ 此字段将应用到最新一篇文章</div>
+                            </div>
+                            
+                            <div class="inline-edit-row">
+                                <label>
                                     🎯 目标估值
-                                    <span class="field-hint">目标市值或目标价</span>
+                                    <span class="field-hint">目标市值或市场空间</span>
                                 </label>
                                 <textarea id="edit-valuation" placeholder="例如：3 倍空间，300 亿市值">${(data.articles?.[0]?.target_valuation || []).join(', ')}</textarea>
                                 <div class="field-note">⚠️ 此字段将应用到最新一篇文章</div>
@@ -1430,7 +1649,11 @@
                 // 文章数据
                 accidents: document.getElementById('edit-accidents').value.split(',').map(s => s.trim()).filter(s => s),
                 insights: document.getElementById('edit-insights').value.split(',').map(s => s.trim()).filter(s => s),
-                target_valuation: document.getElementById('edit-valuation').value.split(',').map(s => s.trim()).filter(s => s)
+                target_valuation: document.getElementById('edit-valuation').value.split(',').map(s => s.trim()).filter(s => s),
+                // 新增字段
+                expected_price: document.getElementById('edit-expected-price').value.split(',').map(s => s.trim()).filter(s => s),
+                expected_performance: document.getElementById('edit-expected-performance').value.split(',').map(s => s.trim()).filter(s => s),
+                market_valuation: document.getElementById('edit-market-valuation').value.split(',').map(s => s.trim()).filter(s => s)
             };
             
             fetch(`/api/stock/${code}/edit`, {

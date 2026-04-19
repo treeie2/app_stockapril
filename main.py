@@ -182,6 +182,52 @@ def load_data_from_firebase():
         print(f"  ⚠️ Firebase 加载出错: {e}")
         return None, None
 
+def load_data_incremental(days=7):
+    """从增量文件加载最近 N 天的数据"""
+    print(f"📋 从增量文件加载最近 {days} 天数据...")
+    
+    INDEX_FILE = Path(__file__).parent / 'data' / 'master' / 'stocks_index.json'
+    STOCKS_DIR = Path(__file__).parent / 'data' / 'master' / 'stocks'
+    
+    try:
+        # 读取索引文件
+        with open(INDEX_FILE, 'r', encoding='utf-8') as f:
+            index_data = json.load(f)
+        
+        # 获取最近 N 天的日期
+        today = datetime.now()
+        recent_dates = []
+        for i in range(days):
+            date = today.replace(day=today.day - i)
+            recent_dates.append(date.strftime("%Y-%m-%d"))
+        
+        # 加载对应日期的数据
+        all_stocks = {}
+        concepts = {}
+        
+        for date in recent_dates:
+            file_path = STOCKS_DIR / f"{date}.json"
+            if file_path.exists():
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                    daily_stocks = data.get('stocks', {})
+                    all_stocks.update(daily_stocks)
+                    
+                    # 构建概念索引
+                    for code, stock in daily_stocks.items():
+                        for concept in stock.get('concepts', []):
+                            if concept not in concepts:
+                                concepts[concept] = {'stocks': []}
+                            concepts[concept]['stocks'].append(code)
+        
+        print(f"  ✅ 从增量文件加载 {len(all_stocks)} 只股票")
+        print(f"  ✅ 加载 {len(concepts)} 个概念")
+        return all_stocks, concepts
+        
+    except Exception as e:
+        print(f"  ⚠️ 增量加载失败: {e}")
+        return None, None
+
 def load_data_from_local():
     """从本地 JSON 加载数据"""
     print("📋 从本地文件加载数据...")
@@ -201,9 +247,16 @@ def load_data_from_local():
         else:
             raise FileNotFoundError("未找到 stocks_master 数据文件")
         
-        # 转换为字典格式
-        stocks_list = master_data.get('stocks', [])
-        stocks = {s['code']: s for s in stocks_list if 'code' in s}
+        # 处理数据格式（支持列表或字典格式）
+        stocks_data = master_data.get('stocks', [])
+        
+        # 如果是字典格式（code 为 key），转换为列表
+        if isinstance(stocks_data, dict):
+            stocks_list = list(stocks_data.values())
+            stocks = stocks_data
+        else:
+            stocks_list = stocks_data
+            stocks = {s['code']: s for s in stocks_list if 'code' in s}
         
         # 从概念字段提取所有概念
         concepts = {}
@@ -221,14 +274,69 @@ def load_data_from_local():
         print(f"  ❌ 错误：{e}")
         return {}, {}
 
-# 加载数据 - 优先从 Firebase，失败则从本地
+# 加载数据 - 优先从本地 stocks_master.json 加载完整数据
 print("📋 加载数据...")
-stocks, concepts = load_data_from_firebase()
-if stocks is None:
-    stocks, concepts = load_data_from_local()
+
+# 1. 从 stocks_master.json 加载完整数据作为基础
+print("📋 从 stocks_master.json 加载完整数据...")
+stocks, concepts = load_data_from_local()
+if not stocks:
+    stocks = {}
+    concepts = {}
+
+# 2. 从增量文件加载最近数据（覆盖 master 中的旧数据）
+print("📋 从增量文件加载最新数据...")
+incremental_stocks, incremental_concepts = load_data_incremental(days=30)
+if incremental_stocks:
+    # 用增量数据覆盖 master 数据（增量数据更新）
+    stocks.update(incremental_stocks)
+    # 合并概念索引
+    for concept, data in incremental_concepts.items():
+        if concept not in concepts:
+            concepts[concept] = data
+        else:
+            # 合并股票列表，去重
+            existing_codes = set(concepts[concept]['stocks'])
+            for code in data['stocks']:
+                if code not in existing_codes:
+                    concepts[concept]['stocks'].append(code)
+
+# 3. 尝试从 Firebase 加载（可选，作为补充）
+print("📋 尝试从 Firebase 加载数据...")
+firebase_stocks, firebase_concepts = load_data_from_firebase()
+if firebase_stocks:
+    # Firebase 数据作为补充，不覆盖本地数据
+    for code, stock in firebase_stocks.items():
+        if code not in stocks:
+            stocks[code] = stock
+    # 合并概念索引
+    for concept, data in firebase_concepts.items():
+        if concept not in concepts:
+            concepts[concept] = data
+        else:
+            existing_codes = set(concepts[concept]['stocks'])
+            for code in data['stocks']:
+                if code not in existing_codes:
+                    concepts[concept]['stocks'].append(code)
+
+# 加载热点数据
+import os
+BASE_DIR = Path(os.path.dirname(os.path.abspath(__file__)))
+HOT_TOPICS_FILE = BASE_DIR / 'data' / 'hot_topics.json'
+hot_topics = []
+if HOT_TOPICS_FILE.exists():
+    try:
+        with open(HOT_TOPICS_FILE, 'r', encoding='utf-8') as f:
+            hot_topics_data = json.load(f)
+            hot_topics = hot_topics_data.get('topics', [])
+        print(f"📊 加载热点数据：{len(hot_topics)} 个热点")
+    except Exception as e:
+        print(f"⚠️ 加载热点数据失败: {e}")
+else:
+    print(f"⚠️ 热点文件不存在: {HOT_TOPICS_FILE}")
 
 # 数据加载完成
-print(f"📊 数据加载完成：{len(stocks)} 只股票，{len(concepts)} 个概念")
+print(f"📊 数据加载完成：{len(stocks)} 只股票，{len(concepts)} 个概念，{len(hot_topics)} 个热点")
 
 @app.route('/')
 def dashboard():
@@ -270,8 +378,28 @@ def dashboard():
         
         all_stocks.append(stock)
     
-    # 默认按 last_updated 排序（优先），没有则按最新文章日期倒序排列
-    all_stocks.sort(key=lambda x: (x.get('last_updated', '') or '', x.get('latest_article_date', '')), reverse=True)
+    # 按最后更新时间排序：有 last_updated 的排在前面（按时间倒序），没有的排在后面
+    def sort_key(x):
+        last_updated = x.get('last_updated', '')
+        if last_updated:
+            # 有 last_updated 的排在前面，按时间倒序（最新的在前）
+            # 返回元组：(优先级, 日期)，优先级0表示有更新时间
+            return (0, last_updated)
+        else:
+            # 没有 last_updated 的排在后面
+            # 优先级1表示无更新时间，用空字符串占位
+            return (1, '')
+    
+    # 按排序键排序（日期倒序，所以第二个元素要 reverse）
+    # 但元组排序会整体 reverse，所以我们手动实现排序
+    stocks_with_update = [s for s in all_stocks if s.get('last_updated')]
+    stocks_without_update = [s for s in all_stocks if not s.get('last_updated')]
+    
+    # 有更新时间的按日期倒序（最新的在前）
+    stocks_with_update.sort(key=lambda x: x.get('last_updated', ''), reverse=True)
+    
+    # 合并：先排有更新时间的，再排没有更新时间的
+    all_stocks = stocks_with_update + stocks_without_update
     
     # 分页
     total = len(all_stocks)
@@ -302,7 +430,40 @@ def dashboard():
         total_articles=len(articles),
         has_more=has_more,
         next_offset=offset + limit,
-        limit=limit)
+        limit=limit,
+        hot_topics=hot_topics)
+
+@app.route('/hot-topic/<topic_id>')
+def hot_topic_detail(topic_id):
+    """热点详情页"""
+    # 查找热点
+    topic = None
+    for t in hot_topics:
+        if t.get('id') == topic_id:
+            topic = t
+            break
+    
+    if not topic:
+        return "热点不存在", 404
+    
+    # 获取相关股票详细信息
+    related_stocks = []
+    for stock_name in topic.get('stocks', []):
+        # 通过名称查找股票代码
+        for code, stock_data in stocks.items():
+            if stock_data.get('name') == stock_name:
+                related_stocks.append({
+                    'code': code,
+                    'name': stock_data.get('name', ''),
+                    'board': stock_data.get('board', ''),
+                    'industry': stock_data.get('industry', ''),
+                    'concepts': stock_data.get('concepts', []),
+                    'mention_count': stock_data.get('mention_count', 0),
+                    'articles': stock_data.get('articles', [])
+                })
+                break
+    
+    return render_template('hot_topic_detail.html', topic=topic, stocks=related_stocks)
 
 @app.route('/stocks')
 def stocks_list():
@@ -546,7 +707,7 @@ def api_stock_edit(code):
             updated.append(field)
     
     # 文章相关字段（更新最新的一篇文章）
-    article_fields = ['accidents', 'insights', 'target_valuation']
+    article_fields = ['accidents', 'insights', 'target_valuation', 'expected_price', 'expected_performance', 'market_valuation']
     article_updated = False
     
     if stocks[code].get('articles') and len(stocks[code]['articles']) > 0:
@@ -578,9 +739,9 @@ def api_stock(code):
         return jsonify({'error': '股票不存在'}), 404
     d = stocks[code]
     return jsonify({'code': code, 'name': d.get('name',''), 'board': d.get('board',''),
+                   'industry': d.get('industry',''),
                    'mention_count': d.get('mention_count',0), 
                    'concepts': d.get('concepts',[]),
-                   'industries': d.get('industries',[]), 
                    'products': d.get('products',[]),
                    'core_business': d.get('core_business',[]),
                    'industry_position': d.get('industry_position',[]),
@@ -592,11 +753,116 @@ def api_stock(code):
 @app.route('/api/search/suggest')
 def api_suggest():
     q = request.args.get('q', '')
-    if len(q) < 2:
+    if len(q) < 1:
         return jsonify({'suggestions': []})
     sug = [{'code': c, 'name': d.get('name',''), 'mention_count': d.get('mention_count',0)}
            for c, d in stocks.items() if q.lower() in d.get('name','').lower()]
     return jsonify({'suggestions': sug[:10]})
+
+# ==================== 热点管理 API ====================
+
+@app.route('/api/hot-topics', methods=['GET'])
+def api_get_hot_topics():
+    """获取所有热点"""
+    return jsonify({'topics': hot_topics})
+
+@app.route('/api/hot-topic/<topic_id>', methods=['GET'])
+def api_get_hot_topic(topic_id):
+    """获取单个热点"""
+    for topic in hot_topics:
+        if topic.get('id') == topic_id:
+            return jsonify(topic)
+    return jsonify({'error': '热点不存在'}), 404
+
+@app.route('/api/hot-topic', methods=['POST'])
+def api_add_hot_topic():
+    """添加新热点"""
+    global hot_topics
+    data = request.json
+    
+    if not data or 'name' not in data:
+        return jsonify({'success': False, 'error': '热点名称必填'}), 400
+    
+    # 生成唯一ID
+    topic_id = f"topic_{datetime.now().strftime('%Y%m%d%H%M%S')}"
+    
+    new_topic = {
+        'id': topic_id,
+        'name': data['name'],
+        'drivers': data.get('drivers', ''),
+        'stocks': data.get('stocks', []),
+        'created_at': datetime.now().strftime('%Y-%m-%d'),
+        'updated_at': datetime.now().strftime('%Y-%m-%d')
+    }
+    
+    hot_topics.append(new_topic)
+    
+    # 保存到文件
+    save_hot_topics()
+    
+    return jsonify({'success': True, 'topic': new_topic})
+
+@app.route('/api/hot-topic/<topic_id>', methods=['PUT'])
+def api_update_hot_topic(topic_id):
+    """更新热点"""
+    global hot_topics
+    data = request.json
+    
+    for topic in hot_topics:
+        if topic.get('id') == topic_id:
+            # 更新字段
+            if 'name' in data:
+                topic['name'] = data['name']
+            if 'drivers' in data:
+                topic['drivers'] = data['drivers']
+            if 'stocks' in data:
+                topic['stocks'] = data['stocks']
+            
+            topic['updated_at'] = datetime.now().strftime('%Y-%m-%d')
+            
+            # 保存到文件
+            save_hot_topics()
+            
+            return jsonify({'success': True, 'topic': topic})
+    
+    return jsonify({'success': False, 'error': '热点不存在'}), 404
+
+@app.route('/api/hot-topic/<topic_id>', methods=['DELETE'])
+def api_delete_hot_topic(topic_id):
+    """删除热点"""
+    global hot_topics
+    
+    for i, topic in enumerate(hot_topics):
+        if topic.get('id') == topic_id:
+            hot_topics.pop(i)
+            save_hot_topics()
+            return jsonify({'success': True})
+    
+    return jsonify({'success': False, 'error': '热点不存在'}), 404
+
+def save_hot_topics():
+    """保存热点数据到文件"""
+    try:
+        # 保存到本地
+        with open(HOT_TOPICS_FILE, 'w', encoding='utf-8') as f:
+            json.dump({'topics': hot_topics}, f, ensure_ascii=False, indent=2)
+        print(f"✅ 热点数据已保存: {len(hot_topics)} 个热点")
+        
+        # 同步到 agent_store
+        sync_hot_topics_to_agent_store()
+    except Exception as e:
+        print(f"❌ 保存热点数据失败: {e}")
+
+def sync_hot_topics_to_agent_store():
+    """同步热点数据到 agent_store"""
+    try:
+        import shutil
+        target_file = Path("e:/github/agent_store/data/hot_topics.json")
+        target_file.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(HOT_TOPICS_FILE, target_file)
+        print(f"✅ 热点数据已同步到 agent_store")
+    except Exception as e:
+        print(f"⚠️ 同步到 agent_store 失败: {e}")
 
 @app.route('/api/search/fulltext')
 def api_fulltext_search():
@@ -604,7 +870,7 @@ def api_fulltext_search():
     q = request.args.get('q', '').lower().strip()
     limit = request.args.get('limit', 20, type=int)
     
-    if len(q) < 2:
+    if len(q) < 1:
         return jsonify({'results': [], 'total': 0})
     
     results = []

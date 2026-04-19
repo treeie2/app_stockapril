@@ -1,0 +1,51 @@
+{
+  "date": "2025-09-11",
+  "update_count": 1,
+  "stocks": {
+    "001300": {
+      "name": "AI体育",
+      "code": "001300",
+      "articles": [
+        {
+          "title": "001300  AI体育 康养器材 跨境电商 全生命周期休闲运动健康服务供应商",
+          "date": "2025-09-11",
+          "source": "https://mp.weixin.qq.com/s/E\\_3\\_\\_K2ahXqXaUCbcRAswg",
+          "accidents": [
+            "产品100%销往海外，欧美市场占比超90%，依赖国际销售渠道，受贸易政策和汇率波动影响较大。"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "industry": "制造业",
+      "concepts": [
+        "制造业"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": []
+    }
+  }
+}

@@ -18,3 +18,6 @@ data/sentiment/search_index_lite*
 *.log
 # 大文件（但保留 stocks_master.json 用于部署）
 data/fundamentals/market_data.json
+
+# Skill 文件（不需要同步到 GitHub）
+.trae/skills/

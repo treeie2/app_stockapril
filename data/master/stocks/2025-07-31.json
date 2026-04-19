@@ -1,0 +1,159 @@
+{
+  "date": "2025-07-31",
+  "update_count": 3,
+  "stocks": {
+    "001367": {
+      "name": "化学药品原料药及中间体",
+      "code": "001367",
+      "articles": [
+        {
+          "title": "001367  化学药品原料药及中间体 四大品类的化药原料药龙头",
+          "date": "2025-07-31",
+          "source": "https://mp.weixin.qq.com/s/olIccrVcwY0wMd8JeE4CFw",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "industry": "制造业",
+      "concepts": [
+        "化工"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": []
+    },
+    "688757": {
+      "name": "半导体全产业链高效的检测实验",
+      "code": "688757",
+      "articles": [
+        {
+          "title": "688757  半导体全产业链高效的检测实验 国内领先的半导体第三方检测企业",
+          "date": "2025-07-31",
+          "source": "https://mp.weixin.qq.com/s/GleMjQeF\\_Zt8uODtcAqhzg",
+          "accidents": [
+            "同时，公司在新加坡的布局有助于对接国际半导体巨头订单，形成独特的国际化优势。"
+          ],
+          "insights": [
+            "头部企业有望充分受益于行业需求增长与Labless模式深化，持续扩大市场份额，既能把握半导体产业扩张机遇，又能在下游景气波动时依托研发端需求韧性实现逆周期增长。",
+            "**两项业务均为高毛利业务，且直接受益于国内半导体产业的研发投入。"
+          ],
+          "key_metrics": [
+            "市占率达7.86%"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "industry": "科技",
+      "concepts": [
+        "科技"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": []
+    },
+    "002343": {
+      "name": "慈文传媒",
+      "code": "002343",
+      "board": "SZ",
+      "industry": "传媒-影视院线-影视院线Ⅲ",
+      "concepts": [
+        "短剧游戏",
+        "文化传媒概念",
+        "手机游戏",
+        "IP经济(谷子经济)",
+        "AI语料",
+        "AIGC概念",
+        "元宇宙",
+        "腾讯概念",
+        "旅游概念",
+        "虚拟现实",
+        "AI应用",
+        "京津冀一体化",
+        "创投",
+        "国企改革"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "“文化传媒概念”深度解析与操作策略，7月31日",
+          "date": "2025-07-31",
+          "source": "https://mp.weixin.qq.com/s/S8w3lGbHHbGXGA_kdQIQ6Q",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "北向资金近一月增持分众传媒（+12%）、芒果超媒（+8%），减持影视股（如光线传媒-5%）"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    }
+  }
+}

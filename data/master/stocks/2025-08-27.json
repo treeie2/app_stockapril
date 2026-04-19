@@ -1,0 +1,49 @@
+{
+  "date": "2025-08-27",
+  "update_count": 1,
+  "stocks": {
+    "000931": {
+      "name": "创新药",
+      "code": "000931",
+      "articles": [
+        {
+          "title": "000931  创新药 创投 生物医药 养老",
+          "date": "2025-08-27",
+          "source": "https://mp.weixin.qq.com/s/3HIrjy9Vfn8ZGWErksuadw",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "industry": "制造业",
+      "concepts": [
+        "制造业"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": []
+    }
+  }
+}

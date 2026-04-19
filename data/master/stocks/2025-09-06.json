@@ -1,0 +1,53 @@
+{
+  "date": "2025-09-06",
+  "update_count": 1,
+  "stocks": {
+    "159278": {
+      "name": "机器人ETF",
+      "code": "159278",
+      "board": "SZ",
+      "industry": "机械设备-自动化设备-机器人",
+      "concepts": [
+        "机器人"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "“人形机器人概念”深度解析与操作策略，9月6日，星期六",
+          "date": "2025-09-06",
+          "source": "https://mp.weixin.qq.com/s/2byLkMcM4CrD7U6WtIX2bw",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "* **纪律**：定投策略（每月10%资金），回撤超10%暂停加仓"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    }
+  }
+}

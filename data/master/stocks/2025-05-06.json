@@ -1,0 +1,65 @@
+{
+  "date": "2025-05-06",
+  "update_count": 1,
+  "stocks": {
+    "301387": {
+      "name": "光大同创",
+      "code": "301387",
+      "board": "SZ",
+      "industry": "电子-消费电子-消费电子零部件及组装",
+      "concepts": [
+        "机器人",
+        "苹果概念",
+        "消费电子概念",
+        "智能穿戴",
+        "碳纤维",
+        "机器人概念",
+        "粤港澳大湾区",
+        "数字经济",
+        "一带一路",
+        "可降解塑料",
+        "融资融券"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [
+        "3. **中游（整机制造）**"
+      ],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "“外骨骼机器人”深度解析与操作策略-文末盘中参考",
+          "date": "2025-05-06",
+          "source": "https://mp.weixin.qq.com/s/1xrVzDrnp2Qzlv_rl83yKg",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "3. **中游（整机制造）**： * * *"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    }
+  }
+}

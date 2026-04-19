@@ -1,0 +1,133 @@
+{
+  "date": "2025-10-16",
+  "update_count": 2,
+  "stocks": {
+    "002024": {
+      "name": "苏宁易购",
+      "code": "002024",
+      "board": "SZ",
+      "industry": "其他-其他-其他",
+      "concepts": [
+        "ST板块",
+        "无人零售",
+        "超级品牌",
+        "跨境电商",
+        "乡村振兴",
+        "农村电商",
+        "智能物流",
+        "家用电器",
+        "互联网金融",
+        "智能家居",
+        "智能医疗",
+        "区块链",
+        "DeepSeek概念",
+        "人工智能",
+        "阿里巴巴概念",
+        "独角兽概念",
+        "AI智能体"
+      ],
+      "mention_count": 1,
+      "products": [
+        "平台"
+      ],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [
+        "平台",
+        "运营"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "10月15日复盘及操作策略，震荡市中的结构性机会把握",
+          "date": "2025-10-16",
+          "source": "https://mp.weixin.qq.com/s/cBuEPskxGh396_xsL6k_oQ",
+          "accidents": [],
+          "insights": [
+            "重点关注具有核心技术优势、海外营收占比高的隐形冠军企业",
+            "这类主题投资需要结合消息面催化"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "article_count": 1,
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "601799": {
+      "name": "星宇股份",
+      "code": "601799",
+      "board": "SH",
+      "industry": "汽车-汽车零部件-车身附件及饰件",
+      "concepts": [
+        "毫米波雷达",
+        "无人驾驶",
+        "智能座舱",
+        "人形机器人",
+        "机器人概念",
+        "沪股通",
+        "汽车电子",
+        "华为汽车",
+        "MicroLED概念",
+        "融资融券"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "10月15日复盘及操作策略，震荡市中的结构性机会把握",
+          "date": "2025-10-16",
+          "source": "https://mp.weixin.qq.com/s/cBuEPskxGh396_xsL6k_oQ",
+          "accidents": [],
+          "insights": [
+            "重点关注具有核心技术优势、海外营收占比高的隐形冠军企业",
+            "这类主题投资需要结合消息面催化"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "date": "2025-11-03",
+  "update_count": 1,
+  "stocks": {
+    "002168": {
+      "name": "参股半导体",
+      "code": "002168",
+      "articles": [
+        {
+          "title": "002168  参股半导体 集成电路 智能电网 工业互联 新能源车 太阳能 边缘计算 节能用电服务 综合能源技术与服务提供商",
+          "date": "2025-11-03",
+          "source": "https://mp.weixin.qq.com/s/rmGcXm8dPPu7kpyKnedg9g",
+          "accidents": [
+            "随着电改力度的推进和能源互联网具体政策的落实，公司的用电服务将发展为重要的主业，发展空间可期。"
+          ],
+          "insights": [],
+          "key_metrics": [
+            "国内第一",
+            "国内第一"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "industry": "制造业",
+      "concepts": [
+        "制造业"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": []
+    }
+  }
+}

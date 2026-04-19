@@ -1,0 +1,53 @@
+{
+  "date": "2025-09-25",
+  "update_count": 1,
+  "stocks": {
+    "801672": {
+      "name": "华新水泥",
+      "code": "801672",
+      "board": "BJ",
+      "industry": "其他-其他-其他",
+      "concepts": [
+        "其他-其他-其他"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "9月25日，热点关注，今日操作策略与风险提示，文末本周3篇报告",
+          "date": "2025-09-25",
+          "source": "https://mp.weixin.qq.com/s/uvITwnVH1eQO0Cx88_g9Tg",
+          "accidents": [],
+          "insights": [
+            "操作策略：逢低配置区域龙头，关注兼并重组及产能置换执行进度"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    }
+  }
+}

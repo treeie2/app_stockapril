@@ -1,0 +1,55 @@
+{
+  "date": "2025-11-27",
+  "update_count": 1,
+  "stocks": {
+    "002909": {
+      "name": "有机硅",
+      "code": "002909",
+      "articles": [
+        {
+          "title": "002909  有机硅 光伏储能 液冷服务器 低空经济材料 跨境电商 胶粘剂和涂料的国家高新技术企业",
+          "date": "2025-11-27",
+          "source": "https://mp.weixin.qq.com/s/6A6kXupCWes0XvIWMNusBg",
+          "accidents": [
+            "其转型逻辑清晰可见：**利用传统领域的材料技术积累，切入高成长性新兴产业的关键材料环节，正如集泰在eVTOL领域开发的“材料防护矩阵”，这家企业也在为自身发展构建多层次防护体系：用技术研发抵御同质化竞争，用产品创新突破周期波动，用绿色材料拥抱政策红利，当低空经济从概念走向现实，当动力电池能量密度持续突破，当数据中心算力需求爆发式增长，集泰在新赛道埋下的技术种子，正在迎来收获的季节。",
+            "研发的液冷导热硅油聚焦数据中心及储能领域的热管理，适配主流冷板式液冷方案，具备技术适配性、政策红利和成本优势，产品价格较国际品牌低20%-30%。",
+            "为新能源汽车的三电系统（电池、电机、电控）、汽车电子零部件等提供粘接、绝缘、导热等解决方案，是宁德时代电池包密封的核心供应商，订单排至2026年。"
+          ],
+          "insights": [
+            "其转型逻辑清晰可见：**利用传统领域的材料技术积累，切入高成长性新兴产业的关键材料环节，正如集泰在eVTOL领域开发的“材料防护矩阵”，这家企业也在为自身发展构建多层次防护体系：用技术研发抵御同质化竞争，用产品创新突破周期波动，用绿色材料拥抱政策红利，当低空经济从概念走向现实，当动力电池能量密度持续突破，当数据中心算力需求爆发式增长，集泰在新赛道埋下的技术种子，正在迎来收获的季节。"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "industry": "制造业",
+      "concepts": [
+        "制造业"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": []
+    }
+  }
+}

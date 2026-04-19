@@ -1,0 +1,53 @@
+{
+  "date": "2025-06-20",
+  "update_count": 1,
+  "stocks": {
+    "832522": {
+      "name": "固态电池设备商纳科诺尔",
+      "code": "832522",
+      "board": "BJ",
+      "industry": "其他-其他-其他",
+      "concepts": [
+        "新能源"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "热点关注，今日操作策略与风险提示-底部竞价参考-6月20日",
+          "date": "2025-06-20",
+          "source": "https://mp.weixin.qq.com/s/fkqUCVOi9umRyJ2Re7Pt-A",
+          "accidents": [
+            "政策与产业共振"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    }
+  }
+}

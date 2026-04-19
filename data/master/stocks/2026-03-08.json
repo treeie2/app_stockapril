@@ -1,0 +1,55 @@
+{
+  "date": "2026-03-08",
+  "update_count": 1,
+  "stocks": {
+    "600844": {
+      "name": "煤化工",
+      "code": "600844",
+      "articles": [
+        {
+          "title": "600844  煤化工 可降解塑料 西部大开发 国企改革 专业从事煤化工企业",
+          "date": "2026-03-08",
+          "source": "https://mp.weixin.qq.com/s/MR8YBDE-7No85TJgZDExLA",
+          "accidents": [
+            "公司注册地址迁至内蒙古呼和浩特，靠近煤炭资源丰富的地区，受益于西部大开发战略带来的资源禀赋优势，便于获取原材料，降低运输成本，同时可能享受当地政策支持。",
+            "公司曾有丹阳国资作为二股东，虽目前控股股东为民营资本，但历史上与国资的关联以及在行业整合、资源调配等方面可能涉及国企改革相关的政策机遇，如混合所有制改革、资产整合等。",
+            "以上概念反映了金煤科技在不同维度的业务特征和市场定位，投资者需结合公司基本面、行业周期及政策环境综合判断其投资价值。"
+          ],
+          "insights": [
+            "公司注册地址迁至内蒙古呼和浩特，靠近煤炭资源丰富的地区，受益于西部大开发战略带来的资源禀赋优势，便于获取原材料，降低运输成本，同时可能享受当地政策支持。"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "industry": "制造业",
+      "concepts": [
+        "化工"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": []
+    }
+  }
+}

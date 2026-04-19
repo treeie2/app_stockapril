@@ -1,0 +1,99 @@
+{
+  "date": "2025-10-21",
+  "update_count": 2,
+  "stocks": {
+    "301668": {
+      "name": "智能电网",
+      "code": "301668",
+      "articles": [
+        {
+          "title": "301668  智能电网 智能配电设备企业",
+          "date": "2025-10-21",
+          "source": "https://mp.weixin.qq.com/s/e5nSozkoy3EO5NY3Jy0Daw",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "industry": "科技",
+      "concepts": [
+        "科技"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": []
+    },
+    "603028": {
+      "name": "深海科技",
+      "code": "603028",
+      "articles": [
+        {
+          "title": "603028  深海科技 机器人 光伏 绿色建筑 领先的特种钢丝绳和索具生产商",
+          "date": "2025-10-21",
+          "source": "https://mp.weixin.qq.com/s/o00xEL3TQiUMvQlWD3PLTA",
+          "accidents": [
+            "公司在人形机器人腱绳领域取得阶段性进展，与多家机器人企业开展技术合作，自主研发的机器人用钢丝绳产品已与上海交通大学等机构合作，但目前订单规模较小，对业绩影响有限。"
+          ],
+          "insights": [
+            "公司凭借钢丝绳制造经验，参与海洋工程索具供应，全资子公司建峰索具是国内领先的海洋工程索具供应商，中标卡塔尔ISND5-2项目，有望受益于国家深海开发战略。"
+          ],
+          "key_metrics": [
+            "行业领先",
+            "行业领先"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "industry": "制造业",
+      "concepts": [
+        "科技"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": []
+    }
+  }
+}

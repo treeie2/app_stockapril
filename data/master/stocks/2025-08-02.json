@@ -1,0 +1,108 @@
+{
+  "date": "2025-08-02",
+  "update_count": 2,
+  "stocks": {
+    "512480": {
+      "name": "半导体ETF",
+      "code": "512480",
+      "board": "SZ",
+      "industry": "电子-半导体-集成电路",
+      "concepts": [
+        "芯片"
+      ],
+      "mention_count": 1,
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "articles": [
+        {
+          "title": "“芯片概念”深度解析与操作策略，8月2日",
+          "date": "2025-08-02",
+          "source": "https://mp.weixin.qq.com/s/F3uwRx2G8JC4WhjCnqYJLw",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "* 总仓位≤80%，上游设备（40%）+ 中游制造（30%）+ 下游弹性标的（10%）"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "article_count": 1,
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "600807": {
+      "name": "济高发展",
+      "code": "600807",
+      "board": "SH",
+      "industry": "医药生物-医疗器械-体外诊断",
+      "concepts": [
+        "物业管理",
+        "基因测序",
+        "医疗器械概念",
+        "猴痘概念",
+        "国企改革",
+        "生态农业"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "“猴痘概念”深度解析与操作策略，8月2日",
+          "date": "2025-08-02",
+          "source": "https://mp.weixin.qq.com/s/cn2yj0PwOhHTG0sfLT8twA",
+          "accidents": [
+            "政策敏感度排序"
+          ],
+          "insights": [],
+          "key_metrics": [
+            "5. **政策敏感度排序**："
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    }
+  }
+}

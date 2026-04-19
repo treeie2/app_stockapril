@@ -1,0 +1,198 @@
+{
+  "date": "2025-12-10",
+  "update_count": 3,
+  "stocks": {
+    "603386": {
+      "name": "骏亚科技",
+      "code": "603386",
+      "board": "SH",
+      "industry": "电子-元件-印制电路板",
+      "concepts": [
+        "毫米波雷达",
+        "PCB概念",
+        "人形机器人",
+        "汽车电子",
+        "光纤概念",
+        "5G",
+        "小米概念",
+        "比亚迪概念",
+        "机器人概念",
+        "卫星导航",
+        "华为概念",
+        "医疗器械概念"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "12月10日，热点关注，今日操作策略与风险提示，推送第二条是马前炮",
+          "date": "2025-12-10",
+          "source": "https://mp.weixin.qq.com/s/syT3Rg_NeyeLhQROcDQsKw",
+          "accidents": [
+            "福建区域板块"
+          ],
+          "insights": [
+            "福建区域板块"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "002682": {
+      "name": "龙洲股份",
+      "code": "002682",
+      "board": "SZ",
+      "industry": "交通运输-物流-物流Ⅲ",
+      "concepts": [
+        "航运概念",
+        "天然气",
+        "统一大市场",
+        "海峡两岸",
+        "卫星导航",
+        "农村电商",
+        "新疆振兴",
+        "冷链物流",
+        "网约车",
+        "军工",
+        "氢能源",
+        "ETC",
+        "燃料电池",
+        "一带一路",
+        "水利",
+        "国企改革",
+        "乡村振兴",
+        "垃圾分类",
+        "污水处理",
+        "机器人概念",
+        "智慧城市",
+        "职业教育",
+        "新能源汽车",
+        "充电桩",
+        "车联网(车路协同)",
+        "人工智能",
+        "储能",
+        "宁德时代概念"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "12月10日，热点关注，今日操作策略与风险提示，推送第二条是马前炮",
+          "date": "2025-12-10",
+          "source": "https://mp.weixin.qq.com/s/syT3Rg_NeyeLhQROcDQsKw",
+          "accidents": [
+            "储能电芯板块"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "693693": {
+      "name": "东百集团",
+      "code": "693693",
+      "board": "SH",
+      "industry": "商贸零售-零售-百货零售",
+      "concepts": [
+        "免税店",
+        "福建自贸区",
+        "海峡两岸",
+        "物业管理",
+        "旅游概念",
+        "冷链物流",
+        "IP经济(谷子经济)",
+        "跨境电商",
+        "数字经济",
+        "统一大市场",
+        "阿里巴巴概念",
+        "沪股通"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "12月10日，热点关注，今日操作策略与风险提示，推送第二条是马前炮",
+          "date": "2025-12-10",
+          "source": "https://mp.weixin.qq.com/s/syT3Rg_NeyeLhQROcDQsKw",
+          "accidents": [
+            "储能电芯板块"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "date": "2026-01-28",
+  "update_count": 2,
+  "stocks": {
+    "300554": {
+      "name": "三超新材",
+      "code": "300554",
+      "articles": [
+        {
+          "title": "三超新材300554，创业板精密材料工具供应商，光伏基本盘与半导体前道耗材突破双轮驱动，1月28日，星期三",
+          "date": "2026-01-28",
+          "source": "https://mp.weixin.qq.com/s/HKHJQjMR8cPgrOAq4dpNhQ",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "**报告日期**：2026年1月27日"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "board": "SZ",
+      "industry": "电力设备-光伏设备-光伏组件",
+      "concepts": [
+        "光伏"
+      ],
+      "article_count": 1,
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": []
+    },
+    "603527": {
+      "name": "有色金属",
+      "code": "603527",
+      "articles": [
+        {
+          "title": "603527  有色金属 锂电池 铜缆高速链接 3D打印 新能源 深耕紫铜带箔材领域",
+          "date": "2026-01-28",
+          "source": "https://mp.weixin.qq.com/s/Ojd4fVsZOuDB2yFbuR6qJA",
+          "accidents": [],
+          "insights": [
+            "同时，公司成立子公司众源铝箔，建设年产5万吨电池铝箔生产线，切入锂电池正负极集流体材料市场，受益于新能源汽车和储能行业的快速发展。",
+            "尽管持股比例较低，但公司通过布局固态电池产业链，参与行业技术发展，受益于固态电池市场的潜在增长。",
+            "众源新材是融资融券标的和转融券标的，表明其股票流动性较强，受到市场投资者的关注，也为投资者提供了更多的交易策略和风险管理工具。"
+          ],
+          "key_metrics": [
+            "龙头地位"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "industry": "制造业",
+      "concepts": [
+        "资源"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": []
+    }
+  }
+}

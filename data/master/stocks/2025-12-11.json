@@ -1,0 +1,55 @@
+{
+  "date": "2025-12-11",
+  "update_count": 1,
+  "stocks": {
+    "301522": {
+      "name": "商业航天",
+      "code": "301522",
+      "articles": [
+        {
+          "title": "301522  商业航天 可控核聚变 高温合金 半导体 国防军工 深海科技 特种合金产品",
+          "date": "2025-12-11",
+          "source": "https://mp.weixin.qq.com/s/zrmg15ggbTq0DkBTwjl4NQ",
+          "accidents": [
+            "9.  **京津冀一体化**：公司位于河北省，受益于京津冀协同发展战略，可能在区域产业合作、资源共享、政策支持等方面获得发展机遇。"
+          ],
+          "insights": [
+            "2.  **国防军工**：作为军工集团的核心材料供应商，公司产品应用于航空发动机、航天发动机、导弹等军工装备的制造，参与多项军品预研项目，深度绑定中国航发、航天科技、航天科工等军工集团，受益于国防现代化建设需求。",
+            "5.  **商业航天**：为商业火箭企业提供高温合金材料，用于火箭发动机热端部件、壳体等结构件，凭借再生技术降低成本，助力商业航天发展，受益于商业航天市场的快速增长。",
+            "9.  **京津冀一体化**：公司位于河北省，受益于京津冀协同发展战略，可能在区域产业合作、资源共享、政策支持等方面获得发展机遇。"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "industry": "科技",
+      "concepts": [
+        "军工"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": []
+    }
+  }
+}

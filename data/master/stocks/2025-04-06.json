@@ -1,0 +1,63 @@
+{
+  "date": "2025-04-06",
+  "update_count": 1,
+  "stocks": {
+    "603505": {
+      "name": "金石资源",
+      "code": "603505",
+      "board": "SH",
+      "industry": "基础化工-化学制品-氟化工",
+      "concepts": [
+        "氟化工概念",
+        "民爆概念",
+        "锂电池概念",
+        "液冷服务器",
+        "融资融券",
+        "沪股通"
+      ],
+      "mention_count": 1,
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "articles": [
+        {
+          "title": "“制冷剂”深度解析与操作策略（2025年4月更新）",
+          "date": "2025-04-06",
+          "source": "https://mp.weixin.qq.com/s/oc_04dGeA_XsKEgZ90RN5Q",
+          "accidents": [
+            "萤石储量占全国20%"
+          ],
+          "insights": [
+            "萤石储量占全国20%"
+          ],
+          "key_metrics": [
+            "萤石储量占全国20%，受益氢氟酸涨价（现价3720元/吨），2025年净利润预增30%"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "article_count": 1,
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    }
+  }
+}

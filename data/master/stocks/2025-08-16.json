@@ -1,0 +1,279 @@
+{
+  "date": "2025-08-16",
+  "update_count": 5,
+  "stocks": {
+    "001914": {
+      "name": "招商积余",
+      "code": "001914",
+      "board": "SZ",
+      "industry": "房地产-房地产-房地产服务",
+      "concepts": [
+        "物业管理",
+        "国企改革",
+        "央企国企改革",
+        "回购增持再贷款概念",
+        "深股通",
+        "融资融券",
+        "智慧城市",
+        "充电桩"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 2,
+      "articles": [
+        {
+          "title": "“物业管理概念”深度解析与操作策略，7月11日",
+          "date": "2025-07-12",
+          "source": "https://mp.weixin.qq.com/s/G5yapb9UpHgzw4TwXFI42Q",
+          "accidents": [
+            "游资聚焦政策敏感标的"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        },
+        {
+          "title": "“物业管理概念”深度解析与操作策略，8月16日",
+          "date": "2025-08-16",
+          "source": "https://mp.weixin.qq.com/s/R3ByzaYznHsj_Z6TEQuy1g",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "公建项目政府采购扩容（2025年Q1新签政府项目金额增40%）、AIoT覆盖率68%（降低人力成本28%）"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "603506": {
+      "name": "南都物业",
+      "code": "603506",
+      "board": "SH",
+      "industry": "房地产-房地产-房地产服务",
+      "concepts": [
+        "物业管理",
+        "养老概念",
+        "2025年报预增",
+        "垃圾分类",
+        "长三角一体化",
+        "机器人概念"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "“物业管理概念”深度解析与操作策略，8月16日",
+          "date": "2025-08-16",
+          "source": "https://mp.weixin.qq.com/s/R3ByzaYznHsj_Z6TEQuy1g",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "“物业+养老”落地快（已覆盖12个城市，签约200个社区）、非住宅业态占比50%（毛利率35%）"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "600048": {
+      "name": "保利发展",
+      "code": "600048",
+      "board": "SH",
+      "industry": "房地产-房地产-住宅开发",
+      "concepts": [
+        "租售同权",
+        "物业管理",
+        "证金持股",
+        "同花顺漂亮100",
+        "国企改革",
+        "央企国企改革",
+        "沪股通",
+        "融资融券",
+        "智能家居"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "“物业管理概念”深度解析与操作策略，8月16日",
+          "date": "2025-08-16",
+          "source": "https://mp.weixin.qq.com/s/R3ByzaYznHsj_Z6TEQuy1g",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "在管面积年增20%（2025年Q1新增2800万㎡）、低估值高分红（股息率4.8%）"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "858702": {
+      "name": "地下管网指数",
+      "code": "858702",
+      "board": "BJ",
+      "industry": "其他-其他-其他",
+      "concepts": [
+        "其他-其他-其他"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "“地下管网概念”深度解析与操作策略，8月16日",
+          "date": "2025-08-16",
+          "source": "https://mp.weixin.qq.com/s/UyDit7MUXfpVP1FLBOZDzw",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "3. **行业基本面**"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "000032": {
+      "name": "深桑达A",
+      "code": "000032",
+      "board": "SZ",
+      "industry": "建筑装饰-建筑装饰-专业工程",
+      "concepts": [
+        "建筑装饰-建筑装饰-专业工程"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "“智慧政务概念”深度解析与操作策略，8月16日",
+          "date": "2025-08-16",
+          "source": "https://mp.weixin.qq.com/s/jbt_flKaMeMnxzSvOES4aQ",
+          "accidents": [],
+          "insights": [
+            "技术迭代重塑估值逻辑"
+          ],
+          "key_metrics": [
+            "5. **技术迭代重塑估值逻辑**"
+          ],
+          "target_valuation": [
+            "技术迭代重塑估值逻辑"
+          ],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    }
+  }
+}

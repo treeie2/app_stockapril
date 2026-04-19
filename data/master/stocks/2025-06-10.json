@@ -1,0 +1,55 @@
+{
+  "date": "2025-06-10",
+  "update_count": 1,
+  "stocks": {
+    "159539": {
+      "name": "信创50ETF",
+      "code": "159539",
+      "board": "SZ",
+      "industry": "其他-其他-其他",
+      "concepts": [
+        "其他-其他-其他"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "“中科系概念”深度解析与操作策略-文末盘中参考-6月10日",
+          "date": "2025-06-10",
+          "source": "https://mp.weixin.qq.com/s/AEWK_P1xk2ZkO0aFWn_opA",
+          "accidents": [
+            "融资余额攀升"
+          ],
+          "insights": [],
+          "key_metrics": [
+            "* **融资余额攀升**：中科曙光融资余额突破35亿元，杠杆资金押注重组后算力生态整合，融资买入占比达12%"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    }
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "date": "2025-04-17",
+  "update_count": 2,
+  "stocks": {
+    "000948": {
+      "name": "南天信息",
+      "code": "000948",
+      "board": "SZ",
+      "industry": "计算机-软件开发-垂直应用软件",
+      "concepts": [
+        "数字货币",
+        "ETC",
+        "移动支付",
+        "互联网金融",
+        "智慧城市",
+        "区块链",
+        "鸿蒙概念",
+        "智慧政务",
+        "数字经济",
+        "人脸识别",
+        "财税数字化",
+        "信创",
+        "华为鲲鹏",
+        "网络安全",
+        "数据安全",
+        "DeepSeek概念",
+        "在线教育",
+        "人工智能",
+        "国资云",
+        "AI智能体",
+        "百度概念",
+        "物联网",
+        "元宇宙",
+        "腾讯概念",
+        "阿里巴巴概念",
+        "语音技术",
+        "多模态AI",
+        "知识产权保护",
+        "NFT概念",
+        "创投",
+        "智能医疗",
+        "华为概念",
+        "水利",
+        "军民融合",
+        "军工信息化",
+        "机器视觉",
+        "信托概念",
+        "军工",
+        "乡村振兴",
+        "碳中和",
+        "医疗器械概念",
+        "数据中心",
+        "国企改革",
+        "西部大开发",
+        "AI应用",
+        "深股通",
+        "融资融券"
+      ],
+      "products": [
+        "代理方面开展合作"
+      ],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": null,
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "“跨境支付”深度解析与操作策略（4月12日更新）",
+          "date": "2025-04-12",
+          "source": "https://mp.weixin.qq.com/s/xLog4pBNM6biwe4VuUYdPA",
+          "accidents": [
+            "CIPS系统开发服务商"
+          ],
+          "insights": [],
+          "key_metrics": [
+            "CIPS系统开发服务商，中标某国有大行东南亚跨境支付项目，Q1新增订单同比+45%，机构持仓比例升至18%"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        },
+        {
+          "title": "“跨境支付概念”深度解析与操作策略（4月15日更新）-文末盘中参考",
+          "date": "2025-04-17",
+          "source": "https://mp.weixin.qq.com/s/PjhVE4wuX1PoNy9-ksMFwA",
+          "accidents": [
+            "CIPS系统开发服务商"
+          ],
+          "insights": [],
+          "key_metrics": [
+            "CIPS系统开发服务商，中标国有大行东南亚项目，Q1新增订单同比+45%，机构持仓占比18%"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "article_count": 2,
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "300180": {
+      "name": "华峰超纤",
+      "code": "300180",
+      "board": "SZ",
+      "industry": "基础化工-塑料制品-其他塑料制品",
+      "concepts": [
+        "数字货币",
+        "移动支付",
+        "跨境支付(CIPS)",
+        "互联网金融",
+        "蚂蚁集团概念",
+        "区块链",
+        "低空经济",
+        "创投",
+        "数据要素",
+        "华为鲲鹏",
+        "工业互联网",
+        "信创",
+        "华为汽车",
+        "长安汽车概念",
+        "华为概念",
+        "一带一路",
+        "参股券商",
+        "腾讯概念",
+        "比亚迪概念",
+        "深股通",
+        "融资融券"
+      ],
+      "products": [],
+      "core_business": [
+        "数字人民币跨境系统覆盖东南亚10国"
+      ],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "“跨境支付概念”深度解析与操作策略（4月15日更新）-文末盘中参考",
+          "date": "2025-04-17",
+          "source": "https://mp.weixin.qq.com/s/PjhVE4wuX1PoNy9-ksMFwA",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "数字人民币跨境系统覆盖东南亚10国，业务增速120%，签约银行数量A股第一（14家）"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    }
+  }
+}

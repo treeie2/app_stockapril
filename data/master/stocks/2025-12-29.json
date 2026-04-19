@@ -1,0 +1,57 @@
+{
+  "date": "2025-12-29",
+  "update_count": 1,
+  "stocks": {
+    "300123": {
+      "name": "卫星通信",
+      "code": "300123",
+      "articles": [
+        {
+          "title": "300123  卫星通信 6G 三代半导体 氮化镓 军工 卫星互联网 智能驾驶 军工微波半导体器件及电路领先企业",
+          "date": "2025-12-29",
+          "source": "https://mp.weixin.qq.com/s/MEfWSWUmVUpuTFANqjuSPQ",
+          "accidents": [
+            "未来三年卫星互联网方面业务有望爆发，按照目前汇总的公开披露的由国家队建设的星座计划，按照未来三年预计发射1000颗，平均每年约300多颗，按照公司当前的配套金额估测，新增卫星配套业务的订单很大，有望再造一个成都亚光。",
+            "亚光科技的雷达配套设备已覆盖陆、海、空、天多种武器装备，在地基、舰载、机载、弹载等十几种型号上列装，未来随着我国军用雷达市场规模增长，公司作为雷达产业链上游供应商的订单也将不断增长，增速将比较稳定。",
+            "亚光科技与该领域部分核心客户建立了深度配套合作关系，并且部分客户还将其成都研发中心直接设到了成都亚光，共同研发确保重要配套任务按时保质完成，当前备产任务大幅增加，订单成倍增长，预计未来3-5年来自导弹领域的配套收入 也将取得较高增速。"
+          ],
+          "insights": [
+            "受益于导弹战略储备增加及实战化训练拉动，公司弹载微波业务进入快车道。"
+          ],
+          "key_metrics": [
+            "龙头地位"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "industry": "科技",
+      "concepts": [
+        "科技"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": []
+    }
+  }
+}

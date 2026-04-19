@@ -1,0 +1,56 @@
+{
+  "date": "2026-01-18",
+  "update_count": 1,
+  "stocks": {
+    "301028": {
+      "name": "工业母机",
+      "code": "301028",
+      "articles": [
+        {
+          "title": "301028  工业母机 半导体 机器人 核能核电 AIDC 综合性空气动力系统解决方案提供商",
+          "date": "2026-01-18",
+          "source": "https://mp.weixin.qq.com/s/7PpX6DThLqwvbR9-1Dn70g",
+          "accidents": [
+            "6.  **政策与行业机遇**",
+            "*   受益于设备更新政策，节能型空压机需求增长。",
+            "*   两岸融合政策支持台资企业发展，公司作为台资企业享受用地、补贴等政策红利。"
+          ],
+          "insights": [
+            "*   受益于设备更新政策，节能型空压机需求增长。",
+            "目前来看似乎液冷的未来市场空间会更大一点，不过毕竟这块也算是公司未来多出来的一块业务，可以进行持续关注。"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "industry": "科技",
+      "concepts": [
+        "科技"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": []
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "date": "2025-10-13",
+  "update_count": 1,
+  "stocks": {
+    "002385": {
+      "name": "大北农",
+      "code": "002385",
+      "board": "SZ",
+      "mention_count": 1,
+      "industry": "农林牧渔-农产品加工-畜禽饲料",
+      "article_date": "2026-03-04",
+      "concepts": [
+        "转基因",
+        "大豆",
+        "玉米",
+        "粮食概念",
+        "俄乌冲突概念",
+        "猪肉",
+        "农业种植",
+        "农村电商",
+        "动物疫苗",
+        "预制菜",
+        "乳业",
+        "乡村振兴",
+        "消毒剂",
+        "合成生物",
+        "宠物经济",
+        "数字乡村",
+        "融资融券",
+        "深股通",
+        "京津冀一体化",
+        "三胎概念",
+        "DeepSeek概念",
+        "数字经济"
+      ],
+      "products": [
+        "玉米种子",
+        "大豆种子"
+      ],
+      "core_business": [
+        "种子研发与销售"
+      ],
+      "industry_position": [
+        "转基因育种技术领先"
+      ],
+      "chain": [
+        "中游-种业龙头"
+      ],
+      "partners": null,
+      "articles": [
+        {
+          "title": "20250409-今日操作建议参考-自动回复“今日标的”实时更新",
+          "date": "2025-04-09",
+          "source": "https://mp.weixin.qq.com/s/EuiBwA6RmntItlwcI5w2ng",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "生猪养殖扭亏+转基因种子出海（乌拉圭种植许可），一季度营收同比增37.33%"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        },
+        {
+          "title": "卖方本周策略，10月13日，星期一",
+          "date": "2025-10-13",
+          "source": "https://mp.weixin.qq.com/s/xnoU6eelTQxe0_3iAx4Ztw",
+          "accidents": [],
+          "insights": [
+            "操作上建议周一重点关注汇率波动"
+          ],
+          "key_metrics": [
+            "周三前后根据贸易谈判进展调整仓位结构，整体保持半导体（20%）、军工（15%）、金融（15%）的基准配置"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "article_count": 2,
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    }
+  }
+}

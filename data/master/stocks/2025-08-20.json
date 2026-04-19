@@ -1,0 +1,109 @@
+{
+  "date": "2025-08-20",
+  "update_count": 2,
+  "stocks": {
+    "300200": {
+      "name": "光刻胶",
+      "code": "300200",
+      "articles": [
+        {
+          "title": "300200  光刻胶 半导体 军工 新能源车 铁路基建 复合聚氨酯胶粘剂行业龙头",
+          "date": "2025-08-20",
+          "source": "https://mp.weixin.qq.com/s/g0AkYVvKsY6P2Z7CeA-I9w",
+          "accidents": [],
+          "insights": [
+            "公司产品包括光伏组件边框有机硅密封胶、丁基胶、接线盒灌封胶等，广泛应用于光伏产业链，受益于光伏行业的快速发展。",
+            "高盟新材并购的逻辑是基于胶粘剂产品多样，若对单一胶种逐一研发攻克，时间成本太大，而收购就是完成商业布局的最佳方式了。"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "industry": "科技",
+      "concepts": [
+        "科技"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": []
+    },
+    "600400": {
+      "name": "红豆股份",
+      "code": "600400",
+      "board": "SH",
+      "industry": "纺织服饰-服装家纺-服装",
+      "concepts": [
+        "养老概念",
+        "参股银行",
+        "互联网金融",
+        "独角兽概念",
+        "工业互联网",
+        "机器人概念",
+        "军工",
+        "沪股通",
+        "融资融券"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "热点关注，今日操作策略与风险提示，8月20日",
+          "date": "2025-08-20",
+          "source": "https://mp.weixin.qq.com/s/G7yyyck3y_rQZ4VCBPWugA",
+          "accidents": [
+            "\\. 医药（业绩防御+政策催化）"
+          ],
+          "insights": [],
+          "key_metrics": [
+            "**2\\. 医药（业绩防御+政策催化）**"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    }
+  }
+}

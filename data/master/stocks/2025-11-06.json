@@ -1,0 +1,51 @@
+{
+  "date": "2025-11-06",
+  "update_count": 1,
+  "stocks": {
+    "301516": {
+      "name": "专注于通信电源",
+      "code": "301516",
+      "articles": [
+        {
+          "title": "301516  专注于通信电源 新能源电源和工控电源 适配5G 新能源车 CPO 充电桩 数据中心 AI 可控核聚变等多领域",
+          "date": "2025-11-06",
+          "source": "https://mp.weixin.qq.com/s/Z0YZznEGifMC3d-m7G1jag",
+          "accidents": [],
+          "insights": [
+            "公司在新能源汽车车载电源（如车载充电机、DC/DC转换器）和充电桩领域布局多年，与比亚迪、吉利等车企合作，产品覆盖从普通充电桩到大功率液冷超充技术，受益于新能源汽车市场的快速发展。"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "industry": "科技",
+      "concepts": [
+        "科技"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": []
+    }
+  }
+}

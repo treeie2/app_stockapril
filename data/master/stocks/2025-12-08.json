@@ -1,0 +1,68 @@
+{
+  "date": "2025-12-08",
+  "update_count": 1,
+  "stocks": {
+    "000002": {
+      "name": "万科A",
+      "code": "000002",
+      "board": "SZ",
+      "industry": "房地产-房地产-住宅开发",
+      "concepts": [
+        "租售同权",
+        "物业管理",
+        "超级品牌",
+        "同花顺漂亮100",
+        "养老概念",
+        "证金持股",
+        "冰雪产业",
+        "装配式建筑",
+        "体育产业",
+        "冷链物流",
+        "智能物流",
+        "粤港澳大湾区",
+        "空间计算",
+        "深股通",
+        "融资融券",
+        "机器人概念"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "上周复盘与本周展望，12月8日，星期一",
+          "date": "2025-12-08",
+          "source": "https://mp.weixin.qq.com/s/wh64cutZhgTCEhb8f-U8Bg",
+          "accidents": [
+            "短线可参与事件驱动机会（如谷歌XR发布会、理想汽车新品）"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    }
+  }
+}

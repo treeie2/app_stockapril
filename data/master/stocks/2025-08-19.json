@@ -1,0 +1,49 @@
+{
+  "date": "2025-08-19",
+  "update_count": 1,
+  "stocks": {
+    "300231": {
+      "name": "算力RWA",
+      "code": "300231",
+      "articles": [
+        {
+          "title": "300231  算力RWA 信创 数据中心 大数据 云计算 数字货币 RCS IT基础设施第三方服务商",
+          "date": "2025-08-19",
+          "source": "https://mp.weixin.qq.com/s/dfiX9GPL3MDzmFc2oBh4Dg",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "industry": "科技",
+      "concepts": [
+        "科技"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": []
+    }
+  }
+}

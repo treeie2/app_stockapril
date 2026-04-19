@@ -1,0 +1,56 @@
+{
+  "date": "2025-10-29",
+  "update_count": 1,
+  "stocks": {
+    "688783": {
+      "name": "半导体硅片",
+      "code": "688783",
+      "articles": [
+        {
+          "title": "688783  半导体硅片 存储芯片 圆晶制造 半导体材料企业",
+          "date": "2025-10-29",
+          "source": "https://mp.weixin.qq.com/s/QkR8r\\_KX53NtS\\_T3rmIS\\_Q",
+          "accidents": [
+            "公司注册地在陕西西安，是陕西省集成电路产业链“链主”企业，受益于西部地区半导体产业政策支持。"
+          ],
+          "insights": [
+            "公司注册地在陕西西安，是陕西省集成电路产业链“链主”企业，受益于西部地区半导体产业政策支持。",
+            "作为国内12英寸硅片领域的头部厂商，西安奕材在国产替代浪潮中扮演着至关重要的角色，其产品已成功导入国内一线逻辑晶圆代工厂和存储IDM厂，并已实现规模化量产。"
+          ],
+          "key_metrics": [
+            "国内第一"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "industry": "科技",
+      "concepts": [
+        "科技"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": []
+    }
+  }
+}

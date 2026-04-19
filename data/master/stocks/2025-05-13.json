@@ -1,0 +1,95 @@
+{
+  "date": "2025-05-13",
+  "update_count": 1,
+  "stocks": {
+    "688165": {
+      "name": "埃夫特",
+      "code": "688165",
+      "board": "SH",
+      "industry": "机械设备-自动化设备-机器人",
+      "concepts": [
+        "机器人",
+        "华为",
+        "减速器",
+        "人形机器人",
+        "新型工业化",
+        "机器视觉",
+        "机器人概念",
+        "新能源汽车",
+        "工业互联网",
+        "华为概念",
+        "人工智能",
+        "富士康概念",
+        "专精特新",
+        "光伏概念",
+        "氢能源",
+        "国企改革",
+        "沪股通",
+        "融资融券"
+      ],
+      "mention_count": 2,
+      "products": [
+        "设备"
+      ],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [
+        "上游-零部件",
+        "下游-设备",
+        "上游-材料"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "4月30日-今日操作策略与风险提示-文末竞价参考",
+          "date": "2025-04-30",
+          "source": "https://mp.weixin.qq.com/s/Xw7joDqZHMaQ_f90tbvTBQ",
+          "accidents": [
+            "年新签订单同比增120%"
+          ],
+          "insights": [],
+          "key_metrics": [
+            "2024年新签订单同比增120%，特斯拉上海工厂二期项目中标"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        },
+        {
+          "title": "“华为机器人概念”深度解析与操作策略",
+          "date": "2025-05-13",
+          "source": "https://mp.weixin.qq.com/s/yvjE2HlIGTle2FzGk3YnJw",
+          "accidents": [
+            "板块PE（TTM）升至45倍"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [
+            "板块PE（TTM）升至45倍"
+          ],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "article_count": 2,
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    }
+  }
+}

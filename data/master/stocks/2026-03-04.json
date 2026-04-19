@@ -1,0 +1,125 @@
+{
+  "date": "2026-03-04",
+  "update_count": 2,
+  "stocks": {
+    "600127": {
+      "name": "金健米业",
+      "code": "600127",
+      "board": "SH",
+      "mention_count": 1,
+      "industry": "农林牧渔-农产品加工-粮油加工",
+      "article_date": "2026-03-04",
+      "concepts": [
+        "玉米",
+        "粮食概念",
+        "俄乌冲突概念",
+        "乳业",
+        "预制菜",
+        "乡村振兴",
+        "国企改革",
+        "养老概念",
+        "沪股通",
+        "融资融券"
+      ],
+      "products": [
+        "优质大米",
+        "食用油"
+      ],
+      "core_business": [
+        "粮油加工销售"
+      ],
+      "industry_position": [
+        "粮油加工龙头"
+      ],
+      "chain": [
+        "中游-粮油加工"
+      ],
+      "partners": null,
+      "articles": [
+        {
+          "title": "霍尔木兹海峡被封_粮食安全下的核心公司",
+          "date": "2026-03-04",
+          "source": "https://mp.weixin.qq.com/s/zc9Favm744B4sIFR8AXrtA",
+          "accidents": [
+            "霍尔木兹海峡被封，粮食运输受影响"
+          ],
+          "insights": [
+            "受益于粮食安全需求提升"
+          ],
+          "key_metrics": [
+            "优质大米、食用油加工销售"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "300932": {
+      "name": "智能电网",
+      "code": "300932",
+      "articles": [
+        {
+          "title": "300932  智能电网 充电桩 数字孪生 光伏 国内继电器厂商领先企业",
+          "date": "2026-03-04",
+          "source": "https://mp.weixin.qq.com/s/WIMl0FF30eFNdnkcMYpezg",
+          "accidents": [
+            "6.  **智能电网概念**：为智能电表等电力设备提供继电器产品，受益于国家电网投资升级智能电网的政策推动。"
+          ],
+          "insights": [
+            "4.  **新能源汽车概念**：为新能源汽车提供高压直流继电器等产品，与比亚迪、博世等企业合作，受益于新能源汽车市场的爆发式增长。",
+            "6.  **智能电网概念**：为智能电表等电力设备提供继电器产品，受益于国家电网投资升级智能电网的政策推动。",
+            "以上概念反映了三友联众在多个新兴领域的布局和业务关联性，是其股价表现和市场关注度的重要支撑因素。"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "industry": "科技",
+      "concepts": [
+        "科技"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": []
+    }
+  }
+}

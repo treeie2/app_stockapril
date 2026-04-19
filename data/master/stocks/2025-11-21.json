@@ -1,0 +1,274 @@
+{
+  "date": "2025-11-21",
+  "update_count": 5,
+  "stocks": {
+    "002642": {
+      "name": "人工智能",
+      "code": "002642",
+      "articles": [
+        {
+          "title": "002642  人工智能 云计算 工业互联 企业服务 物联网 大数据 生命科学 专业数字化服务提供商",
+          "date": "2025-11-21",
+          "source": "https://mp.weixin.qq.com/s/djhvZkgEcHe3Q8YzlaVtgQ",
+          "accidents": [
+            "*   2025年新增“政府控股”概念，体现其在国资体系中的角色，可能涉及政策支持和资源协同。"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "industry": "制造业",
+      "concepts": [
+        "科技"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": []
+    },
+    "603636": {
+      "name": "数字政务",
+      "code": "603636",
+      "articles": [
+        {
+          "title": "603636  数字政务 智慧城市 AI应用 数据要素 华为昇腾 电子政务和智慧城市领域的软件企业",
+          "date": "2025-11-21",
+          "source": "https://mp.weixin.qq.com/s/tipq0wALNMqlpZsL179tTw",
+          "accidents": [],
+          "insights": [
+            "**风险提示**：南威软件近年业绩面临一定压力，需关注其业务转型和市场拓展进展。",
+            "投资决策需结合自身风险承受能力，建议综合多方面信息谨慎判断。"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "industry": "制造业",
+      "concepts": [
+        "制造业"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": []
+    },
+    "002978": {
+      "name": "深圳新星",
+      "code": "002978",
+      "board": "SZ",
+      "industry": "有色金属-金属新材料-其他金属新材料",
+      "concepts": [
+        "氟化工概念",
+        "PVDF概念",
+        "锂电池概念",
+        "储能",
+        "回购增持再贷款概念",
+        "一体化压铸",
+        "军工",
+        "芯片概念",
+        "核电",
+        "商业航天",
+        "融资融券"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [
+        "操作逻辑在于全球大模型竞争推动应用落地加速，算力效率提升技术突破直接利好硬件需求"
+      ],
+      "chain": [
+        "人工智能应用与算力板块受谷歌新品发布及华为技术突破催化"
+      ],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "11月21日，热点关注，今日操作策略与风险提示，文末本周1篇报告",
+          "date": "2025-11-21",
+          "source": "https://mp.weixin.qq.com/s/9GeYKBf2wbAG36H8ENYgpw",
+          "accidents": [
+            "人工智能应用与算力板块受谷歌新品发布及华为技术突破催化",
+            "操作逻辑在于全球大模型竞争推动应用落地加速"
+          ],
+          "insights": [
+            "人工智能应用与算力板块受谷歌新品发布及华为技术突破催化",
+            "操作逻辑在于全球大模型竞争推动应用落地加速"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "300614": {
+      "name": "中富电路",
+      "code": "300614",
+      "board": "SZ",
+      "industry": "电子-元件-印制电路板",
+      "concepts": [
+        "共封装光学(CPO)",
+        "PCB概念",
+        "铜缆高速连接",
+        "先进封装",
+        "5G",
+        "MiniLED",
+        "华为数字能源",
+        "毫米波雷达",
+        "汽车电子",
+        "数据中心",
+        "新能源汽车",
+        "华为概念",
+        "华为汽车",
+        "一带一路",
+        "深股通",
+        "融资融券"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "11月21日，热点关注，今日操作策略与风险提示，文末本周1篇报告",
+          "date": "2025-11-21",
+          "source": "https://mp.weixin.qq.com/s/9GeYKBf2wbAG36H8ENYgpw",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "本周一篇报告，发布时间：11月17日，星期日 ----------------------"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "003637": {
+      "name": "春光科技",
+      "code": "003637",
+      "board": "SZ",
+      "industry": "家用电器-白色家电-家电零部件",
+      "concepts": [
+        "家用电器",
+        "小米概念",
+        "机器人概念",
+        "专精特新"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "11月21日，热点关注，今日操作策略与风险提示，文末本周1篇报告",
+          "date": "2025-11-21",
+          "source": "https://mp.weixin.qq.com/s/9GeYKBf2wbAG36H8ENYgpw",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "本周一篇报告，发布时间：11月17日，星期日 ----------------------"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    }
+  }
+}

@@ -1,0 +1,317 @@
+{
+  "date": "2026-03-11",
+  "update_count": 5,
+  "stocks": {
+    "601882": {
+      "name": "海天精工",
+      "code": "601882",
+      "board": "SH",
+      "mention_count": 1,
+      "industry": "机械设备-通用设备-机床工具",
+      "article_date": "2026-03-11",
+      "concepts": [
+        "高端装备",
+        "工业母机",
+        "新型工业化",
+        "共同富裕示范区",
+        "融资融券",
+        "沪股通"
+      ],
+      "products": [
+        "高端龙门加工中心"
+      ],
+      "core_business": [
+        "机床制造"
+      ],
+      "industry_position": [
+        "高端龙门加工中心龙头"
+      ],
+      "chain": [
+        "下游-核心整机龙头"
+      ],
+      "partners": null,
+      "articles": [
+        {
+          "title": "国产机床爆单_核心公司梳理（附名单）",
+          "date": "2026-03-11",
+          "source": "https://mp.weixin.qq.com/s/aJdGuvK5_UoiXfIf5Yz0Vg",
+          "accidents": [
+            "国产机床爆单"
+          ],
+          "insights": [
+            "受益于航空航天、汽车等领域需求增长"
+          ],
+          "key_metrics": [
+            "精度与规模化优势显著"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "000410": {
+      "name": "沈阳机床",
+      "code": "000410",
+      "board": "SZ",
+      "mention_count": 1,
+      "industry": "机械设备-通用设备-机床工具",
+      "article_date": "2026-03-11",
+      "concepts": [
+        "高端装备",
+        "工业母机",
+        "央企国企改革",
+        "工业互联网",
+        "新型工业化",
+        "商业航天",
+        "国企改革",
+        "职业教育",
+        "股权转让(并购重组)",
+        "融资融券",
+        "深股通"
+      ],
+      "products": [
+        "智能数控系统",
+        "全产品线机床"
+      ],
+      "core_business": [
+        "机床制造"
+      ],
+      "industry_position": [
+        "行业传统龙头"
+      ],
+      "chain": [
+        "下游-核心整机龙头"
+      ],
+      "partners": null,
+      "articles": [
+        {
+          "title": "国产机床爆单_核心公司梳理（附名单）",
+          "date": "2026-03-11",
+          "source": "https://mp.weixin.qq.com/s/aJdGuvK5_UoiXfIf5Yz0Vg",
+          "accidents": [
+            "国产机床爆单"
+          ],
+          "insights": [
+            "受益于高端制造业发展"
+          ],
+          "key_metrics": [
+            "智能数控系统与全产品线布局深厚"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "002559": {
+      "name": "亚威股份",
+      "code": "002559",
+      "board": "SZ",
+      "mention_count": 1,
+      "industry": "机械设备-通用设备-机床工具",
+      "article_date": "2026-03-11",
+      "concepts": [
+        "OLED",
+        "工业母机",
+        "新型工业化",
+        "芯片概念",
+        "比亚迪概念",
+        "新能源汽车",
+        "存储芯片",
+        "机器视觉",
+        "机器人概念",
+        "高端装备",
+        "光刻胶",
+        "光伏概念",
+        "工业互联网",
+        "华为概念",
+        "智能物流",
+        "军工",
+        "军民融合",
+        "信创",
+        "深股通"
+      ],
+      "products": [
+        "金属成形机床",
+        "伺服压力机"
+      ],
+      "core_business": [
+        "机床制造"
+      ],
+      "industry_position": [
+        "金属成形机床龙头"
+      ],
+      "chain": [
+        "下游-核心整机龙头"
+      ],
+      "partners": null,
+      "articles": [
+        {
+          "title": "国产机床爆单_核心公司梳理（附名单）",
+          "date": "2026-03-11",
+          "source": "https://mp.weixin.qq.com/s/aJdGuvK5_UoiXfIf5Yz0Vg",
+          "accidents": [
+            "国产机床爆单"
+          ],
+          "insights": [
+            "受益于自动化升级需求"
+          ],
+          "key_metrics": [
+            "定增推进伺服压力机与自动化升级"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "603215": {
+      "name": "比依股份",
+      "code": "603215",
+      "board": "SH",
+      "industry": "家用电器-小家电-小家电Ⅲ",
+      "concepts": [
+        "家用电器-小家电-小家电Ⅲ"
+      ],
+      "products": [
+        "及AI算力解决方案提供商"
+      ],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": null,
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "国产算力芯片_概念股全梳理",
+          "date": "2026-03-11",
+          "source": "https://mp.weixin.qq.com/s/p5nB5n0NMhCZ5EnyUmvg5Q",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "603661": {
+      "name": "恒林股份",
+      "code": "603661",
+      "board": "SH",
+      "industry": "轻工制造-家居用品-成品家居",
+      "concepts": [
+        "轻工制造-家居用品-成品家居"
+      ],
+      "products": [
+        "为已量产的Compass C20人工智能芯片及其加速卡"
+      ],
+      "core_business": [
+        "GPU（通用并行处理器）芯片研发"
+      ],
+      "industry_position": [],
+      "chain": [],
+      "partners": null,
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "国产算力芯片_概念股全梳理",
+          "date": "2026-03-11",
+          "source": "https://mp.weixin.qq.com/s/p5nB5n0NMhCZ5EnyUmvg5Q",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    }
+  }
+}

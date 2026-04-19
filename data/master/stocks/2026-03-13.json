@@ -1,0 +1,315 @@
+{
+  "date": "2026-03-13",
+  "update_count": 5,
+  "stocks": {
+    "002254": {
+      "name": "泰和新材",
+      "code": "002254",
+      "board": "SZ",
+      "mention_count": 3,
+      "industry": "基础化工-化学纤维-其他纤维",
+      "article_date": "2026-01-23",
+      "concepts": [
+        "固态电池",
+        "锂电池概念",
+        "高铁",
+        "军工",
+        "无人机",
+        "军民融合",
+        "机器人概念",
+        "智能穿戴",
+        "新能源汽车",
+        "国企改革",
+        "氢能源",
+        "深股通",
+        "融资融券"
+      ],
+      "products": [
+        "防化服材料",
+        "宇航服材料"
+      ],
+      "core_business": [
+        "泰和新材上调氨纶价格"
+      ],
+      "industry_position": [
+        "操作策略是挖掘尚未被充分定价的细分行业龙头，进行短线博弈"
+      ],
+      "chain": [
+        "上游-宇航服材料"
+      ],
+      "partners": null,
+      "articles": [
+        {
+          "title": "3月12日，热点关注，今日操作策略与风险提示",
+          "date": "2026-03-12",
+          "source": "https://mp.weixin.qq.com/s/CFPjXLW6f8iOcDhC7yFy9g",
+          "accidents": [
+            "泰和新材上调氨纶价格",
+            "这反映了成本推动型涨价正在产业链内传导"
+          ],
+          "insights": [
+            "操作策略是挖掘尚未被充分定价的细分行业龙头"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        },
+        {
+          "title": "3月13日，热点关注，今日操作策略与风险提示",
+          "date": "2026-03-13",
+          "source": "https://mp.weixin.qq.com/s/l179iOjAEHaJy8SHD_ZEmg",
+          "accidents": [],
+          "insights": [
+            "可关注价格仍在上涨通道、公司是细分领域龙头的标的"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "article_count": 2,
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "601218": {
+      "name": "吉鑫科技",
+      "code": "601218",
+      "board": "SH",
+      "mention_count": 2,
+      "industry": "电力设备-风电设备-风电零部件",
+      "article_date": "2026-03-13",
+      "concepts": [
+        "风电",
+        "海工装备",
+        "绿色电力",
+        "2025年报预增",
+        "金属回收",
+        "融资融券"
+      ],
+      "products": [
+        "大型风电球墨铸铁件"
+      ],
+      "core_business": [
+        "风电铸件制造"
+      ],
+      "industry_position": [
+        "风电铸件龙头（A股第二）"
+      ],
+      "chain": [
+        "中游-零部件"
+      ],
+      "partners": null,
+      "articles": [
+        {
+          "title": "4月风电出海零关税_核心公司梳理（附名单）",
+          "date": "2026-03-13",
+          "source": "https://mp.weixin.qq.com/s/TmJLe6rwkpR3DxmJNan-Mg",
+          "accidents": [
+            "风电出海零关税政策"
+          ],
+          "insights": [
+            "受益于风电装机增长"
+          ],
+          "key_metrics": [
+            "产能：16万吨/年；海风铸件产能3GW"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "002616": {
+      "name": "绿色电力",
+      "code": "002616",
+      "articles": [
+        {
+          "title": "002616  绿色电力 生物质发电 碳交易 节能环保 中科系 生物质热电联产领域企业",
+          "date": "2026-03-13",
+          "source": "https://mp.weixin.qq.com/s/apWBX9PdCsTP3X9L2N9vGw",
+          "accidents": [
+            "通过先进的固废处理技术，实现废弃物的资源回收和能源转化，符合国家环保政策导向。",
+            "作为注册地在广东中山的企业，长青集团受益于粤港澳大湾区的政策支持和经济发展，区域内庞大的能源需求和环保需求为其业务发展提供了广阔空间。"
+          ],
+          "insights": [
+            "作为注册地在广东中山的企业，长青集团受益于粤港澳大湾区的政策支持和经济发展，区域内庞大的能源需求和环保需求为其业务发展提供了广阔空间。"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "industry": "制造业",
+      "concepts": [
+        "新能源"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": []
+    },
+    "600361": {
+      "name": "3C 消费电子",
+      "code": "600361",
+      "articles": [
+        {
+          "title": "600361  3C 消费电子 汽车轻量化 新能源 工业制造 国内铝合金行业龙头 多元布局业务发展",
+          "date": "2026-03-13",
+          "source": "https://mp.weixin.qq.com/s/UiU-Wva9218tMv6zkLaBhg",
+          "accidents": [
+            "（2）3C 铝型材：公司 3C 型材品类完善，深度绑定苹果等大客户，iPhone17 系列重回铝合金中框推动 3C 铝型材需求加速，越南工厂已投产并开拓新客户，订单可见度高。",
+            "2025年10月16日，创新新材新增“铜概念”概念，可能与公司在相关业务领域的拓展或合作有关，但具体细节需结合公司公告进一步确认。"
+          ],
+          "insights": [
+            "受益下游需求旺盛及公司在新领域的不断拓展。",
+            "（3）汽车轻量化型材：铝合金持续受益汽车轻量化趋势和国内新能源汽车景气度，公司业务聚焦防撞梁、门槛梁、电池包、热交换系统零件和车身悬架系统零件，公司参与小米汽车部件开发并量产，加工费显著提升，业务持续向好，目前已进入多家汽车和电池头部品牌供应商序列。",
+            "与苹果及工业富联等核心供应商合作紧密，有望受益于苹果AI引领的消费电子硬件创新周期。"
+          ],
+          "key_metrics": [
+            "全球第一",
+            "行业领先"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "industry": "制造业",
+      "concepts": [
+        "科技",
+        "消费"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": []
+    },
+    "603092": {
+      "name": "德力佳",
+      "code": "603092",
+      "board": "SH",
+      "industry": "电力设备-风电设备-风电零部件",
+      "concepts": [
+        "2025年报预增",
+        "注册制次新股",
+        "高端装备",
+        "风电",
+        "海工装备",
+        "独角兽概念",
+        "新疆振兴",
+        "融资融券",
+        "新股与次新股"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "3月13日，热点关注，今日操作策略与风险提示",
+          "date": "2026-03-13",
+          "source": "https://mp.weixin.qq.com/s/l179iOjAEHaJy8SHD_ZEmg",
+          "accidents": [
+            "操作上宜快进快出"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    }
+  }
+}

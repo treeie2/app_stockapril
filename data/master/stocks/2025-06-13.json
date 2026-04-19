@@ -1,0 +1,87 @@
+{
+  "date": "2025-06-13",
+  "update_count": 1,
+  "stocks": {
+    "300542": {
+      "name": "新晨科技",
+      "code": "300542",
+      "board": "SZ",
+      "industry": "计算机-软件开发-垂直应用软件",
+      "concepts": [
+        "数字货币",
+        "跨境支付(CIPS)",
+        "互联网金融",
+        "财税数字化",
+        "鸿蒙概念",
+        "数据要素",
+        "信创",
+        "华为鲲鹏",
+        "智慧城市",
+        "区块链",
+        "Web3.0",
+        "网络安全",
+        "华为欧拉",
+        "华为昇腾",
+        "云计算",
+        "军工信息化",
+        "百度概念",
+        "DeepSeek概念",
+        "低空经济",
+        "虚拟数字人",
+        "人工智能",
+        "元宇宙",
+        "军民融合",
+        "商业航天",
+        "NFT概念",
+        "军工",
+        "华为概念",
+        "同花顺新质50",
+        "数据中心",
+        "华为海思概念股",
+        "一带一路",
+        "AI应用",
+        "深股通",
+        "股权转让(并购重组)"
+      ],
+      "mention_count": 1,
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "articles": [
+        {
+          "title": "“蚂蚁金服概念”深度解析与操作策略-底部盘中参考-6月13日",
+          "date": "2025-06-13",
+          "source": "https://mp.weixin.qq.com/s/Q6oFOu8-mS37L0WIqDDK_A",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "跨境支付报文处理效率达3万笔/秒"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "article_count": 1,
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    }
+  }
+}

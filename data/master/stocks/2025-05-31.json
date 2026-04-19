@@ -1,0 +1,195 @@
+{
+  "date": "2025-05-31",
+  "update_count": 2,
+  "stocks": {
+    "000651": {
+      "name": "格力电器",
+      "code": "000651",
+      "board": "SZ",
+      "industry": "家用电器-白色家电-空调",
+      "concepts": [
+        "华为",
+        "超级品牌",
+        "预制菜",
+        "证金持股",
+        "同花顺漂亮100",
+        "净水概念",
+        "家用电器",
+        "智能物流",
+        "智能家居",
+        "空气能热泵",
+        "深股通",
+        "融资融券",
+        "一体化压铸",
+        "机器人概念",
+        "工业互联网",
+        "回购增持再贷款概念",
+        "储能",
+        "新能源汽车",
+        "工业母机",
+        "MCU芯片",
+        "芯片概念",
+        "锂电池概念",
+        "第三代半导体",
+        "液冷服务器"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 6,
+      "articles": [
+        {
+          "title": "11月17日，市场复盘及操作策略，华为概念轮动反弹",
+          "date": "2025-11-17",
+          "source": "https://mp.weixin.qq.com/s/NWoojp49-aeO-vQQ172dWQ",
+          "accidents": [],
+          "insights": [
+            "需关注银行间市场质押式回购利率走势"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        },
+        {
+          "title": "4月10日市场复盘及操作建议-文末尾盘参考",
+          "date": "2025-04-11",
+          "source": "https://mp.weixin.qq.com/s/U1hafVw1DZzAtEaWQMOw9w",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "若缩量回调至3150点以下，减仓题材股，转向防御资产（黄金、公用事业）"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        },
+        {
+          "title": "“反制”深度解析与操作策略（4月6日更新）",
+          "date": "2025-04-07",
+          "source": "https://mp.weixin.qq.com/s/_hS3itRroN9Mau4fJQFn8A",
+          "accidents": [
+            "政策驱动领域"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        },
+        {
+          "title": "“预制菜概念”深度解析与操作策略，7月3日",
+          "date": "2025-07-03",
+          "source": "https://mp.weixin.qq.com/s/JlLWi5oMHWOxanYYy8SoXw",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "* 2成仓行业ETF：分散中小型企业风险（如预制菜ETF，管理费率0.5%）"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        },
+        {
+          "title": "上周复盘及操作建议-实时更新自动回复“今日标的”",
+          "date": "2025-04-07",
+          "source": "https://mp.weixin.qq.com/s/IrfiJ_hpbPVHzj2a8vLKpA",
+          "accidents": [
+            "政策动态影响医药政策"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        },
+        {
+          "title": "本周市场复盘及下周操作策略-5月31日",
+          "date": "2025-05-31",
+          "source": "https://mp.weixin.qq.com/s/8Vn3G1myHxIuxlGQjeCXIQ",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "1. **轮动机会：高端制造+红利防御**"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "600377": {
+      "name": "宁沪高速",
+      "code": "600377",
+      "board": "SH",
+      "industry": "交通运输-公路铁路运输-高速公路",
+      "concepts": [
+        "国企改革",
+        "沪股通",
+        "融资融券"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "本周市场复盘及下周操作策略-5月31日",
+          "date": "2025-05-31",
+          "source": "https://mp.weixin.qq.com/s/8Vn3G1myHxIuxlGQjeCXIQ",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "5. **仓位执行细则**"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "date": "2025-08-10",
+  "update_count": 2,
+  "stocks": {
+    "300603": {
+      "name": "东数西算",
+      "code": "300603",
+      "articles": [
+        {
+          "title": "300603  东数西算 云计算 算力租赁 智慧城市 大规模的数据中心运营商 领先的安防系统服务商和以视频为核心的解决方案提供商",
+          "date": "2026-03-08",
+          "source": "https://mp.weixin.qq.com/s/DBIp1fpyX2kLyVpi6\\_UQGQ",
+          "accidents": [
+            "**除此之外立昂技术公司积极响应国家“东数西算”的政策，建设了立昂云数据（成都简阳）一号基地一期，实施地点为天府数据中心集群起步区简阳市，符合国家“东数西算”工程的总体战略布局。"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        },
+        {
+          "title": "300603  东数西算 云计算 算力租赁 智慧城市 数据中心运营商 领先的安防系统服务商和以视频为核心的解决方案提供商",
+          "date": "2025-08-10",
+          "source": "https://mp.weixin.qq.com/s/VgAo9Ljz2x0pKYPBHd-9DQ",
+          "accidents": [
+            "**除此之外立昂技术公司积极响应国家“东数西算”的政策，建设了立昂云数据（成都简阳）一号基地一期，实施地点为天府数据中心集群起步区简阳市，符合国家“东数西算”工程的总体战略布局。"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "industry": "科技",
+      "concepts": [
+        "科技"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": []
+    },
+    "518880": {
+      "name": "黄金ETF",
+      "code": "518880",
+      "board": "SZ",
+      "industry": "其他-其他-其他",
+      "concepts": [
+        "其他-其他-其他"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "本周市场复盘及下周操作策略，附报告回测，8月10日，星期日",
+          "date": "2025-08-10",
+          "source": "https://mp.weixin.qq.com/s/nepWrxLAi5vwTT0eVJ0SQg",
+          "accidents": [
+            "周内关键事件应对"
+          ],
+          "insights": [],
+          "key_metrics": [
+            "4. **周内关键事件应对**"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "date": "2025-09-12",
+  "update_count": 1,
+  "stocks": {
+    "300543": {
+      "name": "机器人",
+      "code": "300543",
+      "articles": [
+        {
+          "title": "300543  机器人 智能家居 储能 智能控制器 汽车电子 电子智能控制器龙头",
+          "date": "2025-09-12",
+          "source": "https://mp.weixin.qq.com/s/qkNg59CZlPCQaMbaBX8wsA",
+          "accidents": [],
+          "insights": [
+            "5.  **外贸受益概念**",
+            "公司始终坚持以市场为导向、以技术为核心、以品质为根本的战略思维和重结果更关注过程的控制系统，得到广大客户认可，公司业绩亦持续多年稳步增长。"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "industry": "科技",
+      "concepts": [
+        "科技"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": []
+    }
+  }
+}

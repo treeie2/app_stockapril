@@ -1,0 +1,2233 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个股研究数据库 - 仪表板</title>
+    <meta name="description" content="AI 驱动的个股研究平台，聚合个股深度研究与投资洞察">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #080c14;
+            --bg-card: #0f1623;
+            --bg-row-hover: #131d2e;
+            --border: rgba(99,179,237,0.1);
+            --border-h: rgba(99,179,237,0.3);
+            --cyan: #06b6d4;
+            --blue: #3b82f6;
+            --green: #10b981;
+            --rose: #f43f5e;
+            --amber: #f59e0b;
+            --purple: #8b5cf6;
+            --t1: #e2e8f0;
+            --t2: #94a3b8;
+            --t3: #4b5563;
+            --mono: 'JetBrains Mono', monospace;
+            --r: 8px;
+        }
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg);
+            color: var(--t1);
+            min-height: 100vh;
+        }
+        body::before {
+            content:'';
+            position:fixed;
+            inset:0;
+            z-index:0;
+            pointer-events:none;
+            background:
+                radial-gradient(ellipse 80% 40% at 15% 0%, rgba(59,130,246,.06) 0%, transparent 60%),
+                radial-gradient(ellipse 50% 30% at 85% 80%, rgba(6,182,212,.04) 0%, transparent 50%);
+        }
+        /* ─── Navbar ─── */
+        .nav {
+            position:sticky;
+            top:0;
+            z-index:100;
+            background:rgba(8,12,20,.9);
+            backdrop-filter:blur(20px);
+            border-bottom:1px solid var(--border);
+            display:flex;
+            align-items:center;
+            gap:.5rem;
+            height:56px;
+            padding:0 1.5rem;
+        }
+        .nav-brand {
+            font-weight:700;
+            font-size:.9rem;
+            letter-spacing:.12em;
+            color:var(--cyan);
+            text-decoration:none;
+            display:flex;
+            align-items:center;
+            gap:.45rem;
+            margin-right:.75rem;
+        }
+        .nav-brand svg { width:17px; height:17px; }
+        .nav-link {
+            padding:.3rem .75rem;
+            border-radius:6px;
+            color:var(--t2);
+            text-decoration:none;
+            font-size:.78rem;
+            font-weight:500;
+            transition:all .18s;
+        }
+        .nav-link:hover, .nav-link.active {
+            color:var(--t1);
+            background:rgba(255,255,255,.05);
+        }
+        .nav-link.active { color:var(--cyan); }
+        /* search */
+        .search-wrap {
+            position:relative;
+            margin-left:auto;
+            width:200px;
+        }
+        .search-wrap input {
+            width:100%;
+            padding:.35rem .7rem .35rem 2rem;
+            background:rgba(255,255,255,.04);
+            border:1px solid var(--border);
+            border-radius:20px;
+            color:var(--t1);
+            font-size:.76rem;
+            font-family:inherit;
+            outline:none;
+            transition:all .2s;
+        }
+        .search-wrap input:focus {
+            border-color:var(--blue);
+            background:rgba(59,130,246,.06);
+        }
+        .search-wrap .si {
+            position:absolute;
+            left:.6rem;
+            top:50%;
+            transform:translateY(-50%);
+            color:var(--t3);
+            pointer-events:none;
+        }
+        .search-sug {
+            display:none;
+            position:absolute;
+            top:calc(100% + 5px);
+            left:0;
+            right:0;
+            background:var(--bg-card);
+            border:1px solid var(--border);
+            border-radius:var(--r);
+            box-shadow:0 8px 28px rgba(0,0,0,.4);
+            z-index:999;
+            overflow:hidden;
+        }
+        .search-sug.on { display:block; }
+        .sug-item {
+            padding:.5rem .8rem;
+            display:flex;
+            justify-content:space-between;
+            cursor:pointer;
+            font-size:.76rem;
+            transition:background .12s;
+        }
+        .sug-item:hover { background:rgba(59,130,246,.1); }
+        .sug-code {
+            color:var(--t3);
+            font-family:var(--mono);
+            font-size:.68rem;
+        }
+        /* ─── Container ─── */
+        .wrap {
+            max-width:1300px;
+            margin:0 auto;
+            padding:1.75rem 1.5rem 4rem;
+            position:relative;
+            z-index:1;
+        }
+        /* ─── Header row ─── */
+        .page-hd {
+            display:flex;
+            align-items:flex-end;
+            justify-content:space-between;
+            margin-bottom:1.4rem;
+            flex-wrap:wrap;
+            gap:1rem;
+        }
+        .page-title {
+            font-size:1.3rem;
+            font-weight:700;
+        }
+        .page-sub {
+            font-size:.75rem;
+            color:var(--t3);
+            margin-top:.2rem;
+        }
+        /* ─── Full-text Search ─── */
+        .fulltext-search-wrap {
+            width:100%;
+            max-width:600px;
+            margin:0 auto 1.5rem;
+            position:relative;
+        }
+        .fulltext-search-input {
+            width:100%;
+            padding:.75rem 1rem .75rem 2.8rem;
+            background:rgba(255,255,255,.04);
+            border:1px solid var(--border);
+            border-radius:30px;
+            color:var(--t1);
+            font-size:.9rem;
+            font-family:inherit;
+            outline:none;
+            transition:all .2s;
+        }
+        .fulltext-search-input:focus {
+            border-color:var(--blue);
+            background:rgba(59,130,246,.08);
+            box-shadow:0 0 20px rgba(59,130,246,.15);
+        }
+        .fulltext-search-input::placeholder {
+            color:var(--t3);
+        }
+        .fulltext-search-icon {
+            position:absolute;
+            left:1rem;
+            top:50%;
+            transform:translateY(-50%);
+            color:var(--t3);
+            pointer-events:none;
+        }
+        .fulltext-search-btn {
+            position:absolute;
+            right:.4rem;
+            top:50%;
+            transform:translateY(-50%);
+            background:linear-gradient(135deg,var(--blue),var(--cyan));
+            border:none;
+            color:#fff;
+            padding:.5rem 1.2rem;
+            border-radius:20px;
+            font-size:.8rem;
+            font-weight:600;
+            cursor:pointer;
+            transition:all .2s;
+        }
+        .fulltext-search-btn:hover {
+            transform:translateY(-50%) scale(1.05);
+            box-shadow:0 4px 12px rgba(59,130,246,.4);
+        }
+        .fulltext-search-results {
+            background:var(--bg-card);
+            border:1px solid var(--border);
+            border-radius:12px;
+            margin-top:1rem;
+            overflow:hidden;
+            display:none;
+        }
+        .fulltext-search-results.on {
+            display:block;
+        }
+        .search-result-item {
+            padding:1rem 1.2rem;
+            border-bottom:1px solid var(--border);
+            cursor:pointer;
+            transition:background .15s;
+        }
+        .search-result-item:hover {
+            background:rgba(59,130,246,.08);
+        }
+        .search-result-item:last-child {
+            border-bottom:none;
+        }
+        .search-result-title {
+            font-weight:600;
+            color:var(--t1);
+            margin-bottom:.3rem;
+            display:flex;
+            align-items:center;
+            gap:.5rem;
+        }
+        .search-result-code {
+            font-family:var(--mono);
+            font-size:.75rem;
+            color:var(--cyan);
+            background:rgba(6,182,212,.15);
+            padding:.15rem .4rem;
+            border-radius:4px;
+        }
+        .search-result-snippet {
+            font-size:.8rem;
+            color:var(--t2);
+            line-height:1.5;
+            display:-webkit-box;
+            -webkit-line-clamp:2;
+            -webkit-box-orient:vertical;
+            overflow:hidden;
+        }
+        .search-result-meta {
+            font-size:.7rem;
+            color:var(--t3);
+            margin-top:.4rem;
+            display:flex;
+            gap:1rem;
+        }
+        .search-highlight {
+            background:rgba(245,158,11,.3);
+            color:var(--amber);
+            padding:0 2px;
+            border-radius:2px;
+        }
+        .search-no-results {
+            padding:2rem;
+            text-align:center;
+            color:var(--t3);
+        }
+        .stat-row {
+            display:flex;
+            gap:.75rem;
+            flex-wrap:wrap;
+        }
+        .stat-chip {
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+            padding:.5rem 1rem;
+            background:rgba(255,255,255,.03);
+            border:1px solid var(--border);
+            border-radius:var(--r);
+        }
+        .stat-num {
+            font-size:1.25rem;
+            font-weight:700;
+            font-family:var(--mono);
+            color:var(--cyan);
+        }
+        .stat-lbl {
+            font-size:.63rem;
+            color:var(--t3);
+            margin-top:.1rem;
+            letter-spacing:.04em;
+        }
+        /* ─── Toolbar ─── */
+        .toolbar {
+            display:flex;
+            align-items:center;
+            gap:.6rem;
+            margin-bottom:1rem;
+            flex-wrap:wrap;
+        }
+        .filter-lbl {
+            font-size:.72rem;
+            color:var(--t3);
+        }
+        .fbtn {
+            padding:.26rem .75rem;
+            border:1px solid var(--border);
+            border-radius:20px;
+            background:transparent;
+            color:var(--t2);
+            font-size:.72rem;
+            font-weight:500;
+            cursor:pointer;
+            transition:all .18s;
+            font-family:inherit;
+        }
+        .fbtn:hover {
+            border-color:var(--blue);
+            color:var(--t1);
+            background:rgba(59,130,246,.08);
+        }
+        .fbtn.active {
+            background:var(--blue);
+            border-color:var(--blue);
+            color:#fff;
+        }
+        .refresh-btn {
+            margin-left:0.5rem;
+            background:rgba(16,185,129,0.08);
+            border-color:rgba(16,185,129,0.3);
+            color:#10b981;
+            display:inline-flex;
+            align-items:center;
+            gap:0.35rem;
+        }
+        .refresh-btn:hover {
+            background:rgba(16,185,129,0.15);
+            border-color:#10b981;
+            color:#065f46;
+        }
+        .refresh-btn.refreshing {
+            animation:spin 1s linear infinite;
+            background:rgba(16,185,129,0.15);
+        }
+        .refresh-btn.refreshing .btn-icon {
+            animation:spin 1s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform:rotate(0deg); }
+            100% { transform:rotate(360deg); }
+        }
+        .refresh-status {
+            margin-left:0.75rem;
+            font-size:0.75rem;
+            color:var(--accent-green);
+            font-weight:500;
+        }
+        .load-more-wrap {
+            padding:1.5rem;
+            text-align:center;
+            background:rgba(255,255,255,0.02);
+            border-top:1px solid var(--border);
+        }
+        .load-more-btn {
+            background:linear-gradient(135deg,#8b5cf6,#7c3aed);
+            color:#fff;
+            border:none;
+            padding:0.75rem 2rem;
+            border-radius:8px;
+            font-size:0.9rem;
+            font-weight:600;
+            cursor:pointer;
+            transition:all 0.2s;
+            box-shadow:0 2px 8px rgba(139,92,246,0.3);
+        }
+        .load-more-btn:hover {
+            transform:translateY(-2px);
+            box-shadow:0 4px 12px rgba(139,92,246,0.4);
+        }
+        .load-more-btn:active {
+            transform:translateY(0);
+        }
+        .load-more-btn.loading {
+            opacity:0.7;
+            cursor:not-allowed;
+        }
+        .load-more-btn.loading::before {
+            content:'';
+            display:inline-block;
+            width:16px;
+            height:16px;
+            border:2px solid rgba(255,255,255,0.3);
+            border-top-color:#fff;
+            border-radius:50%;
+            animation:spin 0.8s linear infinite;
+            margin-right:0.5rem;
+            vertical-align:middle;
+        }
+        .sort-sel {
+            margin-left:auto;
+            background:rgba(255,255,255,.04);
+            border:1px solid var(--border);
+            border-radius:6px;
+            padding:.28rem .65rem;
+            color:var(--t2);
+            font-size:.72rem;
+            font-family:inherit;
+            cursor:pointer;
+            outline:none;
+        }
+        .sort-sel:focus { border-color:var(--blue); }
+        /* ─── Table ─── */
+        .tbl-wrap {
+            background:var(--bg-card);
+            border:1px solid var(--border);
+            border-radius:12px;
+            overflow:hidden;
+        }
+        table { width:100%; border-collapse:collapse; }
+        thead th {
+            padding:.65rem 1rem .65rem 1rem;
+            font-size:.65rem;
+            font-weight:700;
+            letter-spacing:.08em;
+            text-transform:uppercase;
+            color:var(--t3);
+            text-align:left;
+            border-bottom:1px solid var(--border);
+            white-space:nowrap;
+            cursor:pointer;
+            user-select:none;
+            transition:color .15s;
+        }
+        thead th:hover { color:var(--t2); }
+        thead th.num, tbody td.num { text-align:right; }
+        thead th .sort-ico {
+            opacity:.4;
+            margin-left:.3rem;
+            font-size:.6rem;
+        }
+        thead th.sorted { color:var(--cyan); }
+        thead th.sorted .sort-ico { opacity:1; }
+        tbody tr {
+            border-bottom:1px solid var(--border);
+            transition:background .15s;
+            cursor:pointer;
+        }
+        tbody tr:last-child { border-bottom:none; }
+        tbody tr:hover { background:var(--bg-row-hover); }
+        tbody td {
+            padding:.75rem 1rem;
+            font-size:.8rem;
+            color:var(--t2);
+            white-space:nowrap;
+            vertical-align:middle;
+        }
+        /* col styles */
+        .col-rank {
+            width:36px;
+            color:var(--t3);
+            font-size:.7rem;
+            text-align:center;
+        }
+        .col-name {
+            color:var(--t1);
+            font-weight:600;
+        }
+        .col-code {
+            font-family:var(--mono);
+            font-size:.7rem;
+            color:var(--cyan);
+        }
+        .col-price {
+            font-family:var(--mono);
+            font-weight:600;
+            font-size:.85rem;
+        }
+        .market-refresh {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: linear-gradient(135deg, rgba(139,92,246,.1), rgba(139,92,246,.05));
+            border: 1px solid rgba(139,92,246,.3);
+            border-radius: 6px;
+            padding: 4px 10px;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-size: 0.75rem;
+            color: #a78bfa;
+            margin-left: 8px;
+        }
+        .market-refresh:hover {
+            background: rgba(139,92,246,.15);
+            border-color: rgba(139,92,246,.5);
+        }
+        .market-refresh .icon {
+            font-size: 0.9rem;
+            transition: transform 0.3s;
+        }
+        .market-refresh.refreshing .icon {
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+        .col-chg {
+            font-family:var(--mono);
+            font-weight:600;
+            font-size:.82rem;
+        }
+        .col-cap {
+            font-family:var(--mono);
+            font-size:.78rem;
+        }
+        .up { color:var(--rose); }
+        .down { color:var(--green); }
+        .flat { color:var(--t2); }
+        /* board badge */
+        .board-b {
+            display:inline-block;
+            font-size:.6rem;
+            font-weight:600;
+            padding:.1rem .45rem;
+            border-radius:4px;
+            background:rgba(139,92,246,.12);
+            border:1px solid rgba(139,92,246,.25);
+            color:#a78bfa;
+        }
+        /* concept tags */
+        .tags {
+            display:flex;
+            gap:.3rem;
+            flex-wrap:wrap;
+            max-width:260px;
+        }
+        .tag {
+            font-size:.62rem;
+            padding:.1rem .45rem;
+            border-radius:20px;
+            font-weight:500;
+            white-space:nowrap;
+        }
+        .t0 { background:rgba(59,130,246,.12); border:1px solid rgba(59,130,246,.28); color:#93c5fd; }
+        .t1 { background:rgba(6,182,212,.12); border:1px solid rgba(6,182,212,.28); color:#67e8f9; }
+        .t2 { background:rgba(16,185,129,.12); border:1px solid rgba(16,185,129,.28); color:#6ee7b7; }
+        .t3c { background:rgba(245,158,11,.12); border:1px solid rgba(245,158,11,.28); color:#fcd34d; }
+        .t4 { background:rgba(244,63,94,.12); border:1px solid rgba(244,63,94,.28); color:#fda4af; }
+        .t5 { background:rgba(139,92,246,.12); border:1px solid rgba(139,92,246,.28); color:#c4b5fd; }
+        /* mention */
+        .mention-b {
+            display:inline-flex;
+            align-items:center;
+            gap:.2rem;
+            background:rgba(245,158,11,.1);
+            border:1px solid rgba(245,158,11,.22);
+            color:var(--amber);
+            border-radius:20px;
+            padding:.12rem .5rem;
+            font-size:.65rem;
+            font-weight:600;
+        }
+        /* articles count */
+        .art-b {
+            display:inline-flex;
+            align-items:center;
+            gap:.2rem;
+            background:rgba(6,182,212,.08);
+            border:1px solid rgba(6,182,212,.2);
+            color:var(--cyan);
+            border-radius:20px;
+            padding:.12rem .5rem;
+            font-size:.65rem;
+        }
+        /* loading state */
+        .loading-price {
+            color:var(--t3);
+            font-size:.72rem;
+            font-style:italic;
+        }
+        /* empty row */
+        .empty-row td {
+            text-align:center;
+            padding:3rem;
+            color:var(--t3);
+            font-style:italic;
+        }
+        /* ─── footer ─── */
+        .footer {
+            text-align:center;
+            padding:1.75rem;
+            font-size:.7rem;
+            color:var(--t3);
+            border-top:1px solid var(--border);
+            position:relative;
+            z-index:1;
+        }
+        /* responsive */
+        @media(max-width:900px){
+            .col-cap,.col-articles { display:none; }
+            .search-wrap { width:150px; }
+        }
+        @media(max-width:640px){
+            .col-mention,.col-industry { display:none; }
+            .wrap { padding:1rem .75rem 3rem; }
+            thead th, tbody td { padding:.6rem .7rem; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="nav">
+        <a href="/" class="nav-brand">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="22 12 18 12 15 21 9 3 6 12"/>
+            </svg>
+            CYBERRESEARCH
+        </a>
+        <a href="/" class="nav-link active">仪表板</a>
+        <a href="/stocks" class="nav-link">股票列表</a>
+        <a href="/social-security-new" class="nav-link">社保新进</a>
+        <a href="/concepts" class="nav-link">概念大全</a>
+        <a href="/import" class="nav-link" style="color:var(--amber);">📥 导入数据</a>
+        <div class="search-wrap">
+            <svg class="si" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+            </svg>
+            <input id="searchInput" type="text" placeholder="搜索股票…" autocomplete="off">
+            <div class="search-sug" id="searchSug"></div>
+        </div>
+    </nav>
+    
+    <div class="wrap">
+        <!-- Header -->
+        <div class="page-hd">
+            <div>
+                <div class="page-title">📊 智能投研仪表板</div>
+                <div class="page-sub">实时追踪 · AI 洞察 · 个股深度研究</div>
+            </div>
+        </div>
+        
+        <!-- Full-text Search -->
+        <div class="fulltext-search-wrap">
+            <svg class="fulltext-search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+            </svg>
+            <input type="text" id="fulltextSearchInput" class="fulltext-search-input" placeholder="全文搜索：输入关键词搜索文章标题、摘要、分析内容..." autocomplete="off">
+            <button class="fulltext-search-btn" onclick="performFulltextSearch()">搜索</button>
+        </div>
+        <div id="fulltextSearchResults" class="fulltext-search-results"></div>
+        
+        <!-- Toolbar -->
+        <div class="toolbar">
+            <span class="filter-lbl">概念数</span>
+            <button class="fbtn active" data-concepts="all">全部</button>
+            <button class="fbtn" data-concepts="10+">10+ 概念</button>
+            <button class="fbtn" data-concepts="20+">20+ 概念</button>
+            <button class="fbtn" data-concepts="30+">30+ 概念</button>
+            <button class="fbtn refresh-btn" id="refreshBtn" title="刷新股价" onclick="refreshMarket()">
+                <span class="btn-icon">🔄</span>
+                <span class="btn-text">刷新股价</span>
+            </button>
+            <span class="refresh-status" id="refreshStatus"></span>
+            <select class="sort-sel" id="sortSel">
+                <option value="date">按日期</option>
+                <option value="mention">按热度</option>
+                <option value="chg_up">涨幅 ↑</option>
+                <option value="chg_down">跌幅 ↑</option>
+                <option value="articles">按文章数</option>
+                <option value="name">名称</option>
+            </select>
+        </div>
+        
+        <!-- Table -->
+        <div class="tbl-wrap">
+            <table id="stockTable">
+                <thead>
+                    <tr>
+                        <th style="width:36px;text-align:center;">#</th>
+                        <th>股票</th>
+                        <th>行业</th>
+                        <th class="col-concepts">概念</th>
+                        <th class="num" style="min-width:80px;">最新价</th>
+                        <th class="num" style="min-width:80px;">涨跌幅</th>
+                        <th class="num col-cap" style="min-width:76px;">总市值</th>
+                        <th class="num col-mention" style="min-width:60px;">提及</th>
+                        <th class="num col-articles" style="min-width:60px;">文章</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+                    
+                    <tr data-code="603019" 
+                        data-concepts="36" 
+                        data-mention="21" 
+                        data-articles="14" 
+                        data-name="中科曙光" 
+                        data-latest-date=""
+                        data-chg="0" 
+                        onclick="window.location='/stock/603019'">
+                        <td class="col-rank">1</td>
+                        <td>
+                            <div class="col-name">中科曙光</div>
+                            <div class="col-code">603019</div>
+                        </td>
+                        <td class="col-industry" style="color:var(--t2);font-size:.72rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">
+                            计算机-计算机设备-其他计算机设备
+                        </td>
+                        <td class="col-concepts">
+                            
+                            <div class="tags">
+                                
+                                <span class="tag t0" onclick="event.stopPropagation();window.location='/concept/%E7%94%B5%E6%B1%A0'">电池</span>
+                                
+                                <span class="tag t1" onclick="event.stopPropagation();window.location='/concept/%E9%94%82%E7%94%B5'">锂电</span>
+                                
+                                <span class="tag t2" onclick="event.stopPropagation();window.location='/concept/%E7%AE%97%E5%8A%9B'">算力</span>
+                                
+                                <span class="tag t5">+33</span>
+                            </div>
+                            
+                        </td>
+                        <td class="num col-price" id="p-603019">
+                            <span class="loading-price">—</span>
+                        </td>
+                        <td class="num col-chg" id="c-603019">
+                            <span class="loading-price">—</span>
+                        </td>
+                        <td class="num col-cap" id="mc-603019">
+                            <span style="color:var(--t3)">—</span>
+                        </td>
+                        <td class="num col-mention">
+                            
+                            <span class="mention-b">🔥 21</span>
+                            
+                        </td>
+                        <td class="num col-articles">
+                            
+                            <span class="art-b">📰 14</span>
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr data-code="301085" 
+                        data-concepts="22" 
+                        data-mention="16" 
+                        data-articles="1" 
+                        data-name="亚康股份" 
+                        data-latest-date=""
+                        data-chg="0" 
+                        onclick="window.location='/stock/301085'">
+                        <td class="col-rank">2</td>
+                        <td>
+                            <div class="col-name">亚康股份</div>
+                            <div class="col-code">301085</div>
+                        </td>
+                        <td class="col-industry" style="color:var(--t2);font-size:.72rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">
+                            计算机-IT服务-IT服务Ⅲ
+                        </td>
+                        <td class="col-concepts">
+                            
+                            <div class="tags">
+                                
+                                <span class="tag t0" onclick="event.stopPropagation();window.location='/concept/%E5%BF%AB%E6%89%8B%E6%A6%82%E5%BF%B5'">快手概念</span>
+                                
+                                <span class="tag t1" onclick="event.stopPropagation();window.location='/concept/%E7%AE%97%E5%8A%9B%E7%A7%9F%E8%B5%81'">算力租赁</span>
+                                
+                                <span class="tag t2" onclick="event.stopPropagation();window.location='/concept/%E5%B0%8F%E7%BA%A2%E4%B9%A6%E6%A6%82%E5%BF%B5'">小红书概念</span>
+                                
+                                <span class="tag t5">+19</span>
+                            </div>
+                            
+                        </td>
+                        <td class="num col-price" id="p-301085">
+                            <span class="loading-price">—</span>
+                        </td>
+                        <td class="num col-chg" id="c-301085">
+                            <span class="loading-price">—</span>
+                        </td>
+                        <td class="num col-cap" id="mc-301085">
+                            <span style="color:var(--t3)">—</span>
+                        </td>
+                        <td class="num col-mention">
+                            
+                            <span class="mention-b">🔥 16</span>
+                            
+                        </td>
+                        <td class="num col-articles">
+                            
+                            <span class="art-b">📰 1</span>
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr data-code="688041" 
+                        data-concepts="13" 
+                        data-mention="15" 
+                        data-articles="6" 
+                        data-name="海光信息" 
+                        data-latest-date=""
+                        data-chg="0" 
+                        onclick="window.location='/stock/688041'">
+                        <td class="col-rank">3</td>
+                        <td>
+                            <div class="col-name">海光信息</div>
+                            <div class="col-code">688041</div>
+                        </td>
+                        <td class="col-industry" style="color:var(--t2);font-size:.72rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">
+                            电子-半导体-数字芯片设计
+                        </td>
+                        <td class="col-concepts">
+                            
+                            <div class="tags">
+                                
+                                <span class="tag t0" onclick="event.stopPropagation();window.location='/concept/%E4%B8%AD%E5%9B%BDAI%2050'">中国AI 50</span>
+                                
+                                <span class="tag t1" onclick="event.stopPropagation();window.location='/concept/%E4%B8%9C%E6%95%B0%E8%A5%BF%E7%AE%97%28%E7%AE%97%E5%8A%9B%29'">东数西算(算力)</span>
+                                
+                                <span class="tag t2" onclick="event.stopPropagation();window.location='/concept/%E8%8A%AF%E7%89%87%E6%A6%82%E5%BF%B5'">芯片概念</span>
+                                
+                                <span class="tag t5">+10</span>
+                            </div>
+                            
+                        </td>
+                        <td class="num col-price" id="p-688041">
+                            <span class="loading-price">—</span>
+                        </td>
+                        <td class="num col-chg" id="c-688041">
+                            <span class="loading-price">—</span>
+                        </td>
+                        <td class="num col-cap" id="mc-688041">
+                            <span style="color:var(--t3)">—</span>
+                        </td>
+                        <td class="num col-mention">
+                            
+                            <span class="mention-b">🔥 15</span>
+                            
+                        </td>
+                        <td class="num col-articles">
+                            
+                            <span class="art-b">📰 6</span>
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr data-code="300308" 
+                        data-concepts="15" 
+                        data-mention="15" 
+                        data-articles="2" 
+                        data-name="中际旭创" 
+                        data-latest-date=""
+                        data-chg="0" 
+                        onclick="window.location='/stock/300308'">
+                        <td class="col-rank">4</td>
+                        <td>
+                            <div class="col-name">中际旭创</div>
+                            <div class="col-code">300308</div>
+                        </td>
+                        <td class="col-industry" style="color:var(--t2);font-size:.72rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">
+                            通信-通信设备-通信网络设备及器件
+                        </td>
+                        <td class="col-concepts">
+                            
+                            <div class="tags">
+                                
+                                <span class="tag t0" onclick="event.stopPropagation();window.location='/concept/%E5%85%B1%E5%B0%81%E8%A3%85%E5%85%89%E5%AD%A6%28CPO%29'">共封装光学(CPO)</span>
+                                
+                                <span class="tag t1" onclick="event.stopPropagation();window.location='/concept/F5G%E6%A6%82%E5%BF%B5'">F5G概念</span>
+                                
+                                <span class="tag t2" onclick="event.stopPropagation();window.location='/concept/%E6%B6%B2%E5%86%B7%E6%9C%8D%E5%8A%A1%E5%99%A8'">液冷服务器</span>
+                                
+                                <span class="tag t5">+12</span>
+                            </div>
+                            
+                        </td>
+                        <td class="num col-price" id="p-300308">
+                            <span class="loading-price">—</span>
+                        </td>
+                        <td class="num col-chg" id="c-300308">
+                            <span class="loading-price">—</span>
+                        </td>
+                        <td class="num col-cap" id="mc-300308">
+                            <span style="color:var(--t3)">—</span>
+                        </td>
+                        <td class="num col-mention">
+                            
+                            <span class="mention-b">🔥 15</span>
+                            
+                        </td>
+                        <td class="num col-articles">
+                            
+                            <span class="art-b">📰 2</span>
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr data-code="002230" 
+                        data-concepts="48" 
+                        data-mention="14" 
+                        data-articles="6" 
+                        data-name="科大讯飞" 
+                        data-latest-date=""
+                        data-chg="0" 
+                        onclick="window.location='/stock/002230'">
+                        <td class="col-rank">5</td>
+                        <td>
+                            <div class="col-name">科大讯飞</div>
+                            <div class="col-code">002230</div>
+                        </td>
+                        <td class="col-industry" style="color:var(--t2);font-size:.72rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">
+                            计算机-软件开发-横向通用软件
+                        </td>
+                        <td class="col-concepts">
+                            
+                            <div class="tags">
+                                
+                                <span class="tag t0" onclick="event.stopPropagation();window.location='/concept/AI'">AI</span>
+                                
+                                <span class="tag t1" onclick="event.stopPropagation();window.location='/concept/%E7%AE%97%E5%8A%9B'">算力</span>
+                                
+                                <span class="tag t2" onclick="event.stopPropagation();window.location='/concept/AI%E8%AF%AD%E6%96%99'">AI语料</span>
+                                
+                                <span class="tag t5">+45</span>
+                            </div>
+                            
+                        </td>
+                        <td class="num col-price" id="p-002230">
+                            <span class="loading-price">—</span>
+                        </td>
+                        <td class="num col-chg" id="c-002230">
+                            <span class="loading-price">—</span>
+                        </td>
+                        <td class="num col-cap" id="mc-002230">
+                            <span style="color:var(--t3)">—</span>
+                        </td>
+                        <td class="num col-mention">
+                            
+                            <span class="mention-b">🔥 14</span>
+                            
+                        </td>
+                        <td class="num col-articles">
+                            
+                            <span class="art-b">📰 6</span>
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr data-code="688256" 
+                        data-concepts="14" 
+                        data-mention="12" 
+                        data-articles="7" 
+                        data-name="寒武纪" 
+                        data-latest-date=""
+                        data-chg="0" 
+                        onclick="window.location='/stock/688256'">
+                        <td class="col-rank">6</td>
+                        <td>
+                            <div class="col-name">寒武纪</div>
+                            <div class="col-code">688256</div>
+                        </td>
+                        <td class="col-industry" style="color:var(--t2);font-size:.72rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">
+                            电子-半导体-数字芯片设计
+                        </td>
+                        <td class="col-concepts">
+                            
+                            <div class="tags">
+                                
+                                <span class="tag t0" onclick="event.stopPropagation();window.location='/concept/%E7%94%B5%E6%B1%A0'">电池</span>
+                                
+                                <span class="tag t1" onclick="event.stopPropagation();window.location='/concept/%E9%94%82%E7%94%B5'">锂电</span>
+                                
+                                <span class="tag t2" onclick="event.stopPropagation();window.location='/concept/%E4%B8%AD%E5%9B%BDAI%2050'">中国AI 50</span>
+                                
+                                <span class="tag t5">+11</span>
+                            </div>
+                            
+                        </td>
+                        <td class="num col-price" id="p-688256">
+                            <span class="loading-price">—</span>
+                        </td>
+                        <td class="num col-chg" id="c-688256">
+                            <span class="loading-price">—</span>
+                        </td>
+                        <td class="num col-cap" id="mc-688256">
+                            <span style="color:var(--t3)">—</span>
+                        </td>
+                        <td class="num col-mention">
+                            
+                            <span class="mention-b">🔥 12</span>
+                            
+                        </td>
+                        <td class="num col-articles">
+                            
+                            <span class="art-b">📰 7</span>
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr data-code="600879" 
+                        data-concepts="20" 
+                        data-mention="12" 
+                        data-articles="1" 
+                        data-name="航天电子" 
+                        data-latest-date=""
+                        data-chg="0" 
+                        onclick="window.location='/stock/600879'">
+                        <td class="col-rank">7</td>
+                        <td>
+                            <div class="col-name">航天电子</div>
+                            <div class="col-code">600879</div>
+                        </td>
+                        <td class="col-industry" style="color:var(--t2);font-size:.72rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">
+                            国防军工-军工装备-航天装备
+                        </td>
+                        <td class="col-concepts">
+                            
+                            <div class="tags">
+                                
+                                <span class="tag t0" onclick="event.stopPropagation();window.location='/concept/%E5%86%9B%E5%B7%A5%E4%BF%A1%E6%81%AF%E5%8C%96'">军工信息化</span>
+                                
+                                <span class="tag t1" onclick="event.stopPropagation();window.location='/concept/%E5%A4%AA%E8%B5%AB%E5%85%B9'">太赫兹</span>
+                                
+                                <span class="tag t2" onclick="event.stopPropagation();window.location='/concept/%E5%95%86%E4%B8%9A%E8%88%AA%E5%A4%A9'">商业航天</span>
+                                
+                                <span class="tag t5">+17</span>
+                            </div>
+                            
+                        </td>
+                        <td class="num col-price" id="p-600879">
+                            <span class="loading-price">—</span>
+                        </td>
+                        <td class="num col-chg" id="c-600879">
+                            <span class="loading-price">—</span>
+                        </td>
+                        <td class="num col-cap" id="mc-600879">
+                            <span style="color:var(--t3)">—</span>
+                        </td>
+                        <td class="num col-mention">
+                            
+                            <span class="mention-b">🔥 12</span>
+                            
+                        </td>
+                        <td class="num col-articles">
+                            
+                            <span class="art-b">📰 1</span>
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr data-code="600118" 
+                        data-concepts="21" 
+                        data-mention="11" 
+                        data-articles="6" 
+                        data-name="中国卫星" 
+                        data-latest-date=""
+                        data-chg="0" 
+                        onclick="window.location='/stock/600118'">
+                        <td class="col-rank">8</td>
+                        <td>
+                            <div class="col-name">中国卫星</div>
+                            <div class="col-code">600118</div>
+                        </td>
+                        <td class="col-industry" style="color:var(--t2);font-size:.72rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">
+                            国防军工-军工装备-航天装备
+                        </td>
+                        <td class="col-concepts">
+                            
+                            <div class="tags">
+                                
+                                <span class="tag t0" onclick="event.stopPropagation();window.location='/concept/%E5%95%86%E4%B8%9A%E8%88%AA%E5%A4%A9'">商业航天</span>
+                                
+                                <span class="tag t1" onclick="event.stopPropagation();window.location='/concept/%E5%8D%AB%E6%98%9F%E5%AF%BC%E8%88%AA'">卫星导航</span>
+                                
+                                <span class="tag t2" onclick="event.stopPropagation();window.location='/concept/%E5%9B%BD%E4%BA%A7%E8%88%AA%E6%AF%8D'">国产航母</span>
+                                
+                                <span class="tag t5">+18</span>
+                            </div>
+                            
+                        </td>
+                        <td class="num col-price" id="p-600118">
+                            <span class="loading-price">—</span>
+                        </td>
+                        <td class="num col-chg" id="c-600118">
+                            <span class="loading-price">—</span>
+                        </td>
+                        <td class="num col-cap" id="mc-600118">
+                            <span style="color:var(--t3)">—</span>
+                        </td>
+                        <td class="num col-mention">
+                            
+                            <span class="mention-b">🔥 11</span>
+                            
+                        </td>
+                        <td class="num col-articles">
+                            
+                            <span class="art-b">📰 6</span>
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr data-code="300502" 
+                        data-concepts="12" 
+                        data-mention="11" 
+                        data-articles="7" 
+                        data-name="新易盛" 
+                        data-latest-date=""
+                        data-chg="0" 
+                        onclick="window.location='/stock/300502'">
+                        <td class="col-rank">9</td>
+                        <td>
+                            <div class="col-name">新易盛</div>
+                            <div class="col-code">300502</div>
+                        </td>
+                        <td class="col-industry" style="color:var(--t2);font-size:.72rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">
+                            通信-通信设备-通信网络设备及器件
+                        </td>
+                        <td class="col-concepts">
+                            
+                            <div class="tags">
+                                
+                                <span class="tag t0" onclick="event.stopPropagation();window.location='/concept/AI'">AI</span>
+                                
+                                <span class="tag t1" onclick="event.stopPropagation();window.location='/concept/%E7%AE%97%E5%8A%9B'">算力</span>
+                                
+                                <span class="tag t2" onclick="event.stopPropagation();window.location='/concept/%E5%85%B1%E5%B0%81%E8%A3%85%E5%85%89%E5%AD%A6%28CPO%29'">共封装光学(CPO)</span>
+                                
+                                <span class="tag t5">+9</span>
+                            </div>
+                            
+                        </td>
+                        <td class="num col-price" id="p-300502">
+                            <span class="loading-price">—</span>
+                        </td>
+                        <td class="num col-chg" id="c-300502">
+                            <span class="loading-price">—</span>
+                        </td>
+                        <td class="num col-cap" id="mc-300502">
+                            <span style="color:var(--t3)">—</span>
+                        </td>
+                        <td class="num col-mention">
+                            
+                            <span class="mention-b">🔥 11</span>
+                            
+                        </td>
+                        <td class="num col-articles">
+                            
+                            <span class="art-b">📰 7</span>
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr data-code="688981" 
+                        data-concepts="12" 
+                        data-mention="11" 
+                        data-articles="1" 
+                        data-name="中芯国际" 
+                        data-latest-date=""
+                        data-chg="0" 
+                        onclick="window.location='/stock/688981'">
+                        <td class="col-rank">10</td>
+                        <td>
+                            <div class="col-name">中芯国际</div>
+                            <div class="col-code">688981</div>
+                        </td>
+                        <td class="col-industry" style="color:var(--t2);font-size:.72rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">
+                            电子-半导体-集成电路制造
+                        </td>
+                        <td class="col-concepts">
+                            
+                            <div class="tags">
+                                
+                                <span class="tag t0" onclick="event.stopPropagation();window.location='/concept/%E5%9B%BD%E5%AE%B6%E5%A4%A7%E5%9F%BA%E9%87%91%E6%8C%81%E8%82%A1'">国家大基金持股</span>
+                                
+                                <span class="tag t1" onclick="event.stopPropagation();window.location='/concept/%E5%AD%98%E5%82%A8%E8%8A%AF%E7%89%87'">存储芯片</span>
+                                
+                                <span class="tag t2" onclick="event.stopPropagation();window.location='/concept/%E4%B8%AD%E8%8A%AF%E5%9B%BD%E9%99%85%E6%A6%82%E5%BF%B5'">中芯国际概念</span>
+                                
+                                <span class="tag t5">+9</span>
+                            </div>
+                            
+                        </td>
+                        <td class="num col-price" id="p-688981">
+                            <span class="loading-price">—</span>
+                        </td>
+                        <td class="num col-chg" id="c-688981">
+                            <span class="loading-price">—</span>
+                        </td>
+                        <td class="num col-cap" id="mc-688981">
+                            <span style="color:var(--t3)">—</span>
+                        </td>
+                        <td class="num col-mention">
+                            
+                            <span class="mention-b">🔥 11</span>
+                            
+                        </td>
+                        <td class="num col-articles">
+                            
+                            <span class="art-b">📰 1</span>
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr data-code="002460" 
+                        data-concepts="22" 
+                        data-mention="10" 
+                        data-articles="5" 
+                        data-name="赣锋锂业" 
+                        data-latest-date=""
+                        data-chg="0" 
+                        onclick="window.location='/stock/002460'">
+                        <td class="col-rank">11</td>
+                        <td>
+                            <div class="col-name">赣锋锂业</div>
+                            <div class="col-code">002460</div>
+                        </td>
+                        <td class="col-industry" style="color:var(--t2);font-size:.72rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">
+                            有色金属-能源金属-锂
+                        </td>
+                        <td class="col-concepts">
+                            
+                            <div class="tags">
+                                
+                                <span class="tag t0" onclick="event.stopPropagation();window.location='/concept/%E7%9B%90%E6%B9%96%E6%8F%90%E9%94%82'">盐湖提锂</span>
+                                
+                                <span class="tag t1" onclick="event.stopPropagation();window.location='/concept/%E9%87%91%E5%B1%9E%E9%92%B4'">金属钴</span>
+                                
+                                <span class="tag t2" onclick="event.stopPropagation();window.location='/concept/%E5%B0%8F%E9%87%91%E5%B1%9E%E6%A6%82%E5%BF%B5'">小金属概念</span>
+                                
+                                <span class="tag t5">+19</span>
+                            </div>
+                            
+                        </td>
+                        <td class="num col-price" id="p-002460">
+                            <span class="loading-price">—</span>
+                        </td>
+                        <td class="num col-chg" id="c-002460">
+                            <span class="loading-price">—</span>
+                        </td>
+                        <td class="num col-cap" id="mc-002460">
+                            <span style="color:var(--t3)">—</span>
+                        </td>
+                        <td class="num col-mention">
+                            
+                            <span class="mention-b">🔥 10</span>
+                            
+                        </td>
+                        <td class="num col-articles">
+                            
+                            <span class="art-b">📰 5</span>
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr data-code="002112" 
+                        data-concepts="10" 
+                        data-mention="9" 
+                        data-articles="1" 
+                        data-name="三变科技" 
+                        data-latest-date=""
+                        data-chg="0" 
+                        onclick="window.location='/stock/002112'">
+                        <td class="col-rank">12</td>
+                        <td>
+                            <div class="col-name">三变科技</div>
+                            <div class="col-code">002112</div>
+                        </td>
+                        <td class="col-industry" style="color:var(--t2);font-size:.72rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">
+                            电力设备-电网设备-输变电设备
+                        </td>
+                        <td class="col-concepts">
+                            
+                            <div class="tags">
+                                
+                                <span class="tag t0" onclick="event.stopPropagation();window.location='/concept/%E6%99%BA%E8%83%BD%E7%94%B5%E7%BD%91'">智能电网</span>
+                                
+                                <span class="tag t1" onclick="event.stopPropagation();window.location='/concept/%E9%A3%8E%E7%94%B5'">风电</span>
+                                
+                                <span class="tag t2" onclick="event.stopPropagation();window.location='/concept/%E5%85%89%E4%BC%8F%E6%A6%82%E5%BF%B5'">光伏概念</span>
+                                
+                                <span class="tag t5">+7</span>
+                            </div>
+                            
+                        </td>
+                        <td class="num col-price" id="p-002112">
+                            <span class="loading-price">—</span>
+                        </td>
+                        <td class="num col-chg" id="c-002112">
+                            <span class="loading-price">—</span>
+                        </td>
+                        <td class="num col-cap" id="mc-002112">
+                            <span style="color:var(--t3)">—</span>
+                        </td>
+                        <td class="num col-mention">
+                            
+                            <span class="mention-b">🔥 9</span>
+                            
+                        </td>
+                        <td class="num col-articles">
+                            
+                            <span class="art-b">📰 1</span>
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr data-code="688709" 
+                        data-concepts="19" 
+                        data-mention="9" 
+                        data-articles="2" 
+                        data-name="成都华微" 
+                        data-latest-date=""
+                        data-chg="0" 
+                        onclick="window.location='/stock/688709'">
+                        <td class="col-rank">13</td>
+                        <td>
+                            <div class="col-name">成都华微</div>
+                            <div class="col-code">688709</div>
+                        </td>
+                        <td class="col-industry" style="color:var(--t2);font-size:.72rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">
+                            电子-半导体-模拟芯片设计
+                        </td>
+                        <td class="col-concepts">
+                            
+                            <div class="tags">
+                                
+                                <span class="tag t0" onclick="event.stopPropagation();window.location='/concept/MCU%E8%8A%AF%E7%89%87'">MCU芯片</span>
+                                
+                                <span class="tag t1" onclick="event.stopPropagation();window.location='/concept/%E5%AD%98%E5%82%A8%E8%8A%AF%E7%89%87'">存储芯片</span>
+                                
+                                <span class="tag t2" onclick="event.stopPropagation();window.location='/concept/%E5%95%86%E4%B8%9A%E8%88%AA%E5%A4%A9'">商业航天</span>
+                                
+                                <span class="tag t5">+16</span>
+                            </div>
+                            
+                        </td>
+                        <td class="num col-price" id="p-688709">
+                            <span class="loading-price">—</span>
+                        </td>
+                        <td class="num col-chg" id="c-688709">
+                            <span class="loading-price">—</span>
+                        </td>
+                        <td class="num col-cap" id="mc-688709">
+                            <span style="color:var(--t3)">—</span>
+                        </td>
+                        <td class="num col-mention">
+                            
+                            <span class="mention-b">🔥 9</span>
+                            
+                        </td>
+                        <td class="num col-articles">
+                            
+                            <span class="art-b">📰 2</span>
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr data-code="300409" 
+                        data-concepts="28" 
+                        data-mention="9" 
+                        data-articles="1" 
+                        data-name="道氏技术" 
+                        data-latest-date=""
+                        data-chg="0" 
+                        onclick="window.location='/stock/300409'">
+                        <td class="col-rank">14</td>
+                        <td>
+                            <div class="col-name">道氏技术</div>
+                            <div class="col-code">300409</div>
+                        </td>
+                        <td class="col-industry" style="color:var(--t2);font-size:.72rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">
+                            电力设备-电池-电池化学品
+                        </td>
+                        <td class="col-concepts">
+                            
+                            <div class="tags">
+                                
+                                <span class="tag t0" onclick="event.stopPropagation();window.location='/concept/%E8%84%91%E6%9C%BA%E6%8E%A5%E5%8F%A3'">脑机接口</span>
+                                
+                                <span class="tag t1" onclick="event.stopPropagation();window.location='/concept/%E7%A1%85%E8%83%BD%E6%BA%90'">硅能源</span>
+                                
+                                <span class="tag t2" onclick="event.stopPropagation();window.location='/concept/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD'">人工智能</span>
+                                
+                                <span class="tag t5">+25</span>
+                            </div>
+                            
+                        </td>
+                        <td class="num col-price" id="p-300409">
+                            <span class="loading-price">—</span>
+                        </td>
+                        <td class="num col-chg" id="c-300409">
+                            <span class="loading-price">—</span>
+                        </td>
+                        <td class="num col-cap" id="mc-300409">
+                            <span style="color:var(--t3)">—</span>
+                        </td>
+                        <td class="num col-mention">
+                            
+                            <span class="mention-b">🔥 9</span>
+                            
+                        </td>
+                        <td class="num col-articles">
+                            
+                            <span class="art-b">📰 1</span>
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr data-code="300253" 
+                        data-concepts="25" 
+                        data-mention="9" 
+                        data-articles="1" 
+                        data-name="卫宁健康" 
+                        data-latest-date=""
+                        data-chg="0" 
+                        onclick="window.location='/stock/300253'">
+                        <td class="col-rank">15</td>
+                        <td>
+                            <div class="col-name">卫宁健康</div>
+                            <div class="col-code">300253</div>
+                        </td>
+                        <td class="col-industry" style="color:var(--t2);font-size:.72rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">
+                            计算机-软件开发-垂直应用软件
+                        </td>
+                        <td class="col-concepts">
+                            
+                            <div class="tags">
+                                
+                                <span class="tag t0" onclick="event.stopPropagation();window.location='/concept/DRG/DIP'">DRG/DIP</span>
+                                
+                                <span class="tag t1" onclick="event.stopPropagation();window.location='/concept/AIGC%E6%A6%82%E5%BF%B5'">AIGC概念</span>
+                                
+                                <span class="tag t2" onclick="event.stopPropagation();window.location='/concept/ChatGPT%E6%A6%82%E5%BF%B5'">ChatGPT概念</span>
+                                
+                                <span class="tag t5">+22</span>
+                            </div>
+                            
+                        </td>
+                        <td class="num col-price" id="p-300253">
+                            <span class="loading-price">—</span>
+                        </td>
+                        <td class="num col-chg" id="c-300253">
+                            <span class="loading-price">—</span>
+                        </td>
+                        <td class="num col-cap" id="mc-300253">
+                            <span style="color:var(--t3)">—</span>
+                        </td>
+                        <td class="num col-mention">
+                            
+                            <span class="mention-b">🔥 9</span>
+                            
+                        </td>
+                        <td class="num col-articles">
+                            
+                            <span class="art-b">📰 1</span>
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr data-code="603986" 
+                        data-concepts="16" 
+                        data-mention="9" 
+                        data-articles="1" 
+                        data-name="兆易创新" 
+                        data-latest-date=""
+                        data-chg="0" 
+                        onclick="window.location='/stock/603986'">
+                        <td class="col-rank">16</td>
+                        <td>
+                            <div class="col-name">兆易创新</div>
+                            <div class="col-code">603986</div>
+                        </td>
+                        <td class="col-industry" style="color:var(--t2);font-size:.72rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">
+                            电子-半导体-数字芯片设计
+                        </td>
+                        <td class="col-concepts">
+                            
+                            <div class="tags">
+                                
+                                <span class="tag t0" onclick="event.stopPropagation();window.location='/concept/%E5%AD%98%E5%82%A8%E8%8A%AF%E7%89%87'">存储芯片</span>
+                                
+                                <span class="tag t1" onclick="event.stopPropagation();window.location='/concept/%E6%B1%BD%E8%BD%A6%E8%8A%AF%E7%89%87'">汽车芯片</span>
+                                
+                                <span class="tag t2" onclick="event.stopPropagation();window.location='/concept/MCU%E8%8A%AF%E7%89%87'">MCU芯片</span>
+                                
+                                <span class="tag t5">+13</span>
+                            </div>
+                            
+                        </td>
+                        <td class="num col-price" id="p-603986">
+                            <span class="loading-price">—</span>
+                        </td>
+                        <td class="num col-chg" id="c-603986">
+                            <span class="loading-price">—</span>
+                        </td>
+                        <td class="num col-cap" id="mc-603986">
+                            <span style="color:var(--t3)">—</span>
+                        </td>
+                        <td class="num col-mention">
+                            
+                            <span class="mention-b">🔥 9</span>
+                            
+                        </td>
+                        <td class="num col-articles">
+                            
+                            <span class="art-b">📰 1</span>
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr data-code="688111" 
+                        data-concepts="16" 
+                        data-mention="8" 
+                        data-articles="1" 
+                        data-name="金山办公" 
+                        data-latest-date=""
+                        data-chg="0" 
+                        onclick="window.location='/stock/688111'">
+                        <td class="col-rank">17</td>
+                        <td>
+                            <div class="col-name">金山办公</div>
+                            <div class="col-code">688111</div>
+                        </td>
+                        <td class="col-industry" style="color:var(--t2);font-size:.72rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">
+                            计算机-软件开发-横向通用软件
+                        </td>
+                        <td class="col-concepts">
+                            
+                            <div class="tags">
+                                
+                                <span class="tag t0" onclick="event.stopPropagation();window.location='/concept/%E6%99%BA%E8%B0%B1AI'">智谱AI</span>
+                                
+                                <span class="tag t1" onclick="event.stopPropagation();window.location='/concept/AI%E6%99%BA%E8%83%BD%E4%BD%93'">AI智能体</span>
+                                
+                                <span class="tag t2" onclick="event.stopPropagation();window.location='/concept/%E4%BA%91%E5%8A%9E%E5%85%AC'">云办公</span>
+                                
+                                <span class="tag t5">+13</span>
+                            </div>
+                            
+                        </td>
+                        <td class="num col-price" id="p-688111">
+                            <span class="loading-price">—</span>
+                        </td>
+                        <td class="num col-chg" id="c-688111">
+                            <span class="loading-price">—</span>
+                        </td>
+                        <td class="num col-cap" id="mc-688111">
+                            <span style="color:var(--t3)">—</span>
+                        </td>
+                        <td class="num col-mention">
+                            
+                            <span class="mention-b">🔥 8</span>
+                            
+                        </td>
+                        <td class="num col-articles">
+                            
+                            <span class="art-b">📰 1</span>
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr data-code="002922" 
+                        data-concepts="14" 
+                        data-mention="8" 
+                        data-articles="1" 
+                        data-name="伊戈尔" 
+                        data-latest-date=""
+                        data-chg="0" 
+                        onclick="window.location='/stock/002922'">
+                        <td class="col-rank">18</td>
+                        <td>
+                            <div class="col-name">伊戈尔</div>
+                            <div class="col-code">002922</div>
+                        </td>
+                        <td class="col-industry" style="color:var(--t2);font-size:.72rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">
+                            电子-其他电子-其他电子Ⅲ
+                        </td>
+                        <td class="col-concepts">
+                            
+                            <div class="tags">
+                                
+                                <span class="tag t0" onclick="event.stopPropagation();window.location='/concept/%E9%AB%98%E5%8E%8B%E5%BF%AB%E5%85%85'">高压快充</span>
+                                
+                                <span class="tag t1" onclick="event.stopPropagation();window.location='/concept/%E5%85%89%E4%BC%8F%E6%A6%82%E5%BF%B5'">光伏概念</span>
+                                
+                                <span class="tag t2" onclick="event.stopPropagation();window.location='/concept/%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83'">数据中心</span>
+                                
+                                <span class="tag t5">+11</span>
+                            </div>
+                            
+                        </td>
+                        <td class="num col-price" id="p-002922">
+                            <span class="loading-price">—</span>
+                        </td>
+                        <td class="num col-chg" id="c-002922">
+                            <span class="loading-price">—</span>
+                        </td>
+                        <td class="num col-cap" id="mc-002922">
+                            <span style="color:var(--t3)">—</span>
+                        </td>
+                        <td class="num col-mention">
+                            
+                            <span class="mention-b">🔥 8</span>
+                            
+                        </td>
+                        <td class="num col-articles">
+                            
+                            <span class="art-b">📰 1</span>
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr data-code="000533" 
+                        data-concepts="21" 
+                        data-mention="8" 
+                        data-articles="1" 
+                        data-name="顺钠股份" 
+                        data-latest-date=""
+                        data-chg="0" 
+                        onclick="window.location='/stock/000533'">
+                        <td class="col-rank">19</td>
+                        <td>
+                            <div class="col-name">顺钠股份</div>
+                            <div class="col-code">000533</div>
+                        </td>
+                        <td class="col-industry" style="color:var(--t2);font-size:.72rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">
+                            电力设备-电网设备-输变电设备
+                        </td>
+                        <td class="col-concepts">
+                            
+                            <div class="tags">
+                                
+                                <span class="tag t0" onclick="event.stopPropagation();window.location='/concept/%E6%99%BA%E8%83%BD%E7%94%B5%E7%BD%91'">智能电网</span>
+                                
+                                <span class="tag t1" onclick="event.stopPropagation();window.location='/concept/%E6%8A%BD%E6%B0%B4%E8%93%84%E8%83%BD'">抽水蓄能</span>
+                                
+                                <span class="tag t2" onclick="event.stopPropagation();window.location='/concept/%E8%B6%85%E8%B6%85%E4%B8%B4%E7%95%8C%E5%8F%91%E7%94%B5'">超超临界发电</span>
+                                
+                                <span class="tag t5">+18</span>
+                            </div>
+                            
+                        </td>
+                        <td class="num col-price" id="p-000533">
+                            <span class="loading-price">—</span>
+                        </td>
+                        <td class="num col-chg" id="c-000533">
+                            <span class="loading-price">—</span>
+                        </td>
+                        <td class="num col-cap" id="mc-000533">
+                            <span style="color:var(--t3)">—</span>
+                        </td>
+                        <td class="num col-mention">
+                            
+                            <span class="mention-b">🔥 8</span>
+                            
+                        </td>
+                        <td class="num col-articles">
+                            
+                            <span class="art-b">📰 1</span>
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr data-code="000977" 
+                        data-concepts="24" 
+                        data-mention="8" 
+                        data-articles="1" 
+                        data-name="浪潮信息" 
+                        data-latest-date=""
+                        data-chg="0" 
+                        onclick="window.location='/stock/000977'">
+                        <td class="col-rank">20</td>
+                        <td>
+                            <div class="col-name">浪潮信息</div>
+                            <div class="col-code">000977</div>
+                        </td>
+                        <td class="col-industry" style="color:var(--t2);font-size:.72rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">
+                            计算机-计算机设备-其他计算机设备
+                        </td>
+                        <td class="col-concepts">
+                            
+                            <div class="tags">
+                                
+                                <span class="tag t0" onclick="event.stopPropagation();window.location='/concept/%E4%B8%AD%E5%9B%BDAI%2050'">中国AI 50</span>
+                                
+                                <span class="tag t1" onclick="event.stopPropagation();window.location='/concept/%E7%AE%97%E5%8A%9B%E7%A7%9F%E8%B5%81'">算力租赁</span>
+                                
+                                <span class="tag t2" onclick="event.stopPropagation();window.location='/concept/%E8%8B%B1%E4%BC%9F%E8%BE%BE%E6%A6%82%E5%BF%B5'">英伟达概念</span>
+                                
+                                <span class="tag t5">+21</span>
+                            </div>
+                            
+                        </td>
+                        <td class="num col-price" id="p-000977">
+                            <span class="loading-price">—</span>
+                        </td>
+                        <td class="num col-chg" id="c-000977">
+                            <span class="loading-price">—</span>
+                        </td>
+                        <td class="num col-cap" id="mc-000977">
+                            <span style="color:var(--t3)">—</span>
+                        </td>
+                        <td class="num col-mention">
+                            
+                            <span class="mention-b">🔥 8</span>
+                            
+                        </td>
+                        <td class="num col-articles">
+                            
+                            <span class="art-b">📰 1</span>
+                            
+                        </td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+        
+        <!-- 加载更多按钮 -->
+        
+        <div class="load-more-wrap">
+            <button class="load-more-btn" id="loadMoreBtn" onclick="loadMore()">
+                📥 加载更多（还剩 0 只）
+            </button>
+        </div>
+        
+    </div>
+    
+    <footer class="footer">CYBERRESEARCH © 2026 &nbsp;·&nbsp; AI-Powered Investment Research Platform</footer>
+    
+    <script>
+        // ─── Get rows ───
+        const rows = [...document.querySelectorAll('#tbody tr[data-code]')];
+        
+        // ─── Concepts count filter ───
+        document.querySelectorAll('.fbtn').forEach(b =>
+            b.addEventListener('click', () => {
+                document.querySelectorAll('.fbtn').forEach(x => x.classList.remove('active'));
+                b.classList.add('active');
+                const minConcepts = b.dataset.concepts;
+                rows.forEach(r => {
+                    const count = +r.dataset.concepts;
+                    let show = false;
+                    if(minConcepts === 'all') show = true;
+                    else if(minConcepts === '10+') show = count >= 10;
+                    else if(minConcepts === '20+') show = count >= 20;
+                    else if(minConcepts === '30+') show = count >= 30;
+                    r.style.display = show ? '' : 'none';
+                });
+                renumber();
+            })
+        );
+        
+        // ─── Sort ───
+        document.getElementById('sortSel').addEventListener('change', function() {
+            sortRows(this.value);
+        });
+        
+        function sortRows(mode) {
+            const tbody = document.getElementById('tbody');
+            rows.sort((a,b) => {
+                if(mode==='mention') return +b.dataset.mention - +a.dataset.mention;
+                if(mode==='articles') return +b.dataset.articles - +a.dataset.articles;
+                if(mode==='name') return a.dataset.name.localeCompare(b.dataset.name,'zh');
+                if(mode==='chg_up') return +b.dataset.chg - +a.dataset.chg;
+                if(mode==='chg_down') return +a.dataset.chg - +b.dataset.chg;
+                if(mode==='date') {
+                    // 按最新文章日期排序（从行数据中获取）
+                    const dateA = a.dataset.latestDate || '';
+                    const dateB = b.dataset.latestDate || '';
+                    return dateB.localeCompare(dateA);
+                }
+                return 0;
+            });
+            rows.forEach(r => tbody.appendChild(r));
+            renumber();
+        }
+        
+        function renumber() {
+            let i=1;
+            rows.forEach(r => {
+                if(r.style.display!=='none')
+                    r.querySelector('.col-rank').textContent=i++;
+            });
+        }
+        
+        // default sort by mention
+        sortRows('mention');
+        
+        // Auto fetch market data on page load
+        fetchMarket(false);
+        
+        // ─── Market data ───
+        let marketLoaded = false;
+        async function fetchMarket(force = false) {
+            const codes = rows.map(r => r.dataset.code);
+            if(!codes.length) return;
+            
+            const btn = document.getElementById('refreshBtn');
+            
+            if(force) {
+                btn?.classList.add('refreshing');
+                rows.forEach(r => {
+                    const code = r.dataset.code;
+                    const pEl = document.getElementById(`p-${code}`);
+                    const cEl = document.getElementById(`c-${code}`);
+                    const mcEl = document.getElementById(`mc-${code}`);
+                    if(pEl) pEl.innerHTML = '<span class="loading-price">🔄</span>';
+                    if(cEl) cEl.innerHTML = '<span class="loading-price">—</span>';
+                    if(mcEl) mcEl.innerHTML = '<span style="color:var(--t3)">—</span>';
+                });
+            }
+            
+            try {
+                const res = await fetch(`/api/market-data?codes=${codes.join(',')}`);
+                const data = await res.json();
+                
+                let loaded = 0;
+                codes.forEach(code => {
+                    const d = data[code];
+                    const pEl = document.getElementById(`p-${code}`);
+                    const cEl = document.getElementById(`c-${code}`);
+                    const mcEl = document.getElementById(`mc-${code}`);
+                    if(!pEl) return;
+                    if(!d || !d.price) {
+                        pEl.innerHTML = '<span style="color:var(--t3)">—</span>';
+                        cEl.innerHTML = '<span style="color:var(--t3)">—</span>';
+                        return;
+                    }
+                    loaded++;
+                    const isUp = d.change >= 0;
+                    const cls = isUp ? 'up' : 'down';
+                    const sign = isUp ? '+' : '';
+                    pEl.innerHTML = `<span class="col-price ${cls}">${d.price.toFixed(2)}</span>`;
+                    cEl.innerHTML = `<span class="col-chg ${cls}">${sign}${d.change.toFixed(2)}%</span>`;
+                    if(mcEl)
+                        mcEl.innerHTML = d.marketCap ? `<span class="col-cap">${d.marketCap.toFixed(0)}亿</span>` : '—';
+                    const row = document.querySelector(`tr[data-code="${code}"]`);
+                    if(row) row.dataset.chg = d.change;
+                });
+                
+                if(loaded > 0) marketLoaded = true;
+                
+                // 更新按钮文本
+                if(btn) {
+                    const textSpan = btn.querySelector('.btn-text');
+                    if(textSpan) textSpan.textContent = loaded > 0 ? '已更新' : '无数据';
+                    setTimeout(() => { if(textSpan) textSpan.textContent = '刷新股价'; }, 2000);
+                }
+            } catch(e) {
+                console.log('行情获取失败', e);
+                if(force) {
+                    rows.forEach(r => {
+                        const code = r.dataset.code;
+                        const pEl = document.getElementById(`p-${code}`);
+                        const cEl = document.getElementById(`c-${code}`);
+                        if(pEl) pEl.innerHTML = '<span style="color:var(--t3)">—</span>';
+                        if(cEl) cEl.innerHTML = '<span style="color:var(--t3)">—</span>';
+                    });
+                    alert('行情获取失败，请稍后重试');
+                }
+            } finally {
+                if(force && btn) {
+                btn.classList.remove('refreshing');
+                const status = document.getElementById('refreshStatus');
+                if(status) {
+                    status.textContent = loaded > 0 ? `✅ 已更新 ${loaded} 只股票` : '⚠️ 无数据';
+                    setTimeout(() => status.textContent = '', 3000);
+                }
+            }
+            }
+        }
+        // 3 秒后自动刷新一次
+        setTimeout(() => fetchMarket(false), 3000);
+        setInterval(fetchMarket, 60000);
+        
+        // 手动刷新函数
+        function refreshMarket() {
+            fetchMarket(true);
+        }
+        
+        // ─── 加载更多 ───
+        let isLoadingMore = false;
+        
+        function loadMore() {
+            if (isLoadingMore) return;
+            
+            const btn = document.getElementById('loadMoreBtn');
+            if (!btn) return;
+            
+            isLoadingMore = true;
+            btn.classList.add('loading');
+            btn.disabled = true;
+            
+            const offset = 20;
+            const limit = 20;
+            
+            fetch(`/?limit=${limit}&offset=${offset}`, {
+                headers: {
+                    'X-Requested-With': 'XMLHttpRequest'
+                }
+            })
+            .then(r => r.json())
+            .then(data => {
+                const tbody = document.getElementById('tbody');
+                const rows = data.stocks || [];
+                
+                rows.forEach(stock => {
+                    const tr = document.createElement('tr');
+                    tr.dataset.code = stock.code;
+                    tr.dataset.concepts = (stock.concepts || []).length;
+                    tr.dataset.mention = stock.mention_count || 0;
+                    tr.dataset.articles = (stock.articles || []).length;
+                    tr.dataset.name = stock.name;
+                    tr.dataset.latestDate = stock.latest_article_date || '';
+                    tr.dataset.chg = '0';
+                    tr.onclick = () => window.location = `/stock/${stock.code}`;
+                    
+                    const industry = stock.industry || stock.industries || '—';
+                    const concepts = stock.concepts || [];
+                    const mentionCount = stock.mention_count || 0;
+                    const articlesCount = (stock.articles || []).length;
+                    
+                    tr.innerHTML = `
+                        <td class="col-rank">${tbody.children.length + 1}</td>
+                        <td>
+                            <div class="col-name">${stock.name}</div>
+                            <div class="col-code">${stock.code}</div>
+                        </td>
+                        <td class="col-industry" style="color:var(--t2);font-size:.72rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">
+                            ${industry}
+                        </td>
+                        <td class="col-concepts">
+                            ${concepts.length > 0 ? `
+                            <div class="tags">
+                                ${concepts.slice(0, 3).map((c, i) => 
+                                    `<span class="tag t${i % 6}" onclick="event.stopPropagation();window.location='/concept/${encodeURIComponent(c)}'">${c}</span>`
+                                ).join('')}
+                                ${concepts.length > 3 ? `<span class="tag t5">+${concepts.length - 3}</span>` : ''}
+                            </div>` : ''}
+                        </td>
+                        <td class="num col-price" id="p-${stock.code}">
+                            <span class="loading-price">—</span>
+                        </td>
+                        <td class="num col-chg" id="c-${stock.code}">
+                            <span class="loading-price">—</span>
+                        </td>
+                        <td class="num col-cap" id="mc-${stock.code}">
+                            <span style="color:var(--t3)">—</span>
+                        </td>
+                        <td class="num col-mention">
+                            ${mentionCount > 0 ? `<span class="mention-b">🔥 ${mentionCount}</span>` : '<span style="color:var(--t3)">—</span>'}
+                        </td>
+                        <td class="num col-articles">
+                            ${articlesCount > 0 ? `<span class="art-b">📰 ${articlesCount}</span>` : '<span style="color:var(--t3)">—</span>'}
+                        </td>
+                    `;
+                    
+                    tbody.appendChild(tr);
+                });
+                
+                // 重新绑定行情获取
+                fetchMarket(false);
+                
+                // 更新或移除加载更多按钮
+                if (data.has_more) {
+                    const remaining = data.total - data.offset;
+                    btn.innerHTML = `📥 加载更多（还剩 ${remaining} 只）`;
+                    btn.classList.remove('loading');
+                    btn.disabled = false;
+                    isLoadingMore = false;
+                } else {
+                    btn.closest('.load-more-wrap').remove();
+                }
+            })
+            .catch(e => {
+                console.error('加载更多失败', e);
+                btn.classList.remove('loading');
+                btn.disabled = false;
+                isLoadingMore = false;
+                alert('加载更多失败，请刷新页面重试');
+            });
+        }
+        
+        // ─── Search ───
+        const si = document.getElementById('searchInput');
+        const sg = document.getElementById('searchSug');
+        let dbt;
+        si.addEventListener('input', () => {
+            clearTimeout(dbt);
+            dbt = setTimeout(async () => {
+                const q = si.value.trim();
+                if(q.length < 1) { sg.classList.remove('on'); return; }
+                try {
+                    const res = await fetch(`/api/search/suggest?q=${encodeURIComponent(q)}`);
+                    const data = await res.json();
+                    if(!data.suggestions.length) { sg.classList.remove('on'); return; }
+                    sg.innerHTML = data.suggestions.map(s =>
+                        `<div class="sug-item" onclick="window.location='/stock/${s.code}'">
+                            <span>${s.name}</span><span class="sug-code">${s.code}</span>
+                        </div>`
+                    ).join('');
+                    sg.classList.add('on');
+                } catch(e){}
+            }, 200);
+        });
+        document.addEventListener('click', e => {
+            if(!e.target.closest('.search-wrap')) sg.classList.remove('on');
+        });
+        
+        // ─── Full-text Search ───
+        const ftsInput = document.getElementById('fulltextSearchInput');
+        const ftsResults = document.getElementById('fulltextSearchResults');
+        let ftsDebounce;
+        
+        // 回车键触发搜索
+        ftsInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') {
+                performFulltextSearch();
+            }
+        });
+        
+        // 实时搜索（防抖）
+        ftsInput.addEventListener('input', () => {
+            clearTimeout(ftsDebounce);
+            const query = ftsInput.value.trim();
+            
+            if (query.length < 2) {
+                ftsResults.classList.remove('on');
+                return;
+            }
+            
+            ftsDebounce = setTimeout(() => {
+                performFulltextSearch();
+            }, 500);
+        });
+        
+        async function performFulltextSearch() {
+            const query = ftsInput.value.trim();
+            if (query.length < 2) {
+                ftsResults.classList.remove('on');
+                return;
+            }
+            
+            try {
+                ftsResults.innerHTML = '<div class="search-no-results">🔍 搜索中...</div>';
+                ftsResults.classList.add('on');
+                
+                const res = await fetch(`/api/search/fulltext?q=${encodeURIComponent(query)}&limit=20`);
+                const data = await res.json();
+                
+                if (!data.results || data.results.length === 0) {
+                    ftsResults.innerHTML = '<div class="search-no-results">😔 未找到相关结果，请尝试其他关键词</div>';
+                    return;
+                }
+                
+                const html = data.results.map(r => {
+                    const snippet = highlightText(r.snippet || '', query);
+                    return `
+                        <div class="search-result-item" onclick="window.location='/stock/${r.code}'">
+                            <div class="search-result-title">
+                                <span>${r.name}</span>
+                                <span class="search-result-code">${r.code}</span>
+                            </div>
+                            <div class="search-result-snippet">${snippet}</div>
+                            <div class="search-result-meta">
+                                <span>📄 ${r.article_title || '相关文章'}</span>
+                                <span>📅 ${r.article_date || ''}</span>
+                                <span>🔍 匹配度: ${(r.score * 100).toFixed(0)}%</span>
+                            </div>
+                        </div>
+                    `;
+                }).join('');
+                
+                ftsResults.innerHTML = html;
+            } catch (e) {
+                console.error('全文搜索失败', e);
+                ftsResults.innerHTML = '<div class="search-no-results">❌ 搜索失败，请稍后重试</div>';
+            }
+        }
+        
+        function highlightText(text, query) {
+            if (!text || !query) return text;
+            const regex = new RegExp(`(${escapeRegex(query)})`, 'gi');
+            return text.replace(regex, '<span class="search-highlight">$1</span>');
+        }
+        
+        function escapeRegex(string) {
+            return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        }
+        
+        // 点击外部关闭搜索结果
+        document.addEventListener('click', e => {
+            if (!e.target.closest('.fulltext-search-wrap') && !e.target.closest('.fulltext-search-results')) {
+                ftsResults.classList.remove('on');
+            }
+        });
+    </script>
+    
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore-compat.js"></script>
+    <script src="/static/js/firebase-config.js"></script>
+    
+    <!-- Firebase 数据加载 -->
+    <script>
+        // 标记是否使用 Firebase
+        const useFirebase = true;
+        
+        // 从 Firebase 加载股票数据
+        async function loadStocksFromFirebase() {
+            try {
+                console.log('🔄 正在从 Firebase 加载数据...');
+                const stocks = await FirebaseDB.getAllStocks();
+                
+                if (stocks && stocks.length > 0) {
+                    console.log(`✅ 从 Firebase 加载了 ${stocks.length} 只股票`);
+                    renderStocksFromFirebase(stocks);
+                    return true;
+                } else {
+                    console.log('⚠️ Firebase 中没有股票数据');
+                    return false;
+                }
+            } catch (error) {
+                console.error('❌ 从 Firebase 加载失败:', error);
+                return false;
+            }
+        }
+        
+        // 渲染 Firebase 数据到页面
+        function renderStocksFromFirebase(stocks) {
+            const tbody = document.querySelector('.stocks-table tbody');
+            if (!tbody) return;
+            
+            // 清空现有内容
+            tbody.innerHTML = '';
+            
+            // 按提及次数排序
+            stocks.sort((a, b) => (b.mention_count || 0) - (a.mention_count || 0));
+            
+            // 只显示前 50 只
+            const displayStocks = stocks.slice(0, 50);
+            
+            displayStocks.forEach(stock => {
+                const row = document.createElement('tr');
+                row.className = 'stock-row';
+                row.onclick = () => window.location.href = `/stock/${stock.code}`;
+                
+                const concepts = stock.concepts?.slice(0, 3).map(c => 
+                    `<span class="concept-tag" onclick="event.stopPropagation(); window.location.href='/concept/${encodeURIComponent(c)}'">${c}</span>`
+                ).join('') || '';
+                
+                const latestArticle = stock.articles?.[0];
+                const insight = latestArticle?.insights?.[0] || '';
+                
+                row.innerHTML = `
+                    <td>
+                        <div class="stock-name">${stock.name || ''}</div>
+                        <div class="stock-code">${stock.code || ''}</div>
+                    </td>
+                    <td>
+                        <div class="concepts-wrap">${concepts}</div>
+                    </td>
+                    <td>
+                        <div class="insight-text" title="${insight}">${insight.substring(0, 60)}${insight.length > 60 ? '...' : ''}</div>
+                    </td>
+                    <td class="mention-count">${stock.mention_count || 0}</td>
+                    <td class="price-cell">-</td>
+                    <td class="change-cell">-</td>
+                `;
+                
+                tbody.appendChild(row);
+            });
+            
+            // 更新统计
+            document.querySelector('.stats-grid').innerHTML = `
+                <div class="stat-card">
+                    <div class="stat-value">${stocks.length}</div>
+                    <div class="stat-label">股票总数</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">${new Set(stocks.flatMap(s => s.concepts || [])).size}</div>
+                    <div class="stat-label">概念标签</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">${stocks.reduce((sum, s) => sum + (s.articles?.length || 0), 0)}</div>
+                    <div class="stat-label">文章总数</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">${stocks.filter(s => (s.articles?.length || 0) > 0).length}</div>
+                    <div class="stat-label">有研报股票</div>
+                </div>
+            `;
+            
+            // 添加 Firebase 标识
+            const title = document.querySelector('h1');
+            if (title && !title.innerHTML.includes('🔥')) {
+                title.innerHTML += ' <span style="font-size:0.5em;color:#ff6b35">🔥 Firebase</span>';
+            }
+        }
+        
+        // 页面加载时尝试从 Firebase 获取数据
+        document.addEventListener('DOMContentLoaded', async () => {
+            if (useFirebase) {
+                const success = await loadStocksFromFirebase();
+                if (!success) {
+                    console.log('⚠️ Firebase 加载失败，使用本地数据');
+                }
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+{
+  "date": "2025-10-27",
+  "update_count": 2,
+  "stocks": {
+    "603917": {
+      "name": "汽车零部件",
+      "code": "603917",
+      "articles": [
+        {
+          "title": "603917  汽车零部件 新能源汽车 机器人 模具 一体化压铸 汽车产业链的重要供应商",
+          "date": "2025-10-27",
+          "source": "https://mp.weixin.qq.com/s/DpQVQ5xEQj3Seuw5hhKxjA",
+          "accidents": [
+            "■**新能源铝压铸件业务订单饱满，高增确定性强。",
+            "目前公司已获得比亚迪、宁德时代、海康威视等新能源三电或者结构件多个项目订单，伴随新项目陆续供货，预计2025年公司原有业务加上新拓展铝压铸件业务总营收有望达到8.1亿元，其中新能源铝压铸件业务营收贡献有望超过5亿元。",
+            "2025年10月新增该概念，反映公司业绩增长预期，可能与机器人业务放量、新能源汽车订单增长等因素相关。"
+          ],
+          "insights": [
+            "公司自2003年开拓铝合金铸造模具业务，目前已有20多年低压铸造模具开发&试模经验，工艺经验不断积累，副车架业务有望受益于行业扩容带来增量业绩。",
+            "公司具备大型一体化压铸模具生产能力，为小米汽车等客户提供超大型一体化压铸模具，单套模具价值量高，是新能源汽车轻量化趋势下的受益者。",
+            "产品涵盖新能源汽车电池盒模具、电机模具等，深度绑定新能源车企，受益于新能源汽车市场的快速增长。"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "industry": "制造业",
+      "concepts": [
+        "汽车"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": []
+    },
+    "920158": {
+      "name": "电脱设备",
+      "code": "920158",
+      "articles": [
+        {
+          "title": "920158  电脱设备 海工装备 智能制造 能源化工专用设备制造商",
+          "date": "2025-10-27",
+          "source": "https://mp.weixin.qq.com/s/XDtw-j3SzmCANKovqqATfA",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "industry": "其他",
+      "concepts": [
+        "其他"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": []
+    }
+  }
+}

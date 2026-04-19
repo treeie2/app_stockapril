@@ -1,0 +1,61 @@
+{
+  "date": "2025-06-30",
+  "update_count": 1,
+  "stocks": {
+    "601319": {
+      "name": "中国人保",
+      "code": "601319",
+      "board": "SH",
+      "industry": "非银金融-保险-保险Ⅲ",
+      "concepts": [
+        "中字头股票",
+        "同花顺中特估100",
+        "蚂蚁集团概念",
+        "国企改革",
+        "融资融券",
+        "沪股通"
+      ],
+      "mention_count": 1,
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "articles": [
+        {
+          "title": "“非银金融概念”深度解析与操作策略，底部盘中参考，6月30日",
+          "date": "2025-06-30",
+          "source": "https://mp.weixin.qq.com/s/x_xq5rqZaK-YQrcXM8lGug",
+          "accidents": [
+            "非银机构专项政策"
+          ],
+          "insights": [],
+          "key_metrics": [
+            "2024年9月《关于促进非银行金融机构大规模设备更新和消费品以旧换新的通知》明确要求压降利费水平，优化服务流程"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "article_count": 1,
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    }
+  }
+}
