@@ -843,16 +843,32 @@ def api_update_hot_topic(topic_id):
     
     return jsonify({'success': False, 'error': '热点不存在'}), 404
 
+def reload_hot_topics():
+    """重新加载热点数据"""
+    global hot_topics
+    if HOT_TOPICS_FILE.exists():
+        try:
+            with open(HOT_TOPICS_FILE, 'r', encoding='utf-8') as f:
+                hot_topics_data = json.load(f)
+                hot_topics = hot_topics_data.get('topics', [])
+            print(f"📊 重新加载热点数据：{len(hot_topics)} 个热点")
+        except Exception as e:
+            print(f"⚠️ 重新加载热点数据失败: {e}")
+
 @app.route('/api/hot-topic/<topic_id>', methods=['DELETE'])
 def api_delete_hot_topic(topic_id):
     """删除热点"""
     global hot_topics
     
+    # 先重新加载最新数据
+    reload_hot_topics()
+    
     for i, topic in enumerate(hot_topics):
         if topic.get('id') == topic_id:
-            hot_topics.pop(i)
+            deleted_topic = hot_topics.pop(i)
             save_hot_topics()
-            return jsonify({'success': True})
+            print(f"✅ 已删除热点: {deleted_topic.get('name')} ({topic_id})")
+            return jsonify({'success': True, 'deleted': deleted_topic.get('name')})
     
     return jsonify({'success': False, 'error': '热点不存在'}), 404
 

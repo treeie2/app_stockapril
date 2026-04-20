@@ -1757,7 +1757,11 @@
             
             try {
                 const response = await fetch(`/api/hot-topic/${topicId}`, {
-                    method: 'DELETE'
+                    method: 'DELETE',
+                    headers: {
+                        'Cache-Control': 'no-cache',
+                        'Pragma': 'no-cache'
+                    }
                 });
                 
                 const result = await response.json();
@@ -1770,7 +1774,11 @@
                         card.style.transform = 'scale(0.9)';
                         setTimeout(() => card.remove(), 200);
                     }
-                    showToast('热点已删除');
+                    showToast('热点已删除，页面即将刷新...');
+                    // 延迟刷新页面以确保数据同步
+                    setTimeout(() => {
+                        window.location.reload(true);
+                    }, 800);
                 } else {
                     alert('删除失败：' + (result.error || '未知错误'));
                 }
