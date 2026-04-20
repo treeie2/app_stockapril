@@ -1,0 +1,154 @@
+{
+  "generated_at": "2026-04-20T17:13:47.664619",
+  "date": "2026-04-20",
+  "total_stocks": 9,
+  "stocks": [
+    {
+      "code": "600105",
+      "name": "永鼎股份",
+      "industry": "通信-通信设备-通信线缆及配套",
+      "target_valuations": [
+        {
+          "text": "目标市值: 750亿",
+          "value": 750.0
+        }
+      ],
+      "avg_target": 750.0,
+      "current_market_cap": 611.113827236,
+      "diff": 138.88617276399998,
+      "diff_percent": 22.726727259988
+    },
+    {
+      "code": "300548",
+      "name": "长芯博创",
+      "industry": "通信-通信设备-光通信设备",
+      "target_valuations": [
+        {
+          "text": "券商预测2026年利润为8.03亿元",
+          "value": 8.03
+        },
+        {
+          "text": "当前市值652.54亿元，市盈率194.87倍",
+          "value": 652.54
+        }
+      ],
+      "avg_target": 330.28499999999997,
+      "current_market_cap": 747.5341600464,
+      "diff": -417.2491600464,
+      "diff_percent": -55.81673485269236
+    },
+    {
+      "code": "300782",
+      "name": "卓胜微",
+      "industry": "电子-半导体-模拟芯片设计",
+      "target_valuations": [
+        {
+          "text": "目标市值: 400亿+",
+          "value": 400.0
+        }
+      ],
+      "avg_target": 400.0,
+      "current_market_cap": 612.4029730704,
+      "diff": -212.40297307039998,
+      "diff_percent": -34.6835306833141
+    },
+    {
+      "code": "300857",
+      "name": "协创数据",
+      "industry": "电子-消费电子-消费电子零部件及组装",
+      "target_valuations": [
+        {
+          "text": "目标市值: 2000亿",
+          "value": 2000.0
+        }
+      ],
+      "avg_target": 2000.0,
+      "current_market_cap": 1066.0173564431,
+      "diff": 933.9826435569,
+      "diff_percent": 87.61420608321518
+    },
+    {
+      "code": "301396",
+      "name": "宏景科技",
+      "industry": "计算机-IT服务-IT服务",
+      "target_valuations": [
+        {
+          "text": "目标市值: 800亿",
+          "value": 800.0
+        }
+      ],
+      "avg_target": 800.0,
+      "current_market_cap": 443.66571083,
+      "diff": 356.33428917,
+      "diff_percent": 80.31594068952899
+    },
+    {
+      "code": "603629",
+      "name": "利通电子",
+      "industry": "电子-消费电子-消费电子零部件及组装",
+      "target_valuations": [
+        {
+          "text": "目标市值: 620亿",
+          "value": 620.0
+        }
+      ],
+      "avg_target": 620.0,
+      "current_market_cap": 281.416896,
+      "diff": 338.583104,
+      "diff_percent": 120.31370852729468
+    },
+    {
+      "code": "603005",
+      "name": "晶方科技",
+      "industry": "电子-半导体-集成电路封测",
+      "target_valuations": [
+        {
+          "text": "目标市值: 578亿",
+          "value": 578.0
+        }
+      ],
+      "avg_target": 578.0,
+      "current_market_cap": 200.9341026186,
+      "diff": 377.06589738139996,
+      "diff_percent": 187.65649656649964
+    },
+    {
+      "code": "688627",
+      "name": "精智达",
+      "industry": "电子-专用设备-半导体测试设备",
+      "target_valuations": [
+        {
+          "text": "按照50%份额测算，25-30%净利率，展望15亿利润",
+          "value": 15.0
+        },
+        {
+          "text": "配套业务20亿收入，显示业务10亿收入，5-6亿利润贡献",
+          "value": 20.0
+        },
+        {
+          "text": "合计20亿利润，给予中期40倍估值，市值展望800亿元",
+          "value": 20.0
+        }
+      ],
+      "avg_target": 18.333333333333332,
+      "current_market_cap": 265.58320505,
+      "diff": -247.24987171666666,
+      "diff_percent": -93.09695305097256
+    },
+    {
+      "code": "002824",
+      "name": "和胜股份",
+      "industry": "有色金属-工业金属-铝",
+      "target_valuations": [
+        {
+          "text": "目标市值: 150亿",
+          "value": 150.0
+        }
+      ],
+      "avg_target": 150.0,
+      "current_market_cap": 90.55304185800001,
+      "diff": 59.446958141999986,
+      "diff_percent": 65.64876996094866
+    }
+  ]
+}
