@@ -290,33 +290,40 @@ def load_data_from_local():
     
     if master_data is None:
         raise RuntimeError("无法从任何来源加载数据")
-        
-        # 处理数据格式（支持列表或字典格式）
-        stocks_data = master_data.get('stocks', [])
-        
-        # 如果是字典格式（code 为 key），转换为列表
-        if isinstance(stocks_data, dict):
-            stocks_list = list(stocks_data.values())
-            stocks = stocks_data
+    
+    print(f"  📊 原始数据大小：{len(master_data)} keys")
+    
+    # 处理数据格式（支持列表或字典格式）
+    # 如果是字典格式（code 为 key），直接使用
+    if isinstance(master_data, dict):
+        # 检查是否是 {'stocks': {...}} 格式
+        if 'stocks' in master_data:
+            stocks_data = master_data.get('stocks', {})
         else:
-            stocks_list = stocks_data
-            stocks = {s['code']: s for s in stocks_list if 'code' in s}
-        
-        # 从概念字段提取所有概念
-        concepts = {}
-        for stock in stocks_list:
-            for concept in stock.get('concepts', []):
-                if concept not in concepts:
-                    concepts[concept] = {'stocks': []}
-                concepts[concept]['stocks'].append(stock['code'])
-        
-        print(f"  ✅ 加载 {len(stocks)} 只股票")
-        print(f"  ✅ 加载 {len(concepts)} 个概念")
-        return stocks, concepts
-        
-    except Exception as e:
-        print(f"  ❌ 错误：{e}")
-        return {}, {}
+            # 直接是 {code: data} 格式
+            stocks_data = master_data
+    else:
+        stocks_data = {}
+    
+    # 转换为列表和字典
+    if isinstance(stocks_data, dict):
+        stocks_list = list(stocks_data.values())
+        stocks = stocks_data
+    else:
+        stocks_list = stocks_data
+        stocks = {s['code']: s for s in stocks_list if 'code' in s}
+    
+    # 从概念字段提取所有概念
+    concepts = {}
+    for stock in stocks_list:
+        for concept in stock.get('concepts', []):
+            if concept not in concepts:
+                concepts[concept] = {'stocks': []}
+            concepts[concept]['stocks'].append(stock['code'])
+    
+    print(f"  ✅ 加载 {len(stocks)} 只股票")
+    print(f"  ✅ 加载 {len(concepts)} 个概念")
+    return stocks, concepts
 
 # 全局变量
 stocks = {}
@@ -336,27 +343,33 @@ def load_all_data():
     try:
         # 1. 从 stocks_master.json 加载完整数据作为基础
         print("📋 从 stocks_master.json 加载完整数据...")
-        stocks, concepts = load_data_from_local()
-        if not stocks:
-            stocks = {}
-            concepts = {}
+        loaded_stocks, loaded_concepts = load_data_from_local()
+        
+        # 更新全局变量
+        stocks.update(loaded_stocks)
+        concepts.update(loaded_concepts)
+        
+        print(f"  📊 已加载 {len(stocks)} 只股票，{len(concepts)} 个概念")
         
         # 2. 从增量文件加载最近数据（覆盖 master 中的旧数据）
         print("📋 从增量文件加载最新数据...")
-        incremental_stocks, incremental_concepts = load_data_incremental(days=30)
-        if incremental_stocks:
-            # 用增量数据覆盖 master 数据（增量数据更新）
-            stocks.update(incremental_stocks)
-            # 合并概念索引
-            for concept, data in incremental_concepts.items():
-                if concept not in concepts:
-                    concepts[concept] = data
-                else:
-                    # 合并股票列表，去重
-                    existing_codes = set(concepts[concept]['stocks'])
-                    for code in data['stocks']:
-                        if code not in existing_codes:
-                            concepts[concept]['stocks'].append(code)
+        try:
+            incremental_stocks, incremental_concepts = load_data_incremental(days=30)
+            if incremental_stocks:
+                # 用增量数据覆盖 master 数据（增量数据更新）
+                stocks.update(incremental_stocks)
+                # 合并概念索引
+                for concept, data in incremental_concepts.items():
+                    if concept not in concepts:
+                        concepts[concept] = data
+                    else:
+                        # 合并股票列表，去重
+                        existing_codes = set(concepts[concept]['stocks'])
+                        for code in data['stocks']:
+                            if code not in existing_codes:
+                                concepts[concept]['stocks'].append(code)
+        except Exception as e:
+            print(f"  ⚠️ 增量加载失败：{e}")
         
         # 3. 从 Firebase 加载今日更新的股票（仅更新有 last_updated 的）
         print("📋 从 Firebase 加载今日更新数据...")
@@ -413,29 +426,14 @@ def load_all_data():
         
     except Exception as e:
         print(f"❌ 数据加载失败：{e}")
+        import traceback
+        traceback.print_exc()
         # 即使失败也标记为已加载，避免重复尝试
         _data_loaded = True
         raise
 
 # 懒加载数据（在第一次请求时加载）
 # load_all_data()
-
-# 加载热点数据
-HOT_TOPICS_FILE = BASE_DIR / 'data' / 'hot_topics.json'
-hot_topics = []
-if HOT_TOPICS_FILE.exists():
-    try:
-        with open(HOT_TOPICS_FILE, 'r', encoding='utf-8') as f:
-            hot_topics_data = json.load(f)
-            hot_topics = hot_topics_data.get('topics', [])
-        print(f"📊 加载热点数据：{len(hot_topics)} 个热点")
-    except Exception as e:
-        print(f"⚠️ 加载热点数据失败: {e}")
-else:
-    print(f"⚠️ 热点文件不存在: {HOT_TOPICS_FILE}")
-
-# 数据加载完成
-print(f"📊 数据加载完成：{len(stocks)} 只股票，{len(concepts)} 个概念，{len(hot_topics)} 个热点")
 
 @app.route('/')
 def dashboard():
