@@ -319,19 +319,32 @@ if incremental_stocks:
                 if code not in existing_codes:
                     concepts[concept]['stocks'].append(code)
 
-# 3. 从 Firebase 加载最新数据（优先使用 Firebase 数据）
-print("📋 从 Firebase 加载最新数据...")
+# 3. 从 Firebase 加载今日更新的股票（仅更新有 last_updated 的）
+print("📋 从 Firebase 加载今日更新数据...")
 firebase_stocks, firebase_concepts = load_data_from_firebase()
 if firebase_stocks:
-    # Firebase 数据优先，覆盖本地数据（确保最新）
+    # 仅更新今日有 last_updated 的股票
+    updated_count = 0
     for code, stock in firebase_stocks.items():
-        # 如果 Firebase 有 last_updated 字段，说明是最新同步的，优先使用
-        if stock.get('last_updated'):
-            stocks[code] = stock
-            print(f"  🔄 使用 Firebase 数据：{code} {stock.get('name', '')}")
-        elif code not in stocks:
-            # 没有 last_updated 的作为补充
-            stocks[code] = stock
+        if stock.get('last_updated') == '2026-04-21':
+            # 保留本地数据的完整性，只更新关键字段
+            if code in stocks:
+                # 合并数据：保留本地的 articles 等完整数据
+                local_stock = stocks[code]
+                local_stock['last_updated'] = stock.get('last_updated', '')
+                local_stock['industry'] = stock.get('industry', local_stock.get('industry', ''))
+                # 如果 Firebase 有更完整的 core_business 等字段，则更新
+                if stock.get('core_business') and not local_stock.get('core_business'):
+                    local_stock['core_business'] = stock['core_business']
+                if stock.get('industry_position') and not local_stock.get('industry_position'):
+                    local_stock['industry_position'] = stock['industry_position']
+                if stock.get('chain') and not local_stock.get('chain'):
+                    local_stock['chain'] = stock['chain']
+                updated_count += 1
+            else:
+                # 本地没有的股票，直接添加
+                stocks[code] = stock
+    print(f"  ✅ 更新了 {updated_count} 只今日股票")
     # 合并概念索引
     for concept, data in firebase_concepts.items():
         if concept not in concepts:
