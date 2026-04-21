@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "last_updated": "2026-04-21",
-  "total_stocks": 3164,
+  "total_stocks": 3165,
   "stocks": {
     "603019": {
       "name": "中科曙光",
@@ -15822,6 +15822,11 @@
       "name": "安达智能",
       "last_updated": "2026-04-16",
       "file": "2026-04-16.json"
+    },
+    "002416": {
+      "name": "爱施德",
+      "last_updated": "2026-04-21",
+      "file": "2026-04-21.json"
     }
   }
 }
