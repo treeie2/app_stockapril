@@ -341,35 +341,28 @@ def load_all_data():
     print("📋 开始加载数据...")
     
     try:
-        # 1. 从 stocks_master.json 加载完整数据作为基础
-        print("📋 从 stocks_master.json 加载完整数据...")
-        loaded_stocks, loaded_concepts = load_data_from_local()
-        
-        # 更新全局变量
-        stocks.update(loaded_stocks)
-        concepts.update(loaded_concepts)
-        
-        print(f"  📊 已加载 {len(stocks)} 只股票，{len(concepts)} 个概念")
-        
-        # 2. 从增量文件加载最近数据（覆盖 master 中的旧数据）
+        # 1. 优先从增量文件加载最近数据（包含最新股票）
         print("📋 从增量文件加载最新数据...")
         try:
+            # 增加天数到 30 天，确保包含所有新股
             incremental_stocks, incremental_concepts = load_data_incremental(days=30)
             if incremental_stocks:
-                # 用增量数据覆盖 master 数据（增量数据更新）
                 stocks.update(incremental_stocks)
-                # 合并概念索引
-                for concept, data in incremental_concepts.items():
-                    if concept not in concepts:
-                        concepts[concept] = data
-                    else:
-                        # 合并股票列表，去重
-                        existing_codes = set(concepts[concept]['stocks'])
-                        for code in data['stocks']:
-                            if code not in existing_codes:
-                                concepts[concept]['stocks'].append(code)
+                concepts.update(incremental_concepts)
+                print(f"  ✅ 增量加载成功：{len(incremental_stocks)} 只股票")
         except Exception as e:
             print(f"  ⚠️ 增量加载失败：{e}")
+        
+        # 2. 如果增量加载失败或为空，尝试从 stocks_master.json 加载完整数据
+        if not stocks:
+            print("📋 增量数据为空，尝试从 stocks_master.json 加载...")
+            try:
+                loaded_stocks, loaded_concepts = load_data_from_local()
+                stocks.update(loaded_stocks)
+                concepts.update(loaded_concepts)
+                print(f"  ✅ Master 文件加载成功：{len(loaded_stocks)} 只股票")
+            except Exception as e:
+                print(f"  ⚠️ Master 文件加载失败：{e}")
         
         # 3. 从 Firebase 加载今日更新的股票（仅更新有 last_updated 的）
         print("📋 从 Firebase 加载今日更新数据...")
