@@ -109,7 +109,8 @@ except Exception as e:
     print(f"  ⚠️ 社保基金数据加载失败：{e}")
 
 # Firebase 配置
-FIREBASE_PROJECT_ID = "stock-research-669e1"
+FIREBASE_PROJECT_ID = "webstock-724"
+FIREBASE_API_KEY = "AIzaSyDnWABBE1WZ3H_il95-TcBqpIAH9sisLUo"
 FIREBASE_BASE_URL = f"https://firestore.googleapis.com/v1/projects/{FIREBASE_PROJECT_ID}/databases/(default)/documents"
 
 def load_data_from_firebase():
@@ -1536,10 +1537,6 @@ def get_article_api_status():
             'error': str(e)
         })
 
-
-# Firebase 配置
-FIREBASE_PROJECT_ID = "webstock-724"
-FIREBASE_API_KEY = "AIzaSyDnWABBE1WZ3H_il95-TcBqpIAH9sisLUo"
 
 def sync_to_firebase(stocks_dict, stats):
     """同步导入的数据到 Firebase Firestore"""
