@@ -341,21 +341,34 @@ def load_all_data():
     print("📋 开始加载数据...")
     
     try:
-        # 1. 优先从增量文件加载最近数据（包含最新股票）
-        print("📋 从增量文件加载最新数据...")
+        # 1. 优先从 Firebase 加载所有数据（最新数据源）
+        print("📋 从 Firebase 加载数据...")
         try:
-            # 增加天数到 30 天，确保包含所有新股
-            incremental_stocks, incremental_concepts = load_data_incremental(days=30)
-            if incremental_stocks:
-                stocks.update(incremental_stocks)
-                concepts.update(incremental_concepts)
-                print(f"  ✅ 增量加载成功：{len(incremental_stocks)} 只股票")
+            firebase_stocks, firebase_concepts = load_data_from_firebase()
+            if firebase_stocks:
+                stocks.update(firebase_stocks)
+                concepts.update(firebase_concepts)
+                print(f"  ✅ Firebase 加载成功：{len(firebase_stocks)} 只股票")
+            else:
+                print(f"  ⚠️ Firebase 数据为空")
         except Exception as e:
-            print(f"  ⚠️ 增量加载失败：{e}")
+            print(f"  ⚠️ Firebase 加载失败：{e}")
         
-        # 2. 如果增量加载失败或为空，尝试从 stocks_master.json 加载完整数据
+        # 2. 如果 Firebase 为空，从增量文件加载
         if not stocks:
-            print("📋 增量数据为空，尝试从 stocks_master.json 加载...")
+            print("📋 Firebase 数据为空，从增量文件加载...")
+            try:
+                incremental_stocks, incremental_concepts = load_data_incremental(days=30)
+                if incremental_stocks:
+                    stocks.update(incremental_stocks)
+                    concepts.update(incremental_concepts)
+                    print(f"  ✅ 增量加载成功：{len(incremental_stocks)} 只股票")
+            except Exception as e:
+                print(f"  ⚠️ 增量加载失败：{e}")
+        
+        # 3. 如果增量数据也为空，从 master 文件加载
+        if not stocks:
+            print("📋 增量数据为空，从 stocks_master.json 加载...")
             try:
                 loaded_stocks, loaded_concepts = load_data_from_local()
                 stocks.update(loaded_stocks)
@@ -363,45 +376,6 @@ def load_all_data():
                 print(f"  ✅ Master 文件加载成功：{len(loaded_stocks)} 只股票")
             except Exception as e:
                 print(f"  ⚠️ Master 文件加载失败：{e}")
-        
-        # 3. 从 Firebase 加载今日更新的股票（仅更新有 last_updated 的）
-        print("📋 从 Firebase 加载今日更新数据...")
-        try:
-            firebase_stocks, firebase_concepts = load_data_from_firebase()
-            if firebase_stocks:
-                # 仅更新今日有 last_updated 的股票
-                updated_count = 0
-                for code, stock in firebase_stocks.items():
-                    if stock.get('last_updated') == '2026-04-21':
-                        # 保留本地数据的完整性，只更新关键字段
-                        if code in stocks:
-                            # 合并数据：保留本地的 articles 等完整数据
-                            local_stock = stocks[code]
-                            local_stock['last_updated'] = stock.get('last_updated', '')
-                            local_stock['industry'] = stock.get('industry', local_stock.get('industry', ''))
-                            # 如果 Firebase 有更完整的 core_business 等字段，则更新
-                            if stock.get('core_business') and not local_stock.get('core_business'):
-                                local_stock['core_business'] = stock['core_business']
-                            if stock.get('industry_position') and not local_stock.get('industry_position'):
-                                local_stock['industry_position'] = stock['industry_position']
-                            if stock.get('chain') and not local_stock.get('chain'):
-                                local_stock['chain'] = stock['chain']
-                            updated_count += 1
-                        else:
-                            # 本地没有的股票，直接添加
-                            stocks[code] = stock
-                print(f"  ✅ 更新了 {updated_count} 只今日股票")
-                # 合并概念索引
-                for concept, data in firebase_concepts.items():
-                    if concept not in concepts:
-                        concepts[concept] = data
-                    else:
-                        existing_codes = set(concepts[concept]['stocks'])
-                        for code in data['stocks']:
-                            if code not in existing_codes:
-                                concepts[concept]['stocks'].append(code)
-        except Exception as e:
-            print(f"  ⚠️ Firebase 加载失败：{e}，继续使用本地数据")
         
         # 加载热点数据
         HOT_TOPICS_FILE = BASE_DIR / 'data' / 'hot_topics.json'
