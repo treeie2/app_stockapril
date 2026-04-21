@@ -565,7 +565,7 @@
       }
     },
     "002201": {
-      "name": "航空航天",
+      "name": "正威新材",
       "code": "002201",
       "articles": [
         {
@@ -603,7 +603,10 @@
       ],
       "industry": "制造业",
       "concepts": [
-        "军工"
+        "军工",
+        "商业航天",
+        "电子布",
+        "玻璃纤维"
       ],
       "valuation": {
         "target_market_cap": null,
