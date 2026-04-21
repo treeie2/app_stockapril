@@ -1,6 +1,6 @@
 {
   "date": "2026-04-21",
-  "update_count": 10,
+  "update_count": 14,
   "stocks": {
     "002475": {
       "name": "立讯精密",
@@ -557,6 +557,197 @@
             "持股星盟信息 25.55%",
             "投资云深处科技 1.27%"
           ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-04-21"
+    },
+    "300263": {
+      "code": "300263",
+      "name": "隆华科技",
+      "board": "SZ",
+      "industry": "电子 - 电子材料 - 电子化学品",
+      "concepts": [
+        "军民融合",
+        "电子新材料",
+        "稀土分离",
+        "稀土永磁",
+        "第四代半导体",
+        "节能环保",
+        "光伏钙钛矿",
+        "低空经济",
+        "隐身材料",
+        "高分子复合材料",
+        "核能"
+      ],
+      "products": [
+        "钼靶材",
+        "PVC 结构芯材",
+        "钙钛矿靶材",
+        "节能换热装备",
+        "PMI 泡沫材料",
+        "电子溅射靶材",
+        "稀土萃取剂",
+        "ITO 靶材"
+      ],
+      "core_business": [
+        "电子新材料研发生产",
+        "高分子复合材料制造",
+        "节能环保装备",
+        "稀土分离与回收"
+      ],
+      "industry_position": [
+        "国内唯一实现钙钛矿太阳能电池用靶材批量供货",
+        "国内唯一通过 AS9100D 航空航天质量体系认证的 PMI 泡沫供应商",
+        "稀土萃取剂龙头，市占率超 80%",
+        "钼靶和 ITO 靶材行业龙头"
+      ],
+      "chain": [
+        "上游 - 电子材料",
+        "上游 - 稀土材料",
+        "中游 - 高分子复合材料"
+      ],
+      "partners": [
+        "京东方",
+        "华星光电",
+        "天马微电子",
+        "信利半导体",
+        "TCL 华星"
+      ],
+      "mention_count": 3,
+      "articles": [
+        {
+          "title": "【300263】：稀土永磁+低空核心材料+光伏钙钛矿+第四代半导体，电子新材料、高分子复合材料与节能环保产业三大板块协同布局",
+          "date": "2026-04-21",
+          "source": "https://mp.weixin.qq.com/s/cc1Sl3OwbfBemRsNFXFcnQ",
+          "accidents": [
+            "大尺寸钼靶材批量供货，打破国外垄断",
+            "ITO 靶材通过多条 TFT 产线测试认证",
+            "PMI 产品应用于多型军用飞机"
+          ],
+          "insights": [
+            "历经五年转型升级，从传热节能设备企业发展为电子新材料龙头",
+            "靶材业务加快进口替代，宽幅钼靶、高世代线 ITO 靶材市场份额大幅提升",
+            "高分子复合材料覆盖军工、轨道交通等领域，产能规模迅速壮大"
+          ],
+          "key_metrics": [
+            "钼靶用户包括京东方、华星光电、天马微电子等",
+            "ITO 靶材在京东方 G8.5、G6 等高世代产线量产使用",
+            "稀土萃取剂市占率超 80%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-04-21"
+    },
+    "832522": {
+      "code": "832522",
+      "name": "纳科诺尔",
+      "board": "BJ",
+      "industry": "机械设备 - 电池设备 - 锂电设备",
+      "concepts": [
+        "等静压设备",
+        "固态电池",
+        "干法电极"
+      ],
+      "products": [
+        "干法电极设备",
+        "等静压设备",
+        "锂带压延转印设备"
+      ],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "纳科诺尔，2倍空间？",
+          "date": "2026-04-21",
+          "source": "https://mp.weixin.qq.com/s/P_7ZSibZW_eQeJDvOqbzKA",
+          "accidents": [
+            "固态实验室主体已建成，设备进厂",
+            "首台等静压设备下线，容积 8L",
+            "干法正极成膜设备取得进展"
+          ],
+          "insights": [
+            "干法电极设备卡位领先，等静压设备进展积极"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-04-21"
+    },
+    "301666": {
+      "code": "301666",
+      "name": "力诺药包",
+      "board": "SZ",
+      "industry": "医药生物 - 医疗器械 - 医疗耗材",
+      "concepts": [
+        "台积电产业链",
+        "玻璃基板",
+        "半导体材料"
+      ],
+      "products": [
+        "玻璃基板",
+        "模制瓶",
+        "耐热玻璃",
+        "预灌封"
+      ],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "力诺药包，10倍空间？",
+          "date": "2026-04-21",
+          "source": "https://mp.weixin.qq.com/s/e3xwwd0FtjhPu2Rwv_uX_w",
+          "accidents": [
+            "玻璃基板送样台积电，150×150mm 已通过测试"
+          ],
+          "insights": [
+            "玻璃基板送样台积电，成本优势显著，毛利 90%+"
+          ],
+          "key_metrics": [],
+          "target_valuation": [
+            "主业扎实，玻璃基板提供高弹性，一旦放量有十倍股潜力"
+          ]
+        }
+      ],
+      "last_updated": "2026-04-21"
+    },
+    "832225": {
+      "code": "832225",
+      "name": "利通科技",
+      "board": "BJ",
+      "industry": "机械设备 - 专用设备 - 锂电设备",
+      "concepts": [
+        "等静压设备",
+        "固态电池",
+        "干法电极"
+      ],
+      "products": [
+        "等静压设备"
+      ],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "利通科技，2倍空间？",
+          "date": "2026-04-21",
+          "source": "https://mp.weixin.qq.com/s/ohLdLoVeWy6ewa7VseVCfA",
+          "accidents": [
+            "首台等静压设备下线，容积 8L",
+            "首台固态电池温等静压设备下线，容积 56L"
+          ],
+          "insights": [],
+          "key_metrics": [],
           "target_valuation": []
         }
       ],
