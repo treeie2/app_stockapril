@@ -12,8 +12,8 @@ TODAY = datetime.now().strftime('%Y-%m-%d')
 # 手动添加的股票信息
 MANUAL_STOCKS = [
     {
-        'code': '300416',
-        'name': '苏试试验',
+        'code': '002046',
+        'name': '国机精工',
         'source': 'manual_input',
         'title': '国机精工持续推荐：航天轴承 + 金刚石技术领军公司',
         'content': '''

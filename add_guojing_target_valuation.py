@@ -19,10 +19,10 @@ def add_target_valuation():
     
     stocks = master_data.get('stocks', {})
     
-    # 查找国机精工（300416）
-    if '300416' in stocks:
-        stock = stocks['300416']
-        print(f"📈 找到股票：{stock.get('name', '苏试试验')} (300416)")
+    # 查找国机精工（002046）
+    if '002046' in stocks:
+        stock = stocks['002046']
+        print(f"📈 找到股票：{stock.get('name', '国机精工')} (002046)")
         
         # 查找相关文章
         articles = stock.get('articles', [])
