@@ -27,7 +27,8 @@ MANUAL_STOCKS = [
 
 #β3：半导体设备【国产替代加速】
 减薄砂轮、划片刀、陶瓷吸盘等目前国产化率仅为 5%，公司已实现对日企 DISCO 的国产替代。未来三年公司利润有望快速突破 20 亿元以上，30 倍 PE 对应 600 亿市值、翻倍以上空间。
-'''
+''',
+        'target_valuation': '目标市值：600 亿（30 倍 PE，利润 20 亿）'
     },
     {
         'code': '603005',
@@ -137,6 +138,10 @@ def add_manual_stocks():
         if '航天轴承' in content or '金刚石' in content:
             article_record['core_business'] = ['航天轴承', '金刚石散热片', '半导体设备']
             article_record['industry_position'] = ['国内金刚石领域第一梯队', '航天领域市占率 90% 以上']
+        
+        # 添加目标估值（如果有）
+        if 'target_valuation' in stock_info:
+            article_record['target_valuation'] = [stock_info['target_valuation']]
         
         if 'TGV' in content or '玻璃通孔' in content:
             article_record['core_business'] = ['TGV 玻璃通孔', '先进封装']
