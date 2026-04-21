@@ -43,7 +43,7 @@ import requests
 class GitHubSyncer:
     """GitHub 分片同步器"""
     
-    def __init__(self, github_token: str, github_repo: str = "treeie2/models_app", branch: str = "main"):
+    def __init__(self, github_token: str, github_repo: str = "treeie2/app_stockapril", branch: str = "main"):
         self.github_token = github_token
         self.github_repo = github_repo
         self.branch = branch
@@ -381,7 +381,7 @@ Examples:
     parser.add_argument("--mode", required=True, choices=["shard", "single", "full"],
                        help="同步模式: shard(分片推荐), single(单文件旧), full(全量)")
     parser.add_argument("--github-token", required=True, help="GitHub Personal Access Token")
-    parser.add_argument("--github-repo", default="treeie2/models_app", help="GitHub 仓库名")
+    parser.add_argument("--github-repo", default="treeie2/app_stockapril", help="GitHub 仓库名")
     parser.add_argument("--branch", default="main", help="分支名 (默认: main)")
     parser.add_argument("--base-dir", default=None, help="基础目录 (默认: skill/data/master)")
     parser.add_argument("--json", default=None, help="JSON 文件路径 (mode=single)")
