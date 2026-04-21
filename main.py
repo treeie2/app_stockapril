@@ -247,23 +247,49 @@ def load_data_incremental(days=7):
         return None, None
 
 def load_data_from_local():
-    """从本地 JSON 加载数据"""
-    print("📋 从本地文件加载数据...")
+    """从本地 JSON 或 GitHub 加载数据"""
+    print("📋 从本地文件或 GitHub 加载数据...")
     
     MASTER_FILE_JSON = BASE_DIR / 'data' / 'master' / 'stocks_master.json'
     MASTER_FILE_GZ = BASE_DIR / 'data' / 'master' / 'stocks_master.json.gz'
     
-    try:
-        if MASTER_FILE_JSON.exists():
-            print(f"  📋 读取 stocks_master.json ({MASTER_FILE_JSON.stat().st_size / 1024 / 1024:.2f} MB)...")
-            with open(MASTER_FILE_JSON, 'r', encoding='utf-8') as f:
-                master_data = json.load(f)
-        elif MASTER_FILE_GZ.exists():
-            print(f"  📋 读取 stocks_master.json.gz...")
-            with gzip.open(MASTER_FILE_GZ, 'rt', encoding='utf-8') as f:
-                master_data = json.load(f)
-        else:
-            raise FileNotFoundError("未找到 stocks_master 数据文件")
+    # Vercel 环境优先从 GitHub 加载（避免大文件读取超时）
+    if 'VERCEL' in os.environ:
+        print("  🌐 Vercel 环境，从 GitHub 加载数据...")
+        try:
+            github_url = "https://raw.githubusercontent.com/treeie2/app_stockapril/main/data/master/stocks_master.json"
+            print(f"  📥 从 GitHub 下载 stocks_master.json...")
+            response = requests.get(github_url, timeout=60)
+            response.raise_for_status()
+            master_data = response.json()
+            print(f"  ✅ 从 GitHub 加载成功 ({len(response.content)/1024/1024:.2f} MB)")
+        except Exception as e:
+            print(f"  ⚠️ GitHub 加载失败：{e}，尝试本地文件...")
+            # 回退到本地文件
+            if MASTER_FILE_JSON.exists():
+                with open(MASTER_FILE_JSON, 'r', encoding='utf-8') as f:
+                    master_data = json.load(f)
+            elif MASTER_FILE_GZ.exists():
+                with gzip.open(MASTER_FILE_GZ, 'rt', encoding='utf-8') as f:
+                    master_data = json.load(f)
+            else:
+                raise FileNotFoundError("未找到 stocks_master 数据文件")
+    else:
+        # 本地环境直接读取文件
+        try:
+            if MASTER_FILE_JSON.exists():
+                print(f"  📋 读取 stocks_master.json ({MASTER_FILE_JSON.stat().st_size / 1024 / 1024:.2f} MB)...")
+                with open(MASTER_FILE_JSON, 'r', encoding='utf-8') as f:
+                    master_data = json.load(f)
+            elif MASTER_FILE_GZ.exists():
+                print(f"  📋 读取 stocks_master.json.gz...")
+                with gzip.open(MASTER_FILE_GZ, 'rt', encoding='utf-8') as f:
+                    master_data = json.load(f)
+            else:
+                raise FileNotFoundError("未找到 stocks_master 数据文件")
+        except Exception as e:
+            print(f"  ❌ 本地文件读取失败：{e}")
+            raise
         
         # 处理数据格式（支持列表或字典格式）
         stocks_data = master_data.get('stocks', [])
