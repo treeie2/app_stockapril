@@ -319,13 +319,18 @@ if incremental_stocks:
                 if code not in existing_codes:
                     concepts[concept]['stocks'].append(code)
 
-# 3. 尝试从 Firebase 加载（可选，作为补充）
-print("📋 尝试从 Firebase 加载数据...")
+# 3. 从 Firebase 加载最新数据（优先使用 Firebase 数据）
+print("📋 从 Firebase 加载最新数据...")
 firebase_stocks, firebase_concepts = load_data_from_firebase()
 if firebase_stocks:
-    # Firebase 数据作为补充，不覆盖本地数据
+    # Firebase 数据优先，覆盖本地数据（确保最新）
     for code, stock in firebase_stocks.items():
-        if code not in stocks:
+        # 如果 Firebase 有 last_updated 字段，说明是最新同步的，优先使用
+        if stock.get('last_updated'):
+            stocks[code] = stock
+            print(f"  🔄 使用 Firebase 数据：{code} {stock.get('name', '')}")
+        elif code not in stocks:
+            # 没有 last_updated 的作为补充
             stocks[code] = stock
     # 合并概念索引
     for concept, data in firebase_concepts.items():
