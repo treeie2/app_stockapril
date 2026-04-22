@@ -114,24 +114,35 @@ FIREBASE_API_KEY = "AIzaSyDnWABBE1WZ3H_il95-TcBqpIAH9sisLUo"
 FIREBASE_BASE_URL = f"https://firestore.googleapis.com/v1/projects/{FIREBASE_PROJECT_ID}/databases/(default)/documents"
 
 def load_data_from_firebase():
-    """从 Firebase 加载股票数据"""
+    """从 Firebase 加载股票数据（支持分页）"""
     print("📋 尝试从 Firebase 加载数据...")
     
     try:
-        url = f"{FIREBASE_BASE_URL}/stocks"
-        response = requests.get(url, timeout=30)
+        all_stocks = {}
+        all_concepts = {}
+        page_token = None
         
-        if response.status_code == 200:
+        while True:
+            url = f"{FIREBASE_BASE_URL}/stocks"
+            if page_token:
+                url += f"?pageToken={page_token}"
+            
+            response = requests.get(url, timeout=30)
+            
+            if response.status_code != 200:
+                print(f"  ⚠️ Firebase 加载失败：HTTP {response.status_code}")
+                break
+                
             data = response.json()
             documents = data.get('documents', [])
             
-            stocks = {}
-            concepts = {}
+            if not documents:
+                break
             
+            # 处理当前页的股票
             for doc in documents:
                 fields = doc.get('fields', {})
                 
-                # 转换 Firestore 格式
                 code = fields.get('code', {}).get('stringValue', '')
                 if not code:
                     continue
@@ -157,9 +168,9 @@ def load_data_from_firebase():
                 
                 # 构建概念索引
                 for concept in stock['concepts']:
-                    if concept not in concepts:
-                        concepts[concept] = {'stocks': []}
-                    concepts[concept]['stocks'].append(code)
+                    if concept not in all_concepts:
+                        all_concepts[concept] = {'stocks': []}
+                    all_concepts[concept]['stocks'].append(code)
                 
                 # 获取文章
                 articles = fields.get('articles', {}).get('arrayValue', {}).get('values', [])
@@ -175,30 +186,30 @@ def load_data_from_firebase():
                         'target_valuation': []
                     }
                     
-                    # 获取 accidents
                     accidents = article_fields.get('accidents', {}).get('arrayValue', {}).get('values', [])
                     article_data['accidents'] = [a.get('stringValue', '') for a in accidents if a.get('stringValue')]
                     
-                    # 获取 insights
                     insights = article_fields.get('insights', {}).get('arrayValue', {}).get('values', [])
                     article_data['insights'] = [i.get('stringValue', '') for i in insights if i.get('stringValue')]
                     
-                    # 获取 key_metrics
                     metrics = article_fields.get('key_metrics', {}).get('arrayValue', {}).get('values', [])
                     article_data['key_metrics'] = [m.get('stringValue', '') for m in metrics if m.get('stringValue')]
                     
                     stock['articles'].append(article_data)
                 
-                stocks[code] = stock
+                all_stocks[code] = stock
             
-            print(f"  ✅ 从 Firebase 加载 {len(stocks)} 只股票")
-            print(f"  ✅ 加载 {len(concepts)} 个概念")
-            return stocks, concepts
-        else:
-            print(f"  ⚠️ Firebase 加载失败: HTTP {response.status_code}")
-            return None, None
+            # 检查是否有下一页
+            page_token = data.get('nextPageToken')
+            if not page_token:
+                break
+        
+        print(f"  ✅ 从 Firebase 加载 {len(all_stocks)} 只股票")
+        print(f"  ✅ 加载 {len(all_concepts)} 个概念")
+        return all_stocks, all_concepts
+        
     except Exception as e:
-        print(f"  ⚠️ Firebase 加载出错: {e}")
+        print(f"  ⚠️ Firebase 加载出错：{e}")
         return None, None
 
 def load_data_incremental(days=7):
