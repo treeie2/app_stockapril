@@ -357,7 +357,17 @@
                 📊 股票列表
                 <span style="font-size: 0.9rem; font-weight: 500; color: var(--text-secondary);">({{ total }} 只)</span>
             </h1>
-            <p class="page-subtitle">全市场股票研究数据库 - 按提及热度排序</p>
+            <p class="page-subtitle">全市场股票研究数据库</p>
+            
+            <!-- 排序选择器 -->
+            <div style="margin-top: 1rem; display: flex; gap: 0.5rem; align-items: center;">
+                <span style="font-size: 0.85rem; color: var(--text-secondary);">排序方式：</span>
+                <select class="sort-select" onchange="changeSort(this.value)" style="background: var(--bg-card); border: 1px solid var(--border); color: var(--text-primary); padding: 0.4rem 0.8rem; border-radius: 6px; font-size: 0.85rem;">
+                    <option value="updated" {% if sort_by == 'updated' %}selected{% endif %}>📅 按更新日期</option>
+                    <option value="mention" {% if sort_by == 'mention' %}selected{% endif %}>🔥 按提及次数</option>
+                    <option value="name" {% if sort_by == 'name' %}selected{% endif %}>🔤 按名称</option>
+                </select>
+            </div>
         </div>
         
         <!-- 搜索框 -->
@@ -453,6 +463,11 @@
                     row.style.display = 'none';
                 }
             });
+        }
+        
+        function changeSort(sortType) {
+            // 跳转到带排序参数的 URL
+            window.location.href = '/stocks?sort=' + sortType;
         }
     </script>
 </body>

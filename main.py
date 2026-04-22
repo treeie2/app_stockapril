@@ -109,8 +109,8 @@ except Exception as e:
     print(f"  ⚠️ 社保基金数据加载失败：{e}")
 
 # Firebase 配置
-FIREBASE_PROJECT_ID = "webstock-724"
-FIREBASE_API_KEY = "AIzaSyDnWABBE1WZ3H_il95-TcBqpIAH9sisLUo"
+FIREBASE_PROJECT_ID = os.getenv("FIREBASE_PROJECT_ID", "webstock-724")
+FIREBASE_API_KEY = os.getenv("FIREBASE_API_KEY", "")  # 在 Vercel 环境变量中配置
 FIREBASE_BASE_URL = f"https://firestore.googleapis.com/v1/projects/{FIREBASE_PROJECT_ID}/databases/(default)/documents"
 
 def load_data_from_firebase():
@@ -159,6 +159,7 @@ def load_data_from_firebase():
                     'chain': [],
                     'partners': [],
                     'mention_count': int(fields.get('mention_count', {}).get('integerValue', '0') or 0),
+                    'last_updated': fields.get('last_updated', {}).get('stringValue', ''),
                     'articles': []
                 }
                 
@@ -549,11 +550,24 @@ def hot_topic_detail(topic_id):
 
 @app.route('/stocks')
 def stocks_list():
-    # 按 last_updated 排序（最新的在前），没有更新时间的排在后面
-    lst = sorted([{'code': c, **d} for c, d in stocks.items()], 
-                 key=lambda x: (x.get('last_updated', '') or '', x.get('mention_count', 0)), 
-                 reverse=True)
-    return render_template('stocks.html', total=len(lst), stocks=lst)
+    # 获取排序方式（通过 URL 参数）
+    sort_by = request.args.get('sort', 'updated')
+    
+    # 构建股票列表
+    stock_list = [{'code': c, **d} for c, d in stocks.items()]
+    
+    # 按不同方式排序
+    if sort_by == 'mention':
+        # 按提及次数排序
+        stock_list.sort(key=lambda x: x.get('mention_count', 0), reverse=True)
+    elif sort_by == 'name':
+        # 按名称拼音排序
+        stock_list.sort(key=lambda x: x.get('name', ''))
+    else:
+        # 默认按 last_updated 排序（最新的在前），没有更新时间的排在后面
+        stock_list.sort(key=lambda x: (x.get('last_updated', '') or '', x.get('mention_count', 0)), reverse=True)
+    
+    return render_template('stocks.html', total=len(stock_list), stocks=stock_list, sort_by=sort_by)
 
 @app.route('/social-security-new')
 def social_security_new():
@@ -634,6 +648,7 @@ def stock_detail(code):
         'board': d.get('board', ''),
         'industry': d.get('industry', ''),
         'mention_count': d.get('mention_count', 0),
+        'last_updated': d.get('last_updated', ''),
         'concepts': d.get('concepts', []),
         'core_business': d.get('core_business', []),
         'industry_position': d.get('industry_position', []),
@@ -1574,6 +1589,7 @@ def sync_to_firebase(stocks_dict, stats):
                         "board": {"stringValue": stock.get("board", "")},
                         "industry": {"stringValue": stock.get("industry", "")},
                         "mention_count": {"integerValue": str(stock.get("mention_count", 0))},
+                        "last_updated": {"stringValue": stock.get("last_updated", "")},
                         "updated_at": {"timestampValue": datetime.now().isoformat() + "Z"}
                     }
                 }
