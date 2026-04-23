@@ -1115,10 +1115,15 @@
         <!-- ─── 估值与财务指标 ─── -->
         <div class="info-grid" style="margin-top:1.5rem">
             <!-- 估值信息 -->
-            {% if stock.valuation and (stock.valuation.target_market_cap or stock.valuation.pe_ratio or stock.valuation.pb_ratio) %}
+            {% if stock.valuation and (stock.valuation.target_market_cap or stock.valuation.target_market_cap_billion or stock.valuation.pe_ratio or stock.valuation.pb_ratio) %}
             <div class="info-card">
                 <div class="section-title">📊 估值指标</div>
-                {% if stock.valuation.target_market_cap %}
+                {% if stock.valuation.target_market_cap_billion %}
+                <div style="margin-bottom:1rem">
+                    <div style="font-size:0.7rem;color:var(--text-muted);margin-bottom:0.4rem;font-weight:600;">目标市值</div>
+                    <div style="font-size:1.5rem;font-weight:700;color:var(--accent-amber)">{{ stock.valuation.target_market_cap_billion }} 亿</div>
+                </div>
+                {% elif stock.valuation.target_market_cap %}
                 <div style="margin-bottom:1rem">
                     <div style="font-size:0.7rem;color:var(--text-muted);margin-bottom:0.4rem;font-weight:600;">目标市值</div>
                     <div style="font-size:1.5rem;font-weight:700;color:var(--accent-amber)">{{ stock.valuation.target_market_cap }}</div>

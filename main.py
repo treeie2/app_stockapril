@@ -160,8 +160,20 @@ def load_data_from_firebase():
                     'partners': [],
                     'mention_count': int(fields.get('mention_count', {}).get('integerValue', '0') or 0),
                     'last_updated': fields.get('last_updated', {}).get('stringValue', ''),
+                    'valuation': {},
                     'articles': []
                 }
+                
+                # 获取估值信息
+                target_market_cap = fields.get('target_market_cap', {}).get('stringValue', '')
+                target_market_cap_billion = fields.get('target_market_cap_billion', {}).get('doubleValue', None)
+                
+                if target_market_cap or target_market_cap_billion is not None:
+                    stock['valuation'] = {}
+                    if target_market_cap:
+                        stock['valuation']['target_market_cap'] = target_market_cap
+                    if target_market_cap_billion is not None:
+                        stock['valuation']['target_market_cap_billion'] = float(target_market_cap_billion)
                 
                 # 获取概念
                 concepts_arr = fields.get('concepts', {}).get('arrayValue', {}).get('values', [])
@@ -1593,6 +1605,18 @@ def sync_to_firebase(stocks_dict, stats):
                         "updated_at": {"timestampValue": datetime.now().isoformat() + "Z"}
                     }
                 }
+                
+                # 添加估值信息
+                valuation = stock.get("valuation", {})
+                if valuation:
+                    if valuation.get("target_market_cap"):
+                        firestore_data["fields"]["target_market_cap"] = {
+                            "stringValue": valuation.get("target_market_cap", "")
+                        }
+                    if valuation.get("target_market_cap_billion"):
+                        firestore_data["fields"]["target_market_cap_billion"] = {
+                            "doubleValue": float(valuation.get("target_market_cap_billion", 0))
+                        }
                 
                 # 添加概念数组
                 concepts = stock.get("concepts", [])

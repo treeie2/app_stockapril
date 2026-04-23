@@ -50,6 +50,18 @@ def sync_to_firebase(stocks_dict):
                 }
             }
             
+            # 添加估值信息
+            valuation = stock.get("valuation", {})
+            if valuation:
+                if valuation.get("target_market_cap"):
+                    firestore_data["fields"]["target_market_cap"] = {
+                        "stringValue": valuation.get("target_market_cap", "")
+                    }
+                if valuation.get("target_market_cap_billion"):
+                    firestore_data["fields"]["target_market_cap_billion"] = {
+                        "doubleValue": float(valuation.get("target_market_cap_billion", 0))
+                    }
+            
             # 添加概念数组
             concepts = stock.get("concepts", [])
             if concepts:
