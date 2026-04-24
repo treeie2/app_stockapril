@@ -684,6 +684,11 @@ def stock_detail(code):
             concepts_arr = fields.get('concepts', {}).get('arrayValue', {}).get('values', [])
             d['concepts'] = [c.get('stringValue', '') for c in concepts_arr if c.get('stringValue')]
             
+            # 获取公司画像字段
+            for field_name in ['products', 'core_business', 'industry_position', 'chain', 'partners']:
+                arr = fields.get(field_name, {}).get('arrayValue', {}).get('values', [])
+                d[field_name] = [x.get('stringValue', '') for x in arr if x.get('stringValue')]
+            
             # 获取文章
             articles = fields.get('articles', {}).get('arrayValue', {}).get('values', [])
             for article in articles:
