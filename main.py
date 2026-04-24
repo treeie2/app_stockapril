@@ -732,7 +732,8 @@ def stock_detail(code):
         'key_metrics': d.get('key_metrics', []),
         'partners': d.get('partners', []),
         'products': d.get('products', []),
-        'detail_texts': d.get('detail_texts', [])[:5]
+        'detail_texts': d.get('detail_texts', [])[:5],
+        'valuation': d.get('valuation', {})
     }
     
     # 统一文章字段格式
