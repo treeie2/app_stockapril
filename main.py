@@ -356,11 +356,11 @@ concepts = {}
 hot_topics = []
 _data_loaded = False
 
-def load_all_data():
+def load_all_data(force_refresh=False):
     """加载所有数据（懒加载）"""
     global stocks, concepts, hot_topics, _data_loaded
     
-    if _data_loaded:
+    if _data_loaded and not force_refresh:
         return
     
     print("📋 开始加载数据...")
@@ -643,9 +643,9 @@ def demo_cards():
 
 @app.route('/stock/<code>')
 def stock_detail(code):
-    # 懒加载数据
+    # 每次请求都从 Firebase 重新加载数据（确保数据最新）
     try:
-        load_all_data()
+        load_all_data(force_refresh=True)
     except Exception as e:
         print(f"⚠️ 数据加载失败：{e}")
     
