@@ -643,15 +643,77 @@ def demo_cards():
 
 @app.route('/stock/<code>')
 def stock_detail(code):
-    # 懒加载数据
+    # 直接从 Firebase 获取最新数据（避免缓存问题）
     try:
-        load_all_data()
+        url = f"{FIREBASE_BASE_URL}/stocks/{code}"
+        resp = requests.get(url, timeout=10)
+        if resp.status_code == 200:
+            data = resp.json()
+            fields = data.get('fields', {})
+            
+            # 构建股票对象
+            d = {
+                'name': fields.get('name', {}).get('stringValue', ''),
+                'code': code,
+                'board': fields.get('board', {}).get('stringValue', ''),
+                'industry': fields.get('industry', {}).get('stringValue', ''),
+                'mention_count': int(fields.get('mention_count', {}).get('integerValue', '0') or 0),
+                'last_updated': fields.get('last_updated', {}).get('stringValue', ''),
+                'concepts': [],
+                'products': [],
+                'core_business': [],
+                'industry_position': [],
+                'chain': [],
+                'partners': [],
+                'articles': [],
+                'valuation': {}
+            }
+            
+            # 获取估值信息
+            target_market_cap = fields.get('target_market_cap', {}).get('stringValue', '')
+            target_market_cap_billion = fields.get('target_market_cap_billion', {}).get('doubleValue', None)
+            
+            if target_market_cap or target_market_cap_billion is not None:
+                d['valuation'] = {}
+                if target_market_cap:
+                    d['valuation']['target_market_cap'] = target_market_cap
+                if target_market_cap_billion is not None:
+                    d['valuation']['target_market_cap_billion'] = float(target_market_cap_billion)
+            
+            # 获取概念
+            concepts_arr = fields.get('concepts', {}).get('arrayValue', {}).get('values', [])
+            d['concepts'] = [c.get('stringValue', '') for c in concepts_arr if c.get('stringValue')]
+            
+            # 获取文章
+            articles = fields.get('articles', {}).get('arrayValue', {}).get('values', [])
+            for article in articles:
+                article_fields = article.get('mapValue', {}).get('fields', {})
+                article_data = {
+                    'title': article_fields.get('title', {}).get('stringValue', ''),
+                    'date': article_fields.get('date', {}).get('stringValue', ''),
+                    'source': article_fields.get('source', {}).get('stringValue', ''),
+                    'insights': [],
+                    'accidents': [],
+                    'key_metrics': []
+                }
+                
+                for field in ['insights', 'accidents', 'key_metrics']:
+                    arr = article_fields.get(field, {}).get('arrayValue', {}).get('values', [])
+                    article_data[field] = [x.get('stringValue', '') for x in arr if x.get('stringValue')]
+                
+                d['articles'].append(article_data)
+        else:
+            # Firebase 获取失败，使用本地缓存
+            load_all_data()
+            if code not in stocks:
+                return jsonify({'error': '股票不存在'}), 404
+            d = stocks[code]
     except Exception as e:
-        print(f"⚠️ 数据加载失败：{e}")
-    
-    if code not in stocks:
-        return jsonify({'error': '股票不存在'}), 404
-    d = stocks[code]
+        print(f"⚠️ Firebase 获取失败：{e}，使用本地缓存")
+        load_all_data()
+        if code not in stocks:
+            return jsonify({'error': '股票不存在'}), 404
+        d = stocks[code]
     
     # 构建完整的 stock 对象
     stock = {
