@@ -48,6 +48,56 @@ def jaccard_similarity(set1, set2):
     """计算两个集合的 Jaccard 相似度"""
     if not set1 or not set2:
         return 0.0
+    s1, s2 = set(set1), set(set2)
+    return len(s1 & s2) / len(s1 | s2)
+
+def parse_target_market_cap(text):
+    """
+    解析目标市值文本为数值（单位：亿元）
+    
+    支持的格式：
+    - "1100 亿" -> 1100.0
+    - "1100e" -> 1100.0
+    - "1.1 千亿" -> 1100.0
+    - "5000 万" -> 0.5
+    - "150" -> 150.0（默认为亿）
+    
+    Args:
+        text: 市值文本，如 "1100 亿"
+        
+    Returns:
+        float: 市值数值（亿元），解析失败返回 0.0
+    """
+    if not text:
+        return 0.0
+    
+    text = text.strip().lower()
+    
+    try:
+        # 匹配数字部分
+        import re
+        match = re.match(r'([\d.]+)\s*(亿 | 千万 | 百万 | 万 | e)?', text, re.IGNORECASE)
+        if not match:
+            return 0.0
+        
+        num = float(match.group(1))
+        unit = match.group(2) if match.group(2) else '亿'
+        
+        # 根据单位转换
+        if unit == 'e' or unit == '亿':
+            return num
+        elif unit == '千万':
+            return num / 10  # 1 千万 = 0.1 亿
+        elif unit == '百万':
+            return num / 100  # 1 百万 = 0.01 亿
+        elif unit == '万':
+            return num / 10000  # 1 万 = 0.0001 亿
+        elif unit == '千亿':
+            return num * 100  # 1 千亿 = 100 亿
+        else:
+            return num  # 默认作为亿
+    except (ValueError, AttributeError):
+        return 0.0
     intersection = len(set1 & set2)
     union = len(set1 | set2)
     return intersection / union if union > 0 else 0.0
@@ -888,6 +938,21 @@ def api_stock_edit(code):
         if field in data:
             stocks[code][field] = data[field]
             updated.append(field)
+    
+    # 股票级别的目标市值
+    if 'target_market_cap' in data:
+        target_cap = data['target_market_cap'].strip()
+        if target_cap:
+            # 解析目标市值（支持 "1100 亿", "1100e", "1.1 千亿" 等格式）
+            target_billion = parse_target_market_cap(target_cap)
+            if 'valuation' not in stocks[code]:
+                stocks[code]['valuation'] = {}
+            stocks[code]['valuation']['target_market_cap'] = target_cap
+            stocks[code]['valuation']['target_market_cap_billion'] = target_billion
+            updated.append('valuation')
+        else:
+            # 如果为空，删除估值字段
+            stocks[code].pop('valuation', None)
     
     # 文章相关字段（更新最新的一篇文章）
     article_fields = ['accidents', 'insights', 'target_valuation', 'expected_price', 'expected_performance', 'market_valuation']

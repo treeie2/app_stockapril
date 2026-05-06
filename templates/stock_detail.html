@@ -1619,6 +1619,15 @@
                                 <textarea id="edit-valuation" placeholder="例如：3 倍空间，300 亿市值">${(data.articles?.[0]?.target_valuation || []).join(', ')}</textarea>
                                 <div class="field-note">⚠️ 此字段将应用到最新一篇文章</div>
                             </div>
+                            
+                            <div class="inline-edit-row">
+                                <label>
+                                    📊 目标市值（股票级别）
+                                    <span class="field-hint">例如：1100 亿</span>
+                                </label>
+                                <input type="text" id="edit-target-market-cap" placeholder="例如：1100 亿" value="${data.valuation?.target_market_cap || ''}" style="width:100%;padding:0.7rem;background:rgba(255,255,255,0.03);border:1px solid var(--border);border-radius:6px;color:var(--text-primary);font-size:0.85rem">
+                                <div class="field-note">⚠️ 此字段为股票级别的目标市值</div>
+                            </div>
                         </div>
                         
                         <div class="inline-edit-footer">
@@ -1651,6 +1660,8 @@
                 industry_position: document.getElementById('edit-pos').value.split(',').map(s => s.trim()).filter(s => s),
                 chain: document.getElementById('edit-chain').value.split(',').map(s => s.trim()).filter(s => s),
                 partners: document.getElementById('edit-partners').value.split(',').map(s => s.trim()).filter(s => s),
+                // 股票级别的目标市值
+                target_market_cap: document.getElementById('edit-target-market-cap').value.trim(),
                 // 文章数据
                 accidents: document.getElementById('edit-accidents').value.split(',').map(s => s.trim()).filter(s => s),
                 insights: document.getElementById('edit-insights').value.split(',').map(s => s.trim()).filter(s => s),
