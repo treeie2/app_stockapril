@@ -80151,6 +80151,11 @@
           "date": "2026-03-25",
           "title": "0325信息汇总",
           "source": "https://mp.weixin.qq.com/s/A7IP8VkQuahCOZjumNl8vg"
+        },
+        {
+          "date": "2026-03-25",
+          "title": "0325信息汇总",
+          "source": "https://mp.weixin.qq.com/s/A7IP8VkQuahCOZjumNl8vg"
         }
       ],
       "last_updated": ""
@@ -105733,6 +105738,32 @@
       "partners": [],
       "mention_count": 4,
       "articles": [],
+      "last_updated": ""
+    },
+    "688702": {
+      "name": "盛科通信",
+      "code": "688702",
+      "board": "SH",
+      "industry": "电子-半导体-数字芯片设计",
+      "concepts": [
+        "科技"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "date": "2026-01-15",
+          "key_metrics": [
+            "亏损 1.6 亿元至 1.2 亿元"
+          ],
+          "title": "01月15日___公告精选",
+          "source": "https://mp.weixin.qq.com/s/JUD8Rl1vSTqdVJlWf40wzw"
+        }
+      ],
       "last_updated": ""
     },
     "688707": {
