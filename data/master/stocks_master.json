@@ -153,48 +153,6 @@
       ],
       "last_updated": ""
     },
-    "000027": {
-      "name": "深圳燃气",
-      "code": "000027",
-      "board": "SZ",
-      "industry": "公用事业-燃气-燃气Ⅲ",
-      "concepts": [
-        "天然气",
-        "证金持股",
-        "POE胶膜",
-        "沪股通",
-        "融资融券",
-        "氢能源",
-        "深圳国企改革",
-        "国企改革",
-        "绿色电力",
-        "华为数字能源",
-        "燃料电池",
-        "DeepSeek概念",
-        "固态电池",
-        "智慧城市",
-        "光伏概念",
-        "百度概念",
-        "数据中心"
-      ],
-      "products": [],
-      "core_business": [],
-      "industry_position": [],
-      "chain": [],
-      "partners": [],
-      "mention_count": 0,
-      "articles": [
-        {
-          "date": "2025-04-07",
-          "key_metrics": [
-            "核心逻辑：长三角燃气供应龙头，股息率4.5%，受益能源保供政策，业务稳定性强"
-          ],
-          "title": "“统一大市场”深度解析与操作策略（4月7日更新）",
-          "source": "https://mp.weixin.qq.com/s/DCDp1qniHL0ucYFbO2BWxA"
-        }
-      ],
-      "last_updated": ""
-    },
     "000028": {
       "name": "国药一致",
       "code": "000028",
@@ -10827,46 +10785,6 @@
       ],
       "last_updated": "2026-04-21"
     },
-    "002047": {
-      "name": "长光华芯",
-      "code": "002047",
-      "board": "",
-      "industry": "制造业",
-      "concepts": [
-        "制造业"
-      ],
-      "products": [],
-      "core_business": [],
-      "industry_position": [],
-      "chain": [],
-      "partners": [],
-      "mention_count": 1,
-      "articles": [
-        {
-          "date": "2026-03-19",
-          "key_metrics": [
-            "2025年收入超过4亿",
-            "2025年固晶机收入约5000万",
-            "2026年固晶机收入有望达到2亿"
-          ],
-          "target_valuation": [
-            "总体350亿市值，对应当前100亿市值，有2倍以上空间"
-          ],
-          "title": "",
-          "source": "https://mp.weixin.qq.com/s/rhAht_cOB_4uAmIhV1CpYQ",
-          "insights": [
-            "光芯片&光模块设备业务受下游客户需求爆发式增长",
-            "半导体封装领域固晶机、分选机等产品批量出货",
-            "消费电子业务稳健增长"
-          ],
-          "accidents": [
-            "CCL 涨价超 30%",
-            "纳米级精密运动控制平台的市场空间巨大"
-          ]
-        }
-      ],
-      "last_updated": ""
-    },
     "002048": {
       "name": "宁波华翔",
       "code": "002048",
@@ -17888,79 +17806,6 @@
       "mention_count": 2,
       "articles": [],
       "last_updated": ""
-    },
-    "002324": {
-      "name": "普利特",
-      "code": "002324",
-      "board": "SZ",
-      "industry": "基础化工-塑料制品-改性塑料",
-      "concepts": [
-        "脑机接口",
-        "商业航天",
-        "卫星导航",
-        "碳纤维",
-        "军工",
-        "低空经济",
-        "6G概念",
-        "PEEK材料",
-        "毫米波雷达",
-        "光刻胶",
-        "消费电子概念",
-        "机器人概念",
-        "专精特新",
-        "固态电池",
-        "新能源汽车",
-        "锂电池概念",
-        "2025三季报预增",
-        "储能",
-        "长三角一体化",
-        "钠离子电池",
-        "2025年报预增",
-        "深股通",
-        "融资融券"
-      ],
-      "products": [
-        "LCP薄膜"
-      ],
-      "core_business": [
-        "新材料"
-      ],
-      "industry_position": [
-        "全球唯一LCP全产业链"
-      ],
-      "chain": [
-        "上游-上游材料"
-      ],
-      "partners": [],
-      "mention_count": 2,
-      "articles": [
-        {
-          "date": "2026-03-14",
-          "key_metrics": [
-            "LCP薄膜用于脑机接口"
-          ],
-          "title": "全球首发侵入式脑机接口医疗器械_核心公司梳理",
-          "source": "https://mp.weixin.qq.com/s/rYEMEpkAUr7VMo9s9w-IRA",
-          "insights": [
-            "受益于脑机接口技术发展"
-          ],
-          "accidents": [
-            "全球首发侵入式脑机接口医疗器械获批"
-          ]
-        },
-        {
-          "title": "今天的一些信息整理 5.7",
-          "date": "2026-05-09",
-          "source": "https://mp.weixin.qq.com/s/jU3eFc1irDolyJyLd6egyg",
-          "accidents": [
-            "与腾讯签署《腾讯定制化数据中心合作协议》"
-          ],
-          "insights": [],
-          "key_metrics": [],
-          "target_valuation": []
-        }
-      ],
-      "last_updated": "2026-05-09"
     },
     "002326": {
       "name": "永太科技",
@@ -47797,49 +47642,6 @@
       ],
       "last_updated": ""
     },
-    "300686": {
-      "name": "金安国纪",
-      "code": "300686",
-      "board": "",
-      "industry": "科技",
-      "concepts": [
-        "科技"
-      ],
-      "products": [],
-      "core_business": [],
-      "industry_position": [],
-      "chain": [],
-      "partners": [],
-      "mention_count": 1,
-      "articles": [
-        {
-          "date": "2026-03-19",
-          "key_metrics": [
-            "中泰电子：26/27年归母净利润18.55/28.3亿元，PE 27.2/17.8倍",
-            "沪电股份：26/27年归母净利润25/38.3亿元，PE 25.3/17.8倍",
-            "金安国纪：26/27年归母净利润17e/25e利润，PE 14/9x"
-          ],
-          "target_valuation": [
-            "中泰电子：PE 27.2/17.8倍",
-            "沪电股份：PE 25.3/17.8倍",
-            "金安国纪：PE 14/9x"
-          ],
-          "title": "",
-          "source": "https://mp.weixin.qq.com/s/qzwQzBAi_kVX_bIal8gXyg",
-          "insights": [
-            "AI业务是中泰电子的核心增长点，建议持续关注其产能扩张和盈利能力提升。",
-            "沪电股份在高多层PCB领域具有竞争优势，建议关注其800G交换机的放量和CPO技术的进一步落地。",
-            "金安国纪的CCL涨价是业绩放量的重要催化剂，建议关注其光互联需求的增长潜力。"
-          ],
-          "accidents": [
-            "中泰电子 AI业务边际变化极大，产能积极扩充，成长空间足。",
-            "沪电股份 高多层PCB领域的核心龙头，LPU和正交背板强预期，800G交换机加速放量。",
-            "金安国纪 CCL涨价大超预期，业绩高弹性释放。"
-          ]
-        }
-      ],
-      "last_updated": ""
-    },
     "300687": {
       "name": "赛意信息",
       "code": "300687",
@@ -58103,23 +57905,6 @@
       ],
       "last_updated": ""
     },
-    "301392": {
-      "name": "汇成真空",
-      "code": "301392",
-      "board": "",
-      "industry": "创业板",
-      "concepts": [
-        "创业板"
-      ],
-      "products": [],
-      "core_business": [],
-      "industry_position": [],
-      "chain": [],
-      "partners": [],
-      "mention_count": 2,
-      "articles": [],
-      "last_updated": ""
-    },
     "301393": {
       "name": "昊帆生物",
       "code": "301393",
@@ -61631,29 +61416,6 @@
           "date": "",
           "title": "风口byTY",
           "source": ""
-        }
-      ],
-      "last_updated": ""
-    },
-    "600046": {
-      "name": "紫光国微",
-      "code": "600046",
-      "board": "",
-      "industry": "制造业",
-      "concepts": [
-        "制造业"
-      ],
-      "products": [],
-      "core_business": [],
-      "industry_position": [],
-      "chain": [],
-      "partners": [],
-      "mention_count": 1,
-      "articles": [
-        {
-          "date": "2026-03-19",
-          "title": "",
-          "source": "https://mp.weixin.qq.com/s/PQ_0mafAn44Fag7BrsESCQ"
         }
       ],
       "last_updated": ""
@@ -73159,41 +72921,6 @@
       "articles": [],
       "last_updated": ""
     },
-    "600782": {
-      "name": "复旦微电",
-      "code": "600782",
-      "board": "",
-      "industry": "制造业",
-      "concepts": [
-        "制造业"
-      ],
-      "products": [],
-      "core_business": [],
-      "industry_position": [],
-      "chain": [],
-      "partners": [],
-      "mention_count": 1,
-      "articles": [
-        {
-          "date": "2026-03-19",
-          "key_metrics": [
-            "FPGA年需求量约37.5万颗，单价1.2万美元，新增市场规模45亿美元。"
-          ],
-          "target_valuation": [
-            "紫光国微估值在300-400亿元之间，复旦微电在500-600亿元之间，安路科技在200-300亿元之间，成都华微在400-500亿元之间。"
-          ],
-          "title": "",
-          "source": "https://mp.weixin.qq.com/s/PQ_0mafAn44Fag7BrsESCQ",
-          "insights": [
-            "国产FPGA厂商迎来历史机遇，AI算力产业快速发展推动替代进程。"
-          ],
-          "accidents": [
-            "英伟达GTC大会发布Groq 3 LPX AI推理加速器机架，FPGA核心地位凸显。"
-          ]
-        }
-      ],
-      "last_updated": ""
-    },
     "600783": {
       "name": "鲁信创投",
       "code": "600783",
@@ -76008,49 +75735,6 @@
           "accidents": [
             "承接马年春晚数字藏品区块链技术与运营",
             "接入字节豆包相关系统拿下春晚营销订单"
-          ]
-        }
-      ],
-      "last_updated": ""
-    },
-    "600987": {
-      "name": "沪电股份",
-      "code": "600987",
-      "board": "",
-      "industry": "制造业",
-      "concepts": [
-        "制造业"
-      ],
-      "products": [],
-      "core_business": [],
-      "industry_position": [],
-      "chain": [],
-      "partners": [],
-      "mention_count": 1,
-      "articles": [
-        {
-          "date": "2026-03-19",
-          "key_metrics": [
-            "中泰电子：26/27年归母净利润18.55/28.3亿元，PE 27.2/17.8倍",
-            "沪电股份：26/27年归母净利润25/38.3亿元，PE 25.3/17.8倍",
-            "金安国纪：26/27年归母净利润17e/25e利润，PE 14/9x"
-          ],
-          "target_valuation": [
-            "中泰电子：PE 27.2/17.8倍",
-            "沪电股份：PE 25.3/17.8倍",
-            "金安国纪：PE 14/9x"
-          ],
-          "title": "",
-          "source": "https://mp.weixin.qq.com/s/qzwQzBAi_kVX_bIal8gXyg",
-          "insights": [
-            "AI业务是中泰电子的核心增长点，建议持续关注其产能扩张和盈利能力提升。",
-            "沪电股份在高多层PCB领域具有竞争优势，建议关注其800G交换机的放量和CPO技术的进一步落地。",
-            "金安国纪的CCL涨价是业绩放量的重要催化剂，建议关注其光互联需求的增长潜力。"
-          ],
-          "accidents": [
-            "中泰电子 AI业务边际变化极大，产能积极扩充，成长空间足。",
-            "沪电股份 高多层PCB领域的核心龙头，LPU和正交背板强预期，800G交换机加速放量。",
-            "金安国纪 CCL涨价大超预期，业绩高弹性释放。"
           ]
         }
       ],
@@ -82139,49 +81823,6 @@
           "date": "",
           "title": "风口byTY",
           "source": ""
-        }
-      ],
-      "last_updated": ""
-    },
-    "603016": {
-      "name": "法拉电子",
-      "code": "603016",
-      "board": "",
-      "industry": "制造业",
-      "concepts": [
-        "科技"
-      ],
-      "products": [],
-      "core_business": [],
-      "industry_position": [],
-      "chain": [],
-      "partners": [],
-      "mention_count": 1,
-      "articles": [
-        {
-          "date": "2026-03-19",
-          "key_metrics": [
-            "中泰电子：26/27年归母净利润18.55/28.3亿元，PE 27.2/17.8倍",
-            "沪电股份：26/27年归母净利润25/38.3亿元，PE 25.3/17.8倍",
-            "金安国纪：26/27年归母净利润17e/25e利润，PE 14/9x"
-          ],
-          "target_valuation": [
-            "中泰电子：PE 27.2/17.8倍",
-            "沪电股份：PE 25.3/17.8倍",
-            "金安国纪：PE 14/9x"
-          ],
-          "title": "",
-          "source": "https://mp.weixin.qq.com/s/qzwQzBAi_kVX_bIal8gXyg",
-          "insights": [
-            "AI业务是中泰电子的核心增长点，建议持续关注其产能扩张和盈利能力提升。",
-            "沪电股份在高多层PCB领域具有竞争优势，建议关注其800G交换机的放量和CPO技术的进一步落地。",
-            "金安国纪的CCL涨价是业绩放量的重要催化剂，建议关注其光互联需求的增长潜力。"
-          ],
-          "accidents": [
-            "中泰电子 AI业务边际变化极大，产能积极扩充，成长空间足。",
-            "沪电股份 高多层PCB领域的核心龙头，LPU和正交背板强预期，800G交换机加速放量。",
-            "金安国纪 CCL涨价大超预期，业绩高弹性释放。"
-          ]
         }
       ],
       "last_updated": ""
@@ -90278,41 +89919,6 @@
       ],
       "last_updated": ""
     },
-    "603788": {
-      "name": "紫光国微",
-      "code": "603788",
-      "board": "",
-      "industry": "制造业",
-      "concepts": [
-        "制造业"
-      ],
-      "products": [],
-      "core_business": [],
-      "industry_position": [],
-      "chain": [],
-      "partners": [],
-      "mention_count": 1,
-      "articles": [
-        {
-          "date": "2026-03-19",
-          "key_metrics": [
-            "FPGA年需求量约37.5万颗，单价1.2万美元，新增市场规模45亿美元。"
-          ],
-          "target_valuation": [
-            "紫光国微估值在300-400亿元之间，复旦微电在500-600亿元之间，安路科技在200-300亿元之间，成都华微在400-500亿元之间。"
-          ],
-          "title": "",
-          "source": "https://mp.weixin.qq.com/s/PQ_0mafAn44Fag7BrsESCQ",
-          "insights": [
-            "国产FPGA厂商迎来历史机遇，AI算力产业快速发展推动替代进程。"
-          ],
-          "accidents": [
-            "英伟达GTC大会发布Groq 3 LPX AI推理加速器机架，FPGA核心地位凸显。"
-          ]
-        }
-      ],
-      "last_updated": ""
-    },
     "603790": {
       "name": "雅运股份",
       "code": "603790",
@@ -93944,57 +93550,6 @@
       ],
       "last_updated": ""
     },
-    "688007": {
-      "name": "华丰科技",
-      "code": "688007",
-      "board": "SH",
-      "industry": "国防军工-军工电子-军工电子Ⅲ",
-      "concepts": [
-        "华为",
-        "共封装光学(CPO)",
-        "铜缆高速连接",
-        "5G",
-        "数据中心",
-        "比亚迪概念",
-        "无人机",
-        "高压快充",
-        "卫星导航",
-        "商业航天",
-        "华为概念",
-        "军工",
-        "新能源汽车",
-        "低空经济",
-        "机器人概念",
-        "阿里巴巴概念",
-        "腾讯概念",
-        "高铁",
-        "核电",
-        "西部大开发",
-        "国企改革",
-        "沪股通",
-        "融资融券"
-      ],
-      "products": [],
-      "core_business": [],
-      "industry_position": [],
-      "chain": [],
-      "partners": [],
-      "mention_count": 0,
-      "articles": [
-        {
-          "date": "2025-11-17",
-          "key_metrics": [
-            "华为算力概念核心标的，当前价位可考虑分批建仓，止损位设在22.5元附近"
-          ],
-          "title": "11月17日，市场复盘及操作策略，华为概念轮动反弹",
-          "source": "https://mp.weixin.qq.com/s/NWoojp49-aeO-vQQ172dWQ",
-          "insights": [
-            "华为算力概念核心标的"
-          ]
-        }
-      ],
-      "last_updated": ""
-    },
     "688008": {
       "name": "澜起科技",
       "code": "688008",
@@ -94977,43 +94532,6 @@
       "partners": [],
       "mention_count": 2,
       "articles": [],
-      "last_updated": ""
-    },
-    "688051": {
-      "name": "德科立",
-      "code": "688051",
-      "board": "SH",
-      "industry": "通信-通信设备-通信网络设备及器件",
-      "concepts": [
-        "共封装光学(CPO)",
-        "F5G概念",
-        "5G",
-        "芯片概念",
-        "数据中心",
-        "专精特新",
-        "东数西算(算力)",
-        "沪股通",
-        "融资融券"
-      ],
-      "products": [],
-      "core_business": [],
-      "industry_position": [],
-      "chain": [],
-      "partners": [],
-      "mention_count": 0,
-      "articles": [
-        {
-          "date": "2025-12-10",
-          "title": "12月10日，热点关注，今日操作策略与风险提示，推送第二条是马前炮",
-          "source": "https://mp.weixin.qq.com/s/syT3Rg_NeyeLhQROcDQsKw",
-          "insights": [
-            "福建区域板块"
-          ],
-          "accidents": [
-            "福建区域板块"
-          ]
-        }
-      ],
       "last_updated": ""
     },
     "688052": {
@@ -98257,41 +97775,6 @@
             "2010年推出商用级IaaS产品BingoCloudOS，国内最早云操作系统厂商",
             "覆盖政务/公安/军工/轨交等核心行业",
             "拟4亿元增资江原科技至14.53%，深化云-边-端产业布局"
-          ]
-        }
-      ],
-      "last_updated": ""
-    },
-    "688228": {
-      "name": "安路科技",
-      "code": "688228",
-      "board": "",
-      "industry": "科技",
-      "concepts": [
-        "科技"
-      ],
-      "products": [],
-      "core_business": [],
-      "industry_position": [],
-      "chain": [],
-      "partners": [],
-      "mention_count": 1,
-      "articles": [
-        {
-          "date": "2026-03-19",
-          "key_metrics": [
-            "FPGA年需求量约37.5万颗，单价1.2万美元，新增市场规模45亿美元。"
-          ],
-          "target_valuation": [
-            "紫光国微估值在300-400亿元之间，复旦微电在500-600亿元之间，安路科技在200-300亿元之间，成都华微在400-500亿元之间。"
-          ],
-          "title": "",
-          "source": "https://mp.weixin.qq.com/s/PQ_0mafAn44Fag7BrsESCQ",
-          "insights": [
-            "国产FPGA厂商迎来历史机遇，AI算力产业快速发展推动替代进程。"
-          ],
-          "accidents": [
-            "英伟达GTC大会发布Groq 3 LPX AI推理加速器机架，FPGA核心地位凸显。"
           ]
         }
       ],
@@ -107005,41 +106488,6 @@
       ],
       "last_updated": ""
     },
-    "688999": {
-      "name": "成都华微",
-      "code": "688999",
-      "board": "",
-      "industry": "科技",
-      "concepts": [
-        "科技"
-      ],
-      "products": [],
-      "core_business": [],
-      "industry_position": [],
-      "chain": [],
-      "partners": [],
-      "mention_count": 1,
-      "articles": [
-        {
-          "date": "2026-03-19",
-          "key_metrics": [
-            "FPGA年需求量约37.5万颗，单价1.2万美元，新增市场规模45亿美元。"
-          ],
-          "target_valuation": [
-            "紫光国微估值在300-400亿元之间，复旦微电在500-600亿元之间，安路科技在200-300亿元之间，成都华微在400-500亿元之间。"
-          ],
-          "title": "",
-          "source": "https://mp.weixin.qq.com/s/PQ_0mafAn44Fag7BrsESCQ",
-          "insights": [
-            "国产FPGA厂商迎来历史机遇，AI算力产业快速发展推动替代进程。"
-          ],
-          "accidents": [
-            "英伟达GTC大会发布Groq 3 LPX AI推理加速器机架，FPGA核心地位凸显。"
-          ]
-        }
-      ],
-      "last_updated": ""
-    },
     "689009": {
       "name": "九号公司",
       "code": "689009",
@@ -107288,77 +106736,6 @@
         }
       ],
       "last_updated": ""
-    },
-    "832522": {
-      "name": "纳科诺尔",
-      "code": "832522",
-      "board": "BJ",
-      "industry": "机械设备 - 专用设备 - 电池设备",
-      "concepts": [
-        "固态电池",
-        "干法电极",
-        "等静压设备",
-        "锂电池设备"
-      ],
-      "products": [
-        "辊压设备",
-        "干法电极设备",
-        "等静压设备",
-        "锂带压延转印设备"
-      ],
-      "core_business": [
-        "锂电池极片辊压设备研发制造",
-        "固态电池设备解决方案",
-        "干法电极设备制造"
-      ],
-      "industry_position": [
-        "固态电池设备前中段核心公司",
-        "干法电极设备卡位领先",
-        "等静压设备进展积极"
-      ],
-      "chain": [
-        "中游 - 电池设备制造"
-      ],
-      "partners": [
-        "清研电子",
-        "欧阳明高院士团队",
-        "瑞固新材"
-      ],
-      "mention_count": 4,
-      "articles": [
-        {
-          "date": "2026-04-20",
-          "title": "纳科诺尔研究",
-          "source": "用户输入",
-          "insights": [
-            "辊压龙头，热辊压技术指标领先，固态关键设备已交付头部客户；公司在干法电极成膜/压延、电解质成膜/转印、等静压多点布局，享受干法必选+辊压升级量价双重红利。"
-          ],
-          "accidents": [
-            "辊压龙头，热辊压技术指标领先，固态关键设备已交付头部客户；公司在干法电极成膜/压延、电解质成膜/转印、等静压多点布局，享受干法必选+辊压升级量价双重红利。"
-          ]
-        },
-        {
-          "title": "纳科诺尔，2倍空间？",
-          "date": "2026-04-21",
-          "source": "https://mp.weixin.qq.com/s/P_7ZSibZW_eQeJDvOqbzKA",
-          "accidents": [
-            "固态实验室主体已建成，设备进厂",
-            "首台等静压设备下线，容积 8L",
-            "干法正极成膜设备取得进展"
-          ],
-          "insights": [
-            "干法电极设备卡位领先，等静压设备进展积极"
-          ],
-          "key_metrics": [],
-          "target_valuation": []
-        }
-      ],
-      "last_updated": "2026-04-23",
-      "valuation": {
-        "target_market_cap": "275亿",
-        "upside": "200%",
-        "rating": "看好"
-      }
     },
     "833171": {
       "name": "国航远洋",
@@ -108007,23 +107384,6 @@
       "articles": [],
       "last_updated": ""
     },
-    "920225": {
-      "name": "利通科技",
-      "code": "920225",
-      "board": "",
-      "industry": "其他",
-      "concepts": [
-        "科技"
-      ],
-      "products": [],
-      "core_business": [],
-      "industry_position": [],
-      "chain": [],
-      "partners": [],
-      "mention_count": 1,
-      "articles": [],
-      "last_updated": ""
-    },
     "920239": {
       "name": "长虹能源",
       "code": "920239",
@@ -108288,15 +107648,65 @@
       "board": "",
       "industry": "其他",
       "concepts": [
-        "其他"
+        "其他",
+        "固态电池",
+        "干法电极",
+        "等静压设备",
+        "锂电池设备"
       ],
-      "products": [],
-      "core_business": [],
-      "industry_position": [],
-      "chain": [],
-      "partners": [],
-      "mention_count": 4,
-      "articles": [],
+      "products": [
+        "辊压设备",
+        "干法电极设备",
+        "等静压设备",
+        "锂带压延转印设备"
+      ],
+      "core_business": [
+        "锂电池极片辊压设备研发制造",
+        "固态电池设备解决方案",
+        "干法电极设备制造"
+      ],
+      "industry_position": [
+        "固态电池设备前中段核心公司",
+        "干法电极设备卡位领先",
+        "等静压设备进展积极"
+      ],
+      "chain": [
+        "中游 - 电池设备制造"
+      ],
+      "partners": [
+        "清研电子",
+        "欧阳明高院士团队",
+        "瑞固新材"
+      ],
+      "mention_count": 2,
+      "articles": [
+        {
+          "date": "2026-04-20",
+          "title": "纳科诺尔研究",
+          "source": "用户输入",
+          "insights": [
+            "辊压龙头，热辊压技术指标领先，固态关键设备已交付头部客户；公司在干法电极成膜/压延、电解质成膜/转印、等静压多点布局，享受干法必选+辊压升级量价双重红利。"
+          ],
+          "accidents": [
+            "辊压龙头，热辊压技术指标领先，固态关键设备已交付头部客户；公司在干法电极成膜/压延、电解质成膜/转印、等静压多点布局，享受干法必选+辊压升级量价双重红利。"
+          ]
+        },
+        {
+          "title": "纳科诺尔，2倍空间？",
+          "date": "2026-04-21",
+          "source": "https://mp.weixin.qq.com/s/P_7ZSibZW_eQeJDvOqbzKA",
+          "accidents": [
+            "固态实验室主体已建成，设备进厂",
+            "首台等静压设备下线，容积 8L",
+            "干法正极成膜设备取得进展"
+          ],
+          "insights": [
+            "干法电极设备卡位领先，等静压设备进展积极"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
       "last_updated": ""
     },
     "920576": {
@@ -108677,7 +108087,8 @@
       "concepts": [
         "固态电池",
         "等静压设备",
-        "超高压装备"
+        "超高压装备",
+        "科技"
       ],
       "products": [
         "等静压设备",
@@ -108881,45 +108292,6 @@
           "key_metrics": [
             "亏损 1.6 亿元至 1.2 亿元"
           ],
-          "target_valuation": []
-        }
-      ],
-      "last_updated": "2026-05-09"
-    },
-    "300741": {
-      "name": "凌玮科技",
-      "code": "300741",
-      "board": "SZ",
-      "industry": "电子 - 电子化学品 - 电子化学品",
-      "concepts": [
-        "M9Q 布",
-        "LPU 材料"
-      ],
-      "products": [
-        "M9Q 布"
-      ],
-      "core_business": [
-        "材料研发与生产"
-      ],
-      "industry_position": [],
-      "chain": [
-        "上游 - 材料"
-      ],
-      "partners": [
-        "英伟达供应链"
-      ],
-      "mention_count": 1,
-      "valuation": {},
-      "articles": [
-        {
-          "title": "今天的一些信息整理 5.7",
-          "date": "2026-05-09",
-          "source": "https://mp.weixin.qq.com/s/jU3eFc1irDolyJyLd6egyg",
-          "accidents": [
-            "LPU 加速，材料升级"
-          ],
-          "insights": [],
-          "key_metrics": [],
           "target_valuation": []
         }
       ],
