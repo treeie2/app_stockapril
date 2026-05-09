@@ -27,18 +27,29 @@ ARTICLE_API_URL = os.environ.get('ARTICLE_API_URL', 'http://localhost:5001')
 
 # 获取项目根目录（兼容 Vercel 和本地环境）
 def get_base_dir():
-    """获取项目根目录"""
+    """获取项目根目录（兼容本地和 Vercel）"""
+    # 优先使用环境变量（Vercel 部署时设置）
+    if 'VERCEL' in os.environ:
+        # Vercel Python Runtime: 代码在 /var/task/ 下
+        task_dir = Path('/var/task')
+        if (task_dir / 'main.py').exists() or (task_dir / 'api').exists():
+            return task_dir
+
     # 尝试从当前文件位置获取
     try:
-        return Path(__file__).parent
+        p = Path(__file__).parent
+        # 验证：确保 data 目录在同一级
+        if (p / 'data').exists() or (p.parent / 'data').exists():
+            return p
     except:
         pass
-    
-    # 尝试从环境变量获取（Vercel）
-    if 'VERCEL' in os.environ:
-        return Path('/var/task')
-    
-    # 默认使用当前工作目录
+
+    # 尝试 cwd
+    cwd = Path(os.getcwd())
+    if (cwd / 'data').exists():
+        return cwd
+
+    # 兜底
     return Path(os.getcwd())
 
 BASE_DIR = get_base_dir()
@@ -1160,6 +1171,25 @@ def sync_hot_topics_to_agent_store():
         print(f"✅ 热点数据已同步到 agent_store")
     except Exception as e:
         print(f"⚠️ 同步到 agent_store 失败: {e}")
+
+@app.route('/api/debug')
+def api_debug():
+    """调试端点"""
+    import sys
+    hot_file = BASE_DIR / 'data' / 'hot_topics.json'
+    result = {
+        'base_dir': str(BASE_DIR),
+        'base_dir_exists': BASE_DIR.exists(),
+        'hot_topics_file': str(hot_file),
+        'hot_topics_exists': hot_file.exists(),
+        'hot_topics_count': len(hot_topics),
+    }
+    if hot_file.exists():
+        try:
+            result['hot_topics_size'] = hot_file.stat().st_size
+        except:
+            pass
+    return jsonify(result)
 
 @app.route('/api/search/fulltext')
 def api_fulltext_search():
