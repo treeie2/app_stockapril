@@ -2,11 +2,15 @@
 """
 个股研究数据库 Web 界面 - Railway 极简版
 """
+import sys, io
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
 
 from flask import Flask, jsonify, render_template, request, send_file
 import json, gzip, os, requests
 from pathlib import Path
 from datetime import datetime
+from firebase_hot_topics import sync_to_firebase, load_from_firebase
 
 # 延迟导入 akshare（避免加载慢）
 def get_akshare():
@@ -42,6 +46,7 @@ BASE_DIR = get_base_dir()
 # 数据路径
 DATA_DIR = BASE_DIR / 'data' / 'sentiment'
 SEARCH_INDEX_FILE = DATA_DIR / 'search_index_full.json.gz'
+HOT_TOPICS_FILE = BASE_DIR / 'data' / 'hot_topics.json'
 
 # ─── Jaccard 相似度计算 ───
 def jaccard_similarity(set1, set2):
@@ -452,16 +457,20 @@ def load_all_data():
             except Exception as e:
                 print(f"  ⚠️ Master 文件加载失败：{e}")
         
-        # 加载热点数据
-        HOT_TOPICS_FILE = BASE_DIR / 'data' / 'hot_topics.json'
-        if HOT_TOPICS_FILE.exists():
-            try:
-                with open(HOT_TOPICS_FILE, 'r', encoding='utf-8') as f:
-                    hot_topics_data = json.load(f)
-                    hot_topics = hot_topics_data.get('topics', [])
-                print(f"📊 加载热点数据：{len(hot_topics)} 个热点")
-            except Exception as e:
-                print(f"⚠️ 加载热点数据失败：{e}")
+        # 优先从 Firebase 加载热点数据
+        fb_topics = load_from_firebase()
+        if fb_topics is not None:
+            hot_topics = fb_topics
+        else:
+            # 回退到本地文件
+            if HOT_TOPICS_FILE.exists():
+                try:
+                    with open(HOT_TOPICS_FILE, 'r', encoding='utf-8') as f:
+                        hot_topics_data = json.load(f)
+                        hot_topics = hot_topics_data.get('topics', [])
+                    print(f"📊 加载热点数据：{len(hot_topics)} 个热点")
+                except Exception as e:
+                    print(f"⚠️ 加载热点数据失败：{e}")
         
         print(f"📊 数据加载完成：{len(stocks)} 只股票，{len(concepts)} 个概念，{len(hot_topics)} 个热点")
         _data_loaded = True
@@ -567,8 +576,19 @@ def dashboard():
             'has_more': has_more
         })
     
+    # 每次都重新加载最新热点数据
+    current_hot_topics = []
+    try:
+        hot_file = BASE_DIR / 'data' / 'hot_topics.json'
+        if hot_file.exists():
+            with open(hot_file, 'r', encoding='utf-8') as f:
+                ht_data = json.load(f)
+                current_hot_topics = ht_data.get('topics', [])
+    except Exception:
+        current_hot_topics = hot_topics  # 回退到全局变量
+
     # 首次加载，渲染完整页面
-    return render_template('dashboard.html', 
+    return render_template('dashboard.html',
         stocks=paginated_stocks,
         total_stocks=len(paginated_stocks),
         total_mentions=sum(s.get('mention_count', 0) for s in paginated_stocks),
@@ -576,7 +596,7 @@ def dashboard():
         has_more=has_more,
         next_offset=offset + limit,
         limit=limit,
-        hot_topics=hot_topics)
+        hot_topics=current_hot_topics)
 
 @app.route('/hot-topic/<topic_id>')
 def hot_topic_detail(topic_id):
@@ -1081,6 +1101,7 @@ def api_update_hot_topic(topic_id):
     
     return jsonify({'success': False, 'error': '热点不存在'}), 404
 
+@app.route('/api/reload-hot-topics', methods=['POST'])
 def reload_hot_topics():
     """重新加载热点数据"""
     global hot_topics
@@ -1090,8 +1111,11 @@ def reload_hot_topics():
                 hot_topics_data = json.load(f)
                 hot_topics = hot_topics_data.get('topics', [])
             print(f"📊 重新加载热点数据：{len(hot_topics)} 个热点")
+            return jsonify({'success': True, 'count': len(hot_topics), 'topics': hot_topics})
         except Exception as e:
             print(f"⚠️ 重新加载热点数据失败: {e}")
+            return jsonify({'success': False, 'error': str(e)}), 500
+    return jsonify({'success': False, 'error': 'hot_topics.json 不存在'}), 404
 
 @app.route('/api/hot-topic/<topic_id>', methods=['DELETE'])
 def api_delete_hot_topic(topic_id):
@@ -1120,6 +1144,9 @@ def save_hot_topics():
         
         # 同步到 agent_store
         sync_hot_topics_to_agent_store()
+
+        # 同步到 Firebase
+        sync_to_firebase(hot_topics)
     except Exception as e:
         print(f"❌ 保存热点数据失败: {e}")
 

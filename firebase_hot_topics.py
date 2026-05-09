@@ -1,0 +1,97 @@
+"""Firebase 热点数据同步模块 - 使用 Admin SDK"""
+from pathlib import Path
+import os
+
+# 禁用代理（尝试解决国内网络问题）
+os.environ["NO_PROXY"] = "firestore.googleapis.com,googleapis.com,oauth2.googleapis.com"
+os.environ["no_proxy"] = "firestore.googleapis.com,googleapis.com,oauth2.googleapis.com"
+
+FIREBASE_PROJECT_ID = "hottopic-7b5a7"
+KEY_FILES = [
+    Path(__file__).parent / "serviceAccountKey.json",
+    Path(__file__).parent / "firebase_key.json",
+    Path(__file__).parent / ".trae" / "rules" / "firebase-credentials.json",
+]
+
+
+def _get_app():
+    """获取或初始化 Firebase App，失败返回 None。"""
+    import firebase_admin
+    from firebase_admin import credentials
+
+    # 如果已经初始化，直接返回
+    if firebase_admin._apps:
+        return firebase_admin.get_app()
+
+    # 查找密钥文件
+    key_file = None
+    for f in KEY_FILES:
+        if f.exists():
+            key_file = str(f)
+            break
+
+    if not key_file:
+        print("[Firebase] 未找到服务账号密钥文件，跳过")
+        return None
+
+    try:
+        cred = credentials.Certificate(key_file)
+        app = firebase_admin.initialize_app(cred, {
+            'projectId': FIREBASE_PROJECT_ID,
+        })
+        print(f"[Firebase] 已初始化: {FIREBASE_PROJECT_ID}")
+        return app
+    except Exception as e:
+        print(f"[Firebase] 初始化失败: {e}")
+        return None
+
+
+def _get_db():
+    """获取 Firestore client，失败返回 None。"""
+    app = _get_app()
+    if not app:
+        return None
+    try:
+        from firebase_admin import firestore
+        return firestore.client(app=app)
+    except Exception as e:
+        print(f"[Firebase] Firestore client 失败: {e}")
+        return None
+
+
+def sync_to_firebase(hot_topics):
+    """将热点列表同步到 Firestore (config/hot_topics)。"""
+    db = _get_db()
+    if not db:
+        return
+    try:
+        from firebase_admin import firestore
+        doc_ref = db.collection("config").document("hot_topics")
+        doc_ref.set({
+            "topics": hot_topics,
+            "updated_at": firestore.SERVER_TIMESTAMP,
+        })
+        print(f"[Firebase] 同步成功 ({len(hot_topics)} 个热点)")
+    except Exception as e:
+        print(f"[Firebase] 同步失败: {type(e).__name__}: {e}")
+
+
+def load_from_firebase():
+    """从 Firestore 加载热点列表，失败返回 None。"""
+    db = _get_db()
+    if not db:
+        return None
+    try:
+        doc_ref = db.collection("config").document("hot_topics")
+        doc = doc_ref.get()
+        if doc.exists:
+            data = doc.to_dict()
+            topics = data.get("topics", [])
+            print(f"[Firebase] 加载成功 ({len(topics)} 个热点)")
+            return topics
+        else:
+            print("[Firebase] 云端尚无数据")
+            return None
+    except Exception as e:
+        print(f"[Firebase] 加载失败: {type(e).__name__}: {e}")
+        return None
