@@ -88,6 +88,7 @@ ARTICLE_API_URL = os.environ.get('ARTICLE_API_URL', 'http://localhost:5001')
 DATA_DIR = BASE_DIR / 'data' / 'sentiment'
 SEARCH_INDEX_FILE = DATA_DIR / 'search_index_full.json.gz'
 HOT_TOPICS_FILE = BASE_DIR / 'data' / 'hot_topics.json'
+GROUPS_FILE = BASE_DIR / 'data' / 'groups.json'
 
 # ─── Jaccard 相似度计算 ───
 def jaccard_similarity(set1, set2):
@@ -450,6 +451,7 @@ def load_data_from_local():
 stocks = {}
 concepts = {}
 hot_topics = []
+groups = []
 _data_loaded = False
 
 def load_all_data():
@@ -529,7 +531,10 @@ def load_all_data():
         except Exception as e:
             print(f"⚠️ Firebase 热点同步失败（继续使用本地数据）：{e}")
         
-        print(f"📊 数据加载完成：{len(stocks)} 只股票，{len(concepts)} 个概念，{len(hot_topics)} 个热点")
+        # 加载分组数据
+        load_groups_data()
+        
+        print(f"📊 数据加载完成：{len(stocks)} 只股票，{len(concepts)} 个概念，{len(hot_topics)} 个热点，{len(groups)} 个分组")
         _data_loaded = True
         
     except Exception as e:
@@ -732,6 +737,42 @@ def hot_topic_detail(topic_id):
                     'articles': stock_data.get('articles', [])
                 })
                 break
+    
+    return render_template('hot_topic_detail.html', topic=topic, stocks=related_stocks)
+
+@app.route('/group/<group_id>')
+def group_detail(group_id):
+    """分组详情页"""
+    load_groups_data()
+    
+    # 查找分组
+    group = None
+    for g in groups:
+        if g.get('id') == group_id:
+            group = g
+            break
+    
+    if not group:
+        return "分组不存在", 404
+    
+    # 获取相关股票详细信息
+    related_stocks = []
+    for stock_name in group.get('stocks', []):
+        # 通过名称查找股票代码
+        for code, stock_data in stocks.items():
+            if stock_data.get('name') == stock_name:
+                related_stocks.append({
+                    'code': code,
+                    'name': stock_data.get('name', ''),
+                    'board': stock_data.get('board', ''),
+                    'industry': stock_data.get('industry', ''),
+                    'concepts': stock_data.get('concepts', []),
+                    'mention_count': stock_data.get('mention_count', 0),
+                    'articles': stock_data.get('articles', [])
+                })
+                break
+    
+    return render_template('group_detail.html', group=group, stocks=related_stocks)
     
     return render_template('hot_topic_detail.html', topic=topic, stocks=related_stocks)
 
@@ -1418,6 +1459,216 @@ def save_hot_topics():
         sync_to_firebase(hot_topics)
     except Exception as e:
         print(f"❌ 保存热点数据失败: {e}")
+
+def load_groups_data():
+    """加载分组数据"""
+    global groups
+    try:
+        if GROUPS_FILE.exists():
+            with open(GROUPS_FILE, 'r', encoding='utf-8') as f:
+                groups_data = json.load(f)
+                groups = groups_data.get('groups', [])
+            print(f"📊 加载分组数据：{len(groups)} 个分组")
+        else:
+            groups = []
+            print(f"📊 分组文件不存在，使用空列表")
+    except Exception as e:
+        print(f"⚠️ 加载分组数据失败：{e}")
+        groups = []
+
+def save_groups():
+    """保存分组数据到文件"""
+    try:
+        with open(GROUPS_FILE, 'w', encoding='utf-8') as f:
+            json.dump({'groups': groups}, f, ensure_ascii=False, indent=2)
+        print(f"✅ 分组数据已保存: {len(groups)} 个分组")
+        
+        # 同步到 agent_store
+        try:
+            import shutil
+            target_file = Path("e:/github/agent_store/data/groups.json")
+            target_file.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(GROUPS_FILE, target_file)
+            print(f"✅ 分组数据已同步到 agent_store")
+        except Exception as e:
+            print(f"⚠️ 同步到 agent_store 失败: {e}")
+    except Exception as e:
+        print(f"❌ 保存分组数据失败: {e}")
+
+# ─── 分组 API 路由 ───
+
+@app.route('/api/groups')
+def api_get_groups():
+    """获取所有分组"""
+    load_groups_data()
+    return jsonify({
+        'success': True,
+        'groups': groups,
+        'count': len(groups)
+    })
+
+@app.route('/api/group/<group_id>')
+def api_get_group(group_id):
+    """获取单个分组"""
+    load_groups_data()
+    for group in groups:
+        if group.get('id') == group_id:
+            return jsonify(group)
+    return jsonify({'error': '分组不存在'}), 404
+
+@app.route('/api/group', methods=['POST'])
+def api_add_group():
+    """添加新分组"""
+    global groups
+    data = request.json
+    
+    if not data or 'name' not in data:
+        return jsonify({'success': False, 'error': '分组名称必填'}), 400
+    
+    group_id = f"group_{datetime.now().strftime('%Y%m%d%H%M%S')}"
+    
+    new_group = {
+        'id': group_id,
+        'name': data['name'],
+        'description': data.get('description', ''),
+        'color': data.get('color', '#3b82f6'),
+        'icon': data.get('icon', '📁'),
+        'stocks': data.get('stocks', []),
+        'created_at': datetime.now().strftime('%Y-%m-%d'),
+        'updated_at': datetime.now().strftime('%Y-%m-%d')
+    }
+    
+    groups.append(new_group)
+    save_groups()
+    
+    return jsonify({'success': True, 'group': new_group})
+
+@app.route('/api/group/<group_id>', methods=['PUT'])
+def api_update_group(group_id):
+    """更新分组"""
+    global groups
+    data = request.json
+    
+    for i, group in enumerate(groups):
+        if group.get('id') == group_id:
+            if 'name' in data:
+                groups[i]['name'] = data['name']
+            if 'description' in data:
+                groups[i]['description'] = data['description']
+            if 'color' in data:
+                groups[i]['color'] = data['color']
+            if 'icon' in data:
+                groups[i]['icon'] = data['icon']
+            if 'stocks' in data:
+                groups[i]['stocks'] = data['stocks']
+            
+            groups[i]['updated_at'] = datetime.now().strftime('%Y-%m-%d')
+            save_groups()
+            
+            return jsonify({'success': True, 'group': groups[i]})
+    
+    return jsonify({'success': False, 'error': '分组不存在'}), 404
+
+@app.route('/api/group/<group_id>', methods=['DELETE'])
+def api_delete_group(group_id):
+    """删除分组"""
+    global groups
+    
+    for i, group in enumerate(groups):
+        if group.get('id') == group_id:
+            deleted_group = groups.pop(i)
+            save_groups()
+            return jsonify({'success': True, 'deleted': deleted_group.get('name')})
+    
+    return jsonify({'success': False, 'error': '分组不存在'}), 404
+
+@app.route('/api/group/<group_id>/add-stock', methods=['POST'])
+def api_add_stock_to_group(group_id):
+    """添加股票到分组"""
+    global groups
+    data = request.json
+    
+    stock_name = data.get('stock_name') or data.get('stock')
+    if not stock_name:
+        return jsonify({'success': False, 'error': '股票名称必填'}), 400
+    
+    for group in groups:
+        if group.get('id') == group_id:
+            if stock_name not in group['stocks']:
+                group['stocks'].append(stock_name)
+                group['updated_at'] = datetime.now().strftime('%Y-%m-%d')
+                save_groups()
+                return jsonify({
+                    'success': True,
+                    'message': f'已将 {stock_name} 添加到 {group["name"]}',
+                    'group': group
+                })
+            else:
+                return jsonify({
+                    'success': True,
+                    'message': f'{stock_name} 已在分组中',
+                    'group': group
+                })
+    
+    return jsonify({'success': False, 'error': '分组不存在'}), 404
+
+@app.route('/api/group/<group_id>/remove-stock', methods=['POST'])
+def api_remove_stock_from_group(group_id):
+    """从分组移除股票"""
+    global groups
+    data = request.json
+    
+    stock_name = data.get('stock_name') or data.get('stock')
+    if not stock_name:
+        return jsonify({'success': False, 'error': '股票名称必填'}), 400
+    
+    for group in groups:
+        if group.get('id') == group_id:
+            if stock_name in group['stocks']:
+                group['stocks'].remove(stock_name)
+                group['updated_at'] = datetime.now().strftime('%Y-%m-%d')
+                save_groups()
+                return jsonify({
+                    'success': True,
+                    'message': f'已将 {stock_name} 从 {group["name"]} 移除',
+                    'group': group
+                })
+            else:
+                return jsonify({
+                    'success': False,
+                    'error': f'{stock_name} 不在分组中'
+                }), 400
+    
+    return jsonify({'success': False, 'error': '分组不存在'}), 404
+
+@app.route('/api/stock/<code>/groups')
+def api_get_stock_groups(code):
+    """获取股票所属的分组"""
+    load_groups_data()
+    
+    # 先尝试通过代码查找股票名称
+    stock_name = None
+    if code in stocks:
+        stock_name = stocks[code].get('name', '')
+    
+    # 查找包含该股票的分组
+    stock_groups = []
+    for group in groups:
+        stocks_list = group.get('stocks', [])
+        # 检查是否直接包含股票名称
+        if stock_name and stock_name in stocks_list:
+            stock_groups.append(group)
+        # 或者检查是否包含带代码的格式
+        elif any(code in str(s) for s in stocks_list):
+            stock_groups.append(group)
+    
+    return jsonify({
+        'success': True,
+        'code': code,
+        'name': stock_name,
+        'groups': stock_groups,
+        'count': len(stock_groups)
+    })
 
 def sync_hot_topics_to_agent_store():
     """同步热点数据到 agent_store"""
