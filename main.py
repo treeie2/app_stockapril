@@ -748,22 +748,14 @@ def api_hot_topics():
     # 直接加载热点数据，不依赖全局状态
     topics = []
     
-    # 方法1: 从本地文件加载
+    # 使用 BASE_DIR（已在 main.py 中正确设置）
     try:
-        from pathlib import Path
-        # 尝试多个可能的路径
-        possible_paths = [
-            Path(__file__).parent / 'data' / 'hot_topics.json',
-            Path(__file__).parent.parent / 'data' / 'hot_topics.json',
-        ]
-        
-        for hot_file in possible_paths:
-            if hot_file.exists():
-                with open(hot_file, 'r', encoding='utf-8') as f:
-                    data = json.load(f)
-                    topics = data.get('topics', [])
-                    print(f"[API] 从 {hot_file} 加载了 {len(topics)} 个热点")
-                    break
+        hot_file = BASE_DIR / 'data' / 'hot_topics.json'
+        if hot_file.exists():
+            with open(hot_file, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                topics = data.get('topics', [])
+                print(f"[API] 从 {hot_file} 加载了 {len(topics)} 个热点")
     except Exception as e:
         print(f"[API] 本地文件加载失败: {e}")
     
@@ -794,16 +786,11 @@ def api_all_hot_topics():
     topics = []
     
     try:
-        from pathlib import Path
-        for hot_file in [
-            Path(__file__).parent / 'data' / 'hot_topics.json',
-            Path(__file__).parent.parent / 'data' / 'hot_topics.json',
-        ]:
-            if hot_file.exists():
-                with open(hot_file, 'r', encoding='utf-8') as f:
-                    data = json.load(f)
-                    topics = data.get('topics', [])
-                    break
+        hot_file = BASE_DIR / 'data' / 'hot_topics.json'
+        if hot_file.exists():
+            with open(hot_file, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                topics = data.get('topics', [])
     except Exception as e:
         print(f"[API] 加载失败: {e}")
     
