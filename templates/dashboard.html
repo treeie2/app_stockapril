@@ -1371,7 +1371,65 @@
     <!-- Firebase SDK -->
     <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore-compat.js"></script>
-    <script src="{{ url_for('static', filename='js/firebase-config.js') }}"></script>
+    
+    <!-- Firebase 配置（内联以支持 Vercel 部署） -->
+    <script>
+    // Firebase 配置
+    const firebaseConfig = {
+        apiKey: "AIzaSyDnWABBE1WZ3H_il95-TcBqpIAH9sisLUo",
+        authDomain: "webstock-724.firebaseapp.com",
+        projectId: "webstock-724",
+        storageBucket: "webstock-724.firebasestorage.app",
+        messagingSenderId: "249403550581",
+        appId: "1:249403550581:web:16a0aeaadad8f22501413c"
+    };
+
+    // 初始化 Firebase
+    let db = null;
+
+    async function initFirebase() {
+        if (db) return db;
+        
+        try {
+            const app = firebase.initializeApp(firebaseConfig);
+            db = firebase.firestore();
+            console.log('✅ Firebase 初始化成功');
+            return db;
+        } catch (error) {
+            console.error('❌ Firebase 初始化失败:', error);
+            throw error;
+        }
+    }
+
+    // 获取所有股票数据
+    async function getAllStocksFromFirebase() {
+        const db = await initFirebase();
+        
+        try {
+            const snapshot = await db.collection('stocks').get();
+            const stocks = [];
+            
+            snapshot.forEach(doc => {
+                stocks.push({
+                    code: doc.id,
+                    ...doc.data()
+                });
+            });
+            
+            console.log(`📊 从 Firebase 获取到 ${stocks.length} 只股票`);
+            return stocks;
+        } catch (error) {
+            console.error('❌ 获取股票数据失败:', error);
+            throw error;
+        }
+    }
+
+    // 导出函数供其他模块使用
+    window.FirebaseDB = {
+        init: initFirebase,
+        getAllStocks: getAllStocksFromFirebase
+    };
+    </script>
     
     <!-- Firebase 数据加载 -->
     <script>
