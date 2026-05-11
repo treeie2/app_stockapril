@@ -542,29 +542,47 @@ def load_all_data():
 
 
 def load_hot_topics_only():
-    """Vercel 专用：只加载热点数据，避免加载大量股票数据导致超时"""
-    global hot_topics, _data_loaded
+    """Vercel 专用：加载热点数据和股票数据，避免超时"""
+    global stocks, concepts, hot_topics, _data_loaded
     
     if _data_loaded:
         return
     
-    print("📋 [Vercel] 只加载热点数据...")
+    print("📋 [Vercel] 加载热点和股票数据...")
     
     try:
-        # 只加载热点数据
+        # 1. 从本地 master 文件加载股票数据（跳过 Firebase 避免超时）
+        if not stocks:
+            print("📋 [Vercel] 从本地加载股票数据...")
+            try:
+                loaded_stocks, loaded_concepts = load_data_from_local()
+                stocks.update(loaded_stocks)
+                concepts.update(loaded_concepts)
+                print(f"  ✅ [Vercel] 股票加载成功：{len(loaded_stocks)} 只")
+            except Exception as e:
+                print(f"  ⚠️ [Vercel] 股票加载失败：{e}")
+        
+        # 2. 加载热点数据
         if HOT_TOPICS_FILE.exists():
-            with open(HOT_TOPICS_FILE, 'r', encoding='utf-8') as f:
-                hot_topics_data = json.load(f)
-                hot_topics = hot_topics_data.get('topics', [])
-            print(f"📊 [Vercel] 加载 {len(hot_topics)} 个热点")
+            try:
+                with open(HOT_TOPICS_FILE, 'r', encoding='utf-8') as f:
+                    hot_topics_data = json.load(f)
+                    hot_topics = hot_topics_data.get('topics', [])
+                print(f"📊 [Vercel] 热点加载成功：{len(hot_topics)} 个")
+            except Exception as e:
+                print(f"⚠️ [Vercel] 热点加载失败：{e}")
+                hot_topics = []
         else:
             hot_topics = []
             print(f"⚠️ [Vercel] 热点文件不存在")
         
+        print(f"📊 [Vercel] 数据加载完成：{len(stocks)} 只股票，{len(hot_topics)} 个热点")
         _data_loaded = True
         
     except Exception as e:
-        print(f"⚠️ [Vercel] 热点加载失败：{e}")
+        print(f"⚠️ [Vercel] 数据加载失败：{e}")
+        import traceback
+        traceback.print_exc()
         _data_loaded = True
 
 
