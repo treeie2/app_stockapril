@@ -6,7 +6,7 @@ import sys, io
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
 sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
 
-from flask import Flask, jsonify, render_template, request, send_file
+from flask import Flask, jsonify, render_template, request, send_file, send_from_directory
 import json, gzip, os, requests
 from pathlib import Path
 from datetime import datetime
@@ -19,11 +19,6 @@ def get_akshare():
         return ak
     except ImportError:
         return None
-
-app = Flask(__name__)
-
-# 文章API服务配置
-ARTICLE_API_URL = os.environ.get('ARTICLE_API_URL', 'http://localhost:5001')
 
 # 获取项目根目录（兼容 Vercel 和本地环境）
 def get_base_dir():
@@ -51,6 +46,17 @@ def get_base_dir():
 
     # 兜底
     return Path(os.getcwd())
+
+BASE_DIR = get_base_dir()
+
+# 显式配置 Flask 的静态文件和模板目录
+app = Flask(__name__,
+            static_folder=str(BASE_DIR / 'static'),
+            static_url_path='/static',
+            template_folder=str(BASE_DIR / 'templates'))
+
+# 文章API服务配置
+ARTICLE_API_URL = os.environ.get('ARTICLE_API_URL', 'http://localhost:5001')
 
 BASE_DIR = get_base_dir()
 
