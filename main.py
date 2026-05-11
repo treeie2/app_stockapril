@@ -1072,6 +1072,12 @@ def api_get_hot_topics():
     Query params:
         display: 'true' | 'false' | 'all' (默认: 'true')
     """
+    # 确保数据已加载
+    try:
+        load_all_data()
+    except Exception as e:
+        print(f"⚠️ 加载数据失败：{e}")
+    
     display_filter = request.args.get('display', 'true')
     
     if display_filter == 'all':
