@@ -534,16 +534,51 @@ def load_all_data():
         _data_loaded = True
         raise
 
+
+def load_hot_topics_only():
+    """Vercel 专用：只加载热点数据，避免加载大量股票数据导致超时"""
+    global hot_topics, _data_loaded
+    
+    if _data_loaded:
+        return
+    
+    print("📋 [Vercel] 只加载热点数据...")
+    
+    try:
+        # 只加载热点数据
+        if HOT_TOPICS_FILE.exists():
+            with open(HOT_TOPICS_FILE, 'r', encoding='utf-8') as f:
+                hot_topics_data = json.load(f)
+                hot_topics = hot_topics_data.get('topics', [])
+            print(f"📊 [Vercel] 加载 {len(hot_topics)} 个热点")
+        else:
+            hot_topics = []
+            print(f"⚠️ [Vercel] 热点文件不存在")
+        
+        _data_loaded = True
+        
+    except Exception as e:
+        print(f"⚠️ [Vercel] 热点加载失败：{e}")
+        _data_loaded = True
+
+
 # 懒加载数据（在第一次请求时加载）
 # load_all_data()
 
 @app.route('/')
 def dashboard():
-    # 懒加载数据
-    try:
-        load_all_data()
-    except Exception as e:
-        print(f"⚠️ 数据加载失败：{e}")
+    # Vercel 环境：只加载热点数据，避免超时
+    if 'VERCEL' in os.environ:
+        try:
+            load_hot_topics_only()
+        except Exception as e:
+            print(f"⚠️ 热点数据加载失败：{e}")
+    else:
+        # 本地环境：完整加载
+        try:
+            load_all_data()
+        except Exception as e:
+            print(f"⚠️ 数据加载失败：{e}")
     
     # 获取分页参数
     try:
