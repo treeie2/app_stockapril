@@ -815,14 +815,20 @@
                 </button>
             </div>
             <div class="hot-topics-grid">
-                <!-- 动态热点（全部从 JSON 加载） -->
-                {% if hot_topics %}
-                    {% for topic in hot_topics %}
+                <!-- 动态热点（只显示 display=true 的热点） -->
+                {% set visible_topics = [] %}
+                {% for topic in hot_topics if topic.get('display', True) %}
+                    {% set visible_topics = visible_topics + [topic] %}
+                {% endfor %}
+                
+                {% if visible_topics %}
+                    {% for topic in visible_topics %}
                     <div class="hot-topic-card" data-topic-id="{{ topic.id }}" data-topic-name="{{ topic.name|e }}" data-topic-drivers="{{ topic.drivers|e }}" data-topic-stocks="{{ topic.stocks|join(',')|e }}" style="cursor:pointer;" onclick="window.location='/hot-topic/{{ topic.id }}'">
                         <div class="hot-topic-header">
                             <span class="hot-topic-icon">🔥</span>
                             <span class="hot-topic-name">{{ topic.name }}</span>
                             <div class="hot-topic-actions" onclick="event.stopPropagation();">
+                                <button class="toggle-display-btn" onclick="toggleHotTopicDisplay('{{ topic.id }}', false)" title="设为不显示" style="background:none;border:none;cursor:pointer;font-size:1rem;opacity:0.6;">👁️</button>
                                 <button class="edit-topic-btn" onclick="openEditHotTopicModal('{{ topic.id }}')" title="编辑热点">✏️</button>
                                 <button class="delete-topic-btn" onclick="deleteHotTopic('{{ topic.id }}', '{{ topic.name|e }}')" title="删除此热点">×</button>
                             </div>
@@ -839,11 +845,24 @@
                     <!-- 没有数据时的提示 -->
                     <div class="hot-topic-card" style="text-align:center;padding:2rem;color:var(--t3);">
                         <div style="font-size:2rem;margin-bottom:.5rem;">📭</div>
-                        <div>暂无热点数据</div>
+                        <div>暂无显示的热点</div>
                         <div style="font-size:.75rem;margin-top:.5rem;">点击右上角"+ 添加热点"按钮添加</div>
                     </div>
                 {% endif %}
             </div>
+            
+            <!-- 隐藏的热点管理入口 -->
+            {% set hidden_topics = [] %}
+            {% for topic in hot_topics if not topic.get('display', True) %}
+                {% set hidden_topics = hidden_topics + [topic] %}
+            {% endfor %}
+            {% if hidden_topics %}
+            <div style="margin-top:1rem;padding-top:1rem;border-top:1px solid rgba(245,158,11,.1);">
+                <button class="manage-hidden-btn" onclick="showHiddenTopics()" style="background:none;border:1px solid var(--border);color:var(--t3);padding:.3rem .6rem;border-radius:6px;font-size:.72rem;cursor:pointer;">
+                    📋 还有 {{ hidden_topics|length }} 个隐藏热点，点击管理
+                </button>
+            </div>
+            {% endif %}
         </div>
         
         <!-- Full-text Search -->
@@ -1789,14 +1808,14 @@
         }
         
         // 显示提示
-        function showToast(message) {
+        function showToast(message, color='var(--green)') {
             const toast = document.createElement('div');
             toast.style.cssText = `
                 position:fixed;
                 bottom:2rem;
                 left:50%;
                 transform:translateX(-50%);
-                background:var(--green);
+                background:${color};
                 color:#fff;
                 padding:.75rem 1.5rem;
                 border-radius:8px;
@@ -1812,6 +1831,80 @@
                 toast.style.animation = 'fadeOut .3s ease';
                 setTimeout(() => toast.remove(), 300);
             }, 2000);
+        }
+        
+        // 切换热点显示状态
+        async function toggleHotTopicDisplay(topicId, newDisplay) {
+            try {
+                const response = await fetch(`/api/hot-topic/${topicId}/display`, {
+                    method: 'PUT',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ display: newDisplay })
+                });
+                
+                const result = await response.json();
+                
+                if (result.success) {
+                    const msg = newDisplay ? '热点已设为显示' : '热点已设为隐藏';
+                    showToast(msg, newDisplay ? 'var(--green)' : 'var(--amber)');
+                    // 延迟刷新页面
+                    setTimeout(() => location.reload(), 500);
+                } else {
+                    alert('操作失败：' + (result.error || '未知错误'));
+                }
+            } catch (error) {
+                console.error('切换显示状态失败:', error);
+                alert('操作失败，请检查网络连接');
+            }
+        }
+        
+        // 显示隐藏的热点管理弹窗
+        async function showHiddenTopics() {
+            // 获取隐藏的热点
+            try {
+                const response = await fetch('/api/hot-topics?display=false');
+                const result = await response.json();
+                const hiddenTopics = result.topics || [];
+                
+                if (hiddenTopics.length === 0) {
+                    alert('没有隐藏的热点');
+                    return;
+                }
+                
+                // 构建弹窗内容
+                let html = '<div style="padding:1rem;">';
+                html += '<h3 style="margin-bottom:1rem;color:var(--amber);">📋 隐藏的热点管理</h3>';
+                html += '<p style="color:var(--t2);font-size:.85rem;margin-bottom:1rem;">点击"显示"按钮将热点设回 Dashboard 显示</p>';
+                html += '<div style="display:flex;flex-direction:column;gap:.75rem;max-height:400px;overflow-y:auto;">';
+                
+                for (const topic of hiddenTopics) {
+                    html += `<div style="background:rgba(255,255,255,.05);padding:.75rem;border-radius:8px;display:flex;justify-content:space-between;align-items:center;">
+                        <div>
+                            <div style="font-weight:600;">${topic.name}</div>
+                            <div style="color:var(--t3);font-size:.72rem;margin-top:.25rem;">更新于 ${topic.updated_at || '未知'}</div>
+                        </div>
+                        <button onclick="toggleHotTopicDisplay('${topic.id}', true)" style="background:var(--green);border:none;color:#fff;padding:.35rem .75rem;border-radius:6px;font-size:.8rem;cursor:pointer;">
+                            👁️ 显示
+                        </button>
+                    </div>`;
+                }
+                
+                html += '</div>';
+                html += '<button onclick="this.closest(".modal").style.display=\'none\'" style="margin-top:1rem;width:100%;padding:.5rem;background:rgba(255,255,255,.1);border:1px solid var(--border);color:var(--t2);border-radius:6px;cursor:pointer;">关闭</button>';
+                html += '</div>';
+                
+                // 创建弹窗
+                const modal = document.createElement('div');
+                modal.className = 'modal';
+                modal.style.cssText = 'position:fixed;inset:0;background:rgba(0,0,0,.8);display:flex;align-items:center;justify-content:center;z-index:3000;';
+                modal.innerHTML = `<div style="background:var(--bg-card);border:1px solid var(--border);border-radius:12px;width:90%;max-width:500px;max-height:80vh;overflow-y:auto;">${html}</div>`;
+                modal.onclick = (e) => { if (e.target === modal) modal.remove(); };
+                document.body.appendChild(modal);
+                
+            } catch (error) {
+                console.error('获取隐藏热点失败:', error);
+                alert('加载失败，请检查网络连接');
+            }
         }
         
         // 点击遮罩关闭弹窗
