@@ -93,11 +93,15 @@ AI:  python add_hot_topic.py "钨" "去库接近尾声" ""
 
 | Method | Endpoint | Action |
 |--------|-----------|---------|
-| GET | `/api/hot-topics` | List all |
-| GET | `/api/hot-topic/<id>` | Get one |
+| GET | `/api/hot-topics` | List visible topics (display=true) |
+| GET | `/api/all-hot-topics` | List all topics (including hidden) |
+| GET | `/api/hot-topic/<id>` | Get one topic |
 | POST | `/api/hot-topic` | Add new |
 | PUT | `/api/hot-topic/<id>` | Update |
+| PUT | `/api/hot-topic/<id>/display` | Toggle display |
 | DELETE | `/api/hot-topic/<id>` | Delete |
+| POST | `/api/reload-hot-topics` | Reload from file |
+| PUT | `/api/hot-topics/batch-display` | Batch update display |
 
 These are used by the web UI but are **not required** for the scripts.
 
