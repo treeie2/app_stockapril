@@ -25,6 +25,7 @@ def main():
         "name": name,
         "drivers": drivers,
         "stocks": stocks,
+        "display": True,  # 默认显示
         "created_at": today,
         "updated_at": today,
     }
@@ -35,6 +36,7 @@ def main():
     print(f"  ID:       {topic['id']}")
     print(f"  驱动因素: {drivers[:60]}{'...' if len(drivers) > 60 else ''}")
     print(f"  个股 ({len(stocks)} 只): {', '.join(stocks)}")
+    print(f"  显示:     是 (display=True)")
     print(f"  (已同步到 agent_store)")
 
 if __name__ == "__main__":

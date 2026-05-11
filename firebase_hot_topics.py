@@ -1,6 +1,7 @@
 """Firebase 热点数据同步模块 - 使用 Admin SDK"""
 from pathlib import Path
 import os
+from datetime import datetime
 
 # 禁用代理（尝试解决国内网络问题）
 os.environ["NO_PROXY"] = "firestore.googleapis.com,googleapis.com,oauth2.googleapis.com"
@@ -66,18 +67,33 @@ def sync_to_firebase(hot_topics):
         return
     try:
         from firebase_admin import firestore
+        
+        # 确保每个热点都有 display 字段（默认为 True）
+        topics_with_display = []
+        for topic in hot_topics:
+            topic_copy = topic.copy()
+            if 'display' not in topic_copy:
+                topic_copy['display'] = True
+            topics_with_display.append(topic_copy)
+        
         doc_ref = db.collection("config").document("hot_topics")
         doc_ref.set({
-            "topics": hot_topics,
+            "topics": topics_with_display,
             "updated_at": firestore.SERVER_TIMESTAMP,
+            "sync_time": datetime.now().isoformat()
         })
-        print(f"[Firebase] 同步成功 ({len(hot_topics)} 个热点)")
+        print(f"[Firebase] 同步成功 ({len(topics_with_display)} 个热点)")
     except Exception as e:
         print(f"[Firebase] 同步失败: {type(e).__name__}: {e}")
 
 
-def load_from_firebase():
-    """从 Firestore 加载热点列表，失败返回 None。"""
+def load_from_firebase(include_hidden=False):
+    """
+    从 Firestore 加载热点列表，失败返回 None。
+    
+    Args:
+        include_hidden: 是否包含 display=false 的热点，默认只返回 display=true 的热点
+    """
     db = _get_db()
     if not db:
         return None
@@ -87,6 +103,11 @@ def load_from_firebase():
         if doc.exists:
             data = doc.to_dict()
             topics = data.get("topics", [])
+            
+            # 过滤 display=false 的热点（除非明确要求包含）
+            if not include_hidden:
+                topics = [t for t in topics if t.get('display', True)]
+            
             print(f"[Firebase] 加载成功 ({len(topics)} 个热点)")
             return topics
         else:

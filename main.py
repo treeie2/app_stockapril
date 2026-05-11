@@ -1048,8 +1048,24 @@ def api_suggest():
 
 @app.route('/api/hot-topics', methods=['GET'])
 def api_get_hot_topics():
-    """获取所有热点"""
-    return jsonify({'topics': hot_topics})
+    """获取热点列表
+    
+    Query params:
+        display: 'true' | 'false' | 'all' (默认: 'true')
+    """
+    display_filter = request.args.get('display', 'true')
+    
+    if display_filter == 'all':
+        # 返回所有热点
+        return jsonify({'topics': hot_topics})
+    elif display_filter == 'false':
+        # 只返回隐藏的热点
+        hidden = [t for t in hot_topics if not t.get('display', True)]
+        return jsonify({'topics': hidden})
+    else:
+        # 默认只返回显示的热点
+        visible = [t for t in hot_topics if t.get('display', True)]
+        return jsonify({'topics': visible})
 
 @app.route('/api/hot-topic/<topic_id>', methods=['GET'])
 def api_get_hot_topic(topic_id):
@@ -1144,6 +1160,83 @@ def api_delete_hot_topic(topic_id):
             return jsonify({'success': True, 'deleted': deleted_topic.get('name')})
     
     return jsonify({'success': False, 'error': '热点不存在'}), 404
+
+@app.route('/api/hot-topic/<topic_id>/display', methods=['PUT'])
+def api_toggle_display(topic_id):
+    """切换热点显示状态
+    
+    Body: {"display": true|false}
+    """
+    global hot_topics
+    data = request.json
+    
+    if data is None:
+        return jsonify({'success': False, 'error': '无效数据'}), 400
+    
+    display_value = data.get('display')
+    if display_value is None:
+        return jsonify({'success': False, 'error': 'display 字段必填'}), 400
+    
+    # 先重新加载最新数据
+    reload_hot_topics()
+    
+    for topic in hot_topics:
+        if topic.get('id') == topic_id:
+            topic['display'] = bool(display_value)
+            topic['updated_at'] = datetime.now().strftime('%Y-%m-%d')
+            save_hot_topics()
+            
+            status = "显示" if display_value else "隐藏"
+            print(f"✅ 热点 {topic.get('name')} 已设为{status}")
+            return jsonify({
+                'success': True, 
+                'topic_id': topic_id,
+                'display': display_value,
+                'message': f'热点已设为{status}'
+            })
+    
+    return jsonify({'success': False, 'error': '热点不存在'}), 404
+
+@app.route('/api/hot-topics/batch-display', methods=['PUT'])
+def api_batch_display():
+    """批量设置热点显示状态
+    
+    Body: {"ids": ["topic_id1", "topic_id2"], "display": true|false}
+    """
+    global hot_topics
+    data = request.json
+    
+    if data is None:
+        return jsonify({'success': False, 'error': '无效数据'}), 400
+    
+    topic_ids = data.get('ids', [])
+    display_value = data.get('display')
+    
+    if not topic_ids:
+        return jsonify({'success': False, 'error': 'ids 字段必填'}), 400
+    if display_value is None:
+        return jsonify({'success': False, 'error': 'display 字段必填'}), 400
+    
+    # 先重新加载最新数据
+    reload_hot_topics()
+    
+    updated = []
+    for topic in hot_topics:
+        if topic.get('id') in topic_ids:
+            topic['display'] = bool(display_value)
+            topic['updated_at'] = datetime.now().strftime('%Y-%m-%d')
+            updated.append(topic.get('id'))
+    
+    if updated:
+        save_hot_topics()
+    
+    status = "显示" if display_value else "隐藏"
+    print(f"✅ 批量更新 {len(updated)} 个热点为{status}")
+    return jsonify({
+        'success': True,
+        'updated_count': len(updated),
+        'message': f'{len(updated)} 个热点已设为{status}'
+    })
 
 def save_hot_topics():
     """保存热点数据到文件"""
