@@ -493,12 +493,23 @@ def load_all_data():
                 print(f"⚠️ 加载热点数据失败：{e}")
                 hot_topics = []
         
-        # 尝试从 Firebase 增量加载（后台同步，不阻塞）
+        # 保存本地热点数据（作为备用）
+        local_hot_topics_count = len(hot_topics)
+        print(f"📊 加载本地热点数据：{local_hot_topics_count} 个热点")
+        
+        # 尝试从 Firebase 增量加载（仅当 Firebase 有数据时才更新）
         try:
             fb_topics = load_from_firebase(include_hidden=True)
-            if fb_topics is not None and len(fb_topics) > len(hot_topics):
+            # 只有当 Firebase 返回有效数据时才覆盖本地数据
+            if fb_topics is not None and len(fb_topics) > 0:
                 hot_topics = fb_topics
                 print(f"📊 Firebase 热点数据更新：{len(hot_topics)} 个热点")
+            else:
+                # Firebase 无数据或为空，保持使用本地数据
+                if local_hot_topics_count > 0:
+                    print(f"📊 Firebase 无数据，保持使用本地 {local_hot_topics_count} 个热点")
+                else:
+                    print(f"⚠️ Firebase 无数据，本地也无热点数据")
         except Exception as e:
             print(f"⚠️ Firebase 热点同步失败（继续使用本地数据）：{e}")
         
