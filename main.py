@@ -468,20 +468,25 @@ def load_all_data():
             except Exception as e:
                 print(f"  ⚠️ Master 文件加载失败：{e}")
         
-        # 优先从 Firebase 加载热点数据
-        fb_topics = load_from_firebase()
-        if fb_topics is not None:
-            hot_topics = fb_topics
-        else:
-            # 回退到本地文件
-            if HOT_TOPICS_FILE.exists():
-                try:
-                    with open(HOT_TOPICS_FILE, 'r', encoding='utf-8') as f:
-                        hot_topics_data = json.load(f)
-                        hot_topics = hot_topics_data.get('topics', [])
-                    print(f"📊 加载热点数据：{len(hot_topics)} 个热点")
-                except Exception as e:
-                    print(f"⚠️ 加载热点数据失败：{e}")
+        # 优先从本地 JSON 加载热点数据（Vercel 友好，避免 Firebase 超时）
+        if HOT_TOPICS_FILE.exists():
+            try:
+                with open(HOT_TOPICS_FILE, 'r', encoding='utf-8') as f:
+                    hot_topics_data = json.load(f)
+                    hot_topics = hot_topics_data.get('topics', [])
+                print(f"📊 加载本地热点数据：{len(hot_topics)} 个热点")
+            except Exception as e:
+                print(f"⚠️ 加载热点数据失败：{e}")
+                hot_topics = []
+        
+        # 尝试从 Firebase 增量加载（后台同步，不阻塞）
+        try:
+            fb_topics = load_from_firebase(include_hidden=True)
+            if fb_topics is not None and len(fb_topics) > len(hot_topics):
+                hot_topics = fb_topics
+                print(f"📊 Firebase 热点数据更新：{len(hot_topics)} 个热点")
+        except Exception as e:
+            print(f"⚠️ Firebase 热点同步失败（继续使用本地数据）：{e}")
         
         print(f"📊 数据加载完成：{len(stocks)} 只股票，{len(concepts)} 个概念，{len(hot_topics)} 个热点")
         _data_loaded = True
