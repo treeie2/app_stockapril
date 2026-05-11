@@ -33,12 +33,30 @@ def get_akshare():
 # 获取项目根目录（兼容 Vercel 和本地环境）
 def get_base_dir():
     """获取项目根目录（兼容本地和 Vercel）"""
+    # Vercel 环境特殊处理
+    if 'VERCEL' in os.environ:
+        # 在 Vercel 中，api/index.py 在 /var/task/api/ 下
+        # 项目根目录是 /var/task/ 的父目录
+        task_dir = Path('/var/task')
+        if (task_dir / 'data').exists():
+            print(f"  📂 [Vercel] 使用 task 目录: {task_dir}")
+            return task_dir
+        # 尝试 api 的父目录
+        api_parent = Path(__file__).parent.parent
+        if (api_parent / 'data').exists():
+            print(f"  📂 [Vercel] 使用 api 父目录: {api_parent}")
+            return api_parent
+    
     # 尝试从当前文件位置获取（最可靠）
     try:
         p = Path(__file__).parent
         if (p / 'data').exists():
             print(f"  📂 从文件位置找到 base_dir: {p}")
             return p
+        # 如果当前是 api 目录，尝试父目录
+        if p.name == 'api' and (p.parent / 'data').exists():
+            print(f"  📂 从 api 父目录找到 base_dir: {p.parent}")
+            return p.parent
     except Exception as e:
         print(f"  ⚠️ 从文件位置获取失败: {e}")
 
@@ -47,18 +65,6 @@ def get_base_dir():
     if (cwd / 'data').exists():
         print(f"  📂 从 cwd 找到 base_dir: {cwd}")
         return cwd
-
-    # Vercel 环境检查
-    if 'VERCEL' in os.environ:
-        task_dir = Path('/var/task')
-        if (task_dir / 'data').exists():
-            print(f"  📂 从 Vercel task 找到 base_dir: {task_dir}")
-            return task_dir
-        # 尝试父目录
-        parent = task_dir.parent
-        if (parent / 'data').exists():
-            print(f"  📂 从 Vercel parent 找到 base_dir: {parent}")
-            return parent
 
     print(f"  ⚠️ 未找到 data 目录，使用 cwd: {cwd}")
     return cwd
