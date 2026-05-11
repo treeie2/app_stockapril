@@ -68,3 +68,4 @@ temp/
 # Modelscope app
 modelscope-app/
 model_app_stock/
+.vercel
