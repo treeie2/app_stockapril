@@ -1,0 +1,457 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - link "CYBERRESEARCH" [ref=e3] [cursor=pointer]:
+      - /url: /
+      - img [ref=e4]
+      - text: CYBERRESEARCH
+    - link "仪表板" [ref=e6] [cursor=pointer]:
+      - /url: /
+    - link "股票列表" [ref=e7] [cursor=pointer]:
+      - /url: /stocks
+    - link "社保新进" [ref=e8] [cursor=pointer]:
+      - /url: /social-security-new
+    - link "概念大全" [ref=e9] [cursor=pointer]:
+      - /url: /concepts
+    - link "📥 导入数据" [ref=e10] [cursor=pointer]:
+      - /url: /import
+    - generic [ref=e11]:
+      - img
+      - textbox "搜索股票…" [ref=e12]
+  - generic [ref=e13]:
+    - generic [ref=e15]:
+      - generic [ref=e16]: 📊 智能投研仪表板
+      - generic [ref=e17]: 实时追踪 · AI 洞察 · 个股深度研究
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - generic [ref=e20]: 🔥 本月热点
+        - button "+ 添加热点" [ref=e21] [cursor=pointer]:
+          - generic [ref=e22]: +
+          - text: 添加热点
+      - generic [ref=e24]:
+        - generic [ref=e25]: 📭
+        - generic [ref=e26]: 暂无热点数据
+        - generic [ref=e27]: 点击右上角"+ 添加热点"按钮添加
+    - generic [ref=e28]:
+      - img
+      - textbox "全文搜索：输入关键词搜索文章标题、摘要、分析内容..." [ref=e29]
+      - button "搜索" [ref=e30] [cursor=pointer]
+    - generic [ref=e31]:
+      - generic [ref=e32]: 概念数
+      - button "全部" [ref=e33] [cursor=pointer]
+      - button "10+ 概念" [ref=e34] [cursor=pointer]
+      - button "20+ 概念" [ref=e35] [cursor=pointer]
+      - button "30+ 概念" [ref=e36] [cursor=pointer]
+      - button "🔄 已更新" [ref=e37] [cursor=pointer]:
+        - generic [ref=e38]: 🔄
+        - generic [ref=e39]: 已更新
+      - combobox [ref=e40] [cursor=pointer]:
+        - option "按更新时间" [selected]
+        - option "按最新文章"
+        - option "按热度"
+        - option "涨幅 ↑"
+        - option "跌幅 ↑"
+        - option "按文章数"
+        - option "名称"
+    - table [ref=e42]:
+      - rowgroup [ref=e43]:
+        - row "# 股票 行业 概念 最新价 涨跌幅 总市值 提及 文章 更新时间" [ref=e44]:
+          - columnheader "#" [ref=e45] [cursor=pointer]
+          - columnheader "股票" [ref=e46] [cursor=pointer]
+          - columnheader "行业" [ref=e47] [cursor=pointer]
+          - columnheader "概念" [ref=e48] [cursor=pointer]
+          - columnheader "最新价" [ref=e49] [cursor=pointer]
+          - columnheader "涨跌幅" [ref=e50] [cursor=pointer]
+          - columnheader "总市值" [ref=e51] [cursor=pointer]
+          - columnheader "提及" [ref=e52] [cursor=pointer]
+          - columnheader "文章" [ref=e53] [cursor=pointer]
+          - columnheader "更新时间" [ref=e54] [cursor=pointer]
+      - rowgroup [ref=e55]:
+        - row "1 海亮股份 002203 有色金属 - 工业金属 - 铜 铜加工 锂电池箔 出海 22.52 +1.85% 498亿 🔥 2 📰 3 2026-05-06" [ref=e56] [cursor=pointer]:
+          - cell "1" [ref=e57]
+          - cell "海亮股份 002203" [ref=e58]:
+            - generic [ref=e59]: 海亮股份
+            - generic [ref=e60]: "002203"
+          - cell "有色金属 - 工业金属 - 铜" [ref=e61]
+          - cell "铜加工 锂电池箔 出海" [ref=e62]:
+            - generic [ref=e63]:
+              - generic [ref=e64]: 铜加工
+              - generic [ref=e65]: 锂电池箔
+              - generic [ref=e66]: 出海
+          - cell "22.52" [ref=e67]
+          - cell "+1.85%" [ref=e68]
+          - cell "498亿" [ref=e69]
+          - cell "🔥 2" [ref=e70]:
+            - generic [ref=e71]: 🔥 2
+          - cell "📰 3" [ref=e72]:
+            - generic [ref=e73]: 📰 3
+          - cell "2026-05-06" [ref=e74]
+        - row "2 硕贝德 300322 电子 - 消费电子 - 天线 商业航天 卫星导航 6G 概念 +6 33.50 +4.69% 148亿 🔥 2 📰 2 2026-05-06" [ref=e75] [cursor=pointer]:
+          - cell "2" [ref=e76]
+          - cell "硕贝德 300322" [ref=e77]:
+            - generic [ref=e78]: 硕贝德
+            - generic [ref=e79]: "300322"
+          - cell "电子 - 消费电子 - 天线" [ref=e80]
+          - cell "商业航天 卫星导航 6G 概念 +6" [ref=e81]:
+            - generic [ref=e82]:
+              - generic [ref=e83]: 商业航天
+              - generic [ref=e84]: 卫星导航
+              - generic [ref=e85]: 6G 概念
+              - generic [ref=e86]: "+6"
+          - cell "33.50" [ref=e87]
+          - cell "+4.69%" [ref=e88]
+          - cell "148亿" [ref=e89]
+          - cell "🔥 2" [ref=e90]:
+            - generic [ref=e91]: 🔥 2
+          - cell "📰 2" [ref=e92]:
+            - generic [ref=e93]: 📰 2
+          - cell "2026-05-06" [ref=e94]
+        - row "3 智微智能 301613 计算机 - 计算机设备 AI PC 边缘计算 47.90 -3.82% 40亿 🔥 1 📰 1 2026-05-06" [ref=e95] [cursor=pointer]:
+          - cell "3" [ref=e96]
+          - cell "智微智能 301613" [ref=e97]:
+            - generic [ref=e98]: 智微智能
+            - generic [ref=e99]: "301613"
+          - cell "计算机 - 计算机设备" [ref=e100]
+          - cell "AI PC 边缘计算" [ref=e101]:
+            - generic [ref=e102]:
+              - generic [ref=e103]: AI PC
+              - generic [ref=e104]: 边缘计算
+          - cell "47.90" [ref=e105]
+          - cell "-3.82%" [ref=e106]
+          - cell "40亿" [ref=e107]
+          - cell "🔥 1" [ref=e108]:
+            - generic [ref=e109]: 🔥 1
+          - cell "📰 1" [ref=e110]:
+            - generic [ref=e111]: 📰 1
+          - cell "2026-05-06" [ref=e112]
+        - row "4 方邦股份 688020 电子 - 电子化学品 电子材料 半导体材料 158.50 -4.00% 131亿 🔥 4 📰 1 2026-05-06" [ref=e113] [cursor=pointer]:
+          - cell "4" [ref=e114]
+          - cell "方邦股份 688020" [ref=e115]:
+            - generic [ref=e116]: 方邦股份
+            - generic [ref=e117]: "688020"
+          - cell "电子 - 电子化学品" [ref=e118]
+          - cell "电子材料 半导体材料" [ref=e119]:
+            - generic [ref=e120]:
+              - generic [ref=e121]: 电子材料
+              - generic [ref=e122]: 半导体材料
+          - cell "158.50" [ref=e123]
+          - cell "-4.00%" [ref=e124]
+          - cell "131亿" [ref=e125]
+          - cell "🔥 4" [ref=e126]:
+            - generic [ref=e127]: 🔥 4
+          - cell "📰 1" [ref=e128]:
+            - generic [ref=e129]: 📰 1
+          - cell "2026-05-06" [ref=e130]
+        - row "5 清溢光电 688138 电子 - 光学光电子 光电显示 33.17 +2.47% 104亿 🔥 4 📰 1 2026-05-06" [ref=e131] [cursor=pointer]:
+          - cell "5" [ref=e132]
+          - cell "清溢光电 688138" [ref=e133]:
+            - generic [ref=e134]: 清溢光电
+            - generic [ref=e135]: "688138"
+          - cell "电子 - 光学光电子" [ref=e136]
+          - cell "光电显示" [ref=e137]:
+            - generic [ref=e139]: 光电显示
+          - cell "33.17" [ref=e140]
+          - cell "+2.47%" [ref=e141]
+          - cell "104亿" [ref=e142]
+          - cell "🔥 4" [ref=e143]:
+            - generic [ref=e144]: 🔥 4
+          - cell "📰 1" [ref=e145]:
+            - generic [ref=e146]: 📰 1
+          - cell "2026-05-06" [ref=e147]
+        - row "6 芯原股份 688521 电子 - 半导体 - IC 设计服务 国产算力 AI 芯片 ASIC +2 267.40 +2.06% 1406亿 🔥 2 📰 3 2026-05-06" [ref=e148] [cursor=pointer]:
+          - cell "6" [ref=e149]
+          - cell "芯原股份 688521" [ref=e150]:
+            - generic [ref=e151]: 芯原股份
+            - generic [ref=e152]: "688521"
+          - cell "电子 - 半导体 - IC 设计服务" [ref=e153]
+          - cell "国产算力 AI 芯片 ASIC +2" [ref=e154]:
+            - generic [ref=e155]:
+              - generic [ref=e156]: 国产算力
+              - generic [ref=e157]: AI 芯片
+              - generic [ref=e158]: ASIC
+              - generic [ref=e159]: "+2"
+          - cell "267.40" [ref=e160]
+          - cell "+2.06%" [ref=e161]
+          - cell "1406亿" [ref=e162]
+          - cell "🔥 2" [ref=e163]:
+            - generic [ref=e164]: 🔥 2
+          - cell "📰 3" [ref=e165]:
+            - generic [ref=e166]: 📰 3
+          - cell "2026-05-06" [ref=e167]
+        - row "7 联讯仪器 688665 机械设备 - 仪器仪表 - 其他仪器仪表 光模块测试设备 半导体测试 53.05 +1.92% 54亿 🔥 2 📰 2 2026-05-06" [ref=e168] [cursor=pointer]:
+          - cell "7" [ref=e169]
+          - cell "联讯仪器 688665" [ref=e170]:
+            - generic [ref=e171]: 联讯仪器
+            - generic [ref=e172]: "688665"
+          - cell "机械设备 - 仪器仪表 - 其他仪器仪表" [ref=e173]
+          - cell "光模块测试设备 半导体测试" [ref=e174]:
+            - generic [ref=e175]:
+              - generic [ref=e176]: 光模块测试设备
+              - generic [ref=e177]: 半导体测试
+          - cell "53.05" [ref=e178]
+          - cell "+1.92%" [ref=e179]
+          - cell "54亿" [ref=e180]
+          - cell "🔥 2" [ref=e181]:
+            - generic [ref=e182]: 🔥 2
+          - cell "📰 2" [ref=e183]:
+            - generic [ref=e184]: 📰 2
+          - cell "2026-05-06" [ref=e185]
+        - row "8 科华数据 002324 计算机 - 计算机设备 - 其他计算机设备 腾讯链 数据中心 算力 15.76 +0.25% 122亿 🔥 2 📰 2 2026-04-26" [ref=e186] [cursor=pointer]:
+          - cell "8" [ref=e187]
+          - cell "科华数据 002324" [ref=e188]:
+            - generic [ref=e189]: 科华数据
+            - generic [ref=e190]: "002324"
+          - cell "计算机 - 计算机设备 - 其他计算机设备" [ref=e191]
+          - cell "腾讯链 数据中心 算力" [ref=e192]:
+            - generic [ref=e193]:
+              - generic [ref=e194]: 腾讯链
+              - generic [ref=e195]: 数据中心
+              - generic [ref=e196]: 算力
+          - cell "15.76" [ref=e197]
+          - cell "+0.25%" [ref=e198]
+          - cell "122亿" [ref=e199]
+          - cell "🔥 2" [ref=e200]:
+            - generic [ref=e201]: 🔥 2
+          - cell "📰 2" [ref=e202]:
+            - generic [ref=e203]: 📰 2
+          - cell "2026-04-26" [ref=e204]
+        - row "9 传艺科技 002866 电子-消费电子-消费电子零部件及组装 消费电子概念 固态电池 钠离子电池 +8 27.65 -5.76% 50亿 🔥 1 📰 1 2026-04-26" [ref=e205] [cursor=pointer]:
+          - cell "9" [ref=e206]
+          - cell "传艺科技 002866" [ref=e207]:
+            - generic [ref=e208]: 传艺科技
+            - generic [ref=e209]: "002866"
+          - cell "电子-消费电子-消费电子零部件及组装" [ref=e210]
+          - cell "消费电子概念 固态电池 钠离子电池 +8" [ref=e211]:
+            - generic [ref=e212]:
+              - generic [ref=e213]: 消费电子概念
+              - generic [ref=e214]: 固态电池
+              - generic [ref=e215]: 钠离子电池
+              - generic [ref=e216]: "+8"
+          - cell "27.65" [ref=e217]
+          - cell "-5.76%" [ref=e218]
+          - cell "50亿" [ref=e219]
+          - cell "🔥 1" [ref=e220]:
+            - generic [ref=e221]: 🔥 1
+          - cell "📰 1" [ref=e222]:
+            - generic [ref=e223]: 📰 1
+          - cell "2026-04-26" [ref=e224]
+        - row "10 美格智能 002881 通信-通信设备-通信终端及配件 毫米波雷达 创投 东数西算(算力) +31 41.86 +1.33% 76亿 🔥 1 📰 1 2026-04-26" [ref=e225] [cursor=pointer]:
+          - cell "10" [ref=e226]
+          - cell "美格智能 002881" [ref=e227]:
+            - generic [ref=e228]: 美格智能
+            - generic [ref=e229]: "002881"
+          - cell "通信-通信设备-通信终端及配件" [ref=e230]
+          - cell "毫米波雷达 创投 东数西算(算力) +31" [ref=e231]:
+            - generic [ref=e232]:
+              - generic [ref=e233]: 毫米波雷达
+              - generic [ref=e234]: 创投
+              - generic [ref=e235]: 东数西算(算力)
+              - generic [ref=e236]: "+31"
+          - cell "41.86" [ref=e237]
+          - cell "+1.33%" [ref=e238]
+          - cell "76亿" [ref=e239]
+          - cell "🔥 1" [ref=e240]:
+            - generic [ref=e241]: 🔥 1
+          - cell "📰 1" [ref=e242]:
+            - generic [ref=e243]: 📰 1
+          - cell "2026-04-26" [ref=e244]
+        - row "11 鹏辉能源 300438 电力设备-电池-锂电池 军工 融资融券 新型烟草(电子烟) +20 88.35 +3.94% 357亿 🔥 1 📰 1 2026-04-26" [ref=e245] [cursor=pointer]:
+          - cell "11" [ref=e246]
+          - cell "鹏辉能源 300438" [ref=e247]:
+            - generic [ref=e248]: 鹏辉能源
+            - generic [ref=e249]: "300438"
+          - cell "电力设备-电池-锂电池" [ref=e250]
+          - cell "军工 融资融券 新型烟草(电子烟) +20" [ref=e251]:
+            - generic [ref=e252]:
+              - generic [ref=e253]: 军工
+              - generic [ref=e254]: 融资融券
+              - generic [ref=e255]: 新型烟草(电子烟)
+              - generic [ref=e256]: "+20"
+          - cell "88.35" [ref=e257]
+          - cell "+3.94%" [ref=e258]
+          - cell "357亿" [ref=e259]
+          - cell "🔥 1" [ref=e260]:
+            - generic [ref=e261]: 🔥 1
+          - cell "📰 1" [ref=e262]:
+            - generic [ref=e263]: 📰 1
+          - cell "2026-04-26" [ref=e264]
+        - row "12 润欣科技 300493 电子-其他电子-其他电子Ⅲ 智能音箱 先进封装 数据中心 +20 17.25 +2.99% 87亿 🔥 1 📰 1 2026-04-26" [ref=e265] [cursor=pointer]:
+          - cell "12" [ref=e266]
+          - cell "润欣科技 300493" [ref=e267]:
+            - generic [ref=e268]: 润欣科技
+            - generic [ref=e269]: "300493"
+          - cell "电子-其他电子-其他电子Ⅲ" [ref=e270]
+          - cell "智能音箱 先进封装 数据中心 +20" [ref=e271]:
+            - generic [ref=e272]:
+              - generic [ref=e273]: 智能音箱
+              - generic [ref=e274]: 先进封装
+              - generic [ref=e275]: 数据中心
+              - generic [ref=e276]: "+20"
+          - cell "17.25" [ref=e277]
+          - cell "+2.99%" [ref=e278]
+          - cell "87亿" [ref=e279]
+          - cell "🔥 1" [ref=e280]:
+            - generic [ref=e281]: 🔥 1
+          - cell "📰 1" [ref=e282]:
+            - generic [ref=e283]: 📰 1
+          - cell "2026-04-26" [ref=e284]
+        - row "13 广和通 300638 通信-通信设备-通信终端及配件 毫米波雷达 东数西算(算力) 车联网(车路协同) +30 23.92 +1.74% 127亿 🔥 1 📰 1 2026-04-26" [ref=e285] [cursor=pointer]:
+          - cell "13" [ref=e286]
+          - cell "广和通 300638" [ref=e287]:
+            - generic [ref=e288]: 广和通
+            - generic [ref=e289]: "300638"
+          - cell "通信-通信设备-通信终端及配件" [ref=e290]
+          - cell "毫米波雷达 东数西算(算力) 车联网(车路协同) +30" [ref=e291]:
+            - generic [ref=e292]:
+              - generic [ref=e293]: 毫米波雷达
+              - generic [ref=e294]: 东数西算(算力)
+              - generic [ref=e295]: 车联网(车路协同)
+              - generic [ref=e296]: "+30"
+          - cell "23.92" [ref=e297]
+          - cell "+1.74%" [ref=e298]
+          - cell "127亿" [ref=e299]
+          - cell "🔥 1" [ref=e300]:
+            - generic [ref=e301]: 🔥 1
+          - cell "📰 1" [ref=e302]:
+            - generic [ref=e303]: 📰 1
+          - cell "2026-04-26" [ref=e304]
+        - row "14 宁德时代 300750 电力设备-电池-锂电池 小米汽车 动力电池回收 融资融券 +14 446.11 +2.08% 18990亿 🔥 1 📰 1 2026-04-26" [ref=e305] [cursor=pointer]:
+          - cell "14" [ref=e306]
+          - cell "宁德时代 300750" [ref=e307]:
+            - generic [ref=e308]: 宁德时代
+            - generic [ref=e309]: "300750"
+          - cell "电力设备-电池-锂电池" [ref=e310]
+          - cell "小米汽车 动力电池回收 融资融券 +14" [ref=e311]:
+            - generic [ref=e312]:
+              - generic [ref=e313]: 小米汽车
+              - generic [ref=e314]: 动力电池回收
+              - generic [ref=e315]: 融资融券
+              - generic [ref=e316]: "+14"
+          - cell "446.11" [ref=e317]
+          - cell "+2.08%" [ref=e318]
+          - cell "18990亿" [ref=e319]
+          - cell "🔥 1" [ref=e320]:
+            - generic [ref=e321]: 🔥 1
+          - cell "📰 1" [ref=e322]:
+            - generic [ref=e323]: 📰 1
+          - cell "2026-04-26" [ref=e324]
+        - row "15 维科技术 600152 电力设备-电池-锂电池 机器人概念 消费电子概念 固态电池 +10 14.65 -4.93% 78亿 🔥 1 📰 1 2026-04-26" [ref=e325] [cursor=pointer]:
+          - cell "15" [ref=e326]
+          - cell "维科技术 600152" [ref=e327]:
+            - generic [ref=e328]: 维科技术
+            - generic [ref=e329]: "600152"
+          - cell "电力设备-电池-锂电池" [ref=e330]
+          - cell "机器人概念 消费电子概念 固态电池 +10" [ref=e331]:
+            - generic [ref=e332]:
+              - generic [ref=e333]: 机器人概念
+              - generic [ref=e334]: 消费电子概念
+              - generic [ref=e335]: 固态电池
+              - generic [ref=e336]: "+10"
+          - cell "14.65" [ref=e337]
+          - cell "-4.93%" [ref=e338]
+          - cell "78亿" [ref=e339]
+          - cell "🔥 1" [ref=e340]:
+            - generic [ref=e341]: 🔥 1
+          - cell "📰 1" [ref=e342]:
+            - generic [ref=e343]: 📰 1
+          - cell "2026-04-26" [ref=e344]
+        - row "16 华阳股份 600348 煤炭-煤炭开采加工-煤炭开采 光伏概念 煤炭概念 TOPCON电池 +9 10.02 +0.10% 361亿 🔥 1 📰 1 2026-04-26" [ref=e345] [cursor=pointer]:
+          - cell "16" [ref=e346]
+          - cell "华阳股份 600348" [ref=e347]:
+            - generic [ref=e348]: 华阳股份
+            - generic [ref=e349]: "600348"
+          - cell "煤炭-煤炭开采加工-煤炭开采" [ref=e350]
+          - cell "光伏概念 煤炭概念 TOPCON电池 +9" [ref=e351]:
+            - generic [ref=e352]:
+              - generic [ref=e353]: 光伏概念
+              - generic [ref=e354]: 煤炭概念
+              - generic [ref=e355]: TOPCON电池
+              - generic [ref=e356]: "+9"
+          - cell "10.02" [ref=e357]
+          - cell "+0.10%" [ref=e358]
+          - cell "361亿" [ref=e359]
+          - cell "🔥 1" [ref=e360]:
+            - generic [ref=e361]: 🔥 1
+          - cell "📰 1" [ref=e362]:
+            - generic [ref=e363]: 📰 1
+          - cell "2026-04-26" [ref=e364]
+        - row "17 融捷股份 002192 有色金属-能源金属-锂 回购增持再贷款概念 融资融券 锂电池概念 +4 102.07 +3.00% 264亿 🔥 2 📰 1 2026-04-24" [ref=e365] [cursor=pointer]:
+          - cell "17" [ref=e366]
+          - cell "融捷股份 002192" [ref=e367]:
+            - generic [ref=e368]: 融捷股份
+            - generic [ref=e369]: "002192"
+          - cell "有色金属-能源金属-锂" [ref=e370]
+          - cell "回购增持再贷款概念 融资融券 锂电池概念 +4" [ref=e371]:
+            - generic [ref=e372]:
+              - generic [ref=e373]: 回购增持再贷款概念
+              - generic [ref=e374]: 融资融券
+              - generic [ref=e375]: 锂电池概念
+              - generic [ref=e376]: "+4"
+          - cell "102.07" [ref=e377]
+          - cell "+3.00%" [ref=e378]
+          - cell "264亿" [ref=e379]
+          - cell "🔥 2" [ref=e380]:
+            - generic [ref=e381]: 🔥 2
+          - cell "📰 1" [ref=e382]:
+            - generic [ref=e383]: 📰 1
+          - cell "2026-04-24" [ref=e384]
+        - row "18 盛新锂能 002240 有色金属-能源金属-锂 融资融券 宁德时代概念 比亚迪概念 +7 57.81 +0.50% 528亿 🔥 3 📰 1 2026-04-24" [ref=e385] [cursor=pointer]:
+          - cell "18" [ref=e386]
+          - cell "盛新锂能 002240" [ref=e387]:
+            - generic [ref=e388]: 盛新锂能
+            - generic [ref=e389]: "002240"
+          - cell "有色金属-能源金属-锂" [ref=e390]
+          - cell "融资融券 宁德时代概念 比亚迪概念 +7" [ref=e391]:
+            - generic [ref=e392]:
+              - generic [ref=e393]: 融资融券
+              - generic [ref=e394]: 宁德时代概念
+              - generic [ref=e395]: 比亚迪概念
+              - generic [ref=e396]: "+7"
+          - cell "57.81" [ref=e397]
+          - cell "+0.50%" [ref=e398]
+          - cell "528亿" [ref=e399]
+          - cell "🔥 3" [ref=e400]:
+            - generic [ref=e401]: 🔥 3
+          - cell "📰 1" [ref=e402]:
+            - generic [ref=e403]: 📰 1
+          - cell "2026-04-24" [ref=e404]
+        - row "19 永兴材料 002756 有色金属-能源金属-锂 特钢概念 军工 融资融券 +4 79.63 -0.03% 308亿 🔥 1 📰 1 2026-04-24" [ref=e405] [cursor=pointer]:
+          - cell "19" [ref=e406]
+          - cell "永兴材料 002756" [ref=e407]:
+            - generic [ref=e408]: 永兴材料
+            - generic [ref=e409]: "002756"
+          - cell "有色金属-能源金属-锂" [ref=e410]
+          - cell "特钢概念 军工 融资融券 +4" [ref=e411]:
+            - generic [ref=e412]:
+              - generic [ref=e413]: 特钢概念
+              - generic [ref=e414]: 军工
+              - generic [ref=e415]: 融资融券
+              - generic [ref=e416]: "+4"
+          - cell "79.63" [ref=e417]
+          - cell "-0.03%" [ref=e418]
+          - cell "308亿" [ref=e419]
+          - cell "🔥 1" [ref=e420]:
+            - generic [ref=e421]: 🔥 1
+          - cell "📰 1" [ref=e422]:
+            - generic [ref=e423]: 📰 1
+          - cell "2026-04-24" [ref=e424]
+        - row "20 富瀚微 300613 电子-半导体-数字芯片设计 智能音箱 东数西算(算力) 人工智能 +17 62.10 -1.35% 136亿 🔥 1 — 2026-04-24" [ref=e425] [cursor=pointer]:
+          - cell "20" [ref=e426]
+          - cell "富瀚微 300613" [ref=e427]:
+            - generic [ref=e428]: 富瀚微
+            - generic [ref=e429]: "300613"
+          - cell "电子-半导体-数字芯片设计" [ref=e430]
+          - cell "智能音箱 东数西算(算力) 人工智能 +17" [ref=e431]:
+            - generic [ref=e432]:
+              - generic [ref=e433]: 智能音箱
+              - generic [ref=e434]: 东数西算(算力)
+              - generic [ref=e435]: 人工智能
+              - generic [ref=e436]: "+17"
+          - cell "62.10" [ref=e437]
+          - cell "-1.35%" [ref=e438]
+          - cell "136亿" [ref=e439]
+          - cell "🔥 1" [ref=e440]:
+            - generic [ref=e441]: 🔥 1
+          - cell "—" [ref=e442]
+          - cell "2026-04-24" [ref=e443]
+    - button "📥 加载更多（还剩 0 只）" [ref=e445] [cursor=pointer]
+  - contentinfo [ref=e446]: CYBERRESEARCH © 2026 · AI-Powered Investment Research Platform
