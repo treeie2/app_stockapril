@@ -814,55 +814,13 @@
                     <span>+</span> 添加热点
                 </button>
             </div>
-            <div class="hot-topics-grid">
-                <!-- 动态热点（只显示 display=true 的热点） -->
-                {% set visible_topics = [] %}
-                {% for topic in hot_topics if topic.get('display', True) %}
-                    {% set visible_topics = visible_topics + [topic] %}
-                {% endfor %}
-                
-                {% if visible_topics %}
-                    {% for topic in visible_topics %}
-                    <div class="hot-topic-card" data-topic-id="{{ topic.id }}" data-topic-name="{{ topic.name|e }}" data-topic-drivers="{{ topic.drivers|e }}" data-topic-stocks="{{ topic.stocks|join(',')|e }}" style="cursor:pointer;" onclick="window.location='/hot-topic/{{ topic.id }}'">
-                        <div class="hot-topic-header">
-                            <span class="hot-topic-icon">🔥</span>
-                            <span class="hot-topic-name">{{ topic.name }}</span>
-                            <div class="hot-topic-actions" onclick="event.stopPropagation();">
-                                <button class="toggle-display-btn" onclick="toggleHotTopicDisplay('{{ topic.id }}', false)" title="设为不显示" style="background:none;border:none;cursor:pointer;font-size:1rem;opacity:0.6;">👁️</button>
-                                <button class="edit-topic-btn" onclick="openEditHotTopicModal('{{ topic.id }}')" title="编辑热点">✏️</button>
-                                <button class="delete-topic-btn" onclick="deleteHotTopic('{{ topic.id }}', '{{ topic.name|e }}')" title="删除此热点">×</button>
-                            </div>
-                        </div>
-                        <div class="hot-topic-desc">{{ topic.drivers[:80] }}{% if topic.drivers|length > 80 %}...{% endif %}</div>
-                        <div class="hot-topic-stocks" onclick="event.stopPropagation();">
-                            {% for stock_name in topic.stocks %}
-                                <a href="/stock/{{ stock_name }}" class="hot-stock-tag" onclick="event.stopPropagation();">{{ stock_name }}</a>
-                            {% endfor %}
-                        </div>
-                    </div>
-                    {% endfor %}
-                {% else %}
-                    <!-- 没有数据时的提示 -->
-                    <div class="hot-topic-card" style="text-align:center;padding:2rem;color:var(--t3);">
-                        <div style="font-size:2rem;margin-bottom:.5rem;">📭</div>
-                        <div>暂无显示的热点</div>
-                        <div style="font-size:.75rem;margin-top:.5rem;">点击右上角"+ 添加热点"按钮添加</div>
-                    </div>
-                {% endif %}
+            <div class="hot-topics-grid" id="hotTopicsContainer">
+                <!-- 加载中状态 -->
+                <div class="hot-topic-card" style="text-align:center;padding:2rem;color:var(--t3);grid-column: 1/-1;">
+                    <div style="font-size:1.5rem;margin-bottom:.5rem;">⏳</div>
+                    <div>加载中...</div>
+                </div>
             </div>
-            
-            <!-- 隐藏的热点管理入口 -->
-            {% set hidden_topics = [] %}
-            {% for topic in hot_topics if not topic.get('display', True) %}
-                {% set hidden_topics = hidden_topics + [topic] %}
-            {% endfor %}
-            {% if hidden_topics %}
-            <div style="margin-top:1rem;padding-top:1rem;border-top:1px solid rgba(245,158,11,.1);">
-                <button class="manage-hidden-btn" onclick="showHiddenTopics()" style="background:none;border:1px solid var(--border);color:var(--t3);padding:.3rem .6rem;border-radius:6px;font-size:.72rem;cursor:pointer;">
-                    📋 还有 {{ hidden_topics|length }} 个隐藏热点，点击管理
-                </button>
-            </div>
-            {% endif %}
         </div>
         
         <!-- Full-text Search -->
@@ -1528,6 +1486,70 @@
             }
         }
         
+        // ============================================
+        // 热点数据加载（通过 API）
+        // ============================================
+        
+        function escapeHtml(text) {
+            if (!text) return '';
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+        
+        async function loadHotTopics() {
+            const container = document.getElementById('hotTopicsContainer');
+            if (!container) return;
+            
+            try {
+                const response = await fetch('/api/hot-topics');
+                const data = await response.json();
+                
+                if (data.success && data.topics && data.topics.length > 0) {
+                    let html = '';
+                    data.topics.forEach(topic => {
+                        const stocksHtml = (topic.stocks || []).slice(0, 8).map(stock => 
+                            `<a href="/stock/${encodeURIComponent(stock)}" class="hot-stock-tag" onclick="event.stopPropagation();">${escapeHtml(stock)}</a>`
+                        ).join('');
+                        const moreCount = (topic.stocks || []).length - 8;
+                        
+                        html += `
+                        <div class="hot-topic-card" data-topic-id="${topic.id}" style="cursor:pointer;" onclick="window.location='/hot-topic/${topic.id}'">
+                            <div class="hot-topic-header">
+                                <span class="hot-topic-icon">🔥</span>
+                                <span class="hot-topic-name">${escapeHtml(topic.name)}</span>
+                                <div class="hot-topic-actions" onclick="event.stopPropagation();">
+                                    <button class="edit-topic-btn" onclick="openEditHotTopicModal('${topic.id}')" title="编辑热点">✏️</button>
+                                    <button class="delete-topic-btn" onclick="deleteHotTopic('${topic.id}', '${escapeHtml(topic.name)}')" title="删除此热点">×</button>
+                                </div>
+                            </div>
+                            <div class="hot-topic-desc">${escapeHtml((topic.drivers || '').substring(0, 100))}${topic.drivers && topic.drivers.length > 100 ? '...' : ''}</div>
+                            <div class="hot-topic-stocks" onclick="event.stopPropagation();">
+                                ${stocksHtml}
+                                ${moreCount > 0 ? `<span class="hot-stock-tag" style="background:transparent;color:var(--t3);">+${moreCount}更多</span>` : ''}
+                            </div>
+                        </div>`;
+                    });
+                    container.innerHTML = html;
+                } else {
+                    container.innerHTML = `
+                    <div class="hot-topic-card" style="text-align:center;padding:2rem;color:var(--t3);grid-column: 1/-1;">
+                        <div style="font-size:2rem;margin-bottom:.5rem;">📭</div>
+                        <div>暂无显示的热点</div>
+                        <div style="font-size:.75rem;margin-top:.5rem;">点击右上角"+ 添加热点"按钮添加</div>
+                    </div>`;
+                }
+            } catch (error) {
+                console.error('加载热点失败:', error);
+                container.innerHTML = `
+                <div class="hot-topic-card" style="text-align:center;padding:2rem;color:var(--t3);grid-column: 1/-1;">
+                    <div style="font-size:2rem;margin-bottom:.5rem;">⚠️</div>
+                    <div>热点加载失败</div>
+                    <button onclick="loadHotTopics()" style="margin-top:.5rem;padding:.3rem .6rem;background:var(--bg-card);border:1px solid var(--border);color:var(--t2);border-radius:4px;cursor:pointer;">重试</button>
+                </div>`;
+            }
+        }
+        
         // 页面加载时尝试从 Firebase 获取数据
         document.addEventListener('DOMContentLoaded', async () => {
             if (useFirebase) {
@@ -1536,6 +1558,8 @@
                     console.log('⚠️ Firebase 加载失败，使用本地数据');
                 }
             }
+            // 加载热点数据
+            loadHotTopics();
         });
     </script>
     
