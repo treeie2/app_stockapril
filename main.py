@@ -618,16 +618,14 @@ def dashboard():
         })
     
     # 每次都重新加载最新热点数据
-    current_hot_topics = []
-    try:
-        hot_file = BASE_DIR / 'data' / 'hot_topics.json'
-        if hot_file.exists():
-            with open(hot_file, 'r', encoding='utf-8') as f:
-                ht_data = json.load(f)
-                current_hot_topics = ht_data.get('topics', [])
-    except Exception:
-        current_hot_topics = hot_topics  # 回退到全局变量
-
+    current_ho    })
+    
+    # 直接使用全局热点数据（已在 load_all_data 中正确加载）
+    # 添加调试日志
+    print(f"DEBUG: hot_topics count = {len(hot_topics)}")
+    for ht in hot_topics:
+        print(f"  - {ht.get('name')} (display={ht.get('display', True)})")
+    
     # 首次加载，渲染完整页面
     return render_template('dashboard.html',
         stocks=paginated_stocks,
@@ -637,7 +635,7 @@ def dashboard():
         has_more=has_more,
         next_offset=offset + limit,
         limit=limit,
-        hot_topics=current_hot_topics)
+        hot_topics=hot_topics)
 
 @app.route('/hot-topic/<topic_id>')
 def hot_topic_detail(topic_id):
