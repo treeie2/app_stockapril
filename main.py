@@ -735,6 +735,84 @@ def hot_topic_detail(topic_id):
     
     return render_template('hot_topic_detail.html', topic=topic, stocks=related_stocks)
 
+# ============================================
+# 热点数据 API（独立的、健壮的热点头点加载）
+# ============================================
+
+@app.route('/api/hot-topics')
+def api_hot_topics():
+    """
+    专门的热点数据 API
+    返回格式: {"success": true, "topics": [...], "count": N}
+    """
+    # 直接加载热点数据，不依赖全局状态
+    topics = []
+    
+    # 方法1: 从本地文件加载
+    try:
+        from pathlib import Path
+        # 尝试多个可能的路径
+        possible_paths = [
+            Path(__file__).parent / 'data' / 'hot_topics.json',
+            Path(__file__).parent.parent / 'data' / 'hot_topics.json',
+        ]
+        
+        for hot_file in possible_paths:
+            if hot_file.exists():
+                with open(hot_file, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                    topics = data.get('topics', [])
+                    print(f"[API] 从 {hot_file} 加载了 {len(topics)} 个热点")
+                    break
+    except Exception as e:
+        print(f"[API] 本地文件加载失败: {e}")
+    
+    # 方法2: 如果本地为空，尝试 Firebase
+    if not topics:
+        try:
+            from firebase_hot_topics import load_from_firebase
+            fb_topics = load_from_firebase(include_hidden=False)
+            if fb_topics:
+                topics = fb_topics
+                print(f"[API] 从 Firebase 加载了 {len(topics)} 个热点")
+        except Exception as e:
+            print(f"[API] Firebase 加载失败: {e}")
+    
+    # 只返回 display=true 的热点
+    visible_topics = [t for t in topics if t.get('display', True)]
+    
+    return jsonify({
+        'success': True,
+        'topics': visible_topics,
+        'count': len(visible_topics),
+        'all_count': len(topics)
+    })
+
+@app.route('/api/all-hot-topics')
+def api_all_hot_topics():
+    """返回所有热点（包括隐藏的），用于管理"""
+    topics = []
+    
+    try:
+        from pathlib import Path
+        for hot_file in [
+            Path(__file__).parent / 'data' / 'hot_topics.json',
+            Path(__file__).parent.parent / 'data' / 'hot_topics.json',
+        ]:
+            if hot_file.exists():
+                with open(hot_file, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                    topics = data.get('topics', [])
+                    break
+    except Exception as e:
+        print(f"[API] 加载失败: {e}")
+    
+    return jsonify({
+        'success': True,
+        'topics': topics,
+        'count': len(topics)
+    })
+
 @app.route('/stocks')
 def stocks_list():
     # 获取排序方式（通过 URL 参数）
