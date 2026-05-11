@@ -45,6 +45,8 @@ Thumbs.db
 firebase-credentials.json
 .trae/rules/firebase-credentials.json
 serviceAccountKey.json
+*.firebase*.json
+.trae/skills/add-hot-topic/
 
 # GitHub tokens and sensitive files
 *token*
