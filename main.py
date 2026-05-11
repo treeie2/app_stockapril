@@ -23,31 +23,41 @@ def get_akshare():
 # 获取项目根目录（兼容 Vercel 和本地环境）
 def get_base_dir():
     """获取项目根目录（兼容本地和 Vercel）"""
-    # 优先使用环境变量（Vercel 部署时设置）
-    if 'VERCEL' in os.environ:
-        # Vercel Python Runtime: 代码在 /var/task/ 下
-        task_dir = Path('/var/task')
-        if (task_dir / 'main.py').exists() or (task_dir / 'api').exists():
-            return task_dir
-
-    # 尝试从当前文件位置获取
+    # 尝试从当前文件位置获取（最可靠）
     try:
         p = Path(__file__).parent
-        # 验证：确保 data 目录在同一级
-        if (p / 'data').exists() or (p.parent / 'data').exists():
+        if (p / 'data').exists():
+            print(f"  📂 从文件位置找到 base_dir: {p}")
             return p
-    except:
-        pass
+    except Exception as e:
+        print(f"  ⚠️ 从文件位置获取失败: {e}")
 
     # 尝试 cwd
     cwd = Path(os.getcwd())
     if (cwd / 'data').exists():
+        print(f"  📂 从 cwd 找到 base_dir: {cwd}")
         return cwd
 
-    # 兜底
-    return Path(os.getcwd())
+    # Vercel 环境检查
+    if 'VERCEL' in os.environ:
+        task_dir = Path('/var/task')
+        if (task_dir / 'data').exists():
+            print(f"  📂 从 Vercel task 找到 base_dir: {task_dir}")
+            return task_dir
+        # 尝试父目录
+        parent = task_dir.parent
+        if (parent / 'data').exists():
+            print(f"  📂 从 Vercel parent 找到 base_dir: {parent}")
+            return parent
+
+    print(f"  ⚠️ 未找到 data 目录，使用 cwd: {cwd}")
+    return cwd
 
 BASE_DIR = get_base_dir()
+print(f"📂 最终 BASE_DIR: {BASE_DIR}")
+print(f"📂 BASE_DIR 存在: {BASE_DIR.exists()}")
+print(f"📂 data 目录存在: {(BASE_DIR / 'data').exists()}")
+print(f"📂 hot_topics.json 存在: {(BASE_DIR / 'data' / 'hot_topics.json').exists()}")
 
 # 显式配置 Flask 的静态文件和模板目录
 app = Flask(__name__,
@@ -57,8 +67,6 @@ app = Flask(__name__,
 
 # 文章API服务配置
 ARTICLE_API_URL = os.environ.get('ARTICLE_API_URL', 'http://localhost:5001')
-
-BASE_DIR = get_base_dir()
 
 # 数据路径
 DATA_DIR = BASE_DIR / 'data' / 'sentiment'
