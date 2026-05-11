@@ -662,9 +662,6 @@ def dashboard():
             'has_more': has_more
         })
     
-    # 每次都重新加载最新热点数据
-    current_ho    })
-    
     # 直接使用全局热点数据（已在 load_all_data 中正确加载）
     # 添加调试日志
     print(f"DEBUG: hot_topics count = {len(hot_topics)}")
