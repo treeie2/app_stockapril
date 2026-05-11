@@ -10,7 +10,17 @@ from flask import Flask, jsonify, render_template, request, send_file, send_from
 import json, gzip, os, requests
 from pathlib import Path
 from datetime import datetime
-from firebase_hot_topics import sync_to_firebase, load_from_firebase
+# Firebase 导入（可选，失败不影响主功能）
+try:
+    from firebase_hot_topics import sync_to_firebase, load_from_firebase
+    print("[INFO] Firebase 模块加载成功")
+except ImportError as e:
+    print(f"[INFO] Firebase 模块不可用: {e}")
+    # 定义空函数作为后备
+    def sync_to_firebase(*args, **kwargs):
+        pass
+    def load_from_firebase(*args, **kwargs):
+        return None
 
 # 延迟导入 akshare（避免加载慢）
 def get_akshare():

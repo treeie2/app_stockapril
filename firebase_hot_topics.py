@@ -14,36 +14,65 @@ KEY_FILES = [
     Path(__file__).parent / ".trae" / "rules" / "firebase-credentials.json",
 ]
 
+# Firebase 状态标志
+_firebase_available = None
+_firebase_initialized = False
+
+
+def _check_firebase_available():
+    """检查 Firebase SDK 是否可用"""
+    global _firebase_available
+    if _firebase_available is not None:
+        return _firebase_available
+    
+    try:
+        import firebase_admin
+        from firebase_admin import credentials
+        _firebase_available = True
+        return True
+    except ImportError as e:
+        print(f"[Firebase] SDK 不可用: {e}")
+        _firebase_available = False
+        return False
+
 
 def _get_app():
     """获取或初始化 Firebase App，失败返回 None。"""
-    import firebase_admin
-    from firebase_admin import credentials
-
-    # 如果已经初始化，直接返回
-    if firebase_admin._apps:
-        return firebase_admin.get_app()
-
-    # 查找密钥文件
-    key_file = None
-    for f in KEY_FILES:
-        if f.exists():
-            key_file = str(f)
-            break
-
-    if not key_file:
-        print("[Firebase] 未找到服务账号密钥文件，跳过")
+    global _firebase_initialized
+    
+    if not _check_firebase_available():
         return None
-
+    
     try:
+        import firebase_admin
+        from firebase_admin import credentials
+        
+        # 如果已经初始化，直接返回
+        if firebase_admin._apps:
+            _firebase_initialized = True
+            return firebase_admin.get_app()
+
+        # 查找密钥文件
+        key_file = None
+        for f in KEY_FILES:
+            if f.exists():
+                key_file = str(f)
+                break
+
+        if not key_file:
+            print("[Firebase] 未找到服务账号密钥文件，跳过")
+            return None
+
         cred = credentials.Certificate(key_file)
         app = firebase_admin.initialize_app(cred, {
             'projectId': FIREBASE_PROJECT_ID,
         })
+        _firebase_initialized = True
         print(f"[Firebase] 已初始化: {FIREBASE_PROJECT_ID}")
         return app
     except Exception as e:
         print(f"[Firebase] 初始化失败: {e}")
+        _firebase_available = False
         return None
 
 
