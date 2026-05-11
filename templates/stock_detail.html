@@ -1007,6 +1007,12 @@
                     {% endfor %}
                 </div>
             {% endif %}
+            
+            <!-- 所属分组 -->
+            <div class="group-strip" id="groupStrip" style="margin-top:0.75rem;display:flex;flex-wrap:wrap;gap:0.4rem;align-items:center;">
+                <span style="font-size:0.7rem;color:var(--text-muted);margin-right:0.25rem;">📁 所属分组:</span>
+                <span id="stockGroupsLoading" style="font-size:0.75rem;color:var(--text-muted);">加载中...</span>
+            </div>
         </div>
         
         <!-- ─── 公司画像 · 产业链 ─── -->
@@ -1782,6 +1788,57 @@
             .preview-value{font-size:0.85rem;color:var(--text-primary);line-height:1.5}
         `;
         document.head.appendChild(editStyle);
+        
+        // ============================================
+        // 加载股票所属的分组
+        // ============================================
+        
+        function escapeHtml(text) {
+            if (!text) return '';
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+        
+        async function loadStockGroups() {
+            const container = document.getElementById('groupStrip');
+            const loading = document.getElementById('stockGroupsLoading');
+            if (!container) return;
+            
+            try {
+                const code = '{{ stock.code }}';
+                const response = await fetch(`/api/stock/${code}/groups`);
+                const data = await response.json();
+                
+                if (data.success && data.groups && data.groups.length > 0) {
+                    let html = '';
+                    data.groups.forEach(group => {
+                        html += `<a href="/group/${group.id}" class="group-tag" style="display:inline-flex;align-items:center;gap:0.3rem;padding:0.25rem 0.6rem;background:rgba(${hexToRgb(group.color || '#3b82f6')},.12);border:1px solid rgba(${hexToRgb(group.color || '#3b82f6')},.25);border-radius:15px;color:${group.color || '#3b82f6'};font-size:0.72rem;text-decoration:none;transition:all .15s;" onmouseover="this.style.background='rgba(${hexToRgb(group.color || '#3b82f6')},.2)'" onmouseout="this.style.background='rgba(${hexToRgb(group.color || '#3b82f6')},.12)'">
+                            ${group.icon || '📁'} ${escapeHtml(group.name)}
+                        </a>`;
+                    });
+                    // 移除加载提示，保留标签
+                    container.innerHTML = `<span style="font-size:0.7rem;color:var(--text-muted);margin-right:0.25rem;">📁 所属分组:</span>${html}`;
+                } else {
+                    container.innerHTML = `<span style="font-size:0.7rem;color:var(--text-muted);margin-right:0.25rem;">📁 所属分组:</span><span style="font-size:0.75rem;color:var(--text-muted);">暂无分组</span>`;
+                }
+            } catch (error) {
+                console.error('加载分组失败:', error);
+                container.innerHTML = `<span style="font-size:0.7rem;color:var(--text-muted);margin-right:0.25rem;">📁 所属分组:</span><span style="font-size:0.75rem;color:var(--text-muted);">加载失败</span>`;
+            }
+        }
+        
+        function hexToRgb(hex) {
+            const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+            return result ? 
+                `${parseInt(result[1], 16)},${parseInt(result[2], 16)},${parseInt(result[3], 16)}` : 
+                '59,130,246';
+        }
+        
+        // 页面加载时调用
+        document.addEventListener('DOMContentLoaded', () => {
+            loadStockGroups();
+        });
     </script>
 </body>
 </html>
