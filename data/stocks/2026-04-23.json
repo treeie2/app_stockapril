@@ -1,0 +1,1758 @@
+{
+  "stocks": {
+    "000960": {
+      "name": "锡业股份",
+      "code": "000960",
+      "board": "SZ",
+      "industry": "有色金属 - 稀有金属 - 铟",
+      "concepts": [
+        "磷化铟",
+        "半导体材料",
+        "AI算力",
+        "稀有金属",
+        "上游原材料"
+      ],
+      "products": [
+        "铟锭",
+        "超高纯铟"
+      ],
+      "core_business": [
+        "铟资源开发与生产",
+        "超高纯铟制备"
+      ],
+      "industry_position": [
+        "全球铟资源龙头",
+        "铟保有资源储量全球第一",
+        "全球市占率超30%"
+      ],
+      "chain": [
+        "上游 - 原材料"
+      ],
+      "partners": [
+        "国内头部半导体材料厂商"
+      ],
+      "mention_count": 5,
+      "articles": [
+        {
+          "date": "2025-03-31",
+          "key_metrics": [
+            "2.中长期稳健型策略"
+          ],
+          "title": "20250331-今日操作建议参考-回复“今日标的”实时更新",
+          "source": "https://mp.weixin.qq.com/s/B4uQCfPmKUZiSUrkO9Wviw"
+        },
+        {
+          "date": "2026-04-21",
+          "title": "光板块领涨全市场！磷化铟：AI算力卡脖子核心，全产业链标的全梳理（附权威出处）",
+          "source": "https://mp.weixin.qq.com/s/5bluU2s8izAKQ9K3Fb2KGA"
+        }
+      ],
+      "last_updated": "2026-04-23",
+      "valuation": {}
+    },
+    "000988": {
+      "name": "华工科技",
+      "code": "000988",
+      "board": "SZ",
+      "industry": "机械设备 - 通用设备 - 其他通用设备",
+      "concepts": [
+        "磷化铟",
+        "半导体材料",
+        "AI算力"
+      ],
+      "products": [
+        "磷化铟量子点光芯片",
+        "光模块"
+      ],
+      "core_business": [
+        "磷化铟量子点光芯片自研",
+        "光模块制造"
+      ],
+      "industry_position": [
+        "国内极少数实现磷化铟量子点光芯片自研量产"
+      ],
+      "chain": [
+        "中游 - 外延+光芯片",
+        "下游 - 光模块"
+      ],
+      "partners": [],
+      "mention_count": 3,
+      "articles": [
+        {
+          "key_metrics": [],
+          "target_valuation": [],
+          "summary": "",
+          "source": "微信公众号",
+          "insights": [],
+          "accidents": [],
+          "date": "2026-04-21",
+          "content": "光模块领域重要企业",
+          "analysis": "",
+          "title": "磷化铟（InP）：AI 算力卡脖子核心，全产业链标的全梳理"
+        },
+        {
+          "title": "光板块领涨全市场！磷化铟：AI算力卡脖子核心，全产业链标的全梳理（附权威出处）",
+          "date": "2026-04-21",
+          "source": "https://mp.weixin.qq.com/s/5bluU2s8izAKQ9K3Fb2KGA",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-04-23",
+      "valuation": {}
+    },
+    "002023": {
+      "name": "海特高新",
+      "code": "002023",
+      "board": "SZ",
+      "industry": "国防军工 - 航空装备 - 航空维修",
+      "concepts": [
+        "磷化铟",
+        "半导体材料",
+        "AI算力"
+      ],
+      "products": [
+        "磷化铟外延片",
+        "晶圆代工服务"
+      ],
+      "core_business": [
+        "航空维修",
+        "参股磷化铟代工平台"
+      ],
+      "industry_position": [
+        "参股海威华芯布局6英寸磷化铟量产代工"
+      ],
+      "chain": [
+        "中游 - 外延+光芯片"
+      ],
+      "partners": [
+        "华为海思"
+      ],
+      "mention_count": 3,
+      "articles": [
+        {
+          "key_metrics": [],
+          "target_valuation": [],
+          "summary": "",
+          "source": "微信公众号",
+          "insights": [],
+          "accidents": [],
+          "date": "2026-04-21",
+          "content": "磷化铟光芯片领域重要企业",
+          "analysis": "",
+          "title": "磷化铟（InP）：AI 算力卡脖子核心，全产业链标的全梳理"
+        },
+        {
+          "title": "光板块领涨全市场！磷化铟：AI算力卡脖子核心，全产业链标的全梳理（附权威出处）",
+          "date": "2026-04-21",
+          "source": "https://mp.weixin.qq.com/s/5bluU2s8izAKQ9K3Fb2KGA",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-04-23",
+      "valuation": {}
+    },
+    "002156": {
+      "name": "通富微电",
+      "code": "002156",
+      "board": "SZ",
+      "industry": "电子 - 半导体 - 集成电路封测",
+      "concepts": [
+        "TGV技术",
+        "玻璃基板",
+        "先进封装",
+        "AI芯片"
+      ],
+      "products": [],
+      "core_business": [
+        "TGV基板封装能力"
+      ],
+      "industry_position": [],
+      "chain": [
+        "制造端 - 封装测试"
+      ],
+      "partners": [],
+      "mention_count": 3,
+      "articles": [
+        {
+          "date": "2026-04-20",
+          "key_metrics": [
+            "预计归母净利润11-13.5亿元同比+62.34%-99.24%"
+          ],
+          "title": "业绩为王！电子半导体全产业链：10家核心龙头企业深度梳理",
+          "source": "https://mp.weixin.qq.com/s/osXuox5ED3O_dMFXOntgdw",
+          "insights": [
+            "AI芯片封测订单饱满",
+            "先进封装产能持续扩张",
+            "直接受益AI算力爆发"
+          ],
+          "accidents": [
+            "预计2025年归母净利润11-13.5亿元，同比增长62.34%-99.24%"
+          ]
+        },
+        {
+          "title": "TGV（玻璃通孔）技术全解析 + 核心企业梳理",
+          "date": "2026-04-21",
+          "source": "https://mp.weixin.qq.com/s/6PeirSTCbFUP9h2JdS5i2Q",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-04-23",
+      "valuation": {}
+    },
+    "002281": {
+      "name": "光迅科技",
+      "code": "002281",
+      "board": "SZ",
+      "industry": "通信 - 通信设备 - 光通信设备",
+      "concepts": [
+        "磷化铟",
+        "半导体材料",
+        "AI算力"
+      ],
+      "products": [
+        "磷化铟光芯片",
+        "光模块"
+      ],
+      "core_business": [
+        "磷化铟光芯片自研",
+        "光模块制造"
+      ],
+      "industry_position": [
+        "国内光模块龙头企业"
+      ],
+      "chain": [
+        "中游 - 外延+光芯片",
+        "下游 - 光模块"
+      ],
+      "partners": [],
+      "mention_count": 3,
+      "articles": [
+        {
+          "key_metrics": [],
+          "target_valuation": [],
+          "summary": "",
+          "source": "微信公众号",
+          "insights": [],
+          "accidents": [],
+          "date": "2026-04-21",
+          "content": "光模块领域重要企业",
+          "analysis": "",
+          "title": "磷化铟（InP）：AI 算力卡脖子核心，全产业链标的全梳理"
+        },
+        {
+          "title": "光板块领涨全市场！磷化铟：AI算力卡脖子核心，全产业链标的全梳理（附权威出处）",
+          "date": "2026-04-21",
+          "source": "https://mp.weixin.qq.com/s/5bluU2s8izAKQ9K3Fb2KGA",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-04-23",
+      "valuation": {}
+    },
+    "002371": {
+      "name": "北方华创",
+      "code": "002371",
+      "board": "SZ",
+      "industry": "机械设备 - 专用设备 - 半导体设备",
+      "concepts": [
+        "磷化铟",
+        "半导体材料",
+        "AI算力"
+      ],
+      "products": [
+        "磷化铟MOCVD设备"
+      ],
+      "core_business": [
+        "半导体设备制造",
+        "磷化铟外延生长设备"
+      ],
+      "industry_position": [
+        "国内半导体设备龙头"
+      ],
+      "chain": [
+        "设备配套"
+      ],
+      "partners": [
+        "国内多家磷化铟厂商"
+      ],
+      "mention_count": 4,
+      "articles": [
+        {
+          "date": "2026-04-20",
+          "key_metrics": [
+            "预计归母净利润96-100亿元同比+45%-55%",
+            "新增订单285亿元",
+            "订单排至2027年"
+          ],
+          "title": "业绩为王！电子半导体全产业链：10家核心龙头企业深度梳理",
+          "source": "https://mp.weixin.qq.com/s/osXuox5ED3O_dMFXOntgdw",
+          "insights": [
+            "产品贯通晶圆制造全环节，同时布局泛半导体、新能源装备",
+            "形成独一无二的全产业链覆盖能力",
+            "技术比肩国际巨头，是国产设备替代的绝对标杆"
+          ],
+          "accidents": [
+            "预计2025年归母净利润96-100亿元，同比增长45%-55%",
+            "新增订单285亿元，订单排至2027年"
+          ]
+        },
+        {
+          "date": "2026-04-21",
+          "title": "光板块领涨全市场！磷化铟：AI算力卡脖子核心，全产业链标的全梳理（附权威出处）",
+          "source": "https://mp.weixin.qq.com/s/5bluU2s8izAKQ9K3Fb2KGA"
+        }
+      ],
+      "last_updated": "2026-04-23",
+      "valuation": {}
+    },
+    "002428": {
+      "name": "云南锗业",
+      "code": "002428",
+      "board": "SZ",
+      "industry": "有色金属 - 稀有金属 - 锗",
+      "concepts": [
+        "磷化铟",
+        "半导体材料",
+        "AI算力"
+      ],
+      "products": [
+        "磷化铟衬底",
+        "锗产品"
+      ],
+      "core_business": [
+        "磷化铟衬底制造",
+        "半导体材料生产"
+      ],
+      "industry_position": [
+        "国内磷化铟衬底国产替代领军企业",
+        "国内产能规模最大"
+      ],
+      "chain": [
+        "中游 - 衬底制造"
+      ],
+      "partners": [
+        "华为",
+        "华为海思",
+        "中际旭创"
+      ],
+      "mention_count": 9,
+      "articles": [
+        {
+          "date": "2025-06-07",
+          "key_metrics": [
+            "#### 3. **下游应用端（需求订单）**"
+          ],
+          "title": "“小金属概念”深度解析与操作策略-6月7日",
+          "source": "https://mp.weixin.qq.com/s/2lt-tS9f7Lxp5JvkW2B_GA",
+          "accidents": [
+            "#### 3. 下游应用端（需求订单）"
+          ]
+        },
+        {
+          "date": "2026-04-05",
+          "key_metrics": [
+            "锗材料+红外器件业务占比超70%"
+          ],
+          "title": "光学/激光聚焦星间链路，材料聚焦卫星结构件，芯片聚焦卫星通信，设备聚焦卫星批产！商业航天爆发！谁能扛住市场波动，成2季度牛股？",
+          "source": "https://mp.weixin.qq.com/s/Vx91s9_FGW1M3e-8hoDqwQ",
+          "insights": [
+            "锗材料+红外龙头，商业航天材料环节核心，资源稀缺性强，商业航天扩产核心受益，长期成长空间大。"
+          ],
+          "accidents": [
+            "锗材料+红外器件业务占比超70%",
+            "卫星红外遥感+航天材料核心配套"
+          ]
+        },
+        {
+          "date": "2026-04-16",
+          "title": "云南锗业(002428) - 光芯片产业链核心标的",
+          "source": "用户输入-光芯片产业链",
+          "insights": [
+            "光芯片上游材料链中辨识度最高的公司之一"
+          ]
+        },
+        {
+          "date": "2026-04-21",
+          "title": "光板块领涨全市场！磷化铟：AI算力卡脖子核心，全产业链标的全梳理（附权威出处）",
+          "source": "https://mp.weixin.qq.com/s/5bluU2s8izAKQ9K3Fb2KGA"
+        }
+      ],
+      "last_updated": "2026-04-23",
+      "valuation": {}
+    },
+    "002436": {
+      "name": "兴森科技",
+      "code": "002436",
+      "board": "SZ",
+      "industry": "电子 - 半导体 - 集成电路封测",
+      "concepts": [
+        "TGV技术",
+        "玻璃基板",
+        "先进封装",
+        "AI芯片"
+      ],
+      "products": [
+        "封装基板",
+        "玻璃基板"
+      ],
+      "core_business": [
+        "封装基板制造",
+        "玻璃基板工艺"
+      ],
+      "industry_position": [
+        "国内封装基板龙头"
+      ],
+      "chain": [
+        "制造端 - 封装基板"
+      ],
+      "partners": [
+        "头部AI芯片/服务器客户"
+      ],
+      "mention_count": 3,
+      "articles": [
+        {
+          "date": "",
+          "title": "风口byTY",
+          "source": ""
+        },
+        {
+          "title": "TGV（玻璃通孔）技术全解析 + 核心企业梳理",
+          "date": "2026-04-21",
+          "source": "https://mp.weixin.qq.com/s/6PeirSTCbFUP9h2JdS5i2Q",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-04-23",
+      "valuation": {}
+    },
+    "002725": {
+      "name": "跃岭股份",
+      "code": "002725",
+      "board": "SZ",
+      "industry": "汽车 - 汽车零部件 - 车轮",
+      "concepts": [
+        "磷化铟",
+        "半导体材料",
+        "AI算力"
+      ],
+      "products": [],
+      "core_business": [
+        "参股磷化铟光芯片企业"
+      ],
+      "industry_position": [],
+      "chain": [
+        "中游 - 外延+光芯片"
+      ],
+      "partners": [
+        "国内头部光模块厂商"
+      ],
+      "mention_count": 3,
+      "articles": [
+        {
+          "key_metrics": [],
+          "target_valuation": [],
+          "summary": "",
+          "source": "微信公众号",
+          "insights": [],
+          "accidents": [],
+          "date": "2026-04-21",
+          "content": "光模块领域重要企业",
+          "analysis": "",
+          "title": "磷化铟（InP）：AI 算力卡脖子核心，全产业链标的全梳理"
+        },
+        {
+          "title": "光板块领涨全市场！磷化铟：AI算力卡脖子核心，全产业链标的全梳理（附权威出处）",
+          "date": "2026-04-21",
+          "source": "https://mp.weixin.qq.com/s/5bluU2s8izAKQ9K3Fb2KGA",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-04-23",
+      "valuation": {}
+    },
+    "002975": {
+      "name": "博杰股份",
+      "code": "002975",
+      "board": "SZ",
+      "industry": "机械设备 - 专用设备 - 半导体设备",
+      "concepts": [
+        "磷化铟",
+        "半导体材料",
+        "AI算力"
+      ],
+      "products": [],
+      "core_business": [
+        "参股磷化铟衬底企业"
+      ],
+      "industry_position": [],
+      "chain": [
+        "中游 - 衬底制造"
+      ],
+      "partners": [],
+      "mention_count": 3,
+      "articles": [
+        {
+          "key_metrics": [],
+          "target_valuation": [],
+          "summary": "",
+          "source": "微信公众号",
+          "insights": [],
+          "accidents": [],
+          "date": "2026-04-21",
+          "content": "通过参股珠海鼎泰芯源晶体有限公司，深度布局磷化铟衬底赛道\n截至 2026 年 4 月，直接持有鼎泰芯源 10.281% 股权",
+          "analysis": "",
+          "title": "磷化铟（InP）：AI 算力卡脖子核心，全产业链标的全梳理"
+        },
+        {
+          "title": "光板块领涨全市场！磷化铟：AI算力卡脖子核心，全产业链标的全梳理（附权威出处）",
+          "date": "2026-04-21",
+          "source": "https://mp.weixin.qq.com/s/5bluU2s8izAKQ9K3Fb2KGA",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-04-23",
+      "valuation": {}
+    },
+    "300263": {
+      "name": "隆华科技",
+      "code": "300263",
+      "board": "SZ",
+      "industry": "电子 - 半导体 - 半导体材料",
+      "concepts": [
+        "稀土永磁",
+        "低空经济",
+        "钙钛矿",
+        "第四代半导体",
+        "靶材",
+        "PMI泡沫",
+        "隐身材料"
+      ],
+      "products": [
+        "溅射靶材",
+        "ITO靶材",
+        "钼靶材",
+        "钙钛矿靶材",
+        "PMI泡沫",
+        "隐身材料",
+        "节能换热设备"
+      ],
+      "core_business": [
+        "电子新材料研发生产",
+        "高分子复合材料制造",
+        "节能环保装备制造",
+        "靶材及超高温特种功能材料"
+      ],
+      "industry_position": [
+        "靶材行业国内领先地位",
+        "四丰电子是国内能完全替代进口、已量产供应高端钼靶材的企业",
+        "晶联光电占据ITO靶材行业领先地位",
+        "国内唯一通过AS9100D航空航天质量体系认证的PMI泡沫供应商"
+      ],
+      "chain": [
+        "上游 - 半导体材料",
+        "中游 - 特种材料制造"
+      ],
+      "partners": [
+        "京东方",
+        "TCL华星",
+        "天马微电子",
+        "信利半导体",
+        "华为昇腾"
+      ],
+      "mention_count": 6,
+      "articles": [
+        {
+          "date": "",
+          "title": "风口byTY",
+          "source": ""
+        },
+        {
+          "title": "【300263】：稀土永磁+低空核心材料+光伏钙钛矿+第四代半导体，电子新材料、高分子复合材料与节能环保产业三大板块协同布局",
+          "date": "2026-04-21",
+          "source": "https://mp.weixin.qq.com/s/cc1Sl3OwbfBemRsNFXFcnQ",
+          "accidents": [
+            "大尺寸钼靶材批量供货，打破国外垄断",
+            "ITO 靶材通过多条 TFT 产线测试认证",
+            "PMI 产品应用于多型军用飞机"
+          ],
+          "insights": [
+            "历经五年转型升级，从传热节能设备企业发展为电子新材料龙头",
+            "靶材业务加快进口替代，宽幅钼靶、高世代线 ITO 靶材市场份额大幅提升",
+            "高分子复合材料覆盖军工、轨道交通等领域，产能规模迅速壮大"
+          ],
+          "key_metrics": [
+            "钼靶用户包括京东方、华星光电、天马微电子等",
+            "ITO 靶材在京东方 G8.5、G6 等高世代产线量产使用",
+            "稀土萃取剂市占率超 80%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-04-23",
+      "valuation": {}
+    },
+    "300316": {
+      "name": "晶盛机电",
+      "code": "300316",
+      "board": "SZ",
+      "industry": "机械设备 - 专用设备 - 半导体设备",
+      "concepts": [
+        "磷化铟",
+        "半导体材料",
+        "AI算力"
+      ],
+      "products": [
+        "磷化铟VGF单晶炉"
+      ],
+      "core_business": [
+        "磷化铟单晶炉制造"
+      ],
+      "industry_position": [
+        "国内唯一磷化铟VGF单晶炉国产化量产"
+      ],
+      "chain": [
+        "设备配套"
+      ],
+      "partners": [
+        "国内头部磷化铟衬底厂商"
+      ],
+      "mention_count": 6,
+      "articles": [
+        {
+          "date": "",
+          "key_metrics": [
+            "产能提升 40%",
+            "同比增长 70%",
+            "增长 70%"
+          ],
+          "title": "风口byTY",
+          "source": ""
+        },
+        {
+          "date": "2026-04-21",
+          "title": "光板块领涨全市场！磷化铟：AI算力卡脖子核心，全产业链标的全梳理（附权威出处）",
+          "source": "https://mp.weixin.qq.com/s/5bluU2s8izAKQ9K3Fb2KGA"
+        }
+      ],
+      "last_updated": "2026-04-23",
+      "valuation": {}
+    },
+    "300433": {
+      "name": "蓝思科技",
+      "code": "300433",
+      "board": "SZ",
+      "industry": "电子 - 光学光电子 - 显示器件",
+      "concepts": [
+        "TGV技术",
+        "玻璃基板",
+        "先进封装",
+        "AI芯片"
+      ],
+      "products": [],
+      "core_business": [
+        "TGV玻璃基板研发"
+      ],
+      "industry_position": [
+        "《3D封装玻璃通孔工艺技术规范》主要起草单位"
+      ],
+      "chain": [
+        "材料端 - 玻璃原片"
+      ],
+      "partners": [
+        "国内外头部客户"
+      ],
+      "mention_count": 3,
+      "articles": [
+        {
+          "date": "2025-06-17",
+          "key_metrics": [
+            "苹果产业链补涨逻辑，技术面回踩60日均线可介入"
+          ],
+          "title": "6月16日市场复盘及操作策略，底部尾盘参考",
+          "source": "https://mp.weixin.qq.com/s/4qcWrU_ScNIvLMwrgOA7aw",
+          "insights": [
+            "苹果产业链补涨逻辑"
+          ]
+        },
+        {
+          "title": "荣耀机器人 IPO 核心受益，玻璃盖板龙头供应外观件",
+          "date": "2026-04-21",
+          "source": "manual_input",
+          "accidents": [
+            "荣耀机器人启动 A 股 IPO"
+          ],
+          "insights": [
+            "全球玻璃盖板龙头，技术实力领先",
+            "荣耀机器人外观件核心供应商",
+            "苹果产业链补涨逻辑，技术面回踩 60 日均线可介入"
+          ],
+          "key_metrics": [
+            "玻璃盖板全球市占率领先",
+            "荣耀机器人外观件独家供应"
+          ],
+          "target_valuation": []
+        },
+        {
+          "title": "TGV（玻璃通孔）技术全解析 + 核心企业梳理",
+          "date": "2026-04-21",
+          "source": "https://mp.weixin.qq.com/s/6PeirSTCbFUP9h2JdS5i2Q",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-04-23",
+      "valuation": {}
+    },
+    "300456": {
+      "name": "赛微电子",
+      "code": "300456",
+      "board": "SZ",
+      "industry": "电子 - 半导体 - 集成电路制造",
+      "concepts": [
+        "TGV技术",
+        "玻璃基板",
+        "先进封装",
+        "AI芯片"
+      ],
+      "products": [],
+      "core_business": [
+        "TGV技术储备",
+        "TSV工艺"
+      ],
+      "industry_position": [],
+      "chain": [
+        "制造端 - 半导体制造"
+      ],
+      "partners": [],
+      "mention_count": 3,
+      "articles": [
+        {
+          "date": "",
+          "title": "风口byTY",
+          "source": ""
+        },
+        {
+          "title": "TGV（玻璃通孔）技术全解析 + 核心企业梳理",
+          "date": "2026-04-21",
+          "source": "https://mp.weixin.qq.com/s/6PeirSTCbFUP9h2JdS5i2Q",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-04-23",
+      "valuation": {}
+    },
+    "300776": {
+      "name": "帝尔激光",
+      "code": "300776",
+      "board": "SZ",
+      "industry": "机械设备 - 专用设备 - 激光设备",
+      "concepts": [
+        "TGV技术",
+        "玻璃基板",
+        "先进封装",
+        "AI芯片"
+      ],
+      "products": [
+        "TGV激光微孔设备",
+        "激光设备"
+      ],
+      "core_business": [
+        "TGV激光设备研发制造"
+      ],
+      "industry_position": [
+        "TGV激光设备龙头"
+      ],
+      "chain": [
+        "设备端 - 激光钻孔"
+      ],
+      "partners": [],
+      "mention_count": 5,
+      "articles": [
+        {
+          "date": "2025-08-12",
+          "key_metrics": [
+            "* **技术突破催化**：昆明理工大学晶界稳定技术突破后，纤纳光电组件效率突破26%，协鑫光电GW级产线投产在即"
+          ],
+          "title": "“钙钛矿电池概念”深度解析与操作策略，8月12日",
+          "source": "https://mp.weixin.qq.com/s/d_bh3qagdVjQqNvTve0LJA",
+          "accidents": [
+            "技术突破催化"
+          ]
+        },
+        {
+          "title": "TGV（玻璃通孔）技术全解析 + 核心企业梳理",
+          "date": "2026-04-21",
+          "source": "https://mp.weixin.qq.com/s/6PeirSTCbFUP9h2JdS5i2Q",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-04-23",
+      "valuation": {}
+    },
+    "301299": {
+      "name": "汇成真空",
+      "code": "301299",
+      "board": "SZ",
+      "industry": "机械设备 - 专用设备 - 真空设备",
+      "concepts": [
+        "TGV技术",
+        "玻璃基板",
+        "先进封装",
+        "AI芯片"
+      ],
+      "products": [
+        "TGV镀膜设备",
+        "真空设备"
+      ],
+      "core_business": [
+        "TGV镀膜设备制造"
+      ],
+      "industry_position": [
+        "TGV镀膜设备供应商"
+      ],
+      "chain": [
+        "设备端 - 镀膜设备"
+      ],
+      "partners": [],
+      "mention_count": 14,
+      "articles": [
+        {
+          "title": "TGV（玻璃通孔）技术全解析 + 核心企业梳理",
+          "date": "2026-04-21",
+          "source": "https://mp.weixin.qq.com/s/6PeirSTCbFUP9h2JdS5i2Q",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-04-23",
+      "valuation": {}
+    },
+    "600105": {
+      "name": "永鼎股份",
+      "code": "600105",
+      "board": "SH",
+      "industry": "通信 - 通信设备 - 通信线缆及配套",
+      "concepts": [
+        "磷化铟",
+        "半导体材料",
+        "AI算力"
+      ],
+      "products": [
+        "磷化铟光芯片",
+        "25G DFB芯片",
+        "100G EML芯片"
+      ],
+      "core_business": [
+        "磷化铟光芯片IDM全产业链"
+      ],
+      "industry_position": [
+        "国内稀缺磷化铟光芯片平台"
+      ],
+      "chain": [
+        "中游 - 外延+光芯片"
+      ],
+      "partners": [
+        "国内头部光模块厂商",
+        "中国移动研究院"
+      ],
+      "mention_count": 4,
+      "articles": [
+        {
+          "date": "2026-04-20",
+          "target_valuation": [
+            "目标市值: 750亿"
+          ],
+          "title": "永鼎股份研究",
+          "source": "用户输入",
+          "insights": [
+            "光纤业务200亿+传统业务50亿+可控核聚变150亿+鼎芯（持股50%），总体看到750亿。"
+          ],
+          "accidents": [
+            "光纤业务200亿+传统业务50亿+可控核聚变150亿+鼎芯（持股50%），总体看到750亿。"
+          ]
+        },
+        {
+          "date": "2026-04-21",
+          "title": "光板块领涨全市场！磷化铟：AI算力卡脖子核心，全产业链标的全梳理（附权威出处）",
+          "source": "https://mp.weixin.qq.com/s/5bluU2s8izAKQ9K3Fb2KGA"
+        }
+      ],
+      "last_updated": "2026-04-23",
+      "valuation": {}
+    },
+    "600206": {
+      "name": "有研新材",
+      "code": "600206",
+      "board": "SH",
+      "industry": "有色金属 - 金属新材料 - 其他金属材料",
+      "concepts": [
+        "磷化铟",
+        "半导体材料",
+        "AI算力"
+      ],
+      "products": [],
+      "core_business": [
+        "磷化铟技术储备"
+      ],
+      "industry_position": [],
+      "chain": [
+        "中游 - 衬底制造"
+      ],
+      "partners": [],
+      "mention_count": 3,
+      "articles": [
+        {
+          "key_metrics": [],
+          "target_valuation": [],
+          "summary": "",
+          "source": "微信公众号",
+          "insights": [],
+          "accidents": [],
+          "date": "2026-04-21",
+          "content": "具备相关技术储备，曾承担国家\"02 专项\"6 英寸磷化铟单晶片制备项目\n暂无明确产业化量产计划",
+          "analysis": "",
+          "title": "磷化铟（InP）：AI 算力卡脖子核心，全产业链标的全梳理"
+        },
+        {
+          "title": "光板块领涨全市场！磷化铟：AI算力卡脖子核心，全产业链标的全梳理（附权威出处）",
+          "date": "2026-04-21",
+          "source": "https://mp.weixin.qq.com/s/5bluU2s8izAKQ9K3Fb2KGA",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-04-23",
+      "valuation": {}
+    },
+    "600531": {
+      "name": "豫光金铅",
+      "code": "600531",
+      "board": "SH",
+      "industry": "有色金属 - 工业金属 - 铅锌",
+      "concepts": [
+        "磷化铟",
+        "半导体材料",
+        "AI算力"
+      ],
+      "products": [
+        "高纯铟",
+        "铅锌产品"
+      ],
+      "core_business": [
+        "铅锌冶炼伴生铟回收"
+      ],
+      "industry_position": [],
+      "chain": [
+        "上游 - 原材料"
+      ],
+      "partners": [
+        "国内多家半导体材料厂商"
+      ],
+      "mention_count": 3,
+      "articles": [
+        {
+          "key_metrics": [],
+          "target_valuation": [],
+          "summary": "",
+          "source": "微信公众号",
+          "insights": [],
+          "accidents": [],
+          "date": "2026-04-21",
+          "content": "国内铅锌冶炼龙头，依托铅锌冶炼系统规模化回收稀散金属铟\n铟年产能 30 吨，2025 年铟产量 28 吨",
+          "analysis": "",
+          "title": "磷化铟（InP）：AI 算力卡脖子核心，全产业链标的全梳理"
+        },
+        {
+          "title": "光板块领涨全市场！磷化铟：AI算力卡脖子核心，全产业链标的全梳理（附权威出处）",
+          "date": "2026-04-21",
+          "source": "https://mp.weixin.qq.com/s/5bluU2s8izAKQ9K3Fb2KGA",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-04-23",
+      "valuation": {}
+    },
+    "600584": {
+      "name": "长电科技",
+      "code": "600584",
+      "board": "SH",
+      "industry": "电子 - 半导体 - 集成电路封测",
+      "concepts": [
+        "TGV技术",
+        "玻璃基板",
+        "先进封装",
+        "AI芯片"
+      ],
+      "products": [
+        "TGV封装产品",
+        "先进封装服务"
+      ],
+      "core_business": [
+        "TGV射频IPD工艺",
+        "先进封装"
+      ],
+      "industry_position": [
+        "封测龙头"
+      ],
+      "chain": [
+        "制造端 - 封装测试"
+      ],
+      "partners": [],
+      "mention_count": 3,
+      "articles": [
+        {
+          "date": "2026-04-20",
+          "key_metrics": [
+            "预计营收420亿元同比+16.8%",
+            "预计归母净利润16.5亿元",
+            "先进封装产能利用率超90%"
+          ],
+          "title": "业绩为王！电子半导体全产业链：10家核心龙头企业深度梳理",
+          "source": "https://mp.weixin.qq.com/s/osXuox5ED3O_dMFXOntgdw",
+          "insights": [
+            "Chiplet方案适配AI芯片高密度集成需求",
+            "深度绑定英伟达、AMD、海力士等全球巨头",
+            "先进封装产能利用率超90%"
+          ],
+          "accidents": [
+            "机构预计2025年营收420亿元，同比增长16.8%",
+            "预计归母净利润16.5亿元"
+          ]
+        },
+        {
+          "title": "TGV（玻璃通孔）技术全解析 + 核心企业梳理",
+          "date": "2026-04-21",
+          "source": "https://mp.weixin.qq.com/s/6PeirSTCbFUP9h2JdS5i2Q",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-04-23",
+      "valuation": {}
+    },
+    "600703": {
+      "name": "三安光电",
+      "code": "600703",
+      "board": "SH",
+      "industry": "电子 - 光学光电子 - LED",
+      "concepts": [
+        "磷化铟",
+        "半导体材料",
+        "AI算力"
+      ],
+      "products": [
+        "磷化铟外延片",
+        "EML激光器芯片",
+        "LED芯片"
+      ],
+      "core_business": [
+        "磷化铟全产业链IDM",
+        "光芯片研发制造"
+      ],
+      "industry_position": [
+        "国内唯一磷化铟全产业链IDM企业",
+        "6英寸磷化铟外延片产能国内第一"
+      ],
+      "chain": [
+        "中游 - 外延+光芯片"
+      ],
+      "partners": [
+        "华为",
+        "中际旭创"
+      ],
+      "mention_count": 9,
+      "articles": [
+        {
+          "date": "",
+          "key_metrics": [
+            "产能大 三安光电 三安光电—— 电子信息 “技术派” 三安光电 8 英寸碳化硅芯片产线于 2025 年 Q2 实现通线",
+            "产能 1.6 万片",
+            "产能 1000 片 订单情况：2025 年上半年碳化硅设备订单额 42 亿元（同比 + 70%）"
+          ],
+          "title": "风口byTY",
+          "source": "",
+          "insights": [
+            "将深度受益于产业链落地"
+          ],
+          "accidents": [
+            "订单情况：2025 年上半年碳化硅设备订单额 42 亿元（同比 + 70%），"
+          ]
+        },
+        {
+          "date": "2026-04-21",
+          "title": "光板块领涨全市场！磷化铟：AI算力卡脖子核心，全产业链标的全梳理（附权威出处）",
+          "source": "https://mp.weixin.qq.com/s/5bluU2s8izAKQ9K3Fb2KGA"
+        }
+      ],
+      "last_updated": "2026-04-23",
+      "valuation": {}
+    },
+    "600961": {
+      "name": "株冶集团",
+      "code": "600961",
+      "board": "SH",
+      "industry": "有色金属 - 工业金属 - 铅锌",
+      "concepts": [
+        "磷化铟",
+        "半导体材料",
+        "AI算力"
+      ],
+      "products": [
+        "高纯铟",
+        "锌冶炼产品"
+      ],
+      "core_business": [
+        "锌冶炼伴生铟回收",
+        "高纯铟制备"
+      ],
+      "industry_position": [
+        "国内锌冶炼伴生铟回收技术领军者"
+      ],
+      "chain": [
+        "上游 - 原材料"
+      ],
+      "partners": [
+        "国内多家化合物半导体厂商"
+      ],
+      "mention_count": 3,
+      "articles": [
+        {
+          "key_metrics": [],
+          "target_valuation": [],
+          "summary": "",
+          "source": "微信公众号",
+          "insights": [],
+          "accidents": [],
+          "date": "2026-04-21",
+          "content": "国内锌冶炼伴生铟回收技术领军者\n铟年产能 60 吨，2025 年铟产量 52 吨",
+          "analysis": "",
+          "title": "磷化铟（InP）：AI 算力卡脖子核心，全产业链标的全梳理"
+        },
+        {
+          "title": "光板块领涨全市场！磷化铟：AI算力卡脖子核心，全产业链标的全梳理（附权威出处）",
+          "date": "2026-04-21",
+          "source": "https://mp.weixin.qq.com/s/5bluU2s8izAKQ9K3Fb2KGA",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-04-23",
+      "valuation": {}
+    },
+    "603773": {
+      "name": "沃格光电",
+      "code": "603773",
+      "board": "SH",
+      "industry": "电子 - 光学光电子 - 显示器件",
+      "concepts": [
+        "TGV技术",
+        "玻璃基板",
+        "先进封装",
+        "AI芯片"
+      ],
+      "products": [
+        "TGV玻璃基板",
+        "显示模组"
+      ],
+      "core_business": [
+        "TGV全制程工艺",
+        "玻璃基板制造"
+      ],
+      "industry_position": [
+        "国内TGV量产龙头",
+        "掌握TGV全制程工艺"
+      ],
+      "chain": [
+        "制造端 - TGV工艺"
+      ],
+      "partners": [
+        "华为昇腾",
+        "CPO光模块客户"
+      ],
+      "mention_count": 4,
+      "articles": [
+        {
+          "date": "2026-01-14",
+          "key_metrics": [
+            "预计2025年年度归母净利润亏损1亿元到1.4亿元",
+            "亏损1亿元到1.4亿元"
+          ],
+          "title": "01月14日___公告精选",
+          "source": "https://mp.weixin.qq.com/s/Bb2447-2lU2LGAVbW38B0Q"
+        },
+        {
+          "date": "2026-04-05",
+          "key_metrics": [
+            "显示+光电子业务占比超70%"
+          ],
+          "title": "光学/激光聚焦星间链路，材料聚焦卫星结构件，芯片聚焦卫星通信，设备聚焦卫星批产！商业航天爆发！谁能扛住市场波动，成2季度牛股？",
+          "source": "https://mp.weixin.qq.com/s/Vx91s9_FGW1M3e-8hoDqwQ",
+          "insights": [
+            "显示+光电子龙头，商业航天配套环节核心，技术突破带动业绩弹性。"
+          ],
+          "accidents": [
+            "显示+光电子业务占比超70%",
+            "卫星显示+光通信核心配套"
+          ]
+        },
+        {
+          "title": "TGV（玻璃通孔）技术全解析 + 核心企业梳理",
+          "date": "2026-04-21",
+          "source": "https://mp.weixin.qq.com/s/6PeirSTCbFUP9h2JdS5i2Q",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-04-23",
+      "valuation": {}
+    },
+    "688048": {
+      "name": "长光华芯",
+      "code": "688048",
+      "board": "SH",
+      "industry": "电子 - 半导体 - 集成电路设计",
+      "concepts": [
+        "磷化铟",
+        "半导体材料",
+        "AI算力"
+      ],
+      "products": [
+        "CPO光芯片",
+        "EML/DFB芯片"
+      ],
+      "core_business": [
+        "多衬底IDM垂直整合",
+        "全衬底系列CPO光芯片"
+      ],
+      "industry_position": [
+        "多衬底IDM平台"
+      ],
+      "chain": [
+        "中游 - 外延+光芯片"
+      ],
+      "partners": [
+        "中际旭创",
+        "新易盛"
+      ],
+      "mention_count": 3,
+      "articles": [
+        {
+          "key_metrics": [],
+          "target_valuation": [],
+          "summary": "",
+          "source": "微信公众号",
+          "insights": [],
+          "accidents": [],
+          "date": "2026-04-21",
+          "content": "磷化铟光芯片领域重要企业",
+          "analysis": "",
+          "title": "磷化铟（InP）：AI 算力卡脖子核心，全产业链标的全梳理"
+        },
+        {
+          "title": "光板块领涨全市场！磷化铟：AI算力卡脖子核心，全产业链标的全梳理（附权威出处）",
+          "date": "2026-04-21",
+          "source": "https://mp.weixin.qq.com/s/5bluU2s8izAKQ9K3Fb2KGA",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-04-23",
+      "valuation": {}
+    },
+    "688170": {
+      "name": "德龙激光",
+      "code": "688170",
+      "board": "SH",
+      "industry": "机械设备 - 专用设备 - 激光设备",
+      "concepts": [
+        "TGV技术",
+        "玻璃基板",
+        "先进封装",
+        "AI芯片"
+      ],
+      "products": [
+        "TGV激光微孔加工设备",
+        "激光设备"
+      ],
+      "core_business": [
+        "TGV激光加工设备制造"
+      ],
+      "industry_position": [
+        "TGV激光微孔加工设备供应商"
+      ],
+      "chain": [
+        "设备端 - 激光钻孔"
+      ],
+      "partners": [],
+      "mention_count": 15,
+      "articles": [
+        {
+          "title": "TGV（玻璃通孔）技术全解析 + 核心企业梳理",
+          "date": "2026-04-21",
+          "source": "https://mp.weixin.qq.com/s/6PeirSTCbFUP9h2JdS5i2Q",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-04-23",
+      "valuation": {}
+    },
+    "688313": {
+      "name": "仕佳光子",
+      "code": "688313",
+      "board": "SH",
+      "industry": "电子 - 通信设备 - 光通信设备",
+      "concepts": [
+        "磷化铟",
+        "半导体材料",
+        "AI算力"
+      ],
+      "products": [
+        "磷化铟光芯片",
+        "DFB/EML激光器芯片"
+      ],
+      "core_business": [
+        "磷化铟光芯片研发制造"
+      ],
+      "industry_position": [
+        "国内光芯片核心供应商"
+      ],
+      "chain": [
+        "中游 - 外延+光芯片"
+      ],
+      "partners": [
+        "华为",
+        "中兴",
+        "中际旭创"
+      ],
+      "mention_count": 9,
+      "articles": [
+        {
+          "date": "",
+          "key_metrics": [
+            "产能达50万只",
+            "领先）",
+            "第一"
+          ],
+          "target_valuation": [
+            "新技术标的有望实现估值与业绩双升",
+            "叠加SilTerra 6.4T方案落地预期，"
+          ],
+          "title": "风口byTY",
+          "source": "",
+          "insights": [
+            "二是仕佳光子、光迅科技等掌握核心芯片技术、受益国产替代的自主化标杆"
+          ],
+          "accidents": [
+            "仕佳光子订单排期已延伸至2026年Q2，",
+            "仕佳光子——硅光新势力 | 政策补贴3亿 | 华为供应商"
+          ]
+        },
+        {
+          "date": "2026-03-25",
+          "title": "自动导入 - 2026-03-25",
+          "source": "",
+          "insights": [
+            "AWG 芯片龙头"
+          ],
+          "accidents": [
+            "光通信器件供应商"
+          ]
+        },
+        {
+          "date": "2026-04-16",
+          "title": "仕佳光子(688313) - 光芯片产业链核心标的",
+          "source": "用户输入-光芯片产业链",
+          "insights": [
+            "芯片产业化能力较强的代表公司"
+          ]
+        },
+        {
+          "date": "2026-04-21",
+          "title": "光板块领涨全市场！磷化铟：AI算力卡脖子核心，全产业链标的全梳理（附权威出处）",
+          "source": "https://mp.weixin.qq.com/s/5bluU2s8izAKQ9K3Fb2KGA"
+        }
+      ],
+      "last_updated": "2026-04-23",
+      "valuation": {}
+    },
+    "688498": {
+      "name": "源杰科技",
+      "code": "688498",
+      "board": "SH",
+      "industry": "电子 - 半导体 - 集成电路设计",
+      "concepts": [
+        "磷化铟",
+        "半导体材料",
+        "AI算力"
+      ],
+      "products": [
+        "磷化铟激光器芯片",
+        "100G/200G EML芯片"
+      ],
+      "core_business": [
+        "磷化铟高速激光器芯片IDM"
+      ],
+      "industry_position": [
+        "国内磷化铟高速激光器芯片IDM龙头"
+      ],
+      "chain": [
+        "中游 - 外延+光芯片"
+      ],
+      "partners": [
+        "英伟达",
+        "全球头部光模块厂商"
+      ],
+      "mention_count": 6,
+      "articles": [
+        {
+          "date": "",
+          "key_metrics": [
+            "第一股 | 200G EML量产 | 弹性超模块厂商 芯片自主破局线：源杰科技（EML量产）、仕佳光子（硅光替代）——EML垄断下",
+            "同比 + 70.57%）",
+            "同比 + 330.31%）"
+          ],
+          "title": "风口byTY",
+          "source": "",
+          "accidents": [
+            "华工科技拿到字节跳动1.6T测试订单"
+          ]
+        },
+        {
+          "date": "2026-03-25",
+          "title": "自动导入 - 2026-03-25",
+          "source": "",
+          "insights": [
+            "光芯片龙头，受益 AI 算力需求"
+          ],
+          "accidents": [
+            "光芯片 EML 主线领军者"
+          ]
+        },
+        {
+          "date": "2026-04-16",
+          "title": "源杰科技(688498) - 光芯片产业链核心标的",
+          "source": "用户输入-光芯片产业链",
+          "insights": [
+            "A股光芯片领域最纯正的核心标的之一"
+          ]
+        },
+        {
+          "date": "2026-04-21",
+          "title": "光板块领涨全市场！磷化铟：AI算力卡脖子核心，全产业链标的全梳理（附权威出处）",
+          "source": "https://mp.weixin.qq.com/s/5bluU2s8izAKQ9K3Fb2KGA"
+        }
+      ],
+      "last_updated": "2026-04-23",
+      "valuation": {}
+    },
+    "688603": {
+      "name": "天承科技",
+      "code": "688603",
+      "board": "SH",
+      "industry": "化工 - 化学制品 - 电子化学品",
+      "concepts": [
+        "TGV技术",
+        "玻璃基板",
+        "先进封装",
+        "AI芯片"
+      ],
+      "products": [
+        "TGV电镀液添加剂",
+        "电镀材料"
+      ],
+      "core_business": [
+        "TGV电镀液添加剂研发生产"
+      ],
+      "industry_position": [
+        "TGV电镀液添加剂核心供应商",
+        "实现国产替代"
+      ],
+      "chain": [
+        "材料端 - 电镀材料"
+      ],
+      "partners": [
+        "国内半导体装备头部企业"
+      ],
+      "mention_count": 6,
+      "articles": [
+        {
+          "title": "TGV（玻璃通孔）技术全解析 + 核心企业梳理",
+          "date": "2026-04-21",
+          "source": "https://mp.weixin.qq.com/s/6PeirSTCbFUP9h2JdS5i2Q",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-04-23",
+      "valuation": {}
+    },
+    "832522": {
+      "name": "纳科诺尔",
+      "code": "832522",
+      "board": "BJ",
+      "industry": "机械设备 - 专用设备 - 电池设备",
+      "concepts": [
+        "固态电池",
+        "干法电极",
+        "等静压设备",
+        "锂电池设备"
+      ],
+      "products": [
+        "辊压设备",
+        "干法电极设备",
+        "等静压设备",
+        "锂带压延转印设备"
+      ],
+      "core_business": [
+        "锂电池极片辊压设备研发制造",
+        "固态电池设备解决方案",
+        "干法电极设备制造"
+      ],
+      "industry_position": [
+        "固态电池设备前中段核心公司",
+        "干法电极设备卡位领先",
+        "等静压设备进展积极"
+      ],
+      "chain": [
+        "中游 - 电池设备制造"
+      ],
+      "partners": [
+        "清研电子",
+        "欧阳明高院士团队",
+        "瑞固新材"
+      ],
+      "mention_count": 4,
+      "articles": [
+        {
+          "date": "2026-04-20",
+          "title": "纳科诺尔研究",
+          "source": "用户输入",
+          "insights": [
+            "辊压龙头，热辊压技术指标领先，固态关键设备已交付头部客户；公司在干法电极成膜/压延、电解质成膜/转印、等静压多点布局，享受干法必选+辊压升级量价双重红利。"
+          ],
+          "accidents": [
+            "辊压龙头，热辊压技术指标领先，固态关键设备已交付头部客户；公司在干法电极成膜/压延、电解质成膜/转印、等静压多点布局，享受干法必选+辊压升级量价双重红利。"
+          ]
+        },
+        {
+          "title": "纳科诺尔，2倍空间？",
+          "date": "2026-04-21",
+          "source": "https://mp.weixin.qq.com/s/P_7ZSibZW_eQeJDvOqbzKA",
+          "accidents": [
+            "固态实验室主体已建成，设备进厂",
+            "首台等静压设备下线，容积 8L",
+            "干法正极成膜设备取得进展"
+          ],
+          "insights": [
+            "干法电极设备卡位领先，等静压设备进展积极"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-04-23",
+      "valuation": {
+        "target_market_cap": "275亿",
+        "upside": "200%",
+        "rating": "看好"
+      }
+    },
+    "832225": {
+      "code": "832225",
+      "name": "利通科技",
+      "board": "BJ",
+      "industry": "机械设备 - 专用设备 - 超高压设备",
+      "concepts": [
+        "固态电池",
+        "等静压设备",
+        "超高压装备"
+      ],
+      "products": [
+        "等静压设备",
+        "固态电池温等静压设备",
+        "超高压装备"
+      ],
+      "core_business": [
+        "等静压设备研发制造",
+        "固态电池设备解决方案",
+        "超高压装备制造"
+      ],
+      "industry_position": [
+        "等静压设备技术自主知识产权",
+        "卧式等静压设备技术领先",
+        "解决精度、散热、温度均匀性等难题"
+      ],
+      "chain": [
+        "中游 - 电池设备制造"
+      ],
+      "partners": [],
+      "mention_count": 3,
+      "articles": [
+        {
+          "title": "利通科技，2倍空间？",
+          "date": "2026-04-21",
+          "source": "https://mp.weixin.qq.com/s/ohLdLoVeWy6ewa7VseVCfA",
+          "accidents": [
+            "首台等静压设备下线，容积 8L",
+            "首台固态电池温等静压设备下线，容积 56L"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-04-23",
+      "valuation": {
+        "target_market_cap": "120亿",
+        "upside": "200%",
+        "rating": "看好"
+      }
+    },
+    "600707": {
+      "name": "彩虹股份",
+      "code": "600707",
+      "board": "SH",
+      "industry": "电子 - 光学光电子 - 显示器件",
+      "concepts": [
+        "TGV技术",
+        "玻璃基板",
+        "先进封装",
+        "AI芯片"
+      ],
+      "products": [
+        "显示基板",
+        "半导体玻璃"
+      ],
+      "core_business": [
+        "显示基板制造",
+        "半导体玻璃研发"
+      ],
+      "industry_position": [
+        "显示基板龙头"
+      ],
+      "chain": [
+        "材料端 - 玻璃原片"
+      ],
+      "partners": [],
+      "mention_count": 2,
+      "articles": [
+        {
+          "title": "TGV（玻璃通孔）技术全解析 + 核心企业梳理",
+          "date": "2026-04-21",
+          "source": "https://mp.weixin.qq.com/s/6PeirSTCbFUP9h2JdS5i2Q",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "valuation": {},
+      "last_updated": "2026-04-23"
+    },
+    "002550": {
+      "name": "力诺药包",
+      "code": "002550",
+      "board": "SZ",
+      "industry": "医药生物 - 医疗器械 - 医用耗材",
+      "concepts": [
+        "玻璃基板",
+        "TGV技术",
+        "医药包装",
+        "预灌封"
+      ],
+      "products": [
+        "玻璃基板",
+        "模制瓶",
+        "耐热玻璃",
+        "预灌封注射器"
+      ],
+      "core_business": [
+        "医药包装材料制造",
+        "玻璃基板研发生产",
+        "高硼玻璃材料制造"
+      ],
+      "industry_position": [
+        "玻璃基板垂直一体化",
+        "TGV玻璃基板技术领先",
+        "成本优势显著（能源成本仅为德国肖特的1/10）"
+      ],
+      "chain": [
+        "材料端 - 玻璃基板",
+        "下游 - 医药包装"
+      ],
+      "partners": [
+        "台积电",
+        "康宁",
+        "德国肖特"
+      ],
+      "mention_count": 2,
+      "articles": [
+        {
+          "title": "力诺药包，10倍空间？",
+          "date": "2026-04-21",
+          "source": "https://mp.weixin.qq.com/s/e3xwwd0FtjhPu2Rwv_uX_w",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "valuation": {
+        "target_market_cap": "潜在十倍股",
+        "upside": "1000%",
+        "rating": "高弹性标的"
+      },
+      "last_updated": "2026-04-23"
+    }
+  },
+  "updated_at": "2026-04-23"
+}

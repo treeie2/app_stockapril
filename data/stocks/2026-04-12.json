@@ -1,0 +1,261 @@
+{
+  "date": "2026-04-12",
+  "update_count": 4,
+  "stocks": {
+    "603629": {
+      "name": "利通电子",
+      "code": "603629",
+      "board": "SH",
+      "industry": "电子-消费电子-消费电子零部件及组装",
+      "concepts": [
+        "算力",
+        "AI算力",
+        "NCP",
+        "B300",
+        "东阳光"
+      ],
+      "mention_count": 1,
+      "products": [
+        "算力租赁",
+        "AI服务器"
+      ],
+      "core_business": [
+        "算力租赁",
+        "AI服务器"
+      ],
+      "industry_position": [
+        "NCP渠道算力供应商"
+      ],
+      "chain": [],
+      "partners": [],
+      "articles": [
+        {
+          "title": "利通电子：NCP渠道算力供应商，与东阳光合作，27年净利润超18亿，目标市值380亿",
+          "date": "2026-04-12",
+          "source": "内部研究",
+          "content": "利通电子(603629)是NCP渠道算力供应商。\n\n主营业务：算力租赁, AI服务器。\n\n财务数据：\n- current_market_cap: 190亿\n- annualized_profit: 12亿\n- b300_cluster_profit: 6.5亿（单集群）\n- cooperation: 与东阳光合作，东阳光出钱，利通买卡（利通分成20%）\n- profit_2027: 超18亿\n\n目标市值：380亿\n上涨空间：翻倍空间",
+          "analysis": "利通电子作为电子-消费电子-消费电子零部件及组装领域的NCP渠道算力供应商，具有以下核心优势：\n1. 业务聚焦：专注算力租赁, AI服务器等核心业务\n4. 业绩弹性：算力业务带来新增量\n\n风险提示：下游需求不及预期、产能释放不及预期、市场竞争加剧",
+          "summary": "NCP渠道算力供应商，与东阳光合作，27年净利润超18亿，目标市值380亿",
+          "accidents": [],
+          "insights": [
+            "NCP渠道算力供应商",
+            "NCP渠道算力供应商，与东阳光合作，27年净利润超18亿，目"
+          ],
+          "key_metrics": [
+            "目标市值380亿"
+          ],
+          "target_valuation": [
+            "目标市值380亿"
+          ]
+        }
+      ],
+      "valuation": {
+        "target_market_cap": "380亿",
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "688372": {
+      "name": "伟测科技",
+      "code": "688372",
+      "board": "SH",
+      "industry": "电子-半导体-集成电路封测",
+      "concepts": [
+        "半导体",
+        "芯片测试",
+        "算力芯片",
+        "H客户",
+        "国产算力"
+      ],
+      "mention_count": 1,
+      "products": [
+        "独立第三方测试",
+        "算力芯片测试"
+      ],
+      "core_business": [
+        "独立第三方测试",
+        "算力芯片测试"
+      ],
+      "industry_position": [
+        "独立第三方测试龙头",
+        "算力芯片测试核心供应商"
+      ],
+      "chain": [],
+      "partners": [],
+      "articles": [
+        {
+          "title": "伟测科技：独立第三方测试龙头，算力芯片测试核心供应商，受益国产算力成长",
+          "date": "2026-04-12",
+          "source": "内部研究",
+          "content": "伟测科技(688372)是独立第三方测试龙头。\n\n主营业务：独立第三方测试, 算力芯片测试。\n\n核心看点：\n- 公司定位独立第三方测试，受益China for China策略下测试需求回流\n- 算力芯片业务是公司26年最核心成长点\n- 公司以H大客户为基本盘，国产算力客户覆盖度极高\n- 有望受益海光、昆仑芯、摩尔等客户端成长\n- 算力芯片端以高端机台为主，毛利率更高\n- 目前在H端测试份额仅个位数，后续成长弹性大、增速高",
+          "analysis": "伟测科技作为电子-半导体-集成电路封测领域的独立第三方测试龙头，具有以下核心优势：\n1. 业务聚焦：专注独立第三方测试, 算力芯片测试等核心业务\n3. 核心看点：受益国产替代和AI算力需求增长\n\n风险提示：下游需求不及预期、产能释放不及预期、市场竞争加剧",
+          "summary": "独立第三方测试龙头，算力芯片测试核心供应商，受益国产算力成长",
+          "accidents": [],
+          "insights": [
+            "独立第三方测试龙头",
+            "算力芯片测试核心供应商",
+            "独立第三方测试龙头，算力芯片测试核心供应商，受益国产算力成长"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "000967": {
+      "name": "盈峰环境",
+      "code": "000967",
+      "board": "SZ",
+      "industry": "环保-环保设备-环保设备",
+      "concepts": [
+        "算力",
+        "AI算力",
+        "NCP",
+        "环保",
+        "环卫"
+      ],
+      "mention_count": 1,
+      "products": [
+        "环卫装备",
+        "算力租赁"
+      ],
+      "core_business": [
+        "环卫装备",
+        "算力租赁"
+      ],
+      "industry_position": [
+        "NCP渠道算力供应商",
+        "环卫装备龙头"
+      ],
+      "chain": [],
+      "partners": [],
+      "articles": [
+        {
+          "title": "盈峰环境：NCP渠道算力供应商，4000台B300集群，27年利润25亿，目标市值500亿",
+          "date": "2026-04-12",
+          "source": "内部研究",
+          "content": "盈峰环境(000967)是NCP渠道算力供应商。\n\n主营业务：环卫装备, 算力租赁。\n\n财务数据：\n- current_market_cap: 324亿\n- clusters: 4000台B300建设集群\n- profit_2027: 年化20亿（算力）+ 5亿（主业）= 25亿\n\n目标市值：500亿\n上涨空间：60%空间",
+          "analysis": "盈峰环境作为环保-环保设备-环保设备领域的NCP渠道算力供应商，具有以下核心优势：\n1. 业务聚焦：专注环卫装备, 算力租赁等核心业务\n4. 业绩弹性：算力业务带来新增量\n\n风险提示：下游需求不及预期、产能释放不及预期、市场竞争加剧",
+          "summary": "NCP渠道算力供应商，4000台B300集群，27年利润25亿，目标市值500亿",
+          "accidents": [],
+          "insights": [
+            "NCP渠道算力供应商",
+            "环卫装备龙头",
+            "NCP渠道算力供应商，4000台B300集群，27年利润25"
+          ],
+          "key_metrics": [
+            "目标市值500亿"
+          ],
+          "target_valuation": [
+            "目标市值500亿"
+          ]
+        }
+      ],
+      "valuation": {
+        "target_market_cap": "500亿",
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "300467": {
+      "name": "行云科技",
+      "code": "300467",
+      "board": "SZ",
+      "industry": "计算机-IT服务-IT服务",
+      "concepts": [
+        "算力",
+        "AI算力",
+        "NCP",
+        "B300"
+      ],
+      "mention_count": 1,
+      "products": [
+        "算力租赁",
+        "IT服务"
+      ],
+      "core_business": [
+        "算力租赁",
+        "IT服务"
+      ],
+      "industry_position": [
+        "NCP渠道算力供应商"
+      ],
+      "chain": [],
+      "partners": [],
+      "articles": [
+        {
+          "title": "行云科技：NCP渠道算力供应商，2000台B300集群，27年利润13.6亿，目标市值272亿",
+          "date": "2026-04-12",
+          "source": "内部研究",
+          "content": "行云科技(300467)是NCP渠道算力供应商。\n\n主营业务：算力租赁, IT服务。\n\n财务数据：\n- current_market_cap: 107亿\n- clusters: 已锁定2000台B300建设集群\n- profit_2027: 年化13.2亿（算力）+ 0.4亿（主业）= 13.6亿\n\n目标市值：272亿\n上涨空间：154%空间",
+          "analysis": "行云科技作为计算机-IT服务-IT服务领域的NCP渠道算力供应商，具有以下核心优势：\n1. 业务聚焦：专注算力租赁, IT服务等核心业务\n4. 业绩弹性：算力业务带来新增量\n\n风险提示：下游需求不及预期、产能释放不及预期、市场竞争加剧",
+          "summary": "NCP渠道算力供应商，2000台B300集群，27年利润13.6亿，目标市值272亿",
+          "accidents": [],
+          "insights": [
+            "NCP渠道算力供应商",
+            "NCP渠道算力供应商，2000台B300集群，27年利润13"
+          ],
+          "key_metrics": [
+            "目标市值272亿"
+          ],
+          "target_valuation": [
+            "目标市值272亿"
+          ]
+        }
+      ],
+      "valuation": {
+        "target_market_cap": "272亿",
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    }
+  }
+}

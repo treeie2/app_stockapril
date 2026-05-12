@@ -1,0 +1,1713 @@
+{
+  "date": "2026-04-17",
+  "update_count": 17,
+  "stocks": {
+    "301012": {
+      "name": "扬电科技",
+      "code": "301012",
+      "board": "SZ",
+      "mention_count": 4,
+      "industry": "电力设备-电网设备-输变电设备",
+      "article_date": "2026-01-13",
+      "concepts": [
+        "数据中心",
+        "储能",
+        "光伏概念",
+        "专精特新",
+        "东数西算(算力)",
+        "算力租赁",
+        "股权转让(并购重组)",
+        "融资融券"
+      ],
+      "products": [
+        "非晶变压器",
+        "油浸式变压器"
+      ],
+      "core_business": [
+        "非晶变压器",
+        "非晶变压器、油浸式变压器",
+        "AI算力租赁",
+        "数据中心运营",
+        "云计算",
+        "油浸式变压器"
+      ],
+      "industry_position": [
+        "电力设备转型算力先锋",
+        "算力租赁新进入者",
+        "国内较早生产非晶变压器的企业"
+      ],
+      "chain": [
+        "电力设备-中游",
+        "算力服务-下游",
+        "中游-设备制造"
+      ],
+      "partners": [
+        "汉唐云智算"
+      ],
+      "articles": [
+        {
+          "title": "全球疯抢变压器",
+          "date": "2026-01-13",
+          "source": "https://mp.weixin.qq.com/s/cLebRmJhGnytCWslrbHHIw",
+          "accidents": [
+            "全球疯抢变压器"
+          ],
+          "insights": [
+            "受益于电网节能改造需求"
+          ],
+          "key_metrics": [
+            "非晶变压器技术领先"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        },
+        {
+          "title": "扬电科技研究更新",
+          "date": "2026-04-17",
+          "source": "内部研究",
+          "accidents": [],
+          "insights": [
+            "设立全资算力子公司汉扬智能，主攻AI算力租赁、云计算、数据中心",
+            "控股股东汉唐云智算深耕IDC、智算中心，资产注入预期强烈",
+            "原有电力设备业务与AI数据中心能耗需求高度契合",
+            "电力+算力深度协同，资源整合效应显著"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "last_updated": "2026-04-17",
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "002353": {
+      "name": "杰瑞股份",
+      "code": "002353",
+      "board": "SZ",
+      "industry": "机械设备-专用设备-能源及重型设备",
+      "concepts": [
+        "机械设备-专用设备-能源及重型设备"
+      ],
+      "products": [
+        "商建立战略合作关系"
+      ],
+      "core_business": [
+        "燃气轮机",
+        "压裂设备",
+        "油气设备"
+      ],
+      "industry_position": [
+        "美国AIDC燃机机组唯一A股标的",
+        "油气设备龙头"
+      ],
+      "chain": [
+        "中游-设备制造",
+        "下游-油气/AIDC",
+        "上游-原材料"
+      ],
+      "partners": [
+        "美国AIDC"
+      ],
+      "mention_count": 7,
+      "articles": [
+        {
+          "title": "01月15日___公告精选",
+          "date": "2026-01-15",
+          "source": "https://mp.weixin.qq.com/s/JUD8Rl1vSTqdVJlWf40wzw",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        },
+        {
+          "title": "AI电力出海_变压器_概念股全梳理",
+          "date": "2026-03-10",
+          "source": "https://mp.weixin.qq.com/s/oiLMXMEHF1inUS2KXiOGJA",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        },
+        {
+          "title": "0324信息汇总",
+          "source": "wechat",
+          "date": "2026-03-25",
+          "insights": [
+            "产能扩张",
+            "技术领先",
+            "需求旺盛"
+          ],
+          "accidents": [
+            "成本上升"
+          ],
+          "products": [],
+          "chain": [],
+          "industry_position": "",
+          "context": "",
+          "content": "",
+          "analysis": "",
+          "summary": "",
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "0324信息汇总",
+          "url": "https://mp.weixin.qq.com/s/s1uCNiF6CMoRNov-ffsrhg",
+          "date": "2026-03-25",
+          "insights": [],
+          "accidents": [],
+          "products": [],
+          "chain": [],
+          "industry_position": "",
+          "context": "⭕【杰瑞股份】短期扰动反应充分，燃机增长确定性高  \n观点：中东扰动已经反应不少预期，主业有支撑垫，燃机增长确定性强，重视！  \n🌟主业：根据25年订单来算，主业26年利润能有近20%增长；公司中东地区主要为阿联酋、巴林、科威特、伊拉克等地区，没有伊朗收入。  \n1⃣油相关：短期来看，冲突影响原油出口，中期看油价上行对中东地区需求利好；  \n2⃣天然气：中东80%天然气需求来自内需，核心是自给自足，中东处于到2030年长周期景气的天然气扩产周期。  \n3⃣若考虑极端情况下，中东影响5e利润*20X=100e市值，扰动已经反应较为充分。且油气价格上涨，对设备，尤其是天然气设备拉动是利好。稍微中期",
+          "content": "",
+          "analysis": "",
+          "summary": "",
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "article_id": "002353_0324信息汇总_20260325",
+          "article_title": "0324信息汇总",
+          "title": "0324信息汇总",
+          "article_url": "https://mp.weixin.qq.com/s/s1uCNiF6CMoRNov-ffsrhg",
+          "url": "https://mp.weixin.qq.com/s/s1uCNiF6CMoRNov-ffsrhg",
+          "date": "2026-03-25",
+          "published_at": "2026-03-25",
+          "source": "https://mp.weixin.qq.com/s/s1uCNiF6CMoRNov-ffsrhg",
+          "insights": [],
+          "accidents": [],
+          "products": [],
+          "chain": [],
+          "industry_position": "",
+          "context": "⭕【杰瑞股份】短期扰动反应充分，燃机增长确定性高  \n观点：中东扰动已经反应不少预期，主业有支撑垫，燃机增长确定性强，重视！  \n🌟主业：根据25年订单来算，主业26年利润能有近20%增长；公司中东地区主要为阿联酋、巴林、科威特、伊拉克等地区，没有伊朗收入。  \n1⃣油相关：短期来看，冲突影响原油出口，中期看油价上行对中东地区需求利好；  \n2⃣天然气：中东80%天然气需求来自内需，核心是自给自足，中东处于到2030年长周期景气的天然气扩产周期。  \n3⃣若考虑极端情况下，中东影响5e利润*20X=100e市值，扰动已经反应较为充分。且油气价格上涨，对设备，尤其是天然气设备拉动是利好。稍微中期",
+          "content": "",
+          "analysis": "",
+          "summary": "",
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "article_id": "002353_0324信息汇总_bullish",
+          "article_title": "0324信息汇总",
+          "title": "0324信息汇总",
+          "article_url": "https://mp.weixin.qq.com/s/s1uCNiF6CMoRNov-ffsrhg",
+          "url": "https://mp.weixin.qq.com/s/s1uCNiF6CMoRNov-ffsrhg",
+          "date": "2026-03-25",
+          "published_at": "2026-03-25",
+          "source": "https://mp.weixin.qq.com/s/s1uCNiF6CMoRNov-ffsrhg",
+          "insights": [],
+          "accidents": [],
+          "products": [],
+          "chain": [],
+          "industry_position": "",
+          "context": "⭕【杰瑞股份】短期扰动反应充分，燃机增长确定性高  \n观点：中东扰动已经反应不少预期，主业有支撑垫，燃机增长确定性强，重视！  \n🌟主业：根据25年订单来算，主业26年利润能有近20%增长；公司中东地区主要为阿联酋、巴林、科威特、伊拉克等地区，没有伊朗收入。  \n1⃣油相关：短期来看，冲突影响原油出口，中期看油价上行对中东地区需求利好；  \n2⃣天然气：中东80%天然气需求来自内需，核心是自给自足，中东处于到2030年长周期景气的天然气扩产周期。  \n3⃣若考虑极端情况下，中东影响5e利润*20X=100e市值，扰动已经反应较为充分。且油气价格上涨，对设备，尤其是天然气设备拉动是利好。稍微中期",
+          "content": "",
+          "analysis": "",
+          "summary": "",
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "杰瑞股份(002353) - 燃气轮机业务创历史新高",
+          "date": "2026-04-16",
+          "source": "用户输入",
+          "content": "杰瑞股份累计获得 34亿美金 订单，创下历史级别记录。2025年轻燃业务毛利率超50%，净利率25%-30%。2026年目标6-8亿美金，有望上调到8-10亿。按8-10亿美金测算，2027年杰瑞利润中三分之一强来自燃气轮机，整体利润有望达到 50亿体量。",
+          "analysis": "燃气轮机业务是杰瑞股份的战略性新业务，已取得重大突破：\n1. 订单规模：累计获得34亿美金订单，创历史记录\n2. 盈利能力：2025年轻燃业务毛利率超50%，净利率25%-30%，盈利能力强劲\n3. 增长预期：2026年目标6-8亿美金，有望上调至8-10亿美金\n4. 利润贡献：预计2027年燃气轮机业务将贡献公司三分之一以上的利润\n5. 整体展望：2027年公司整体利润有望达到50亿体量",
+          "summary": "杰瑞股份燃气轮机业务累计获得34亿美金订单，2025年毛利率超50%，2027年整体利润有望达50亿。",
+          "insights": [
+            "累计获得34亿美金订单，创历史级别记录",
+            "2025年轻燃业务毛利率超50%，净利率25%-30%",
+            "2026年目标6-8亿美金，有望上调到8-10亿",
+            "2027年燃气轮机将贡献三分之一以上利润",
+            "2027年整体利润有望达到50亿体量"
+          ],
+          "key_metrics": [
+            "2027年目标利润: 50亿",
+            "燃气轮机订单: 34亿美金"
+          ],
+          "target_valuation": [
+            "50亿利润"
+          ],
+          "accidents": []
+        },
+        {
+          "title": "杰瑞股份(002353) - 燃气轮机业务创历史新高",
+          "date": "2026-04-16",
+          "source": "用户输入",
+          "content": "杰瑞股份累计获得 34亿美金 订单，创下历史级别记录。2025年轻燃业务毛利率超50%，净利率25%-30%。2026年目标6-8亿美金，有望上调到8-10亿。按8-10亿美金测算，2027年杰瑞利润中三分之一强来自燃气轮机，整体利润有望达到 50亿体量。",
+          "analysis": "燃气轮机业务是杰瑞股份的战略性新业务，已取得重大突破：\n1. 订单规模：累计获得34亿美金订单，创历史记录\n2. 盈利能力：2025年轻燃业务毛利率超50%，净利率25%-30%，盈利能力强劲\n3. 增长预期：2026年目标6-8亿美金，有望上调至8-10亿美金\n4. 利润贡献：预计2027年燃气轮机业务将贡献公司三分之一以上的利润\n5. 整体展望：2027年公司整体利润有望达到50亿体量",
+          "summary": "杰瑞股份燃气轮机业务累计获得34亿美金订单，2025年毛利率超50%，2027年整体利润有望达50亿。",
+          "insights": [
+            "累计获得34亿美金订单，创历史级别记录",
+            "2025年轻燃业务毛利率超50%，净利率25%-30%",
+            "2026年目标6-8亿美金，有望上调到8-10亿",
+            "2027年燃气轮机将贡献三分之一以上利润",
+            "2027年整体利润有望达到50亿体量"
+          ],
+          "key_metrics": [
+            "2027年目标利润: 50亿",
+            "燃气轮机订单: 34亿美金"
+          ],
+          "target_valuation": [
+            "50亿利润"
+          ],
+          "accidents": []
+        },
+        {
+          "title": "杰瑞股份(002353) - 燃气轮机业务创历史新高",
+          "date": "2026-04-16",
+          "source": "用户输入",
+          "content": "杰瑞股份累计获得 34亿美金 订单，创下历史级别记录。2025年轻燃业务毛利率超50%，净利率25%-30%。2026年目标6-8亿美金，有望上调到8-10亿。按8-10亿美金测算，2027年杰瑞利润中三分之一强来自燃气轮机，整体利润有望达到 50亿体量。",
+          "analysis": "燃气轮机业务是杰瑞股份的战略性新业务，已取得重大突破：\n1. 订单规模：累计获得34亿美金订单，创历史记录\n2. 盈利能力：2025年轻燃业务毛利率超50%，净利率25%-30%，盈利能力强劲\n3. 增长预期：2026年目标6-8亿美金，有望上调至8-10亿美金\n4. 利润贡献：预计2027年燃气轮机业务将贡献公司三分之一以上的利润\n5. 整体展望：2027年公司整体利润有望达到50亿体量",
+          "summary": "杰瑞股份燃气轮机业务累计获得34亿美金订单，2025年毛利率超50%，2027年整体利润有望达50亿。",
+          "insights": [
+            "累计获得34亿美金订单，创历史级别记录",
+            "2025年轻燃业务毛利率超50%，净利率25%-30%",
+            "2026年目标6-8亿美金，有望上调到8-10亿",
+            "2027年燃气轮机将贡献三分之一以上利润",
+            "2027年整体利润有望达到50亿体量"
+          ],
+          "key_metrics": [
+            "2027年目标利润: 50亿",
+            "燃气轮机订单: 34亿美金"
+          ],
+          "target_valuation": [
+            "50亿利润"
+          ],
+          "accidents": []
+        },
+        {
+          "title": "杰瑞股份研究更新",
+          "date": "2026-04-17",
+          "source": "内部研究",
+          "accidents": [],
+          "insights": [
+            "直接销售给美国AIDC燃机机组的唯一A股标的",
+            "成壳能力、机头资源、美国渠道构筑壁垒",
+            "2026年32X，2027年24X"
+          ],
+          "key_metrics": [],
+          "target_valuation": [
+            "26年PE:32x",
+            "27年PE:24x"
+          ],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "last_updated": "2026-04-17",
+      "insights": [
+        "产能扩张",
+        "技术领先",
+        "需求旺盛"
+      ],
+      "accidents": [
+        "成本上升"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "300913": {
+      "name": "兆龙互连",
+      "code": "300913",
+      "board": "SZ",
+      "industry": "通信-通信设备-通信线缆及配套",
+      "concepts": [
+        "共封装光学(CPO)",
+        "铜缆高速连接",
+        "光纤概念",
+        "5G",
+        "数据中心",
+        "新型工业化",
+        "机器视觉",
+        "机器人概念",
+        "光伏概念",
+        "人民币贬值受益",
+        "深股通",
+        "融资融券"
+      ],
+      "mention_count": 3,
+      "products": [],
+      "core_business": [
+        "连接器",
+        "高速线缆",
+        "高速组件"
+      ],
+      "industry_position": [
+        "高速组件全栈布局",
+        "算力铜互联核心供应商"
+      ],
+      "chain": [
+        "下游-算力/数据中心",
+        "中游-组件制造",
+        "上游-铜材"
+      ],
+      "partners": [
+        "字节跳动",
+        "英伟达"
+      ],
+      "articles": [
+        {
+          "title": "风口byTY",
+          "date": "",
+          "source": "",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        },
+        {
+          "title": "兆龙互连研究更新",
+          "date": "2026-04-17",
+          "source": "内部研究",
+          "accidents": [],
+          "insights": [
+            "高速组件全栈布局",
+            "直接受益国内算力铜互联升级"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "last_updated": "2026-04-17",
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "002534": {
+      "name": "西子洁能",
+      "code": "002534",
+      "board": "SZ",
+      "industry": "电力设备-其他电源设备-其他电源设备Ⅲ",
+      "concepts": [
+        "电力设备-其他电源设备-其他电源设备Ⅲ"
+      ],
+      "products": [],
+      "core_business": [
+        "清洁能源装备",
+        "SCR脱硝设备",
+        "余热锅炉"
+      ],
+      "industry_position": [
+        "SCR出海先锋",
+        "余热锅炉领先企业"
+      ],
+      "chain": [
+        "中游-锅炉制造",
+        "下游-工业/能源",
+        "上游-钢材"
+      ],
+      "partners": null,
+      "mention_count": 2,
+      "articles": [
+        {
+          "title": "01月15日___公告精选",
+          "date": "2026-01-15",
+          "source": "https://mp.weixin.qq.com/s/JUD8Rl1vSTqdVJlWf40wzw",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "订单 59.98 亿元"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        },
+        {
+          "title": "西子洁能研究更新",
+          "date": "2026-04-17",
+          "source": "内部研究",
+          "accidents": [],
+          "insights": [
+            "主业5E打底",
+            "估值28x",
+            "当前存在SCR出海北美预期差",
+            "产能充足支持接单"
+          ],
+          "key_metrics": [],
+          "target_valuation": [
+            "主业利润:5亿",
+            "PE:28x"
+          ],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "last_updated": "2026-04-17",
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "000338": {
+      "name": "潍柴动力",
+      "code": "000338",
+      "board": "SZ",
+      "industry": "汽车-汽车零部件-底盘与发动机系统",
+      "concepts": [
+        "汽车-汽车零部件-底盘与发动机系统"
+      ],
+      "products": [
+        "制造授权"
+      ],
+      "core_business": [
+        "AIDC备电柴发",
+        "燃气发电机组",
+        "柴油发动机",
+        "动力系统",
+        "SOFC燃料电池"
+      ],
+      "industry_position": [
+        "国产AI电力龙头",
+        "全球动力龙头"
+      ],
+      "chain": [
+        "中游-发动机制造",
+        "下游-电力/汽车/船舶",
+        "上游-原材料"
+      ],
+      "partners": null,
+      "mention_count": 2,
+      "articles": [
+        {
+          "title": "11月7日，热点关注，今日操作策略与风险提示，文末本周1篇报告",
+          "date": "2025-11-07",
+          "source": "https://mp.weixin.qq.com/s/KNM0A6vAVRubGMelaHMSSQ",
+          "accidents": [
+            "政策驱动板块",
+            "操作上宜提前布局相关区域或行业龙头"
+          ],
+          "insights": [
+            "操作上宜提前布局相关区域或行业龙头"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        },
+        {
+          "title": "潍柴动力研究更新",
+          "date": "2026-04-17",
+          "source": "内部研究",
+          "accidents": [],
+          "insights": [
+            "三箭齐发加速迈向国产AI电力龙头",
+            "26年AIDC备电柴发产销两旺持续超预期",
+            "燃气发电机组进军主电领域在即",
+            "SOFC扩产节奏加快",
+            "AIDC利润占比近20%，PE不足16X"
+          ],
+          "key_metrics": [],
+          "target_valuation": [
+            "PE:16x",
+            "分部估值:22x"
+          ],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "article_count": 1,
+      "last_updated": "2026-04-17",
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "300398": {
+      "name": "飞凯材料",
+      "code": "300398",
+      "board": "SZ",
+      "industry": "电子-电子化学品-电子化学品Ⅲ",
+      "concepts": [
+        "光刻胶",
+        "中芯国际概念",
+        "存储芯片",
+        "先进封装",
+        "OLED",
+        "第三代半导体",
+        "光纤概念",
+        "芯片概念",
+        "光伏概念",
+        "新能源汽车",
+        "电子纸",
+        "深股通",
+        "融资融券",
+        "半导体"
+      ],
+      "mention_count": 3,
+      "products": [],
+      "core_business": [
+        "光纤涂料",
+        "屏幕显示材料",
+        "半导体材料",
+        "紫外固化材料"
+      ],
+      "industry_position": [
+        "龙头",
+        "材料——涂覆材料龙头",
+        "半导体材料国产替代",
+        "光纤涂料龙头(60%市占率)"
+      ],
+      "chain": [
+        "上游-树脂",
+        "中游-涂料/材料制造",
+        "下游-光纤/半导体/显示",
+        "上游-材料"
+      ],
+      "partners": [
+        "中天",
+        "亨通",
+        "长飞"
+      ],
+      "articles": [
+        {
+          "title": "风口byTY",
+          "date": "",
+          "source": "",
+          "accidents": [],
+          "insights": [
+            "直接受益"
+          ],
+          "key_metrics": [
+            "龙头"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        },
+        {
+          "title": "0325信息汇总",
+          "source": "wechat",
+          "date": "2026-03-25",
+          "insights": [
+            "技术领先",
+            "需求旺盛",
+            "业绩增长"
+          ],
+          "accidents": [
+            "技术风险"
+          ],
+          "products": [],
+          "chain": [
+            "半导体"
+          ],
+          "industry_position": "",
+          "context": "",
+          "content": "",
+          "analysis": "",
+          "summary": "",
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "0325信息汇总",
+          "url": "https://mp.weixin.qq.com/s/A7IP8VkQuahCOZjumNl8vg",
+          "date": "2026-03-25",
+          "insights": [],
+          "accidents": [],
+          "products": [],
+          "chain": [],
+          "industry_position": "",
+          "context": "⭕【飞凯材料】半导体材料业务增长可期，屏幕显示材料市场版图有望扩张  \n紫外固化材料起家，目前已将核心业务范围逐步拓展至半导体材料、屏幕显示材料和有机合成材料四大领域。公司偿债能力和现金流情况良好，营收，毛利率和净利率水平显著回暖，现金流情况良好。  \n公司光纤涂料业务有望受益于行业增长。以空芯光纤为例，其正逐步从技术验证走向产业化阶段，相配套光纤涂料也在不断优化中。飞凯材料具备二十四年光纤涂料的产业化经验，能够实现从光纤涂料配方到树脂结构全链条研发与定制，满足不同空芯光纤结构和应用场景的个性化需求，以专业稳定的涂料解决方案为行业产业化进程提供有力支撑。  \n半导体材料业务增长可期，屏幕显示材",
+          "content": "",
+          "analysis": "",
+          "summary": "",
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "article_id": "300398_0325信息汇总_20260325",
+          "article_title": "0325信息汇总",
+          "title": "0325信息汇总",
+          "article_url": "https://mp.weixin.qq.com/s/A7IP8VkQuahCOZjumNl8vg",
+          "url": "https://mp.weixin.qq.com/s/A7IP8VkQuahCOZjumNl8vg",
+          "date": "2026-03-25",
+          "published_at": "2026-03-25",
+          "source": "https://mp.weixin.qq.com/s/A7IP8VkQuahCOZjumNl8vg",
+          "insights": [],
+          "accidents": [],
+          "products": [],
+          "chain": [],
+          "industry_position": "",
+          "context": "⭕【飞凯材料】半导体材料业务增长可期，屏幕显示材料市场版图有望扩张  \n紫外固化材料起家，目前已将核心业务范围逐步拓展至半导体材料、屏幕显示材料和有机合成材料四大领域。公司偿债能力和现金流情况良好，营收，毛利率和净利率水平显著回暖，现金流情况良好。  \n公司光纤涂料业务有望受益于行业增长。以空芯光纤为例，其正逐步从技术验证走向产业化阶段，相配套光纤涂料也在不断优化中。飞凯材料具备二十四年光纤涂料的产业化经验，能够实现从光纤涂料配方到树脂结构全链条研发与定制，满足不同空芯光纤结构和应用场景的个性化需求，以专业稳定的涂料解决方案为行业产业化进程提供有力支撑。  \n半导体材料业务增长可期，屏幕显示材",
+          "content": "",
+          "analysis": "",
+          "summary": "",
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "article_id": "300398_0325信息汇总_bullish",
+          "article_title": "0325信息汇总",
+          "title": "0325信息汇总",
+          "article_url": "https://mp.weixin.qq.com/s/A7IP8VkQuahCOZjumNl8vg",
+          "url": "https://mp.weixin.qq.com/s/A7IP8VkQuahCOZjumNl8vg",
+          "date": "2026-03-25",
+          "published_at": "2026-03-25",
+          "source": "https://mp.weixin.qq.com/s/A7IP8VkQuahCOZjumNl8vg",
+          "insights": [],
+          "accidents": [],
+          "products": [],
+          "chain": [],
+          "industry_position": "",
+          "context": "⭕【飞凯材料】半导体材料业务增长可期，屏幕显示材料市场版图有望扩张  \n紫外固化材料起家，目前已将核心业务范围逐步拓展至半导体材料、屏幕显示材料和有机合成材料四大领域。公司偿债能力和现金流情况良好，营收，毛利率和净利率水平显著回暖，现金流情况良好。  \n公司光纤涂料业务有望受益于行业增长。以空芯光纤为例，其正逐步从技术验证走向产业化阶段，相配套光纤涂料也在不断优化中。飞凯材料具备二十四年光纤涂料的产业化经验，能够实现从光纤涂料配方到树脂结构全链条研发与定制，满足不同空芯光纤结构和应用场景的个性化需求，以专业稳定的涂料解决方案为行业产业化进程提供有力支撑。  \n半导体材料业务增长可期，屏幕显示材",
+          "content": "",
+          "analysis": "",
+          "summary": "",
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "飞凯材料研究更新",
+          "date": "2026-04-17",
+          "source": "内部研究",
+          "accidents": [],
+          "insights": [
+            "空芯光纤UV涂料国内市占率60%",
+            "主要客户：长飞、亨通、中天等",
+            "光纤涂料25年收入5亿+，占比15-20%，即将涨价",
+            "半导体材料：显影液、蚀刻液、剥离液、电镀液、EMC环氧塑封料等",
+            "中日关系紧张，国产替代预期升温"
+          ],
+          "key_metrics": [],
+          "target_valuation": [
+            "光纤涂料收入:5亿+"
+          ],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "last_updated": "2026-04-17",
+      "insights": [
+        "技术领先",
+        "需求旺盛",
+        "业绩增长"
+      ],
+      "accidents": [
+        "技术风险"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "300593": {
+      "name": "新雷能",
+      "code": "300593",
+      "board": "SZ",
+      "industry": "电力设备-其他电源设备-其他电源设备Ⅲ",
+      "concepts": [
+        "商业航天",
+        "卫星导航",
+        "军民融合",
+        "军工",
+        "5G",
+        "芯片概念",
+        "数据中心",
+        "专精特新",
+        "储能",
+        "融资融券",
+        "深股通"
+      ],
+      "mention_count": 2,
+      "products": [
+        "芯片",
+        "服务器"
+      ],
+      "core_business": [
+        "二次电源",
+        "三次电源",
+        "耦合电源",
+        "VPD电源",
+        "板载电源"
+      ],
+      "industry_position": [
+        "电源第一",
+        "隐形冠军",
+        "谷歌/亚马逊/Meta电源供应商",
+        "ADI核心供应商"
+      ],
+      "chain": [
+        "下游-数据中心/通信",
+        "服务",
+        "中游-电源模块",
+        "上游-元器件"
+      ],
+      "partners": [
+        "英伟达",
+        "ADI",
+        "Meta",
+        "谷歌",
+        "亚马逊"
+      ],
+      "articles": [
+        {
+          "title": "风口byTY",
+          "date": "",
+          "source": "",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "第一股、低调的 “隐形冠军”—— 新雷能 新雷能正是这条链顶端的玩家 为达标",
+            "全球模拟芯片巨头 ADI 筛选合作伙伴",
+            "营收、7.77 亿元毛利 但正如华泰证券研报所言"
+          ],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        },
+        {
+          "title": "新雷能研究更新",
+          "date": "2026-04-17",
+          "source": "内部研究",
+          "accidents": [],
+          "insights": [
+            "终端客户突破：ADI客户从AWS扩展至谷歌，目前终端主要客户为AWS、谷歌、Meta",
+            "订单明显起量：5月开始每月二次电源生产量10-20万套，之前两个季度不到10万套",
+            "产品拓展完成：Q2主要业绩来自二次电源，Q4三次电源VPD、NV板载电源(800V-54V)、一二次耦合电源(800V-12V)逐步放量"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "last_updated": "2026-04-17",
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "600482": {
+      "name": "中国动力",
+      "code": "600482",
+      "board": "SH",
+      "industry": "电力设备-其他电源设备-其他电源设备Ⅲ",
+      "concepts": [
+        "中船系",
+        "国产航母",
+        "风电",
+        "数据中心",
+        "海工装备",
+        "核电",
+        "核污染防治",
+        "储能",
+        "雄安新区",
+        "京津冀一体化",
+        "央企国企改革",
+        "军民融合",
+        "燃料电池",
+        "军工",
+        "氢能源",
+        "国企改革",
+        "DeepSeek概念",
+        "锂电池概念",
+        "新能源汽车",
+        "长安汽车概念",
+        "石墨烯",
+        "固态电池",
+        "钠离子电池",
+        "沪股通",
+        "融资融券",
+        "中字头股票"
+      ],
+      "mention_count": 2,
+      "products": [],
+      "core_business": [
+        "燃气轮机",
+        "船舶发动机",
+        "动力系统",
+        "柴油机"
+      ],
+      "industry_position": [
+        "全球船舶发动机龙一",
+        "国内船舶动力绝对龙头"
+      ],
+      "chain": [
+        "中游-发动机制造",
+        "下游-船舶",
+        "上游-原材料"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "风口byTY",
+          "date": "",
+          "source": "",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        },
+        {
+          "title": "中国动力研究更新",
+          "date": "2026-04-17",
+          "source": "内部研究",
+          "accidents": [],
+          "insights": [
+            "南美订单验证实力",
+            "2026年30亿利润，30X",
+            "少数股权注入完成后2027年76亿利润，12X"
+          ],
+          "key_metrics": [],
+          "target_valuation": [
+            "26年利润:30亿",
+            "26年PE:30x",
+            "27年利润:76亿",
+            "27年PE:12x"
+          ],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "last_updated": "2026-04-17",
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      }
+    },
+    "605060": {
+      "code": "605060",
+      "name": "联德股份",
+      "market": "SH",
+      "industry": "沪市主板",
+      "mention_count": 18,
+      "sample_articles": [
+        "北美缺电拉动需求_燃气轮机国内配套商梳理.txt",
+        "北美电力需求拉动_燃气轮机产业及供应商梳理.txt",
+        "1_19_周一_明天关注的方向.txt",
+        "算电协同首次写入政府工作报告_AIDC建设催生用电荒_算电协同引爆双赛道_发电机_燃气轮机30股狂飙_散户还能上车_错过等1年_.txt",
+        "今天的一些信息整理3_07.txt"
+      ],
+      "data_completeness": {
+        "market_data": false,
+        "financials": false,
+        "sentiment": true
+      },
+      "concepts": [
+        "沪市主板"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [
+        "压缩机部件",
+        "卡特颜巴赫",
+        "精密铸件"
+      ],
+      "industry_position": [
+        "卡特颜巴赫核心供应商",
+        "精密制造龙头"
+      ],
+      "chain": [
+        "下游-压缩机/航空",
+        "中游-精密铸件",
+        "上游-原材料"
+      ],
+      "partners": [
+        "卡特颜巴赫"
+      ],
+      "articles": [
+        {
+          "title": "联德股份研究更新",
+          "date": "2026-04-17",
+          "source": "内部研究",
+          "accidents": [],
+          "insights": [
+            "满产满销",
+            "卡特颜巴赫订单排产至28年且有扩产预期",
+            "Q1预计发货环比提升，利润率修复明显",
+            "长期产能满产下估值18x"
+          ],
+          "key_metrics": [],
+          "target_valuation": [
+            "PE:18x"
+          ],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "last_updated": "2026-04-17"
+    },
+    "000534": {
+      "code": "000534",
+      "name": "万泽股份",
+      "market": "SZ",
+      "industry": "深市主板",
+      "mention_count": 15,
+      "sample_articles": [
+        "北美缺电拉动需求_燃气轮机国内配套商梳理.txt",
+        "北美电力需求拉动_燃气轮机产业及供应商梳理.txt",
+        "1_19_周一_明天关注的方向.txt",
+        "算电协同首次写入政府工作报告_AIDC建设催生用电荒_算电协同引爆双赛道_发电机_燃气轮机30股狂飙_散户还能上车_错过等1年_.txt",
+        "今天的一些信息整理3_07.txt"
+      ],
+      "data_completeness": {
+        "market_data": false,
+        "financials": false,
+        "sentiment": true
+      },
+      "concepts": [
+        "深市主板"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [
+        "精密铸件",
+        "高温合金",
+        "燃气轮机叶片"
+      ],
+      "industry_position": [
+        "燃机叶片国产替代先锋",
+        "DQ/703国产燃机订单"
+      ],
+      "chain": [
+        "下游-燃气轮机",
+        "中游-叶片制造",
+        "上游-高温合金"
+      ],
+      "partners": [
+        "DQ",
+        "703"
+      ],
+      "articles": [
+        {
+          "title": "万泽股份研究更新",
+          "date": "2026-04-17",
+          "source": "内部研究",
+          "accidents": [],
+          "insights": [
+            "持续导入DQ/703国产燃机订单",
+            "国产主机链产能优势下国产机组配套叶片有望带来更大订单弹性",
+            "14x估值下赔率高，确定性强"
+          ],
+          "key_metrics": [],
+          "target_valuation": [
+            "PE:14x"
+          ],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "last_updated": "2026-04-17"
+    },
+    "002130": {
+      "code": "002130",
+      "name": "沃尔核材",
+      "market": "SZ",
+      "industry": "深市主板",
+      "mention_count": 11,
+      "sample_articles": [
+        "DAC铜缆进阶_AEC有源铜缆供应格局梳理.txt",
+        "1_22_周四_明天关注的方向.txt",
+        "9_17_周三_明天关注的方向.txt",
+        "9_23_周二_明天关注的方向.txt",
+        "9_28_周末热点汇总_节前思路.txt"
+      ],
+      "data_completeness": {
+        "market_data": false,
+        "financials": false,
+        "sentiment": true
+      },
+      "concepts": [
+        "深市主板"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [
+        "热缩材料",
+        "连接器",
+        "224G发泡芯线",
+        "高速线缆"
+      ],
+      "industry_position": [
+        "高速线缆核心供应商",
+        "224G发泡芯线产能全国领先"
+      ],
+      "chain": [
+        "中游-线缆制造",
+        "下游-数据中心/通信",
+        "上游-铜材"
+      ],
+      "partners": [
+        "安费诺",
+        "亚马逊",
+        "谷歌",
+        "英伟达"
+      ],
+      "articles": [
+        {
+          "title": "沃尔核材(002130) - 高速线业务高速增长，海外产能布局完善",
+          "date": "2026-04-16",
+          "source": "用户输入",
+          "content": "高速线2025年度收入约25个多亿，占比接近40%。其中，224G产品占据大头，占比接近40%，其次是800G和400G产品，两者占比也有百分之二三十，还有PCIE线等其他产品类别。英伟达对背板线提出了新的性能提升要求，目前我们正在配合客户进行样品验证过程，预计在Q3时会大量投入市场。对于谷歌，我们有多个项目在进行，包括旧的800G和112G产品，以及新的800G外部线项目和24G产品，其中24G产品已于去年10月份开始批量内交。亚马逊和Meta方面，我们同样在推24G产品，预计四月底起量。思科、亚马逊的800G和112G产品也已完成前期验证，等待下单。其他客户如M公司的相关项目也在顺利推进中。目前越南工厂已经具备与国内相当的生产能力，经过过去一年的磨合，交付了大量高速线产品给大型终端客户，包括800G、112G和24G的产品。尽管越南厂房租金较高导致成本略高，但盈利能力和加工水平与国内相差不大。",
+          "analysis": "沃尔核材高速线业务高速增长，海外布局完善：\n\n业务规模：\n- 高速线2025年度收入约25亿+，占比接近40%\n- 224G产品占比接近40%（大头）\n- 800G和400G产品占比20-30%\n- 还有PCIE线等其他产品\n\n客户进展：\n1. 英伟达：背板线性能提升，样品验证中，预计Q3大量投入市场\n2. 谷歌：多个项目并行，包括800G、112G、24G产品，24G已批量内交\n3. 亚马逊/Meta：24G产品预计四月底起量\n4. 思科：800G和112G已完成验证，等待下单\n5. M公司：项目顺利推进\n\n海外产能：\n- 越南工厂已具备与国内相当的生产能力\n- 交付了大量高速线产品（800G、112G、24G）\n- 盈利能力与国内相差不大",
+          "summary": "沃尔核材高速线2025年收入约25亿+，占比40%，覆盖英伟达、谷歌、亚马逊等头部客户，越南工厂产能完善。",
+          "insights": [
+            "高速线2025年收入约25亿+，占比接近40%",
+            "224G产品占比接近40%，800G/400G占比20-30%",
+            "英伟达背板线Q3大量投入市场",
+            "谷歌24G产品已批量内交，亚马逊/Meta四月底起量",
+            "越南工厂具备与国内相当的生产能力"
+          ],
+          "key_metrics": [
+            "高速线收入: 25亿+",
+            "高速线占比: 40%"
+          ],
+          "target_valuation": [],
+          "accidents": []
+        },
+        {
+          "title": "沃尔核材研究更新",
+          "date": "2026-04-17",
+          "source": "内部研究",
+          "accidents": [],
+          "insights": [
+            "224G发泡芯线产能全国领先",
+            "深度绑定安费诺",
+            "在手订单饱满",
+            "机构筹码趋于集中"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "last_updated": "2026-04-17"
+    },
+    "688227": {
+      "code": "688227",
+      "name": "品高股份",
+      "market": "SH",
+      "industry": "科创板",
+      "mention_count": 5,
+      "sample_articles": [
+        "两大算力芯片_GPU_ASIC对比及厂商梳理.txt",
+        "AI智能体爆发_18只核心股谁能翻倍_90_散户还在错过这波红利_.txt",
+        "国产芯片概念突围_18只核心股谁能翻倍_90_散户还在错过这波红利_.txt",
+        "今天的一些信息整理3_09.txt"
+      ],
+      "data_completeness": {
+        "market_data": false,
+        "financials": false,
+        "sentiment": true
+      },
+      "concepts": [
+        "科创板"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [
+        "IaaS平台",
+        "信创云",
+        "政企云服务",
+        "云操作系统"
+      ],
+      "industry_position": [
+        "信创资质齐全",
+        "军工高安全壁垒",
+        "国内最早云操作系统厂商"
+      ],
+      "chain": [
+        "下游-政务/公安/军工/轨交",
+        "中游-云平台",
+        "上游-芯片/服务器"
+      ],
+      "partners": [
+        "阿里云",
+        "江原科技"
+      ],
+      "articles": [
+        {
+          "title": "品高股份研究更新",
+          "date": "2026-04-17",
+          "source": "内部研究",
+          "accidents": [],
+          "insights": [
+            "2010年推出商用级IaaS产品BingoCloudOS，国内最早云操作系统厂商",
+            "覆盖政务/公安/军工/轨交等核心行业",
+            "拟4亿元增资江原科技至14.53%，深化云-边-端产业布局",
+            "全球算力定价重塑：阿里云4天3轮涨价、Anthropic弃固定制转按量计费",
+            "行业从卖算力转向卖Token（调用分成），估值体系全面重估"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "last_updated": "2026-04-17"
+    },
+    "301373": {
+      "code": "301373",
+      "name": "凌玮科技",
+      "market": "SZ",
+      "industry": "创业板",
+      "mention_count": 5,
+      "sample_articles": [
+        "M9覆铜板价值增量_球形硅微粉（球硅）供应格局梳理.txt",
+        "今天的一些信息整理3_10.txt",
+        "今天的一些信息整理3_08.txt",
+        "0308信息汇总.txt"
+      ],
+      "data_completeness": {
+        "market_data": false,
+        "financials": false,
+        "sentiment": true
+      },
+      "concepts": [
+        "科技"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [
+        "硅微粉",
+        "填料",
+        "CCL上游材料"
+      ],
+      "industry_position": [
+        "CCL上游材料供应商",
+        "生益科技独家供应"
+      ],
+      "chain": [
+        "上游-石英",
+        "下游-CCL",
+        "中游-材料加工"
+      ],
+      "partners": [
+        "斗山",
+        "台光",
+        "松下",
+        "台耀",
+        "生益科技"
+      ],
+      "articles": [
+        {
+          "title": "凌玮科技研究更新",
+          "date": "2026-04-17",
+          "source": "内部研究",
+          "accidents": [],
+          "insights": [
+            "目前客户：生益科技（暂时独供）、松下、台耀、台光",
+            "斗山目前还在送样",
+            "年内空间坚定看到200亿"
+          ],
+          "key_metrics": [],
+          "target_valuation": [
+            "目标市值:200亿"
+          ],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "last_updated": "2026-04-17"
+    },
+    "300563": {
+      "code": "300563",
+      "name": "神宇股份",
+      "market": "SZ",
+      "industry": "创业板",
+      "mention_count": 4,
+      "sample_articles": [
+        "DAC铜缆进阶_AEC有源铜缆供应格局梳理.txt",
+        "9_25_周四_明天关注的方向.txt",
+        "A股AI_硬件赛道彻底燃爆_97只AI硬件股集体暴涨21__外资爆买_散户躺赢机会来了_错过等1年_.txt"
+      ],
+      "data_completeness": {
+        "market_data": false,
+        "financials": false,
+        "sentiment": true
+      },
+      "concepts": [
+        "创业板"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [
+        "极细屏蔽线",
+        "精密同轴线",
+        "高频线缆"
+      ],
+      "industry_position": [
+        "精密同轴线隐形冠军",
+        "1.6T极细线供应商"
+      ],
+      "chain": [
+        "中游-线缆制造",
+        "上游-铜材",
+        "下游-通信/数据中心"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "神宇股份研究更新",
+          "date": "2026-04-17",
+          "source": "内部研究",
+          "accidents": [],
+          "insights": [
+            "1.6T极细屏蔽线已小批量出货嵌入大厂链条",
+            "26Q1归母净利润拐点"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "last_updated": "2026-04-17"
+    },
+    "001233": {
+      "code": "001233",
+      "name": "海安集团",
+      "market": "SZ",
+      "industry": "深市主板",
+      "mention_count": 4,
+      "sample_articles": [
+        "0128汇总_资源繁荣_矿机起舞.txt",
+        "0119市场信息汇总.txt",
+        "0106盘后信息汇总.txt"
+      ],
+      "data_completeness": {
+        "market_data": false,
+        "financials": false,
+        "sentiment": true
+      },
+      "concepts": [
+        "深市主板"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [
+        "矿用巨胎",
+        "特种轮胎",
+        "全钢子午线轮胎"
+      ],
+      "industry_position": [
+        "国内矿用轮胎核心供应商",
+        "矿用巨胎领先企业"
+      ],
+      "chain": [
+        "上游-天然橡胶",
+        "下游-矿山",
+        "中游-轮胎制造"
+      ],
+      "partners": [
+        "固特异",
+        "赛轮",
+        "风神"
+      ],
+      "articles": [
+        {
+          "title": "海安集团研究更新",
+          "date": "2026-04-17",
+          "source": "内部研究",
+          "accidents": [],
+          "insights": [
+            "原材料成本可控：天然橡胶占原材料成本40%以上，不跟随石油价格",
+            "拥有涨价主动权：多个轮胎企业发布涨价函，海安尚未调整但主动权在握",
+            "26年利润8.4亿，27年利润10.7亿，增速25%+",
+            "27年目标市值210亿，PE仅14x/11x"
+          ],
+          "key_metrics": [],
+          "target_valuation": [
+            "26年PE:14x",
+            "27年PE:11x",
+            "27年目标市值:210亿"
+          ],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "last_updated": "2026-04-17"
+    },
+    "605277": {
+      "code": "605277",
+      "name": "新亚电子",
+      "market": "SH",
+      "industry": "沪市主板",
+      "mention_count": 3,
+      "sample_articles": [
+        "DAC铜缆进阶_AEC有源铜缆供应格局梳理.txt",
+        "A股AI_硬件赛道彻底燃爆_97只AI硬件股集体暴涨21__外资爆买_散户躺赢机会来了_错过等1年_.txt"
+      ],
+      "data_completeness": {
+        "market_data": false,
+        "financials": false,
+        "sentiment": true
+      },
+      "concepts": [
+        "科技"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [
+        "数据线",
+        "消费线缆",
+        "224G高速线"
+      ],
+      "industry_position": [
+        "224G送样进展超预期",
+        "消费线缆转型企业"
+      ],
+      "chain": [
+        "中游-线缆制造",
+        "下游-消费电子/数据中心",
+        "上游-铜材"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "新亚电子研究更新",
+          "date": "2026-04-17",
+          "source": "内部研究",
+          "accidents": [],
+          "insights": [
+            "消费线缆转型",
+            "224G送样进展超预期",
+            "补涨属性强"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "last_updated": "2026-04-17"
+    },
+    "301086": {
+      "code": "301086",
+      "name": "鸿富瀚",
+      "market": "SZ",
+      "industry": "创业板",
+      "mention_count": 3,
+      "sample_articles": [
+        "0127汇总_盘中回暖_多点开花.txt",
+        "0114市场信息汇总.txt"
+      ],
+      "data_completeness": {
+        "market_data": false,
+        "financials": false,
+        "sentiment": true
+      },
+      "concepts": [
+        "创业板"
+      ],
+      "valuation": {
+        "target_market_cap": null,
+        "pe_ratio": null,
+        "pb_ratio": null
+      },
+      "financial_metrics": {
+        "revenue_growth": null,
+        "profit_margin": null,
+        "roe": null
+      },
+      "market_data": {
+        "market_cap": null,
+        "circulating_market_cap": null,
+        "total_shares": null,
+        "circulating_shares": null
+      },
+      "products": [],
+      "core_business": [
+        "代工制造",
+        "液冷板",
+        "精密模切"
+      ],
+      "industry_position": [
+        "代工份额逻辑",
+        "液冷板供应商"
+      ],
+      "chain": [
+        "中游-液冷板制造",
+        "下游-数据中心",
+        "上游-原材料"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "鸿富瀚研究更新",
+          "date": "2026-04-17",
+          "source": "内部研究",
+          "accidents": [],
+          "insights": [
+            "液冷板商务关系为主",
+            "代工逻辑走份额逻辑",
+            "300亿元市场，20%份额，15亿元利润",
+            "目标300亿元市值"
+          ],
+          "key_metrics": [],
+          "target_valuation": [
+            "目标市值:300亿",
+            "利润:15亿",
+            "市场空间:300亿"
+          ],
+          "content": "",
+          "analysis": "",
+          "summary": ""
+        }
+      ],
+      "last_updated": "2026-04-17"
+    }
+  }
+}

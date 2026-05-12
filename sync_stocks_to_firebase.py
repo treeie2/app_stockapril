@@ -64,7 +64,7 @@ def sync_stocks_to_firebase():
     from firebase_admin import firestore
 
     # 读取 stocks_master.json
-    data_file = Path(__file__).parent / "data" / "master" / "stocks_master.json"
+    data_file = Path(__file__).parent / "data" / "stocks" / "stocks_master.json"
     with open(data_file, 'r', encoding='utf-8') as f:
         data = json.load(f)
 
