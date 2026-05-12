@@ -1,0 +1,1777 @@
+{
+  "last_updated": "2026-05-12T16:00:00+08:00",
+  "stocks": {
+    "600330": {
+      "name": "天通股份",
+      "code": "600330",
+      "board": "沪市主板",
+      "industry": "电子 - 电子化学品 - 电子陶瓷材料",
+      "products": [
+        "铌酸锂晶体",
+        "铌酸锂衬底",
+        "软磁材料",
+        "压电材料",
+        "电子元器件"
+      ],
+      "core_business": [
+        "铌酸锂晶体/衬底研发生产",
+        "高端电子材料综合解决方案"
+      ],
+      "chain": [
+        "上游 - 晶体材料"
+      ],
+      "partners": [
+        "薄膜铌酸锂调制器厂商"
+      ],
+      "articles": [
+        {
+          "title": "磷化铟 + 薄膜铌酸锂，最核心的 10 家公司和产业链梳理（附名单）",
+          "date": "2026-04-22",
+          "source": "https://mp.weixin.qq.com/s/iwAXjWsqrAvslX2xyHeElQ",
+          "accidents": [
+            "磷化铟与薄膜铌酸锂是 AI 光通信升级的两大核心材料",
+            "800G/1.6T 光模块技术迭代加速"
+          ],
+          "insights": [
+            "国内唯一实现 8 英寸超大尺寸铌酸锂衬底量产的厂商",
+            "全球市占率领先，是 TFLN 技术路线上游核心壁垒企业"
+          ],
+          "key_metrics": [
+            "8 英寸超大尺寸铌酸锂衬底",
+            "全球市占率领先"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-04-22"
+    },
+    "300620": {
+      "name": "光库科技",
+      "code": "300620",
+      "board": "创业板",
+      "industry": "电子 - 光学光电子 - 光通信器件",
+      "products": [
+        "光纤器件",
+        "光无源器件",
+        "高速光模块组件",
+        "薄膜铌酸锂调制器"
+      ],
+      "core_business": [
+        "光通信核心器件制造",
+        "薄膜铌酸锂调制器商用化量产"
+      ],
+      "chain": [
+        "中游 - 调制器制造"
+      ],
+      "partners": [
+        "高速光模块厂商"
+      ],
+      "articles": [
+        {
+          "title": "磷化铟 + 薄膜铌酸锂，最核心的 10 家公司和产业链梳理（附名单）",
+          "date": "2026-04-22",
+          "source": "https://mp.weixin.qq.com/s/iwAXjWsqrAvslX2xyHeElQ",
+          "accidents": [
+            "1.6T/800G 光模块替换需求增长"
+          ],
+          "insights": [
+            "国内首家实现薄膜铌酸锂调制器商用化量产的企业",
+            "掌握质子交换核心技术",
+            "产品性能对标海外巨头，打破国外垄断",
+            "高速光模块核心器件环节的绝对龙头，技术壁垒极高"
+          ],
+          "key_metrics": [
+            "首家商用化量产",
+            "技术壁垒极高"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-04-22"
+    },
+    "002281": {
+      "name": "光迅科技",
+      "code": "002281",
+      "board": "深市主板",
+      "industry": "电子 - 光学光电子 - 光通信",
+      "products": [
+        "光电子器件",
+        "光模块",
+        "光芯片",
+        "光系统",
+        "磷化铟外延片",
+        "磷化铟芯片"
+      ],
+      "core_business": [
+        "光电子器件、光模块、光芯片及系统研发生产"
+      ],
+      "chain": [
+        "上游 - 光芯片",
+        "中游 - 光器件",
+        "下游 - 光模块"
+      ],
+      "partners": [
+        "光通信系统厂商"
+      ],
+      "articles": [
+        {
+          "title": "磷化铟 + 薄膜铌酸锂，最核心的 10 家公司和产业链梳理（附名单）",
+          "date": "2026-04-22",
+          "source": "https://mp.weixin.qq.com/s/iwAXjWsqrAvslX2xyHeElQ",
+          "accidents": [
+            "AI 算力网络提速",
+            "高速光芯片需求增长"
+          ],
+          "insights": [
+            "全产业链布局龙头",
+            "国内光器件 + 光模块 + 光芯片一体化能力最强的企业",
+            "光通信国家队级别的核心标的"
+          ],
+          "key_metrics": [
+            "全产业链布局",
+            "国家队级别"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-04-22"
+    },
+    "002428": {
+      "name": "云南锗业",
+      "code": "002428",
+      "board": "深市主板",
+      "industry": "有色金属 - 稀有金属 - 锗系列产品",
+      "products": [
+        "锗系列产品",
+        "磷化铟单晶",
+        "磷化铟衬底",
+        "红外光学材料"
+      ],
+      "core_business": [
+        "磷化铟衬底生产",
+        "锗系列产品研发生产"
+      ],
+      "chain": [
+        "上游 - 衬底材料"
+      ],
+      "partners": [
+        "光通信芯片厂商",
+        "射频芯片厂商"
+      ],
+      "articles": [
+        {
+          "title": "磷化铟 + 薄膜铌酸锂，最核心的 10 家公司和产业链梳理（附名单）",
+          "date": "2026-04-22",
+          "source": "https://mp.weixin.qq.com/s/iwAXjWsqrAvslX2xyHeElQ",
+          "accidents": [
+            "光通信、射频芯片需求增长"
+          ],
+          "insights": [
+            "磷化铟衬底绝对龙头",
+            "控股子公司鑫耀半导体是国内最大的磷化铟衬底生产商",
+            "拥有国内产能规模最大、良率领先的磷化铟衬底产线",
+            "在高端磷化铟材料领域具备国产替代核心地位"
+          ],
+          "key_metrics": [
+            "国内产能规模最大",
+            "良率领先"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-04-22"
+    },
+    "600703": {
+      "name": "三安光电",
+      "code": "600703",
+      "board": "沪市主板",
+      "industry": "电子 - 半导体 - 化合物半导体",
+      "products": [
+        "化合物半导体",
+        "LED 芯片",
+        "第三代半导体材料",
+        "磷化铟外延片"
+      ],
+      "core_business": [
+        "化合物半导体研发生产",
+        "磷化铟外延片制造"
+      ],
+      "chain": [
+        "上游 - 外延片"
+      ],
+      "partners": [
+        "高速光芯片厂商"
+      ],
+      "articles": [
+        {
+          "title": "磷化铟 + 薄膜铌酸锂，最核心的 10 家公司和产业链梳理（附名单）",
+          "date": "2026-04-22",
+          "source": "https://mp.weixin.qq.com/s/iwAXjWsqrAvslX2xyHeElQ",
+          "accidents": [
+            "高速光芯片需求增长"
+          ],
+          "insights": [
+            "国内磷化铟外延片龙头",
+            "国内少数实现磷化铟外延片大规模量产的厂商",
+            "拥有国内领先的磷化铟外延片产线",
+            "国产高速光芯片上游环节的核心支撑企业"
+          ],
+          "key_metrics": [
+            "月产能 6000 片",
+            "大规模量产"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-04-22"
+    },
+    "600206": {
+      "name": "有研新材",
+      "code": "600206",
+      "board": "沪市主板",
+      "industry": "有色金属 - 稀有金属 - 光电材料",
+      "products": [
+        "稀土功能材料",
+        "光电材料",
+        "半导体材料",
+        "磷化铟衬底"
+      ],
+      "core_business": [
+        "磷化铟衬底生产",
+        "电子信息材料研发"
+      ],
+      "chain": [
+        "上游 - 衬底材料"
+      ],
+      "partners": [
+        "半导体芯片厂商"
+      ],
+      "articles": [
+        {
+          "title": "磷化铟 + 薄膜铌酸锂，最核心的 10 家公司和产业链梳理（附名单）",
+          "date": "2026-04-22",
+          "source": "https://mp.weixin.qq.com/s/iwAXjWsqrAvslX2xyHeElQ",
+          "accidents": [
+            "国产替代进程加速"
+          ],
+          "insights": [
+            "国内磷化铟衬底第二大厂商",
+            "在半导体材料领域拥有深厚技术积累",
+            "磷化铟衬底技术成熟",
+            "国内少数具备规模化供应能力的企业之一"
+          ],
+          "key_metrics": [
+            "4 英寸产能 2 万片/年",
+            "第二大厂商"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-04-22"
+    },
+    "688498": {
+      "name": "源杰科技",
+      "code": "688498",
+      "board": "科创板",
+      "industry": "电子 - 半导体 - 光芯片",
+      "products": [
+        "高速光芯片",
+        "激光器芯片",
+        "EML 激光器芯片"
+      ],
+      "core_business": [
+        "高速光芯片、激光器芯片研发生产和销售"
+      ],
+      "chain": [
+        "上游 - 光芯片"
+      ],
+      "partners": [
+        "光模块厂商"
+      ],
+      "articles": [
+        {
+          "title": "磷化铟 + 薄膜铌酸锂，最核心的 10 家公司和产业链梳理（附名单）",
+          "date": "2026-04-22",
+          "source": "https://mp.weixin.qq.com/s/iwAXjWsqrAvslX2xyHeElQ",
+          "accidents": [
+            "AI 算力光模块需求增长"
+          ],
+          "insights": [
+            "磷化铟光芯片龙头",
+            "国内高速 EML 激光器芯片的核心供应商",
+            "依托磷化铟外延片技术",
+            "国产高速光芯片的标杆企业",
+            "打破海外技术垄断"
+          ],
+          "key_metrics": [
+            "高速 EML 芯片规模化量产",
+            "少数实现规模化量产"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-04-22"
+    },
+    "000960": {
+      "name": "锡业股份",
+      "code": "000960",
+      "board": "深市主板",
+      "industry": "有色金属 - 稀有金属 - 铟资源",
+      "products": [
+        "锡",
+        "铜",
+        "铟",
+        "磷化铟原料"
+      ],
+      "core_business": [
+        "有色金属勘探、开采、冶炼和深加工"
+      ],
+      "chain": [
+        "上游 - 铟资源"
+      ],
+      "partners": [
+        "磷化铟材料生产商"
+      ],
+      "articles": [
+        {
+          "title": "磷化铟 + 薄膜铌酸锂，最核心的 10 家公司和产业链梳理（附名单）",
+          "date": "2026-04-22",
+          "source": "https://mp.weixin.qq.com/s/iwAXjWsqrAvslX2xyHeElQ",
+          "accidents": [
+            "磷化铟产业链需求增长"
+          ],
+          "insights": [
+            "全球铟资源核心供应商",
+            "铟产能规模位居行业前列",
+            "为磷化铟材料生产提供关键的上游铟原料支撑",
+            "全球锡产品市占率领先",
+            "铟资源储备丰富"
+          ],
+          "key_metrics": [
+            "全球铟资源核心供应商",
+            "铟产能规模行业前列"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-04-22"
+    },
+    "002023": {
+      "name": "海特高新",
+      "code": "002023",
+      "board": "深市主板",
+      "industry": "国防军工 - 航空装备 - 半导体",
+      "products": [
+        "航空技术服务",
+        "高端芯片",
+        "第三代半导体材料",
+        "磷化铟微波毫米波芯片"
+      ],
+      "core_business": [
+        "航空工程技术服务",
+        "高端芯片研发生产",
+        "第三代半导体材料制造"
+      ],
+      "chain": [
+        "中游 - 微波芯片"
+      ],
+      "partners": [
+        "通信厂商",
+        "雷达厂商"
+      ],
+      "articles": [
+        {
+          "title": "磷化铟 + 薄膜铌酸锂，最核心的 10 家公司和产业链梳理（附名单）",
+          "date": "2026-04-22",
+          "source": "https://mp.weixin.qq.com/s/iwAXjWsqrAvslX2xyHeElQ",
+          "accidents": [
+            "通信、雷达领域需求增长"
+          ],
+          "insights": [
+            "布局磷化铟微波毫米波芯片研发与生产",
+            "产品可应用于通信、雷达等领域",
+            "掌握磷化铟芯片的核心制造工艺",
+            "在航空与半导体双赛道布局",
+            "磷化铟芯片技术具备军工与民用双重应用场景"
+          ],
+          "key_metrics": [
+            "军工 + 民用双重应用",
+            "技术壁垒高"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-04-22"
+    },
+    "002975": {
+      "name": "博杰股份",
+      "code": "002975",
+      "board": "深市主板",
+      "industry": "机械设备 - 专用设备 - 检测设备",
+      "products": [
+        "工业自动化设备",
+        "测试治具",
+        "自动化测试设备"
+      ],
+      "core_business": [
+        "智能制造检测",
+        "自动化测试设备研发生产"
+      ],
+      "chain": [
+        "中游 - 检测设备"
+      ],
+      "partners": [
+        "薄膜铌酸锂调制器厂商",
+        "磷化铟光芯片厂商",
+        "光模块厂商"
+      ],
+      "articles": [
+        {
+          "title": "磷化铟 + 薄膜铌酸锂，最核心的 10 家公司和产业链梳理（附名单）",
+          "date": "2026-04-22",
+          "source": "https://mp.weixin.qq.com/s/iwAXjWsqrAvslX2xyHeElQ",
+          "accidents": [
+            "光通信核心器件/芯片生产需求增长"
+          ],
+          "insights": [
+            "为薄膜铌酸锂调制器、磷化铟光芯片及光模块厂商提供自动化测试设备与解决方案",
+            "是光通信核心器件/芯片生产的配套检测设备龙头",
+            "客户覆盖多家光通信头部企业",
+            "深度绑定产业链上下游需求"
+          ],
+          "key_metrics": [
+            "配套检测设备龙头",
+            "客户覆盖多家头部企业"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-04-22"
+    },
+    "002938": {
+      "name": "鹏鼎控股",
+      "code": "002938",
+      "board": "深市主板",
+      "industry": "电子 - 电子元件 - PCB",
+      "products": [
+        "mSAP PCB",
+        "SLP 类载板",
+        "光纤器件",
+        "光模块组件"
+      ],
+      "core_business": [
+        "mSAP PCB 生产",
+        "苹果 SLP 供应"
+      ],
+      "chain": [
+        "中游 - PCB 制造"
+      ],
+      "partners": [
+        "苹果公司",
+        "800G 及以上光模块厂商"
+      ],
+      "articles": [
+        {
+          "title": "光模块上游之 mSAP PCB",
+          "date": "2026-04-23",
+          "source": "https://mp.weixin.qq.com/s/CcHUNnvTg7g9YmcloBIwdw",
+          "accidents": [
+            "800G 光模块需求增长",
+            "1.6T/3.2T/NPO 光模块技术升级",
+            "mSAP 扩产需求凸显"
+          ],
+          "insights": [
+            "mSAP 技术最领先厂商之一",
+            "苹果 SLP 核心供应商",
+            "泰国工厂为唯一扩产 mSAP 产能的供应商",
+            "专供 800G 及以上光模块"
+          ],
+          "key_metrics": [
+            "深圳规划 100 亿 + 投资扩产 mSAP",
+            "2025 年光模块收入预计倍增"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-04-23"
+    },
+    "002916": {
+      "name": "深南电路",
+      "code": "002916",
+      "board": "深市主板",
+      "industry": "电子 - 电子元件 - PCB",
+      "products": [
+        "mSAP PCB",
+        "1.6T 光模块 PCB",
+        "IC 载板"
+      ],
+      "core_business": [
+        "高端 PCB 研发生产",
+        "光模块 PCB 供应"
+      ],
+      "chain": [
+        "中游 - PCB 制造"
+      ],
+      "partners": [
+        "光模块龙头厂商"
+      ],
+      "articles": [
+        {
+          "title": "光模块上游之 mSAP PCB",
+          "date": "2026-04-23",
+          "source": "https://mp.weixin.qq.com/s/CcHUNnvTg7g9YmcloBIwdw",
+          "accidents": [
+            "1.6T 光模块需求增长",
+            "AI 服务器需求增长"
+          ],
+          "insights": [
+            "1.6T 光模块 PCB 最大供应商",
+            "牵头发布光模块 PCB 行业标准"
+          ],
+          "key_metrics": [
+            "南通厂 mSAP 产能 660k 平/年",
+            "泰国厂已量产"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-04-23"
+    },
+    "300476": {
+      "name": "胜宏科技",
+      "code": "300476",
+      "board": "创业板",
+      "industry": "电子 - 电子元件 - PCB",
+      "products": [
+        "mSAP PCB",
+        "6 层 mSAP"
+      ],
+      "core_business": [
+        "mSAP PCB 生产"
+      ],
+      "chain": [
+        "中游 - PCB 制造"
+      ],
+      "partners": [
+        "光模块厂商"
+      ],
+      "articles": [
+        {
+          "title": "光模块上游之 mSAP PCB",
+          "date": "2026-04-23",
+          "source": "https://mp.weixin.qq.com/s/CcHUNnvTg7g9YmcloBIwdw",
+          "accidents": [
+            "800G 及以上光模块需求增长"
+          ],
+          "insights": [
+            "惠州四厂 6 层 mSAP 设备就绪",
+            "越南、泰国基地扩产 mSAP"
+          ],
+          "key_metrics": [
+            "惠州四厂年产值预计 15 亿+",
+            "2026 年资本开支 180 亿",
+            "目标 2030 年千亿产值"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-04-23"
+    },
+    "002436": {
+      "name": "兴森科技",
+      "code": "002436",
+      "board": "深市主板",
+      "industry": "电子 - 电子元件 - IC 载板",
+      "products": [
+        "IC 载板",
+        "mSAP 载板"
+      ],
+      "core_business": [
+        "IC 载板研发生产"
+      ],
+      "chain": [
+        "中游 - 载板制造"
+      ],
+      "partners": [
+        "CoWoP 厂商"
+      ],
+      "articles": [
+        {
+          "title": "光模块上游之 mSAP PCB",
+          "date": "2026-04-23",
+          "source": "https://mp.weixin.qq.com/s/CcHUNnvTg7g9YmcloBIwdw",
+          "accidents": [
+            "先进封装需求增长"
+          ],
+          "insights": [
+            "深耕 IC 载板",
+            "2025 年 7 月起深度参与 CoWoP 研发",
+            "mSAP 工艺积累深厚"
+          ],
+          "key_metrics": [
+            "深度参与 CoWoP 研发"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-04-23"
+    },
+    "002463": {
+      "name": "沪电股份",
+      "code": "002463",
+      "board": "深市主板",
+      "industry": "电子 - 电子元件 - PCB",
+      "products": [
+        "PCB 载板",
+        "mSAP PCB"
+      ],
+      "core_business": [
+        "PCB 载板化",
+        "AI 服务器 PCB"
+      ],
+      "chain": [
+        "中游 - PCB 制造"
+      ],
+      "partners": [
+        "AI 服务器厂商"
+      ],
+      "articles": [
+        {
+          "title": "光模块上游之 mSAP PCB",
+          "date": "2026-04-23",
+          "source": "https://mp.weixin.qq.com/s/CcHUNnvTg7g9YmcloBIwdw",
+          "accidents": [
+            "AI 需求增长",
+            "PCB 载板化趋势"
+          ],
+          "insights": [
+            "新增 3 亿美金 capex 定向投入 PCB 载板化/mSAP 方向"
+          ],
+          "key_metrics": [
+            "新增 3 亿美金 capex",
+            "泰国、越南基地扩产"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-04-23"
+    },
+    "688655": {
+      "name": "迅捷兴",
+      "code": "688655",
+      "board": "科创板",
+      "industry": "电子 - 电子元件 - PCB",
+      "products": [
+        "mSAP PCB",
+        "400G PCB",
+        "800G PCB"
+      ],
+      "core_business": [
+        "mSAP PCB 研发生产"
+      ],
+      "chain": [
+        "中游 - PCB 制造"
+      ],
+      "partners": [
+        "富士康",
+        "鸿腾精密",
+        "英伟达"
+      ],
+      "articles": [
+        {
+          "title": "光模块上游之 mSAP PCB",
+          "date": "2026-04-23",
+          "source": "https://mp.weixin.qq.com/s/CcHUNnvTg7g9YmcloBIwdw",
+          "accidents": [
+            "400G/800G 产品需求增长"
+          ],
+          "insights": [
+            "mSAP 工艺获富士康批量订单",
+            "供应鸿腾精密",
+            "引入台湾团队研发 RCC 材料替代 mSAP",
+            "已向英伟达汇报"
+          ],
+          "key_metrics": [
+            "400G/800G 产品已出货"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-04-23"
+    },
+    "688183": {
+      "name": "生益电子",
+      "code": "688183",
+      "board": "科创板",
+      "industry": "电子 - 电子元件 - PCB",
+      "products": [
+        "mSAP PCB",
+        "1.6T 光模块 PCB"
+      ],
+      "core_business": [
+        "高端 PCB 研发生产"
+      ],
+      "chain": [
+        "中游 - PCB 制造"
+      ],
+      "partners": [
+        "光模块厂商"
+      ],
+      "articles": [
+        {
+          "title": "光模块上游之 mSAP PCB",
+          "date": "2026-04-23",
+          "source": "https://mp.weixin.qq.com/s/CcHUNnvTg7g9YmcloBIwdw",
+          "accidents": [
+            "1.6T 光模块需求增长"
+          ],
+          "insights": [
+            "泰国厂新建 mSAP 厂房"
+          ],
+          "key_metrics": [
+            "1.6T 光模块产能 10k 平/月",
+            "2026 年 6 月量产"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-04-23"
+    },
+    "603225": {
+      "name": "景旺电子",
+      "code": "603225",
+      "board": "沪市主板",
+      "industry": "电子 - 电子元件 - PCB",
+      "products": [
+        "mSAP PCB",
+        "SLP",
+        "HDI 后板",
+        "AI PCB"
+      ],
+      "core_business": [
+        "高端 PCB 研发生产",
+        "AI 服务器 PCB"
+      ],
+      "chain": [
+        "中游 - PCB 制造"
+      ],
+      "partners": [
+        "算力客户",
+        "800G/1.6T 光模块厂商",
+        "AI 服务器厂商"
+      ],
+      "articles": [
+        {
+          "title": "光模块上游之 mSAP PCB",
+          "date": "2026-04-23",
+          "source": "https://mp.weixin.qq.com/s/CcHUNnvTg7g9YmcloBIwdw",
+          "accidents": [
+            "800G/1.6T 光模块需求增长",
+            "AI 服务器需求增长"
+          ],
+          "insights": [
+            "珠海高端产能投资 50 亿",
+            "7 亿 + 用于升级 HDI 后板 mSAP 相关能力",
+            "SLP 工厂 4 楼已布局 mSAP 设备",
+            "珠海金湾工厂正加速算力客户验证",
+            "泰国工厂已投产",
+            "规划 mSAP 产能适配 800G/1.6T 光模块、AI 服务器等海外客户需求"
+          ],
+          "key_metrics": [
+            "2025 年底逐步满产",
+            "2026 年具备 80 亿+AI PCB 产值能力",
+            "扩产完成后理论年产值可达 250 亿+"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-04-23"
+    },
+    "600589": {
+      "name": "大位科技",
+      "code": "600589",
+      "board": "沪市主板",
+      "industry": "计算机 - 算力服务 - AIDC",
+      "products": [
+        "AIDC",
+        "token 工厂",
+        "算力租赁"
+      ],
+      "core_business": [
+        "AIDC 运营",
+        "token 工厂",
+        "算力租赁"
+      ],
+      "chain": [
+        "中游 - 算力服务"
+      ],
+      "partners": [
+        "大厂",
+        "ZJ 客户"
+      ],
+      "articles": [
+        {
+          "title": "大位科技，3 倍空间？",
+          "date": "2026-05-11",
+          "source": "https://mp.weixin.qq.com/s/kad7FzhEW_MI7rl2I_2G7g",
+          "accidents": [
+            "ZJ 中期招标在即",
+            "2026 年初 ZJ 招标 1GW",
+            "年度开支上调 20%",
+            "工信部算电协同最新政策显示存量绿电和土地资源更加稀缺"
+          ],
+          "insights": [
+            "ZJ 核心标的，弹性空间显著",
+            "Q2 上架率爬坡非常显著，拐点会非常明显",
+            "太仆寺旗项目进展或大超预期",
+            "该项目近期或大超预期，很快进入落地阶段",
+            "子公司森华易腾最新上线 token 工厂，积极合作大厂，已有订单商机",
+            "token 分润模式跑通",
+            "短期看翻倍，中期看三倍"
+          ],
+          "key_metrics": [
+            "现有张北 ZJ 项目在运 60mw",
+            "新增 108MW（在建 60MW+ 规划 40MW）",
+            "内蒙节点项目规划 1GW 算力+800MW 源网荷储",
+            "存量 AIDC 168mw 对应当前 180e 市值",
+            "增量 AIDC 数百 MW 增厚 300e 市值",
+            "token 工厂 50e",
+            "算租 50e"
+          ],
+          "target_valuation": [
+            "短期看翻倍，中期看三倍",
+            "存量 AIDC+ 增量 AIDC+token 工厂 + 算租合计约 580e 市值空间"
+          ]
+        }
+      ],
+      "last_updated": "2026-05-11"
+    },
+    "688008": {
+      "name": "澜起科技",
+      "code": "688008",
+      "board": "科创板",
+      "industry": "电子 - 半导体 - 内存接口芯片",
+      "products": [
+        "内存接口芯片",
+        "MRDIMM",
+        "RCD",
+        "MRCD",
+        "MDB",
+        "CXL 芯片"
+      ],
+      "core_business": [
+        "内存接口芯片研发生产"
+      ],
+      "chain": [
+        "上游 - 芯片"
+      ],
+      "partners": [
+        "服务器 CPU 厂商",
+        "云厂商"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理 5.11",
+          "date": "2026-05-11",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "服务器 CPU 需求持续增长",
+            "AI 服务器高增长",
+            "通用服务器需求同步回暖",
+            "服务器 CPU 订单延续性较强",
+            "Agent 时代 CPU:GPU 配比从 1:8 迈向 1:1",
+            "长上下文引爆内存墙"
+          ],
+          "insights": [
+            "处于内存接口芯片核心环节",
+            "主业受益服务器 CPU 需求持续增长",
+            "新一代产品逐步进入放量阶段",
+            "业绩进入结构性上行周期",
+            "随着推理、多任务调度等场景占比提升，算力结构由 GPU 主导逐步向 CPU+GPU 协同演进",
+            "CPU 参与度提升带动内存访问频率与带宽需求同步上行",
+            "内存带宽逐步成为系统约束，推动 MRDIMM 从可选升级逐步转为主流配置",
+            "公司同时具备 MRCD 与 MDB 能力，可提供整套解决方案",
+            "市占率有望由约三成提升至 40%–50% 区间",
+            "MRCD 与 MDB 盈利能力高于传统 RCD",
+            "CXL 主要用于内存池化与扩展，解决容量问题",
+            "公司在控制芯片环节具备先发优势"
+          ],
+          "key_metrics": [
+            "传统 RCD 约 7–10 美元",
+            "第一代 MRDIMM 约 75 美元",
+            "第二代提升至约 100 美元以上",
+            "当前 MRDIMM 渗透率仍处低个位数",
+            "预计 27 年进入起量阶段，并逐步向 15%–25% 提升",
+            "CXL 单颗芯片价值量约百美元级别"
+          ],
+          "target_valuation": [
+            "短期看：服务器 CPU 需求向好，主业保持增长",
+            "中期看：MRDIMM 进入起量阶段，带动价值量与份额提升",
+            "长期看：CXL 及相关新品逐步落地，打开新增空间"
+          ]
+        }
+      ],
+      "last_updated": "2026-05-11"
+    },
+    "688041": {
+      "name": "海光信息",
+      "code": "688041",
+      "board": "科创板",
+      "industry": "电子 - 半导体 - CPU",
+      "products": [
+        "CPU"
+      ],
+      "core_business": [
+        "国产 CPU 研发生产"
+      ],
+      "chain": [
+        "上游 - CPU"
+      ],
+      "partners": [
+        "服务器厂商"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理 5.11",
+          "date": "2026-05-11",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "CPU 需求大增",
+            "Intel 美股新高",
+            "CPU 涨价潮确认景气反转",
+            "Agent 时代 CPU:GPU 配比提升",
+            "长上下文引爆内存墙"
+          ],
+          "insights": [
+            "国产 CPU 龙头",
+            "CPU 作为下一个存储受益者",
+            "GPU 配比下降，内存拓展，CPU 需求大增"
+          ],
+          "key_metrics": [
+            "CPU 交货周期最长可达 12 周",
+            "行业经历多轮提价",
+            "供需缺口预计持续至 2027 年"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-11"
+    },
+    "603019": {
+      "name": "中科曙光",
+      "code": "603019",
+      "board": "沪市主板",
+      "industry": "计算机 - 服务器",
+      "products": [
+        "服务器"
+      ],
+      "core_business": [
+        "服务器研发生产"
+      ],
+      "chain": [
+        "下游 - 服务器"
+      ],
+      "partners": [
+        "CPU 厂商"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理 5.11",
+          "date": "2026-05-11",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "服务器 CPU 需求增长"
+          ],
+          "insights": [
+            "CPU 需求大增受益"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-11"
+    },
+    "688047": {
+      "name": "龙芯中科",
+      "code": "688047",
+      "board": "科创板",
+      "industry": "电子 - 半导体 - CPU",
+      "products": [
+        "CPU"
+      ],
+      "core_business": [
+        "国产 CPU 研发生产"
+      ],
+      "chain": [
+        "上游 - CPU"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理 5.11",
+          "date": "2026-05-11",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "国产替代需求"
+          ],
+          "insights": [
+            "国产 CPU 自主可控"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-11"
+    },
+    "002290": {
+      "name": "禾盛新材",
+      "code": "002290",
+      "board": "深市主板",
+      "industry": "轻工制造 - CPU 产业链",
+      "products": [],
+      "core_business": [],
+      "chain": [
+        "CPU 产业链"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理 5.11",
+          "date": "2026-05-11",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "CPU 产业链相关"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-11"
+    },
+    "000066": {
+      "name": "中国长城",
+      "code": "000066",
+      "board": "深市主板",
+      "industry": "计算机 - 国产计算",
+      "products": [
+        "CPU",
+        "计算设备"
+      ],
+      "core_business": [
+        "国产计算产业"
+      ],
+      "chain": [
+        "中游 - 计算设备"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理 5.11",
+          "date": "2026-05-11",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "国产替代需求"
+          ],
+          "insights": [
+            "国产计算产业"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-11"
+    },
+    "300454": {
+      "name": "深信服",
+      "code": "300454",
+      "board": "创业板",
+      "industry": "计算机 - 软件 - AI 超融合",
+      "products": [
+        "AI 超融合",
+        "超融合",
+        "CPU 虚拟化"
+      ],
+      "core_business": [
+        "超融合&CPU 虚拟化",
+        "AI 超融合研发"
+      ],
+      "chain": [
+        "中游 - 软件"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理 5.11",
+          "date": "2026-05-11",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "存储和 GPU 降本需求"
+          ],
+          "insights": [
+            "AI 超融合能够 gpu 硬件降本 80%",
+            "存储单台成本硬件降本 7 万（50%）",
+            "逻辑未被市场认识",
+            "公司主业超融合&cpu 虚拟化，就是当年为了 cpu 降本，诞生的一个国内小 300e 的市场，公司一年干到 40e 收入",
+            "现在轮到存储和 gpu 降本了，又回新增一个 1000e 以上的市场"
+          ],
+          "key_metrics": [
+            "gpu 硬件降本 80%",
+            "存储单台成本硬件降本 7 万（50%）",
+            "国内小 300e 的市场",
+            "一年干到 40e 收入",
+            "新增一个 1000e 以上的市场"
+          ],
+          "target_valuation": [
+            "新增 1000e+市场空间"
+          ]
+        }
+      ],
+      "last_updated": "2026-05-11"
+    },
+    "688258": {
+      "name": "卓易信息",
+      "code": "688258",
+      "board": "科创板",
+      "industry": "计算机 - 软件 - BIOS/BMC",
+      "products": [
+        "BIOS",
+        "BMC",
+        "固件"
+      ],
+      "core_business": [
+        "BIOS/BMC 固件研发"
+      ],
+      "chain": [
+        "上游 - 固件"
+      ],
+      "partners": [
+        "英特尔"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理 5.11",
+          "date": "2026-05-11",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "英特尔 X86 架构需求"
+          ],
+          "insights": [
+            "英特尔 X86 架构 BIOS/BMC 授权厂商",
+            "全球技术服务商"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-11"
+    },
+    "000938": {
+      "name": "紫光股份",
+      "code": "000938",
+      "board": "深市主板",
+      "industry": "计算机 - 服务器",
+      "products": [
+        "服务器"
+      ],
+      "core_business": [
+        "服务器研发生产"
+      ],
+      "chain": [
+        "下游 - 服务器"
+      ],
+      "partners": [
+        "新华三",
+        "英特尔"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理 5.11",
+          "date": "2026-05-11",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "至强平台服务器需求"
+          ],
+          "insights": [
+            "旗下新华三为英特尔全球战略生态伙伴",
+            "联合发布至强平台服务器"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-11"
+    },
+    "600584": {
+      "name": "长电科技",
+      "code": "600584",
+      "board": "沪市主板",
+      "industry": "电子 - 半导体 - 封测",
+      "products": [
+        "Fan-Out",
+        "SiP",
+        "先进封装"
+      ],
+      "core_business": [
+        "半导体封测"
+      ],
+      "chain": [
+        "中游 - 封测"
+      ],
+      "partners": [
+        "英特尔"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理 5.11",
+          "date": "2026-05-11",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "至强处理器多芯片集成需求"
+          ],
+          "insights": [
+            "提供 Fan-Out、SiP 先进封装",
+            "参与至强处理器多芯片集成方案"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-11"
+    },
+    "002156": {
+      "name": "通富微电",
+      "code": "002156",
+      "board": "深市主板",
+      "industry": "电子 - 半导体 - 封测",
+      "products": [
+        "CPU 封测",
+        "AI 芯片封测"
+      ],
+      "core_business": [
+        "半导体封测"
+      ],
+      "chain": [
+        "中游 - 封测"
+      ],
+      "partners": [
+        "英特尔"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理 5.11",
+          "date": "2026-05-11",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "英特尔 CPU/AI 芯片需求"
+          ],
+          "insights": [
+            "承接英特尔 CPU/AI 芯片封测订单"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-11"
+    },
+    "688019": {
+      "name": "安集科技",
+      "code": "688019",
+      "board": "科创板",
+      "industry": "电子 - 半导体材料 - 抛光液",
+      "products": [
+        "抛光液",
+        "CMP 抛光液"
+      ],
+      "core_business": [
+        "半导体抛光液研发生产"
+      ],
+      "chain": [
+        "上游 - 材料"
+      ],
+      "partners": [
+        "英特尔"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理 5.11",
+          "date": "2026-05-11",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "英特尔 14nm/18A 认证"
+          ],
+          "insights": [
+            "抛光液通过英特尔 14nm/18A 认证"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-11"
+    },
+    "002409": {
+      "name": "雅克科技",
+      "code": "002409",
+      "board": "深市主板",
+      "industry": "电子 - 半导体材料 - 前驱体",
+      "products": [
+        "前驱体材料"
+      ],
+      "core_business": [
+        "半导体前驱体材料研发生产"
+      ],
+      "chain": [
+        "上游 - 材料"
+      ],
+      "partners": [
+        "英特尔"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理 5.11",
+          "date": "2026-05-11",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "英特尔先进制程需求"
+          ],
+          "insights": [
+            "前驱体材料供应英特尔先进制程"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-11"
+    },
+    "002475": {
+      "name": "立讯精密",
+      "code": "002475",
+      "board": "深市主板",
+      "industry": "电子 - 消费电子 - 连接器",
+      "products": [
+        "连接器",
+        "液冷系统",
+        "数据中心电源"
+      ],
+      "core_business": [
+        "连接器、液冷系统、电源研发生产"
+      ],
+      "chain": [
+        "中游 - 零部件"
+      ],
+      "partners": [
+        "英特尔"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理 5.11",
+          "date": "2026-05-11",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "英特尔 3% 战略入股"
+          ],
+          "insights": [
+            "子公司获英特尔 3% 战略入股",
+            "数据中心电源独家供应商",
+            "供连接器/液冷系统"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-11"
+    },
+    "688629": {
+      "name": "安孚科技",
+      "code": "688629",
+      "board": "科创板",
+      "industry": "电子 - 光学光电子 - 薄膜铌酸锂",
+      "products": [
+        "薄膜铌酸锂",
+        "硅光异质键合调制器"
+      ],
+      "core_business": [
+        "薄膜铌酸锂 + 硅光异质键合调制器研发"
+      ],
+      "chain": [
+        "中游 - 调制器"
+      ],
+      "partners": [
+        "东山精密",
+        "索尔思"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理 5.11",
+          "date": "2026-05-11",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "OCS 应用潜力",
+            "3.2T 光模块需求"
+          ],
+          "insights": [
+            "子公司易缆微是国内薄膜铌酸锂 + 硅光异质键合调制器国内龙头",
+            "首创'die to Wafer'方案",
+            "单波 400G 调制器和 OCS 方案已经推出",
+            "与东山精密为同一实控人",
+            "有望与索尔思实现深入合作"
+          ],
+          "key_metrics": [
+            "单波 400G 调制器",
+            "OCS 方案"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-11"
+    },
+    "002384": {
+      "name": "东山精密",
+      "code": "002384",
+      "board": "深市主板",
+      "industry": "电子 - 电子元件",
+      "products": [],
+      "core_business": [],
+      "chain": [],
+      "partners": [
+        "安孚科技"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理 5.11",
+          "date": "2026-05-11",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "与安孚科技为同一实控人"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-11"
+    },
+    "688652": {
+      "name": "京科威",
+      "code": "688652",
+      "board": "科创板",
+      "industry": "电子 - 半导体设备 - 探针台",
+      "products": [
+        "探针台",
+        "晶圆探针台",
+        "晶粒探针台"
+      ],
+      "core_business": [
+        "探针台研发生产"
+      ],
+      "chain": [
+        "上游 - 设备"
+      ],
+      "partners": [
+        "NPO 厂商"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理 5.11",
+          "date": "2026-05-11",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "CSP 新增 1200 万只 NPO 订单",
+            "NPO 产线建设"
+          ],
+          "insights": [
+            "国产探针台龙头",
+            "NPO150 亿 Capex 隐藏铲子",
+            "矽电探针台已切入 NPO 产线",
+            "去日化份额提升逻辑清晰",
+            "交期仅 3-6 个月",
+            "价格仅为进口产品的 70%"
+          ],
+          "key_metrics": [
+            "25 套首批订单",
+            "600 万只 NPO 对应约 800 套探针台",
+            "单套均价约 300 万",
+            "对应约 24 亿订单空间"
+          ],
+          "target_valuation": [
+            "10 倍 PS 对应 240 亿市值增量"
+          ]
+        }
+      ],
+      "last_updated": "2026-05-11"
+    },
+    "688535": {
+      "name": "华海诚科",
+      "code": "688535",
+      "board": "科创板",
+      "industry": "电子 - 半导体材料 - 封装材料",
+      "products": [
+        "封装材料",
+        "GMC",
+        "LMC"
+      ],
+      "core_business": [
+        "半导体封装材料研发生产"
+      ],
+      "chain": [
+        "上游 - 材料"
+      ],
+      "partners": [
+        "HBM 厂商"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理 5.11",
+          "date": "2026-05-11",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "HBM 产能排至 2027 年",
+            "存储供给紧张"
+          ],
+          "insights": [
+            "HBM 核心材料供应商"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-11"
+    },
+    "688003": {
+      "name": "天准科技",
+      "code": "688003",
+      "board": "科创板",
+      "industry": "机械设备 - 检测设备",
+      "products": [
+        "检测设备"
+      ],
+      "core_business": [
+        "检测设备研发生产"
+      ],
+      "chain": [
+        "中游 - 设备"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理 5.11",
+          "date": "2026-05-11",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-11"
+    },
+    "688100": {
+      "name": "凌志软件",
+      "code": "688100",
+      "board": "科创板",
+      "industry": "计算机 - 软件",
+      "products": [],
+      "core_business": [],
+      "chain": [],
+      "partners": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理 5.11",
+          "date": "2026-05-11",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-11"
+    },
+    "603283": {
+      "name": "赛腾股份",
+      "code": "603283",
+      "board": "沪市主板",
+      "industry": "机械设备 - 自动化设备",
+      "products": [
+        "自动化设备"
+      ],
+      "core_business": [
+        "自动化设备研发生产"
+      ],
+      "chain": [
+        "中游 - 设备"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理 5.11",
+          "date": "2026-05-11",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-11"
+    },
+    "688012": {
+      "name": "中微公司",
+      "code": "688012",
+      "board": "科创板",
+      "industry": "电子 - 半导体设备 - 刻蚀机",
+      "products": [
+        "刻蚀机",
+        "半导体设备"
+      ],
+      "core_business": [
+        "半导体设备研发生产"
+      ],
+      "chain": [
+        "上游 - 设备"
+      ],
+      "partners": [
+        "存储厂商"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理 5.11",
+          "date": "2026-05-11",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "存储厂商资本开支上行"
+          ],
+          "insights": [
+            "存储厂商资本开支上行，设备订单确定性高"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-11"
+    },
+    "688072": {
+      "name": "拓荆科技",
+      "code": "688072",
+      "board": "科创板",
+      "industry": "电子 - 半导体设备 - 薄膜沉积",
+      "products": [
+        "薄膜沉积设备",
+        "PECVD",
+        "ALD"
+      ],
+      "core_business": [
+        "半导体薄膜沉积设备研发生产"
+      ],
+      "chain": [
+        "上游 - 设备"
+      ],
+      "partners": [
+        "存储厂商"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理 5.11",
+          "date": "2026-05-11",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "存储厂商资本开支上行"
+          ],
+          "insights": [
+            "存储厂商资本开支上行，设备订单确定性高"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-11"
+    },
+    "002371": {
+      "name": "北方华创",
+      "code": "002371",
+      "board": "深市主板",
+      "industry": "电子 - 半导体设备",
+      "products": [
+        "半导体设备"
+      ],
+      "core_business": [
+        "半导体设备研发生产"
+      ],
+      "chain": [
+        "上游 - 设备"
+      ],
+      "partners": [
+        "存储厂商"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理 5.11",
+          "date": "2026-05-11",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "存储厂商资本开支上行"
+          ],
+          "insights": [
+            "存储厂商资本开支上行，设备订单确定性高"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-11"
+    },
+    "603650": {
+      "name": "彤程新材",
+      "code": "603650",
+      "board": "沪市主板",
+      "industry": "电子 - 半导体材料 - 光刻胶",
+      "products": [
+        "光刻胶",
+        "半导体材料"
+      ],
+      "core_business": [
+        "半导体材料研发生产"
+      ],
+      "chain": [
+        "上游 - 材料"
+      ],
+      "partners": [
+        "存储厂商"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理 5.11",
+          "date": "2026-05-11",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-11"
+    },
+    "002648": {
+      "name": "卫星化学",
+      "code": "002648",
+      "board": "深市主板",
+      "industry": "基础化工",
+      "products": [],
+      "core_business": [],
+      "chain": [],
+      "partners": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理 5.11",
+          "date": "2026-05-11",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-11"
+    }
+  }
+}
