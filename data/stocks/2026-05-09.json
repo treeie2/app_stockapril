@@ -1,0 +1,1177 @@
+{
+  "date": "2026-05-09",
+  "update_count": 23,
+  "stocks": {
+    "688250": {
+      "name": "盛科通信",
+      "code": "688250",
+      "board": "SH",
+      "industry": "电子 - 半导体 - 集成电路",
+      "concepts": [
+        "交换芯片",
+        "Scale-out",
+        "Scale-up",
+        "国产芯片"
+      ],
+      "products": [
+        "交换芯片"
+      ],
+      "core_business": [
+        "交换芯片研发与销售"
+      ],
+      "industry_position": [
+        "国产交换芯片龙头"
+      ],
+      "chain": [
+        "中游 - 芯片设计"
+      ],
+      "partners": [
+        "阿里巴巴",
+        "字节跳动",
+        "腾讯"
+      ],
+      "mention_count": 2,
+      "valuation": {
+        "target_market_cap": "2700 亿",
+        "target_market_cap_billion": 2700.0
+      },
+      "articles": [
+        {
+          "title": "今天的一些信息整理 5.7",
+          "date": "2026-05-09",
+          "source": "https://mp.weixin.qq.com/s/jU3eFc1irDolyJyLd6egyg",
+          "accidents": [
+            "二季度订单加速放量",
+            "阿里 3 万 +scale out 订单",
+            "字节 3 万颗框架订单"
+          ],
+          "insights": [
+            "MRC 协议影响有限，珍惜倒车接人机会"
+          ],
+          "key_metrics": [
+            "2026 年国产 GPU 出货量预计 400 万颗，CAGR 30%",
+            "到 2030 年国产 GPU 整体出货量预计 1200 万颗",
+            "scale out 部分交换芯片需求 60 万颗，up 部分 200 万颗",
+            "盛科份额 30%，利润率 30%"
+          ],
+          "target_valuation": [
+            "约 2700 亿市值"
+          ]
+        },
+        {
+          "title": "01月15日___公告精选",
+          "date": "2026-01-15",
+          "source": "https://mp.weixin.qq.com/s/JUD8Rl1vSTqdVJlWf40wzw",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "亏损 1.6 亿元至 1.2 亿元"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-09"
+    },
+    "002324": {
+      "name": "科华数据",
+      "code": "002324",
+      "board": "SZ",
+      "industry": "计算机 - 计算机设备 - 其他计算机设备",
+      "concepts": [
+        "腾讯链",
+        "数据中心",
+        "算力"
+      ],
+      "products": [
+        "定制化数据中心"
+      ],
+      "core_business": [
+        "数据中心建设与运营"
+      ],
+      "industry_position": [],
+      "chain": [
+        "下游 - 数据中心运营"
+      ],
+      "partners": [
+        "腾讯"
+      ],
+      "mention_count": 1,
+      "valuation": {},
+      "articles": [
+        {
+          "title": "今天的一些信息整理 5.7",
+          "date": "2026-05-09",
+          "source": "https://mp.weixin.qq.com/s/jU3eFc1irDolyJyLd6egyg",
+          "accidents": [
+            "与腾讯签署《腾讯定制化数据中心合作协议》"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-09"
+    },
+    "002575": {
+      "name": "群兴玩具",
+      "code": "002575",
+      "board": "SZ",
+      "industry": "轻工制造 - 文娱用品 - 玩具",
+      "concepts": [
+        "腾讯链",
+        "算力",
+        "算力租赁"
+      ],
+      "products": [
+        "算力服务"
+      ],
+      "core_business": [
+        "算力租赁"
+      ],
+      "industry_position": [],
+      "chain": [
+        "下游 - 算力服务"
+      ],
+      "partners": [
+        "腾讯"
+      ],
+      "mention_count": 1,
+      "valuation": {},
+      "articles": [
+        {
+          "title": "今天的一些信息整理 5.7",
+          "date": "2026-05-09",
+          "source": "https://mp.weixin.qq.com/s/jU3eFc1irDolyJyLd6egyg",
+          "accidents": [
+            "孙公司杭州图灵引擎与腾讯签订《算力服务协议》"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-09"
+    },
+    "300622": {
+      "name": "宏川智慧",
+      "code": "300622",
+      "board": "SZ",
+      "industry": "交通运输 - 物流 - 仓储物流",
+      "concepts": [
+        "腾讯算力",
+        "智算中心",
+        "算力租赁"
+      ],
+      "products": [
+        "算力租赁",
+        "国产算力集群"
+      ],
+      "core_business": [
+        "智算中心建设与运营"
+      ],
+      "industry_position": [
+        "中国电子商会算力产业副理事长单位"
+      ],
+      "chain": [
+        "下游 - 算力运营"
+      ],
+      "partners": [
+        "腾讯",
+        "燧原科技",
+        "韶关市"
+      ],
+      "mention_count": 1,
+      "valuation": {},
+      "articles": [
+        {
+          "title": "今天的一些信息整理 5.7",
+          "date": "2026-05-09",
+          "source": "https://mp.weixin.qq.com/s/jU3eFc1irDolyJyLd6egyg",
+          "accidents": [
+            "设立宏川智算，打造第三增长曲线",
+            "韶关项目签约国产十万卡先进封装算力集群，总投资 50 亿元"
+          ],
+          "insights": [
+            "腾讯是燧原第一大股东，韶关项目有望形成算力约 3 万 P"
+          ],
+          "key_metrics": [
+            "成立不到半年就有韶关重大项目落地",
+            "算力约 3 万 P"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-09"
+    },
+    "300395": {
+      "name": "菲利华",
+      "code": "300395",
+      "board": "SZ",
+      "industry": "电子 - 电子化学品 - 电子化学品",
+      "concepts": [
+        "M9Q 布",
+        "LPU 材料",
+        "高端复合材料"
+      ],
+      "products": [
+        "M9Q 布"
+      ],
+      "core_business": [
+        "高端复合材料研发与生产"
+      ],
+      "industry_position": [],
+      "chain": [
+        "上游 - 材料"
+      ],
+      "partners": [
+        "英伟达供应链"
+      ],
+      "mention_count": 1,
+      "valuation": {},
+      "articles": [
+        {
+          "title": "今天的一些信息整理 5.7",
+          "date": "2026-05-09",
+          "source": "https://mp.weixin.qq.com/s/jU3eFc1irDolyJyLd6egyg",
+          "accidents": [
+            "LPU 加速，利好材料升级方向"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-09"
+    },
+    "300741": {
+      "name": "凌玮科技",
+      "code": "300741",
+      "board": "SZ",
+      "industry": "电子 - 电子化学品 - 电子化学品",
+      "concepts": [
+        "M9Q 布",
+        "LPU 材料"
+      ],
+      "products": [
+        "M9Q 布"
+      ],
+      "core_business": [
+        "材料研发与生产"
+      ],
+      "industry_position": [],
+      "chain": [
+        "上游 - 材料"
+      ],
+      "partners": [
+        "英伟达供应链"
+      ],
+      "mention_count": 1,
+      "valuation": {},
+      "articles": [
+        {
+          "title": "今天的一些信息整理 5.7",
+          "date": "2026-05-09",
+          "source": "https://mp.weixin.qq.com/s/jU3eFc1irDolyJyLd6egyg",
+          "accidents": [
+            "LPU 加速，材料升级"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-09"
+    },
+    "601208": {
+      "name": "东材科技",
+      "code": "601208",
+      "board": "SH",
+      "industry": "基础化工 - 塑料 - 其他塑料",
+      "concepts": [
+        "M9Q 布",
+        "LPU 材料"
+      ],
+      "products": [
+        "M9Q 布"
+      ],
+      "core_business": [
+        "材料研发与生产"
+      ],
+      "industry_position": [],
+      "chain": [
+        "上游 - 材料"
+      ],
+      "partners": [
+        "英伟达供应链"
+      ],
+      "mention_count": 1,
+      "valuation": {},
+      "articles": [
+        {
+          "title": "今天的一些信息整理 5.7",
+          "date": "2026-05-09",
+          "source": "https://mp.weixin.qq.com/s/jU3eFc1irDolyJyLd6egyg",
+          "accidents": [
+            "LPU 加速，材料升级"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-09"
+    },
+    "300819": {
+      "name": "聚杰微纤",
+      "code": "300819",
+      "board": "SZ",
+      "industry": "基础化工 - 化学纤维 - 其他化学纤维",
+      "concepts": [
+        "M9Q 布",
+        "LPU 材料"
+      ],
+      "products": [
+        "M9Q 布"
+      ],
+      "core_business": [
+        "材料研发与生产"
+      ],
+      "industry_position": [],
+      "chain": [
+        "上游 - 材料"
+      ],
+      "partners": [
+        "英伟达供应链"
+      ],
+      "mention_count": 1,
+      "valuation": {},
+      "articles": [
+        {
+          "title": "今天的一些信息整理 5.7",
+          "date": "2026-05-09",
+          "source": "https://mp.weixin.qq.com/s/jU3eFc1irDolyJyLd6egyg",
+          "accidents": [
+            "新增材料升级方向"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-09"
+    },
+    "300991": {
+      "name": "德福科技",
+      "code": "300991",
+      "board": "SZ",
+      "industry": "电子 - 电子化学品 - 电子化学品",
+      "concepts": [
+        "M9Q 布",
+        "铜箔",
+        "PCB 材料",
+        "锂电池",
+        "电子箔",
+        "载体铜箔",
+        "动力电池",
+        "储能"
+      ],
+      "products": [
+        "高端铜箔",
+        "铜箔",
+        "锂电铜箔",
+        "高端电子箔",
+        "载体铜箔"
+      ],
+      "core_business": [
+        "铜箔研发与生产",
+        "高端电子箔",
+        "载体铜箔",
+        "锂电铜箔"
+      ],
+      "industry_position": [
+        "高端电子箔&载体铜箔放量",
+        "锂电二线涨价标的"
+      ],
+      "chain": [
+        "上游 - 材料",
+        "覆铜板-PCB产业链"
+      ],
+      "partners": [
+        "英伟达供应链"
+      ],
+      "mention_count": 3,
+      "valuation": {
+        "target_market_cap": "400亿",
+        "target_market_cap_billion": 400.0
+      },
+      "articles": [
+        {
+          "title": "今天的一些信息整理 5.7",
+          "date": "2026-05-09",
+          "source": "https://mp.weixin.qq.com/s/jU3eFc1irDolyJyLd6egyg",
+          "accidents": [
+            "强 call，材料升级"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "德福科技：高端电子箔&载体铜箔放量+锂电二线涨价，目标市值400亿",
+          "date": "2026-04-12",
+          "source": "内部研究",
+          "accidents": [],
+          "insights": [
+            "高端电子箔&载体铜箔放量",
+            "锂电二线涨价标的",
+            "高端电子箔&载体铜箔放量+锂电二线涨价，目标市值400亿"
+          ],
+          "key_metrics": [
+            "毛利率持续提升",
+            "目标市值400亿",
+            "产能 17.5 万吨(含海外厂 1",
+            "市占率 11.9%"
+          ],
+          "target_valuation": [
+            "目标市值400亿"
+          ]
+        },
+        {
+          "title": "德福科技(301511) - 产业链核心标的分析",
+          "date": "2026-04-16",
+          "source": "原材料: raw_material_2026-04-13.md",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "毛利率持续提升",
+            "产能 17.5 万吨(含海外厂 1",
+            "市占率 11.9%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-09"
+    },
+    "603256": {
+      "name": "宏和科技",
+      "code": "603256",
+      "board": "SH",
+      "industry": "电子 - 电子化学品 - 电子化学品",
+      "concepts": [
+        "M9Q 布",
+        "电子布",
+        "PCB 材料"
+      ],
+      "products": [
+        "高端电子布"
+      ],
+      "core_business": [
+        "电子布研发与生产"
+      ],
+      "industry_position": [],
+      "chain": [
+        "上游 - 材料"
+      ],
+      "partners": [
+        "英伟达供应链"
+      ],
+      "mention_count": 1,
+      "valuation": {},
+      "articles": [
+        {
+          "title": "今天的一些信息整理 5.7",
+          "date": "2026-05-09",
+          "source": "https://mp.weixin.qq.com/s/jU3eFc1irDolyJyLd6egyg",
+          "accidents": [
+            "强 call，材料升级"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-09"
+    },
+    "301319": {
+      "name": "唯特偶",
+      "code": "301319",
+      "board": "SZ",
+      "industry": "电子 - 电子化学品 - 电子化学品",
+      "concepts": [
+        "锡膏",
+        "光模块材料",
+        "电子化学品"
+      ],
+      "products": [
+        "锡膏（T6-T7 级别）"
+      ],
+      "core_business": [
+        "电子化学品研发与生产"
+      ],
+      "industry_position": [
+        "国内唯一供应 T6-T7 级别锡膏"
+      ],
+      "chain": [
+        "上游 - 材料"
+      ],
+      "partners": [
+        "光模块厂商"
+      ],
+      "mention_count": 1,
+      "valuation": {
+        "target_market_cap": "240 亿",
+        "target_market_cap_billion": 240.0
+      },
+      "articles": [
+        {
+          "title": "今天的一些信息整理 5.7",
+          "date": "2026-05-09",
+          "source": "https://mp.weixin.qq.com/s/jU3eFc1irDolyJyLd6egyg",
+          "accidents": [
+            "光模块'电子布'，LPU 催化 Q 布"
+          ],
+          "insights": [
+            "产品结构迭代升级，每升级一代价值量至少增加一倍"
+          ],
+          "key_metrics": [
+            "1.6T 在 2027 年 8000 万个，160 吨需求，从 4 吨到 160 吨涨 40 倍",
+            "不考虑通胀，2.5 万单价，40 亿空间，60% 净利率有 24 亿利润",
+            "2027 年 800G 是 5000 万个，50 吨，单价 1.5 万，7.5 亿空间"
+          ],
+          "target_valuation": [
+            "国产能做仅 1 家，假设份额 30%，8 亿，30X，看 240 亿"
+          ]
+        }
+      ],
+      "last_updated": "2026-05-09"
+    },
+    "688665": {
+      "name": "联讯仪器",
+      "code": "688665",
+      "board": "SH",
+      "industry": "机械设备 - 仪器仪表 - 其他仪器仪表",
+      "concepts": [
+        "光模块测试设备",
+        "半导体测试"
+      ],
+      "products": [
+        "400G/800G/1.6T 测试仪器"
+      ],
+      "core_business": [
+        "光通信测试仪器研发与生产"
+      ],
+      "industry_position": [
+        "全球第二家、国内唯一能量产 400G/800G/1.6T 高速光模块全套核心测试仪器"
+      ],
+      "chain": [
+        "中游 - 测试设备"
+      ],
+      "partners": [
+        "中际旭创",
+        "新易盛",
+        "Lumentum",
+        "Coherent"
+      ],
+      "mention_count": 1,
+      "valuation": {},
+      "articles": [
+        {
+          "title": "今天的一些信息整理 5.7",
+          "date": "2026-05-09",
+          "source": "https://mp.weixin.qq.com/s/jU3eFc1irDolyJyLd6egyg",
+          "accidents": [
+            "光模块迭代驱动测试设备量价齐升"
+          ],
+          "insights": [
+            "光模块测试'卖铲人'，国产替代空间广阔"
+          ],
+          "key_metrics": [
+            "2026Q1 营收 4.88 亿元 (+142.52%)，归母净利润 1.19 亿元 (+515.17%)",
+            "毛利率 66.76%(环比 + 8.55pct)",
+            "应收账款 5.63 亿元 (+101.38%)、存货 7.51 亿元 (+84.87%)",
+            "合同负债 2.10 亿元 (+39.88%)，在手订单充沛"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-09"
+    },
+    "300502": {
+      "name": "新易盛",
+      "code": "300502",
+      "board": "SZ",
+      "industry": "通信 - 通信设备 - 通信网络设备",
+      "concepts": [
+        "光模块",
+        "800G",
+        "1.6T",
+        "硅光",
+        "NPO"
+      ],
+      "products": [
+        "800G/1.6T/硅光/NPO 光模块"
+      ],
+      "core_business": [
+        "光模块研发与生产"
+      ],
+      "industry_position": [],
+      "chain": [
+        "中游 - 光模块"
+      ],
+      "partners": [
+        "北美大客户"
+      ],
+      "mention_count": 1,
+      "valuation": {
+        "target_price": "737 元",
+        "rating": "买入"
+      },
+      "articles": [
+        {
+          "title": "今天的一些信息整理 5.7",
+          "date": "2026-05-09",
+          "source": "https://mp.weixin.qq.com/s/jU3eFc1irDolyJyLd6egyg",
+          "accidents": [
+            "800G/1.6T 光模块出货加速增长",
+            "目标价上调至 737 元"
+          ],
+          "insights": [
+            "性价比渐显，重视"
+          ],
+          "key_metrics": [
+            "2026-28 年预测期内 800G 及以上产品的出货量预测分别上调了 14%/29%/33%",
+            "预计 2026 年第二季度实现环比增长，1.6T 光模块将在 2026 年下半年加速放量",
+            "毛利率将从 2025 年的 47.8% 扩大至 2028 预测年度的 48.5%"
+          ],
+          "target_valuation": [
+            "基于 2027-28 年预测远期年度净利润平均同比增长 29% 以及平均营业利润率为 46%",
+            "采用 26 倍的目标 2027 年预测市盈率"
+          ]
+        }
+      ],
+      "last_updated": "2026-05-09"
+    },
+    "300812": {
+      "name": "易天股份",
+      "code": "300812",
+      "board": "SZ",
+      "industry": "机械设备 - 专用设备 - 其他专用设备",
+      "concepts": [
+        "CPO 设备",
+        "光模块封装设备"
+      ],
+      "products": [
+        "CPO 自动化设备"
+      ],
+      "core_business": [
+        "CPO 设备研发与生产"
+      ],
+      "industry_position": [],
+      "chain": [
+        "中游 - 设备"
+      ],
+      "partners": [
+        "超一线光模块 Z 客户",
+        "东山精密（索尔斯）"
+      ],
+      "mention_count": 1,
+      "valuation": {},
+      "articles": [
+        {
+          "title": "今天的一些信息整理 5.7",
+          "date": "2026-05-09",
+          "source": "https://mp.weixin.qq.com/s/jU3eFc1irDolyJyLd6egyg",
+          "accidents": [
+            "与国内超一线光模块 Z 客户合作开发 CPO 自动化设备"
+          ],
+          "insights": [],
+          "key_metrics": [
+            "布局封装、固晶、贴片、点胶、耦合等工序设备，单线合计价值量约 5000 万",
+            "封装设备单台价值约 1000 万，毛利率达 70%+",
+            "公司光模块设备已交付东山精密（索尔斯）"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-09"
+    },
+    "688313": {
+      "name": "仕佳光子",
+      "code": "688313",
+      "board": "SH",
+      "industry": "电子 - 光学光电子 - 光学元件",
+      "concepts": [
+        "MPO",
+        "CW 光源",
+        "AWG",
+        "光器件"
+      ],
+      "products": [
+        "MPO 产品",
+        "AWG",
+        "CW 光源（70mw/100mw/300mw+）"
+      ],
+      "core_business": [
+        "光器件研发与生产"
+      ],
+      "industry_position": [],
+      "chain": [
+        "中游 - 光器件"
+      ],
+      "partners": [
+        "康宁",
+        "新易盛",
+        "Coherent",
+        "中际旭创",
+        "剑桥科技"
+      ],
+      "mention_count": 1,
+      "valuation": {
+        "target_market_cap": "1000-1100 亿",
+        "target_market_cap_billion": 1050.0
+      },
+      "articles": [
+        {
+          "title": "今天的一些信息整理 5.7",
+          "date": "2026-05-09",
+          "source": "https://mp.weixin.qq.com/s/jU3eFc1irDolyJyLd6egyg",
+          "accidents": [
+            "康宁扩产印证光互联需求高景气，MPO 业务订单爆发",
+            "CW 光源近期主要变化是产业链验证到部分大客户订单下发",
+            "福可喜玛收购稳步推进"
+          ],
+          "insights": [
+            "受益康宁扩产，CW 订单/福可喜玛收购存预期差"
+          ],
+          "key_metrics": [
+            "保守预期无源今年 7e，明年 11e；福可喜玛今年 4e，明年 6e；CW 今年 2e，明年 6e"
+          ],
+          "target_valuation": [
+            "合计 30*11（无源）+200（福可喜玛）+500（CW，参考源杰市值和产能），市值看 1000-1100e"
+          ]
+        }
+      ],
+      "last_updated": "2026-05-09"
+    },
+    "601868": {
+      "name": "中国能建",
+      "code": "601868",
+      "board": "SH",
+      "industry": "建筑装饰 - 专业工程服务 - 其他专业工程服务",
+      "concepts": [
+        "算电协同",
+        "数据中心",
+        "新能源",
+        "绿电"
+      ],
+      "products": [
+        "数据中心",
+        "新能源场站",
+        "绿电聚合"
+      ],
+      "core_business": [
+        "数据中心建设与新能源开发"
+      ],
+      "industry_position": [
+        "算电协同龙头"
+      ],
+      "chain": [
+        "下游 - 系统集成"
+      ],
+      "partners": [
+        "甘肃庆阳",
+        "东数西算枢纽"
+      ],
+      "mention_count": 1,
+      "valuation": {},
+      "articles": [
+        {
+          "title": "今天的一些信息整理 5.7",
+          "date": "2026-05-09",
+          "source": "https://mp.weixin.qq.com/s/jU3eFc1irDolyJyLd6egyg",
+          "accidents": [
+            "甘肃庆阳'东数西算'枢纽节点，2.4 万标准机柜特大型数据中心",
+            "配套 20 万千瓦新能源场站，通过绿电'电算协同'降低电力成本"
+          ],
+          "insights": [
+            "整体算力成本降低近 25%"
+          ],
+          "key_metrics": [
+            "截至 2025 年末，累计获取风光新能源指标 8,200 万千瓦",
+            "控股并网风光新能源项目装机容量 1,905.47 万千瓦"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-09"
+    },
+    "688515": {
+      "name": "裕太微",
+      "code": "688515",
+      "board": "SH",
+      "industry": "电子 - 半导体 - 集成电路",
+      "concepts": [
+        "DSP 芯片",
+        "光模块芯片",
+        "800G"
+      ],
+      "products": [
+        "800G DSP 芯片（7nm）"
+      ],
+      "core_business": [
+        "DSP 芯片研发"
+      ],
+      "industry_position": [],
+      "chain": [
+        "中游 - 芯片设计"
+      ],
+      "partners": [
+        "华为",
+        "台积电"
+      ],
+      "mention_count": 1,
+      "valuation": {},
+      "articles": [
+        {
+          "title": "今天的一些信息整理 5.7",
+          "date": "2026-05-09",
+          "source": "https://mp.weixin.qq.com/s/jU3eFc1irDolyJyLd6egyg",
+          "accidents": [
+            "全球 DSP 芯片 26 年会持续缺货",
+            "公司正在做 800G DSP 芯片，7nm 工艺制程，对标博通和 Marvell"
+          ],
+          "insights": [
+            "通过不同信息渠道的交叉印证，公司正在投入光模块的 DSP 芯片业务，而且与华为共同进行研发"
+          ],
+          "key_metrics": [
+            "目前全球仅 4 家厂商实现 800G DSP 的批量生产",
+            "7nm DSP 芯片在台积电的单次流片费用 3 亿人民币起步",
+            "800G DSP 芯片的功耗占整个光模块的 30%-40%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-09"
+    },
+    "301631": {
+      "name": "壹连科技",
+      "code": "301631",
+      "board": "SZ",
+      "industry": "电子 - 消费电子 - 消费电子零部件",
+      "concepts": [
+        "美国缺电",
+        "BloomEnergy",
+        "电连接器",
+        "AIDC"
+      ],
+      "products": [
+        "电连接器",
+        "FPC"
+      ],
+      "core_business": [
+        "电连接器研发与生产"
+      ],
+      "industry_position": [],
+      "chain": [
+        "上游 - 零部件"
+      ],
+      "partners": [
+        "BloomEnergy",
+        "宁德时代",
+        "思格新能源",
+        "特斯拉"
+      ],
+      "mention_count": 1,
+      "valuation": {},
+      "articles": [
+        {
+          "title": "今天的一些信息整理 5.7",
+          "date": "2026-05-09",
+          "source": "https://mp.weixin.qq.com/s/jU3eFc1irDolyJyLd6egyg",
+          "accidents": [
+            "深度绑定 BloomEnergy 享受美国缺电红利",
+            "目前在手 BE 订单约 1.5 亿元且在滚动增加"
+          ],
+          "insights": [
+            "'AIDC+ 新能源'双重驱动业绩高增"
+          ],
+          "key_metrics": [
+            "2022 年起与 BloomEnergy 合作，在 BE 的电连接器份额达到 65%+",
+            "预计全年交付 1.8 亿以上，2027 年预测订单已达 7.2 亿元",
+            "单 GW 的 BE 订单对应 1.13 亿元收入",
+            "2027 年新产品单套价值量从 3.7 万元提升至 3.9 万元"
+          ],
+          "target_valuation": [
+            "2027 年 7.2 亿订单* 25% 净利率 = 1.8 亿利润"
+          ]
+        }
+      ],
+      "last_updated": "2026-05-09"
+    },
+    "603803": {
+      "name": "瑞斯康达",
+      "code": "603803",
+      "board": "SH",
+      "industry": "通信 - 通信设备 - 通信网络设备",
+      "concepts": [
+        "SRv6",
+        "算力网络",
+        "IPv6+"
+      ],
+      "products": [
+        "SRv6 设备",
+        "OSU 技术",
+        "IP 传输设备"
+      ],
+      "core_business": [
+        "IP 传输设备研发与生产"
+      ],
+      "industry_position": [
+        "国内最早布局 IPv6+ 和分段路由技术的厂商之一"
+      ],
+      "chain": [
+        "中游 - 通信设备"
+      ],
+      "partners": [
+        "数据中心算力网络"
+      ],
+      "mention_count": 1,
+      "valuation": {},
+      "articles": [
+        {
+          "title": "今天的一些信息整理 5.7",
+          "date": "2026-05-09",
+          "source": "https://mp.weixin.qq.com/s/jU3eFc1irDolyJyLd6egyg",
+          "accidents": [
+            "OpenAI 新技术：SRv6（分段路由）"
+          ],
+          "insights": [
+            "智算中心算力网络+SRv6 技术"
+          ],
+          "key_metrics": [
+            "在 SRV6 等关键技术上已经取得有效进展",
+            "已布局从传统 IP/MPLS 到 SRv6 的技术演进路线并实现 SRv6 技术落地"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-09"
+    },
+    "688502": {
+      "name": "茂莱光学",
+      "code": "688502",
+      "board": "SH",
+      "industry": "电子 - 光学光电子 - 光学元件",
+      "concepts": [
+        "光学",
+        "半导体检测",
+        "北美客户"
+      ],
+      "products": [
+        "DWDM",
+        "滤光片",
+        "光栅",
+        "棱镜",
+        "硅光检测设备"
+      ],
+      "core_business": [
+        "光学器件研发与生产"
+      ],
+      "industry_position": [
+        "全球光学小巨人"
+      ],
+      "chain": [
+        "中游 - 光学器件"
+      ],
+      "partners": [
+        "谷歌",
+        "Lumentum",
+        "康宁",
+        "英伟达",
+        "Intel",
+        "Lite"
+      ],
+      "mention_count": 1,
+      "valuation": {
+        "target_market_cap": "1000 亿",
+        "target_market_cap_billion": 1000.0
+      },
+      "articles": [
+        {
+          "title": "今天的一些信息整理 5.7",
+          "date": "2026-05-09",
+          "source": "https://mp.weixin.qq.com/s/jU3eFc1irDolyJyLd6egyg",
+          "accidents": [
+            "北美客户资源，以及产品技术能力是公司核心竞争优势",
+            "谷歌已实现深度绑定，现阶段 Lumentum、康宁、NV、Intel 正在对接阶段",
+            "半导体业务重大突破，进军 Intel、合肥存储客户现场维保业务"
+          ],
+          "insights": [
+            "剑指百亿收入，千亿市值可期"
+          ],
+          "key_metrics": [
+            "公司规划未来五年投入 40 亿资金支撑 2030 年百亿收入规模",
+            "泰国新工厂当前已能够支撑 5～10 亿产值",
+            "国内南京、北京三大工厂支持 10～15 亿体量",
+            "单 Intel 一家客户光学类耗材需求量在 40 亿美金体量"
+          ],
+          "target_valuation": [
+            "全球光学小巨人潜力正在显现"
+          ]
+        }
+      ],
+      "last_updated": "2026-05-09"
+    },
+    "300570": {
+      "name": "太辰光",
+      "code": "300570",
+      "board": "SZ",
+      "industry": "通信 - 通信设备 - 通信网络设备",
+      "concepts": [
+        "MPO",
+        "Shuffle",
+        "光器件"
+      ],
+      "products": [
+        "MPO",
+        "Shuffle",
+        "FAU",
+        "保偏 MPO"
+      ],
+      "core_business": [
+        "光器件研发与生产"
+      ],
+      "industry_position": [],
+      "chain": [
+        "中游 - 光器件"
+      ],
+      "partners": [
+        "康宁"
+      ],
+      "mention_count": 1,
+      "valuation": {},
+      "articles": [
+        {
+          "title": "今天的一些信息整理 5.7",
+          "date": "2026-05-09",
+          "source": "https://mp.weixin.qq.com/s/jU3eFc1irDolyJyLd6egyg",
+          "accidents": [
+            "NV 携手康宁：Scale up 光互联时代的渐行渐近"
+          ],
+          "insights": [
+            "MPO 属于通胀环节，未来 ai 大算力时代量价均有望大幅提升"
+          ],
+          "key_metrics": [
+            "2030 年 CPO/NPO 或开启批量部署，市场空间达 100 亿美金"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-09"
+    },
+    "301128": {
+      "name": "强瑞技术",
+      "code": "301128",
+      "board": "SZ",
+      "industry": "机械设备 - 专用设备 - 其他专用设备",
+      "concepts": [
+        "液冷",
+        "inner-manifold",
+        "服务器测试"
+      ],
+      "products": [
+        "液冷测试设备",
+        "夹治具",
+        "inner-manifold",
+        "CDU",
+        "铝宝"
+      ],
+      "core_business": [
+        "液冷设备研发与生产"
+      ],
+      "industry_position": [],
+      "chain": [
+        "中游 - 设备"
+      ],
+      "partners": [
+        "工业富联",
+        "AVC",
+        "北美客户"
+      ],
+      "mention_count": 1,
+      "valuation": {},
+      "articles": [
+        {
+          "title": "今天的一些信息整理 5.7",
+          "date": "2026-05-09",
+          "source": "https://mp.weixin.qq.com/s/jU3eFc1irDolyJyLd6egyg",
+          "accidents": [
+            "公司给出明确业绩指引，二季度预计 8000 万元，三/四季度单季度 2e 以上利润",
+            "inner-manifold 拿到北美技术认证，目前已经小批量交付几百套"
+          ],
+          "insights": [
+            "突破加速，持续重点推荐"
+          ],
+          "key_metrics": [
+            "全年保持 5e 利润预期，2027 年液冷放量背景下，利润展望 10e",
+            "该产品按照夹治具定价，毛利率 50%+，净利率 30%+",
+            "公司预计 2026 年下半年 500 套/天，贡献 3 亿元 + 收入"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-09"
+    },
+    "002796": {
+      "name": "世嘉科技",
+      "code": "002796",
+      "board": "SZ",
+      "industry": "通信 - 通信设备 - 通信网络设备",
+      "concepts": [
+        "AMD",
+        "光模块",
+        "SOG 玻璃光波导"
+      ],
+      "products": [
+        "800G/1.6T 光模块",
+        "AOC",
+        "AEC"
+      ],
+      "core_business": [
+        "光模块研发与生产"
+      ],
+      "industry_position": [],
+      "chain": [
+        "中游 - 光模块"
+      ],
+      "partners": [
+        "AMD",
+        "Apple",
+        "北美 CSP"
+      ],
+      "mention_count": 1,
+      "valuation": {},
+      "articles": [
+        {
+          "title": "今天的一些信息整理 5.7",
+          "date": "2026-05-09",
+          "source": "https://mp.weixin.qq.com/s/jU3eFc1irDolyJyLd6egyg",
+          "accidents": [
+            "AMD 业绩超预期，FY26Q1 数据中心营收达 58 亿美元，同比上涨 57%",
+            "子公司光彩芯辰是 AMD 等北美大厂核心供应商"
+          ],
+          "insights": [
+            "AMD 核心光模块供应商"
+          ],
+          "key_metrics": [
+            "光彩芯辰前身为以色列光模块公司 ColorChip，是全球最早的光模块公司之一",
+            "800G 与 1.6T 产品已实现出货",
+            "SoG 技术能够显著降低光模块生产成本，降低功耗"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-09"
+    }
+  }
+}

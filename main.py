@@ -87,8 +87,10 @@ ARTICLE_API_URL = os.environ.get('ARTICLE_API_URL', 'http://localhost:5001')
 # 数据路径
 DATA_DIR = BASE_DIR / 'data' / 'sentiment'
 SEARCH_INDEX_FILE = DATA_DIR / 'search_index_full.json.gz'
-HOT_TOPICS_FILE = BASE_DIR / 'data' / 'hot_topics.json'
-GROUPS_FILE = BASE_DIR / 'data' / 'groups.json'
+HOT_TOPICS_FILE = BASE_DIR / 'data' / 'hot_topics' / 'hot_topics.json'
+GROUPS_FILE = BASE_DIR / 'data' / 'groups' / 'groups.json'
+STOCKS_MASTER_FILE = BASE_DIR / 'data' / 'stocks' / 'stocks_master.json'
+STOCKS_INDEX_FILE = BASE_DIR / 'data' / 'stocks' / 'stocks_index.json'
 
 # ─── Jaccard 相似度计算 ───
 def jaccard_similarity(set1, set2):
@@ -326,8 +328,8 @@ def load_data_incremental(days=7):
     """从增量文件加载最近 N 天的数据"""
     print(f"📋 从增量文件加载最近 {days} 天数据...")
     
-    INDEX_FILE = BASE_DIR / 'data' / 'master' / 'stocks_index.json'
-    STOCKS_DIR = BASE_DIR / 'data' / 'master' / 'stocks'
+    INDEX_FILE = BASE_DIR / 'data' / 'stocks' / 'stocks_index.json'
+    STOCKS_DIR = BASE_DIR / 'data' / 'stocks'
     
     try:
         # 读取索引文件
@@ -372,8 +374,8 @@ def load_data_from_local():
     """从本地 JSON 或 GitHub 加载数据"""
     print("📋 从本地文件或 GitHub 加载数据...")
     
-    MASTER_FILE_JSON = BASE_DIR / 'data' / 'master' / 'stocks_master.json'
-    MASTER_FILE_GZ = BASE_DIR / 'data' / 'master' / 'stocks_master.json.gz'
+    MASTER_FILE_JSON = BASE_DIR / 'data' / 'stocks' / 'stocks_master.json'
+    MASTER_FILE_GZ = BASE_DIR / 'data' / 'stocks' / 'stocks_master.json.gz'
     
     master_data = None
     
@@ -1874,10 +1876,10 @@ def generate_snippet(text, query, original_content, max_length=150):
 
 # 数据文件路径
 # 优先使用未压缩的 JSON 文件
-if (BASE_DIR / 'data' / 'master' / 'stocks_master.json').exists():
-    MASTER_FILE = BASE_DIR / 'data' / 'master' / 'stocks_master.json'
+if (BASE_DIR / 'data' / 'stocks' / 'stocks_master.json').exists():
+    MASTER_FILE = BASE_DIR / 'data' / 'stocks' / 'stocks_master.json'
 else:
-    MASTER_FILE = BASE_DIR / 'data' / 'master' / 'stocks_master.json.gz'
+        MASTER_FILE = BASE_DIR / 'data' / 'stocks' / 'stocks_master.json.gz'
 EDIT_LOG_FILE = BASE_DIR / 'data' / 'edit_log.json'
 
 # 编辑记录
@@ -2406,7 +2408,7 @@ def import_stocks():
             })
         
         # 加载现有数据
-        master_file = BASE_DIR / 'data' / 'master' / 'stocks_master.json'
+        master_file = BASE_DIR / 'data' / 'stocks' / 'stocks_master.json'
         existing_stocks = {}
         if master_file.exists():
             with open(master_file, 'r', encoding='utf-8') as f:
