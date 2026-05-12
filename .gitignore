@@ -48,6 +48,24 @@ serviceAccountKey.json
 *.firebase*.json
 .trae/skills/add-hot-topic/
 
+# Browser cache and temporary files
+.browser_profile/
+*/.browser_profile/
+*.html
+tmp_*.txt
+*.txt
+!requirements.txt
+!README.txt
+
+# Playwright test files
+.playwright-cli/
+
+# Codebuddy agents
+.codebuddy/
+
+# Terminal temp files
+*shellIntegration.ps1*
+
 # GitHub tokens and sensitive files
 *token*
 *secret*
