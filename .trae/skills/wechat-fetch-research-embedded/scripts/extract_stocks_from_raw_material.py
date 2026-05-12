@@ -235,7 +235,7 @@ SYSTEM_EXTRACT = (
     "{\n"
     "  \"items\": [\n"
     "    {\n"
-    "      \"code\": \"6位数字\",\n"
+    "      \"code\": \"6 位数字\",\n"
     "      \"name\": \"股票简称\",\n"
     "      \"article\": {\n"
     "        \"title\": \"文章标题\",\n"
@@ -245,16 +245,26 @@ SYSTEM_EXTRACT = (
     "        \"insights\": [\"投研观点/逻辑\"],\n"
     "        \"key_metrics\": [\"关键指标\"],\n"
     "        \"target_valuation\": [\"估值/目标市值\"]\n"
-    "      }\n"
+    "      },\n"
+    "      \"products\": [\"产品/服务\"],\n"
+    "      \"core_business\": [\"核心业务\"],\n"
+    "      \"industry\": \"所属行业\",\n"
+    "      \"partners\": [\"合作伙伴/客户\"],\n"
+    "      \"chain\": [\"产业链位置\"]\n"
     "    }\n"
     "  ]\n"
     "}\n"
     "抽取规则：\n"
-    "- accidents：只写事实事件，单条<=60字。\n"
+    "- accidents：只写事实事件，单条<=60 字。\n"
     "- insights：保留原文或忠实改写。\n"
     "- key_metrics：只放指标/数字/市占率等。\n"
     "- target_valuation：估值、目标价、空间测算等。\n"
-    "- 如果某字段无信息，输出空数组 []。\n"
+    "- products：公司主要产品或服务。\n"
+    "- core_business：核心业务描述。\n"
+    "- industry：所属行业（如：电子 - 半导体 - 集成电路）。\n"
+    "- partners：合作伙伴、主要客户、供应商等。\n"
+    "- chain：产业链位置（如：中游 - 芯片设计）。\n"
+    "- 如果某字段无信息，输出空数组 [] 或空字符串\"\"。\n"
     "- 只输出 JSON，不要解释。"
 )
 
@@ -461,6 +471,23 @@ def merge_into_master(master: Dict[str, Any], items: List[Dict[str, Any]]):
         if src in existing_sources:
             continue
 
+        # 合并股票层级字段（products, core_business, industry, partners, chain）
+        for field in ["products", "core_business", "industry", "partners", "chain"]:
+            val = it.get(field, None)
+            if val:
+                if field == "industry" and isinstance(val, str) and val.strip():
+                    # industry 是字符串，直接赋值（如果不为空）
+                    if not s.get(field) or s.get(field) == "":
+                        s[field] = val.strip()
+                elif isinstance(val, list) and len(val) > 0:
+                    # 其他字段是列表，合并去重
+                    existing = set(s.get(field, []))
+                    for item in val:
+                        if isinstance(item, str) and item.strip():
+                            existing.add(item.strip())
+                    s[field] = sorted(list(existing))
+
+        # 处理 article 字段
         for k in ["accidents", "insights", "key_metrics", "target_valuation"]:
             v = art.get(k, [])
             if not isinstance(v, list):
