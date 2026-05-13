@@ -1,0 +1,3474 @@
+{
+  "date": "2026-05-13",
+  "update_count": 99,
+  "last_updated": "2026-05-13T15:00:00+08:00",
+  "stocks": {
+    "300308": {
+      "name": "中际旭创",
+      "code": "300308",
+      "board": "SZ",
+      "industry": "通信-通信设备-光通信设备",
+      "concepts": [
+        "光模块",
+        "800G",
+        "1.6T",
+        "硅光模块",
+        "NPO",
+        "CPO",
+        "OCS",
+        "AI算力"
+      ],
+      "products": [
+        "800G光模块",
+        "1.6T光模块",
+        "硅光模块",
+        "NPO模块",
+        "CPO组件",
+        "OCS光交换机"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "2.4T相干光模块供应商配合谷歌TPU",
+            "成立淮安工厂扩产"
+          ],
+          "insights": [
+            "光互联解决方案提供商"
+          ],
+          "key_metrics": [
+            "目标市值1.6-2万亿"
+          ],
+          "target_valuation": [
+            "目标市值1.6-2万亿"
+          ]
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "688205": {
+      "name": "德科立",
+      "code": "688205",
+      "board": "",
+      "industry": "",
+      "concepts": [
+        "光放大芯片",
+        "光芯片",
+        "光子集成"
+      ],
+      "products": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "泰国工厂进设备，有望承接北美相干订单"
+          ],
+          "insights": [
+            "相干光模块技术成熟，DCI核心受益"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "002281": {
+      "name": "光迅科技",
+      "code": "002281",
+      "board": "SZ",
+      "industry": "通信 - 通信设备 - 光通信设备",
+      "concepts": [
+        "磷化铟",
+        "半导体材料",
+        "AI算力"
+      ],
+      "products": [
+        "磷化铟光芯片",
+        "光模块"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "参与相干光模块，骨干网技术know-how"
+          ],
+          "insights": [
+            "相干DCI光模块核心标的"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "300991": {
+      "name": "德福科技",
+      "code": "300991",
+      "board": "SZ",
+      "industry": "电子 - 电子化学品 - 电子化学品",
+      "concepts": [
+        "M9Q 布",
+        "铜箔",
+        "PCB 材料",
+        "锂电池",
+        "电子箔",
+        "载体铜箔",
+        "动力电池",
+        "储能"
+      ],
+      "products": [
+        "高端铜箔",
+        "铜箔",
+        "锂电铜箔",
+        "高端电子箔",
+        "载体铜箔"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "AI产业链铜箔材料"
+          ],
+          "insights": [
+            "AI铜箔需求拉动"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "603256": {
+      "name": "宏和科技",
+      "code": "603256",
+      "board": "SH",
+      "industry": "电子-电子化学品-电子化学品Ⅲ",
+      "concepts": [
+        "PCB概念",
+        "华为手机",
+        "苹果概念",
+        "5G",
+        "消费电子概念",
+        "芯片概念",
+        "2025年报预增",
+        "专精特新",
+        "海峡两岸",
+        "华为概念",
+        "沪股通"
+      ],
+      "products": [
+        "覆铜板",
+        "超薄电子布",
+        "电子布"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "AI产业链电子布"
+          ],
+          "insights": [
+            "AI电子布需求受益"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "301200": {
+      "name": "大族数控",
+      "code": "301200",
+      "board": "SZ",
+      "industry": "电子-专用设备-PCB设备",
+      "concepts": [
+        "PCB设备",
+        "钻孔设备",
+        "机械钻孔",
+        "激光钻孔",
+        "AI硬件",
+        "铲子股"
+      ],
+      "products": [
+        "钻孔类设备",
+        "检测类设备",
+        "机械钻孔机",
+        "激光钻孔机"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "CCD背钻机核心受益AI",
+            "机械钻孔龙头市占率60%+"
+          ],
+          "insights": [],
+          "key_metrics": [
+            "设备订单可见度>6个月"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "603186": {
+      "name": "华正新材",
+      "code": "603186",
+      "board": "",
+      "industry": "电子 - 半导体 - PCB/CCL",
+      "concepts": [],
+      "products": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "CBF膜对标味之素ABF国产替代",
+            "M7/M8 CCL验证中"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [
+            "目标市值200亿+"
+          ]
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "688521": {
+      "name": "芯原股份",
+      "code": "688521",
+      "board": "SH",
+      "industry": "电子-半导体-数字芯片设计",
+      "concepts": [
+        "汽车芯片",
+        "国家大基金持股",
+        "智能音箱",
+        "先进封装",
+        "MCU芯片",
+        "东数西算(算力)",
+        "阿里巴巴概念",
+        "腾讯概念",
+        "芯片概念",
+        "AI眼镜",
+        "虚拟现实",
+        "无人驾驶",
+        "人工智能",
+        "物联网",
+        "数字货币",
+        "上海自贸区",
+        "沪股通",
+        "融资融券"
+      ],
+      "products": [
+        "芯片",
+        "软件"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "字节自研CPU项目立项（4nm）"
+          ],
+          "insights": [
+            "国产ASIC卡位"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "688123": {
+      "name": "聚辰股份",
+      "code": "688123",
+      "board": "SH",
+      "industry": "电子-半导体-数字芯片设计",
+      "concepts": [
+        "存储芯片",
+        "中芯国际概念",
+        "汽车芯片",
+        "芯片概念",
+        "无线耳机",
+        "消费电子概念",
+        "汽车电子",
+        "AI眼镜",
+        "小米概念",
+        "智能穿戴",
+        "智能座舱",
+        "专精特新",
+        "新型烟草(电子烟)",
+        "比亚迪概念",
+        "数据中心",
+        "特斯拉概念",
+        "人民币贬值受益",
+        "华为概念",
+        "沪股通",
+        "融资融券"
+      ],
+      "products": [
+        "芯片"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "A股唯一布局MRAM",
+            "在台积电流片即将回片"
+          ],
+          "insights": [
+            "Q2业绩拐点"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "688213": {
+      "name": "思特威",
+      "code": "688213",
+      "board": "SH",
+      "industry": "电子-半导体-数字芯片设计",
+      "concepts": [
+        "汽车芯片",
+        "国家大基金持股",
+        "AI眼镜",
+        "汽车电子",
+        "小米概念",
+        "传感器",
+        "芯片概念",
+        "消费电子概念",
+        "比亚迪概念",
+        "机器视觉",
+        "同花顺新质50",
+        "无人驾驶",
+        "专精特新",
+        "2025年报预增",
+        "2025三季报预增",
+        "安防",
+        "华为概念",
+        "沪股通",
+        "融资融券"
+      ],
+      "products": [
+        "设备"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "布局MicroLED短距光互联，6-7月出原型",
+            "手机/汽车高端CIS放量"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "300243": {
+      "name": "瑞丰高材",
+      "code": "300243",
+      "board": "",
+      "industry": "化工 - 化工新材料 - 塑料助剂",
+      "concepts": [],
+      "products": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "PCB树脂CSR增韧剂",
+            "黑磷方向"
+          ],
+          "insights": [
+            "高分子反路演看翻倍"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "688598": {
+      "name": "金博股份",
+      "code": "688598",
+      "board": "",
+      "industry": "",
+      "concepts": [],
+      "products": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "500吨高纯氮化铝粉体产线（26年6月建成）"
+          ],
+          "insights": [
+            "AI算力散热核心材料"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "688257": {
+      "name": "新锐股份",
+      "code": "688257",
+      "board": "",
+      "industry": "",
+      "concepts": [],
+      "products": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "收购慧联电子（PCB铣刀全球第一，金刚石涂层）"
+          ],
+          "insights": [
+            "受益钻针短缺"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "301377": {
+      "name": "鼎泰高科",
+      "code": "301377",
+      "board": "SZ",
+      "industry": "电子-元件-印制电路板",
+      "concepts": [
+        "PCB",
+        "钻针",
+        "具身机器人",
+        "AI硬件",
+        "泰国基地"
+      ],
+      "products": [
+        "PCB钻针",
+        "精密部件"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "金刚石复合涂层PCB钻针，设备自制"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "000657": {
+      "name": "中钨高新",
+      "code": "000657",
+      "board": "SZ",
+      "industry": "有色金属-小金属-钨",
+      "concepts": [
+        "金属钴",
+        "金属铜",
+        "小金属概念",
+        "金属回收",
+        "PCB概念",
+        "海南自贸区",
+        "光伏概念",
+        "可控核聚变",
+        "雅下水电概念",
+        "工业母机",
+        "高端装备",
+        "军工",
+        "国企改革",
+        "医疗器械概念",
+        "乡村振兴",
+        "创投",
+        "DeepSeek概念",
+        "深股通",
+        "股权转让(并购重组)",
+        "中字头股票",
+        "融资融券"
+      ],
+      "products": [
+        "钨制品",
+        "高密度合金"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "子公司金洲精工布局金刚石复合涂层"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "688800": {
+      "name": "瑞可达",
+      "code": "688800",
+      "board": "SH",
+      "industry": "电子-其他电子-其他电子Ⅲ",
+      "concepts": [
+        "铜缆高速连接",
+        "5G",
+        "液冷服务器",
+        "毫米波雷达",
+        "6G概念",
+        "比亚迪概念",
+        "特斯拉概念",
+        "新能源汽车",
+        "人形机器人",
+        "2025年报预增",
+        "数据中心",
+        "高压快充",
+        "专精特新",
+        "光伏概念",
+        "机器人概念",
+        "充电桩",
+        "储能",
+        "商业航天",
+        "军工",
+        "飞行汽车(eVTOL)",
+        "卫星导航",
+        "换电概念",
+        "军民融合",
+        "低空经济",
+        "医疗器械概念",
+        "沪股通",
+        "融资融券"
+      ],
+      "products": [
+        "高速铜缆连接器(AEC)",
+        "芯片测试治具",
+        "connector",
+        "线缆集成"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "与旭创合资设立睿创布局高速铜缆，持股65%",
+            "AEC业务2026Q3产能爬坡，年底达15万套/年",
+            "芯片测试业务2026Q3正式贡献收入",
+            "已向北美客户送样1.6T产品",
+            "切入日本客户芯片测试供应链",
+            "为美国客户研发毫米波微波方案，相关芯片已流片"
+          ],
+          "insights": [
+            "AEC高速互联+芯片测试+主业三重成长逻辑共振，算力互联稀缺标的",
+            "深度绑定中际旭创，北美算力核心市场卡位明确"
+          ],
+          "key_metrics": [
+            "2026年AEC收入10-15亿元，2027年约50亿元",
+            "AEC 25%净利率预期，65%股权下对应8亿+利润",
+            "芯片测试耗材年市场空间几十到上百亿元",
+            "2026年底AEC产能达15万套/年，扩产周期仅3个月"
+          ],
+          "target_valuation": [
+            "370亿"
+          ]
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "688300": {
+      "name": "联瑞新材",
+      "code": "688300",
+      "board": "SH",
+      "industry": "基础化工-非金属材料-非金属材料Ⅲ",
+      "concepts": [
+        "存储芯片",
+        "先进封装",
+        "芯片概念",
+        "专精特新",
+        "沪股通",
+        "融资融券"
+      ],
+      "products": [
+        "芯片",
+        "平台"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "化学法球硅放量",
+            "M8-M10用量提升"
+          ],
+          "insights": [],
+          "key_metrics": [
+            "26-27年需求明确"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "601636": {
+      "name": "旗滨集团",
+      "code": "601636",
+      "board": "",
+      "industry": "建筑材料 - 玻璃 - 浮法玻璃",
+      "concepts": [],
+      "products": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "卡位6G玻璃基板及先进封装，送样验证中"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "688037": {
+      "name": "芯源微",
+      "code": "688037",
+      "board": "SH",
+      "industry": "电子-半导体-半导体设备",
+      "concepts": [
+        "中芯国际概念",
+        "存储芯片",
+        "光刻胶",
+        "先进封装",
+        "芯片概念",
+        "华为海思概念股",
+        "专精特新",
+        "国企改革",
+        "沪股通",
+        "融资融券"
+      ],
+      "products": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "四代KrF在存储客户验证",
+            "化学清洗增长"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [
+            "北方华创收购后目标1000e市值"
+          ]
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "688120": {
+      "name": "华海清科",
+      "code": "688120",
+      "board": "SH",
+      "industry": "电子-半导体-半导体设备",
+      "concepts": [
+        "存储芯片",
+        "芯片概念",
+        "专精特新",
+        "国企改革",
+        "沪股通",
+        "融资融券"
+      ],
+      "products": [
+        "芯片",
+        "设备"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "CMP设备4月订单12亿（环比翻倍）",
+            "磨划业务同比3倍增长",
+            "离子注入放量"
+          ],
+          "insights": [],
+          "key_metrics": [
+            "交付满载"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "300820": {
+      "name": "英杰电气",
+      "code": "300820",
+      "board": "",
+      "industry": "机械设备 - 自动化设备 - 电源设备",
+      "concepts": [],
+      "products": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "射频电源半导体零部件，国产化率50%+"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "002371": {
+      "name": "北方华创",
+      "code": "002371",
+      "board": "SZ",
+      "industry": "机械设备 - 专用设备 - 半导体设备",
+      "concepts": [
+        "磷化铟",
+        "半导体材料",
+        "AI算力"
+      ],
+      "products": [
+        "磷化铟MOCVD设备"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "射频电源布局",
+            "收购芯源微"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "002149": {
+      "name": "西部材料",
+      "code": "002149",
+      "board": "SZ",
+      "industry": "有色金属-小金属-其他小金属",
+      "concepts": [
+        "商业航天",
+        "航空发动机",
+        "卫星导航",
+        "可控核聚变",
+        "超导概念",
+        "军工",
+        "核电",
+        "海工装备",
+        "柔性屏(折叠屏)",
+        "5G",
+        "专精特新",
+        "燃料电池",
+        "西部大开发",
+        "氢能源",
+        "小金属概念",
+        "国企改革",
+        "医疗器械概念",
+        "俄乌冲突概念",
+        "深股通",
+        "融资融券"
+      ],
+      "products": [
+        "平台"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "SpaceX链核心卡位"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "300136": {
+      "name": "信维通信",
+      "code": "300136",
+      "board": "SZ",
+      "industry": "电子-消费电子-消费电子零部件及组装",
+      "concepts": [
+        "5G",
+        "人民币贬值受益",
+        "天线",
+        "深股通",
+        "融资融券",
+        "无人机",
+        "机器人",
+        "粤港澳大湾区",
+        "卫星导航",
+        "特斯拉概念",
+        "无线充电",
+        "WiFi 6",
+        "毫米波雷达",
+        "富士康概念",
+        "无线耳机",
+        "机器人概念",
+        "汽车电子",
+        "商业航天",
+        "同花顺果指数",
+        "智能音箱",
+        "虚拟现实",
+        "6G概念",
+        "华为概念",
+        "回购增持再贷款概念",
+        "AI眼镜",
+        "荣耀产业链",
+        "海峡两岸",
+        "柔性屏(折叠屏)",
+        "智能穿戴",
+        "一带一路",
+        "消费电子概念",
+        "低空经济",
+        "车联网(车路协同)",
+        "苹果概念",
+        "物联网"
+      ],
+      "products": [
+        "平台",
+        "作为核心",
+        "\"中国"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "SpaceX链"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "688387": {
+      "name": "信科移动",
+      "code": "688387",
+      "board": "SH",
+      "industry": "通信-通信设备-通信网络设备及器件",
+      "concepts": [
+        "卫星导航",
+        "商业航天",
+        "6G概念",
+        "低空经济",
+        "网络安全",
+        "车联网(车路协同)",
+        "人工智能",
+        "DeepSeek概念",
+        "东数西算(算力)",
+        "机器视觉",
+        "物联网",
+        "工业互联网",
+        "5G",
+        "专精特新",
+        "芯片概念",
+        "AI应用",
+        "央企国企改革",
+        "国企改革",
+        "沪股通",
+        "融资融券"
+      ],
+      "products": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "全球5G NTN卡位，受益手机直连卫星"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "300432": {
+      "name": "富临精工",
+      "code": "300432",
+      "board": "SZ",
+      "industry": "汽车 - 汽车零部件 - 发动机零部件",
+      "concepts": [
+        "新能源汽车",
+        "机器人",
+        "军工",
+        "特斯拉",
+        "比亚迪概念",
+        "西部大开发",
+        "华为概念",
+        "股权转让(并购重组)",
+        "小米概念",
+        "汽车热管理",
+        "盐湖提锂",
+        "低空经济",
+        "储能",
+        "人形机器人",
+        "锂电池概念",
+        "长安汽车概念",
+        "融资融券",
+        "小米汽车",
+        "宁德时代概念",
+        "深股通",
+        "磷化工",
+        "华为汽车",
+        "机器人概念",
+        "减速器",
+        "锂电池"
+      ],
+      "products": [
+        "4 代铁锂",
+        "5 代铁锂",
+        "磷酸二氢锂",
+        "草酸",
+        "草酸亚铁",
+        "磷酸铁锂"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "预计26年归母净利18亿"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "600276": {
+      "name": "恒瑞医药",
+      "code": "600276",
+      "board": "SH",
+      "industry": "医药生物-化学制药-化学制剂",
+      "concepts": [
+        "减肥药",
+        "细胞免疫治疗",
+        "创新药",
+        "眼科医疗",
+        "仿制药一致性评价",
+        "辅助生殖",
+        "同花顺漂亮100",
+        "证金持股",
+        "沪股通",
+        "融资融券"
+      ],
+      "products": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "与BMS达成全球战略合作，总规模152亿美元"
+          ],
+          "insights": [],
+          "key_metrics": [
+            "13个潜在FIC/BIC项目"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "688041": {
+      "name": "海光信息",
+      "code": "688041",
+      "board": "SH",
+      "industry": "电子-半导体-数字芯片设计",
+      "concepts": [
+        "中国AI 50",
+        "东数西算(算力)",
+        "芯片概念",
+        "阿里巴巴概念",
+        "腾讯概念",
+        "抖音概念(字节概念)",
+        "信创",
+        "百度概念",
+        "人工智能",
+        "DeepSeek概念",
+        "同花顺中特估100",
+        "沪股通",
+        "融资融券"
+      ],
+      "products": [
+        "芯片",
+        "服务器",
+        "平台",
+        "系统"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [],
+          "insights": [
+            "国产GPU/CPU，AI自主可控"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "688256": {
+      "name": "寒武纪",
+      "code": "688256",
+      "board": "SH",
+      "industry": "电子-半导体-数字芯片设计",
+      "concepts": [
+        "电池",
+        "锂电",
+        "中国AI 50",
+        "汽车芯片",
+        "先进封装",
+        "东数西算(算力)",
+        "同花顺新质50",
+        "芯片概念",
+        "数据中心",
+        "国产操作系统",
+        "阿里巴巴概念",
+        "人工智能",
+        "沪股通",
+        "融资融券"
+      ],
+      "products": [
+        "芯片"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [],
+          "insights": [
+            "国产算力"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "300570": {
+      "name": "太辰光",
+      "code": "300570",
+      "board": "SZ",
+      "industry": "通信-通信设备-通信网络设备及器件",
+      "concepts": [
+        "铜缆高速连接",
+        "光芯片",
+        "芯片概念",
+        "光纤概念",
+        "共封装光学(CPO)",
+        "深股通",
+        "光器件",
+        "CPO",
+        "数据中心",
+        "传感器",
+        "融资融券",
+        "人民币贬值受益",
+        "F5G概念",
+        "5G",
+        "高速互连"
+      ],
+      "products": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "直接受益OpenAI MRC协议，光连接需求扩大8倍"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "300502": {
+      "name": "新易盛",
+      "code": "300502",
+      "board": "SZ",
+      "industry": "通信-通信设备-通信网络设备及器件",
+      "concepts": [
+        "AI",
+        "算力",
+        "共封装光学(CPO)",
+        "5G",
+        "中国AI 50",
+        "芯片概念",
+        "深股通",
+        "数据中心",
+        "2025年报预增",
+        "人民币贬值受益",
+        "西部大开发",
+        "融资融券"
+      ],
+      "products": [
+        "芯片",
+        "光模块"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "Q2物料供应大幅修复"
+          ],
+          "insights": [
+            "市场份额集中度提升"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "688008": {
+      "name": "澜起科技",
+      "code": "688008",
+      "board": "SH",
+      "industry": "电子-半导体-芯片设计",
+      "concepts": [
+        "内存接口芯片",
+        "DDR5",
+        "HBM3",
+        "AI服务器",
+        "内存接口芯片"
+      ],
+      "products": [
+        "内存接口芯片",
+        "DDR5接口芯片",
+        "HBM3控制器"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "MRDIMM起量单机价值量提升",
+            "CXL内存池化新市场"
+          ],
+          "insights": [],
+          "key_metrics": [
+            "AI服务器CPU需求大增"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "603050": {
+      "name": "科林电气",
+      "code": "603050",
+      "board": "",
+      "industry": "电力设备 - 输变电设备 - 配电柜",
+      "concepts": [],
+      "products": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "纳入字节跳动AIDC白名单"
+          ],
+          "insights": [
+            "配电柜核心供应商，订单预期巨大"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "300351": {
+      "name": "永贵电器",
+      "code": "300351",
+      "board": "SZ",
+      "industry": "机械设备-轨交设备-轨交设备Ⅲ",
+      "concepts": [
+        "液冷服务器",
+        "5G",
+        "光纤概念",
+        "高压快充",
+        "无人机",
+        "军工",
+        "海工装备",
+        "商业航天",
+        "比亚迪概念",
+        "军民融合",
+        "新能源汽车",
+        "数据中心",
+        "共封装光学(CPO)",
+        "人形机器人",
+        "卫星导航",
+        "高铁",
+        "充电桩",
+        "低空经济",
+        "机器人概念",
+        "储能",
+        "换电概念",
+        "华为汽车",
+        "风电",
+        "华为概念",
+        "长安汽车概念",
+        "锂电池概念",
+        "一带一路",
+        "共同富裕示范区",
+        "深股通",
+        "融资融券"
+      ],
+      "products": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "深度绑定昇腾链，提供液冷Busbar/UQD接头"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "600330": {
+      "name": "天通股份",
+      "code": "600330",
+      "board": "SH",
+      "industry": "电子-电子化学品-电子化学品Ⅲ",
+      "concepts": [
+        "PCB概念",
+        "商业航天",
+        "第三代半导体",
+        "5G",
+        "卫星导航",
+        "毫米波雷达",
+        "光伏概念",
+        "先进封装",
+        "高端装备",
+        "军工",
+        "无线充电",
+        "OLED",
+        "汽车电子",
+        "芯片概念",
+        "储能",
+        "数据中心",
+        "新能源汽车",
+        "量子科技",
+        "充电桩",
+        "AI眼镜",
+        "锂电池概念",
+        "智能穿戴",
+        "长三角一体化",
+        "固废处理",
+        "创投",
+        "智能物流",
+        "乡村振兴",
+        "融资融券",
+        "沪股通"
+      ],
+      "products": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "薄膜铌酸锂TFLN下一代核心材料，几乎可覆盖全部AI光通信场景"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "688603": {
+      "name": "天承科技",
+      "code": "688603",
+      "board": "SH",
+      "industry": "化工 - 化学制品 - 电子化学品",
+      "concepts": [
+        "TGV技术",
+        "玻璃基板",
+        "先进封装",
+        "AI芯片"
+      ],
+      "products": [
+        "TGV电镀液添加剂",
+        "电镀材料"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "MSAP工艺电镀药水需求激增"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "300480": {
+      "name": "光力科技",
+      "code": "300480",
+      "board": "",
+      "industry": "机械设备 - 自动化设备 - 仪器仪表",
+      "concepts": [
+        "科技"
+      ],
+      "products": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "划片机交付同比增300%"
+          ],
+          "insights": [
+            "立志做中国的Disco，拓展激光划片机"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "688392": {
+      "name": "骄成超声",
+      "code": "688392",
+      "board": "",
+      "industry": "",
+      "concepts": [],
+      "products": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "获存储大厂订单"
+          ],
+          "insights": [
+            "半导体超声检测实现0到1突破"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "300903": {
+      "name": "科翔股份",
+      "code": "300903",
+      "board": "",
+      "industry": "电子 - 半导体 - PCB",
+      "concepts": [],
+      "products": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "具备自研陶瓷团队的PCB厂商龙头"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "600353": {
+      "name": "旭光电子",
+      "code": "600353",
+      "board": "",
+      "industry": "电子 - 半导体 - 电子材料",
+      "concepts": [
+        "科技"
+      ],
+      "products": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "国内唯一实现氮化铝粉体到基板全产业链自给"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "603319": {
+      "name": "美湖股份",
+      "code": "603319",
+      "board": "",
+      "industry": "汽车 - 汽车零部件 - 发动机零部件",
+      "concepts": [],
+      "products": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "与七腾机器人签订9.43亿元采购合同"
+          ],
+          "insights": [],
+          "key_metrics": [
+            "机器人执行器创零部件订单记录"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "000672": {
+      "name": "上峰水泥",
+      "code": "000672",
+      "board": "SZ",
+      "industry": "建筑材料-建筑材料-水泥",
+      "concepts": [
+        "水泥概念",
+        "一带一路",
+        "西部大开发",
+        "创投",
+        "储能",
+        "绿色电力",
+        "深股通",
+        "融资融券"
+      ],
+      "products": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "收购IC基板公司美琪电路"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "301373": {
+      "name": "凌玮科技",
+      "code": "301373",
+      "board": "",
+      "industry": "化工 - 化工新材料 - 纳米材料",
+      "concepts": [
+        "科技"
+      ],
+      "products": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [],
+          "insights": [
+            "正交背板材料升级方向M9Q"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "300395": {
+      "name": "菲利华",
+      "code": "300395",
+      "board": "SZ",
+      "industry": "国防军工-军工装备-航空装备",
+      "concepts": [
+        "PCB概念",
+        "OLED",
+        "5G",
+        "芯片概念",
+        "光伏概念",
+        "同花顺新质50",
+        "融资融券",
+        "深股通"
+      ],
+      "products": [
+        "石英纤维",
+        "电子布",
+        "光模块",
+        "万米",
+        "是 AI 算力"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [],
+          "insights": [
+            "正交背板材料升级方向M9Q"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "601208": {
+      "name": "东材科技",
+      "code": "601208",
+      "board": "SH",
+      "industry": "基础化工-塑料制品-膜材料",
+      "concepts": [
+        "科技"
+      ],
+      "products": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [],
+          "insights": [
+            "正交背板材料升级方向M9Q"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "301196": {
+      "name": "唯科科技",
+      "code": "301196",
+      "board": "SZ",
+      "industry": "电力设备 - 电池 - 锂电池",
+      "concepts": [
+        "锂电池",
+        "新能源汽车",
+        "储能",
+        "宁德时代概念",
+        "小米概念",
+        "机器人概念",
+        "消费电子概念",
+        "PEEK材料",
+        "三胎概念",
+        "海峡两岸",
+        "新型烟草(电子烟)",
+        "光纤概念",
+        "养老概念",
+        "专精特新",
+        "融资融券",
+        "福建自贸区",
+        "医疗器械概念",
+        "家用电器",
+        "深股通",
+        "宠物经济",
+        "CPO 概念",
+        "数据中心",
+        "AI",
+        "算力",
+        "新能源",
+        "MPO",
+        "电子"
+      ],
+      "products": [
+        "塑胶模具",
+        "MPO 插芯",
+        "MPO 总成",
+        "MPO"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "MPO连接和MT插芯受益MRC协议"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "301363": {
+      "name": "美好医疗",
+      "code": "301363",
+      "board": "SZ",
+      "industry": "医药生物-医疗器械-医疗设备",
+      "concepts": [
+        "脑机接口",
+        "CRO概念",
+        "减肥药",
+        "医疗器械概念",
+        "PEEK材料",
+        "传感器",
+        "机器人概念",
+        "消费电子概念",
+        "人民币贬值受益",
+        "深股通",
+        "融资融券"
+      ],
+      "products": [
+        "设备"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "联合海泰新光，补充MPO方向"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "002787": {
+      "name": "华源控股",
+      "code": "002787",
+      "board": "",
+      "industry": "电子 - 消费电子 - 包装",
+      "concepts": [],
+      "products": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "布局光模块，华源宏澄科技成立"
+          ],
+          "insights": [
+            "5月金股"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "300004": {
+      "name": "南风股份",
+      "code": "300004",
+      "board": "",
+      "industry": "机械设备 - 通用设备 - 3D打印",
+      "concepts": [],
+      "products": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "与公大激光合作开发XPO液冷"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "300667": {
+      "name": "商业航天",
+      "code": "300667",
+      "board": "",
+      "industry": "科技",
+      "concepts": [
+        "军工"
+      ],
+      "products": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [],
+          "insights": [
+            "六轴耦合台用于光模块封装800G/1.6T"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "002273": {
+      "name": "水晶光电",
+      "code": "002273",
+      "board": "SZ",
+      "industry": "电子-光学光电子-光学元件",
+      "concepts": [
+        "AI眼镜",
+        "华为手机",
+        "同花顺果指数",
+        "智能座舱",
+        "消费电子概念",
+        "汽车电子",
+        "智能穿戴",
+        "苹果概念",
+        "比亚迪概念",
+        "华为汽车",
+        "AI手机",
+        "小米概念",
+        "长安汽车概念",
+        "人形机器人",
+        "机器人概念",
+        "华为概念",
+        "人民币贬值受益",
+        "安防",
+        "储能",
+        "虚拟现实",
+        "元宇宙",
+        "深股通",
+        "融资融券"
+      ],
+      "products": [
+        "设备"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [],
+          "insights": [
+            "光通信板块关注标的"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "688502": {
+      "name": "茂莱光学",
+      "code": "688502",
+      "board": "SH",
+      "industry": "电子-光学光电子-光学元件",
+      "concepts": [
+        "光刻机",
+        "光刻胶",
+        "芯片概念",
+        "智能穿戴",
+        "专精特新",
+        "无人驾驶",
+        "机器视觉",
+        "人民币贬值受益",
+        "虚拟现实",
+        "基因测序",
+        "眼科医疗",
+        "沪股通",
+        "融资融券"
+      ],
+      "products": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [],
+          "insights": [
+            "光通信板块关注标的"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "300131": {
+      "name": "英唐智控",
+      "code": "300131",
+      "board": "",
+      "industry": "电子 - 半导体 - 电子元器件",
+      "concepts": [],
+      "products": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [],
+          "insights": [
+            "光通信板块关注标的"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "688127": {
+      "name": "蓝特光学",
+      "code": "688127",
+      "board": "",
+      "industry": "",
+      "concepts": [],
+      "products": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [],
+          "insights": [
+            "光通信板块关注标的"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "301348": {
+      "name": "蓝箭电子",
+      "code": "301348",
+      "board": "",
+      "industry": "电子 - 半导体 - 集成电路封测",
+      "concepts": [
+        "科技"
+      ],
+      "products": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [],
+          "insights": [
+            "先进封装板块"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "603386": {
+      "name": "骏亚科技",
+      "code": "603386",
+      "board": "SH",
+      "industry": "电子-元件-印制电路板",
+      "concepts": [
+        "毫米波雷达",
+        "PCB概念",
+        "人形机器人",
+        "汽车电子",
+        "光纤概念",
+        "5G",
+        "小米概念",
+        "比亚迪概念",
+        "机器人概念",
+        "卫星导航",
+        "华为概念",
+        "医疗器械概念"
+      ],
+      "products": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [],
+          "insights": [
+            "陶瓷基板方向"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "603986": {
+      "name": "兆易创新",
+      "code": "603986",
+      "board": "SH",
+      "industry": "电子-半导体-芯片设计",
+      "concepts": [
+        "存储芯片",
+        "NOR Flash",
+        "MCU",
+        "利基DRAM",
+        "车规级MCU",
+        "AI服务器"
+      ],
+      "products": [
+        "NOR Flash",
+        "MCU",
+        "利基DRAM",
+        "LPDDR5X"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "HBM产能结构性紧缺，排产至2027年"
+          ],
+          "key_metrics": [
+            "韩国4月存储芯片出口同比+278%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "688766": {
+      "name": "普冉股份",
+      "code": "688766",
+      "board": "SH",
+      "industry": "电子-半导体-数字芯片设计",
+      "concepts": [
+        "存储芯片",
+        "MCU芯片",
+        "芯片概念",
+        "汽车电子",
+        "小米概念",
+        "华为概念",
+        "融资融券",
+        "沪股通"
+      ],
+      "products": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "AI驱动存储需求"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "300223": {
+      "name": "北京君正",
+      "code": "300223",
+      "board": "SZ",
+      "industry": "电子-半导体-数字芯片设计",
+      "concepts": [
+        "存储芯片",
+        "汽车芯片",
+        "MCU芯片",
+        "OLED",
+        "芯片概念",
+        "MiniLED",
+        "汽车电子",
+        "消费电子概念",
+        "AI眼镜",
+        "传感器",
+        "小米概念",
+        "3D打印",
+        "智能座舱",
+        "智能音箱",
+        "无人驾驶",
+        "人民币贬值受益",
+        "机器人概念",
+        "机器视觉",
+        "家用电器",
+        "智能家居",
+        "物联网",
+        "安防",
+        "人脸识别",
+        "京津冀一体化",
+        "人工智能",
+        "抖音概念(字节概念)",
+        "鸿蒙概念",
+        "区块链",
+        "深股通",
+        "融资融券"
+      ],
+      "products": [
+        "芯片"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "AI驱动存储需求"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "688110": {
+      "name": "东芯股份",
+      "code": "688110",
+      "board": "SH",
+      "industry": "电子-半导体-数字芯片设计",
+      "concepts": [
+        "汽车芯片",
+        "存储芯片",
+        "消费电子概念",
+        "智能穿戴",
+        "芯片概念",
+        "5G",
+        "安防",
+        "车联网(车路协同)",
+        "专精特新",
+        "回购增持再贷款概念",
+        "沪股通",
+        "融资融券"
+      ],
+      "products": [
+        "芯片"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "AI驱动存储需求"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "300475": {
+      "name": "香农芯创",
+      "code": "300475",
+      "board": "SZ",
+      "industry": "电子-其他电子-其他电子Ⅲ",
+      "concepts": [
+        "存储芯片",
+        "芯片概念",
+        "2025年报预增",
+        "数据中心",
+        "阿里巴巴概念",
+        "抖音概念(字节概念)",
+        "腾讯概念",
+        "人民币贬值受益",
+        "粤港澳大湾区",
+        "家用电器",
+        "深股通",
+        "融资融券"
+      ],
+      "products": [
+        "芯片",
+        "服务器"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "AI驱动存储需求"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "300857": {
+      "name": "协创数据",
+      "code": "300857",
+      "board": "SZ",
+      "industry": "电子-消费电子-消费电子零部件及组装",
+      "concepts": [
+        "消费电子",
+        "数据中心",
+        "存储"
+      ],
+      "products": [
+        "AI算力服务",
+        "高性能算力租赁"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "AI驱动存储需求"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "001287": {
+      "name": "中电港",
+      "code": "001287",
+      "board": "SZ",
+      "industry": "电子-其他电子-其他电子Ⅲ",
+      "concepts": [
+        "存储芯片",
+        "MCU芯片",
+        "国家大基金持股",
+        "芯片概念",
+        "华为海思概念股",
+        "无线耳机",
+        "消费电子概念",
+        "汽车电子",
+        "小米概念",
+        "智能座舱",
+        "富士康概念",
+        "毫米波雷达",
+        "星闪概念",
+        "英伟达概念",
+        "人形机器人",
+        "WiFi 6",
+        "比亚迪概念",
+        "小米汽车",
+        "机器视觉",
+        "机器人概念",
+        "新能源汽车",
+        "物联网",
+        "低空经济",
+        "卫星导航",
+        "语音技术",
+        "智能家居",
+        "长安汽车概念",
+        "粤港澳大湾区",
+        "储能",
+        "核污染防治",
+        "网络安全",
+        "充电桩",
+        "智能物流",
+        "人工智能",
+        "数据要素",
+        "DeepSeek概念",
+        "智能电网",
+        "央企国企改革",
+        "跨境电商",
+        "国企改革",
+        "乡村振兴",
+        "深股通",
+        "中字头股票",
+        "融资融券"
+      ],
+      "products": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "AI驱动存储需求"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "688525": {
+      "name": "佰维存储",
+      "code": "688525",
+      "board": "SH",
+      "industry": "电子-半导体-数字芯片设计",
+      "concepts": [
+        "存储芯片",
+        "国家大基金持股",
+        "汽车芯片",
+        "AI手机",
+        "AI PC",
+        "先进封装",
+        "芯片概念",
+        "AI眼镜",
+        "2025年报预增",
+        "消费电子概念",
+        "智能穿戴",
+        "数据中心",
+        "小米概念",
+        "专精特新",
+        "华为概念",
+        "机器人概念",
+        "信创",
+        "粤港澳大湾区",
+        "阿里巴巴概念",
+        "沪股通",
+        "融资融券"
+      ],
+      "products": [
+        "芯片",
+        "平台"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "AI驱动存储需求"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "001309": {
+      "name": "德明利",
+      "code": "001309",
+      "board": "SZ",
+      "industry": "电子-半导体-数字芯片设计",
+      "concepts": [
+        "算力",
+        "存储",
+        "芯片",
+        "AI",
+        "存储芯片",
+        "AIPC",
+        "中芯国际概念",
+        "共封装光学(CPO)",
+        "2025年报预增",
+        "芯片概念",
+        "汽车电子",
+        "智能穿戴",
+        "数据中心",
+        "专精特新",
+        "粤港澳大湾区",
+        "人民币贬值受益",
+        "人工智能",
+        "融资融券",
+        "深股通"
+      ],
+      "products": [
+        "芯片"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "AI驱动存储需求"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "301308": {
+      "name": "江波龙",
+      "code": "301308",
+      "board": "SZ",
+      "industry": "电子-半导体-数字芯片设计",
+      "concepts": [
+        "存储芯片",
+        "国家大基金持股",
+        "AI PC",
+        "AI手机",
+        "EDR概念",
+        "先进封装",
+        "芯片概念",
+        "AI眼镜",
+        "2025年报预增",
+        "消费电子概念",
+        "智能穿戴",
+        "智能座舱",
+        "数据中心",
+        "小米概念",
+        "专精特新",
+        "数据安全",
+        "信创",
+        "华为概念",
+        "机器人概念",
+        "华为鲲鹏",
+        "小米汽车",
+        "人民币贬值受益",
+        "深股通",
+        "融资融券"
+      ],
+      "products": [
+        "芯片"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "AI驱动存储需求"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "688279": {
+      "name": "峰岹科技",
+      "code": "688279",
+      "board": "",
+      "industry": "",
+      "concepts": [
+        "科技"
+      ],
+      "products": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "AIDC风冷风扇需求不减"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "600869": {
+      "name": "远东股份",
+      "code": "600869",
+      "board": "",
+      "industry": "电力设备 - 电缆 - 电线电缆",
+      "concepts": [],
+      "products": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "AIDC光纤配套"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "300852": {
+      "name": "四会富仕",
+      "code": "300852",
+      "board": "SZ",
+      "industry": "电子-元件-印制电路板",
+      "concepts": [
+        "PCB",
+        "工控",
+        "机器人",
+        "人形机器人",
+        "汽车电子",
+        "泰国基地",
+        "伺服电机"
+      ],
+      "products": [
+        "高多层板",
+        "HDI板",
+        "厚铜板",
+        "金属基板",
+        "陶瓷基板",
+        "软硬结合板",
+        "高频高速板",
+        "埋嵌铜块基板",
+        "PCB电机定子"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "PCB方向"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "688652": {
+      "name": "京仪装备",
+      "code": "688652",
+      "board": "",
+      "industry": "",
+      "concepts": [],
+      "products": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "半导体设备方向"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "688072": {
+      "name": "拓荆科技",
+      "code": "688072",
+      "board": "SH",
+      "industry": "电子-半导体-半导体设备",
+      "concepts": [
+        "国家大基金持股",
+        "存储芯片",
+        "先进封装",
+        "芯片概念",
+        "沪股通",
+        "融资融券"
+      ],
+      "products": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "半导体设备方向"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "688536": {
+      "name": "思瑞浦",
+      "code": "688536",
+      "board": "",
+      "industry": "",
+      "concepts": [],
+      "products": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "模拟芯片Q1业绩超预期"
+          ],
+          "insights": [
+            "模拟芯片复苏周期"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "688052": {
+      "name": "纳芯微",
+      "code": "688052",
+      "board": "SH",
+      "industry": "电子-半导体-模拟芯片设计",
+      "concepts": [
+        "MCU芯片",
+        "汽车芯片",
+        "先进封装",
+        "芯片概念",
+        "传感器",
+        "消费电子概念",
+        "人形机器人",
+        "新能源汽车",
+        "机器人概念",
+        "物联网",
+        "沪股通",
+        "融资融券"
+      ],
+      "products": [
+        "隔离芯片",
+        "驱动芯片"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "模拟芯片Q1业绩超预期"
+          ],
+          "insights": [
+            "模拟芯片复苏周期"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "300661": {
+      "name": "圣邦股份",
+      "code": "300661",
+      "board": "SZ",
+      "industry": "电子-半导体-模拟芯片设计",
+      "concepts": [
+        "汽车芯片",
+        "汽车电子",
+        "消费电子概念",
+        "芯片概念",
+        "无线耳机",
+        "传感器",
+        "OLED",
+        "专精特新",
+        "锂电池概念",
+        "人工智能",
+        "融资融券",
+        "深股通"
+      ],
+      "products": [
+        "芯片"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "模拟芯片复苏"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "688141": {
+      "name": "杰华特",
+      "code": "688141",
+      "board": "",
+      "industry": "",
+      "concepts": [],
+      "products": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "模拟芯片复苏"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "300408": {
+      "name": "三环集团",
+      "code": "300408",
+      "board": "SZ",
+      "industry": "电子-元件-被动元件",
+      "concepts": [
+        "光纤概念",
+        "共封装光学(CPO)",
+        "5G",
+        "消费电子概念",
+        "燃料电池",
+        "小米概念",
+        "数据中心",
+        "华为概念",
+        "深股通",
+        "证金持股",
+        "融资融券"
+      ],
+      "products": [
+        "服务器"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "MLCC涨价"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "000636": {
+      "name": "风华高科",
+      "code": "000636",
+      "board": "SZ",
+      "industry": "电子-元件-被动元件",
+      "concepts": [
+        "小金属概念",
+        "超级电容",
+        "共封装光学(CPO)",
+        "AI眼镜",
+        "汽车电子",
+        "商业航天",
+        "5G",
+        "无人机",
+        "卫星导航",
+        "传感器",
+        "高压快充",
+        "液冷服务器",
+        "光伏概念",
+        "智能穿戴",
+        "比亚迪概念",
+        "低空经济",
+        "锂电池概念",
+        "机器人概念",
+        "储能",
+        "粤港澳大湾区",
+        "华为概念",
+        "国企改革",
+        "创投",
+        "东数西算(算力)",
+        "深股通",
+        "融资融券"
+      ],
+      "products": [
+        "芯片",
+        "服务器"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "MLCC涨价"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "688235": {
+      "name": "百济神州",
+      "code": "688235",
+      "board": "SH",
+      "industry": "医药生物-化学制药-化学制剂",
+      "concepts": [
+        "创新药",
+        "人民币贬值受益",
+        "同花顺出海50",
+        "沪股通",
+        "融资融券"
+      ],
+      "products": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "创新药医保政策利好"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "300142": {
+      "name": "沃森生物",
+      "code": "300142",
+      "board": "",
+      "industry": "医药生物 - 生物制品 - 疫苗",
+      "concepts": [
+        "医疗"
+      ],
+      "products": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "mRNA技术方向"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "600031": {
+      "name": "三一重工",
+      "code": "600031",
+      "board": "SH",
+      "industry": "机械设备-工程机械-工程机械Ⅲ",
+      "concepts": [
+        "同花顺出海50",
+        "雅下水电概念",
+        "人民币贬值受益",
+        "高端装备",
+        "无人驾驶",
+        "农机",
+        "机器人概念",
+        "工业互联网",
+        "一带一路",
+        "同花顺漂亮100",
+        "证金持股",
+        "沪股通",
+        "融资融券",
+        "新疆振兴"
+      ],
+      "products": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "4月挖机数据超预期"
+          ],
+          "insights": [],
+          "key_metrics": [
+            "工程机械出海"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "000425": {
+      "name": "徐工机械",
+      "code": "000425",
+      "board": "SZ",
+      "industry": "机械设备-工程机械-工程机械Ⅲ",
+      "concepts": [
+        "同花顺出海50",
+        "雅下水电概念",
+        "农机",
+        "高端装备",
+        "一带一路",
+        "军工",
+        "国企改革",
+        "无人驾驶",
+        "证金持股",
+        "机器人概念",
+        "工业互联网",
+        "深股通",
+        "融资融券"
+      ],
+      "products": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "工程机械板块"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "000157": {
+      "name": "中联重科",
+      "code": "000157",
+      "board": "SZ",
+      "industry": "机械设备-工程机械-工程机械Ⅲ",
+      "concepts": [
+        "高端装备",
+        "雅下水电概念",
+        "农机",
+        "人形机器人",
+        "新型工业化",
+        "无人驾驶",
+        "无人机",
+        "人民币贬值受益",
+        "燃料电池",
+        "机器人概念",
+        "工业互联网",
+        "水利",
+        "固态电池",
+        "一带一路",
+        "氢能源",
+        "物联网",
+        "人工智能",
+        "东数西算(算力)",
+        "百度概念",
+        "乡村振兴",
+        "证金持股",
+        "深股通",
+        "融资融券"
+      ],
+      "products": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "工程机械板块"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "000528": {
+      "name": "柳工",
+      "code": "000528",
+      "board": "",
+      "industry": "机械设备 - 工程机械 - 土方机械",
+      "concepts": [],
+      "products": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "工程机械板块"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "601100": {
+      "name": "恒立液压",
+      "code": "601100",
+      "board": "SH",
+      "industry": "机械设备-工程机械-工程机械Ⅲ",
+      "concepts": [
+        "高端装备",
+        "同花顺出海50",
+        "中国AI 50",
+        "同花顺漂亮100",
+        "沪股通",
+        "融资融券"
+      ],
+      "products": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "工程机械液压件"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "603019": {
+      "name": "中科曙光",
+      "code": "603019",
+      "board": "SH",
+      "industry": "计算机-计算机设备-其他计算机设备",
+      "concepts": [
+        "航天轴承",
+        "金刚石散热",
+        "半导体设备",
+        "AI 服务器",
+        "交换机",
+        "商业航天",
+        "国产替代"
+      ],
+      "products": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "国产算力"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "688047": {
+      "name": "龙芯中科",
+      "code": "688047",
+      "board": "SH",
+      "industry": "电子-半导体-数字芯片设计",
+      "concepts": [
+        "国产操作系统",
+        "信创",
+        "鸿蒙概念",
+        "百度概念",
+        "东数西算(算力)",
+        "商业航天",
+        "DeepSeek概念",
+        "MCU芯片",
+        "汽车芯片",
+        "芯片概念",
+        "机器人概念",
+        "沪股通",
+        "融资融券"
+      ],
+      "products": [
+        "芯片"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "国产CPU"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "002290": {
+      "name": "禾盛新材",
+      "code": "002290",
+      "board": "",
+      "industry": "轻工制造 - 包装印刷 - 金属包装",
+      "concepts": [],
+      "products": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "国产算力"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "000066": {
+      "name": "中国长城",
+      "code": "000066",
+      "board": "SZ",
+      "industry": "计算机-计算机设备-其他计算机设备",
+      "concepts": [
+        "国产操作系统",
+        "数据安全",
+        "华为鲲鹏",
+        "信创",
+        "网络安全",
+        "中国AI 50",
+        "东数西算(算力)",
+        "百度概念",
+        "AI PC",
+        "量子科技",
+        "区块链",
+        "智慧城市",
+        "车联网(车路协同)",
+        "数字经济",
+        "DeepSeek概念",
+        "人工智能",
+        "数据中心",
+        "华为概念",
+        "卫星导航",
+        "商业航天",
+        "军民融合",
+        "军工",
+        "5G",
+        "智能电网",
+        "芯片概念",
+        "粤港澳大湾区",
+        "消费电子概念",
+        "汽车电子",
+        "海工装备",
+        "液冷服务器",
+        "央企国企改革",
+        "锂电池概念",
+        "国企改革",
+        "钠离子电池",
+        "深股通",
+        "中字头股票",
+        "融资融券"
+      ],
+      "products": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "国产算力"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "600584": {
+      "name": "长电科技",
+      "code": "600584",
+      "board": "SH",
+      "industry": "电子 - 半导体 - 集成电路封测",
+      "concepts": [
+        "TGV技术",
+        "玻璃基板",
+        "先进封装",
+        "AI芯片"
+      ],
+      "products": [
+        "TGV封装产品",
+        "先进封装服务"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "先进封装方向"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "002156": {
+      "name": "通富微电",
+      "code": "002156",
+      "board": "SZ",
+      "industry": "电子 - 半导体 - 集成电路封测",
+      "concepts": [
+        "TGV技术",
+        "玻璃基板",
+        "先进封装",
+        "AI芯片"
+      ],
+      "products": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "先进封装方向"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "002185": {
+      "name": "华天科技",
+      "code": "002185",
+      "board": "SZ",
+      "industry": "电子-半导体-集成电路封测",
+      "concepts": [
+        "国家大基金持股",
+        "存储芯片",
+        "汽车芯片",
+        "先进封装",
+        "第三代半导体",
+        "芯片概念",
+        "华为海思概念股",
+        "共封装光学(CPO)",
+        "汽车电子",
+        "智能座舱",
+        "传感器",
+        "毫米波雷达",
+        "5G",
+        "无人驾驶",
+        "机器人概念",
+        "华为概念",
+        "西部大开发",
+        "深股通",
+        "融资融券"
+      ],
+      "products": [
+        "芯片"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "先进封装方向"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "300604": {
+      "name": "长川科技",
+      "code": "300604",
+      "board": "SZ",
+      "industry": "电子-半导体-半导体设备",
+      "concepts": [
+        "国家大基金持股",
+        "存储芯片",
+        "芯片概念",
+        "2025年报预增",
+        "专精特新",
+        "2025三季报预增",
+        "海峡两岸",
+        "融资融券",
+        "深股通"
+      ],
+      "products": [
+        "设备"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "先进封装设备方向"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "688362": {
+      "name": "甬矽电子",
+      "code": "688362",
+      "board": "",
+      "industry": "",
+      "concepts": [
+        "科技"
+      ],
+      "products": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "先进封装方向"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "688223": {
+      "name": "晶科能源",
+      "code": "688223",
+      "board": "SH",
+      "industry": "电力设备-光伏设备-光伏电池组件",
+      "concepts": [
+        "BC电池",
+        "钙钛矿电池",
+        "TOPCON电池",
+        "光伏概念",
+        "储能",
+        "同花顺漂亮100",
+        "DeepSeek概念",
+        "人民币贬值受益",
+        "沪股通",
+        "融资融券"
+      ],
+      "products": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "太空光伏方向"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "300751": {
+      "name": "迈为股份",
+      "code": "300751",
+      "board": "SZ",
+      "industry": "电力设备-光伏设备-光伏加工设备",
+      "concepts": [
+        "电池",
+        "钙钛矿电池",
+        "HJT电池",
+        "第三代半导体",
+        "光伏概念",
+        "MicroLED概念",
+        "新型工业化",
+        "高端装备",
+        "芯片概念",
+        "MiniLED",
+        "先进封装",
+        "OLED",
+        "存储芯片",
+        "锂电池概念",
+        "回购增持再贷款概念",
+        "融资融券",
+        "深股通"
+      ],
+      "products": [
+        "设备"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "太空光伏设备方向"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "002865": {
+      "name": "钧达股份",
+      "code": "002865",
+      "board": "SZ",
+      "industry": "电力设备-光伏设备-光伏电池组件",
+      "concepts": [
+        "BC电池",
+        "钙钛矿电池",
+        "TOPCON电池",
+        "商业航天",
+        "光伏概念",
+        "海南自贸区",
+        "新能源汽车",
+        "融资融券",
+        "深股通"
+      ],
+      "products": [
+        "柔性叠层钙钛矿电池"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "太空光伏方向"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "688691": {
+      "name": "灿芯股份",
+      "code": "688691",
+      "board": "SH",
+      "industry": "电子-半导体-集成电路制造",
+      "concepts": [
+        "汽车芯片",
+        "存储芯片",
+        "MCU芯片",
+        "芯片概念",
+        "中芯国际概念",
+        "小米概念",
+        "5G",
+        "专精特新",
+        "卫星导航",
+        "上海自贸区",
+        "沪股通",
+        "融资融券"
+      ],
+      "products": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "国产芯片设计服务"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "688220": {
+      "name": "翱捷科技",
+      "code": "688220",
+      "board": "",
+      "industry": "",
+      "concepts": [
+        "科技"
+      ],
+      "products": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "国产算力"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    },
+    "603353": {
+      "name": "和顺石油",
+      "code": "603353",
+      "board": "",
+      "industry": "化工 - 石油化工 - 成品油批发",
+      "concepts": [
+        "资源"
+      ],
+      "products": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "通过奎芯科技布局国产算力"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
+    }
+  }
+}

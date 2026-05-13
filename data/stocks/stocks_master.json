@@ -787,15 +787,37 @@
       "industry_position": [],
       "chain": [],
       "partners": [],
-      "mention_count": 1,
+      "mention_count": 3,
       "articles": [
         {
           "date": "",
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "国产算力"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "国产算力"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "000070": {
       "name": "特发信息",
@@ -1062,7 +1084,7 @@
       "industry_position": [],
       "chain": [],
       "partners": [],
-      "mention_count": 1,
+      "mention_count": 3,
       "articles": [
         {
           "date": "2025-10-16",
@@ -1072,9 +1094,31 @@
             "重点关注具有核心技术优势、海外营收占比高的隐形冠军企业",
             "这类主题投资需要结合消息面催化"
           ]
+        },
+        {
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "工程机械板块"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "工程机械板块"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "000158": {
       "name": "常山北明",
@@ -1879,7 +1923,7 @@
         "中游-制造"
       ],
       "partners": [],
-      "mention_count": 1,
+      "mention_count": 4,
       "articles": [
         {
           "date": "2025-03-24",
@@ -1896,9 +1940,31 @@
           ],
           "title": "昨日市场复盘及操作策略，底部尾盘参考，7月10日",
           "source": "https://mp.weixin.qq.com/s/ZF2KyVxAyMpQCAHNn3vA5g"
+        },
+        {
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "工程机械板块"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "工程机械板块"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "000426": {
       "name": "兴业银锡",
@@ -2194,7 +2260,7 @@
       "name": "柳工",
       "code": "000528",
       "board": "",
-      "industry": "深市主板",
+      "industry": "机械设备 - 工程机械 - 土方机械",
       "concepts": [
         "深市主板"
       ],
@@ -2204,8 +2270,31 @@
       "chain": [],
       "partners": [],
       "mention_count": 2,
-      "articles": [],
-      "last_updated": ""
+      "articles": [
+        {
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "工程机械板块"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "工程机械板块"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
     },
     "000532": {
       "name": "华金资本",
@@ -3808,7 +3897,7 @@
         "上游-材料"
       ],
       "partners": [],
-      "mention_count": 2,
+      "mention_count": 3,
       "articles": [
         {
           "date": "",
@@ -3826,9 +3915,31 @@
             "继存储芯片涨价潮后，",
             "成为新一轮涨价主线——韩国现货价飙升近20%，"
           ]
+        },
+        {
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "MLCC涨价"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "MLCC涨价"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "000638": {
       "name": "*ST万方",
@@ -4038,7 +4149,7 @@
         "3. **中游整机制造**"
       ],
       "partners": [],
-      "mention_count": 2,
+      "mention_count": 5,
       "articles": [
         {
           "date": "2026-01-22",
@@ -4066,9 +4177,31 @@
           "accidents": [
             "\\. 消费电子（新品催化）"
           ]
+        },
+        {
+          "title": "AI产业链/Coherent光互联深度",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "子公司金洲精工布局金刚石复合涂层"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "子公司金洲精工布局金刚石复合涂层"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "000659": {
       "name": "珠海中富",
@@ -4228,7 +4361,7 @@
       "industry_position": [],
       "chain": [],
       "partners": [],
-      "mention_count": 0,
+      "mention_count": 4,
       "articles": [
         {
           "date": "2025-09-25",
@@ -4248,9 +4381,31 @@
           "accidents": [
             "政策推动行业供给侧进一步收紧"
           ]
+        },
+        {
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "收购IC基板公司美琪电路"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "收购IC基板公司美琪电路"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "000676": {
       "name": "数字营销",
@@ -8843,7 +8998,7 @@
       ],
       "chain": [],
       "partners": [],
-      "mention_count": 2,
+      "mention_count": 3,
       "articles": [
         {
           "date": "",
@@ -8852,9 +9007,31 @@
           ],
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "AI驱动存储需求"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "AI驱动存储需求"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "001288": {
       "name": "运机集团",
@@ -9050,9 +9227,31 @@
           ],
           "title": "12月9日，复盘及操作策略，指数休整，板块分化，算力继续大涨",
           "source": "https://mp.weixin.qq.com/s/6Y8Sr6azAsI-RTLvEW7zCw"
+        },
+        {
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "AI驱动存储需求"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "AI驱动存储需求"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "001311": {
       "name": "多利科技",
@@ -12983,7 +13182,7 @@
         "上游-材料"
       ],
       "partners": [],
-      "mention_count": 1,
+      "mention_count": 3,
       "articles": [
         {
           "date": "",
@@ -12992,9 +13191,31 @@
           ],
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "title": "AI产业链/Coherent光互联深度",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "SpaceX链核心卡位"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "SpaceX链核心卡位"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "002150": {
       "name": "正泰电源",
@@ -13286,7 +13507,7 @@
         "制造端 - 封装测试"
       ],
       "partners": [],
-      "mention_count": 3,
+      "mention_count": 4,
       "articles": [
         {
           "date": "2026-04-20",
@@ -13312,9 +13533,31 @@
           "insights": [],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "先进封装方向"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "先进封装方向"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": "2026-04-23",
+      "last_updated": "2026-05-13",
       "valuation": {}
     },
     "002157": {
@@ -14126,9 +14369,31 @@
           "accidents": [
             "驱动逻辑明确"
           ]
+        },
+        {
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "先进封装方向"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "先进封装方向"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "002186": {
       "name": "全聚德",
@@ -16736,9 +17001,31 @@
           "accidents": [
             "拿到华为、苹果超8亿元订单"
           ]
+        },
+        {
+          "title": "AI产业链/Coherent光互联深度",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [],
+          "insights": [
+            "光通信板块关注标的"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [],
+          "insights": [
+            "光通信板块关注标的"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "002274": {
       "name": "华昌化工",
@@ -16904,7 +17191,7 @@
         "下游 - 光模块"
       ],
       "partners": [],
-      "mention_count": 3,
+      "mention_count": 4,
       "articles": [
         {
           "key_metrics": [],
@@ -16926,9 +17213,35 @@
           "insights": [],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "title": "AI产业链/Coherent光互联深度",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "参与相干光模块，骨干网技术know-how"
+          ],
+          "insights": [
+            "相干DCI光模块核心标的"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "参与相干光模块，骨干网技术know-how"
+          ],
+          "insights": [
+            "相干DCI光模块核心标的"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": "2026-05-09",
+      "last_updated": "2026-05-13",
       "valuation": {}
     },
     "002283": {
@@ -17054,7 +17367,7 @@
       "name": "禾盛新材",
       "code": "002290",
       "board": "",
-      "industry": "深市主板",
+      "industry": "轻工制造 - 包装印刷 - 金属包装",
       "concepts": [
         "深市主板"
       ],
@@ -17063,9 +17376,32 @@
       "industry_position": [],
       "chain": [],
       "partners": [],
-      "mention_count": 6,
-      "articles": [],
-      "last_updated": ""
+      "mention_count": 2,
+      "articles": [
+        {
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "国产算力"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "国产算力"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
     },
     "002291": {
       "name": "AI应用",
@@ -19053,9 +19389,33 @@
           "date": "2026-04-21",
           "title": "光板块领涨全市场！磷化铟：AI算力卡脖子核心，全产业链标的全梳理（附权威出处）",
           "source": "https://mp.weixin.qq.com/s/5bluU2s8izAKQ9K3Fb2KGA"
+        },
+        {
+          "title": "AI产业链/Coherent光互联深度",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "射频电源布局",
+            "收购芯源微"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "射频电源布局",
+            "收购芯源微"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": "2026-05-09",
+      "last_updated": "2026-05-13",
       "valuation": {}
     },
     "002373": {
@@ -27490,7 +27850,7 @@
       "name": "华源控股",
       "code": "002787",
       "board": "",
-      "industry": "深市主板",
+      "industry": "电子 - 消费电子 - 包装",
       "concepts": [
         "深市主板"
       ],
@@ -27500,8 +27860,35 @@
       "chain": [],
       "partners": [],
       "mention_count": 2,
-      "articles": [],
-      "last_updated": ""
+      "articles": [
+        {
+          "title": "AI产业链/Coherent光互联深度",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "布局光模块，华源宏澄科技成立"
+          ],
+          "insights": [
+            "5月金股"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "布局光模块，华源宏澄科技成立"
+          ],
+          "insights": [
+            "5月金股"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
     },
     "002792": {
       "name": "通宇通讯",
@@ -28748,7 +29135,7 @@
       "partners": [
         "尚翼光电"
       ],
-      "mention_count": 1,
+      "mention_count": 3,
       "articles": [
         {
           "date": "2026-01-25",
@@ -28757,9 +29144,31 @@
           ],
           "title": "风口byTY",
           "source": "https://mp.weixin.qq.com/s/mkqYTYKOm-cwvu_GbldnKw"
+        },
+        {
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "太空光伏方向"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "太空光伏方向"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "002866": {
       "name": "传艺科技",
@@ -32416,7 +32825,7 @@
       "name": "南风股份",
       "code": "300004",
       "board": "",
-      "industry": "创业板",
+      "industry": "机械设备 - 通用设备 - 3D打印",
       "concepts": [
         "创业板"
       ],
@@ -32425,9 +32834,32 @@
       "industry_position": [],
       "chain": [],
       "partners": [],
-      "mention_count": 3,
-      "articles": [],
-      "last_updated": ""
+      "mention_count": 2,
+      "articles": [
+        {
+          "title": "AI产业链/Coherent光互联深度",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "与公大激光合作开发XPO液冷"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "与公大激光合作开发XPO液冷"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
     },
     "300005": {
       "name": "探路者",
@@ -35438,7 +35870,7 @@
       "name": "英唐智控",
       "code": "300131",
       "board": "",
-      "industry": "创业板",
+      "industry": "电子 - 半导体 - 电子元器件",
       "concepts": [
         "创业板"
       ],
@@ -35448,8 +35880,31 @@
       "chain": [],
       "partners": [],
       "mention_count": 2,
-      "articles": [],
-      "last_updated": ""
+      "articles": [
+        {
+          "title": "AI产业链/Coherent光互联深度",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [],
+          "insights": [
+            "光通信板块关注标的"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [],
+          "insights": [
+            "光通信板块关注标的"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
     },
     "300133": {
       "name": "华策影视",
@@ -35570,7 +36025,7 @@
         "平台"
       ],
       "partners": [],
-      "mention_count": 1,
+      "mention_count": 4,
       "articles": [
         {
           "date": "2026-01-01",
@@ -35612,9 +36067,31 @@
             "荣耀机器人通信模组供应商"
           ],
           "target_valuation": []
+        },
+        {
+          "title": "AI产业链/Coherent光互联深度",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "SpaceX链"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "SpaceX链"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": "2026-04-21"
+      "last_updated": "2026-05-13"
     },
     "300138": {
       "name": "、数据确权",
@@ -35713,7 +36190,7 @@
       "name": "沃森生物",
       "code": "300142",
       "board": "",
-      "industry": "创业板",
+      "industry": "医药生物 - 生物制品 - 疫苗",
       "concepts": [
         "医疗"
       ],
@@ -35722,9 +36199,32 @@
       "industry_position": [],
       "chain": [],
       "partners": [],
-      "mention_count": 1,
-      "articles": [],
-      "last_updated": ""
+      "mention_count": 2,
+      "articles": [
+        {
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "mRNA技术方向"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "mRNA技术方向"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
     },
     "300143": {
       "name": "盈康生命",
@@ -37253,9 +37753,31 @@
           "accidents": [
             "车载DRAM市占率超15%"
           ]
+        },
+        {
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "AI驱动存储需求"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "AI驱动存储需求"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "300224": {
       "name": "正海磁材",
@@ -37777,7 +38299,7 @@
       "name": "瑞丰高材",
       "code": "300243",
       "board": "",
-      "industry": "创业板",
+      "industry": "化工 - 化工新材料 - 塑料助剂",
       "concepts": [
         "创业板"
       ],
@@ -37786,9 +38308,38 @@
       "industry_position": [],
       "chain": [],
       "partners": [],
-      "mention_count": 1,
-      "articles": [],
-      "last_updated": ""
+      "mention_count": 2,
+      "articles": [
+        {
+          "title": "AI产业链/Coherent光互联深度",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "PCB树脂CSR增韧剂",
+            "黑磷方向"
+          ],
+          "insights": [
+            "高分子反路演看翻倍"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "PCB树脂CSR增韧剂",
+            "黑磷方向"
+          ],
+          "insights": [
+            "高分子反路演看翻倍"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
     },
     "300244": {
       "name": "迪安诊断",
@@ -39032,7 +39583,7 @@
         "AI算力-上游-光互联"
       ],
       "partners": [],
-      "mention_count": 1,
+      "mention_count": 3,
       "articles": [
         {
           "date": "2026-04-20",
@@ -39053,9 +39604,45 @@
             "2025Q4收入132.35亿元，环比+29.56%",
             "2025Q4归母净利润36.65亿元，环比+16.85%"
           ]
+        },
+        {
+          "title": "AI产业链/Coherent光互联深度",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "2.4T相干光模块供应商配合谷歌TPU",
+            "成立淮安工厂扩产"
+          ],
+          "insights": [
+            "光互联解决方案提供商"
+          ],
+          "key_metrics": [
+            "目标市值1.6-2万亿"
+          ],
+          "target_valuation": [
+            "目标市值1.6-2万亿"
+          ]
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "2.4T相干光模块供应商配合谷歌TPU",
+            "成立淮安工厂扩产"
+          ],
+          "insights": [
+            "光互联解决方案提供商"
+          ],
+          "key_metrics": [
+            "目标市值1.6-2万亿"
+          ],
+          "target_valuation": [
+            "目标市值1.6-2万亿"
+          ]
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "300310": {
       "name": "智能驾驶",
@@ -40073,7 +40660,7 @@
       "partners": [
         "华为液冷超充枪独家供应商"
       ],
-      "mention_count": 0,
+      "mention_count": 3,
       "articles": [
         {
           "date": "2025-04-21",
@@ -40086,9 +40673,31 @@
           "accidents": [
             "年订单额超25亿元"
           ]
+        },
+        {
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "深度绑定昇腾链，提供液冷Busbar/UQD接头"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "深度绑定昇腾链，提供液冷Busbar/UQD接头"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "300352": {
       "name": "网络安全",
@@ -40984,7 +41593,7 @@
         "台积电",
         "英伟达"
       ],
-      "mention_count": 3,
+      "mention_count": 5,
       "articles": [
         {
           "date": "",
@@ -41019,9 +41628,31 @@
           "insights": [],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "title": "AI产业链/Coherent光互联深度",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [],
+          "insights": [
+            "正交背板材料升级方向M9Q"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [],
+          "insights": [
+            "正交背板材料升级方向M9Q"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": "2026-05-09"
+      "last_updated": "2026-05-13"
     },
     "300398": {
       "name": "飞凯材料",
@@ -41298,9 +41929,31 @@
             "【稳健压舱】三环集团：技术硬逻辑足，",
             "直接受益AI服务器与汽车电子需求"
           ]
+        },
+        {
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "MLCC涨价"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "MLCC涨价"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "300409": {
       "name": "道氏技术",
@@ -41791,7 +42444,7 @@
       "industry_position": [],
       "chain": [],
       "partners": [],
-      "mention_count": 2,
+      "mention_count": 7,
       "articles": [
         {
           "date": "2026-03-22",
@@ -41845,9 +42498,31 @@
           "date": "2026-03-25",
           "title": "磷化工/磷酸铁锂，相关公司全梳理",
           "source": "https://mp.weixin.qq.com/s/rOLV5sYS7QgE3tEyHtJvmg"
+        },
+        {
+          "title": "AI产业链/Coherent光互联深度",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "预计26年归母净利18亿"
+          ],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [
+            "预计26年归母净利18亿"
+          ],
+          "target_valuation": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "300433": {
       "name": "蓝思科技",
@@ -43068,7 +43743,7 @@
         "服务"
       ],
       "partners": [],
-      "mention_count": 5,
+      "mention_count": 3,
       "articles": [
         {
           "date": "",
@@ -43082,9 +43757,31 @@
           "insights": [
             "双重受益于股权增值与业务增长"
           ]
+        },
+        {
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "AI驱动存储需求"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "AI驱动存储需求"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "300476": {
       "name": "胜宏科技",
@@ -43166,7 +43863,7 @@
       "name": "光力科技",
       "code": "300480",
       "board": "",
-      "industry": "创业板",
+      "industry": "机械设备 - 自动化设备 - 仪器仪表",
       "concepts": [
         "科技"
       ],
@@ -43175,9 +43872,36 @@
       "industry_position": [],
       "chain": [],
       "partners": [],
-      "mention_count": 7,
-      "articles": [],
-      "last_updated": ""
+      "mention_count": 2,
+      "articles": [
+        {
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "划片机交付同比增300%"
+          ],
+          "insights": [
+            "立志做中国的Disco，拓展激光划片机"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "划片机交付同比增300%"
+          ],
+          "insights": [
+            "立志做中国的Disco，拓展激光划片机"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
     },
     "300482": {
       "name": "万孚生物",
@@ -43853,7 +44577,7 @@
         "光模块核心供应商",
         "800G光模块出货量环比增长40%"
       ],
-      "mention_count": 6,
+      "mention_count": 8,
       "articles": [
         {
           "date": "2026-01-27",
@@ -43921,9 +44645,35 @@
             "基于 2027-28 年预测远期年度净利润平均同比增长 29% 以及平均营业利润率为 46%",
             "采用 26 倍的目标 2027 年预测市盈率"
           ]
+        },
+        {
+          "title": "AI产业链/Coherent光互联深度",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "Q2物料供应大幅修复"
+          ],
+          "insights": [
+            "市场份额集中度提升"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "Q2物料供应大幅修复"
+          ],
+          "insights": [
+            "市场份额集中度提升"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": "2026-05-09"
+      "last_updated": "2026-05-13"
     },
     "300503": {
       "name": "昊志机电",
@@ -44951,7 +45701,7 @@
       "industry_position": [],
       "chain": [],
       "partners": [],
-      "mention_count": 3,
+      "mention_count": 5,
       "articles": [
         {
           "date": "2025-08-15",
@@ -44980,9 +45730,31 @@
             "2030 年 CPO/NPO 或开启批量部署，市场空间达 100 亿美金"
           ],
           "target_valuation": []
+        },
+        {
+          "title": "AI产业链/Coherent光互联深度",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "直接受益OpenAI MRC协议，光连接需求扩大8倍"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "直接受益OpenAI MRC协议，光连接需求扩大8倍"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": "2026-05-09"
+      "last_updated": "2026-05-13"
     },
     "300571": {
       "name": "平治信息",
@@ -45713,7 +46485,7 @@
         "下游-设备"
       ],
       "partners": [],
-      "mention_count": 5,
+      "mention_count": 4,
       "articles": [
         {
           "date": "2025-09-25",
@@ -45727,9 +46499,31 @@
           "date": "2026-04-21",
           "title": "半导体测试设备",
           "source": "manual_input"
+        },
+        {
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "先进封装设备方向"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "先进封装设备方向"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "300605": {
       "name": "恒锋信息",
@@ -47032,7 +47826,7 @@
         "中游-设计"
       ],
       "partners": [],
-      "mention_count": 2,
+      "mention_count": 4,
       "articles": [
         {
           "date": "2025-10-21",
@@ -47056,9 +47850,31 @@
           "accidents": [
             "模拟芯片国产化核心企业"
           ]
+        },
+        {
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "模拟芯片复苏"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "模拟芯片复苏"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "300663": {
       "name": "科蓝软件",
@@ -47215,7 +48031,7 @@
       "industry_position": [],
       "chain": [],
       "partners": [],
-      "mention_count": 0,
+      "mention_count": 4,
       "articles": [
         {
           "date": "2025-12-14",
@@ -47242,9 +48058,31 @@
             "**政策支持力度提升，科学仪器国产替代步入加速期**",
             "政策催化科学仪器国产替代加速，同时促使国产 科学仪器向高端化延伸，公司作为光谱仪细分市场龙头有望充分受益。"
           ]
+        },
+        {
+          "title": "AI产业链/Coherent光互联深度",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [],
+          "insights": [
+            "六轴耦合台用于光模块封装800G/1.6T"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [],
+          "insights": [
+            "六轴耦合台用于光模块封装800G/1.6T"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "300668": {
       "name": "杰恩设计",
@@ -48940,7 +49778,7 @@
         "下游-设备"
       ],
       "partners": [],
-      "mention_count": 2,
+      "mention_count": 3,
       "articles": [
         {
           "date": "2025-07-09",
@@ -48952,9 +49790,31 @@
           ],
           "title": "“HJT电池概念”深度解析与操作策略，7月9日",
           "source": "https://mp.weixin.qq.com/s/rfNk1HVG5fmM7Ufny722AQ"
+        },
+        {
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "太空光伏设备方向"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "太空光伏设备方向"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "300753": {
       "name": "爱朋医疗",
@@ -50450,7 +51310,7 @@
       "name": "英杰电气",
       "code": "300820",
       "board": "",
-      "industry": "创业板",
+      "industry": "机械设备 - 自动化设备 - 电源设备",
       "concepts": [
         "创业板"
       ],
@@ -50460,8 +51320,31 @@
       "chain": [],
       "partners": [],
       "mention_count": 2,
-      "articles": [],
-      "last_updated": ""
+      "articles": [
+        {
+          "title": "AI产业链/Coherent光互联深度",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "射频电源半导体零部件，国产化率50%+"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "射频电源半导体零部件，国产化率50%+"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
     },
     "300821": {
       "name": "东岳硅材",
@@ -51040,7 +51923,7 @@
       "partners": [
         "三花智控"
       ],
-      "mention_count": 1,
+      "mention_count": 3,
       "articles": [
         {
           "date": "2026-04-20",
@@ -51061,9 +51944,31 @@
             "汽车电子领域收入增长约22%",
             "泰国生产基地2024年下半年正式投产"
           ]
+        },
+        {
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "PCB方向"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "PCB方向"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "300853": {
       "name": "申昊科技",
@@ -51153,7 +52058,7 @@
         "AI基础设施-中游-算力运营"
       ],
       "partners": [],
-      "mention_count": 1,
+      "mention_count": 3,
       "articles": [
         {
           "date": "2026-04-20",
@@ -51162,9 +52067,31 @@
           ],
           "title": "协创数据研究",
           "source": "用户输入"
+        },
+        {
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "AI驱动存储需求"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "AI驱动存储需求"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "300859": {
       "name": "西域旅游",
@@ -51719,7 +52646,7 @@
       "name": "科翔股份",
       "code": "300903",
       "board": "",
-      "industry": "创业板",
+      "industry": "电子 - 半导体 - PCB",
       "concepts": [
         "创业板"
       ],
@@ -51728,9 +52655,32 @@
       "industry_position": [],
       "chain": [],
       "partners": [],
-      "mention_count": 12,
-      "articles": [],
-      "last_updated": ""
+      "mention_count": 2,
+      "articles": [
+        {
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "具备自研陶瓷团队的PCB厂商龙头"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "具备自研陶瓷团队的PCB厂商龙头"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
     },
     "300905": {
       "name": "宝丽迪",
@@ -55346,7 +56296,7 @@
       "industry_position": [],
       "chain": [],
       "partners": [],
-      "mention_count": 4,
+      "mention_count": 7,
       "articles": [
         {
           "date": "2026-03-22",
@@ -55399,9 +56349,31 @@
           "date": "2026-03-25",
           "title": "今天的一些信息整理3.25",
           "source": ""
+        },
+        {
+          "title": "AI产业链/Coherent光互联深度",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "MPO连接和MT插芯受益MRC协议"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "MPO连接和MT插芯受益MRC协议"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "301200": {
       "name": "大族数控",
@@ -55436,7 +56408,7 @@
         "AI硬件-上游-PCB设备"
       ],
       "partners": [],
-      "mention_count": 1,
+      "mention_count": 3,
       "articles": [
         {
           "date": "2026-04-20",
@@ -55457,9 +56429,37 @@
             "归母净利润8.24亿元，同比+173.68%",
             "2025Q4合同负债198.42亿元，环比Q3增长355.82%"
           ]
+        },
+        {
+          "title": "AI产业链/Coherent光互联深度",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "CCD背钻机核心受益AI",
+            "机械钻孔龙头市占率60%+"
+          ],
+          "insights": [],
+          "key_metrics": [
+            "设备订单可见度>6个月"
+          ],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "CCD背钻机核心受益AI",
+            "机械钻孔龙头市占率60%+"
+          ],
+          "insights": [],
+          "key_metrics": [
+            "设备订单可见度>6个月"
+          ],
+          "target_valuation": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "301201": {
       "name": "诚达药业",
@@ -56959,7 +57959,7 @@
       ],
       "chain": [],
       "partners": [],
-      "mention_count": 5,
+      "mention_count": 3,
       "articles": [
         {
           "date": "2025-05-06",
@@ -56968,9 +57968,31 @@
           "accidents": [
             "题材退潮风险"
           ]
+        },
+        {
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "AI驱动存储需求"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "AI驱动存储需求"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "301311": {
       "name": "智能物流",
@@ -57390,7 +58412,7 @@
       "name": "蓝箭电子",
       "code": "301348",
       "board": "",
-      "industry": "创业板",
+      "industry": "电子 - 半导体 - 集成电路封测",
       "concepts": [
         "科技"
       ],
@@ -57399,9 +58421,32 @@
       "industry_position": [],
       "chain": [],
       "partners": [],
-      "mention_count": 5,
-      "articles": [],
-      "last_updated": ""
+      "mention_count": 2,
+      "articles": [
+        {
+          "title": "AI产业链/Coherent光互联深度",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [],
+          "insights": [
+            "先进封装板块"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [],
+          "insights": [
+            "先进封装板块"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
     },
     "301355": {
       "name": "绿色包装",
@@ -57553,7 +58598,7 @@
         "上游-材料"
       ],
       "partners": [],
-      "mention_count": 2,
+      "mention_count": 3,
       "articles": [
         {
           "date": "",
@@ -57564,9 +58609,31 @@
           ],
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "title": "AI产业链/Coherent光互联深度",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "联合海泰新光，补充MPO方向"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "联合海泰新光，补充MPO方向"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "301366": {
       "name": "国内PCB服务龙头",
@@ -57658,7 +58725,7 @@
       "name": "凌玮科技",
       "code": "301373",
       "board": "",
-      "industry": "创业板",
+      "industry": "化工 - 化工新材料 - 纳米材料",
       "concepts": [
         "科技"
       ],
@@ -57684,7 +58751,7 @@
         "台耀",
         "生益科技"
       ],
-      "mention_count": 5,
+      "mention_count": 3,
       "articles": [
         {
           "date": "2026-04-17",
@@ -57698,9 +58765,31 @@
             "斗山目前还在送样",
             "年内空间坚定看到200亿"
           ]
+        },
+        {
+          "title": "AI产业链/Coherent光互联深度",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [],
+          "insights": [
+            "正交背板材料升级方向M9Q"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [],
+          "insights": [
+            "正交背板材料升级方向M9Q"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "301377": {
       "name": "鼎泰高科",
@@ -57730,7 +58819,7 @@
         "AI硬件-上游-零部件"
       ],
       "partners": [],
-      "mention_count": 1,
+      "mention_count": 3,
       "articles": [
         {
           "date": "2026-04-19",
@@ -57748,9 +58837,31 @@
             "年内钻针总月产能将突破1亿支",
             "泰国基地进一步完善全球化布局"
           ]
+        },
+        {
+          "title": "AI产业链/Coherent光互联深度",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "金刚石复合涂层PCB钻针，设备自制"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "金刚石复合涂层PCB钻针，设备自制"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "301378": {
       "name": "通达海",
@@ -61279,7 +62390,7 @@
       "partners": [
         "7. **金融与高股息防御**"
       ],
-      "mention_count": 2,
+      "mention_count": 6,
       "articles": [
         {
           "date": "2025-04-07",
@@ -61318,9 +62429,35 @@
           "insights": [
             "金融与高股息防御"
           ]
+        },
+        {
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "4月挖机数据超预期"
+          ],
+          "insights": [],
+          "key_metrics": [
+            "工程机械出海"
+          ],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "4月挖机数据超预期"
+          ],
+          "insights": [],
+          "key_metrics": [
+            "工程机械出海"
+          ],
+          "target_valuation": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "600036": {
       "name": "招商银行",
@@ -64789,7 +65926,7 @@
         "服务"
       ],
       "partners": [],
-      "mention_count": 5,
+      "mention_count": 7,
       "articles": [
         {
           "date": "2025-04-02",
@@ -64839,9 +65976,35 @@
           ],
           "title": "昨日市场复盘及操作策略，8月20日",
           "source": "https://mp.weixin.qq.com/s/1cFIeIR1Iv6xRuHOjrUhYw"
+        },
+        {
+          "title": "AI产业链/Coherent光互联深度",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "与BMS达成全球战略合作，总规模152亿美元"
+          ],
+          "insights": [],
+          "key_metrics": [
+            "13个潜在FIC/BIC项目"
+          ],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "与BMS达成全球战略合作，总规模152亿美元"
+          ],
+          "insights": [],
+          "key_metrics": [
+            "13个潜在FIC/BIC项目"
+          ],
+          "target_valuation": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "600280": {
       "name": "中央商场",
@@ -65481,7 +66644,7 @@
       "industry_position": [],
       "chain": [],
       "partners": [],
-      "mention_count": 2,
+      "mention_count": 4,
       "articles": [
         {
           "date": "",
@@ -65502,9 +66665,31 @@
             "磁性材料+设备业务占比超70%",
             "卫星电子+航天设备核心配套"
           ]
+        },
+        {
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "薄膜铌酸锂TFLN下一代核心材料，几乎可覆盖全部AI光通信场景"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "薄膜铌酸锂TFLN下一代核心材料，几乎可覆盖全部AI光通信场景"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "600333": {
       "name": "长春燃气",
@@ -65803,7 +66988,7 @@
       "name": "旭光电子",
       "code": "600353",
       "board": "",
-      "industry": "沪市主板",
+      "industry": "电子 - 半导体 - 电子材料",
       "concepts": [
         "科技"
       ],
@@ -65812,9 +66997,32 @@
       "industry_position": [],
       "chain": [],
       "partners": [],
-      "mention_count": 3,
-      "articles": [],
-      "last_updated": ""
+      "mention_count": 2,
+      "articles": [
+        {
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "国内唯一实现氮化铝粉体到基板全产业链自给"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "国内唯一实现氮化铝粉体到基板全产业链自给"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
     },
     "600361": {
       "name": "3C 消费电子",
@@ -69773,7 +70981,7 @@
         "制造端 - 封装测试"
       ],
       "partners": [],
-      "mention_count": 3,
+      "mention_count": 4,
       "articles": [
         {
           "date": "2026-04-20",
@@ -69802,9 +71010,31 @@
           "insights": [],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "先进封装方向"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "先进封装方向"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": "2026-04-23",
+      "last_updated": "2026-05-13",
       "valuation": {}
     },
     "600585": {
@@ -74251,7 +75481,7 @@
       "name": "远东股份",
       "code": "600869",
       "board": "",
-      "industry": "沪市主板",
+      "industry": "电力设备 - 电缆 - 电线电缆",
       "concepts": [
         "沪市主板"
       ],
@@ -74260,9 +75490,32 @@
       "industry_position": [],
       "chain": [],
       "partners": [],
-      "mention_count": 12,
-      "articles": [],
-      "last_updated": ""
+      "mention_count": 2,
+      "articles": [
+        {
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "AIDC光纤配套"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "AIDC光纤配套"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
     },
     "600871": {
       "name": "石化油服",
@@ -76788,7 +78041,7 @@
       "industry_position": [],
       "chain": [],
       "partners": [],
-      "mention_count": 1,
+      "mention_count": 3,
       "articles": [
         {
           "date": "",
@@ -76800,9 +78053,31 @@
           "insights": [
             "恒勃股份、恒立液压具备国产替代逻辑，"
           ]
+        },
+        {
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "工程机械液压件"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "工程机械液压件"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "601101": {
       "name": "昊华能源",
@@ -77424,7 +78699,7 @@
       "industry_position": [],
       "chain": [],
       "partners": [],
-      "mention_count": 2,
+      "mention_count": 4,
       "articles": [
         {
           "date": "2025-07-22",
@@ -77444,9 +78719,31 @@
           "insights": [],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "title": "AI产业链/Coherent光互联深度",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [],
+          "insights": [
+            "正交背板材料升级方向M9Q"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [],
+          "insights": [
+            "正交背板材料升级方向M9Q"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": "2026-05-09"
+      "last_updated": "2026-05-13"
     },
     "601211": {
       "name": "国泰海通",
@@ -78985,7 +80282,7 @@
       "name": "旗滨集团",
       "code": "601636",
       "board": "",
-      "industry": "沪市主板",
+      "industry": "建筑材料 - 玻璃 - 浮法玻璃",
       "concepts": [
         "沪市主板"
       ],
@@ -78994,9 +80291,32 @@
       "industry_position": [],
       "chain": [],
       "partners": [],
-      "mention_count": 1,
-      "articles": [],
-      "last_updated": ""
+      "mention_count": 2,
+      "articles": [
+        {
+          "title": "AI产业链/Coherent光互联深度",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "卡位6G玻璃基板及先进封装，送样验证中"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "卡位6G玻璃基板及先进封装，送样验证中"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
     },
     "601658": {
       "name": "邮储银行",
@@ -81933,7 +83253,7 @@
         "下游 - 算力系统集成"
       ],
       "partners": [],
-      "mention_count": 1,
+      "mention_count": 3,
       "articles": [
         {
           "key_metrics": [],
@@ -81946,9 +83266,31 @@
           "content": "",
           "analysis": "",
           "title": "航天轴承 + 金刚石散热 + AI 服务器核心标的梳理"
+        },
+        {
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "国产算力"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "国产算力"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": "2026-04-21"
+      "last_updated": "2026-05-13"
     },
     "603023": {
       "name": "威帝股份",
@@ -82269,7 +83611,7 @@
       "name": "科林电气",
       "code": "603050",
       "board": "",
-      "industry": "沪市主板",
+      "industry": "电力设备 - 输变电设备 - 配电柜",
       "concepts": [
         "沪市主板"
       ],
@@ -82278,9 +83620,36 @@
       "industry_position": [],
       "chain": [],
       "partners": [],
-      "mention_count": 1,
-      "articles": [],
-      "last_updated": ""
+      "mention_count": 2,
+      "articles": [
+        {
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "纳入字节跳动AIDC白名单"
+          ],
+          "insights": [
+            "配电柜核心供应商，订单预期巨大"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "纳入字节跳动AIDC白名单"
+          ],
+          "insights": [
+            "配电柜核心供应商，订单预期巨大"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
     },
     "603051": {
       "name": "鹿山新材",
@@ -84004,7 +85373,7 @@
       "name": "华正新材",
       "code": "603186",
       "board": "",
-      "industry": "沪市主板",
+      "industry": "电子 - 半导体 - PCB/CCL",
       "concepts": [
         "沪市主板"
       ],
@@ -84013,9 +85382,38 @@
       "industry_position": [],
       "chain": [],
       "partners": [],
-      "mention_count": 11,
-      "articles": [],
-      "last_updated": ""
+      "mention_count": 2,
+      "articles": [
+        {
+          "title": "AI产业链/Coherent光互联深度",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "CBF膜对标味之素ABF国产替代",
+            "M7/M8 CCL验证中"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [
+            "目标市值200亿+"
+          ]
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "CBF膜对标味之素ABF国产替代",
+            "M7/M8 CCL验证中"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [
+            "目标市值200亿+"
+          ]
+        }
+      ],
+      "last_updated": "2026-05-13"
     },
     "603188": {
       "name": "亚邦股份",
@@ -85042,7 +86440,7 @@
         "英伟达",
         "台积电"
       ],
-      "mention_count": 3,
+      "mention_count": 5,
       "articles": [
         {
           "date": "",
@@ -85076,9 +86474,35 @@
           "insights": [],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "title": "AI产业链/Coherent光互联深度",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "AI产业链电子布"
+          ],
+          "insights": [
+            "AI电子布需求受益"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "AI产业链电子布"
+          ],
+          "insights": [
+            "AI电子布需求受益"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": "2026-05-09"
+      "last_updated": "2026-05-13"
     },
     "603257": {
       "name": "中国瑞林",
@@ -85924,7 +87348,7 @@
       "name": "美湖股份",
       "code": "603319",
       "board": "",
-      "industry": "沪市主板",
+      "industry": "汽车 - 汽车零部件 - 发动机零部件",
       "concepts": [
         "沪市主板"
       ],
@@ -85933,9 +87357,36 @@
       "industry_position": [],
       "chain": [],
       "partners": [],
-      "mention_count": 9,
-      "articles": [],
-      "last_updated": ""
+      "mention_count": 2,
+      "articles": [
+        {
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "与七腾机器人签订9.43亿元采购合同"
+          ],
+          "insights": [],
+          "key_metrics": [
+            "机器人执行器创零部件订单记录"
+          ],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "与七腾机器人签订9.43亿元采购合同"
+          ],
+          "insights": [],
+          "key_metrics": [
+            "机器人执行器创零部件订单记录"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
     },
     "603322": {
       "name": "超讯通信",
@@ -86287,7 +87738,7 @@
       "name": "和顺石油",
       "code": "603353",
       "board": "",
-      "industry": "沪市主板",
+      "industry": "化工 - 石油化工 - 成品油批发",
       "concepts": [
         "资源"
       ],
@@ -86296,9 +87747,32 @@
       "industry_position": [],
       "chain": [],
       "partners": [],
-      "mention_count": 1,
-      "articles": [],
-      "last_updated": ""
+      "mention_count": 2,
+      "articles": [
+        {
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "通过奎芯科技布局国产算力"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "通过奎芯科技布局国产算力"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
     },
     "603357": {
       "name": "设计总院",
@@ -86628,7 +88102,7 @@
       "industry_position": [],
       "chain": [],
       "partners": [],
-      "mention_count": 0,
+      "mention_count": 3,
       "articles": [
         {
           "date": "2025-12-10",
@@ -86640,9 +88114,31 @@
           "accidents": [
             "福建区域板块"
           ]
+        },
+        {
+          "title": "AI产业链/Coherent光互联深度",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [],
+          "insights": [
+            "陶瓷基板方向"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [],
+          "insights": [
+            "陶瓷基板方向"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "603392": {
       "name": "万泰生物",
@@ -91712,7 +93208,7 @@
         "MCU-上游-MCU芯片"
       ],
       "partners": [],
-      "mention_count": 1,
+      "mention_count": 3,
       "articles": [
         {
           "date": "2026-04-20",
@@ -91732,9 +93228,35 @@
             "2025年营收92.03亿元，同比增长25.12%",
             "归母净利润16.48亿元，同比增长49.47%"
           ]
+        },
+        {
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "HBM产能结构性紧缺，排产至2027年"
+          ],
+          "key_metrics": [
+            "韩国4月存储芯片出口同比+278%"
+          ],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "HBM产能结构性紧缺，排产至2027年"
+          ],
+          "key_metrics": [
+            "韩国4月存储芯片出口同比+278%"
+          ],
+          "target_valuation": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "603988": {
       "name": "中电电机",
@@ -93582,7 +95104,7 @@
         "内存接口-上游-接口芯片"
       ],
       "partners": [],
-      "mention_count": 1,
+      "mention_count": 3,
       "articles": [
         {
           "date": "2026-04-20",
@@ -93602,9 +95124,37 @@
             "2025年营收54.56亿元，同比增长49.94%",
             "归母净利润22.36亿元，同比增长58.35%"
           ]
+        },
+        {
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "MRDIMM起量单机价值量提升",
+            "CXL内存池化新市场"
+          ],
+          "insights": [],
+          "key_metrics": [
+            "AI服务器CPU需求大增"
+          ],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "MRDIMM起量单机价值量提升",
+            "CXL内存池化新市场"
+          ],
+          "insights": [],
+          "key_metrics": [
+            "AI服务器CPU需求大增"
+          ],
+          "target_valuation": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "688009": {
       "name": "中国通号",
@@ -94203,7 +95753,7 @@
       "industry_position": [],
       "chain": [],
       "partners": [],
-      "mention_count": 1,
+      "mention_count": 3,
       "articles": [
         {
           "date": "2025-08-07",
@@ -94212,9 +95762,37 @@
           ],
           "title": "昨日市场复盘及操作策略，8月7日",
           "source": "https://mp.weixin.qq.com/s/ijSkRHujyD5a-o8GawajSQ"
+        },
+        {
+          "title": "AI产业链/Coherent光互联深度",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "四代KrF在存储客户验证",
+            "化学清洗增长"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [
+            "北方华创收购后目标1000e市值"
+          ]
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "四代KrF在存储客户验证",
+            "化学清洗增长"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [
+            "北方华创收购后目标1000e市值"
+          ]
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "688039": {
       "name": "当虹科技",
@@ -94330,7 +95908,7 @@
       "partners": [
         "英伟达"
       ],
-      "mention_count": 15,
+      "mention_count": 7,
       "articles": [
         {
           "date": "2026-01-22",
@@ -94378,9 +95956,31 @@
           ],
           "title": "昨日市场复盘及操作策略，8月15日",
           "source": "https://mp.weixin.qq.com/s/0jEJFXkSryGQGBLL581kiA"
+        },
+        {
+          "title": "AI产业链/Coherent光互联深度",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [],
+          "insights": [
+            "国产GPU/CPU，AI自主可控"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [],
+          "insights": [
+            "国产GPU/CPU，AI自主可控"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "688045": {
       "name": "必易微",
@@ -94449,7 +96049,7 @@
         "中游-半导体设计"
       ],
       "partners": [],
-      "mention_count": 5,
+      "mention_count": 3,
       "articles": [
         {
           "date": "2026-01-22",
@@ -94458,9 +96058,31 @@
           "accidents": [
             "自主CPU技术突破"
           ]
+        },
+        {
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "国产CPU"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "国产CPU"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "688048": {
       "name": "长光华芯",
@@ -94567,7 +96189,7 @@
         "中游-半导体设计"
       ],
       "partners": [],
-      "mention_count": 5,
+      "mention_count": 3,
       "articles": [
         {
           "date": "2026-01-16",
@@ -94582,9 +96204,35 @@
           "accidents": [
             "产品通过车规级认证且量产规模领先"
           ]
+        },
+        {
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "模拟芯片Q1业绩超预期"
+          ],
+          "insights": [
+            "模拟芯片复苏周期"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "模拟芯片Q1业绩超预期"
+          ],
+          "insights": [
+            "模拟芯片复苏周期"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "688055": {
       "name": "龙腾光电",
@@ -94925,7 +96573,7 @@
         "* **产业链延伸**"
       ],
       "partners": [],
-      "mention_count": 1,
+      "mention_count": 3,
       "articles": [
         {
           "date": "2025-08-14",
@@ -94940,9 +96588,31 @@
           "accidents": [
             "PECVD设备获长江存储50台订单（市占率首超30%）"
           ]
+        },
+        {
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "半导体设备方向"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "半导体设备方向"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "688079": {
       "name": "美迪凯",
@@ -95555,15 +97225,37 @@
       "industry_position": [],
       "chain": [],
       "partners": [],
-      "mention_count": 1,
+      "mention_count": 3,
       "articles": [
         {
           "date": "2025-08-04",
           "title": "风口byTY",
           "source": "https://mp.weixin.qq.com/s/KhFc4FFkuOGAI749Mv6drA"
+        },
+        {
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "AI驱动存储需求"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "AI驱动存储需求"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "688111": {
       "name": "金山办公",
@@ -95800,7 +97492,7 @@
         "下游-设备"
       ],
       "partners": [],
-      "mention_count": 2,
+      "mention_count": 3,
       "articles": [
         {
           "date": "",
@@ -95815,9 +97507,39 @@
           "insights": [
             "华海清科首台12英寸低温离子注入机发往国内逻辑芯片龙头企业，"
           ]
+        },
+        {
+          "title": "AI产业链/Coherent光互联深度",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "CMP设备4月订单12亿（环比翻倍）",
+            "磨划业务同比3倍增长",
+            "离子注入放量"
+          ],
+          "insights": [],
+          "key_metrics": [
+            "交付满载"
+          ],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "CMP设备4月订单12亿（环比翻倍）",
+            "磨划业务同比3倍增长",
+            "离子注入放量"
+          ],
+          "insights": [],
+          "key_metrics": [
+            "交付满载"
+          ],
+          "target_valuation": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "688122": {
       "name": "西部超导",
@@ -95947,7 +97669,7 @@
       "partners": [
         "华为"
       ],
-      "mention_count": 4,
+      "mention_count": 3,
       "articles": [
         {
           "date": "2025-10-19",
@@ -95956,9 +97678,37 @@
           ],
           "title": "每周复盘与展望，10月19日，星期日",
           "source": "https://mp.weixin.qq.com/s/LisR5Jjk8-DDKK8NCpR5Xw"
+        },
+        {
+          "title": "AI产业链/Coherent光互联深度",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "A股唯一布局MRAM",
+            "在台积电流片即将回片"
+          ],
+          "insights": [
+            "Q2业绩拐点"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "A股唯一布局MRAM",
+            "在台积电流片即将回片"
+          ],
+          "insights": [
+            "Q2业绩拐点"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "688125": {
       "name": "安达智能",
@@ -96059,7 +97809,7 @@
       "name": "蓝特光学",
       "code": "688127",
       "board": "",
-      "industry": "科创板",
+      "industry": "",
       "concepts": [
         "科创板"
       ],
@@ -96068,9 +97818,32 @@
       "industry_position": [],
       "chain": [],
       "partners": [],
-      "mention_count": 6,
-      "articles": [],
-      "last_updated": ""
+      "mention_count": 2,
+      "articles": [
+        {
+          "title": "AI产业链/Coherent光互联深度",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [],
+          "insights": [
+            "光通信板块关注标的"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [],
+          "insights": [
+            "光通信板块关注标的"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
     },
     "688130": {
       "name": "医疗健康SoC芯片",
@@ -96178,7 +97951,7 @@
       "name": "杰华特",
       "code": "688141",
       "board": "",
-      "industry": "科创板",
+      "industry": "",
       "concepts": [
         "科创板"
       ],
@@ -96187,9 +97960,32 @@
       "industry_position": [],
       "chain": [],
       "partners": [],
-      "mention_count": 5,
-      "articles": [],
-      "last_updated": ""
+      "mention_count": 2,
+      "articles": [
+        {
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "模拟芯片复苏"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "模拟芯片复苏"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
     },
     "688143": {
       "name": "长盈通",
@@ -97356,7 +99152,7 @@
       "name": "德科立",
       "code": "688205",
       "board": "",
-      "industry": "科创板",
+      "industry": "",
       "concepts": [
         "光放大芯片",
         "光芯片",
@@ -97368,7 +99164,7 @@
       "industry_position": [],
       "chain": [],
       "partners": [],
-      "mention_count": 16,
+      "mention_count": 3,
       "articles": [
         {
           "date": "2026-04-16",
@@ -97377,9 +99173,35 @@
           "insights": [
             "光芯片封装和器件集成能力较强的代表公司"
           ]
+        },
+        {
+          "title": "AI产业链/Coherent光互联深度",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "泰国工厂进设备，有望承接北美相干订单"
+          ],
+          "insights": [
+            "相干光模块技术成熟，DCI核心受益"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "泰国工厂进设备，有望承接北美相干订单"
+          ],
+          "insights": [
+            "相干光模块技术成熟，DCI核心受益"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "688206": {
       "name": "概伦电子",
@@ -97522,7 +99344,7 @@
         "下游-设备"
       ],
       "partners": [],
-      "mention_count": 1,
+      "mention_count": 3,
       "articles": [
         {
           "date": "",
@@ -97534,9 +99356,33 @@
           "accidents": [
             "创远信科：测试设备订单增170%，"
           ]
+        },
+        {
+          "title": "AI产业链/Coherent光互联深度",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "布局MicroLED短距光互联，6-7月出原型",
+            "手机/汽车高端CIS放量"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "布局MicroLED短距光互联，6-7月出原型",
+            "手机/汽车高端CIS放量"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "688216": {
       "name": "气派科技",
@@ -97614,7 +99460,7 @@
       "name": "翱捷科技",
       "code": "688220",
       "board": "",
-      "industry": "科创板",
+      "industry": "",
       "concepts": [
         "科技"
       ],
@@ -97623,9 +99469,32 @@
       "industry_position": [],
       "chain": [],
       "partners": [],
-      "mention_count": 5,
-      "articles": [],
-      "last_updated": ""
+      "mention_count": 2,
+      "articles": [
+        {
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "国产算力"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "国产算力"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
     },
     "688221": {
       "name": "前沿生物",
@@ -97687,7 +99556,7 @@
       ],
       "chain": [],
       "partners": [],
-      "mention_count": 1,
+      "mention_count": 3,
       "articles": [
         {
           "date": "",
@@ -97698,9 +99567,31 @@
           ],
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "太空光伏方向"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "太空光伏方向"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "688225": {
       "name": "亚信安全",
@@ -97945,7 +99836,7 @@
       ],
       "chain": [],
       "partners": [],
-      "mention_count": 2,
+      "mention_count": 3,
       "articles": [
         {
           "date": "2025-06-17",
@@ -97954,9 +99845,31 @@
           "insights": [
             "关注ASCO年会数据催化"
           ]
+        },
+        {
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "创新药医保政策利好"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "创新药医保政策利好"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "688239": {
       "name": "航宇科技",
@@ -98188,7 +100101,7 @@
       "partners": [
         "AI训练芯片量产"
       ],
-      "mention_count": 12,
+      "mention_count": 7,
       "articles": [
         {
           "date": "2025-04-23",
@@ -98235,15 +100148,37 @@
           "accidents": [
             "外部催化持续"
           ]
+        },
+        {
+          "title": "AI产业链/Coherent光互联深度",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [],
+          "insights": [
+            "国产算力"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [],
+          "insights": [
+            "国产算力"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "688257": {
       "name": "新锐股份",
       "code": "688257",
       "board": "",
-      "industry": "科创板",
+      "industry": "",
       "concepts": [
         "科创板"
       ],
@@ -98252,9 +100187,36 @@
       "industry_position": [],
       "chain": [],
       "partners": [],
-      "mention_count": 9,
-      "articles": [],
-      "last_updated": ""
+      "mention_count": 2,
+      "articles": [
+        {
+          "title": "AI产业链/Coherent光互联深度",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "收购慧联电子（PCB铣刀全球第一，金刚石涂层）"
+          ],
+          "insights": [
+            "受益钻针短缺"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "收购慧联电子（PCB铣刀全球第一，金刚石涂层）"
+          ],
+          "insights": [
+            "受益钻针短缺"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
     },
     "688258": {
       "name": "卓易信息",
@@ -98717,7 +100679,7 @@
       "name": "峰岹科技",
       "code": "688279",
       "board": "",
-      "industry": "科创板",
+      "industry": "",
       "concepts": [
         "科技"
       ],
@@ -98726,9 +100688,32 @@
       "industry_position": [],
       "chain": [],
       "partners": [],
-      "mention_count": 5,
-      "articles": [],
-      "last_updated": ""
+      "mention_count": 2,
+      "articles": [
+        {
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "AIDC风冷风扇需求不减"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "AIDC风冷风扇需求不减"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
     },
     "688281": {
       "name": "华秦科技",
@@ -99090,9 +101075,37 @@
           ],
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "title": "AI产业链/Coherent光互联深度",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "化学法球硅放量",
+            "M8-M10用量提升"
+          ],
+          "insights": [],
+          "key_metrics": [
+            "26-27年需求明确"
+          ],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "化学法球硅放量",
+            "M8-M10用量提升"
+          ],
+          "insights": [],
+          "key_metrics": [
+            "26-27年需求明确"
+          ],
+          "target_valuation": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "688301": {
       "name": "奕瑞科技",
@@ -100517,7 +102530,7 @@
       "name": "甬矽电子",
       "code": "688362",
       "board": "",
-      "industry": "科创板",
+      "industry": "",
       "concepts": [
         "科技"
       ],
@@ -100526,9 +102539,32 @@
       "industry_position": [],
       "chain": [],
       "partners": [],
-      "mention_count": 3,
-      "articles": [],
-      "last_updated": ""
+      "mention_count": 2,
+      "articles": [
+        {
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "先进封装方向"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "先进封装方向"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
     },
     "688363": {
       "name": "华熙生物",
@@ -101026,7 +103062,7 @@
       "industry_position": [],
       "chain": [],
       "partners": [],
-      "mention_count": 1,
+      "mention_count": 3,
       "articles": [
         {
           "date": "2026-01-09",
@@ -101038,9 +103074,31 @@
           "insights": [
             "可关注创新医疗、鹭燕医药等具有技术储备的标的"
           ]
+        },
+        {
+          "title": "AI产业链/Coherent光互联深度",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "全球5G NTN卡位，受益手机直连卫星"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "全球5G NTN卡位，受益手机直连卫星"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "688388": {
       "name": "嘉元科技",
@@ -101171,7 +103229,7 @@
       "name": "骄成超声",
       "code": "688392",
       "board": "",
-      "industry": "科创板",
+      "industry": "",
       "concepts": [
         "科创板"
       ],
@@ -101180,9 +103238,36 @@
       "industry_position": [],
       "chain": [],
       "partners": [],
-      "mention_count": 6,
-      "articles": [],
-      "last_updated": ""
+      "mention_count": 2,
+      "articles": [
+        {
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "获存储大厂订单"
+          ],
+          "insights": [
+            "半导体超声检测实现0到1突破"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "获存储大厂订单"
+          ],
+          "insights": [
+            "半导体超声检测实现0到1突破"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
     },
     "688393": {
       "name": "安必平",
@@ -102104,7 +104189,7 @@
       "partners": [
         "光刻机物镜系统核心供应商"
       ],
-      "mention_count": 2,
+      "mention_count": 4,
       "articles": [
         {
           "date": "2025-07-25",
@@ -102138,9 +104223,31 @@
           "target_valuation": [
             "全球光学小巨人潜力正在显现"
           ]
+        },
+        {
+          "title": "AI产业链/Coherent光互联深度",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [],
+          "insights": [
+            "光通信板块关注标的"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [],
+          "insights": [
+            "光通信板块关注标的"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": "2026-05-09"
+      "last_updated": "2026-05-13"
     },
     "688503": {
       "name": "聚和材料",
@@ -102588,7 +104695,7 @@
       "partners": [
         "* **AI医药**"
       ],
-      "mention_count": 2,
+      "mention_count": 4,
       "articles": [
         {
           "date": "2025-05-29",
@@ -102605,9 +104712,35 @@
           "accidents": [
             "IP授权+ASIC定制双轮驱动"
           ]
+        },
+        {
+          "title": "AI产业链/Coherent光互联深度",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "字节自研CPU项目立项（4nm）"
+          ],
+          "insights": [
+            "国产ASIC卡位"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "字节自研CPU项目立项（4nm）"
+          ],
+          "insights": [
+            "国产ASIC卡位"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "688522": {
       "name": "纳睿雷达",
@@ -102718,7 +104851,7 @@
         "平台"
       ],
       "partners": [],
-      "mention_count": 4,
+      "mention_count": 3,
       "articles": [
         {
           "date": "2026-01-18",
@@ -102728,9 +104861,31 @@
           ],
           "title": "风口byTY",
           "source": "https://mp.weixin.qq.com/s/sR3uiLQ28m7gn5tvJCtxTA"
+        },
+        {
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "AI驱动存储需求"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "AI驱动存储需求"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "688526": {
       "name": "科前生物",
@@ -102936,7 +105091,7 @@
       "name": "思瑞浦",
       "code": "688536",
       "board": "",
-      "industry": "科创板",
+      "industry": "",
       "concepts": [
         "科创板"
       ],
@@ -102945,9 +105100,36 @@
       "industry_position": [],
       "chain": [],
       "partners": [],
-      "mention_count": 7,
-      "articles": [],
-      "last_updated": ""
+      "mention_count": 2,
+      "articles": [
+        {
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "模拟芯片Q1业绩超预期"
+          ],
+          "insights": [
+            "模拟芯片复苏周期"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "模拟芯片Q1业绩超预期"
+          ],
+          "insights": [
+            "模拟芯片复苏周期"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
     },
     "688539": {
       "name": "高华科技",
@@ -103984,7 +106166,7 @@
       "name": "金博股份",
       "code": "688598",
       "board": "",
-      "industry": "科创板",
+      "industry": "",
       "concepts": [
         "科创板"
       ],
@@ -103993,9 +106175,36 @@
       "industry_position": [],
       "chain": [],
       "partners": [],
-      "mention_count": 3,
-      "articles": [],
-      "last_updated": ""
+      "mention_count": 2,
+      "articles": [
+        {
+          "title": "AI产业链/Coherent光互联深度",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "500吨高纯氮化铝粉体产线（26年6月建成）"
+          ],
+          "insights": [
+            "AI算力散热核心材料"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "500吨高纯氮化铝粉体产线（26年6月建成）"
+          ],
+          "insights": [
+            "AI算力散热核心材料"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
     },
     "688599": {
       "name": "天合光能",
@@ -104119,7 +106328,7 @@
       "partners": [
         "国内半导体装备头部企业"
       ],
-      "mention_count": 6,
+      "mention_count": 3,
       "articles": [
         {
           "title": "TGV（玻璃通孔）技术全解析 + 核心企业梳理",
@@ -104129,9 +106338,31 @@
           "insights": [],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "MSAP工艺电镀药水需求激增"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "MSAP工艺电镀药水需求激增"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": "2026-04-23",
+      "last_updated": "2026-05-13",
       "valuation": {}
     },
     "688605": {
@@ -104853,7 +107084,7 @@
       "name": "京仪装备",
       "code": "688652",
       "board": "",
-      "industry": "科创板",
+      "industry": "",
       "concepts": [
         "科创板"
       ],
@@ -104862,9 +107093,32 @@
       "industry_position": [],
       "chain": [],
       "partners": [],
-      "mention_count": 6,
-      "articles": [],
-      "last_updated": ""
+      "mention_count": 2,
+      "articles": [
+        {
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "半导体设备方向"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "半导体设备方向"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-13"
     },
     "688656": {
       "name": "浩欧博",
@@ -105285,15 +107539,37 @@
       "industry_position": [],
       "chain": [],
       "partners": [],
-      "mention_count": 1,
+      "mention_count": 3,
       "articles": [
         {
           "date": "",
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "国产芯片设计服务"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "国产芯片设计服务"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "688692": {
       "name": "达梦数据",
@@ -105863,7 +108139,7 @@
       "industry_position": [],
       "chain": [],
       "partners": [],
-      "mention_count": 0,
+      "mention_count": 3,
       "articles": [
         {
           "date": "2025-10-19",
@@ -105872,9 +108148,31 @@
           ],
           "title": "每周复盘与展望，10月19日，星期日",
           "source": "https://mp.weixin.qq.com/s/LisR5Jjk8-DDKK8NCpR5Xw"
+        },
+        {
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "AI驱动存储需求"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [],
+          "insights": [
+            "AI驱动存储需求"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "688768": {
       "name": "容知日新",
@@ -106312,7 +108610,7 @@
       "partners": [
         "英伟达"
       ],
-      "mention_count": 2,
+      "mention_count": 3,
       "articles": [
         {
           "date": "",
@@ -106329,9 +108627,48 @@
           "accidents": [
             "全球领先的 GPU 芯片厂商）15% 的 AEC 订单，"
           ]
+        },
+        {
+          "title": "AI产业链/Coherent光互联深度",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "绑定中际旭创成立合资公司睿创"
+          ],
+          "insights": [],
+          "key_metrics": [
+            "AEC 26年收入10-15亿，27年50亿"
+          ],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "accidents": [
+            "与旭创合资设立睿创布局高速铜缆，持股65%",
+            "AEC业务2026Q3产能爬坡，年底达15万套/年",
+            "芯片测试业务2026Q3正式贡献收入",
+            "已向北美客户送样1.6T产品",
+            "切入日本客户芯片测试供应链",
+            "为美国客户研发毫米波微波方案，相关芯片已流片"
+          ],
+          "insights": [
+            "AEC高速互联+芯片测试+主业三重成长逻辑共振，算力互联稀缺标的",
+            "深度绑定中际旭创，北美算力核心市场卡位明确"
+          ],
+          "key_metrics": [
+            "2026年AEC收入10-15亿元，2027年约50亿元",
+            "AEC 25%净利率预期，65%股权下对应8亿+利润",
+            "芯片测试耗材年市场空间几十到上百亿元",
+            "2026年底AEC产能达15万套/年，扩产周期仅3个月"
+          ],
+          "target_valuation": [
+            "370亿"
+          ]
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-13"
     },
     "688802": {
       "name": "沐曦股份",
@@ -108336,7 +110673,7 @@
       "partners": [
         "英伟达供应链"
       ],
-      "mention_count": 3,
+      "mention_count": 5,
       "valuation": {
         "target_market_cap": "400亿",
         "target_market_cap_billion": 400.0
@@ -108385,9 +110722,35 @@
             "市占率 11.9%"
           ],
           "target_valuation": []
+        },
+        {
+          "title": "AI产业链/Coherent光互联深度",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "AI产业链铜箔材料"
+          ],
+          "insights": [
+            "AI铜箔需求拉动"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
+          "accidents": [
+            "AI产业链铜箔材料"
+          ],
+          "insights": [
+            "AI铜箔需求拉动"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": "2026-05-09"
+      "last_updated": "2026-05-13"
     },
     "688665": {
       "name": "联讯仪器",
@@ -108496,6 +110859,6 @@
       "last_updated": "2026-05-09"
     }
   },
-  "last_updated": "2026-05-09",
+  "last_updated": "2026-05-13T15:30:00+08:00",
   "version": "2.0"
 }
