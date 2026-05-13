@@ -16,8 +16,9 @@ sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='repla
 os.environ["NO_PROXY"] = "firestore.googleapis.com,googleapis.com,oauth2.googleapis.com"
 os.environ["no_proxy"] = "firestore.googleapis.com,googleapis.com,oauth2.googleapis.com"
 
-FIREBASE_PROJECT_ID = "hottopic-7b5a7"
+FIREBASE_PROJECT_ID = "webstock-724"
 KEY_FILES = [
+    Path(__file__).parent / "api" / "firebase-credentials.json",
     Path(__file__).parent / "serviceAccountKey.json",
     Path(__file__).parent / "firebase_key.json",
     Path(__file__).parent / ".trae" / "rules" / "firebase-credentials.json",
