@@ -1,8 +1,22 @@
 # Raw Material 与数据处理流程规范
 
-**版本**: v2.0  
+**版本**: v2.1  
 **更新日期**: 2026-05-13  
 **适用**: 微信文章→原始素材→结构化数据全流程
+
+---
+
+## 🆕 v2.1 变更说明
+
+### 行业和概念映射优化
+- **新增**: 直接映射 `archived/同花顺行业.xls` 和 `archived/所属概念.xls`
+- **工具**: `map_industry_concept.py` 一键更新所有股票的行业和概念
+- **优势**: 无需手动填写行业和概念，自动从同花顺数据源获取
+
+### 流程简化
+- **简化**: AI 只需提取结构化数据（accidents/insights/key_metrics/target_valuation）
+- **简化**: 股票代码、名称、行业、概念自动从映射文件获取
+- **工具**: `process_article.py` 整合全流程
 
 ---
 
@@ -121,7 +135,7 @@ python .trae/skills/wechat-fetch-research-embedded/scripts/fetch_wechat_to_raw_m
 
 ### Step 2: 提取个股结构化数据
 
-**方式A: LLM 管道提取**
+**方式 A: LLM 管道提取**
 ```bash
 python .trae/skills/wechat-fetch-research-embedded/scripts/extract_stocks_from_raw_material.py \
   --raw "raw_material/raw_material_2026-05-09.md" \
@@ -130,14 +144,42 @@ python .trae/skills/wechat-fetch-research-embedded/scripts/extract_stocks_from_r
 ```
 *注意：该方式需要配置 LLM API Key，且可能因编码问题在 Windows 下运行失败*
 
-**方式B: AI 辅助提取（推荐）**
-1. AI 读取文章内容，提取每只股票的：
-   - **accidents**（事件/催化剂）：事实性事件，单条≤60字
+**方式 B: AI 辅助提取（推荐）**
+
+#### v2.1 优化流程：
+1. AI 读取文章内容，识别提到的个股名称/代码
+2. AI 提取每只股票的结构化数据（**仅需提取以下 4 个字段**）：
+   - **accidents**（事件/催化剂）：事实性事件，单条≤60 字
    - **insights**（投研观点）：原文或忠实改写
    - **key_metrics**（关键指标）：数字、市占率等
    - **target_valuation**（目标估值）：估值、目标价
-2. 通过 `stocks_master.json` 查询股票代码和行业信息
-3. 构建符合规范的 JSON，保存为 `data/stocks/YYYY-MM-DD.json`
+3. 调用 `process_article.py` 自动完成：
+   - 从 `archived/同花顺行业.xls` 获取行业分类
+   - 从 `archived/所属概念.xls` 获取概念标签
+   - 从 `全部个股.xls` 获取股票名称
+   - 构建完整的 JSON 格式
+   - 合并到 `stocks_master.json`
+
+**简化后的 AI 工作**：
+- ❌ 不再需要：查找股票代码、行业、概念
+- ✅ 只需：提取 4 个结构化字段（accidents/insights/key_metrics/target_valuation）
+
+**使用示例**：
+```python
+# 方式 1: 直接调用 process_article.py
+python process_article.py
+
+# 方式 2: AI 构建 JSON 后调用合并脚本
+# AI 创建 data/stocks/2026-05-13.json
+python merge_daily.py  # 合并到主数据
+```
+
+**方式 C: 批量更新行业和概念（一次性工作）**
+```bash
+# 首次使用或定期更新时运行
+python map_industry_concept.py
+```
+这会从 `archived/同花顺行业.xls` 和 `archived/所属概念.xls` 批量更新所有股票的行业和概念信息。
 
 **日期分片 JSON 格式**:
 ```json
