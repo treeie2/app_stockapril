@@ -1,43 +1,17 @@
 # Raw Material 与数据处理流程规范
 
-**版本**: v1.1  
-**更新日期**: 2026-05-12  
+**版本**: v2.0  
+**更新日期**: 2026-05-13  
 **适用**: 微信文章→原始素材→结构化数据全流程
 
 ---
 
-## 🆕 v1.1 变更说明
+## 🆕 v2.0 变更说明
 
-### 新增：last_updated 字段
-
-- **JSON 文件层级**: 添加 `last_updated` 字段（ISO 8601 格式，精确到秒）
-- **股票层级**: 每只股票添加 `last_updated` 字段（YYYY-MM-DD 格式）
-- **用途**: 
-  - 数据排序（降序排列，最新的在前）
-  - 增量更新判断
-  - 追踪数据更新时间
-
-### 示例
-
-**JSON 文件层级**:
-```json
-{
-  "last_updated": "2026-05-12T16:00:00+08:00",
-  "stocks": { ... }
-}
-```
-
-**股票层级**:
-```json
-{
-  "600330": {
-    "name": "天通股份",
-    "code": "600330",
-    "last_updated": "2026-05-12",
-    ...
-  }
-}
-```
+### 路径修正
+- **日期分片路径**: `data/master/stocks/` → `data/stocks/`
+- **增量合并**: 已验证路径正确性，更新命令示例
+- **新增 AI 辅助提取流程**: 替代 LLM API 方式，直接由 AI 从文章内容提取结构化数据
 
 ---
 
@@ -80,18 +54,10 @@ title: 今天的一些信息整理 5.7
 
 （文章完整内容）
 
-今天收集到的一些信息，分享如下：
-
 一、盛科通信（688250）
 1. 二季度订单加速放量
 2. 阿里 3 万 +scale out 订单意向
 3. 字节 3 万颗框架订单
-
-二、德福科技（300991）
-1. 固态电池负极用铜箔量产
-2. 2026 年固态电池装机 100GWh
-
----
 ```
 
 ### 字段说明
@@ -102,24 +68,7 @@ title: 今天的一些信息整理 5.7
 | `source` | ✅ | 微信文章 URL | `https://mp.weixin.qq.com/s/...` |
 | `fetched_at` | ✅ | 抓取时间（ISO 格式） | `2026-05-09T10:30:00` |
 | `title` | ⭕ | 文章标题 | `今天的一些信息整理 5.7` |
-| `date` | ⭕ | 文章发布日期 | `2026-05-09` |
 | 正文内容 | ✅ | 文章完整文本 | 包含个股信息 |
-
-### 生成方式
-
-#### 方式 1: 自动抓取（推荐）
-
-```bash
-python .trae/skills/wechat-fetch-research-embedded/scripts/fetch_wechat_to_raw_material.py \
-  --url "https://mp.weixin.qq.com/s/jU3eFc1irDolyJyLd6egyg" \
-  --out "raw_material/raw_material_2026-05-09.md"
-```
-
-#### 方式 2: 手动创建
-
-1. 复制微信文章全文
-2. 按照上述格式保存为 `.md` 文件
-3. 确保包含 `## Article` 和元数据
 
 ---
 
@@ -130,174 +79,161 @@ python .trae/skills/wechat-fetch-research-embedded/scripts/fetch_wechat_to_raw_m
 ```
 微信公众号文章
     ↓
-[Step 1] 抓取文章
-fetch_wechat_to_raw_material.py
+[Step 1] 抓取/创建 raw_material
+  - 方式A: fetch_wechat_to_raw_material.py（自动抓取）
+  - 方式B: AI 手动整理文章内容
     ↓
-raw_material/raw_material_YYYY-MM-DD.md
+raw_material/raw_material_YYYY-MM-DD_N.md
     ↓
-[Step 2] 提取个股信息
-extract_stocks_from_raw_material.py
+[Step 2] 提取个股结构化数据
+  - 方式A: extract_stocks_from_raw_material.py（LLM提取）
+  - 方式B: AI 辅助提取（直接分析文章→构建JSON）
     ↓
-data/master/stocks/2026-05-09.json
+data/stocks/YYYY-MM-DD.json（日期分片）
     ↓
-[Step 3] 增量合并
-incremental_update.py
+[Step 3] 合并到主数据
+  - 直接将日期分片合并到 data/stocks/stocks_master.json
+  - 更新 mention_count、last_updated
     ↓
-data/master/stocks_index.json
-data/master/stocks_master.json
+data/stocks/stocks_master.json（主数据）
     ↓
 [Step 4] 同步到 Firebase
-sync_to_firestore.py
+sync_stocks_to_firebase.py
     ↓
 Firestore 数据库
     ↓
-[Step 5] Web 界面展示
+[Step 5] Web 界面展示（重启 Flask 生效）
 ```
 
-### Step 1: 抓取文章
+### Step 1: 创建 Raw Material
 
-**脚本**: `fetch_wechat_to_raw_material.py`
-
-**功能**:
-- 从微信公众号 URL 抓取文章
-- 保存为 raw_material 格式
-- 自动提取标题、日期等元数据
-
-**命令**:
+**方式A: 自动抓取**
 ```bash
 python .trae/skills/wechat-fetch-research-embedded/scripts/fetch_wechat_to_raw_material.py \
   --url "https://mp.weixin.qq.com/s/xxx" \
   --out "raw_material/raw_material_2026-05-09.md"
 ```
 
-**参数**:
-- `--url`: 微信文章链接（必填）
-- `--out`: 输出文件路径（必填）
-- `--mcp_server`: MCP 服务器名称（可选）
-- `--mcp_tool`: MCP 工具名称（可选）
+**方式B: AI 辅助创建**
+1. AI 读取微信文章 URL 内容
+2. 提取正文并格式化，确保包含 `## Article` 头部
+3. 保存到 `raw_material/` 目录
 
-### Step 2: 提取个股信息
+### Step 2: 提取个股结构化数据
 
-**脚本**: `extract_stocks_from_raw_material.py`
-
-**功能**:
-- 读取 raw_material markdown 文件
-- 使用 LLM 识别提到的股票
-- 提取结构化数据（accidents/insights/key_metrics/target_valuation）
-- 映射到股票代码和名称
-
-**命令**:
+**方式A: LLM 管道提取**
 ```bash
 python .trae/skills/wechat-fetch-research-embedded/scripts/extract_stocks_from_raw_material.py \
   --raw "raw_material/raw_material_2026-05-09.md" \
   --xls ".trae/skills/wechat-fetch-research-embedded/assets/全部个股.xls" \
   --out "data/stocks/2026-05-09.json"
 ```
+*注意：该方式需要配置 LLM API Key，且可能因编码问题在 Windows 下运行失败*
 
-**参数**:
-- `--raw`: raw_material 文件路径（必填）
-- `--xls`: 全部个股 Excel 文件（必填）
-- `--out`: 输出 JSON 文件（必填）
-- `--api_key`: OpenAI API Key（可选，从环境变量读取）
+**方式B: AI 辅助提取（推荐）**
+1. AI 读取文章内容，提取每只股票的：
+   - **accidents**（事件/催化剂）：事实性事件，单条≤60字
+   - **insights**（投研观点）：原文或忠实改写
+   - **key_metrics**（关键指标）：数字、市占率等
+   - **target_valuation**（目标估值）：估值、目标价
+2. 通过 `stocks_master.json` 查询股票代码和行业信息
+3. 构建符合规范的 JSON，保存为 `data/stocks/YYYY-MM-DD.json`
 
-**输出示例**:
+**日期分片 JSON 格式**:
 ```json
 {
-  "date": "2026-05-09",
-  "source": "https://mp.weixin.qq.com/s/jU3eFc1irDolyJyLd6egyg",
+  "date": "2026-05-13",
+  "update_count": 99,
+  "last_updated": "2026-05-13T15:00:00+08:00",
   "stocks": {
-    "688250": {
-      "name": "盛科通信",
-      "code": "688250",
+    "688800": {
+      "name": "瑞可达",
+      "code": "688800",
       "board": "SH",
-      "industry": "电子 - 半导体 - 集成电路",
-      "concepts": ["交换芯片", "Scale-out", "国产芯片"],
-      "products": ["交换芯片"],
-      "core_business": ["交换芯片研发与销售"],
-      "industry_position": ["国产交换芯片龙头"],
-      "chain": ["中游 - 芯片设计"],
-      "partners": ["阿里巴巴", "字节跳动", "腾讯"],
-      "mention_count": 1,
-      "valuation": {
-        "target_market_cap": "2700 亿",
-        "target_market_cap_billion": 2700.0
-      },
+      "industry": "电子-其他电子-其他电子Ⅲ",
+      "concepts": ["铜缆高速连接", "5G", "液冷服务器"],
+      "products": ["高速铜缆连接器(AEC)", "芯片测试治具"],
       "articles": [
         {
-          "title": "今天的一些信息整理 5.7",
-          "date": "2026-05-09",
-          "source": "https://mp.weixin.qq.com/s/jU3eFc1irDolyJyLd6egyg",
-          "accidents": ["二季度订单加速放量", "阿里 3 万 +scale out 订单"],
-          "insights": ["MRC 协议影响有限，珍惜倒车接人机会"],
-          "key_metrics": ["2026 年国产 GPU 出货量预计 400 万颗"],
-          "target_valuation": ["约 2700 亿市值"]
+          "title": "今天的一些信息整理5.12",
+          "date": "2026-05-13",
+          "source": "https://mp.weixin.qq.com/s/...",
+          "accidents": ["与旭创合资设立睿创布局高速铜缆"],
+          "insights": ["AEC高速互联+芯片测试+主业三重成长"],
+          "key_metrics": ["2026年AEC收入10-15亿元"],
+          "target_valuation": ["370亿"]
         }
       ],
-      "last_updated": "2026-05-09"
+      "last_updated": "2026-05-13"
     }
   }
 }
 ```
 
-### Step 3: 增量合并
+### Step 3: 合并到主数据
 
-**脚本**: `incremental_update.py`
+将日期分片的 stock 数据合并到 `stocks_master.json`：
 
-**功能**:
-- 将每日数据合并到日期分片文件
-- 更新股票索引
-- 去重文章（按 source + title）
-- 合并重复股票代码
-
-**命令**:
 ```bash
+# 方式A: 使用增量合并脚本（注意输出路径在 skill 目录下）
 python .trae/skills/wechat-fetch-research-embedded/scripts/incremental_update.py \
-  --json "data/stocks/2026-05-09.json" \
+  --json "data/stocks/2026-05-13.json" \
   --mode merge
+
+# 方式B: 直接合并（推荐，避免路径问题）
+cd project_root && python -c "
+import json
+with open('data/stocks/stocks_master.json') as f: master = json.load(f)
+with open('data/stocks/2026-05-13.json') as f: daily = json.load(f)
+for code, s in daily['stocks'].items():
+    if code in master['stocks']:
+        # 追加文章（去重）
+        existing = master['stocks'][code]
+        titles = [(a['title'], a['source']) for a in existing.get('articles',[])]
+        for a in s.get('articles',[]):
+            if (a['title'], a['source']) not in titles:
+                existing.setdefault('articles',[]).append(a)
+        existing['mention_count'] = len(existing['articles'])
+        existing['last_updated'] = daily['date']
+master['last_updated'] = daily['last_updated']
+json.dump(master, open('data/stocks/stocks_master.json','w',encoding='utf-8'), ensure_ascii=False, indent=2)
+print(f'OK: {len(daily[\"stocks\"])} stocks merged')
+"
 ```
 
-**工作模式**:
-- `merge`: 合并每日数据到分片
-- `single`: 更新单只股票
-- `rebuild-index`: 重建索引
+**验证（重要！）**：
+```bash
+# 检查 stocks_master.json 更新时间
+ls -la data/stocks/stocks_master.json
 
-**输出**:
-1. `data/stocks/2026-05-09.json` - 日期分片
-2. `data/stocks/stocks_index.json` - 股票索引
-3. `data/stocks/stocks_master.json` - 完整备份（可选）
+# 验证某只股票的文章是否合并
+python -c "import json; d=json.load(open('data/stocks/stocks_master.json','r',encoding='utf-8')); s=d['stocks']['688800']; print(s['name'], len(s['articles']), 'articles')"
+```
 
 ### Step 4: 同步到 Firebase
 
-**脚本**: `sync_to_firestore.py`
-
-**功能**:
-- 将 JSON 数据同步到 Firebase Firestore
-- 支持增量更新
-- 自动合并现有数据
-
-**命令**:
 ```bash
-python .trae/skills/wechat-fetch-research-embedded/scripts/sync_to_firestore.py \
+python sync_stocks_to_firebase.py \
   --credentials ".trae/rules/firebase-credentials.json" \
-  --json "data/master/stocks/2026-05-09.json" \
+  --json "data/stocks/stocks_master.json" \
   --on_exists merge
 ```
 
-**参数**:
-- `--credentials`: Firebase 凭证文件（必填）
-- `--json`: 要同步的 JSON 文件（必填）
-- `--on_exists`: 遇到已存在股票时的处理方式
-  - `merge`: 合并数据
-  - `skip`: 跳过
-  - `overwrite`: 覆盖
+### Step 5: 刷新 Web 界面
 
-### Step 5: Web 界面展示
+合并后必须**重启 Flask 服务器**才能生效：
 
-数据自动在 Web 界面展示：
-- 股票列表：`/stocks`
-- 个股详情：`/stock/{code}`
-- 分组详情：`/group/{id}`
-- 热点详情：`/hot-topic/{id}`
+```bash
+# 停止旧进程
+Stop-Process -Name "python" -Force
+
+# 重启
+cd project_root
+Start-Process -NoNewWindow python -ArgumentList "main.py"
+
+# 打开浏览器验证
+# http://127.0.0.1:7860/stock/688800
+```
 
 ---
 
@@ -308,11 +244,11 @@ python .trae/skills/wechat-fetch-research-embedded/scripts/sync_to_firestore.py 
 ```
 data/
 ├── stocks/                    # 个股数据
-│   ├── stocks/               # 按日期分片存储
-│   │   ├── 2026-03-25.json
-│   │   ├── 2026-04-05.json
-│   │   └── 2026-05-09.json
-│   ├── stocks_master.json    # 完整备份（可选）
+│   ├── 2026-03-25.json       # 按日期分片存储
+│   ├── 2026-04-05.json
+│   ├── 2026-05-09.json
+│   ├── 2026-05-13.json       # 当日新增
+│   ├── stocks_master.json    # 完整主数据（合并所有分片）
 │   └── stocks_index.json     # 股票索引
 ├── groups/                   # 分组数据
 │   └── groups.json
@@ -320,56 +256,20 @@ data/
     └── hot_topics.json
 ```
 
-### 分片文件格式
+### 行业字段规范 ⭐️
 
-```json
-{
-  "date": "2026-05-09",
-  "update_count": 23,
-  "last_updated": "2026-05-09T18:00:00+08:00",
-  "stocks": {
-    "688250": {
-      "name": "盛科通信",
-      "code": "688250",
-      "last_updated": "2026-05-09",
-      ...
-    },
-    "300991": { ... },
-    "002416": { ... }
-  }
-}
-```
+`industry` 字段必须使用**三级行业分类**，禁止使用板块名称：
 
-### 索引文件格式
+| ❌ 错误 | ✅ 正确 |
+|---------|---------|
+| 创业板 | 电子 - 半导体 - 电子元器件 |
+| 科创板 | 机械设备 - 自动化设备 - 电源设备 |
+| 深市主板 | 医药生物 - 生物制品 - 疫苗 |
 
-```json
-{
-  "version": "2.0",
-  "last_updated": "2026-05-09",
-  "total_stocks": 3157,
-  "stocks": {
-    "688250": {
-      "name": "盛科通信",
-      "code": "688250",
-      "last_updated": "2026-05-09",
-      "file": "2026-05-09.json"
-    },
-    "300991": {
-      "name": "德福科技",
-      "code": "300991",
-      "last_updated": "2026-05-09",
-      "file": "2026-05-09.json"
-    }
-  }
-}
-```
+### 文章标题规范 ⭐️
 
-### 优势
-
-1. **增量更新**: 只处理当日数据，不影响历史
-2. **快速查找**: 通过索引快速定位股票
-3. **易于备份**: 按日期归档
-4. **避免冲突**: 多人协作时减少冲突
+所有文章 `title` 统一使用格式：`今天的一些信息整理MM.DD`
+- 示例：`今天的一些信息整理5.12`
 
 ---
 
@@ -377,158 +277,99 @@ data/
 
 ### 示例：处理一篇微信文章
 
-#### 1. 抓取文章
+#### 1. 创建 raw_material
 
-```bash
-python .trae/skills/wechat-fetch-research-embedded/scripts/fetch_wechat_to_raw_material.py \
-  --url "https://mp.weixin.qq.com/s/jU3eFc1irDolyJyLd6egyg" \
-  --out "raw_material/raw_material_2026-05-09.md"
-```
-
-**生成的 raw_material 文件**:
 ```markdown
 ## Article
 source: https://mp.weixin.qq.com/s/jU3eFc1irDolyJyLd6egyg
 fetched_at: 2026-05-09T10:30:00
 title: 今天的一些信息整理 5.7
 
-今天收集到的一些信息，分享如下：
-
 一、盛科通信（688250）
 1. 二季度订单加速放量
 2. 阿里 3 万 +scale out 订单意向
-3. 字节 3 万颗框架订单
-4. 国产交换芯片龙头，份额 30%
-
-二、德福科技（300991）
-1. 固态电池负极用铜箔已量产
-2. 2026 年固态电池装机 100GWh
-3. 铜箔加工费触底反弹
-
-三、品高股份（688227）
-1. 发布大模型一体机
-2. 2026 年订单翻倍
 ```
 
 #### 2. 提取个股信息
 
-```bash
-python .trae/skills/wechat-fetch-research-embedded/scripts/extract_stocks_from_raw_material.py \
-  --raw "raw_material/raw_material_2026-05-09.md" \
-  --xls ".trae/skills/wechat-fetch-research-embedded/assets/全部个股.xls" \
-  --out "data/master/stocks/2026-05-09.json"
-```
+**输出路径**: `data/stocks/2026-05-09.json`
 
-**生成的 JSON 文件**:
 ```json
 {
   "date": "2026-05-09",
-  "source": "https://mp.weixin.qq.com/s/jU3eFc1irDolyJyLd6egyg",
+  "update_count": 2,
+  "last_updated": "2026-05-09T18:00:00+08:00",
   "stocks": {
     "688250": {
       "name": "盛科通信",
       "code": "688250",
       "board": "SH",
+      "industry": "电子 - 半导体 - 集成电路",
+      "concepts": ["交换芯片", "Scale-out", "国产芯片"],
       "articles": [
         {
-          "title": "今天的一些信息整理 5.7",
+          "title": "今天的一些信息整理5.7",
           "date": "2026-05-09",
           "source": "https://mp.weixin.qq.com/s/jU3eFc1irDolyJyLd6egyg",
-          "accidents": [
-            "二季度订单加速放量",
-            "阿里 3 万 +scale out 订单",
-            "字节 3 万颗框架订单"
-          ],
-          "insights": [
-            "国产交换芯片龙头，份额 30%"
-          ],
+          "accidents": ["二季度订单加速放量"],
+          "insights": ["国产交换芯片龙头，份额30%"],
           "key_metrics": [],
           "target_valuation": []
         }
       ],
       "last_updated": "2026-05-09"
-    },
-    "300991": {
-      "name": "德福科技",
-      "code": "300991",
-      "board": "SZ",
-      "articles": [
-        {
-          "title": "今天的一些信息整理 5.7",
-          "date": "2026-05-09",
-          "source": "https://mp.weixin.qq.com/s/jU3eFc1irDolyJyLd6egyg",
-          "accidents": [
-            "固态电池负极用铜箔已量产"
-          ],
-          "insights": [
-            "铜箔加工费触底反弹"
-          ],
-          "key_metrics": [
-            "2026 年固态电池装机 100GWh"
-          ],
-          "target_valuation": []
-        }
-      ],
-      "last_updated": "2026-05-09"
     }
   }
 }
 ```
 
-#### 3. 增量合并
+#### 3. 合并到主数据 + 验证
 
 ```bash
-python .trae/skills/wechat-fetch-research-embedded/scripts/incremental_update.py \
-  --json "data/master/stocks/2026-05-09.json" \
-  --mode merge
-```
+# 合并
+python -c "
+import json
+m = json.load(open('data/stocks/stocks_master.json','r',encoding='utf-8'))
+d = json.load(open('data/stocks/2026-05-09.json','r',encoding='utf-8'))
+for c,s in d['stocks'].items():
+    if c in m['stocks']:
+        e = m['stocks'][c]
+        known = [(a['title'],a['source']) for a in e.get('articles',[])]
+        for a in s.get('articles',[]):
+            if (a['title'],a['source']) not in known:
+                e.setdefault('articles',[]).append(a)
+        e['mention_count'] = len(e['articles'])
+        e['last_updated'] = d['date']
+m['last_updated'] = d['last_updated']
+json.dump(m, open('data/stocks/stocks_master.json','w',encoding='utf-8'), ensure_ascii=False, indent=2)
+print('OK')
+"
 
-**更新后的索引**:
-```json
-{
-  "version": "2.0",
-  "last_updated": "2026-05-09",
-  "total_stocks": 3157,
-  "stocks": {
-    "688250": {
-      "name": "盛科通信",
-      "code": "688250",
-      "last_updated": "2026-05-09",
-      "file": "2026-05-09.json"
-    },
-    "300991": {
-      "name": "德福科技",
-      "code": "300991",
-      "last_updated": "2026-05-09",
-      "file": "2026-05-09.json"
-    }
-  }
-}
+# 验证
+python -c "import json; d=json.load(open('data/stocks/stocks_master.json','r',encoding='utf-8')); print('Total:', len(d['stocks']), 'stocks, last:', d.get('last_updated',''))"
 ```
 
 #### 4. 同步到 Firebase
 
 ```bash
-python .trae/skills/wechat-fetch-research-embedded/scripts/sync_to_firestore.py \
+python sync_stocks_to_firebase.py \
   --credentials ".trae/rules/firebase-credentials.json" \
-  --json "data/master/stocks/2026-05-09.json" \
+  --json "data/stocks/stocks_master.json" \
   --on_exists merge
 ```
 
-**输出**:
-```
-{"collection": "stocks", "article_subcollection": "articles", 
- "stocks": 2, "articles_total": 2, "articles_created": 2, 
- "articles_updated": 0, "parent_articles_upserts": 2, "on_exists": "merge"}
-```
-
-#### 5. 提交到 Git
+#### 5. 重启服务器 + Git 提交
 
 ```bash
+# 重启
+Stop-Process -Name "python" -Force
+Start-Process -NoNewWindow python -ArgumentList "main.py"
+
+# 提交
 git add raw_material/raw_material_2026-05-09.md
-git add data/master/stocks/2026-05-09.json
-git add data/master/stocks_index.json
-git commit -m "feat: 添加 2026-05-09 数据（盛科通信、德福科技）"
+git add data/stocks/2026-05-09.json
+git add data/stocks/stocks_master.json
+git commit -m "feat: 添加 YYYY-MM-DD 数据（N只股票）"
 git push origin main
 ```
 
@@ -537,81 +378,23 @@ git push origin main
 ## ❓ 常见问题
 
 ### Q1: raw_material 文件应该保存到哪里？
-
 **A**: 保存到 `raw_material/` 目录，命名格式为 `raw_material_YYYY-MM-DD.md`。
 
 ### Q2: 同一天有多篇文章怎么办？
+**A**: 使用序号区分：`_1.md`, `_2.md`, `_3.md`...
 
-**A**: 使用序号区分：
-- `raw_material_2026-05-09.md`
-- `raw_material_2026-05-09_2.md`
-- `raw_material_2026-05-09_3.md`
+### Q3: 行业字段显示"创业板/科创板"怎么办？
+**A**: 必须修正为三级行业分类。常见修正对照见 [行业字段规范](#行业字段规范-) 表格。
 
-### Q3: 提取的股票代码不正确怎么办？
+### Q4: 合并后页面没有更新？
+**A**: 必须**重启 Flask 服务器**才能生效。`stocks_master.json` 在服务器启动时加载。
 
-**A**: 检查 `全部个股.xls` 是否最新，或手动修正 JSON 文件中的股票代码。
-
-### Q4: 如何合并重复的股票代码？
-
-**A**: 使用 `incremental_update.py` 的 `merge` 模式，会自动去重文章。
-
-### Q5: 数据同步失败怎么办？
-
+### Q5: Firebase 同步失败怎么办？
 **A**: 
 1. 检查 Firebase 凭证文件是否正确
 2. 检查网络连接
 3. 查看错误日志
-4. 重试同步命令
-
-### Q6: 如何回滚错误的数据？
-
-**A**: 
-1. 从 Git 恢复旧的 JSON 文件
-2. 重新运行 `incremental_update.py`
-3. 重新同步到 Firebase
-
----
-
-## 🔧 自动化脚本
-
-### 一键处理脚本
-
-```bash
-#!/bin/bash
-# process_article.sh - 一键处理微信文章
-
-URL=$1
-DATE=$(date +%Y-%m-%d)
-
-echo "1. 抓取文章..."
-python .trae/skills/wechat-fetch-research-embedded/scripts/fetch_wechat_to_raw_material.py \
-  --url "$URL" \
-  --out "raw_material/raw_material_${DATE}.md"
-
-echo "2. 提取个股..."
-python .trae/skills/wechat-fetch-research-embedded/scripts/extract_stocks_from_raw_material.py \
-  --raw "raw_material/raw_material_${DATE}.md" \
-  --xls ".trae/skills/wechat-fetch-research-embedded/assets/全部个股.xls" \
-  --out "data/master/stocks/${DATE}.json"
-
-echo "3. 增量合并..."
-python .trae/skills/wechat-fetch-research-embedded/scripts/incremental_update.py \
-  --json "data/master/stocks/${DATE}.json" \
-  --mode merge
-
-echo "4. 同步到 Firebase..."
-python .trae/skills/wechat-fetch-research-embedded/scripts/sync_to_firestore.py \
-  --credentials ".trae/rules/firebase-credentials.json" \
-  --json "data/master/stocks/${DATE}.json" \
-  --on_exists merge
-
-echo "✅ 完成！"
-```
-
-**使用方式**:
-```bash
-./process_article.sh "https://mp.weixin.qq.com/s/xxx"
-```
+4. 可以跳过 Firebase 同步，先提交 Git
 
 ---
 
@@ -619,29 +402,18 @@ echo "✅ 完成！"
 
 ### 检查清单
 
-- [ ] raw_material 文件格式正确
-- [ ] 包含 `## Article` 标识
+- [ ] raw_material 文件格式正确（`## Article` 头部）
 - [ ] source URL 正确
 - [ ] fetched_at 时间格式正确
-- [ ] 提取的 JSON 文件格式符合规范
+- [ ] 提取的 JSON 格式符合规范
 - [ ] 股票代码映射正确
-- [ ] 文章去重成功
-- [ ] Firebase 同步成功
-
-### 验证命令
-
-```bash
-# 验证 JSON 格式
-python -c "import json; json.load(open('data/master/stocks/2026-05-09.json'))"
-
-# 检查 Firebase 数据
-python check_firebase_stocks.py
-
-# 查看索引
-cat data/master/stocks_index.json
-```
+- [ ] industry 字段不是"创业板/科创板"等板块名
+- [ ] 文章 title 格式统一
+- [ ] 合并后 stocks_master.json 已更新
+- [ ] Flask 服务器已重启（页面生效）
+- [ ] Git 已提交并推送
 
 ---
 
 **文档维护**: 系统自动更新  
-**最后更新**: 2026-05-11
+**最后更新**: 2026-05-13

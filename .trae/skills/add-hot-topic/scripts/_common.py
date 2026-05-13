@@ -3,7 +3,7 @@ import json
 from pathlib import Path
 
 PROJECT_ROOT = Path("e:/firebase++/app_stockapril")
-HOT_TOPICS_FILE = PROJECT_ROOT / "data" / "hot_topics.json"
+HOT_TOPICS_FILE = PROJECT_ROOT / "data" / "hot_topics" / "hot_topics.json"
 AGENT_STORE_FILE = Path("e:/github/agent_store/data/hot_topics.json")
 
 import shutil
