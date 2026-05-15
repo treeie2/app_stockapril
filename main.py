@@ -784,7 +784,7 @@ def api_hot_topics():
     
     # 使用 BASE_DIR（已在 main.py 中正确设置）
     try:
-        hot_file = BASE_DIR / 'data' / 'hot_topics.json'
+        hot_file = HOT_TOPICS_FILE
         if hot_file.exists():
             with open(hot_file, 'r', encoding='utf-8') as f:
                 data = json.load(f)
@@ -820,7 +820,7 @@ def api_all_hot_topics():
     topics = []
     
     try:
-        hot_file = BASE_DIR / 'data' / 'hot_topics.json'
+        hot_file = HOT_TOPICS_FILE
         if hot_file.exists():
             with open(hot_file, 'r', encoding='utf-8') as f:
                 data = json.load(f)
@@ -1699,7 +1699,7 @@ def sync_hot_topics_to_agent_store():
 def api_debug():
     """调试端点"""
     import sys
-    hot_file = BASE_DIR / 'data' / 'hot_topics.json'
+    hot_file = HOT_TOPICS_FILE
     result = {
         'base_dir': str(BASE_DIR),
         'base_dir_exists': BASE_DIR.exists(),
