@@ -68,6 +68,16 @@
         .article-card .meta { font-size: 12px; color: var(--text-muted); margin-bottom: 8px; }
         .article-card ul { margin: 4px 0; padding-left: 20px; font-size: 13px; color: var(--text-secondary); }
         .article-card ul li { margin: 2px 0; }
+        .price-row { display: flex; gap: 24px; flex-wrap: wrap; }
+        .price-item { text-align: center; min-width: 100px; }
+        .price-item .label { font-size: 12px; color: var(--text-muted); margin-bottom: 4px; }
+        .price-item .value { font-size: 22px; font-weight: 700; }
+        .price-item .value.up { color: var(--accent-rose); }
+        .price-item .value.down { color: var(--accent-green); }
+        .related-stock { display: inline-flex; align-items: center; gap: 6px; padding: 6px 14px; border-radius: var(--radius-sm); background: var(--bg-secondary); border: 1px solid var(--border); margin: 4px; text-decoration: none; color: var(--text-primary); font-size: 13px; transition: all 0.2s; }
+        .related-stock:hover { border-color: var(--accent-blue); background: rgba(59,130,246,0.1); }
+        .related-stock .sim { font-size: 11px; color: var(--text-muted); }
+        .loading-price { color: var(--text-muted); font-size: 14px; }
     </style>
 </head>
 <body>
@@ -115,13 +125,42 @@
         </div>
 
         <!-- 估值信息 -->
-        {% if stock.valuation %}
+        {% if stock.valuation and (stock.valuation.target_market_cap or stock.valuation.target_market_cap_billion) %}
         <div class="section">
             <h3>💰 估值</h3>
             {% if stock.valuation.target_market_cap %}<div>目标市值：{{ stock.valuation.target_market_cap }}</div>{% endif %}
             {% if stock.valuation.target_market_cap_billion %}<div>目标市值（亿）：{{ stock.valuation.target_market_cap_billion }}</div>{% endif %}
         </div>
         {% endif %}
+
+        <!-- 实时行情 -->
+        <div class="section">
+            <h3>📊 实时行情</h3>
+            <div class="price-row" id="marketData">
+                <div class="price-item">
+                    <div class="label">股价</div>
+                    <div class="value" id="mdPrice"><span class="loading-price">加载中...</span></div>
+                </div>
+                <div class="price-item">
+                    <div class="label">涨跌幅</div>
+                    <div class="value" id="mdChange"><span class="loading-price">—</span></div>
+                </div>
+                <div class="price-item">
+                    <div class="label">市盈率 (PE)</div>
+                    <div class="value" id="mdPe"><span class="loading-price">—</span></div>
+                </div>
+                <div class="price-item">
+                    <div class="label">总市值</div>
+                    <div class="value" id="mdMc"><span class="loading-price">—</span></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 关联个股 -->
+        <div class="section">
+            <h3>🔗 关联个股</h3>
+            <div id="relatedStocks"><span class="loading-price">加载中...</span></div>
+        </div>
 
         <!-- 编辑区域 -->
         <div class="edit-section" id="editSection">
@@ -345,6 +384,55 @@
                 showToast('❌ 网络错误: ' + e.message, 'error');
             }
         }
+
+        // ─── 实时行情 ───
+        async function fetchMarketData() {
+            try {
+                const resp = await fetch(`/api/market-data?codes=${STOCK_CODE}`);
+                const data = await resp.json();
+                const md = data[STOCK_CODE];
+                if (md && md.price) {
+                    const isUp = md.change >= 0;
+                    const cls = isUp ? 'up' : 'down';
+                    const sign = isUp ? '+' : '';
+                    document.getElementById('mdPrice').innerHTML = `<span class="value ${cls}">${md.price.toFixed(2)}</span>`;
+                    document.getElementById('mdChange').innerHTML = `<span class="value ${cls}">${sign}${md.change.toFixed(2)}%</span>`;
+                    document.getElementById('mdPe').innerHTML = `<span class="value">${md.peRatio ? md.peRatio.toFixed(2) : '—'}</span>`;
+                    document.getElementById('mdMc').innerHTML = `<span class="value">${md.marketCap ? md.marketCap.toFixed(0) + '亿' : '—'}</span>`;
+                } else {
+                    document.getElementById('mdPrice').innerHTML = '<span class="value" style="color:var(--text-muted)">暂无数据</span>';
+                }
+            } catch(e) {
+                document.getElementById('mdPrice').innerHTML = '<span class="value" style="color:var(--text-muted)">获取失败</span>';
+            }
+        }
+
+        // ─── 关联个股 ───
+        async function fetchRelatedStocks() {
+            try {
+                const resp = await fetch(`/api/stock/${STOCK_CODE}/similar?top=8&min_sim=0.15`);
+                const data = await resp.json();
+                const container = document.getElementById('relatedStocks');
+                if (data.similar && data.similar.length > 0) {
+                    container.innerHTML = data.similar.map(s =>
+                        `<a href="/stock/${s.code}" class="related-stock">
+                            <span>${s.name}</span>
+                            <span class="sim">${(s.similarity * 100).toFixed(0)}%</span>
+                        </a>`
+                    ).join('');
+                } else {
+                    container.innerHTML = '<span style="color:var(--text-muted);font-size:13px;">暂无关联个股</span>';
+                }
+            } catch(e) {
+                document.getElementById('relatedStocks').innerHTML = '<span style="color:var(--text-muted);font-size:13px;">加载失败</span>';
+            }
+        }
+
+        // 页面加载时自动获取行情和关联个股
+        document.addEventListener('DOMContentLoaded', function() {
+            fetchMarketData();
+            fetchRelatedStocks();
+        });
     </script>
 </body>
 </html>
