@@ -375,7 +375,7 @@ def load_data_from_local():
         print("  🌐 Vercel 环境，从 GitHub 加载数据...")
         try:
             import requests
-            github_url = "https://raw.githubusercontent.com/treeie2/app_stockapril/main/data/master/stocks_master.json"
+            github_url = "https://raw.githubusercontent.com/treeie2/app_stockapril/main/data/stocks/stocks_master.json"
             print(f"  📥 从 GitHub 下载 stocks_master.json...")
             response = requests.get(github_url, timeout=60)
             response.raise_for_status()

@@ -1,7 +1,9 @@
 import json
+from datetime import date
 from pathlib import Path
 
 BASE_DIR = Path(__file__).parent.parent
+today_str = date.today().isoformat()
 
 # 1. 读取新数据
 with open(BASE_DIR / 'data' / 'stocks_master_2026-05-15.json', 'r', encoding='utf-8') as f:
@@ -36,11 +38,13 @@ for code, new_s in new_stocks_dict.items():
         if merged:
             master_stocks[code]['articles'] = old_articles
             master_stocks[code]['mention_count'] = len(old_articles)
+            master_stocks[code]['last_updated'] = today_str
             print(f'  + {code} {new_s["name"]}: 合并了 {len(new_articles)} 篇新文章')
         else:
             print(f'  = {code} {new_s["name"]}: 无新文章需要合并')
     else:
         master_stocks[code] = new_s
+        master_stocks[code]['last_updated'] = today_str
         print(f'  + {code} {new_s["name"]}: 新增股票')
 
 # 4. 保存主文件
