@@ -295,6 +295,9 @@ def load_data_from_firebase():
                     metrics = article_fields.get('key_metrics', {}).get('arrayValue', {}).get('values', [])
                     article_data['key_metrics'] = [m.get('stringValue', '') for m in metrics if m.get('stringValue')]
                     
+                    tv = article_fields.get('target_valuation', {}).get('arrayValue', {}).get('values', [])
+                    article_data['target_valuation'] = [t.get('stringValue', '') for t in tv if t.get('stringValue')]
+                    
                     stock['articles'].append(article_data)
                 
                 all_stocks[code] = stock
@@ -958,10 +961,11 @@ def stock_detail(code):
                     'source': article_fields.get('source', {}).get('stringValue', ''),
                     'insights': [],
                     'accidents': [],
-                    'key_metrics': []
+                    'key_metrics': [],
+                    'target_valuation': []
                 }
                 
-                for field in ['insights', 'accidents', 'key_metrics']:
+                for field in ['insights', 'accidents', 'key_metrics', 'target_valuation']:
                     arr = article_fields.get(field, {}).get('arrayValue', {}).get('values', [])
                     article_data[field] = [x.get('stringValue', '') for x in arr if x.get('stringValue')]
                 
@@ -1075,18 +1079,42 @@ def search():
             elif any(q in concept.lower() for concept in d.get('concepts', [])):
                 score = 300
                 match_fields.append('概念')
-            # 匹配催化剂（accident）- 支持数组和字符串
-            accident = d.get('accident', '')
-            accident_text = ','.join(accident).lower() if isinstance(accident, list) else accident.lower()
-            if q in accident_text:
+            # 匹配催化剂（accident）- 搜索文章内的 accidents
+            article_accidents = []
+            for article in d.get('articles', []):
+                for a in article.get('accidents', []):
+                    if q in a.lower():
+                        article_accidents.append(a)
+            if article_accidents:
                 score = 200
                 match_fields.append('催化剂')
-            # 匹配投资洞察（insights）- 支持数组和字符串
-            insights = d.get('insights', '')
-            insights_text = ','.join(insights).lower() if isinstance(insights, list) else insights.lower()
-            if q in insights_text:
+            # 匹配投资洞察（insights）- 搜索文章内的 insights
+            article_insights = []
+            for article in d.get('articles', []):
+                for ins in article.get('insights', []):
+                    if q in ins.lower():
+                        article_insights.append(ins)
+            if article_insights:
                 score = 200
                 match_fields.append('投资洞察')
+            # 匹配关键指标（key_metrics）- 搜索文章内的 key_metrics
+            for article in d.get('articles', []):
+                for km in article.get('key_metrics', []):
+                    if q in km.lower():
+                        score = 180
+                        match_fields.append('关键指标')
+                        break
+                if '关键指标' in match_fields:
+                    break
+            # 匹配目标估值（target_valuation）- 搜索文章内的 target_valuation
+            for article in d.get('articles', []):
+                for tv in article.get('target_valuation', []):
+                    if q in tv.lower():
+                        score = 180
+                        match_fields.append('目标估值')
+                        break
+                if '目标估值' in match_fields:
+                    break
             # 匹配公司概况（core_business）- 支持数组和字符串
             core_business = d.get('core_business', '')
             core_business_text = ','.join(core_business).lower() if isinstance(core_business, list) else core_business.lower()
