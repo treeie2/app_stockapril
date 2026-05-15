@@ -259,20 +259,8 @@ def load_data_from_firebase():
                     'partners': [],
                     'mention_count': int(fields.get('mention_count', {}).get('integerValue', '0') or 0),
                     'last_updated': fields.get('last_updated', {}).get('stringValue', ''),
-                    'valuation': {},
                     'articles': []
                 }
-                
-                # 获取估值信息
-                target_market_cap = fields.get('target_market_cap', {}).get('stringValue', '')
-                target_market_cap_billion = fields.get('target_market_cap_billion', {}).get('doubleValue', None)
-                
-                if target_market_cap or target_market_cap_billion is not None:
-                    stock['valuation'] = {}
-                    if target_market_cap:
-                        stock['valuation']['target_market_cap'] = target_market_cap
-                    if target_market_cap_billion is not None:
-                        stock['valuation']['target_market_cap_billion'] = float(target_market_cap_billion)
                 
                 # 获取概念
                 concepts_arr = fields.get('concepts', {}).get('arrayValue', {}).get('values', [])
@@ -948,20 +936,8 @@ def stock_detail(code):
                 'industry_position': [],
                 'chain': [],
                 'partners': [],
-                'articles': [],
-                'valuation': {}
+                'articles': []
             }
-            
-            # 获取估值信息
-            target_market_cap = fields.get('target_market_cap', {}).get('stringValue', '')
-            target_market_cap_billion = fields.get('target_market_cap_billion', {}).get('doubleValue', None)
-            
-            if target_market_cap or target_market_cap_billion is not None:
-                d['valuation'] = {}
-                if target_market_cap:
-                    d['valuation']['target_market_cap'] = target_market_cap
-                if target_market_cap_billion is not None:
-                    d['valuation']['target_market_cap_billion'] = float(target_market_cap_billion)
             
             # 获取概念
             concepts_arr = fields.get('concepts', {}).get('arrayValue', {}).get('values', [])
@@ -1020,8 +996,7 @@ def stock_detail(code):
         'key_metrics': d.get('key_metrics', []),
         'partners': d.get('partners', []),
         'products': d.get('products', []),
-        'detail_texts': d.get('detail_texts', [])[:5],
-        'valuation': d.get('valuation', {})
+        'detail_texts': d.get('detail_texts', [])[:5]
     }
     
     # 统一文章字段格式
@@ -1172,20 +1147,29 @@ def api_stock_edit(code):
             stocks[code][field] = data[field]
             updated.append(field)
     
-    # 股票级别的目标市值
+    # 目标市值 → 写入最新文章的 target_valuation
     if 'target_market_cap' in data:
         target_cap = data['target_market_cap'].strip()
         if target_cap:
-            # 解析目标市值（支持 "1100 亿", "1100e", "1.1 千亿" 等格式）
             target_billion = parse_target_market_cap(target_cap)
-            if 'valuation' not in stocks[code]:
-                stocks[code]['valuation'] = {}
-            stocks[code]['valuation']['target_market_cap'] = target_cap
-            stocks[code]['valuation']['target_market_cap_billion'] = target_billion
-            updated.append('valuation')
-        else:
-            # 如果为空，删除估值字段
-            stocks[code].pop('valuation', None)
+            tv_text = f'目标市值：{target_cap}'
+            if stocks[code].get('articles') and len(stocks[code]['articles']) > 0:
+                latest = stocks[code]['articles'][0]
+                if 'target_valuation' not in latest or not isinstance(latest['target_valuation'], list):
+                    latest['target_valuation'] = []
+                if tv_text not in latest['target_valuation']:
+                    latest['target_valuation'].append(tv_text)
+            else:
+                stocks[code].setdefault('articles', []).append({
+                    'title': '目标估值',
+                    'date': datetime.now().strftime('%Y-%m-%d'),
+                    'source': '',
+                    'accidents': [],
+                    'insights': [],
+                    'key_metrics': [],
+                    'target_valuation': [tv_text]
+                })
+            updated.append('target_valuation')
     
     # 文章相关字段（更新最新的一篇文章）
     article_fields = ['accidents', 'insights', 'target_valuation', 'expected_price', 'expected_performance', 'market_valuation']
@@ -2306,18 +2290,6 @@ def sync_to_firebase(stocks_dict, stats):
                         "updated_at": {"timestampValue": datetime.now().isoformat() + "Z"}
                     }
                 }
-                
-                # 添加估值信息
-                valuation = stock.get("valuation", {})
-                if valuation:
-                    if valuation.get("target_market_cap"):
-                        firestore_data["fields"]["target_market_cap"] = {
-                            "stringValue": valuation.get("target_market_cap", "")
-                        }
-                    if valuation.get("target_market_cap_billion"):
-                        firestore_data["fields"]["target_market_cap_billion"] = {
-                            "doubleValue": float(valuation.get("target_market_cap_billion", 0))
-                        }
                 
                 # 添加概念数组
                 concepts = stock.get("concepts", [])
