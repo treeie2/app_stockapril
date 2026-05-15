@@ -113,7 +113,6 @@ def sync_stocks_to_firebase():
                     "chain": stock.get("chain", []),
                     "partners": stock.get("partners", []),
                     "mention_count": stock.get("mention_count", 0),
-                    "valuation": stock.get("valuation", {}),
                     "articles": stock.get("articles", []),
                     "last_updated": stock.get("last_updated", ""),
                     "updated_at": firestore.SERVER_TIMESTAMP,

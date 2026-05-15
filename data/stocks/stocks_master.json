@@ -8906,8 +8906,7 @@
           "source": "https://mp.weixin.qq.com/s/5bluU2s8izAKQ9K3Fb2KGA"
         }
       ],
-      "last_updated": "2026-05-09",
-      "valuation": {}
+      "last_updated": "2026-05-09"
     },
     "000962": {
       "name": "东方钽业",
@@ -9653,8 +9652,7 @@
           "target_valuation": []
         }
       ],
-      "last_updated": "2026-05-09",
-      "valuation": {}
+      "last_updated": "2026-05-09"
     },
     "000993": {
       "name": "绿色电力",
@@ -12379,8 +12377,7 @@
           "target_valuation": []
         }
       ],
-      "last_updated": "2026-05-09",
-      "valuation": {}
+      "last_updated": "2026-05-09"
     },
     "002024": {
       "name": "苏宁易购",
@@ -16118,8 +16115,7 @@
           "target_valuation": []
         }
       ],
-      "last_updated": "2026-05-13",
-      "valuation": {}
+      "last_updated": "2026-05-13"
     },
     "002157": {
       "name": "正邦科技",
@@ -20386,8 +20382,7 @@
           "target_valuation": []
         }
       ],
-      "last_updated": "2026-05-13",
-      "valuation": {}
+      "last_updated": "2026-05-13"
     },
     "002283": {
       "name": "天润工业",
@@ -20455,15 +20450,13 @@
             "主业 4e*15XPE=60e",
             "大缸径曲轴连杆 25e 收入/5e 利润*30XPE=150e",
             "重卡喷射系统 50e 市值",
-            "合计 260e 市值，翻倍空间"
+            "合计 260e 市值，翻倍空间",
+            "目标市值：260亿",
+            "目标市值（亿）：260.0"
           ]
         }
       ],
-      "last_updated": "2026-05-15",
-      "valuation": {
-        "target_market_cap": "260亿",
-        "target_market_cap_billion": 260.0
-      }
+      "last_updated": "2026-05-15"
     },
     "002284": {
       "name": "亚太股份",
@@ -21877,6 +21870,10 @@
             "爱德曼擅长氢燃料电池汽车的电堆技术及产品研发，拥有多项自主技术专利，以及催化等材料技术，拥有发动机电堆的维护能力。",
             "电源子公司快速增长，全年有望超额完成业绩承诺；光伏和新能源汽车业务短期内受政策影响，物流车起量有望拉动公司电控产品销售。",
             "电源业务有望超额完成业绩承诺，新能源汽车和光伏业务受政策影响较大。"
+          ],
+          "target_valuation": [
+            "目标市值：200亿",
+            "目标市值（亿）：200.0"
           ]
         },
         {
@@ -21905,11 +21902,7 @@
           ]
         }
       ],
-      "last_updated": "2026-05-15",
-      "valuation": {
-        "target_market_cap": "200亿",
-        "target_market_cap_billion": 200.0
-      }
+      "last_updated": "2026-05-15"
     },
     "002335": {
       "name": "科华数据",
@@ -23139,8 +23132,7 @@
           "target_valuation": []
         }
       ],
-      "last_updated": "2026-05-13",
-      "valuation": {}
+      "last_updated": "2026-05-13"
     },
     "002373": {
       "name": "千方科技",
@@ -25013,8 +25005,7 @@
           "source": "https://mp.weixin.qq.com/s/5bluU2s8izAKQ9K3Fb2KGA"
         }
       ],
-      "last_updated": "2026-05-09",
-      "valuation": {}
+      "last_updated": "2026-05-09"
     },
     "002429": {
       "name": "兆驰股份",
@@ -25289,8 +25280,7 @@
           "target_valuation": []
         }
       ],
-      "last_updated": "2026-04-23",
-      "valuation": {}
+      "last_updated": "2026-04-23"
     },
     "002437": {
       "name": "誉衡药业",
@@ -32175,8 +32165,7 @@
           "target_valuation": []
         }
       ],
-      "last_updated": "2026-05-09",
-      "valuation": {}
+      "last_updated": "2026-05-09"
     },
     "002727": {
       "name": "一心堂",
@@ -37425,8 +37414,7 @@
           "target_valuation": []
         }
       ],
-      "last_updated": "2026-05-09",
-      "valuation": {}
+      "last_updated": "2026-05-09"
     },
     "002978": {
       "name": "深圳新星",
@@ -37775,6 +37763,10 @@
           ],
           "accidents": [
             "11亿IT设备采购（GPU等算力硬件），230亿综合授信，算力租赁布局，智慧口岸+算力底座。"
+          ],
+          "target_valuation": [
+            "目标市值：460亿",
+            "目标市值（亿）：460.0"
           ]
         },
         {
@@ -37804,11 +37796,7 @@
           ]
         }
       ],
-      "last_updated": "2026-05-15",
-      "valuation": {
-        "target_market_cap": "460亿",
-        "target_market_cap_billion": 460.0
-      }
+      "last_updated": "2026-05-15"
     },
     "002992": {
       "name": "宝明科技",
@@ -46817,8 +46805,7 @@
           "target_valuation": []
         }
       ],
-      "last_updated": "2026-04-23",
-      "valuation": {}
+      "last_updated": "2026-04-23"
     },
     "300264": {
       "name": "虚拟现实",
@@ -48106,8 +48093,7 @@
           "source": "https://mp.weixin.qq.com/s/5bluU2s8izAKQ9K3Fb2KGA"
         }
       ],
-      "last_updated": "2026-05-09",
-      "valuation": {}
+      "last_updated": "2026-05-09"
     },
     "300319": {
       "name": "一体成型电感",
@@ -50121,6 +50107,10 @@
           ],
           "accidents": [
             "人大代表介绍柔性钙钛矿电池"
+          ],
+          "target_valuation": [
+            "目标市值：300亿",
+            "目标市值（亿）：300.0"
           ]
         },
         {
@@ -50154,11 +50144,7 @@
           ]
         }
       ],
-      "last_updated": "2026-05-15",
-      "valuation": {
-        "target_market_cap": "300亿",
-        "target_market_cap_billion": 300.0
-      }
+      "last_updated": "2026-05-15"
     },
     "300394": {
       "name": "天孚通信",
@@ -51520,8 +51506,7 @@
           "target_valuation": []
         }
       ],
-      "last_updated": "2026-04-23",
-      "valuation": {}
+      "last_updated": "2026-04-23"
     },
     "300435": {
       "name": "中泰股份",
@@ -52260,8 +52245,7 @@
           "target_valuation": []
         }
       ],
-      "last_updated": "2026-04-23",
-      "valuation": {}
+      "last_updated": "2026-04-23"
     },
     "300457": {
       "name": "赢合科技",
@@ -61476,8 +61460,7 @@
           "target_valuation": []
         }
       ],
-      "last_updated": "2026-04-23",
-      "valuation": {}
+      "last_updated": "2026-04-23"
     },
     "300777": {
       "name": "中简科技",
@@ -70702,14 +70685,13 @@
           "accidents": [],
           "insights": [],
           "key_metrics": [],
-          "target_valuation": []
+          "target_valuation": [
+            "目标市值：800亿",
+            "目标市值（亿）：800.0"
+          ]
         }
       ],
-      "last_updated": "2026-04-23",
-      "valuation": {
-        "target_market_cap": "800亿",
-        "target_market_cap_billion": 800.0
-      }
+      "last_updated": "2026-04-23"
     },
     "301302": {
       "name": "华如科技",
@@ -71198,6 +71180,10 @@
           "source": "https://mp.weixin.qq.com/s/41Q-HxGbcSay6ryECpsElw",
           "accidents": [
             "公司将抓住下游应用市场快速增长的机会，以及国家产业政策的支持，利用公司的技术优势、客户资源优势、供应链优势，借助资本市场融资渠道，在巩固现有市场的基础上，积极开拓国际市场和新兴市场。"
+          ],
+          "target_valuation": [
+            "目标市值：250亿",
+            "目标市值（亿）：250.0"
           ]
         },
         {
@@ -71222,11 +71208,7 @@
           ]
         }
       ],
-      "last_updated": "2026-05-15",
-      "valuation": {
-        "target_market_cap": "250亿",
-        "target_market_cap_billion": 250.0
-      }
+      "last_updated": "2026-05-15"
     },
     "301321": {
       "name": "翰博高新",
@@ -77705,8 +77687,7 @@
           "source": "https://mp.weixin.qq.com/s/5bluU2s8izAKQ9K3Fb2KGA"
         }
       ],
-      "last_updated": "2026-05-09",
-      "valuation": {}
+      "last_updated": "2026-05-09"
     },
     "600108": {
       "name": "亚盛集团",
@@ -79626,8 +79607,7 @@
           "target_valuation": []
         }
       ],
-      "last_updated": "2026-05-09",
-      "valuation": {}
+      "last_updated": "2026-05-09"
     },
     "600207": {
       "name": "安彩高科",
@@ -85334,8 +85314,7 @@
           "target_valuation": []
         }
       ],
-      "last_updated": "2026-05-09",
-      "valuation": {}
+      "last_updated": "2026-05-09"
     },
     "600536": {
       "name": "中国软件",
@@ -86516,8 +86495,7 @@
           "target_valuation": []
         }
       ],
-      "last_updated": "2026-05-13",
-      "valuation": {}
+      "last_updated": "2026-05-13"
     },
     "600585": {
       "name": "海螺水泥",
@@ -86704,14 +86682,14 @@
         {
           "date": "",
           "title": "风口byTY",
-          "source": ""
+          "source": "",
+          "target_valuation": [
+            "目标市值：300亿",
+            "目标市值（亿）：300.0"
+          ]
         }
       ],
-      "last_updated": "",
-      "valuation": {
-        "target_market_cap": "300亿",
-        "target_market_cap_billion": 300.0
-      }
+      "last_updated": ""
     },
     "600590": {
       "name": "泰豪科技",
@@ -88776,8 +88754,7 @@
           "source": "https://mp.weixin.qq.com/s/5bluU2s8izAKQ9K3Fb2KGA"
         }
       ],
-      "last_updated": "2026-05-09",
-      "valuation": {}
+      "last_updated": "2026-05-09"
     },
     "600704": {
       "name": "物产中大",
@@ -93287,8 +93264,7 @@
           "target_valuation": []
         }
       ],
-      "last_updated": "2026-05-09",
-      "valuation": {}
+      "last_updated": "2026-05-09"
     },
     "600967": {
       "name": "内蒙一机",
@@ -110423,8 +110399,7 @@
           "target_valuation": []
         }
       ],
-      "last_updated": "2026-04-23",
-      "valuation": {}
+      "last_updated": "2026-04-23"
     },
     "603777": {
       "name": "来伊份",
@@ -116194,8 +116169,7 @@
           "target_valuation": []
         }
       ],
-      "last_updated": "2026-05-09",
-      "valuation": {}
+      "last_updated": "2026-05-09"
     },
     "688049": {
       "name": "炬芯科技",
@@ -117775,7 +117749,9 @@
             "龙头企业"
           ],
           "target_valuation": [
-            "成长空间显著"
+            "成长空间显著",
+            "目标市值：1200亿",
+            "目标市值（亿）：1200.0"
           ],
           "title": "风口byTY",
           "source": "",
@@ -117826,11 +117802,7 @@
           ]
         }
       ],
-      "last_updated": "2026-05-15",
-      "valuation": {
-        "target_market_cap": "1200亿",
-        "target_market_cap_billion": 1200.0
-      }
+      "last_updated": "2026-05-15"
     },
     "688122": {
       "name": "西部超导",
@@ -117979,7 +117951,11 @@
             "吉林省48个市县已全部开栓供热，较上个采暖季平均提前3天"
           ],
           "title": "每周复盘与展望，10月19日，星期日",
-          "source": "https://mp.weixin.qq.com/s/LisR5Jjk8-DDKK8NCpR5Xw"
+          "source": "https://mp.weixin.qq.com/s/LisR5Jjk8-DDKK8NCpR5Xw",
+          "target_valuation": [
+            "目标市值：1000亿",
+            "目标市值（亿）：1000.0"
+          ]
         },
         {
           "title": "今天的一些信息整理5.12",
@@ -118021,11 +117997,7 @@
           ]
         }
       ],
-      "last_updated": "2026-05-15",
-      "valuation": {
-        "target_market_cap": "1000亿",
-        "target_market_cap_billion": 1000.0
-      }
+      "last_updated": "2026-05-15"
     },
     "688125": {
       "name": "安达智能",
@@ -119142,8 +119114,7 @@
           "target_valuation": []
         }
       ],
-      "last_updated": "2026-04-23",
-      "valuation": {}
+      "last_updated": "2026-04-23"
     },
     "688172": {
       "name": "燕东微",
@@ -119201,15 +119172,13 @@
             "多家功率公司近期持续涨价"
           ],
           "target_valuation": [
-            "往上可以看2700亿"
+            "往上可以看2700亿",
+            "目标市值：2700亿",
+            "目标市值（亿）：2700.0"
           ]
         }
       ],
-      "last_updated": "2026-05-15",
-      "valuation": {
-        "target_market_cap": "2700亿",
-        "target_market_cap_billion": 2700.0
-      }
+      "last_updated": "2026-05-15"
     },
     "688180": {
       "name": "君实生物",
@@ -121612,14 +121581,13 @@
             "AIDC风冷风扇需求不减"
           ],
           "key_metrics": [],
-          "target_valuation": []
+          "target_valuation": [
+            "目标市值：540亿",
+            "目标市值（亿）：540.0"
+          ]
         }
       ],
-      "last_updated": "2026-05-13",
-      "valuation": {
-        "target_market_cap": "540亿",
-        "target_market_cap_billion": 540.0
-      }
+      "last_updated": "2026-05-13"
     },
     "688281": {
       "name": "华秦科技",
@@ -122506,8 +122474,7 @@
           ]
         }
       ],
-      "last_updated": "2026-05-09",
-      "valuation": {}
+      "last_updated": "2026-05-09"
     },
     "688314": {
       "name": "康拓医疗",
@@ -124138,12 +124105,21 @@
       "chain": [],
       "partners": [],
       "mention_count": 1,
-      "articles": [],
-      "last_updated": "",
-      "valuation": {
-        "target_market_cap": "170亿",
-        "target_market_cap_billion": 170.0
-      }
+      "articles": [
+        {
+          "title": "目标估值",
+          "date": "",
+          "source": "",
+          "accidents": [],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [
+            "目标市值：170亿",
+            "目标市值（亿）：170.0"
+          ]
+        }
+      ],
+      "last_updated": ""
     },
     "688380": {
       "name": "中微半导",
@@ -125480,15 +125456,13 @@
           ],
           "target_valuation": [
             "SiC 衬底市场未来需求可能是以往的 20 倍以上",
-            "重视铲子十倍股"
+            "重视铲子十倍股",
+            "目标市值：200亿",
+            "目标市值（亿）：200.0"
           ]
         }
       ],
-      "last_updated": "2026-05-15",
-      "valuation": {
-        "target_market_cap": "200亿",
-        "target_market_cap_billion": 200.0
-      }
+      "last_updated": "2026-05-15"
     },
     "688480": {
       "name": "赛恩斯",
@@ -125688,8 +125662,7 @@
           "source": "https://mp.weixin.qq.com/s/5bluU2s8izAKQ9K3Fb2KGA"
         }
       ],
-      "last_updated": "2026-05-09",
-      "valuation": {}
+      "last_updated": "2026-05-09"
     },
     "688499": {
       "name": "利元亨",
@@ -128357,8 +128330,7 @@
           "target_valuation": []
         }
       ],
-      "last_updated": "2026-05-13",
-      "valuation": {}
+      "last_updated": "2026-05-13"
     },
     "688605": {
       "name": "先锋精科",
@@ -133513,15 +133485,14 @@
           ],
           "insights": [],
           "key_metrics": [],
-          "target_valuation": []
+          "target_valuation": [
+            "目标市值：120亿",
+            "upside：200%",
+            "rating：看好"
+          ]
         }
       ],
-      "last_updated": "2026-04-23",
-      "valuation": {
-        "target_market_cap": "120亿",
-        "upside": "200%",
-        "rating": "看好"
-      }
+      "last_updated": "2026-04-23"
     },
     "600707": {
       "name": "彩虹股份",
@@ -133567,7 +133538,6 @@
           "target_valuation": []
         }
       ],
-      "valuation": {},
       "last_updated": "2026-04-23"
     },
     "002550": {
@@ -133620,14 +133590,13 @@
           "accidents": [],
           "insights": [],
           "key_metrics": [],
-          "target_valuation": []
+          "target_valuation": [
+            "目标市值：潜在十倍股",
+            "upside：1000%",
+            "rating：高弹性标的"
+          ]
         }
       ],
-      "valuation": {
-        "target_market_cap": "潜在十倍股",
-        "upside": "1000%",
-        "rating": "高弹性标的"
-      },
       "last_updated": "2026-04-23"
     },
     "688250": {
@@ -133659,10 +133628,6 @@
         "腾讯"
       ],
       "mention_count": 2,
-      "valuation": {
-        "target_market_cap": "2700 亿",
-        "target_market_cap_billion": 2700.0
-      },
       "articles": [
         {
           "title": "今天的一些信息整理 5.7",
@@ -133683,7 +133648,9 @@
             "盛科份额 30%，利润率 30%"
           ],
           "target_valuation": [
-            "约 2700 亿市值"
+            "约 2700 亿市值",
+            "目标市值：2700 亿",
+            "目标市值（亿）：2700.0"
           ]
         },
         {
@@ -133752,10 +133719,6 @@
         "英伟达供应链"
       ],
       "mention_count": 4,
-      "valuation": {
-        "target_market_cap": "400亿",
-        "target_market_cap_billion": 400.0
-      },
       "articles": [
         {
           "title": "今天的一些信息整理 5.7",
@@ -133766,7 +133729,10 @@
           ],
           "insights": [],
           "key_metrics": [],
-          "target_valuation": []
+          "target_valuation": [
+            "目标市值：400亿",
+            "目标市值（亿）：400.0"
+          ]
         },
         {
           "title": "德福科技：高端电子箔&载体铜箔放量+锂电二线涨价，目标市值400亿",
@@ -133856,7 +133822,6 @@
         "Coherent"
       ],
       "mention_count": 1,
-      "valuation": {},
       "articles": [
         {
           "title": "今天的一些信息整理 5.7",
@@ -133920,7 +133885,6 @@
         "特斯拉"
       ],
       "mention_count": 1,
-      "valuation": {},
       "articles": [
         {
           "title": "今天的一些信息整理 5.7",
