@@ -84,20 +84,23 @@ def run_pipeline(
         # Step 2: Convert to raw_material format
         logger.info(f"[Pipeline] Step 2: Converting to raw_material format")
         
-        from scripts.fetch_wechat_to_raw_material import main as raw_material_main
-        from datetime import datetime
+        import datetime as dt
         
-        today = datetime.now().strftime("%Y-%m-%d")
+        today = dt.datetime.now().strftime("%Y-%m-%d")
         raw_material_file = config.raw_material_dir / f"raw_material_{today}.md"
         
-        class Args:
-            url = url
-            out = str(raw_material_file)
-            mcp_server = None
-            mcp_tool = None
-            manual_text_file = str(tmp_file)
+        fetched_at = dt.datetime.now().astimezone().isoformat(timespec="seconds")
+        content = Path(tmp_file).read_text(encoding="utf-8").strip()
         
-        raw_material_main(Args())
+        lines = []
+        lines.append("## Article")
+        lines.append(f"source: {url}")
+        lines.append(f"fetched_at: {fetched_at}")
+        lines.append(f"title: {today} 文章")
+        lines.append("")
+        lines.append(content)
+        
+        raw_material_file.write_text("\n".join(lines), encoding="utf-8")
         
         if not raw_material_file.exists():
             raise RuntimeError("Failed to create raw_material file")
@@ -108,18 +111,83 @@ def run_pipeline(
         # Step 3: Extract stock information
         logger.info(f"[Pipeline] Step 3: Extracting stock information")
         
-        from scripts.extract_stocks_from_raw_material import main as extract_main
+        from scripts.extract_stocks_from_raw_material import (
+            load_config, APIManager, load_stock_map, read_text,
+            parse_raw_material, identify_stocks_in_article,
+            extract_items, merge_into_master, write_json
+        )
+        import re
         
         stocks_file = config.data_dir / f"stocks_master_{today}.json"
         
-        class ExtractArgs:
-            raw = str(raw_material_file)
-            stock_xls = str(config.stock_xls_path)
-            out_json = str(stocks_file)
-            mode = config.extraction_mode
-            config = None
+        # Load config and create API manager
+        extraction_config = load_config()
+        api_manager = APIManager(extraction_config)
         
-        extract_main(ExtractArgs())
+        if not api_manager.apis:
+            raise RuntimeError("No API configured for stock extraction")
+        
+        logger.info(f"[Pipeline] Using API: {api_manager.apis[0]['name']}")
+        
+        # Load stock mapping
+        code_to_name, name_to_code = load_stock_map(str(config.stock_xls_path))
+        logger.info(f"[Pipeline] Loaded {len(code_to_name)} stocks from XLS")
+        
+        # Parse raw material
+        raw_md = read_text(str(raw_material_file))
+        articles = parse_raw_material(raw_md, default_date=today)
+        
+        if not articles:
+            raise RuntimeError("No article blocks found in raw_material")
+        
+        logger.info(f"[Pipeline] Found {len(articles)} articles")
+        
+        # Extract stocks from each article
+        master = {"stocks": []}
+        
+        for art in articles:
+            logger.info(f"[Pipeline] Processing article: {art.title or art.source[:50]}")
+            
+            # Identify stocks
+            candidates = identify_stocks_in_article(api_manager, art.content)
+            
+            mapped = []
+            for c in candidates:
+                code = c.get("code", "")
+                name = c.get("name", "")
+                if code and code in code_to_name:
+                    mapped.append({"code": code, "name": code_to_name[code]})
+                elif name and name in name_to_code:
+                    mapped.append({"code": name_to_code[name], "name": name})
+            
+            # Deduplicate
+            uniq = {}
+            for s in mapped:
+                uniq[s["code"]] = s
+            mapped = list(uniq.values())
+            
+            if not mapped:
+                logger.warning(f"[Pipeline] No stocks identified in article, skipping")
+                continue
+            
+            logger.info(f"[Pipeline] Identified {len(mapped)} stocks")
+            
+            # Extract structured data
+            items = extract_items(api_manager, art, mapped)
+            
+            # Fill missing fields
+            for it in items:
+                if isinstance(it, dict) and re.fullmatch(r"\d{6}", str(it.get("code", ""))):
+                    code = str(it["code"])
+                    it.setdefault("name", code_to_name.get(code, ""))
+                    if isinstance(it.get("article"), dict):
+                        it["article"].setdefault("source", art.source)
+                        it["article"].setdefault("date", art.date)
+                        it["article"].setdefault("title", art.title)
+            
+            merge_into_master(master, items)
+        
+        write_json(str(stocks_file), master)
         
         if not stocks_file.exists():
             raise RuntimeError("Failed to extract stock information")

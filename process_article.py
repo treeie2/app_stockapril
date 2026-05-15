@@ -94,16 +94,36 @@ def merge_to_master(daily_json_path, master_json_path):
             existing['mention_count'] = len(existing['articles'])
             existing['last_updated'] = daily['date']
             
-            # 合并产品和概念
+            # 合并产品、概念和个股数据
             if stock_data.get('products'):
                 existing_products = set(existing.get('products', []))
                 existing_products.update(stock_data['products'])
                 existing['products'] = list(existing_products)
-            
+
             if stock_data.get('concepts'):
                 existing_concepts = set(existing.get('concepts', []))
                 existing_concepts.update(stock_data['concepts'])
                 existing['concepts'] = list(existing_concepts)
+
+            if stock_data.get('core_business'):
+                existing_core = set(existing.get('core_business', []))
+                existing_core.update(stock_data['core_business'])
+                existing['core_business'] = list(existing_core)
+
+            if stock_data.get('industry_position'):
+                existing_pos = set(existing.get('industry_position', []))
+                existing_pos.update(stock_data['industry_position'])
+                existing['industry_position'] = list(existing_pos)
+
+            if stock_data.get('chain'):
+                existing_chain = set(existing.get('chain', []))
+                existing_chain.update(stock_data['chain'])
+                existing['chain'] = list(existing_chain)
+
+            if stock_data.get('partners'):
+                existing_partners = set(existing.get('partners', []))
+                existing_partners.update(stock_data['partners'])
+                existing['partners'] = list(existing_partners)
             
             merged_count += 1
             print(f"✅ 合并 {code} {stock_data['name']}，提及次数：{existing['mention_count']}")
@@ -126,7 +146,7 @@ def merge_to_master(daily_json_path, master_json_path):
 def process_article(url, article_content, stock_code, structured_data):
     """
     处理单篇文章的完整流程
-    
+
     Args:
         url: 微信文章链接
         article_content: 文章内容文本
@@ -136,17 +156,20 @@ def process_article(url, article_content, stock_code, structured_data):
             - insights: 投资洞察列表
             - key_metrics: 关键指标列表
             - target_valuation: 目标估值列表
+            - core_business: 核心业务/主要产品列表
+            - industry_position: 行业地位/竞争优势列表
+            - chain: 产业链位置列表
+            - partners: 合作伙伴公司名称列表
     """
     stock_map, industry_map, concept_map = load_stock_mappings()
-    
+
     if stock_code not in stock_map:
         raise ValueError(f"未找到股票代码 {stock_code}")
-    
+
     stock_name = stock_map[stock_code]
     industry = industry_map.get(stock_code, '其他')
     concepts = concept_map.get(stock_code, [])
-    
-    # 构建股票信息
+
     today = datetime.now().strftime('%Y-%m-%d')
     stock_info = {
         'name': stock_name,
@@ -155,10 +178,10 @@ def process_article(url, article_content, stock_code, structured_data):
         'industry': industry,
         'concepts': concepts,
         'products': [],
-        'core_business': [],
-        'industry_position': [],
-        'chain': [],
-        'partners': [],
+        'core_business': structured_data.get('core_business', []),
+        'industry_position': structured_data.get('industry_position', []),
+        'chain': structured_data.get('chain', []),
+        'partners': structured_data.get('partners', []),
         'mention_count': 1,
         'last_updated': today,
         'articles': [
@@ -210,6 +233,25 @@ if __name__ == '__main__':
             ],
             'target_valuation': [
                 '目标市值：先看翻倍 1000 亿元'
+            ],
+            'core_business': [
+                '通用服务器、AI 服务器研发生产',
+                '飞腾 CPU 应用',
+                '服务器电源'
+            ],
+            'industry_position': [
+                '国产服务器龙头',
+                '飞腾信息是国内 Top 级 CPU 厂商',
+                '服务器电源市场占有率国内第一、国际前三'
+            ],
+            'chain': [
+                '中游-服务器制造',
+                '上游-芯片设计（通过子公司飞腾信息）'
+            ],
+            'partners': [
+                '飞腾信息',
+                '华为',
+                '海光信息'
             ]
         }
     )
