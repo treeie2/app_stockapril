@@ -63,6 +63,7 @@ def sync_stocks_to_firebase():
         return
 
     from firebase_admin import firestore
+    from google.api_core import retry as google_retry
 
     # 读取 stocks_master.json
     data_file = Path(__file__).parent / "data" / "stocks" / "stocks_master.json"
@@ -72,7 +73,7 @@ def sync_stocks_to_firebase():
     stocks_dict = data.get('stocks', {})
 
     # 只同步有 last_updated 的股票（减少超时风险）
-    target_date = '2026-05-13'
+    target_date = '2026-05-15'
     stocks_to_sync = [(code, stock) for code, stock in stocks_dict.items()
                       if isinstance(stock, dict) and stock.get('last_updated') == target_date]
 
@@ -81,6 +82,11 @@ def sync_stocks_to_firebase():
     print(f"{'='*60}\n")
 
     db = firestore.client(app=app)
+    # 增加超时时间到 120 秒
+    try:
+        db._firestore_api._transport.grpc._channel._timeout = 120.0
+    except:
+        pass
     synced_count = 0
     failed_count = 0
     batch_size = 500
