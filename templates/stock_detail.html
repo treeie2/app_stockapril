@@ -124,15 +124,6 @@
             {% endif %}
         </div>
 
-        <!-- 估值信息 -->
-        {% if stock.valuation and (stock.valuation.target_market_cap or stock.valuation.target_market_cap_billion) %}
-        <div class="section">
-            <h3>💰 估值</h3>
-            {% if stock.valuation.target_market_cap %}<div>目标市值：{{ stock.valuation.target_market_cap }}</div>{% endif %}
-            {% if stock.valuation.target_market_cap_billion %}<div>目标市值（亿）：{{ stock.valuation.target_market_cap_billion }}</div>{% endif %}
-        </div>
-        {% endif %}
-
         <!-- 实时行情 -->
         <div class="section">
             <h3>📊 实时行情</h3>
@@ -155,6 +146,28 @@
                 </div>
             </div>
         </div>
+
+        <!-- 目标估值（合并 valuation + 文章 target_valuation） -->
+        {% set tv_items = [] %}
+        {% if stock.valuation.target_market_cap %}{% set _ = tv_items.append('目标市值：' + stock.valuation.target_market_cap) %}{% endif %}
+        {% if stock.valuation.target_market_cap_billion %}{% set _ = tv_items.append('目标市值（亿）：' + stock.valuation.target_market_cap_billion|string) %}{% endif %}
+        {% for article in stock.articles %}
+          {% if article.target_valuation %}
+            {% for tv in article.target_valuation %}
+              {% if tv %}{% set _ = tv_items.append(tv) %}{% endif %}
+            {% endfor %}
+          {% endif %}
+        {% endfor %}
+        {% if tv_items %}
+        <div class="section">
+            <h3>🎯 目标估值</h3>
+            <ul style="margin:0;padding-left:20px;font-size:14px;color:var(--text-secondary);line-height:1.8;">
+            {% for item in tv_items %}
+                <li>{{ item }}</li>
+            {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
 
         <!-- 关联个股 -->
         <div class="section">
