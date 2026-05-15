@@ -136,7 +136,12 @@
                 <textarea id="editPartners" rows="2">{% for item in stock.partners %}{{ item }}
 {% endfor %}</textarea>
             </div>
-            <button class="btn-save" onclick="saveEdit()">💾 保存修改</button>
+            <div class="edit-field">
+                <label>目标市值（如：1100亿、1.1千亿）</label>
+                <input id="editTargetMarketCap" type="text" value="{{ stock.valuation.target_market_cap if stock.valuation else '' }}" placeholder="例：1100亿">
+            </div>
+            <button class="btn-save" onclick="saveEdit()">💾 保存并同步</button>
+            <div class="sync-status" id="saveStatus" style="margin-top: 10px;"></div>
         </div>
 
         <!-- 文章列表 -->
@@ -267,16 +272,22 @@
         }
 
         async function saveEdit() {
+            const status = document.getElementById('saveStatus');
+            status.className = 'sync-status';
+            status.textContent = '保存中...';
+
             const data = {};
             const coreBusiness = document.getElementById('editCoreBusiness').value.trim();
             const industryPosition = document.getElementById('editIndustryPosition').value.trim();
             const chain = document.getElementById('editChain').value.trim();
             const partners = document.getElementById('editPartners').value.trim();
+            const targetMarketCap = document.getElementById('editTargetMarketCap').value.trim();
 
             if (coreBusiness) data.core_business = coreBusiness.split('\n').map(s => s.trim()).filter(Boolean);
             if (industryPosition) data.industry_position = industryPosition.split('\n').map(s => s.trim()).filter(Boolean);
             if (chain) data.chain = chain.split('\n').map(s => s.trim()).filter(Boolean);
             if (partners) data.partners = partners.split('\n').map(s => s.trim()).filter(Boolean);
+            if (targetMarketCap) data.target_market_cap = targetMarketCap;
 
             try {
                 const resp = await fetch(`/api/stock/${STOCK_CODE}/edit`, {
@@ -286,11 +297,34 @@
                 });
                 const result = await resp.json();
                 if (result.success) {
-                    showToast('✅ 保存成功，请刷新页面查看', 'success');
+                    status.textContent = '✅ 保存成功，正在同步到 GitHub 和 Firebase...';
+                    // 自动同步到 GitHub + Firebase
+                    try {
+                        const syncResp = await fetch('/api/sync/all', { method: 'POST' });
+                        const syncData = await syncResp.json();
+                        if (syncData.success) {
+                            status.textContent = '✅ 保存并同步成功（GitHub + Firebase）';
+                            status.className = 'sync-status success';
+                            showToast('✅ 保存并同步成功', 'success');
+                        } else {
+                            const errs = syncData.errors ? syncData.errors.join('; ') : '同步部分失败';
+                            status.textContent = '⚠️ 已保存，但同步有误: ' + errs;
+                            status.className = 'sync-status error';
+                            showToast('⚠️ 已保存，但同步有误', 'error');
+                        }
+                    } catch(e) {
+                        status.textContent = '⚠️ 已保存，但同步失败: ' + e.message;
+                        status.className = 'sync-status error';
+                        showToast('⚠️ 已保存，但同步失败', 'error');
+                    }
                 } else {
+                    status.textContent = '❌ 保存失败: ' + (result.error || '未知错误');
+                    status.className = 'sync-status error';
                     showToast('❌ 保存失败: ' + (result.error || '未知错误'), 'error');
                 }
             } catch(e) {
+                status.textContent = '❌ 网络错误: ' + e.message;
+                status.className = 'sync-status error';
                 showToast('❌ 网络错误: ' + e.message, 'error');
             }
         }
