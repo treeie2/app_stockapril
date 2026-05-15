@@ -27,7 +27,14 @@
         .sync-status { font-size: 13px; color: var(--text-secondary); margin-left: auto; }
         .sync-status.success { color: var(--accent-green); }
         .sync-status.error { color: var(--accent-rose); }
-        .edit-section { margin: 20px 0; padding: 20px; background: var(--bg-card); border-radius: var(--radius-lg); border: 1px solid var(--border); }
+        .btn-edit {
+            background: rgba(59,130,246,0.15); color: var(--accent-blue);
+            padding: 8px 20px; border-radius: var(--radius-sm); border: 1px solid rgba(59,130,246,0.3);
+            cursor: pointer; font-size: 14px; font-weight: 500; transition: all 0.2s;
+        }
+        .btn-edit:hover { background: rgba(59,130,246,0.25); }
+        .edit-section { display: none; margin: 20px 0; padding: 20px; background: var(--bg-card); border-radius: var(--radius-lg); border: 1px solid var(--border); }
+        .edit-section.visible { display: block; }
         .edit-section h3 { margin: 0 0 16px; font-size: 16px; color: var(--text-primary); }
         .edit-field { margin-bottom: 14px; }
         .edit-field label { display: block; font-size: 13px; color: var(--text-secondary); margin-bottom: 4px; }
@@ -71,9 +78,12 @@
                 <div class="stock-name">{{ stock.name }}</div>
                 <div class="stock-code">{{ stock.code }} · {{ stock.board }} · {{ stock.industry }}</div>
             </div>
-            <div style="margin-left: auto; text-align: right;">
-                <div style="font-size: 13px; color: var(--text-muted);">提及次数</div>
-                <div style="font-size: 24px; font-weight: 700; color: var(--accent-cyan);">{{ stock.mention_count }}</div>
+            <div style="margin-left: auto; display: flex; align-items: center; gap: 12px;">
+                <button class="btn-edit" onclick="toggleEdit()">✏️ 编辑</button>
+                <div style="text-align: right;">
+                    <div style="font-size: 13px; color: var(--text-muted);">提及次数</div>
+                    <div style="font-size: 24px; font-weight: 700; color: var(--accent-cyan);">{{ stock.mention_count }}</div>
+                </div>
             </div>
         </div>
 
@@ -186,6 +196,13 @@
 
     <script>
         const STOCK_CODE = '{{ stock.code }}';
+
+        function toggleEdit() {
+            const section = document.getElementById('editSection');
+            section.classList.toggle('visible');
+            const btn = document.querySelector('.btn-edit');
+            btn.textContent = section.classList.contains('visible') ? '🔒 关闭编辑' : '✏️ 编辑';
+        }
 
         function showToast(msg, type) {
             const t = document.createElement('div');
