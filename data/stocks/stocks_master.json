@@ -20459,7 +20459,11 @@
           ]
         }
       ],
-      "last_updated": "2026-05-15"
+      "last_updated": "2026-05-15",
+      "valuation": {
+        "target_market_cap": "260亿",
+        "target_market_cap_billion": 260.0
+      }
     },
     "002284": {
       "name": "亚太股份",
@@ -37760,7 +37764,11 @@
           ]
         }
       ],
-      "last_updated": "2026-05-15"
+      "last_updated": "2026-05-15",
+      "valuation": {
+        "target_market_cap": "460亿",
+        "target_market_cap_billion": 460.0
+      }
     },
     "002992": {
       "name": "宝明科技",
@@ -50106,7 +50114,11 @@
           ]
         }
       ],
-      "last_updated": "2026-05-15"
+      "last_updated": "2026-05-15",
+      "valuation": {
+        "target_market_cap": "300亿",
+        "target_market_cap_billion": 300.0
+      }
     },
     "300394": {
       "name": "天孚通信",
@@ -70654,7 +70666,10 @@
         }
       ],
       "last_updated": "2026-04-23",
-      "valuation": {}
+      "valuation": {
+        "target_market_cap": "800亿",
+        "target_market_cap_billion": 800.0
+      }
     },
     "301302": {
       "name": "华如科技",
@@ -71157,7 +71172,11 @@
           ]
         }
       ],
-      "last_updated": "2026-05-09"
+      "last_updated": "2026-05-09",
+      "valuation": {
+        "target_market_cap": "250亿",
+        "target_market_cap_billion": 250.0
+      }
     },
     "301321": {
       "name": "翰博高新",
@@ -86638,7 +86657,11 @@
           "source": ""
         }
       ],
-      "last_updated": ""
+      "last_updated": "",
+      "valuation": {
+        "target_market_cap": "300亿",
+        "target_market_cap_billion": 300.0
+      }
     },
     "600590": {
       "name": "泰豪科技",
@@ -117753,7 +117776,11 @@
           ]
         }
       ],
-      "last_updated": "2026-05-15"
+      "last_updated": "2026-05-15",
+      "valuation": {
+        "target_market_cap": "1200亿",
+        "target_market_cap_billion": 1200.0
+      }
     },
     "688122": {
       "name": "西部超导",
@@ -117944,7 +117971,11 @@
           ]
         }
       ],
-      "last_updated": "2026-05-15"
+      "last_updated": "2026-05-15",
+      "valuation": {
+        "target_market_cap": "1000亿",
+        "target_market_cap_billion": 1000.0
+      }
     },
     "688125": {
       "name": "安达智能",
@@ -119087,7 +119118,11 @@
       "partners": [],
       "mention_count": 7,
       "articles": [],
-      "last_updated": ""
+      "last_updated": "",
+      "valuation": {
+        "target_market_cap": "2700亿",
+        "target_market_cap_billion": 2700.0
+      }
     },
     "688180": {
       "name": "君实生物",
@@ -121493,7 +121528,11 @@
           "target_valuation": []
         }
       ],
-      "last_updated": "2026-05-13"
+      "last_updated": "2026-05-13",
+      "valuation": {
+        "target_market_cap": "540亿",
+        "target_market_cap_billion": 540.0
+      }
     },
     "688281": {
       "name": "华秦科技",
@@ -124013,7 +124052,11 @@
       "partners": [],
       "mention_count": 1,
       "articles": [],
-      "last_updated": ""
+      "last_updated": "",
+      "valuation": {
+        "target_market_cap": "170亿",
+        "target_market_cap_billion": 170.0
+      }
     },
     "688380": {
       "name": "中微半导",
@@ -125354,7 +125397,11 @@
           ]
         }
       ],
-      "last_updated": "2026-05-15"
+      "last_updated": "2026-05-15",
+      "valuation": {
+        "target_market_cap": "200亿",
+        "target_market_cap_billion": 200.0
+      }
     },
     "688480": {
       "name": "赛恩斯",
