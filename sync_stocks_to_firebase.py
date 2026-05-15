@@ -72,10 +72,9 @@ def sync_stocks_to_firebase():
 
     stocks_dict = data.get('stocks', {})
 
-    # 只同步有 last_updated 的股票（减少超时风险）
-    target_date = '2026-05-15'
+    # 同步所有有 last_updated 的股票
     stocks_to_sync = [(code, stock) for code, stock in stocks_dict.items()
-                      if isinstance(stock, dict) and stock.get('last_updated') == target_date]
+                      if isinstance(stock, dict) and stock.get('last_updated')]
 
     print(f"\n{'='*60}")
     print(f"Syncing {len(stocks_to_sync)} stocks to Firebase")

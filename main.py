@@ -2348,20 +2348,31 @@ def sync_to_firebase(stocks_dict, stats):
                 if articles:
                     article_values = []
                     for article in articles:
-                        article_values.append({
-                            "mapValue": {
-                                "fields": {
-                                    "title": {"stringValue": article.get("title", "")},
-                                    "date": {"stringValue": article.get("date", "")},
-                                    "source": {"stringValue": article.get("source", "")},
-                                    "insights": {
-                                        "arrayValue": {
-                                            "values": [{"stringValue": i} for i in article.get("insights", [])]
-                                        }
-                                    } if article.get("insights") else {"nullValue": None}
+                        af = {
+                            "title": {"stringValue": article.get("title", "")},
+                            "date": {"stringValue": article.get("date", "")},
+                            "source": {"stringValue": article.get("source", "")},
+                            "article_id": {"stringValue": article.get("article_id", article.get("id", ""))},
+                            "url": {"stringValue": article.get("url", article.get("article_url", ""))},
+                            "context": {"stringValue": article.get("context", "")},
+                            "insights": {
+                                "arrayValue": {
+                                    "values": [{"stringValue": i} for i in article.get("insights", [])]
                                 }
-                            }
-                        })
+                            } if article.get("insights") else {"nullValue": None}
+                        }
+                        # 数组字段
+                        for arr_field in ['target_valuation', 'accidents', 'key_metrics', 'industry_position', 'products', 'partners']:
+                            val = article.get(arr_field, [])
+                            if val:
+                                af[arr_field] = {
+                                    "arrayValue": {
+                                        "values": [{"stringValue": str(v)} for v in val]
+                                    }
+                                }
+                            else:
+                                af[arr_field] = {"nullValue": None}
+                        article_values.append({"mapValue": {"fields": af}})
                     firestore_data["fields"]["articles"] = {
                         "arrayValue": {"values": article_values}
                     }
