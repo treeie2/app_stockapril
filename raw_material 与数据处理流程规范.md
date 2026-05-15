@@ -1,10 +1,18 @@
 # Raw Material 与数据处理流程规范
 
-**版本**: v2.2
-**更新日期**: 2026-05-13
+**版本**: v2.3
+**更新日期**: 2026-05-15
 **适用**: 微信文章→原始素材→结构化数据全流程
 
 ---
+
+## 🆕 v2.3 变更说明（2026-05-15）
+
+### 修复：数据合并流程
+- **问题**: `incremental_update.py` 将数据写入 skill 内部目录（`.trae/skills/.../data/master/`），前端不读取该路径，导致新数据不显示
+- **修复**: 新增 `scripts/merge_new_stocks.py` 作为标准合并工具
+- **流程变更**: Step 3 改为使用 `merge_new_stocks.py`，自动合并到 `data/stocks/stocks_master.json` 和分片文件
+- **中间产物**: 提取结果输出到 `data/stocks_master_YYYY-MM-DD.json`（不再是 `data/stocks/YYYY-MM-DD.json`）
 
 ## 🆕 v2.2 变更说明（2026-05-13）
 
@@ -108,13 +116,19 @@ raw_material/raw_material_YYYY-MM-DD_N.md
   - 方式A: extract_stocks_from_raw_material.py（LLM提取）
   - 方式B: AI 辅助提取（直接分析文章→构建JSON）
     ↓
-data/stocks/YYYY-MM-DD.json（日期分片）
+data/stocks_master_YYYY-MM-DD.json（中间产物）
     ↓
-[Step 3] 合并到主数据
-  - 直接将日期分片合并到 data/stocks/stocks_master.json
-  - 更新 mention_count、last_updated
+[Step 2.5] 增量合并到分片（可选，写入 skill 内部目录）
+  .trae/skills/wechat-fetch-research-embedded/scripts/incremental_update.py
+  ⚠️ 注意：此步骤写入 skill 内部目录，不影响前端
     ↓
-data/stocks/stocks_master.json（主数据）
+[Step 3] 合并到主数据（关键步骤！）
+  python scripts/merge_new_stocks.py
+  - 将新数据合并到 data/stocks/stocks_master.json
+  - 更新 data/stocks/YYYY-MM-DD.json 分片文件
+  - 按 source 去重，避免重复文章
+    ↓
+data/stocks/stocks_master.json（主数据，前端读取）
     ↓
 [Step 4] 同步到 Firebase
 sync_stocks_to_firebase.py
@@ -145,7 +159,7 @@ python .trae/skills/wechat-fetch-research-embedded/scripts/fetch_wechat_to_raw_m
 python .trae/skills/wechat-fetch-research-embedded/scripts/extract_stocks_from_raw_material.py \
   --raw "raw_material/raw_material_2026-05-09.md" \
   --xls ".trae/skills/wechat-fetch-research-embedded/assets/全部个股.xls" \
-  --out "data/stocks/2026-05-09.json"
+  --out "data/stocks_master_2026-05-09.json"
 ```
 *注意：该方式需要配置 LLM API Key，且可能因编码问题在 Windows 下运行失败*
 
@@ -249,44 +263,27 @@ python map_industry_concept.py
 }
 ```
 
-### Step 3: 合并到主数据
+### Step 3: 合并到主数据（关键步骤！）
 
-将日期分片的 stock 数据合并到 `stocks_master.json`：
+将新数据合并到 `stocks_master.json`（前端读取的主文件）：
 
 ```bash
-# 方式A: 使用增量合并脚本（注意输出路径在 skill 目录下）
-python .trae/skills/wechat-fetch-research-embedded/scripts/incremental_update.py \
-  --json "data/stocks/2026-05-13.json" \
-  --mode merge
-
-# 方式B: 直接合并（推荐，避免路径问题）
-cd project_root && python -c "
-import json
-with open('data/stocks/stocks_master.json') as f: master = json.load(f)
-with open('data/stocks/2026-05-13.json') as f: daily = json.load(f)
-for code, s in daily['stocks'].items():
-    if code in master['stocks']:
-        # 追加文章（去重）
-        existing = master['stocks'][code]
-        titles = [(a['title'], a['source']) for a in existing.get('articles',[])]
-        for a in s.get('articles',[]):
-            if (a['title'], a['source']) not in titles:
-                existing.setdefault('articles',[]).append(a)
-        existing['mention_count'] = len(existing['articles'])
-        existing['last_updated'] = daily['date']
-master['last_updated'] = daily['last_updated']
-json.dump(master, open('data/stocks/stocks_master.json','w',encoding='utf-8'), ensure_ascii=False, indent=2)
-print(f'OK: {len(daily[\"stocks\"])} stocks merged')
-"
+# ⭐ 推荐方式：使用 merge_new_stocks.py（自动处理去重和分片更新）
+python scripts/merge_new_stocks.py
 ```
+
+该脚本会自动：
+1. 读取 `data/stocks_master_YYYY-MM-DD.json`（Step 2 的输出）
+2. 按 `source` 去重合并到 `data/stocks/stocks_master.json`
+3. 同步更新 `data/stocks/YYYY-MM-DD.json` 分片文件
+4. 累加 `mention_count`
+
+> ⚠️ **注意**：`incremental_update.py`（skill 内部脚本）将数据写入 `.trae/skills/.../data/master/` 目录，**前端不读取该路径**。必须运行 `merge_new_stocks.py` 才能让前端看到新数据。
 
 **验证（重要！）**：
 ```bash
-# 检查 stocks_master.json 更新时间
-ls -la data/stocks/stocks_master.json
-
-# 验证某只股票的文章是否合并
-python -c "import json; d=json.load(open('data/stocks/stocks_master.json','r',encoding='utf-8')); s=d['stocks']['688800']; print(s['name'], len(s['articles']), 'articles')"
+# 检查泰和新材是否有 target_valuation
+python -c "import json; d=json.load(open('data/stocks/stocks_master.json','r',encoding='utf-8')); s=d['stocks'].get('002254',{}); print(s.get('name',''), len(s.get('articles',[])), 'articles'); [print('  -', a.get('title'), 'tv:', a.get('target_valuation')) for a in s.get('articles',[])]"
 ```
 
 ### Step 4: 同步到 Firebase
@@ -311,8 +308,10 @@ cd project_root
 Start-Process -NoNewWindow python -ArgumentList "main.py"
 
 # 打开浏览器验证
-# http://127.0.0.1:7860/stock/688800
+# http://127.0.0.1:7860/stock/002254
 ```
+
+> ⚠️ **注意**：如果页面仍不显示新数据，请检查是否漏掉了 Step 3（`python scripts/merge_new_stocks.py`）。`incremental_update.py` 写入的是 skill 内部目录，前端不读取。
 
 ---
 
@@ -371,7 +370,7 @@ title: 今天的一些信息整理 5.7
 
 #### 2. 提取个股信息
 
-**输出路径**: `data/stocks/2026-05-09.json`
+**输出路径**: `data/stocks_master_2026-05-09.json`（中间产物，需运行 `python scripts/merge_new_stocks.py` 合并到主文件）
 
 ```json
 {
@@ -410,27 +409,11 @@ title: 今天的一些信息整理 5.7
 #### 3. 合并到主数据 + 验证
 
 ```bash
-# 合并
-python -c "
-import json
-m = json.load(open('data/stocks/stocks_master.json','r',encoding='utf-8'))
-d = json.load(open('data/stocks/2026-05-09.json','r',encoding='utf-8'))
-for c,s in d['stocks'].items():
-    if c in m['stocks']:
-        e = m['stocks'][c]
-        known = [(a['title'],a['source']) for a in e.get('articles',[])]
-        for a in s.get('articles',[]):
-            if (a['title'],a['source']) not in known:
-                e.setdefault('articles',[]).append(a)
-        e['mention_count'] = len(e['articles'])
-        e['last_updated'] = d['date']
-m['last_updated'] = d['last_updated']
-json.dump(m, open('data/stocks/stocks_master.json','w',encoding='utf-8'), ensure_ascii=False, indent=2)
-print('OK')
-"
+# 合并（使用 merge_new_stocks.py）
+python scripts/merge_new_stocks.py
 
 # 验证
-python -c "import json; d=json.load(open('data/stocks/stocks_master.json','r',encoding='utf-8')); print('Total:', len(d['stocks']), 'stocks, last:', d.get('last_updated',''))"
+python -c "import json; d=json.load(open('data/stocks/stocks_master.json','r',encoding='utf-8')); print('Total:', len(d['stocks']), 'stocks')"
 ```
 
 #### 4. 同步到 Firebase
@@ -451,8 +434,9 @@ Start-Process -NoNewWindow python -ArgumentList "main.py"
 
 # 提交
 git add raw_material/raw_material_2026-05-09.md
-git add data/stocks/2026-05-09.json
+git add data/stocks_master_2026-05-09.json
 git add data/stocks/stocks_master.json
+git add data/stocks/2026-05-09.json
 git commit -m "feat: 添加 YYYY-MM-DD 数据（N只股票）"
 git push origin main
 ```
