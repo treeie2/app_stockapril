@@ -1,0 +1,7 @@
+{
+  "api": {
+    "api_key": "b43bc894-e99f-44e6-ae7c-d5c602e6580a",
+    "base_url": "https://ark.cn-beijing.volces.com/api/v3",
+    "model": "deepseek-v3-2-251201"
+  }
+}
