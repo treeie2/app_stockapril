@@ -198,7 +198,7 @@
             </div>
             <div class="edit-field">
                 <label>目标市值（如：1100亿、1.1千亿）</label>
-                <input id="editTargetMarketCap" type="text" value="{{ stock.valuation.target_market_cap if stock.valuation else '' }}" placeholder="例：1100亿">
+                <input id="editTargetMarketCap" type="text" placeholder="例：1100亿">
             </div>
             <button class="btn-save" onclick="saveEdit()">💾 保存并同步</button>
             <div class="sync-status" id="saveStatus" style="margin-top: 10px;"></div>
