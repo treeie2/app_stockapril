@@ -147,10 +147,8 @@
             </div>
         </div>
 
-        <!-- 目标估值（合并 valuation + 文章 target_valuation） -->
+        <!-- 目标估值（来自文章） -->
         {% set tv_items = [] %}
-        {% if stock.valuation.target_market_cap %}{% set _ = tv_items.append('目标市值：' + stock.valuation.target_market_cap) %}{% endif %}
-        {% if stock.valuation.target_market_cap_billion %}{% set _ = tv_items.append('目标市值（亿）：' + stock.valuation.target_market_cap_billion|string) %}{% endif %}
         {% for article in stock.articles %}
           {% if article.target_valuation %}
             {% for tv in article.target_valuation %}
