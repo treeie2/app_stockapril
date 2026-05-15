@@ -21816,7 +21816,7 @@
       "last_updated": ""
     },
     "002334": {
-      "name": "光伏储能",
+      "name": "英威腾",
       "code": "002334",
       "board": "",
       "industry": "机械设备-自动化设备-工控设备",
@@ -21852,11 +21852,22 @@
         "风电"
       ],
       "products": [],
-      "core_business": [],
-      "industry_position": [],
-      "chain": [],
+      "core_business": [
+        "AI供配电设备（模块化UPS、800V HVDC、SST）",
+        "液冷全栈方案（柜式/机架式CDU、manifold管路、软件控制）",
+        "工控自动化（变频器、伺服系统）"
+      ],
+      "industry_position": [
+        "模块化UPS稳居国内第二",
+        "国内头部AIDC配电核心供应商",
+        "AI液冷实现全方案落地与头部客户突破"
+      ],
+      "chain": [
+        "上游：功率器件、IGBT、传感器",
+        "下游：数据中心、AI算力、工业自动化"
+      ],
       "partners": [],
-      "mention_count": 0,
+      "mention_count": 1,
       "articles": [
         {
           "date": "2025-10-12",
@@ -21867,9 +21878,38 @@
             "电源子公司快速增长，全年有望超额完成业绩承诺；光伏和新能源汽车业务短期内受政策影响，物流车起量有望拉动公司电控产品销售。",
             "电源业务有望超额完成业绩承诺，新能源汽车和光伏业务受政策影响较大。"
           ]
+        },
+        {
+          "title": "英威腾调研后更新：AI供配电设备+液冷全栈卡位+工控主业涨价",
+          "date": "2026-05-15",
+          "source": "https://mp.weixin.qq.com/s/DGNV09MzQN3TGfjngWlvbA",
+          "accidents": [
+            "AI液冷实现全方案落地与头部客户突破，产品力经头部CSP客户验证",
+            "2026年核心突破中国移动、ZJ、KS等头部客户",
+            "800V储备一体UPS已进入后期测试，2026年下半年批量上市",
+            "公司4月份已出台涨价策略，前四个月订单增速较上年同期均有提升"
+          ],
+          "insights": [
+            "公司人员更迭完成，股权激励落地，沟通路径理顺，市场此前几乎无预期",
+            "液冷产品初步目标10%市场份额，深耕国内+拓展海外",
+            "海外大客户有望参照科士达代工/贴牌模式"
+          ],
+          "key_metrics": [
+            "26年预计3亿+利润，30x，90亿市值（主业）",
+            "液冷按英维克市值10%算，100亿市值期权",
+            "AIDC供电看50亿市值期权",
+            "海外网络能源订单占比60%-70%"
+          ],
+          "target_valuation": [
+            "主业+新业务有望200+亿目标市值"
+          ]
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-15",
+      "valuation": {
+        "target_market_cap": "200亿",
+        "target_market_cap_billion": 200.0
+      }
     },
     "002335": {
       "name": "科华数据",
@@ -71115,7 +71155,7 @@
       "last_updated": ""
     },
     "301319": {
-      "name": "先进侧封",
+      "name": "唯特偶",
       "code": "301319",
       "board": "",
       "industry": "电子-电子化学品-电子化学品Ⅲ",
@@ -71134,9 +71174,17 @@
         "融资融券"
       ],
       "products": [],
-      "core_business": [],
-      "industry_position": [],
-      "chain": [],
+      "core_business": [
+        "微电子焊接材料（锡膏、焊锡丝、助焊剂等）"
+      ],
+      "industry_position": [
+        "国内微电子焊接材料龙头企业",
+        "已开发出 T7 级别焊膏"
+      ],
+      "chain": [
+        "上游：锡、银、铜等金属原材料",
+        "下游：消费电子、新能源汽车、光伏、半导体封装"
+      ],
       "partners": [],
       "mention_count": 2,
       "articles": [
@@ -71157,10 +71205,12 @@
           "date": "2026-05-09",
           "source": "https://mp.weixin.qq.com/s/jU3eFc1irDolyJyLd6egyg",
           "accidents": [
-            "光模块'电子布'，LPU 催化 Q 布"
+            "光模块'电子布'，LPU 催化 Q 布",
+            "锡膏市场有望从2020年的40亿市场空间，快速迎来十倍以上的扩容"
           ],
           "insights": [
-            "产品结构迭代升级，每升级一代价值量至少增加一倍"
+            "产品结构迭代升级，每升级一代价值量至少增加一倍",
+            "唯特偶等公司已开发出T7级别焊膏，技术领先"
           ],
           "key_metrics": [
             "1.6T 在 2027 年 8000 万个，160 吨需求，从 4 吨到 160 吨涨 40 倍",
@@ -71172,7 +71222,7 @@
           ]
         }
       ],
-      "last_updated": "2026-05-09",
+      "last_updated": "2026-05-15",
       "valuation": {
         "target_market_cap": "250亿",
         "target_market_cap_billion": 250.0
@@ -119112,13 +119162,50 @@
         "融资融券"
       ],
       "products": [],
-      "core_business": [],
-      "industry_position": [],
-      "chain": [],
+      "core_business": [
+        "硅光代工（硅光芯片制造）",
+        "先进制程晶圆代工",
+        "功率器件（MOSFET、IGBT等）"
+      ],
+      "industry_position": [
+        "北京市属唯一上市FAB厂",
+        "国内硅光代工赛道卡位企业",
+        "已对接曦智科技等国内光模块厂商"
+      ],
+      "chain": [
+        "上游：硅片、光刻胶、特种气体",
+        "下游：光模块、AI算力芯片、汽车电子"
+      ],
       "partners": [],
-      "mention_count": 7,
-      "articles": [],
-      "last_updated": "",
+      "mention_count": 8,
+      "articles": [
+        {
+          "title": "燕东微：坚定看好，新高只是起点",
+          "date": "2026-05-15",
+          "source": "http://mp.weixin.qq.com/s?__biz=Mzk3NTYyNzg4Nw==&mid=2247485707&idx=3&sn=e08e587afbb214e9446ac65b39adc3ae&chksm=c5f676b2cd73049a7dccda12b5cb27f246c92dfcc558b9a470e06977407b1e8fbb9de78123c9",
+          "accidents": [
+            "Tower 26Q1硅光超预期，营收同比增长3倍，已锁定27年13亿美元硅光订单",
+            "公司硅光代工已实现量产+推出PDK，与曦智科技等推进合作",
+            "先进制程推进顺利，baseline持续落地中",
+            "26Q1营收同比增长超70%，主业反转力度显著超预期"
+          ],
+          "insights": [
+            "硅光代工赛道高景气+预期差巨大，对标Tower",
+            "先进制程是公司叙事转变、空间打开的最核心因素",
+            "把握牛市下算力自主可控强beta+先进制程扩产强alpha的稀缺品种"
+          ],
+          "key_metrics": [
+            "Tower 26Q1营收同比增长3倍",
+            "Tower已锁定27年13亿美元硅光订单并收到2.9亿美元预付款",
+            "26Q1营收同比增长超70%",
+            "多家功率公司近期持续涨价"
+          ],
+          "target_valuation": [
+            "往上可以看2700亿"
+          ]
+        }
+      ],
+      "last_updated": "2026-05-15",
       "valuation": {
         "target_market_cap": "2700亿",
         "target_market_cap_billion": 2700.0
