@@ -2499,3 +2499,129 @@ if __name__ == '__main__':
     port = int(os.environ.get('PORT', 7860))
     print(f"🚀 启动于 port {port}")
     app.run(host='0.0.0.0', port=port, debug=False)
+
+
+# ==================== 同步 API ====================
+
+@app.route('/api/sync/github', methods=['POST'])
+def api_sync_to_github():
+    """同步 stocks_master.json 到 GitHub 仓库"""
+    try:
+        github_token = os.environ.get('GITHUB_TOKEN') or os.environ.get('MY_GITHUB_TOKEN')
+        if not github_token:
+            return jsonify({'success': False, 'error': '未配置 GitHub Token（请在 Vercel 环境变量中设置 GITHUB_TOKEN）'}), 400
+
+        github_repo = os.environ.get('GITHUB_REPO', 'treeie2/app_stockapril')
+        branch = 'main'
+
+        # 读取 stocks_master.json
+        master_file = BASE_DIR / 'data' / 'stocks' / 'stocks_master.json'
+        if not master_file.exists():
+            return jsonify({'success': False, 'error': 'stocks_master.json 不存在'}), 404
+
+        content = master_file.read_text(encoding='utf-8')
+
+        # 上传到 GitHub
+        import base64
+        import requests as http_requests
+
+        headers = {
+            'Authorization': f'token {github_token}',
+            'Accept': 'application/vnd.github.v3+json'
+        }
+
+        file_path = 'data/stocks/stocks_master.json'
+        url = f'https://api.github.com/repos/{github_repo}/contents/{file_path}'
+
+        # 获取当前文件 SHA
+        sha_resp = http_requests.get(f'{url}?ref={branch}', headers=headers, timeout=10)
+        sha = sha_resp.json().get('sha') if sha_resp.status_code == 200 else None
+
+        # 提交更新
+        content_b64 = base64.b64encode(content.encode('utf-8')).decode('utf-8')
+        commit_data = {
+            'message': f'[Web Sync] 更新 stocks_master.json - {datetime.now().strftime("%Y-%m-%d %H:%M")}',
+            'content': content_b64,
+            'branch': branch
+        }
+        if sha:
+            commit_data['sha'] = sha
+
+        resp = http_requests.put(url, json=commit_data, headers=headers, timeout=15)
+
+        if resp.status_code in [200, 201]:
+            return jsonify({
+                'success': True,
+                'message': '✅ 已同步到 GitHub',
+                'commit_url': resp.json().get('content', {}).get('html_url', '')
+            })
+        else:
+            return jsonify({
+                'success': False,
+                'error': f'GitHub API 错误: HTTP {resp.status_code} - {resp.text[:200]}'
+            }), 500
+
+    except Exception as e:
+        return jsonify({'success': False, 'error': f'同步失败: {str(e)}'}), 500
+
+
+@app.route('/api/sync/firebase', methods=['POST'])
+def api_sync_to_firebase():
+    """同步 stocks_master.json 到 Firebase Firestore"""
+    try:
+        # 读取 stocks_master.json
+        master_file = BASE_DIR / 'data' / 'stocks' / 'stocks_master.json'
+        if not master_file.exists():
+            return jsonify({'success': False, 'error': 'stocks_master.json 不存在'}), 404
+
+        with open(master_file, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+
+        stocks_dict = data.get('stocks', {})
+        if isinstance(stocks_dict, list):
+            stocks_dict = {s['code']: s for s in stocks_dict}
+
+        # 使用现有的 sync_to_firebase 函数
+        result = sync_to_firebase(stocks_dict, {'imported_stocks': len(stocks_dict)})
+
+        return jsonify({
+            'success': result.get('success', False),
+            'message': f'✅ 已同步 {result.get("synced_count", 0)}/{len(stocks_dict)} 只股票到 Firebase',
+            'details': result
+        })
+
+    except Exception as e:
+        return jsonify({'success': False, 'error': f'Firebase 同步失败: {str(e)}'}), 500
+
+
+@app.route('/api/sync/all', methods=['POST'])
+def api_sync_all():
+    """同步到 GitHub + Firebase"""
+    github_result = None
+    firebase_result = None
+    errors = []
+
+    # 先同步 GitHub
+    try:
+        gh_resp = api_sync_to_github()
+        github_result = gh_resp.get_json() if hasattr(gh_resp, 'get_json') else None
+        if github_result and not github_result.get('success'):
+            errors.append(f'GitHub: {github_result.get("error", "未知错误")}')
+    except Exception as e:
+        errors.append(f'GitHub: {str(e)}')
+
+    # 再同步 Firebase
+    try:
+        fb_resp = api_sync_to_firebase()
+        firebase_result = fb_resp.get_json() if hasattr(fb_resp, 'get_json') else None
+        if firebase_result and not firebase_result.get('success'):
+            errors.append(f'Firebase: {firebase_result.get("error", "未知错误")}')
+    except Exception as e:
+        errors.append(f'Firebase: {str(e)}')
+
+    return jsonify({
+        'success': len(errors) == 0,
+        'github': github_result,
+        'firebase': firebase_result,
+        'errors': errors if errors else None
+    })
