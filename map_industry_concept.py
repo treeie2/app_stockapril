@@ -6,6 +6,7 @@
 
 import json
 import pandas as pd
+from datetime import date
 from pathlib import Path
 
 def load_mapping_files():
@@ -43,6 +44,7 @@ def update_stocks_master(industry_map, concept_map):
     
     updated_count = 0
     missing_count = 0
+    today_str = date.today().isoformat()
     
     for code, stock in master['stocks'].items():
         updated = False
@@ -70,6 +72,7 @@ def update_stocks_master(industry_map, concept_map):
                     updated = True
         
         if updated:
+            stock['last_updated'] = today_str
             updated_count += 1
         else:
             missing_count += 1

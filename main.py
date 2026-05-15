@@ -436,6 +436,21 @@ def load_data_from_local():
                 concepts[concept] = {'stocks': []}
             concepts[concept]['stocks'].append(stock['code'])
     
+    # 兜底：为有文章但没有 last_updated 的股票设置默认值
+    today_str = datetime.now().strftime('%Y-%m-%d')
+    for code, stock in stocks.items():
+        if not stock.get('last_updated') and stock.get('articles'):
+            # 从文章列表中提取最新日期
+            dates = []
+            for a in stock['articles']:
+                d = a.get('date', '') or a.get('published_at', '') or ''
+                if d and len(d) >= 10:
+                    dates.append(d[:10])
+            if dates:
+                stock['last_updated'] = max(dates)
+            else:
+                stock['last_updated'] = today_str
+    
     print(f"  ✅ 加载 {len(stocks)} 只股票")
     print(f"  ✅ 加载 {len(concepts)} 个概念")
     return stocks, concepts

@@ -29,6 +29,10 @@ for code, stock_data in daily['stocks'].items():
             existing_concepts = set(existing.get('concepts', []))
             existing_concepts.update(stock_data['concepts'])
             existing['concepts'] = list(existing_concepts)
+    else:
+        # 新股票
+        stock_data['last_updated'] = daily['date']
+        master['stocks'][code] = stock_data
 
 # 更新时间
 master['last_updated'] = daily['last_updated']
