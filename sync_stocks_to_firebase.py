@@ -56,7 +56,7 @@ def get_firebase_app():
 
 
 def sync_stocks_to_firebase():
-    """同步 stocks_master.json 中 last_updated='2026-05-09' 的股票到 Firebase"""
+    """同步 stocks_master.json 中所有股票到 Firebase"""
     app = get_firebase_app()
     if not app:
         print("[Firebase] Cannot connect to Firebase")
@@ -71,12 +71,10 @@ def sync_stocks_to_firebase():
 
     stocks_dict = data.get('stocks', {})
 
-    # 筛选 last_updated='2026-05-09' 的股票
-    target_date = '2026-05-09'
-    stocks_to_sync = []
-    for code, stock in stocks_dict.items():
-        if isinstance(stock, dict) and stock.get('last_updated') == target_date:
-            stocks_to_sync.append((code, stock))
+    # 只同步有 last_updated 的股票（减少超时风险）
+    target_date = '2026-05-13'
+    stocks_to_sync = [(code, stock) for code, stock in stocks_dict.items()
+                      if isinstance(stock, dict) and stock.get('last_updated') == target_date]
 
     print(f"\n{'='*60}")
     print(f"Syncing {len(stocks_to_sync)} stocks to Firebase")
@@ -85,33 +83,43 @@ def sync_stocks_to_firebase():
     db = firestore.client(app=app)
     synced_count = 0
     failed_count = 0
+    batch_size = 500
+    total = len(stocks_to_sync)
 
-    for code, stock in stocks_to_sync:
-        try:
-            # 写入到 stocks/{code} 集合
-            doc_ref = db.collection("stocks").document(code)
-            doc_ref.set({
-                "name": stock.get("name", ""),
-                "code": code,
-                "board": stock.get("board", ""),
-                "industry": stock.get("industry", ""),
-                "concepts": stock.get("concepts", []),
-                "products": stock.get("products", []),
-                "core_business": stock.get("core_business", []),
-                "industry_position": stock.get("industry_position", []),
-                "chain": stock.get("chain", []),
-                "partners": stock.get("partners", []),
-                "mention_count": stock.get("mention_count", 0),
-                "valuation": stock.get("valuation", {}),
-                "articles": stock.get("articles", []),
-                "last_updated": stock.get("last_updated", ""),
-                "updated_at": firestore.SERVER_TIMESTAMP,
-            })
-            synced_count += 1
-            print(f"[OK] {code} {stock.get('name', '')}")
-        except Exception as e:
-            failed_count += 1
-            print(f"[FAIL] {code} {stock.get('name', '')} - {e}")
+    # 分批写入（Firestore 每批最多 500 条）
+    for batch_start in range(0, total, batch_size):
+        batch = db.batch()
+        batch_end = min(batch_start + batch_size, total)
+        batch_stocks = stocks_to_sync[batch_start:batch_end]
+
+        for code, stock in batch_stocks:
+            try:
+                doc_ref = db.collection("stocks").document(code)
+                batch.set(doc_ref, {
+                    "name": stock.get("name", ""),
+                    "code": code,
+                    "board": stock.get("board", ""),
+                    "industry": stock.get("industry", ""),
+                    "concepts": stock.get("concepts", []),
+                    "products": stock.get("products", []),
+                    "core_business": stock.get("core_business", []),
+                    "industry_position": stock.get("industry_position", []),
+                    "chain": stock.get("chain", []),
+                    "partners": stock.get("partners", []),
+                    "mention_count": stock.get("mention_count", 0),
+                    "valuation": stock.get("valuation", {}),
+                    "articles": stock.get("articles", []),
+                    "last_updated": stock.get("last_updated", ""),
+                    "updated_at": firestore.SERVER_TIMESTAMP,
+                })
+                synced_count += 1
+            except Exception as e:
+                failed_count += 1
+                print(f"[FAIL] {code} {stock.get('name', '')} - {e}")
+
+        # 提交批次
+        batch.commit()
+        print(f"[BATCH] 批次 {batch_start//batch_size + 1}/{(total-1)//batch_size + 1}: {batch_end}/{total} 完成")
 
     print(f"\n{'='*60}")
     print(f"Sync complete: {synced_count} success, {failed_count} failed")
