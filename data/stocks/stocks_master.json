@@ -13835,9 +13835,38 @@
           "insights": [
             "4μm以下极薄布全球唯一量产企业。主营超薄 / 极薄 / 低介电(Low-Dk)电子布，产品用于 AI 服务器、高频高速 PCB。通过英伟达、台积电认证，进入全球前十大覆铜板厂供应链。"
           ]
+        },
+        {
+          "title": "ABF 载板：国产化率仅 1/4，台资仍主导！玻纤布暴涨 50%",
+          "source": "https://mp.weixin.qq.com/s/k0q3H3YoCTJ5-GqriEE1dg",
+          "date": "2026-05-16",
+          "article_id": "abf_substrate_20260516",
+          "url": "https://mp.weixin.qq.com/s/k0q3H3YoCTJ5-GqriEE1dg",
+          "context": "ABF载板供需失衡、价格上行与国产替代三重共振，玻纤布暴涨50%驱动涨价周期",
+          "accidents": [
+            "旗下泰山玻纤为国内核心玻纤布供应商",
+            "产能与台湾台玻相当，持续扩产",
+            "直接受益全球玻纤布紧缺与价格上行"
+          ],
+          "insights": [
+            "玻纤布涨价50%为结构性涨价周期，非短期脉冲"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "玻纤布"
+          ],
+          "industry_position": [
+            "国内核心玻纤布供应商"
+          ],
+          "chain": [
+            "上游-玻纤布",
+            "ABF载板材料"
+          ],
+          "partners": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-16"
     },
     "002082": {
       "name": "万邦德",
@@ -22014,7 +22043,7 @@
         "华为",
         "字节"
       ],
-      "mention_count": 4,
+      "mention_count": 2,
       "articles": [
         {
           "date": "",
@@ -22024,9 +22053,44 @@
           ],
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "title": "高盛：六家中国 AIDC电气设备公司调研，UPS、800 VDC、SST谁先兑现？",
+          "source": "https://mp.weixin.qq.com/s/86uOvEmg1-608aFlb1S0Dw",
+          "date": "2026-05-16",
+          "article_id": "gs_aidc_20260516",
+          "url": "https://mp.weixin.qq.com/s/86uOvEmg1-608aFlb1S0Dw",
+          "context": "高盛研报：AI数据中心电气设备产业链调研，聚焦UPS、800V直流和固态变压器",
+          "accidents": [
+            "高功率UPS（500-600kW及MW级）需求确定，为AI数据中心最确定的需求",
+            "国内数据中心建设需求2026年有望修复"
+          ],
+          "insights": [
+            "传统交流UPS在北美、欧洲和东南亚仍然紧缺，不会被800V直流一夜替代",
+            "国内市场毛利率承压，CSP议价能力强"
+          ],
+          "key_metrics": [
+            "500-600kW以及MW级高功率UPS为当下AI数据中心最确定的需求"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "高功率UPS",
+            "数据中心基础设施"
+          ],
+          "industry_position": [
+            "国内数据中心UPS主要供应商"
+          ],
+          "chain": [
+            "中游-电力设备制造",
+            "数据中心基础设施"
+          ],
+          "partners": [
+            "国内CSP",
+            "互联网客户"
+          ]
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-16"
     },
     "002337": {
       "name": "赛象科技",
@@ -25335,9 +25399,48 @@
           "insights": [],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "title": "ABF 载板：国产化率仅 1/4，台资仍主导！玻纤布暴涨 50%",
+          "source": "https://mp.weixin.qq.com/s/k0q3H3YoCTJ5-GqriEE1dg",
+          "date": "2026-05-16",
+          "article_id": "abf_substrate_20260516",
+          "url": "https://mp.weixin.qq.com/s/k0q3H3YoCTJ5-GqriEE1dg",
+          "context": "ABF载板供需失衡、价格上行与国产替代三重共振，玻纤布暴涨50%驱动涨价周期",
+          "accidents": [
+            "国内ABF第二极，服务华为海思、平头哥、龙芯中科等",
+            "广州科学城工厂投资超50亿元，新增48万平米产能",
+            "已进入小批量生产阶段，深度受益国产GPU订单转移",
+            "ABF载板调价20%-30%"
+          ],
+          "insights": [
+            "被动国产化核心承接方",
+            "国内良率落后头部厂商10+百分点，2-3年内国产化率突破50%属低概率事件"
+          ],
+          "key_metrics": [
+            "广州工厂投资超50亿元",
+            "新增48万平米产能"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "ABF载板",
+            "FC-BGA载板"
+          ],
+          "industry_position": [
+            "国内ABF载板第二极"
+          ],
+          "chain": [
+            "中游-载板制造",
+            "AI芯片封装"
+          ],
+          "partners": [
+            "华为海思",
+            "平头哥",
+            "龙芯中科"
+          ]
         }
       ],
-      "last_updated": "2026-04-23"
+      "last_updated": "2026-05-16"
     },
     "002437": {
       "name": "誉衡药业",
@@ -27468,7 +27571,7 @@
       "industry_position": [],
       "chain": [],
       "partners": [],
-      "mention_count": 0,
+      "mention_count": 3,
       "articles": [
         {
           "date": "2025-09-25",
@@ -27485,9 +27588,47 @@
           ],
           "title": "金时科技002498，主板+储能+超级电容全产业链技术领先与产能营收双驱动，2月24日，星期二",
           "source": "https://mp.weixin.qq.com/s/R-xtN6B1OBzLbeSIOVpJTw"
+        },
+        {
+          "title": "高盛：六家中国 AIDC电气设备公司调研，UPS、800 VDC、SST谁先兑现？",
+          "source": "https://mp.weixin.qq.com/s/86uOvEmg1-608aFlb1S0Dw",
+          "date": "2026-05-16",
+          "article_id": "gs_aidc_20260516",
+          "url": "https://mp.weixin.qq.com/s/86uOvEmg1-608aFlb1S0Dw",
+          "context": "高盛研报：AI数据中心电气设备产业链调研，聚焦UPS、800V直流和固态变压器",
+          "accidents": [
+            "海外UPS ODM订单持续增长，订单能见度延伸到2028年",
+            "预制化电力模块产品推进，单瓦价值量可达单独UPS系统的三倍",
+            "800V直流产品进入客户验证阶段"
+          ],
+          "insights": [
+            "海外敞口高、ODM订单清晰、预制化产品推进快的公司享有更高溢价",
+            "国内厂商通过ODM或全球配电巨头供应链切入北美市场"
+          ],
+          "key_metrics": [
+            "预制化集成方案单瓦内容价值达到单独UPS系统三倍左右"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "UPS电源设备",
+            "预制化电力模块",
+            "数据中心电力解决方案"
+          ],
+          "industry_position": [
+            "国内UPS行业领先企业",
+            "海外UPS ODM主要供应商"
+          ],
+          "chain": [
+            "中游-电力设备制造",
+            "数据中心基础设施"
+          ],
+          "partners": [
+            "海外CSP",
+            "全球配电巨头"
+          ]
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-16"
     },
     "002519": {
       "name": "银河电子",
@@ -36218,7 +36359,7 @@
       "partners": [
         "英伟达"
       ],
-      "mention_count": 3,
+      "mention_count": 2,
       "articles": [
         {
           "date": "2025-12-15",
@@ -36240,9 +36381,52 @@
             "避免 “订单来了接不下” 的情况",
             "能承接 AI 服务器的高价值订单，"
           ]
+        },
+        {
+          "title": "ABF 载板：国产化率仅 1/4，台资仍主导！玻纤布暴涨 50%",
+          "source": "https://mp.weixin.qq.com/s/k0q3H3YoCTJ5-GqriEE1dg",
+          "date": "2026-05-16",
+          "article_id": "abf_substrate_20260516",
+          "url": "https://mp.weixin.qq.com/s/k0q3H3YoCTJ5-GqriEE1dg",
+          "context": "ABF载板供需失衡、价格上行与国产替代三重共振，玻纤布暴涨50%驱动涨价周期",
+          "accidents": [
+            "国内ABF绝对龙头，与国内90%的CPU/GPU终端合作（海光、新华三等）",
+            "广州、无锡产能基地合计投资超80亿元，布局FC-BGA高端载板",
+            "良率持续提升，2026年有望迎来订单放量",
+            "ABF载板调价20%-30%，幅度反超海外"
+          ],
+          "insights": [
+            "ABF载板在AI芯片成本中仅占0.5%-1%，涨价对下游完全无感",
+            "国产化率仅1/4，被动国产化是当前核心逻辑",
+            "台资/日系产能满载，被迫将国产GPU订单转向国内厂商"
+          ],
+          "key_metrics": [
+            "ABF载板调价20%-30%",
+            "广州无锡基地投资超80亿元",
+            "与国内90%的CPU/GPU终端合作"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "ABF载板",
+            "FC-BGA高端载板",
+            "PCB"
+          ],
+          "industry_position": [
+            "国内ABF载板绝对龙头"
+          ],
+          "chain": [
+            "中游-载板制造",
+            "AI芯片封装"
+          ],
+          "partners": [
+            "海光",
+            "新华三",
+            "寒武纪",
+            "沐曦"
+          ]
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-16"
     },
     "002919": {
       "name": "名臣健康",
@@ -48035,7 +48219,7 @@
         "AI算力-上游-光互联"
       ],
       "partners": [],
-      "mention_count": 3,
+      "mention_count": 4,
       "articles": [
         {
           "date": "2026-04-20",
@@ -48097,6 +48281,35 @@
           ],
           "chain": [
             "中游-光模块制造"
+          ],
+          "partners": []
+        },
+        {
+          "title": "今天的一些信息整理5.15",
+          "source": "https://mp.weixin.qq.com/s/mMzUmqdn5O_4Piah0EFztQ",
+          "date": "2026-05-16",
+          "article_id": "info_20260515",
+          "url": "https://mp.weixin.qq.com/s/mMzUmqdn5O_4Piah0EFztQ",
+          "context": "市场信息整理：台积电COUPE量产、硅光/CPO产业链、PCB、存储、机器人等综合信息",
+          "accidents": [
+            "台积电COUPE量产，光模块龙头向硅光模块和光引擎等新产品迭代"
+          ],
+          "insights": [
+            "COUPE量产加速硅光模块商业化"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "光模块",
+            "硅光模块",
+            "光引擎"
+          ],
+          "industry_position": [
+            "全球光模块龙头"
+          ],
+          "chain": [
+            "中游-光模块",
+            "AI数据中心光互连"
           ],
           "partners": []
         }
@@ -50405,7 +50618,7 @@
         "下游-组件"
       ],
       "partners": [],
-      "mention_count": 6,
+      "mention_count": 3,
       "articles": [
         {
           "date": "2025-12-06",
@@ -50422,9 +50635,37 @@
           "insights": [
             "CPO器件平台中关注度较高的公司"
           ]
+        },
+        {
+          "title": "今天的一些信息整理5.15",
+          "source": "https://mp.weixin.qq.com/s/mMzUmqdn5O_4Piah0EFztQ",
+          "date": "2026-05-16",
+          "article_id": "info_20260515",
+          "url": "https://mp.weixin.qq.com/s/mMzUmqdn5O_4Piah0EFztQ",
+          "context": "市场信息整理：台积电COUPE量产、硅光/CPO产业链、PCB、存储、机器人等综合信息",
+          "accidents": [
+            "台积电COUPE量产，光器件龙头向硅光模块和光引擎等新产品迭代"
+          ],
+          "insights": [
+            "COUPE量产加速硅光模块商业化"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "光器件",
+            "光引擎"
+          ],
+          "industry_position": [
+            "全球光器件龙头"
+          ],
+          "chain": [
+            "中游-光器件",
+            "AI数据中心光互连"
+          ],
+          "partners": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-16"
     },
     "300395": {
       "name": "菲利华",
@@ -54180,7 +54421,7 @@
         "光模块核心供应商",
         "800G光模块出货量环比增长40%"
       ],
-      "mention_count": 8,
+      "mention_count": 9,
       "articles": [
         {
           "date": "2026-01-27",
@@ -54274,9 +54515,37 @@
           ],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.15",
+          "source": "https://mp.weixin.qq.com/s/mMzUmqdn5O_4Piah0EFztQ",
+          "date": "2026-05-16",
+          "article_id": "info_20260515",
+          "url": "https://mp.weixin.qq.com/s/mMzUmqdn5O_4Piah0EFztQ",
+          "context": "市场信息整理：台积电COUPE量产、硅光/CPO产业链、PCB、存储、机器人等综合信息",
+          "accidents": [
+            "台积电COUPE量产，光模块龙头向硅光模块和光引擎等新产品迭代"
+          ],
+          "insights": [
+            "COUPE量产加速硅光模块商业化"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "光模块",
+            "硅光模块"
+          ],
+          "industry_position": [
+            "全球光模块龙头"
+          ],
+          "chain": [
+            "中游-光模块",
+            "AI数据中心光互连"
+          ],
+          "partners": []
         }
       ],
-      "last_updated": "2026-05-13"
+      "last_updated": "2026-05-16"
     },
     "300503": {
       "name": "昊志机电",
@@ -59554,7 +59823,7 @@
         "中游-制造"
       ],
       "partners": [],
-      "mention_count": 2,
+      "mention_count": 4,
       "articles": [
         {
           "date": "2025-12-24",
@@ -59579,9 +59848,45 @@
           ],
           "title": "金时科技002498，主板+储能+超级电容全产业链技术领先与产能营收双驱动，2月24日，星期二",
           "source": "https://mp.weixin.qq.com/s/R-xtN6B1OBzLbeSIOVpJTw"
+        },
+        {
+          "title": "高盛：六家中国 AIDC电气设备公司调研，UPS、800 VDC、SST谁先兑现？",
+          "source": "https://mp.weixin.qq.com/s/86uOvEmg1-608aFlb1S0Dw",
+          "date": "2026-05-16",
+          "article_id": "gs_aidc_20260516",
+          "url": "https://mp.weixin.qq.com/s/86uOvEmg1-608aFlb1S0Dw",
+          "context": "高盛研报：AI数据中心电气设备产业链调研，聚焦从EV充电和电能质量切入HVDC/SST",
+          "accidents": [
+            "2025年下半年成立AIDC电源事业部",
+            "开始开发400V和800V HVDC技术",
+            "预计2026年下半年释放更多产品细节"
+          ],
+          "insights": [
+            "优先方向是海外市场",
+            "走'能力迁移'路线：把高压直流充电桩和APF/SVG电能质量系统技术储备迁移到AIDC电源场景",
+            "商业模式灵活：可供应独立电源转换模块或完整HVDC系统",
+            "竞争激烈，国内同类企业都在争海外集成商供货份额"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "高压直流充电桩",
+            "APF/SVG电能质量系统",
+            "HVDC电源系统"
+          ],
+          "industry_position": [
+            "EV充电领域电力电子技术领先"
+          ],
+          "chain": [
+            "中游-电力电子设备",
+            "AI数据中心供电架构"
+          ],
+          "partners": [
+            "海外大型电力方案集成商"
+          ]
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-16"
     },
     "300694": {
       "name": "蠡湖股份",
@@ -61130,7 +61435,7 @@
       "industry_position": [],
       "chain": [],
       "partners": [],
-      "mention_count": 25,
+      "mention_count": 2,
       "articles": [
         {
           "date": "2026-04-16",
@@ -61139,9 +61444,37 @@
           "insights": [
             "设备侧最直接的受益标的之一"
           ]
+        },
+        {
+          "title": "今天的一些信息整理5.15",
+          "source": "https://mp.weixin.qq.com/s/mMzUmqdn5O_4Piah0EFztQ",
+          "date": "2026-05-16",
+          "article_id": "info_20260515",
+          "url": "https://mp.weixin.qq.com/s/mMzUmqdn5O_4Piah0EFztQ",
+          "context": "市场信息整理：台积电COUPE量产、硅光/CPO产业链、PCB、存储、机器人等综合信息",
+          "accidents": [
+            "台积电COUPE量产，光电芯片3D堆叠需要高精度封装和测试设备",
+            "硅光时代设备端卖铲人逻辑"
+          ],
+          "insights": [
+            "CPO时代对封装测试设备精度要求大幅提升"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "光电芯片封装测试设备"
+          ],
+          "industry_position": [
+            "硅光/CPO设备核心供应商"
+          ],
+          "chain": [
+            "中游-设备",
+            "AI数据中心光互连"
+          ],
+          "partners": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-16"
     },
     "300758": {
       "name": "化工",
@@ -73346,7 +73679,7 @@
       "industry_position": [],
       "chain": [],
       "partners": [],
-      "mention_count": 2,
+      "mention_count": 6,
       "articles": [
         {
           "date": "",
@@ -73380,9 +73713,53 @@
           "date": "2026-03-25",
           "title": "今天的一些信息整理3.25",
           "source": "https://mp.weixin.qq.com/s/IPF3zZ0n--NiWQWch4MWCA"
+        },
+        {
+          "title": "AI时代的隐形冠军——MPO连接器与Senko三兄弟",
+          "source": "https://mp.weixin.qq.com/s/q1oTmA8UECwJJ1vQFDDhUQ",
+          "date": "2026-05-16",
+          "article_id": "mpo_senko_20260516",
+          "url": "https://mp.weixin.qq.com/s/q1oTmA8UECwJJ1vQFDDhUQ",
+          "context": "开源证券研报：MPO光纤连接器量价齐升，Senko三兄弟深度解析",
+          "accidents": [
+            "Senko MPC金属PIC连接器国内唯一量产代工商，Senko全球独家专利产品",
+            "2020年7月成为Senko核心供应商，负责MPO系列配套开发及MPC独家代工",
+            "通过并购子公司形成DPU产能",
+            "阿里PPU核心供应商之一"
+          ],
+          "insights": [
+            "MPC是Senko独家CPO核心器件，集成透镜/微镜阵列/FAU于超薄金属平台",
+            "一台192x192端口CPO交换机需32个MPC，单根约200美元，一台价值量约5万元",
+            "远期若CPO交换机达30万台，MPC市场约150亿"
+          ],
+          "key_metrics": [
+            "MPC单根约200美元",
+            "一台CPO交换机MPC价值量约5万元",
+            "远期30万台CPO交换机对应150亿MPC市场"
+          ],
+          "target_valuation": [
+            "远期若CPO交换机30万台，MPC市场约150亿，致尚50%份额对应75亿收入，30%净利率=20亿利润，20-30倍PE对应400-600亿市值"
+          ],
+          "core_business": [
+            "MPC金属PIC连接器（独家代工）",
+            "MPO连接器",
+            "DPU芯片"
+          ],
+          "industry_position": [
+            "Senko MPC国内唯一量产代工商",
+            "阿里PPU核心供应商"
+          ],
+          "chain": [
+            "中游-光器件制造",
+            "AI数据中心CPO光互连"
+          ],
+          "partners": [
+            "Senko",
+            "阿里"
+          ]
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-16"
     },
     "301487": {
       "name": "盟固利",
@@ -79642,7 +80019,7 @@
       "partners": [
         "中国巨石"
       ],
-      "mention_count": 3,
+      "mention_count": 2,
       "articles": [
         {
           "date": "2026-03-16",
@@ -79651,9 +80028,39 @@
           ],
           "title": "3月16日，热点关注，今日操作策略与风险提示",
           "source": "https://mp.weixin.qq.com/s/OPtDLgCj5OtY-HeCABfrqA"
+        },
+        {
+          "title": "ABF 载板：国产化率仅 1/4，台资仍主导！玻纤布暴涨 50%",
+          "source": "https://mp.weixin.qq.com/s/k0q3H3YoCTJ5-GqriEE1dg",
+          "date": "2026-05-16",
+          "article_id": "abf_substrate_20260516",
+          "url": "https://mp.weixin.qq.com/s/k0q3H3YoCTJ5-GqriEE1dg",
+          "context": "ABF载板供需失衡、价格上行与国产替代三重共振，玻纤布暴涨50%驱动涨价周期",
+          "accidents": [
+            "ABF载板核心基板供应商",
+            "深度绑定深南电路、兴森科技",
+            "受益载板产能扩张与国产化提速"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "ABF载板基板"
+          ],
+          "industry_position": [
+            "ABF载板核心基板供应商"
+          ],
+          "chain": [
+            "中游-基板材料",
+            "ABF载板产业链"
+          ],
+          "partners": [
+            "深南电路",
+            "兴森科技"
+          ]
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-16"
     },
     "600184": {
       "name": "光电股份",
@@ -95544,7 +95951,7 @@
         "中游-设备制造"
       ],
       "partners": [],
-      "mention_count": 1,
+      "mention_count": 2,
       "articles": [
         {
           "date": "",
@@ -95553,9 +95960,49 @@
           "accidents": [
             "政策护航：2024-2025 年国内新增 12 项 SST 行业标准，"
           ]
+        },
+        {
+          "title": "高盛：六家中国 AIDC电气设备公司调研，UPS、800 VDC、SST谁先兑现？",
+          "source": "https://mp.weixin.qq.com/s/86uOvEmg1-608aFlb1S0Dw",
+          "date": "2026-05-16",
+          "article_id": "gs_aidc_20260516",
+          "url": "https://mp.weixin.qq.com/s/86uOvEmg1-608aFlb1S0Dw",
+          "context": "高盛研报：AI数据中心电气设备产业链调研，聚焦SST固态变压器技术",
+          "accidents": [
+            "围绕北美高功率需求开发13.8kV和34.5kV SST产品",
+            "与主流芯片厂、CSP和海外配电厂商推进生态合作",
+            "预计2027年可能看到测试、小批量交付和潜在放量"
+          ],
+          "insights": [
+            "SST本质上是工程科学，需要真实场景反复运行迭代",
+            "公司优势在于中压直流项目经验、仿真能力、工程能力和供应链集成能力",
+            "SST从技术路线到工程可靠性是关键分水岭"
+          ],
+          "key_metrics": [
+            "开发13.8kV和34.5kV SST产品"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "SST固态变压器",
+            "中压直流系统",
+            "电力系统自动化"
+          ],
+          "industry_position": [
+            "中压直流和SST技术领先企业",
+            "电力二次设备龙头"
+          ],
+          "chain": [
+            "中游-电力电子设备",
+            "AI数据中心供电架构"
+          ],
+          "partners": [
+            "主流芯片厂",
+            "海外CSP",
+            "海外配电厂商"
+          ]
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-16"
     },
     "601127": {
       "name": "赛力斯",
@@ -105110,7 +105557,7 @@
         "英伟达",
         "台积电"
       ],
-      "mention_count": 4,
+      "mention_count": 5,
       "articles": [
         {
           "date": "",
@@ -105157,9 +105604,46 @@
           ],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "title": "ABF 载板：国产化率仅 1/4，台资仍主导！玻纤布暴涨 50%",
+          "source": "https://mp.weixin.qq.com/s/k0q3H3YoCTJ5-GqriEE1dg",
+          "date": "2026-05-16",
+          "article_id": "abf_substrate_20260516",
+          "url": "https://mp.weixin.qq.com/s/k0q3H3YoCTJ5-GqriEE1dg",
+          "context": "ABF载板供需失衡、价格上行与国产替代三重共振，玻纤布暴涨50%驱动涨价周期",
+          "accidents": [
+            "国内最大玻纤布供应商，产能约为日东纺的30%",
+            "供应全系列FCBGA用玻纤布",
+            "产能已被覆铜板厂商预定，深度绑定苹果等终端",
+            "持续扩产充分受益涨价周期"
+          ],
+          "insights": [
+            "全球80%以上玻纤布由日东纺供应，供给高度集中",
+            "2026年Q1玻纤布价格已上涨30%，Q3预计再涨20%，累计涨幅锁定50%"
+          ],
+          "key_metrics": [
+            "产能约为日东纺的30%",
+            "玻纤布Q1+30%、Q3+20%，累计+50%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "玻纤布"
+          ],
+          "industry_position": [
+            "国内最大玻纤布供应商"
+          ],
+          "chain": [
+            "上游-玻纤布",
+            "ABF载板材料"
+          ],
+          "partners": [
+            "苹果",
+            "覆铜板厂商"
+          ]
         }
       ],
-      "last_updated": "2026-05-13"
+      "last_updated": "2026-05-16"
     },
     "603257": {
       "name": "中国瑞林",
@@ -115920,9 +116404,60 @@
       "industry_position": [],
       "chain": [],
       "partners": [],
-      "mention_count": 8,
-      "articles": [],
-      "last_updated": ""
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "AI时代的隐形冠军——MPO连接器与Senko三兄弟",
+          "source": "https://mp.weixin.qq.com/s/q1oTmA8UECwJJ1vQFDDhUQ",
+          "date": "2026-05-16",
+          "article_id": "mpo_senko_20260516",
+          "url": "https://mp.weixin.qq.com/s/q1oTmA8UECwJJ1vQFDDhUQ",
+          "context": "开源证券研报：MPO光纤连接器量价齐升，Senko三兄弟深度解析",
+          "accidents": [
+            "Senko和US Conec双料核心合作伙伴，MPO绑定Senko，MMC绑定US Conec",
+            "MMC已送样北美布线客户，今年订单高速增长，明年预计翻2-3倍",
+            "FAU业务今年计划招聘500人，明年订单可能翻倍",
+            "硅光晶圆检测设备今年有望放量",
+            "苹果屏下检测设备唯一供应商，PCB钻孔设备可能从0到1突破",
+            "发布定增十几亿投向光学领域，稀释不到5%"
+          ],
+          "insights": [
+            "MPO连接器量价齐升，CPO时代一台51.2T交换机需要144根MPO连接器",
+            "US Conec MMC与Senko SN-MT物理互斥，技术路线分化带来格局变化",
+            "分析师预计明年预期利润10-15亿，可给30倍PE"
+          ],
+          "key_metrics": [
+            "MMC明年预计翻2-3倍",
+            "FAU明年订单可能翻倍",
+            "定增稀释不到5%",
+            "预计明年利润10-15亿"
+          ],
+          "target_valuation": [
+            "预计明年利润10-15亿，30倍PE对应300-450亿市值"
+          ],
+          "core_business": [
+            "MPO/MMC连接器",
+            "FAU光纤阵列单元",
+            "硅光晶圆检测设备",
+            "屏下检测设备"
+          ],
+          "industry_position": [
+            "Senko和US Conec双料核心合作伙伴",
+            "苹果屏下检测设备唯一供应商"
+          ],
+          "chain": [
+            "中游-光器件制造",
+            "AI数据中心光互连"
+          ],
+          "partners": [
+            "Senko",
+            "US Conec",
+            "苹果",
+            "北美布线客户"
+          ]
+        }
+      ],
+      "last_updated": "2026-05-16"
     },
     "688027": {
       "name": "国盾量子",
@@ -116642,9 +117177,38 @@
           "insights": [],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理5.15",
+          "source": "https://mp.weixin.qq.com/s/mMzUmqdn5O_4Piah0EFztQ",
+          "date": "2026-05-16",
+          "article_id": "info_20260515",
+          "url": "https://mp.weixin.qq.com/s/mMzUmqdn5O_4Piah0EFztQ",
+          "context": "市场信息整理：台积电COUPE量产、硅光/CPO产业链、PCB、存储、机器人等综合信息",
+          "accidents": [
+            "台积电COUPE硅光整合平台2026年全面量产，硅光/CPO技术商业化加速",
+            "光芯片与激光器最为直接受益"
+          ],
+          "insights": [
+            "COUPE量产标志着硅光时代正式开启"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "光芯片",
+            "激光器"
+          ],
+          "industry_position": [
+            "光芯片上游核心供应商"
+          ],
+          "chain": [
+            "上游-光芯片",
+            "AI数据中心光互连"
+          ],
+          "partners": []
         }
       ],
-      "last_updated": "2026-05-09"
+      "last_updated": "2026-05-16"
     },
     "688049": {
       "name": "炬芯科技",
@@ -122988,7 +123552,7 @@
         "中兴",
         "中际旭创"
       ],
-      "mention_count": 5,
+      "mention_count": 6,
       "articles": [
         {
           "date": "",
@@ -123053,9 +123617,54 @@
           "target_valuation": [
             "合计 30*11（无源）+200（福可喜玛）+500（CW，参考源杰市值和产能），市值看 1000-1100e"
           ]
+        },
+        {
+          "title": "AI时代的隐形冠军——MPO连接器与Senko三兄弟",
+          "source": "https://mp.weixin.qq.com/s/q1oTmA8UECwJJ1vQFDDhUQ",
+          "date": "2026-05-16",
+          "article_id": "mpo_senko_20260516",
+          "url": "https://mp.weixin.qq.com/s/q1oTmA8UECwJJ1vQFDDhUQ",
+          "context": "开源证券研报：MPO光纤连接器量价齐升，Senko三兄弟深度解析",
+          "accidents": [
+            "800G和1.6T的FAU已批量发货，CPO的FAU小批量出货",
+            "MMC通过US Conec认证，SN-MT通过Senko认证",
+            "投资13亿，明年可能形成5000万支CW激光器产能",
+            "100G EML正在送样",
+            "通过参股产业基金间接控股福可喜玛（国产MT插芯龙头）",
+            "4月17日发布上市后首个股权激励，管理层诉求已理顺"
+          ],
+          "insights": [
+            "无源器件和光芯片双轮驱动",
+            "福可喜玛若收购落地有望大幅增厚业绩",
+            "股权激励发布标志管理层利益理顺"
+          ],
+          "key_metrics": [
+            "投资13亿布局光芯片",
+            "明年可能形成5000万支CW激光器产能",
+            "100G EML正在送样"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "无源光器件",
+            "FAU光纤阵列单元",
+            "CW激光器",
+            "EML光芯片"
+          ],
+          "industry_position": [
+            "国产MT插芯龙头（通过福可喜玛）"
+          ],
+          "chain": [
+            "中游-光芯片/光器件",
+            "AI数据中心光互连"
+          ],
+          "partners": [
+            "Senko",
+            "US Conec",
+            "福可喜玛"
+          ]
         }
       ],
-      "last_updated": "2026-05-09"
+      "last_updated": "2026-05-16"
     },
     "688314": {
       "name": "康拓医疗",
@@ -126203,7 +126812,7 @@
         "英伟达",
         "全球头部光模块厂商"
       ],
-      "mention_count": 6,
+      "mention_count": 5,
       "articles": [
         {
           "date": "",
@@ -126241,9 +126850,38 @@
           "date": "2026-04-21",
           "title": "光板块领涨全市场！磷化铟：AI算力卡脖子核心，全产业链标的全梳理（附权威出处）",
           "source": "https://mp.weixin.qq.com/s/5bluU2s8izAKQ9K3Fb2KGA"
+        },
+        {
+          "title": "今天的一些信息整理5.15",
+          "source": "https://mp.weixin.qq.com/s/mMzUmqdn5O_4Piah0EFztQ",
+          "date": "2026-05-16",
+          "article_id": "info_20260515",
+          "url": "https://mp.weixin.qq.com/s/mMzUmqdn5O_4Piah0EFztQ",
+          "context": "市场信息整理：台积电COUPE量产、硅光/CPO产业链、PCB、存储、机器人等综合信息",
+          "accidents": [
+            "台积电COUPE硅光整合平台2026年全面量产，硅光/CPO技术商业化加速",
+            "光芯片与激光器最为直接受益"
+          ],
+          "insights": [
+            "COUPE量产标志着硅光时代正式开启"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "光芯片",
+            "激光器"
+          ],
+          "industry_position": [
+            "光芯片上游核心供应商"
+          ],
+          "chain": [
+            "上游-光芯片",
+            "AI数据中心光互连"
+          ],
+          "partners": []
         }
       ],
-      "last_updated": "2026-05-09"
+      "last_updated": "2026-05-16"
     },
     "688499": {
       "name": "利元亨",
@@ -128042,7 +128680,7 @@
       "industry_position": [],
       "chain": [],
       "partners": [],
-      "mention_count": 1,
+      "mention_count": 2,
       "articles": [
         {
           "date": "2026-04-20",
@@ -128054,9 +128692,35 @@
           "accidents": [
             "铝塑膜国产替代加速、固态软包路线带来新增量，公司在铝塑膜赛道深耕，随固态软包路线推进度受益。"
           ]
+        },
+        {
+          "title": "ABF 载板：国产化率仅 1/4，台资仍主导！玻纤布暴涨 50%",
+          "source": "https://mp.weixin.qq.com/s/k0q3H3YoCTJ5-GqriEE1dg",
+          "date": "2026-05-16",
+          "article_id": "abf_substrate_20260516",
+          "url": "https://mp.weixin.qq.com/s/k0q3H3YoCTJ5-GqriEE1dg",
+          "context": "ABF载板供需失衡、价格上行与国产替代三重共振，玻纤布暴涨50%驱动涨价周期",
+          "accidents": [
+            "ABF载板专用电子化学品供应商",
+            "深度受益国产载板产能扩张"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "ABF载板电子化学品"
+          ],
+          "industry_position": [
+            "ABF载板配套材料供应商"
+          ],
+          "chain": [
+            "中游-配套材料",
+            "ABF载板产业链"
+          ],
+          "partners": []
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-16"
     },
     "688561": {
       "name": "奇安信",
@@ -130265,7 +130929,7 @@
         "中游-设备制造"
       ],
       "partners": [],
-      "mention_count": 1,
+      "mention_count": 2,
       "articles": [
         {
           "date": "",
@@ -130279,9 +130943,55 @@
             "订单爆发：金盘科技 10 月 14 日可转债问询回复公告提及，",
             "SST 订单排产至 2026 年"
           ]
+        },
+        {
+          "title": "高盛：六家中国 AIDC电气设备公司调研，UPS、800 VDC、SST谁先兑现？",
+          "source": "https://mp.weixin.qq.com/s/86uOvEmg1-608aFlb1S0Dw",
+          "date": "2026-05-16",
+          "article_id": "gs_aidc_20260516",
+          "url": "https://mp.weixin.qq.com/s/86uOvEmg1-608aFlb1S0Dw",
+          "context": "高盛研报：AI数据中心电气设备产业链调研，聚焦北美订单和预制化模块",
+          "accidents": [
+            "数据中心电力板块收入同比增长超过100%",
+            "新签数据中心电力订单同比增长278%，超过17亿元",
+            "10kV/2.4MW SST样机已发往海外客户数据中心做真实测试",
+            "推进HVDC预制化方案，已推出240V产品，开发+/-400V和800V架构"
+          ],
+          "insights": [
+            "海外市场成本加成定价，交期优势明显（海外同业2-3年 vs 金盘约1年）",
+            "全球400多个数据中心项目经验",
+            "核心部件自制能力是竞争优势",
+            "预制化将单一设备升级为系统级交付，提升价值量和利润率"
+          ],
+          "key_metrics": [
+            "数据中心电力板块收入同比增长超过100%",
+            "新签数据中心电力订单同比增长278%，超过17亿元",
+            "海外市场（北美）贡献约15亿元",
+            "AIDC在手订单同比翻倍以上",
+            "海外同业变压器交期2-3年，金盘交付周期约一年多"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "干式/油浸式变压器",
+            "预制化电力模块",
+            "SST固态变压器",
+            "HVDC预制化方案"
+          ],
+          "industry_position": [
+            "全球数据中心变压器主要供应商",
+            "北美电力设备紧缺背景下交期优势显著"
+          ],
+          "chain": [
+            "中游-电力设备制造",
+            "数据中心基础设施"
+          ],
+          "partners": [
+            "海外CSP",
+            "北美电力方案集成商"
+          ]
         }
       ],
-      "last_updated": ""
+      "last_updated": "2026-05-16"
     },
     "688680": {
       "name": "海优新材",
@@ -134782,895 +135492,6 @@
             "一季度业绩逆势大增22%"
           ],
           "target_valuation": []
-        }
-      ],
-      "last_updated": "2026-05-16"
-    },
-    "002518.SZ": {
-      "code": "002518.SZ",
-      "name": "科士达",
-      "board": "深圳主板",
-      "industry": "电力设备-电源设备-UPS",
-      "articles": [
-        {
-          "title": "高盛：六家中国 AIDC电气设备公司调研，UPS、800 VDC、SST谁先兑现？",
-          "source": "https://mp.weixin.qq.com/s/86uOvEmg1-608aFlb1S0Dw",
-          "date": "2026-05-16",
-          "article_id": "gs_aidc_20260516",
-          "url": "https://mp.weixin.qq.com/s/86uOvEmg1-608aFlb1S0Dw",
-          "context": "高盛研报：AI数据中心电气设备产业链调研，聚焦UPS、800V直流和固态变压器",
-          "accidents": [
-            "海外UPS ODM订单持续增长，订单能见度延伸到2028年",
-            "预制化电力模块产品推进，单瓦价值量可达单独UPS系统的三倍",
-            "800V直流产品进入客户验证阶段"
-          ],
-          "insights": [
-            "海外敞口高、ODM订单清晰、预制化产品推进快的公司享有更高溢价",
-            "国内厂商通过ODM或全球配电巨头供应链切入北美市场"
-          ],
-          "key_metrics": [
-            "预制化集成方案单瓦内容价值达到单独UPS系统三倍左右"
-          ],
-          "target_valuation": [],
-          "core_business": [
-            "UPS电源设备",
-            "预制化电力模块",
-            "数据中心电力解决方案"
-          ],
-          "industry_position": [
-            "国内UPS行业领先企业",
-            "海外UPS ODM主要供应商"
-          ],
-          "chain": [
-            "中游-电力设备制造",
-            "数据中心基础设施"
-          ],
-          "partners": [
-            "海外CSP",
-            "全球配电巨头"
-          ]
-        }
-      ],
-      "last_updated": "2026-05-16"
-    },
-    "002335.SZ": {
-      "code": "002335.SZ",
-      "name": "科华数据",
-      "board": "深圳主板",
-      "industry": "电力设备-电源设备-UPS",
-      "articles": [
-        {
-          "title": "高盛：六家中国 AIDC电气设备公司调研，UPS、800 VDC、SST谁先兑现？",
-          "source": "https://mp.weixin.qq.com/s/86uOvEmg1-608aFlb1S0Dw",
-          "date": "2026-05-16",
-          "article_id": "gs_aidc_20260516",
-          "url": "https://mp.weixin.qq.com/s/86uOvEmg1-608aFlb1S0Dw",
-          "context": "高盛研报：AI数据中心电气设备产业链调研，聚焦UPS、800V直流和固态变压器",
-          "accidents": [
-            "高功率UPS（500-600kW及MW级）需求确定，为AI数据中心最确定的需求",
-            "国内数据中心建设需求2026年有望修复"
-          ],
-          "insights": [
-            "传统交流UPS在北美、欧洲和东南亚仍然紧缺，不会被800V直流一夜替代",
-            "国内市场毛利率承压，CSP议价能力强"
-          ],
-          "key_metrics": [
-            "500-600kW以及MW级高功率UPS为当下AI数据中心最确定的需求"
-          ],
-          "target_valuation": [],
-          "core_business": [
-            "高功率UPS",
-            "数据中心基础设施"
-          ],
-          "industry_position": [
-            "国内数据中心UPS主要供应商"
-          ],
-          "chain": [
-            "中游-电力设备制造",
-            "数据中心基础设施"
-          ],
-          "partners": [
-            "国内CSP",
-            "互联网客户"
-          ]
-        }
-      ],
-      "last_updated": "2026-05-16"
-    },
-    "601126.SH": {
-      "code": "601126.SH",
-      "name": "四方股份",
-      "board": "上海主板",
-      "industry": "电力设备-电网设备-二次设备",
-      "articles": [
-        {
-          "title": "高盛：六家中国 AIDC电气设备公司调研，UPS、800 VDC、SST谁先兑现？",
-          "source": "https://mp.weixin.qq.com/s/86uOvEmg1-608aFlb1S0Dw",
-          "date": "2026-05-16",
-          "article_id": "gs_aidc_20260516",
-          "url": "https://mp.weixin.qq.com/s/86uOvEmg1-608aFlb1S0Dw",
-          "context": "高盛研报：AI数据中心电气设备产业链调研，聚焦SST固态变压器技术",
-          "accidents": [
-            "围绕北美高功率需求开发13.8kV和34.5kV SST产品",
-            "与主流芯片厂、CSP和海外配电厂商推进生态合作",
-            "预计2027年可能看到测试、小批量交付和潜在放量"
-          ],
-          "insights": [
-            "SST本质上是工程科学，需要真实场景反复运行迭代",
-            "公司优势在于中压直流项目经验、仿真能力、工程能力和供应链集成能力",
-            "SST从技术路线到工程可靠性是关键分水岭"
-          ],
-          "key_metrics": [
-            "开发13.8kV和34.5kV SST产品"
-          ],
-          "target_valuation": [],
-          "core_business": [
-            "SST固态变压器",
-            "中压直流系统",
-            "电力系统自动化"
-          ],
-          "industry_position": [
-            "中压直流和SST技术领先企业",
-            "电力二次设备龙头"
-          ],
-          "chain": [
-            "中游-电力电子设备",
-            "AI数据中心供电架构"
-          ],
-          "partners": [
-            "主流芯片厂",
-            "海外CSP",
-            "海外配电厂商"
-          ]
-        }
-      ],
-      "last_updated": "2026-05-16"
-    },
-    "688676.SH": {
-      "code": "688676.SH",
-      "name": "金盘科技",
-      "board": "科创板",
-      "industry": "电力设备-电网设备-变压器",
-      "articles": [
-        {
-          "title": "高盛：六家中国 AIDC电气设备公司调研，UPS、800 VDC、SST谁先兑现？",
-          "source": "https://mp.weixin.qq.com/s/86uOvEmg1-608aFlb1S0Dw",
-          "date": "2026-05-16",
-          "article_id": "gs_aidc_20260516",
-          "url": "https://mp.weixin.qq.com/s/86uOvEmg1-608aFlb1S0Dw",
-          "context": "高盛研报：AI数据中心电气设备产业链调研，聚焦北美订单和预制化模块",
-          "accidents": [
-            "数据中心电力板块收入同比增长超过100%",
-            "新签数据中心电力订单同比增长278%，超过17亿元",
-            "10kV/2.4MW SST样机已发往海外客户数据中心做真实测试",
-            "推进HVDC预制化方案，已推出240V产品，开发+/-400V和800V架构"
-          ],
-          "insights": [
-            "海外市场成本加成定价，交期优势明显（海外同业2-3年 vs 金盘约1年）",
-            "全球400多个数据中心项目经验",
-            "核心部件自制能力是竞争优势",
-            "预制化将单一设备升级为系统级交付，提升价值量和利润率"
-          ],
-          "key_metrics": [
-            "数据中心电力板块收入同比增长超过100%",
-            "新签数据中心电力订单同比增长278%，超过17亿元",
-            "海外市场（北美）贡献约15亿元",
-            "AIDC在手订单同比翻倍以上",
-            "海外同业变压器交期2-3年，金盘交付周期约一年多"
-          ],
-          "target_valuation": [],
-          "core_business": [
-            "干式/油浸式变压器",
-            "预制化电力模块",
-            "SST固态变压器",
-            "HVDC预制化方案"
-          ],
-          "industry_position": [
-            "全球数据中心变压器主要供应商",
-            "北美电力设备紧缺背景下交期优势显著"
-          ],
-          "chain": [
-            "中游-电力设备制造",
-            "数据中心基础设施"
-          ],
-          "partners": [
-            "海外CSP",
-            "北美电力方案集成商"
-          ]
-        }
-      ],
-      "last_updated": "2026-05-16"
-    },
-    "300693.SZ": {
-      "code": "300693.SZ",
-      "name": "盛弘股份",
-      "board": "创业板",
-      "industry": "电力设备-电源设备-其他电源设备",
-      "articles": [
-        {
-          "title": "高盛：六家中国 AIDC电气设备公司调研，UPS、800 VDC、SST谁先兑现？",
-          "source": "https://mp.weixin.qq.com/s/86uOvEmg1-608aFlb1S0Dw",
-          "date": "2026-05-16",
-          "article_id": "gs_aidc_20260516",
-          "url": "https://mp.weixin.qq.com/s/86uOvEmg1-608aFlb1S0Dw",
-          "context": "高盛研报：AI数据中心电气设备产业链调研，聚焦从EV充电和电能质量切入HVDC/SST",
-          "accidents": [
-            "2025年下半年成立AIDC电源事业部",
-            "开始开发400V和800V HVDC技术",
-            "预计2026年下半年释放更多产品细节"
-          ],
-          "insights": [
-            "优先方向是海外市场",
-            "走'能力迁移'路线：把高压直流充电桩和APF/SVG电能质量系统技术储备迁移到AIDC电源场景",
-            "商业模式灵活：可供应独立电源转换模块或完整HVDC系统",
-            "竞争激烈，国内同类企业都在争海外集成商供货份额"
-          ],
-          "key_metrics": [],
-          "target_valuation": [],
-          "core_business": [
-            "高压直流充电桩",
-            "APF/SVG电能质量系统",
-            "HVDC电源系统"
-          ],
-          "industry_position": [
-            "EV充电领域电力电子技术领先"
-          ],
-          "chain": [
-            "中游-电力电子设备",
-            "AI数据中心供电架构"
-          ],
-          "partners": [
-            "海外大型电力方案集成商"
-          ]
-        }
-      ],
-      "last_updated": "2026-05-16"
-    },
-    "688025.SH": {
-      "code": "688025.SH",
-      "name": "杰普特",
-      "board": "科创板",
-      "industry": "电子-光学光电子-光学元件",
-      "articles": [
-        {
-          "title": "AI时代的隐形冠军——MPO连接器与Senko三兄弟",
-          "source": "https://mp.weixin.qq.com/s/q1oTmA8UECwJJ1vQFDDhUQ",
-          "date": "2026-05-16",
-          "article_id": "mpo_senko_20260516",
-          "url": "https://mp.weixin.qq.com/s/q1oTmA8UECwJJ1vQFDDhUQ",
-          "context": "开源证券研报：MPO光纤连接器量价齐升，Senko三兄弟深度解析",
-          "accidents": [
-            "Senko和US Conec双料核心合作伙伴，MPO绑定Senko，MMC绑定US Conec",
-            "MMC已送样北美布线客户，今年订单高速增长，明年预计翻2-3倍",
-            "FAU业务今年计划招聘500人，明年订单可能翻倍",
-            "硅光晶圆检测设备今年有望放量",
-            "苹果屏下检测设备唯一供应商，PCB钻孔设备可能从0到1突破",
-            "发布定增十几亿投向光学领域，稀释不到5%"
-          ],
-          "insights": [
-            "MPO连接器量价齐升，CPO时代一台51.2T交换机需要144根MPO连接器",
-            "US Conec MMC与Senko SN-MT物理互斥，技术路线分化带来格局变化",
-            "分析师预计明年预期利润10-15亿，可给30倍PE"
-          ],
-          "key_metrics": [
-            "MMC明年预计翻2-3倍",
-            "FAU明年订单可能翻倍",
-            "定增稀释不到5%",
-            "预计明年利润10-15亿"
-          ],
-          "target_valuation": [
-            "预计明年利润10-15亿，30倍PE对应300-450亿市值"
-          ],
-          "core_business": [
-            "MPO/MMC连接器",
-            "FAU光纤阵列单元",
-            "硅光晶圆检测设备",
-            "屏下检测设备"
-          ],
-          "industry_position": [
-            "Senko和US Conec双料核心合作伙伴",
-            "苹果屏下检测设备唯一供应商"
-          ],
-          "chain": [
-            "中游-光器件制造",
-            "AI数据中心光互连"
-          ],
-          "partners": [
-            "Senko",
-            "US Conec",
-            "苹果",
-            "北美布线客户"
-          ]
-        }
-      ],
-      "last_updated": "2026-05-16"
-    },
-    "688313.SH": {
-      "code": "688313.SH",
-      "name": "仕佳光子",
-      "board": "科创板",
-      "industry": "电子-通信-通信设备-通信传输设备",
-      "articles": [
-        {
-          "title": "AI时代的隐形冠军——MPO连接器与Senko三兄弟",
-          "source": "https://mp.weixin.qq.com/s/q1oTmA8UECwJJ1vQFDDhUQ",
-          "date": "2026-05-16",
-          "article_id": "mpo_senko_20260516",
-          "url": "https://mp.weixin.qq.com/s/q1oTmA8UECwJJ1vQFDDhUQ",
-          "context": "开源证券研报：MPO光纤连接器量价齐升，Senko三兄弟深度解析",
-          "accidents": [
-            "800G和1.6T的FAU已批量发货，CPO的FAU小批量出货",
-            "MMC通过US Conec认证，SN-MT通过Senko认证",
-            "投资13亿，明年可能形成5000万支CW激光器产能",
-            "100G EML正在送样",
-            "通过参股产业基金间接控股福可喜玛（国产MT插芯龙头）",
-            "4月17日发布上市后首个股权激励，管理层诉求已理顺"
-          ],
-          "insights": [
-            "无源器件和光芯片双轮驱动",
-            "福可喜玛若收购落地有望大幅增厚业绩",
-            "股权激励发布标志管理层利益理顺"
-          ],
-          "key_metrics": [
-            "投资13亿布局光芯片",
-            "明年可能形成5000万支CW激光器产能",
-            "100G EML正在送样"
-          ],
-          "target_valuation": [],
-          "core_business": [
-            "无源光器件",
-            "FAU光纤阵列单元",
-            "CW激光器",
-            "EML光芯片"
-          ],
-          "industry_position": [
-            "国产MT插芯龙头（通过福可喜玛）"
-          ],
-          "chain": [
-            "中游-光芯片/光器件",
-            "AI数据中心光互连"
-          ],
-          "partners": [
-            "Senko",
-            "US Conec",
-            "福可喜玛"
-          ]
-        }
-      ],
-      "last_updated": "2026-05-16"
-    },
-    "301486.SZ": {
-      "code": "301486.SZ",
-      "name": "致尚科技",
-      "board": "创业板",
-      "industry": "电子-消费电子-消费电子零部件及组装",
-      "articles": [
-        {
-          "title": "AI时代的隐形冠军——MPO连接器与Senko三兄弟",
-          "source": "https://mp.weixin.qq.com/s/q1oTmA8UECwJJ1vQFDDhUQ",
-          "date": "2026-05-16",
-          "article_id": "mpo_senko_20260516",
-          "url": "https://mp.weixin.qq.com/s/q1oTmA8UECwJJ1vQFDDhUQ",
-          "context": "开源证券研报：MPO光纤连接器量价齐升，Senko三兄弟深度解析",
-          "accidents": [
-            "Senko MPC金属PIC连接器国内唯一量产代工商，Senko全球独家专利产品",
-            "2020年7月成为Senko核心供应商，负责MPO系列配套开发及MPC独家代工",
-            "通过并购子公司形成DPU产能",
-            "阿里PPU核心供应商之一"
-          ],
-          "insights": [
-            "MPC是Senko独家CPO核心器件，集成透镜/微镜阵列/FAU于超薄金属平台",
-            "一台192x192端口CPO交换机需32个MPC，单根约200美元，一台价值量约5万元",
-            "远期若CPO交换机达30万台，MPC市场约150亿"
-          ],
-          "key_metrics": [
-            "MPC单根约200美元",
-            "一台CPO交换机MPC价值量约5万元",
-            "远期30万台CPO交换机对应150亿MPC市场"
-          ],
-          "target_valuation": [
-            "远期若CPO交换机30万台，MPC市场约150亿，致尚50%份额对应75亿收入，30%净利率=20亿利润，20-30倍PE对应400-600亿市值"
-          ],
-          "core_business": [
-            "MPC金属PIC连接器（独家代工）",
-            "MPO连接器",
-            "DPU芯片"
-          ],
-          "industry_position": [
-            "Senko MPC国内唯一量产代工商",
-            "阿里PPU核心供应商"
-          ],
-          "chain": [
-            "中游-光器件制造",
-            "AI数据中心CPO光互连"
-          ],
-          "partners": [
-            "Senko",
-            "阿里"
-          ]
-        }
-      ],
-      "last_updated": "2026-05-16"
-    },
-    "688498.SH": {
-      "code": "688498.SH",
-      "name": "源杰科技",
-      "board": "科创板",
-      "industry": "电子-通信-通信设备-通信传输设备",
-      "articles": [
-        {
-          "title": "今天的一些信息整理5.15",
-          "source": "https://mp.weixin.qq.com/s/mMzUmqdn5O_4Piah0EFztQ",
-          "date": "2026-05-16",
-          "article_id": "info_20260515",
-          "url": "https://mp.weixin.qq.com/s/mMzUmqdn5O_4Piah0EFztQ",
-          "context": "市场信息整理：台积电COUPE量产、硅光/CPO产业链、PCB、存储、机器人等综合信息",
-          "accidents": [
-            "台积电COUPE硅光整合平台2026年全面量产，硅光/CPO技术商业化加速",
-            "光芯片与激光器最为直接受益"
-          ],
-          "insights": [
-            "COUPE量产标志着硅光时代正式开启"
-          ],
-          "key_metrics": [],
-          "target_valuation": [],
-          "core_business": [
-            "光芯片",
-            "激光器"
-          ],
-          "industry_position": [
-            "光芯片上游核心供应商"
-          ],
-          "chain": [
-            "上游-光芯片",
-            "AI数据中心光互连"
-          ],
-          "partners": []
-        }
-      ],
-      "last_updated": "2026-05-16"
-    },
-    "688048.SH": {
-      "code": "688048.SH",
-      "name": "长光华芯",
-      "board": "科创板",
-      "industry": "电子-通信-通信设备-通信传输设备",
-      "articles": [
-        {
-          "title": "今天的一些信息整理5.15",
-          "source": "https://mp.weixin.qq.com/s/mMzUmqdn5O_4Piah0EFztQ",
-          "date": "2026-05-16",
-          "article_id": "info_20260515",
-          "url": "https://mp.weixin.qq.com/s/mMzUmqdn5O_4Piah0EFztQ",
-          "context": "市场信息整理：台积电COUPE量产、硅光/CPO产业链、PCB、存储、机器人等综合信息",
-          "accidents": [
-            "台积电COUPE硅光整合平台2026年全面量产，硅光/CPO技术商业化加速",
-            "光芯片与激光器最为直接受益"
-          ],
-          "insights": [
-            "COUPE量产标志着硅光时代正式开启"
-          ],
-          "key_metrics": [],
-          "target_valuation": [],
-          "core_business": [
-            "光芯片",
-            "激光器"
-          ],
-          "industry_position": [
-            "光芯片上游核心供应商"
-          ],
-          "chain": [
-            "上游-光芯片",
-            "AI数据中心光互连"
-          ],
-          "partners": []
-        }
-      ],
-      "last_updated": "2026-05-16"
-    },
-    "300757.SZ": {
-      "code": "300757.SZ",
-      "name": "罗博特科",
-      "board": "创业板",
-      "industry": "机械设备-自动化设备-其他自动化设备",
-      "articles": [
-        {
-          "title": "今天的一些信息整理5.15",
-          "source": "https://mp.weixin.qq.com/s/mMzUmqdn5O_4Piah0EFztQ",
-          "date": "2026-05-16",
-          "article_id": "info_20260515",
-          "url": "https://mp.weixin.qq.com/s/mMzUmqdn5O_4Piah0EFztQ",
-          "context": "市场信息整理：台积电COUPE量产、硅光/CPO产业链、PCB、存储、机器人等综合信息",
-          "accidents": [
-            "台积电COUPE量产，光电芯片3D堆叠需要高精度封装和测试设备",
-            "硅光时代设备端卖铲人逻辑"
-          ],
-          "insights": [
-            "CPO时代对封装测试设备精度要求大幅提升"
-          ],
-          "key_metrics": [],
-          "target_valuation": [],
-          "core_business": [
-            "光电芯片封装测试设备"
-          ],
-          "industry_position": [
-            "硅光/CPO设备核心供应商"
-          ],
-          "chain": [
-            "中游-设备",
-            "AI数据中心光互连"
-          ],
-          "partners": []
-        }
-      ],
-      "last_updated": "2026-05-16"
-    },
-    "300308.SZ": {
-      "code": "300308.SZ",
-      "name": "中际旭创",
-      "board": "创业板",
-      "industry": "电子-通信-通信设备-通信传输设备",
-      "articles": [
-        {
-          "title": "今天的一些信息整理5.15",
-          "source": "https://mp.weixin.qq.com/s/mMzUmqdn5O_4Piah0EFztQ",
-          "date": "2026-05-16",
-          "article_id": "info_20260515",
-          "url": "https://mp.weixin.qq.com/s/mMzUmqdn5O_4Piah0EFztQ",
-          "context": "市场信息整理：台积电COUPE量产、硅光/CPO产业链、PCB、存储、机器人等综合信息",
-          "accidents": [
-            "台积电COUPE量产，光模块龙头向硅光模块和光引擎等新产品迭代"
-          ],
-          "insights": [
-            "COUPE量产加速硅光模块商业化"
-          ],
-          "key_metrics": [],
-          "target_valuation": [],
-          "core_business": [
-            "光模块",
-            "硅光模块",
-            "光引擎"
-          ],
-          "industry_position": [
-            "全球光模块龙头"
-          ],
-          "chain": [
-            "中游-光模块",
-            "AI数据中心光互连"
-          ],
-          "partners": []
-        }
-      ],
-      "last_updated": "2026-05-16"
-    },
-    "300502.SZ": {
-      "code": "300502.SZ",
-      "name": "新易盛",
-      "board": "创业板",
-      "industry": "电子-通信-通信设备-通信传输设备",
-      "articles": [
-        {
-          "title": "今天的一些信息整理5.15",
-          "source": "https://mp.weixin.qq.com/s/mMzUmqdn5O_4Piah0EFztQ",
-          "date": "2026-05-16",
-          "article_id": "info_20260515",
-          "url": "https://mp.weixin.qq.com/s/mMzUmqdn5O_4Piah0EFztQ",
-          "context": "市场信息整理：台积电COUPE量产、硅光/CPO产业链、PCB、存储、机器人等综合信息",
-          "accidents": [
-            "台积电COUPE量产，光模块龙头向硅光模块和光引擎等新产品迭代"
-          ],
-          "insights": [
-            "COUPE量产加速硅光模块商业化"
-          ],
-          "key_metrics": [],
-          "target_valuation": [],
-          "core_business": [
-            "光模块",
-            "硅光模块"
-          ],
-          "industry_position": [
-            "全球光模块龙头"
-          ],
-          "chain": [
-            "中游-光模块",
-            "AI数据中心光互连"
-          ],
-          "partners": []
-        }
-      ],
-      "last_updated": "2026-05-16"
-    },
-    "300394.SZ": {
-      "code": "300394.SZ",
-      "name": "天孚通信",
-      "board": "创业板",
-      "industry": "电子-通信-通信设备-通信传输设备",
-      "articles": [
-        {
-          "title": "今天的一些信息整理5.15",
-          "source": "https://mp.weixin.qq.com/s/mMzUmqdn5O_4Piah0EFztQ",
-          "date": "2026-05-16",
-          "article_id": "info_20260515",
-          "url": "https://mp.weixin.qq.com/s/mMzUmqdn5O_4Piah0EFztQ",
-          "context": "市场信息整理：台积电COUPE量产、硅光/CPO产业链、PCB、存储、机器人等综合信息",
-          "accidents": [
-            "台积电COUPE量产，光器件龙头向硅光模块和光引擎等新产品迭代"
-          ],
-          "insights": [
-            "COUPE量产加速硅光模块商业化"
-          ],
-          "key_metrics": [],
-          "target_valuation": [],
-          "core_business": [
-            "光器件",
-            "光引擎"
-          ],
-          "industry_position": [
-            "全球光器件龙头"
-          ],
-          "chain": [
-            "中游-光器件",
-            "AI数据中心光互连"
-          ],
-          "partners": []
-        }
-      ],
-      "last_updated": "2026-05-16"
-    },
-    "002916.SZ": {
-      "code": "002916.SZ",
-      "name": "深南电路",
-      "board": "深圳主板",
-      "industry": "电子-半导体及元件-印制电路板",
-      "articles": [
-        {
-          "title": "ABF 载板：国产化率仅 1/4，台资仍主导！玻纤布暴涨 50%",
-          "source": "https://mp.weixin.qq.com/s/k0q3H3YoCTJ5-GqriEE1dg",
-          "date": "2026-05-16",
-          "article_id": "abf_substrate_20260516",
-          "url": "https://mp.weixin.qq.com/s/k0q3H3YoCTJ5-GqriEE1dg",
-          "context": "ABF载板供需失衡、价格上行与国产替代三重共振，玻纤布暴涨50%驱动涨价周期",
-          "accidents": [
-            "国内ABF绝对龙头，与国内90%的CPU/GPU终端合作（海光、新华三等）",
-            "广州、无锡产能基地合计投资超80亿元，布局FC-BGA高端载板",
-            "良率持续提升，2026年有望迎来订单放量",
-            "ABF载板调价20%-30%，幅度反超海外"
-          ],
-          "insights": [
-            "ABF载板在AI芯片成本中仅占0.5%-1%，涨价对下游完全无感",
-            "国产化率仅1/4，被动国产化是当前核心逻辑",
-            "台资/日系产能满载，被迫将国产GPU订单转向国内厂商"
-          ],
-          "key_metrics": [
-            "ABF载板调价20%-30%",
-            "广州无锡基地投资超80亿元",
-            "与国内90%的CPU/GPU终端合作"
-          ],
-          "target_valuation": [],
-          "core_business": [
-            "ABF载板",
-            "FC-BGA高端载板",
-            "PCB"
-          ],
-          "industry_position": [
-            "国内ABF载板绝对龙头"
-          ],
-          "chain": [
-            "中游-载板制造",
-            "AI芯片封装"
-          ],
-          "partners": [
-            "海光",
-            "新华三",
-            "寒武纪",
-            "沐曦"
-          ]
-        }
-      ],
-      "last_updated": "2026-05-16"
-    },
-    "002436.SZ": {
-      "code": "002436.SZ",
-      "name": "兴森科技",
-      "board": "深圳主板",
-      "industry": "电子-半导体及元件-印制电路板",
-      "articles": [
-        {
-          "title": "ABF 载板：国产化率仅 1/4，台资仍主导！玻纤布暴涨 50%",
-          "source": "https://mp.weixin.qq.com/s/k0q3H3YoCTJ5-GqriEE1dg",
-          "date": "2026-05-16",
-          "article_id": "abf_substrate_20260516",
-          "url": "https://mp.weixin.qq.com/s/k0q3H3YoCTJ5-GqriEE1dg",
-          "context": "ABF载板供需失衡、价格上行与国产替代三重共振，玻纤布暴涨50%驱动涨价周期",
-          "accidents": [
-            "国内ABF第二极，服务华为海思、平头哥、龙芯中科等",
-            "广州科学城工厂投资超50亿元，新增48万平米产能",
-            "已进入小批量生产阶段，深度受益国产GPU订单转移",
-            "ABF载板调价20%-30%"
-          ],
-          "insights": [
-            "被动国产化核心承接方",
-            "国内良率落后头部厂商10+百分点，2-3年内国产化率突破50%属低概率事件"
-          ],
-          "key_metrics": [
-            "广州工厂投资超50亿元",
-            "新增48万平米产能"
-          ],
-          "target_valuation": [],
-          "core_business": [
-            "ABF载板",
-            "FC-BGA载板"
-          ],
-          "industry_position": [
-            "国内ABF载板第二极"
-          ],
-          "chain": [
-            "中游-载板制造",
-            "AI芯片封装"
-          ],
-          "partners": [
-            "华为海思",
-            "平头哥",
-            "龙芯中科"
-          ]
-        }
-      ],
-      "last_updated": "2026-05-16"
-    },
-    "603256.SH": {
-      "code": "603256.SH",
-      "name": "宏和科技",
-      "board": "上海主板",
-      "industry": "建筑材料-玻璃玻纤-玻纤制造",
-      "articles": [
-        {
-          "title": "ABF 载板：国产化率仅 1/4，台资仍主导！玻纤布暴涨 50%",
-          "source": "https://mp.weixin.qq.com/s/k0q3H3YoCTJ5-GqriEE1dg",
-          "date": "2026-05-16",
-          "article_id": "abf_substrate_20260516",
-          "url": "https://mp.weixin.qq.com/s/k0q3H3YoCTJ5-GqriEE1dg",
-          "context": "ABF载板供需失衡、价格上行与国产替代三重共振，玻纤布暴涨50%驱动涨价周期",
-          "accidents": [
-            "国内最大玻纤布供应商，产能约为日东纺的30%",
-            "供应全系列FCBGA用玻纤布",
-            "产能已被覆铜板厂商预定，深度绑定苹果等终端",
-            "持续扩产充分受益涨价周期"
-          ],
-          "insights": [
-            "全球80%以上玻纤布由日东纺供应，供给高度集中",
-            "2026年Q1玻纤布价格已上涨30%，Q3预计再涨20%，累计涨幅锁定50%"
-          ],
-          "key_metrics": [
-            "产能约为日东纺的30%",
-            "玻纤布Q1+30%、Q3+20%，累计+50%"
-          ],
-          "target_valuation": [],
-          "core_business": [
-            "玻纤布"
-          ],
-          "industry_position": [
-            "国内最大玻纤布供应商"
-          ],
-          "chain": [
-            "上游-玻纤布",
-            "ABF载板材料"
-          ],
-          "partners": [
-            "苹果",
-            "覆铜板厂商"
-          ]
-        }
-      ],
-      "last_updated": "2026-05-16"
-    },
-    "002080.SZ": {
-      "code": "002080.SZ",
-      "name": "中材科技",
-      "board": "深圳主板",
-      "industry": "建筑材料-玻璃玻纤-玻纤制造",
-      "articles": [
-        {
-          "title": "ABF 载板：国产化率仅 1/4，台资仍主导！玻纤布暴涨 50%",
-          "source": "https://mp.weixin.qq.com/s/k0q3H3YoCTJ5-GqriEE1dg",
-          "date": "2026-05-16",
-          "article_id": "abf_substrate_20260516",
-          "url": "https://mp.weixin.qq.com/s/k0q3H3YoCTJ5-GqriEE1dg",
-          "context": "ABF载板供需失衡、价格上行与国产替代三重共振，玻纤布暴涨50%驱动涨价周期",
-          "accidents": [
-            "旗下泰山玻纤为国内核心玻纤布供应商",
-            "产能与台湾台玻相当，持续扩产",
-            "直接受益全球玻纤布紧缺与价格上行"
-          ],
-          "insights": [
-            "玻纤布涨价50%为结构性涨价周期，非短期脉冲"
-          ],
-          "key_metrics": [],
-          "target_valuation": [],
-          "core_business": [
-            "玻纤布"
-          ],
-          "industry_position": [
-            "国内核心玻纤布供应商"
-          ],
-          "chain": [
-            "上游-玻纤布",
-            "ABF载板材料"
-          ],
-          "partners": []
-        }
-      ],
-      "last_updated": "2026-05-16"
-    },
-    "600183.SH": {
-      "code": "600183.SH",
-      "name": "生益科技",
-      "board": "上海主板",
-      "industry": "电子-半导体及元件-印制电路板",
-      "articles": [
-        {
-          "title": "ABF 载板：国产化率仅 1/4，台资仍主导！玻纤布暴涨 50%",
-          "source": "https://mp.weixin.qq.com/s/k0q3H3YoCTJ5-GqriEE1dg",
-          "date": "2026-05-16",
-          "article_id": "abf_substrate_20260516",
-          "url": "https://mp.weixin.qq.com/s/k0q3H3YoCTJ5-GqriEE1dg",
-          "context": "ABF载板供需失衡、价格上行与国产替代三重共振，玻纤布暴涨50%驱动涨价周期",
-          "accidents": [
-            "ABF载板核心基板供应商",
-            "深度绑定深南电路、兴森科技",
-            "受益载板产能扩张与国产化提速"
-          ],
-          "insights": [],
-          "key_metrics": [],
-          "target_valuation": [],
-          "core_business": [
-            "ABF载板基板"
-          ],
-          "industry_position": [
-            "ABF载板核心基板供应商"
-          ],
-          "chain": [
-            "中游-基板材料",
-            "ABF载板产业链"
-          ],
-          "partners": [
-            "深南电路",
-            "兴森科技"
-          ]
-        }
-      ],
-      "last_updated": "2026-05-16"
-    },
-    "688560.SH": {
-      "code": "688560.SH",
-      "name": "天承科技",
-      "board": "科创板",
-      "industry": "电子-半导体及元件-半导体材料",
-      "articles": [
-        {
-          "title": "ABF 载板：国产化率仅 1/4，台资仍主导！玻纤布暴涨 50%",
-          "source": "https://mp.weixin.qq.com/s/k0q3H3YoCTJ5-GqriEE1dg",
-          "date": "2026-05-16",
-          "article_id": "abf_substrate_20260516",
-          "url": "https://mp.weixin.qq.com/s/k0q3H3YoCTJ5-GqriEE1dg",
-          "context": "ABF载板供需失衡、价格上行与国产替代三重共振，玻纤布暴涨50%驱动涨价周期",
-          "accidents": [
-            "ABF载板专用电子化学品供应商",
-            "深度受益国产载板产能扩张"
-          ],
-          "insights": [],
-          "key_metrics": [],
-          "target_valuation": [],
-          "core_business": [
-            "ABF载板电子化学品"
-          ],
-          "industry_position": [
-            "ABF载板配套材料供应商"
-          ],
-          "chain": [
-            "中游-配套材料",
-            "ABF载板产业链"
-          ],
-          "partners": []
         }
       ],
       "last_updated": "2026-05-16"

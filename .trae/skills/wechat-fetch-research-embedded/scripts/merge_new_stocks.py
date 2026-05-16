@@ -1,9 +1,14 @@
 import json
+import re
 from datetime import date
 from pathlib import Path
 
 BASE_DIR = Path(__file__).parent.parent
 today_str = date.today().isoformat()
+
+def normalize_code(code):
+    """剥离 .SH/.SZ/.BJ 后缀，统一为纯数字 code"""
+    return re.sub(r'\.(SH|SZ|BJ)$', '', code)
 
 # 1. 读取新数据
 new_data_path = BASE_DIR / 'data' / f'stocks_master_{today_str}.json'
@@ -13,6 +18,10 @@ if not new_data_path.exists():
 with open(new_data_path, 'r', encoding='utf-8') as f:
     new_data = json.load(f)
 new_stocks_list = new_data.get('stocks', [])
+# 规范化 code，剥离 .SH/.SZ/.BJ 后缀
+for s in new_stocks_list:
+    if 'code' in s:
+        s['code'] = normalize_code(s['code'])
 new_stocks_dict = {s['code']: s for s in new_stocks_list if 'code' in s}
 print(f'新数据: {len(new_stocks_list)} 只股票')
 for code, s in new_stocks_dict.items():
