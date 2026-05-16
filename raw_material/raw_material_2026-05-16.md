@@ -1,7 +1,7 @@
 ## Article
 source: https://mp.weixin.qq.com/s/kLTP0EWJCsgLImiPg6Mhtg
 fetched_at: 2026-05-16T10:00:00
-title: 今天的一些信息整理5.16
+title: 韩国大举采购引爆！氟化工分化涨停，巍华新材VS中欣氟材谁是龙头？
 
 韩国大举采购引爆！氟化工分化涨停，巍华新材VS中欣氟材谁是龙头？
 
