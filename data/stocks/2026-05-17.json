@@ -1,6 +1,6 @@
 {
   "date": "2026-05-17",
-  "update_count": 13,
+  "update_count": 28,
   "stocks": {
     "688807": {
       "code": "688807",
@@ -476,6 +476,619 @@
           ],
           "chain": [
             "中游-光模块制造"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "603115": {
+      "code": "603115",
+      "name": "海星股份",
+      "board": "SH",
+      "industry": "电子-电子化学品-电子化学品Ⅲ",
+      "concepts": [
+        "铝电极箔",
+        "AI服务器电源",
+        "电容器"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.15",
+          "date": "2026-05-16",
+          "source": "https://mp.weixin.qq.com/s/mMzUmqdn5O_4Piah0EFztQ",
+          "accidents": [
+            "AI Capex有望上调，电源原材料铝电极箔需求预期增长",
+            "行业5月价格普遍上涨10%-15%，公司幅度领先行业",
+            "26Q1实际净利约0.46亿，净利率7%"
+          ],
+          "insights": [
+            "AI服务器铝电极箔供不应求，公司量价逻辑持续增强",
+            "产能技改进度或超预期，Q2出货量有望上修",
+            "预计26/27年业绩3.7/5.5亿元，后续涨价仍有上修空间"
+          ],
+          "key_metrics": [
+            "26Q1实际净利约0.46亿",
+            "预计26年AI服务器铝箔出货量300万平",
+            "年末产能达1000万平"
+          ],
+          "target_valuation": [
+            "预计26年业绩3.7亿元",
+            "预计27年业绩5.5亿元"
+          ],
+          "core_business": [
+            "铝电极箔研发生产"
+          ],
+          "industry_position": [
+            "铝电极箔行业龙头"
+          ],
+          "chain": [
+            "上游-电子材料"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "688548": {
+      "code": "688548",
+      "name": "广钢气体",
+      "board": "SH",
+      "industry": "电子-电子化学品-电子化学品Ⅲ",
+      "concepts": [
+        "电子大宗气体",
+        "半导体材料"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.15",
+          "date": "2026-05-16",
+          "source": "https://mp.weixin.qq.com/s/mMzUmqdn5O_4Piah0EFztQ",
+          "accidents": [
+            "两存上市在即，存储大周期下需求和资本开支均望大幅提升"
+          ],
+          "insights": [
+            "电子大宗龙头，半导体底色纯",
+            "有望拿到两存新增项目中较高份额，买能见度和量的长期增长"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "电子大宗气体供应"
+          ],
+          "industry_position": [
+            "电子大宗气体龙头"
+          ],
+          "chain": [
+            "上游-电子气体"
+          ],
+          "partners": [
+            "长江存储",
+            "长鑫存储"
+          ]
+        }
+      ]
+    },
+    "688146": {
+      "code": "688146",
+      "name": "中船特气",
+      "board": "SH",
+      "industry": "电子-电子化学品-电子化学品Ⅲ",
+      "concepts": [
+        "电子特气",
+        "六氟化钨",
+        "半导体材料"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.15",
+          "date": "2026-05-16",
+          "source": "https://mp.weixin.qq.com/s/mMzUmqdn5O_4Piah0EFztQ",
+          "accidents": [
+            "六氟化钨海外可能出现断供危机"
+          ],
+          "insights": [
+            "电子特气龙头",
+            "六氟化钨海外断供危机带来价格和盈利弹性"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "电子特气研发生产"
+          ],
+          "industry_position": [
+            "电子特气龙头"
+          ],
+          "chain": [
+            "上游-电子气体"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "688268": {
+      "code": "688268",
+      "name": "华特气体",
+      "board": "SH",
+      "industry": "电子-电子化学品-电子化学品Ⅲ",
+      "concepts": [
+        "电子特气",
+        "氦气",
+        "半导体材料"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.15",
+          "date": "2026-05-16",
+          "source": "https://mp.weixin.qq.com/s/mMzUmqdn5O_4Piah0EFztQ",
+          "accidents": [
+            "存储特气景气上行",
+            "氦气涨价"
+          ],
+          "insights": [
+            "电子特气领军者",
+            "存储特气景气+氦气涨价共振"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "电子特气研发生产",
+            "氦气供应"
+          ],
+          "industry_position": [
+            "电子特气领军者"
+          ],
+          "chain": [
+            "上游-电子气体"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "688106": {
+      "code": "688106",
+      "name": "金宏气体",
+      "board": "SH",
+      "industry": "电子-电子化学品-电子化学品Ⅲ",
+      "concepts": [
+        "电子气体",
+        "氦气",
+        "半导体材料"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.15",
+          "date": "2026-05-16",
+          "source": "https://mp.weixin.qq.com/s/mMzUmqdn5O_4Piah0EFztQ",
+          "accidents": [
+            "氦气快速上量"
+          ],
+          "insights": [
+            "气体综合供应商，小林德",
+            "氦气快速上量+涨价弹性"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "电子气体综合供应"
+          ],
+          "industry_position": [
+            "气体综合供应商"
+          ],
+          "chain": [
+            "上游-电子气体"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "002971": {
+      "code": "002971",
+      "name": "和远气体",
+      "board": "SZ",
+      "industry": "电子-电子化学品-电子化学品Ⅲ",
+      "concepts": [
+        "电子特气",
+        "半导体材料"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.15",
+          "date": "2026-05-16",
+          "source": "https://mp.weixin.qq.com/s/mMzUmqdn5O_4Piah0EFztQ",
+          "accidents": [
+            "大手笔进军特气领域"
+          ],
+          "insights": [
+            "电子气体新秀",
+            "坐标宜昌，毗邻武汉长存三期，区位优势明显"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "电子气体研发生产"
+          ],
+          "industry_position": [],
+          "chain": [
+            "上游-电子气体"
+          ],
+          "partners": [
+            "长江存储"
+          ]
+        }
+      ]
+    },
+    "300820": {
+      "code": "300820",
+      "name": "英杰电气",
+      "board": "SZ",
+      "industry": "电子-半导体-半导体设备",
+      "concepts": [
+        "射频电源",
+        "半导体设备",
+        "国产替代"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.15",
+          "date": "2026-05-16",
+          "source": "https://mp.weixin.qq.com/s/mMzUmqdn5O_4Piah0EFztQ",
+          "accidents": [
+            "截止4月订单同比增速超60%",
+            "毛利率修复至50%以上",
+            "射频电源已实现多频率型号量产"
+          ],
+          "insights": [
+            "射频电源国产化自去年下半年开始加速",
+            "已突破型号在中微公司份额高达60%，拓荆份额高达30%",
+            "首次突破匹配器，SAM翻倍",
+            "预计稳态份额有望达到25%，对应50亿以上射频电源收入"
+          ],
+          "key_metrics": [
+            "截止4月订单同比增速超60%",
+            "毛利率修复至50%以上",
+            "中微公司份额60%",
+            "拓荆份额30%"
+          ],
+          "target_valuation": [
+            "目标市值300亿",
+            "远期可展望至600亿总市值"
+          ],
+          "core_business": [
+            "射频电源研发生产",
+            "半导体设备零部件"
+          ],
+          "industry_position": [
+            "射频电源国产替代领军者"
+          ],
+          "chain": [
+            "上游-半导体设备零部件"
+          ],
+          "partners": [
+            "中微公司",
+            "拓荆科技",
+            "北方华创"
+          ]
+        }
+      ]
+    },
+    "688809": {
+      "code": "688809",
+      "name": "强一股份",
+      "board": "SH",
+      "industry": "电子-半导体-半导体设备",
+      "concepts": [
+        "探针卡",
+        "半导体测试",
+        "存储芯片"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.15",
+          "date": "2026-05-16",
+          "source": "https://mp.weixin.qq.com/s/mMzUmqdn5O_4Piah0EFztQ",
+          "accidents": [
+            "探针卡通过CX验证，打开存储市场空间"
+          ],
+          "insights": [
+            "探针卡通过CX验证，打开存储市场空间",
+            "市值看1000亿"
+          ],
+          "key_metrics": [],
+          "target_valuation": [
+            "市值看1000亿"
+          ],
+          "core_business": [
+            "探针卡研发生产"
+          ],
+          "industry_position": [],
+          "chain": [
+            "中游-半导体测试"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "002865": {
+      "code": "002865",
+      "name": "钧达股份",
+      "board": "SZ",
+      "industry": "电力设备-光伏设备-光伏电池组件",
+      "concepts": [
+        "光伏",
+        "太阳能电池",
+        "商业航天",
+        "太空算力"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.15",
+          "date": "2026-05-16",
+          "source": "https://mp.weixin.qq.com/s/mMzUmqdn5O_4Piah0EFztQ",
+          "accidents": [
+            "中科宇航力箭一号遥十三成功发射，'有戏'卫星入轨",
+            "首颗太空算力+星地互动卫星由钧达股份下属公司抓总研制",
+            "首次搭载捷泰航天柔性异质结晶硅电池开展空间实验"
+          ],
+          "insights": [
+            "商业航天新突破，从光伏电池切入太空算力卫星领域",
+            "柔性异质结晶硅电池太空验证，为低轨卫星低成本能源方案提供关键数据支撑"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "光伏电池研发生产",
+            "商业航天卫星"
+          ],
+          "industry_position": [],
+          "chain": [
+            "中游-光伏电池",
+            "下游-商业航天"
+          ],
+          "partners": [
+            "中科宇航"
+          ]
+        }
+      ]
+    },
+    "688700": {
+      "code": "688700",
+      "name": "东威科技",
+      "board": "SH",
+      "industry": "机械设备-专用设备-其他专用设备",
+      "concepts": [
+        "铜电镀",
+        "光伏设备",
+        "PCB设备",
+        "TGV玻璃基板"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.15",
+          "date": "2026-05-16",
+          "source": "https://mp.weixin.qq.com/s/mMzUmqdn5O_4Piah0EFztQ",
+          "accidents": [
+            "在手订单充足，产能利用率提升",
+            "三合一电镀设备打破海外垄断",
+            "TGV玻璃基板设备优势明显"
+          ],
+          "insights": [
+            "全年利润率有望大幅提升",
+            "预计下半年TGV开始放量",
+            "公司逻辑清晰，业绩持续向上，当下极度低估"
+          ],
+          "key_metrics": [],
+          "target_valuation": [
+            "目标市值500亿元"
+          ],
+          "core_business": [
+            "铜电镀设备",
+            "PCB专用设备",
+            "TGV玻璃基板设备"
+          ],
+          "industry_position": [
+            "铜电镀设备龙头"
+          ],
+          "chain": [
+            "中游-专用设备"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "300328": {
+      "code": "300328",
+      "name": "宜安科技",
+      "board": "SZ",
+      "industry": "有色金属-金属新材料-其他金属新材料",
+      "concepts": [
+        "液态金属",
+        "镁合金",
+        "新能源汽车",
+        "苹果折叠屏"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.15",
+          "date": "2026-05-16",
+          "source": "https://mp.weixin.qq.com/s/mMzUmqdn5O_4Piah0EFztQ",
+          "accidents": [
+            "苹果折叠屏手机预计2026年9月发布，专属生产线已就绪"
+          ],
+          "insights": [
+            "全球少数具备液态金属规模化量产能力的厂商",
+            "已批量用于苹果取卡针、折叠屏铰链等关键结构件"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "液态金属研发生产",
+            "镁合金零部件"
+          ],
+          "industry_position": [
+            "液态金属量产领军者"
+          ],
+          "chain": [
+            "上游-新材料"
+          ],
+          "partners": [
+            "苹果"
+          ]
+        }
+      ]
+    },
+    "300709": {
+      "code": "300709",
+      "name": "精研科技",
+      "board": "SZ",
+      "industry": "电子-消费电子-消费电子零部件及组装",
+      "concepts": [
+        "MIM",
+        "折叠屏",
+        "机器人",
+        "苹果折叠屏"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.15",
+          "date": "2026-05-16",
+          "source": "https://mp.weixin.qq.com/s/mMzUmqdn5O_4Piah0EFztQ",
+          "accidents": [
+            "苹果折叠屏手机预计2026年9月发布"
+          ],
+          "insights": [
+            "MIM行业隐形冠军",
+            "独供苹果手表及手机摄像头支架、折叠屏铰链"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "MIM零部件研发生产"
+          ],
+          "industry_position": [
+            "MIM行业隐形冠军"
+          ],
+          "chain": [
+            "上游-精密制造"
+          ],
+          "partners": [
+            "苹果"
+          ]
+        }
+      ]
+    },
+    "300545": {
+      "code": "300545",
+      "name": "联得装备",
+      "board": "SZ",
+      "industry": "机械设备-专用设备-其他专用设备",
+      "concepts": [
+        "半导体设备",
+        "显示面板设备",
+        "自动化",
+        "苹果折叠屏",
+        "OLED"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.15",
+          "date": "2026-05-16",
+          "source": "https://mp.weixin.qq.com/s/mMzUmqdn5O_4Piah0EFztQ",
+          "accidents": [
+            "苹果折叠屏手机预计2026年9月发布"
+          ],
+          "insights": [
+            "果链OLED绑定及贴合设备核心供应商",
+            "深度受益于OLED渗透率提升+国产替代双轮驱动"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "半导体封装设备",
+            "显示模组设备",
+            "OLED绑定贴合设备"
+          ],
+          "industry_position": [
+            "果链OLED设备核心供应商"
+          ],
+          "chain": [
+            "中游-专用设备"
+          ],
+          "partners": [
+            "苹果"
+          ]
+        }
+      ]
+    },
+    "300508": {
+      "code": "300508",
+      "name": "维宏股份",
+      "board": "SZ",
+      "industry": "计算机-计算机设备-计算机设备Ⅲ",
+      "concepts": [
+        "数控系统",
+        "工业软件",
+        "激光加工",
+        "数控系统国产替代"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.15",
+          "date": "2026-05-16",
+          "source": "https://mp.weixin.qq.com/s/mMzUmqdn5O_4Piah0EFztQ",
+          "accidents": [
+            "日本数控系统龙头发那科、三菱等缺货严重，国产替代窗口到来",
+            "日本系统缺货自2026年4月上旬开始显现，4月中旬集中爆发"
+          ],
+          "insights": [
+            "日本系统缺货或将延续成为常态，带来5-10万台/年缺口",
+            "国产数控系统替代窗口到来，公司有望受益"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "数控系统研发",
+            "工业运动控制系统"
+          ],
+          "industry_position": [
+            "国产数控系统龙头"
+          ],
+          "chain": [
+            "上游-工业软件"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "300161": {
+      "code": "300161",
+      "name": "华中数控",
+      "board": "SZ",
+      "industry": "机械设备-通用设备-机床工具",
+      "concepts": [
+        "数控系统",
+        "工业母机",
+        "国产替代"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理5.15",
+          "date": "2026-05-16",
+          "source": "https://mp.weixin.qq.com/s/mMzUmqdn5O_4Piah0EFztQ",
+          "accidents": [
+            "日本数控系统龙头发那科、三菱等缺货严重，国产替代窗口到来"
+          ],
+          "insights": [
+            "国产数控系统龙头，受益于日本系统缺货带来的国产替代良机"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "数控系统研发生产"
+          ],
+          "industry_position": [
+            "国产数控系统领军者"
+          ],
+          "chain": [
+            "上游-工业软件"
           ],
           "partners": []
         }
