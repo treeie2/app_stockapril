@@ -226,6 +226,12 @@ def get_firestore_client():
         import firebase_admin
         from firebase_admin import credentials, firestore
         
+        # 如果已经初始化，直接返回 client
+        if firebase_admin._apps:
+            _firestore_client = firestore.client()
+            print("  ✅ 使用已初始化的 Firebase App")
+            return _firestore_client
+        
         creds_json = None
         # 1. 尝试从本地文件加载
         creds_path = Path(__file__).parent / '.trae' / 'rules' / 'firebase-credentials.json'
