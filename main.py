@@ -1332,6 +1332,12 @@ def api_stock_edit(code):
 @app.route('/api/stock/<code>/article/delete', methods=['POST'])
 def api_stock_article_delete(code):
     """删除指定文章"""
+    # 确保数据已加载
+    try:
+        load_all_data()
+    except Exception as e:
+        print(f"⚠️ 数据加载失败：{e}")
+    
     if code not in stocks:
         return jsonify({'success': False, 'error': '股票不存在'}), 404
     
