@@ -1372,10 +1372,73 @@ def api_stock_article_delete(code):
     # 保存到文件
     save_stocks_to_file()
     
+    # 同步到 Firebase（单只股票）
+    firebase_synced = False
+    firebase_error = None
+    try:
+        import requests
+        base_url = f"https://firestore.googleapis.com/v1/projects/{FIREBASE_PROJECT_ID}/databases/(default)/documents"
+        doc_url = f"{base_url}/stocks/{code}"
+        
+        stock = stocks[code]
+        firestore_data = {
+            "fields": {
+                "name": {"stringValue": stock.get("name", "")},
+                "code": {"stringValue": code},
+                "board": {"stringValue": stock.get("board", "")},
+                "industry": {"stringValue": stock.get("industry", "")},
+                "mention_count": {"integerValue": str(stock.get("mention_count", 0))},
+                "last_updated": {"stringValue": stock.get("last_updated", "")},
+                "updated_at": {"timestampValue": datetime.now().isoformat() + "Z"}
+            }
+        }
+        
+        concepts = stock.get("concepts", [])
+        if concepts:
+            firestore_data["fields"]["concepts"] = {
+                "arrayValue": {"values": [{"stringValue": c} for c in concepts]}
+            }
+        
+        articles = stock.get("articles", [])
+        article_values = []
+        for article in articles:
+            af = {
+                "title": {"stringValue": article.get("title", "")},
+                "date": {"stringValue": article.get("date", "")},
+                "source": {"stringValue": article.get("source", "")},
+                "article_id": {"stringValue": article.get("article_id", article.get("id", ""))},
+                "url": {"stringValue": article.get("url", article.get("article_url", ""))},
+                "context": {"stringValue": article.get("context", "")},
+                "insights": {
+                    "arrayValue": {"values": [{"stringValue": i} for i in article.get("insights", [])]}
+                } if article.get("insights") else {"nullValue": None}
+            }
+            for arr_field in ['target_valuation', 'accidents', 'key_metrics', 'industry_position', 'products', 'partners']:
+                val = article.get(arr_field, [])
+                if val:
+                    af[arr_field] = {"arrayValue": {"values": [{"stringValue": str(v)} for v in val]}}
+                else:
+                    af[arr_field] = {"nullValue": None}
+            article_values.append({"mapValue": {"fields": af}})
+        
+        firestore_data["fields"]["articles"] = {
+            "arrayValue": {"values": article_values}
+        }
+        
+        resp = requests.patch(doc_url, json=firestore_data, timeout=15)
+        if resp.status_code in [200, 201]:
+            firebase_synced = True
+        else:
+            firebase_error = f"Firebase HTTP {resp.status_code}"
+    except Exception as e:
+        firebase_error = str(e)
+    
     return jsonify({
         'success': True,
         'deleted_title': deleted_title,
-        'remaining_count': len(articles)
+        'remaining_count': len(articles),
+        'firebase_synced': firebase_synced,
+        'firebase_error': firebase_error
     })
 
 @app.route('/api/stock/<code>')
