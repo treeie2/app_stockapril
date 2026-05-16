@@ -116,6 +116,25 @@ def sync_to_firebase(hot_topics):
         print(f"[Firebase] 同步失败: {type(e).__name__}: {e}")
 
 
+def sync_groups_to_firebase(groups):
+    """将分组列表同步到 Firestore (config/groups)。"""
+    db = _get_db()
+    if not db:
+        return
+    try:
+        from firebase_admin import firestore
+        
+        doc_ref = db.collection("config").document("groups")
+        doc_ref.set({
+            "groups": groups,
+            "updated_at": firestore.SERVER_TIMESTAMP,
+            "sync_time": datetime.now().isoformat()
+        })
+        print(f"[Firebase] 分组同步成功 ({len(groups)} 个分组)")
+    except Exception as e:
+        print(f"[Firebase] 分组同步失败: {type(e).__name__}: {e}")
+
+
 def load_from_firebase(include_hidden=False):
     """
     从 Firestore 加载热点列表，失败返回 None。
