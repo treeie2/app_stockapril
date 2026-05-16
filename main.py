@@ -7,7 +7,7 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='repla
 sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
 
 from flask import Flask, jsonify, render_template, request, send_file, send_from_directory
-import json, gzip, os, requests
+import json, gzip, os, re, requests
 from pathlib import Path
 from datetime import datetime
 # Firebase 导入（可选，失败不影响主功能）
@@ -1032,6 +1032,8 @@ def demo_cards():
 
 @app.route('/stock/<code>')
 def stock_detail(code):
+    # 剥离 .SH/.SZ/.BJ 后缀，统一为纯数字 code
+    code = re.sub(r'\.(SH|SZ|BJ)$', '', code)
     # 直接从 Firebase 获取最新数据（避免缓存问题）
     try:
         api_key = os.getenv("FIREBASE_API_KEY", "")
@@ -1271,6 +1273,7 @@ def search():
 
 @app.route('/api/stock/<code>/edit', methods=['POST'])
 def api_stock_edit(code):
+    code = re.sub(r'\.(SH|SZ|BJ)$', '', code)
     """编辑股票信息（支持更多字段）"""
     if code not in stocks:
         return jsonify({'success': False, 'error': '股票不存在'}), 404
@@ -1344,6 +1347,7 @@ def api_stock_edit(code):
 
 @app.route('/api/stock/<code>/article/delete', methods=['POST'])
 def api_stock_article_delete(code):
+    code = re.sub(r'\.(SH|SZ|BJ)$', '', code)
     """删除指定文章"""
     # 确保数据已加载
     try:
@@ -1491,6 +1495,7 @@ def api_stock_article_delete(code):
 
 @app.route('/api/stock/<code>')
 def api_stock(code):
+    code = re.sub(r'\.(SH|SZ|BJ)$', '', code)
     # 懒加载数据
     try:
         load_all_data()
@@ -2041,6 +2046,7 @@ def api_remove_stock_from_group(group_id):
 
 @app.route('/api/stock/<code>/groups')
 def api_get_stock_groups(code):
+    code = re.sub(r'\.(SH|SZ|BJ)$', '', code)
     """获取股票所属的分组"""
     load_groups_data()
     
@@ -2291,6 +2297,7 @@ if EDIT_LOG_FILE.exists():
 
 @app.route('/api/stock/<code>/accident', methods=['PUT'])
 def update_accident(code):
+    code = re.sub(r'\.(SH|SZ|BJ)$', '', code)
     """更新股票的 accident（催化剂）字段"""
     if code not in stocks:
         return jsonify({'error': '股票不存在'}), 404
@@ -2315,6 +2322,7 @@ def update_accident(code):
 
 @app.route('/api/stock/<code>/insights', methods=['PUT'])
 def update_insights(code):
+    code = re.sub(r'\.(SH|SZ|BJ)$', '', code)
     """更新股票的 insights 字段"""
     if code not in stocks:
         return jsonify({'error': '股票不存在'}), 404
@@ -2453,6 +2461,7 @@ def clear_edits():
 
 @app.route('/api/stock/<code>/similar')
 def get_similar_stocks(code):
+    code = re.sub(r'\.(SH|SZ|BJ)$', '', code)
     """获取相似股票推荐"""
     top_k = request.args.get('top', 10, type=int)
     min_sim = request.args.get('min_sim', 0.1, type=float)
