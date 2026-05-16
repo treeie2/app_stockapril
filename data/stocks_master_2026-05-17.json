@@ -1,0 +1,293 @@
+{
+  "date": "2026-05-17",
+  "source": "https://mp.weixin.qq.com/s/J4lrC_ogp4B-bS5wZh3H3Q",
+  "title": "DSP芯片概念股",
+  "stocks": [
+    {
+      "code": "688807",
+      "name": "优迅股份",
+      "board": "SH",
+      "industry": "电子-半导体-集成电路设计",
+      "concepts": ["光通信", "电芯片", "国产替代"],
+      "articles": [
+        {
+          "title": "DSP芯片概念股",
+          "date": "2026-05-17",
+          "source": "https://mp.weixin.qq.com/s/J4lrC_ogp4B-bS5wZh3H3Q",
+          "accidents": ["DSP芯片概念股梳理"],
+          "insights": ["国产光通信电芯片龙头，具备全场景、全系列产品供应能力", "10G及以下Driver+LA全球市占率第一，25G/100G产品已批量应用，800G产品完成回片测试，是国产替代潜力最大的企业"],
+          "key_metrics": ["10G及以下Driver+LA全球市占率第一"],
+          "target_valuation": [],
+          "core_business": ["光通信电芯片研发与销售"],
+          "industry_position": ["国产光通信电芯片龙头", "10G及以下Driver+LA全球市占率第一"],
+          "chain": ["上游-芯片设计"],
+          "partners": []
+        }
+      ]
+    },
+    {
+      "code": "688052",
+      "name": "纳芯微",
+      "board": "SH",
+      "industry": "电子-半导体-集成电路设计",
+      "concepts": ["模拟芯片", "信号链", "电源管理"],
+      "articles": [
+        {
+          "title": "DSP芯片概念股",
+          "date": "2026-05-17",
+          "source": "https://mp.weixin.qq.com/s/J4lrC_ogp4B-bS5wZh3H3Q",
+          "accidents": ["DSP芯片概念股梳理"],
+          "insights": ["模拟芯片龙头，产品覆盖信号链、电源管理等", "光通信领域布局TIA、Driver芯片，受益于AI服务器电源需求，业务逐步扩大，营收增长显著"],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": ["模拟芯片研发与销售"],
+          "industry_position": ["模拟芯片龙头"],
+          "chain": ["上游-芯片设计"],
+          "partners": []
+        }
+      ]
+    },
+    {
+      "code": "688536",
+      "name": "思瑞浦",
+      "board": "SH",
+      "industry": "电子-半导体-集成电路设计",
+      "concepts": ["模拟芯片", "信号链"],
+      "articles": [
+        {
+          "title": "DSP芯片概念股",
+          "date": "2026-05-17",
+          "source": "https://mp.weixin.qq.com/s/J4lrC_ogp4B-bS5wZh3H3Q",
+          "accidents": ["DSP芯片概念股梳理"],
+          "insights": ["信号链模拟芯片企业，通讯领域收入占比高", "产品可应用于光通信设备，技术积累深厚，业绩扭亏为盈且增长强劲"],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": ["信号链模拟芯片研发与销售"],
+          "industry_position": ["信号链模拟芯片企业"],
+          "chain": ["上游-芯片设计"],
+          "partners": []
+        }
+      ]
+    },
+    {
+      "code": "300661",
+      "name": "圣邦股份",
+      "board": "SZ",
+      "industry": "电子-半导体-集成电路设计",
+      "concepts": ["模拟芯片", "信号链"],
+      "articles": [
+        {
+          "title": "DSP芯片概念股",
+          "date": "2026-05-17",
+          "source": "https://mp.weixin.qq.com/s/J4lrC_ogp4B-bS5wZh3H3Q",
+          "accidents": ["DSP芯片概念股梳理"],
+          "insights": ["国内模拟芯片品类最齐全企业", "中低端Driver/TIA已突破，毛利率高位，长期拓展潜力足，光通信配套业务逐步拓展"],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": ["模拟芯片研发与销售"],
+          "industry_position": ["国内模拟芯片品类最齐全企业"],
+          "chain": ["上游-芯片设计"],
+          "partners": []
+        }
+      ]
+    },
+    {
+      "code": "688798",
+      "name": "艾为电子",
+      "board": "SH",
+      "industry": "电子-半导体-集成电路设计",
+      "concepts": ["数模混合芯片", "模拟芯片"],
+      "articles": [
+        {
+          "title": "DSP芯片概念股",
+          "date": "2026-05-17",
+          "source": "https://mp.weixin.qq.com/s/J4lrC_ogp4B-bS5wZh3H3Q",
+          "accidents": ["DSP芯片概念股梳理"],
+          "insights": ["高性能数模混合芯片企业", "光通信电芯片有布局但非核心业务，扣非净利润增长显著，盈利质量提升，光通信领域具协同优势"],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": ["数模混合芯片研发与销售"],
+          "industry_position": ["高性能数模混合芯片企业"],
+          "chain": ["上游-芯片设计"],
+          "partners": []
+        }
+      ]
+    },
+    {
+      "code": "688045",
+      "name": "必易微",
+      "board": "SH",
+      "industry": "电子-半导体-集成电路设计",
+      "concepts": ["模拟芯片"],
+      "articles": [
+        {
+          "title": "DSP芯片概念股",
+          "date": "2026-05-17",
+          "source": "https://mp.weixin.qq.com/s/J4lrC_ogp4B-bS5wZh3H3Q",
+          "accidents": ["DSP芯片概念股梳理"],
+          "insights": ["模拟芯片企业，扭亏为盈，毛利率持续增长", "光通信配套业务发力，业绩改善明显"],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": ["模拟芯片研发与销售"],
+          "industry_position": [],
+          "chain": ["上游-芯片设计"],
+          "partners": []
+        }
+      ]
+    },
+    {
+      "code": "688508",
+      "name": "芯朋微",
+      "board": "SH",
+      "industry": "电子-半导体-集成电路设计",
+      "concepts": ["电源管理芯片"],
+      "articles": [
+        {
+          "title": "DSP芯片概念股",
+          "date": "2026-05-17",
+          "source": "https://mp.weixin.qq.com/s/J4lrC_ogp4B-bS5wZh3H3Q",
+          "accidents": ["DSP芯片概念股梳理"],
+          "insights": ["电源管理芯片企业，净利润预计高增长", "深耕电源管理，光通信配套稳步推进"],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": ["电源管理芯片研发与销售"],
+          "industry_position": [],
+          "chain": ["上游-芯片设计"],
+          "partners": []
+        }
+      ]
+    },
+    {
+      "code": "600171",
+      "name": "上海贝岭",
+      "board": "SH",
+      "industry": "电子-半导体-集成电路设计",
+      "concepts": ["模拟芯片", "电源管理"],
+      "articles": [
+        {
+          "title": "DSP芯片概念股",
+          "date": "2026-05-17",
+          "source": "https://mp.weixin.qq.com/s/J4lrC_ogp4B-bS5wZh3H3Q",
+          "accidents": ["DSP芯片概念股梳理"],
+          "insights": ["模拟芯片企业，营收稳健增长", "重点布局光模块电源管理芯片，业务相关性高"],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": ["模拟芯片研发与销售", "光模块电源管理芯片"],
+          "industry_position": [],
+          "chain": ["上游-芯片设计"],
+          "partners": []
+        }
+      ]
+    },
+    {
+      "code": "600198",
+      "name": "大唐电信",
+      "board": "SH",
+      "industry": "通信-通信设备-通信终端及配件",
+      "concepts": ["DSP芯片", "CPO", "硅光"],
+      "articles": [
+        {
+          "title": "DSP芯片概念股",
+          "date": "2026-05-17",
+          "source": "https://mp.weixin.qq.com/s/J4lrC_ogp4B-bS5wZh3H3Q",
+          "accidents": ["DSP芯片概念股梳理"],
+          "insights": ["参股中国信科体系内唯一聚焦高端DSP的央企平台芯珂技术", "全面布局CPO硅光高速DSP，技术对标美国博通，稳居国产第一梯队"],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": ["通信设备", "DSP芯片"],
+          "industry_position": ["国产DSP第一梯队"],
+          "chain": ["中游-芯片设计"],
+          "partners": ["中国信科"]
+        }
+      ]
+    },
+    {
+      "code": "688515",
+      "name": "裕太微",
+      "board": "SH",
+      "industry": "电子-半导体-集成电路设计",
+      "concepts": ["以太网芯片", "DSP", "SerDes"],
+      "articles": [
+        {
+          "title": "DSP芯片概念股",
+          "date": "2026-05-17",
+          "source": "https://mp.weixin.qq.com/s/J4lrC_ogp4B-bS5wZh3H3Q",
+          "accidents": ["DSP芯片概念股梳理"],
+          "insights": ["以太网PHY及交换芯片企业，预研车载光通信", "核心产品研发积累了深厚的DSP、SerDes技术，已构建自适应均衡、时钟恢复等核心算法储备，底层卡位光通信DSP赛道"],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": ["以太网PHY芯片", "交换芯片"],
+          "industry_position": [],
+          "chain": ["上游-芯片设计"],
+          "partners": []
+        }
+      ]
+    },
+    {
+      "code": "300456",
+      "name": "赛微电子",
+      "board": "SZ",
+      "industry": "电子-半导体-集成电路设计",
+      "concepts": ["MEMS", "DSP芯片"],
+      "articles": [
+        {
+          "title": "DSP芯片概念股",
+          "date": "2026-05-17",
+          "source": "https://mp.weixin.qq.com/s/J4lrC_ogp4B-bS5wZh3H3Q",
+          "accidents": ["DSP芯片概念股梳理"],
+          "insights": ["参股子公司中科昊芯专注基于RISC-V内核的DSP芯片设计", "已推出工业控制领域成熟DSP产品，研发能力具备向光通信DSP延伸的基础"],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": ["MEMS传感器", "DSP芯片设计"],
+          "industry_position": [],
+          "chain": ["上游-芯片设计"],
+          "partners": ["中科昊芯"]
+        }
+      ]
+    },
+    {
+      "code": "000500",
+      "name": "华工科技",
+      "board": "SZ",
+      "industry": "电子-电子制造-电子零部件制造",
+      "concepts": ["光模块", "DSP芯片", "硅光"],
+      "articles": [
+        {
+          "title": "DSP芯片概念股",
+          "date": "2026-05-17",
+          "source": "https://mp.weixin.qq.com/s/J4lrC_ogp4B-bS5wZh3H3Q",
+          "accidents": ["DSP芯片概念股梳理"],
+          "insights": ["国内少数掌握从硅光芯片到成品模块全自研能力的企业", "可提供1.6T光模块DSP方案，自研DSP已完成适配验证，技术成熟度处于行业领先"],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": ["光模块", "硅光芯片", "DSP方案"],
+          "industry_position": ["国内少数掌握硅光芯片到成品模块全自研能力的企业"],
+          "chain": ["中游-光模块制造"],
+          "partners": []
+        }
+      ]
+    },
+    {
+      "code": "300308",
+      "name": "中际旭创",
+      "board": "SZ",
+      "industry": "通信-通信设备-通信终端及配件",
+      "concepts": ["光模块", "DSP芯片", "CPO"],
+      "articles": [
+        {
+          "title": "DSP芯片概念股",
+          "date": "2026-05-17",
+          "source": "https://mp.weixin.qq.com/s/J4lrC_ogp4B-bS5wZh3H3Q",
+          "accidents": ["DSP芯片概念股梳理"],
+          "insights": ["全球高速光模块龙头", "自研800G/1.6T光通信DSP芯片，已实现1.6T自研DSP模块量产及规模化商用，可有效缓解供给瓶颈、降低生产成本"],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": ["高速光模块", "DSP芯片"],
+          "industry_position": ["全球高速光模块龙头"],
+          "chain": ["中游-光模块制造"],
+          "partners": []
+        }
+      ]
+    }
+  ]
+}
