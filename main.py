@@ -517,7 +517,7 @@ groups = []
 _data_loaded = False
 
 def load_all_data():
-    """加载所有数据（懒加载）"""
+    """加载所有数据（懒加载）- 本地优先，Firebase 补充"""
     global stocks, concepts, hot_topics, _data_loaded
     
     if _data_loaded:
@@ -526,43 +526,43 @@ def load_all_data():
     print("📋 开始加载数据...")
     
     try:
-        # 1. 优先从 Firebase 加载所有数据（最新数据源）
-        print("📋 从 Firebase 加载数据...")
+        # 1. 优先从本地 master 文件加载（最快）
+        print("📋 从本地 stocks_master.json 加载...")
         try:
-            firebase_stocks, firebase_concepts = load_data_from_firebase()
-            if firebase_stocks:
-                stocks.update(firebase_stocks)
-                concepts.update(firebase_concepts)
-                print(f"  ✅ Firebase 加载成功：{len(firebase_stocks)} 只股票")
-            else:
-                print(f"  ⚠️ Firebase 数据为空")
-        except Exception as e:
-            print(f"  ⚠️ Firebase 加载失败：{e}")
-        
-        # 2. 如果 Firebase 为空，从增量文件加载
-        if not stocks:
-            print("📋 Firebase 数据为空，从增量文件加载...")
-            try:
-                incremental_stocks, incremental_concepts = load_data_incremental(days=30)
-                if incremental_stocks:
-                    stocks.update(incremental_stocks)
-                    concepts.update(incremental_concepts)
-                    print(f"  ✅ 增量加载成功：{len(incremental_stocks)} 只股票")
-            except Exception as e:
-                print(f"  ⚠️ 增量加载失败：{e}")
-        
-        # 3. 如果增量数据也为空，从 master 文件加载
-        if not stocks:
-            print("📋 增量数据为空，从 stocks_master.json 加载...")
-            try:
-                loaded_stocks, loaded_concepts = load_data_from_local()
+            loaded_stocks, loaded_concepts = load_data_from_local()
+            if loaded_stocks:
                 stocks.update(loaded_stocks)
                 concepts.update(loaded_concepts)
-                print(f"  ✅ Master 文件加载成功：{len(loaded_stocks)} 只股票")
-            except Exception as e:
-                print(f"  ⚠️ Master 文件加载失败：{e}")
+                print(f"  ✅ 本地加载成功：{len(loaded_stocks)} 只股票")
+        except Exception as e:
+            print(f"  ⚠️ 本地加载失败：{e}")
         
-        # 优先从本地 JSON 加载热点数据（Vercel 友好，避免 Firebase 超时）
+        # 2. 尝试从 Firebase 补充最新数据（非阻塞，短超时）
+        if stocks:
+            print("📋 尝试从 Firebase 补充数据...")
+            try:
+                firebase_stocks, firebase_concepts = load_data_from_firebase()
+                if firebase_stocks:
+                    stocks.update(firebase_stocks)
+                    concepts.update(firebase_concepts)
+                    print(f"  ✅ Firebase 补充成功：{len(firebase_stocks)} 只股票")
+                else:
+                    print(f"  ⚠️ Firebase 数据为空，使用本地数据")
+            except Exception as e:
+                print(f"  ⚠️ Firebase 加载失败（使用本地数据）：{e}")
+        else:
+            # 本地加载失败，尝试 Firebase
+            print("📋 本地加载失败，尝试从 Firebase 加载...")
+            try:
+                firebase_stocks, firebase_concepts = load_data_from_firebase()
+                if firebase_stocks:
+                    stocks.update(firebase_stocks)
+                    concepts.update(firebase_concepts)
+                    print(f"  ✅ Firebase 加载成功：{len(firebase_stocks)} 只股票")
+            except Exception as e:
+                print(f"  ⚠️ Firebase 加载失败：{e}")
+        
+        # 3. 加载热点数据（本地优先）
         if HOT_TOPICS_FILE.exists():
             try:
                 with open(HOT_TOPICS_FILE, 'r', encoding='utf-8') as f:
@@ -572,49 +572,10 @@ def load_all_data():
             except Exception as e:
                 print(f"⚠️ 加载热点数据失败：{e}")
                 hot_topics = []
+        else:
+            hot_topics = []
         
-        # 保存本地热点数据（作为备用）
-        local_hot_topics_count = len(hot_topics)
-        print(f"📊 加载本地热点数据：{local_hot_topics_count} 个热点")
-        
-        # 尝试从 Firebase 增量加载（仅当 Firebase 有数据时才更新）
-        try:
-            fb_topics = load_from_firebase(include_hidden=True)
-            # 只有当 Firebase 返回有效数据时才覆盖本地数据
-            if fb_topics is not None and len(fb_topics) > 0:
-                hot_topics = fb_topics
-                print(f"📊 Firebase 热点数据更新：{len(hot_topics)} 个热点")
-            else:
-                # Firebase 无数据或为空，保持使用本地数据
-                if local_hot_topics_count > 0:
-                    print(f"📊 Firebase 无数据，保持使用本地 {local_hot_topics_count} 个热点")
-                else:
-                    print(f"⚠️ Firebase 无数据，本地也无热点数据")
-        except Exception as e:
-            print(f"⚠️ Firebase 热点同步失败（继续使用本地数据）：{e}")
-        
-        # 如果本地和 Firebase 都没有热点数据，尝试从 GitHub 加载
-        if not hot_topics:
-            print("📋 本地和 Firebase 均无热点数据，尝试从 GitHub 加载...")
-            try:
-                github_raw_url = "https://raw.githubusercontent.com/treeie2/app_stockapril/main/data/hot_topics/hot_topics.json"
-                resp = requests.get(github_raw_url, timeout=10)
-                if resp.status_code == 200:
-                    gh_data = resp.json()
-                    gh_topics = gh_data.get('topics', [])
-                    if gh_topics:
-                        hot_topics = gh_topics
-                        print(f"📊 GitHub 热点数据加载成功：{len(hot_topics)} 个热点")
-                        # 保存到本地文件
-                        HOT_TOPICS_FILE.parent.mkdir(parents=True, exist_ok=True)
-                        with open(HOT_TOPICS_FILE, 'w', encoding='utf-8') as f:
-                            json.dump({'topics': hot_topics}, f, ensure_ascii=False, indent=2)
-                else:
-                    print(f"⚠️ GitHub 热点数据加载失败：HTTP {resp.status_code}")
-            except Exception as e:
-                print(f"⚠️ GitHub 热点数据加载异常：{e}")
-        
-        # 加载分组数据
+        # 4. 加载分组数据（本地）
         load_groups_data()
         
         print(f"📊 数据加载完成：{len(stocks)} 只股票，{len(concepts)} 个概念，{len(hot_topics)} 个热点，{len(groups)} 个分组")
@@ -624,7 +585,6 @@ def load_all_data():
         print(f"❌ 数据加载失败：{e}")
         import traceback
         traceback.print_exc()
-        # 即使失败也标记为已加载，避免重复尝试
         _data_loaded = True
         raise
 
