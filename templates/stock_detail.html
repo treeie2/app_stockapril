@@ -421,20 +421,13 @@
                 });
                 const result = await resp.json();
                 if (result.success) {
-                    showToast(`✅ 已删除「${result.deleted_title}」`, 'success');
-                    // 自动同步到 GitHub + Firebase
-                    try {
-                        const syncResp = await fetch('/api/sync/all', { method: 'POST' });
-                        const syncData = await syncResp.json();
-                        if (syncData.success) {
-                            status.textContent = '✅ 删除并同步成功（GitHub + Firebase）';
-                            status.className = 'sync-status success';
-                        } else {
-                            status.textContent = '⚠️ 已删除，但同步有误';
-                            status.className = 'sync-status error';
-                        }
-                    } catch(e) {
-                        status.textContent = '⚠️ 已删除，但同步失败';
+                    if (result.firebase_synced) {
+                        showToast(`✅ 已删除「${result.deleted_title}」并同步 Firebase`, 'success');
+                        status.textContent = '✅ 删除并同步成功';
+                        status.className = 'sync-status success';
+                    } else {
+                        showToast(`✅ 已删除「${result.deleted_title}」，但 Firebase 同步失败`, 'warning');
+                        status.textContent = '⚠️ 已删除，Firebase 同步失败: ' + (result.firebase_error || '');
                         status.className = 'sync-status error';
                     }
                     // 刷新页面以显示最新数据
