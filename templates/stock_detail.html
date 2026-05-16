@@ -48,6 +48,12 @@
         }
         .btn-save { background: var(--accent-blue); color: #fff; padding: 10px 24px; border: none; border-radius: var(--radius-sm); cursor: pointer; font-size: 14px; }
         .btn-save:hover { background: #2563eb; }
+        .btn-delete-article {
+            background: rgba(239,68,68,0.15); color: var(--accent-rose);
+            padding: 4px 12px; border-radius: var(--radius-sm); border: 1px solid rgba(239,68,68,0.3);
+            cursor: pointer; font-size: 12px; font-weight: 500; transition: all 0.2s; float: right;
+        }
+        .btn-delete-article:hover { background: rgba(239,68,68,0.25); }
         .toast {
             position: fixed; top: 20px; right: 20px; padding: 12px 24px;
             border-radius: var(--radius-sm); font-size: 14px; z-index: 2000;
@@ -209,6 +215,7 @@
             <h3>📄 相关文章（{{ stock.articles|length }} 篇）</h3>
             {% for article in stock.articles %}
             <div class="article-card">
+                <button class="btn-delete-article" onclick="deleteArticle({{ loop.index0 }})">🗑 删除</button>
                 <h4>{{ article.title }}</h4>
                 <div class="meta">{{ article.date }} · <a href="{{ article.source }}" target="_blank" style="color: var(--accent-cyan);">原文链接</a></div>
                 {% if article.accidents %}
@@ -393,6 +400,54 @@
                 status.textContent = '❌ 网络错误: ' + e.message;
                 status.className = 'sync-status error';
                 showToast('❌ 网络错误: ' + e.message, 'error');
+            }
+        }
+
+        // ─── 删除文章 ───
+        async function deleteArticle(index) {
+            const articleCard = document.querySelectorAll('.article-card')[index];
+            const title = articleCard ? articleCard.querySelector('h4').textContent : '这篇文章';
+            if (!confirm(`确定要删除「${title}」吗？此操作不可撤销。`)) return;
+
+            const status = document.getElementById('syncStatus');
+            status.textContent = '删除中...';
+            status.className = 'sync-status';
+
+            try {
+                const resp = await fetch(`/api/stock/${STOCK_CODE}/article/delete`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ article_index: index })
+                });
+                const result = await resp.json();
+                if (result.success) {
+                    showToast(`✅ 已删除「${result.deleted_title}」`, 'success');
+                    // 自动同步到 GitHub + Firebase
+                    try {
+                        const syncResp = await fetch('/api/sync/all', { method: 'POST' });
+                        const syncData = await syncResp.json();
+                        if (syncData.success) {
+                            status.textContent = '✅ 删除并同步成功（GitHub + Firebase）';
+                            status.className = 'sync-status success';
+                        } else {
+                            status.textContent = '⚠️ 已删除，但同步有误';
+                            status.className = 'sync-status error';
+                        }
+                    } catch(e) {
+                        status.textContent = '⚠️ 已删除，但同步失败';
+                        status.className = 'sync-status error';
+                    }
+                    // 刷新页面以显示最新数据
+                    setTimeout(() => location.reload(), 1500);
+                } else {
+                    showToast('❌ 删除失败: ' + (result.error || '未知错误'), 'error');
+                    status.textContent = '❌ 删除失败';
+                    status.className = 'sync-status error';
+                }
+            } catch(e) {
+                showToast('❌ 网络错误: ' + e.message, 'error');
+                status.textContent = '❌ 网络错误';
+                status.className = 'sync-status error';
             }
         }
 
