@@ -12,12 +12,14 @@ from pathlib import Path
 from datetime import datetime
 # Firebase 导入（可选，失败不影响主功能）
 try:
-    from firebase_hot_topics import sync_to_firebase, load_from_firebase
+    from firebase_hot_topics import sync_to_firebase, sync_groups_to_firebase, load_from_firebase
     print("[INFO] Firebase 模块加载成功")
 except ImportError as e:
     print(f"[INFO] Firebase 模块不可用: {e}")
     # 定义空函数作为后备
     def sync_to_firebase(*args, **kwargs):
+        pass
+    def sync_groups_to_firebase(*args, **kwargs):
         pass
     def load_from_firebase(*args, **kwargs):
         return None
@@ -539,6 +541,27 @@ def load_all_data():
         except Exception as e:
             print(f"⚠️ Firebase 热点同步失败（继续使用本地数据）：{e}")
         
+        # 如果本地和 Firebase 都没有热点数据，尝试从 GitHub 加载
+        if not hot_topics:
+            print("📋 本地和 Firebase 均无热点数据，尝试从 GitHub 加载...")
+            try:
+                github_raw_url = "https://raw.githubusercontent.com/treeie2/app_stockapril/main/data/hot_topics/hot_topics.json"
+                resp = requests.get(github_raw_url, timeout=10)
+                if resp.status_code == 200:
+                    gh_data = resp.json()
+                    gh_topics = gh_data.get('topics', [])
+                    if gh_topics:
+                        hot_topics = gh_topics
+                        print(f"📊 GitHub 热点数据加载成功：{len(hot_topics)} 个热点")
+                        # 保存到本地文件
+                        HOT_TOPICS_FILE.parent.mkdir(parents=True, exist_ok=True)
+                        with open(HOT_TOPICS_FILE, 'w', encoding='utf-8') as f:
+                            json.dump({'topics': hot_topics}, f, ensure_ascii=False, indent=2)
+                else:
+                    print(f"⚠️ GitHub 热点数据加载失败：HTTP {resp.status_code}")
+            except Exception as e:
+                print(f"⚠️ GitHub 热点数据加载异常：{e}")
+        
         # 加载分组数据
         load_groups_data()
         
@@ -588,6 +611,23 @@ def load_hot_topics_only():
         else:
             hot_topics = []
             print(f"⚠️ [Vercel] 热点文件不存在")
+        
+        # 如果本地没有热点数据，尝试从 GitHub 加载
+        if not hot_topics:
+            print("📋 [Vercel] 本地无热点数据，尝试从 GitHub 加载...")
+            try:
+                github_raw_url = "https://raw.githubusercontent.com/treeie2/app_stockapril/main/data/hot_topics/hot_topics.json"
+                resp = requests.get(github_raw_url, timeout=10)
+                if resp.status_code == 200:
+                    gh_data = resp.json()
+                    gh_topics = gh_data.get('topics', [])
+                    if gh_topics:
+                        hot_topics = gh_topics
+                        print(f"📊 [Vercel] GitHub 热点数据加载成功：{len(hot_topics)} 个")
+                else:
+                    print(f"⚠️ [Vercel] GitHub 热点数据加载失败：HTTP {resp.status_code}")
+            except Exception as e:
+                print(f"⚠️ [Vercel] GitHub 热点数据加载异常：{e}")
         
         print(f"📊 [Vercel] 数据加载完成：{len(stocks)} 只股票，{len(hot_topics)} 个热点")
         _data_loaded = True
@@ -726,13 +766,50 @@ def hot_topic_detail(topic_id):
             topic = t
             break
     
+    # 如果内存中找不到，尝试重新从文件加载
+    if not topic:
+        print(f"⚠️ 热点 {topic_id} 不在内存中，尝试从文件重新加载...")
+        try:
+            if HOT_TOPICS_FILE.exists():
+                with open(HOT_TOPICS_FILE, 'r', encoding='utf-8') as f:
+                    hot_topics_data = json.load(f)
+                    reloaded_topics = hot_topics_data.get('topics', [])
+                for t in reloaded_topics:
+                    if t.get('id') == topic_id:
+                        topic = t
+                        # 同步到全局变量
+                        hot_topics.clear()
+                        hot_topics.extend(reloaded_topics)
+                        print(f"✅ 从文件重新加载后找到热点: {topic.get('name')}")
+                        break
+        except Exception as e:
+            print(f"⚠️ 从文件重新加载热点失败: {e}")
+    
+    # 如果文件中也找不到，尝试从 Firebase 加载
+    if not topic:
+        print(f"⚠️ 热点 {topic_id} 不在文件中，尝试从 Firebase 加载...")
+        try:
+            fb_topics = load_from_firebase(include_hidden=True)
+            if fb_topics:
+                for t in fb_topics:
+                    if t.get('id') == topic_id:
+                        topic = t
+                        # 同步到全局变量和本地文件
+                        hot_topics.clear()
+                        hot_topics.extend(fb_topics)
+                        save_hot_topics()
+                        print(f"✅ 从 Firebase 加载后找到热点: {topic.get('name')}")
+                        break
+        except Exception as e:
+            print(f"⚠️ 从 Firebase 加载热点失败: {e}")
+    
     if not topic:
         return "热点不存在", 404
     
     # 获取相关股票详细信息
     related_stocks = []
     for stock_name in topic.get('stocks', []):
-        # 通过名称查找股票代码
+        found = False
         for code, stock_data in stocks.items():
             if stock_data.get('name') == stock_name:
                 related_stocks.append({
@@ -744,7 +821,18 @@ def hot_topic_detail(topic_id):
                     'mention_count': stock_data.get('mention_count', 0),
                     'articles': stock_data.get('articles', [])
                 })
+                found = True
                 break
+        if not found:
+            related_stocks.append({
+                'code': '',
+                'name': stock_name,
+                'board': '',
+                'industry': '未录入数据库',
+                'concepts': [],
+                'mention_count': 0,
+                'articles': []
+            })
     
     return render_template('hot_topic_detail.html', topic=topic, stocks=related_stocks)
 
@@ -1241,6 +1329,49 @@ def api_stock_edit(code):
     
     return jsonify({'success': True, 'updated_fields': updated})
 
+@app.route('/api/stock/<code>/article/delete', methods=['POST'])
+def api_stock_article_delete(code):
+    """删除指定文章"""
+    if code not in stocks:
+        return jsonify({'success': False, 'error': '股票不存在'}), 404
+    
+    data = request.json
+    if not data or 'article_index' not in data:
+        return jsonify({'success': False, 'error': '缺少 article_index 参数'}), 400
+    
+    article_index = data['article_index']
+    articles = stocks[code].get('articles', [])
+    
+    if article_index < 0 or article_index >= len(articles):
+        return jsonify({'success': False, 'error': '文章索引无效'}), 400
+    
+    # 记录被删除的文章信息
+    deleted_article = articles[article_index]
+    deleted_title = deleted_article.get('title', '（无标题）')
+    
+    # 删除文章
+    articles.pop(article_index)
+    stocks[code]['articles'] = articles
+    
+    # 记录编辑日志
+    edit_log.append({
+        'timestamp': datetime.now().isoformat(),
+        'code': code,
+        'name': stocks[code].get('name', ''),
+        'fields': ['articles'],
+        'changes': {'deleted_article': deleted_title}
+    })
+    save_edit_log()
+    
+    # 保存到文件
+    save_stocks_to_file()
+    
+    return jsonify({
+        'success': True,
+        'deleted_title': deleted_title,
+        'remaining_count': len(articles)
+    })
+
 @app.route('/api/stock/<code>')
 def api_stock(code):
     # 懒加载数据
@@ -1263,6 +1394,46 @@ def api_stock(code):
                    'partners': d.get('partners',[]),
                    'articles': d.get('articles',[])[:20], 
                    'detail_texts': d.get('detail_texts',[])[:5]})
+
+@app.route('/api/stocks/batch-details', methods=['POST'])
+def api_stocks_batch_details():
+    """批量查询股票详情（按名称）"""
+    try:
+        load_all_data()
+    except Exception as e:
+        print(f"⚠️ 数据加载失败：{e}")
+    
+    data = request.json
+    names = data.get('names', []) if data else []
+    
+    result = []
+    for name in names:
+        found = False
+        for code, stock_data in stocks.items():
+            if stock_data.get('name') == name:
+                result.append({
+                    'code': code,
+                    'name': stock_data.get('name', ''),
+                    'board': stock_data.get('board', ''),
+                    'industry': stock_data.get('industry', ''),
+                    'concepts': stock_data.get('concepts', []),
+                    'mention_count': stock_data.get('mention_count', 0),
+                    'articles': stock_data.get('articles', [])
+                })
+                found = True
+                break
+        if not found:
+            result.append({
+                'code': '',
+                'name': name,
+                'board': '',
+                'industry': '未录入数据库',
+                'concepts': [],
+                'mention_count': 0,
+                'articles': []
+            })
+    
+    return jsonify({'stocks': result})
 
 @app.route('/api/search/suggest')
 def api_suggest():
@@ -1308,6 +1479,34 @@ def api_get_hot_topic(topic_id):
     for topic in hot_topics:
         if topic.get('id') == topic_id:
             return jsonify(topic)
+    
+    # 内存中找不到，尝试从文件重新加载
+    try:
+        if HOT_TOPICS_FILE.exists():
+            with open(HOT_TOPICS_FILE, 'r', encoding='utf-8') as f:
+                hot_topics_data = json.load(f)
+                reloaded_topics = hot_topics_data.get('topics', [])
+            for t in reloaded_topics:
+                if t.get('id') == topic_id:
+                    hot_topics.clear()
+                    hot_topics.extend(reloaded_topics)
+                    return jsonify(t)
+    except Exception as e:
+        print(f"⚠️ api_get_hot_topic 从文件重新加载失败: {e}")
+    
+    # 文件中也找不到，尝试从 Firebase 加载
+    try:
+        fb_topics = load_from_firebase(include_hidden=True)
+        if fb_topics:
+            for t in fb_topics:
+                if t.get('id') == topic_id:
+                    hot_topics.clear()
+                    hot_topics.extend(fb_topics)
+                    save_hot_topics()
+                    return jsonify(t)
+    except Exception as e:
+        print(f"⚠️ api_get_hot_topic 从 Firebase 加载失败: {e}")
+    
     return jsonify({'error': '热点不存在'}), 404
 
 @app.route('/api/hot-topic', methods=['POST'])
@@ -1360,6 +1559,28 @@ def api_update_hot_topic(topic_id):
             save_hot_topics()
             
             return jsonify({'success': True, 'topic': topic})
+    
+    # 内存中找不到，尝试从文件重新加载后再更新
+    try:
+        if HOT_TOPICS_FILE.exists():
+            with open(HOT_TOPICS_FILE, 'r', encoding='utf-8') as f:
+                hot_topics_data = json.load(f)
+                reloaded_topics = hot_topics_data.get('topics', [])
+            for topic in reloaded_topics:
+                if topic.get('id') == topic_id:
+                    if 'name' in data:
+                        topic['name'] = data['name']
+                    if 'drivers' in data:
+                        topic['drivers'] = data['drivers']
+                    if 'stocks' in data:
+                        topic['stocks'] = data['stocks']
+                    topic['updated_at'] = datetime.now().strftime('%Y-%m-%d')
+                    hot_topics.clear()
+                    hot_topics.extend(reloaded_topics)
+                    save_hot_topics()
+                    return jsonify({'success': True, 'topic': topic})
+    except Exception as e:
+        print(f"⚠️ api_update_hot_topic 从文件重新加载失败: {e}")
     
     return jsonify({'success': False, 'error': '热点不存在'}), 404
 
@@ -1486,6 +1707,20 @@ def save_hot_topics():
 
         # 同步到 Firebase
         sync_to_firebase(hot_topics)
+
+        # 同步到 GitHub（静默执行，不阻塞保存流程）
+        try:
+            gh_result = _sync_json_to_github(
+                HOT_TOPICS_FILE,
+                'data/hot_topics/hot_topics.json',
+                f'[Auto Sync] 更新热点数据 - {datetime.now().strftime("%Y-%m-%d %H:%M")}'
+            )
+            if gh_result['success']:
+                print(f"✅ 热点数据已同步到 GitHub")
+            else:
+                print(f"⚠️ 热点 GitHub 同步失败: {gh_result.get('error', '未知错误')}")
+        except Exception as e:
+            print(f"⚠️ 热点 GitHub 同步异常: {e}")
     except Exception as e:
         print(f"❌ 保存热点数据失败: {e}")
 
@@ -1521,6 +1756,23 @@ def save_groups():
             print(f"✅ 分组数据已同步到 agent_store")
         except Exception as e:
             print(f"⚠️ 同步到 agent_store 失败: {e}")
+
+        # 同步到 Firebase
+        sync_groups_to_firebase(groups)
+
+        # 同步到 GitHub（静默执行，不阻塞保存流程）
+        try:
+            gh_result = _sync_json_to_github(
+                GROUPS_FILE,
+                'data/groups/groups.json',
+                f'[Auto Sync] 更新分组数据 - {datetime.now().strftime("%Y-%m-%d %H:%M")}'
+            )
+            if gh_result['success']:
+                print(f"✅ 分组数据已同步到 GitHub")
+            else:
+                print(f"⚠️ 分组 GitHub 同步失败: {gh_result.get('error', '未知错误')}")
+        except Exception as e:
+            print(f"⚠️ 分组 GitHub 同步异常: {e}")
     except Exception as e:
         print(f"❌ 保存分组数据失败: {e}")
 
@@ -2649,5 +2901,162 @@ def api_sync_all():
         'success': len(errors) == 0,
         'github': github_result,
         'firebase': firebase_result,
+        'errors': errors if errors else None
+    })
+
+
+# ==================== 热点 & 分组 同步辅助函数 ====================
+
+def _sync_json_to_github(local_path, github_file_path, commit_msg):
+    """通用函数：将本地 JSON 文件同步到 GitHub"""
+    github_token = os.environ.get('GITHUB_TOKEN') or os.environ.get('MY_GITHUB_TOKEN')
+    if not github_token:
+        return {'success': False, 'error': '未配置 GitHub Token'}
+
+    github_repo = os.environ.get('GITHUB_REPO', 'treeie2/app_stockapril')
+    branch = 'main'
+
+    if not local_path.exists():
+        return {'success': False, 'error': f'文件不存在: {local_path}'}
+
+    content = local_path.read_text(encoding='utf-8')
+
+    import base64
+    import requests as http_requests
+
+    headers = {
+        'Authorization': f'token {github_token}',
+        'Accept': 'application/vnd.github.v3+json'
+    }
+
+    url = f'https://api.github.com/repos/{github_repo}/contents/{github_file_path}'
+
+    # 获取当前文件 SHA
+    sha_resp = http_requests.get(f'{url}?ref={branch}', headers=headers, timeout=10)
+    sha = sha_resp.json().get('sha') if sha_resp.status_code == 200 else None
+
+    # 提交更新
+    content_b64 = base64.b64encode(content.encode('utf-8')).decode('utf-8')
+    commit_data = {
+        'message': commit_msg,
+        'content': content_b64,
+        'branch': branch
+    }
+    if sha:
+        commit_data['sha'] = sha
+
+    resp = http_requests.put(url, json=commit_data, headers=headers, timeout=15)
+
+    if resp.status_code in [200, 201]:
+        return {
+            'success': True,
+            'message': '✅ 已同步到 GitHub',
+            'commit_url': resp.json().get('content', {}).get('html_url', '')
+        }
+    else:
+        return {
+            'success': False,
+            'error': f'GitHub API 错误: HTTP {resp.status_code} - {resp.text[:200]}'
+        }
+
+
+@app.route('/api/sync/hot-topics/github', methods=['POST'])
+def api_sync_hot_topics_to_github():
+    """同步热点数据到 GitHub"""
+    try:
+        result = _sync_json_to_github(
+            HOT_TOPICS_FILE,
+            'data/hot_topics/hot_topics.json',
+            f'[Web Sync] 更新热点数据 - {datetime.now().strftime("%Y-%m-%d %H:%M")}'
+        )
+        return jsonify(result), (200 if result['success'] else 500)
+    except Exception as e:
+        return jsonify({'success': False, 'error': f'同步失败: {str(e)}'}), 500
+
+
+@app.route('/api/sync/groups/github', methods=['POST'])
+def api_sync_groups_to_github():
+    """同步分组数据到 GitHub"""
+    try:
+        result = _sync_json_to_github(
+            GROUPS_FILE,
+            'data/groups/groups.json',
+            f'[Web Sync] 更新分组数据 - {datetime.now().strftime("%Y-%m-%d %H:%M")}'
+        )
+        return jsonify(result), (200 if result['success'] else 500)
+    except Exception as e:
+        return jsonify({'success': False, 'error': f'同步失败: {str(e)}'}), 500
+
+
+@app.route('/api/sync/hot-topics/firebase', methods=['POST'])
+def api_sync_hot_topics_to_firebase():
+    """同步热点数据到 Firebase"""
+    try:
+        sync_to_firebase(hot_topics)
+        return jsonify({'success': True, 'message': f'✅ 已同步 {len(hot_topics)} 个热点到 Firebase'})
+    except Exception as e:
+        return jsonify({'success': False, 'error': f'Firebase 同步失败: {str(e)}'}), 500
+
+
+@app.route('/api/sync/groups/firebase', methods=['POST'])
+def api_sync_groups_to_firebase():
+    """同步分组数据到 Firebase"""
+    try:
+        sync_groups_to_firebase(groups)
+        return jsonify({'success': True, 'message': f'✅ 已同步 {len(groups)} 个分组到 Firebase'})
+    except Exception as e:
+        return jsonify({'success': False, 'error': f'Firebase 同步失败: {str(e)}'}), 500
+
+
+@app.route('/api/sync/hot-topics/all', methods=['POST'])
+def api_sync_hot_topics_all():
+    """同步热点到 GitHub + Firebase"""
+    errors = []
+    gh = _sync_json_to_github(
+        HOT_TOPICS_FILE,
+        'data/hot_topics/hot_topics.json',
+        f'[Web Sync] 更新热点数据 - {datetime.now().strftime("%Y-%m-%d %H:%M")}'
+    )
+    if not gh['success']:
+        errors.append(f'GitHub: {gh.get("error", "未知错误")}')
+
+    try:
+        sync_to_firebase(hot_topics)
+        fb_ok = True
+    except Exception as e:
+        fb_ok = False
+        errors.append(f'Firebase: {str(e)}')
+
+    return jsonify({
+        'success': len(errors) == 0,
+        'github': gh,
+        'firebase': {'success': fb_ok, 'message': f'✅ 已同步 {len(hot_topics)} 个热点到 Firebase'} if fb_ok else None,
+        'errors': errors if errors else None
+    })
+
+
+@app.route('/api/sync/groups/all', methods=['POST'])
+def api_sync_groups_all():
+    """同步分组到 GitHub + Firebase"""
+    errors = []
+    gh = _sync_json_to_github(
+        GROUPS_FILE,
+        'data/groups/groups.json',
+        f'[Web Sync] 更新分组数据 - {datetime.now().strftime("%Y-%m-%d %H:%M")}'
+    )
+    if not gh['success']:
+        errors.append(f'GitHub: {gh.get("error", "未知错误")}')
+
+    try:
+        sync_groups_to_firebase(groups)
+        fb_ok = True
+    except Exception as e:
+        fb_ok = False
+        errors.append(f'Firebase: {str(e)}')
+
+    return jsonify({
+        'success': len(errors) == 0,
+        'github': gh,
+        'firebase': {'success': fb_ok, 'message': f'✅ 已同步 {len(groups)} 个分组到 Firebase'} if fb_ok else None,
         'errors': errors if errors else None
     })
