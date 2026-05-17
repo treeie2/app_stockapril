@@ -280,7 +280,7 @@ def load_data_from_firebase():
             if page_token:
                 url += f"&pageToken={page_token}" if "?" in url else f"?pageToken={page_token}"
             
-            response = requests.get(url, timeout=30)
+            response = requests.get(url, timeout=5)
             
             if response.status_code != 200:
                 print(f"  ⚠️ Firebase 加载失败：HTTP {response.status_code}")
@@ -490,11 +490,9 @@ def load_data_from_local():
                 concepts[concept] = {'stocks': []}
             concepts[concept]['stocks'].append(stock['code'])
     
-    # 兜底：为有文章但没有 last_updated 的股票设置默认值
-    today_str = datetime.now().strftime('%Y-%m-%d')
+    # 从文章列表中提取最新日期作为 last_updated（仅当有明确日期时）
     for code, stock in stocks.items():
         if not stock.get('last_updated') and stock.get('articles'):
-            # 从文章列表中提取最新日期
             dates = []
             for a in stock['articles']:
                 d = a.get('date', '') or a.get('published_at', '') or ''
@@ -502,8 +500,7 @@ def load_data_from_local():
                     dates.append(d[:10])
             if dates:
                 stock['last_updated'] = max(dates)
-            else:
-                stock['last_updated'] = today_str
+            # 如果文章日期都为空，不设置 last_updated，保持为空
     
     print(f"  ✅ 加载 {len(stocks)} 只股票")
     print(f"  ✅ 加载 {len(concepts)} 个概念")
@@ -543,9 +540,14 @@ def load_all_data():
             try:
                 firebase_stocks, firebase_concepts = load_data_from_firebase()
                 if firebase_stocks:
-                    stocks.update(firebase_stocks)
+                    # 只补充本地不存在的股票，不覆盖已有数据
+                    new_count = 0
+                    for code, fb_stock in firebase_stocks.items():
+                        if code not in stocks:
+                            stocks[code] = fb_stock
+                            new_count += 1
                     concepts.update(firebase_concepts)
-                    print(f"  ✅ Firebase 补充成功：{len(firebase_stocks)} 只股票")
+                    print(f"  ✅ Firebase 补充成功：{new_count} 只新股票（本地已有 {len(stocks) - new_count} 只）")
                 else:
                     print(f"  ⚠️ Firebase 数据为空，使用本地数据")
             except Exception as e:
@@ -1034,72 +1036,12 @@ def demo_cards():
 def stock_detail(code):
     # 剥离 .SH/.SZ/.BJ 后缀，统一为纯数字 code
     code = re.sub(r'\.(SH|SZ|BJ)$', '', code)
-    # 直接从 Firebase 获取最新数据（避免缓存问题）
-    try:
-        api_key = os.getenv("FIREBASE_API_KEY", "")
-        url = f"{FIREBASE_BASE_URL}/stocks/{code}" + (f"?key={api_key}" if api_key else "")
-        resp = requests.get(url, timeout=10)
-        if resp.status_code == 200:
-            data = resp.json()
-            fields = data.get('fields', {})
-            
-            # 构建股票对象
-            d = {
-                'name': fields.get('name', {}).get('stringValue', ''),
-                'code': code,
-                'board': fields.get('board', {}).get('stringValue', ''),
-                'industry': fields.get('industry', {}).get('stringValue', ''),
-                'mention_count': int(fields.get('mention_count', {}).get('integerValue', '0') or 0),
-                'last_updated': fields.get('last_updated', {}).get('stringValue', ''),
-                'concepts': [],
-                'products': [],
-                'core_business': [],
-                'industry_position': [],
-                'chain': [],
-                'partners': [],
-                'articles': []
-            }
-            
-            # 获取概念
-            concepts_arr = fields.get('concepts', {}).get('arrayValue', {}).get('values', [])
-            d['concepts'] = [c.get('stringValue', '') for c in concepts_arr if c.get('stringValue')]
-            
-            # 获取公司画像字段
-            for field_name in ['products', 'core_business', 'industry_position', 'chain', 'partners']:
-                arr = fields.get(field_name, {}).get('arrayValue', {}).get('values', [])
-                d[field_name] = [x.get('stringValue', '') for x in arr if x.get('stringValue')]
-            
-            # 获取文章
-            articles = fields.get('articles', {}).get('arrayValue', {}).get('values', [])
-            for article in articles:
-                article_fields = article.get('mapValue', {}).get('fields', {})
-                article_data = {
-                    'title': article_fields.get('title', {}).get('stringValue', ''),
-                    'date': article_fields.get('date', {}).get('stringValue', ''),
-                    'source': article_fields.get('source', {}).get('stringValue', ''),
-                    'insights': [],
-                    'accidents': [],
-                    'key_metrics': [],
-                    'target_valuation': []
-                }
-                
-                for field in ['insights', 'accidents', 'key_metrics', 'target_valuation']:
-                    arr = article_fields.get(field, {}).get('arrayValue', {}).get('values', [])
-                    article_data[field] = [x.get('stringValue', '') for x in arr if x.get('stringValue')]
-                
-                d['articles'].append(article_data)
-        else:
-            # Firebase 获取失败，使用本地缓存
-            load_all_data()
-            if code not in stocks:
-                return jsonify({'error': '股票不存在'}), 404
-            d = stocks[code]
-    except Exception as e:
-        print(f"⚠️ Firebase 获取失败：{e}，使用本地缓存")
-        load_all_data()
-        if code not in stocks:
-            return jsonify({'error': '股票不存在'}), 404
-        d = stocks[code]
+    
+    # 直接从本地数据加载（Firebase 同步由 Admin SDK 在编辑时处理）
+    load_all_data()
+    if code not in stocks:
+        return jsonify({'error': '股票不存在'}), 404
+    d = stocks[code]
     
     # 构建完整的 stock 对象
     stock = {
@@ -1341,7 +1283,7 @@ def api_stock_edit(code):
         save_edit_log()
         
         # 保存到文件
-        save_stocks_to_file()
+        save_stocks_to_file(code)
     
     return jsonify({'success': True, 'updated_fields': updated})
 
@@ -1375,6 +1317,8 @@ def api_stock_article_delete(code):
     # 删除文章
     articles.pop(article_index)
     stocks[code]['articles'] = articles
+    stocks[code]['mention_count'] = len(articles)
+    stocks[code]['last_updated'] = datetime.now().strftime('%Y-%m-%d')
     
     # 记录编辑日志
     edit_log.append({
@@ -1387,7 +1331,7 @@ def api_stock_article_delete(code):
     save_edit_log()
     
     # 保存到文件
-    save_stocks_to_file()
+    save_stocks_to_file(code)
     
     # 同步到 Firebase（单只股票）
     firebase_synced = False
@@ -2353,34 +2297,72 @@ def save_edit_log():
     except Exception as e:
         print(f"保存编辑日志失败：{e}")
 
-def save_stocks_to_file():
-    """保存股票数据到文件"""
+def save_stocks_to_file(code=None):
+    """保存股票数据到文件（保持 dict 格式，与 stocks_master.json 一致）
+    
+    Args:
+        code: 可选，只更新指定股票；不传则全量保存
+    """
     try:
-        # 转换为列表格式
-        stocks_list = []
-        for code, d in stocks.items():
-            stock = {
-                'code': code,
-                'name': d.get('name', ''),
-                'board': d.get('board', ''),
-                'industry': d.get('industry', ''),
-                'concepts': d.get('concepts', []),
-                'products': d.get('products', []),
-                'core_business': d.get('core_business', []),
-                'industry_position': d.get('industry_position', []),
-                'chain': d.get('chain', []),
-                'partners': d.get('partners', []),
-                'mention_count': d.get('mention_count', 0),
-                'articles': d.get('articles', [])
-            }
-            stocks_list.append(stock)
+        # 读取现有文件（保持格式一致，避免覆盖丢失数据）
+        existing = {}
+        if MASTER_FILE.exists():
+            try:
+                with open(MASTER_FILE, 'r', encoding='utf-8') as f:
+                    raw = json.load(f)
+                stocks_raw = raw.get('stocks', {})
+                if isinstance(stocks_raw, dict):
+                    existing = stocks_raw
+                elif isinstance(stocks_raw, list):
+                    existing = {s['code']: s for s in stocks_raw if 'code' in s}
+            except Exception:
+                pass
         
-        # 保存到文件
-        data = {'stocks': stocks_list}
+        if code:
+            # 只更新单只股票
+            stock = stocks.get(code)
+            if stock:
+                existing[code] = {
+                    'code': code,
+                    'name': stock.get('name', ''),
+                    'board': stock.get('board', ''),
+                    'industry': stock.get('industry', ''),
+                    'concepts': stock.get('concepts', []),
+                    'products': stock.get('products', []),
+                    'core_business': stock.get('core_business', []),
+                    'industry_position': stock.get('industry_position', []),
+                    'chain': stock.get('chain', []),
+                    'partners': stock.get('partners', []),
+                    'mention_count': stock.get('mention_count', 0),
+                    'articles': stock.get('articles', []),
+                    'last_updated': stock.get('last_updated', '')
+                }
+            stocks_dict = existing
+        else:
+            # 全量保存
+            stocks_dict = {}
+            for c, d in stocks.items():
+                stocks_dict[c] = {
+                    'code': c,
+                    'name': d.get('name', ''),
+                    'board': d.get('board', ''),
+                    'industry': d.get('industry', ''),
+                    'concepts': d.get('concepts', []),
+                    'products': d.get('products', []),
+                    'core_business': d.get('core_business', []),
+                    'industry_position': d.get('industry_position', []),
+                    'chain': d.get('chain', []),
+                    'partners': d.get('partners', []),
+                    'mention_count': d.get('mention_count', 0),
+                    'articles': d.get('articles', []),
+                    'last_updated': d.get('last_updated', '')
+                }
+        
+        data = {'stocks': stocks_dict}
         with open(MASTER_FILE, 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
         
-        print(f"✅ 已保存 {len(stocks_list)} 只股票到 {MASTER_FILE}")
+        print(f"✅ 已保存 {len(stocks_dict)} 只股票到 {MASTER_FILE}")
     except Exception as e:
         print(f"❌ 保存股票数据失败：{e}")
 
