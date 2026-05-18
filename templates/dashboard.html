@@ -1030,7 +1030,7 @@
         <!-- 翻页导航 -->
         <div class="pagination-wrap">
             <div class="pagination-info">
-                <span class="pagination-total">{{ total_stocks }} 只股票</span>
+                <span class="pagination-total">{{ total_stocks or 0 }} 只股票</span>
             </div>
             <div class="pagination-controls">
                 <button class="page-btn" id="firstBtn" onclick="goToPage(1)" title="首页">
@@ -1041,10 +1041,11 @@
                 </button>
                 <div class="page-input-wrap">
                     <input type="number" class="page-input" id="pageInput" 
-                           value="{{ (offset // limit) + 1 if limit else 1 }}" 
-                           min="1" max="{{ (total_stocks // limit) + 1 if limit else 1 }}"
+                           value="{{ (((offset or 0) // (limit or 20)) + 1) if (limit or 20) > 0 else 1 }}" 
+                           min="1" 
+                           max="{{ (((total_stocks or 0) // (limit or 20)) + 1) if (limit or 20) > 0 else 1 }}"
                            onkeypress="if(event.key==='Enter')goToPage(this.value)">
-                    <span class="page-total">/ {{ (total_stocks // limit) + 1 if limit else 1 }} 页</span>
+                    <span class="page-total">/ {{ (((total_stocks or 0) // (limit or 20)) + 1) if (limit or 20) > 0 else 1 }} 页</span>
                 </div>
                 <button class="page-btn" id="nextBtn" onclick="nextPage()" title="下一页">
                     »
