@@ -39,7 +39,7 @@ from typing import Any, Dict, List, Optional, Tuple
 class IncrementalUpdater:
     """增量更新管理器"""
     
-    def __init__(self, base_dir: Optional[str] = None):
+    def __init__(self, base_dir: Optional[str] = None, terminal: Optional[str] = None):
         if base_dir:
             self.base_dir = Path(base_dir)
         else:
@@ -48,6 +48,13 @@ class IncrementalUpdater:
         self.stocks_dir = self.base_dir / "stocks"
         self.index_file = self.base_dir / "stocks_index.json"
         self.master_file = self.base_dir / "stocks_master.json"
+        self.terminal = terminal  # 终端标识
+    
+    def _get_daily_file_name(self, date: str) -> str:
+        """生成带终端标识的日期分片文件名"""
+        if self.terminal:
+            return f"{date}_{self.terminal}.json"
+        return f"{date}.json"
     
     def _load_index(self) -> Dict[str, Any]:
         """加载索引文件"""
@@ -64,7 +71,7 @@ class IncrementalUpdater:
     
     def _load_daily_file(self, date: str) -> Dict[str, Any]:
         """加载指定日期的分片文件"""
-        file_path = self.stocks_dir / f"{date}.json"
+        file_path = self.stocks_dir / self._get_daily_file_name(date)
         if file_path.exists():
             with open(file_path, 'r', encoding='utf-8') as f:
                 return json.load(f)
@@ -73,7 +80,7 @@ class IncrementalUpdater:
     def _save_daily_file(self, date: str, data: Dict[str, Any]):
         """保存指定日期的分片文件"""
         self.stocks_dir.mkdir(parents=True, exist_ok=True)
-        file_path = self.stocks_dir / f"{date}.json"
+        file_path = self.stocks_dir / self._get_daily_file_name(date)
         with open(file_path, 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
     
@@ -351,8 +358,8 @@ Examples:
   # 合并抽取结果到分片
   python scripts/incremental_update.py --json "data/stocks_master_2026-04-17.json" --mode merge
   
-  # 更新单只股票
-  python scripts/incremental_update.py --stock-code "688227" --mode single
+  # 更新单只股票（带终端标识）
+  python scripts/incremental_update.py --stock-code "688227" --mode single --terminal trae
   
   # 重建索引
   python scripts/incremental_update.py --mode rebuild-index
@@ -369,10 +376,11 @@ Examples:
     parser.add_argument("--stock-data", help="股票 JSON 数据 (mode=single)")
     parser.add_argument("--base-dir", help="基础目录路径 (默认: skill/data/master)")
     parser.add_argument("--days", type=int, default=7, help="加载数据的天数 (默认: 7)")
+    parser.add_argument("--terminal", help="终端标识（用于区分不同终端处理的个股，如 trae、claude、qoder 等）")
     
     args = parser.parse_args()
     
-    updater = IncrementalUpdater(base_dir=args.base_dir)
+    updater = IncrementalUpdater(base_dir=args.base_dir, terminal=args.terminal)
     
     if args.mode == "merge":
         if not args.json:
