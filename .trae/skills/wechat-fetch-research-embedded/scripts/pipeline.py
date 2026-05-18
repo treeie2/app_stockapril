@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """Main pipeline orchestrator for wechat-fetch-research-embedded skill.
@@ -6,7 +5,7 @@
 This module provides a unified interface for the complete workflow:
 1. Fetch article content
 2. Extract stock information
-3. (NEW) Incremental merge to date-based shards
+3. Incremental merge to date-based shards
 4. Sync to Firestore (optional)
 5. Sync to GitHub shards (optional)
 
@@ -341,7 +340,6 @@ Examples:
 
 
 if __name__ == "__main__":
-=======
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """Main pipeline orchestrator for wechat-fetch-research-embedded skill.
@@ -681,5 +679,4 @@ Examples:
 
 
 if __name__ == "__main__":
->>>>>>> Stashed changes
     main()

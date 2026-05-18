@@ -166,6 +166,21 @@ class IncrementalUpdater:
                 daily_data['stocks'][code] = self._merge_stock_data(daily_data['stocks'][code], stock)
                 updated_count += 1
             else:
+                # Ensure all first-layer fields exist with defaults
+                first_layer_defaults = {
+                    'board': stock.get('board', ''),
+                    'industry': stock.get('industry', ''),
+                    'concepts': stock.get('concepts', []),
+                    'products': stock.get('products', []),
+                    'core_business': stock.get('core_business', []),
+                    'industry_position': stock.get('industry_position', []),
+                    'chain': stock.get('chain', []),
+                    'partners': stock.get('partners', []),
+                    'mention_count': stock.get('mention_count', 0),
+                }
+                for k, v in first_layer_defaults.items():
+                    if k not in stock:
+                        stock[k] = v
                 daily_data['stocks'][code] = stock
                 new_count += 1
             
