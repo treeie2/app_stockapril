@@ -522,45 +522,107 @@
             color:var(--accent-green);
             font-weight:500;
         }
-        .load-more-wrap {
-            padding:1.5rem;
+        /* 翻页导航 */
+        .pagination-wrap {
+            padding:1.25rem;
             text-align:center;
             background:rgba(255,255,255,0.02);
             border-top:1px solid var(--border);
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+            gap:12px;
         }
-        .load-more-btn {
+        .pagination-info {
+            font-size:0.9rem;
+            color:var(--t3);
+        }
+        .pagination-total {
+            color:var(--t1);
+            font-weight:600;
+        }
+        .pagination-controls {
+            display:flex;
+            align-items:center;
+            gap:8px;
+        }
+        .page-btn {
             background:linear-gradient(135deg,#8b5cf6,#7c3aed);
             color:#fff;
             border:none;
-            padding:0.75rem 2rem;
-            border-radius:8px;
-            font-size:0.9rem;
-            font-weight:600;
+            padding:0.6rem 1rem;
+            border-radius:6px;
+            font-size:1rem;
             cursor:pointer;
             transition:all 0.2s;
-            box-shadow:0 2px 8px rgba(139,92,246,0.3);
+            box-shadow:0 2px 6px rgba(139,92,246,0.3);
+            min-width:40px;
         }
-        .load-more-btn:hover {
-            transform:translateY(-2px);
-            box-shadow:0 4px 12px rgba(139,92,246,0.4);
+        .page-btn:hover:not(:disabled) {
+            transform:translateY(-1px);
+            box-shadow:0 4px 10px rgba(139,92,246,0.4);
         }
-        .load-more-btn:active {
+        .page-btn:active:not(:disabled) {
             transform:translateY(0);
         }
-        .load-more-btn.loading {
-            opacity:0.7;
+        .page-btn:disabled {
+            opacity:0.5;
             cursor:not-allowed;
         }
-        .load-more-btn.loading::before {
-            content:'';
-            display:inline-block;
-            width:16px;
-            height:16px;
-            border:2px solid rgba(255,255,255,0.3);
-            border-top-color:#fff;
+        .page-input-wrap {
+            display:flex;
+            align-items:center;
+            gap:8px;
+        }
+        .page-input {
+            width:60px;
+            padding:0.5rem;
+            border:1px solid var(--border);
+            border-radius:6px;
+            background:var(--bg2);
+            color:var(--t1);
+            font-size:0.9rem;
+            text-align:center;
+        }
+        .page-input:focus {
+            outline:none;
+            border-color:var(--accent-purple);
+        }
+        .page-total {
+            color:var(--t3);
+            font-size:0.9rem;
+        }
+        /* 返回顶部按钮 */
+        .back-to-top {
+            position:fixed;
+            bottom:2rem;
+            right:2rem;
+            width:50px;
+            height:50px;
+            background:linear-gradient(135deg,#8b5cf6,#7c3aed);
+            color:#fff;
+            border:none;
             border-radius:50%;
-            animation:spin 0.8s linear infinite;
-            margin-right:0.5rem;
+            cursor:pointer;
+            opacity:0;
+            visibility:hidden;
+            transition:all 0.3s;
+            box-shadow:0 4px 12px rgba(139,92,246,0.4);
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            font-size:1.2rem;
+            z-index:1000;
+        }
+        .back-to-top.show {
+            opacity:1;
+            visibility:visible;
+        }
+        .back-to-top:hover {
+            transform:translateY(-3px);
+            box-shadow:0 6px 16px rgba(139,92,246,0.5);
+        }
+
             vertical-align:middle;
         }
         .sort-sel {
@@ -965,14 +1027,39 @@
             </table>
         </div>
         
-        <!-- 加载更多按钮 -->
-        {% if has_more %}
-        <div class="load-more-wrap">
-            <button class="load-more-btn" id="loadMoreBtn" onclick="loadMore()">
-                📥 加载更多（还剩 {{ total_stocks - (limit or 20) }} 只）
-            </button>
+        <!-- 翻页导航 -->
+        <div class="pagination-wrap">
+            <div class="pagination-info">
+                <span class="pagination-total">{{ total_stocks or 0 }} 只股票</span>
+            </div>
+            <div class="pagination-controls">
+                <button class="page-btn" id="firstBtn" onclick="goToPage(1)" title="首页">
+                    ««
+                </button>
+                <button class="page-btn" id="prevBtn" onclick="prevPage()" title="上一页">
+                    «
+                </button>
+                <div class="page-input-wrap">
+                    <input type="number" class="page-input" id="pageInput" 
+                           value="{{ (((offset or 0) // (limit or 20)) + 1) if (limit or 20) > 0 else 1 }}" 
+                           min="1" 
+                           max="{{ (((total_stocks or 0) // (limit or 20)) + 1) if (limit or 20) > 0 else 1 }}"
+                           onkeypress="if(event.key==='Enter')goToPage(this.value)">
+                    <span class="page-total">/ {{ (((total_stocks or 0) // (limit or 20)) + 1) if (limit or 20) > 0 else 1 }} 页</span>
+                </div>
+                <button class="page-btn" id="nextBtn" onclick="nextPage()" title="下一页">
+                    »
+                </button>
+                <button class="page-btn" id="lastBtn" onclick="goToPage('last')" title="末页">
+                    »»
+                </button>
+            </div>
         </div>
-        {% endif %}
+        
+        <!-- 返回顶部按钮 -->
+        <button class="back-to-top" id="backToTop" onclick="scrollToTop()">
+            ↑
+        </button>
     </div>
     
     <footer class="footer">CYBERRESEARCH © 2026 &nbsp;·&nbsp; AI-Powered Investment Research Platform</footer>
@@ -1137,108 +1224,76 @@
             fetchMarket(true);
         }
         
-        // ─── 加载更多 ───
-        let isLoadingMore = false;
+        // ─── 翻页功能 ───
+        let currentOffset = {{ offset if offset is not none else 0 }};
+        let currentLimit = {{ limit if limit is not none else 20 }};
+        let totalStocks = {{ total_stocks if total_stocks is not none else 0 }};
+        let currentPage = Math.floor(currentOffset / currentLimit) + 1;
+        let totalPages = Math.ceil(totalStocks / currentLimit);
         
-        function loadMore() {
-            if (isLoadingMore) return;
+        // 跳转到指定页
+        function goToPage(page) {
+            if (page === 'last') {
+                page = totalPages;
+            }
             
-            const btn = document.getElementById('loadMoreBtn');
-            if (!btn) return;
+            page = parseInt(page);
+            if (isNaN(page) || page < 1) page = 1;
+            if (page > totalPages) page = totalPages;
             
-            isLoadingMore = true;
-            btn.classList.add('loading');
-            btn.disabled = true;
+            const offset = (page - 1) * currentLimit;
+            window.location.href = `/?limit=${currentLimit}&offset=${offset}`;
+        }
+        
+        // 上一页
+        function prevPage() {
+            if (currentPage > 1) {
+                goToPage(currentPage - 1);
+            }
+        }
+        
+        // 下一页
+        function nextPage() {
+            if (currentPage < totalPages) {
+                goToPage(currentPage + 1);
+            }
+        }
+        
+        // 更新翻页按钮状态
+        function updatePaginationButtons() {
+            const prevBtn = document.getElementById('prevBtn');
+            const nextBtn = document.getElementById('nextBtn');
+            const firstBtn = document.getElementById('firstBtn');
+            const lastBtn = document.getElementById('lastBtn');
             
-            const offset = {{ next_offset }};
-            const limit = {{ limit or 20 }};
-            
-            fetch(`/?limit=${limit}&offset=${offset}`, {
-                headers: {
-                    'X-Requested-With': 'XMLHttpRequest'
-                }
-            })
-            .then(r => r.json())
-            .then(data => {
-                const tbody = document.getElementById('tbody');
-                const rows = data.stocks || [];
-                
-                rows.forEach(stock => {
-                    const tr = document.createElement('tr');
-                    tr.dataset.code = stock.code;
-                    tr.dataset.concepts = (stock.concepts || []).length;
-                    tr.dataset.mention = stock.mention_count || 0;
-                    tr.dataset.articles = (stock.articles || []).length;
-                    tr.dataset.name = stock.name;
-                    tr.dataset.latestDate = stock.latest_article_date || '';
-                    tr.dataset.chg = '0';
-                    tr.onclick = () => window.location = `/stock/${stock.code}`;
-                    
-                    const industry = stock.industry || stock.industries || '—';
-                    const concepts = stock.concepts || [];
-                    const mentionCount = stock.mention_count || 0;
-                    const articlesCount = (stock.articles || []).length;
-                    
-                    tr.innerHTML = `
-                        <td class="col-rank">${tbody.children.length + 1}</td>
-                        <td>
-                            <div class="col-name">${stock.name}</div>
-                            <div class="col-code">${stock.code}</div>
-                        </td>
-                        <td class="col-industry" style="color:var(--t2);font-size:.72rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">
-                            ${industry}
-                        </td>
-                        <td class="col-concepts">
-                            ${concepts.length > 0 ? `
-                            <div class="tags">
-                                ${concepts.slice(0, 3).map((c, i) => 
-                                    `<span class="tag t${i % 6}" onclick="event.stopPropagation();window.location='/concept/${encodeURIComponent(c)}'">${c}</span>`
-                                ).join('')}
-                                ${concepts.length > 3 ? `<span class="tag t5">+${concepts.length - 3}</span>` : ''}
-                            </div>` : ''}
-                        </td>
-                        <td class="num col-price" id="p-${stock.code}">
-                            <span class="loading-price">—</span>
-                        </td>
-                        <td class="num col-chg" id="c-${stock.code}">
-                            <span class="loading-price">—</span>
-                        </td>
-                        <td class="num col-cap" id="mc-${stock.code}">
-                            <span style="color:var(--t3)">—</span>
-                        </td>
-                        <td class="num col-mention">
-                            ${mentionCount > 0 ? `<span class="mention-b">🔥 ${mentionCount}</span>` : '<span style="color:var(--t3)">—</span>'}
-                        </td>
-                        <td class="num col-articles">
-                            ${articlesCount > 0 ? `<span class="art-b">📰 ${articlesCount}</span>` : '<span style="color:var(--t3)">—</span>'}
-                        </td>
-                    `;
-                    
-                    tbody.appendChild(tr);
-                });
-                
-                // 重新绑定行情获取
-                fetchMarket(false);
-                
-                // 更新或移除加载更多按钮
-                if (data.has_more) {
-                    const remaining = data.total - data.offset;
-                    btn.innerHTML = `📥 加载更多（还剩 ${remaining} 只）`;
-                    btn.classList.remove('loading');
-                    btn.disabled = false;
-                    isLoadingMore = false;
-                } else {
-                    btn.closest('.load-more-wrap').remove();
-                }
-            })
-            .catch(e => {
-                console.error('加载更多失败', e);
-                btn.classList.remove('loading');
-                btn.disabled = false;
-                isLoadingMore = false;
-                alert('加载更多失败，请刷新页面重试');
+            if (prevBtn) prevBtn.disabled = currentPage <= 1;
+            if (nextBtn) nextBtn.disabled = currentPage >= totalPages;
+            if (firstBtn) firstBtn.disabled = currentPage <= 1;
+            if (lastBtn) lastBtn.disabled = currentPage >= totalPages;
+        }
+        
+        // 页面加载时更新按钮状态
+        document.addEventListener('DOMContentLoaded', updatePaginationButtons);
+        
+        // 返回顶部
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
             });
         }
+        
+        // 滚动检测 - 显示/隐藏返回顶部按钮
+        window.addEventListener('scroll', () => {
+            const backToTop = document.getElementById('backToTop');
+            if (!backToTop) return;
+            
+            if (window.scrollY > 300) {
+                backToTop.classList.add('show');
+            } else {
+                backToTop.classList.remove('show');
+            }
+        });
         
         // ─── Search ───
         const si = document.getElementById('searchInput');
