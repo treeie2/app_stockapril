@@ -1225,9 +1225,9 @@
         }
         
         // ─── 翻页功能 ───
-        let currentOffset = {{ offset or 0 }};
-        let currentLimit = {{ limit or 20 }};
-        let totalStocks = {{ total_stocks }};
+        let currentOffset = {{ offset if offset is not none else 0 }};
+        let currentLimit = {{ limit if limit is not none else 20 }};
+        let totalStocks = {{ total_stocks if total_stocks is not none else 0 }};
         let currentPage = Math.floor(currentOffset / currentLimit) + 1;
         let totalPages = Math.ceil(totalStocks / currentLimit);
         

@@ -762,12 +762,13 @@ def dashboard():
     # 首次加载，渲染完整页面
     return render_template('dashboard.html',
         stocks=paginated_stocks,
-        total_stocks=len(paginated_stocks),
+        total_stocks=total,
         total_mentions=sum(s.get('mention_count', 0) for s in paginated_stocks),
         total_articles=len(articles),
         has_more=has_more,
         next_offset=offset + limit,
         limit=limit,
+        offset=offset,
         hot_topics=hot_topics)
 
 @app.route('/hot-topic/<topic_id>')
