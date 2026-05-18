@@ -4,23 +4,6 @@ __pycache__/
 *$py.class
 *.so
 .Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# Virtual Environment
 venv/
 ENV/
 env/
@@ -37,53 +20,26 @@ env/
 .DS_Store
 Thumbs.db
 
-# Logs
-*.log
-
-# Firebase credentials
-*.json.key
-firebase-credentials.json
-.trae/rules/firebase-credentials.json
-serviceAccountKey.json
-*.firebase*.json
-.trae/skills/add-hot-topic/
-
-# Browser cache and temporary files
-.browser_profile/
-*/.browser_profile/
-*.html
-tmp_*.txt
-*.txt
-!requirements.txt
-!README.txt
-
-# Playwright test files
-.playwright-cli/
-
-# Codebuddy agents
-.codebuddy/
-
-# Terminal temp files
-*shellIntegration.ps1*
-
-# GitHub tokens and sensitive files
-*token*
-*secret*
-push_*.py
-update_*.py
-force_*.py
-manual_push.md
-upload_data_to_github.py
-
-# Data files (optional - remove if you want to track them)
-# data/master/stocks/*.json
-
 # Temporary files
-tmp/
-temp/
+*.log
 *.tmp
+*.bak
+*.orig
 
-# Modelscope app
+# Test files
+check_*.py
+test_*.py
+verify_*.py
+*_test.py
+simulate_*.py
+compare_*.py
+merge_*.py
+fix_*.py
+prepare_*.py
+
+# Data files (temporary)
+raw_material_*.md
+stocks_master_*.json
+
+# Submodules
 modelscope-app/
-model_app_stock/
-.vercel
