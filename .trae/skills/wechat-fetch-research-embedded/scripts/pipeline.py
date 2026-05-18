@@ -302,6 +302,9 @@ Examples:
   
   # Legacy single-file mode (不使用分片)
   python scripts/pipeline.py --url "https://mp.weixin.qq.com/s/..." --no-shards --sync-github
+  
+  # 指定终端标识（用于区分不同终端处理的个股）
+  python scripts/pipeline.py --url "https://mp.weixin.qq.com/s/..." --terminal trae
         """
     )
     
@@ -315,6 +318,7 @@ Examples:
     parser.add_argument("--log-file", help="Log file path")
     parser.add_argument("--no-shards", action="store_true", 
                        help="Use legacy single-file mode instead of date-based shards")
+    parser.add_argument("--terminal", help="终端标识（用于区分不同终端处理的个股，如 trae、claude、qoder 等）")
     
     args = parser.parse_args()
     
@@ -328,7 +332,8 @@ Examples:
         sync_github=args.sync_github,
         headless=not args.no_headless,
         timeout=args.timeout,
-        use_shards=not args.no_shards
+        use_shards=not args.no_shards,
+        terminal=args.terminal
     )
     
     sys.exit(0 if result["success"] else 1)

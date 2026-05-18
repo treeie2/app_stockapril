@@ -1,270 +1,308 @@
 {
   "date": "2026-05-18",
-  "update_count": 5,
+  "update_count": 7,
   "stocks": {
-    "300161": {
-      "code": "300161",
-      "name": "华中数控",
-      "board": "SZ",
-      "industry": "机械设备 - 通用设备 - 机床工具",
-      "concepts": [
-        "数控系统",
-        "工业母机",
-        "国产替代",
-        "机器人"
-      ],
-      "products": [
-        "数控系统",
-        "机床"
-      ],
-      "core_business": [
-        "中高档数控系统研发生产",
-        "机床整机制造"
-      ],
-      "industry_position": [
-        "国产数控系统龙头",
-        "军工领域市占率超25%"
-      ],
-      "chain": [
-        "中游 - 数控系统"
-      ],
-      "partners": [],
+    "002915": {
+      "code": "002915",
+      "name": "中欣氟材",
       "mention_count": 1,
       "articles": [
         {
-          "title": "今天的一些信息整理5.18",
+          "source": "https://mp.weixin.qq.com/s/lxiAvx-L9pbt8fUPCasdBA",
+          "title": "PEEK材料概念股集体爆发！8大核心龙头全解析",
           "date": "2026-05-18",
-          "source": "https://mp.weixin.qq.com/s/0GZJaUj_rZ_FmDRJBpawkA",
           "accidents": [
-            "2026年4月起海外数控系统缺货且交期延长",
-            "国产替代窗口期强制打开",
-            "布局机器人控制系统"
+            "2025人形机器人量产元年，单台PEEK用量5-10kg",
+            "特斯拉Optimus/小鹏机器人加速落地",
+            "新能源汽车800V高压平台+航空航天轻量化+高端医疗器械需求爆发",
+            "规划产能扩至8000吨/年"
           ],
           "insights": [
-            "国产中高档数控系统绝对龙头",
-            "华中9型/10型智能数控系统技术领先",
-            "受益于人形机器人产业催化"
+            "全球PEEK市场2025年15亿→2030年21.4亿美元(CAGR 7.5%)",
+            "PEEK强度堪比金属、重量仅铝合金1/3，人形机器人黄金材料",
+            "5000吨/年DFBP产能,纯度99.999%",
+            "萤石→氢氟酸→氟酮全产业链,成本较海外低30%"
           ],
           "key_metrics": [
-            "军工领域市占率超25%",
-            "5月15日大涨12.09%",
-            "主力资金净流入超3500万元"
+            "2025中报净利润预增120-126%",
+            "单机价值量高达万元"
           ],
-          "target_valuation": []
+          "target_valuation": [],
+          "core_business": [
+            "DFBP(氟精细化学品)"
+          ],
+          "industry_position": [
+            "全球PEEK原料霸主",
+            "DFBP全球市占率超35%"
+          ],
+          "chain": [
+            "上游-PEEK原料"
+          ],
+          "partners": [
+            "特斯拉(机器人)"
+          ]
         }
       ],
       "last_updated": "2026-05-18"
     },
-    "688305": {
-      "code": "688305",
-      "name": "科德数控",
-      "board": "SH",
-      "industry": "机械设备 - 通用设备 - 机床工具",
-      "concepts": [
-        "五轴联动",
-        "自主可控",
-        "高端制造",
-        "工业母机"
-      ],
-      "products": [
-        "五轴数控机床",
-        "数控系统",
-        "关键功能部件"
-      ],
-      "core_business": [
-        "五轴数控机床研发生产",
-        "数控系统及功能部件"
-      ],
-      "industry_position": [
-        "国内极少数全产业链自主可控企业",
-        "技术壁垒极高"
-      ],
-      "chain": [
-        "中游 - 高端机床"
-      ],
-      "partners": [],
+    "688716": {
+      "code": "688716",
+      "name": "中研股份",
       "mention_count": 1,
       "articles": [
         {
-          "title": "今天的一些信息整理5.18",
+          "source": "https://mp.weixin.qq.com/s/lxiAvx-L9pbt8fUPCasdBA",
+          "title": "PEEK材料概念股集体爆发！8大核心龙头全解析",
           "date": "2026-05-18",
-          "source": "https://mp.weixin.qq.com/s/0GZJaUj_rZ_FmDRJBpawkA",
           "accidents": [
-            "2026年Q1净利润同比大增92%",
-            "毛利率超45%"
+            "2025人形机器人量产元年，单台PEEK用量5-10kg",
+            "特斯拉Optimus/小鹏机器人加速落地",
+            "新能源汽车800V高压平台+航空航天轻量化+高端医疗器械需求爆发",
+            "特斯拉Optimus关节轴承认证落地",
+            "募投扩产至5000吨/年"
           ],
           "insights": [
-            "自研GNC系列五轴系统达国际先进水平",
-            "打破国外高端五轴机床封锁",
-            "航空航天、军工领域不可替代"
+            "全球PEEK市场2025年15亿→2030年21.4亿美元(CAGR 7.5%)",
+            "PEEK强度堪比金属、重量仅铝合金1/3，人形机器人黄金材料",
+            "年产能3000吨,全球市占率超30%,超越威格斯",
+            "5000L反应釜核心技术,良率超95%,成本较海外低40%",
+            "医疗级PEEK获FDA认证"
           ],
           "key_metrics": [
-            "Q1净利润同比+92%",
-            "毛利率超45%"
+            "2025Q1净利润同比暴增6430%",
+            "工业级PEEK供货C919"
           ],
-          "target_valuation": []
+          "target_valuation": [],
+          "core_business": [
+            "PEEK树脂及改性材料"
+          ],
+          "industry_position": [
+            "国产PEEK树脂龙头",
+            "国内唯一千吨级量产企业"
+          ],
+          "chain": [
+            "上游-PEEK树脂"
+          ],
+          "partners": [
+            "C919",
+            "特斯拉(Optimus)"
+          ]
         }
       ],
       "last_updated": "2026-05-18"
     },
-    "688697": {
-      "code": "688697",
-      "name": "纽威数控",
-      "board": "SH",
-      "industry": "机械设备 - 通用设备 - 机床工具",
-      "concepts": [
-        "数控机床",
-        "高端制造",
-        "新能源汽车",
-        "工业母机"
-      ],
-      "products": [
-        "立式加工中心",
-        "卧式加工中心",
-        "龙门加工中心"
-      ],
-      "core_business": [
-        "中高端数控机床研发生产"
-      ],
-      "industry_position": [
-        "中高端数控机床整机领军者"
-      ],
-      "chain": [
-        "中游 - 机床整机"
-      ],
-      "partners": [
-        "特斯拉",
-        "比亚迪"
-      ],
+    "600143": {
+      "code": "600143",
+      "name": "金发科技",
       "mention_count": 1,
       "articles": [
         {
-          "title": "今天的一些信息整理5.18",
+          "source": "https://mp.weixin.qq.com/s/lxiAvx-L9pbt8fUPCasdBA",
+          "title": "PEEK材料概念股集体爆发！8大核心龙头全解析",
           "date": "2026-05-18",
-          "source": "https://mp.weixin.qq.com/s/0GZJaUj_rZ_FmDRJBpawkA",
           "accidents": [
-            "Q1新签合同同比大增65%",
-            "5月15日20CM涨停",
-            "主力资金净流入超1.08亿元"
+            "2025人形机器人量产元年，单台PEEK用量5-10kg",
+            "特斯拉Optimus/小鹏机器人加速落地",
+            "新能源汽车800V高压平台+航空航天轻量化+高端医疗器械需求爆发",
+            "重庆基地新增2000吨PEEK产能"
           ],
           "insights": [
-            "产品线覆盖全系列加工中心",
-            "直接受益于行业景气度回升",
-            "高端专用机床订单占比提升"
+            "全球PEEK市场2025年15亿→2030年21.4亿美元(CAGR 7.5%)",
+            "PEEK强度堪比金属、重量仅铝合金1/3，人形机器人黄金材料",
+            "年产能超300万吨,自主研发PEEK聚合及改性技术",
+            "机器人谐波减速器+新能源车传感器高端场景"
           ],
           "key_metrics": [
-            "Q1新签合同同比+65%",
-            "交付周期12-18个月",
-            "主力资金净流入超1.08亿元"
+            "中报净利润预增44-71%"
           ],
-          "target_valuation": []
+          "target_valuation": [],
+          "core_business": [
+            "改性PEEK",
+            "改性塑料"
+          ],
+          "industry_position": [
+            "国内最大改性塑料企业"
+          ],
+          "chain": [
+            "中游-改性塑料"
+          ],
+          "partners": [
+            "宁德时代",
+            "松下"
+          ]
         }
       ],
       "last_updated": "2026-05-18"
     },
-    "300124": {
-      "code": "300124",
-      "name": "汇川技术",
-      "board": "SZ",
-      "industry": "电气设备 - 自动化设备 - 工控设备",
-      "concepts": [
-        "伺服系统",
-        "PLC",
-        "工业自动化",
-        "工业母机"
-      ],
-      "products": [
-        "伺服系统",
-        "PLC",
-        "变频器"
-      ],
-      "core_business": [
-        "工业自动化产品研发生产",
-        "伺服驱动系统"
-      ],
-      "industry_position": [
-        "国内伺服系统市占率居首",
-        "工业母机ETF重仓股"
-      ],
-      "chain": [
-        "上游 - 工控部件"
-      ],
-      "partners": [],
+    "002886": {
+      "code": "002886",
+      "name": "沃特股份",
       "mention_count": 1,
       "articles": [
         {
-          "title": "今天的一些信息整理5.18",
+          "source": "https://mp.weixin.qq.com/s/lxiAvx-L9pbt8fUPCasdBA",
+          "title": "PEEK材料概念股集体爆发！8大核心龙头全解析",
           "date": "2026-05-18",
-          "source": "https://mp.weixin.qq.com/s/0GZJaUj_rZ_FmDRJBpawkA",
           "accidents": [
-            "通用自动化复苏",
-            "5月15日主力资金净流入超2.55亿元"
+            "2025人形机器人量产元年，单台PEEK用量5-10kg",
+            "特斯拉Optimus/小鹏机器人加速落地",
+            "新能源汽车800V高压平台+航空航天轻量化+高端医疗器械需求爆发",
+            "重庆基地2000吨产能投产",
+            "碳纤维增强PEEK通过比亚迪/优必选认证"
           ],
           "insights": [
-            "伺服系统、PLC是数控机床核心驱动部件",
-            "大市值高流动性",
-            "业绩确定性最强的基本面龙头"
+            "全球PEEK市场2025年15亿→2030年21.4亿美元(CAGR 7.5%)",
+            "PEEK强度堪比金属、重量仅铝合金1/3，人形机器人黄金材料",
+            "国内少数实现DFBP→PEEK树脂→改性全产业链",
+            "3D打印PEEK获空客认证"
           ],
           "key_metrics": [
-            "5月15日主力资金净流入超2.55亿元",
-            "机构配置比例高"
+            "净利润预增374-552%"
           ],
-          "target_valuation": []
+          "target_valuation": [],
+          "core_business": [
+            "LCP/PEEK一体化材料"
+          ],
+          "industry_position": [
+            "全产业链垂直整合企业"
+          ],
+          "chain": [
+            "上游-原材料,中游-改性"
+          ],
+          "partners": [
+            "空客",
+            "比亚迪",
+            "优必选",
+            "特斯拉(Optimus)"
+          ]
+        }
+      ]
+    },
+    "301076": {
+      "code": "301076",
+      "name": "新瀚新材",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/lxiAvx-L9pbt8fUPCasdBA",
+          "title": "PEEK材料概念股集体爆发！8大核心龙头全解析",
+          "date": "2026-05-18",
+          "accidents": [
+            "2025人形机器人量产元年，单台PEEK用量5-10kg",
+            "特斯拉Optimus/小鹏机器人加速落地",
+            "新能源汽车800V高压平台+航空航天轻量化+高端医疗器械需求爆发",
+            "启动PEEK树脂中试",
+            "CF/PEEK预浸料进入特斯拉送样"
+          ],
+          "insights": [
+            "全球PEEK市场2025年15亿→2030年21.4亿美元(CAGR 7.5%)",
+            "PEEK强度堪比金属、重量仅铝合金1/3，人形机器人黄金材料",
+            "年产能2500吨DFBP,全球市占率35%",
+            "电子级纯度99.99%,毛利率42%"
+          ],
+          "key_metrics": [
+            "毛利率42%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "DFBP(芳香族酮类)"
+          ],
+          "industry_position": [
+            "全球第二大DFBP供应商",
+            "高端氟酮隐形冠军"
+          ],
+          "chain": [
+            "上游-PEEK原料"
+          ],
+          "partners": [
+            "威格斯",
+            "索尔维",
+            "小鹏机器人"
+          ]
         }
       ],
       "last_updated": "2026-05-18"
     },
-    "000837": {
-      "code": "000837",
-      "name": "秦川机床",
-      "board": "SZ",
-      "industry": "机械设备 - 通用设备 - 机床工具",
-      "concepts": [
-        "滚珠丝杠",
-        "齿轮",
-        "工业母机",
-        "人形机器人"
-      ],
-      "products": [
-        "齿轮加工机床",
-        "精密磨床",
-        "滚珠丝杠"
-      ],
-      "core_business": [
-        "齿轮加工机床研发生产",
-        "精密丝杠制造"
-      ],
-      "industry_position": [
-        "国内丝杠龙头",
-        "螺纹磨床市占率60%-80%"
-      ],
-      "chain": [
-        "上游 - 机床核心部件"
-      ],
-      "partners": [
-        "特斯拉"
-      ],
+    "301005": {
+      "code": "301005",
+      "name": "超捷股份",
       "mention_count": 1,
       "articles": [
         {
-          "title": "今天的一些信息整理5.18",
+          "source": "https://mp.weixin.qq.com/s/lxiAvx-L9pbt8fUPCasdBA",
+          "title": "PEEK材料概念股集体爆发！8大核心龙头全解析",
           "date": "2026-05-18",
-          "source": "https://mp.weixin.qq.com/s/0GZJaUj_rZ_FmDRJBpawkA",
           "accidents": [
-            "人形机器人量产元年带来丝杠需求爆发",
-            "高端丝杠订单同比增长80%"
+            "2025人形机器人量产元年，单台PEEK用量5-10kg",
+            "特斯拉Optimus/小鹏机器人加速落地",
+            "新能源汽车800V高压平台+航空航天轻量化+高端医疗器械需求爆发",
+            "获智元机器人订单",
+            "今日封涨停板"
           ],
           "insights": [
-            "汉江机床是国内丝杠龙头",
-            "P2/P0级滚珠丝杠是高端机床和人形机器人关键部件",
-            "工业母机+机器人双重概念"
+            "全球PEEK市场2025年15亿→2030年21.4亿美元(CAGR 7.5%)",
+            "PEEK强度堪比金属、重量仅铝合金1/3，人形机器人黄金材料",
+            "汽车轻量化积累→机器人关节连接件延伸"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "精密紧固件(PEEK材质)"
+          ],
+          "industry_position": [
+            "精密紧固件新锐"
+          ],
+          "chain": [
+            "下游-精密零部件"
+          ],
+          "partners": [
+            "智元机器人",
+            "博世",
+            "麦格纳"
+          ]
+        }
+      ],
+      "last_updated": "2026-05-18"
+    },
+    "301000": {
+      "code": "301000",
+      "name": "肇民科技",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/lxiAvx-L9pbt8fUPCasdBA",
+          "title": "PEEK材料概念股集体爆发！8大核心龙头全解析",
+          "date": "2026-05-18",
+          "accidents": [
+            "2025人形机器人量产元年，单台PEEK用量5-10kg",
+            "特斯拉Optimus/小鹏机器人加速落地",
+            "新能源汽车800V高压平台+航空航天轻量化+高端医疗器械需求爆发",
+            "湖南基地投产全球首条PEEK专线"
+          ],
+          "insights": [
+            "全球PEEK市场2025年15亿→2030年21.4亿美元(CAGR 7.5%)",
+            "PEEK强度堪比金属、重量仅铝合金1/3，人形机器人黄金材料",
+            "人形机器人齿轮/轴承单价600元/件",
+            "行星滚柱丝杠精密加工技术"
           ],
           "key_metrics": [
-            "螺纹磨床市占率60%-80%",
-            "高端丝杠价格仅为进口一半",
-            "订单同比增长80%"
+            "2025Q1营收同比+20.2%"
           ],
-          "target_valuation": []
+          "target_valuation": [],
+          "core_business": [
+            "PEEK精密零部件"
+          ],
+          "industry_position": [
+            "A股唯一宇树科技PEEK供应商",
+            "特斯拉供应链核心"
+          ],
+          "chain": [
+            "下游-精密零部件"
+          ],
+          "partners": [
+            "宇树科技",
+            "特斯拉"
+          ]
         }
       ],
       "last_updated": "2026-05-18"

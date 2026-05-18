@@ -53,13 +53,14 @@ def task_postrun_handler(task_id, task, args, kwargs, retval, state, **extras):
 
 
 @app.task(bind=True, max_retries=3)
-def process_article(self, url: str, sync_firestore: bool = False, sync_github: bool = False):
+def process_article(self, url: str, sync_firestore: bool = False, sync_github: bool = False, terminal: str = None):
     """Process a single WeChat article.
     
     Args:
         url: WeChat article URL
         sync_firestore: Whether to sync to Firestore
         sync_github: Whether to sync to GitHub
+        terminal: Terminal identifier for tracking source of updates
     
     Returns:
         Result dictionary
@@ -78,7 +79,8 @@ def process_article(self, url: str, sync_firestore: bool = False, sync_github: b
             sync_firestore=sync_firestore,
             sync_github=sync_github,
             headless=True,  # Always headless in Celery
-            timeout=300
+            timeout=300,
+            terminal=terminal
         )
         
         if not result["success"]:
