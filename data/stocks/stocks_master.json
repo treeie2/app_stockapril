@@ -1410,10 +1410,19 @@
         "深股通"
       ],
       "board": "SZ",
-      "products": [],
-      "core_business": [],
-      "industry_position": [],
-      "chain": [],
+      "products": [
+        "数控系统"
+      ],
+      "core_business": [
+        "中高档数控系统研发制造"
+      ],
+      "industry_position": [
+        "国内中高档数控系统绝对龙头",
+        "军工领域市占率超25%"
+      ],
+      "chain": [
+        "中游 - 数控系统"
+      ],
       "partners": []
     },
     "688305": {
@@ -1475,10 +1484,19 @@
         "融资融券"
       ],
       "board": "SH",
-      "products": [],
-      "core_business": [],
-      "industry_position": [],
-      "chain": [],
+      "products": [
+        "五轴联动数控机床",
+        "GNC系列数控系统"
+      ],
+      "core_business": [
+        "数控系统+关键功能部件+整机全产业链"
+      ],
+      "industry_position": [
+        "国内少数实现全产业链自主可控的五轴联动企业"
+      ],
+      "chain": [
+        "全产业链 - 数控系统到整机"
+      ],
       "partners": []
     },
     "688697": {
@@ -1535,10 +1553,20 @@
         "沪股通"
       ],
       "board": "SH",
-      "products": [],
-      "core_business": [],
-      "industry_position": [],
-      "chain": [],
+      "products": [
+        "立式加工中心",
+        "卧式加工中心",
+        "龙门加工中心"
+      ],
+      "core_business": [
+        "中高端数控机床整机研发制造"
+      ],
+      "industry_position": [
+        "中高端数控机床整机领军者"
+      ],
+      "chain": [
+        "中游 - 数控机床整机"
+      ],
       "partners": []
     },
     "300124": {
@@ -1603,10 +1631,19 @@
         "融资融券"
       ],
       "board": "SZ",
-      "products": [],
-      "core_business": [],
-      "industry_position": [],
-      "chain": [],
+      "products": [
+        "伺服系统",
+        "PLC"
+      ],
+      "core_business": [
+        "工业自动化及伺服系统"
+      ],
+      "industry_position": [
+        "国内工控市占率居首"
+      ],
+      "chain": [
+        "中游 - 核心驱动部件"
+      ],
       "partners": []
     },
     "000837": {
@@ -1669,10 +1706,23 @@
         "融资融券"
       ],
       "board": "SZ",
-      "products": [],
-      "core_business": [],
-      "industry_position": [],
-      "chain": [],
+      "products": [
+        "齿轮加工机床",
+        "精密磨床",
+        "滚珠丝杠",
+        "行星滚柱丝杠"
+      ],
+      "core_business": [
+        "齿轮加工机床和精密磨床龙头",
+        "精密丝杠制造"
+      ],
+      "industry_position": [
+        "国内齿轮加工机床和精密磨床龙头",
+        "汉江机床螺纹磨床市占率60%-80%"
+      ],
+      "chain": [
+        "中游 - 核心功能部件"
+      ],
       "partners": []
     },
     "002915": {
@@ -1729,10 +1779,20 @@
         "融资融券"
       ],
       "board": "SZ",
-      "products": [],
-      "core_business": [],
-      "industry_position": [],
-      "chain": [],
+      "products": [
+        "电子级氢氟酸",
+        "PEEK新材料",
+        "氟精细化学品"
+      ],
+      "core_business": [
+        "全产业链氟化工"
+      ],
+      "industry_position": [
+        "全产业链氟化工龙头"
+      ],
+      "chain": [
+        "上游 - 萤石矿到高端材料全链条"
+      ],
       "partners": []
     },
     "688716": {
@@ -2132,7 +2192,9 @@
         "服务器整机及AI服务器",
         "服务器电源研发与制造"
       ],
-      "industry_position": [],
+      "industry_position": [
+        "服务器电源国内第一国际前三"
+      ],
       "chain": [
         "上游 - CPU设计（通过参股）",
         "中游 - 服务器整机制造",
@@ -2206,7 +2268,9 @@
         "氨纶纤维的研发、生产与销售",
         "高性能芳纶纤维及纸的研发、生产与销售"
       ],
-      "industry_position": [],
+      "industry_position": [
+        "民士达(持股66%)国内芳纶纸市占率超一半"
+      ],
       "chain": [
         "中游 - 特种纤维制造"
       ],
@@ -2306,5 +2370,5 @@
       "last_updated": "2026-04-21"
     }
   },
-  "last_updated": "2026-05-18T16:20:00+08:00"
+  "last_updated": "2026-05-18T16:30:00+08:00"
 }
