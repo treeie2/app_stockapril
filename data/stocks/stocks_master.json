@@ -503,7 +503,10 @@
         "同花顺漂亮100"
       ],
       "products": [],
-      "core_business": [],
+      "core_business": [
+        "半导体设备研发生产",
+        "刻蚀/薄膜/清洗设备"
+      ],
       "industry_position": [],
       "chain": [],
       "partners": [],
@@ -542,7 +545,10 @@
         "融资融券"
       ],
       "products": [],
-      "core_business": [],
+      "core_business": [
+        "半导体等离子体刻蚀设备",
+        "MOCVD设备研发生产"
+      ],
       "industry_position": [],
       "chain": [],
       "partners": [],
@@ -595,7 +601,10 @@
         "融资融券"
       ],
       "products": [],
-      "core_business": [],
+      "core_business": [
+        "集成电路封测服务",
+        "先进封装技术开发"
+      ],
       "industry_position": [],
       "chain": [],
       "partners": [],
@@ -646,7 +655,10 @@
         "股权转让(并购重组)"
       ],
       "products": [],
-      "core_business": [],
+      "core_business": [
+        "集成电路封装测试",
+        "系统级封装(SiP)解决方案"
+      ],
       "industry_position": [],
       "chain": [],
       "partners": [],
@@ -685,7 +697,10 @@
         "融资融券"
       ],
       "products": [],
-      "core_business": [],
+      "core_business": [
+        "电子陶瓷元件研发生产",
+        "MLCC/陶瓷基板制造"
+      ],
       "industry_position": [],
       "chain": [],
       "partners": [],
@@ -723,7 +738,10 @@
         "融资融券"
       ],
       "products": [],
-      "core_business": [],
+      "core_business": [
+        "光模块研发制造",
+        "高速光通信解决方案"
+      ],
       "industry_position": [],
       "chain": [],
       "partners": [],
@@ -820,7 +838,10 @@
       ],
       "board": "SH",
       "products": [],
-      "core_business": [],
+      "core_business": [
+        "物联网无线通信模组",
+        "车联网通信终端"
+      ],
       "industry_position": [],
       "chain": [],
       "partners": []
@@ -883,7 +904,10 @@
       ],
       "board": "SH",
       "products": [],
-      "core_business": [],
+      "core_business": [
+        "工业冷却塔研发制造",
+        "节能环保冷却系统"
+      ],
       "industry_position": [],
       "chain": [],
       "partners": []
@@ -980,7 +1004,10 @@
       ],
       "board": "SZ",
       "products": [],
-      "core_business": [],
+      "core_business": [
+        "消费电子玻璃盖板",
+        "智能终端结构件及模组"
+      ],
       "industry_position": [],
       "chain": [],
       "partners": []
@@ -1050,7 +1077,10 @@
       ],
       "board": "SH",
       "products": [],
-      "core_business": [],
+      "core_business": [
+        "覆铜板(CCL)研发生产",
+        "高频高速CCL材料"
+      ],
       "industry_position": [],
       "chain": [],
       "partners": []
@@ -1119,7 +1149,10 @@
       ],
       "board": "SH",
       "products": [],
-      "core_business": [],
+      "core_business": [
+        "覆铜板(CCL)研发生产",
+        "PCB基材与粘结片"
+      ],
       "industry_position": [],
       "chain": [],
       "partners": []
@@ -1181,7 +1214,10 @@
       ],
       "board": "SH",
       "products": [],
-      "core_business": [],
+      "core_business": [
+        "高频高速覆铜板",
+        "IC载板材料"
+      ],
       "industry_position": [],
       "chain": [],
       "partners": []
@@ -1259,7 +1295,10 @@
       ],
       "board": "SZ",
       "products": [],
-      "core_business": [],
+      "core_business": [
+        "军工电子装备",
+        "军民两用嵌入式系统"
+      ],
       "industry_position": [],
       "chain": [],
       "partners": []
@@ -1349,7 +1388,10 @@
       ],
       "board": "SZ",
       "products": [],
-      "core_business": [],
+      "core_business": [
+        "精密光学薄膜元件",
+        "AR/VR光学模组"
+      ],
       "industry_position": [],
       "chain": [],
       "partners": []
@@ -1856,7 +1898,10 @@
       ],
       "board": "SH",
       "products": [],
-      "core_business": [],
+      "core_business": [
+        "聚醚醚酮(PEEK)树脂",
+        "特种工程塑料研发生产"
+      ],
       "industry_position": [],
       "chain": [],
       "partners": []
@@ -1934,7 +1979,10 @@
       ],
       "board": "SH",
       "products": [],
-      "core_business": [],
+      "core_business": [
+        "改性塑料研发生产",
+        "化工新材料平台"
+      ],
       "industry_position": [],
       "chain": [],
       "partners": []
@@ -1992,7 +2040,10 @@
       ],
       "board": "SZ",
       "products": [],
-      "core_business": [],
+      "core_business": [
+        "特种工程塑料单体系列",
+        "PEEK/PAEK上游原料"
+      ],
       "industry_position": [],
       "chain": [],
       "partners": []
@@ -2068,7 +2119,10 @@
       ],
       "board": "SZ",
       "products": [],
-      "core_business": [],
+      "core_business": [
+        "精密金属连接件",
+        "汽车/通信紧固件"
+      ],
       "industry_position": [],
       "chain": [],
       "partners": []
@@ -2129,7 +2183,10 @@
       ],
       "board": "SZ",
       "products": [],
-      "core_business": [],
+      "core_business": [
+        "精密注塑模具",
+        "汽车/医疗精密零部件"
+      ],
       "industry_position": [],
       "chain": [],
       "partners": []
