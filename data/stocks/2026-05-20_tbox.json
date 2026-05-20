@@ -1,0 +1,507 @@
+{
+  "stocks": {
+    "688135": {
+      "code": "688135",
+      "name": "利扬芯片",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/1rcJldV7tkIRSUGnc-NgQA",
+          "title": "阿里平头哥芯片概念股梳理",
+          "date": "2026-05-20",
+          "hot_topic": "平头哥芯片",
+          "accidents": [
+            "为含光800、倚天710提供全流程测试，覆盖先进制程"
+          ],
+          "insights": [
+            "平头哥芯片量产重要合作伙伴"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "AI芯片测试服务"
+          ],
+          "industry_position": [
+            "平头哥AI芯片核心测试服务商"
+          ],
+          "chain": [
+            "下游-芯片测试"
+          ],
+          "partners": [
+            "平头哥(阿里)"
+          ],
+          "processed_by": "tbox",
+          "processed_at": "2026-05-20T11:46:50.489818+08:00"
+        }
+      ],
+      "last_updated": "2026-05-20",
+      "processed_by": "tbox",
+      "processed_at": "2026-05-20T11:49:11.686425+08:00"
+    },
+    "603986": {
+      "code": "603986",
+      "name": "兆易创新",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/1rcJldV7tkIRSUGnc-NgQA",
+          "title": "阿里平头哥芯片概念股梳理",
+          "date": "2026-05-20",
+          "hot_topic": "平头哥芯片",
+          "accidents": [
+            "基于平头哥玄铁E903推出GD32VF103"
+          ],
+          "insights": [
+            "RISC-V架构通用MCU规模化量产先驱"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "MCU(RISC-V架构)"
+          ],
+          "industry_position": [
+            "全球首款量产RISC-V MCU"
+          ],
+          "chain": [
+            "上游-芯片设计"
+          ],
+          "partners": [
+            "平头哥(阿里)"
+          ],
+          "processed_by": "tbox",
+          "processed_at": "2026-05-20T11:46:50.489836+08:00"
+        }
+      ],
+      "last_updated": "2026-05-20",
+      "processed_by": "tbox",
+      "processed_at": "2026-05-20T11:49:11.686436+08:00"
+    },
+    "300324": {
+      "code": "300324",
+      "name": "旋极信息",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/1rcJldV7tkIRSUGnc-NgQA",
+          "title": "阿里平头哥芯片概念股梳理",
+          "date": "2026-05-20",
+          "hot_topic": "平头哥芯片",
+          "accidents": [
+            "与平头哥合作推出低功耗物联网SOC平台",
+            "计划三年销售5000万颗"
+          ],
+          "insights": [
+            "玄铁C930独家代理"
+          ],
+          "key_metrics": [
+            "计划三年销售5000万颗"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "物联网SOC平台"
+          ],
+          "industry_position": [
+            "玄铁C930芯片独家代理商"
+          ],
+          "chain": [
+            "下游-芯片代理"
+          ],
+          "partners": [
+            "平头哥(阿里)"
+          ],
+          "processed_by": "tbox",
+          "processed_at": "2026-05-20T11:46:50.489848+08:00"
+        }
+      ],
+      "last_updated": "2026-05-20",
+      "processed_by": "tbox",
+      "processed_at": "2026-05-20T11:49:11.686439+08:00"
+    },
+    "688343": {
+      "code": "688343",
+      "name": "云天励飞",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/1rcJldV7tkIRSUGnc-NgQA",
+          "title": "阿里平头哥芯片概念股梳理",
+          "date": "2026-05-20",
+          "hot_topic": "平头哥芯片",
+          "accidents": [
+            "与平头哥共同研发DeepEye1000，融合玄铁810与神经网络设计"
+          ],
+          "insights": [
+            "面向视觉应用的神经网络推理加速"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "AI芯片(视觉推理)"
+          ],
+          "industry_position": [
+            "视觉AI芯片设计企业"
+          ],
+          "chain": [
+            "上游-芯片设计"
+          ],
+          "partners": [
+            "平头哥(阿里)"
+          ],
+          "processed_by": "tbox",
+          "processed_at": "2026-05-20T11:46:50.489855+08:00"
+        }
+      ],
+      "last_updated": "2026-05-20",
+      "processed_by": "tbox",
+      "processed_at": "2026-05-20T11:49:11.686441+08:00"
+    },
+    "300077": {
+      "code": "300077",
+      "name": "国民技术",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/1rcJldV7tkIRSUGnc-NgQA",
+          "title": "阿里平头哥芯片概念股梳理",
+          "date": "2026-05-20",
+          "hot_topic": "平头哥芯片",
+          "accidents": [
+            "与中天微合作开发物联网芯片方案",
+            "部分安全芯片采用玄铁处理器IP"
+          ],
+          "insights": [
+            "参与RISC-V生态建设"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "物联网安全芯片"
+          ],
+          "industry_position": [
+            "RISC-V生态建设者"
+          ],
+          "chain": [
+            "上游-芯片设计"
+          ],
+          "partners": [
+            "平头哥(阿里)"
+          ],
+          "processed_by": "tbox",
+          "processed_at": "2026-05-20T11:46:50.489861+08:00"
+        }
+      ],
+      "last_updated": "2026-05-20",
+      "processed_by": "tbox",
+      "processed_at": "2026-05-20T11:49:11.686443+08:00"
+    },
+    "603421": {
+      "code": "603421",
+      "name": "鼎信通讯",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/1rcJldV7tkIRSUGnc-NgQA",
+          "title": "阿里平头哥芯片概念股梳理",
+          "date": "2026-05-20",
+          "hot_topic": "平头哥芯片",
+          "accidents": [
+            "与中天微签署长期无限次CPU授权许可"
+          ],
+          "insights": [
+            "深度战略合作关系"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "电力载波芯片"
+          ],
+          "industry_position": [
+            "平头哥CPU深度授权合作"
+          ],
+          "chain": [
+            "上游-芯片设计"
+          ],
+          "partners": [
+            "平头哥(阿里)"
+          ],
+          "processed_by": "tbox",
+          "processed_at": "2026-05-20T11:46:50.489866+08:00"
+        }
+      ],
+      "last_updated": "2026-05-20",
+      "processed_by": "tbox",
+      "processed_at": "2026-05-20T11:49:11.686444+08:00"
+    },
+    "688259": {
+      "code": "688259",
+      "name": "创耀科技",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/1rcJldV7tkIRSUGnc-NgQA",
+          "title": "阿里平头哥芯片概念股梳理",
+          "date": "2026-05-20",
+          "hot_topic": "平头哥芯片",
+          "accidents": [
+            "参与平头哥芯片相关业务"
+          ],
+          "insights": [
+            "平头哥芯片设计服务合作伙伴"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "芯片设计服务"
+          ],
+          "industry_position": [
+            "平头哥客户"
+          ],
+          "chain": [
+            "上游-芯片设计"
+          ],
+          "partners": [
+            "平头哥(阿里)"
+          ],
+          "processed_by": "tbox",
+          "processed_at": "2026-05-20T11:46:50.489871+08:00"
+        }
+      ],
+      "last_updated": "2026-05-20",
+      "processed_by": "tbox",
+      "processed_at": "2026-05-20T11:49:11.686446+08:00"
+    },
+    "300302": {
+      "code": "300302",
+      "name": "同有科技",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/1rcJldV7tkIRSUGnc-NgQA",
+          "title": "阿里平头哥芯片概念股梳理",
+          "date": "2026-05-20",
+          "hot_topic": "平头哥芯片",
+          "accidents": [
+            "基于镇岳510芯片打造企业级SSD，已在阿里云EBS规模化上线"
+          ],
+          "insights": [
+            "阿里云存储生态核心部件"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "企业级SSD"
+          ],
+          "industry_position": [
+            "基于镇岳510打造SSD"
+          ],
+          "chain": [
+            "下游-存储"
+          ],
+          "partners": [
+            "平头哥(阿里)"
+          ],
+          "processed_by": "tbox",
+          "processed_at": "2026-05-20T11:46:50.489875+08:00"
+        }
+      ],
+      "last_updated": "2026-05-20",
+      "processed_by": "tbox",
+      "processed_at": "2026-05-20T11:49:11.686449+08:00"
+    },
+    "300183": {
+      "code": "300183",
+      "name": "东软载波",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/1rcJldV7tkIRSUGnc-NgQA",
+          "title": "阿里平头哥芯片概念股梳理",
+          "date": "2026-05-20",
+          "hot_topic": "平头哥芯片",
+          "accidents": [
+            "提供RISC-V架构32位MCU产品"
+          ],
+          "insights": [
+            "与平头哥在芯片设计领域合作"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "MCU(RISC-V)"
+          ],
+          "industry_position": [
+            "RISC-V MCU供应商"
+          ],
+          "chain": [
+            "上游-芯片设计"
+          ],
+          "partners": [
+            "平头哥(阿里)"
+          ],
+          "processed_by": "tbox",
+          "processed_at": "2026-05-20T11:46:50.489881+08:00"
+        }
+      ],
+      "last_updated": "2026-05-20",
+      "processed_by": "tbox",
+      "processed_at": "2026-05-20T11:49:11.686450+08:00"
+    },
+    "688525": {
+      "code": "688525",
+      "name": "佰维存储",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/1rcJldV7tkIRSUGnc-NgQA",
+          "title": "阿里平头哥芯片概念股梳理",
+          "date": "2026-05-20",
+          "hot_topic": "平头哥芯片",
+          "accidents": [
+            "与平头哥合作开发基于镇岳510的SSD，预计2025年内面世"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "SSD产品"
+          ],
+          "industry_position": [
+            "平头哥存储生态伙伴"
+          ],
+          "chain": [
+            "下游-存储"
+          ],
+          "partners": [
+            "平头哥(阿里)"
+          ],
+          "processed_by": "tbox",
+          "processed_at": "2026-05-20T11:46:50.489885+08:00"
+        }
+      ],
+      "last_updated": "2026-05-20",
+      "processed_by": "tbox",
+      "processed_at": "2026-05-20T11:49:11.686452+08:00"
+    },
+    "002180": {
+      "code": "002180",
+      "name": "纳思达",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/1rcJldV7tkIRSUGnc-NgQA",
+          "title": "阿里平头哥芯片概念股梳理",
+          "date": "2026-05-20",
+          "hot_topic": "平头哥芯片",
+          "accidents": [
+            "与平头哥合作开发芯片产品"
+          ],
+          "insights": [
+            "玄铁系列CPU最大客户"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "打印机SoC芯片"
+          ],
+          "industry_position": [
+            "玄铁系列CPU最大客户"
+          ],
+          "chain": [
+            "上游-芯片设计"
+          ],
+          "partners": [
+            "平头哥(阿里)"
+          ],
+          "processed_by": "tbox",
+          "processed_at": "2026-05-20T11:46:50.489896+08:00"
+        }
+      ],
+      "last_updated": "2026-05-20",
+      "processed_by": "tbox",
+      "processed_at": "2026-05-20T11:49:11.686455+08:00"
+    },
+    "300458": {
+      "code": "300458",
+      "name": "全志科技",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/1rcJldV7tkIRSUGnc-NgQA",
+          "title": "阿里平头哥芯片概念股梳理",
+          "date": "2026-05-20",
+          "hot_topic": "平头哥芯片",
+          "accidents": [
+            "联合开发全球首款量产RISC-V芯片D1",
+            "应用于智能家居、车载等领域"
+          ],
+          "insights": [
+            "首批玄铁优选伙伴"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "RISC-V架构芯片D1"
+          ],
+          "industry_position": [
+            "平头哥玄铁优选伙伴",
+            "全球首款量产RISC-V芯片"
+          ],
+          "chain": [
+            "上游-芯片设计"
+          ],
+          "partners": [
+            "平头哥(阿里)"
+          ],
+          "processed_by": "tbox",
+          "processed_at": "2026-05-20T11:46:50.489900+08:00"
+        }
+      ],
+      "last_updated": "2026-05-20",
+      "processed_by": "tbox",
+      "processed_at": "2026-05-20T11:49:11.686457+08:00"
+    },
+    "600584": {
+      "code": "600584",
+      "name": "长电科技",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/1rcJldV7tkIRSUGnc-NgQA",
+          "title": "阿里平头哥芯片概念股梳理",
+          "date": "2026-05-20",
+          "hot_topic": "平头哥芯片",
+          "accidents": [
+            "承担平头哥超70%的RISC-V芯片封测订单"
+          ],
+          "insights": [
+            "独家封测服务商"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "芯片封测"
+          ],
+          "industry_position": [
+            "平头哥独家封测服务商"
+          ],
+          "chain": [
+            "中游-封测"
+          ],
+          "partners": [
+            "平头哥(阿里)"
+          ],
+          "processed_by": "tbox",
+          "processed_at": "2026-05-20T11:46:50.489906+08:00"
+        }
+      ],
+      "last_updated": "2026-05-20",
+      "processed_by": "tbox",
+      "processed_at": "2026-05-20T11:49:11.686459+08:00"
+    }
+  },
+  "date": "2026-05-20",
+  "last_updated": "2026-05-20T11:49:11.686460+08:00",
+  "processed_by": "tbox",
+  "processed_at": "2026-05-20T11:49:11.686462+08:00",
+  "update_count": 13
+}
