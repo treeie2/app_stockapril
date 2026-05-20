@@ -2839,8 +2839,8 @@
       ]
     },
     "688519": {
-      "mention_count": 2,
-      "last_updated": "2026-05-17",
+      "mention_count": 1,
+      "last_updated": "2026-05-19",
       "partners": [],
       "name": "南亚新材",
       "industry_position": [],
@@ -2877,6 +2877,36 @@
           "core_business": [
             "覆铜板",
             "ABF材料（参股兴南创芯）"
+          ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/CFt7jVFZlBidyq2Iv6UUXw",
+          "title": "0519信息整理",
+          "date": "2026-05-19",
+          "accidents": [
+            "M8材料有望Q3在英伟达Rubin产品中放量"
+          ],
+          "insights": [
+            "AI树脂需求好/新边际/有空间",
+            "M8/M9材料下半年需求显著增长"
+          ],
+          "key_metrics": [
+            ""
+          ],
+          "target_valuation": [
+            "目标市值700亿"
+          ],
+          "core_business": [
+            "M10/M8覆铜板材料"
+          ],
+          "industry_position": [
+            "M10材料卡位优势显著"
+          ],
+          "chain": [
+            "上游-覆铜板材料"
+          ],
+          "partners": [
+            "英伟达"
           ]
         }
       ],
@@ -10753,7 +10783,7 @@
       "core_business": [
         "压缩机制造"
       ],
-      "last_updated": "",
+      "last_updated": "2026-05-19",
       "industry_position": [
         "大型工商压缩机市占率第一"
       ],
@@ -10795,13 +10825,46 @@
         "深股通"
       ],
       "code": "000811",
-      "mention_count": 2,
+      "mention_count": 1,
       "partners": [],
       "articles": [
         {
           "date": "2025-11-08",
           "title": "风口byTY",
           "source": "https://mp.weixin.qq.com/s/CxxsTbyOmAwloHzAKdnAhw"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/CFt7jVFZlBidyq2Iv6UUXw",
+          "title": "0519信息整理",
+          "date": "2026-05-19",
+          "accidents": [
+            "正与北美头部EPC推进三年长期框架订单(整体100亿)",
+            "Dayone确定落地订单10亿+",
+            "拟收购烟台铭祥45%股权重组"
+          ],
+          "insights": [
+            "净利率有望突破20%",
+            "26Q1新签冷水机组订单10亿产能饱和"
+          ],
+          "key_metrics": [
+            "累计框架订单预计超150亿",
+            "26Q1新签10亿(接近25H1)"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "IDC液冷冷水机组"
+          ],
+          "industry_position": [
+            "北美IDC液冷核心供应商"
+          ],
+          "chain": [
+            "中游-制冷设备"
+          ],
+          "partners": [
+            "Dayone",
+            "北美头部EPC",
+            "北美CSP"
+          ]
         }
       ],
       "board": "SZ",
@@ -29724,7 +29787,7 @@
         "PCB 载板化",
         "AI 服务器 PCB"
       ],
-      "last_updated": "",
+      "last_updated": "2026-05-19",
       "industry_position": [],
       "valuation": {},
       "industry": "电子 - 电子元件 - PCB",
@@ -29750,6 +29813,38 @@
           "accidents": [
             "AI 需求增长",
             "PCB 载板化趋势"
+          ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/CFt7jVFZlBidyq2Iv6UUXw",
+          "title": "0519信息整理",
+          "date": "2026-05-19",
+          "accidents": [
+            "玻璃基板/CoWoP方案/光电结合板积极布局"
+          ],
+          "insights": [
+            "1.6T光模块SLP产能紧缺提价在即",
+            "CoWoP方案27年底小批量28年大批量"
+          ],
+          "key_metrics": [
+            "单只1.6T SLP 30美金",
+            "市场规模26/27年7.5/24亿美金"
+          ],
+          "target_valuation": [
+            "目标市值3000亿"
+          ],
+          "core_business": [
+            "AI PCB/正交背板"
+          ],
+          "industry_position": [
+            "正交背板份额提升,LPU主供"
+          ],
+          "chain": [
+            "中游-PCB"
+          ],
+          "partners": [
+            "谷歌",
+            "英伟达"
           ]
         }
       ],
@@ -37192,7 +37287,39 @@
     },
     "002845": {
       "mention_count": 1,
-      "name": "同兴达"
+      "name": "同兴达",
+      "last_updated": "2026-05-19",
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/CFt7jVFZlBidyq2Iv6UUXw",
+          "title": "0519信息整理",
+          "date": "2026-05-19",
+          "accidents": [
+            "一期产能已达产,GoldBump工艺属于CoWoS前道关键制程",
+            "二期产能扩建中"
+          ],
+          "insights": [
+            "引入日月光合资日月同芯",
+            "Chiplet/CoWoS/SoIC封测前沿技术布局"
+          ],
+          "key_metrics": [
+            ""
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "CoWoS先进封装"
+          ],
+          "industry_position": [
+            "日月同芯切入CoWoS/SoIC封测"
+          ],
+          "chain": [
+            "中游-先进封装"
+          ],
+          "partners": [
+            "日月光"
+          ]
+        }
+      ]
     },
     "002846": {
       "mention_count": 6,
@@ -74699,7 +74826,7 @@
     },
     "600103": {
       "mention_count": 1,
-      "last_updated": "",
+      "last_updated": "2026-05-19",
       "code": "600103",
       "articles": [
         {
@@ -74711,6 +74838,35 @@
           ],
           "accidents": [
             "操作逻辑是人民币升值降低原材料进口成本"
+          ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/CFt7jVFZlBidyq2Iv6UUXw",
+          "title": "0519信息整理",
+          "date": "2026-05-19",
+          "accidents": [
+            "Q2起AI PCB步入出货通道"
+          ],
+          "insights": [
+            "1.6T光模块SLP份额持续提升"
+          ],
+          "key_metrics": [
+            ""
+          ],
+          "target_valuation": [
+            "目标市值2500亿"
+          ],
+          "core_business": [
+            "1.6T光模块SLP"
+          ],
+          "industry_position": [
+            "SLP份额持续提升"
+          ],
+          "chain": [
+            "中游-PCB"
+          ],
+          "partners": [
+            "谷歌"
           ]
         }
       ],
@@ -78550,8 +78706,8 @@
       "name": "浙江龙盛"
     },
     "600353": {
-      "mention_count": 2,
-      "last_updated": "",
+      "mention_count": 1,
+      "last_updated": "2026-05-19",
       "partners": [],
       "industry_position": [],
       "articles": [
@@ -78565,6 +78721,38 @@
             "国内唯一实现氮化铝粉体到基板全产业链自给"
           ],
           "accidents": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/CFt7jVFZlBidyq2Iv6UUXw",
+          "title": "0519信息整理",
+          "date": "2026-05-19",
+          "accidents": [
+            "氮化铝粉体打破德山垄断",
+            "230W/m·k超高热导基板批量供货",
+            "国内光模块头部几家已对接合作近期下单"
+          ],
+          "insights": [
+            "陶瓷基板国产化率仅15%",
+            "800G以上光模块必须用氮化铝",
+            "国网28年前用高压灭弧室替代SF6断路器"
+          ],
+          "key_metrics": [
+            "营收15.86亿"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "氮化铝粉体/陶瓷基板"
+          ],
+          "industry_position": [
+            "氮化铝粉体国内产能最大(500吨)",
+            "全产业链自给"
+          ],
+          "chain": [
+            "上游-陶瓷基板材料"
+          ],
+          "partners": [
+            "国内光模块头部厂商"
+          ]
         }
       ],
       "board": "",
@@ -90435,7 +90623,7 @@
     },
     "601133": {
       "mention_count": 1,
-      "last_updated": "",
+      "last_updated": "2026-05-19",
       "code": "601133",
       "articles": [
         {
@@ -90453,6 +90641,36 @@
           ],
           "title": "601133  为半导体及泛半导体 新型显示 生命科学 食品药品 大健康等产业提供系统集成服务 洁净室系统集成行业领军企业",
           "source": "https://mp.weixin.qq.com/s/-mNsLQ614NE0rifMYYwGTA"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/CFt7jVFZlBidyq2Iv6UUXw",
+          "title": "0519信息整理",
+          "date": "2026-05-19",
+          "accidents": [
+            "年初以来新签43.25亿(超越去年全年)",
+            "半导体订单占比80%"
+          ],
+          "insights": [
+            "全球设备投资超级周期+存储价格暴涨双重变局",
+            "受益两存上市与资本开支加码"
+          ],
+          "key_metrics": [
+            "年初至今涨幅93%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "洁净室工程"
+          ],
+          "industry_position": [
+            "国内洁净室龙头,两存(长鑫/长存)核心供应商"
+          ],
+          "chain": [
+            "中游-洁净室工程"
+          ],
+          "partners": [
+            "长鑫存储",
+            "长存"
+          ]
         }
       ],
       "board": "",
@@ -90468,7 +90686,7 @@
         "存储芯片",
         "中芯国际概念"
       ],
-      "name": "为半导体及泛半导体"
+      "name": "柏诚股份"
     },
     "601137": {
       "mention_count": 2,
@@ -98491,14 +98709,44 @@
       "name": "雪峰科技"
     },
     "603228": {
-      "mention_count": 2,
-      "last_updated": "",
+      "mention_count": 1,
+      "last_updated": "2026-05-19",
       "code": "603228",
       "articles": [
         {
           "date": "",
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/CFt7jVFZlBidyq2Iv6UUXw",
+          "title": "0519信息整理",
+          "date": "2026-05-19",
+          "accidents": [
+            "Rubin用PCB出货在即",
+            "正交背板持续参与"
+          ],
+          "insights": [
+            "1.6T光模块SLP有望获取外溢份额"
+          ],
+          "key_metrics": [
+            ""
+          ],
+          "target_valuation": [
+            "目标市值1250亿"
+          ],
+          "core_business": [
+            "AI PCB/midplane"
+          ],
+          "industry_position": [
+            "Rubin用PCB出货在即,midplane大份额"
+          ],
+          "chain": [
+            "中游-PCB"
+          ],
+          "partners": [
+            "英伟达"
+          ]
         }
       ],
       "board": "SH",
@@ -107616,8 +107864,8 @@
       "name": "蓝天燃气"
     },
     "605376": {
-      "mention_count": 2,
-      "last_updated": "",
+      "mention_count": 1,
+      "last_updated": "2026-05-19",
       "partners": [
         "三星"
       ],
@@ -107627,6 +107875,36 @@
           "date": "2025-08-01",
           "title": "风口byTY",
           "source": "https://mp.weixin.qq.com/s/M-ICFAKKMZPgG4cWA18QhA"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/CFt7jVFZlBidyq2Iv6UUXw",
+          "title": "0519信息整理",
+          "date": "2026-05-19",
+          "accidents": [
+            "MLCC涨价潮,全球高端MLCC短缺",
+            "博迁港股上市推进国际化"
+          ],
+          "insights": [
+            "AI让小型化高容量MLCC爆发需求",
+            "50%+出货给三星电机(影子股)"
+          ],
+          "key_metrics": [
+            "去年2亿→今年8-10亿→明年15-20亿",
+            "三星电机近50亿订单"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "超细镍粉(MLCC)"
+          ],
+          "industry_position": [
+            "80纳米以下镍粉全球唯一供应商"
+          ],
+          "chain": [
+            "上游-MLCC材料"
+          ],
+          "partners": [
+            "三星电机"
+          ]
         }
       ],
       "board": "SH",
@@ -107671,8 +107949,8 @@
       "name": "晨光新材"
     },
     "605488": {
-      "mention_count": 7,
-      "last_updated": "",
+      "mention_count": 1,
+      "last_updated": "2026-05-19",
       "code": "605488",
       "board": "",
       "industry": "基础化工-塑料制品-膜材料",
@@ -107687,7 +107965,40 @@
         "传感器",
         "华为概念"
       ],
-      "name": "福莱新材"
+      "name": "福莱新材",
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/CFt7jVFZlBidyq2Iv6UUXw",
+          "title": "0519信息整理",
+          "date": "2026-05-19",
+          "accidents": [
+            "灵心巧手采购10万套触觉传感器(≈2万只灵巧手)",
+            "三代电子皮肤快速迭代"
+          ],
+          "insights": [
+            "电子皮肤是人形机器人预期差最大+壁垒最高环节",
+            "单台人形机器人全身使用价值量7-8000元"
+          ],
+          "key_metrics": [
+            "10万套订单"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "电子皮肤/触觉传感器"
+          ],
+          "industry_position": [
+            "电子皮肤龙头,T机器人定点预期"
+          ],
+          "chain": [
+            "中游-传感器"
+          ],
+          "partners": [
+            "灵心巧手",
+            "特斯拉",
+            "F客户"
+          ]
+        }
+      ]
     },
     "605499": {
       "mention_count": 1,
@@ -109756,7 +110067,7 @@
     },
     "688082": {
       "mention_count": 1,
-      "last_updated": "",
+      "last_updated": "2026-05-19",
       "code": "688082",
       "articles": [
         {
@@ -109765,6 +110076,35 @@
           "source": "https://mp.weixin.qq.com/s/Uf3EsSJ5PRC7qcUivIC_SA",
           "accidents": [
             "• 量能信号"
+          ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/CFt7jVFZlBidyq2Iv6UUXw",
+          "title": "0519信息整理",
+          "date": "2026-05-19",
+          "accidents": [
+            "新进入日月光高雄/中坜/新加坡工厂",
+            "CX加单约100台存储湿法清洗设备"
+          ],
+          "insights": [
+            "间接进入NV供应体系"
+          ],
+          "key_metrics": [
+            "12腔体均价2500-3000w/台"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "湿法清洗设备"
+          ],
+          "industry_position": [
+            "第一个成规模进国际top客户的国产半导体设备公司"
+          ],
+          "chain": [
+            "中游-半导体设备"
+          ],
+          "partners": [
+            "日月光(高雄/中坜/新加坡)",
+            "NV(间接)"
           ]
         }
       ],
@@ -112032,7 +112372,7 @@
     },
     "688182": {
       "mention_count": 1,
-      "last_updated": "",
+      "last_updated": "2026-05-19",
       "core_business": [
         "5G介质滤波器市占率超30%"
       ],
@@ -112050,6 +112390,32 @@
           "insights": [
             "G介质滤波器市占率超30%"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/CFt7jVFZlBidyq2Iv6UUXw",
+          "title": "0519信息整理",
+          "date": "2026-05-19",
+          "accidents": [
+            "光模块陶瓷管壳推进验厂,预计下半年适配1.6T光模块"
+          ],
+          "insights": [
+            "5.5G+海外需求叠加主业高景气",
+            "传统4G/5G产品型号增加"
+          ],
+          "key_metrics": [
+            ""
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "陶瓷管壳/介质波导滤波器"
+          ],
+          "industry_position": [
+            "5.5G基站滤波器+光模块陶瓷封装"
+          ],
+          "chain": [
+            "上游-电子陶瓷"
+          ],
+          "partners": []
         }
       ],
       "board": "SH",
@@ -112184,8 +112550,8 @@
       "name": "南新制药"
     },
     "688190": {
-      "mention_count": 2,
-      "last_updated": "",
+      "mention_count": 1,
+      "last_updated": "2026-05-19",
       "code": "688190",
       "board": "",
       "industry": "有色金属-金属新材料-其他金属新材料",
@@ -112199,7 +112565,36 @@
         "科创板",
         "新能源汽车"
       ],
-      "name": "云路股份"
+      "name": "云路股份",
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/CFt7jVFZlBidyq2Iv6UUXw",
+          "title": "0519信息整理",
+          "date": "2026-05-19",
+          "accidents": [
+            "承办SST固态变压器技术研讨会,SST产业化提速",
+            "突破12μm/142mm关键技术国际领先"
+          ],
+          "insights": [
+            "SST心脏是高频磁芯,AI算力中心供电升级+新型电力系统推进",
+            "从传统配电磁材→新一代电力电子核心环节"
+          ],
+          "key_metrics": [
+            ""
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "纳米晶/非晶磁材"
+          ],
+          "industry_position": [
+            "非晶8年全球第一,纳米晶25年全球第一"
+          ],
+          "chain": [
+            "上游-磁性材料"
+          ],
+          "partners": []
+        }
+      ]
     },
     "688191": {
       "mention_count": 2,
@@ -117105,7 +117500,7 @@
     },
     "688419": {
       "mention_count": 1,
-      "last_updated": "",
+      "last_updated": "2026-05-19",
       "code": "688419",
       "articles": [
         {
@@ -117115,6 +117510,37 @@
           ],
           "title": "688419  半导体设备 先进封装 高端装备 塑料挤出成型及半导体封装设备领先制造商",
           "source": "https://mp.weixin.qq.com/s/6NmiJnK8wpzsYAT0GDbFEw"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/CFt7jVFZlBidyq2Iv6UUXw",
+          "title": "0519信息整理",
+          "date": "2026-05-19",
+          "accidents": [
+            "截至4.30在手订单2.77亿(历史最高2亿,超40%)",
+            "粉末试封装已成功验证"
+          ],
+          "insights": [
+            "注塑设备英飞凌验证通过放量在即",
+            "800w/台,国内外1200台空间,毛利率60%"
+          ],
+          "key_metrics": [
+            "仅50亿市值看翻倍以上空间"
+          ],
+          "target_valuation": [
+            "翻倍以上空间"
+          ],
+          "core_business": [
+            "先进封装设备/注塑设备"
+          ],
+          "industry_position": [
+            "先进封装粉末封装全球独供"
+          ],
+          "chain": [
+            "中游-半导体设备"
+          ],
+          "partners": [
+            "英飞凌"
+          ]
         }
       ],
       "board": "",
@@ -117129,7 +117555,7 @@
         "存储芯片",
         "机械设备-专用设备-其他专用设备"
       ],
-      "name": "半导体设备"
+      "name": "耐科装备"
     },
     "688425": {
       "mention_count": 1,
@@ -119932,8 +120358,8 @@
       "name": "力芯微"
     },
     "688603": {
-      "mention_count": 3,
-      "last_updated": "",
+      "mention_count": 1,
+      "last_updated": "2026-05-19",
       "partners": [
         "国内半导体装备头部企业"
       ],
@@ -119961,6 +120387,33 @@
           "accidents": [
             "MSAP工艺电镀药水需求激增"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/CFt7jVFZlBidyq2Iv6UUXw",
+          "title": "0519信息整理",
+          "date": "2026-05-19",
+          "accidents": [
+            "26Q1业绩进入大拐点",
+            "TGV明确跟国内最重要客户合作"
+          ],
+          "insights": [
+            "mSAP工艺下药水价值量占比从4-6%→10%+",
+            "TGV价值量PCB 20-30X"
+          ],
+          "key_metrics": [
+            ""
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "PCB药水/电镀液"
+          ],
+          "industry_position": [
+            "mSAP工艺药水核心供应商"
+          ],
+          "chain": [
+            "上游-PCB化学品"
+          ],
+          "partners": []
         }
       ],
       "board": "SH",
