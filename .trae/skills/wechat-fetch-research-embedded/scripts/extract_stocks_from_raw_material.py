@@ -249,6 +249,7 @@ SYSTEM_EXTRACT = (
     "      \"products\": [\"产品/服务\"],\n"
     "      \"core_business\": [\"核心业务\"],\n"
     "      \"industry\": \"所属行业\",\n"
+    "      \"industry_position\": [\"行业地位/竞争优势\"],\n"
     "      \"partners\": [\"合作伙伴/客户\"],\n"
     "      \"chain\": [\"产业链位置\"]\n"
     "    }\n"
@@ -257,15 +258,16 @@ SYSTEM_EXTRACT = (
     "抽取规则：\n"
     "- accidents：只写事实事件，单条<=60 字。\n"
     "- insights：保留原文或忠实改写。\n"
-    "- key_metrics：只放指标/数字/市占率等。\n"
-    "- target_valuation：估值、目标价、空间测算等。\n"
-    "- products：公司主要产品或服务。\n"
-    "- core_business：核心业务描述。\n"
-    "- industry：所属行业（如：电子 - 半导体 - 集成电路）。\n"
-    "- partners：合作伙伴、主要客户、供应商等。\n"
-    "- chain：产业链位置（如：中游 - 芯片设计）。\n"
-    "- 如果某字段无信息，输出空数组 [] 或空字符串\"\"。\n"
-    "- 只输出 JSON，不要解释。"
+    "- key_metrics：关键财务指标、业务数据（营收、利润、市占率等）。\n"
+    "- target_valuation：目标市值、PE、估值区间。\n"
+    "- products：主要产品、服务、技术（2-3 个关键词）。\n"
+    "- core_business：核心业务、主营业务（1-2 句话）。\n"
+    "- industry：所属行业（如\"电子 - 半导体 - 集成电路\"）。\n"
+    "- industry_position：行业地位、竞争优势、市场排名（如\"龙头\"、\"领先\"、\"市占率第一\"）。\n"
+    "- partners：主要客户、供应商、合作伙伴（公司名称）。\n"
+    "- chain：产业链位置（如\"上游-原材料\"、\"中游-芯片设计\"）。\n"
+    "- 如果文章中没有某字段信息，返回空列表或空字符串。\n"
+    "- 只输出 JSON（不要解释、不要 markdown）。\n"
 )
 
 
@@ -471,8 +473,8 @@ def merge_into_master(master: Dict[str, Any], items: List[Dict[str, Any]]):
         if src in existing_sources:
             continue
 
-        # 合并股票层级字段（products, core_business, industry, partners, chain）
-        for field in ["products", "core_business", "industry", "partners", "chain"]:
+        # 合并股票层级字段（products, core_business, industry_position, industry, partners, chain）
+        for field in ["products", "core_business", "industry_position", "industry", "partners", "chain"]:
             val = it.get(field, None)
             if val:
                 if field == "industry" and isinstance(val, str) and val.strip():
@@ -536,9 +538,9 @@ def main():
     if not api_manager.apis:
         raise SystemExit("No API configured. Please set config.json with 'api' or 'fallback_api' section.")
     
-    print(f"[API管理器] 已加载 {len(api_manager.apis)} 个API端点:")
+    print(f"[API 管理器] 已加载 {len(api_manager.apis)} 个 API 端点:")
     for i, api in enumerate(api_manager.apis):
-        status = "✓" if i == 0 else "(备用)"
+        status = "OK" if i == 0 else "(备用)"
         print(f"  {status} {api['name']}: {api['base_url']} [{api['model']}]")
 
     code_to_name, name_to_code = load_stock_map(args.stock_xls)

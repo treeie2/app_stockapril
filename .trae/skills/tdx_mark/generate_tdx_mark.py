@@ -65,32 +65,50 @@ def parse_mark_dat(filepath: Path):
 
 def build_research_tip(stock: dict, name: str) -> str:
     parts = []
-    industry_pos = stock.get("industry_position", [])
-    if industry_pos:
-        parts.append(f"【行业地位】{' / '.join(industry_pos[:3])}")
+    
+    products = stock.get("products", [])
+    if products:
+        parts.append(f"【产品】{' / '.join(products[:3])}")
 
     core_biz = stock.get("core_business", [])
     if core_biz:
-        parts.append(f"【核心业务】{' / '.join(core_biz[:4])}")
+        parts.append(f"【核心业务】{' / '.join(core_biz[:3])}")
 
-    chain = stock.get("chain", [])
-    if chain:
-        parts.append(f"【产业链】{' / '.join(chain[:2])}")
-
-    partners = stock.get("partners", [])
-    if partners:
-        parts.append(f"【合作伙伴】{' / '.join(partners[:4])}")
-
-    concepts = stock.get("concepts", [])
-    if concepts and not industry_pos:
-        parts.append(f"【概念】{' / '.join(concepts[:5])}")
+    industry_pos = stock.get("industry_position", [])
+    if industry_pos:
+        parts.append(f"【行业地位】{' / '.join(industry_pos[:2])}")
 
     all_vals = []
     for art in stock.get("articles", []):
         all_vals.extend(art.get("target_valuation", []))
     if all_vals:
-        for v in list(set(all_vals))[:3]:
+        for v in list(set(all_vals))[:2]:
             parts.append(f"【目标估值】{v}")
+
+    all_metrics = []
+    for art in stock.get("articles", []):
+        all_metrics.extend(art.get("key_metrics", []))
+    if all_metrics:
+        for m in list(set(all_metrics))[:2]:
+            parts.append(f"【关键指标】{m}")
+
+    all_insights = []
+    for art in stock.get("articles", []):
+        all_insights.extend(art.get("insights", []))
+    if all_insights:
+        for i in list(set(all_insights))[:2]:
+            parts.append(f"【核心观点】{i}")
+
+    all_accidents = []
+    for art in stock.get("articles", []):
+        all_accidents.extend(art.get("accidents", []))
+    if all_accidents:
+        for a in list(set(all_accidents))[:2]:
+            parts.append(f"【风险事件】{a}")
+
+    concepts = stock.get("concepts", [])
+    if concepts and not industry_pos:
+        parts.append(f"【概念】{' / '.join(concepts[:4])}")
 
     last_upd = stock.get("last_updated", "")
     if last_upd:
@@ -101,17 +119,43 @@ def build_research_tip(stock: dict, name: str) -> str:
 
 def build_research_tipword(stock: dict) -> str:
     tags = []
+    
     all_vals = []
     for art in stock.get("articles", []):
         all_vals.extend(art.get("target_valuation", []))
     if all_vals:
         first_val = list(set(all_vals))[0]
         nums = re.findall(r'[0-9,]+亿|约[0-9]+倍|[0-9]+%', first_val)
-        tags.append(f"目标:{nums[0]}" if nums else "目标估值")
+        if nums:
+            tags.append(f"目标:{nums[0]}")
+    
+    all_metrics = []
+    for art in stock.get("articles", []):
+        all_metrics.extend(art.get("key_metrics", []))
+    if all_metrics:
+        tags.append("有指标")
+    
+    all_insights = []
+    for art in stock.get("articles", []):
+        all_insights.extend(art.get("insights", []))
+    if all_insights:
+        tags.append("有观点")
+    
+    all_accidents = []
+    for art in stock.get("articles", []):
+        all_accidents.extend(art.get("accidents", []))
+    if all_accidents:
+        tags.append("有风险")
+    
     industry_pos = stock.get("industry_position", [])
     if industry_pos:
         tags.append("龙头")
-    return ",".join(tags[:2]) if tags else "目标估值"
+    
+    products = stock.get("products", [])
+    if products:
+        tags.append("有产品")
+    
+    return ",".join(tags[:3]) if tags else "研究"
 
 
 def generate():
