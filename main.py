@@ -416,7 +416,7 @@ def load_data_incremental(days=7):
         return None, None
 
 def load_data_from_local():
-    """从 Firebase、GitHub 或本地文件加载数据"""
+    """从 GitHub 或本地文件加载数据"""
     print("📋 从数据源加载数据...")
     
     MASTER_FILE_JSON = BASE_DIR / 'data' / 'stocks' / 'stocks_master.json'
@@ -424,70 +424,30 @@ def load_data_from_local():
     
     master_data = None
     
-    # Vercel 环境优先从 Firebase 加载
-    if 'VERCEL' in os.environ:
-        print("  🌐 Vercel 环境，优先从 Firebase 加载数据...")
-        try:
-            import firebase_admin
-            from firebase_admin import credentials, firestore
-            
-            # 从环境变量获取 Firebase 配置
-            firebase_config = os.environ.get('FIREBASE_CONFIG')
-            if firebase_config:
-                print("  🔥 使用环境变量中的 Firebase 配置...")
-                cred = credentials.Certificate(json.loads(firebase_config))
-            else:
-                print("  🔥 使用默认 Firebase 凭证文件...")
-                cred_path = BASE_DIR / '.trae/rules/firebase-credentials.json'
-                if cred_path.exists():
-                    cred = credentials.Certificate(str(cred_path))
-                else:
-                    raise FileNotFoundError("Firebase 凭证文件不存在")
-            
-            # 初始化 Firebase
-            if not firebase_admin._apps:
-                firebase_admin.initialize_app(cred)
-            
-            # 从 Firestore 读取数据
-            db = firestore.client()
-            stocks_ref = db.collection('stocks')
-            docs = stocks_ref.stream()
-            
-            stocks_data = {}
-            count = 0
-            for doc in docs:
-                stocks_data[doc.id] = doc.to_dict()
-                count += 1
-                if count % 500 == 0:
-                    print(f"  读取中... {count} 只股票")
-            
-            master_data = {
-                "stocks": stocks_data,
-                "total_stocks": count,
-                "updated_at": datetime.now().strftime("%Y-%m-%dT%H:%M:%S+08:00")
-            }
-            print(f"  ✅ 从 Firebase 加载成功，共 {count} 只股票")
-            
-        except Exception as e:
-            print(f"  ⚠️ Firebase 加载失败：{e}")
+    # 优先从 GitHub 加载（压缩版，更快）
+    print("  📥 优先从 GitHub 加载数据...")
+    try:
+        import requests
+        github_url = "https://raw.githubusercontent.com/treeie2/app_stockapril/main/data/stocks/stocks_master.json.gz"
+        print(f"  下载 URL: {github_url}")
+        response = requests.get(github_url, timeout=30)
+        response.raise_for_status()
+        import io
+        with gzip.GzipFile(fileobj=io.BytesIO(response.content), mode='rt', encoding='utf-8') as f:
+            master_data = json.load(f)
+        print(f"  ✅ 从 GitHub 加载成功 ({len(response.content)/1024:.1f} KB)")
+        
+        # 验证数据
+        if 'stocks' in master_data:
+            stock_count = len(master_data['stocks'])
+            print(f"  📊 加载到 {stock_count} 只股票")
+        else:
+            print(f"  ⚠️ 数据格式异常，无 stocks 字段")
             master_data = None
-    
-    # 如果 Firebase 加载失败，尝试 GitHub
-    if master_data is None:
-        print("  📥 尝试从 GitHub 加载数据...")
-        try:
-            import requests
-            github_url = "https://raw.githubusercontent.com/treeie2/app_stockapril/main/data/stocks/stocks_master.json.gz"
-            print(f"  下载 stocks_master.json.gz...")
-            response = requests.get(github_url, timeout=30)
-            response.raise_for_status()
-            import io
-            with gzip.GzipFile(fileobj=io.BytesIO(response.content), mode='rt', encoding='utf-8') as f:
-                master_data = json.load(f)
-            print(f"  ✅ 从 GitHub 加载成功 ({len(response.content)/1024:.1f} KB)")
-        except Exception as e:
-            print(f"  ⚠️ GitHub 加载失败：{e}")
-            master_data = None
+            
+    except Exception as e:
+        print(f"  ⚠️ GitHub 加载失败：{str(e)}")
+        master_data = None
     
     # 如果 GitHub 加载失败，尝试本地文件
     if master_data is None:
@@ -497,10 +457,12 @@ def load_data_from_local():
                 print(f"  📋 读取 stocks_master.json...")
                 with open(MASTER_FILE_JSON, 'r', encoding='utf-8') as f:
                     master_data = json.load(f)
+                print(f"  ✅ 本地 JSON 文件加载成功")
             elif MASTER_FILE_GZ.exists():
                 print(f"  📋 读取 stocks_master.json.gz...")
                 with gzip.open(MASTER_FILE_GZ, 'rt', encoding='utf-8') as f:
                     master_data = json.load(f)
+                print(f"  ✅ 本地 GZ 文件加载成功")
             else:
                 raise FileNotFoundError("未找到 stocks_master 数据文件")
         except Exception as e:
