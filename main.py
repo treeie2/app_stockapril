@@ -416,61 +416,71 @@ def load_data_incremental(days=7):
         return None, None
 
 def load_data_from_local():
-    """从 GitHub 或本地文件加载数据"""
+    """从本地文件或 GitHub 加载数据"""
     print("📋 从数据源加载数据...")
     
-    MASTER_FILE_JSON = BASE_DIR / 'data' / 'stocks' / 'stocks_master.json'
-    MASTER_FILE_GZ = BASE_DIR / 'data' / 'stocks' / 'stocks_master.json.gz'
+    # 定义多个可能的文件路径
+    possible_paths = [
+        BASE_DIR / 'data' / 'stocks' / 'stocks_master.json',
+        BASE_DIR / 'data' / 'stocks' / 'stocks_master.json.gz',
+        BASE_DIR / 'static' / 'stocks_master.json',
+        BASE_DIR / 'static' / 'stocks_master.json.gz',
+        BASE_DIR.parent / 'data' / 'stocks' / 'stocks_master.json',
+        BASE_DIR.parent / 'data' / 'stocks' / 'stocks_master.json.gz',
+    ]
     
     master_data = None
     
-    # 优先从 GitHub 加载（压缩版，更快）
-    print("  📥 优先从 GitHub 加载数据...")
-    try:
-        import requests
-        github_url = "https://raw.githubusercontent.com/treeie2/app_stockapril/main/data/stocks/stocks_master.json.gz"
-        print(f"  下载 URL: {github_url}")
-        response = requests.get(github_url, timeout=30)
-        response.raise_for_status()
-        import io
-        with gzip.GzipFile(fileobj=io.BytesIO(response.content), mode='rt', encoding='utf-8') as f:
-            master_data = json.load(f)
-        print(f"  ✅ 从 GitHub 加载成功 ({len(response.content)/1024:.1f} KB)")
-        
-        # 验证数据
-        if 'stocks' in master_data:
-            stock_count = len(master_data['stocks'])
-            print(f"  📊 加载到 {stock_count} 只股票")
-        else:
-            print(f"  ⚠️ 数据格式异常，无 stocks 字段")
-            master_data = None
-            
-    except Exception as e:
-        print(f"  ⚠️ GitHub 加载失败：{str(e)}")
-        master_data = None
+    # 优先从本地文件加载（Vercel 部署时文件会被包含）
+    print("  📂 优先从本地文件加载...")
+    for filepath in possible_paths:
+        if filepath.exists():
+            print(f"  📋 找到文件: {filepath}")
+            try:
+                if filepath.suffix == '.gz':
+                    with gzip.open(filepath, 'rt', encoding='utf-8') as f:
+                        master_data = json.load(f)
+                else:
+                    with open(filepath, 'r', encoding='utf-8') as f:
+                        master_data = json.load(f)
+                
+                # 验证数据
+                if 'stocks' in master_data:
+                    stock_count = len(master_data['stocks'])
+                    print(f"  ✅ 加载成功，共 {stock_count} 只股票")
+                    break
+                else:
+                    print(f"  ⚠️ 数据格式异常，继续尝试下一个文件")
+                    master_data = None
+            except Exception as e:
+                print(f"  ⚠️ 读取失败 ({filepath}): {str(e)}")
+                master_data = None
     
-    # 如果 GitHub 加载失败，尝试本地文件
+    # 如果本地加载失败，尝试 GitHub（备用）
     if master_data is None:
-        print("  📂 尝试从本地文件加载...")
+        print("  📥 本地文件未找到，尝试从 GitHub 加载...")
         try:
-            if MASTER_FILE_JSON.exists():
-                print(f"  📋 读取 stocks_master.json...")
-                with open(MASTER_FILE_JSON, 'r', encoding='utf-8') as f:
-                    master_data = json.load(f)
-                print(f"  ✅ 本地 JSON 文件加载成功")
-            elif MASTER_FILE_GZ.exists():
-                print(f"  📋 读取 stocks_master.json.gz...")
-                with gzip.open(MASTER_FILE_GZ, 'rt', encoding='utf-8') as f:
-                    master_data = json.load(f)
-                print(f"  ✅ 本地 GZ 文件加载成功")
+            import requests
+            github_url = "https://raw.githubusercontent.com/treeie2/app_stockapril/main/data/stocks/stocks_master.json.gz"
+            print(f"  下载 URL: {github_url}")
+            response = requests.get(github_url, timeout=60)
+            response.raise_for_status()
+            import io
+            with gzip.GzipFile(fileobj=io.BytesIO(response.content), mode='rt', encoding='utf-8') as f:
+                master_data = json.load(f)
+            
+            # 验证数据
+            if 'stocks' in master_data:
+                stock_count = len(master_data['stocks'])
+                print(f"  ✅ 从 GitHub 加载成功 ({len(response.content)/1024:.1f} KB)")
+                print(f"  📊 加载到 {stock_count} 只股票")
             else:
-                raise FileNotFoundError("未找到 stocks_master 数据文件")
+                print(f"  ⚠️ 数据格式异常，无 stocks 字段")
+                master_data = None
+                
         except Exception as e:
-            print(f"  ❌ 本地文件读取失败：{e}")
-            raise
-    
-    if master_data is None:
-        raise RuntimeError("无法从任何来源加载数据")
+            print(f"  ❌ GitHub 加载失败：{str(e)}")
+            raise RuntimeError(f"无法从任何来源加载数据: {str(e)}")
     
     print(f"  📊 原始数据大小：{len(master_data.get('stocks', master_data))} keys")
     
