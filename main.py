@@ -2084,7 +2084,39 @@ def api_debug():
         'hot_topics_file': str(hot_file),
         'hot_topics_exists': hot_file.exists(),
         'hot_topics_count': len(hot_topics),
+        'stocks_count': len(stocks),
+        'data_loaded': _data_loaded,
+        'vercel': 'VERCEL' in os.environ,
+        'python_version': sys.version,
+        'files_checked': [],
     }
+    
+    # 检查各种可能的文件路径
+    paths_to_check = [
+        '/var/task/data/stocks/stocks_master.json.gz',
+        '/var/task/data/stocks/stocks_master.json',
+        '/var/task/api/stocks_master.json.gz',
+        '/var/task/api/stocks_master.json',
+        '/var/task/static/stocks_master.json.gz',
+        '/var/task/static/stocks_master.json',
+        str(BASE_DIR / 'data' / 'stocks' / 'stocks_master.json.gz'),
+        str(BASE_DIR / 'data' / 'stocks' / 'stocks_master.json'),
+        str(BASE_DIR / 'api' / 'stocks_master.json.gz'),
+        str(BASE_DIR / 'static' / 'stocks_master.json.gz'),
+    ]
+    for p in paths_to_check:
+        pp = Path(p)
+        info = {
+            'path': p,
+            'exists': pp.exists(),
+        }
+        if pp.exists():
+            try:
+                info['size'] = pp.stat().st_size
+            except:
+                pass
+        result['files_checked'].append(info)
+    
     if hot_file.exists():
         try:
             result['hot_topics_size'] = hot_file.stat().st_size
