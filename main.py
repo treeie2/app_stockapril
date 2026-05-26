@@ -418,8 +418,9 @@ def load_data_incremental(days=7):
 def load_data_from_local():
     """从本地文件或 GitHub 加载数据"""
     print("📋 从数据源加载数据...")
+    print(f"  BASE_DIR: {BASE_DIR}")
     
-    # 定义多个可能的文件路径
+    # 定义多个可能的文件路径（覆盖各种部署场景）
     possible_paths = [
         BASE_DIR / 'data' / 'stocks' / 'stocks_master.json',
         BASE_DIR / 'data' / 'stocks' / 'stocks_master.json.gz',
@@ -427,7 +428,27 @@ def load_data_from_local():
         BASE_DIR / 'static' / 'stocks_master.json.gz',
         BASE_DIR.parent / 'data' / 'stocks' / 'stocks_master.json',
         BASE_DIR.parent / 'data' / 'stocks' / 'stocks_master.json.gz',
+        BASE_DIR.parent / 'static' / 'stocks_master.json',
+        BASE_DIR.parent / 'static' / 'stocks_master.json.gz',
+        # Vercel api 目录特殊处理
+        Path(__file__).parent / 'stocks_master.json',
+        Path(__file__).parent / 'stocks_master.json.gz',
+        Path(__file__).parent.parent / 'stocks_master.json',
+        Path(__file__).parent.parent / 'stocks_master.json.gz',
+        # 绝对路径（Vercel serverless 环境）
+        Path('/var/task/data/stocks/stocks_master.json'),
+        Path('/var/task/data/stocks/stocks_master.json.gz'),
+        Path('/var/task/static/stocks_master.json'),
+        Path('/var/task/static/stocks_master.json.gz'),
+        Path('/var/task/api/stocks_master.json'),
+        Path('/var/task/api/stocks_master.json.gz'),
     ]
+    
+    # 打印所有可能的路径供调试
+    print("  可能的文件路径:")
+    for p in possible_paths:
+        exists = "✅" if p.exists() else "❌"
+        print(f"    {exists} {p}")
     
     master_data = None
     
