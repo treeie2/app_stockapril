@@ -90584,7 +90584,7 @@
       "core_business": []
     },
     "688261": {
-      "mention_count": 1,
+      "mention_count": 2,
       "last_updated": "",
       "concepts": [
         "光伏概念",
@@ -90613,6 +90613,43 @@
           "date": "2025-09-04",
           "title": "风口byTY",
           "source": "https://mp.weixin.qq.com/s/bszfNxF8Mee_gH-Xo_7hBw"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/7Z29YLHlnb2YLLMF-PbaDw",
+          "title": "东微半导，150%空间？",
+          "date": "2026-05-27",
+          "accidents": [
+            "1700/1200V SiC器件开始放量(进台达供应链)",
+            "收购慧能泰打开数模市场",
+            "超薄SGT MOS适用于二次电源"
+          ],
+          "insights": [
+            "电源核心标的,一二次电源全覆盖",
+            "国内唯一服务器级别SJ MOS标的",
+            "收购慧能泰实现控制+模拟+功率全覆盖,定位小英飞凌"
+          ],
+          "key_metrics": [
+            "27年国内一二次电源市场200亿",
+            "东微20%份额→40亿收入→6-7亿利润"
+          ],
+          "target_valuation": [
+            "200-250亿市值区间(150%空间)"
+          ],
+          "core_business": [
+            "功率超级结MOS(SJ MOS)",
+            "SiC器件",
+            "数模芯片(慧能泰)"
+          ],
+          "industry_position": [
+            "国内唯一服务器级SJ MOS",
+            "SiC进台达供应链"
+          ],
+          "chain": [
+            "中游-功率半导体"
+          ],
+          "partners": [
+            "台达"
+          ]
         }
       ],
       "industry": "电子-半导体-分立器件",
