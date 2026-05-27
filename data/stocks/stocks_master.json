@@ -8466,7 +8466,7 @@
         "融资融券"
       ],
       "code": "000725",
-      "mention_count": 1,
+      "mention_count": 2,
       "partners": [
         "京东"
       ],
@@ -8475,6 +8475,42 @@
           "date": "",
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/Ht1Nf8Y5TrIezhnUwf9CPw",
+          "title": "京东方A，翻倍空间？",
+          "date": "2026-05-27",
+          "accidents": [
+            "与康宁签署玻璃基板/MicroLED/钙钛矿/折叠屏四方合作协议",
+            "玻璃基板产能3-4万片/月→10万片/月"
+          ],
+          "insights": [
+            "玻璃基板第二增长曲线,1000亿市值增量",
+            "主业400-500亿经营性现金流,27年后折旧减少利润释放",
+            "综合目标4000亿+翻倍空间"
+          ],
+          "key_metrics": [
+            "玻璃基板10万片/月×1300美金=年产值100亿",
+            "20%净利率=20亿利润→1000亿市值",
+            "主业至少3000亿"
+          ],
+          "target_valuation": [
+            "主业3000亿+玻璃基板1000亿=4000亿(翻倍空间)"
+          ],
+          "core_business": [
+            "面板/LCD/OLED",
+            "玻璃基板"
+          ],
+          "industry_position": [
+            "全球面板龙头",
+            "玻璃基板新进入者"
+          ],
+          "chain": [
+            "中游-面板制造,上游-玻璃基板"
+          ],
+          "partners": [
+            "康宁"
+          ]
         }
       ],
       "board": "SZ",
@@ -11000,7 +11036,7 @@
         "融资融券"
       ],
       "code": "000969",
-      "mention_count": 3,
+      "mention_count": 2,
       "partners": [
         "业务关联"
       ],
@@ -11012,6 +11048,34 @@
           ],
           "title": "可控核聚变产业链深度解析与操作策略（2025年3月更新）",
           "source": "https://mp.weixin.qq.com/s/HpmgtP_rDiNQjIRDz4jLxw"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/s046jhrb35DvylqOf_5rzw",
+          "title": "金属钼：华为韬定律下半导体互连新黄金",
+          "date": "2026-05-27",
+          "accidents": [
+            "高纯钨钼靶材打入台积电/中芯国际,良率98%",
+            "为离子注入机配套钨钼高能离子源部件"
+          ],
+          "insights": [
+            "半导体靶材核心供应商"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "高纯钨钼靶材",
+            "离子注入机部件"
+          ],
+          "industry_position": [
+            "半导体靶材供应商"
+          ],
+          "chain": [
+            "上游-半导体靶材"
+          ],
+          "partners": [
+            "台积电",
+            "中芯国际"
+          ]
         }
       ],
       "board": "SZ",
@@ -65252,7 +65316,7 @@
       "name": "山东黄金"
     },
     "600549": {
-      "mention_count": 5,
+      "mention_count": 2,
       "last_updated": "",
       "concepts": [
         "光伏概念",
@@ -65289,6 +65353,32 @@
           "insights": [
             "防御/高股息"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/s046jhrb35DvylqOf_5rzw",
+          "title": "金属钼：华为韬定律下半导体互连新黄金",
+          "date": "2026-05-27",
+          "accidents": [
+            "钨钼板块利润占比78.92%"
+          ],
+          "insights": [
+            "钨钼双龙头,半导体级高纯钼丝/钼片已量产用于封装和功率器件"
+          ],
+          "key_metrics": [
+            "26Q1营收157.43亿(+86.99%),净利11.07亿(+189.14%)"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "钨钼材料",
+            "高纯钼丝/钼片"
+          ],
+          "industry_position": [
+            "钨钼双龙头"
+          ],
+          "chain": [
+            "上游-钨钼材料"
+          ],
+          "partners": []
         }
       ],
       "industry": "有色金属-小金属-钨",
@@ -75339,7 +75429,7 @@
       "name": "中煤能源"
     },
     "601899": {
-      "mention_count": 5,
+      "mention_count": 6,
       "last_updated": "",
       "concepts": [
         "一带一路",
@@ -75414,6 +75504,30 @@
           "insights": [
             "卡莫阿铜矿产能释放，黄金产量居全球前十，铜价上涨增厚业绩弹性"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/s046jhrb35DvylqOf_5rzw",
+          "title": "金属钼：华为韬定律下半导体互连新黄金",
+          "date": "2026-05-27",
+          "accidents": [
+            "2026年矿产钼规划1.5万吨",
+            "资源储量超500万吨"
+          ],
+          "insights": [
+            "全球前五大钼生产商,钼价上涨直接增厚利润"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "钼矿采选"
+          ],
+          "industry_position": [
+            "全球前五大钼生产商"
+          ],
+          "chain": [
+            "上游-钼矿"
+          ],
+          "partners": []
         }
       ],
       "industry": "有色金属-工业金属-铜",
@@ -75535,7 +75649,7 @@
       "name": "苏垦农发"
     },
     "601958": {
-      "mention_count": 1,
+      "mention_count": 2,
       "last_updated": "",
       "concepts": [
         "沪股通",
@@ -75554,6 +75668,38 @@
           "date": "",
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/s046jhrb35DvylqOf_5rzw",
+          "title": "金属钼：华为韬定律下半导体互连新黄金",
+          "date": "2026-05-27",
+          "accidents": [
+            "2026年5月九峰山实验室完成国内首次8英寸ALD钼工艺突破",
+            "Lam Research公开表态钼是AI时代关键半导体材料"
+          ],
+          "insights": [
+            "国内唯一5N级高纯钼粉量产,通过台积电7/5/3nm认证",
+            "与中芯国际5年超10亿长协"
+          ],
+          "key_metrics": [
+            "26Q1营收41.58亿(+26.67%),净利9.02亿(+32.99%)"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "高纯钼粉(半导体级)",
+            "钼矿采选"
+          ],
+          "industry_position": [
+            "国内唯一5N高纯钼粉量产",
+            "通过台积电7/5/3nm认证"
+          ],
+          "chain": [
+            "上游-钼材料"
+          ],
+          "partners": [
+            "台积电",
+            "中芯国际"
+          ]
         }
       ],
       "industry": "有色金属-小金属-钼",
@@ -84495,7 +84641,7 @@
       "name": "松霖科技"
     },
     "603993": {
-      "mention_count": 5,
+      "mention_count": 2,
       "last_updated": "",
       "concepts": [
         "沪股通",
@@ -84528,6 +84674,30 @@
           ],
           "title": "风口byTY",
           "source": "https://mp.weixin.qq.com/s/hfowBP0z6WNtWk-e6ss6sw"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/s046jhrb35DvylqOf_5rzw",
+          "title": "金属钼：华为韬定律下半导体互连新黄金",
+          "date": "2026-05-27",
+          "accidents": [
+            "全球第二大钼生产商,资源储量国内第一",
+            "26Q1钼产量指引1.15-1.45万吨"
+          ],
+          "insights": [
+            "受益钼价上涨直接增厚利润,钼业务占比小"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "钼矿采选"
+          ],
+          "industry_position": [
+            "全球第二大钼生产商"
+          ],
+          "chain": [
+            "上游-钼矿"
+          ],
+          "partners": []
         }
       ],
       "industry": "有色金属-工业金属-铜",
@@ -98877,6 +99047,71 @@
       "last_updated": "2026-05-25",
       "processed_by": "tbox",
       "processed_at": "2026-05-25T01:14:26.522708+08:00"
+    },
+    "003036": {
+      "code": "003036",
+      "name": "泰坦股份",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/mXaTRoMedOCCwPi5WIxE3Q",
+          "title": "大幅扩产带动上游需求：电子布设备厂商",
+          "date": "2026-05-27",
+          "accidents": [
+            "TT-8001对标丰田JAT910(垄断全球90%电子布织机)",
+            "样机送样阶段,成本及交付周期优势"
+          ],
+          "insights": [
+            "丰田织机订单排到2028年,国产替代空间广阔",
+            "喷气织布机是电子布扩产关键卡点"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "喷气织布机(电子布设备)"
+          ],
+          "industry_position": [
+            "喷气织布机国产替代先锋"
+          ],
+          "chain": [
+            "中游-纺织设备"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-05-27"
+    },
+    "600545": {
+      "code": "600545",
+      "name": "卓郎智能",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/mXaTRoMedOCCwPi5WIxE3Q",
+          "title": "大幅扩产带动上游需求：电子布设备厂商",
+          "date": "2026-05-27",
+          "accidents": [
+            "旗下福克曼品牌是电子纱加捻机全球龙头"
+          ],
+          "insights": [
+            "智能化纺织成套设备,电子纱加捻机全球领先"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "电子纱加捻机",
+            "纺织成套设备"
+          ],
+          "industry_position": [
+            "电子纱加捻机全球龙头"
+          ],
+          "chain": [
+            "中游-纺织设备"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-05-27"
     }
   },
   "last_updated": "2026-05-25T01:30:27.046043+08:00",
