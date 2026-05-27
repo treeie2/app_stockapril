@@ -497,11 +497,211 @@
       "last_updated": "2026-05-20",
       "processed_by": "tbox",
       "processed_at": "2026-05-20T11:49:11.686459+08:00"
+    },
+    "002203": {
+      "code": "002203",
+      "name": "海亮股份",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/4xH50Iz7btuqEuPVMqzOyw",
+          "title": "海亮股份，130%空间？",
+          "date": "2026-05-20",
+          "accidents": [
+            "PCB铜箔加速，本月突破HVLP 3送样验证，单吨加工费10w+",
+            "北美铜箔28年放量(总规划8wt)"
+          ],
+          "insights": [
+            "全球化布局:北美+印尼+中东+摩洛哥+欧洲",
+            "铜箔量价齐升+数据中心铜管/铜排占比提升"
+          ],
+          "key_metrics": [
+            "26/27年利润22/40e",
+            "北美基地27年利润30e",
+            "印尼远期利润8-10e",
+            "PCB铜箔单吨盈利5w+"
+          ],
+          "target_valuation": [
+            "27年27xPE=1100亿(130%空间)",
+            "北美30x+铜箔20xPE分部估值"
+          ],
+          "core_business": [
+            "PCB铜箔(HVLP/RTF)",
+            "铜管/铜排/铜箔"
+          ],
+          "industry_position": [
+            "全球化铜加工龙头",
+            "北美/印尼/中东/欧洲多基地"
+          ],
+          "chain": [
+            "上游-铜加工"
+          ],
+          "partners": [
+            "台光",
+            "开利",
+            "约克",
+            "特灵",
+            "麦克维尔",
+            "维谛"
+          ],
+          "processed_by": "tbox",
+          "processed_at": "2026-05-20T20:36:11.630101+08:00"
+        }
+      ],
+      "last_updated": "2026-05-20",
+      "processed_by": "tbox",
+      "processed_at": "2026-05-20T20:37:09.957495+08:00"
+    },
+    "002158": {
+      "code": "002158",
+      "name": "汉钟精机",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/kw4sWCwCq-TJQ4Q8M7LH5Q",
+          "title": "汉钟精机，3倍空间？",
+          "date": "2026-05-20",
+          "accidents": [
+            "气悬浮:美4大家2家签NDR马上送样",
+            "磁悬浮:维谛5月底送样,东元已批量采购",
+            "螺杆:施耐德/STUDZ/LG/顿汉布什已批量"
+          ],
+          "insights": [
+            "气浮离心500RT以下竞争力强,抢占丹弗斯市场",
+            "三条技术路线并行覆盖IDC全场景"
+          ],
+          "key_metrics": [
+            ""
+          ],
+          "target_valuation": [
+            "短期350亿,中期500亿(3倍空间)"
+          ],
+          "core_business": [
+            "数据中心制冷压缩机(气悬浮/磁悬浮/螺杆)"
+          ],
+          "industry_position": [
+            "IDC制冷压缩机龙头",
+            "北美四大客户突破在即"
+          ],
+          "chain": [
+            "中游-制冷设备"
+          ],
+          "partners": [
+            "开利",
+            "约克",
+            "特灵",
+            "麦克维尔",
+            "维谛",
+            "东元电机",
+            "施耐德",
+            "LG",
+            "顿汉布什"
+          ],
+          "processed_by": "tbox",
+          "processed_at": "2026-05-20T20:36:11.630115+08:00"
+        }
+      ],
+      "last_updated": "2026-05-20",
+      "processed_by": "tbox",
+      "processed_at": "2026-05-20T20:37:09.957505+08:00"
+    },
+    "688213": {
+      "code": "688213",
+      "name": "思特威",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/XQT1xo-7vc1p6xnIlM0HAg",
+          "title": "思特威，翻倍空间？",
+          "date": "2026-05-20",
+          "accidents": [
+            "MicroLED光通信:26年出样品,27年导入量产",
+            "微软SIGCOMM 2025首次提出,Avicena/Credo已推产品"
+          ],
+          "insights": [
+            "MicroLED兼顾低功耗(1w vs VCSEL 5-20w)+高带宽(304通道×4G=1.2T)+高冗余",
+            "短距光通信(30cm~30m)首选方案"
+          ],
+          "key_metrics": [
+            "28年光模块千亿美元市场,MicroLED 10%渗透率",
+            "思特威5%份额→10e利润→30xPE=300e"
+          ],
+          "target_valuation": [
+            "MicroLED 300e+主业600e=900e(翻倍空间)"
+          ],
+          "core_business": [
+            "CMOS图像传感器",
+            "MicroLED光通信芯片(TX/RX/PD)"
+          ],
+          "industry_position": [
+            "MicroLED光通信方案设计商",
+            "CIS龙头转型光通信"
+          ],
+          "chain": [
+            "上游-芯片设计"
+          ],
+          "partners": [],
+          "processed_by": "tbox",
+          "processed_at": "2026-05-20T20:36:11.630120+08:00"
+        }
+      ],
+      "last_updated": "2026-05-20",
+      "processed_by": "tbox",
+      "processed_at": "2026-05-20T20:37:09.957508+08:00"
+    },
+    "688785": {
+      "code": "688785",
+      "name": "恒运昌",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/unUeudGl_jD5r4X7fb1xTQ",
+          "title": "今天的一些信息整理5.20",
+          "date": "2026-05-20",
+          "accidents": [
+            "在中微与华创取得进展,收入空间打开",
+            "产能10000台套/年,稼动率100%,未来5年翻5倍"
+          ],
+          "insights": [
+            "国内SKU最全的射频电源厂商,稳态高市占率可期",
+            "叠加MFC真空泵等业务拓展"
+          ],
+          "key_metrics": [
+            "稳态收入50亿元",
+            "30%稳态净利率",
+            "产能10000台套"
+          ],
+          "target_valuation": [
+            "目标市值600亿"
+          ],
+          "core_business": [
+            "射频电源",
+            "MFC",
+            "真空泵"
+          ],
+          "industry_position": [
+            "国内SKU最全射频电源厂商"
+          ],
+          "chain": [
+            "中游-半导体设备零部件"
+          ],
+          "partners": [
+            "拓荆科技",
+            "中微公司",
+            "北方华创"
+          ],
+          "processed_by": "tbox",
+          "processed_at": "2026-05-20T22:16:09.730041+08:00"
+        }
+      ],
+      "last_updated": "2026-05-20",
+      "processed_by": "tbox",
+      "processed_at": "2026-05-20T22:16:09.730019+08:00"
     }
   },
   "date": "2026-05-20",
-  "last_updated": "2026-05-20T11:49:11.686460+08:00",
+  "last_updated": "2026-05-20T22:16:09.826024+08:00",
   "processed_by": "tbox",
-  "processed_at": "2026-05-20T11:49:11.686462+08:00",
-  "update_count": 13
+  "processed_at": "2026-05-20T22:16:09.826034+08:00",
+  "update_count": 17
 }
