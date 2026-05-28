@@ -1,6 +1,6 @@
 {
   "date": "2026-05-28",
-  "update_count": 64,
+  "update_count": 89,
   "stocks": {
     "300316": {
       "name": "晶盛机电",
@@ -3091,6 +3091,1948 @@
       ],
       "mention_count": 1,
       "last_updated": "2026-05-28"
+    },
+    "002709": {
+      "mention_count": 2,
+      "last_updated": "2026-05-28",
+      "concepts": [
+        "回购增持再贷款概念",
+        "固态电池",
+        "动力电池回收",
+        "融资融券",
+        "宁德时代概念",
+        "2025年报预增",
+        "氟化工概念",
+        "锂电池概念",
+        "PEEK材料",
+        "同花顺漂亮100",
+        "深股通",
+        "比亚迪概念",
+        "有机硅概念",
+        "钠离子电池",
+        "特斯拉概念"
+      ],
+      "core_business": [
+        "已布局钠电体系电解液、新型钠盐和添加剂。"
+      ],
+      "articles": [
+        {
+          "date": "2026-04-26",
+          "title": "",
+          "source": "https://mp.weixin.qq.com/s/1UrR_XU4AtUNP5IbTuUUPQ",
+          "insights": [
+            "钠电池产业链相关公司：已布局钠电体系电解液、新型钠盐和添加剂。"
+          ]
+        },
+        {
+          "title": "5月27日上市公司晚间信息汇总",
+          "date": "2026-05-27",
+          "source": "https://mp.weixin.qq.com/s/7DKotArkps7s6fSmUMuJOQ",
+          "accidents": [
+            "子公司台州天赐拟开展年产16万吨高压实磷酸铁锂项目前期工作，预计总投资不超过21亿元"
+          ],
+          "insights": [
+            "磷酸铁锂正极材料扩产，巩固电解液龙头地位"
+          ],
+          "key_metrics": [
+            "年产16万吨高压实磷酸铁锂",
+            "总投资不超过21亿元"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "industry": "电力设备-电池-电池化学品",
+      "board": "SZ",
+      "code": "002709",
+      "name": "天赐材料"
+    },
+    "600585": {
+      "mention_count": 5,
+      "last_updated": "2026-05-28",
+      "concepts": [
+        "一带一路",
+        "沪股通",
+        "雅下水电概念",
+        "融资融券",
+        "储能",
+        "同花顺中特估100",
+        "证金持股",
+        "同花顺漂亮100",
+        "装配式建筑",
+        "国企改革",
+        "水泥概念"
+      ],
+      "articles": [
+        {
+          "date": "2025-09-25",
+          "title": "9月25日，热点关注，今日操作策略与风险提示，文末本周3篇报告",
+          "source": "https://mp.weixin.qq.com/s/uvITwnVH1eQO0Cx88_g9Tg",
+          "insights": [
+            "操作策略：逢低配置区域龙头，关注兼并重组及产能置换执行进度"
+          ]
+        },
+        {
+          "date": "2025-09-26",
+          "key_metrics": [
+            "水泥企业需在2025年底前对超出备案产能制定置换方案，促进实际产能与备案产能统一"
+          ],
+          "title": "9月26日，热点关注，今日操作策略与风险提示，文末本周3篇报告",
+          "source": "https://mp.weixin.qq.com/s/XGSqsT3RvBbu4ugLPYJntg",
+          "accidents": [
+            "政策推动行业供给侧进一步收紧"
+          ]
+        },
+        {
+          "date": "2025-07-03",
+          "key_metrics": [
+            "_逻辑_：区域协同限产（协会推动价格协调），库存压力小的龙头盈利修复弹性大，华东地区水泥价格上调20元/吨"
+          ],
+          "title": "“反内卷概念”深度解析与操作策略，底部盘中参考，7月3日",
+          "source": "https://mp.weixin.qq.com/s/L7UoXD0ZuxuhrKCg69Ja8Q"
+        },
+        {
+          "date": "2025-08-14",
+          "key_metrics": [
+            "3. **氨纶（供给突发收缩）**"
+          ],
+          "title": "热点关注，今日操作策略与风险提示，8月14日",
+          "source": "https://mp.weixin.qq.com/s/5diYauNPQrjutw1UWgNbEQ"
+        },
+        {
+          "title": "5月27日上市公司晚间信息汇总",
+          "date": "2026-05-27",
+          "source": "https://mp.weixin.qq.com/s/7DKotArkps7s6fSmUMuJOQ",
+          "accidents": [
+            "拟6亿元至10亿元回购A股股份，用于维护公司价值及股东权益"
+          ],
+          "insights": [
+            "大手笔回购彰显信心，水泥龙头价值回归"
+          ],
+          "key_metrics": [
+            "回购金额6-10亿元",
+            "回购价格上限27.71元/股"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "industry": "建筑材料-建筑材料-水泥",
+      "board": "SH",
+      "code": "600585",
+      "name": "海螺水泥"
+    },
+    "002745": {
+      "mention_count": 2,
+      "last_updated": "2026-05-28",
+      "concepts": [
+        "光伏概念",
+        "MicroLED概念",
+        "机器人概念",
+        "MiniLED",
+        "DeepSeek概念",
+        "人工智能",
+        "融资融券",
+        "储能",
+        "小米概念",
+        "人民币贬值受益",
+        "智能家居",
+        "粤港澳大湾区",
+        "PCB概念",
+        "深股通"
+      ],
+      "articles": [
+        {
+          "date": "2026-04-09",
+          "title": "【诗思浮沉樯影里，梦魂摇曳橹声中】-20260409",
+          "source": "https://mp.weixin.qq.com/s/aTxp_KtKx0p1VOq86rriQA",
+          "insights": [
+            "全球 LED 封装绝对龙头、中国照明领军企业"
+          ]
+        },
+        {
+          "title": "5月27日上市公司晚间信息汇总",
+          "date": "2026-05-27",
+          "source": "https://mp.weixin.qq.com/s/7DKotArkps7s6fSmUMuJOQ",
+          "accidents": [
+            "实控人孙清焕拟1亿元至1.5亿元增持公司股份"
+          ],
+          "insights": [
+            "实控人大额增持，彰显对公司未来发展信心"
+          ],
+          "key_metrics": [
+            "增持金额1-1.5亿元",
+            "增持期限6个月"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "industry": "电子-光学光电子-LED",
+      "board": "SZ",
+      "code": "002745",
+      "name": "木林森"
+    },
+    "002990": {
+      "mention_count": 3,
+      "last_updated": "2026-05-28",
+      "partners": [],
+      "concepts": [
+        "AIGC概念",
+        "AI算力",
+        "DeepSeek概念",
+        "GPU",
+        "一带一路",
+        "人工智能",
+        "人形机器人",
+        "人脸识别",
+        "传感器",
+        "信创",
+        "冷链物流",
+        "华为昇腾",
+        "华为概念",
+        "多模态AI",
+        "存储芯片",
+        "安防",
+        "数字经济",
+        "无人驾驶",
+        "智慧口岸",
+        "智慧城市",
+        "智慧政务",
+        "机器人概念",
+        "机器视觉",
+        "核污染防治",
+        "深股通",
+        "物联网",
+        "算力租赁",
+        "网络安全",
+        "芯片概念",
+        "语音技术",
+        "车联网(车路协同)",
+        "鸿蒙概念"
+      ],
+      "industry_position": [
+        "全球智慧口岸领军企业",
+        "最具弹性的算力租赁标的"
+      ],
+      "articles": [
+        {
+          "date": "2026-04-20",
+          "target_valuation": [
+            "目标市值：460亿",
+            "目标市值（亿）：460.0"
+          ],
+          "title": "盛视科技研究",
+          "source": "用户输入",
+          "insights": [
+            "11亿IT设备采购（GPU等算力硬件），230亿综合授信，算力租赁布局，智慧口岸+算力底座。"
+          ],
+          "accidents": [
+            "11亿IT设备采购（GPU等算力硬件），230亿综合授信，算力租赁布局，智慧口岸+算力底座。"
+          ]
+        },
+        {
+          "date": "2026-05-13",
+          "key_metrics": [
+            "拟采购 11 亿元 IT 设备",
+            "拟购买不超过 60 亿元 IT 设备",
+            "账上 13 亿元+现金",
+            "拟新增授信 230 亿元规划"
+          ],
+          "target_valuation": [
+            "主业智慧口岸 20 亿营收/4 亿净利润对应 100 亿市值",
+            "全年 300 亿元算力采购贡献 18 亿净利润对应 360 亿市值",
+            "合计 460 亿市值，潜在 4 倍空间"
+          ],
+          "title": "盛视科技，4倍空间？",
+          "source": "https://mp.weixin.qq.com/s/sigfZ1C0WssKuYFfv1jVLg",
+          "insights": [
+            "盛视科技是最具弹性的算力租赁标的之一",
+            "供应链+资金两方面均具备优势",
+            "新的 IT 设备签单将受益于市场价格上涨"
+          ],
+          "accidents": [
+            "4 月 14 日公告拟采购 11 亿元 IT 设备",
+            "5 月 11 日股东会表决同意拟购买不超过 60 亿元 IT 设备",
+            "GPU 租金持续上涨"
+          ]
+        },
+        {
+          "title": "5月27日上市公司晚间信息汇总",
+          "date": "2026-05-27",
+          "source": "https://mp.weixin.qq.com/s/7DKotArkps7s6fSmUMuJOQ",
+          "accidents": [
+            "全资子公司签署算力产业合作协议，业务体量折算合计约60亿元"
+          ],
+          "insights": [
+            "切入算力服务赛道，高性能服务器采购运维全流程服务"
+          ],
+          "key_metrics": [
+            "合作业务体量约60亿元",
+            "算力服务采购与运维全流程"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "board": "SZ",
+      "industry": "计算机-计算机设备-其他计算机设备",
+      "products": [],
+      "chain": [
+        "下游-算力服务",
+        "下游-智慧口岸解决方案"
+      ],
+      "name": "盛视科技",
+      "code": "002990",
+      "core_business": [
+        "算力租赁",
+        "智慧口岸"
+      ]
+    },
+    "688525": {
+      "mention_count": 5,
+      "last_updated": "2026-05-28",
+      "partners": [],
+      "concepts": [
+        "存储芯片",
+        "国家大基金持股",
+        "汽车芯片",
+        "AI手机",
+        "AI PC",
+        "先进封装",
+        "芯片概念",
+        "AI眼镜",
+        "2025年报预增",
+        "消费电子概念",
+        "智能穿戴",
+        "数据中心",
+        "小米概念",
+        "专精特新",
+        "华为概念",
+        "机器人概念",
+        "信创",
+        "粤港澳大湾区",
+        "阿里巴巴概念",
+        "沪股通",
+        "融资融券"
+      ],
+      "industry_position": [],
+      "articles": [
+        {
+          "date": "2026-01-18",
+          "key_metrics": [
+            "同比增长约294%",
+            "增长约294%"
+          ],
+          "title": "风口byTY",
+          "source": "https://mp.weixin.qq.com/s/sR3uiLQ28m7gn5tvJCtxTA"
+        },
+        {
+          "date": "2026-05-13",
+          "key_metrics": [],
+          "target_valuation": [],
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "insights": [
+            "AI驱动存储需求"
+          ],
+          "accidents": []
+        },
+        {
+          "date": "2026-05-13",
+          "key_metrics": [],
+          "target_valuation": [],
+          "title": "今天的一些信息整理5.12",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "insights": [
+            "AI驱动存储需求"
+          ],
+          "accidents": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/1rcJldV7tkIRSUGnc-NgQA",
+          "title": "阿里平头哥芯片概念股梳理",
+          "date": "2026-05-20",
+          "hot_topic": "平头哥芯片",
+          "accidents": [
+            "与平头哥合作开发基于镇岳510的SSD，预计2025年内面世"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "SSD产品"
+          ],
+          "industry_position": [
+            "平头哥存储生态伙伴"
+          ],
+          "chain": [
+            "下游-存储"
+          ],
+          "partners": [
+            "平头哥(阿里)"
+          ],
+          "processed_by": "tbox",
+          "processed_at": "2026-05-20T11:46:50.489885+08:00"
+        },
+        {
+          "title": "5月27日上市公司晚间信息汇总",
+          "date": "2026-05-27",
+          "source": "https://mp.weixin.qq.com/s/7DKotArkps7s6fSmUMuJOQ",
+          "accidents": [
+            "子公司海南南佰算继续向行云集成电路增资1000万元",
+            "拟1亿元参与设立产业基金，围绕存储+先进封装领域布局"
+          ],
+          "insights": [
+            "存储+先进封装双线布局，产业基金规模不超过5亿元"
+          ],
+          "key_metrics": [
+            "产业基金认购1亿元(20%)",
+            "行云集成电路增资完成"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "board": "SH",
+      "industry": "电子-半导体-数字芯片设计",
+      "products": [
+        "芯片",
+        "平台"
+      ],
+      "chain": [
+        "平台"
+      ],
+      "name": "佰维存储",
+      "code": "688525",
+      "core_business": [],
+      "processed_by": "tbox",
+      "processed_at": "2026-05-20T11:46:50.489890+08:00"
+    },
+    "301366": {
+      "mention_count": 2,
+      "last_updated": "2026-05-28",
+      "concepts": [
+        "数据中心",
+        "苹果概念",
+        "东数西算(算力)",
+        "车联网(车路协同)",
+        "5G",
+        "人工智能",
+        "融资融券",
+        "脑机接口",
+        "百度概念",
+        "专精特新",
+        "智能座舱",
+        "比亚迪概念",
+        "阿里巴巴概念",
+        "英伟达概念",
+        "腾讯概念",
+        "无人机",
+        "华为海思概念股",
+        "深股通",
+        "商业航天",
+        "机器人概念",
+        "芯片概念",
+        "人形机器人",
+        "汽车电子",
+        "飞行汽车(eVTOL)",
+        "电子-元件-印制电路板",
+        "无人驾驶",
+        "PCB概念",
+        "华为概念",
+        "低空经济"
+      ],
+      "articles": [
+        {
+          "date": "2025-07-02",
+          "key_metrics": [
+            "行业领先"
+          ],
+          "title": "301366  国内PCB服务龙头 印制电路板（PCB）一站式硬件创新服务商",
+          "source": "https://mp.weixin.qq.com/s/xJSQBuHRPINQjzpCMQnmFg"
+        },
+        {
+          "title": "5月27日上市公司晚间信息汇总",
+          "date": "2026-05-27",
+          "source": "https://mp.weixin.qq.com/s/7DKotArkps7s6fSmUMuJOQ",
+          "accidents": [
+            "光模块PCBA业务已进入量产阶段，光模块PCB预计年底具备量产能力"
+          ],
+          "insights": [
+            "为国内光模块头部企业提供PCBA生产服务，PCBA产能逐步释放"
+          ],
+          "key_metrics": [
+            "光模块PCBA已量产",
+            "年底PCB具备量产能力"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "industry": "电子-元件-印制电路板",
+      "board": "",
+      "code": "301366",
+      "name": "一博科技"
+    },
+    "002277": {
+      "code": "002277",
+      "name": "友阿股份",
+      "board": "",
+      "industry": "",
+      "concepts": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "valuation": {},
+      "articles": [
+        {
+          "title": "5月27日上市公司晚间信息汇总",
+          "date": "2026-05-27",
+          "source": "https://mp.weixin.qq.com/s/7DKotArkps7s6fSmUMuJOQ",
+          "accidents": [
+            "计划从传统百货业态切入功率半导体领域，打造第二增长曲线"
+          ],
+          "insights": [
+            "零售+半导体双主业驱动格局，并购重组实现战略转型"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-05-28"
+    },
+    "300408": {
+      "mention_count": 3,
+      "last_updated": "2026-05-28",
+      "partners": [],
+      "name": "三环集团",
+      "industry_position": [],
+      "articles": [
+        {
+          "date": "2026-02-09",
+          "key_metrics": [],
+          "target_valuation": [],
+          "title": "中瓷电子：我承认我有赌的成分",
+          "source": "https://mp.weixin.qq.com/s/GREOwxa2h65zOS6tNkU06Q",
+          "insights": [
+            "在中低端电子陶瓷市场，三环集团凭借产能规模更有优势。"
+          ],
+          "accidents": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/zG-hgh0BeRiRm9e4Fvx8yQ",
+          "title": "MLCC涨价逻辑全解析",
+          "date": "2026-05-27",
+          "hot_topic": "MLCC",
+          "accidents": [
+            "AI服务器GB300单台3万颗,NVL72达44万颗/$4600",
+            "村田/三星/太诱全线涨价15-35%",
+            "风华高科稼动率90%暂停接单",
+            "供需缺口至2027年",
+            "粉体100%自给堆叠1000层"
+          ],
+          "insights": [
+            "MLCC从电子工业大米→硬通货",
+            "26/27年AI MLCC需求726/1367亿颗(+87/88%)",
+            "月产550亿"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "MLCC制造"
+          ],
+          "industry_position": [
+            "电子陶瓷一体化标杆"
+          ],
+          "chain": [
+            "中游-MLCC"
+          ],
+          "partners": []
+        },
+        {
+          "title": "涨价潮持续：MLCC、PCB铜箔、工程机械、隔膜等多方向梳理",
+          "date": "2026-05-28",
+          "source": "https://mp.weixin.qq.com/s/sec4RgdVFVBC-nWwlu96pQ",
+          "accidents": [
+            "MLCC缺货涨价潮来临，三环集团作为国内MLCC原厂直接受益"
+          ],
+          "insights": [
+            "AI服务器对高容MLCC需求暴增，产能被AI挤占后消费电子和汽车供给缺口扩大"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "board": "SZ",
+      "industry": "电子-元件-被动元件",
+      "products": [],
+      "chain": [],
+      "concepts": [
+        "光纤概念",
+        "共封装光学(CPO)",
+        "5G",
+        "消费电子概念",
+        "燃料电池",
+        "小米概念",
+        "数据中心",
+        "华为概念",
+        "深股通",
+        "证金持股",
+        "融资融券"
+      ],
+      "code": "300408",
+      "core_business": []
+    },
+    "000636": {
+      "mention_count": 4,
+      "last_updated": "2026-05-28",
+      "partners": [],
+      "concepts": [
+        "小金属概念",
+        "超级电容",
+        "共封装光学(CPO)",
+        "AI眼镜",
+        "汽车电子",
+        "商业航天",
+        "5G",
+        "无人机",
+        "卫星导航",
+        "传感器",
+        "高压快充",
+        "液冷服务器",
+        "光伏概念",
+        "智能穿戴",
+        "比亚迪概念",
+        "低空经济",
+        "锂电池概念",
+        "机器人概念",
+        "储能",
+        "粤港澳大湾区",
+        "华为概念",
+        "国企改革",
+        "创投",
+        "东数西算(算力)",
+        "深股通",
+        "融资融券"
+      ],
+      "industry_position": [
+        "龙头",
+        "一是高端产能领先",
+        "国巨、风华高科等龙头",
+        "台系、韩系龙头",
+        "国内龙头"
+      ],
+      "articles": [
+        {
+          "date": "",
+          "key_metrics": [
+            "市占率约30% 作为全球第二、国内唯一高端钛酸钡粉体供应商",
+            "产能600亿只",
+            "领先者"
+          ],
+          "title": "风口byTY",
+          "source": "",
+          "insights": [
+            "直接受益AI服务器与汽车电子需求"
+          ],
+          "accidents": [
+            "继存储芯片涨价潮后，",
+            "成为新一轮涨价主线——韩国现货价飙升近20%，"
+          ]
+        },
+        {
+          "date": "2026-05-13",
+          "key_metrics": [],
+          "target_valuation": [],
+          "title": "今天的一些信息整理5.12",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "insights": [],
+          "accidents": [
+            "MLCC涨价"
+          ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/zG-hgh0BeRiRm9e4Fvx8yQ",
+          "title": "MLCC涨价逻辑全解析",
+          "date": "2026-05-27",
+          "hot_topic": "MLCC",
+          "accidents": [
+            "AI服务器GB300单台3万颗,NVL72达44万颗/$4600",
+            "村田/三星/太诱全线涨价15-35%",
+            "风华高科稼动率90%暂停接单",
+            "供需缺口至2027年",
+            "月产635亿只(A股第一)暂停接单"
+          ],
+          "insights": [
+            "MLCC从电子工业大米→硬通货",
+            "26/27年AI MLCC需求726/1367亿颗(+87/88%)",
+            "已提价8-25%"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "MLCC制造"
+          ],
+          "industry_position": [
+            "国内最大,全球第八"
+          ],
+          "chain": [
+            "中游-MLCC"
+          ],
+          "partners": []
+        },
+        {
+          "title": "涨价潮持续：MLCC、PCB铜箔、工程机械、隔膜等多方向梳理",
+          "date": "2026-05-28",
+          "source": "https://mp.weixin.qq.com/s/sec4RgdVFVBC-nWwlu96pQ",
+          "accidents": [
+            "风华高科稼动率已达90%，暂停0402/0603 MLCC和电阻接单"
+          ],
+          "insights": [
+            "MLCC产能利用率高位运行，涨价周期受益确定性高"
+          ],
+          "key_metrics": [
+            "稼动率90%",
+            "暂停接单0402/0603"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "board": "SZ",
+      "industry": "电子-元件-被动元件",
+      "products": [
+        "芯片",
+        "服务器"
+      ],
+      "chain": [
+        "服务",
+        "上游-材料"
+      ],
+      "name": "风华高科",
+      "code": "000636",
+      "core_business": [
+        "全球第二、国内唯一高端钛酸钡粉体供应商"
+      ]
+    },
+    "688260": {
+      "code": "688260",
+      "name": "昀冢科技",
+      "mention_count": 2,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/zG-hgh0BeRiRm9e4Fvx8yQ",
+          "title": "MLCC涨价逻辑全解析",
+          "date": "2026-05-27",
+          "hot_topic": "MLCC",
+          "accidents": [
+            "AI服务器GB300单台3万颗,NVL72达44万颗/$4600",
+            "村田/三星/太诱全线涨价15-35%",
+            "风华高科稼动率90%暂停接单",
+            "供需缺口至2027年",
+            "获融资加速布局国产替代"
+          ],
+          "insights": [
+            "MLCC从电子工业大米→硬通货",
+            "26/27年AI MLCC需求726/1367亿颗(+87/88%)",
+            "陶瓷热沉"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "MLCC"
+          ],
+          "industry_position": [
+            "后起之秀"
+          ],
+          "chain": [
+            "中游-MLCC"
+          ],
+          "partners": []
+        },
+        {
+          "title": "涨价潮持续：MLCC、PCB铜箔、工程机械、隔膜等多方向梳理",
+          "date": "2026-05-28",
+          "source": "https://mp.weixin.qq.com/s/sec4RgdVFVBC-nWwlu96pQ",
+          "accidents": [],
+          "insights": [
+            "MLCC产业链相关标的，受益于MLCC涨价周期"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-28"
+    },
+    "301013": {
+      "mention_count": 4,
+      "last_updated": "2026-05-28",
+      "concepts": [
+        "新型工业化",
+        "液冷服务器",
+        "储能",
+        "专精特新",
+        "富士康概念",
+        "比亚迪概念",
+        "华为昇腾",
+        "新能源汽车",
+        "深股通",
+        "高端装备",
+        "柔性屏(折叠屏)",
+        "芯片概念",
+        "OLED",
+        "人形机器人",
+        "华为汽车",
+        "华为概念",
+        "5G",
+        "融资融券",
+        "智能座舱",
+        "无线耳机",
+        "医疗器械概念",
+        "充电桩",
+        "机器人概念",
+        "消费电子概念",
+        "光芯片",
+        "自动化",
+        "老化测试",
+        "PCB概念",
+        "机器视觉"
+      ],
+      "articles": [
+        {
+          "date": "",
+          "title": "风口byTY",
+          "source": ""
+        },
+        {
+          "date": "2026-04-16",
+          "title": "利和兴(301013) - 光芯片产业链核心标的",
+          "source": "用户输入-光芯片产业链",
+          "insights": [
+            "高速光模块测试工序的补充标的"
+          ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/zG-hgh0BeRiRm9e4Fvx8yQ",
+          "title": "MLCC涨价逻辑全解析",
+          "date": "2026-05-27",
+          "hot_topic": "MLCC",
+          "accidents": [
+            "AI服务器GB300单台3万颗,NVL72达44万颗/$4600",
+            "村田/三星/太诱全线涨价15-35%",
+            "风华高科稼动率90%暂停接单",
+            "供需缺口至2027年",
+            "受益全产业链扩产"
+          ],
+          "insights": [
+            "MLCC从电子工业大米→硬通货",
+            "26/27年AI MLCC需求726/1367亿颗(+87/88%)"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "MLCC设备"
+          ],
+          "industry_position": [
+            "检测分选卡位"
+          ],
+          "chain": [
+            "中游-MLCC"
+          ],
+          "partners": []
+        },
+        {
+          "title": "涨价潮持续：MLCC、PCB铜箔、工程机械、隔膜等多方向梳理",
+          "date": "2026-05-28",
+          "source": "https://mp.weixin.qq.com/s/sec4RgdVFVBC-nWwlu96pQ",
+          "accidents": [],
+          "insights": [
+            "MLCC产业链相关标的，受益于MLCC涨价周期"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "industry": "机械设备-专用设备-其他专用设备",
+      "board": "SZ",
+      "code": "301013",
+      "name": "利和兴"
+    },
+    "002859": {
+      "mention_count": 3,
+      "last_updated": "2026-05-28",
+      "concepts": [
+        "一带一路",
+        "融资融券",
+        "PET铜箔",
+        "可控核聚变",
+        "电子元器件",
+        "宁德时代概念",
+        "专精特新",
+        "离型膜",
+        "深股通",
+        "商业航天",
+        "消费电子概念",
+        "超导概念",
+        "固态电池",
+        "光刻机",
+        "涨价",
+        "锂电池概念"
+      ],
+      "industry_position": [
+        "国内稀缺的超精密光学加工装备厂商"
+      ],
+      "articles": [
+        {
+          "date": "2026-04-19",
+          "key_metrics": [
+            "离型膜/CPP膜涨价30%-45%",
+            "塑料载带涨价15%-25%",
+            "PET胶带涨价25%-35%"
+          ],
+          "title": "主营产品全面涨价，拟收购埃福思进军光刻机和商业航天领域",
+          "source": "manual_input",
+          "insights": [
+            "埃福思是国内稀缺的超精密光学加工装备厂商，离子束抛光机居国内前列",
+            "预计持续受益于国产光刻机和商业航天产业机遇"
+          ],
+          "accidents": [
+            "2026年4月1日起主营产品全面涨价，离型膜/CPP膜涨价30%-45%",
+            "拟收购埃福思进军光刻机和商业航天领域"
+          ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/zG-hgh0BeRiRm9e4Fvx8yQ",
+          "title": "MLCC涨价逻辑全解析",
+          "date": "2026-05-27",
+          "hot_topic": "MLCC",
+          "accidents": [
+            "AI服务器GB300单台3万颗,NVL72达44万颗/$4600",
+            "村田/三星/太诱全线涨价15-35%",
+            "风华高科稼动率90%暂停接单",
+            "供需缺口至2027年",
+            "4月出货超2700万m2"
+          ],
+          "insights": [
+            "MLCC从电子工业大米→硬通货",
+            "26/27年AI MLCC需求726/1367亿颗(+87/88%)"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "MLCC离型膜"
+          ],
+          "industry_position": [
+            "国内龙头打入三星/村田"
+          ],
+          "chain": [
+            "中游-MLCC"
+          ],
+          "partners": []
+        },
+        {
+          "title": "涨价潮持续：MLCC、PCB铜箔、工程机械、隔膜等多方向梳理",
+          "date": "2026-05-28",
+          "source": "https://mp.weixin.qq.com/s/sec4RgdVFVBC-nWwlu96pQ",
+          "accidents": [],
+          "insights": [
+            "纸质载带龙头，MLCC上游核心材料供应商，受益于MLCC扩产涨价"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "industry": "电子-其他电子-其他电子Ⅲ",
+      "board": "SZ",
+      "products": [
+        "离型膜",
+        "CPP膜",
+        "塑料载带",
+        "PET胶带",
+        "纸质载带"
+      ],
+      "chain": [
+        "电子-中游-被动元件",
+        "半导体-上游-光刻机设备"
+      ],
+      "partners": [
+        "福晶科技",
+        "茂莱光学",
+        "波长光电",
+        "长光卫星",
+        "至期光子"
+      ],
+      "core_business": [
+        "电子元器件制造",
+        "超精密光学加工装备"
+      ],
+      "code": "002859",
+      "name": "洁美科技"
+    },
+    "605376": {
+      "mention_count": 4,
+      "last_updated": "2026-05-28",
+      "partners": [
+        "三星"
+      ],
+      "code": "605376",
+      "articles": [
+        {
+          "date": "2025-08-01",
+          "title": "风口byTY",
+          "source": "https://mp.weixin.qq.com/s/M-ICFAKKMZPgG4cWA18QhA"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/CFt7jVFZlBidyq2Iv6UUXw",
+          "title": "0519信息整理",
+          "date": "2026-05-19",
+          "accidents": [
+            "MLCC涨价潮,全球高端MLCC短缺",
+            "博迁港股上市推进国际化"
+          ],
+          "insights": [
+            "AI让小型化高容量MLCC爆发需求",
+            "50%+出货给三星电机(影子股)"
+          ],
+          "key_metrics": [
+            "去年2亿→今年8-10亿→明年15-20亿",
+            "三星电机近50亿订单"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "超细镍粉(MLCC)"
+          ],
+          "industry_position": [
+            "80纳米以下镍粉全球唯一供应商"
+          ],
+          "chain": [
+            "上游-MLCC材料"
+          ],
+          "partners": [
+            "三星电机"
+          ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/zG-hgh0BeRiRm9e4Fvx8yQ",
+          "title": "MLCC涨价逻辑全解析",
+          "date": "2026-05-27",
+          "hot_topic": "MLCC",
+          "accidents": [
+            "AI服务器GB300单台3万颗,NVL72达44万颗/$4600",
+            "村田/三星/太诱全线涨价15-35%",
+            "风华高科稼动率90%暂停接单",
+            "供需缺口至2027年",
+            "覆盖村田/三星/国巨"
+          ],
+          "insights": [
+            "MLCC从电子工业大米→硬通货",
+            "26/27年AI MLCC需求726/1367亿颗(+87/88%)",
+            "640吨超细粉体"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "MLCC镍粉"
+          ],
+          "industry_position": [
+            "全球领先国内唯一小粒径"
+          ],
+          "chain": [
+            "中游-MLCC"
+          ],
+          "partners": []
+        },
+        {
+          "title": "涨价潮持续：MLCC、PCB铜箔、工程机械、隔膜等多方向梳理",
+          "date": "2026-05-28",
+          "source": "https://mp.weixin.qq.com/s/sec4RgdVFVBC-nWwlu96pQ",
+          "accidents": [],
+          "insights": [
+            "MLCC上游镍粉/铜粉供应商，受益于MLCC涨价周期"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "board": "SH",
+      "industry": "有色金属-能源金属-镍",
+      "chain": [
+        "上游-材料"
+      ],
+      "concepts": [
+        "光伏概念",
+        "沪股通",
+        "融资融券",
+        "人民币贬值受益",
+        "专精特新",
+        "金属镍",
+        "小金属概念",
+        "硅能源",
+        "3D打印",
+        "2025年报预增",
+        "锂电池概念"
+      ],
+      "name": "博迁新材"
+    },
+    "300285": {
+      "mention_count": 3,
+      "last_updated": "2026-05-28",
+      "concepts": [
+        "5G",
+        "融资融券",
+        "宁德时代概念",
+        "比亚迪概念",
+        "氢能源",
+        "新能源汽车",
+        "深股通",
+        "商业航天",
+        "消费电子概念",
+        "固态电池",
+        "芯片概念",
+        "牙科医疗",
+        "3D打印",
+        "锂电池概念",
+        "卫星导航"
+      ],
+      "articles": [
+        {
+          "date": "2026-01-02",
+          "title": "风口byTY",
+          "source": "https://mp.weixin.qq.com/s/nKPpwprD5jWDBIZf1bjblA"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/zG-hgh0BeRiRm9e4Fvx8yQ",
+          "title": "MLCC涨价逻辑全解析",
+          "date": "2026-05-27",
+          "hot_topic": "MLCC",
+          "accidents": [
+            "AI服务器GB300单台3万颗,NVL72达44万颗/$4600",
+            "村田/三星/太诱全线涨价15-35%",
+            "风华高科稼动率90%暂停接单",
+            "供需缺口至2027年",
+            "覆盖村田/三星/风华/三环"
+          ],
+          "insights": [
+            "MLCC从电子工业大米→硬通货",
+            "26/27年AI MLCC需求726/1367亿颗(+87/88%)",
+            "AI车规粉体扩产"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "MLCC介质粉体"
+          ],
+          "industry_position": [
+            "全球龙头国内唯一高端"
+          ],
+          "chain": [
+            "中游-MLCC"
+          ],
+          "partners": []
+        },
+        {
+          "title": "涨价潮持续：MLCC、PCB铜箔、工程机械、隔膜等多方向梳理",
+          "date": "2026-05-28",
+          "source": "https://mp.weixin.qq.com/s/sec4RgdVFVBC-nWwlu96pQ",
+          "accidents": [],
+          "insights": [
+            "MLCC上游陶瓷粉体材料供应商，受益于MLCC扩产涨价"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "industry": "电子-电子化学品-电子化学品Ⅲ",
+      "board": "SZ",
+      "chain": [
+        "上游-材料"
+      ],
+      "code": "300285",
+      "name": "国瓷材料"
+    },
+    "002138": {
+      "mention_count": 3,
+      "last_updated": "2026-05-28",
+      "partners": [],
+      "concepts": [
+        "5G",
+        "深股通",
+        "储能",
+        "融资融券",
+        "无人机",
+        "机器人",
+        "小米概念",
+        "无线充电",
+        "芯片概念",
+        "移动支付",
+        "汽车电子",
+        "数据中心",
+        "电感",
+        "6G概念",
+        "华为概念",
+        "电子元器件",
+        "回购增持再贷款概念",
+        "AI眼镜",
+        "PCB概念",
+        "新能源汽车",
+        "创投",
+        "荣耀产业链",
+        "传感器",
+        "智能穿戴",
+        "消费电子概念",
+        "燃料电池",
+        "固态电池",
+        "物联网",
+        "光伏概念"
+      ],
+      "industry_position": [],
+      "articles": [
+        {
+          "date": "2026-01-14",
+          "title": "风口byTY",
+          "source": "https://mp.weixin.qq.com/s/tFcM58wWuevv-IRAvIWCYQ",
+          "insights": [
+            "【弹性先锋】顺络电子：涨价直接受益，"
+          ],
+          "accidents": [
+            "顺络电子：涨价潮里的“弹性王”，",
+            "【弹性先锋】顺络电子：涨价直接受益，"
+          ]
+        },
+        {
+          "date": "2026-04-21",
+          "key_metrics": [
+            "电感国内市占率第一",
+            "机器人传感器已量产"
+          ],
+          "target_valuation": [],
+          "title": "荣耀机器人 IPO 受益，电感龙头布局机器人传感器",
+          "source": "manual_input",
+          "insights": [
+            "国内电感行业龙头，技术实力雄厚",
+            "机器人传感器产品已导入荣耀供应链",
+            "受益荣耀机器人量产放量"
+          ],
+          "accidents": [
+            "荣耀机器人启动 A 股 IPO"
+          ]
+        },
+        {
+          "title": "涨价潮持续：MLCC、PCB铜箔、工程机械、隔膜等多方向梳理",
+          "date": "2026-05-28",
+          "source": "https://mp.weixin.qq.com/s/sec4RgdVFVBC-nWwlu96pQ",
+          "accidents": [],
+          "insights": [
+            "电感/电阻配套龙头，AI服务器带动被动元器件用量暴增"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "board": "SZ",
+      "industry": "电子-元件-被动元件",
+      "products": [],
+      "chain": [],
+      "name": "顺络电子",
+      "code": "002138",
+      "core_business": []
+    },
+    "301458": {
+      "code": "301458",
+      "name": "钧崴电子",
+      "board": "",
+      "industry": "",
+      "concepts": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "valuation": {},
+      "articles": [
+        {
+          "title": "涨价潮持续：MLCC、PCB铜箔、工程机械、隔膜等多方向梳理",
+          "date": "2026-05-28",
+          "source": "https://mp.weixin.qq.com/s/sec4RgdVFVBC-nWwlu96pQ",
+          "accidents": [],
+          "insights": [
+            "电流感测电阻、熔断器龙头，AI服务器被动元器件需求拉动"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-05-28"
+    },
+    "002636": {
+      "mention_count": 3,
+      "last_updated": "2026-05-28",
+      "concepts": [
+        "消毒剂",
+        "5G 概念",
+        "集成电路",
+        "融资融券",
+        "覆铜板",
+        "2025年报预增",
+        "新能源汽车",
+        "PCB概念",
+        "华为概念",
+        "医疗器械概念",
+        "深股通"
+      ],
+      "industry_position": [
+        "国内覆铜板行业龙头",
+        "全球市场份额领先"
+      ],
+      "articles": [
+        {
+          "date": "2026-03-19",
+          "key_metrics": [
+            "Q1 单季度产品涨价超 30%",
+            "Q4 单季度涨价 10%+",
+            "利润率有望逐季拉升"
+          ],
+          "target_valuation": [
+            "26-27 年保守预计 17e、25e 利润",
+            "当下对应估值仅 14/9x PE",
+            "市值仍有一倍以上的向上空间"
+          ],
+          "title": "金安国纪，翻倍空间？",
+          "source": "https://mp.weixin.qq.com/s/M9PN5-Vl1-vkX1IyT1b-Dg",
+          "insights": [
+            "看好金安国纪的长期成长空间",
+            "AI 算力对 CCL 及上游主材的需求旺盛",
+            "高速等高端材料储备"
+          ],
+          "accidents": [
+            "CCL 涨价超 30%",
+            "业绩高弹性释放"
+          ]
+        },
+        {
+          "date": "2026-03-19",
+          "title": "金安国纪：CCL 涨价持续，Q2 业绩有望翻倍",
+          "source": "https://mp.weixin.qq.com/s/test-article-2"
+        },
+        {
+          "title": "涨价潮持续：MLCC、PCB铜箔、工程机械、隔膜等多方向梳理",
+          "date": "2026-05-28",
+          "source": "https://mp.weixin.qq.com/s/sec4RgdVFVBC-nWwlu96pQ",
+          "accidents": [
+            "Q1涨价幅度超30%，远高于行业均值15%"
+          ],
+          "insights": [
+            "覆铜板CCL涨价弹性最大标的",
+            "客户结构以中小PCB厂为主，议价能力强，涨价传导顺畅",
+            "玻纤布自供率超50%，对冲原材料涨价"
+          ],
+          "key_metrics": [
+            "Q1涨价幅度超30%",
+            "行业均值15%",
+            "玻纤布自供率>50%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "industry": "电子-元件-印制电路板",
+      "board": "",
+      "products": [
+        "覆铜板",
+        "粘结片",
+        "半固化片",
+        "铝基覆铜板"
+      ],
+      "core_business": [
+        "覆铜板研发、生产和销售"
+      ],
+      "code": "002636",
+      "name": "金安国纪"
+    },
+    "301511": {
+      "code": "301511",
+      "name": "德福科技",
+      "mention_count": 2,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/0-RwJpl1RUyjkkoMVdumMg",
+          "title": "载体铜箔(MSAP)概念详细梳理",
+          "date": "2026-05-23",
+          "accidents": [
+            "1.6T光模块100%采用MSAP工艺",
+            "27年1.6T光模块8000万只,载体铜箔增量市场12亿+",
+            "三井金属垄断90%,扩产缓慢,国产替代窗口打开",
+            "通过存储芯片龙头认证并批量供货",
+            "适配AI服务器PCB与1.6T光模块",
+            "现有230万平产能,27年达1000万平/年"
+          ],
+          "insights": [
+            "载体铜箔毛利率40-55%净利率70%,远高于传统铜箔",
+            "光模块+HBM存储双驱动,国产化率将从<10%→50%+",
+            "量产进度领先"
+          ],
+          "key_metrics": [
+            ""
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "3μm PET载体铜箔",
+            "HVLP低轮廓铜箔"
+          ],
+          "industry_position": [
+            "国内量产最快",
+            "英伟达供应链参与者"
+          ],
+          "chain": [
+            "上游-载体铜箔材料"
+          ],
+          "partners": [],
+          "processed_by": "tbox",
+          "processed_at": "2026-05-23T21:40:13.059420+08:00"
+        },
+        {
+          "title": "涨价潮持续：MLCC、PCB铜箔、工程机械、隔膜等多方向梳理",
+          "date": "2026-05-28",
+          "source": "https://mp.weixin.qq.com/s/sec4RgdVFVBC-nWwlu96pQ",
+          "accidents": [
+            "下月铜箔涨价继续落地约2美元/kg"
+          ],
+          "insights": [
+            "头部铜箔厂产能基本打满，锂电和PCB铜箔互相抢产能，涨价将持续"
+          ],
+          "key_metrics": [
+            "涨价约2美元/kg"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-05-28",
+      "processed_by": "tbox",
+      "processed_at": "2026-05-23T21:40:13.059419+08:00"
+    },
+    "600031": {
+      "mention_count": 6,
+      "last_updated": "2026-05-28",
+      "partners": [
+        "7. **金融与高股息防御**"
+      ],
+      "concepts": [
+        "同花顺出海50",
+        "雅下水电概念",
+        "人民币贬值受益",
+        "高端装备",
+        "无人驾驶",
+        "农机",
+        "机器人概念",
+        "工业互联网",
+        "一带一路",
+        "同花顺漂亮100",
+        "证金持股",
+        "沪股通",
+        "融资融券",
+        "新疆振兴"
+      ],
+      "industry_position": [],
+      "articles": [
+        {
+          "date": "2025-04-07",
+          "key_metrics": [
+            "电力设备（\\-261.04亿元）：光伏（隆基绿能，601012）、风电（明阳智能，601615）龙头遭外资抛售"
+          ],
+          "title": "上周复盘及操作建议-实时更新自动回复“今日标的”",
+          "source": "https://mp.weixin.qq.com/s/IrfiJ_hpbPVHzj2a8vLKpA",
+          "insights": [
+            "电力设备（\\-261.04亿元）"
+          ]
+        },
+        {
+          "date": "2025-07-14",
+          "key_metrics": [
+            "#### **2\\. 轮动机会：业绩验证+事件催化**"
+          ],
+          "title": "上周市场复盘及本周操作策略-底部尾盘参考，7月14日",
+          "source": "https://mp.weixin.qq.com/s/zyn7QY6YaPrJns2NIQNUlg",
+          "accidents": [
+            "#### 2\\. 轮动机会"
+          ]
+        },
+        {
+          "date": "2025-03-24",
+          "title": "上周市场趋势判断，今日操盘参考",
+          "source": "https://mp.weixin.qq.com/s/uwycv8yCH6wEeiQtiZx_kQ",
+          "insights": [
+            "海外出口占比高"
+          ]
+        },
+        {
+          "date": "2025-12-29",
+          "title": "卖方本周策略，沪指八连阳后“春季躁动”共识逐步形成布局兼顾科技成长与顺周期，12月29日，星期一",
+          "source": "https://mp.weixin.qq.com/s/DwTtLbBbZLLshjl0XUW3sA",
+          "insights": [
+            "金融与高股息防御"
+          ]
+        },
+        {
+          "date": "2026-05-13",
+          "key_metrics": [
+            "工程机械出海"
+          ],
+          "target_valuation": [],
+          "title": "今天的一些信息整理5.12",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "insights": [],
+          "accidents": [
+            "4月挖机数据超预期"
+          ]
+        },
+        {
+          "title": "涨价潮持续：MLCC、PCB铜箔、工程机械、隔膜等多方向梳理",
+          "date": "2026-05-28",
+          "source": "https://mp.weixin.qq.com/s/sec4RgdVFVBC-nWwlu96pQ",
+          "accidents": [
+            "5月15日起挖机涨价5%"
+          ],
+          "insights": [
+            "工程机械价格战趋缓，行业从便宜优先转向保护利润",
+            "4月挖机内销同比涨35%，出口涨23%",
+            "价格战趋缓+销量超预期=双击"
+          ],
+          "key_metrics": [
+            "挖机涨价5%",
+            "4月内销同比+35%",
+            "4月出口同比+23%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "board": "SH",
+      "industry": "机械设备-工程机械-工程机械Ⅲ",
+      "products": [],
+      "chain": [],
+      "name": "三一重工",
+      "code": "600031",
+      "core_business": []
+    },
+    "000425": {
+      "mention_count": 5,
+      "last_updated": "2026-05-28",
+      "partners": [],
+      "concepts": [
+        "同花顺出海50",
+        "雅下水电概念",
+        "农机",
+        "高端装备",
+        "一带一路",
+        "军工",
+        "国企改革",
+        "无人驾驶",
+        "证金持股",
+        "机器人概念",
+        "工业互联网",
+        "深股通",
+        "融资融券"
+      ],
+      "industry_position": [
+        "龙头",
+        "作为装备制造行业龙头"
+      ],
+      "articles": [
+        {
+          "date": "2025-03-24",
+          "title": "上周市场趋势判断，今日操盘参考",
+          "source": "https://mp.weixin.qq.com/s/uwycv8yCH6wEeiQtiZx_kQ",
+          "insights": [
+            "估值低位，氢能机械布局领先"
+          ]
+        },
+        {
+          "date": "2025-07-10",
+          "key_metrics": [
+            "中东占35%"
+          ],
+          "title": "昨日市场复盘及操作策略，底部尾盘参考，7月10日",
+          "source": "https://mp.weixin.qq.com/s/ZF2KyVxAyMpQCAHNn3vA5g"
+        },
+        {
+          "date": "2026-05-13",
+          "key_metrics": [],
+          "target_valuation": [],
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "insights": [
+            "工程机械板块"
+          ],
+          "accidents": []
+        },
+        {
+          "date": "2026-05-13",
+          "key_metrics": [],
+          "target_valuation": [],
+          "title": "今天的一些信息整理5.12",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "insights": [
+            "工程机械板块"
+          ],
+          "accidents": []
+        },
+        {
+          "title": "涨价潮持续：MLCC、PCB铜箔、工程机械、隔膜等多方向梳理",
+          "date": "2026-05-28",
+          "source": "https://mp.weixin.qq.com/s/sec4RgdVFVBC-nWwlu96pQ",
+          "accidents": [
+            "6月1日起挖机涨价3%到5%"
+          ],
+          "insights": [
+            "工程机械行业涨价潮，原材料价格上涨推动，行业集中度提升"
+          ],
+          "key_metrics": [
+            "挖机涨价3%-5%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "board": "SZ",
+      "industry": "机械设备-工程机械-工程机械Ⅲ",
+      "products": [],
+      "chain": [
+        "中游-制造"
+      ],
+      "name": "徐工机械",
+      "code": "000425",
+      "core_business": []
+    },
+    "000528": {
+      "mention_count": 3,
+      "last_updated": "2026-05-28",
+      "partners": [],
+      "concepts": [
+        "DeepSeek概念",
+        "一带一路",
+        "中俄贸易概念",
+        "农机",
+        "回购增持再贷款概念",
+        "国企改革",
+        "新型城镇化",
+        "新疆振兴",
+        "无人驾驶",
+        "机器人概念",
+        "核电",
+        "水利",
+        "海工装备",
+        "深市主板",
+        "深股通",
+        "融资融券",
+        "西部大开发",
+        "雅下水电概念",
+        "风电",
+        "高端装备"
+      ],
+      "industry_position": [],
+      "articles": [
+        {
+          "date": "2026-05-13",
+          "key_metrics": [],
+          "target_valuation": [],
+          "title": "AI算力产业链/半导体国产替代/新兴科技",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "insights": [
+            "工程机械板块"
+          ],
+          "accidents": []
+        },
+        {
+          "date": "2026-05-13",
+          "key_metrics": [],
+          "target_valuation": [],
+          "title": "今天的一些信息整理5.12",
+          "source": "https://mp.weixin.qq.com/s/HwKbDa10tWhMsm0RmgfVjg",
+          "insights": [
+            "工程机械板块"
+          ],
+          "accidents": []
+        },
+        {
+          "title": "涨价潮持续：MLCC、PCB铜箔、工程机械、隔膜等多方向梳理",
+          "date": "2026-05-28",
+          "source": "https://mp.weixin.qq.com/s/sec4RgdVFVBC-nWwlu96pQ",
+          "accidents": [
+            "5月20日起挖机涨价5%"
+          ],
+          "insights": [
+            "工程机械行业涨价潮，原材料价格上涨推动"
+          ],
+          "key_metrics": [
+            "挖机涨价5%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "board": "",
+      "industry": "机械设备-工程机械-工程机械Ⅲ",
+      "products": [],
+      "chain": [],
+      "name": "柳工",
+      "code": "000528",
+      "core_business": []
+    },
+    "002812": {
+      "mention_count": 3,
+      "last_updated": "2026-05-28",
+      "concepts": [
+        "充电桩",
+        "消费电子概念",
+        "固态电池",
+        "人工智能",
+        "融资融券",
+        "宁德时代概念",
+        "锂电池概念",
+        "储能",
+        "烟草",
+        "同花顺漂亮100",
+        "专精特新",
+        "比亚迪概念",
+        "西部大开发",
+        "新能源汽车",
+        "深股通"
+      ],
+      "core_business": [
+        "隔膜工艺可迁移至钠电池隔膜生产。"
+      ],
+      "articles": [
+        {
+          "date": "2026-04-26",
+          "title": "",
+          "source": "https://mp.weixin.qq.com/s/1UrR_XU4AtUNP5IbTuUUPQ",
+          "insights": [
+            "钠电池产业链相关公司：隔膜工艺可迁移至钠电池隔膜生产。"
+          ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/pcXPTUeL8XgTMBwBaGwQsg",
+          "title": "摩根大通——恩捷股份（002812）——维持超配，目标价100元",
+          "date": "2026-05-24",
+          "accidents": [
+            "新增50亿m²湿法隔膜产能(四川自贡40亿投资),主要为中创新航供货",
+            "终止收购中科华联,但仍向其采购设备"
+          ],
+          "insights": [
+            "2026-2027年全球湿法隔膜供需持续紧张,产能利用率73%→83%",
+            "新增产能2028年才释放,近两年供需格局不受影响",
+            "量价齐升驱动业绩与股价"
+          ],
+          "key_metrics": [
+            "年内涨幅约55%,高点87.71元",
+            "2026年产能利用率73%,2027年83%",
+            "20倍2027年PE(低于历史区间)"
+          ],
+          "target_valuation": [
+            "摩根大通目标价100元(2026年底,超配)",
+            "20x 2027E PE"
+          ],
+          "core_business": [
+            "湿法锂电隔膜"
+          ],
+          "industry_position": [
+            "全球湿法隔膜龙头"
+          ],
+          "chain": [
+            "上游-锂电材料"
+          ],
+          "partners": [
+            "中创新航(CALB)"
+          ],
+          "processed_by": "tbox",
+          "processed_at": "2026-05-24T23:14:11.059226+08:00"
+        },
+        {
+          "title": "涨价潮持续：MLCC、PCB铜箔、工程机械、隔膜等多方向梳理",
+          "date": "2026-05-28",
+          "source": "https://mp.weixin.qq.com/s/sec4RgdVFVBC-nWwlu96pQ",
+          "accidents": [
+            "Q2涨价10%落地",
+            "拟收购SK在中国9.4亿平湿法隔膜产能"
+          ],
+          "insights": [
+            "收购SK产能后行业格局进一步优化，产能缺口被缓解同时集中度提高",
+            "预计26年全年单平利润0.15元可期"
+          ],
+          "key_metrics": [
+            "Q2涨价10%",
+            "收购9.4亿平湿法隔膜产能",
+            "预计26年单平利润0.15元"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "industry": "电力设备-电池-电池化学品",
+      "board": "SZ",
+      "code": "002812",
+      "name": "恩捷股份",
+      "processed_by": "tbox",
+      "processed_at": "2026-05-24T23:14:11.059234+08:00"
+    },
+    "603733": {
+      "code": "603733",
+      "name": "仙鹤股份",
+      "board": "",
+      "industry": "",
+      "concepts": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "valuation": {},
+      "articles": [
+        {
+          "title": "涨价潮持续：MLCC、PCB铜箔、工程机械、隔膜等多方向梳理",
+          "date": "2026-05-28",
+          "source": "https://mp.weixin.qq.com/s/sec4RgdVFVBC-nWwlu96pQ",
+          "accidents": [
+            "2026年以来已对多类产品实施多轮涨价"
+          ],
+          "insights": [
+            "格拉辛纸1月起涨价，转印/热敏/食品/工业用纸3月起调价",
+            "电解电容器纸5月初涨10%",
+            "AI服务器对电解电容器纸需求拉动是核心增量驱动力"
+          ],
+          "key_metrics": [
+            "格拉辛纸1月起涨",
+            "电解电容器纸涨10%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-05-28"
+    },
+    "688981": {
+      "mention_count": 2,
+      "last_updated": "2026-05-28",
+      "concepts": [
+        "上海自贸区",
+        "消费电子概念",
+        "沪股通",
+        "芯片概念",
+        "融资融券",
+        "汽车电子",
+        "中国AI 50",
+        "中芯国际概念",
+        "同花顺漂亮100",
+        "存储芯片",
+        "物联网",
+        "芯片制造",
+        "超节点",
+        "国家大基金持股",
+        "半导体"
+      ],
+      "core_business": [
+        "承担昇腾910C等芯片量产，是国产超节点芯片制造的核心供应商"
+      ],
+      "articles": [
+        {
+          "date": "2026-04-24",
+          "title": "950超节点概念股",
+          "source": "https://mp.weixin.qq.com/s/sWkA8Pc8CvJCN0TkOsmFKw",
+          "insights": [
+            "超节点概念股受益于国产算力发展和AI模型迭代"
+          ],
+          "accidents": [
+            "DeepSeek-V4模型发布及国产算力（特别是'昇腾 950超节点'）发展"
+          ]
+        },
+        {
+          "title": "涨价潮持续：MLCC、PCB铜箔、工程机械、隔膜等多方向梳理",
+          "date": "2026-05-28",
+          "source": "https://mp.weixin.qq.com/s/sec4RgdVFVBC-nWwlu96pQ",
+          "accidents": [],
+          "insights": [
+            "稼动率93%，产能接近满载，供不应求推动产业链涨价"
+          ],
+          "key_metrics": [
+            "稼动率93%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "industry": "电子-半导体-集成电路制造",
+      "board": "SH",
+      "code": "688981",
+      "name": "中芯国际"
+    },
+    "688347": {
+      "mention_count": 2,
+      "last_updated": "2026-05-28",
+      "core_business": [
+        "特色工艺晶圆代工",
+        "功率半导体制造",
+        "MCU制造",
+        "传感器制造"
+      ],
+      "industry_position": [
+        "国内特色工艺晶圆代工龙头",
+        "汽车电子、工业控制芯片核心制造服务商",
+        "产能规模国内第二"
+      ],
+      "articles": [
+        {
+          "date": "2026-04-20",
+          "key_metrics": [
+            "营收172.91亿元同比+20.18%",
+            "归母净利润3.77亿元",
+            "产能利用率超100%"
+          ],
+          "title": "业绩为王！电子半导体全产业链：10家核心龙头企业深度梳理",
+          "source": "https://mp.weixin.qq.com/s/osXuox5ED3O_dMFXOntgdw",
+          "insights": [
+            "上海、无锡、金桥三大基地协同",
+            "8英寸、12英寸产线产能利用率持续超100%",
+            "聚焦功率半导体、MCU、传感器等成熟制程"
+          ],
+          "accidents": [
+            "2025年营收172.91亿元，同比增长20.18%",
+            "归母净利润3.77亿元"
+          ]
+        },
+        {
+          "title": "涨价潮持续：MLCC、PCB铜箔、工程机械、隔膜等多方向梳理",
+          "date": "2026-05-28",
+          "source": "https://mp.weixin.qq.com/s/sec4RgdVFVBC-nWwlu96pQ",
+          "accidents": [],
+          "insights": [
+            "稼动率接近100%，产能完全满载"
+          ],
+          "key_metrics": [
+            "稼动率接近100%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "industry": "电子-半导体-集成电路制造",
+      "board": "SH",
+      "products": [
+        "晶圆代工服务",
+        "功率半导体代工",
+        "MCU代工",
+        "传感器代工"
+      ],
+      "chain": [
+        "半导体-中游-晶圆代工",
+        "功率半导体-中游-制造"
+      ],
+      "code": "688347",
+      "concepts": [
+        "消费电子概念",
+        "沪股通",
+        "8英寸",
+        "MCU",
+        "芯片概念",
+        "上海国企改革",
+        "融资融券",
+        "国家大基金持股",
+        "12英寸",
+        "存储芯片",
+        "传感器",
+        "特色工艺",
+        "晶圆代工",
+        "功率半导体",
+        "国企改革"
+      ],
+      "name": "华虹公司"
     }
   }
 }
