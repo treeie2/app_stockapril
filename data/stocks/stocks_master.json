@@ -2147,8 +2147,8 @@
       ]
     },
     "600183": {
-      "mention_count": 1,
-      "last_updated": "2026-05-17",
+      "mention_count": 2,
+      "last_updated": "2026-05-26",
       "partners": [],
       "name": "生益科技",
       "industry_position": [],
@@ -2188,6 +2188,12 @@
             "SIF膜（ABF国产替代）",
             "覆铜板(CCL)"
           ]
+        },
+        {
+          "title": "PTFE（聚四氟乙烯）概念股",
+          "url": "https://mp.weixin.qq.com/s/ZqxQQsvGQYGnHnX-Lcrcdw",
+          "date": "2026-05-26",
+          "summary": "全球第二大刚性覆铜板企业，超低损耗CCL通过英伟达验证"
         }
       ],
       "board": "SH",
@@ -2213,11 +2219,13 @@
         "融资融券"
       ],
       "code": "600183",
-      "core_business": []
+      "core_business": [],
+      "concept": "CCL;PTFE;英伟达;覆铜板;高频通信",
+      "description": "全球第二大刚性覆铜板企业，超低损耗CCL通过英伟达验证"
     },
     "600378": {
-      "mention_count": 1,
-      "last_updated": "2026-05-17",
+      "mention_count": 2,
+      "last_updated": "2026-05-26",
       "partners": [],
       "name": "昊华科技",
       "industry_position": [],
@@ -2238,6 +2246,12 @@
             "子公司中昊晨光生产用于CCL/PCB场景的高纯PTFE。",
             "全球高端电子级PTFE市场由科慕、大金、索尔维三家垄断，合计市占率超90%。"
           ]
+        },
+        {
+          "title": "PTFE（聚四氟乙烯）概念股",
+          "url": "https://mp.weixin.qq.com/s/ZqxQQsvGQYGnHnX-Lcrcdw",
+          "date": "2026-05-26",
+          "summary": "子公司中昊晨光PTFE产能3.3万吨/年，技术对标国际，用于5G基站及高端装备密封"
         }
       ],
       "board": "SH",
@@ -2281,7 +2295,9 @@
       "code": "600378",
       "core_business": [
         "高端氟材料、电子化学品、高端制造化工材料"
-      ]
+      ],
+      "concept": "5G基站;PTFE;氟化工",
+      "description": "子公司中昊晨光PTFE产能3.3万吨/年，技术对标国际，用于5G基站及高端装备密封"
     },
     "600584": {
       "mention_count": 2,
@@ -2415,8 +2431,8 @@
       "core_business": []
     },
     "603186": {
-      "mention_count": 1,
-      "last_updated": "2026-05-17",
+      "mention_count": 2,
+      "last_updated": "2026-05-26",
       "partners": [],
       "name": "华正新材",
       "industry_position": [],
@@ -2456,6 +2472,12 @@
             "CBF膜（ABF国产替代）",
             "覆铜板"
           ]
+        },
+        {
+          "title": "PTFE（聚四氟乙烯）概念股",
+          "url": "https://mp.weixin.qq.com/s/ZqxQQsvGQYGnHnX-Lcrcdw",
+          "date": "2026-05-26",
+          "summary": "Low DK/DF高频基材通过英伟达认证，珠海基地50万张/月产能已投产，AI基材营收占比预计提升至35%"
         }
       ],
       "board": "SH",
@@ -2482,7 +2504,9 @@
         "沪股通"
       ],
       "code": "603186",
-      "core_business": []
+      "core_business": [],
+      "concept": "AI;PTFE;英伟达;高频基材",
+      "description": "Low DK/DF高频基材通过英伟达认证，珠海基地50万张/月产能已投产，AI基材营收占比预计提升至35%"
     },
     "603269": {
       "mention_count": 1,
@@ -3526,8 +3550,8 @@
       ]
     },
     "002886": {
-      "mention_count": 2,
-      "last_updated": "2026-05-18",
+      "mention_count": 3,
+      "last_updated": "2026-05-26",
       "partners": [
         "国内外多家PCB客户"
       ],
@@ -3584,6 +3608,12 @@
           "core_business": [
             "LCP/PEEK一体化材料"
           ]
+        },
+        {
+          "title": "PTFE（聚四氟乙烯）概念股",
+          "url": "https://mp.weixin.qq.com/s/ZqxQQsvGQYGnHnX-Lcrcdw",
+          "date": "2026-05-26",
+          "summary": "PTFE年产能3000吨，5G用PTFE已小批量供货，应用于高频通信、高算力PCB"
         }
       ],
       "board": "SZ",
@@ -3633,7 +3663,9 @@
       "code": "002886",
       "core_business": [
         "改性塑料、高分子材料"
-      ]
+      ],
+      "concept": "5G材料;PTFE;高频通信",
+      "description": "PTFE年产能3000吨，5G用PTFE已小批量供货，应用于高频通信、高算力PCB"
     },
     "002915": {
       "mention_count": 1,
@@ -24926,13 +24958,13 @@
         "PCB 载板化",
         "AI 服务器 PCB"
       ],
-      "last_updated": "2026-05-21",
+      "last_updated": "2026-05-26",
       "industry_position": [],
       "valuation": {},
       "industry": "电子 - 电子元件 - PCB",
       "concepts": [],
       "code": "002463",
-      "mention_count": 3,
+      "mention_count": 4,
       "partners": [
         "AI 服务器厂商"
       ],
@@ -25014,6 +25046,12 @@
           ],
           "processed_by": "tbox",
           "processed_at": "2026-05-21T19:08:06.096229+08:00"
+        },
+        {
+          "title": "PTFE（聚四氟乙烯）概念股",
+          "url": "https://mp.weixin.qq.com/s/ZqxQQsvGQYGnHnX-Lcrcdw",
+          "date": "2026-05-26",
+          "summary": "高频高速CCL技术领先，积极参与AI服务器背板研发，采用先进工艺解决PTFE加工难题"
         }
       ],
       "board": "深市主板",
@@ -25026,7 +25064,9 @@
       ],
       "name": "沪电股份",
       "processed_by": "tbox",
-      "processed_at": "2026-05-21T19:08:06.096232+08:00"
+      "processed_at": "2026-05-21T19:08:06.096232+08:00",
+      "concept": "AI服务器;PCB;PTFE;高频高速",
+      "description": "高频高速CCL技术领先，积极参与AI服务器背板研发，采用先进工艺解决PTFE加工难题"
     },
     "002465": {
       "mention_count": 6,
@@ -35006,8 +35046,8 @@
       "name": "中科电气"
     },
     "300037": {
-      "mention_count": 2,
-      "last_updated": "2026-05-23",
+      "mention_count": 3,
+      "last_updated": "2026-05-26",
       "concepts": [
         "先进封装",
         "数据中心",
@@ -35072,6 +35112,12 @@
           ],
           "processed_by": "tbox",
           "processed_at": "2026-05-23T23:17:45.684792+08:00"
+        },
+        {
+          "title": "PTFE（聚四氟乙烯）概念股",
+          "url": "https://mp.weixin.qq.com/s/ZqxQQsvGQYGnHnX-Lcrcdw",
+          "date": "2026-05-26",
+          "summary": "在建2800吨PTFE产能，布局含氟新材料领域，绑定新能源与半导体产业链"
         }
       ],
       "industry": "电力设备-电池-电池化学品",
@@ -35079,7 +35125,9 @@
       "code": "300037",
       "name": "新宙邦",
       "processed_by": "tbox",
-      "processed_at": "2026-05-23T23:17:45.684794+08:00"
+      "processed_at": "2026-05-23T23:17:45.684794+08:00",
+      "concept": "PTFE;半导体;含氟新材料;新能源",
+      "description": "在建2800吨PTFE产能，布局含氟新材料领域，绑定新能源与半导体产业链"
     },
     "300040": {
       "mention_count": 2,
@@ -44591,13 +44639,13 @@
       "core_business": [
         "mSAP PCB 生产"
       ],
-      "last_updated": "",
+      "last_updated": "2026-05-26",
       "industry_position": [],
       "valuation": {},
       "industry": "电子 - 电子元件 - PCB",
       "concepts": [],
       "code": "300476",
-      "mention_count": 0,
+      "mention_count": 1,
       "partners": [
         "光模块厂商"
       ],
@@ -44619,6 +44667,12 @@
           "accidents": [
             "800G 及以上光模块需求增长"
           ]
+        },
+        {
+          "title": "PTFE（聚四氟乙烯）概念股",
+          "url": "https://mp.weixin.qq.com/s/ZqxQQsvGQYGnHnX-Lcrcdw",
+          "date": "2026-05-26",
+          "summary": "与客户联合开发PTFE方案，布局高多层PCB市场，解决多层板应用技术难题"
         }
       ],
       "board": "创业板",
@@ -44629,7 +44683,9 @@
       "chain": [
         "中游 - PCB 制造"
       ],
-      "name": "胜宏科技"
+      "name": "胜宏科技",
+      "concept": "AI;PCB;PTFE;高多层",
+      "description": "与客户联合开发PTFE方案，布局高多层PCB市场，解决多层板应用技术难题"
     },
     "300480": {
       "mention_count": 1,
@@ -50429,8 +50485,8 @@
       "name": "指南针"
     },
     "300806": {
-      "mention_count": 5,
-      "last_updated": "",
+      "mention_count": 6,
+      "last_updated": "2026-05-28",
       "concepts": [
         "磁电存储",
         "光刻胶",
@@ -50464,12 +50520,20 @@
             "MED市场空间约1200亿",
             "价值量占比超60%，毛利率60-70%"
           ]
+        },
+        {
+          "title": "5月功能膜产业动态：多赛道高景气，国产替代加速",
+          "url": "https://mp.weixin.qq.com/s/79fXNDADWtgAYvuJNJtfGw",
+          "date": "2026-05-28",
+          "summary": "获中邮证券买入评级，离型膜需求高增，微电子业务营收同比+54%，PET薄膜业务同比+56%，拟斥资5.1亿元扩产高端功能性膜材"
         }
       ],
       "industry": "基础化工-塑料制品-膜材料",
       "board": "",
       "code": "300806",
-      "name": "斯迪克"
+      "name": "斯迪克",
+      "concept": "OCA光学胶;PET薄膜;微电子;电子胶粘材料;离型膜",
+      "description": "获中邮证券买入评级，离型膜需求高增，微电子业务营收同比+54%，PET薄膜业务同比+56%，拟斥资5.1亿元扩产高端功能性膜材"
     },
     "300809": {
       "mention_count": 0,
@@ -56614,8 +56678,8 @@
       "name": "光大同创"
     },
     "301389": {
-      "mention_count": 2,
-      "last_updated": "2026-05-23",
+      "mention_count": 3,
+      "last_updated": "2026-05-26",
       "concepts": [
         "苹果概念",
         "融资融券",
@@ -56682,6 +56746,12 @@
           "partners": [],
           "processed_by": "tbox",
           "processed_at": "2026-05-23T21:40:13.059444+08:00"
+        },
+        {
+          "title": "PTFE（聚四氟乙烯）概念股",
+          "url": "https://mp.weixin.qq.com/s/ZqxQQsvGQYGnHnX-Lcrcdw",
+          "date": "2026-05-26",
+          "summary": "全球唯一量产HVLP5+铜箔企业，是PTFE覆铜板的核心搭档，价值量占比30%-40%"
         }
       ],
       "industry": "电子-消费电子-消费电子零部件及组装",
@@ -56700,7 +56770,9 @@
       "code": "301389",
       "name": "隆扬电子",
       "processed_by": "tbox",
-      "processed_at": "2026-05-23T21:40:13.059446+08:00"
+      "processed_at": "2026-05-23T21:40:13.059446+08:00",
+      "concept": "HVLP铜箔;PTFE;覆铜板",
+      "description": "全球唯一量产HVLP5+铜箔企业，是PTFE覆铜板的核心搭档，价值量占比30%-40%"
     },
     "301396": {
       "mention_count": 1,
@@ -57720,8 +57792,8 @@
       "name": "罐式集装箱制造"
     },
     "301565": {
-      "mention_count": 0,
-      "last_updated": "",
+      "mention_count": 1,
+      "last_updated": "2026-05-28",
       "concepts": [
         "食品安全",
         "融资融券",
@@ -57747,12 +57819,20 @@
           ],
           "title": "“固态电池”产业链深度解析与操作策略（2025年4月更新）",
           "source": "https://mp.weixin.qq.com/s/yUHGZSs9svQybkU8NH9pgg"
+        },
+        {
+          "title": "5月功能膜产业动态：多赛道高景气，国产替代加速",
+          "url": "https://mp.weixin.qq.com/s/79fXNDADWtgAYvuJNJtfGw",
+          "date": "2026-05-28",
+          "summary": "搭建新能源、功能性、生物基可降解、高性能聚酰胺四大膜材矩阵，新能源BOPA膜适配软包锂电、固态电池铝塑膜"
         }
       ],
       "industry": "基础化工-塑料制品-膜材料",
       "board": "SZ",
       "code": "301565",
-      "name": "中仑新材"
+      "name": "中仑新材",
+      "concept": "BOPA;BOPP;固态电池;新能源膜;膜材料;铝塑膜",
+      "description": "搭建新能源、功能性、生物基可降解、高性能聚酰胺四大膜材矩阵，新能源BOPA膜适配软包锂电、固态电池铝塑膜"
     },
     "301566": {
       "mention_count": 2,
@@ -61661,8 +61741,8 @@
       "name": "中体产业"
     },
     "600160": {
-      "mention_count": 3,
-      "last_updated": "",
+      "mention_count": 4,
+      "last_updated": "2026-05-26",
       "concepts": [
         "消毒剂",
         "数据中心",
@@ -61723,6 +61803,12 @@
           ],
           "title": "制冷剂行业深度分析及操作策略（2025年3月更新）",
           "source": "https://mp.weixin.qq.com/s/k36UvkLh11fY5UMEEGx1Pw"
+        },
+        {
+          "title": "PTFE（聚四氟乙烯）概念股",
+          "url": "https://mp.weixin.qq.com/s/ZqxQQsvGQYGnHnX-Lcrcdw",
+          "date": "2026-05-26",
+          "summary": "国内PTFE产能龙头，现有产能1.5万吨/年，拟建3万吨/年，覆盖全产业链"
         }
       ],
       "industry": "基础化工-化学制品-氟化工",
@@ -61738,7 +61824,9 @@
         "2024年制冷剂业务毛利率修复至58%"
       ],
       "code": "600160",
-      "name": "巨化股份"
+      "name": "巨化股份",
+      "concept": "PTFE;化工材料;氟化工",
+      "description": "国内PTFE产能龙头，现有产能1.5万吨/年，拟建3万吨/年，覆盖全产业链"
     },
     "600166": {
       "mention_count": 2,
@@ -79661,8 +79749,8 @@
       "name": "雪峰科技"
     },
     "603228": {
-      "mention_count": 1,
-      "last_updated": "2026-05-19",
+      "mention_count": 2,
+      "last_updated": "2026-05-26",
       "code": "603228",
       "articles": [
         {
@@ -79699,6 +79787,12 @@
           "partners": [
             "英伟达"
           ]
+        },
+        {
+          "title": "PTFE（聚四氟乙烯）概念股",
+          "url": "https://mp.weixin.qq.com/s/ZqxQQsvGQYGnHnX-Lcrcdw",
+          "date": "2026-05-26",
+          "summary": "突破PTFE加工技术，22层高多层板供货北美算力客户，深度参与AI硬件升级"
         }
       ],
       "board": "SH",
@@ -79727,7 +79821,9 @@
         "PCB概念",
         "卫星导航"
       ],
-      "name": "景旺电子"
+      "name": "景旺电子",
+      "concept": "PCB;PTFE;算力;高多层板",
+      "description": "突破PTFE加工技术，22层高多层板供货北美算力客户，深度参与AI硬件升级"
     },
     "603229": {
       "mention_count": 1,
@@ -85922,8 +86018,8 @@
       "name": "豪悦护理"
     },
     "605020": {
-      "mention_count": 1,
-      "last_updated": "",
+      "mention_count": 2,
+      "last_updated": "2026-05-26",
       "concepts": [
         "一带一路",
         "沪股通",
@@ -85957,6 +86053,12 @@
           ],
           "title": "制冷剂行业深度分析及操作策略（2025年3月更新）",
           "source": "https://mp.weixin.qq.com/s/k36UvkLh11fY5UMEEGx1Pw"
+        },
+        {
+          "title": "PTFE（聚四氟乙烯）概念股",
+          "url": "https://mp.weixin.qq.com/s/ZqxQQsvGQYGnHnX-Lcrcdw",
+          "date": "2026-05-26",
+          "summary": "子公司邵武永和PTFE产能1万吨/年，覆盖氟化工全链条，适配高频PCB、AI服务器"
         }
       ],
       "industry": "基础化工-化学制品-氟化工",
@@ -85965,7 +86067,9 @@
         "上游-材料"
       ],
       "code": "605020",
-      "name": "永和股份"
+      "name": "永和股份",
+      "concept": "PTFE;氟化工;高频PCB",
+      "description": "子公司邵武永和PTFE产能1万吨/年，覆盖氟化工全链条，适配高频PCB、AI服务器"
     },
     "605060": {
       "mention_count": 18,
@@ -92910,8 +93014,8 @@
       "core_business": []
     },
     "688323": {
-      "mention_count": 4,
-      "last_updated": "",
+      "mention_count": 5,
+      "last_updated": "2026-05-28",
       "concepts": [
         "光伏概念",
         "先进封装",
@@ -92962,6 +93066,12 @@
             "PI薄膜+复合材料业务占比超75%",
             "卫星结构件+航天材料核心配套"
           ]
+        },
+        {
+          "title": "5月功能膜产业动态：多赛道高景气，国产替代加速",
+          "url": "https://mp.weixin.qq.com/s/79fXNDADWtgAYvuJNJtfGw",
+          "date": "2026-05-28",
+          "summary": "自研CPI柔性薄膜可折叠次数超20万次，核心性能通过国内终端厂商测评，已实现样品对外销售"
         }
       ],
       "industry": "基础化工-塑料制品-膜材料",
@@ -92976,7 +93086,9 @@
         "新材料研发与生产"
       ],
       "code": "688323",
-      "name": "瑞华泰"
+      "name": "瑞华泰",
+      "concept": "CPI薄膜;可折叠;国产替代;柔性显示",
+      "description": "自研CPI柔性薄膜可折叠次数超20万次，核心性能通过国内终端厂商测评，已实现样品对外销售"
     },
     "688326": {
       "mention_count": 1,
@@ -101120,6 +101232,70 @@
       ],
       "mention_count": 1,
       "last_updated": "2026-05-28"
+    },
+    "301581": {
+      "code": "301581",
+      "name": "黄山谷捷",
+      "concept": "散热基板;英飞凌供应链;功率半导体;冷锻工艺",
+      "description": "英飞凌散热基板供应商，全球市占率32.7%排第一，直接受益英飞凌AI电源芯片和车规IGBT/MOSFET全线涨价",
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "涨价系列（20260528）",
+          "url": "https://mp.weixin.qq.com/s/sec4RgdVFVBC-nWwlu96pQ",
+          "date": "2026-05-28",
+          "summary": "英飞凌散热基板供应商，全球市占率32.7%排第一，直接受益英飞凌AI电源芯片和车规IGBT/MOSFET全线涨价"
+        }
+      ],
+      "last_updated": "2026-05-28"
+    },
+    "301045": {
+      "code": "301045",
+      "name": "天禄科技",
+      "concept": "TAC光学膜;偏光片;面板;国产替代",
+      "description": "TAC光学膜项目推进顺利，一期年产6000万平方米生产线部分设备已进场，联动京东方、三利谱打造协同研发生产模式，补齐TFT级TAC膜国产化短板",
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "5月功能膜产业动态：多赛道高景气，国产替代加速",
+          "url": "https://mp.weixin.qq.com/s/79fXNDADWtgAYvuJNJtfGw",
+          "date": "2026-05-28",
+          "summary": "TAC光学膜项目推进顺利，一期年产6000万平方米生产线部分设备已进场，联动京东方、三利谱打造协同研发生产模式，补齐TFT级TAC膜国产化短板"
+        }
+      ],
+      "last_updated": "2026-05-28"
+    },
+    "300936": {
+      "code": "300936",
+      "name": "中英科技",
+      "concept": "PTFE;高频覆铜板;英伟达",
+      "description": "国产PTFE高频覆铜板核心供应商，30万平方米PTFE高频覆铜板项目已投产，直接配套英伟达GB300",
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "PTFE（聚四氟乙烯）概念股",
+          "url": "https://mp.weixin.qq.com/s/ZqxQQsvGQYGnHnX-Lcrcdw",
+          "date": "2026-05-26",
+          "summary": "国产PTFE高频覆铜板核心供应商，30万平方米PTFE高频覆铜板项目已投产，直接配套英伟达GB300"
+        }
+      ],
+      "last_updated": "2026-05-26"
+    },
+    "920098": {
+      "code": "920098",
+      "name": "科隆新材",
+      "concept": "PTFE;液冷;AI服务器",
+      "description": "液冷系统核心部件含PTFE波纹冷却软管，受益于AI服务器液冷需求增长",
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "PTFE（聚四氟乙烯）概念股",
+          "url": "https://mp.weixin.qq.com/s/ZqxQQsvGQYGnHnX-Lcrcdw",
+          "date": "2026-05-26",
+          "summary": "液冷系统核心部件含PTFE波纹冷却软管，受益于AI服务器液冷需求增长"
+        }
+      ],
+      "last_updated": "2026-05-26"
     }
   },
   "last_updated": "2026-05-25T01:30:27.046043+08:00",

@@ -5034,5 +5034,77 @@
       ],
       "name": "华虹公司"
     }
-  }
+  },
+  "items": [
+    {
+      "code": "301581",
+      "name": "黄山谷捷",
+      "concept": "散热基板;英飞凌供应链;功率半导体;冷锻工艺",
+      "description": "英飞凌散热基板供应商，全球市占率32.7%排第一，直接受益英飞凌AI电源芯片和车规IGBT/MOSFET全线涨价",
+      "articles": [
+        {
+          "title": "涨价系列（20260528）",
+          "url": "https://mp.weixin.qq.com/s/sec4RgdVFVBC-nWwlu96pQ",
+          "date": "2026-05-28",
+          "summary": "英飞凌散热基板供应商，全球市占率32.7%排第一，直接受益英飞凌AI电源芯片和车规IGBT/MOSFET全线涨价"
+        }
+      ]
+    },
+    {
+      "code": "301565",
+      "name": "中仑新材",
+      "concept": "膜材料;新能源膜;BOPA;BOPP;固态电池;铝塑膜",
+      "description": "搭建新能源、功能性、生物基可降解、高性能聚酰胺四大膜材矩阵，新能源BOPA膜适配软包锂电、固态电池铝塑膜",
+      "articles": [
+        {
+          "title": "5月功能膜产业动态：多赛道高景气，国产替代加速",
+          "url": "https://mp.weixin.qq.com/s/79fXNDADWtgAYvuJNJtfGw",
+          "date": "2026-05-28",
+          "summary": "搭建新能源、功能性、生物基可降解、高性能聚酰胺四大膜材矩阵，新能源BOPA膜适配软包锂电、固态电池铝塑膜"
+        }
+      ]
+    },
+    {
+      "code": "300806",
+      "name": "斯迪克",
+      "concept": "离型膜;OCA光学胶;电子胶粘材料;PET薄膜;微电子",
+      "description": "获中邮证券买入评级，离型膜需求高增，微电子业务营收同比+54%，PET薄膜业务同比+56%，拟斥资5.1亿元扩产高端功能性膜材",
+      "articles": [
+        {
+          "title": "5月功能膜产业动态：多赛道高景气，国产替代加速",
+          "url": "https://mp.weixin.qq.com/s/79fXNDADWtgAYvuJNJtfGw",
+          "date": "2026-05-28",
+          "summary": "获中邮证券买入评级，离型膜需求高增，微电子业务营收同比+54%，PET薄膜业务同比+56%，拟斥资5.1亿元扩产高端功能性膜材"
+        }
+      ]
+    },
+    {
+      "code": "301045",
+      "name": "天禄科技",
+      "concept": "TAC光学膜;偏光片;面板;国产替代",
+      "description": "TAC光学膜项目推进顺利，一期年产6000万平方米生产线部分设备已进场，联动京东方、三利谱打造协同研发生产模式，补齐TFT级TAC膜国产化短板",
+      "articles": [
+        {
+          "title": "5月功能膜产业动态：多赛道高景气，国产替代加速",
+          "url": "https://mp.weixin.qq.com/s/79fXNDADWtgAYvuJNJtfGw",
+          "date": "2026-05-28",
+          "summary": "TAC光学膜项目推进顺利，一期年产6000万平方米生产线部分设备已进场，联动京东方、三利谱打造协同研发生产模式，补齐TFT级TAC膜国产化短板"
+        }
+      ]
+    },
+    {
+      "code": "688323",
+      "name": "瑞华泰",
+      "concept": "CPI薄膜;柔性显示;可折叠;国产替代",
+      "description": "自研CPI柔性薄膜可折叠次数超20万次，核心性能通过国内终端厂商测评，已实现样品对外销售",
+      "articles": [
+        {
+          "title": "5月功能膜产业动态：多赛道高景气，国产替代加速",
+          "url": "https://mp.weixin.qq.com/s/79fXNDADWtgAYvuJNJtfGw",
+          "date": "2026-05-28",
+          "summary": "自研CPI柔性薄膜可折叠次数超20万次，核心性能通过国内终端厂商测评，已实现样品对外销售"
+        }
+      ]
+    }
+  ]
 }
