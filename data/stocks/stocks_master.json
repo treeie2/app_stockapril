@@ -76501,7 +76501,7 @@
       "name": "环氧树脂"
     },
     "603005": {
-      "mention_count": 1,
+      "mention_count": 2,
       "last_updated": "",
       "partners": [],
       "concepts": [
@@ -76541,6 +76541,43 @@
           "content": "TGV 领域有深入布局，是玻璃基板封装技术的领军企业",
           "analysis": "",
           "title": "TGV（玻璃通孔）技术全解析 + 核心企业梳理"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/yxrMSnjfKTnTtv_KIUuH7w",
+          "title": "晶方科技：TGV（玻璃通孔）实现量产先行者",
+          "date": "2026-05-28",
+          "accidents": [
+            "TGV+玻璃基板Fanout已实现量产",
+            "26Q1营收3.34亿(+14.86%),净利6544万(+0.12%)",
+            "经营现金流1亿(+63.07%)"
+          ],
+          "insights": [
+            "全球领先晶圆级传感器封测龙头",
+            "TGV国内最早布局量产(领先长电/通富)",
+            "TSV和TGV打孔/金属化核心工艺相通",
+            "TGV以玻璃替代硅基中介层,高频低损耗+可调CTE"
+          ],
+          "key_metrics": [
+            "Q1营收3.34亿(+14.86%)",
+            "Q1净利6544万",
+            "经营现金流1亿(+63.07%)",
+            "TSV 99.5%良率大规模量产"
+          ],
+          "target_valuation": [
+            "TGV是核心第二增长曲线"
+          ],
+          "core_business": [
+            "晶圆级TSV/TGV封装",
+            "CIS传感器封测"
+          ],
+          "industry_position": [
+            "TSV国内独家12寸车规量产",
+            "TGV量产先行者"
+          ],
+          "chain": [
+            "中游-先进封装"
+          ],
+          "partners": []
         }
       ],
       "board": "SH",
