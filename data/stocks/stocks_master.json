@@ -43576,7 +43576,7 @@
       "name": "航天智造"
     },
     "300450": {
-      "mention_count": 1,
+      "mention_count": 2,
       "last_updated": "",
       "concepts": [
         "光伏概念",
@@ -43628,6 +43628,36 @@
           ],
           "accidents": [
             "锂电设备龙头，全固态电池设备全环节覆盖，叠片设备全球市占率第一，600MPa等静压设备、高压化成分容设备均已交付。2025年Q1-Q3归母净利同比增长94.97%。"
+          ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/RaebKBhD9qWSE_7ra8B1aw",
+          "title": "MLCC设备晨会纪要",
+          "date": "2026-05-28",
+          "accidents": [
+            "MLCC整线设备,电容器起家对接三环/风华",
+            "今年订单预期5亿左右"
+          ],
+          "insights": [
+            "MLCC设备受益全产业链扩产"
+          ],
+          "key_metrics": [
+            "MLCC设备今年订单预期5亿"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "MLCC整线设备",
+            "锂电池设备"
+          ],
+          "industry_position": [
+            "MLCC设备新进入者"
+          ],
+          "chain": [
+            "中游-MLCC设备"
+          ],
+          "partners": [
+            "三环集团",
+            "风华高科"
           ]
         }
       ],
@@ -55379,6 +55409,38 @@
           "date": "2025-12-08",
           "title": "风口byTY",
           "source": "https://mp.weixin.qq.com/s/kLLysHybxv3NIvEdHfph8Q"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/Ffhnxhjfq8FTkzb-LG5VLg",
+          "title": "美利信：半导体结构件+液冷+新厂投产",
+          "date": "2026-05-28",
+          "accidents": [
+            "重庆/华南/华东三地产能布局(各15亿产值)",
+            "光刻核心XGLS数亿订单落地",
+            "6月底大龙门设备到齐,SIC等非金属件研发中"
+          ],
+          "insights": [
+            "半导体设备结构件和耗材业务空间巨大",
+            "液冷深圳产能推进",
+            "参考行业净利率15%"
+          ],
+          "key_metrics": [
+            "三地新厂各15亿产值",
+            "数亿XGLS订单"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "半导体设备结构件",
+            "液冷",
+            "精密加工"
+          ],
+          "industry_position": [
+            "半导体结构件新进入者"
+          ],
+          "chain": [
+            "中游-精密制造"
+          ],
+          "partners": []
         }
       ],
       "industry": "通信-通信设备-通信网络设备及器件",
@@ -86628,7 +86690,7 @@
       "name": "容百科技"
     },
     "688006": {
-      "mention_count": 1,
+      "mention_count": 2,
       "last_updated": "",
       "concepts": [
         "高压化成",
@@ -86655,6 +86717,34 @@
           ],
           "accidents": [
             "化成分容领域龙头，高压化成技术领先，适配多种固态电解质体系，与国内头部电池厂深度合作，加速全球化布局。2025年H1业绩重回增长，现金流大幅改善。"
+          ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/RaebKBhD9qWSE_7ra8B1aw",
+          "title": "MLCC设备晨会纪要",
+          "date": "2026-05-28",
+          "accidents": [
+            "MLCC老化测试设备,国内主流三环/风华实验室基本用杭可设备",
+            "后续设备将进一步升级"
+          ],
+          "insights": [
+            "MLCC设备是MLCC扩产周期的卖铲人"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "MLCC老化测试设备",
+            "锂电池后段设备"
+          ],
+          "industry_position": [
+            "MLCC老化测试设备领先"
+          ],
+          "chain": [
+            "中游-MLCC设备"
+          ],
+          "partners": [
+            "三环集团",
+            "风华高科"
           ]
         }
       ],
@@ -100397,6 +100487,43 @@
             "中游-电力设备"
           ],
           "partners": []
+        }
+      ],
+      "last_updated": "2026-05-28"
+    },
+    "301360": {
+      "code": "301360",
+      "name": "荣旗科技",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/RaebKBhD9qWSE_7ra8B1aw",
+          "title": "MLCC设备晨会纪要",
+          "date": "2026-05-28",
+          "accidents": [
+            "参股四川力能(国内首家突破MLCC温等静压设备)",
+            "主供三环/风华,今年MLCC订单有望上亿"
+          ],
+          "insights": [
+            "MLCC设备国产替代标的"
+          ],
+          "key_metrics": [
+            "去年小几千万→今年MLCC订单有望上亿"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "MLCC等静压设备"
+          ],
+          "industry_position": [
+            "MLCC等静压设备突破者"
+          ],
+          "chain": [
+            "中游-MLCC设备"
+          ],
+          "partners": [
+            "三环集团",
+            "风华高科"
+          ]
         }
       ],
       "last_updated": "2026-05-28"
