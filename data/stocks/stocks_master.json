@@ -16116,13 +16116,44 @@
         "融资融券"
       ],
       "code": "002129",
-      "mention_count": 1,
+      "mention_count": 2,
       "partners": [],
       "articles": [
         {
           "date": "",
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/YzllvF6wkpwGemQcNTdWrg",
+          "title": "全球三大硅片巨头年内第二轮提价：半导体硅片涨价潮",
+          "date": "2026-05-28",
+          "hot_topic": "半导体硅片涨价",
+          "accidents": [
+            "信越/SUMCO/环球晶5/10同步第二轮提价,累计>15%",
+            "6月国内硅片企业将全面跟进",
+            "12英寸外延片缺陷率<0.2/cm²支持FinFET"
+          ],
+          "insights": [
+            "AI服务器硅片需求=通用3.8倍",
+            "HBM对12英寸需求=传统DRAM的3倍",
+            "涨价周期可能2-3年",
+            "产能利用率>90%"
+          ],
+          "key_metrics": [
+            "产能利用率>90%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "大尺寸单晶硅材料"
+          ],
+          "industry_position": [
+            "光伏+半导体双轮驱动"
+          ],
+          "chain": [
+            "上游-半导体硅片"
+          ],
+          "partners": []
         }
       ],
       "board": "SZ",
@@ -86184,7 +86215,7 @@
       "name": "中际联合"
     },
     "605358": {
-      "mention_count": 1,
+      "mention_count": 2,
       "last_updated": "",
       "concepts": [
         "光伏概念",
@@ -86235,6 +86266,37 @@
             "2025年营收35.95亿元，同比增长16.26%",
             "归母净利润亏损1.21亿元，同比减亏54.47%"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/YzllvF6wkpwGemQcNTdWrg",
+          "title": "全球三大硅片巨头年内第二轮提价：半导体硅片涨价潮",
+          "date": "2026-05-28",
+          "hot_topic": "半导体硅片涨价",
+          "accidents": [
+            "信越/SUMCO/环球晶5/10同步第二轮提价,累计>15%",
+            "6月国内硅片企业将全面跟进",
+            "12英寸重掺硅片满产,6/8英寸满产"
+          ],
+          "insights": [
+            "AI服务器硅片需求=通用3.8倍",
+            "HBM对12英寸需求=传统DRAM的3倍",
+            "涨价周期可能2-3年",
+            "业绩扭亏"
+          ],
+          "key_metrics": [
+            "业绩扭亏"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "重掺硅片+外延片"
+          ],
+          "industry_position": [
+            "重掺硅片订单饱满交货延期"
+          ],
+          "chain": [
+            "上游-半导体硅片"
+          ],
+          "partners": []
         }
       ],
       "industry": "电子-半导体-半导体材料",
@@ -89351,7 +89413,7 @@
       "name": "安达智能"
     },
     "688126": {
-      "mention_count": 2,
+      "mention_count": 3,
       "last_updated": "",
       "concepts": [
         "大基金",
@@ -89423,6 +89485,39 @@
           "partners": [
             "长鑫存储",
             "长江存储"
+          ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/YzllvF6wkpwGemQcNTdWrg",
+          "title": "全球三大硅片巨头年内第二轮提价：半导体硅片涨价潮",
+          "date": "2026-05-28",
+          "hot_topic": "半导体硅片涨价",
+          "accidents": [
+            "信越/SUMCO/环球晶5/10同步第二轮提价,累计>15%",
+            "6月国内硅片企业将全面跟进",
+            "28nm量产+SOI全链条,扩产至120万"
+          ],
+          "insights": [
+            "AI服务器硅片需求=通用3.8倍",
+            "HBM对12英寸需求=传统DRAM的3倍",
+            "涨价周期可能2-3年",
+            "国家大基金+中芯国际核心供应商"
+          ],
+          "key_metrics": [
+            "国家大基金+中芯国际核心供应商"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "12英寸大硅片"
+          ],
+          "industry_position": [
+            "12英寸国产龙头,75万片/月"
+          ],
+          "chain": [
+            "上游-半导体硅片"
+          ],
+          "partners": [
+            "中芯国际"
           ]
         }
       ],
@@ -91264,7 +91359,7 @@
       "name": "安路科技"
     },
     "688233": {
-      "mention_count": 1,
+      "mention_count": 2,
       "last_updated": "",
       "concepts": [
         "沪股通",
@@ -91291,6 +91386,37 @@
             "AI 驱动的存储芯片涨价潮正席卷全球，",
             "海外订单和扩产是 “引擎”"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/YzllvF6wkpwGemQcNTdWrg",
+          "title": "全球三大硅片巨头年内第二轮提价：半导体硅片涨价潮",
+          "date": "2026-05-28",
+          "hot_topic": "半导体硅片涨价",
+          "accidents": [
+            "信越/SUMCO/环球晶5/10同步第二轮提价,累计>15%",
+            "6月国内硅片企业将全面跟进",
+            "晶体/热场直径比0.6-0.7领先"
+          ],
+          "insights": [
+            "AI服务器硅片需求=通用3.8倍",
+            "HBM对12英寸需求=传统DRAM的3倍",
+            "涨价周期可能2-3年",
+            "12英寸硅片客户验证"
+          ],
+          "key_metrics": [
+            "12英寸硅片客户验证"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "大直径单晶硅材料"
+          ],
+          "industry_position": [
+            "无磁场大直径单晶硅龙头"
+          ],
+          "chain": [
+            "上游-半导体硅片"
+          ],
+          "partners": []
         }
       ],
       "industry": "电子-半导体-半导体材料",
@@ -98258,7 +98384,7 @@
       "name": "厦钨新能"
     },
     "688783": {
-      "mention_count": 1,
+      "mention_count": 2,
       "last_updated": "",
       "code": "688783",
       "articles": [
@@ -98276,6 +98402,37 @@
           "accidents": [
             "公司注册地在陕西西安，是陕西省集成电路产业链“链主”企业，受益于西部地区半导体产业政策支持。"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/YzllvF6wkpwGemQcNTdWrg",
+          "title": "全球三大硅片巨头年内第二轮提价：半导体硅片涨价潮",
+          "date": "2026-05-28",
+          "hot_topic": "半导体硅片涨价",
+          "accidents": [
+            "信越/SUMCO/环球晶5/10同步第二轮提价,累计>15%",
+            "6月国内硅片企业将全面跟进",
+            "技术指标对标全球前五大"
+          ],
+          "insights": [
+            "AI服务器硅片需求=通用3.8倍",
+            "HBM对12英寸需求=传统DRAM的3倍",
+            "涨价周期可能2-3年",
+            "AI芯片+高端存储验证"
+          ],
+          "key_metrics": [
+            "AI芯片+高端存储验证"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "12英寸硅片"
+          ],
+          "industry_position": [
+            "科创次新股,20万片/月"
+          ],
+          "chain": [
+            "上游-半导体硅片"
+          ],
+          "partners": []
         }
       ],
       "board": "",
@@ -100524,6 +100681,123 @@
             "三环集团",
             "风华高科"
           ]
+        }
+      ],
+      "last_updated": "2026-05-28"
+    },
+    "688584": {
+      "code": "688584",
+      "name": "上海合晶",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/YzllvF6wkpwGemQcNTdWrg",
+          "title": "全球三大硅片巨头年内第二轮提价：半导体硅片涨价潮",
+          "date": "2026-05-28",
+          "hot_topic": "半导体硅片涨价",
+          "accidents": [
+            "信越/SUMCO/环球晶5/10同步第二轮提价,累计>15%",
+            "6月国内硅片企业将全面跟进",
+            "65nm-28nm外延技术研发"
+          ],
+          "insights": [
+            "AI服务器硅片需求=通用3.8倍",
+            "HBM对12英寸需求=传统DRAM的3倍",
+            "涨价周期可能2-3年",
+            "短期盈利偏弱"
+          ],
+          "key_metrics": [
+            "短期盈利偏弱"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "硅外延片"
+          ],
+          "industry_position": [
+            "外延片专业厂商"
+          ],
+          "chain": [
+            "上游-半导体硅片"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-05-28"
+    },
+    "688432": {
+      "code": "688432",
+      "name": "有研硅",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/YzllvF6wkpwGemQcNTdWrg",
+          "title": "全球三大硅片巨头年内第二轮提价：半导体硅片涨价潮",
+          "date": "2026-05-28",
+          "hot_topic": "半导体硅片涨价",
+          "accidents": [
+            "信越/SUMCO/环球晶5/10同步第二轮提价,累计>15%",
+            "6月国内硅片企业将全面跟进",
+            "国内率先6/8/12英寸技术突破"
+          ],
+          "insights": [
+            "AI服务器硅片需求=通用3.8倍",
+            "HBM对12英寸需求=传统DRAM的3倍",
+            "涨价周期可能2-3年",
+            "功率半导体/IGBT/UPS"
+          ],
+          "key_metrics": [
+            "功率半导体/IGBT/UPS"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "半导体硅材料"
+          ],
+          "industry_position": [
+            "国企特色硅片"
+          ],
+          "chain": [
+            "上游-半导体硅片"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-05-28"
+    },
+    "003026": {
+      "code": "003026",
+      "name": "中晶科技",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/YzllvF6wkpwGemQcNTdWrg",
+          "title": "全球三大硅片巨头年内第二轮提价：半导体硅片涨价潮",
+          "date": "2026-05-28",
+          "hot_topic": "半导体硅片涨价",
+          "accidents": [
+            "信越/SUMCO/环球晶5/10同步第二轮提价,累计>15%",
+            "6月国内硅片企业将全面跟进",
+            "聚焦功率半导体配套硅片"
+          ],
+          "insights": [
+            "AI服务器硅片需求=通用3.8倍",
+            "HBM对12英寸需求=传统DRAM的3倍",
+            "涨价周期可能2-3年",
+            "客户覆盖多家晶圆厂"
+          ],
+          "key_metrics": [
+            "客户覆盖多家晶圆厂"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "中小尺寸硅片"
+          ],
+          "industry_position": [
+            "小盘高弹性"
+          ],
+          "chain": [
+            "上游-半导体硅片"
+          ],
+          "partners": []
         }
       ],
       "last_updated": "2026-05-28"
