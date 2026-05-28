@@ -5485,8 +5485,11 @@
       "name": "长虹华意"
     },
     "000408": {
-      "core_business": [],
-      "last_updated": "",
+      "core_business": [
+        "盐湖提锂",
+        "铜矿开采"
+      ],
+      "last_updated": "2026-05-28",
       "industry_position": [],
       "valuation": {},
       "industry": "基础化工-农化制品-钾肥",
@@ -5503,17 +5506,29 @@
         "深股通"
       ],
       "code": "000408",
-      "mention_count": 1,
+      "mention_count": 2,
       "partners": [],
       "articles": [
         {
           "date": "2025-08-11",
           "title": "风口byTY",
           "source": "https://mp.weixin.qq.com/s/tdvRssizutb0ogKdNtgupA"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/3OtEbVvO9PfCs1ZdHJWboQ",
+          "date": "2026-05-28",
+          "title": "2026-05-28 锂矿电池",
+          "insights": [
+            "依托察尔汗盐湖资源，采用创新提锂技术，锂盐产能持续扩张",
+            "双驱动业务模式（锂+铜）增强抗周期能力"
+          ]
         }
       ],
       "board": "SZ",
-      "products": [],
+      "products": [
+        "碳酸锂",
+        "铜精矿"
+      ],
       "chain": [],
       "name": "藏格矿业"
     },
@@ -5681,8 +5696,10 @@
       "name": "合百集团"
     },
     "000420": {
-      "core_business": [],
-      "last_updated": "",
+      "core_business": [
+        "碳纤维生产"
+      ],
+      "last_updated": "2026-05-28",
       "industry_position": [
         "龙头",
         "：国内碳纤维产能龙头"
@@ -5722,6 +5739,18 @@
             "高端产品率先启动涨价潮：1月起，",
             "2月M系列、T800/T1000等高端品涨价趋势持续延续",
             "率先启动产品涨价，"
+          ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/QtqbJG0RJh0ZmI3XafqoZQ",
+          "date": "2026-05-28",
+          "title": "2026-05-28 碳纤维",
+          "insights": [
+            "湿法碳纤维涨价1万元/吨，产品可替代日本东丽，性价比+稳定性双优",
+            "国产替代主力"
+          ],
+          "accidents": [
+            "日本东丽官宣2026年1月涨价10%-20%，吉林化纤跟涨每吨0.5万-1万元"
           ]
         }
       ],
@@ -6060,8 +6089,11 @@
       "name": "国际医学"
     },
     "000519": {
-      "core_business": [],
-      "last_updated": "",
+      "core_business": [
+        "超硬材料",
+        "特种装备"
+      ],
+      "last_updated": "2026-05-28",
       "industry_position": [],
       "valuation": {},
       "industry": "国防军工-军工装备-地面兵装",
@@ -6082,17 +6114,36 @@
         "融资融券"
       ],
       "code": "000519",
-      "mention_count": 1,
+      "mention_count": 2,
       "partners": [],
       "articles": [
         {
           "date": "",
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/M87vvj4GUhZv6oD_L2v7vw",
+          "date": "2026-05-28",
+          "title": "2026-05-28 金刚石",
+          "insights": [
+            "子公司中南钻石是超硬材料行业龙头，在工业金刚石和培育钻石领域具有产能规模和品牌优势",
+            "实际控制人中国兵器工业集团，护城河稳固"
+          ],
+          "accidents": [
+            "业务结构多元，整体盈利能力受多业务线影响波动",
+            "传统巨头组织架构在应对市场快速变化时灵活性不足"
+          ],
+          "target_valuation": [
+            "ROE排名第三，净资产收益率0.53"
+          ]
         }
       ],
       "board": "SZ",
-      "products": [],
+      "products": [
+        "培育钻石",
+        "工业金刚石"
+      ],
       "chain": [],
       "name": "中兵红箭"
     },
@@ -8795,8 +8846,10 @@
       "name": "漳州发展"
     },
     "000762": {
-      "core_business": [],
-      "last_updated": "",
+      "core_business": [
+        "盐湖提锂"
+      ],
+      "last_updated": "2026-05-28",
       "industry_position": [],
       "valuation": {},
       "industry": "有色金属-能源金属-锂",
@@ -8813,7 +8866,7 @@
         "融资融券"
       ],
       "code": "000762",
-      "mention_count": 1,
+      "mention_count": 2,
       "partners": [],
       "articles": [
         {
@@ -8823,10 +8876,21 @@
           ],
           "title": "“盐湖提锂概念”深度解析与操作策略，7月19日",
           "source": "https://mp.weixin.qq.com/s/itQxA_XDKlUq05-gDANQFQ"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/3OtEbVvO9PfCs1ZdHJWboQ",
+          "date": "2026-05-28",
+          "title": "2026-05-28 锂矿电池",
+          "insights": [
+            "拥有西藏扎布耶盐湖独家开采权，该盐湖是全球少有的高锂浓度、低镁锂比盐湖",
+            "背靠中国宝武钢铁集团，技术支持和资本运作能力强"
+          ]
         }
       ],
       "board": "SZ",
-      "products": [],
+      "products": [
+        "碳酸锂"
+      ],
       "chain": [],
       "name": "西藏矿业"
     },
@@ -9633,8 +9697,10 @@
       "name": "鲁西化工"
     },
     "000831": {
-      "core_business": [],
-      "last_updated": "",
+      "core_business": [
+        "中重稀土资源开采"
+      ],
+      "last_updated": "2026-05-28",
       "industry_position": [
         "全球领先",
         "龙头",
@@ -9655,7 +9721,7 @@
         "融资融券"
       ],
       "code": "000831",
-      "mention_count": 4,
+      "mention_count": 2,
       "partners": [],
       "articles": [
         {
@@ -9665,6 +9731,14 @@
           ],
           "title": "6月4日市场复盘及操作策略-文末尾盘参考",
           "source": "https://mp.weixin.qq.com/s/dLj1nEm9yL322GkeUejamQ"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/YzBQumlWgGQ87sHm1-rXqg",
+          "date": "2026-05-28",
+          "title": "2026-05-28 稀土精矿",
+          "insights": [
+            "中重稀土资源龙头，手握江西离子型稀土矿资源，受益于中重稀土供需缺口"
+          ]
         }
       ],
       "board": "SZ",
@@ -11147,8 +11221,10 @@
       "name": "安泰科技"
     },
     "000970": {
-      "core_business": [],
-      "last_updated": "",
+      "core_business": [
+        "钕铁硼永磁材料"
+      ],
+      "last_updated": "2026-05-28",
       "industry_position": [],
       "valuation": {},
       "industry": "有色金属-金属新材料-磁性材料",
@@ -11167,7 +11243,7 @@
         "中字头股票"
       ],
       "code": "000970",
-      "mention_count": 0,
+      "mention_count": 2,
       "partners": [],
       "articles": [
         {
@@ -11179,6 +11255,15 @@
           "source": "https://mp.weixin.qq.com/s/eQMHqqwV-ajjET0SmduFZQ",
           "accidents": [
             "稀土永磁需求回暖"
+          ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/YzBQumlWgGQ87sHm1-rXqg",
+          "date": "2026-05-28",
+          "title": "2026-05-28 稀土精矿",
+          "insights": [
+            "钕铁硼产能全球第二，高性能产品占比超50%",
+            "切入宝马、特斯拉供应链，机器人伺服电机用磁材已实现技术突破"
           ]
         }
       ],
@@ -14243,7 +14328,7 @@
     },
     "002046": {
       "mention_count": 3,
-      "last_updated": "",
+      "last_updated": "2026-05-28",
       "partners": [],
       "concepts": [
         "卫星导航",
@@ -14284,6 +14369,19 @@
           ],
           "title": "国机精工持续推荐：航天轴承 + 金刚石技术领军公司",
           "source": "manual_input"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/M87vvj4GUhZv6oD_L2v7vw",
+          "date": "2026-05-28",
+          "title": "2026-05-28 金刚石",
+          "insights": [
+            "央企背景，培育钻石/航天/军工多重概念加持，行业竞争力护城河良好",
+            "多次获得机构买入评级"
+          ],
+          "accidents": [
+            "盈利能力较差，营收成长性较为一般",
+            "估值已被推至偏高水平"
+          ]
         }
       ],
       "board": "SZ",
@@ -14297,9 +14395,12 @@
       "name": "国机精工",
       "code": "002046",
       "core_business": [
-        "航天轴承",
+        "特种材料",
         "金刚石散热片",
-        "半导体设备"
+        "航天轴承",
+        "半导体设备",
+        "精密制造",
+        "轴承及超硬材料制品"
       ]
     },
     "002047": {
@@ -14650,8 +14751,11 @@
       "name": "涉足人形机器人"
     },
     "002074": {
-      "core_business": [],
-      "last_updated": "",
+      "core_business": [
+        "储能电池",
+        "动力电池制造"
+      ],
+      "last_updated": "2026-05-28",
       "industry_position": [],
       "valuation": {},
       "industry": "电力设备-电池-锂电池",
@@ -14704,6 +14808,14 @@
           ],
           "title": "“固态电池”产业链深度解析与操作策略（2025年4月更新）",
           "source": "https://mp.weixin.qq.com/s/yUHGZSs9svQybkU8NH9pgg"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/3OtEbVvO9PfCs1ZdHJWboQ",
+          "date": "2026-05-28",
+          "title": "2026-05-28 锂矿电池",
+          "insights": [
+            "国内动力电池重要供应商，持续布局固态电池技术，大众汽车入股带来国际化协同"
+          ]
         }
       ],
       "board": "SZ",
@@ -15871,8 +15983,11 @@
       "name": "银轮股份"
     },
     "002129": {
-      "core_business": [],
-      "last_updated": "",
+      "core_business": [
+        "光伏硅片",
+        "半导体硅片"
+      ],
+      "last_updated": "2026-05-28",
       "industry_position": [],
       "valuation": {},
       "industry": "电力设备-光伏设备-硅料硅片",
@@ -15891,17 +16006,29 @@
         "融资融券"
       ],
       "code": "002129",
-      "mention_count": 1,
+      "mention_count": 2,
       "partners": [],
       "articles": [
         {
           "date": "",
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/zmCzGZrmjnEmKaM2cvJRxg",
+          "date": "2026-05-28",
+          "title": "2026-05-28 光伏逆变器",
+          "insights": [
+            "光伏跨界半导体硅片龙头，12英寸硅片产能位居国内前列",
+            "长江存储核心供应商，存储芯片市场回暖受益国产替代红利"
+          ]
         }
       ],
       "board": "SZ",
-      "products": [],
+      "products": [
+        "光伏硅片",
+        "12英寸硅片"
+      ],
       "chain": [
         "上游-材料"
       ],
@@ -18849,8 +18976,12 @@
       "name": "大华股份"
     },
     "002240": {
-      "core_business": [],
-      "last_updated": "",
+      "core_business": [
+        "固态电池材料",
+        "金属锂生产",
+        "锂盐加工"
+      ],
+      "last_updated": "2026-05-28",
       "industry_position": [
         "龙头",
         ".SZ）——二线龙头"
@@ -18881,10 +19012,48 @@
           ],
           "title": "风口byTY",
           "source": "https://mp.weixin.qq.com/s/Eq2nWnTmgGxkSdFZMgIr5Q"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/3OtEbVvO9PfCs1ZdHJWboQ",
+          "date": "2026-05-28",
+          "title": "2026-05-28 锂矿电池",
+          "insights": [
+            "全球化布局的锂盐生产企业，拥有四川、印尼、津巴布韦等多地锂矿资源",
+            "与LG化学等全球电池巨头签订长协大单，抗风险能力强"
+          ],
+          "accidents": [
+            "印尼项目投产后的产能消化和成本控制仍需验证"
+          ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/1N_LDbRmL1sbBIFMue7KFw",
+          "date": "2026-05-28",
+          "title": "2026-05-28 盛新锂能",
+          "insights": [
+            "印尼盛拓年产6万吨锂盐项目2026年全面释放产能，总产能达13.7万吨稳居第一梯队",
+            "固态电池锂金属负极先行者，已建成500吨/年金属锂产能并实现超薄锂带批量生产",
+            "与中创新航签署2026-2030年20万吨锂盐长协，锁定产能消化空间"
+          ],
+          "accidents": [
+            "碳酸锂价格在2025年中触底后持续回升，2602合约冲破16.5万元/吨",
+            "印尼项目利用当地低成本能源，盈利能力预计高于国内老旧产线",
+            "2500吨/年金属锂新项目已完成备案并启动建设"
+          ],
+          "target_valuation": [
+            "总市值约329亿元",
+            "核心毛利率预计18%-22%",
+            "市盈率约12x-15x，处于行业历史中轴下方"
+          ]
         }
       ],
       "board": "SZ",
-      "products": [],
+      "products": [
+        "固态电解质材料",
+        "锂盐",
+        "金属锂",
+        "超薄超宽锂带",
+        "超薄锂带"
+      ],
       "chain": [],
       "name": "盛新锂能"
     },
@@ -22172,8 +22341,8 @@
       "name": "同德化工"
     },
     "002361": {
-      "mention_count": 0,
-      "last_updated": "",
+      "mention_count": 3,
+      "last_updated": "2026-05-28",
       "concepts": [
         "军工",
         "污水处理",
@@ -22200,12 +22369,50 @@
           ],
           "title": "神剑股份002361，中小板、新材料/高端装备/军工/商业航天、国资入主与全产业链布局的聚酯树脂龙头，12月25日，星期四",
           "source": "https://mp.weixin.qq.com/s/Z9OQXM4T1NK3m0KZ2LwJJQ"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/bpmjQPdYx6sBQmffHaDwzw",
+          "date": "2026-05-28",
+          "title": "2026-05-28 神剑股份",
+          "insights": [
+            "聚酯树脂领域全球领先，市场占有率较高",
+            "\"军民融合\"发展模式，通过并购神剑科技切入军工赛道"
+          ],
+          "accidents": [
+            "军工业务客户结算周期较长，应收账款占比高",
+            "收购神剑科技形成商誉，存在减值潜在风险"
+          ],
+          "target_valuation": [
+            "资产负债率约40%，处于行业合理水平",
+            "市值约35-40亿区间，市净率PB处于相对低位"
+          ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/QtqbJG0RJh0ZmI3XafqoZQ",
+          "date": "2026-05-28",
+          "title": "2026-05-28 碳纤维",
+          "insights": [
+            "机器人轻量化用碳纤维改性塑料主力，适配机器人机械臂的轻量+强韧需求"
+          ]
         }
       ],
       "industry": "基础化工-塑料制品-合成树脂",
       "board": "SZ",
       "code": "002361",
-      "name": "神剑股份"
+      "name": "神剑股份",
+      "core_business": [
+        "碳纤维改性塑料",
+        "聚酯树脂生产",
+        "军工航空航天高端装备制造",
+        "聚酯树脂"
+      ],
+      "products": [
+        "航空复合材料",
+        "粉末涂料用聚酯树脂",
+        "碳纤维改性塑料",
+        "轨道交通内饰及结构件",
+        "航天复合材料"
+      ]
     },
     "002366": {
       "mention_count": 0,
@@ -25416,8 +25623,8 @@
       "name": "荣盛石化"
     },
     "002497": {
-      "mention_count": 1,
-      "last_updated": "",
+      "mention_count": 2,
+      "last_updated": "2026-05-28",
       "concepts": [
         "军工",
         "雅下水电概念",
@@ -25448,12 +25655,28 @@
           ],
           "title": "11月18日，热点关注，今日操作策略与风险提示，文末本周1篇报告",
           "source": "https://mp.weixin.qq.com/s/SxFbKdPrsAW3AVf2qB5DdQ"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/3OtEbVvO9PfCs1ZdHJWboQ",
+          "date": "2026-05-28",
+          "title": "2026-05-28 锂矿电池",
+          "insights": [
+            "拥有澳洲锂矿权益，锂盐产能规模较大",
+            "深度绑定宁德时代、比亚迪等头部客户"
+          ]
         }
       ],
       "industry": "基础化工-化学制品-民爆用品",
       "board": "SZ",
       "code": "002497",
-      "name": "雅化集团"
+      "name": "雅化集团",
+      "core_business": [
+        "锂辉石提锂",
+        "锂盐加工"
+      ],
+      "products": [
+        "锂盐"
+      ]
     },
     "002498": {
       "mention_count": 1,
@@ -27822,8 +28045,8 @@
       "name": "绿色电力"
     },
     "002617": {
-      "mention_count": 1,
-      "last_updated": "",
+      "mention_count": 2,
+      "last_updated": "2026-05-28",
       "concepts": [
         "5G",
         "融资融券",
@@ -27849,6 +28072,14 @@
           ],
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/Dh_2MDcIC0QX0JYwrRvOKA",
+          "date": "2026-05-28",
+          "title": "2026-05-28 光伏设备",
+          "insights": [
+            "碳化硅设备龙头，碳化硅衬底量产，技术突破驱动增长"
+          ]
         }
       ],
       "industry": "公用事业-电力-新能源发电",
@@ -29142,8 +29373,8 @@
       "name": "永鼎"
     },
     "002738": {
-      "mention_count": 1,
-      "last_updated": "",
+      "mention_count": 2,
+      "last_updated": "2026-05-28",
       "concepts": [
         "一带一路",
         "动力电池回收",
@@ -29161,12 +29392,29 @@
           "date": "",
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/3OtEbVvO9PfCs1ZdHJWboQ",
+          "date": "2026-05-28",
+          "title": "2026-05-28 锂矿电池",
+          "insights": [
+            "拥有津巴布韦Bikita锂矿和加拿大Tanco锂矿，锂资源自给率高达100%",
+            "铯铷盐业务高毛利提供现金流支持，是\"小而美\"的资源巨头"
+          ]
         }
       ],
       "industry": "有色金属-小金属-其他小金属",
       "board": "SZ",
       "code": "002738",
-      "name": "中矿资源"
+      "name": "中矿资源",
+      "core_business": [
+        "锂矿开采",
+        "铯铷盐生产"
+      ],
+      "products": [
+        "锂精矿",
+        "锂盐"
+      ]
     },
     "002739": {
       "mention_count": 1,
@@ -29414,14 +29662,23 @@
       "name": "氯化亚砜"
     },
     "002756": {
-      "mention_count": 1,
-      "last_updated": "",
+      "mention_count": 2,
+      "last_updated": "2026-05-28",
       "code": "002756",
       "articles": [
         {
           "date": "",
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/3OtEbVvO9PfCs1ZdHJWboQ",
+          "date": "2026-05-28",
+          "title": "2026-05-28 锂矿电池",
+          "insights": [
+            "锂云母提锂技术标杆，依托江西宜春锂云母资源，实现采选冶一体化布局",
+            "特钢业务提供现金流支撑，抗周期能力突出"
+          ]
         }
       ],
       "industry": "有色金属-能源金属-锂",
@@ -29438,7 +29695,15 @@
         "锂电池概念",
         "深股通"
       ],
-      "name": "永兴材料"
+      "name": "永兴材料",
+      "core_business": [
+        "特钢生产",
+        "锂云母提锂"
+      ],
+      "products": [
+        "碳酸锂",
+        "特钢"
+      ]
     },
     "002759": {
       "mention_count": 3,
@@ -31373,8 +31638,8 @@
       "name": "中大力德"
     },
     "002897": {
-      "mention_count": 1,
-      "last_updated": "",
+      "mention_count": 2,
+      "last_updated": "2026-05-28",
       "concepts": [
         "6G概念",
         "新型烟草(电子烟)",
@@ -31407,6 +31672,17 @@
           "date": "",
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/Dh_2MDcIC0QX0JYwrRvOKA",
+          "date": "2026-05-28",
+          "title": "2026-05-28 光伏设备",
+          "insights": [
+            "光伏连接器龙头，HJT设备连接器放量"
+          ],
+          "target_valuation": [
+            "PE 29.60估值合理"
+          ]
         }
       ],
       "industry": "通信-通信设备-通信网络设备及器件",
@@ -38553,8 +38829,8 @@
       "core_business": []
     },
     "300224": {
-      "mention_count": 1,
-      "last_updated": "",
+      "mention_count": 2,
+      "last_updated": "2026-05-28",
       "concepts": [
         "家用电器",
         "融资融券",
@@ -38582,12 +38858,27 @@
           ],
           "title": "风口byTY",
           "source": "https://mp.weixin.qq.com/s/_10FOJ1V0upC1N1PE6LKoA"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/YzBQumlWgGQ87sHm1-rXqg",
+          "date": "2026-05-28",
+          "title": "2026-05-28 稀土精矿",
+          "insights": [
+            "产品适配机器人、新能源汽车场景",
+            "2025年三季度销量同比增长40%，海外业务环比翻倍"
+          ]
         }
       ],
       "industry": "有色金属-金属新材料-磁性材料",
       "board": "SZ",
       "code": "300224",
-      "name": "正海磁材"
+      "name": "正海磁材",
+      "core_business": [
+        "高端永磁材料"
+      ],
+      "products": [
+        "钕铁硼磁材"
+      ]
     },
     "300225": {
       "mention_count": 0,
@@ -39688,8 +39979,8 @@
       "name": "开能健康"
     },
     "300274": {
-      "mention_count": 3,
-      "last_updated": "",
+      "mention_count": 4,
+      "last_updated": "2026-05-28",
       "concepts": [
         "光伏概念",
         "数据中心",
@@ -39734,12 +40025,32 @@
           "accidents": [
             "国家数据局推进算电协同，绿电占比 80% 目标"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/Dh_2MDcIC0QX0JYwrRvOKA",
+          "date": "2026-05-28",
+          "title": "2026-05-28 光伏设备",
+          "insights": [
+            "逆变器龙头，储能逆变器放量，绑定全球客户",
+            "PE 19.93低估，储能需求驱动业绩弹性大"
+          ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/zmCzGZrmjnEmKaM2cvJRxg",
+          "date": "2026-05-28",
+          "title": "2026-05-28 光伏逆变器",
+          "insights": [
+            "充电桩、储能系统及光伏系统可运用于\"光储充一体化\"项目"
+          ]
         }
       ],
       "industry": "电力设备-光伏设备-逆变器",
       "board": "SZ",
       "products": [
+        "光伏逆变器",
+        "储能逆变器",
         "储能系统",
+        "充电桩",
         "系统"
       ],
       "chain": [
@@ -40370,8 +40681,8 @@
       "name": "戴维医疗"
     },
     "300316": {
-      "mention_count": 6,
-      "last_updated": "",
+      "mention_count": 4,
+      "last_updated": "2026-05-28",
       "partners": [
         "国内头部磷化铟衬底厂商"
       ],
@@ -40413,6 +40724,29 @@
           "date": "2026-04-21",
           "title": "光板块领涨全市场！磷化铟：AI算力卡脖子核心，全产业链标的全梳理（附权威出处）",
           "source": "https://mp.weixin.qq.com/s/5bluU2s8izAKQ9K3Fb2KGA"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/M87vvj4GUhZv6oD_L2v7vw",
+          "date": "2026-05-28",
+          "title": "2026-05-28 金刚石",
+          "insights": [
+            "半导体和光伏双轮驱动的设备与材料平台型公司，在培育钻石及金刚石功能材料领域拓展具备设备与工艺基础"
+          ],
+          "accidents": [
+            "部分传统业务受光伏行业周期性波动影响，业绩短期承压",
+            "估值偏高，盈利能力表现一般"
+          ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/Dh_2MDcIC0QX0JYwrRvOKA",
+          "date": "2026-05-28",
+          "title": "2026-05-28 光伏设备",
+          "insights": [
+            "硅片设备龙头，碳化硅设备量产，技术壁垒高"
+          ],
+          "target_valuation": [
+            "PE 67.81匹配成长"
+          ]
         }
       ],
       "board": "SZ",
@@ -40426,7 +40760,9 @@
       "name": "晶盛机电",
       "code": "300316",
       "core_business": [
-        "磷化铟单晶炉制造"
+        "晶体生长设备与工艺研发",
+        "磷化铟单晶炉制造",
+        "半导体设备、光伏设备、衬底材料及耗材零部件"
       ]
     },
     "300319": {
@@ -46790,8 +47126,8 @@
       "name": "华测导航"
     },
     "300629": {
-      "mention_count": 0,
-      "last_updated": "",
+      "mention_count": 2,
+      "last_updated": "2026-05-28",
       "concepts": [
         "军工",
         "融资融券",
@@ -46814,12 +47150,25 @@
           "date": "2025-08-21",
           "title": "300629  军工信息化 低空飞行器 无人机 军工新材料 军事保密通信数据链及特殊应用材料领域",
           "source": "https://mp.weixin.qq.com/s/GQDu10CnbpQ6I3s-Kn17cw"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/QtqbJG0RJh0ZmI3XafqoZQ",
+          "date": "2026-05-28",
+          "title": "2026-05-28 碳纤维",
+          "insights": [
+            "布局碳纤维+吸波隐身复合材，适配军工、低空经济的隐身+轻量化需求",
+            "处于研发验证阶段"
+          ]
         }
       ],
       "industry": "国防军工-军工电子-军工电子Ⅲ",
       "board": "",
       "code": "300629",
-      "name": "军工信息化"
+      "name": "军工信息化",
+      "core_business": [
+        "隐身材料",
+        "碳纤维复合材料研发"
+      ]
     },
     "300631": {
       "mention_count": 0,
@@ -48002,8 +48351,8 @@
       "name": "蠡湖股份"
     },
     "300699": {
-      "mention_count": 7,
-      "last_updated": "",
+      "mention_count": 2,
+      "last_updated": "2026-05-28",
       "concepts": [
         "光伏概念",
         "军工",
@@ -48046,11 +48395,22 @@
           "accidents": [
             "优先选择有明确订单、技术壁垒高的“真配套”企业，"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/QtqbJG0RJh0ZmI3XafqoZQ",
+          "date": "2026-05-28",
+          "title": "2026-05-28 碳纤维",
+          "insights": [
+            "国内碳纤维品种最全，是固体火箭箭体、卫星制造用碳纤维主力供应商",
+            "军工+商业航天双料配套"
+          ]
         }
       ],
       "industry": "国防军工-军工装备-航空装备",
       "board": "SZ",
       "products": [
+        "航天级碳纤维",
+        "卫星用碳纤维",
         "平台",
         "系统"
       ],
@@ -48062,7 +48422,10 @@
         "上游-材料"
       ],
       "code": "300699",
-      "name": "光威复材"
+      "name": "光威复材",
+      "core_business": [
+        "碳纤维全品类生产"
+      ]
     },
     "300706": {
       "mention_count": 0,
@@ -48324,8 +48687,8 @@
       "name": "怡达股份"
     },
     "300724": {
-      "mention_count": 1,
-      "last_updated": "",
+      "mention_count": 2,
+      "last_updated": "2026-05-28",
       "concepts": [
         "光伏概念",
         "BC电池",
@@ -48354,6 +48717,15 @@
           "source": "https://mp.weixin.qq.com/s/5D6Pj5pHEo-xH3fNfLGaTg",
           "accidents": [
             "周线MACD金叉（快线0.8"
+          ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/Dh_2MDcIC0QX0JYwrRvOKA",
+          "date": "2026-05-28",
+          "title": "2026-05-28 光伏设备",
+          "insights": [
+            "光伏设备龙头，HJT设备量产，技术迭代快",
+            "PE 14.35低估，绑定头部组件厂，订单增长明确"
           ]
         }
       ],
@@ -48608,8 +48980,8 @@
       "name": "凌玮科技"
     },
     "300748": {
-      "mention_count": 1,
-      "last_updated": "",
+      "mention_count": 5,
+      "last_updated": "2026-05-28",
       "concepts": [
         "风电",
         "稀土永磁",
@@ -48658,12 +49030,30 @@
           ],
           "title": "热点关注，今日操作策略与风险提示，9月9日，星期二，文末本周的3篇报告",
           "source": "https://mp.weixin.qq.com/s/lpU6oUVb08Zg1ovewwIpIA"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/YzBQumlWgGQ87sHm1-rXqg",
+          "date": "2026-05-28",
+          "title": "2026-05-28 稀土精矿",
+          "insights": [
+            "全球永磁材料龙头，产品供应特斯拉、金风科技等",
+            "2025年前三季度净利润同比激增161.81%"
+          ],
+          "accidents": [
+            "已获出口许可，高端钕铁硼占比高"
+          ]
         }
       ],
       "industry": "有色金属-金属新材料-磁性材料",
       "board": "SZ",
       "code": "300748",
-      "name": "金力永磁"
+      "name": "金力永磁",
+      "core_business": [
+        "永磁材料制造"
+      ],
+      "products": [
+        "高性能钕铁硼"
+      ]
     },
     "300750": {
       "mention_count": 1,
@@ -48706,8 +49096,8 @@
       "name": "宁德时代"
     },
     "300751": {
-      "mention_count": 3,
-      "last_updated": "",
+      "mention_count": 4,
+      "last_updated": "2026-05-28",
       "partners": [],
       "concepts": [
         "电池",
@@ -48767,6 +49157,14 @@
             "太空光伏设备方向"
           ],
           "accidents": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/Dh_2MDcIC0QX0JYwrRvOKA",
+          "date": "2026-05-28",
+          "title": "2026-05-28 光伏设备",
+          "insights": [
+            "HJT设备龙头，HJT设备量产，技术壁垒高"
+          ]
         }
       ],
       "board": "SZ",
@@ -48830,8 +49228,8 @@
       "name": "爱朋医疗"
     },
     "300757": {
-      "mention_count": 25,
-      "last_updated": "",
+      "mention_count": 2,
+      "last_updated": "2026-05-28",
       "concepts": [
         "光伏概念",
         "BC电池",
@@ -48868,6 +49266,14 @@
           "source": "用户输入-光芯片产业链",
           "insights": [
             "设备侧最直接的受益标的之一"
+          ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/zmCzGZrmjnEmKaM2cvJRxg",
+          "date": "2026-05-28",
+          "title": "2026-05-28 光伏逆变器",
+          "insights": [
+            "产品涵盖HIT电池工艺自动化设备，覆盖PERC、N型、HIT/HJT等工艺"
           ]
         }
       ],
@@ -49027,8 +49433,8 @@
       "name": "上海瀚讯"
     },
     "300763": {
-      "mention_count": 0,
-      "last_updated": "",
+      "mention_count": 3,
+      "last_updated": "2026-05-28",
       "concepts": [
         "光伏概念",
         "芯片概念",
@@ -49046,12 +49452,39 @@
           ],
           "title": "9月24日复盘，科技主线明确，轮动中把握节奏",
           "source": "https://mp.weixin.qq.com/s/_ApippCTEJsOohExll7-nQ"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/Dh_2MDcIC0QX0JYwrRvOKA",
+          "date": "2026-05-28",
+          "title": "2026-05-28 光伏设备",
+          "insights": [
+            "组串式逆变器国内头部厂商，用于分布式光伏发电",
+            "户用光储市场提供逆变器、电池包等解决方案，海外户储订单增长驱动弹性"
+          ],
+          "target_valuation": [
+            "PE 29.37，估值合理"
+          ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/zmCzGZrmjnEmKaM2cvJRxg",
+          "date": "2026-05-28",
+          "title": "2026-05-28 光伏逆变器",
+          "insights": [
+            "浙江省宁波市电源设备行业股，组串式逆变器国内头部厂商"
+          ]
         }
       ],
       "industry": "电力设备-光伏设备-逆变器",
       "board": "SZ",
       "code": "300763",
-      "name": "锦浪科技"
+      "name": "锦浪科技",
+      "core_business": [
+        "组串式逆变器研发与销售"
+      ],
+      "products": [
+        "光伏逆变器",
+        "储能逆变器"
+      ]
     },
     "300765": {
       "mention_count": 1,
@@ -49294,8 +49727,8 @@
       "name": "拉卡拉"
     },
     "300776": {
-      "mention_count": 5,
-      "last_updated": "",
+      "mention_count": 4,
+      "last_updated": "2026-05-28",
       "partners": [],
       "concepts": [
         "AI芯片",
@@ -49340,13 +49773,32 @@
           "source": "https://mp.weixin.qq.com/s/6PeirSTCbFUP9h2JdS5i2Q",
           "insights": [],
           "accidents": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/Dh_2MDcIC0QX0JYwrRvOKA",
+          "date": "2026-05-28",
+          "title": "2026-05-28 光伏设备",
+          "insights": [
+            "激光设备龙头，入选智能光伏试点示范",
+            "HJT激光设备量产，技术壁垒高"
+          ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/zmCzGZrmjnEmKaM2cvJRxg",
+          "date": "2026-05-28",
+          "title": "2026-05-28 光伏逆变器",
+          "insights": [
+            "入选智能光伏试点示范，为光伏电池片提供激光掺杂、激光转印解决方案"
+          ]
         }
       ],
       "board": "SZ",
       "industry": "电力设备-光伏设备-光伏加工设备",
       "products": [
         "TGV激光微孔设备",
-        "激光设备"
+        "激光转印设备",
+        "激光设备",
+        "激光掺杂设备"
       ],
       "chain": [
         "设备端 - 激光钻孔"
@@ -49358,8 +49810,8 @@
       ]
     },
     "300777": {
-      "mention_count": 1,
-      "last_updated": "",
+      "mention_count": 2,
+      "last_updated": "2026-05-28",
       "concepts": [
         "商业航天",
         "军工",
@@ -49384,12 +49836,23 @@
           ],
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/QtqbJG0RJh0ZmI3XafqoZQ",
+          "date": "2026-05-28",
+          "title": "2026-05-28 碳纤维",
+          "insights": [
+            "航天级碳纤维主力，适配火箭、卫星的高载荷需求，技术壁垒国内领先"
+          ]
         }
       ],
       "industry": "国防军工-军工装备-航空装备",
       "board": "SZ",
       "code": "300777",
-      "name": "中简科技"
+      "name": "中简科技",
+      "core_business": [
+        "高端航天级碳纤维生产"
+      ]
     },
     "300779": {
       "mention_count": 1,
@@ -50020,8 +50483,8 @@
       "name": "东岳硅材"
     },
     "300827": {
-      "mention_count": 1,
-      "last_updated": "",
+      "mention_count": 2,
+      "last_updated": "2026-05-28",
       "concepts": [
         "光伏概念",
         "数据中心",
@@ -50044,12 +50507,30 @@
           ],
           "title": "9月24日复盘，科技主线明确，轮动中把握节奏",
           "source": "https://mp.weixin.qq.com/s/_ApippCTEJsOohExll7-nQ"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/Dh_2MDcIC0QX0JYwrRvOKA",
+          "date": "2026-05-28",
+          "title": "2026-05-28 光伏设备",
+          "insights": [
+            "组串式逆变器龙头，大储逆变器放量驱动弹性"
+          ],
+          "target_valuation": [
+            "PE 52.04，估值合理"
+          ]
         }
       ],
       "industry": "电力设备-光伏设备-逆变器",
       "board": "SZ",
       "code": "300827",
-      "name": "上能电气"
+      "name": "上能电气",
+      "core_business": [
+        "组串式逆变器制造"
+      ],
+      "products": [
+        "光伏逆变器",
+        "大储逆变器"
+      ]
     },
     "300830": {
       "mention_count": 1,
@@ -50162,7 +50643,7 @@
     },
     "300842": {
       "mention_count": 2,
-      "last_updated": "",
+      "last_updated": "2026-05-28",
       "concepts": [
         "光伏概念",
         "BC电池",
@@ -50195,6 +50676,17 @@
           ],
           "accidents": [
             "人大代表介绍柔性钙钛矿电池"
+          ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/Dh_2MDcIC0QX0JYwrRvOKA",
+          "date": "2026-05-28",
+          "title": "2026-05-28 光伏设备",
+          "insights": [
+            "银浆核心厂商，HJT银浆放量，技术迭代驱动"
+          ],
+          "target_valuation": [
+            "PE 447.25高估值"
           ]
         }
       ],
@@ -58549,7 +59041,7 @@
     },
     "600010": {
       "mention_count": 2,
-      "last_updated": "",
+      "last_updated": "2026-05-28",
       "concepts": [
         "数据中心",
         "一带一路",
@@ -58585,12 +59077,29 @@
             "同时关注上游资源类公司",
             "稀土板块建议关注轻重稀土比例均衡、产业链完整的龙头企业"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/YzBQumlWgGQ87sHm1-rXqg",
+          "date": "2026-05-28",
+          "title": "2026-05-28 稀土精矿",
+          "insights": [
+            "拥有白云鄂博矿采矿权，是北方稀土的核心稀土精矿供应商",
+            "关联交易占公司总收入30%，提价直接增厚利润"
+          ],
+          "accidents": [
+            "2026年Q1稀土精矿关联交易价格上调至26834元/吨，环比上涨2.4%",
+            "连续第6次调价"
+          ]
         }
       ],
       "industry": "钢铁-钢铁-普钢",
       "board": "SH",
       "code": "600010",
-      "name": "包钢股份"
+      "name": "包钢股份",
+      "core_business": [
+        "稀土精矿供应",
+        "钢铁冶炼"
+      ]
     },
     "600011": {
       "mention_count": 0,
@@ -60229,8 +60738,8 @@
       "processed_at": "2026-05-23T21:40:13.059441+08:00"
     },
     "600111": {
-      "mention_count": 7,
-      "last_updated": "",
+      "mention_count": 2,
+      "last_updated": "2026-05-28",
       "concepts": [
         "沪股通",
         "军工",
@@ -60262,6 +60771,14 @@
           ],
           "title": "热点关注，今日操作策略与风险提示，底部竞价参考，7月14日",
           "source": "https://mp.weixin.qq.com/s/KlH2Gq1yaoza1CfvHPOlSg"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/YzBQumlWgGQ87sHm1-rXqg",
+          "date": "2026-05-28",
+          "title": "2026-05-28 稀土精矿",
+          "insights": [
+            "国内稀土分离加工龙头，70%原材料来自包钢股份，精矿稳定供应保障深加工业务盈利"
+          ]
         }
       ],
       "industry": "有色金属-小金属-稀土",
@@ -60273,7 +60790,8 @@
         "中游-全产业链"
       ],
       "core_business": [
-        "稀土开采、加工"
+        "稀土开采、加工",
+        "稀土分离加工"
       ],
       "code": "600111",
       "name": "北方稀土"
@@ -61805,8 +62323,8 @@
       "name": "首旅酒店"
     },
     "600259": {
-      "mention_count": 1,
-      "last_updated": "",
+      "mention_count": 2,
+      "last_updated": "2026-05-28",
       "concepts": [
         "沪股通",
         "海南自贸区",
@@ -61835,12 +62353,23 @@
           ],
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/YzBQumlWgGQ87sHm1-rXqg",
+          "date": "2026-05-28",
+          "title": "2026-05-28 稀土精矿",
+          "insights": [
+            "稀土冶炼分离核心企业，拥有先进分离技术"
+          ]
         }
       ],
       "industry": "有色金属-小金属-稀土",
       "board": "SH",
       "code": "600259",
-      "name": "中稀有色"
+      "name": "中稀有色",
+      "core_business": [
+        "稀土冶炼分离"
+      ]
     },
     "600260": {
       "mention_count": 0,
@@ -62504,8 +63033,8 @@
       "name": "西藏天路"
     },
     "600330": {
-      "mention_count": 3,
-      "last_updated": "",
+      "mention_count": 4,
+      "last_updated": "2026-05-28",
       "partners": [],
       "concepts": [
         "PCB概念",
@@ -62570,11 +63099,21 @@
             "薄膜铌酸锂TFLN下一代核心材料，几乎可覆盖全部AI光通信场景"
           ],
           "accidents": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/zmCzGZrmjnEmKaM2cvJRxg",
+          "date": "2026-05-28",
+          "title": "2026-05-28 光伏逆变器",
+          "insights": [
+            "晶体材料生长设备覆盖半导体单晶硅、光伏单晶硅、碳化硅等"
+          ]
         }
       ],
       "board": "SH",
       "industry": "电子-电子化学品-电子化学品Ⅲ",
-      "products": [],
+      "products": [
+        "晶体材料生长设备"
+      ],
       "chain": [],
       "name": "天通股份",
       "code": "600330",
@@ -62729,9 +63268,10 @@
       "name": "恒力石化"
     },
     "600348": {
-      "mention_count": 1,
-      "last_updated": "",
+      "mention_count": 2,
+      "last_updated": "2026-05-28",
       "core_business": [
+        "煤基碳纤维原料生产",
         "旗下华钠芯能的产品已进入全球Tier1钠电电芯榜。"
       ],
       "code": "600348",
@@ -62742,6 +63282,14 @@
           "source": "https://mp.weixin.qq.com/s/1UrR_XU4AtUNP5IbTuUUPQ",
           "insights": [
             "钠电池产业链相关公司：旗下华钠芯能的产品已进入全球Tier1钠电电芯榜。"
+          ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/QtqbJG0RJh0ZmI3XafqoZQ",
+          "date": "2026-05-28",
+          "title": "2026-05-28 碳纤维",
+          "insights": [
+            "煤基碳纤维原料龙头，成本比传统路线低，是碳纤维上游核心原料商"
           ]
         }
       ],
@@ -63357,8 +63905,8 @@
       "name": "五矿资本"
     },
     "600392": {
-      "mention_count": 3,
-      "last_updated": "",
+      "mention_count": 2,
+      "last_updated": "2026-05-28",
       "concepts": [
         "苹果概念",
         "沪股通",
@@ -63388,12 +63936,24 @@
           ],
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/YzBQumlWgGQ87sHm1-rXqg",
+          "date": "2026-05-28",
+          "title": "2026-05-28 稀土精矿",
+          "insights": [
+            "稀土分离与回收龙头，业务覆盖国内外资源，深度绑定上游供应"
+          ]
         }
       ],
       "industry": "有色金属-小金属-稀土",
       "board": "SH",
       "code": "600392",
-      "name": "盛和资源"
+      "name": "盛和资源",
+      "core_business": [
+        "稀土分离",
+        "稀土回收"
+      ]
     },
     "600400": {
       "mention_count": 0,
@@ -65523,8 +66083,8 @@
       "name": "山东黄金"
     },
     "600549": {
-      "mention_count": 2,
-      "last_updated": "",
+      "mention_count": 3,
+      "last_updated": "2026-05-28",
       "concepts": [
         "光伏概念",
         "沪股通",
@@ -65587,19 +66147,31 @@
           ],
           "partners": [],
           "hot_topic": "金属钼(半导体互连)"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/YzBQumlWgGQ87sHm1-rXqg",
+          "date": "2026-05-28",
+          "title": "2026-05-28 稀土精矿",
+          "insights": [
+            "钨稀土双主业协同，高性能钕铁硼产能稳步扩张，适配新能源需求"
+          ]
         }
       ],
       "industry": "有色金属-小金属-钨",
       "board": "SH",
       "products": [
-        "钨制品",
-        "稀土产品"
+        "高性能钕铁硼",
+        "稀土产品",
+        "钨制品"
       ],
       "chain": [
         "钨资源全产业链布局"
       ],
       "core_business": [
-        "钨矿开采、钨制品加工、稀土"
+        "钨矿开采、钨制品加工、稀土",
+        "稀土分离",
+        "钨钼加工",
+        "稀土采矿"
       ],
       "code": "600549",
       "name": "厦门钨业"
@@ -73699,8 +74271,8 @@
       "name": "中国核建"
     },
     "601615": {
-      "mention_count": 4,
-      "last_updated": "",
+      "mention_count": 2,
+      "last_updated": "2026-05-28",
       "concepts": [
         "光伏概念",
         "沪股通",
@@ -73734,6 +74306,22 @@
           "insights": [
             "操作策略：中长期布局风机、组件领域技术领先企业，关注季度装机数据及政策细则落地"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/qJuMGGClINaYnmxbtCX10A",
+          "date": "2026-05-28",
+          "title": "2026-05-28 热点",
+          "insights": [
+            "收购德华芯片相关工作快速推进，年报披露后审计评估估值沟通进展积极",
+            "德华芯片是商业航天最核心资产之一，单星价值量500万，千亿赛道",
+            "算力卫星独供国星宇航（Q3港股上市），深度合作北京算力星座"
+          ],
+          "accidents": [
+            "收购估值沟通结果积极，整体对商业航天是支持态度"
+          ],
+          "target_valuation": [
+            "主业估值400亿，并购德华有望贡献600亿市值，展望千亿市值"
+          ]
         }
       ],
       "industry": "电力设备-风电设备-风电整机",
@@ -73745,6 +74333,8 @@
         "下游-整机"
       ],
       "core_business": [
+        "风机制造",
+        "商业航天",
         "风电整机制造"
       ],
       "code": "601615",
@@ -75130,8 +75720,8 @@
       "name": "中国石油"
     },
     "601865": {
-      "mention_count": 0,
-      "last_updated": "",
+      "mention_count": 2,
+      "last_updated": "2026-05-28",
       "concepts": [
         "光伏概念",
         "一带一路",
@@ -75147,12 +75737,30 @@
           ],
           "title": "热点关注，今日操作策略与风险提示，8月29日，星期五",
           "source": "https://mp.weixin.qq.com/s/pt8eK5aB_d1aNfWvYgogxA"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/Dh_2MDcIC0QX0JYwrRvOKA",
+          "date": "2026-05-28",
+          "title": "2026-05-28 光伏设备",
+          "insights": [
+            "光伏玻璃龙头，超薄玻璃量产驱动技术降本"
+          ],
+          "target_valuation": [
+            "PE 48.84，估值合理"
+          ]
         }
       ],
       "industry": "电力设备-光伏设备-光伏辅材",
       "board": "SH",
       "code": "601865",
-      "name": "福莱特"
+      "name": "福莱特",
+      "core_business": [
+        "光伏玻璃生产"
+      ],
+      "products": [
+        "光伏玻璃",
+        "超薄玻璃"
+      ]
     },
     "601868": {
       "mention_count": 2,
@@ -80645,8 +81253,8 @@
       "name": "复合肥"
     },
     "603396": {
-      "mention_count": 3,
-      "last_updated": "",
+      "mention_count": 2,
+      "last_updated": "2026-05-28",
       "concepts": [
         "光伏概念",
         "一带一路",
@@ -80670,6 +81278,14 @@
           ],
           "title": "11月12日，热点关注，今日操作策略与风险提示，文末本周1篇报告",
           "source": "https://mp.weixin.qq.com/s/ZTmbo1AngYtX_je4McAuWA"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/Dh_2MDcIC0QX0JYwrRvOKA",
+          "date": "2026-05-28",
+          "title": "2026-05-28 光伏设备",
+          "insights": [
+            "PECVD设备龙头，HJT设备放量，技术迭代驱动增长"
+          ]
         }
       ],
       "industry": "电力设备-光伏设备-光伏加工设备",
@@ -83445,8 +84061,8 @@
       ]
     },
     "603806": {
-      "mention_count": 2,
-      "last_updated": "2026-05-23",
+      "mention_count": 3,
+      "last_updated": "2026-05-28",
       "concepts": [
         "光伏概念",
         "BC电池",
@@ -83515,6 +84131,14 @@
           ],
           "processed_by": "tbox",
           "processed_at": "2026-05-23T21:35:56.632674+08:00"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/Dh_2MDcIC0QX0JYwrRvOKA",
+          "date": "2026-05-28",
+          "title": "2026-05-28 光伏设备",
+          "insights": [
+            "光伏胶膜龙头，POE胶膜放量，技术迭代驱动增长"
+          ]
         }
       ],
       "industry": "电力设备-光伏设备-光伏辅材",
@@ -85343,8 +85967,8 @@
       "name": "华丰股份"
     },
     "605117": {
-      "mention_count": 1,
-      "last_updated": "",
+      "mention_count": 3,
+      "last_updated": "2026-05-28",
       "concepts": [
         "光伏概念",
         "家用电器",
@@ -85368,12 +85992,31 @@
             "首航新能、德业股份境外收入占比高",
             "资金聚焦有海外渠道优势、出口占比高的逆变器及储能系统公司"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/Dh_2MDcIC0QX0JYwrRvOKA",
+          "date": "2026-05-28",
+          "title": "2026-05-28 光伏设备",
+          "insights": [
+            "组串式逆变器核心厂商，户用逆变器发展迅猛",
+            "微型逆变器和户用储能领域竞争力强"
+          ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/zmCzGZrmjnEmKaM2cvJRxg",
+          "date": "2026-05-28",
+          "title": "2026-05-28 光伏逆变器",
+          "insights": [
+            "布局光伏逆变器业务，在微型逆变器和户用储能领域竞争力强"
+          ]
         }
       ],
       "industry": "电力设备-光伏设备-逆变器",
       "board": "SH",
       "products": [
-        "逆变器"
+        "光伏逆变器",
+        "逆变器",
+        "微型逆变器"
       ],
       "chain": [
         "中游-投资"
@@ -86704,8 +87347,8 @@
       "name": "国盾量子"
     },
     "688028": {
-      "mention_count": 1,
-      "last_updated": "",
+      "mention_count": 2,
+      "last_updated": "2026-05-28",
       "concepts": [
         "沪股通",
         "芯片概念",
@@ -86722,12 +87365,38 @@
           "date": "",
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/M87vvj4GUhZv6oD_L2v7vw",
+          "date": "2026-05-28",
+          "title": "2026-05-28 金刚石",
+          "insights": [
+            "CVD金刚石应用探索成果丰富，高品质CVD金刚石热沉片已通过客户认证，解决大功率激光器散热问题",
+            "CVD钻石声学振膜已率先实现车规级产业化落地"
+          ],
+          "accidents": [
+            "多项新业务尚处早期市场导入阶段",
+            "金刚石热沉材料需持续推进客户订单落地",
+            "金刚石微钻产品处于工艺定型与验证阶段"
+          ],
+          "target_valuation": [
+            "ROE排名第一，净资产收益率1.42"
+          ]
         }
       ],
       "industry": "机械设备-通用设备-磨具磨料",
       "board": "SH",
       "code": "688028",
-      "name": "沃尔德"
+      "name": "沃尔德",
+      "core_business": [
+        "CVD金刚石功能材料",
+        "超硬刀具"
+      ],
+      "products": [
+        "金刚石微钻",
+        "CVD金刚石热沉片",
+        "CVD钻石声学振膜"
+      ]
     },
     "688031": {
       "mention_count": 1,
@@ -91506,8 +92175,8 @@
       "name": "浩瀚深度"
     },
     "688295": {
-      "mention_count": 3,
-      "last_updated": "",
+      "mention_count": 2,
+      "last_updated": "2026-05-28",
       "concepts": [
         "沪股通",
         "风电",
@@ -91548,6 +92217,15 @@
             "龙头标的往往是最大受益者，",
             "其成长逻辑堪称板块内最清晰，"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/QtqbJG0RJh0ZmI3XafqoZQ",
+          "date": "2026-05-28",
+          "title": "2026-05-28 碳纤维",
+          "insights": [
+            "国内碳纤维产能Top1（2.9万吨），已突破低空经济机型用预浸料",
+            "低空经济核心配套商"
+          ]
         }
       ],
       "industry": "基础化工-化学纤维-其他纤维",
@@ -91556,7 +92234,9 @@
         "上游-材料"
       ],
       "core_business": [
-        "T1200级碳纤维突破的核心企业"
+        "T1200级碳纤维突破的核心企业",
+        "碳纤维生产",
+        "预浸料供应"
       ],
       "code": "688295",
       "name": "中复神鹰"
@@ -92515,8 +93195,8 @@
       "name": "华虹公司"
     },
     "688348": {
-      "mention_count": 1,
-      "last_updated": "",
+      "mention_count": 3,
+      "last_updated": "2026-05-28",
       "concepts": [
         "微逆",
         "光伏概念",
@@ -92567,14 +93247,22 @@
             "户用需求刚性释放",
             "高效组件集体涨价"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/Dh_2MDcIC0QX0JYwrRvOKA",
+          "date": "2026-05-28",
+          "title": "2026-05-28 光伏设备",
+          "insights": [
+            "微型逆变器龙头，海外户储订单增长"
+          ]
         }
       ],
       "industry": "电力设备-光伏设备-逆变器",
       "board": "SH",
       "products": [
-        "微型逆变器",
         "户用逆变器",
-        "阳台光伏逆变器"
+        "阳台光伏逆变器",
+        "微型逆变器"
       ],
       "code": "688348",
       "name": "昱能科技"
@@ -93312,8 +94000,8 @@
       "name": "嘉元科技"
     },
     "688390": {
-      "mention_count": 0,
-      "last_updated": "",
+      "mention_count": 3,
+      "last_updated": "2026-05-28",
       "concepts": [
         "光伏概念",
         "回购增持再贷款概念",
@@ -93333,12 +94021,41 @@
           ],
           "title": "9月24日复盘，科技主线明确，轮动中把握节奏",
           "source": "https://mp.weixin.qq.com/s/_ApippCTEJsOohExll7-nQ"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/Dh_2MDcIC0QX0JYwrRvOKA",
+          "date": "2026-05-28",
+          "title": "2026-05-28 光伏设备",
+          "insights": [
+            "组串式逆变器龙头，核心产品光伏储能逆变器集成光伏并网发电与储能功能",
+            "户储逆变器放量驱动订单增长"
+          ],
+          "target_valuation": [
+            "PE 192.09，估值合理"
+          ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/zmCzGZrmjnEmKaM2cvJRxg",
+          "date": "2026-05-28",
+          "title": "2026-05-28 光伏逆变器",
+          "insights": [
+            "核心产品光伏储能逆变器集成光伏并网发电与储能功能，提高电网品质"
+          ]
         }
       ],
       "industry": "电力设备-光伏设备-逆变器",
       "board": "SH",
       "code": "688390",
-      "name": "固德威"
+      "name": "固德威",
+      "core_business": [
+        "储能系统",
+        "光伏逆变器制造"
+      ],
+      "products": [
+        "户用系统",
+        "光伏并网逆变器",
+        "储能逆变器"
+      ]
     },
     "688392": {
       "mention_count": 1,
@@ -93504,8 +94221,8 @@
       "name": "机器视觉"
     },
     "688408": {
-      "mention_count": 1,
-      "last_updated": "",
+      "mention_count": 2,
+      "last_updated": "2026-05-28",
       "concepts": [
         "光伏概念",
         "机器人概念",
@@ -93522,12 +94239,29 @@
           "date": "",
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/Dh_2MDcIC0QX0JYwrRvOKA",
+          "date": "2026-05-28",
+          "title": "2026-05-28 光伏设备",
+          "insights": [
+            "跟踪支架龙头，海外支架订单增长驱动"
+          ],
+          "target_valuation": [
+            "PE 65.13，估值合理"
+          ]
         }
       ],
       "industry": "电力设备-光伏设备-光伏辅材",
       "board": "SH",
       "code": "688408",
-      "name": "中信博"
+      "name": "中信博",
+      "core_business": [
+        "光伏跟踪支架制造"
+      ],
+      "products": [
+        "光伏跟踪支架"
+      ]
     },
     "688418": {
       "mention_count": 1,
@@ -93762,8 +94496,8 @@
       "name": "芯联集成"
     },
     "688472": {
-      "mention_count": 7,
-      "last_updated": "",
+      "mention_count": 2,
+      "last_updated": "2026-05-28",
       "concepts": [
         "光伏概念",
         "BC电池",
@@ -93795,6 +94529,14 @@
           ],
           "accidents": [
             "太空光伏板块持续活跃"
+          ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/Dh_2MDcIC0QX0JYwrRvOKA",
+          "date": "2026-05-28",
+          "title": "2026-05-28 光伏设备",
+          "insights": [
+            "组件龙头，TOPCon组件放量，海外需求支撑"
           ]
         }
       ],
@@ -94064,8 +94806,8 @@
       ]
     },
     "688503": {
-      "mention_count": 0,
-      "last_updated": "",
+      "mention_count": 2,
+      "last_updated": "2026-05-28",
       "concepts": [
         "光伏概念",
         "BC电池",
@@ -94090,12 +94832,30 @@
           ],
           "title": "昨日市场复盘及操作策略，底部尾盘参考，7月4日，文后思维导图复盘，点赞继续更新",
           "source": "https://mp.weixin.qq.com/s/Epqk0b4Jvi1rCIIkPF_NCw"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/Dh_2MDcIC0QX0JYwrRvOKA",
+          "date": "2026-05-28",
+          "title": "2026-05-28 光伏设备",
+          "insights": [
+            "银浆龙头，HJT银浆量产驱动技术迭代增长"
+          ],
+          "target_valuation": [
+            "PE 59.51，估值合理"
+          ]
         }
       ],
       "industry": "电力设备-光伏设备-光伏辅材",
       "board": "SH",
       "code": "688503",
-      "name": "聚和材料"
+      "name": "聚和材料",
+      "core_business": [
+        "光伏银浆生产"
+      ],
+      "products": [
+        "HJT银浆",
+        "光伏银浆"
+      ]
     },
     "688506": {
       "mention_count": 4,
@@ -94229,8 +94989,8 @@
       "core_business": []
     },
     "688516": {
-      "mention_count": 2,
-      "last_updated": "",
+      "mention_count": 3,
+      "last_updated": "2026-05-28",
       "concepts": [
         "光伏概念",
         "光学检测",
@@ -94264,6 +95024,14 @@
           "source": "用户输入-光芯片产业链",
           "insights": [
             "AOI检测设备在光模块场景商业化推进"
+          ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/Dh_2MDcIC0QX0JYwrRvOKA",
+          "date": "2026-05-28",
+          "title": "2026-05-28 光伏设备",
+          "insights": [
+            "串焊机龙头，HJT串焊机放量，技术迭代驱动增长"
           ]
         }
       ],
@@ -99564,6 +100332,384 @@
         }
       ],
       "last_updated": "2026-05-27"
+    },
+    "300127": {
+      "name": "银河磁体",
+      "core_business": [
+        "粘结钕铁硼制造"
+      ],
+      "products": [
+        "粘结钕铁硼磁体"
+      ],
+      "concepts": [],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/YzBQumlWgGQ87sHm1-rXqg",
+          "date": "2026-05-28",
+          "title": "2026-05-28 稀土精矿",
+          "insights": [
+            "粘结钕铁硼龙头，应用于汽车电机、电子设备，受益于新能源汽车与消费电子需求复苏"
+          ]
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-05-28"
+    },
+    "301002": {
+      "name": "崧盛股份",
+      "core_business": [
+        "LED驱动电源",
+        "AI电源",
+        "储能"
+      ],
+      "products": [],
+      "concepts": [],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/qJuMGGClINaYnmxbtCX10A",
+          "date": "2026-05-28",
+          "title": "2026-05-28 热点",
+          "insights": [
+            "26Q1正式扭亏，全年利润预计2亿+",
+            "AI电源团队由原华为超聚变专家组建，已获超5000万订单，即将送样海外大客户",
+            "参股重庆精钢谐波减速器，横跨卫星和机器人"
+          ],
+          "accidents": [
+            "海外2021年植物照明设备进入集中更换周期",
+            "储能月度订单饱满，全年收入可能达10亿+"
+          ],
+          "target_valuation": [
+            "主业26年2-2.5亿业绩值50亿，AI电源市值几乎未被计入，预期差极大"
+          ]
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-05-28"
+    },
+    "688301": {
+      "name": "奕瑞科技",
+      "core_business": [
+        "RGA核心部件",
+        "X射线检测设备"
+      ],
+      "products": [
+        "平面CT",
+        "RGA残余气体分析仪"
+      ],
+      "concepts": [],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/qJuMGGClINaYnmxbtCX10A",
+          "date": "2026-05-28",
+          "title": "2026-05-28 热点",
+          "insights": [
+            "先进封装X线检测设备，亚微米级分辨率能精准捕捉TSV内部缺陷",
+            "CoWoS封装中用X光CT扫描可将良品率从89%提升至97%",
+            "RGA产品可用于ALD/PVD/CVD/Etch场景，打破欧美日企业垄断"
+          ],
+          "accidents": [
+            "客户包括长电科技等高端芯片封测企业",
+            "RGA产品已在多个半导体客户完成验证并实现销售"
+          ]
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-05-28"
+    },
+    "301237": {
+      "name": "和顺科技",
+      "core_business": [
+        "碳纤维用基膜生产"
+      ],
+      "products": [],
+      "concepts": [],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/QtqbJG0RJh0ZmI3XafqoZQ",
+          "date": "2026-05-28",
+          "title": "2026-05-28 碳纤维",
+          "insights": [
+            "碳纤维轻量化用基膜主力，适配碳纤维复合材料的基础层需求"
+          ]
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-05-28"
+    },
+    "603628": {
+      "name": "清源股份",
+      "core_business": [
+        "光伏支架制造"
+      ],
+      "products": [
+        "跟踪支架",
+        "光伏支架"
+      ],
+      "concepts": [],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/Dh_2MDcIC0QX0JYwrRvOKA",
+          "date": "2026-05-28",
+          "title": "2026-05-28 光伏设备",
+          "insights": [
+            "光伏支架核心厂商，跟踪支架放量，海外需求驱动订单增长"
+          ],
+          "target_valuation": [
+            "PE 30.32，估值合理"
+          ]
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-05-28"
+    },
+    "688726": {
+      "name": "拉普拉斯",
+      "core_business": [
+        "PECVD设备制造"
+      ],
+      "products": [
+        "PECVD设备"
+      ],
+      "concepts": [],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/Dh_2MDcIC0QX0JYwrRvOKA",
+          "date": "2026-05-28",
+          "title": "2026-05-28 光伏设备",
+          "insights": [
+            "PECVD设备核心厂商，HJT设备放量驱动技术迭代增长"
+          ],
+          "target_valuation": [
+            "PE 38.21，估值合理"
+          ]
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-05-28"
+    },
+    "603185": {
+      "name": "弘元绿能",
+      "core_business": [
+        "硅片生产"
+      ],
+      "products": [
+        "N型硅片",
+        "硅片"
+      ],
+      "concepts": [],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/Dh_2MDcIC0QX0JYwrRvOKA",
+          "date": "2026-05-28",
+          "title": "2026-05-28 光伏设备",
+          "insights": [
+            "硅片龙头，N型硅片放量驱动技术降本"
+          ],
+          "target_valuation": [
+            "PE 63.26，估值合理"
+          ]
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-05-28"
+    },
+    "301266": {
+      "name": "宇邦新材",
+      "core_business": [
+        "光伏焊带生产"
+      ],
+      "products": [
+        "光伏焊带",
+        "异质结焊带"
+      ],
+      "concepts": [],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/Dh_2MDcIC0QX0JYwrRvOKA",
+          "date": "2026-05-28",
+          "title": "2026-05-28 光伏设备",
+          "insights": [
+            "焊带龙头，异质结焊带量产驱动技术迭代增长"
+          ],
+          "target_valuation": [
+            "PE 73.00，估值合理"
+          ]
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-05-28"
+    },
+    "688717": {
+      "name": "艾罗能源",
+      "core_business": [
+        "户用储能逆变器制造"
+      ],
+      "products": [
+        "户用储能系统",
+        "储能逆变器"
+      ],
+      "concepts": [],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/Dh_2MDcIC0QX0JYwrRvOKA",
+          "date": "2026-05-28",
+          "title": "2026-05-28 光伏设备",
+          "insights": [
+            "户储逆变器龙头，海外户储订单增长驱动"
+          ],
+          "target_valuation": [
+            "PE 79.66，估值合理"
+          ]
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-05-28"
+    },
+    "301168": {
+      "name": "通灵股份",
+      "core_business": [
+        "光伏接线盒生产"
+      ],
+      "products": [
+        "光伏接线盒",
+        "HJT接线盒"
+      ],
+      "concepts": [],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/Dh_2MDcIC0QX0JYwrRvOKA",
+          "date": "2026-05-28",
+          "title": "2026-05-28 光伏设备",
+          "insights": [
+            "光伏接线盒龙头，HJT接线盒放量驱动技术迭代增长"
+          ],
+          "target_valuation": [
+            "PE 93.46，估值合理"
+          ]
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-05-28"
+    },
+    "301278": {
+      "name": "快可电子",
+      "core_business": [
+        "光伏连接器生产"
+      ],
+      "products": [
+        "HJT连接器",
+        "光伏连接器"
+      ],
+      "concepts": [],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/Dh_2MDcIC0QX0JYwrRvOKA",
+          "date": "2026-05-28",
+          "title": "2026-05-28 光伏设备",
+          "insights": [
+            "连接器核心厂商，HJT连接器放量驱动技术迭代增长"
+          ],
+          "target_valuation": [
+            "PE 134.56，估值合理"
+          ]
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-05-28"
+    },
+    "301046": {
+      "name": "能辉科技",
+      "core_business": [
+        "光伏EPC工程"
+      ],
+      "products": [
+        "光伏EPC服务"
+      ],
+      "concepts": [],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/Dh_2MDcIC0QX0JYwrRvOKA",
+          "date": "2026-05-28",
+          "title": "2026-05-28 光伏设备",
+          "insights": [
+            "光伏EPC龙头，海外EPC订单增长驱动"
+          ],
+          "target_valuation": [
+            "PE 140.68，估值合理"
+          ]
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-05-28"
+    },
+    "603381": {
+      "name": "永臻股份",
+      "core_business": [
+        "光伏边框生产"
+      ],
+      "products": [
+        "N型边框",
+        "光伏边框"
+      ],
+      "concepts": [],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/Dh_2MDcIC0QX0JYwrRvOKA",
+          "date": "2026-05-28",
+          "title": "2026-05-28 光伏设备",
+          "insights": [
+            "光伏边框龙头，N型边框放量"
+          ],
+          "target_valuation": [
+            "PE 2072.99，超高估值，情绪驱动"
+          ]
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-05-28"
+    },
+    "002056": {
+      "name": "横店东磁",
+      "core_business": [
+        "磁性材料制造",
+        "光伏产品生产",
+        "锂电池制造"
+      ],
+      "products": [
+        "光伏组件",
+        "铁氧体磁性材料",
+        "锂电池",
+        "芯片电感"
+      ],
+      "concepts": [],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/gChCbYrQrfEKTux4-bhO8w",
+          "date": "2026-05-28",
+          "title": "2026-05-28 横店东磁深度分析",
+          "insights": [
+            "全球领先的铁氧体磁性材料制造商，年产20万吨铁氧体预烧料、16万吨永磁铁氧体",
+            "AI磁材核心供应商，为海外大厂定制HVDC和SST产品",
+            "光伏业务逆势盈利，2025年营收225亿创历史新高，光伏组件出货24.92GW同比增45%",
+            "磁材业务\"量减价增\"结构升级，AI服务器高频电感等高端领域出货增长",
+            "锂电全极耳技术完成中试落地，聚焦小动力市场出货量维持国内前三"
+          ],
+          "accidents": [
+            "2025年光伏组件出货24.92GW同比+45%，但行业价格战导致Q4及Q1利润承压",
+            "TOPCon量产效率突破27.75%，印尼N型电池工厂满产满销",
+            "MLCC资产新纳科技有注入预期",
+            "铜片电感等器件出货量倍增"
+          ],
+          "target_valuation": [
+            "2025年营收225.86亿同比+21.7%，归母净利润18.51亿",
+            "经营活动现金流32.58亿，净现比1.76倍",
+            "光伏毛利率15.25%，磁材毛利率28.14%创新高",
+            "当前市值约360亿，向上看900亿（SST磁材500亿+主业等）"
+          ]
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-05-28"
     }
   },
   "last_updated": "2026-05-25T01:30:27.046043+08:00",
