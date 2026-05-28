@@ -16055,6 +16055,39 @@
           ],
           "title": "热点关注，今日操作策略与风险提示，底部竞价参考，6月25日",
           "source": "https://mp.weixin.qq.com/s/Q5DM8HRV8Hu_x8628m6IQQ"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/BKbiRG_PK-5kFYJXsV4gvQ",
+          "title": "艾可蓝2倍空间/天润工业/银轮股份",
+          "date": "2026-05-28",
+          "accidents": [
+            "6月UL产品认证预计通过",
+            "Q3是Google/NV客户下定时点"
+          ],
+          "insights": [
+            "主业8.3e×20x=166e+发电4e×50x=200e+G客户200e+液冷4e×40x=160e+机器人100e=800e"
+          ],
+          "key_metrics": [
+            "26E主业8.3e×20x=166e",
+            "27E发电4e×50x=200e+液冷=560e+机器人100e=800e"
+          ],
+          "target_valuation": [
+            "800亿(70%空间)"
+          ],
+          "core_business": [
+            "液冷热管理",
+            "板换产品"
+          ],
+          "industry_position": [
+            "液冷+缺电核心票"
+          ],
+          "chain": [
+            "中游-热管理"
+          ],
+          "partners": [
+            "Google",
+            "NVIDIA"
+          ]
         }
       ],
       "board": "SZ",
@@ -20358,7 +20391,7 @@
       ]
     },
     "002283": {
-      "mention_count": 1,
+      "mention_count": 2,
       "last_updated": "",
       "partners": [
         "玉柴",
@@ -20415,6 +20448,34 @@
             "天润技术团队来自伍德沃德，为唯一国产替代供应商",
             "重卡领域产品 26 年开始贡献收入"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/BKbiRG_PK-5kFYJXsV4gvQ",
+          "title": "艾可蓝2倍空间/天润工业/银轮股份",
+          "date": "2026-05-28",
+          "accidents": [
+            "大缸径曲轴连杆Q2开始生产"
+          ],
+          "insights": [
+            "主业60e+大缸径150e+喷射系统50e=260e"
+          ],
+          "key_metrics": [
+            "主业60e+大缸径150e+喷射50e=260e(90%空间)"
+          ],
+          "target_valuation": [
+            "260亿(90%空间)"
+          ],
+          "core_business": [
+            "曲轴连杆",
+            "天然气喷射系统"
+          ],
+          "industry_position": [
+            "曲轴连杆龙头"
+          ],
+          "chain": [
+            "中游-发动机部件"
+          ],
+          "partners": []
         }
       ],
       "board": "",
@@ -100177,6 +100238,86 @@
             "长鑫存储",
             "长江存储"
           ]
+        }
+      ],
+      "last_updated": "2026-05-28"
+    },
+    "300816": {
+      "code": "300816",
+      "name": "艾可蓝",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/BKbiRG_PK-5kFYJXsV4gvQ",
+          "title": "艾可蓝，2倍空间？",
+          "date": "2026-05-28",
+          "accidents": [
+            "发电机产品开始交付,ASP高于30w(此前市场认为有难度)",
+            "车规级+船舶级双重技术储备(10-20MW)"
+          ],
+          "insights": [
+            "主业28年7.5亿利润×30xPE=225e",
+            "发电机合计270e市值,200%+空间"
+          ],
+          "key_metrics": [
+            "主业28E 7.5亿×30x=225e",
+            "+发电机=270e(200%+)"
+          ],
+          "target_valuation": [
+            "270亿(200%+空间)"
+          ],
+          "core_business": [
+            "发动机后处理",
+            "发电机"
+          ],
+          "industry_position": [
+            "发电机弹性标的"
+          ],
+          "chain": [
+            "中游-发动机部件"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-05-28"
+    },
+    "002706": {
+      "code": "002706",
+      "name": "良信股份",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/Z-KJvDlr2Uo-H-ewgt3L2g",
+          "title": "良信股份，180%空间？",
+          "date": "2026-05-28",
+          "accidents": [
+            "SSCB固态断路器作为SST成熟方案必选项",
+            "6月UL认证通过+SNEC首次公开发布",
+            "SSCB单价是传统断路器10倍"
+          ],
+          "insights": [
+            "与泰永长征为SSCB双龙头",
+            "SST渗透率提升将300MW→50GW",
+            "2030美AIDC 50GW SST 40%=140亿市场"
+          ],
+          "key_metrics": [
+            "SSCB市场140e→净利56e→15%份额=8.4e×30x=250e",
+            "主业100e+AIDC出口80e=430e目标"
+          ],
+          "target_valuation": [
+            "430e(180%空间,当前151e)"
+          ],
+          "core_business": [
+            "SSCB固态断路器",
+            "低压电器"
+          ],
+          "industry_position": [
+            "SSCB双龙头"
+          ],
+          "chain": [
+            "中游-电力设备"
+          ],
+          "partners": []
         }
       ],
       "last_updated": "2026-05-28"
