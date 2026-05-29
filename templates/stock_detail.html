@@ -147,7 +147,17 @@
         </div>
         {% endif %}
 
-        <!-- 公司画像 -->
+        <!-- 所属分组 -->
+        {% if stock.groups and stock.groups|length > 0 %}
+        <div class="section">
+            <h3>📁 所属分组</h3>
+            <div class="field-list">
+                {% for group in stock.groups %}
+                <a href="/group/{{ group.id }}" class="tag" style="background:rgba({{ group.color_rgb }},0.15);color:{{ group.color }};border:1px solid rgba({{ group.color_rgb }},0.3);text-decoration:none;">{{ group.icon }} {{ group.name }}</a>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
         <div class="section">
             <h3>🏢 公司画像</h3>
             {% if stock.core_business %}

@@ -1157,6 +1157,23 @@ def stock_detail(code):
         stock['social_security_note'] = ss_info.get('note', '')
         stock['social_security_industry_group'] = ss_info.get('industry_group', '')
     
+    # 添加所属分组信息
+    stock['groups'] = []
+    for group in groups:
+        group_stocks = group.get('stocks', [])
+        if stock['name'] in group_stocks or code in group_stocks:
+            # 计算颜色 RGB 值
+            color = group.get('color', '#3b82f6')
+            result = re.match(r'^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$', color, re.IGNORECASE)
+            color_rgb = result and f"{int(result.group(1), 16)},{int(result.group(2), 16)},{int(result.group(3), 16)}" or "59,130,246"
+            stock['groups'].append({
+                'id': group.get('id', ''),
+                'name': group.get('name', ''),
+                'icon': group.get('icon', '📁'),
+                'color': color,
+                'color_rgb': color_rgb
+            })
+    
     return render_template('stock_detail.html', stock=stock)
 
 @app.route('/concepts')

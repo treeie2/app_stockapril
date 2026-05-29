@@ -1667,7 +1667,7 @@
                             ${group.description ? `<div style="font-size:.78rem;color:var(--t2);line-height:1.5;margin-bottom:.75rem;padding-bottom:.75rem;border-bottom:1px solid var(--border);">${escapeHtml(group.description.substring(0, 80))}${group.description.length > 80 ? '...' : ''}</div>` : ''}
                             <div style="display:flex;flex-wrap:wrap;gap:.4rem;">
                                 ${stocksHtml}
-                                ${moreCount > 0 ? `<span style="font-size:.72rem;color:var(--t3);">+${moreCount}更多</span>` : ''}
+                                ${moreCount > 0 ? `<a href="/group/${group.id}" style="font-size:.72rem;color:var(--cyan);text-decoration:none;">+${moreCount}更多</a>` : ''}
                                 ${(group.stocks || []).length === 0 ? '<span style="font-size:.78rem;color:var(--t3);">暂无股票</span>' : ''}
                             </div>
                         </div>`;
