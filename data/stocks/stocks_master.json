@@ -1,6 +1,6 @@
 {
-  "version": "2.4",
-  "updated_at": "2026-05-29",
+  "version": "2.3",
+  "updated_at": "",
   "stocks": {
     "002962": {
       "mention_count": 2,
@@ -131552,13 +131552,5 @@
         }
       ]
     }
-  },
-  "last_updated": "2026-05-25T01:30:27.046043+08:00",
-  "processed_by": "tbox",
-  "processed_at": "2026-05-25T01:30:27.046045+08:00",
-  "meta": {
-    "total": 2038,
-    "source": "curated_only",
-    "updated": "2026-05-20"
   }
 }
