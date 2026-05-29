@@ -1130,6 +1130,25 @@ def stock_detail(code):
     
     stock['articles'] = articles
     
+    # 添加上一页/下一页导航
+    stock_codes = sorted(stocks.keys())
+    current_idx = stock_codes.index(code) if code in stock_codes else -1
+    prev_stock = None
+    next_stock = None
+    if current_idx > 0:
+        prev_code = stock_codes[current_idx - 1]
+        prev_stock = {'code': prev_code, 'name': stocks[prev_code].get('name', '')}
+    if current_idx < len(stock_codes) - 1:
+        next_code = stock_codes[current_idx + 1]
+        next_stock = {'code': next_code, 'name': stocks[next_code].get('name', '')}
+    nav_info = {
+        'prev': prev_stock,
+        'next': next_stock,
+        'index': current_idx + 1,
+        'total': len(stock_codes)
+    }
+    stock['nav'] = nav_info
+    
     # 添加社保基金信息
     stock['is_social_security'] = code in social_security_stocks
     if stock['is_social_security']:

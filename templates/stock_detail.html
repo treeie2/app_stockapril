@@ -6,6 +6,21 @@
     <title>{{ stock.name }} ({{ stock.code }}) - 个股详情</title>
     <link rel="stylesheet" href="/static/css/stock-card.css">
     <style>
+        .nav-bar {
+            display: flex; justify-content: space-between; align-items: center;
+            background: var(--bg-card); border: 1px solid var(--border);
+            border-radius: var(--radius-lg); padding: 16px 20px; margin: 20px 0;
+        }
+        .nav-bar .nav-info { font-size: 14px; color: var(--text-muted); }
+        .nav-btn {
+            display: inline-flex; align-items: center; gap: 8px;
+            padding: 10px 20px; border-radius: var(--radius-sm);
+            background: var(--bg-secondary); border: 1px solid var(--border);
+            color: var(--text-primary); text-decoration: none;
+            font-size: 14px; font-weight: 500; transition: all 0.2s;
+        }
+        .nav-btn:hover { border-color: var(--accent-blue); background: rgba(59,130,246,0.1); color: var(--accent-blue); }
+        .nav-btn:disabled, .nav-btn.disabled { opacity: 0.4; cursor: not-allowed; }
         .sync-bar {
             position: fixed; bottom: 0; left: 0; right: 0;
             background: var(--bg-card); border-top: 1px solid var(--border);
@@ -88,6 +103,25 @@
 </head>
 <body>
     <div style="max-width: 900px; margin: 0 auto; padding: 20px 20px 80px;">
+        <!-- 上一页 / 下一页导航 -->
+        <div class="nav-bar">
+            <div>
+                {% if stock.nav.prev %}
+                <a href="/stock/{{ stock.nav.prev.code }}" class="nav-btn">← {{ stock.nav.prev.name }}</a>
+                {% else %}
+                <span class="nav-btn disabled">← 已是第一个</span>
+                {% endif %}
+            </div>
+            <div class="nav-info">{{ stock.nav.index }} / {{ stock.nav.total }}</div>
+            <div>
+                {% if stock.nav.next %}
+                <a href="/stock/{{ stock.nav.next.code }}" class="nav-btn">{{ stock.nav.next.name }} →</a>
+                {% else %}
+                <span class="nav-btn disabled">已是最后一个 →</span>
+                {% endif %}
+            </div>
+        </div>
+
         <!-- 股票头部 -->
         <div class="stock-header">
             <div>
