@@ -1,6 +1,6 @@
 {
   "version": "2.4",
-  "updated_at": "",
+  "updated_at": "2026-05-29",
   "stocks": {
     "002962": {
       "mention_count": 2,
@@ -19371,7 +19371,7 @@
         "融资融券"
       ],
       "code": "002245",
-      "mention_count": 1,
+      "mention_count": 2,
       "partners": [],
       "articles": [
         {
@@ -19383,6 +19383,35 @@
           ],
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/eVzMy-qhckbpqISb1cPt2g",
+          "title": "蔚蓝锂芯（002245）：小型化电池里的隐形冠军，深度绑定宇树机器人",
+          "date": "2026-05-22",
+          "hot_topic": "",
+          "accidents": [
+            "小型化圆柱电池龙头",
+            "深度绑定宇树机器人"
+          ],
+          "insights": [
+            "小型化电池隐形冠军",
+            "机器人电池新增长极"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "小型化圆柱锂电池",
+            "工具电池"
+          ],
+          "industry_position": [
+            "小型化电池龙头"
+          ],
+          "chain": [
+            "锂电池-小型化圆柱电池"
+          ],
+          "partners": [
+            "宇树机器人"
+          ]
         }
       ],
       "board": "SZ",
@@ -19390,7 +19419,8 @@
         "锂电池"
       ],
       "chain": [],
-      "name": "蔚蓝锂芯"
+      "name": "蔚蓝锂芯",
+      "concept": "工具电池;机器人;锂电池"
     },
     "002246": {
       "core_business": [
@@ -43781,7 +43811,7 @@
       "name": "航天智造"
     },
     "300450": {
-      "mention_count": 1,
+      "mention_count": 2,
       "last_updated": "",
       "concepts": [
         "光伏概念",
@@ -43834,6 +43864,38 @@
           "accidents": [
             "锂电设备龙头，全固态电池设备全环节覆盖，叠片设备全球市占率第一，600MPa等静压设备、高压化成分容设备均已交付。2025年Q1-Q3归母净利同比增长94.97%。"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/RaebKBhD9qWSE_7ra8B1aw",
+          "title": "5月28日A股机构研报部分-MLCC设备",
+          "date": "2026-05-28",
+          "hot_topic": "",
+          "accidents": [
+            "MLCC整线设备电容器起家",
+            "对接三环风华",
+            "今年订单预期5亿左右"
+          ],
+          "insights": [
+            "MLCC整线设备龙头"
+          ],
+          "key_metrics": [
+            "今年订单预期5亿左右"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "MLCC整线设备",
+            "锂电池设备"
+          ],
+          "industry_position": [
+            "MLCC设备龙头"
+          ],
+          "chain": [
+            "MLCC-整线设备"
+          ],
+          "partners": [
+            "三环集团",
+            "风华高科"
+          ]
         }
       ],
       "industry": "电力设备-电池-锂电专用设备",
@@ -43847,7 +43909,8 @@
         "#### 4\\. 汽车智能化"
       ],
       "code": "300450",
-      "name": "先导智能"
+      "name": "先导智能",
+      "concept": "MLCC;电容器;锂电设备"
     },
     "300451": {
       "mention_count": 1,
@@ -55734,7 +55797,7 @@
       "name": "华如科技"
     },
     "301307": {
-      "mention_count": 2,
+      "mention_count": 3,
       "last_updated": "",
       "concepts": [
         "减速器",
@@ -55767,12 +55830,46 @@
           "date": "2025-12-08",
           "title": "风口byTY",
           "source": "https://mp.weixin.qq.com/s/kLLysHybxv3NIvEdHfph8Q"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/Ffhnxhjfq8FTkzb-LG5VLg",
+          "title": "美利信调研反馈",
+          "date": "2026-05-28",
+          "hot_topic": "",
+          "accidents": [
+            "重庆新厂年底设备全部到齐产值15亿",
+            "华南新厂产值15亿",
+            "光刻核心客户数亿订单落地",
+            "6月底大龙门设备到货齐备"
+          ],
+          "insights": [
+            "半导体设备结构件和耗材业务空间巨大",
+            "液冷推进深圳产能落地",
+            "下半年筹划SiC等非金属件研发"
+          ],
+          "key_metrics": [
+            "行业净利率15%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "通信设备结构件",
+            "半导体设备结构件"
+          ],
+          "industry_position": [
+            "一体化压铸+半导体设备双轮驱动"
+          ],
+          "chain": [
+            "通信-基站结构件",
+            "半导体-设备结构件"
+          ],
+          "partners": []
         }
       ],
       "industry": "通信-通信设备-通信网络设备及器件",
       "board": "SZ",
       "code": "301307",
-      "name": "美利信"
+      "name": "美利信",
+      "concept": "一体化压铸;半导体设备;液冷"
     },
     "301308": {
       "mention_count": 3,
@@ -77087,7 +77184,7 @@
       "name": "环氧树脂"
     },
     "603005": {
-      "mention_count": 1,
+      "mention_count": 2,
       "last_updated": "",
       "partners": [],
       "concepts": [
@@ -77127,6 +77224,39 @@
           "content": "TGV 领域有深入布局，是玻璃基板封装技术的领军企业",
           "analysis": "",
           "title": "TGV（玻璃通孔）技术全解析 + 核心企业梳理"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/yxrMSnjfKTnTtv_KIUuH7w",
+          "title": "晶方科技：TGV（玻璃通孔）实现量产先行者",
+          "date": "2026-05-28",
+          "hot_topic": "",
+          "accidents": [
+            "TGV玻璃基板已量产多年",
+            "国内最早布局实现量产的TGV企业",
+            "2026Q1营收3.34亿元+14.86%"
+          ],
+          "insights": [
+            "TGV是晶圆级封装电互连核心技术",
+            "玻璃基板在Fanout封装工艺已有多年量产经验",
+            "TGV以玻璃替代硅基中介层电气隔离性更好"
+          ],
+          "key_metrics": [
+            "经营性现金流1.00亿元+63.07%",
+            "收入三年连续上涨"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "晶圆级传感器封测",
+            "TSV/TGV封装"
+          ],
+          "industry_position": [
+            "全球领先晶圆级传感器封测龙头",
+            "TGV量产先行者"
+          ],
+          "chain": [
+            "半导体-先进封装-TSV/TGV"
+          ],
+          "partners": []
         }
       ],
       "board": "SH",
@@ -77141,7 +77271,8 @@
         "半导体封测",
         "TGV 技术",
         "晶圆级封装"
-      ]
+      ],
+      "concept": "CIS封测;TGV;TSV;先进封装"
     },
     "603009": {
       "mention_count": 2,
@@ -87168,7 +87299,7 @@
       "name": "容百科技"
     },
     "688006": {
-      "mention_count": 1,
+      "mention_count": 2,
       "last_updated": "",
       "concepts": [
         "高压化成",
@@ -87196,12 +87327,42 @@
           "accidents": [
             "化成分容领域龙头，高压化成技术领先，适配多种固态电解质体系，与国内头部电池厂深度合作，加速全球化布局。2025年H1业绩重回增长，现金流大幅改善。"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/RaebKBhD9qWSE_7ra8B1aw",
+          "title": "5月28日A股机构研报部分-MLCC设备",
+          "date": "2026-05-28",
+          "hot_topic": "",
+          "accidents": [
+            "MLCC老化测试设备国内主流三环风华等实验室基本都采用杭可设备",
+            "后续设备将进一步升级"
+          ],
+          "insights": [
+            "MLCC老化测试设备龙头"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "MLCC老化测试设备",
+            "锂电池化成分容设备"
+          ],
+          "industry_position": [
+            "MLCC老化测试设备龙头"
+          ],
+          "chain": [
+            "MLCC-老化测试设备"
+          ],
+          "partners": [
+            "三环集团",
+            "风华高科"
+          ]
         }
       ],
       "industry": "电力设备-电池-锂电专用设备",
       "board": "SH",
       "code": "688006",
-      "name": "杭可科技"
+      "name": "杭可科技",
+      "concept": "MLCC;老化测试设备;锂电池设备"
     },
     "688007": {
       "mention_count": 0,
@@ -108337,9 +108498,42 @@
     "002706": {
       "code": "002706",
       "name": "良信股份",
-      "concept": "",
-      "mention_count": 2,
-      "articles": [],
+      "concept": "SSCB;固态断路器;电力设备",
+      "mention_count": 3,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/Z-KJvDlr2Uo-H-ewgt3L2g",
+          "title": "良信股份，180%空间？",
+          "date": "2026-05-28",
+          "hot_topic": "",
+          "accidents": [
+            "固态断路器SSCB为SST必选项",
+            "SSCB响应时间达微秒级远超传统机械式",
+            "6月UL系列认证预计通过"
+          ],
+          "insights": [
+            "SSCB单价是传统断路器的10倍",
+            "假设2030年美国新增AIDC装机50GW",
+            "SST渗透率40%市场空间140亿元"
+          ],
+          "key_metrics": [
+            "净利率40%",
+            "利润空间56亿元"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "低压电器",
+            "固态断路器SSCB"
+          ],
+          "industry_position": [
+            "SSCB双龙头之一"
+          ],
+          "chain": [
+            "电力设备-固态断路器"
+          ],
+          "partners": []
+        }
+      ],
       "last_updated": "",
       "concepts": [
         "光伏概念",
@@ -117244,9 +117438,44 @@
     "301360": {
       "code": "301360",
       "name": "荣旗科技",
-      "concept": "",
-      "mention_count": 4,
-      "articles": [],
+      "concept": "MLCC;等静压设备",
+      "mention_count": 5,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/RaebKBhD9qWSE_7ra8B1aw",
+          "title": "5月28日A股机构研报部分-MLCC设备",
+          "date": "2026-05-28",
+          "hot_topic": "",
+          "accidents": [
+            "参股公司四川力能是国内首家突破MLCC温等静压设备",
+            "主供三环风华",
+            "今年MLCC订单有望上亿"
+          ],
+          "insights": [
+            "MLCC温等静压设备突破",
+            "订单增长迅速"
+          ],
+          "key_metrics": [
+            "去年小几千万",
+            "今年MLCC订单有望上亿"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "MLCC等静压设备",
+            "智能装备"
+          ],
+          "industry_position": [
+            "MLCC温等静压设备突破"
+          ],
+          "chain": [
+            "MLCC-等静压设备"
+          ],
+          "partners": [
+            "三环集团",
+            "风华高科"
+          ]
+        }
+      ],
       "last_updated": "",
       "concepts": [
         "苹果概念",
@@ -131280,6 +131509,48 @@
       ],
       "industry": "食品饮料-食品加工制造-预加工食品",
       "board": ""
+    },
+    "688813": {
+      "name": "泰金新能",
+      "concept": "铜箔设备;HVLP;光模块陶瓷封装;电解装备",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/enjIbYfMmf45GuESpZLY0Q",
+          "title": "泰金新能，翻倍空间？",
+          "date": "2026-05-28",
+          "hot_topic": "",
+          "accidents": [
+            "子公司赛尔电子光模块陶瓷封装突破北美大客户",
+            "光模块陶瓷封装双寡头格局被打破",
+            "HVLP铜箔表面处理设备全国唯一"
+          ],
+          "insights": [
+            "光模块陶瓷封装单只价值量200-300元",
+            "净利率有望达40%",
+            "HVLP铜箔极度紧缺持续涨价"
+          ],
+          "key_metrics": [
+            "市值空间测算合计值550亿"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "电解成套装备",
+            "钛电极",
+            "金属玻璃封接制品",
+            "HVLP铜箔设备"
+          ],
+          "industry_position": [
+            "电解装备领域核心标的",
+            "HVLP表面处理设备全国唯一"
+          ],
+          "chain": [
+            "铜箔设备-HVLP",
+            "光模块-陶瓷封装"
+          ],
+          "partners": []
+        }
+      ]
     }
   },
   "last_updated": "2026-05-25T01:30:27.046043+08:00",
