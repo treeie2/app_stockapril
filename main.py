@@ -2122,6 +2122,10 @@ def sync_hot_topics_to_agent_store():
 def api_debug():
     """调试端点"""
     import sys
+    # 先尝试重新加载（如果之前加载失败）
+    global _data_loaded, stocks
+    _data_loaded = False
+    load_hot_topics_only()
     hot_file = HOT_TOPICS_FILE
     result = {
         'base_dir': str(BASE_DIR),
@@ -2134,6 +2138,7 @@ def api_debug():
         'vercel': 'VERCEL' in os.environ,
         'python_version': sys.version,
         'files_checked': [],
+        'load_attempt': None,
     }
     
     # 检查各种可能的文件路径
@@ -2161,6 +2166,42 @@ def api_debug():
             except:
                 pass
         result['files_checked'].append(info)
+    
+    # 尝试直接加载文件以诊断问题
+    try:
+        master_path = BASE_DIR / 'data' / 'stocks' / 'stocks_master.json'
+        if not master_path.exists():
+            master_path = Path('/var/task/data/stocks/stocks_master.json')
+        
+        if master_path.exists():
+            with open(master_path, 'r', encoding='utf-8') as f:
+                raw = f.read()
+            result['load_attempt'] = {
+                'file_size': len(raw),
+                'file_found': True,
+                'parse_ok': None,
+                'stocks_in_file': None,
+                'error': None,
+            }
+            try:
+                d = json.loads(raw)
+                result['load_attempt']['parse_ok'] = True
+                stocks_data = d.get('stocks', {})
+                if isinstance(stocks_data, dict):
+                    result['load_attempt']['stocks_in_file'] = len(stocks_data)
+                else:
+                    result['load_attempt']['stocks_in_file'] = f'not_dict:{type(stocks_data).__name__}'
+            except Exception as e:
+                result['load_attempt']['parse_ok'] = False
+                result['load_attempt']['error'] = str(e)[:200]
+                result['load_attempt']['first_100_chars'] = repr(raw[:100])
+        else:
+            result['load_attempt'] = {
+                'file_found': False,
+                'checked_path': str(master_path),
+            }
+    except Exception as e:
+        result['load_attempt'] = {'error': str(e)[:200]}
     
     if hot_file.exists():
         try:
