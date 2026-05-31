@@ -2177,7 +2177,7 @@ def api_debug():
             with open(master_path, 'r', encoding='utf-8') as f:
                 raw = f.read()
             result['load_attempt'] = {
-                'file_size': len(raw),
+                'char_count': len(raw),
                 'file_found': True,
                 'parse_ok': None,
                 'stocks_in_file': None,
@@ -2202,6 +2202,29 @@ def api_debug():
             }
     except Exception as e:
         result['load_attempt'] = {'error': str(e)[:200]}
+    
+    # 测试 load_data_from_local() 函数
+    try:
+        test_stocks, test_concepts = load_data_from_local()
+        result['test_load_fn'] = {
+            'stocks_count': len(test_stocks),
+            'concepts_count': len(test_concepts),
+            'success': True,
+        }
+        if test_stocks:
+            first_code = list(test_stocks.keys())[0]
+            result['test_load_fn']['first_stock'] = {
+                'code': first_code,
+                'name': test_stocks[first_code].get('name', ''),
+                'has_concepts': len(test_stocks[first_code].get('concepts', [])) > 0,
+            }
+    except Exception as e:
+        import traceback
+        result['test_load_fn'] = {
+            'success': False,
+            'error': str(e)[:500],
+            'traceback': traceback.format_exc()[:1000],
+        }
     
     if hot_file.exists():
         try:
