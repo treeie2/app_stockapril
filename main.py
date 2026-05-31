@@ -528,10 +528,13 @@ def load_data_from_local():
     # 从概念字段提取所有概念
     concepts = {}
     for stock in stocks_list:
+        code = stock.get('code')
+        if not code:
+            continue
         for concept in stock.get('concepts', []):
             if concept not in concepts:
                 concepts[concept] = {'stocks': []}
-            concepts[concept]['stocks'].append(stock['code'])
+            concepts[concept]['stocks'].append(code)
     
     # 从文章列表中提取最新日期作为 last_updated（仅当有明确日期时）
     for code, stock in stocks.items():
