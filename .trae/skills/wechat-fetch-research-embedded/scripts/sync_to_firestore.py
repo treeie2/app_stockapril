@@ -39,6 +39,7 @@ import argparse
 import hashlib
 import json
 import re
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List
 
@@ -102,6 +103,7 @@ def stock_meta_payload(s: Dict[str, Any]) -> Dict[str, Any]:
         "industry_position",
         "chain",
         "partners",
+        "last_updated",
     ]:
         if k in s:
             payload[k] = s[k]
@@ -222,6 +224,7 @@ def main():
 
         # Upsert stock metadata (merge only touches provided fields).
         meta = stock_meta_payload(s)
+        meta["updated_at"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
         if args.dry_run:
             print(f"DRY_RUN stock {code} {name} meta_keys={list(meta.keys())}")
         else:
