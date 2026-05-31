@@ -583,14 +583,23 @@ def load_all_data():
             try:
                 firebase_stocks, firebase_concepts = load_data_from_firebase()
                 if firebase_stocks:
-                    # 只补充本地不存在的股票，不覆盖已有数据
+                    # Firebase 数据优先（包含最新更新），覆盖或补充本地数据
                     new_count = 0
+                    updated_count = 0
                     for code, fb_stock in firebase_stocks.items():
-                        if code not in stocks:
+                        fb_updated = fb_stock.get('last_updated', '')
+                        local_stock = stocks.get(code)
+                        if local_stock is None:
                             stocks[code] = fb_stock
                             new_count += 1
+                        else:
+                            local_updated = local_stock.get('last_updated', '')
+                            # 如果 Firebase 数据更新，覆盖本地数据
+                            if fb_updated > local_updated:
+                                stocks[code] = fb_stock
+                                updated_count += 1
                     concepts.update(firebase_concepts)
-                    print(f"  ✅ Firebase 补充成功：{new_count} 只新股票（本地已有 {len(stocks) - new_count} 只）")
+                    print(f"  ✅ Firebase 补充成功：{new_count} 只新股票，{updated_count} 只已更新")
                 else:
                     print(f"  ⚠️ Firebase 数据为空，使用本地数据")
             except Exception as e:
