@@ -10,6 +10,7 @@ def normalize_code(code):
     """剥离 .SH/.SZ/.BJ 后缀，统一为纯数字 code"""
     return re.sub(r'\.(SH|SZ|BJ)$', '', code)
 
+<<<<<<< HEAD
 # 确定项目根目录
 PROJECT_ROOT = Path(__file__).parent.parent.parent.parent.parent
 
@@ -32,6 +33,13 @@ if new_data_path is None:
     print(f'  搜索路径: {[str(p) for p in new_data_paths]}')
     exit(1)
 
+=======
+# 1. 读取新数据
+new_data_path = BASE_DIR / 'data' / f'stocks_master_{today_str}.json'
+if not new_data_path.exists():
+    # 也尝试从项目根目录读取
+    new_data_path = Path(__file__).parent.parent.parent.parent.parent / 'data' / f'stocks_master_{today_str}.json'
+>>>>>>> 4d7329c1a96b3c15727456a429fae3118cb443cd
 with open(new_data_path, 'r', encoding='utf-8') as f:
     new_data = json.load(f)
 new_stocks_list = new_data.get('stocks', [])
@@ -40,12 +48,21 @@ for s in new_stocks_list:
     if 'code' in s:
         s['code'] = normalize_code(s['code'])
 new_stocks_dict = {s['code']: s for s in new_stocks_list if 'code' in s}
+<<<<<<< HEAD
 print(f'📥 新数据: {len(new_stocks_list)} 只股票')
+=======
+print(f'新数据: {len(new_stocks_list)} 只股票')
+>>>>>>> 4d7329c1a96b3c15727456a429fae3118cb443cd
 for code, s in new_stocks_dict.items():
     articles = s.get('articles', [])
     tv = articles[0].get('target_valuation', 'N/A') if articles else '无'
     print(f'  {code} {s["name"]}: {len(articles)} 篇文章, tv={tv}')
 
+<<<<<<< HEAD
+=======
+PROJECT_ROOT = Path(__file__).parent.parent.parent.parent.parent
+
+>>>>>>> 4d7329c1a96b3c15727456a429fae3118cb443cd
 # 2. 读取主文件
 master_path = PROJECT_ROOT / 'data' / 'stocks' / 'stocks_master.json'
 with open(master_path, 'r', encoding='utf-8') as f:
