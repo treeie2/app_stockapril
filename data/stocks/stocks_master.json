@@ -2227,8 +2227,8 @@
       "description": "全球第二大刚性覆铜板企业，超低损耗CCL通过英伟达验证"
     },
     "600378": {
-      "mention_count": 2,
-      "last_updated": "2026-05-31",
+      "mention_count": 3,
+      "last_updated": "2026-06-01",
       "partners": [],
       "name": "昊华科技",
       "industry_position": [],
@@ -2255,6 +2255,23 @@
           "url": "https://mp.weixin.qq.com/s/ZqxQQsvGQYGnHnX-Lcrcdw",
           "date": "2026-05-26",
           "summary": "子公司中昊晨光PTFE产能3.3万吨/年，技术对标国际，用于5G基站及高端装备密封"
+        },
+        {
+          "title": "受益晶圆扩产：超纯PFA（可溶性聚四氟乙烯）供应格局梳理",
+          "date": "2026-06-01",
+          "source": "https://mp.weixin.qq.com/s/nMRtA9Obaaweerl8ZdrHnw",
+          "accidents": [
+            "投建500吨PFA项目",
+            "11N半导体级PFA仍在研发中"
+          ],
+          "insights": [
+            "目前以工业级/电子级PFA为主",
+            "背靠晨光院军工科研背景，半导体级突破值得关注"
+          ],
+          "key_metrics": [
+            "投建500吨PFA产能"
+          ],
+          "target_valuation": []
         }
       ],
       "board": "SH",
@@ -61834,8 +61851,8 @@
       "name": "中体产业"
     },
     "600160": {
-      "mention_count": 4,
-      "last_updated": "2026-05-31",
+      "mention_count": 6,
+      "last_updated": "2026-06-01",
       "concepts": [
         "2025年报预增",
         "PVDF概念",
@@ -61902,6 +61919,26 @@
           "url": "https://mp.weixin.qq.com/s/ZqxQQsvGQYGnHnX-Lcrcdw",
           "date": "2026-05-26",
           "summary": "国内PTFE产能龙头，现有产能1.5万吨/年，拟建3万吨/年，覆盖全产业链"
+        },
+        {
+          "title": "受益晶圆扩产：超纯PFA（可溶性聚四氟乙烯）供应格局梳理",
+          "date": "2026-06-01",
+          "source": "https://mp.weixin.qq.com/s/nMRtA9Obaaweerl8ZdrHnw",
+          "accidents": [
+            "建成投产1万吨超纯PFA，已开始实现批量出货",
+            "通过SEMI F47、SEMI F57国际标准认证",
+            "下游晶圆产能增长叠加制程演进，超纯级PFA全球缺口将进一步放大"
+          ],
+          "insights": [
+            "超纯PFA全球市场长期被美日巨头垄断，国产替代空间巨大",
+            "巨化股份为国内首家突破超纯PFA并实现批量出货的企业",
+            "晶圆扩产趋势下超纯PFA需求将持续增长"
+          ],
+          "key_metrics": [
+            "建成投产1万吨超纯PFA产能",
+            "超纯级PFA纯度要求11N+"
+          ],
+          "target_valuation": []
         }
       ],
       "industry": "基础化工-化学制品-氟化工",
@@ -86072,8 +86109,8 @@
       "name": "豪悦护理"
     },
     "605020": {
-      "mention_count": 2,
-      "last_updated": "2026-05-31",
+      "mention_count": 4,
+      "last_updated": "2026-06-01",
       "concepts": [
         "2025年报预增",
         "PVDF概念",
@@ -86112,6 +86149,21 @@
           "url": "https://mp.weixin.qq.com/s/ZqxQQsvGQYGnHnX-Lcrcdw",
           "date": "2026-05-26",
           "summary": "子公司邵武永和PTFE产能1万吨/年，覆盖氟化工全链条，适配高频PCB、AI服务器"
+        },
+        {
+          "title": "受益晶圆扩产：超纯PFA（可溶性聚四氟乙烯）供应格局梳理",
+          "date": "2026-06-01",
+          "source": "https://mp.weixin.qq.com/s/nMRtA9Obaaweerl8ZdrHnw",
+          "accidents": [
+            "年产3000吨高纯PFA项目已进入试生产及爬坡阶段"
+          ],
+          "insights": [
+            "全产业链一体化布局（萤石→四氟乙烯→PPVE→PFA树脂），成本优势显著"
+          ],
+          "key_metrics": [
+            "年产3000吨高纯PFA产能"
+          ],
+          "target_valuation": []
         }
       ],
       "industry": "基础化工-化学制品-氟化工",
