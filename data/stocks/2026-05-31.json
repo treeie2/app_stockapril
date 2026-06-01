@@ -398,7 +398,10 @@
           "chain": [
             "上游-超硬材料"
           ],
-          "partners": []
+          "partners": [],
+          "industry_position": [
+            "国内金刚石材料领先企业"
+          ]
         }
       ],
       "last_updated": "2026-05-31",
@@ -500,7 +503,10 @@
           "chain": [
             "下游-电子元器件分销"
           ],
-          "partners": []
+          "partners": [],
+          "industry_position": [
+            "国内领先电子元器件分销商"
+          ]
         }
       ],
       "last_updated": "2026-05-31",
@@ -529,7 +535,10 @@
           "chain": [
             "上游-电子材料"
           ],
-          "partners": []
+          "partners": [],
+          "industry_position": [
+            "MLCC用镍粉全球领先厂商"
+          ]
         }
       ],
       "last_updated": "2026-05-31",
@@ -559,7 +568,11 @@
           "chain": [
             "上游-电子材料"
           ],
-          "partners": []
+          "partners": [],
+          "industry_position": [
+            "电子薄型载带行业龙头",
+            "离型膜国产替代领先厂商"
+          ]
         }
       ],
       "last_updated": "2026-05-31",
@@ -589,7 +602,10 @@
           "chain": [
             "上游-电子材料"
           ],
-          "partners": []
+          "partners": [],
+          "industry_position": [
+            "国内电子陶瓷材料龙头"
+          ]
         }
       ],
       "last_updated": "2026-05-31",
@@ -689,7 +705,10 @@
           "chain": [
             "中游-玻纤制造"
           ],
-          "partners": []
+          "partners": [],
+          "industry_position": [
+            "国内玻纤行业领先企业"
+          ]
         }
       ],
       "last_updated": "2026-05-31",
@@ -719,7 +738,11 @@
           "chain": [
             "中游-新材料制造"
           ],
-          "partners": []
+          "partners": [],
+          "industry_position": [
+            "国内风电叶片龙头",
+            "玻纤行业领先企业"
+          ]
         }
       ],
       "last_updated": "2026-05-31",
@@ -748,7 +771,10 @@
           "chain": [
             "中游-玻纤制造"
           ],
-          "partners": []
+          "partners": [],
+          "industry_position": [
+            "国内玻纤行业主要企业"
+          ]
         }
       ],
       "last_updated": "2026-05-31",
@@ -780,7 +806,10 @@
           "chain": [
             "中游-精密制造"
           ],
-          "partners": []
+          "partners": [],
+          "industry_position": [
+            "精密轴承及金刚石材料领先企业"
+          ]
         }
       ],
       "last_updated": "2026-05-31",
@@ -810,7 +839,10 @@
           "chain": [
             "中游-超硬材料工具"
           ],
-          "partners": []
+          "partners": [],
+          "industry_position": [
+            "超硬刀具及金刚石材料领先企业"
+          ]
         }
       ],
       "last_updated": "2026-05-31",
@@ -841,7 +873,10 @@
           "chain": [
             "中游-超硬材料"
           ],
-          "partners": []
+          "partners": [],
+          "industry_position": [
+            "国内超硬材料龙头"
+          ]
         }
       ],
       "last_updated": "2026-05-31",

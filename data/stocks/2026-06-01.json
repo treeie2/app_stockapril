@@ -1,6 +1,6 @@
 {
   "date": "2026-06-01",
-  "update_count": 16,
+  "update_count": 26,
   "stocks": {
     "000960": {
       "code": "000960",
@@ -880,6 +880,549 @@
             "投建500吨PFA产能"
           ],
           "target_valuation": []
+        }
+      ]
+    },
+    "002263": {
+      "name": "大东南",
+      "code": "002263",
+      "board": "SZ",
+      "industry": "基础化工-塑料-膜材料",
+      "concepts": [
+        "BOPP",
+        "新能源电容膜",
+        "锂电池隔膜"
+      ],
+      "products": [
+        "BOPP薄膜",
+        "BOPET薄膜",
+        "电容膜"
+      ],
+      "core_business": [
+        "BOPP薄膜及电容膜研发与生产"
+      ],
+      "industry_position": [
+        "国内电容膜龙头之一",
+        "高端电容膜（新能源/电网用）领域领先"
+      ],
+      "chain": [
+        "中游-薄膜材料制造"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "last_updated": "2026-06-01",
+      "articles": [
+        {
+          "title": "BOPP薄膜材料",
+          "date": "2026-05-29",
+          "source": "https://mp.weixin.qq.com/s/DzvjOKc23YAn8y88UGC6Dw",
+          "accidents": [
+            "高端电容膜（新能源/电网用）需求增长"
+          ],
+          "insights": [
+            "国内电容膜龙头之一，新能源电网用高端电容膜领域地位突出"
+          ],
+          "key_metrics": [
+            "BOPP电容膜设计产能1.5万吨"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "BOPP薄膜及电容膜研发与生产"
+          ],
+          "industry_position": [
+            "国内电容膜龙头之一",
+            "高端电容膜（新能源/电网用）领域领先"
+          ],
+          "chain": [
+            "中游-薄膜材料制造"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "000973": {
+      "name": "佛塑科技",
+      "code": "000973",
+      "board": "SZ",
+      "industry": "基础化工-塑料-膜材料",
+      "concepts": [
+        "BOPP",
+        "锂电池隔膜",
+        "塑料薄膜"
+      ],
+      "products": [
+        "BOPP薄膜",
+        "BOPET薄膜",
+        "锂电池隔膜"
+      ],
+      "core_business": [
+        "BOPP薄膜研发与生产",
+        "锂电池隔膜"
+      ],
+      "industry_position": [
+        "BOPP薄膜行业综合性材料供应商"
+      ],
+      "chain": [
+        "中游-薄膜材料制造"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "last_updated": "2026-06-01",
+      "articles": [
+        {
+          "title": "BOPP薄膜材料",
+          "date": "2026-05-29",
+          "source": "https://mp.weixin.qq.com/s/DzvjOKc23YAn8y88UGC6Dw",
+          "accidents": [
+            "BOPP薄膜下游需求增长"
+          ],
+          "insights": [
+            "BOPP薄膜产品广泛应用于包装、电子等领域，技术实力较强"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "BOPP薄膜研发与生产",
+            "锂电池隔膜"
+          ],
+          "industry_position": [
+            "BOPP薄膜行业综合性材料供应商"
+          ],
+          "chain": [
+            "中游-薄膜材料制造"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "000859": {
+      "name": "国风新材",
+      "code": "000859",
+      "board": "SZ",
+      "industry": "基础化工-塑料-膜材料",
+      "concepts": [
+        "BOPP",
+        "塑料薄膜",
+        "包装材料"
+      ],
+      "products": [
+        "BOPP薄膜",
+        "BOPP亮光系列",
+        "BOPP消光系列",
+        "BOPP热封系列"
+      ],
+      "core_business": [
+        "BOPP薄膜研发与生产"
+      ],
+      "industry_position": [
+        "BOPP薄膜行业领先企业，产品差异化优势突出"
+      ],
+      "chain": [
+        "中游-薄膜材料制造"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "last_updated": "2026-06-01",
+      "articles": [
+        {
+          "title": "BOPP薄膜材料",
+          "date": "2026-05-29",
+          "source": "https://mp.weixin.qq.com/s/DzvjOKc23YAn8y88UGC6Dw",
+          "accidents": [
+            "BOPP薄膜下游需求增长"
+          ],
+          "insights": [
+            "以BOPP薄膜为核心业务，产品广泛应用于印刷包装、电子电器等领域，注重产品差异化"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "BOPP薄膜研发与生产"
+          ],
+          "industry_position": [
+            "BOPP薄膜行业领先企业，产品差异化优势突出"
+          ],
+          "chain": [
+            "中游-薄膜材料制造"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "601208": {
+      "name": "东材科技",
+      "code": "601208",
+      "board": "SH",
+      "industry": "基础化工-塑料-膜材料",
+      "concepts": [
+        "BOPP",
+        "电工聚丙烯薄膜",
+        "电子绝缘",
+        "电容器薄膜"
+      ],
+      "products": [
+        "电工聚丙烯薄膜",
+        "BOPP薄膜"
+      ],
+      "core_business": [
+        "电工聚丙烯薄膜及BOPP薄膜研发与生产"
+      ],
+      "industry_position": [
+        "BOPP薄膜电子领域重点企业",
+        "技术壁垒较高"
+      ],
+      "chain": [
+        "中游-薄膜材料制造"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "last_updated": "2026-06-01",
+      "articles": [
+        {
+          "title": "BOPP薄膜材料",
+          "date": "2026-05-29",
+          "source": "https://mp.weixin.qq.com/s/DzvjOKc23YAn8y88UGC6Dw",
+          "accidents": [
+            "电容器用BOPP薄膜需求增长"
+          ],
+          "insights": [
+            "主要生产电工聚丙烯薄膜、BOPP薄膜，产品应用于电容器、电子绝缘等领域，技术壁垒较高"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "电工聚丙烯薄膜及BOPP薄膜研发与生产"
+          ],
+          "industry_position": [
+            "BOPP薄膜电子领域重点企业",
+            "技术壁垒较高"
+          ],
+          "chain": [
+            "中游-薄膜材料制造"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "002014": {
+      "name": "永新股份",
+      "code": "002014",
+      "board": "SZ",
+      "industry": "基础化工-塑料-膜材料",
+      "concepts": [
+        "BOPP",
+        "包装材料",
+        "塑料薄膜"
+      ],
+      "products": [
+        "BOPP薄膜",
+        "彩印包装",
+        "镀铝包装"
+      ],
+      "core_business": [
+        "BOPP薄膜生产",
+        "彩印包装材料"
+      ],
+      "industry_position": [
+        "BOPP薄膜包装领域重要企业"
+      ],
+      "chain": [
+        "中游-薄膜材料制造"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "last_updated": "2026-06-01",
+      "articles": [
+        {
+          "title": "BOPP薄膜材料",
+          "date": "2026-05-29",
+          "source": "https://mp.weixin.qq.com/s/DzvjOKc23YAn8y88UGC6Dw",
+          "accidents": [
+            "BOPP薄膜下游需求增长"
+          ],
+          "insights": [
+            "拥有多条BOPP薄膜生产线，产品涵盖彩印包装、镀铝包装等"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "BOPP薄膜生产",
+            "彩印包装材料"
+          ],
+          "industry_position": [
+            "BOPP薄膜包装领域重要企业"
+          ],
+          "chain": [
+            "中游-薄膜材料制造"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "002812": {
+      "name": "恩捷股份",
+      "code": "002812",
+      "board": "SZ",
+      "industry": "基础化工-塑料-膜材料",
+      "concepts": [
+        "BOPP",
+        "锂电池隔膜",
+        "烟膜",
+        "包装材料"
+      ],
+      "products": [
+        "BOPP烟膜",
+        "BOPP平膜",
+        "锂电池隔膜"
+      ],
+      "core_business": [
+        "锂电池隔膜",
+        "BOPP薄膜（烟膜/平膜）"
+      ],
+      "industry_position": [
+        "全球锂电池隔膜龙头",
+        "BOPP烟膜领先企业"
+      ],
+      "chain": [
+        "中游-膜材料制造"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "last_updated": "2026-06-01",
+      "articles": [
+        {
+          "title": "BOPP薄膜材料",
+          "date": "2026-05-29",
+          "source": "https://mp.weixin.qq.com/s/DzvjOKc23YAn8y88UGC6Dw",
+          "accidents": [
+            "BOPP烟膜和平膜业务受益于包装和烟草行业需求"
+          ],
+          "insights": [
+            "除锂电池隔膜外也生产BOPP烟膜和平膜，多元化布局"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "锂电池隔膜",
+            "BOPP薄膜（烟膜/平膜）"
+          ],
+          "industry_position": [
+            "全球锂电池隔膜龙头",
+            "BOPP烟膜领先企业"
+          ],
+          "chain": [
+            "中游-膜材料制造"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "605488": {
+      "name": "福莱新材",
+      "code": "605488",
+      "board": "SH",
+      "industry": "基础化工-塑料-膜材料",
+      "concepts": [
+        "BOPP",
+        "功能膜材料",
+        "包装材料"
+      ],
+      "products": [
+        "功能膜材料",
+        "BOPP薄膜"
+      ],
+      "core_business": [
+        "功能膜材料研发与生产"
+      ],
+      "industry_position": [
+        "功能膜材料领域领先企业"
+      ],
+      "chain": [
+        "中游-薄膜材料制造"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "last_updated": "2026-06-01",
+      "articles": [
+        {
+          "title": "BOPP薄膜材料",
+          "date": "2026-05-29",
+          "source": "https://mp.weixin.qq.com/s/DzvjOKc23YAn8y88UGC6Dw",
+          "accidents": [
+            "BOPP薄膜下游需求增长"
+          ],
+          "insights": [
+            "功能膜材料领域相关企业"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "功能膜材料研发与生产"
+          ],
+          "industry_position": [
+            "功能膜材料领域领先企业"
+          ],
+          "chain": [
+            "中游-薄膜材料制造"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "001378": {
+      "name": "德冠新材",
+      "code": "001378",
+      "board": "SZ",
+      "industry": "基础化工-塑料-膜材料",
+      "concepts": [
+        "BOPP",
+        "功能薄膜",
+        "包装材料"
+      ],
+      "products": [
+        "BOPP薄膜",
+        "功能薄膜"
+      ],
+      "core_business": [
+        "BOPP薄膜研发与生产"
+      ],
+      "industry_position": [
+        "BOPP功能薄膜领域领先企业"
+      ],
+      "chain": [
+        "中游-薄膜材料制造"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "last_updated": "2026-06-01",
+      "articles": [
+        {
+          "title": "BOPP薄膜材料",
+          "date": "2026-05-29",
+          "source": "https://mp.weixin.qq.com/s/DzvjOKc23YAn8y88UGC6Dw",
+          "accidents": [
+            "BOPP薄膜下游需求增长"
+          ],
+          "insights": [
+            "BOPP功能薄膜领域相关企业"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "BOPP薄膜研发与生产"
+          ],
+          "industry_position": [
+            "BOPP功能薄膜领域领先企业"
+          ],
+          "chain": [
+            "中游-薄膜材料制造"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "920161": {
+      "name": "龙辰科技",
+      "code": "920161",
+      "board": "BJ",
+      "industry": "基础化工-塑料-膜材料",
+      "concepts": [
+        "BOPP",
+        "新能源电容膜",
+        "薄膜电容器"
+      ],
+      "products": [
+        "BOPP薄膜",
+        "薄膜电容器用BOPP基膜"
+      ],
+      "core_business": [
+        "BOPP薄膜研发与生产"
+      ],
+      "industry_position": [
+        "薄膜电容器用BOPP基膜领域市占率约17%，核心标的"
+      ],
+      "chain": [
+        "中游-薄膜材料制造"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "last_updated": "2026-06-01",
+      "articles": [
+        {
+          "title": "BOPP薄膜材料",
+          "date": "2026-05-29",
+          "source": "https://mp.weixin.qq.com/s/DzvjOKc23YAn8y88UGC6Dw",
+          "accidents": [
+            "薄膜电容器用BOPP基膜市占率约17%"
+          ],
+          "insights": [
+            "专注于BOPP薄膜研发生产，尤其在薄膜电容器用BOPP基膜领域市占率约17%"
+          ],
+          "key_metrics": [
+            "薄膜电容器用BOPP基膜市占率约17%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "BOPP薄膜研发与生产"
+          ],
+          "industry_position": [
+            "薄膜电容器用BOPP基膜领域市占率约17%，核心标的"
+          ],
+          "chain": [
+            "中游-薄膜材料制造"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "300281": {
+      "name": "金明精机",
+      "code": "300281",
+      "board": "SZ",
+      "industry": "机械设备-专用设备-塑料加工设备",
+      "concepts": [
+        "BOPP",
+        "双向拉伸薄膜",
+        "塑料机械"
+      ],
+      "products": [
+        "BOPP双向拉伸薄膜生产线设备"
+      ],
+      "core_business": [
+        "BOPP双向拉伸薄膜生产线设备制造"
+      ],
+      "industry_position": [
+        "BOPP薄膜生产设备领域核心企业"
+      ],
+      "chain": [
+        "上游-专用设备制造"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "last_updated": "2026-06-01",
+      "articles": [
+        {
+          "title": "BOPP薄膜材料",
+          "date": "2026-05-29",
+          "source": "https://mp.weixin.qq.com/s/DzvjOKc23YAn8y88UGC6Dw",
+          "accidents": [
+            "BOPP薄膜扩产推动设备需求增长"
+          ],
+          "insights": [
+            "提供BOPP双向拉伸薄膜生产线设备，技术实力较强，是BOPP产业链设备核心企业"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "BOPP双向拉伸薄膜生产线设备制造"
+          ],
+          "industry_position": [
+            "BOPP薄膜生产设备领域核心企业"
+          ],
+          "chain": [
+            "上游-专用设备制造"
+          ],
+          "partners": []
         }
       ]
     }

@@ -40,7 +40,10 @@ prepare_*.py
 # Data files (temporary)
 raw_material_*.md
 stocks_master_*.json
+<<<<<<< HEAD
 data/stocks/stocks_master.json
+=======
+>>>>>>> 4d7329c1a96b3c15727456a429fae3118cb443cd
 
 # Submodules
 modelscope-app/
