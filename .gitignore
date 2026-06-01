@@ -49,6 +49,7 @@ data/stocks/stocks_master.json
 modelscope-app/
 model_app_stock/
 api/firebase-credentials.json
+.trae/rules/firebase-credentials.json
 *.pyc
 __pycache__/
 .tmp*/

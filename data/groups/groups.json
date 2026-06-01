@@ -271,16 +271,6 @@
       ],
       "created_at": "2026-06-01",
       "updated_at": "2026-06-01"
-    },
-    {
-      "id": "group_20260601231043",
-      "name": "--sync",
-      "description": "",
-      "color": "#3b82f6",
-      "icon": "📁",
-      "stocks": [],
-      "created_at": "2026-06-01",
-      "updated_at": "2026-06-01"
     }
   ],
   "updated_at": "2026-06-01"

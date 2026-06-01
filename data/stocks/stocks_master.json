@@ -132,7 +132,9 @@
         "光模块 PCB 供应"
       ],
       "last_updated": "2026-05-31",
-      "industry_position": [],
+      "industry_position": [
+        "FSD域控制器PCB供应商"
+      ],
       "valuation": {},
       "industry": "电子 - 电子元件 - PCB",
       "concepts": [
@@ -700,9 +702,16 @@
     "002273": {
       "mention_count": 1,
       "last_updated": "2026-05-31",
-      "partners": [],
+      "partners": [
+        "苹果(北美大客户)",
+        "欧洲知名车企"
+      ],
       "name": "水晶光电",
-      "industry_position": [],
+      "industry_position": [
+        "微棱镜模块高市占率",
+        "AR-HUD行业第二(22.95%市占率)",
+        "消费电子光学龙头"
+      ],
       "articles": [
         {
           "key_metrics": [
@@ -758,7 +767,11 @@
       "board": "SZ",
       "industry": "电子-光学光电子-光学元件",
       "products": [],
-      "chain": [],
+      "chain": [
+        "中游-光学元器件",
+        "中游-车载光学",
+        "下游-AR/AI光学"
+      ],
       "concepts": [
         "AI手机",
         "AI眼镜",
@@ -786,7 +799,13 @@
         "长安汽车概念"
       ],
       "code": "002273",
-      "core_business": []
+      "core_business": [
+        "光学元器件(微棱镜/滤光片)",
+        "薄膜光学面板",
+        "车载光学(AR-HUD)",
+        "AR光波导",
+        "AI光学"
+      ]
     },
     "002371": {
       "mention_count": 1,
@@ -834,7 +853,9 @@
     "002865": {
       "mention_count": 4,
       "last_updated": "2026-05-31",
-      "partners": [],
+      "partners": [
+        "中科宇航"
+      ],
       "name": "钧达股份",
       "industry_position": [],
       "articles": [
@@ -903,7 +924,10 @@
       "board": "SZ",
       "industry": "电力设备-光伏设备-光伏电池组件",
       "products": [],
-      "chain": [],
+      "chain": [
+        "中游-光伏电池",
+        "下游-商业航天"
+      ],
       "concepts": [
         "BC电池",
         "TOPCON电池",
@@ -915,12 +939,17 @@
         "钙钛矿电池"
       ],
       "code": "002865",
-      "core_business": []
+      "core_business": [
+        "光伏电池研发生产",
+        "商业航天卫星"
+      ]
     },
     "002971": {
       "mention_count": 1,
       "last_updated": "2026-05-31",
-      "partners": [],
+      "partners": [
+        "长江存储"
+      ],
       "name": "和远气体",
       "industry_position": [],
       "articles": [
@@ -952,7 +981,9 @@
       "board": "",
       "industry": "基础化工-化学制品-其他化学制品",
       "products": [],
-      "chain": [],
+      "chain": [
+        "上游-电子气体"
+      ],
       "concepts": [
         "专精特新",
         "天然气",
@@ -964,7 +995,9 @@
         "芯片概念"
       ],
       "code": "002971",
-      "core_business": []
+      "core_business": [
+        "电子气体研发生产"
+      ]
     },
     "003031": {
       "mention_count": 2,
@@ -1231,7 +1264,9 @@
       "last_updated": "2026-05-31",
       "partners": [],
       "name": "中际旭创",
-      "industry_position": [],
+      "industry_position": [
+        "全球高速光模块龙头"
+      ],
       "articles": [
         {
           "date": "2026-04-20",
@@ -1301,7 +1336,9 @@
       "board": "SZ",
       "industry": "通信-通信设备-通信网络设备及器件",
       "products": [],
-      "chain": [],
+      "chain": [
+        "中游-光模块制造"
+      ],
       "concepts": [
         "2025年报预增",
         "5G",
@@ -1320,14 +1357,21 @@
         "融资融券"
       ],
       "code": "300308",
-      "core_business": []
+      "core_business": [
+        "高速光模块",
+        "DSP芯片"
+      ]
     },
     "300328": {
       "mention_count": 2,
       "last_updated": "2026-05-31",
-      "partners": [],
+      "partners": [
+        "苹果"
+      ],
       "name": "宜安科技",
-      "industry_position": [],
+      "industry_position": [
+        "液态金属量产领军者"
+      ],
       "articles": [
         {
           "date": "",
@@ -1371,7 +1415,9 @@
       "board": "SZ",
       "industry": "有色金属-小金属-其他小金属",
       "products": [],
-      "chain": [],
+      "chain": [
+        "上游-新材料"
+      ],
       "concepts": [
         "5G",
         "AI眼镜",
@@ -1397,14 +1443,20 @@
         "融资融券"
       ],
       "code": "300328",
-      "core_business": []
+      "core_business": [
+        "液态金属研发生产",
+        "镁合金零部件"
+      ]
     },
     "300397": {
       "mention_count": 1,
       "last_updated": "2026-05-31",
       "partners": [],
       "name": "天和防务",
-      "industry_position": [],
+      "industry_position": [
+        "军工电子企业",
+        "ABF膜跨界布局"
+      ],
       "articles": [
         {
           "key_metrics": [],
@@ -1442,7 +1494,9 @@
       "board": "SZ",
       "industry": "国防军工-军工电子-军工电子Ⅲ",
       "products": [],
-      "chain": [],
+      "chain": [
+        "上游-半导体材料"
+      ],
       "concepts": [
         "5G",
         "东数西算(算力)",
@@ -1475,14 +1529,19 @@
         "量子科技"
       ],
       "code": "300397",
-      "core_business": []
+      "core_business": [
+        "军工电子",
+        "秦膜（ABF国产替代）"
+      ]
     },
     "300408": {
       "mention_count": 3,
       "last_updated": "2026-05-31",
       "partners": [],
       "name": "三环集团",
-      "industry_position": [],
+      "industry_position": [
+        "电子陶瓷一体化标杆"
+      ],
       "articles": [
         {
           "date": "2026-02-09",
@@ -1542,7 +1601,9 @@
       "board": "SZ",
       "industry": "电子-元件-被动元件",
       "products": [],
-      "chain": [],
+      "chain": [
+        "中游-MLCC"
+      ],
       "concepts": [
         "5G",
         "光纤概念",
@@ -1557,14 +1618,24 @@
         "证金持股"
       ],
       "code": "300408",
-      "core_business": []
+      "core_business": [
+        "MLCC制造"
+      ]
     },
     "300433": {
       "mention_count": 1,
       "last_updated": "2026-05-17",
-      "partners": [],
+      "partners": [
+        "特斯拉",
+        "英伟达",
+        "苹果"
+      ],
       "name": "蓝思科技",
-      "industry_position": [],
+      "industry_position": [
+        "果链龙头",
+        "T公司Gen3核心Tier 1",
+        "星链终端玻璃盖板核心供应商"
+      ],
       "articles": [
         {
           "key_metrics": [],
@@ -1609,7 +1680,9 @@
       "board": "SZ",
       "industry": "电子-消费电子-消费电子零部件及组装",
       "products": [],
-      "chain": [],
+      "chain": [
+        "中游-精密制造/玻璃加工"
+      ],
       "concepts": [
         "商业航天",
         "同花顺果指数",
@@ -1654,7 +1727,11 @@
         "融资融券"
       ],
       "code": "300433",
-      "core_business": []
+      "core_business": [
+        "超薄玻璃(UTG)",
+        "消费电子玻璃盖板",
+        "精密制造"
+      ]
     },
     "300502": {
       "mention_count": 1,
@@ -1699,7 +1776,9 @@
       "last_updated": "2026-05-31",
       "partners": [],
       "name": "维宏股份",
-      "industry_position": [],
+      "industry_position": [
+        "国产数控系统龙头"
+      ],
       "articles": [
         {
           "key_metrics": [],
@@ -1731,7 +1810,9 @@
       "board": "",
       "industry": "计算机-计算机设备-其他计算机设备",
       "products": [],
-      "chain": [],
+      "chain": [
+        "上游-工业软件"
+      ],
       "concepts": [
         "专精特新",
         "人形机器人",
@@ -1746,14 +1827,21 @@
         "高端装备"
       ],
       "code": "300508",
-      "core_business": []
+      "core_business": [
+        "数控系统研发",
+        "工业运动控制系统"
+      ]
     },
     "300545": {
       "mention_count": 1,
       "last_updated": "2026-05-31",
-      "partners": [],
+      "partners": [
+        "苹果"
+      ],
       "name": "联得装备",
-      "industry_position": [],
+      "industry_position": [
+        "果链OLED设备核心供应商"
+      ],
       "articles": [
         {
           "key_metrics": [],
@@ -1787,7 +1875,9 @@
       "board": "",
       "industry": "电子-光学光电子-面板",
       "products": [],
-      "chain": [],
+      "chain": [
+        "中游-专用设备"
+      ],
       "concepts": [
         "5G",
         "AI眼镜",
@@ -1819,7 +1909,11 @@
         "锂电池概念"
       ],
       "code": "300545",
-      "core_business": []
+      "core_business": [
+        "半导体封装设备",
+        "显示模组设备",
+        "OLED绑定贴合设备"
+      ]
     },
     "300666": {
       "mention_count": 1,
@@ -1883,9 +1977,13 @@
     "300709": {
       "mention_count": 1,
       "last_updated": "2026-05-31",
-      "partners": [],
+      "partners": [
+        "苹果"
+      ],
       "name": "精研科技",
-      "industry_position": [],
+      "industry_position": [
+        "MIM行业隐形冠军"
+      ],
       "articles": [
         {
           "key_metrics": [],
@@ -1917,7 +2015,9 @@
       "board": "",
       "industry": "电子-消费电子-消费电子零部件及组装",
       "products": [],
-      "chain": [],
+      "chain": [
+        "上游-精密制造"
+      ],
       "concepts": [
         "AI眼镜",
         "减速器",
@@ -1934,14 +2034,22 @@
         "融资融券"
       ],
       "code": "300709",
-      "core_business": []
+      "core_business": [
+        "MIM零部件研发生产"
+      ]
     },
     "300820": {
       "mention_count": 2,
       "last_updated": "2026-05-31",
-      "partners": [],
+      "partners": [
+        "中微公司",
+        "拓荆科技",
+        "北方华创"
+      ],
       "name": "英杰电气",
-      "industry_position": [],
+      "industry_position": [
+        "射频电源国产替代领军者"
+      ],
       "articles": [
         {
           "date": "2026-05-13",
@@ -1999,7 +2107,9 @@
       "board": "",
       "industry": "电力设备-其他电源设备-其他电源设备Ⅲ",
       "products": [],
-      "chain": [],
+      "chain": [
+        "上游-半导体设备零部件"
+      ],
       "concepts": [
         "TOPCON电池",
         "专精特新",
@@ -2018,7 +2128,10 @@
         "西部大开发"
       ],
       "code": "300820",
-      "core_business": []
+      "core_business": [
+        "射频电源研发生产",
+        "半导体设备零部件"
+      ]
     },
     "301591": {
       "mention_count": 1,
@@ -2154,9 +2267,15 @@
     "600183": {
       "mention_count": 2,
       "last_updated": "2026-05-31",
-      "partners": [],
+      "partners": [
+        "佛智芯",
+        "国内IC载板厂"
+      ],
       "name": "生益科技",
-      "industry_position": [],
+      "industry_position": [
+        "全球覆铜板龙头",
+        "ABF膜技术同源布局"
+      ],
       "articles": [
         {
           "key_metrics": [],
@@ -2204,7 +2323,10 @@
       "board": "SH",
       "industry": "电子-元件-印制电路板",
       "products": [],
-      "chain": [],
+      "chain": [
+        "上游-半导体材料",
+        "先进封装-ABF膜"
+      ],
       "concepts": [
         "2025年报预增",
         "5G",
@@ -2223,7 +2345,10 @@
         "融资融券"
       ],
       "code": "600183",
-      "core_business": [],
+      "core_business": [
+        "SIF膜（ABF国产替代）",
+        "覆铜板(CCL)"
+      ],
       "concept": "CCL;PTFE;英伟达;覆铜板;高频通信",
       "description": "全球第二大刚性覆铜板企业，超低损耗CCL通过英伟达验证"
     },
@@ -2326,9 +2451,13 @@
     "600584": {
       "mention_count": 2,
       "last_updated": "2026-05-31",
-      "partners": [],
+      "partners": [
+        "平头哥(阿里)"
+      ],
       "name": "长电科技",
-      "industry_position": [],
+      "industry_position": [
+        "平头哥独家封测服务商"
+      ],
       "articles": [
         {
           "date": "2026-02-09",
@@ -2373,7 +2502,9 @@
       "board": "SH",
       "industry": "电子-半导体-集成电路封测",
       "products": [],
-      "chain": [],
+      "chain": [
+        "中游-封测"
+      ],
       "concepts": [
         "中芯国际概念",
         "人工智能",
@@ -2401,7 +2532,9 @@
         "融资融券"
       ],
       "code": "600584",
-      "core_business": [],
+      "core_business": [
+        "芯片封测"
+      ],
       "processed_by": "tbox",
       "processed_at": "2026-05-20T11:46:50.489909+08:00"
     },
@@ -2460,9 +2593,14 @@
     "603186": {
       "mention_count": 2,
       "last_updated": "2026-05-26",
-      "partners": [],
+      "partners": [
+        "国内主要IC载板厂"
+      ],
       "name": "华正新材",
-      "industry_position": [],
+      "industry_position": [
+        "国产ABF膜先行者",
+        "CBF已实现批量交付"
+      ],
       "articles": [
         {
           "key_metrics": [],
@@ -2510,7 +2648,10 @@
       "board": "SH",
       "industry": "电子-元件-印制电路板",
       "products": [],
-      "chain": [],
+      "chain": [
+        "上游-半导体材料",
+        "先进封装-ABF膜"
+      ],
       "concepts": [
         "先进封装",
         "PCB概念",
@@ -2531,16 +2672,24 @@
         "沪股通"
       ],
       "code": "603186",
-      "core_business": [],
+      "core_business": [
+        "CBF膜（ABF国产替代）",
+        "覆铜板"
+      ],
       "concept": "AI;PTFE;英伟达;高频基材",
       "description": "Low DK/DF高频基材通过英伟达认证，珠海基地50万张/月产能已投产，AI基材营收占比预计提升至35%"
     },
     "603269": {
       "mention_count": 1,
       "last_updated": "2026-05-31",
-      "partners": [],
+      "partners": [
+        "西门子"
+      ],
       "name": "海鸥股份",
-      "industry_position": [],
+      "industry_position": [
+        "国内冷却塔龙头",
+        "液冷冷却塔第4家认证企业（打破外资垄断）"
+      ],
       "articles": [
         {
           "key_metrics": [
@@ -2585,7 +2734,9 @@
       "board": "SH",
       "industry": "机械设备-通用设备-其他通用设备",
       "products": [],
-      "chain": [],
+      "chain": [
+        "中游-冷却设备"
+      ],
       "concepts": [
         "一带一路",
         "数据中心(AIDC)",
@@ -2596,7 +2747,10 @@
         "超超临界发电"
       ],
       "code": "603269",
-      "core_business": []
+      "core_business": [
+        "冷却塔",
+        "燃气轮机撬装"
+      ]
     },
     "688012": {
       "mention_count": 2,
@@ -2642,7 +2796,9 @@
       "last_updated": "2026-05-31",
       "partners": [],
       "name": "金宏气体",
-      "industry_position": [],
+      "industry_position": [
+        "气体综合供应商"
+      ],
       "articles": [
         {
           "key_metrics": [],
@@ -2672,7 +2828,9 @@
       "board": "",
       "industry": "电子-电子化学品-电子化学品Ⅲ",
       "products": [],
-      "chain": [],
+      "chain": [
+        "上游-电子气体"
+      ],
       "concepts": [
         "专精特新",
         "中芯国际概念",
@@ -2699,14 +2857,18 @@
         "长三角一体化"
       ],
       "code": "688106",
-      "core_business": []
+      "core_business": [
+        "电子气体综合供应"
+      ]
     },
     "688146": {
       "mention_count": 2,
       "last_updated": "2026-05-17",
       "partners": [],
       "name": "中船特气",
-      "industry_position": [],
+      "industry_position": [
+        "电子特气龙头"
+      ],
       "articles": [
         {
           "date": "",
@@ -2751,7 +2913,9 @@
       "board": "SH",
       "industry": "电子-电子化学品-电子化学品Ⅲ",
       "products": [],
-      "chain": [],
+      "chain": [
+        "上游-电子气体"
+      ],
       "concepts": [
         "沪股通",
         "融资融券",
@@ -2768,14 +2932,18 @@
         "国企改革"
       ],
       "code": "688146",
-      "core_business": []
+      "core_business": [
+        "电子特气研发生产"
+      ]
     },
     "688159": {
       "mention_count": 1,
       "last_updated": "2026-05-31",
       "partners": [],
       "name": "有方科技",
-      "industry_position": [],
+      "industry_position": [
+        "国内物联网通信领域领军企业"
+      ],
       "articles": [
         {
           "key_metrics": [
@@ -2817,7 +2985,10 @@
       "board": "SH",
       "industry": "通信-通信设备-通信终端及配件",
       "products": [],
-      "chain": [],
+      "chain": [
+        "中游-算力服务",
+        "中游-物联网模组"
+      ],
       "concepts": [
         "5G",
         "AI智能体",
@@ -2850,14 +3021,19 @@
         "鸿蒙概念"
       ],
       "code": "688159",
-      "core_business": []
+      "core_business": [
+        "物联网通信模组",
+        "算力租赁"
+      ]
     },
     "688268": {
       "mention_count": 2,
       "last_updated": "2026-05-17",
       "partners": [],
       "name": "华特气体",
-      "industry_position": [],
+      "industry_position": [
+        "电子特气领军者"
+      ],
       "articles": [
         {
           "date": "",
@@ -2900,7 +3076,9 @@
       "board": "SH",
       "industry": "电子-电子化学品-电子化学品Ⅲ",
       "products": [],
-      "chain": [],
+      "chain": [
+        "上游-电子气体"
+      ],
       "concepts": [
         "光刻胶",
         "沪股通",
@@ -2918,7 +3096,10 @@
         "第三代半导体"
       ],
       "code": "688268",
-      "core_business": []
+      "core_business": [
+        "电子特气研发生产",
+        "氦气供应"
+      ]
     },
     "688305": {
       "mention_count": 1,
@@ -2997,9 +3178,14 @@
     "688519": {
       "mention_count": 1,
       "last_updated": "2026-05-19",
-      "partners": [],
+      "partners": [
+        "江苏兴南创芯"
+      ],
       "name": "南亚新材",
-      "industry_position": [],
+      "industry_position": [
+        "覆铜板企业",
+        "ABF赛道潜伏布局"
+      ],
       "articles": [
         {
           "key_metrics": [],
@@ -3069,7 +3255,9 @@
       "board": "SH",
       "industry": "电子-元件-印制电路板",
       "products": [],
-      "chain": [],
+      "chain": [
+        "上游-半导体材料"
+      ],
       "concepts": [
         "PCB概念",
         "共封装光学(CPO)",
@@ -3084,14 +3272,22 @@
         "融资融券"
       ],
       "code": "688519",
-      "core_business": []
+      "core_business": [
+        "覆铜板",
+        "ABF材料（参股兴南创芯）"
+      ]
     },
     "688548": {
       "mention_count": 2,
       "last_updated": "2026-05-31",
-      "partners": [],
+      "partners": [
+        "长江存储",
+        "长鑫存储"
+      ],
       "name": "广钢气体",
-      "industry_position": [],
+      "industry_position": [
+        "电子大宗气体龙头"
+      ],
       "articles": [
         {
           "date": "2026-03-04",
@@ -3139,7 +3335,9 @@
       "board": "SH",
       "industry": "电子-电子化学品-电子化学品Ⅲ",
       "products": [],
-      "chain": [],
+      "chain": [
+        "上游-电子气体"
+      ],
       "concepts": [
         "专精特新",
         "华为概念",
@@ -3154,12 +3352,17 @@
         "融资融券"
       ],
       "code": "688548",
-      "core_business": []
+      "core_business": [
+        "电子大宗气体供应"
+      ]
     },
     "688697": {
       "mention_count": 1,
       "last_updated": "2026-05-17",
-      "partners": [],
+      "partners": [
+        "特斯拉",
+        "比亚迪"
+      ],
       "name": "纽威数控",
       "industry_position": [
         "中高端数控机床整机领军者"
@@ -3231,7 +3434,9 @@
       "last_updated": "2026-05-31",
       "partners": [],
       "name": "东威科技",
-      "industry_position": [],
+      "industry_position": [
+        "铜电镀设备龙头"
+      ],
       "articles": [
         {
           "key_metrics": [],
@@ -3302,7 +3507,9 @@
       "board": "",
       "industry": "机械设备-专用设备-其他专用设备",
       "products": [],
-      "chain": [],
+      "chain": [
+        "中游-专用设备"
+      ],
       "concepts": [
         "2025年报预增",
         "HJT电池",
@@ -3320,7 +3527,11 @@
         "高端装备"
       ],
       "code": "688700",
-      "core_business": [],
+      "core_business": [
+        "铜电镀设备",
+        "PCB专用设备",
+        "TGV玻璃基板设备"
+      ],
       "processed_by": "tbox",
       "processed_at": "2026-05-23T21:40:13.059452+08:00"
     },
@@ -3329,7 +3540,9 @@
       "last_updated": "2026-05-31",
       "partners": [],
       "name": "强一股份",
-      "industry_position": [],
+      "industry_position": [
+        "全球第六,唯一内资探针卡龙头"
+      ],
       "articles": [
         {
           "key_metrics": [],
@@ -3388,7 +3601,9 @@
       "board": "",
       "industry": "电子-半导体-半导体设备",
       "products": [],
-      "chain": [],
+      "chain": [
+        "中游-半导体测试"
+      ],
       "concepts": [
         "2025年报预增",
         "2026一季报预增",
@@ -3402,7 +3617,9 @@
         "长三角一体化"
       ],
       "code": "688809",
-      "core_business": [],
+      "core_business": [
+        "探针卡研发生产"
+      ],
       "processed_by": "tbox",
       "processed_at": "2026-05-25T01:14:26.522719+08:00"
     },
@@ -3591,7 +3808,9 @@
         "国内外多家PCB客户"
       ],
       "name": "沃特股份",
-      "industry_position": [],
+      "industry_position": [
+        "全产业链垂直整合企业"
+      ],
       "articles": [
         {
           "date": "2026-05-17",
@@ -3705,7 +3924,9 @@
     "002915": {
       "mention_count": 1,
       "last_updated": "2026-05-31",
-      "partners": [],
+      "partners": [
+        "特斯拉(机器人)"
+      ],
       "name": "中欣氟材",
       "industry_position": [
         "全产业链氟化工龙头"
@@ -3776,9 +3997,15 @@
     "301000": {
       "mention_count": 1,
       "last_updated": "2026-05-18",
-      "partners": [],
+      "partners": [
+        "宇树科技",
+        "特斯拉"
+      ],
       "name": "肇民科技",
-      "industry_position": [],
+      "industry_position": [
+        "A股唯一宇树科技PEEK供应商",
+        "特斯拉供应链核心"
+      ],
       "articles": [
         {
           "key_metrics": [
@@ -3819,7 +4046,9 @@
       "board": "SZ",
       "industry": "汽车-汽车零部件-其他汽车零部件",
       "products": [],
-      "chain": [],
+      "chain": [
+        "下游-精密零部件"
+      ],
       "concepts": [
         "人形机器人",
         "汽车热管理",
@@ -3832,14 +4061,22 @@
         "融资融券"
       ],
       "code": "301000",
-      "core_business": []
+      "core_business": [
+        "PEEK精密零部件"
+      ]
     },
     "301005": {
       "mention_count": 1,
       "last_updated": "2026-05-18",
-      "partners": [],
+      "partners": [
+        "智元机器人",
+        "博世",
+        "麦格纳"
+      ],
       "name": "超捷股份",
-      "industry_position": [],
+      "industry_position": [
+        "精密紧固件新锐"
+      ],
       "articles": [
         {
           "key_metrics": [],
@@ -3878,7 +4115,9 @@
       "board": "SZ",
       "industry": "汽车-汽车零部件-其他汽车零部件",
       "products": [],
-      "chain": [],
+      "chain": [
+        "下游-精密零部件"
+      ],
       "concepts": [
         "航空发动机",
         "商业航天",
@@ -3908,14 +4147,23 @@
         "融资融券"
       ],
       "code": "301005",
-      "core_business": []
+      "core_business": [
+        "精密紧固件(PEEK材质)"
+      ]
     },
     "301076": {
       "mention_count": 1,
       "last_updated": "2026-05-18",
-      "partners": [],
+      "partners": [
+        "威格斯",
+        "索尔维",
+        "小鹏机器人"
+      ],
       "name": "新瀚新材",
-      "industry_position": [],
+      "industry_position": [
+        "全球第二大DFBP供应商",
+        "高端氟酮隐形冠军"
+      ],
       "articles": [
         {
           "key_metrics": [
@@ -3958,7 +4206,9 @@
       "board": "SZ",
       "industry": "基础化工-化学制品-其他化学制品",
       "products": [],
-      "chain": [],
+      "chain": [
+        "上游-PEEK原料"
+      ],
       "concepts": [
         "PEEK材料",
         "专精特新",
@@ -3966,14 +4216,21 @@
         "融资融券"
       ],
       "code": "301076",
-      "core_business": []
+      "core_business": [
+        "DFBP(芳香族酮类)"
+      ]
     },
     "600143": {
       "mention_count": 1,
       "last_updated": "2026-05-31",
-      "partners": [],
+      "partners": [
+        "宁德时代",
+        "松下"
+      ],
       "name": "金发科技",
-      "industry_position": [],
+      "industry_position": [
+        "国内最大改性塑料企业"
+      ],
       "articles": [
         {
           "key_metrics": [
@@ -4014,7 +4271,9 @@
       "board": "SH",
       "industry": "基础化工-塑料制品-改性塑料",
       "products": [],
-      "chain": [],
+      "chain": [
+        "中游-改性塑料"
+      ],
       "concepts": [
         "5G",
         "PEEK材料",
@@ -4046,14 +4305,23 @@
         "锂电池概念"
       ],
       "code": "600143",
-      "core_business": []
+      "core_business": [
+        "改性PEEK",
+        "改性塑料"
+      ]
     },
     "688716": {
       "mention_count": 1,
       "last_updated": "2026-05-18",
-      "partners": [],
+      "partners": [
+        "C919",
+        "特斯拉(Optimus)"
+      ],
       "name": "中研股份",
-      "industry_position": [],
+      "industry_position": [
+        "国产PEEK树脂龙头",
+        "国内唯一千吨级量产企业"
+      ],
       "articles": [
         {
           "key_metrics": [
@@ -4097,7 +4365,9 @@
       "board": "SH",
       "industry": "基础化工-塑料制品-合成树脂",
       "products": [],
-      "chain": [],
+      "chain": [
+        "上游-PEEK树脂"
+      ],
       "concepts": [
         "PEEK材料",
         "人形机器人",
@@ -4112,7 +4382,9 @@
         "融资融券"
       ],
       "code": "688716",
-      "core_business": []
+      "core_business": [
+        "PEEK树脂及改性材料"
+      ]
     },
     "000002": {
       "core_business": [],
@@ -9538,7 +9810,11 @@
       ],
       "code": "000811",
       "mention_count": 1,
-      "partners": [],
+      "partners": [
+        "Dayone",
+        "北美头部EPC",
+        "北美CSP"
+      ],
       "articles": [
         {
           "date": "2025-11-08",
@@ -14050,7 +14326,9 @@
       ],
       "code": "002028",
       "mention_count": 2,
-      "partners": [],
+      "partners": [
+        "英伟达(间接)"
+      ],
       "articles": [
         {
           "date": "2026-01-13",
@@ -14115,7 +14393,9 @@
       "processed_at": "2026-05-23T23:17:45.684782+08:00"
     },
     "002036": {
-      "core_business": [],
+      "core_business": [
+        "ADAS车载镜头"
+      ],
       "last_updated": "2026-05-31",
       "industry_position": [
         "隐形冠军"
@@ -14163,7 +14443,9 @@
       ],
       "code": "002036",
       "mention_count": 3,
-      "partners": [],
+      "partners": [
+        "特斯拉"
+      ],
       "articles": [
         {
           "date": "2025-04-24",
@@ -14216,7 +14498,9 @@
       ],
       "board": "SZ",
       "products": [],
-      "chain": [],
+      "chain": [
+        "下游-智能驾驶"
+      ],
       "name": "联创电子",
       "processed_by": "tbox",
       "processed_at": "2026-05-21T19:08:06.096145+08:00"
@@ -19353,9 +19637,14 @@
       "name": "滨江集团"
     },
     "002245": {
-      "core_business": [],
+      "core_business": [
+        "小型化圆柱锂电池",
+        "工具电池"
+      ],
       "last_updated": "2026-05-31",
-      "industry_position": [],
+      "industry_position": [
+        "小型化电池龙头"
+      ],
       "valuation": {},
       "industry": "电力设备-电池-锂电池",
       "concepts": [
@@ -19382,7 +19671,9 @@
       ],
       "code": "002245",
       "mention_count": 2,
-      "partners": [],
+      "partners": [
+        "宇树机器人"
+      ],
       "articles": [
         {
           "date": "",
@@ -19428,7 +19719,9 @@
       "products": [
         "锂电池"
       ],
-      "chain": [],
+      "chain": [
+        "锂电池-小型化圆柱电池"
+      ],
       "name": "蔚蓝锂芯",
       "concept": "工具电池;机器人;锂电池"
     },
@@ -19843,9 +20136,14 @@
       "name": "拓维信息"
     },
     "002263": {
-      "core_business": [],
+      "core_business": [
+        "BOPP薄膜及电容膜研发与生产"
+      ],
       "last_updated": "2026-06-01",
-      "industry_position": [],
+      "industry_position": [
+        "国内电容膜龙头之一",
+        "高端电容膜（新能源/电网用）领域领先"
+      ],
       "valuation": {},
       "industry": "基础化工-塑料制品-膜材料",
       "concepts": [
@@ -19906,7 +20204,9 @@
       ],
       "board": "",
       "products": [],
-      "chain": [],
+      "chain": [
+        "中游-薄膜材料制造"
+      ],
       "name": "大东南"
     },
     "002264": {
@@ -23646,7 +23946,13 @@
       "code": "002405",
       "name": "四维图新",
       "processed_by": "tbox",
-      "processed_at": "2026-05-21T19:08:06.096187+08:00"
+      "processed_at": "2026-05-21T19:08:06.096187+08:00",
+      "core_business": [
+        "高精地图/导航"
+      ],
+      "partners": [
+        "特斯拉"
+      ]
     },
     "002407": {
       "mention_count": 1,
@@ -25026,7 +25332,9 @@
         "AI 服务器 PCB"
       ],
       "last_updated": "2026-05-31",
-      "industry_position": [],
+      "industry_position": [
+        "FSD域控制器PCB供应商（已有，追加）"
+      ],
       "valuation": {},
       "industry": "电子 - 电子元件 - PCB",
       "concepts": [
@@ -29198,7 +29506,13 @@
       "code": "002703",
       "name": "浙江世宝",
       "processed_by": "tbox",
-      "processed_at": "2026-05-21T19:08:06.096182+08:00"
+      "processed_at": "2026-05-21T19:08:06.096182+08:00",
+      "core_business": [
+        "线控转向"
+      ],
+      "partners": [
+        "特斯拉"
+      ]
     },
     "002707": {
       "mention_count": 0,
@@ -30737,7 +31051,17 @@
       "code": "002812",
       "name": "恩捷股份",
       "processed_by": "tbox",
-      "processed_at": "2026-05-24T23:14:11.059234+08:00"
+      "processed_at": "2026-05-24T23:14:11.059234+08:00",
+      "industry_position": [
+        "全球锂电池隔膜龙头",
+        "BOPP烟膜领先企业"
+      ],
+      "chain": [
+        "中游-膜材料制造"
+      ],
+      "partners": [
+        "中创新航(CALB)"
+      ]
     },
     "002819": {
       "mention_count": 1,
@@ -31225,6 +31549,18 @@
         "粤港澳大湾区",
         "芯片概念",
         "虚拟现实"
+      ],
+      "core_business": [
+        "CoWoS先进封装"
+      ],
+      "industry_position": [
+        "日月同芯切入CoWoS/SoIC封测"
+      ],
+      "chain": [
+        "中游-先进封装"
+      ],
+      "partners": [
+        "日月光"
       ]
     },
     "002849": {
@@ -31363,7 +31699,20 @@
       "code": "002851",
       "name": "麦格米特",
       "processed_by": "tbox",
-      "processed_at": "2026-05-23T23:17:45.684775+08:00"
+      "processed_at": "2026-05-23T23:17:45.684775+08:00",
+      "core_business": [
+        "服务器电源研发与生产",
+        "AI数据中心电源解决方案"
+      ],
+      "industry_position": [
+        "英伟达服务器电源核心供应商"
+      ],
+      "chain": [
+        "中游-电源设备制造"
+      ],
+      "partners": [
+        "英伟达"
+      ]
     },
     "002859": {
       "mention_count": 3,
@@ -32391,7 +32740,13 @@
       "code": "002920",
       "name": "德赛西威",
       "processed_by": "tbox",
-      "processed_at": "2026-05-21T19:08:06.096168+08:00"
+      "processed_at": "2026-05-21T19:08:06.096168+08:00",
+      "core_business": [
+        "域控制器(IPU04)"
+      ],
+      "chain": [
+        "下游-智能驾驶"
+      ]
     },
     "002922": {
       "mention_count": 8,
@@ -35198,7 +35553,19 @@
       "industry": "电力设备-电池-电池化学品",
       "board": "SZ",
       "code": "300035",
-      "name": "中科电气"
+      "name": "中科电气",
+      "core_business": [
+        "锂电池负极材料研发与生产",
+        "磁电装备制造"
+      ],
+      "industry_position": [
+        "电磁冶金专用设备市场占有率超60%行业龙头",
+        "负极材料石墨化技术领先"
+      ],
+      "chain": [
+        "上游-锂电材料",
+        "中游-专用设备"
+      ]
     },
     "300037": {
       "mention_count": 4,
@@ -35308,7 +35675,16 @@
       "processed_by": "tbox",
       "processed_at": "2026-05-23T23:17:45.684794+08:00",
       "concept": "PTFE;半导体;含氟新材料;新能源",
-      "description": "在建2800吨PTFE产能，布局含氟新材料领域，绑定新能源与半导体产业链"
+      "description": "在建2800吨PTFE产能，布局含氟新材料领域，绑定新能源与半导体产业链",
+      "industry_position": [
+        "氟化液国产替代领先企业"
+      ],
+      "chain": [
+        "上游-氟化工材料"
+      ],
+      "partners": [
+        "英伟达(间接)"
+      ]
     },
     "300040": {
       "mention_count": 2,
@@ -35816,7 +36192,13 @@
       "industry": "有色金属-工业金属-铝",
       "board": "SZ",
       "code": "300057",
-      "name": "万顺新材"
+      "name": "万顺新材",
+      "industry_position": [
+        "铝箔行业重要企业，钠电负极铝箔潜在标的"
+      ],
+      "chain": [
+        "上游-金属材料加工"
+      ]
     },
     "300058": {
       "mention_count": 1,
@@ -36317,7 +36699,19 @@
         }
       ],
       "processed_by": "tbox",
-      "processed_at": "2026-05-20T11:46:50.489863+08:00"
+      "processed_at": "2026-05-20T11:46:50.489863+08:00",
+      "core_business": [
+        "物联网安全芯片"
+      ],
+      "industry_position": [
+        "RISC-V生态建设者"
+      ],
+      "chain": [
+        "上游-芯片设计"
+      ],
+      "partners": [
+        "平头哥(阿里)"
+      ]
     },
     "300082": {
       "mention_count": 1,
@@ -37389,7 +37783,9 @@
     "300136": {
       "mention_count": 5,
       "last_updated": "2026-05-31",
-      "partners": [],
+      "partners": [
+        "特斯拉"
+      ],
       "concepts": [
         "5G",
         "6G概念",
@@ -37552,7 +37948,9 @@
       ],
       "name": "信维通信",
       "code": "300136",
-      "core_business": [],
+      "core_business": [
+        "MLCC制造"
+      ],
       "processed_by": "tbox",
       "processed_at": "2026-05-21T19:08:06.096156+08:00"
     },
@@ -38193,7 +38591,16 @@
       "code": "300174",
       "name": "元力股份",
       "processed_by": "tbox",
-      "processed_at": "2026-05-23T23:17:45.684763+08:00"
+      "processed_at": "2026-05-23T23:17:45.684763+08:00",
+      "industry_position": [
+        "国内唯一碱活化法量产,打破可乐丽垄断"
+      ],
+      "chain": [
+        "上游-电容炭材料"
+      ],
+      "partners": [
+        "英伟达(间接)"
+      ]
     },
     "300179": {
       "mention_count": 1,
@@ -40564,6 +40971,9 @@
       "name": "国瓷材料",
       "industry_position": [
         "国内电子陶瓷材料龙头"
+      ],
+      "core_business": [
+        "MLCC介质粉体"
       ]
     },
     "300287": {
@@ -40892,7 +41302,19 @@
       "code": "300302",
       "name": "同有科技",
       "processed_by": "tbox",
-      "processed_at": "2026-05-20T11:46:50.489878+08:00"
+      "processed_at": "2026-05-20T11:46:50.489878+08:00",
+      "core_business": [
+        "企业级SSD"
+      ],
+      "industry_position": [
+        "基于镇岳510打造SSD"
+      ],
+      "chain": [
+        "下游-存储"
+      ],
+      "partners": [
+        "平头哥(阿里)"
+      ]
     },
     "300303": {
       "mention_count": 2,
@@ -41430,7 +41852,16 @@
       "code": "300324",
       "name": "旋极信息",
       "processed_by": "tbox",
-      "processed_at": "2026-05-20T11:46:50.489851+08:00"
+      "processed_at": "2026-05-20T11:46:50.489851+08:00",
+      "core_business": [
+        "物联网SOC平台"
+      ],
+      "industry_position": [
+        "玄铁C930芯片独家代理商"
+      ],
+      "partners": [
+        "平头哥(阿里)"
+      ]
     },
     "300337": {
       "mention_count": 1,
@@ -44064,7 +44495,14 @@
       ],
       "code": "300450",
       "name": "先导智能",
-      "concept": "MLCC;电容器;锂电设备"
+      "concept": "MLCC;电容器;锂电设备",
+      "core_business": [
+        "MLCC整线设备",
+        "锂电池设备"
+      ],
+      "industry_position": [
+        "MLCC设备龙头"
+      ]
     },
     "300451": {
       "mention_count": 1,
@@ -47017,7 +47455,9 @@
         "芯片概念",
         "融资融券"
       ],
-      "industry_position": [],
+      "industry_position": [
+        "SoC量产唯一国内品牌"
+      ],
       "articles": [
         {
           "date": "2025-09-25",
@@ -47094,7 +47534,9 @@
       ],
       "name": "长川科技",
       "code": "300604",
-      "core_business": [],
+      "core_business": [
+        "SoC/模拟/数字/功率全品类测试"
+      ],
       "processed_by": "tbox",
       "processed_at": "2026-05-25T01:14:26.522695+08:00"
     },
@@ -51965,7 +52407,18 @@
       "industry": "电力设备-电池-电池化学品",
       "board": "SZ",
       "code": "300890",
-      "name": "翔丰华"
+      "name": "翔丰华",
+      "industry_position": [
+        "国内先进锂电池负极材料供应商"
+      ],
+      "chain": [
+        "上游-锂电材料"
+      ],
+      "partners": [
+        "LG新能源",
+        "国轩高科",
+        "比亚迪"
+      ]
     },
     "300895": {
       "mention_count": 1,
@@ -52432,7 +52885,13 @@
       "industry": "电力设备-电池-电池化学品",
       "board": "SZ",
       "code": "300919",
-      "name": "中伟新材"
+      "name": "中伟新材",
+      "industry_position": [
+        "全球三元前驱体龙头"
+      ],
+      "chain": [
+        "上游-锂电材料"
+      ]
     },
     "300921": {
       "mention_count": 0,
@@ -53474,7 +53933,16 @@
       "industry": "机械设备-专用设备-其他专用设备",
       "board": "SZ",
       "code": "301013",
-      "name": "利和兴"
+      "name": "利和兴",
+      "core_business": [
+        "MLCC设备"
+      ],
+      "industry_position": [
+        "检测分选卡位"
+      ],
+      "chain": [
+        "中游-MLCC"
+      ]
     },
     "301018": {
       "mention_count": 2,
@@ -56143,7 +56611,18 @@
       "board": "SZ",
       "code": "301307",
       "name": "美利信",
-      "concept": "一体化压铸;半导体设备;液冷"
+      "concept": "一体化压铸;半导体设备;液冷",
+      "core_business": [
+        "通信设备结构件",
+        "半导体设备结构件"
+      ],
+      "industry_position": [
+        "一体化压铸+半导体设备双轮驱动"
+      ],
+      "chain": [
+        "通信-基站结构件",
+        "半导体-设备结构件"
+      ]
     },
     "301308": {
       "mention_count": 3,
@@ -57690,7 +58169,13 @@
       "code": "301488",
       "name": "豪恩汽电",
       "processed_by": "tbox",
-      "processed_at": "2026-05-21T19:08:06.096193+08:00"
+      "processed_at": "2026-05-21T19:08:06.096193+08:00",
+      "industry_position": [
+        "智驾产业链供应商"
+      ],
+      "chain": [
+        "下游-智能驾驶"
+      ]
     },
     "301510": {
       "mention_count": 0,
@@ -58239,7 +58724,17 @@
       "code": "301565",
       "name": "中仑新材",
       "concept": "BOPA;BOPP;固态电池;新能源膜;膜材料;铝塑膜",
-      "description": "搭建新能源、功能性、生物基可降解、高性能聚酰胺四大膜材矩阵，新能源BOPA膜适配软包锂电、固态电池铝塑膜"
+      "description": "搭建新能源、功能性、生物基可降解、高性能聚酰胺四大膜材矩阵，新能源BOPA膜适配软包锂电、固态电池铝塑膜",
+      "core_business": [
+        "高性能膜材料研发与生产",
+        "BOPP/BOPA新能源膜材"
+      ],
+      "industry_position": [
+        "薄膜电容器用BOPP基膜核心供应商"
+      ],
+      "chain": [
+        "中游-薄膜材料制造"
+      ]
     },
     "301566": {
       "mention_count": 2,
@@ -58296,7 +58791,16 @@
       "industry": "电子-元件-被动元件",
       "board": "",
       "code": "301566",
-      "name": "达利凯普"
+      "name": "达利凯普",
+      "core_business": [
+        "射频微波MLCC"
+      ],
+      "industry_position": [
+        "全球前五/中国第一"
+      ],
+      "chain": [
+        "中游-MLCC"
+      ]
     },
     "301575": {
       "mention_count": 0,
@@ -61206,7 +61710,19 @@
         "海峡两岸",
         "碳中和"
       ],
-      "name": "青山纸业"
+      "name": "青山纸业",
+      "core_business": [
+        "1.6T光模块SLP"
+      ],
+      "industry_position": [
+        "SLP份额持续提升"
+      ],
+      "chain": [
+        "中游-PCB"
+      ],
+      "partners": [
+        "谷歌"
+      ]
     },
     "600104": {
       "mention_count": 2,
@@ -64133,8 +64649,13 @@
     "600353": {
       "mention_count": 1,
       "last_updated": "2026-05-31",
-      "partners": [],
-      "industry_position": [],
+      "partners": [
+        "国内光模块头部厂商"
+      ],
+      "industry_position": [
+        "氮化铝粉体国内产能最大(500吨)",
+        "全产业链自给"
+      ],
       "articles": [
         {
           "date": "2026-05-13",
@@ -64183,7 +64704,9 @@
       "board": "",
       "industry": "电子-其他电子-其他电子Ⅲ",
       "products": [],
-      "chain": [],
+      "chain": [
+        "上游-陶瓷基板材料"
+      ],
       "name": "旭光电子",
       "concepts": [
         "2025年报预增",
@@ -64213,7 +64736,9 @@
         "风电"
       ],
       "code": "600353",
-      "core_business": []
+      "core_business": [
+        "氮化铝粉体/陶瓷基板"
+      ]
     },
     "600361": {
       "mention_count": 0,
@@ -68585,7 +69110,16 @@
       "code": "600673",
       "name": "东阳光",
       "processed_by": "tbox",
-      "processed_at": "2026-05-23T23:17:45.684789+08:00"
+      "processed_at": "2026-05-23T23:17:45.684789+08:00",
+      "core_business": [
+        "EDLC/混合超级电容"
+      ],
+      "chain": [
+        "中游-超级电容"
+      ],
+      "partners": [
+        "英伟达(间接)"
+      ]
     },
     "600674": {
       "mention_count": 0,
@@ -71529,7 +72063,20 @@
       "industry": "电子-光学光电子-面板",
       "board": "SH",
       "code": "600884",
-      "name": "杉杉股份"
+      "name": "杉杉股份",
+      "industry_position": [
+        "人造石墨出货量全球第一",
+        "大尺寸LCD偏光片市占率约三分之一"
+      ],
+      "chain": [
+        "上游-锂电材料",
+        "中游-电子材料"
+      ],
+      "partners": [
+        "宁德时代",
+        "比亚迪",
+        "LG新能源"
+      ]
     },
     "600886": {
       "mention_count": 0,
@@ -73262,7 +73809,9 @@
     "601100": {
       "mention_count": 4,
       "last_updated": "2026-05-31",
-      "partners": [],
+      "partners": [
+        "特斯拉"
+      ],
       "concepts": [
         "中国AI 50",
         "同花顺漂亮100",
@@ -73271,7 +73820,9 @@
         "融资融券",
         "高端装备"
       ],
-      "industry_position": [],
+      "industry_position": [
+        "丝杠预期份额70%,电机30%"
+      ],
       "articles": [
         {
           "date": "",
@@ -73344,10 +73895,14 @@
       "board": "SH",
       "industry": "机械设备-工程机械-工程机械Ⅲ",
       "products": [],
-      "chain": [],
+      "chain": [
+        "中游-机器人零部件"
+      ],
       "name": "恒立液压",
       "code": "601100",
-      "core_business": [],
+      "core_business": [
+        "机器人丝杠/电机"
+      ],
       "processed_by": "tbox",
       "processed_at": "2026-05-24T16:24:53.073732+08:00"
     },
@@ -73586,7 +74141,20 @@
         "融资融券",
         "装配式建筑"
       ],
-      "name": "柏诚股份"
+      "name": "柏诚股份",
+      "core_business": [
+        "洁净室工程"
+      ],
+      "industry_position": [
+        "国内洁净室龙头,两存(长鑫/长存)核心供应商"
+      ],
+      "chain": [
+        "中游-洁净室工程"
+      ],
+      "partners": [
+        "长鑫存储",
+        "长存"
+      ]
     },
     "601138": {
       "mention_count": 8,
@@ -73916,7 +74484,10 @@
       "mention_count": 5,
       "last_updated": "2026-06-01",
       "partners": [],
-      "industry_position": [],
+      "industry_position": [
+        "BOPP薄膜电子领域重点企业",
+        "技术壁垒较高"
+      ],
       "articles": [
         {
           "date": "2025-07-22",
@@ -73987,7 +74558,9 @@
       "board": "SH",
       "industry": "基础化工-塑料制品-膜材料",
       "products": [],
-      "chain": [],
+      "chain": [
+        "中游-薄膜材料制造"
+      ],
       "name": "东材科技",
       "concepts": [
         "2025年报预增",
@@ -74012,7 +74585,9 @@
         "西部大开发"
       ],
       "code": "601208",
-      "core_business": []
+      "core_business": [
+        "电工聚丙烯薄膜及BOPP薄膜研发与生产"
+      ]
     },
     "601211": {
       "mention_count": 1,
@@ -75741,7 +76316,19 @@
       "code": "601689",
       "name": "拓普集团",
       "processed_by": "tbox",
-      "processed_at": "2026-05-24T16:24:53.073800+08:00"
+      "processed_at": "2026-05-24T16:24:53.073800+08:00",
+      "core_business": [
+        "Tier0.5(T链核心)"
+      ],
+      "industry_position": [
+        "特斯拉人形机器人核心供应商"
+      ],
+      "chain": [
+        "中游-平台型"
+      ],
+      "partners": [
+        "特斯拉"
+      ]
     },
     "601698": {
       "mention_count": 7,
@@ -77379,7 +77966,11 @@
         "钼矿开采、钼制品加工"
       ],
       "code": "601958",
-      "name": "金钼股份"
+      "name": "金钼股份",
+      "partners": [
+        "台积电",
+        "中芯国际"
+      ]
     },
     "601969": {
       "mention_count": 1,
@@ -77749,7 +78340,19 @@
       "code": "603009",
       "name": "北特科技",
       "processed_by": "tbox",
-      "processed_at": "2026-05-24T16:24:53.073771+08:00"
+      "processed_at": "2026-05-24T16:24:53.073771+08:00",
+      "core_business": [
+        "手部/身体丝杠"
+      ],
+      "industry_position": [
+        "直接对接北美特斯拉"
+      ],
+      "chain": [
+        "中游-机器人零部件"
+      ],
+      "partners": [
+        "特斯拉"
+      ]
     },
     "603010": {
       "mention_count": 2,
@@ -77894,7 +78497,13 @@
         "下游-设备"
       ],
       "code": "603011",
-      "name": "合锻智能"
+      "name": "合锻智能",
+      "core_business": [
+        "真空层压设备研发与制造"
+      ],
+      "industry_position": [
+        "PCB真空层压设备国产替代核心标的"
+      ]
     },
     "603015": {
       "mention_count": 1,
@@ -79268,7 +79877,13 @@
       "code": "603119",
       "name": "浙江荣泰",
       "processed_by": "tbox",
-      "processed_at": "2026-05-24T16:24:53.073782+08:00"
+      "processed_at": "2026-05-24T16:24:53.073782+08:00",
+      "core_business": [
+        "人形机器人丝杠"
+      ],
+      "partners": [
+        "特斯拉"
+      ]
     },
     "603120": {
       "mention_count": 0,
@@ -80379,7 +80994,19 @@
       ],
       "name": "景旺电子",
       "concept": "PCB;PTFE;算力;高多层板",
-      "description": "突破PTFE加工技术，22层高多层板供货北美算力客户，深度参与AI硬件升级"
+      "description": "突破PTFE加工技术，22层高多层板供货北美算力客户，深度参与AI硬件升级",
+      "core_business": [
+        "AI PCB/midplane"
+      ],
+      "industry_position": [
+        "Rubin用PCB出货在即,midplane大份额"
+      ],
+      "chain": [
+        "中游-PCB"
+      ],
+      "partners": [
+        "英伟达"
+      ]
     },
     "603229": {
       "mention_count": 1,
@@ -80675,7 +81302,19 @@
       "code": "603239",
       "name": "浙江仙通",
       "processed_by": "tbox",
-      "processed_at": "2026-05-24T16:24:53.073788+08:00"
+      "processed_at": "2026-05-24T16:24:53.073788+08:00",
+      "core_business": [
+        "机器人代工(七腾)"
+      ],
+      "industry_position": [
+        "七腾防爆巡检机器人外协代工商"
+      ],
+      "chain": [
+        "下游-特种机器人"
+      ],
+      "partners": [
+        "特斯拉"
+      ]
     },
     "603248": {
       "mention_count": 0,
@@ -82454,7 +83093,16 @@
       "code": "603501",
       "name": "豪威集团",
       "processed_by": "tbox",
-      "processed_at": "2026-05-21T19:08:06.096203+08:00"
+      "processed_at": "2026-05-21T19:08:06.096203+08:00",
+      "core_business": [
+        "车载CIS芯片"
+      ],
+      "chain": [
+        "下游-智能驾驶"
+      ],
+      "partners": [
+        "特斯拉"
+      ]
     },
     "603505": {
       "mention_count": 1,
@@ -83091,7 +83739,16 @@
       "code": "603596",
       "name": "伯特利",
       "processed_by": "tbox",
-      "processed_at": "2026-05-21T19:08:06.096176+08:00"
+      "processed_at": "2026-05-21T19:08:06.096176+08:00",
+      "core_business": [
+        "线控制动(WCBS/EMB)"
+      ],
+      "chain": [
+        "下游-智能驾驶"
+      ],
+      "partners": [
+        "特斯拉"
+      ]
     },
     "603598": {
       "mention_count": 1,
@@ -83235,7 +83892,16 @@
       "industry": "美容护理-美容护理-化妆品",
       "board": "SH",
       "code": "603605",
-      "name": "珀莱雅"
+      "name": "珀莱雅",
+      "core_business": [
+        "护肤品及彩妆研发与销售"
+      ],
+      "chain": [
+        "下游-品牌消费品"
+      ],
+      "partners": [
+        "花知晓"
+      ]
     },
     "603606": {
       "mention_count": 4,
@@ -83839,7 +84505,15 @@
         "上游-材料"
       ],
       "code": "603659",
-      "name": "璞泰来"
+      "name": "璞泰来",
+      "core_business": [
+        "锂电池负极材料及隔膜涂覆研发与生产",
+        "锂电自动化装备"
+      ],
+      "industry_position": [
+        "涂覆隔膜市占率42.62%,行业领先",
+        "锂电级PVDF市场份额持续领先"
+      ]
     },
     "603661": {
       "mention_count": 1,
@@ -85106,7 +85780,17 @@
       "code": "603806",
       "name": "福斯特",
       "processed_by": "tbox",
-      "processed_at": "2026-05-23T21:35:56.632685+08:00"
+      "processed_at": "2026-05-23T21:35:56.632685+08:00",
+      "core_business": [
+        "mSAP感光干膜",
+        "光伏背板/胶膜"
+      ],
+      "partners": [
+        "深南电路",
+        "鹏鼎控股",
+        "胜宏科技",
+        "AMD(间接)"
+      ]
     },
     "603809": {
       "mention_count": 0,
@@ -86250,7 +86934,9 @@
     "603986": {
       "mention_count": 3,
       "last_updated": "2026-05-31",
-      "partners": [],
+      "partners": [
+        "平头哥(阿里)"
+      ],
       "concepts": [
         "MCU芯片",
         "人形机器人",
@@ -87498,6 +88184,9 @@
       "name": "博迁新材",
       "industry_position": [
         "MLCC用镍粉全球领先厂商"
+      ],
+      "core_business": [
+        "MLCC镍粉"
       ]
     },
     "605399": {
@@ -87593,6 +88282,20 @@
           ],
           "partners": []
         }
+      ],
+      "core_business": [
+        "电子皮肤/触觉传感器"
+      ],
+      "industry_position": [
+        "电子皮肤龙头,T机器人定点预期"
+      ],
+      "chain": [
+        "中游-传感器"
+      ],
+      "partners": [
+        "灵心巧手",
+        "特斯拉",
+        "F客户"
       ]
     },
     "605499": {
@@ -87881,7 +88584,21 @@
       "board": "SH",
       "code": "688006",
       "name": "杭可科技",
-      "concept": "MLCC;老化测试设备;锂电池设备"
+      "concept": "MLCC;老化测试设备;锂电池设备",
+      "core_business": [
+        "MLCC老化测试设备",
+        "锂电池化成分容设备"
+      ],
+      "industry_position": [
+        "MLCC老化测试设备龙头"
+      ],
+      "chain": [
+        "MLCC-老化测试设备"
+      ],
+      "partners": [
+        "三环集团",
+        "风华高科"
+      ]
     },
     "688007": {
       "mention_count": 0,
@@ -88178,7 +88895,10 @@
         "目标市值：200-300 亿 (2 倍 + 空间)"
       ],
       "last_updated": "2026-05-31",
-      "industry_position": [],
+      "industry_position": [
+        "国内唯一对标三井金属",
+        "自主研发纯物理剥离层技术"
+      ],
       "industry": "电子 - 电子化学品",
       "insights": "载体铜箔：2-3 年后百亿市场，已开始涨价\n三井占 95% 份额，3 月底涨价 12%\n方邦产能 40 万平/月，可快速增至 60 万平\n已通过 H、CX 小批量供应，预计 26Q3 大批量",
       "code": "688020",
@@ -89361,7 +90081,20 @@
         "第三代半导体",
         "中芯国际概念"
       ],
-      "name": "盛美上海"
+      "name": "盛美上海",
+      "core_business": [
+        "湿法清洗设备"
+      ],
+      "industry_position": [
+        "第一个成规模进国际top客户的国产半导体设备公司"
+      ],
+      "chain": [
+        "中游-半导体设备"
+      ],
+      "partners": [
+        "日月光(高雄/中坜/新加坡)",
+        "NV(间接)"
+      ]
     },
     "688083": {
       "mention_count": 0,
@@ -90530,7 +91263,19 @@
       "code": "688135",
       "name": "利扬芯片",
       "processed_by": "tbox",
-      "processed_at": "2026-05-20T11:46:50.489826+08:00"
+      "processed_at": "2026-05-20T11:46:50.489826+08:00",
+      "core_business": [
+        "AI芯片测试服务"
+      ],
+      "industry_position": [
+        "平头哥AI芯片核心测试服务商"
+      ],
+      "chain": [
+        "下游-芯片测试"
+      ],
+      "partners": [
+        "平头哥(阿里)"
+      ]
     },
     "688138": {
       "name": "清溢光电",
@@ -91407,7 +92152,13 @@
         "卫星导航",
         "华为概念"
       ],
-      "name": "灿勤科技"
+      "name": "灿勤科技",
+      "industry_position": [
+        "5.5G基站滤波器+光模块陶瓷封装"
+      ],
+      "chain": [
+        "上游-电子陶瓷"
+      ]
     },
     "688183": {
       "core_business": [
@@ -91506,6 +92257,15 @@
           ],
           "partners": []
         }
+      ],
+      "core_business": [
+        "纳米晶/非晶磁材"
+      ],
+      "industry_position": [
+        "非晶8年全球第一,纳米晶25年全球第一"
+      ],
+      "chain": [
+        "上游-磁性材料"
       ]
     },
     "688192": {
@@ -91650,7 +92410,16 @@
       "code": "688200",
       "name": "华峰测控",
       "processed_by": "tbox",
-      "processed_at": "2026-05-25T01:14:26.522684+08:00"
+      "processed_at": "2026-05-25T01:14:26.522684+08:00",
+      "core_business": [
+        "STS8600(面向AI/HPC SoC测试)"
+      ],
+      "industry_position": [
+        "模拟/功率/SoC测试平台"
+      ],
+      "chain": [
+        "中游-半导体测试设备"
+      ]
     },
     "688201": {
       "mention_count": 0,
@@ -91911,7 +92680,10 @@
       ],
       "name": "思特威",
       "code": "688213",
-      "core_business": [],
+      "core_business": [
+        "CMOS图像传感器",
+        "MicroLED光通信芯片(TX/RX/PD)"
+      ],
       "processed_by": "tbox",
       "processed_at": "2026-05-20T20:36:11.630124+08:00"
     },
@@ -92753,7 +93525,17 @@
       "industry": "电子-半导体-分立器件",
       "board": "SH",
       "code": "688261",
-      "name": "东微半导"
+      "name": "东微半导",
+      "industry_position": [
+        "国内唯一服务器级SJ MOS",
+        "SiC进台达供应链"
+      ],
+      "chain": [
+        "中游-功率半导体"
+      ],
+      "partners": [
+        "台达"
+      ]
     },
     "688267": {
       "mention_count": 1,
@@ -93303,7 +94085,9 @@
     "688300": {
       "mention_count": 3,
       "last_updated": "2026-06-01",
-      "partners": [],
+      "partners": [
+        "生益科技"
+      ],
       "industry_position": [
         "龙头",
         "高阶硅微粉国产化领先",
@@ -93384,7 +94168,9 @@
         "融资融券"
       ],
       "code": "688300",
-      "core_business": []
+      "core_business": [
+        "高端硅微粉及填料研发与生产"
+      ]
     },
     "688303": {
       "mention_count": 1,
@@ -94165,7 +94951,19 @@
         }
       ],
       "processed_by": "tbox",
-      "processed_at": "2026-05-20T11:46:50.489857+08:00"
+      "processed_at": "2026-05-20T11:46:50.489857+08:00",
+      "core_business": [
+        "AI芯片(视觉推理)"
+      ],
+      "industry_position": [
+        "视觉AI芯片设计企业"
+      ],
+      "chain": [
+        "上游-芯片设计"
+      ],
+      "partners": [
+        "平头哥(阿里)"
+      ]
     },
     "688347": {
       "mention_count": 2,
@@ -95447,7 +96245,19 @@
         "融资融券",
         "高端装备"
       ],
-      "name": "耐科装备"
+      "name": "耐科装备",
+      "core_business": [
+        "先进封装设备/注塑设备"
+      ],
+      "industry_position": [
+        "先进封装粉末封装全球独供"
+      ],
+      "chain": [
+        "中游-半导体设备"
+      ],
+      "partners": [
+        "英飞凌"
+      ]
     },
     "688425": {
       "mention_count": 1,
@@ -96333,7 +97143,9 @@
     "688525": {
       "mention_count": 5,
       "last_updated": "2026-05-31",
-      "partners": [],
+      "partners": [
+        "平头哥(阿里)"
+      ],
       "concepts": [
         "2025年报预增",
         "AI PC",
@@ -96360,7 +97172,9 @@
         "融资融券",
         "阿里巴巴概念"
       ],
-      "industry_position": [],
+      "industry_position": [
+        "平头哥存储生态伙伴"
+      ],
       "articles": [
         {
           "date": "2026-01-18",
@@ -96448,7 +97262,9 @@
       ],
       "name": "佰维存储",
       "code": "688525",
-      "core_business": [],
+      "core_business": [
+        "SSD产品"
+      ],
       "processed_by": "tbox",
       "processed_at": "2026-05-20T11:46:50.489890+08:00"
     },
@@ -100052,7 +100868,25 @@
       "industry": "",
       "board": "BJ",
       "code": "835185",
-      "name": "贝特瑞"
+      "name": "贝特瑞",
+      "concepts": [
+        "锂电池负极",
+        "天然石墨",
+        "人造石墨",
+        "硅基负极",
+        "固态电解质",
+        "三元正极",
+        "钠电池",
+        "燃料电池"
+      ],
+      "industry_position": [
+        "全球锂电池负极材料龙头",
+        "天然石墨负极全球领先",
+        "最早量产硅基负极企业"
+      ],
+      "chain": [
+        "上游-锂电材料"
+      ]
     },
     "835207": {
       "mention_count": 1,
@@ -100565,6 +101399,18 @@
         "芯片概念",
         "虚拟电厂",
         "鸿蒙概念"
+      ],
+      "core_business": [
+        "电力载波芯片"
+      ],
+      "industry_position": [
+        "平头哥CPU深度授权合作"
+      ],
+      "chain": [
+        "上游-芯片设计"
+      ],
+      "partners": [
+        "平头哥(阿里)"
       ]
     },
     "688259": {
@@ -100614,6 +101460,18 @@
         "芯片概念",
         "融资融券",
         "阿里巴巴概念"
+      ],
+      "core_business": [
+        "芯片设计服务"
+      ],
+      "industry_position": [
+        "平头哥客户"
+      ],
+      "chain": [
+        "上游-芯片设计"
+      ],
+      "partners": [
+        "平头哥(阿里)"
       ]
     },
     "300183": {
@@ -100679,6 +101537,18 @@
         "融资融券",
         "阿里巴巴概念",
         "风电"
+      ],
+      "core_business": [
+        "MCU(RISC-V)"
+      ],
+      "industry_position": [
+        "RISC-V MCU供应商"
+      ],
+      "chain": [
+        "上游-芯片设计"
+      ],
+      "partners": [
+        "平头哥(阿里)"
       ]
     },
     "002180": {
@@ -100736,12 +101606,29 @@
         "融资融券",
         "高端装备",
         "鸿蒙概念"
+      ],
+      "core_business": [
+        "打印机SoC芯片"
+      ],
+      "industry_position": [
+        "玄铁系列CPU最大客户"
+      ],
+      "chain": [
+        "上游-芯片设计"
+      ],
+      "partners": [
+        "平头哥(阿里)"
       ]
     },
     "002158": {
-      "core_business": [],
+      "core_business": [
+        "数据中心制冷压缩机(气悬浮/磁悬浮/螺杆)"
+      ],
       "last_updated": "2026-05-31",
-      "industry_position": [],
+      "industry_position": [
+        "IDC制冷压缩机龙头",
+        "北美四大客户突破在即"
+      ],
       "valuation": {},
       "industry": "机械设备-通用设备-制冷空调设备",
       "concepts": [
@@ -100762,7 +101649,17 @@
       ],
       "code": "002158",
       "mention_count": 1,
-      "partners": [],
+      "partners": [
+        "开利",
+        "约克",
+        "特灵",
+        "麦克维尔",
+        "维谛",
+        "东元电机",
+        "施耐德",
+        "LG",
+        "顿汉布什"
+      ],
       "articles": [
         {
           "source": "https://mp.weixin.qq.com/s/kw4sWCwCq-TJQ4Q8M7LH5Q",
@@ -100810,7 +101707,9 @@
       ],
       "board": "",
       "products": [],
-      "chain": [],
+      "chain": [
+        "中游-制冷设备"
+      ],
       "name": "汉钟精机",
       "processed_by": "tbox",
       "processed_at": "2026-05-20T20:36:11.630114+08:00"
@@ -100872,7 +101771,23 @@
         }
       ],
       "processed_by": "tbox",
-      "processed_at": "2026-05-20T22:16:09.730019+08:00"
+      "processed_at": "2026-05-20T22:16:09.730019+08:00",
+      "core_business": [
+        "射频电源",
+        "MFC",
+        "真空泵"
+      ],
+      "industry_position": [
+        "国内SKU最全射频电源厂商"
+      ],
+      "chain": [
+        "中游-半导体设备零部件"
+      ],
+      "partners": [
+        "拓荆科技",
+        "中微公司",
+        "北方华创"
+      ]
     },
     "301511": {
       "code": "301511",
@@ -100956,6 +101871,17 @@
         "深股通",
         "融资融券",
         "锂电池概念"
+      ],
+      "core_business": [
+        "3μm PET载体铜箔",
+        "HVLP低轮廓铜箔"
+      ],
+      "industry_position": [
+        "国内量产最快",
+        "英伟达供应链参与者"
+      ],
+      "chain": [
+        "上游-载体铜箔材料"
       ]
     },
     "002484": {
@@ -101020,12 +101946,28 @@
         }
       ],
       "processed_by": "tbox",
-      "processed_at": "2026-05-23T23:17:45.684737+08:00"
+      "processed_at": "2026-05-23T23:17:45.684737+08:00",
+      "core_business": [
+        "LIC超级电容"
+      ],
+      "industry_position": [
+        "英伟达供应链70%份额,国内唯一认证"
+      ],
+      "chain": [
+        "中游-超级电容"
+      ],
+      "partners": [
+        "英伟达(间接)"
+      ]
     },
     "002012": {
-      "core_business": [],
+      "core_business": [
+        "超级电容隔膜"
+      ],
       "last_updated": "2026-05-31",
-      "industry_position": [],
+      "industry_position": [
+        "国内少数量产,近日本东丽"
+      ],
       "valuation": {},
       "industry": "轻工制造-造纸-造纸Ⅲ",
       "concepts": [
@@ -101040,7 +101982,9 @@
       ],
       "code": "002012",
       "mention_count": 1,
-      "partners": [],
+      "partners": [
+        "英伟达(间接)"
+      ],
       "articles": [
         {
           "source": "https://mp.weixin.qq.com/s/U1yelkWESjOQC1wGfJv9Pg",
@@ -101080,7 +102024,9 @@
       ],
       "board": "",
       "products": [],
-      "chain": [],
+      "chain": [
+        "上游-隔膜材料"
+      ],
       "name": "凯恩股份",
       "processed_by": "tbox",
       "processed_at": "2026-05-23T23:17:45.684796+08:00"
@@ -101155,7 +102101,22 @@
         }
       ],
       "processed_by": "tbox",
-      "processed_at": "2026-05-24T15:38:33.114015+08:00"
+      "processed_at": "2026-05-24T15:38:33.114015+08:00",
+      "core_business": [
+        "芯片电感",
+        "金属磁粉芯"
+      ],
+      "industry_position": [
+        "芯片电感龙头",
+        "NV供应链核心"
+      ],
+      "chain": [
+        "上游-电子元器件"
+      ],
+      "partners": [
+        "英伟达",
+        "M客户"
+      ]
     },
     "002850": {
       "mention_count": 2,
@@ -101256,7 +102217,19 @@
         }
       ],
       "processed_by": "tbox",
-      "processed_at": "2026-05-24T17:54:14.517011+08:00"
+      "processed_at": "2026-05-24T17:54:14.517011+08:00",
+      "core_business": [
+        "谐波减速器"
+      ],
+      "industry_position": [
+        "谐波减速器最具竞争力厂商"
+      ],
+      "chain": [
+        "中游-机器人零部件"
+      ],
+      "partners": [
+        "特斯拉"
+      ]
     },
     "300969": {
       "mention_count": 1,
@@ -101311,7 +102284,19 @@
         }
       ],
       "processed_by": "tbox",
-      "processed_at": "2026-05-24T16:24:53.073773+08:00"
+      "processed_at": "2026-05-24T16:24:53.073773+08:00",
+      "core_business": [
+        "手部谐波小电机"
+      ],
+      "industry_position": [
+        "月产2.6万个,对应600台/月机器人"
+      ],
+      "chain": [
+        "中游-机器人零部件"
+      ],
+      "partners": [
+        "特斯拉"
+      ]
     },
     "301369": {
       "mention_count": 1,
@@ -101362,7 +102347,16 @@
         }
       ],
       "processed_by": "tbox",
-      "processed_at": "2026-05-25T01:14:26.522698+08:00"
+      "processed_at": "2026-05-25T01:14:26.522698+08:00",
+      "core_business": [
+        "SoC测试机9800"
+      ],
+      "industry_position": [
+        "功率测试→AI/大算力SoC"
+      ],
+      "chain": [
+        "中游-半导体测试设备"
+      ]
     },
     "603061": {
       "mention_count": 1,
@@ -101409,7 +102403,16 @@
         }
       ],
       "processed_by": "tbox",
-      "processed_at": "2026-05-25T01:14:26.522708+08:00"
+      "processed_at": "2026-05-25T01:14:26.522708+08:00",
+      "core_business": [
+        "半导体分选机"
+      ],
+      "industry_position": [
+        "国内分选机龙头"
+      ],
+      "chain": [
+        "中游-半导体测试设备"
+      ]
     },
     "003036": {
       "code": "003036",
@@ -101451,6 +102454,15 @@
         "机器人概念",
         "锂电池概念",
         "高端装备"
+      ],
+      "core_business": [
+        "喷气织布机(电子布设备)"
+      ],
+      "industry_position": [
+        "喷气织布机国产替代先锋"
+      ],
+      "chain": [
+        "中游-纺织设备"
       ]
     },
     "600545": {
@@ -101495,6 +102507,16 @@
         "机器人概念",
         "融资融券",
         "西部大开发"
+      ],
+      "core_business": [
+        "电子纱加捻机",
+        "纺织成套设备"
+      ],
+      "industry_position": [
+        "电子纱加捻机全球龙头"
+      ],
+      "chain": [
+        "中游-纺织设备"
       ]
     },
     "688260": {
@@ -101554,6 +102576,15 @@
           "key_metrics": [],
           "target_valuation": []
         }
+      ],
+      "core_business": [
+        "MLCC"
+      ],
+      "industry_position": [
+        "后起之秀"
+      ],
+      "chain": [
+        "中游-MLCC"
       ]
     },
     "002585": {
@@ -101611,6 +102642,15 @@
           ],
           "partners": []
         }
+      ],
+      "core_business": [
+        "BOPET离型膜"
+      ],
+      "industry_position": [
+        "BOPET龙头"
+      ],
+      "chain": [
+        "中游-MLCC"
       ]
     },
     "688025": {
@@ -101672,6 +102712,15 @@
           ],
           "partners": []
         }
+      ],
+      "core_business": [
+        "MLCC设备"
+      ],
+      "industry_position": [
+        "制造/检测设备"
+      ],
+      "chain": [
+        "中游-MLCC"
       ]
     },
     "600520": {
@@ -101728,6 +102777,21 @@
             "长电科技"
           ]
         }
+      ],
+      "core_business": [
+        "半导体封装设备",
+        "精密模具"
+      ],
+      "industry_position": [
+        "后道封装国产替代先锋"
+      ],
+      "chain": [
+        "中游-半导体封装设备"
+      ],
+      "partners": [
+        "华为",
+        "长鑫存储",
+        "长电科技"
       ]
     },
     "600888": {
@@ -101791,6 +102855,25 @@
         "石墨烯",
         "融资融券",
         "西部大开发"
+      ],
+      "core_business": [
+        "高纯铝(5N/6N半导体靶材)",
+        "电子铝箔/电极箔",
+        "氧化铝",
+        "石墨烯铝合金"
+      ],
+      "industry_position": [
+        "国内唯一6N超高纯铝规模化量产",
+        "高纯铝+电子铝箔60%+份额垄断"
+      ],
+      "chain": [
+        "上游-电子新材料",
+        "上游-半导体靶材"
+      ],
+      "partners": [
+        "日本贵弥功",
+        "尼吉康",
+        "海星股份"
       ]
     },
     "300127": {
@@ -101942,6 +103025,12 @@
           ],
           "target_valuation": []
         }
+      ],
+      "industry_position": [
+        "PCB背钻CT检测设备领域领先企业"
+      ],
+      "chain": [
+        "中游-专用设备制造"
       ]
     },
     "301237": {
@@ -104583,8 +105672,12 @@
         }
       ],
       "last_updated": "2026-06-01",
-      "core_business": [],
-      "industry_position": [],
+      "core_business": [
+        "BOPP薄膜研发与生产"
+      ],
+      "industry_position": [
+        "BOPP薄膜行业领先企业，产品差异化优势突出"
+      ],
       "valuation": {},
       "industry": "基础化工-塑料制品-膜材料",
       "concepts": [
@@ -104602,7 +105695,9 @@
       "partners": [],
       "board": "",
       "products": [],
-      "chain": []
+      "chain": [
+        "中游-薄膜材料制造"
+      ]
     },
     "000875": {
       "code": "000875",
@@ -104951,8 +106046,13 @@
         }
       ],
       "last_updated": "2026-06-01",
-      "core_business": [],
-      "industry_position": [],
+      "core_business": [
+        "BOPP薄膜研发与生产",
+        "锂电池隔膜"
+      ],
+      "industry_position": [
+        "BOPP薄膜行业综合性材料供应商"
+      ],
       "valuation": {},
       "industry": "基础化工-塑料制品-膜材料",
       "concepts": [
@@ -104975,7 +106075,9 @@
       "partners": [],
       "board": "",
       "products": [],
-      "chain": []
+      "chain": [
+        "中游-薄膜材料制造"
+      ]
     },
     "000978": {
       "code": "000978",
@@ -105280,8 +106382,12 @@
         }
       ],
       "last_updated": "2026-06-01",
-      "core_business": [],
-      "industry_position": [],
+      "core_business": [
+        "锂电池负极材料研发与生产"
+      ],
+      "industry_position": [
+        "锂电池负极材料行业领先企业"
+      ],
       "valuation": {},
       "industry": "电力设备-电池-电池化学品",
       "concepts": [
@@ -105294,10 +106400,17 @@
         "石墨电极",
         "锂电池概念"
       ],
-      "partners": [],
+      "partners": [
+        "宁德时代",
+        "远景能源",
+        "国轩高科",
+        "蜂巢能源"
+      ],
       "board": "",
       "products": [],
-      "chain": []
+      "chain": [
+        "上游-锂电材料"
+      ]
     },
     "001311": {
       "code": "001311",
@@ -105812,8 +106925,13 @@
         }
       ],
       "last_updated": "2026-06-01",
-      "core_business": [],
-      "industry_position": [],
+      "core_business": [
+        "轮胎模具制造",
+        "RV减速器及工业机器人"
+      ],
+      "industry_position": [
+        "轮胎模具领域领先企业"
+      ],
       "valuation": {},
       "industry": "机械设备-专用设备-其他专用设备",
       "concepts": [
@@ -105833,7 +106951,9 @@
       "partners": [],
       "board": "",
       "products": [],
-      "chain": []
+      "chain": [
+        "中游-专用设备制造"
+      ]
     },
     "002033": {
       "code": "002033",
@@ -109451,7 +110571,17 @@
         "风电"
       ],
       "industry": "电力设备-电网设备-输变电设备",
-      "board": ""
+      "board": "",
+      "core_business": [
+        "低压电器",
+        "固态断路器SSCB"
+      ],
+      "industry_position": [
+        "SSCB双龙头之一"
+      ],
+      "chain": [
+        "电力设备-固态断路器"
+      ]
     },
     "002712": {
       "code": "002712",
@@ -118283,7 +119413,21 @@
         "锂电池概念"
       ],
       "industry": "机械设备-自动化设备-其他自动化设备",
-      "board": ""
+      "board": "",
+      "core_business": [
+        "MLCC等静压设备",
+        "智能装备"
+      ],
+      "industry_position": [
+        "MLCC温等静压设备突破"
+      ],
+      "chain": [
+        "MLCC-等静压设备"
+      ],
+      "partners": [
+        "三环集团",
+        "风华高科"
+      ]
     },
     "301361": {
       "code": "301361",
@@ -126799,7 +127943,19 @@
         "黄金概念"
       ],
       "industry": "有色金属-工业金属-铜",
-      "board": ""
+      "board": "",
+      "core_business": [
+        "萤石矿开采与氟化工"
+      ],
+      "industry_position": [
+        "国内萤石龙头"
+      ],
+      "chain": [
+        "上游-矿产资源"
+      ],
+      "partners": [
+        "诺亚"
+      ]
     },
     "603980": {
       "code": "603980",
@@ -132002,7 +133158,21 @@
         "锂电池概念"
       ],
       "last_updated": "2026-05-31",
-      "code": "688813"
+      "code": "688813",
+      "core_business": [
+        "电解成套装备",
+        "钛电极",
+        "金属玻璃封接制品",
+        "HVLP铜箔设备"
+      ],
+      "industry_position": [
+        "电解装备领域核心标的",
+        "HVLP表面处理设备全国唯一"
+      ],
+      "chain": [
+        "铜箔设备-HVLP",
+        "光模块-陶瓷封装"
+      ]
     },
     "300540": {
       "name": "蜀道装备",
