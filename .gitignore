@@ -47,3 +47,10 @@ data/stocks/stocks_master.json
 
 # Submodules
 modelscope-app/
+model_app_stock/
+api/firebase-credentials.json
+*.pyc
+__pycache__/
+.tmp*/
+tmp_*
+.browser_profile/
