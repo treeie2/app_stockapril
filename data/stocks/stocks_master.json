@@ -31661,8 +31661,8 @@
       "name": "威星智能"
     },
     "002851": {
-      "mention_count": 3,
-      "last_updated": "2026-06-01",
+      "mention_count": 4,
+      "last_updated": "2026-06-03",
       "concepts": [
         "一带一路",
         "中国AI 50",
@@ -31764,6 +31764,14 @@
           ],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/jyl54dI1_zjYv5QvSGlR_w",
+          "topics": [
+            "AI电源",
+            "算力基础设施",
+            "电源设备"
+          ]
         }
       ],
       "industry": "电力设备-其他电源设备-其他电源设备Ⅲ",
@@ -47205,8 +47213,8 @@
       "name": "美联新材"
     },
     "300593": {
-      "mention_count": 3,
-      "last_updated": "2026-05-31",
+      "mention_count": 4,
+      "last_updated": "2026-06-03",
       "concepts": [
         "5G",
         "专精特新",
@@ -47292,6 +47300,14 @@
           ],
           "processed_by": "tbox",
           "processed_at": "2026-05-24T23:02:59.546452+08:00"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/jyl54dI1_zjYv5QvSGlR_w",
+          "topics": [
+            "AI电源",
+            "算力基础设施",
+            "电源设备"
+          ]
         }
       ],
       "industry": "电力设备-其他电源设备-其他电源设备Ⅲ",
@@ -112001,9 +112017,19 @@
       "code": "002970",
       "name": "锐明技术",
       "concept": "",
-      "mention_count": 6,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/jyl54dI1_zjYv5QvSGlR_w",
+          "topics": [
+            "AI电源",
+            "算力基础设施",
+            "电源设备"
+          ],
+          "industry_chain_flag": "AI电源/算力基础设施边缘计算"
+        }
+      ],
+      "last_updated": "2026-06-03",
       "concepts": [
         "EDR概念",
         "一带一路",
@@ -112031,7 +112057,18 @@
         "鸿蒙概念"
       ],
       "industry": "计算机-计算机设备-其他计算机设备",
-      "board": ""
+      "board": "",
+      "core_business": [
+        "商用车视频监控及AI解决方案提供商"
+      ],
+      "industry_position": [
+        "全球商用车视频监控领域领先企业"
+      ],
+      "products": [
+        "车载视频监控",
+        "AI主动安全系统",
+        "边缘计算终端"
+      ]
     },
     "002985": {
       "code": "002985",
@@ -131460,8 +131497,18 @@
       "name": "科威尔",
       "concept": "",
       "mention_count": 1,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/jyl54dI1_zjYv5QvSGlR_w",
+          "topics": [
+            "AI电源",
+            "算力基础设施",
+            "电源设备"
+          ],
+          "industry_chain_flag": "AI电源/算力基础设施电源测试设备"
+        }
+      ],
+      "last_updated": "2026-06-03",
       "concepts": [
         "专精特新",
         "低空经济",
@@ -131476,6 +131523,17 @@
         "燃料电池",
         "芯片概念",
         "融资融券"
+      ],
+      "core_business": [
+        "电力电子测试电源设备研发、生产和销售"
+      ],
+      "industry_position": [
+        "国内电力电子测试电源领域领先企业"
+      ],
+      "products": [
+        "大功率测试电源",
+        "回馈式电子负载",
+        "燃料电池测试系统"
       ]
     },
     "688556": {
