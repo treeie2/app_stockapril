@@ -1260,8 +1260,8 @@
       ]
     },
     "300308": {
-      "mention_count": 3,
-      "last_updated": "2026-05-31",
+      "mention_count": 4,
+      "last_updated": "2026-06-02",
       "partners": [],
       "name": "中际旭创",
       "industry_position": [
@@ -1331,6 +1331,17 @@
             "高速光模块",
             "DSP芯片"
           ]
+        },
+        {
+          "title": "今天的一些信息整理6.2",
+          "date": "2026-06-02",
+          "source": "https://mp.weixin.qq.com/s/A2oQsd6EBFxwxs1Tu6z63w",
+          "accidents": [
+            "英伟达正式推进CPO量产"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "board": "SZ",
@@ -1535,8 +1546,8 @@
       ]
     },
     "300408": {
-      "mention_count": 3,
-      "last_updated": "2026-05-31",
+      "mention_count": 4,
+      "last_updated": "2026-06-02",
       "partners": [],
       "name": "三环集团",
       "industry_position": [
@@ -1593,6 +1604,19 @@
           ],
           "insights": [
             "AI服务器对高容MLCC需求暴增，产能被AI挤占后消费电子和汽车供给缺口扩大"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理6.2",
+          "date": "2026-06-02",
+          "source": "https://mp.weixin.qq.com/s/A2oQsd6EBFxwxs1Tu6z63w",
+          "accidents": [
+            "MLCC涨价潮受益"
+          ],
+          "insights": [
+            "MLCC板块核心标的"
           ],
           "key_metrics": [],
           "target_valuation": []
@@ -1772,8 +1796,8 @@
       "core_business": []
     },
     "300508": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-02",
       "partners": [],
       "name": "维宏股份",
       "industry_position": [
@@ -1805,6 +1829,20 @@
             "数控系统研发",
             "工业运动控制系统"
           ]
+        },
+        {
+          "title": "0602信息汇总",
+          "date": "2026-06-02",
+          "source": "https://mp.weixin.qq.com/s/CJ8bZzuouEZJMKG-QXWltQ",
+          "accidents": [
+            "PCB金属钻攻机运控产品预计6月正式推广",
+            "黄仁勋在GTC台北大会宣布联手Sharpa重视灵巧手领域"
+          ],
+          "insights": [
+            "灵巧手客户持续突破"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "board": "",
@@ -8127,8 +8165,8 @@
       "name": "三木集团"
     },
     "000636": {
-      "mention_count": 4,
-      "last_updated": "2026-05-31",
+      "mention_count": 5,
+      "last_updated": "2026-06-02",
       "partners": [],
       "concepts": [
         "5G",
@@ -8239,6 +8277,19 @@
             "稼动率90%",
             "暂停接单0402/0603"
           ],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理6.2",
+          "date": "2026-06-02",
+          "source": "https://mp.weixin.qq.com/s/A2oQsd6EBFxwxs1Tu6z63w",
+          "accidents": [
+            "MLCC涨价潮受益"
+          ],
+          "insights": [
+            "MLCC板块重点关注标的"
+          ],
+          "key_metrics": [],
           "target_valuation": []
         }
       ],
@@ -23185,8 +23236,8 @@
       "name": "合众思壮"
     },
     "002384": {
-      "mention_count": 4,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-02",
       "concepts": [
         "2026一季报预增",
         "5G",
@@ -23230,6 +23281,27 @@
           ],
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "title": "今天的一些信息整理6.2",
+          "date": "2026-06-02",
+          "source": "https://mp.weixin.qq.com/s/A2oQsd6EBFxwxs1Tu6z63w",
+          "accidents": [
+            "光芯片产能从10亿颗扩张到20亿颗",
+            "光模块产能从2500万只扩到2500万只以上",
+            "CPO已拿到北美客户订单"
+          ],
+          "insights": [
+            "东山精密拥有多次国际资产并购经验，程序合法合规",
+            "索尔思2025Q4已并表，东山完全控股"
+          ],
+          "key_metrics": [
+            "光芯片扩产至20亿颗",
+            "光模块利润率达30%以上"
+          ],
+          "target_valuation": [
+            "较同行业光芯片公司PE仍然较低"
+          ]
         }
       ],
       "industry": "电子-元件-印制电路板",
@@ -33251,8 +33323,8 @@
       "name": "新疆交建"
     },
     "002957": {
-      "mention_count": 9,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-02",
       "concepts": [
         "2025年报预增",
         "AI眼镜",
@@ -33291,6 +33363,23 @@
           "source": "用户输入-光芯片产业链",
           "insights": [
             "光模块自动化设备链覆盖环节较全"
+          ]
+        },
+        {
+          "title": "科瑞技术，150%空间？",
+          "date": "2026-06-02",
+          "source": "https://mp.weixin.qq.com/s/0uDkbMUHs3Dp_ihjS59RUw",
+          "accidents": [
+            "Lumentum和Coherent在AI光互联驱动下大幅加单与产能倍增",
+            "科瑞已通过博通code认证，进入量产-复购正循环"
+          ],
+          "insights": [
+            "天风机械认为科瑞技术能看到700亿市值目标，150%空间",
+            "科瑞本质是平台型自动化能力提供商，跨行业扩张能力突出"
+          ],
+          "key_metrics": [],
+          "target_valuation": [
+            "天风机械目标市值700亿"
           ]
         }
       ],
@@ -33367,7 +33456,7 @@
     },
     "002975": {
       "mention_count": 3,
-      "last_updated": "2026-05-31",
+      "last_updated": "2026-06-02",
       "partners": [],
       "concepts": [
         "2025年报预增",
@@ -33432,6 +33521,21 @@
           "source": "https://mp.weixin.qq.com/s/5bluU2s8izAKQ9K3Fb2KGA",
           "insights": [],
           "accidents": []
+        },
+        {
+          "title": "博杰股份，60%空间？",
+          "date": "2026-06-02",
+          "source": "https://mp.weixin.qq.com/s/Wb1LzUO5XaUECT2TuI02_Q",
+          "accidents": [],
+          "insights": [
+            "天风机械认为博杰股份第一阶段看400-500亿市值，60%空间",
+            "PCB测试设备主业看250亿，MLCC设备和磷化铟各贡献100亿以上",
+            "后续液冷检测、冷板/UQD、光模块耦合有望逐步兑现"
+          ],
+          "key_metrics": [],
+          "target_valuation": [
+            "天风机械目标市值400-500亿"
+          ]
         }
       ],
       "board": "SZ",
@@ -40894,8 +40998,8 @@
       "name": "温州宏丰"
     },
     "300285": {
-      "mention_count": 3,
-      "last_updated": "2026-05-31",
+      "mention_count": 4,
+      "last_updated": "2026-06-02",
       "concepts": [
         "3D打印",
         "5G",
@@ -40959,6 +41063,25 @@
             "MLCC上游陶瓷粉体材料供应商，受益于MLCC扩产涨价"
           ],
           "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理6.2",
+          "date": "2026-06-02",
+          "source": "https://mp.weixin.qq.com/s/A2oQsd6EBFxwxs1Tu6z63w",
+          "accidents": [
+            "MLCC涨价推动粉体量价齐升",
+            "商务部对日出口禁令推动氧化锆海外涨价"
+          ],
+          "insights": [
+            "申万化工认为MLCC大行情下公司有望享受量价齐升",
+            "低轨卫星陶瓷管壳年均3000颗对应近10亿+利润空间"
+          ],
+          "key_metrics": [
+            "MLCC粉体全球市占率25%",
+            "氧化锆3500吨产能，涨价10万/吨对应3.5亿毛利增厚",
+            "陶瓷管壳单颗卫星价值量约100万元"
+          ],
           "target_valuation": []
         }
       ],
@@ -50790,8 +50913,8 @@
       "name": "惠城环保"
     },
     "300782": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-02",
       "concepts": [
         "5G",
         "6G概念",
@@ -50826,6 +50949,19 @@
           "accidents": [
             "国内唯一化合物+锗硅+SOI三大材料全自主IDM，射频芯片400亿市值打底，光芯片年收入75亿。"
           ]
+        },
+        {
+          "title": "今天的一些信息整理6.2",
+          "date": "2026-06-02",
+          "source": "https://mp.weixin.qq.com/s/A2oQsd6EBFxwxs1Tu6z63w",
+          "accidents": [
+            "英伟达正式推进CPO量产"
+          ],
+          "insights": [
+            "ZS电子认为卓胜微有望成为国产AI光互连底层平台的重要受益方向"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "industry": "电子-半导体-模拟芯片设计",
@@ -53323,8 +53459,8 @@
       "name": "贝泰妮"
     },
     "300975": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 6,
+      "last_updated": "2026-06-02",
       "concepts": [
         "2025年报预增",
         "AI眼镜",
@@ -53385,6 +53521,19 @@
           "date": "2026-03-25",
           "title": "商络电子，2倍空间？",
           "source": "https://mp.weixin.qq.com/s/IWSkupdgzfXQ0I-iAXRI2A"
+        },
+        {
+          "title": "今天的一些信息整理6.2",
+          "date": "2026-06-02",
+          "source": "https://mp.weixin.qq.com/s/A2oQsd6EBFxwxs1Tu6z63w",
+          "accidents": [
+            "MLCC涨价潮推动分销业务量价齐升"
+          ],
+          "insights": [
+            "MLCC分销商受益涨价剪刀差"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "industry": "电子-其他电子-其他电子Ⅲ",
@@ -57970,8 +58119,8 @@
       "name": "丰茂股份"
     },
     "301486": {
-      "mention_count": 2,
-      "last_updated": "2026-05-31",
+      "mention_count": 6,
+      "last_updated": "2026-06-02",
       "concepts": [
         "5G",
         "MR(混合现实)",
@@ -58027,6 +58176,19 @@
           "date": "2026-03-25",
           "title": "今天的一些信息整理3.25",
           "source": "https://mp.weixin.qq.com/s/IPF3zZ0n--NiWQWch4MWCA"
+        },
+        {
+          "title": "今天的一些信息整理6.2",
+          "date": "2026-06-02",
+          "source": "https://mp.weixin.qq.com/s/A2oQsd6EBFxwxs1Tu6z63w",
+          "accidents": [
+            "Senko已通过Marvell认证"
+          ],
+          "insights": [
+            "Txy观点坚定看好CPO在Scale up中的运用"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "industry": "电子-消费电子-消费电子零部件及组装",
@@ -62920,7 +63082,7 @@
     },
     "600176": {
       "mention_count": 3,
-      "last_updated": "2026-05-31",
+      "last_updated": "2026-06-02",
       "core_business": [
         "玻纤/电子布生产",
         "一体化",
@@ -62954,6 +63116,22 @@
           ],
           "title": "中国巨石(600176) - 产业链核心标的分析",
           "source": "原材料: raw_material_2026-04-13.md"
+        },
+        {
+          "title": "今天的一些信息整理6.2",
+          "date": "2026-06-02",
+          "source": "https://mp.weixin.qq.com/s/A2oQsd6EBFxwxs1Tu6z63w",
+          "accidents": [
+            "7628电子布再涨0.7元至7.2-7.5元/米",
+            "Rubin Ultra需求驱动电子布供需缺口扩大"
+          ],
+          "insights": [
+            "DB电新认为长期看好电子布升级迭代和供需紧张趋势"
+          ],
+          "key_metrics": [
+            "电子布单米涨价0.7元"
+          ],
+          "target_valuation": []
         }
       ],
       "board": "SH",
@@ -65930,8 +66108,8 @@
       "name": "宝钛股份"
     },
     "600459": {
-      "mention_count": 1,
-      "last_updated": "",
+      "mention_count": 2,
+      "last_updated": "2026-06-02",
       "concepts": [
         "沪股通",
         "军工",
@@ -65965,6 +66143,27 @@
           ],
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "title": "贵研铂业，翻倍空间？",
+          "date": "2026-06-02",
+          "source": "https://mp.weixin.qq.com/s/sRT2d-Q0C8OwxLbbl3zChg",
+          "accidents": [
+            "AI电子布扩产驱动铂铑漏板需求爆发",
+            "磷化铟光芯片爆发拉动铂铑合金热电偶需求"
+          ],
+          "insights": [
+            "ZSDZ认为贵研铂业翻倍空间",
+            "AI电子布扩产最硬核耗材铂铑漏板国内垄断地位",
+            "磷化铟InP光芯片隐形命脉，铂铑合金热电偶为唯一解决方案"
+          ],
+          "key_metrics": [
+            "每万吨电子布产能需165kg铂+18kg铑",
+            "10万吨产线铂铑设备价值高达4.5亿"
+          ],
+          "target_valuation": [
+            "翻倍空间"
+          ]
         }
       ],
       "industry": "有色金属-小金属-其他小金属",
@@ -67370,8 +67569,8 @@
       "name": "山东黄金"
     },
     "600549": {
-      "mention_count": 3,
-      "last_updated": "2026-05-28",
+      "mention_count": 4,
+      "last_updated": "2026-06-02",
       "concepts": [
         "光伏概念",
         "沪股通",
@@ -67442,6 +67641,23 @@
           "insights": [
             "钨稀土双主业协同，高性能钕铁硼产能稳步扩张，适配新能源需求"
           ]
+        },
+        {
+          "title": "0602信息汇总",
+          "date": "2026-06-02",
+          "source": "https://mp.weixin.qq.com/s/CJ8bZzuouEZJMKG-QXWltQ",
+          "accidents": [
+            "MLCC服务器、车规级应用明显放量",
+            "高端PCB钻针棒材正成为稀缺产能"
+          ],
+          "insights": [
+            "公司具备3000吨钛酸钡产能",
+            "高端PCB钻针棒材受益AI PCB需求爆发和替代日本进口双重逻辑"
+          ],
+          "key_metrics": [
+            "钛酸钡3000吨、碳酸钡5000吨产能"
+          ],
+          "target_valuation": []
         }
       ],
       "industry": "有色金属-小金属-钨",
@@ -79438,7 +79654,7 @@
     },
     "603083": {
       "mention_count": 2,
-      "last_updated": "",
+      "last_updated": "2026-06-02",
       "concepts": [
         "一带一路",
         "沪股通",
@@ -79466,6 +79682,20 @@
           "accidents": [
             "政策落地强化"
           ]
+        },
+        {
+          "title": "今天的一些信息整理6.2",
+          "date": "2026-06-02",
+          "source": "https://mp.weixin.qq.com/s/A2oQsd6EBFxwxs1Tu6z63w",
+          "accidents": [
+            "英伟达黄仁勋公开表态Marvell有望成为万亿市值公司",
+            "Marvell股价大涨超12%"
+          ],
+          "insights": [
+            "东北通信认为剑桥科技在Marvell有极强的锁料能力，已批量锁料"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "industry": "通信-通信设备-通信终端及配件",
@@ -81514,7 +81744,7 @@
     },
     "603267": {
       "mention_count": 2,
-      "last_updated": "",
+      "last_updated": "2026-06-02",
       "concepts": [
         "沪股通",
         "军工",
@@ -81532,6 +81762,20 @@
           "date": "",
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "title": "今天的一些信息整理6.2",
+          "date": "2026-06-02",
+          "source": "https://mp.weixin.qq.com/s/A2oQsd6EBFxwxs1Tu6z63w",
+          "accidents": [
+            "民品稼动率提升空间大",
+            "代理业务有望受益涨价剪刀差"
+          ],
+          "insights": [
+            "ZX航空航天看好鸿远电子MLCC投资机遇"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "industry": "国防军工-军工电子-军工电子Ⅲ",
@@ -84755,8 +84999,8 @@
       "name": "五洲新春"
     },
     "603678": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-02",
       "concepts": [
         "2025年报预增",
         "5G",
@@ -84788,6 +85032,21 @@
           ],
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "title": "今天的一些信息整理6.2",
+          "date": "2026-06-02",
+          "source": "https://mp.weixin.qq.com/s/A2oQsd6EBFxwxs1Tu6z63w",
+          "accidents": [
+            "MLCC已有产线稼动率提升&涨价逻辑",
+            "薄膜电容订单爆满，26年营收有望翻倍"
+          ],
+          "insights": [
+            "财通电子认为此轮MLCC大行情仍处于前端",
+            "ZX航空航天认为民品稼动率提升空间大，存在数倍产能提升空间"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "industry": "国防军工-军工电子-军工电子Ⅲ",
@@ -88349,8 +88608,8 @@
       "name": "冠石科技"
     },
     "605589": {
-      "mention_count": 4,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-02",
       "core_business": [
         "已开发适用于钠电池的硬碳负极材料。"
       ],
@@ -88362,6 +88621,22 @@
           "source": "https://mp.weixin.qq.com/s/1UrR_XU4AtUNP5IbTuUUPQ",
           "insights": [
             "钠电池产业链相关公司：已开发适用于钠电池的硬碳负极材料。"
+          ]
+        },
+        {
+          "title": "今天的一些信息整理6.2",
+          "date": "2026-06-02",
+          "source": "https://mp.weixin.qq.com/s/A2oQsd6EBFxwxs1Tu6z63w",
+          "accidents": [
+            "涨价落地，小客户30%，大客户10%",
+            "正交背板确定性绑定SY"
+          ],
+          "insights": [
+            "东北计算机认为圣泉集团看翻倍"
+          ],
+          "key_metrics": [],
+          "target_valuation": [
+            "东北计算机看翻倍"
           ]
         }
       ],
@@ -119352,7 +119627,7 @@
       "code": "301360",
       "name": "荣旗科技",
       "concept": "MLCC;等静压设备",
-      "mention_count": 5,
+      "mention_count": 2,
       "articles": [
         {
           "source": "https://mp.weixin.qq.com/s/RaebKBhD9qWSE_7ra8B1aw",
@@ -119387,9 +119662,24 @@
             "三环集团",
             "风华高科"
           ]
+        },
+        {
+          "title": "今天的一些信息整理6.2",
+          "date": "2026-06-02",
+          "source": "https://mp.weixin.qq.com/s/A2oQsd6EBFxwxs1Tu6z63w",
+          "accidents": [
+            "MLCC涨价潮驱动温等静压机需求",
+            "固态电池检测设备布局，联合中科院物理所合作"
+          ],
+          "insights": [
+            "申万机械推荐MLCC低位标的",
+            "3C业务绑定苹果+Meta+亚马逊三大核心客户"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": "2026-05-31",
+      "last_updated": "2026-06-02",
       "concepts": [
         "AI眼镜",
         "MR(混合现实)",
@@ -133786,6 +134076,52 @@
           "target_valuation": []
         }
       ]
+    },
+    "603633": {
+      "name": "徕木股份",
+      "code": "603633",
+      "board": "SH",
+      "industry": "电子 - 电子元器件 - 电子零部件制造",
+      "concepts": [
+        "连接器",
+        "台达供应链",
+        "华为产业链"
+      ],
+      "products": [
+        "精密连接器"
+      ],
+      "core_business": [
+        "精密连接器及电子零部件研发生产"
+      ],
+      "industry_position": [
+        "通过台达认证的国内极少供应商之一"
+      ],
+      "chain": [
+        "中游-电子零部件制造"
+      ],
+      "partners": [
+        "台达",
+        "华为"
+      ],
+      "articles": [
+        {
+          "title": "0602信息汇总",
+          "date": "2026-06-02",
+          "source": "https://mp.weixin.qq.com/s/CJ8bZzuouEZJMKG-QXWltQ",
+          "accidents": [
+            "打入台达供应链，订单实打实",
+            "正在积极导入华为连接器"
+          ],
+          "insights": [
+            "底部反转确认，存在极强预期差"
+          ],
+          "key_metrics": [
+            "预计台达业务单年贡献几千万利润"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-02"
     }
   },
   "stock_count": 3212

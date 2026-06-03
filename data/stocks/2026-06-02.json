@@ -1,0 +1,937 @@
+{
+  "date": "2026-06-02",
+  "update_count": 20,
+  "stocks": {
+    "002957": {
+      "name": "科瑞技术",
+      "code": "002957",
+      "board": "SZ",
+      "industry": "机械设备 - 自动化设备 - 自动化设备Ⅲ",
+      "concepts": [
+        "自动化设备",
+        "平台型自动化",
+        "光模块设备",
+        "运动控制",
+        "机器视觉"
+      ],
+      "products": [
+        "自动化设备",
+        "精密传感与测试设备"
+      ],
+      "core_business": [
+        "平台型自动化能力提供商，运动控制、机器视觉、精密传感与测试、软件算法四核心技术"
+      ],
+      "industry_position": [
+        "光模块核心工艺段设备深度绑定供应商，Lumentum核心供应商"
+      ],
+      "chain": [
+        "中游-自动化设备制造"
+      ],
+      "partners": [
+        "Lumentum",
+        "Coherent",
+        "博通"
+      ],
+      "articles": [
+        {
+          "title": "科瑞技术，150%空间？",
+          "date": "2026-06-02",
+          "source": "https://mp.weixin.qq.com/s/0uDkbMUHs3Dp_ihjS59RUw",
+          "accidents": [
+            "Lumentum和Coherent在AI光互联驱动下大幅加单与产能倍增",
+            "科瑞已通过博通code认证，进入量产-复购正循环"
+          ],
+          "insights": [
+            "天风机械认为科瑞技术能看到700亿市值目标，150%空间",
+            "科瑞本质是平台型自动化能力提供商，跨行业扩张能力突出"
+          ],
+          "key_metrics": [],
+          "target_valuation": [
+            "天风机械目标市值700亿"
+          ]
+        }
+      ],
+      "last_updated": "2026-06-02"
+    },
+    "002975": {
+      "name": "博杰股份",
+      "code": "002975",
+      "board": "SZ",
+      "industry": "机械设备 - 专用设备 - 专用设备Ⅲ",
+      "concepts": [
+        "PCB测试",
+        "MLCC设备",
+        "磷化铟",
+        "液冷",
+        "光模块耦合"
+      ],
+      "products": [
+        "PCB测试设备",
+        "MLCC设备",
+        "磷化铟材料"
+      ],
+      "core_business": [
+        "PCB测试设备、MLCC设备研发生产与磷化铟材料业务"
+      ],
+      "industry_position": [
+        "PCB测试设备领域领先"
+      ],
+      "chain": [
+        "中游-专用设备制造"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "博杰股份，60%空间？",
+          "date": "2026-06-02",
+          "source": "https://mp.weixin.qq.com/s/Wb1LzUO5XaUECT2TuI02_Q",
+          "accidents": [],
+          "insights": [
+            "天风机械认为博杰股份第一阶段看400-500亿市值，60%空间",
+            "PCB测试设备主业看250亿，MLCC设备和磷化铟各贡献100亿以上",
+            "后续液冷检测、冷板/UQD、光模块耦合有望逐步兑现"
+          ],
+          "key_metrics": [],
+          "target_valuation": [
+            "天风机械目标市值400-500亿"
+          ]
+        }
+      ],
+      "last_updated": "2026-06-02"
+    },
+    "600459": {
+      "name": "贵研铂业",
+      "code": "600459",
+      "board": "SH",
+      "industry": "有色金属 - 贵金属 - 贵金属加工",
+      "concepts": [
+        "贵金属",
+        "电子布",
+        "磷化铟",
+        "半导体材料",
+        "铂铑合金"
+      ],
+      "products": [
+        "铂铑合金漏板",
+        "铂铑合金热电偶",
+        "贵金属回收"
+      ],
+      "core_business": [
+        "贵金属功能材料研发生产，电子布铂铑漏板国内垄断，磷化铟温控材料"
+      ],
+      "industry_position": [
+        "国内铂铑漏板绝对龙头，绑定中材、国际复材等头部大厂"
+      ],
+      "chain": [
+        "上游-贵金属材料-半导体配套"
+      ],
+      "partners": [
+        "中材科技",
+        "国际复材"
+      ],
+      "articles": [
+        {
+          "title": "贵研铂业，翻倍空间？",
+          "date": "2026-06-02",
+          "source": "https://mp.weixin.qq.com/s/sRT2d-Q0C8OwxLbbl3zChg",
+          "accidents": [
+            "AI电子布扩产驱动铂铑漏板需求爆发",
+            "磷化铟光芯片爆发拉动铂铑合金热电偶需求"
+          ],
+          "insights": [
+            "ZSDZ认为贵研铂业翻倍空间",
+            "AI电子布扩产最硬核耗材铂铑漏板国内垄断地位",
+            "磷化铟InP光芯片隐形命脉，铂铑合金热电偶为唯一解决方案"
+          ],
+          "key_metrics": [
+            "每万吨电子布产能需165kg铂+18kg铑",
+            "10万吨产线铂铑设备价值高达4.5亿"
+          ],
+          "target_valuation": [
+            "翻倍空间"
+          ]
+        }
+      ],
+      "last_updated": "2026-06-02"
+    },
+    "301360": {
+      "name": "荣旗科技",
+      "code": "301360",
+      "board": "SZ",
+      "industry": "机械设备 - 自动化设备 - 自动化设备Ⅲ",
+      "concepts": [
+        "MLCC",
+        "固态电池",
+        "3C检测",
+        "苹果产业链",
+        "智能眼镜"
+      ],
+      "products": [
+        "温等静压机",
+        "AI质检装备",
+        "检测设备"
+      ],
+      "core_business": [
+        "MLCC温等静压机及3C智能检测装备研发生产"
+      ],
+      "industry_position": [
+        "四川力能温等静压机国内领先，获四川省首台套认定"
+      ],
+      "chain": [
+        "中游-专用设备制造"
+      ],
+      "partners": [
+        "潮州三环",
+        "广东微容",
+        "风华高科",
+        "宁德时代",
+        "苹果",
+        "Meta",
+        "亚马逊"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理6.2",
+          "date": "2026-06-02",
+          "source": "https://mp.weixin.qq.com/s/A2oQsd6EBFxwxs1Tu6z63w",
+          "accidents": [
+            "MLCC涨价潮驱动温等静压机需求",
+            "固态电池检测设备布局，联合中科院物理所合作"
+          ],
+          "insights": [
+            "申万机械推荐MLCC低位标的",
+            "3C业务绑定苹果+Meta+亚马逊三大核心客户"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ]
+    },
+    "300285": {
+      "name": "国瓷材料",
+      "code": "300285",
+      "board": "SZ",
+      "industry": "基础化工 - 化学制品 - 其他化学制品",
+      "concepts": [
+        "MLCC粉体",
+        "氧化锆",
+        "商业航天",
+        "硅微粉"
+      ],
+      "products": [
+        "MLCC陶瓷粉体",
+        "氧化锆粉体",
+        "陶瓷管壳",
+        "硅微粉"
+      ],
+      "core_business": [
+        "MLCC陶瓷粉体、氧化锆粉体、陶瓷管壳及硅微粉研发生产"
+      ],
+      "industry_position": [
+        "国内MLCC上游粉体绝对龙头，全球市占率25%",
+        "低轨卫星陶瓷管壳国内主要供应商"
+      ],
+      "chain": [
+        "上游-电子陶瓷材料"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理6.2",
+          "date": "2026-06-02",
+          "source": "https://mp.weixin.qq.com/s/A2oQsd6EBFxwxs1Tu6z63w",
+          "accidents": [
+            "MLCC涨价推动粉体量价齐升",
+            "商务部对日出口禁令推动氧化锆海外涨价"
+          ],
+          "insights": [
+            "申万化工认为MLCC大行情下公司有望享受量价齐升",
+            "低轨卫星陶瓷管壳年均3000颗对应近10亿+利润空间"
+          ],
+          "key_metrics": [
+            "MLCC粉体全球市占率25%",
+            "氧化锆3500吨产能，涨价10万/吨对应3.5亿毛利增厚",
+            "陶瓷管壳单颗卫星价值量约100万元"
+          ],
+          "target_valuation": []
+        }
+      ]
+    },
+    "603678": {
+      "name": "火炬电子",
+      "code": "603678",
+      "board": "SH",
+      "industry": "电子 - 电子元器件 - 被动元件",
+      "concepts": [
+        "MLCC",
+        "薄膜电容",
+        "陶瓷新材料",
+        "军工电子"
+      ],
+      "products": [
+        "MLCC",
+        "薄膜电容",
+        "陶瓷新材料"
+      ],
+      "core_business": [
+        "MLCC、薄膜电容及陶瓷新材料的研发生产"
+      ],
+      "industry_position": [
+        "特种MLCC核心供应商，薄膜电容订单爆满"
+      ],
+      "chain": [
+        "中游-被动元件制造"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理6.2",
+          "date": "2026-06-02",
+          "source": "https://mp.weixin.qq.com/s/A2oQsd6EBFxwxs1Tu6z63w",
+          "accidents": [
+            "MLCC已有产线稼动率提升&涨价逻辑",
+            "薄膜电容订单爆满，26年营收有望翻倍"
+          ],
+          "insights": [
+            "财通电子认为此轮MLCC大行情仍处于前端",
+            "ZX航空航天认为民品稼动率提升空间大，存在数倍产能提升空间"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ]
+    },
+    "603267": {
+      "name": "鸿远电子",
+      "code": "603267",
+      "board": "SH",
+      "industry": "电子 - 电子元器件 - 被动元件",
+      "concepts": [
+        "MLCC",
+        "军工电子",
+        "特种MLCC"
+      ],
+      "products": [
+        "MLCC"
+      ],
+      "core_business": [
+        "特种MLCC及民用MLCC研发生产"
+      ],
+      "industry_position": [
+        "特种MLCC核心供应商"
+      ],
+      "chain": [
+        "中游-被动元件制造"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理6.2",
+          "date": "2026-06-02",
+          "source": "https://mp.weixin.qq.com/s/A2oQsd6EBFxwxs1Tu6z63w",
+          "accidents": [
+            "民品稼动率提升空间大",
+            "代理业务有望受益涨价剪刀差"
+          ],
+          "insights": [
+            "ZX航空航天看好鸿远电子MLCC投资机遇"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ]
+    },
+    "000636": {
+      "name": "风华高科",
+      "code": "000636",
+      "board": "SZ",
+      "industry": "电子 - 电子元器件 - 被动元件",
+      "concepts": [
+        "MLCC",
+        "被动元件",
+        "国产替代"
+      ],
+      "products": [
+        "MLCC",
+        "片式元器件"
+      ],
+      "core_business": [
+        "MLCC及片式元器件研发生产"
+      ],
+      "industry_position": [
+        "国产MLCC核心厂商"
+      ],
+      "chain": [
+        "中游-被动元件制造"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理6.2",
+          "date": "2026-06-02",
+          "source": "https://mp.weixin.qq.com/s/A2oQsd6EBFxwxs1Tu6z63w",
+          "accidents": [
+            "MLCC涨价潮受益"
+          ],
+          "insights": [
+            "MLCC板块重点关注标的"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ]
+    },
+    "300408": {
+      "name": "三环集团",
+      "code": "300408",
+      "board": "SZ",
+      "industry": "电子 - 电子元器件 - 被动元件",
+      "concepts": [
+        "MLCC",
+        "陶瓷粉体",
+        "被动元件"
+      ],
+      "products": [
+        "MLCC",
+        "陶瓷基片",
+        "陶瓷插芯"
+      ],
+      "core_business": [
+        "MLCC及电子陶瓷元件制造"
+      ],
+      "industry_position": [
+        "国内MLCC龙头之一"
+      ],
+      "chain": [
+        "中游-被动元件制造"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理6.2",
+          "date": "2026-06-02",
+          "source": "https://mp.weixin.qq.com/s/A2oQsd6EBFxwxs1Tu6z63w",
+          "accidents": [
+            "MLCC涨价潮受益"
+          ],
+          "insights": [
+            "MLCC板块核心标的"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ]
+    },
+    "300975": {
+      "name": "商络电子",
+      "code": "300975",
+      "board": "SZ",
+      "industry": "商贸零售 - 贸易 - 贸易Ⅲ",
+      "concepts": [
+        "MLCC代理",
+        "被动元件",
+        "分销"
+      ],
+      "products": [
+        "被动元件分销"
+      ],
+      "core_business": [
+        "被动元件分销，MLCC代理商"
+      ],
+      "industry_position": [
+        "MLCC核心分销商"
+      ],
+      "chain": [
+        "下游-电子元器件分销"
+      ],
+      "partners": [
+        "风华高科",
+        "三环集团"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理6.2",
+          "date": "2026-06-02",
+          "source": "https://mp.weixin.qq.com/s/A2oQsd6EBFxwxs1Tu6z63w",
+          "accidents": [
+            "MLCC涨价潮推动分销业务量价齐升"
+          ],
+          "insights": [
+            "MLCC分销商受益涨价剪刀差"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ]
+    },
+    "600176": {
+      "name": "中国巨石",
+      "code": "600176",
+      "board": "SH",
+      "industry": "建筑材料 - 玻璃纤维 - 玻璃纤维",
+      "concepts": [
+        "电子布",
+        "玻璃纤维",
+        "AI服务器",
+        "PCB材料"
+      ],
+      "products": [
+        "电子纱",
+        "电子布",
+        "玻璃纤维"
+      ],
+      "core_business": [
+        "玻璃纤维及电子布的研发生产"
+      ],
+      "industry_position": [
+        "全球玻纤龙头，电子布核心供应商"
+      ],
+      "chain": [
+        "上游-玻纤材料"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理6.2",
+          "date": "2026-06-02",
+          "source": "https://mp.weixin.qq.com/s/A2oQsd6EBFxwxs1Tu6z63w",
+          "accidents": [
+            "7628电子布再涨0.7元至7.2-7.5元/米",
+            "Rubin Ultra需求驱动电子布供需缺口扩大"
+          ],
+          "insights": [
+            "DB电新认为长期看好电子布升级迭代和供需紧张趋势"
+          ],
+          "key_metrics": [
+            "电子布单米涨价0.7元"
+          ],
+          "target_valuation": []
+        }
+      ]
+    },
+    "603083": {
+      "name": "剑桥科技",
+      "code": "603083",
+      "board": "SH",
+      "industry": "通信 - 通信设备 - 通信终端设备",
+      "concepts": [
+        "光模块",
+        "Marvell",
+        "DSP",
+        "AI算力"
+      ],
+      "products": [
+        "光模块",
+        "高速光引擎"
+      ],
+      "core_business": [
+        "光模块及高速光引擎研发生产"
+      ],
+      "industry_position": [
+        "Marvell DSP核心配套厂商"
+      ],
+      "chain": [
+        "中游-光通信模块"
+      ],
+      "partners": [
+        "Marvell"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理6.2",
+          "date": "2026-06-02",
+          "source": "https://mp.weixin.qq.com/s/A2oQsd6EBFxwxs1Tu6z63w",
+          "accidents": [
+            "英伟达黄仁勋公开表态Marvell有望成为万亿市值公司",
+            "Marvell股价大涨超12%"
+          ],
+          "insights": [
+            "东北通信认为剑桥科技在Marvell有极强的锁料能力，已批量锁料"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ]
+    },
+    "300308": {
+      "name": "中际旭创",
+      "code": "300308",
+      "board": "SZ",
+      "industry": "通信 - 通信设备 - 通信终端设备",
+      "concepts": [
+        "光模块",
+        "CPO",
+        "NPO",
+        "AI算力",
+        "800G",
+        "1.6T"
+      ],
+      "products": [
+        "光模块",
+        "光引擎"
+      ],
+      "core_business": [
+        "高速光模块及光引擎研发生产"
+      ],
+      "industry_position": [
+        "全球800G/1.6T光模块龙头"
+      ],
+      "chain": [
+        "中游-光通信模块"
+      ],
+      "partners": [
+        "Marvell",
+        "英伟达"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理6.2",
+          "date": "2026-06-02",
+          "source": "https://mp.weixin.qq.com/s/A2oQsd6EBFxwxs1Tu6z63w",
+          "accidents": [
+            "英伟达正式推进CPO量产"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ]
+    },
+    "301486": {
+      "name": "致尚科技",
+      "code": "301486",
+      "board": "SZ",
+      "industry": "电子 - 电子元器件 - 电子零部件制造",
+      "concepts": [
+        "CPO",
+        "MPO",
+        "光互联"
+      ],
+      "products": [
+        "MPO连接器",
+        "MT/MT插芯"
+      ],
+      "core_business": [
+        "光连接器及精密零部件研发生产"
+      ],
+      "industry_position": [
+        "Senko已通过Marvell认证"
+      ],
+      "chain": [
+        "中游-光器件制造"
+      ],
+      "partners": [
+        "Senko",
+        "Marvell"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理6.2",
+          "date": "2026-06-02",
+          "source": "https://mp.weixin.qq.com/s/A2oQsd6EBFxwxs1Tu6z63w",
+          "accidents": [
+            "Senko已通过Marvell认证"
+          ],
+          "insights": [
+            "Txy观点坚定看好CPO在Scale up中的运用"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ]
+    },
+    "605589": {
+      "name": "圣泉集团",
+      "code": "605589",
+      "board": "SH",
+      "industry": "基础化工 - 化学制品 - 其他化学制品",
+      "concepts": [
+        "电子树脂",
+        "CCL",
+        "PCB材料",
+        "AI服务器"
+      ],
+      "products": [
+        "电子树脂",
+        "酚醛树脂"
+      ],
+      "core_business": [
+        "电子树脂及酚醛树脂研发生产"
+      ],
+      "industry_position": [
+        "CCL上游核心供应商"
+      ],
+      "chain": [
+        "上游-电子材料"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理6.2",
+          "date": "2026-06-02",
+          "source": "https://mp.weixin.qq.com/s/A2oQsd6EBFxwxs1Tu6z63w",
+          "accidents": [
+            "涨价落地，小客户30%，大客户10%",
+            "正交背板确定性绑定SY"
+          ],
+          "insights": [
+            "东北计算机认为圣泉集团看翻倍"
+          ],
+          "key_metrics": [],
+          "target_valuation": [
+            "东北计算机看翻倍"
+          ]
+        }
+      ]
+    },
+    "002384": {
+      "name": "东山精密",
+      "code": "002384",
+      "board": "SZ",
+      "industry": "电子 - 电子元器件 - 电子零部件制造",
+      "concepts": [
+        "光芯片",
+        "光模块",
+        "AI PCB",
+        "EML"
+      ],
+      "products": [
+        "光芯片(EML)",
+        "光模块",
+        "PCB"
+      ],
+      "core_business": [
+        "光芯片（EML）、光模块及AI PCB研发生产"
+      ],
+      "industry_position": [
+        "国内唯一可自供EML芯片并大规模量产",
+        "光芯片净利润率预期高达50%以上"
+      ],
+      "chain": [
+        "中游-光通信制造"
+      ],
+      "partners": [
+        "索尔思",
+        "Lumentum",
+        "Coherent"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理6.2",
+          "date": "2026-06-02",
+          "source": "https://mp.weixin.qq.com/s/A2oQsd6EBFxwxs1Tu6z63w",
+          "accidents": [
+            "光芯片产能从10亿颗扩张到20亿颗",
+            "光模块产能从2500万只扩到2500万只以上",
+            "CPO已拿到北美客户订单"
+          ],
+          "insights": [
+            "东山精密拥有多次国际资产并购经验，程序合法合规",
+            "索尔思2025Q4已并表，东山完全控股"
+          ],
+          "key_metrics": [
+            "光芯片扩产至20亿颗",
+            "光模块利润率达30%以上"
+          ],
+          "target_valuation": [
+            "较同行业光芯片公司PE仍然较低"
+          ]
+        }
+      ]
+    },
+    "300782": {
+      "name": "卓胜微",
+      "code": "300782",
+      "board": "SZ",
+      "industry": "电子 - 半导体 - 集成电路",
+      "concepts": [
+        "CPO",
+        "硅光",
+        "SiGe",
+        "SOI",
+        "高速模拟"
+      ],
+      "products": [
+        "射频前端芯片",
+        "SiGe/SOI平台"
+      ],
+      "core_business": [
+        "射频前端芯片研发及高速模拟+IDM制造"
+      ],
+      "industry_position": [
+        "国产硅光/CPO产业链底层平台重要方向"
+      ],
+      "chain": [
+        "中游-芯片设计+制造"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理6.2",
+          "date": "2026-06-02",
+          "source": "https://mp.weixin.qq.com/s/A2oQsd6EBFxwxs1Tu6z63w",
+          "accidents": [
+            "英伟达正式推进CPO量产"
+          ],
+          "insights": [
+            "ZS电子认为卓胜微有望成为国产AI光互连底层平台的重要受益方向"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ]
+    },
+    "600549": {
+      "name": "厦门钨业",
+      "code": "600549",
+      "board": "SH",
+      "industry": "有色金属 - 有色金属 - 钨",
+      "concepts": [
+        "MLCC",
+        "钨",
+        "PCB钻针",
+        "棒材",
+        "钛酸钡"
+      ],
+      "products": [
+        "钛酸钡粉体",
+        "MLCC配方粉",
+        "碳酸钡",
+        "PCB钻针棒材"
+      ],
+      "core_business": [
+        "钨钼材料及MLCC钛酸钡粉体研发生产"
+      ],
+      "industry_position": [
+        "国内极少数具备高端纳米级钛酸钡生产能力的企业",
+        "与中钨高新为国内高端棒材龙头"
+      ],
+      "chain": [
+        "上游-有色金属材料"
+      ],
+      "partners": [
+        "三星",
+        "风华高科",
+        "台湾国巨",
+        "金洲",
+        "鼎泰"
+      ],
+      "articles": [
+        {
+          "title": "0602信息汇总",
+          "date": "2026-06-02",
+          "source": "https://mp.weixin.qq.com/s/CJ8bZzuouEZJMKG-QXWltQ",
+          "accidents": [
+            "MLCC服务器、车规级应用明显放量",
+            "高端PCB钻针棒材正成为稀缺产能"
+          ],
+          "insights": [
+            "公司具备3000吨钛酸钡产能",
+            "高端PCB钻针棒材受益AI PCB需求爆发和替代日本进口双重逻辑"
+          ],
+          "key_metrics": [
+            "钛酸钡3000吨、碳酸钡5000吨产能"
+          ],
+          "target_valuation": []
+        }
+      ]
+    },
+    "603633": {
+      "name": "徕木股份",
+      "code": "603633",
+      "board": "SH",
+      "industry": "电子 - 电子元器件 - 电子零部件制造",
+      "concepts": [
+        "连接器",
+        "台达供应链",
+        "华为产业链"
+      ],
+      "products": [
+        "精密连接器"
+      ],
+      "core_business": [
+        "精密连接器及电子零部件研发生产"
+      ],
+      "industry_position": [
+        "通过台达认证的国内极少供应商之一"
+      ],
+      "chain": [
+        "中游-电子零部件制造"
+      ],
+      "partners": [
+        "台达",
+        "华为"
+      ],
+      "articles": [
+        {
+          "title": "0602信息汇总",
+          "date": "2026-06-02",
+          "source": "https://mp.weixin.qq.com/s/CJ8bZzuouEZJMKG-QXWltQ",
+          "accidents": [
+            "打入台达供应链，订单实打实",
+            "正在积极导入华为连接器"
+          ],
+          "insights": [
+            "底部反转确认，存在极强预期差"
+          ],
+          "key_metrics": [
+            "预计台达业务单年贡献几千万利润"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-02"
+    },
+    "300508": {
+      "name": "维宏股份",
+      "code": "300508",
+      "board": "SZ",
+      "industry": "计算机 - 软件开发 - 应用软件",
+      "concepts": [
+        "灵巧手",
+        "机器人",
+        "PCB设备",
+        "运动控制",
+        "伺服"
+      ],
+      "products": [
+        "PCB金属钻攻机运控产品",
+        "灵巧手关节模组",
+        "激光雷达电机"
+      ],
+      "core_business": [
+        "运动控制系统研发及灵巧手关节模组生产"
+      ],
+      "industry_position": [
+        "机器人激光雷达电机市占率极高"
+      ],
+      "chain": [
+        "中游-自动化控制"
+      ],
+      "partners": [
+        "灵心巧手",
+        "因时",
+        "英伟达",
+        "SKid AI",
+        "李飞飞实验室",
+        "Apptronik"
+      ],
+      "articles": [
+        {
+          "title": "0602信息汇总",
+          "date": "2026-06-02",
+          "source": "https://mp.weixin.qq.com/s/CJ8bZzuouEZJMKG-QXWltQ",
+          "accidents": [
+            "PCB金属钻攻机运控产品预计6月正式推广",
+            "黄仁勋在GTC台北大会宣布联手Sharpa重视灵巧手领域"
+          ],
+          "insights": [
+            "灵巧手客户持续突破"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ]
+    }
+  }
+}
