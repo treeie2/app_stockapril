@@ -415,6 +415,87 @@ def load_data_incremental(days=7):
         print(f"  ⚠️ 增量加载失败: {e}")
         return None, None
 
+
+# ============================================================
+# Supabase 配置（可选 - 替代 Firebase）
+# ============================================================
+# 优先级：环境变量 > supabase_config.json
+_SUPABASE_CONFIG_FILE = BASE_DIR / "supabase_config.json"
+if _SUPABASE_CONFIG_FILE.exists():
+    try:
+        with open(_SUPABASE_CONFIG_FILE, 'r', encoding='utf-8') as _f:
+            _supabase_config = json.load(_f)
+        SUPABASE_URL = os.getenv("SUPABASE_URL", _supabase_config.get("SUPABASE_URL", ""))
+        SUPABASE_KEY = os.getenv("SUPABASE_KEY", _supabase_config.get("SUPABASE_KEY", ""))
+    except Exception:
+        SUPABASE_URL = os.getenv("SUPABASE_URL", "")
+        SUPABASE_KEY = os.getenv("SUPABASE_KEY", "")
+else:
+    SUPABASE_URL = os.getenv("SUPABASE_URL", "")
+    SUPABASE_KEY = os.getenv("SUPABASE_KEY", "")
+_supabase_client = None
+
+def get_supabase_client():
+    """获取 Supabase 客户端"""
+    global _supabase_client
+    if _supabase_client is not None:
+        return _supabase_client
+    if not SUPABASE_URL or not SUPABASE_KEY:
+        return None
+    try:
+        from supabase import create_client
+        _supabase_client = create_client(SUPABASE_URL, SUPABASE_KEY)
+        return _supabase_client
+    except ImportError:
+        return None
+    except Exception as e:
+        print(f"  ⚠️ Supabase 客户端初始化失败: {e}")
+        return None
+
+def load_data_from_supabase():
+    """从 Supabase 加载股票数据"""
+    print("📋 尝试从 Supabase 加载数据...")
+    client = get_supabase_client()
+    if not client:
+        return None, None
+
+    try:
+        resp = client.table("stocks").select("*").execute()
+        rows = resp.data if resp.data else []
+
+        all_stocks = {}
+        concepts = {}
+        for row in rows:
+            code = row.get("code", "")
+            stock = {
+                "name": row.get("name", ""),
+                "code": code,
+                "board": row.get("board", ""),
+                "industry": row.get("industry", ""),
+                "concepts": json.loads(row.get("concepts", "[]")) if isinstance(row.get("concepts"), str) else (row.get("concepts") or []),
+                "products": json.loads(row.get("products", "[]")) if isinstance(row.get("products"), str) else (row.get("products") or []),
+                "core_business": json.loads(row.get("core_business", "[]")) if isinstance(row.get("core_business"), str) else (row.get("core_business") or []),
+                "industry_position": json.loads(row.get("industry_position", "[]")) if isinstance(row.get("industry_position"), str) else (row.get("industry_position") or []),
+                "chain": json.loads(row.get("chain", "[]")) if isinstance(row.get("chain"), str) else (row.get("chain") or []),
+                "partners": json.loads(row.get("partners", "[]")) if isinstance(row.get("partners"), str) else (row.get("partners") or []),
+                "mention_count": row.get("mention_count", 0),
+                "last_updated": row.get("last_updated", ""),
+                "articles": json.loads(row.get("articles", "[]")) if isinstance(row.get("articles"), str) else (row.get("articles") or []),
+                "detail_texts": json.loads(row.get("detail_texts", "[]")) if isinstance(row.get("detail_texts"), str) else (row.get("detail_texts") or []),
+            }
+            all_stocks[code] = stock
+            for concept in stock.get("concepts", []):
+                if concept not in concepts:
+                    concepts[concept] = {"stocks": []}
+                concepts[concept]["stocks"].append(code)
+
+        print(f"  ✅ 从 Supabase 加载 {len(all_stocks)} 只股票")
+        return all_stocks, concepts
+    except Exception as e:
+        print(f"  ⚠️ Supabase 加载失败: {e}")
+        return None, None
+
+
 def load_data_from_local():
     """从本地文件或 GitHub 加载数据"""
     print("📋 从数据源加载数据...")
@@ -580,44 +661,50 @@ def load_all_data():
         except Exception as e:
             print(f"  ⚠️ 本地加载失败：{e}")
         
-        # 2. 尝试从 Firebase 补充最新数据（非阻塞，短超时）
+        # 2. 尝试从云端补充最新数据（Supabase 或 Firebase）
+        cloud_sources = [
+            ("Supabase", load_data_from_supabase),
+            ("Firebase", load_data_from_firebase),
+        ]
         if stocks:
-            print("📋 尝试从 Firebase 补充数据...")
-            try:
-                firebase_stocks, firebase_concepts = load_data_from_firebase()
-                if firebase_stocks:
-                    # Firebase 数据优先（包含最新更新），覆盖或补充本地数据
-                    new_count = 0
-                    updated_count = 0
-                    for code, fb_stock in firebase_stocks.items():
-                        fb_updated = fb_stock.get('last_updated', '')
-                        local_stock = stocks.get(code)
-                        if local_stock is None:
-                            stocks[code] = fb_stock
-                            new_count += 1
-                        else:
-                            local_updated = local_stock.get('last_updated', '')
-                            # 如果 Firebase 数据更新，覆盖本地数据
-                            if fb_updated > local_updated:
+            for name, loader in cloud_sources:
+                print(f"📋 尝试从 {name} 补充数据...")
+                try:
+                    cloud_stocks, cloud_concepts = loader()
+                    if cloud_stocks:
+                        new_count = 0
+                        updated_count = 0
+                        for code, fb_stock in cloud_stocks.items():
+                            fb_updated = fb_stock.get('last_updated', '')
+                            local_stock = stocks.get(code)
+                            if local_stock is None:
                                 stocks[code] = fb_stock
-                                updated_count += 1
-                    concepts.update(firebase_concepts)
-                    print(f"  ✅ Firebase 补充成功：{new_count} 只新股票，{updated_count} 只已更新")
-                else:
-                    print(f"  ⚠️ Firebase 数据为空，使用本地数据")
-            except Exception as e:
-                print(f"  ⚠️ Firebase 加载失败（使用本地数据）：{e}")
+                                new_count += 1
+                            else:
+                                local_updated = local_stock.get('last_updated', '')
+                                if fb_updated > local_updated:
+                                    stocks[code] = fb_stock
+                                    updated_count += 1
+                        concepts.update(cloud_concepts)
+                        print(f"  ✅ {name} 补充成功：{new_count} 只新股票，{updated_count} 只已更新")
+                        break  # 有一个云源成功即可
+                    else:
+                        print(f"  ⚠️ {name} 数据为空")
+                except Exception as e:
+                    print(f"  ⚠️ {name} 加载失败：{e}")
         else:
-            # 本地加载失败，尝试 Firebase
-            print("📋 本地加载失败，尝试从 Firebase 加载...")
-            try:
-                firebase_stocks, firebase_concepts = load_data_from_firebase()
-                if firebase_stocks:
-                    stocks.update(firebase_stocks)
-                    concepts.update(firebase_concepts)
-                    print(f"  ✅ Firebase 加载成功：{len(firebase_stocks)} 只股票")
-            except Exception as e:
-                print(f"  ⚠️ Firebase 加载失败：{e}")
+            # 本地加载失败，尝试云端
+            for name, loader in cloud_sources:
+                print(f"📋 本地加载失败，尝试从 {name} 加载...")
+                try:
+                    cloud_stocks, cloud_concepts = loader()
+                    if cloud_stocks:
+                        stocks.update(cloud_stocks)
+                        concepts.update(cloud_concepts)
+                        print(f"  ✅ {name} 加载成功：{len(cloud_stocks)} 只股票")
+                        break
+                except Exception as e:
+                    print(f"  ⚠️ {name} 加载失败：{e}")
         
         # 3. 加载热点数据（本地优先）
         if HOT_TOPICS_FILE.exists():

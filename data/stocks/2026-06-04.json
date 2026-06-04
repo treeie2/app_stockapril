@@ -1,0 +1,653 @@
+{
+  "date": "2026-06-04",
+  "update_count": 25,
+  "last_updated": "2026-06-04",
+  "stocks": {
+    "688090": {
+      "name": "瑞松科技",
+      "code": "688090",
+      "board": "SH",
+      "core_business": [
+        "PLR六轴机器人",
+        "MPO连接器",
+        "PFC产品"
+      ],
+      "articles": [
+        {
+          "title": "瑞松科技，3倍空间？",
+          "date": "2026-06-03",
+          "source": "https://mp.weixin.qq.com/s?__biz=Mzk3NTYyNzg4Nw==&mid=2247485749&idx=1&sn=81747635c93a3fd04cde79e098e510e7&chksm=c5423f37b57f6b96720c5de213fdf8f6ca6417c36b83917b218e10ac625310197fc0a0ede544",
+          "accidents": [
+            "MPO、PFC小批量兑现",
+            "爆发放量10+e利润可展望400e"
+          ],
+          "insights": [
+            "PLR六轴机器人，MPO、PFC放量可期",
+            "第二曲线可带来三倍增量空间"
+          ],
+          "key_metrics": [
+            "当前市值120e",
+            "MPO/PFC小批量看200e以上",
+            "爆发放量10+e利润看400e"
+          ],
+          "target_valuation": [
+            "翻倍空间看200e",
+            "三倍空间看400e"
+          ]
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "688551": {
+      "name": "科威尔",
+      "code": "688551",
+      "board": "SH",
+      "core_business": [
+        "AIDC电源测试设备"
+      ],
+      "industry_position": [
+        "AIDC测试电源行业领先"
+      ],
+      "chain": [
+        "中游-测试设备"
+      ],
+      "partners": [
+        "致茂"
+      ],
+      "articles": [
+        {
+          "title": "科威尔，3倍空间？",
+          "date": "2026-06-03",
+          "source": "https://mp.weixin.qq.com/s/VEiBML7Bn_o1mRH5X6mDhA",
+          "accidents": [
+            "AIDC电源测试设备行业供需吃紧，公司订单即将爆发"
+          ],
+          "insights": [
+            "AIDC测试电源行业龙头致茂产能不足，公司订单进入加速期",
+            "6月有望迎来订单爆发"
+          ],
+          "key_metrics": [
+            "看200亿市值"
+          ],
+          "target_valuation": [
+            "200亿市值，3倍空间"
+          ]
+        },
+        {
+          "title": "0603信息汇总",
+          "date": "2026-06-03",
+          "source": "https://mp.weixin.qq.com/s/nKQT9QuaBrt4ymFM6uf3bA",
+          "accidents": [
+            "26年截止目前订单2KW+",
+            "近期有好几个KW级别订单马上落地"
+          ],
+          "insights": [
+            "想做SST绕不开公司的测试电源产品",
+            "公司具有2年的先发优势"
+          ],
+          "key_metrics": [
+            "年初定1亿目标，目前看大概率超预期",
+            "明年目标3-5亿",
+            "公司AI利润有望超过50%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 2
+    },
+    "688268": {
+      "name": "华特气体",
+      "code": "688268",
+      "board": "SH",
+      "core_business": [
+        "锗烷（锗硅外延气体）生产"
+      ],
+      "industry_position": [
+        "锗烷供应商"
+      ],
+      "chain": [
+        "上游-特种气体"
+      ],
+      "partners": [
+        "云南锗业"
+      ],
+      "articles": [
+        {
+          "title": "华特气体，3倍空间？",
+          "date": "2026-06-03",
+          "source": "https://mp.weixin.qq.com/s/D4cAe2ho8l2tzkKQR8O6Ng",
+          "accidents": [
+            "锗烷大幅涨价",
+            "下半年陆续释放20吨增量"
+          ],
+          "insights": [
+            "下游应用于＜7nm先进制程和高阶Dram配套EPI设备+光芯片",
+            "最顶尖的赛道"
+          ],
+          "key_metrics": [
+            "大陆售价5000w/吨，海外7000w/吨",
+            "净利率40%-60%",
+            "目前产能11吨，下半年20吨增量",
+            "不继续涨价利润空间7e，继续涨价看10e"
+          ],
+          "target_valuation": [
+            "主业看150e",
+            "目前200e，看2-3倍空间"
+          ]
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "002149": {
+      "name": "西部材料",
+      "code": "002149",
+      "board": "SZ",
+      "articles": [
+        {
+          "title": "SpaceX上市催化落地！商业航天全链爆发",
+          "date": "2026-06-03",
+          "source": "https://mp.weixin.qq.com/s/2QZXEQIJQMhJ0mtZeLD_Sg",
+          "accidents": [
+            "商业航天进入批量组网黄金周期"
+          ],
+          "insights": [
+            "航天高温合金龙头",
+            "火箭特种金属龙头，适配重型火箭舱体用料"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "300433": {
+      "name": "蓝思科技",
+      "code": "300433",
+      "board": "SZ",
+      "articles": [
+        {
+          "title": "SpaceX上市催化落地！商业航天全链爆发",
+          "date": "2026-06-03",
+          "source": "https://mp.weixin.qq.com/s/2QZXEQIJQMhJ0mtZeLD_Sg",
+          "accidents": [],
+          "insights": [
+            "星链外观构件供应商",
+            "航天精密结构件，跟着海外星座放量持续扩产"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "300316": {
+      "name": "晶盛机电",
+      "code": "300316",
+      "board": "SZ",
+      "articles": [
+        {
+          "title": "SpaceX上市催化落地！商业航天全链爆发",
+          "date": "2026-06-03",
+          "source": "https://mp.weixin.qq.com/s/2QZXEQIJQMhJ0mtZeLD_Sg",
+          "accidents": [],
+          "insights": [
+            "航天长晶设备龙头",
+            "航天光学基材量产设备主力供货"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "300699": {
+      "name": "光威复材",
+      "code": "300699",
+      "board": "SZ",
+      "articles": [
+        {
+          "title": "SpaceX上市催化落地！商业航天全链爆发",
+          "date": "2026-06-03",
+          "source": "https://mp.weixin.qq.com/s/2QZXEQIJQMhJ0mtZeLD_Sg",
+          "accidents": [],
+          "insights": [
+            "国产航天碳纤维核心供货商",
+            "火箭轻量化刚需材料"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "300395": {
+      "name": "菲利华",
+      "code": "300395",
+      "board": "SZ",
+      "articles": [
+        {
+          "title": "SpaceX上市催化落地！商业航天全链爆发",
+          "date": "2026-06-03",
+          "source": "https://mp.weixin.qq.com/s/2QZXEQIJQMhJ0mtZeLD_Sg",
+          "accidents": [],
+          "insights": [
+            "航天石英材料龙头",
+            "卫星隔热、透光石英独家配套"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "600879": {
+      "name": "航天电子",
+      "code": "600879",
+      "board": "SH",
+      "articles": [
+        {
+          "title": "SpaceX上市催化落地！商业航天全链爆发",
+          "date": "2026-06-03",
+          "source": "https://mp.weixin.qq.com/s/2QZXEQIJQMhJ0mtZeLD_Sg",
+          "accidents": [],
+          "insights": [
+            "星载测控电子龙头",
+            "火箭配套电控龙头，火箭测控、电源系统批量配套"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "688375": {
+      "name": "国博电子",
+      "code": "688375",
+      "board": "SH",
+      "articles": [
+        {
+          "title": "SpaceX上市催化落地！商业航天全链爆发",
+          "date": "2026-06-03",
+          "source": "https://mp.weixin.qq.com/s/2QZXEQIJQMhJ0mtZeLD_Sg",
+          "accidents": [],
+          "insights": [
+            "卫星射频芯片龙头",
+            "低轨卫星海量组网拉动射频芯片刚需"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "002465": {
+      "name": "海格通信",
+      "code": "002465",
+      "board": "SZ",
+      "articles": [
+        {
+          "title": "SpaceX上市催化落地！商业航天全链爆发",
+          "date": "2026-06-03",
+          "source": "https://mp.weixin.qq.com/s/2QZXEQIJQMhJ0mtZeLD_Sg",
+          "accidents": [],
+          "insights": [
+            "卫星导航终端龙头",
+            "应急、海运卫星通信落地服务商"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "688385": {
+      "name": "复旦微电",
+      "code": "688385",
+      "board": "SH",
+      "articles": [
+        {
+          "title": "SpaceX上市催化落地！商业航天全链爆发",
+          "date": "2026-06-03",
+          "source": "https://mp.weixin.qq.com/s/2QZXEQIJQMhJ0mtZeLD_Sg",
+          "accidents": [],
+          "insights": [
+            "航天高可靠IC龙头",
+            "星载FPGA芯片龙头，太空算力卫星核心芯片"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "001270": {
+      "name": "铖昌科技",
+      "code": "001270",
+      "board": "SZ",
+      "articles": [
+        {
+          "title": "SpaceX上市催化落地！商业航天全链爆发",
+          "date": "2026-06-03",
+          "source": "https://mp.weixin.qq.com/s/2QZXEQIJQMhJ0mtZeLD_Sg",
+          "accidents": [],
+          "insights": [
+            "星载T/R射频芯片龙头",
+            "低轨卫星有源相控阵必备芯片龙头"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "601698": {
+      "name": "中国卫通",
+      "code": "601698",
+      "board": "SH",
+      "articles": [
+        {
+          "title": "SpaceX上市催化落地！商业航天全链爆发",
+          "date": "2026-06-03",
+          "source": "https://mp.weixin.qq.com/s/2QZXEQIJQMhJ0mtZeLD_Sg",
+          "accidents": [],
+          "insights": [
+            "国内通信卫星平台龙头",
+            "手握稀缺轨位频谱资源"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "300846": {
+      "name": "首都在线",
+      "code": "300846",
+      "board": "SZ",
+      "articles": [
+        {
+          "title": "SpaceX上市催化落地！商业航天全链爆发",
+          "date": "2026-06-03",
+          "source": "https://mp.weixin.qq.com/s/2QZXEQIJQMhJ0mtZeLD_Sg",
+          "accidents": [],
+          "insights": [
+            "太空边缘算力服务商",
+            "承接卫星落地海量观测数据，地面算力分流处理"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "600343": {
+      "name": "航天动力",
+      "code": "600343",
+      "board": "SH",
+      "articles": [
+        {
+          "title": "SpaceX上市催化落地！商业航天全链爆发",
+          "date": "2026-06-03",
+          "source": "https://mp.weixin.qq.com/s/2QZXEQIJQMhJ0mtZeLD_Sg",
+          "accidents": [],
+          "insights": [
+            "火箭动力系统配套厂商",
+            "商业火箭发动机配套零部件"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "603698": {
+      "name": "航天工程",
+      "code": "603698",
+      "board": "SH",
+      "articles": [
+        {
+          "title": "SpaceX上市催化落地！商业航天全链爆发",
+          "date": "2026-06-03",
+          "source": "https://mp.weixin.qq.com/s/2QZXEQIJQMhJ0mtZeLD_Sg",
+          "accidents": [],
+          "insights": [
+            "火箭系统总包服务商",
+            "国内可回收火箭试验配套方"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "600118": {
+      "name": "中国卫星",
+      "code": "600118",
+      "board": "SH",
+      "articles": [
+        {
+          "title": "SpaceX上市催化落地！商业航天全链爆发",
+          "date": "2026-06-03",
+          "source": "https://mp.weixin.qq.com/s/2QZXEQIJQMhJ0mtZeLD_Sg",
+          "accidents": [],
+          "insights": [
+            "卫星总装制造龙头",
+            "国内低轨卫星批量总装单位"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "300900": {
+      "name": "广联航空",
+      "code": "300900",
+      "board": "SZ",
+      "articles": [
+        {
+          "title": "SpaceX上市催化落地！商业航天全链爆发",
+          "date": "2026-06-03",
+          "source": "https://mp.weixin.qq.com/s/2QZXEQIJQMhJ0mtZeLD_Sg",
+          "accidents": [],
+          "insights": [
+            "火箭筒体复合材料加工商",
+            "商业火箭批量化生产结构件供应商"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "301005": {
+      "name": "超捷股份",
+      "code": "301005",
+      "board": "SZ",
+      "articles": [
+        {
+          "title": "SpaceX上市催化落地！商业航天全链爆发",
+          "date": "2026-06-03",
+          "source": "https://mp.weixin.qq.com/s/2QZXEQIJQMhJ0mtZeLD_Sg",
+          "accidents": [],
+          "insights": [
+            "航天紧固件龙头",
+            "火箭锁紧、分离专用紧固件龙头"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "300136": {
+      "name": "信维通信",
+      "code": "300136",
+      "board": "SZ",
+      "articles": [
+        {
+          "title": "SpaceX上市催化落地！商业航天全链爆发",
+          "date": "2026-06-03",
+          "source": "https://mp.weixin.qq.com/s/2QZXEQIJQMhJ0mtZeLD_Sg",
+          "accidents": [],
+          "insights": [
+            "航天射频天线龙头",
+            "星载终端天线批量供货"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "300751": {
+      "name": "迈为股份",
+      "code": "300751",
+      "board": "SZ",
+      "articles": [
+        {
+          "title": "SpaceX上市催化落地！商业航天全链爆发",
+          "date": "2026-06-03",
+          "source": "https://mp.weixin.qq.com/s/2QZXEQIJQMhJ0mtZeLD_Sg",
+          "accidents": [],
+          "insights": [
+            "航天光伏设备龙头",
+            "卫星地面储能电站光伏产线设备供应商"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "603124": {
+      "name": "江南新材",
+      "code": "603124",
+      "board": "SH",
+      "core_business": [
+        "铜粉",
+        "液冷板代工"
+      ],
+      "articles": [
+        {
+          "title": "0603信息汇总",
+          "date": "2026-06-03",
+          "source": "https://mp.weixin.qq.com/s/nKQT9QuaBrt4ymFM6uf3bA",
+          "accidents": [
+            "铜粉供不应求，预计涨价在即",
+            "25Q4开始切液冷板代工"
+          ],
+          "insights": [
+            "铜粉需求端明显增长，供给端增加不多",
+            "下半年均为液冷板代工，净利率有望从0-5%提升至5-10%"
+          ],
+          "key_metrics": [
+            "净利率有望从0-5%提升至5-10%"
+          ],
+          "target_valuation": [
+            "叠加体外Q布期权，合计看400亿"
+          ]
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "301231": {
+      "name": "荣信文化",
+      "code": "301231",
+      "board": "SZ",
+      "core_business": [
+        "AI剧内容制作",
+        "Token运营"
+      ],
+      "industry_position": [
+        "火山引擎及字节跳动产业链核心标的"
+      ],
+      "chain": [
+        "下游-内容运营"
+      ],
+      "partners": [
+        "字节跳动",
+        "火山引擎"
+      ],
+      "articles": [
+        {
+          "title": "0603信息汇总",
+          "date": "2026-06-03",
+          "source": "https://mp.weixin.qq.com/s/nKQT9QuaBrt4ymFM6uf3bA",
+          "accidents": [
+            "与火山引擎签署框架协议，探索Token运营",
+            "火山引擎FORCE原动力大会将于6月23-24日举办"
+          ],
+          "insights": [
+            "依托HiAgent探索'内容+AI token运营'新模式",
+            "子公司余禾文化为Seedance2.0紧密合作伙伴及首批商业化落地客户"
+          ],
+          "key_metrics": [
+            "4月20日在字节跳动平台单日投放峰值突破100万"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "301123": {
+      "name": "奕东电子",
+      "code": "301123",
+      "board": "SZ",
+      "core_business": [
+        "连接器cage"
+      ],
+      "industry_position": [
+        "cage核心卡位公司"
+      ],
+      "chain": [
+        "中游-连接器"
+      ],
+      "articles": [
+        {
+          "title": "0603信息汇总",
+          "date": "2026-06-03",
+          "source": "https://mp.weixin.qq.com/s/nKQT9QuaBrt4ymFM6uf3bA",
+          "accidents": [
+            "黄仁勋、Marvell CEO对谈重申铜缆优先策略"
+          ],
+          "insights": [
+            "柜内scale-up铜缆放量带动柜内cage放量",
+            "柜外scale-out光模块放量带动液冷cage放量",
+            "市场尚未充分认识到cage方向"
+          ],
+          "key_metrics": [],
+          "target_valuation": [
+            "未来2-3年利润有望实现天量释放"
+          ]
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    }
+  }
+}
