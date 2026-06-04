@@ -8981,9 +8981,14 @@
       "name": "智度股份"
     },
     "000681": {
-      "core_business": [],
-      "last_updated": "2026-05-31",
-      "industry_position": [],
+      "core_business": [
+        "正版视觉素材",
+        "版权综合服务"
+      ],
+      "last_updated": "2026-06-04",
+      "industry_position": [
+        "正版视觉版权资源龙头"
+      ],
       "valuation": {},
       "industry": "传媒-文化传媒-数字媒体",
       "concepts": [
@@ -9013,10 +9018,11 @@
         "虚拟现实",
         "融资融券",
         "阿里巴巴概念",
-        "鸿蒙概念"
+        "鸿蒙概念",
+        "AI大模型"
       ],
       "code": "000681",
-      "mention_count": 0,
+      "mention_count": 2,
       "partners": [],
       "articles": [
         {
@@ -9026,11 +9032,28 @@
           ],
           "title": "11月19日，热点关注，今日操作策略与风险提示，文末本周1篇报告",
           "source": "https://mp.weixin.qq.com/s/rSUqdEeXPi0dpvFo-nuN6A"
+        },
+        {
+          "title": "MiniMax，最核心的10家公司和产业链梳理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/GL1ELu4LPVcaqRAnu5HbEA",
+          "accidents": [
+            "间接参股布局MiniMax",
+            "为MiniMax多模态大模型提供图像训练语料"
+          ],
+          "insights": [
+            "股权+数据双重绑定核心",
+            "正版视觉版权资源壁垒极高"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "board": "SZ",
       "products": [],
-      "chain": [],
+      "chain": [
+        "上游-数据素材"
+      ],
       "name": "视觉中国"
     },
     "000688": {
@@ -12073,8 +12096,8 @@
       "name": "山金国际"
     },
     "000977": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-04",
       "partners": [],
       "concepts": [
         "AIGC概念",
@@ -12101,10 +12124,13 @@
         "腾讯概念",
         "英伟达概念",
         "融资融券",
-        "车联网(车路协同)"
+        "车联网(车路协同)",
+        "AI大模型",
+        "算力"
       ],
       "industry_position": [
-        "AI 服务器龙头"
+        "AI 服务器龙头",
+        "国内AI服务器龙头"
       ],
       "articles": [
         {
@@ -12120,18 +12146,37 @@
           "content": "",
           "analysis": "",
           "title": "航天轴承 + 金刚石散热 + AI 服务器核心标的梳理"
+        },
+        {
+          "title": "MiniMax，最核心的10家公司和产业链梳理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/GL1ELu4LPVcaqRAnu5HbEA",
+          "accidents": [
+            "承接MiniMax在海内外的服务器采购订单",
+            "为MiniMax全域算力集群提供液冷AI服务器硬件"
+          ],
+          "insights": [
+            "国内绝大多数大模型厂商硬件首选供应商",
+            "MiniMax底层硬件核心壁垒标的"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "board": "SZ",
       "industry": "计算机-计算机设备-其他计算机设备",
       "products": [],
       "chain": [
-        "下游 - AI 服务器"
+        "下游 - AI 服务器",
+        "上游-算力硬件"
       ],
       "name": "浪潮信息",
       "code": "000977",
       "core_business": [
-        "AI 服务器"
+        "AI 服务器",
+        "AI服务器",
+        "存储设备",
+        "算力基础设施"
       ]
     },
     "000983": {
@@ -13651,12 +13696,15 @@
     },
     "001330": {
       "core_business": [
-        "电影制作与发行"
+        "电影制作与发行",
+        "院线电影制作",
+        "主旋律精品内容"
       ],
-      "last_updated": "2026-05-31",
+      "last_updated": "2026-06-04",
       "industry_position": [
         "龙头",
-        "主旋律龙头"
+        "主旋律龙头",
+        "国内头部院线影视制作企业"
       ],
       "valuation": {},
       "industry": "传媒-影视院线-影视院线Ⅲ",
@@ -13672,10 +13720,12 @@
         "短剧游戏",
         "腾讯概念",
         "西部大开发",
-        "阿里巴巴概念"
+        "阿里巴巴概念",
+        "AI影视",
+        "AIGC"
       ],
       "code": "001330",
-      "mention_count": 1,
+      "mention_count": 2,
       "partners": [],
       "articles": [
         {
@@ -13685,6 +13735,19 @@
           ],
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "title": "AI影视工业化提速！Seedance商业化持续爆发",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/RdZmUTmd5Me6sRW5ZjkVVw",
+          "accidents": [
+            "布局AI特效、成片预演、宣发物料制作"
+          ],
+          "insights": [
+            "AI技术优化院线电影制作流程、降低成本"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "board": "SZ",
@@ -13693,7 +13756,8 @@
         "电影发行"
       ],
       "chain": [
-        "中游-影视制作"
+        "中游-影视制作",
+        "下游-影视制作"
       ],
       "name": "博纳影业"
     },
@@ -19506,13 +19570,16 @@
       "core_business": [
         "高端算力租赁",
         "GPU集群运营",
-        "智算中心建设"
+        "智算中心建设",
+        "AI智算",
+        "算力租赁"
       ],
-      "last_updated": "2026-05-31",
+      "last_updated": "2026-06-04",
       "industry_position": [
         "英伟达生态核心企业",
         "高端算力租赁标杆",
-        "A股最接近纯GPU租赁商的公司"
+        "A股最接近纯GPU租赁商的公司",
+        "AI算力服务领先企业"
       ],
       "valuation": {},
       "industry": "轻工制造-包装印刷-印刷",
@@ -19536,10 +19603,12 @@
         "福建自贸区",
         "算力租赁",
         "虚拟数字人",
-        "融资融券"
+        "融资融券",
+        "AI大模型",
+        "算力"
       ],
       "code": "002229",
-      "mention_count": 1,
+      "mention_count": 2,
       "partners": [
         "英伟达"
       ],
@@ -19559,6 +19628,20 @@
             "北京智算中心部署高端GPU集群",
             "已落地超4000P算力"
           ]
+        },
+        {
+          "title": "MiniMax，最核心的10家公司和产业链梳理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/GL1ELu4LPVcaqRAnu5HbEA",
+          "accidents": [
+            "国内最早和MiniMax达成深度算力合作",
+            "长期为MiniMax供给高端GPU算力集群"
+          ],
+          "insights": [
+            "MiniMax产业链算力绑定最深的核心标的"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "board": "SZ",
@@ -19568,7 +19651,8 @@
       ],
       "chain": [
         "算力租赁-中游-算力服务",
-        "AI基础设施-中游-算力运营"
+        "AI基础设施-中游-算力运营",
+        "上游-算力基础设施"
       ],
       "name": "鸿博股份"
     },
@@ -22563,11 +22647,16 @@
     },
     "002338": {
       "core_business": [
-        "光电设备制造"
+        "光电设备制造",
+        "光刻机光学系统",
+        "军工光电",
+        "商业航天"
       ],
-      "last_updated": "2026-05-10",
+      "last_updated": "2026-06-04",
       "industry_position": [
-        "参与神舟系列、天宫空间站等项目"
+        "参与神舟系列、天宫空间站等项目",
+        "背靠中科院长春光机所",
+        "光刻机光学系统核心研发平台"
       ],
       "valuation": {},
       "industry": "国防军工-军工电子-军工电子Ⅲ",
@@ -22588,7 +22677,9 @@
         "国企改革",
         "证金持股",
         "深股通",
-        "融资融券"
+        "融资融券",
+        "光刻机",
+        "国产替代"
       ],
       "code": "002338",
       "mention_count": 2,
@@ -22598,6 +22689,24 @@
           "date": "",
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "title": "行业景气+小而美+高估值，奥普光电",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/373_kJGirPrS6lICARvyvQ",
+          "accidents": [
+            "光刻机业务属于光学系统核心环节",
+            "涉密合同打开成长空间"
+          ],
+          "insights": [
+            "国产光刻机卡脖子核心环节",
+            "军工+商业航天双高景气",
+            "长春光机所唯一上市平台"
+          ],
+          "key_metrics": [
+            "2025年营收约8亿元"
+          ],
+          "target_valuation": []
         }
       ],
       "board": "SZ",
@@ -22606,7 +22715,8 @@
         "宇航服阀类"
       ],
       "chain": [
-        "中游-配套装备"
+        "中游-配套装备",
+        "上游-光学系统"
       ],
       "name": "奥普光电"
     },
@@ -30439,8 +30549,8 @@
       ]
     },
     "002739": {
-      "mention_count": 1,
-      "last_updated": "2026-05-10",
+      "mention_count": 2,
+      "last_updated": "2026-06-04",
       "concepts": [
         "文化传媒概念",
         "京津冀一体化",
@@ -30457,12 +30567,14 @@
         "数据确权",
         "IP经济(谷子经济)",
         "足球概念",
-        "华为概念"
+        "华为概念",
+        "AI影视"
       ],
       "industry_position": [
         "龙头",
         "万达电影等龙头",
-        "院线龙头"
+        "院线龙头",
+        "国内院线渠道龙头"
       ],
       "articles": [
         {
@@ -30474,6 +30586,20 @@
           ],
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "title": "AI影视工业化提速！Seedance商业化持续爆发",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/RdZmUTmd5Me6sRW5ZjkVVw",
+          "accidents": [
+            "筛选适配AI影视新内容",
+            "依托AI工具优化宣发营销"
+          ],
+          "insights": [
+            "受益AI影视内容扩容带来的行业增量"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "industry": "传媒-影视院线-影视院线Ⅲ",
@@ -30483,10 +30609,13 @@
         "院线运营"
       ],
       "chain": [
-        "中游-全产业链"
+        "中游-全产业链",
+        "下游-院线"
       ],
       "core_business": [
-        "电影投资与院线运营"
+        "电影投资与院线运营",
+        "院线运营",
+        "电影放映"
       ],
       "code": "002739",
       "name": "万达电影"
@@ -36443,8 +36572,8 @@
       "name": "九洲集团"
     },
     "300041": {
-      "mention_count": 0,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-04",
       "concepts": [
         "2025年报预增",
         "BC电池",
@@ -36477,7 +36606,11 @@
         "锂电池概念",
         "雄安新区",
         "风电",
-        "高铁"
+        "高铁",
+        "胶粘剂",
+        "新能源",
+        "锂电",
+        "韬定律"
       ],
       "articles": [
         {
@@ -36487,12 +36620,54 @@
           "accidents": [
             "经过国际国内专业检测机构的严格检测，历经中车近两年的周期运行试验，回天“防寒材特种粘接胶”“城轨主机抗电弧绝缘材料”全面达成所有指标，获得中车集团采购订单，在该工程项目中实现了采用国内产品的“零突破”，赢得民族品牌尊严。"
           ]
+        },
+        {
+          "title": "业绩反转+行业景气+电子胶（韬定律），回天新材",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/CnhPyYDdDqM4k6C3AnYqMQ",
+          "accidents": [
+            "2025年净利润+116.58%强势反弹",
+            "锂电用胶销量收入翻倍",
+            "乘用车用胶销量同比+44%",
+            "电子用胶销售收入同比+28%"
+          ],
+          "insights": [
+            "成功转型平台型胶粘剂龙头",
+            "光伏基本盘+锂电主增长极+电子未来爆发点"
+          ],
+          "key_metrics": [
+            "2025年营收32.26亿元",
+            "累计授权专利225项",
+            "全球光伏胶市占率45%-50%"
+          ],
+          "target_valuation": [
+            "2026E净利3.0-3.2亿同比+35%-45%",
+            "2027E净利3.8-4.2亿",
+            "2028E净利4.5-5.0亿"
+          ]
         }
       ],
       "industry": "基础化工-化学制品-有机硅",
       "board": "",
       "code": "300041",
-      "name": "回天新材"
+      "name": "回天新材",
+      "core_business": [
+        "工程胶粘剂",
+        "有机硅胶",
+        "聚氨酯胶",
+        "锂电用胶"
+      ],
+      "industry_position": [
+        "国内工程胶粘剂龙头",
+        "光伏胶全球市占率45%-50%"
+      ],
+      "chain": [
+        "中游-化工新材料"
+      ],
+      "products": [
+        "有机硅胶",
+        "聚氨酯胶"
+      ]
     },
     "300042": {
       "mention_count": 0,
@@ -36899,8 +37074,8 @@
       ]
     },
     "300058": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-04",
       "concepts": [
         "AIGC概念",
         "AI应用",
@@ -36929,11 +37104,14 @@
         "虚拟现实",
         "融资融券",
         "跨境电商",
-        "阿里巴巴概念"
+        "阿里巴巴概念",
+        "AI大模型",
+        "AIGC"
       ],
       "industry_position": [
         "AI营销领域先行者",
-        "全球前十营销集团"
+        "全球前十营销集团",
+        "出海营销行业龙头"
       ],
       "articles": [
         {
@@ -36952,6 +37130,21 @@
             "BlueAI技术矩阵孵化100+垂直场景智能体",
             "推进H股上市引入战略投资者"
           ]
+        },
+        {
+          "title": "MiniMax，最核心的10家公司和产业链梳理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/GL1ELu4LPVcaqRAnu5HbEA",
+          "accidents": [
+            "全面对接MiniMax大模型能力",
+            "落地短视频批量生成、智能文案创作等AIGC应用"
+          ],
+          "insights": [
+            "拥有海量品牌客户资源",
+            "负责MiniMax商业化营销赛道落地"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "industry": "传媒-文化传媒-广告营销",
@@ -36962,12 +37155,16 @@
       ],
       "chain": [
         "传媒-中游-营销代理",
-        "AI应用-下游-营销"
+        "AI应用-下游-营销",
+        "下游-营销服务"
       ],
       "core_business": [
         "AI营销",
         "出海营销服务",
-        "智能体孵化"
+        "智能体孵化",
+        "品牌整合营销",
+        "广告投放",
+        "出海营销"
       ],
       "code": "300058",
       "name": "蓝色光标"
@@ -38431,8 +38628,8 @@
       "core_business": []
     },
     "300133": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-04",
       "concepts": [
         "AIGC概念",
         "AI应用",
@@ -38464,11 +38661,14 @@
         "腾讯概念",
         "虚拟数字人",
         "融资融券",
-        "阿里巴巴概念"
+        "阿里巴巴概念",
+        "AI影视",
+        "AIGC"
       ],
       "industry_position": [
         "龙头",
-        "网剧龙头"
+        "网剧龙头",
+        "国内精品长剧核心制作企业"
       ],
       "articles": [
         {
@@ -38478,6 +38678,22 @@
           ],
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "title": "AI影视工业化提速！Seedance商业化持续爆发",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/RdZmUTmd5Me6sRW5ZjkVVw",
+          "accidents": [
+            "搭建自研AI算力与模型体系",
+            "已在剧集制作中落地AI视觉生成",
+            "积极对接字节Seedance生态"
+          ],
+          "insights": [
+            "S级内容产能稳定",
+            "AI赋能长短剧制作全流程提质增效"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "industry": "传媒-影视院线-影视院线Ⅲ",
@@ -38486,10 +38702,12 @@
         "电影制作"
       ],
       "chain": [
-        "中游-影视制作"
+        "中游-影视制作",
+        "下游-内容制作"
       ],
       "core_business": [
-        "电影制作"
+        "电影制作",
+        "精品长剧、网剧制作"
       ],
       "code": "300133",
       "name": "华策影视"
@@ -39410,8 +39628,8 @@
       "name": "华峰超纤"
     },
     "300182": {
-      "mention_count": 2,
-      "last_updated": "2026-05-31",
+      "mention_count": 4,
+      "last_updated": "2026-06-04",
       "concepts": [
         "AIGC概念",
         "AI应用",
@@ -39443,7 +39661,10 @@
         "虚拟数字人",
         "虚拟现实",
         "融资融券",
-        "阿里巴巴概念"
+        "阿里巴巴概念",
+        "AI影视",
+        "AIGC",
+        "AI短剧"
       ],
       "articles": [
         {
@@ -39453,12 +39674,85 @@
           "insights": [
             "进取型关注光线传媒、横店影视、捷成股份"
           ]
+        },
+        {
+          "title": "AI影视工业化提速！Seedance商业化持续爆发",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/RdZmUTmd5Me6sRW5ZjkVVw",
+          "accidents": [
+            "深度对接字节Seedance技术与算力生态",
+            "为行业提供AI特效、视频生成、智能剪辑等技术支撑"
+          ],
+          "insights": [
+            "AI影视工业化推进受益"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "MiniMax，最核心的10家公司和产业链梳理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/GL1ELu4LPVcaqRAnu5HbEA",
+          "accidents": [
+            "旗下资本平台参与MiniMax战略融资入股",
+            "手握海量影视影音资源供给模型训练"
+          ],
+          "insights": [
+            "全网影视版权储备体量位居行业前列",
+            "MiniMax文生视频赛道核心合作企业"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "在手订单超95亿——捷成股份",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/yuaCti41J8YLeSJ05wVClw",
+          "accidents": [
+            "累计拥有超22万小时影视版权",
+            "AI短剧/漫剧订单排期至2026Q3",
+            "已锁定字节系5亿+AI短剧/漫剧订单",
+            "与字节采用保底+流水分成模式，捷成占70%-85%"
+          ],
+          "insights": [
+            "版权壁垒不可复制",
+            "AI内容生产龙头",
+            "深度绑定字节跳动生态"
+          ],
+          "key_metrics": [
+            "22万小时版权库",
+            "5亿+AI短剧订单",
+            "AI业务毛利率50%+",
+            "在手订单超95亿"
+          ],
+          "target_valuation": []
         }
       ],
       "industry": "传媒-影视院线-影视院线Ⅲ",
       "board": "SZ",
       "code": "300182",
-      "name": "捷成股份"
+      "name": "捷成股份",
+      "core_business": [
+        "影视版权运营",
+        "AI短剧/漫剧制作",
+        "影视技术服务"
+      ],
+      "industry_position": [
+        "国内最大影视版权集成商",
+        "AI内容生产龙头"
+      ],
+      "chain": [
+        "中游-版权运营",
+        "下游-AI内容生产"
+      ],
+      "partners": [
+        "字节跳动",
+        "中影年年"
+      ],
+      "products": [
+        "灵犀AI视觉大模型",
+        "ChatPV智能视频生产引擎"
+      ]
     },
     "300184": {
       "mention_count": 0,
@@ -41013,8 +41307,8 @@
       "name": "初灵信息"
     },
     "300251": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-04",
       "concepts": [
         "2025年报预增",
         "AIGC概念",
@@ -41030,12 +41324,16 @@
         "英伟达概念",
         "虚拟数字人",
         "虚拟现实",
-        "融资融券"
+        "融资融券",
+        "AI影视",
+        "AIGC",
+        "动画"
       ],
       "industry_position": [
         "龙头",
         "万达电影等龙头",
-        "内容龙头"
+        "内容龙头",
+        "国内头部动画影视企业"
       ],
       "articles": [
         {
@@ -41050,19 +41348,39 @@
           "insights": [
             "进取型关注光线传媒、横店影视、捷成股份"
           ]
+        },
+        {
+          "title": "AI影视工业化提速！Seedance商业化持续爆发",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/RdZmUTmd5Me6sRW5ZjkVVw",
+          "accidents": [
+            "积极布局AI影视工业化",
+            "搭建全流程AI制作工具体系",
+            "适配Seedance等主流AI视频技术"
+          ],
+          "insights": [
+            "AI技术优化动画制作周期与成本",
+            "IP储备丰厚，变现空间充足"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "industry": "传媒-影视院线-影视院线Ⅲ",
       "board": "SZ",
       "products": [
         "电影制作",
-        "电影发行"
+        "电影发行",
+        "哪吒系列"
       ],
       "chain": [
-        "中游-影视制作"
+        "中游-影视制作",
+        "下游-内容制作"
       ],
       "core_business": [
-        "电影制作与发行"
+        "电影制作与发行",
+        "动画影视制作",
+        "IP运营"
       ],
       "code": "300251",
       "name": "光线传媒"
@@ -45448,7 +45766,7 @@
     },
     "300454": {
       "mention_count": 2,
-      "last_updated": "2026-05-31",
+      "last_updated": "2026-06-04",
       "concepts": [
         "2025年报预增",
         "AI应用",
@@ -45471,19 +45789,46 @@
         "粤港澳大湾区",
         "网络安全",
         "英伟达概念",
-        "融资融券"
+        "融资融券",
+        "AI大模型",
+        "算力"
       ],
       "articles": [
         {
           "date": "",
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "title": "MiniMax，最核心的10家公司和产业链梳理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/GL1ELu4LPVcaqRAnu5HbEA",
+          "accidents": [
+            "战略投资入股MiniMax",
+            "为MiniMax提供云端部署、算力运维全方位配套服务"
+          ],
+          "insights": [
+            "股权+算力服务双重绑定标的"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "industry": "计算机-软件开发-横向通用软件",
       "board": "SZ",
       "code": "300454",
-      "name": "深信服"
+      "name": "深信服",
+      "core_business": [
+        "网络安全",
+        "云计算",
+        "数字化解决方案"
+      ],
+      "industry_position": [
+        "企业云端算力及网络安全龙头"
+      ],
+      "chain": [
+        "上游-算力基础设施"
+      ]
     },
     "300455": {
       "mention_count": 1,
@@ -77526,8 +77871,8 @@
       "name": "中国电建"
     },
     "601677": {
-      "mention_count": 3,
-      "last_updated": "2026-05-10",
+      "mention_count": 2,
+      "last_updated": "2026-06-04",
       "concepts": [
         "沪股通",
         "军工",
@@ -77542,10 +77887,15 @@
         "机器人概念",
         "消费电子概念",
         "固态电池",
-        "锂电池概念"
+        "锂电池概念",
+        "再生铝",
+        "新能源",
+        "汽车轻量化"
       ],
       "industry_position": [
-        "新能源铝材加工"
+        "新能源铝材加工",
+        "国内铝板带箔龙头",
+        "制造业单项冠军"
       ],
       "articles": [
         {
@@ -77561,6 +77911,26 @@
           "accidents": [
             "巴林铝业减产19%，叠加卡塔尔铝业停产，中东约9%全球铝产能受冲击，LME铝价创四年新高"
           ]
+        },
+        {
+          "title": "业绩超超预期+行业景气+业务共振，明泰铝业",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/XS__pmmGtmJkBOXWHS5wgA",
+          "accidents": [
+            "2026Q1净利润+59.68%",
+            "年处理废铝能力超100万吨",
+            "高端产品持续放量"
+          ],
+          "insights": [
+            "产品结构升级驱动增长",
+            "再生铝成本优势显著"
+          ],
+          "key_metrics": [
+            "年产160万吨产能",
+            "铝板带收入293亿占83%",
+            "2026E净利润增速18%-38%"
+          ],
+          "target_valuation": []
         }
       ],
       "industry": "有色金属-工业金属-铝",
@@ -77571,10 +77941,13 @@
         "光伏铝材"
       ],
       "chain": [
-        "中游-铝材加工"
+        "中游-铝材加工",
+        "中游-铝加工"
       ],
       "core_business": [
-        "铝材加工"
+        "铝材加工",
+        "铝板带箔加工",
+        "再生铝"
       ],
       "code": "601677",
       "name": "明泰铝业"
@@ -80240,8 +80613,8 @@
       "name": "华设集团"
     },
     "603019": {
-      "mention_count": 3,
-      "last_updated": "2026-05-31",
+      "mention_count": 4,
+      "last_updated": "2026-06-04",
       "partners": [],
       "concepts": [
         "AI智能体",
@@ -80276,10 +80649,13 @@
         "芯片概念",
         "融资融券",
         "量子科技",
-        "雄安新区"
+        "雄安新区",
+        "AI大模型",
+        "国产算力"
       ],
       "industry_position": [
-        "国内 AI 服务器龙头"
+        "国内 AI 服务器龙头",
+        "中科院国资背景超算龙头"
       ],
       "articles": [
         {
@@ -80315,19 +80691,38 @@
             "国产算力"
           ],
           "accidents": []
+        },
+        {
+          "title": "MiniMax，最核心的10家公司和产业链梳理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/GL1ELu4LPVcaqRAnu5HbEA",
+          "accidents": [
+            "为MiniMax提供硅立方液冷超算系统",
+            "适配国内万亿参数大模型的训练和推理算力部署"
+          ],
+          "insights": [
+            "国产算力标杆",
+            "MiniMax国产化布局重要核心成员"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "board": "SH",
       "industry": "计算机-计算机设备-其他计算机设备",
       "products": [],
       "chain": [
-        "下游 - 算力系统集成"
+        "下游 - 算力系统集成",
+        "上游-算力基础设施"
       ],
       "name": "中科曙光",
       "code": "603019",
       "core_business": [
         "算力设备",
-        "金刚石散热产品"
+        "金刚石散热产品",
+        "超级计算",
+        "国产算力中心",
+        "数据存储"
       ]
     },
     "603023": {
@@ -85022,8 +85417,8 @@
       "name": "众源新材"
     },
     "603533": {
-      "mention_count": 1,
-      "last_updated": "2026-05-10",
+      "mention_count": 2,
+      "last_updated": "2026-06-04",
       "concepts": [
         "AI应用",
         "文化传媒概念",
@@ -85041,19 +85436,47 @@
         "抖音概念(字节概念)",
         "AI语料",
         "IP经济(谷子经济)",
-        "华为概念"
+        "华为概念",
+        "AI大模型"
       ],
       "articles": [
         {
           "date": "",
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "title": "MiniMax，最核心的10家公司和产业链梳理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/GL1ELu4LPVcaqRAnu5HbEA",
+          "accidents": [
+            "拥有海量正版网文文字资料库",
+            "长期向MiniMax输送文本训练语料",
+            "双方共同落地AI阅读应用产品"
+          ],
+          "insights": [
+            "文字数据是大模型基础根本",
+            "MiniMax文本训练板块不可替代"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "industry": "传媒-文化传媒-数字媒体",
       "board": "SH",
       "code": "603533",
-      "name": "掌阅科技"
+      "name": "掌阅科技",
+      "core_business": [
+        "数字阅读平台",
+        "网文版权孵化",
+        "短剧文娱"
+      ],
+      "industry_position": [
+        "全网文字语料储备龙头"
+      ],
+      "chain": [
+        "上游-数据素材"
+      ]
     },
     "603535": {
       "mention_count": 1,
@@ -92433,8 +92856,8 @@
       "core_business": []
     },
     "688111": {
-      "mention_count": 8,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-04",
       "concepts": [
         "2026一季报预增",
         "AI应用",
@@ -92452,14 +92875,17 @@
         "沪股通",
         "腾讯概念",
         "融资融券",
-        "鸿蒙概念"
+        "鸿蒙概念",
+        "AI大模型",
+        "AIGC"
       ],
       "industry_position": [
         "全球领先",
         "龙头",
         "绝对龙头",
         "OCR技术全球领先",
-        "AI办公绝对龙头"
+        "AI办公绝对龙头",
+        "国内办公软件龙头"
       ],
       "articles": [
         {
@@ -92469,6 +92895,20 @@
           "insights": [
             "市场关注点将从通用大模型转向国产芯片适配与行业落地"
           ]
+        },
+        {
+          "title": "MiniMax，最核心的10家公司和产业链梳理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/GL1ELu4LPVcaqRAnu5HbEA",
+          "accidents": [
+            "WPS AI全线接入MiniMax多模态大模型能力"
+          ],
+          "insights": [
+            "AI大模型落地最佳场景之一",
+            "应用端最具确定性的龙头"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "industry": "计算机-软件开发-横向通用软件",
@@ -92480,10 +92920,12 @@
       ],
       "chain": [
         "下游-系统",
-        "上游-材料"
+        "上游-材料",
+        "下游-应用软件"
       ],
       "core_business": [
-        "办公软件的研发与销售"
+        "办公软件的研发与销售",
+        "办公软件研发运营"
       ],
       "code": "688111",
       "name": "金山办公"
@@ -107975,10 +108417,29 @@
       "code": "000892",
       "name": "欢瑞世纪",
       "concept": "",
-      "mention_count": 9,
-      "articles": [],
-      "last_updated": "2026-05-31",
-      "core_business": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "AI影视工业化提速！Seedance商业化持续爆发",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/RdZmUTmd5Me6sRW5ZjkVVw",
+          "accidents": [
+            "布局AI短剧、AI漫剧等新兴业务",
+            "与专业机构共建AI联合实验室"
+          ],
+          "insights": [
+            "轻量化AI制作模式打开业务增长空间"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "core_business": [
+        "影视内容制作",
+        "AI短剧",
+        "AI漫剧"
+      ],
       "industry_position": [],
       "valuation": {},
       "industry": "传媒-影视院线-影视院线Ⅲ",
@@ -107992,12 +108453,17 @@
         "深股通",
         "短剧游戏",
         "虚拟数字人",
-        "西部大开发"
+        "西部大开发",
+        "AI影视",
+        "AIGC",
+        "AI短剧"
       ],
       "partners": [],
       "board": "",
       "products": [],
-      "chain": []
+      "chain": [
+        "下游-内容制作"
+      ]
     },
     "000893": {
       "code": "000893",
@@ -115698,9 +116164,24 @@
       "code": "300315",
       "name": "掌趣科技",
       "concept": "",
-      "mention_count": 3,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "MiniMax，最核心的10家公司和产业链梳理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/GL1ELu4LPVcaqRAnu5HbEA",
+          "accidents": [
+            "通过产业基金间接持股MiniMax",
+            "将大模型能力融入游戏剧情生成、智能NPC交互"
+          ],
+          "insights": [
+            "兼具间接持股增值与游戏AI落地的双重期权价值"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
       "concepts": [
         "AIGC概念",
         "AI应用",
@@ -115715,10 +116196,19 @@
         "职业教育",
         "英伟达概念",
         "虚拟现实",
-        "融资融券"
+        "融资融券",
+        "AI大模型",
+        "AIGC"
       ],
       "industry": "传媒-游戏-游戏Ⅲ",
-      "board": ""
+      "board": "",
+      "core_business": [
+        "手游研发",
+        "游戏发行运营"
+      ],
+      "chain": [
+        "下游-文娱应用"
+      ]
     },
     "300320": {
       "code": "300320",
@@ -116069,9 +116559,25 @@
       "code": "300413",
       "name": "芒果超媒",
       "concept": "",
-      "mention_count": 4,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "AI影视工业化提速！Seedance商业化持续爆发",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/RdZmUTmd5Me6sRW5ZjkVVw",
+          "accidents": [
+            "持续推进AI技术与内容生产融合",
+            "依托AI视频工具优化分镜制作、后期剪辑"
+          ],
+          "insights": [
+            "海量综艺、剧集IP储备",
+            "依托平台流量优势承接AI短剧需求"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
       "concepts": [
         "5G",
         "AIGC概念",
@@ -116105,10 +116611,24 @@
         "融资融券",
         "跨境电商",
         "阿里巴巴概念",
-        "鸿蒙概念"
+        "鸿蒙概念",
+        "AI影视",
+        "AIGC",
+        "AI短剧"
       ],
       "industry": "传媒-文化传媒-数字媒体",
-      "board": ""
+      "board": "",
+      "core_business": [
+        "长短视频内容平台",
+        "综艺制作",
+        "剧集制作"
+      ],
+      "industry_position": [
+        "国内头部视频内容平台"
+      ],
+      "chain": [
+        "下游-内容平台"
+      ]
     },
     "300415": {
       "code": "300415",
@@ -137046,6 +137566,55 @@
           "target_valuation": [
             "天风机械建议关注设备端"
           ]
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "600508": {
+      "name": "上海能源",
+      "code": "600508",
+      "board": "SH",
+      "core_business": [
+        "煤炭开采",
+        "电力",
+        "铝加工",
+        "铁路运输"
+      ],
+      "industry_position": [
+        "央企背景煤电铝运一体化企业"
+      ],
+      "chain": [
+        "上游-煤炭"
+      ],
+      "parent": [
+        "中国中煤能源集团"
+      ],
+      "concepts": [
+        "煤炭",
+        "央企改革"
+      ],
+      "articles": [
+        {
+          "title": "破净+新产能+爆发，上海能源",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/0fW41PL0umyAubi8Y947xw",
+          "accidents": [
+            "新疆苇子沟煤矿240万吨/年建设顺利",
+            "新能源光伏装机已达47.39万千瓦",
+            "2026Q1煤炭行业利润同比增长6.7%"
+          ],
+          "insights": [
+            "新增产能贡献增量",
+            "行业拐点已至",
+            "业绩反转预期"
+          ],
+          "key_metrics": [
+            "煤炭资源量12.94亿吨",
+            "可采储量6.04亿吨",
+            "2026E归母净利润5.67亿元同比+157%"
+          ],
+          "target_valuation": []
         }
       ],
       "last_updated": "2026-06-04",
