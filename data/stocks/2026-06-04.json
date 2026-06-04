@@ -1,6 +1,6 @@
 {
   "date": "2026-06-04",
-  "update_count": 239,
+  "update_count": 254,
   "last_updated": "2026-06-04",
   "stocks": {
     "688090": {
@@ -136,10 +136,33 @@
             "主业看150e",
             "目前200e，看2-3倍空间"
           ]
+        },
+        {
+          "title": "电子特气，盈利最强的10家企业",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/YgmORaKw3PTMaS_BvLiMgQ",
+          "accidents": [
+            "目前已有57款电子特种气体产品实现进口替代，全面覆盖电子特气核心品类",
+            "净资产收益率6.81%，毛利率30.87%，净利率9.05%"
+          ],
+          "insights": [
+            "电子特气-进口替代先锋"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "last_updated": "2026-06-04",
-      "mention_count": 1
+      "mention_count": 2,
+      "industry": "电子-半导体-电子化学品",
+      "concepts": [
+        "电子特气",
+        "光刻气体",
+        "半导体"
+      ],
+      "products": [
+        "光刻及其他混合气体"
+      ]
     },
     "002149": {
       "name": "西部材料",
@@ -5169,9 +5192,25 @@
             "2026Q1净利润1.01亿元，同比增长16.86%"
           ],
           "target_valuation": []
+        },
+        {
+          "title": "电子特气，盈利最强的10家企业",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/YgmORaKw3PTMaS_BvLiMgQ",
+          "accidents": [
+            "国内电子特种气体收入规模最大的企业，是国内电子特气龙头",
+            "净资产收益率6.07%，毛利率28.87%，净利率15.29%"
+          ],
+          "insights": [
+            "电子特气-国内龙头"
+          ],
+          "key_metrics": [
+            "电子特气收入占比85.24%"
+          ],
+          "target_valuation": []
         }
       ],
-      "mention_count": 1,
+      "mention_count": 2,
       "last_updated": "2026-06-04"
     },
     "000670": {
@@ -8985,6 +9024,697 @@
           ],
           "key_metrics": [],
           "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "002430": {
+      "name": "杭氧股份",
+      "code": "002430",
+      "board": "SZ",
+      "industry": "机械设备-专用设备-气体设备",
+      "concepts": [
+        "氦气",
+        "工业气体",
+        "空分设备"
+      ],
+      "products": [
+        "空分装置"
+      ],
+      "core_business": [
+        "气体设备制造商"
+      ],
+      "industry_position": [
+        "国内气体设备制造龙头，68000 Nm3/h大型空分装置国产化",
+        "技术实力突出，关键部机实现100%国产化"
+      ],
+      "chain": [
+        "中游-气体设备"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "杭氧股份、九丰能源、侨源股份、雪人集团，谁是氦气概念潜力老大？",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/pQazypKupscMWz19_8JCAA",
+          "accidents": [
+            "联合多方在新疆投资成立可克达拉杭氧中溶气体有限公司，注册资本6000万元",
+            "海外重点项目68000 Nm3/h大型空分装置顺利投产，关键部机实现100%国产化",
+            "董事会审议通过空分装置配套宁东气体岛项目议案"
+          ],
+          "insights": [
+            "氦气概念-气体设备制造龙头"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "605090": {
+      "name": "九丰能源",
+      "code": "605090",
+      "board": "SH",
+      "industry": "公用事业-燃气-能源贸易",
+      "concepts": [
+        "氦气",
+        "LNG",
+        "能源贸易"
+      ],
+      "products": [
+        "氦气",
+        "LNG"
+      ],
+      "core_business": [
+        "能源贸易+氦气"
+      ],
+      "industry_position": [
+        "国产提氦龙头，氦气产能规模提升至150万方/年",
+        "LNG业务按上陆地、到终端、出华南战略推进"
+      ],
+      "chain": [
+        "中游-气体贸易"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "杭氧股份、九丰能源、侨源股份、雪人集团，谁是氦气概念潜力老大？",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/pQazypKupscMWz19_8JCAA",
+          "accidents": [
+            "国产提氦龙头，氦气产能规模提升至150万方/年",
+            "截至2026年3月末累计回购超2.34亿元股份",
+            "在新加坡、中国香港等地设立境外子公司作为国际业务平台"
+          ],
+          "insights": [
+            "氦气概念-国产提氦龙头"
+          ],
+          "key_metrics": [
+            "氦气产能150万方/年"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "301286": {
+      "name": "侨源股份",
+      "code": "301286",
+      "board": "SZ",
+      "industry": "化工-化学制品-工业气体",
+      "concepts": [
+        "氦气",
+        "电子特气",
+        "工业气体"
+      ],
+      "products": [
+        "高纯度气体"
+      ],
+      "core_business": [
+        "高纯度气体生产销售"
+      ],
+      "industry_position": [
+        "专注高纯度气体研发、生产与销售",
+        "加码3.34亿在成都彭州打造高端电子特气产业高地"
+      ],
+      "chain": [
+        "中游-气体生产"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "杭氧股份、九丰能源、侨源股份、雪人集团，谁是氦气概念潜力老大？",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/pQazypKupscMWz19_8JCAA",
+          "accidents": [
+            "专注高纯度气体研发、生产与销售，近期加码3.34亿在成都彭州打造高端电子特气产业高地",
+            "自产气体核心成本管控良好，能源成本上涨对经营无明显影响"
+          ],
+          "insights": [
+            "氦气概念-高纯度气体龙头"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "002639": {
+      "name": "雪人股份",
+      "code": "002639",
+      "board": "SZ",
+      "industry": "机械设备-专用设备-制冷设备",
+      "concepts": [
+        "氦气",
+        "氢能源",
+        "油气服务"
+      ],
+      "products": [
+        "氦气设备"
+      ],
+      "core_business": [
+        "制冷设备+油气服务"
+      ],
+      "industry_position": [
+        "油气服务业务客户主要集中在国内，经营稳定性较强",
+        "氦气概念设备企业，已扭亏为盈"
+      ],
+      "chain": [
+        "中游-气体设备"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "杭氧股份、九丰能源、侨源股份、雪人集团，谁是氦气概念潜力老大？",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/pQazypKupscMWz19_8JCAA",
+          "accidents": [
+            "油气服务业务客户主要集中在国内，国际局势变化不构成直接重大影响",
+            "氢能源及核聚变相关业务收入占总营收比例较小"
+          ],
+          "insights": [
+            "氦气概念-氦气设备+氢能源"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "002971": {
+      "name": "和远气体",
+      "code": "002971",
+      "board": "SZ",
+      "industry": "化工-化学制品-工业气体",
+      "concepts": [
+        "电子特气",
+        "硅基",
+        "氟基"
+      ],
+      "products": [
+        "大宗气体"
+      ],
+      "core_business": [
+        "综合型气体公司"
+      ],
+      "industry_position": [
+        "国内知名的综合型气体公司，已形成硅基、氟基、氨基、氯基、碳基五大系列电子特气产品"
+      ],
+      "chain": [
+        "中游-工业气体"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "电子特气，盈利最强的10家企业",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/YgmORaKw3PTMaS_BvLiMgQ",
+          "accidents": [
+            "国内知名的综合型气体公司，已形成硅基、氟基、氨基、氯基、碳基五大系列电子特气产品",
+            "净资产收益率3.82%，毛利率18.88%，净利率3.87%"
+          ],
+          "insights": [
+            "电子特气-综合气体公司"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "603938": {
+      "name": "三孚股份",
+      "code": "603938",
+      "board": "SH",
+      "industry": "化工-化学原料-硅化工",
+      "concepts": [
+        "电子特气",
+        "硅烷",
+        "钾系列"
+      ],
+      "products": [
+        "电子级二氯二氢硅",
+        "电子级三氯氢硅",
+        "电子级四氯化硅"
+      ],
+      "core_business": [
+        "硅化工+电子特气"
+      ],
+      "industry_position": [
+        "电子特气产品包括电子级二氯二氢硅、电子级三氯氢硅、电子级四氯化硅等，逐步推向市场并实现规模化供应"
+      ],
+      "chain": [
+        "中游-电子特气"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "电子特气，盈利最强的10家企业",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/YgmORaKw3PTMaS_BvLiMgQ",
+          "accidents": [
+            "电子特气产品包括电子级二氯二氢硅、电子级三氯氢硅、电子级四氯化硅",
+            "逐步推向市场并实现规模化供应"
+          ],
+          "insights": [
+            "电子特气-硅基电子特气"
+          ],
+          "key_metrics": [
+            "净资产收益率3.26%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "688106": {
+      "name": "金宏气体",
+      "code": "688106",
+      "board": "SH",
+      "industry": "电子-半导体-电子化学品",
+      "concepts": [
+        "电子特气",
+        "大宗气体",
+        "半导体"
+      ],
+      "products": [
+        "电子特气"
+      ],
+      "core_business": [
+        "电子特气国产供应商"
+      ],
+      "industry_position": [
+        "电子特气的核心国产供应商，电子特气是高壁垒、高毛利的核心业务"
+      ],
+      "chain": [
+        "中游-电子特气"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "电子特气，盈利最强的10家企业",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/YgmORaKw3PTMaS_BvLiMgQ",
+          "accidents": [
+            "电子特气的核心国产供应商，电子特气是高壁垒、高毛利的核心业务",
+            "净资产收益率4.26%，毛利率29.71%，净利率5.40%"
+          ],
+          "insights": [
+            "电子特气-核心国产供应商"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "688548": {
+      "name": "广钢气体",
+      "code": "688548",
+      "board": "SH",
+      "industry": "电子-半导体-电子化学品",
+      "concepts": [
+        "电子特气",
+        "电子大宗气体",
+        "半导体"
+      ],
+      "products": [
+        "电子大宗气体"
+      ],
+      "core_business": [
+        "电子大宗气体供应商"
+      ],
+      "industry_position": [
+        "在合肥经开区、上海化工区、湖北潜江投资建设的电子特气研发生产基地项目已基本完成机械竣工"
+      ],
+      "chain": [
+        "中游-电子特气"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "电子特气，盈利最强的10家企业",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/YgmORaKw3PTMaS_BvLiMgQ",
+          "accidents": [
+            "在合肥经开区、上海化工区、湖北潜江投资建设的电子特气研发生产基地项目已基本完成机械竣工",
+            "净资产收益率4.83%，毛利率26.94%，净利率11.91%"
+          ],
+          "insights": [
+            "电子特气-电子大宗气体"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "600378": {
+      "name": "昊华科技",
+      "code": "600378",
+      "board": "SH",
+      "industry": "化工-氟化工-氟化工",
+      "concepts": [
+        "电子特气",
+        "氟化工",
+        "含氟电子特气"
+      ],
+      "products": [
+        "三氟化氮",
+        "六氟化硫",
+        "四氟化碳"
+      ],
+      "core_business": [
+        "高端氟材料+含氟电子特气"
+      ],
+      "industry_position": [
+        "电子化学品业务以含氟电子特气为核心"
+      ],
+      "chain": [
+        "中游-电子特气"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "电子特气，盈利最强的10家企业",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/YgmORaKw3PTMaS_BvLiMgQ",
+          "accidents": [
+            "电子化学品业务以含氟电子特气为核心，主要产品包括三氟化氮、六氟化硫、四氟化碳及氟碳类气体等",
+            "净资产收益率8.19%，毛利率25.25%，净利率9.84%"
+          ],
+          "insights": [
+            "电子特气-含氟电子特气"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "300346": {
+      "name": "南大光电",
+      "code": "300346",
+      "board": "SZ",
+      "industry": "电子-半导体-电子化学品",
+      "concepts": [
+        "电子特气",
+        "MO源",
+        "半导体"
+      ],
+      "products": [
+        "氢类电子特气",
+        "含氟电子特气"
+      ],
+      "core_business": [
+        "电子特气+MO源"
+      ],
+      "industry_position": [
+        "电子特气主要包括氢类电子特气产品和含氟电子特气产品，为国内集成电路及平板显示领域的重要供应商"
+      ],
+      "chain": [
+        "中游-电子特气"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "电子特气，盈利最强的10家企业",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/YgmORaKw3PTMaS_BvLiMgQ",
+          "accidents": [
+            "电子特气主要包括氢类电子特气产品和含氟电子特气产品",
+            "为国内集成电路及平板显示领域的重要供应商",
+            "净资产收益率9.19%，毛利率39.62%，净利率15.61%"
+          ],
+          "insights": [
+            "电子特气-氢类+含氟电子特气"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "002409": {
+      "name": "雅克科技",
+      "code": "002409",
+      "board": "SZ",
+      "industry": "电子-半导体-半导体材料",
+      "concepts": [
+        "电子特气",
+        "含氟电子特气",
+        "半导体材料"
+      ],
+      "products": [
+        "含氟电子特气"
+      ],
+      "core_business": [
+        "电子材料+含氟电子特气"
+      ],
+      "industry_position": [
+        "以成为业内领先的电子特气供应商为目标，继续在含氟类电子特气领域深耕细作"
+      ],
+      "chain": [
+        "中游-电子特气"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "电子特气，盈利最强的10家企业",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/YgmORaKw3PTMaS_BvLiMgQ",
+          "accidents": [
+            "以成为业内领先的电子特气供应商为目标，继续在含氟类电子特气领域深耕细作",
+            "净资产收益率12.59%，毛利率30.96%，净利率11.96%"
+          ],
+          "insights": [
+            "电子特气-含氟电子特气领跑"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "301303": {
+      "name": "真兰仪表",
+      "code": "301303",
+      "board": "SZ",
+      "industry": "机械设备-仪器仪表-燃气表",
+      "concepts": [
+        "智能燃气表",
+        "NB-IoT",
+        "仪器仪表"
+      ],
+      "products": [
+        "NB-IoT智能燃气表",
+        "超声波燃气表"
+      ],
+      "core_business": [
+        "智能燃气表研发制造"
+      ],
+      "industry_position": [
+        "国内燃气表行业龙头，4月中标金额2635.63万元，占月度总金额44.6%",
+        "依托技术、产能与服务优势，深耕华东、华北核心市场"
+      ],
+      "chain": [
+        "中游-智能仪表"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "4月燃气表招投标市场分析",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/sG4EQWcwhvoiX4VcJ9hb1A",
+          "accidents": [
+            "4月中标金额2635.63万元，占月度总金额44.6%，位居首位",
+            "核心中标项目包括上海燃气集中采购、河北省天然气2026年第一批民用NB表采购",
+            "行业马太效应加剧，头部企业凭借技术研发、规模化生产、资金实力持续抢占核心订单"
+          ],
+          "insights": [
+            "智能燃气表-行业龙头（市占率44.6%）"
+          ],
+          "key_metrics": [
+            "4月中标金额2635.63万元"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "600353": {
+      "name": "旭光电子",
+      "code": "600353",
+      "board": "SH",
+      "industry": "国防军工-军工电子-电子元器件",
+      "concepts": [
+        "AI陶瓷",
+        "氮化铝陶瓷",
+        "HBM",
+        "光模块"
+      ],
+      "products": [
+        "氮化铝陶瓷基板",
+        "氮化铝粉体"
+      ],
+      "core_business": [
+        "电子元器件+氮化铝陶瓷"
+      ],
+      "industry_position": [
+        "国内陶瓷上游高端氮化铝产能第一，产能500吨占国内25%以上",
+        "已切入头部光模块和HBM客户",
+        "明年预计扩产至1000吨"
+      ],
+      "chain": [
+        "中游-电子材料"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "旭光电子，翻倍空间？",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/gIbhP6kishqUvIQqSL6rvw",
+          "accidents": [
+            "氮化铝陶瓷以其导热性以及绝缘性等优势逐渐成为AI硬件的刚需材料",
+            "已给韩国头部HBM客户供应陶瓷基板产品，将充分受益HBM市场的增长",
+            "旭光电子26年氮化铝粉体产能500吨，产能国内第一，占国内25%+，明年预计扩产至1000吨",
+            "光模块中陶瓷材料充当基板+管壳两个作用，已间接供货光模块龙一客户"
+          ],
+          "insights": [
+            "AI陶瓷-国内氮化铝产能第一"
+          ],
+          "key_metrics": [
+            "氮化铝粉体产能500吨（国内第一），规划1000吨"
+          ],
+          "target_valuation": [
+            "300亿市值目标"
+          ]
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "001290": {
+      "name": "欧克科技",
+      "code": "001290",
+      "board": "SZ",
+      "industry": "机械设备-专用设备-PCB设备",
+      "concepts": [
+        "mSAP",
+        "陶瓷基板",
+        "光模块设备",
+        "PCB设备"
+      ],
+      "products": [
+        "mSAP设备",
+        "陶瓷基设备",
+        "PCB湿制程设备"
+      ],
+      "core_business": [
+        "PCB湿制程设备+mSAP设备"
+      ],
+      "industry_position": [
+        "战略并购飞仕达落地，切入高端PCB湿制程设备国产替代核心赛道",
+        "已供货胜宏/沪电/方正/富士康等PCB厂",
+        "实现mSAP（PCB）、陶瓷基、玻璃基等三大路线全覆盖"
+      ],
+      "chain": [
+        "中游-PCB设备"
+      ],
+      "partners": [
+        "深南电路",
+        "胜宏科技",
+        "沪电股份",
+        "方正科技"
+      ],
+      "articles": [
+        {
+          "title": "欧克科技，翻倍空间？",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/Uu7W0DDm8xkcUFgUn7W4bA",
+          "accidents": [
+            "战略并购飞仕达落地，业务领域延伸至PCB、HDI及IC载板关键湿法制程设备领域",
+            "飞仕达设备覆盖显影、退膜、蚀刻、化学铜及电镀等关键工序",
+            "核心覆盖深南、胜宏等PCB及HDI头部企业",
+            "已实现mSAP、陶瓷基、玻璃基等三大路线全覆盖"
+          ],
+          "insights": [
+            "mSAP/陶瓷基设备-光模块核心铲子股"
+          ],
+          "key_metrics": [
+            "26年主业预计2e利润，mSAP闪蚀线单价约300w"
+          ],
+          "target_valuation": [
+            "合计市值可看100亿以上"
+          ]
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "920028": {
+      "name": "新恒泰",
+      "code": "920028",
+      "board": "BJ",
+      "industry": "化工-塑料制品-发泡材料",
+      "concepts": [
+        "超临界发泡",
+        "MPP",
+        "宁德时代",
+        "商业航天"
+      ],
+      "products": [
+        "MPP超临界发泡材料"
+      ],
+      "core_business": [
+        "功能性高分子发泡材料"
+      ],
+      "industry_position": [
+        "国内唯一实现超临界流体发泡工程化技术的企业",
+        "核心MPP产品在动力电池渗透率超40%，占宁德份额超90%",
+        "低轨卫星地面接收器高透波材料已供货中国星网、华为"
+      ],
+      "chain": [
+        "上游-新材料"
+      ],
+      "partners": [
+        "宁德时代",
+        "中国星网",
+        "华为"
+      ],
+      "articles": [
+        {
+          "title": "新恒泰，10倍空间？",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/yzZP4MQHikNOHGpcZ21qtQ",
+          "accidents": [
+            "国内唯一实现超临界流体发泡工程化技术的企业",
+            "核心MPP产品在动力电池渗透率超40%，占宁德份额超90%",
+            "与宁德在固态电池的合作已进入量产阶段",
+            "低轨卫星地面接收器高透波材料已供货中国星网、华为"
+          ],
+          "insights": [
+            "超临界发泡材料龙头-北交所十倍潜力股"
+          ],
+          "key_metrics": [
+            "MPP电池垫宁德份额超90%，26-27年产能翻1-2倍"
+          ],
+          "target_valuation": [
+            "27年2.5e利润30X=75亿市值，十倍空间"
+          ]
         }
       ],
       "mention_count": 1,
