@@ -2245,14 +2245,17 @@
       ]
     },
     "301591": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-04",
       "partners": [
         "南亚",
         "生益"
       ],
       "name": "肯特股份",
-      "industry_position": [],
+      "industry_position": [
+        "具备PEEK密封件、耐磨件、精密零部件加工能力，产品可用于半导体设备、工业装备、汽车等高端制造场景",
+        "卡位PEEK材料终端制品落地环节"
+      ],
       "articles": [
         {
           "date": "2026-05-17",
@@ -2267,16 +2270,34 @@
           "accidents": [
             "其四氟膜产品可应用于PCB覆铜板，客户包括生益、南亚等头部CCL厂商。"
           ]
+        },
+        {
+          "title": "人形机器人稀缺材料！比稀土还珍贵的高端制造王者！",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/OzRbnSnh10nvPj0ROwydZA",
+          "accidents": [
+            "具备PEEK密封件、耐磨件、精密零部件加工能力",
+            "产品可用于半导体设备、工业装备、汽车等高端制造场景"
+          ],
+          "insights": [
+            "PEEK-密封件精密零部件龙头"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "board": "SZ",
       "industry": "化工 - 塑料 - 工程塑料",
       "products": [
         "四氟膜",
-        "高性能工程塑料制品"
+        "高性能工程塑料制品",
+        "PEEK密封件",
+        "耐磨件",
+        "精密零部件"
       ],
       "chain": [
-        "上游 - 原材料/特种树脂"
+        "上游 - 原材料/特种树脂",
+        "下游-PEEK制品"
       ],
       "concepts": [
         "PCB概念",
@@ -2292,11 +2313,15 @@
         "氢能源",
         "海工装备",
         "融资融券",
-        "风电"
+        "风电",
+        "PEEK",
+        "密封件",
+        "精密零部件"
       ],
       "code": "301591",
       "core_business": [
-        "高性能工程塑料制品"
+        "高性能工程塑料制品",
+        "PEEK精密零部件加工"
       ]
     },
     "301611": {
@@ -4021,14 +4046,15 @@
       ]
     },
     "002886": {
-      "mention_count": 3,
-      "last_updated": "2026-05-26",
+      "mention_count": 4,
+      "last_updated": "2026-06-04",
       "partners": [
         "国内外多家PCB客户"
       ],
       "name": "沃特股份",
       "industry_position": [
-        "全产业链垂直整合企业"
+        "全产业链垂直整合企业",
+        "国内特种工程塑料平台型公司，布局PEEK、LCP、PPA等高性能材料，可根据机器人、汽车、电子电气等场景提供改性材料方案"
       ],
       "articles": [
         {
@@ -4087,6 +4113,20 @@
           "url": "https://mp.weixin.qq.com/s/ZqxQQsvGQYGnHnX-Lcrcdw",
           "date": "2026-05-26",
           "summary": "PTFE年产能3000吨，5G用PTFE已小批量供货，应用于高频通信、高算力PCB"
+        },
+        {
+          "title": "涉足PEEK领域的上市公司盘点",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/bTfmCfQ-CPml6D-J3mVkaA",
+          "accidents": [
+            "国内特种工程塑料平台型公司，布局PEEK、LCP、PPA等高性能材料",
+            "可根据机器人、汽车、电子电气等场景提供改性材料方案"
+          ],
+          "insights": [
+            "PEEK-特种工程塑料平台"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "board": "SZ",
@@ -4094,10 +4134,14 @@
       "products": [
         "PTFE薄膜",
         "改性塑料",
-        "高分子材料"
+        "高分子材料",
+        "PEEK",
+        "LCP",
+        "PPA"
       ],
       "chain": [
-        "上游 - 原材料/特种树脂"
+        "上游 - 原材料/特种树脂",
+        "中游-特种工程塑料"
       ],
       "concepts": [
         "PEEK材料",
@@ -4131,24 +4175,30 @@
         "核电",
         "特高压",
         "合成生物",
-        "深股通"
+        "深股通",
+        "PEEK",
+        "LCP",
+        "PPA",
+        "特种工程塑料"
       ],
       "code": "002886",
       "core_business": [
-        "改性塑料、高分子材料"
+        "改性塑料、高分子材料",
+        "特种工程塑料研发与生产"
       ],
       "concept": "5G材料;PTFE;高频通信",
       "description": "PTFE年产能3000吨，5G用PTFE已小批量供货，应用于高频通信、高算力PCB"
     },
     "002915": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-04",
       "partners": [
         "特斯拉(机器人)"
       ],
       "name": "中欣氟材",
       "industry_position": [
-        "全产业链氟化工龙头"
+        "全产业链氟化工龙头",
+        "已建成PEEK原料DFBP全产业链生产线，现有DFBP产能5000吨/年，产品已通过部分客户认证并开始使用"
       ],
       "articles": [
         {
@@ -4185,6 +4235,22 @@
           "core_business": [
             "DFBP(氟精细化学品)"
           ]
+        },
+        {
+          "title": "涉足PEEK领域的上市公司盘点",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/bTfmCfQ-CPml6D-J3mVkaA",
+          "accidents": [
+            "已建成PEEK原料DFBP全产业链生产线，现有DFBP产能5000吨/年",
+            "产品已通过部分客户认证并开始使用"
+          ],
+          "insights": [
+            "PEEK-DFBP产能国内最大"
+          ],
+          "key_metrics": [
+            "DFBP产能5000吨/年"
+          ],
+          "target_valuation": []
         }
       ],
       "board": "SZ",
@@ -4192,10 +4258,12 @@
       "products": [
         "电子级氢氟酸",
         "PEEK新材料",
-        "氟精细化学品"
+        "氟精细化学品",
+        "DFBP（PEEK关键原料）"
       ],
       "chain": [
-        "上游 - 萤石矿到高端材料全链条"
+        "上游 - 萤石矿到高端材料全链条",
+        "上游-PEEK原料"
       ],
       "concepts": [
         "PEEK材料",
@@ -4206,16 +4274,20 @@
         "深股通",
         "融资融券",
         "超级电容",
-        "钠离子电池"
+        "钠离子电池",
+        "PEEK原料",
+        "DFBP",
+        "氟化工"
       ],
       "code": "002915",
       "core_business": [
-        "全产业链氟化工"
+        "全产业链氟化工",
+        "PEEK原料DFBP生产"
       ]
     },
     "301000": {
-      "mention_count": 1,
-      "last_updated": "2026-05-18",
+      "mention_count": 2,
+      "last_updated": "2026-06-04",
       "partners": [
         "宇树科技",
         "特斯拉"
@@ -4223,7 +4295,8 @@
       "name": "肇民科技",
       "industry_position": [
         "A股唯一宇树科技PEEK供应商",
-        "特斯拉供应链核心"
+        "特斯拉供应链核心",
+        "精密注塑能力突出，可将PEEK等高性能材料加工成复杂小型精密零部件，适配汽车、机器人、电子等高端应用场景"
       ],
       "articles": [
         {
@@ -4260,13 +4333,29 @@
           "core_business": [
             "PEEK精密零部件"
           ]
+        },
+        {
+          "title": "人形机器人稀缺材料！比稀土还珍贵的高端制造王者！",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/OzRbnSnh10nvPj0ROwydZA",
+          "accidents": [
+            "精密注塑能力突出，可将PEEK等高性能材料加工成复杂小型精密零部件"
+          ],
+          "insights": [
+            "PEEK-精密注塑零部件"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "board": "SZ",
       "industry": "汽车-汽车零部件-其他汽车零部件",
-      "products": [],
+      "products": [
+        "PEEK精密零部件"
+      ],
       "chain": [
-        "下游-精密零部件"
+        "下游-精密零部件",
+        "下游-PEEK制品"
       ],
       "concepts": [
         "人形机器人",
@@ -4277,11 +4366,15 @@
         "燃料电池",
         "储能",
         "深股通",
-        "融资融券"
+        "融资融券",
+        "PEEK",
+        "精密注塑",
+        "精密零部件"
       ],
       "code": "301000",
       "core_business": [
-        "PEEK精密零部件"
+        "PEEK精密零部件",
+        "精密注塑"
       ]
     },
     "301005": {
@@ -4383,17 +4476,21 @@
       ]
     },
     "301076": {
-      "mention_count": 1,
-      "last_updated": "2026-05-18",
+      "mention_count": 2,
+      "last_updated": "2026-06-04",
       "partners": [
         "威格斯",
         "索尔维",
-        "小鹏机器人"
+        "小鹏机器人",
+        "赢创",
+        "中研股份"
       ],
       "name": "新瀚新材",
       "industry_position": [
         "全球第二大DFBP供应商",
-        "高端氟酮隐形冠军"
+        "高端氟酮隐形冠军",
+        "国内芳香族酮类产品龙头，是行业内较早从事PEEK核心原料DFBP研发、生产的企业",
+        "DFBP产品毛利率33.68%，与PEEK领域全球前三大生产商及国内领先PEEK生产商均建立了长期合作关系"
       ],
       "articles": [
         {
@@ -4432,11 +4529,31 @@
           "core_business": [
             "DFBP(芳香族酮类)"
           ]
+        },
+        {
+          "title": "涉足PEEK领域的上市公司盘点",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/bTfmCfQ-CPml6D-J3mVkaA",
+          "accidents": [
+            "2025年年报营收4.44亿元，同比增长5.80%，特种工程塑料核心原料收入达1.8亿元，毛利率33.68%",
+            "2026年1月收购海瑞特51%股权，从上游氟酮延伸至下游PAEK树脂及复合材料领域",
+            "拟募资不超10亿元投向年产8100吨高性能树脂/复合材料等项目"
+          ],
+          "insights": [
+            "PEEK-DFBP技术积累最深+全产业链延伸"
+          ],
+          "key_metrics": [
+            "DFBP毛利率33.68%"
+          ],
+          "target_valuation": []
         }
       ],
       "board": "SZ",
       "industry": "基础化工-化学制品-其他化学制品",
-      "products": [],
+      "products": [
+        "DFBP",
+        "PAEK树脂"
+      ],
       "chain": [
         "上游-PEEK原料"
       ],
@@ -4444,23 +4561,28 @@
         "PEEK材料",
         "专精特新",
         "深股通",
-        "融资融券"
+        "融资融券",
+        "PEEK原料",
+        "DFBP",
+        "特种工程塑料"
       ],
       "code": "301076",
       "core_business": [
-        "DFBP(芳香族酮类)"
+        "DFBP(芳香族酮类)",
+        "PEEK核心原料DFBP+PAEK树脂"
       ]
     },
     "600143": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-04",
       "partners": [
         "宁德时代",
         "松下"
       ],
       "name": "金发科技",
       "industry_position": [
-        "国内最大改性塑料企业"
+        "国内最大改性塑料企业",
+        "国内改性塑料龙头，特种工程塑料体系完整，具备PEEK等高端材料在汽车、电子电气、工业领域规模化推广能力"
       ],
       "articles": [
         {
@@ -4497,11 +4619,29 @@
             "改性PEEK",
             "改性塑料"
           ]
+        },
+        {
+          "title": "人形机器人稀缺材料！比稀土还珍贵的高端制造王者！",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/OzRbnSnh10nvPj0ROwydZA",
+          "accidents": [
+            "国内改性塑料龙头，特种工程塑料体系完整",
+            "具备PEEK等高端材料在汽车、电子电气、工业领域规模化推广能力"
+          ],
+          "insights": [
+            "PEEK-改性塑料龙头"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "board": "SH",
       "industry": "基础化工-塑料制品-改性塑料",
-      "products": [],
+      "products": [
+        "PEEK",
+        "LCP",
+        "特种工程塑料"
+      ],
       "chain": [
         "中游-改性塑料"
       ],
@@ -4533,17 +4673,21 @@
         "粤港澳大湾区",
         "融资融券",
         "铜缆高速连接",
-        "锂电池概念"
+        "锂电池概念",
+        "PEEK",
+        "改性塑料龙头",
+        "特种工程塑料"
       ],
       "code": "600143",
       "core_business": [
         "改性PEEK",
-        "改性塑料"
+        "改性塑料",
+        "改性塑料+特种工程塑料"
       ]
     },
     "688716": {
-      "mention_count": 1,
-      "last_updated": "2026-05-18",
+      "mention_count": 2,
+      "last_updated": "2026-06-04",
       "partners": [
         "C919",
         "特斯拉(Optimus)"
@@ -4551,7 +4695,9 @@
       "name": "中研股份",
       "industry_position": [
         "国产PEEK树脂龙头",
-        "国内唯一千吨级量产企业"
+        "国内唯一千吨级量产企业",
+        "国内少数掌握PEEK树脂聚合核心技术的企业之一，现有PEEK材料设计产能1000吨/年，常年保持满产满销状态",
+        "计划总投资约12亿元建设年产10000吨PEEK项目"
       ],
       "articles": [
         {
@@ -4591,13 +4737,33 @@
           "core_business": [
             "PEEK树脂及改性材料"
           ]
+        },
+        {
+          "title": "涉足PEEK领域的上市公司盘点",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/bTfmCfQ-CPml6D-J3mVkaA",
+          "accidents": [
+            "现有PEEK材料设计产能1000吨/年，常年保持满产满销状态",
+            "计划总投资约12亿元建设年产10000吨PEEK高分子材料与2000吨PEEK原料一体化项目",
+            "项目建成后整体产能将达到11000吨，建设周期约2-3年"
+          ],
+          "insights": [
+            "PEEK-国内聚合龙头"
+          ],
+          "key_metrics": [
+            "现有产能1000吨/年，规划11000吨/年"
+          ],
+          "target_valuation": []
         }
       ],
       "board": "SH",
       "industry": "基础化工-塑料制品-合成树脂",
-      "products": [],
+      "products": [
+        "PEEK树脂"
+      ],
       "chain": [
-        "上游-PEEK树脂"
+        "上游-PEEK树脂",
+        "中游-PEEK树脂"
       ],
       "concepts": [
         "PEEK材料",
@@ -4610,11 +4776,14 @@
         "大飞机",
         "商业航天",
         "医疗器械概念",
-        "融资融券"
+        "融资融券",
+        "PEEK树脂",
+        "PEEK聚合"
       ],
       "code": "688716",
       "core_business": [
-        "PEEK树脂及改性材料"
+        "PEEK树脂及改性材料",
+        "PEEK树脂合成"
       ]
     },
     "000002": {
@@ -5411,9 +5580,14 @@
       "name": "深圳机场"
     },
     "000099": {
-      "core_business": [],
-      "last_updated": "2026-05-10",
-      "industry_position": [],
+      "core_business": [
+        "通航运营"
+      ],
+      "last_updated": "2026-06-04",
+      "industry_position": [
+        "低空运营龙头，在海上石油服务、通航运输等业务深耕，拥有庞大直升机机队与运营网络",
+        "在交通通勤、应急救援、旅游观光等场景布局"
+      ],
       "valuation": {},
       "industry": "交通运输-机场航运-航空运输",
       "concepts": [
@@ -5431,10 +5605,12 @@
         "风电",
         "融资融券",
         "深股通",
-        "中字头股票"
+        "中字头股票",
+        "通航运营",
+        "直升机运营"
       ],
       "code": "000099",
-      "mention_count": 0,
+      "mention_count": 6,
       "partners": [],
       "articles": [
         {
@@ -5482,13 +5658,28 @@
           ],
           "title": "5月6日-今日操作策略与风险提示-文末竞价参考",
           "source": "https://mp.weixin.qq.com/s/6ohnwANYflgmoQy-jgTdkw"
+        },
+        {
+          "title": "低空经济核心龙头股深度剖析与产业全景梳理",
+          "date": "2025-07-19",
+          "source": "https://mp.weixin.qq.com/s/J2GkhHCtAOeGf1OTtLub-A",
+          "accidents": [
+            "低空运营龙头，拥有庞大直升机机队与运营网络，在海上石油服务、通航运输等业务深耕",
+            "在交通通勤、应急救援、旅游观光等场景布局"
+          ],
+          "insights": [
+            "低空经济-通航运营龙头"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "board": "SZ",
       "products": [],
       "chain": [
         "在光刻机与半导体设备板块",
-        "* **逻辑**"
+        "* **逻辑**",
+        "下游-低空运营"
       ],
       "name": "中信海直"
     },
@@ -13462,8 +13653,8 @@
       "name": "豪鹏科技"
     },
     "001287": {
-      "mention_count": 3,
-      "last_updated": "2026-05-10",
+      "mention_count": 4,
+      "last_updated": "2026-06-04",
       "partners": [],
       "concepts": [
         "存储芯片",
@@ -13509,11 +13700,14 @@
         "乡村振兴",
         "深股通",
         "中字头股票",
-        "融资融券"
+        "融资融券",
+        "电子元器件分销",
+        "存储芯片分销"
       ],
       "industry_position": [
         "龙头",
-        "为电子元器件分销龙头"
+        "为电子元器件分销龙头",
+        "国内头部电子元器件分销商，代理多家国际大厂的芯片产品，覆盖存储芯片、处理器、模拟器件等"
       ],
       "articles": [
         {
@@ -13545,15 +13739,37 @@
             "AI驱动存储需求"
           ],
           "accidents": []
+        },
+        {
+          "title": "高盛最新持仓存储芯片，这十家凭什么被选中？",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/ATmIIWd6w60hA3J1m4EDgQ",
+          "accidents": [
+            "国内头部电子元器件分销商，代理多家国际大厂的芯片产品",
+            "覆盖存储芯片、处理器、模拟器件等，为下游终端客户提供供应链服务"
+          ],
+          "insights": [
+            "高盛持仓-电子元器件分销"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "board": "SZ",
       "industry": "电子-其他电子-其他电子Ⅲ",
-      "products": [],
-      "chain": [],
+      "products": [
+        "存储芯片",
+        "处理器",
+        "模拟器件"
+      ],
+      "chain": [
+        "中游-半导体分销"
+      ],
       "name": "中电港",
       "code": "001287",
-      "core_business": []
+      "core_business": [
+        "电子元器件分销"
+      ]
     },
     "001288": {
       "core_business": [],
@@ -16111,11 +16327,15 @@
       "name": "孚日股份"
     },
     "002085": {
-      "core_business": [],
-      "last_updated": "2026-05-31",
+      "core_business": [
+        "汽车零部件+通航飞机制造"
+      ],
+      "last_updated": "2026-06-04",
       "industry_position": [
         "龙头",
-        "低空飞行器制造龙头"
+        "低空飞行器制造龙头",
+        "在铝合金轮毂等传统业务基础上，拓展通航飞机制造、镁合金应用等业务",
+        "通航飞机制造围绕固定翼飞机布局，结合镁合金轻量化材料优势，打造高性能低空飞行器"
       ],
       "valuation": {},
       "industry": "汽车-汽车零部件-轮胎轮毂",
@@ -16141,10 +16361,12 @@
         "融资融券",
         "锂电池概念",
         "风电",
-        "飞行汽车(eVTOL)"
+        "飞行汽车(eVTOL)",
+        "通航飞机制造",
+        "镁合金"
       ],
       "code": "002085",
-      "mention_count": 1,
+      "mention_count": 2,
       "partners": [],
       "articles": [
         {
@@ -16157,12 +16379,31 @@
           "insights": [
             "重点关注欣旺达、移远通信、万丰奥威、航天彩虹四大核心标的，"
           ]
+        },
+        {
+          "title": "低空经济核心龙头股深度剖析与产业全景梳理",
+          "date": "2025-07-19",
+          "source": "https://mp.weixin.qq.com/s/J2GkhHCtAOeGf1OTtLub-A",
+          "accidents": [
+            "在铝合金轮毂等传统业务基础上，拓展通航飞机制造、镁合金应用等业务",
+            "通航飞机制造围绕固定翼飞机布局，结合镁合金轻量化材料优势"
+          ],
+          "insights": [
+            "低空经济-通航飞机制造+镁合金"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "board": "SZ",
-      "products": [],
+      "products": [
+        "通航飞机",
+        "铝合金轮毂",
+        "镁合金"
+      ],
       "chain": [
-        "中游-制造"
+        "中游-制造",
+        "中游-低空主机"
       ],
       "name": "万丰奥威"
     },
@@ -16266,9 +16507,14 @@
       "name": "江苏国泰"
     },
     "002097": {
-      "core_business": [],
-      "last_updated": "2026-05-31",
-      "industry_position": [],
+      "core_business": [
+        "通用航空装备制造"
+      ],
+      "last_updated": "2026-06-04",
+      "industry_position": [
+        "在通用航空装备制造布局，涵盖轻型飞机、无人机等产品",
+        "农业植保、工程巡检等场景对多功能低空装备需求增长"
+      ],
       "valuation": {},
       "industry": "机械设备-工程机械-工程机械Ⅲ",
       "concepts": [
@@ -16297,10 +16543,11 @@
         "页岩气",
         "飞行汽车(eVTOL)",
         "高端装备",
-        "高铁"
+        "高铁",
+        "通用航空"
       ],
       "code": "002097",
-      "mention_count": 0,
+      "mention_count": 2,
       "partners": [],
       "articles": [
         {
@@ -16310,11 +16557,30 @@
           "accidents": [
             "通航飞机订单放量"
           ]
+        },
+        {
+          "title": "低空经济核心龙头股深度剖析与产业全景梳理",
+          "date": "2025-07-19",
+          "source": "https://mp.weixin.qq.com/s/J2GkhHCtAOeGf1OTtLub-A",
+          "accidents": [
+            "在通用航空装备制造布局，涵盖轻型飞机、无人机等产品",
+            "农业植保、工程巡检等场景对多功能低空装备需求增长"
+          ],
+          "insights": [
+            "低空经济-通用航空+无人机"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "board": "SZ",
-      "products": [],
-      "chain": [],
+      "products": [
+        "轻型飞机",
+        "无人机"
+      ],
+      "chain": [
+        "中游-低空主机"
+      ],
       "name": "山河智能"
     },
     "002098": {
@@ -18471,12 +18737,15 @@
     },
     "002179": {
       "core_business": [
-        "操作策略上需结合自身风险偏好动态调整仓位"
+        "操作策略上需结合自身风险偏好动态调整仓位",
+        "连接器研发与生产"
       ],
-      "last_updated": "2026-05-31",
+      "last_updated": "2026-06-04",
       "industry_position": [
         "隐形冠军",
-        "内军工连接器规模第一"
+        "内军工连接器规模第一",
+        "为低空飞行器提供信号传输、电力连接等核心部件，产品可靠性高",
+        "从主机控制系统到空管、运营设备，都依赖稳定连接器保障信号与电力传输"
       ],
       "valuation": {},
       "industry": "国防军工-军工电子-军工电子Ⅲ",
@@ -18519,10 +18788,12 @@
         "车联网(车路协同)",
         "量子科技",
         "铜缆高速连接",
-        "高压快充"
+        "高压快充",
+        "连接器",
+        "军工电子"
       ],
       "code": "002179",
-      "mention_count": 2,
+      "mention_count": 4,
       "partners": [],
       "articles": [
         {
@@ -18561,14 +18832,30 @@
           ],
           "title": "“高端装备概念”深度解析与操作策略，底部盘中参考，7月22日",
           "source": "https://mp.weixin.qq.com/s/7MFat5fjd6HTbDhNe2_Ucg"
+        },
+        {
+          "title": "低空经济核心龙头股深度剖析与产业全景梳理",
+          "date": "2025-07-19",
+          "source": "https://mp.weixin.qq.com/s/J2GkhHCtAOeGf1OTtLub-A",
+          "accidents": [
+            "为低空飞行器提供信号传输、电力连接等核心部件，产品可靠性高",
+            "从主机控制系统到空管、运营设备，都依赖稳定连接器保障信号与电力传输"
+          ],
+          "insights": [
+            "低空经济-连接器"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "board": "SZ",
       "products": [
-        "软件"
+        "软件",
+        "连接器"
       ],
       "chain": [
-        "投资布局需要准确把握上中下游产业链逻辑"
+        "投资布局需要准确把握上中下游产业链逻辑",
+        "中游-低空零部件"
       ],
       "name": "中航光电"
     },
@@ -20642,9 +20929,14 @@
       "name": "步步高"
     },
     "002253": {
-      "core_business": [],
-      "last_updated": "2026-05-10",
-      "industry_position": [],
+      "core_business": [
+        "空管系统+飞行模拟"
+      ],
+      "last_updated": "2026-06-04",
+      "industry_position": [
+        "在空管系统、飞行模拟等领域深耕，为空域管理提供技术支持",
+        "低空经济推动空管系统升级，公司凭借技术积累有望受益"
+      ],
       "valuation": {},
       "industry": "计算机-软件开发-垂直应用软件",
       "concepts": [
@@ -20674,10 +20966,12 @@
         "元宇宙",
         "华为概念",
         "虚拟现实",
-        "虚拟电厂"
+        "虚拟电厂",
+        "空管系统",
+        "飞行模拟"
       ],
       "code": "002253",
-      "mention_count": 1,
+      "mention_count": 2,
       "partners": [],
       "articles": [
         {
@@ -20687,11 +20981,30 @@
           ],
           "title": "4月23日-今日操作策略与风险提示-文末竞价参考",
           "source": "https://mp.weixin.qq.com/s/wm-cdD3sDtUp9XMBfrLU0g"
+        },
+        {
+          "title": "低空经济核心龙头股深度剖析与产业全景梳理",
+          "date": "2025-07-19",
+          "source": "https://mp.weixin.qq.com/s/J2GkhHCtAOeGf1OTtLub-A",
+          "accidents": [
+            "在空管系统、飞行模拟等领域深耕，为空域管理提供技术支持",
+            "低空经济推动空管系统升级，公司凭借技术积累有望受益"
+          ],
+          "insights": [
+            "低空经济-空管系统"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "board": "SZ",
-      "products": [],
-      "chain": [],
+      "products": [
+        "空管系统",
+        "飞行模拟"
+      ],
+      "chain": [
+        "中游-低空空管"
+      ],
       "name": "*ST智胜"
     },
     "002255": {
@@ -28373,8 +28686,8 @@
       "name": "亚威股份"
     },
     "002562": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-04",
       "concepts": [
         "2025年报预增",
         "NMN概念",
@@ -28387,19 +28700,46 @@
         "小金属概念",
         "深股通",
         "维生素",
-        "长三角一体化"
+        "长三角一体化",
+        "PEEK原料",
+        "对苯二酚"
       ],
       "articles": [
         {
           "date": "",
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "title": "涉足PEEK领域的上市公司盘点",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/bTfmCfQ-CPml6D-J3mVkaA",
+          "accidents": [
+            "公司生产的对苯二酚已正式进入PEEK领域，对苯二酚是PEEK合成的重要单体之一"
+          ],
+          "insights": [
+            "PEEK-对苯二酚新进入者"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "industry": "基础化工-化学制品-食品及饲料添加剂",
       "board": "SZ",
       "code": "002562",
-      "name": "兄弟科技"
+      "name": "兄弟科技",
+      "core_business": [
+        "精细化工品生产"
+      ],
+      "industry_position": [
+        "公司生产的对苯二酚已正式进入PEEK领域，对苯二酚是PEEK合成的重要单体之一"
+      ],
+      "chain": [
+        "上游-PEEK原料"
+      ],
+      "products": [
+        "对苯二酚"
+      ]
     },
     "002563": {
       "mention_count": 0,
@@ -31370,8 +31710,8 @@
       "name": "蓝黛科技"
     },
     "002768": {
-      "mention_count": 1,
-      "last_updated": "2026-05-10",
+      "mention_count": 2,
+      "last_updated": "2026-06-04",
       "concepts": [
         "风电",
         "PEEK材料",
@@ -31395,22 +31735,58 @@
         "丙烯酸",
         "充电桩",
         "机器人概念",
-        "医美概念"
+        "医美概念",
+        "PEEK",
+        "改性塑料",
+        "复合材料"
       ],
       "articles": [
         {
           "date": "",
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "title": "涉足PEEK领域的上市公司盘点",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/bTfmCfQ-CPml6D-J3mVkaA",
+          "accidents": [
+            "已完成PEEK材料生产技术与核心工艺的开发，计划建设2条PEEK聚合生产线",
+            "利用自有HP-RTM工艺，成功研发出新能源复合材料巧克力超薄电池包，并导入宁德时代、比亚迪供应体系"
+          ],
+          "insights": [
+            "PEEK+复合材料+新能源电池包"
+          ],
+          "key_metrics": [
+            "规划PEEK产能1000吨/年"
+          ],
+          "target_valuation": []
         }
       ],
       "industry": "基础化工-塑料制品-改性塑料",
       "board": "SZ",
       "chain": [
-        "上游-材料"
+        "上游-材料",
+        "中游-PEEK+复合材料"
       ],
       "code": "002768",
-      "name": "国恩股份"
+      "name": "国恩股份",
+      "core_business": [
+        "改性塑料+PEEK材料"
+      ],
+      "industry_position": [
+        "已完成PEEK材料生产技术与核心工艺的开发，计划建设2条PEEK聚合生产线，实现1000吨/年的PEEK材料生产能力",
+        "利用自有HP-RTM工艺，成功研发出新能源复合材料巧克力超薄电池包，并导入宁德时代、比亚迪供应体系"
+      ],
+      "partners": [
+        "宁德时代",
+        "比亚迪"
+      ],
+      "products": [
+        "PEEK树脂",
+        "预浸带",
+        "复合材料结构部件"
+      ]
     },
     "002777": {
       "mention_count": 1,
@@ -38414,8 +38790,8 @@
       "name": "尤洛卡"
     },
     "300100": {
-      "mention_count": 1,
-      "last_updated": "2026-05-10",
+      "mention_count": 2,
+      "last_updated": "2026-06-04",
       "concepts": [
         "融资融券",
         "PEEK材料",
@@ -38431,7 +38807,11 @@
         "汽车电子",
         "工业母机",
         "华为汽车",
-        "低空经济"
+        "低空经济",
+        "PEEK",
+        "机器人执行器",
+        "丝杠",
+        "关节模组"
       ],
       "partners": [
         "反向式丝杠通过小鹏耐久性测试"
@@ -38444,12 +38824,40 @@
           ],
           "title": "“小鹏汽车概念”深度解析与操作策略-文末盘中参考",
           "source": "https://mp.weixin.qq.com/s/Ife9KmDL3hOsZ-Pu8SN2PA"
+        },
+        {
+          "title": "人形机器人稀缺材料！比稀土还珍贵的高端制造王者！",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/OzRbnSnh10nvPj0ROwydZA",
+          "accidents": [
+            "机器人线性执行器、丝杠、关节模组布局领先",
+            "PEEK轻量化、耐磨、降噪材料可在机器人执行器和关节部件中形成应用延伸"
+          ],
+          "insights": [
+            "PEEK+机器人执行器"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "industry": "汽车-汽车零部件-车身附件及饰件",
       "board": "SZ",
       "code": "300100",
-      "name": "双林股份"
+      "name": "双林股份",
+      "core_business": [
+        "机器人执行器+关节模组"
+      ],
+      "industry_position": [
+        "机器人线性执行器、丝杠、关节模组布局领先，PEEK轻量化、耐磨、降噪材料可在机器人执行器和关节部件中形成应用延伸"
+      ],
+      "chain": [
+        "中游-机器人零部件"
+      ],
+      "products": [
+        "线性执行器",
+        "丝杠",
+        "关节模组"
+      ]
     },
     "300101": {
       "mention_count": 1,
@@ -59107,8 +59515,8 @@
       "name": "凯格精机"
     },
     "301348": {
-      "mention_count": 2,
-      "last_updated": "2026-05-31",
+      "mention_count": 3,
+      "last_updated": "2026-06-04",
       "partners": [],
       "concepts": [
         "东数西算(算力)",
@@ -59124,9 +59532,13 @@
         "粤港澳大湾区",
         "芯片概念",
         "融资融券",
-        "锂电池概念"
+        "锂电池概念",
+        "半导体封装",
+        "分立器件"
       ],
-      "industry_position": [],
+      "industry_position": [
+        "从事半导体封装测试业务，产品线涵盖分立器件和集成电路封装，为电源管理、LED驱动等领域的芯片提供封装解决方案"
+      ],
       "articles": [
         {
           "date": "2026-05-13",
@@ -59149,15 +59561,36 @@
             "先进封装板块"
           ],
           "accidents": []
+        },
+        {
+          "title": "高盛最新持仓存储芯片，这十家凭什么被选中？",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/ATmIIWd6w60hA3J1m4EDgQ",
+          "accidents": [
+            "从事半导体封装测试业务，产品线涵盖分立器件和集成电路封装",
+            "为电源管理、LED驱动等领域的芯片提供封装解决方案"
+          ],
+          "insights": [
+            "高盛持仓-半导体封装测试"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "board": "",
       "industry": "电子-半导体-集成电路封测",
-      "products": [],
-      "chain": [],
+      "products": [
+        "分立器件封装",
+        "集成电路封装"
+      ],
+      "chain": [
+        "中游-半导体封测"
+      ],
       "name": "蓝箭电子",
       "code": "301348",
-      "core_business": []
+      "core_business": [
+        "半导体封装测试"
+      ]
     },
     "301355": {
       "mention_count": 0,
@@ -59745,8 +60178,8 @@
       "name": "宏景科技"
     },
     "301398": {
-      "mention_count": 1,
-      "last_updated": "2026-05-10",
+      "mention_count": 2,
+      "last_updated": "2026-06-04",
       "concepts": [
         "减速器",
         "一带一路",
@@ -59755,11 +60188,16 @@
         "专精特新",
         "深股通",
         "新能源汽车",
-        "特斯拉概念"
+        "特斯拉概念",
+        "低空经济",
+        "镁合金压铸",
+        "轻量化"
       ],
       "industry_position": [
         "国内领先",
-        "精密压铸技术国内领先"
+        "精密压铸技术国内领先",
+        "聚焦镁合金精密压铸，镁合金轻量化特性契合低空飞行器减重需求",
+        "在座椅框架、机身结构件等应用场景发力，成为主机零部件轻量化代表企业"
       ],
       "articles": [
         {
@@ -59772,6 +60210,20 @@
           "accidents": [
             "目前在手订单已经排到明年三季度"
           ]
+        },
+        {
+          "title": "低空经济核心龙头股深度剖析与产业全景梳理",
+          "date": "2025-07-19",
+          "source": "https://mp.weixin.qq.com/s/J2GkhHCtAOeGf1OTtLub-A",
+          "accidents": [
+            "聚焦镁合金精密压铸，镁合金轻量化特性契合低空飞行器减重需求",
+            "在座椅框架、机身结构件等应用场景发力"
+          ],
+          "insights": [
+            "低空经济-镁合金轻量化"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "industry": "汽车-汽车零部件-车身附件及饰件",
@@ -59780,10 +60232,17 @@
         "特斯拉"
       ],
       "core_business": [
-        "特斯拉机器人供应链的核心供应商"
+        "特斯拉机器人供应链的核心供应商",
+        "镁合金精密压铸"
       ],
       "code": "301398",
-      "name": "星源卓镁"
+      "name": "星源卓镁",
+      "chain": [
+        "中游-低空零部件"
+      ],
+      "products": [
+        "镁合金精密压铸件"
+      ]
     },
     "301399": {
       "mention_count": 0,
@@ -62988,8 +63447,8 @@
       "name": "招商银行"
     },
     "600038": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-04",
       "concepts": [
         "中字头股票",
         "低空经济",
@@ -63005,25 +63464,50 @@
         "融资融券",
         "飞行汽车(eVTOL)",
         "高端装备",
-        "黑龙江自贸区"
+        "黑龙江自贸区",
+        "直升机",
+        "航空装备"
       ],
       "articles": [
         {
           "date": "",
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "title": "低空经济核心龙头股深度剖析与产业全景梳理",
+          "date": "2025-07-19",
+          "source": "https://mp.weixin.qq.com/s/J2GkhHCtAOeGf1OTtLub-A",
+          "accidents": [
+            "直升机制造龙头，产品覆盖多吨位、多用途直升机",
+            "低空经济中直升机在交通通勤、应急救援、旅游观光等场景需求旺盛"
+          ],
+          "insights": [
+            "低空经济-直升机制造龙头"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "industry": "国防军工-军工装备-航空装备",
       "board": "SH",
       "products": [
-        "平台"
+        "平台",
+        "直升机"
       ],
       "chain": [
-        "平台"
+        "平台",
+        "中游-低空主机"
       ],
       "code": "600038",
-      "name": "中直股份"
+      "name": "中直股份",
+      "core_business": [
+        "直升机研发制造"
+      ],
+      "industry_position": [
+        "直升机制造龙头，在军用及民用直升机研发制造深耕多年，产品覆盖多吨位、多用途直升机",
+        "低空经济中直升机在交通通勤、应急救援、旅游观光等场景需求旺盛"
+      ]
     },
     "600046": {
       "mention_count": 1,
@@ -71409,7 +71893,7 @@
       "name": "奥瑞德"
     },
     "600667": {
-      "mention_count": 2,
+      "mention_count": 3,
       "last_updated": "2026-06-04",
       "concepts": [
         "OLED",
@@ -71458,6 +71942,20 @@
           "key_metrics": [
             "后工序服务合同至2030年"
           ],
+          "target_valuation": []
+        },
+        {
+          "title": "高盛最新持仓存储芯片，这十家凭什么被选中？",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/ATmIIWd6w60hA3J1m4EDgQ",
+          "accidents": [
+            "子公司十一科技是国内知名的工程技术服务企业",
+            "参与了国内多个大型晶圆厂和存储芯片工厂的工程建设"
+          ],
+          "insights": [
+            "高盛持仓-半导体工程设计+总承包"
+          ],
+          "key_metrics": [],
           "target_valuation": []
         }
       ],
@@ -87980,7 +88478,7 @@
     },
     "603690": {
       "mention_count": 2,
-      "last_updated": "2026-05-10",
+      "last_updated": "2026-06-04",
       "concepts": [
         "先进封装",
         "沪股通",
@@ -87993,28 +88491,47 @@
         "光纤概念",
         "存储芯片",
         "传感器",
-        "华为概念"
+        "华为概念",
+        "高纯工艺系统",
+        "半导体湿法清洗"
       ],
       "industry_position": [
-        "国内半导体湿法清洗设备龙头"
+        "国内半导体湿法清洗设备龙头",
+        "主营业务为高纯工艺系统和半导体湿法清洗设备，为晶圆厂提供生产环境所需的高纯度介质供应系统和清洗设备"
       ],
       "articles": [
         {
           "date": "",
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "title": "高盛最新持仓存储芯片，这十家凭什么被选中？",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/ATmIIWd6w60hA3J1m4EDgQ",
+          "accidents": [
+            "主营业务为高纯工艺系统和半导体湿法清洗设备",
+            "为晶圆厂提供生产环境所需的高纯度介质供应系统和清洗设备"
+          ],
+          "insights": [
+            "高盛持仓-高纯工艺系统+半导体湿法清洗"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "industry": "电子-半导体-半导体设备",
       "board": "SH",
       "products": [
-        "半导体湿法清洗设备"
+        "半导体湿法清洗设备",
+        "高纯工艺系统"
       ],
       "chain": [
         "中游-半导体设备"
       ],
       "core_business": [
-        "半导体湿法清洗设备的研发、生产"
+        "半导体湿法清洗设备的研发、生产",
+        "高纯工艺系统+半导体湿法清洗设备"
       ],
       "code": "603690",
       "name": "至纯科技"
@@ -96039,8 +96556,8 @@
       "processed_at": "2026-05-20T20:36:11.630124+08:00"
     },
     "688219": {
-      "mention_count": 1,
-      "last_updated": "2026-05-10",
+      "mention_count": 2,
+      "last_updated": "2026-06-04",
       "concepts": [
         "小米汽车",
         "沪股通",
@@ -96069,7 +96586,10 @@
         "融资融券",
         "机器人概念",
         "消费电子概念",
-        "DeepSeek概念"
+        "DeepSeek概念",
+        "PEEK",
+        "高温尼龙",
+        "改性塑料"
       ],
       "articles": [
         {
@@ -96079,15 +96599,43 @@
           "insights": [
             "更值得关注的是，"
           ]
+        },
+        {
+          "title": "涉足PEEK领域的上市公司盘点",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/bTfmCfQ-CPml6D-J3mVkaA",
+          "accidents": [
+            "计划投资8100万元建设年产高温尼龙3000吨、PEEK 600吨聚合生产项目",
+            "已掌握PEEK树脂分子量及分子量分布调控等核心技术"
+          ],
+          "insights": [
+            "PEEK-改性塑料向上游聚合延伸"
+          ],
+          "key_metrics": [
+            "规划PEEK产能600吨/年"
+          ],
+          "target_valuation": []
         }
       ],
       "industry": "基础化工-塑料制品-改性塑料",
       "board": "SH",
       "chain": [
-        "上游-材料"
+        "上游-材料",
+        "中游-PEEK"
       ],
       "code": "688219",
-      "name": "会通股份"
+      "name": "会通股份",
+      "core_business": [
+        "改性塑料+PEEK聚合"
+      ],
+      "industry_position": [
+        "计划投资8100万元建设年产高温尼龙3000吨、PEEK 600吨聚合生产项目",
+        "已掌握PEEK树脂分子量及分子量分布调控等核心技术"
+      ],
+      "products": [
+        "PEEK",
+        "高温尼龙"
+      ]
     },
     "688220": {
       "mention_count": 2,
@@ -98837,8 +99385,8 @@
       "name": "光云科技"
     },
     "688372": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-04",
       "concepts": [
         "2025年报预增",
         "MCU芯片",
@@ -98848,11 +99396,14 @@
         "沪股通",
         "消费电子概念",
         "芯片概念",
-        "融资融券"
+        "融资融券",
+        "晶圆测试",
+        "芯片测试"
       ],
       "industry_position": [
         "独立第三方测试龙头",
-        "算力芯片测试核心供应商"
+        "算力芯片测试核心供应商",
+        "专注于晶圆测试和芯片成品测试服务，为芯片设计企业提供从晶圆到成品的全流程测试方案"
       ],
       "articles": [
         {
@@ -98864,20 +99415,40 @@
             "算力芯片测试核心供应商",
             "独立第三方测试龙头，算力芯片测试核心供应商，受益国产算力成长"
           ]
+        },
+        {
+          "title": "高盛最新持仓存储芯片，这十家凭什么被选中？",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/ATmIIWd6w60hA3J1m4EDgQ",
+          "accidents": [
+            "专注于晶圆测试和芯片成品测试服务，为芯片设计企业提供从晶圆到成品的全流程测试方案",
+            "半导体封测环节中测试服务的主要供应商之一"
+          ],
+          "insights": [
+            "高盛持仓-晶圆测试+芯片成品测试"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "industry": "电子-半导体-集成电路封测",
       "board": "SH",
       "products": [
         "独立第三方测试",
-        "算力芯片测试"
+        "算力芯片测试",
+        "晶圆测试",
+        "芯片成品测试"
       ],
       "core_business": [
         "独立第三方测试",
-        "算力芯片测试"
+        "算力芯片测试",
+        "半导体测试服务"
       ],
       "code": "688372",
-      "name": "伟测科技"
+      "name": "伟测科技",
+      "chain": [
+        "中游-半导体封测"
+      ]
     },
     "688375": {
       "mention_count": 3,
@@ -110691,11 +111262,34 @@
       "code": "002048",
       "name": "宁波华翔",
       "concept": "",
-      "mention_count": 14,
-      "articles": [],
-      "last_updated": "2026-05-31",
-      "core_business": [],
-      "industry_position": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "涉足PEEK领域的上市公司盘点",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/bTfmCfQ-CPml6D-J3mVkaA",
+          "accidents": [
+            "通过合资公司获得吉林大学PEEK工业化量产相关专利20年实施许可",
+            "年产12000吨PEEK一体化产线的一期4000吨产能已完成产线调试、进入试生产阶段",
+            "是目前国内唯一实现PEEK'聚合—改性—成型—骨骼件/关节件'全价值链布局的公司"
+          ],
+          "insights": [
+            "PEEK-汽车零部件跨界+机器人关节件"
+          ],
+          "key_metrics": [
+            "规划PEEK产能12000吨/年，一期4000吨试生产"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "core_business": [
+        "汽车零部件+PEEK材料"
+      ],
+      "industry_position": [
+        "通过合资公司获得吉林大学PEEK工业化量产相关专利20年实施许可，打造从PEEK粒子聚合到改性、成型再到机器人关节件的全产业链闭环",
+        "年产12000吨PEEK一体化产线的一期4000吨产能已完成产线调试、进入试生产阶段"
+      ],
       "valuation": {},
       "industry": "汽车-汽车零部件-车身附件及饰件",
       "concepts": [
@@ -110716,12 +111310,22 @@
         "深股通",
         "特斯拉概念",
         "融资融券",
-        "长安汽车概念"
+        "长安汽车概念",
+        "PEEK",
+        "机器人关节件",
+        "汽车零部件"
       ],
-      "partners": [],
+      "partners": [
+        "吉林大学"
+      ],
       "board": "",
-      "products": [],
-      "chain": []
+      "products": [
+        "PEEK粒子",
+        "机器人关节件"
+      ],
+      "chain": [
+        "中游-PEEK+机器人"
+      ]
     },
     "002054": {
       "code": "002054",
@@ -110853,11 +111457,30 @@
       "code": "002077",
       "name": "大港股份",
       "concept": "",
-      "mention_count": 3,
-      "articles": [],
-      "last_updated": "2026-05-31",
-      "core_business": [],
-      "industry_position": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "高盛最新持仓存储芯片，这十家凭什么被选中？",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/ATmIIWd6w60hA3J1m4EDgQ",
+          "accidents": [
+            "通过子公司布局集成电路封装测试业务",
+            "主要提供芯片封装、测试及模组加工服务，服务于消费电子和工业控制领域"
+          ],
+          "insights": [
+            "高盛持仓-集成电路封装测试"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "core_business": [
+        "集成电路封装测试"
+      ],
+      "industry_position": [
+        "通过子公司布局集成电路封装测试业务，主要提供芯片封装、测试及模组加工服务，服务于消费电子和工业控制领域"
+      ],
       "valuation": {},
       "industry": "电子-半导体-集成电路封测",
       "concepts": [
@@ -110872,12 +111495,20 @@
         "深股通",
         "芯片概念",
         "融资融券",
-        "锂电池概念"
+        "锂电池概念",
+        "集成电路封装",
+        "封装测试"
       ],
       "partners": [],
       "board": "",
-      "products": [],
-      "chain": []
+      "products": [
+        "芯片封装",
+        "芯片测试",
+        "模组加工"
+      ],
+      "chain": [
+        "中游-半导体封测"
+      ]
     },
     "002090": {
       "code": "002090",
@@ -115741,18 +116372,51 @@
       "name": "大洋生物",
       "concept": "",
       "mention_count": 1,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "articles": [
+        {
+          "title": "涉足PEEK领域的上市公司盘点",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/bTfmCfQ-CPml6D-J3mVkaA",
+          "accidents": [
+            "拟投资1.9325亿元新建年产2000吨PEEK及关键中间体DFBP等项目，建设周期30个月",
+            "项目可打造'中间体—PEEK成品'的闭环产业链，打破海外产业封锁"
+          ],
+          "insights": [
+            "PEEK-新进入者+闭环产业链"
+          ],
+          "key_metrics": [
+            "投资1.9325亿元，年产2000吨PEEK"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
       "concepts": [
         "2025年报预增",
         "PEEK材料",
         "中俄贸易概念",
         "化肥",
         "氟化工概念",
-        "芯片概念"
+        "芯片概念",
+        "PEEK",
+        "DFBP",
+        "含氟精细化学品"
       ],
       "industry": "基础化工-化学原料-无机盐",
-      "board": ""
+      "board": "",
+      "core_business": [
+        "含氟精细化学品+PEEK材料"
+      ],
+      "industry_position": [
+        "拟投资1.9325亿元新建年产2000吨PEEK及关键中间体DFBP等项目，打造'中间体—PEEK成品'闭环产业链"
+      ],
+      "chain": [
+        "上游-PEEK原料"
+      ],
+      "products": [
+        "PEEK",
+        "DFBP"
+      ]
     },
     "003023": {
       "code": "003023",
@@ -119384,8 +120048,23 @@
       "name": "太龙股份",
       "concept": "",
       "mention_count": 1,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "articles": [
+        {
+          "title": "高盛最新持仓存储芯片，这十家凭什么被选中？",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/ATmIIWd6w60hA3J1m4EDgQ",
+          "accidents": [
+            "主营业务包括商业照明设备和半导体分销两大板块",
+            "分销业务代理多款存储芯片和功率器件，服务于消费电子和汽车电子客户"
+          ],
+          "insights": [
+            "高盛持仓-半导体分销+商业照明"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
       "concepts": [
         "5G",
         "MiniLED",
@@ -119403,10 +120082,25 @@
         "汽车电子",
         "海峡两岸",
         "物联网",
-        "芯片概念"
+        "芯片概念",
+        "半导体分销",
+        "商业照明"
       ],
       "industry": "电子-其他电子-其他电子Ⅲ",
-      "board": ""
+      "board": "",
+      "core_business": [
+        "商业照明+半导体分销"
+      ],
+      "industry_position": [
+        "主营业务包括商业照明设备和半导体分销两大板块，其中分销业务代理多款存储芯片和功率器件，服务于消费电子和汽车电子客户"
+      ],
+      "chain": [
+        "中游-半导体分销"
+      ],
+      "products": [
+        "存储芯片",
+        "功率器件"
+      ]
     },
     "300655": {
       "code": "300655",
@@ -139709,6 +140403,410 @@
           ],
           "insights": [
             "城市更新+存量房检测"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "300279": {
+      "name": "和晶科技",
+      "code": "300279",
+      "board": "SZ",
+      "industry": "电子-消费电子-智能硬件",
+      "concepts": [
+        "智能控制器",
+        "汽车电子",
+        "物联网",
+        "BMS"
+      ],
+      "products": [
+        "智能控制器",
+        "BMS电池管理系统",
+        "ECU助力转向系统",
+        "充电枪",
+        "车用传感器"
+      ],
+      "core_business": [
+        "智能控制器+汽车电子+物联网方案"
+      ],
+      "industry_position": [
+        "家电智能控制器全球领先，与全球顶尖品牌战略合作，业务覆盖亚洲、北美和欧洲",
+        "汽车电子BMS/ECU等产品间接供货比亚迪、蔚来、特斯拉、大众等",
+        "智慧安全业务覆盖32个行业领域"
+      ],
+      "chain": [
+        "中游-智能硬件"
+      ],
+      "partners": [
+        "比亚迪",
+        "蔚来",
+        "特斯拉",
+        "大众",
+        "通用",
+        "沃尔沃",
+        "吉利",
+        "赛力斯",
+        "诺基亚",
+        "爱立信"
+      ],
+      "articles": [
+        {
+          "title": "和晶科技",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/qQOkt_NviJwnFnVU1PpRxw",
+          "accidents": [
+            "智能控制器产品覆盖家电、汽车电子、通讯、工业控制等领域",
+            "汽车电子BMS/ECU等产品间接供货比亚迪、蔚来、特斯拉等国内外整车企业",
+            "智慧安全业务以'安全生产+消防安全'为主线，覆盖32个行业领域",
+            "IoT监控监测及预警平台实现区域级、用户级数据可视化"
+          ],
+          "insights": [
+            "和晶科技-智能控制器+汽车电子+物联网综合方案商"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "603375": {
+      "name": "盛景微",
+      "code": "603375",
+      "board": "SH",
+      "industry": "电子-电子元件-电子控制模块",
+      "concepts": [
+        "电子控制模块",
+        "民用爆破"
+      ],
+      "products": [
+        "电子控制模块"
+      ],
+      "core_business": [
+        "电子控制模块研发与生产"
+      ],
+      "industry_position": [
+        "专注于电子控制模块的研发与生产，产品主要应用于民用爆破领域，同时也在拓展其他工业控制场景下的电子模块应用"
+      ],
+      "chain": [
+        "中游-电子元件"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "高盛最新持仓存储芯片，这十家凭什么被选中？",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/ATmIIWd6w60hA3J1m4EDgQ",
+          "accidents": [
+            "专注于电子控制模块的研发与生产，产品主要应用于民用爆破领域",
+            "同时也在拓展其他工业控制场景下的电子模块应用"
+          ],
+          "insights": [
+            "高盛持仓-电子控制模块"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "300538": {
+      "name": "同益股份",
+      "code": "300538",
+      "board": "SZ",
+      "industry": "商业贸易-贸易-材料分销",
+      "concepts": [
+        "工程塑料",
+        "半导体分销"
+      ],
+      "products": [
+        "工程塑料",
+        "电子材料"
+      ],
+      "core_business": [
+        "工程塑料销售+半导体分销"
+      ],
+      "industry_position": [
+        "从事工程塑料和电子材料的销售与技术服务，同时布局半导体分销业务，为客户提供从材料到元器件的综合解决方案"
+      ],
+      "chain": [
+        "中游-材料分销"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "高盛最新持仓存储芯片，这十家凭什么被选中？",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/ATmIIWd6w60hA3J1m4EDgQ",
+          "accidents": [
+            "从事工程塑料和电子材料的销售与技术服务，同时布局半导体分销业务",
+            "为客户提供从材料到元器件的综合解决方案"
+          ],
+          "insights": [
+            "高盛持仓-工程塑料+半导体分销"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "688573": {
+      "name": "信宇人",
+      "code": "688573",
+      "board": "SH",
+      "industry": "电力设备-锂电池设备-锂电设备",
+      "concepts": [
+        "锂电池设备",
+        "涂布机"
+      ],
+      "products": [
+        "涂布机",
+        "辊压机"
+      ],
+      "core_business": [
+        "锂电池生产设备制造"
+      ],
+      "industry_position": [
+        "专注于锂电池生产设备的研发与制造，产品涵盖涂布机、辊压机等锂电中段设备，主要客户为国内动力电池生产企业"
+      ],
+      "chain": [
+        "中游-锂电池设备"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "高盛最新持仓存储芯片，这十家凭什么被选中？",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/ATmIIWd6w60hA3J1m4EDgQ",
+          "accidents": [
+            "专注于锂电池生产设备的研发与制造，产品涵盖涂布机、辊压机等锂电中段设备",
+            "主要客户为国内动力电池生产企业"
+          ],
+          "insights": [
+            "高盛持仓-锂电池设备"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "300644": {
+      "name": "南京聚隆",
+      "code": "300644",
+      "board": "SZ",
+      "industry": "化工-化学制品-改性塑料",
+      "concepts": [
+        "PEEK",
+        "改性塑料",
+        "高分子材料"
+      ],
+      "products": [
+        "PEEK增强材料",
+        "耐磨改性PEEK"
+      ],
+      "core_business": [
+        "改性高分子材料"
+      ],
+      "industry_position": [
+        "深耕改性高分子材料，具备PEEK增强、耐磨、阻燃、导热等改性开发能力，卡位PEEK工程化量产应用环节"
+      ],
+      "chain": [
+        "中游-改性PEEK"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "人形机器人稀缺材料！比稀土还珍贵的高端制造王者！",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/OzRbnSnh10nvPj0ROwydZA",
+          "accidents": [
+            "深耕改性高分子材料，具备PEEK增强、耐磨、阻燃、导热等改性开发能力"
+          ],
+          "insights": [
+            "PEEK-改性材料工程化应用"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "002708": {
+      "name": "光洋股份",
+      "code": "002708",
+      "board": "SZ",
+      "industry": "汽车-汽车零部件-轴承",
+      "concepts": [
+        "低空经济",
+        "精密轴承",
+        "齿轮"
+      ],
+      "products": [
+        "精密轴承",
+        "齿轮"
+      ],
+      "core_business": [
+        "精密轴承+齿轮制造"
+      ],
+      "industry_position": [
+        "专注精密轴承、齿轮等产品制造，满足低空飞行器对零部件高精度、高可靠性要求",
+        "深度绑定下游主机厂，从通用航空到新兴低空应用场景拓展"
+      ],
+      "chain": [
+        "中游-低空零部件"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "低空经济核心龙头股深度剖析与产业全景梳理",
+          "date": "2025-07-19",
+          "source": "https://mp.weixin.qq.com/s/J2GkhHCtAOeGf1OTtLub-A",
+          "accidents": [
+            "专注精密轴承、齿轮等产品制造，满足低空飞行器对零部件高精度、高可靠性要求",
+            "深度绑定下游主机厂，从通用航空到新兴低空应用场景拓展"
+          ],
+          "insights": [
+            "低空经济-精密轴承+齿轮"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "002984": {
+      "name": "森麒麟",
+      "code": "002984",
+      "board": "SZ",
+      "industry": "汽车-汽车零部件-轮胎",
+      "concepts": [
+        "低空经济",
+        "航空轮胎",
+        "轮胎"
+      ],
+      "products": [
+        "航空轮胎"
+      ],
+      "core_business": [
+        "轮胎研发制造"
+      ],
+      "industry_position": [
+        "航空轮胎技术突破为低空飞行器提供关键支持，研发适配的耐磨、抗冲击轮胎",
+        "在通航飞机、无人机等领域逐步拓展"
+      ],
+      "chain": [
+        "中游-低空零部件"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "低空经济核心龙头股深度剖析与产业全景梳理",
+          "date": "2025-07-19",
+          "source": "https://mp.weixin.qq.com/s/J2GkhHCtAOeGf1OTtLub-A",
+          "accidents": [
+            "航空轮胎技术突破为低空飞行器提供关键支持，研发适配的耐磨、抗冲击轮胎",
+            "在通航飞机、无人机等领域逐步拓展"
+          ],
+          "insights": [
+            "低空经济-航空轮胎"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "300411": {
+      "name": "金盾股份",
+      "code": "300411",
+      "board": "SZ",
+      "industry": "机械设备-专用设备-通风设备",
+      "concepts": [
+        "低空经济",
+        "通风设备",
+        "军工配套"
+      ],
+      "products": [
+        "通风设备",
+        "环境控制系统"
+      ],
+      "core_business": [
+        "通风设备+军工配套"
+      ],
+      "industry_position": [
+        "产品在低空飞行器环境控制、防护系统有应用",
+        "凭借军工技术背景，将产品拓展至通航、低空服务设备"
+      ],
+      "chain": [
+        "中游-低空零部件"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "低空经济核心龙头股深度剖析与产业全景梳理",
+          "date": "2025-07-19",
+          "source": "https://mp.weixin.qq.com/s/J2GkhHCtAOeGf1OTtLub-A",
+          "accidents": [
+            "产品在低空飞行器环境控制、防护系统有应用",
+            "凭借军工技术背景，将产品拓展至通航、低空服务设备"
+          ],
+          "insights": [
+            "低空经济-环境控制+军工"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "002053": {
+      "name": "航宇微",
+      "code": "002053",
+      "board": "SZ",
+      "industry": "国防军工-军工电子-航空电子",
+      "concepts": [
+        "低空经济",
+        "航空电子",
+        "飞控系统"
+      ],
+      "products": [
+        "飞控系统",
+        "导航设备"
+      ],
+      "core_business": [
+        "航空电子系统"
+      ],
+      "industry_position": [
+        "聚焦航空电子、半导体等领域，为低空主机提供核心电子系统与芯片支持",
+        "航空电子技术在飞控系统、导航设备等集成应用"
+      ],
+      "chain": [
+        "中游-低空航电"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "低空经济核心龙头股深度剖析与产业全景梳理",
+          "date": "2025-07-19",
+          "source": "https://mp.weixin.qq.com/s/J2GkhHCtAOeGf1OTtLub-A",
+          "accidents": [
+            "聚焦航空电子、半导体等领域，为低空主机提供核心电子系统与芯片支持",
+            "航空电子技术在飞控系统、导航设备等集成应用"
+          ],
+          "insights": [
+            "低空经济-航空电子"
           ],
           "key_metrics": [],
           "target_valuation": []
