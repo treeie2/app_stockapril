@@ -1,6 +1,6 @@
 {
   "date": "2026-06-04",
-  "update_count": 59,
+  "update_count": 79,
   "last_updated": "2026-06-04",
   "stocks": {
     "688090": {
@@ -1707,6 +1707,630 @@
           ],
           "key_metrics": [],
           "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "301468": {
+      "name": "博盈特焊",
+      "code": "301468",
+      "board": "SZ",
+      "core_business": [
+        "防腐防磨堆焊装备",
+        "HRSG余热锅炉"
+      ],
+      "industry_position": [
+        "越南生产基地已形成规模化产能",
+        "已取得美国ASME认证"
+      ],
+      "articles": [
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/Pfn9sMamn-D6qCsUjp-K3w",
+          "accidents": [
+            "大凹生产基地和越南生产基地已形成产能",
+            "越南HRSG业务取得进展已承接订单"
+          ],
+          "key_metrics": [
+            "4条生产线已具备规模化产能",
+            "2026年规划扩建8条生产线"
+          ],
+          "insights": [
+            "毗邻国际海运航线主要服务北美市场"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "000531": {
+      "name": "穗恒运A",
+      "code": "000531",
+      "board": "SZ",
+      "core_business": [
+        "储能",
+        "电力"
+      ],
+      "articles": [
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/Pfn9sMamn-D6qCsUjp-K3w",
+          "accidents": [
+            "成立储能公司作为储能业务平台",
+            "建成投运2GWh储能智造中心"
+          ],
+          "key_metrics": [
+            "已投运储能电站28个,装机259MWh",
+            "在建储能项目5个,装机130MWh"
+          ],
+          "insights": [
+            "中新知识城新型储能示范项目正在建设中"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "300444": {
+      "name": "双杰电气",
+      "code": "300444",
+      "board": "SZ",
+      "core_business": [
+        "变压器",
+        "智能电气设备"
+      ],
+      "industry_position": [
+        "取得北美UL认证和欧洲CE认证"
+      ],
+      "articles": [
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/Pfn9sMamn-D6qCsUjp-K3w",
+          "accidents": [
+            "变压器通过代理商渠道进入欧美市场",
+            "智能电气产品海外订单增速较快"
+          ],
+          "insights": [
+            "通过智能电气海外渠道及新签约代理商拓展变压器订单"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "301278": {
+      "name": "快可电子",
+      "code": "301278",
+      "board": "SZ",
+      "core_business": [
+        "光伏接线盒",
+        "光伏连接器"
+      ],
+      "articles": [
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/Pfn9sMamn-D6qCsUjp-K3w",
+          "accidents": [
+            "光伏接线盒和连接器适配钙钛矿组件,已有批量出货"
+          ],
+          "key_metrics": [
+            "美国工厂年产能约1000万套接线盒"
+          ],
+          "insights": [
+            "美国工厂订单充裕,将根据北美市场需求择机扩产"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "002812": {
+      "name": "恩捷股份",
+      "code": "002812",
+      "board": "SZ",
+      "core_business": [
+        "湿法隔膜",
+        "固态电池电解质"
+      ],
+      "industry_position": [
+        "湿法隔膜全球市占率多年位居第一"
+      ],
+      "partners": [
+        "中科华联"
+      ],
+      "articles": [
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/Pfn9sMamn-D6qCsUjp-K3w",
+          "accidents": [
+            "湿法隔膜25年8月第一轮涨价约7%",
+            "25年12月第二轮涨价部分上调30%",
+            "拟收购中科华联100%股权"
+          ],
+          "key_metrics": [
+            "25年隔膜出货量接近100亿平",
+            "25年市占率30%以上"
+          ],
+          "insights": [
+            "硫化锂中试线已搭建完成",
+            "10吨级固态电解质产线已投产",
+            "收购中科华联利好份额提升"
+          ],
+          "target_valuation": [
+            "甬兴证券预计26/27年收入201/247亿元",
+            "归母净利润21/31亿元"
+          ]
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "688398": {
+      "name": "赛特新材",
+      "code": "688398",
+      "board": "SH",
+      "core_business": [
+        "真空绝热板VIP",
+        "超细玻璃棉芯材",
+        "真空绝热玻璃VIG"
+      ],
+      "industry_position": [
+        "VIP业务规模显著领先国内外同业"
+      ],
+      "partners": [
+        "三星",
+        "LG",
+        "海尔",
+        "美的"
+      ],
+      "articles": [
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/Pfn9sMamn-D6qCsUjp-K3w",
+          "accidents": [
+            "冰箱新国标2026年6月1日执行,能效要求大幅提升",
+            "26年首批国补资金625亿元已下达"
+          ],
+          "insights": [
+            "VIP是冰箱保温材料理想升级方向",
+            "新国标利好VIP需求提升"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "300672": {
+      "name": "国科微",
+      "code": "300672",
+      "board": "SZ",
+      "core_business": [
+        "AI与多媒体芯片",
+        "固态存储主控芯片",
+        "Wi-Fi6芯片",
+        "汽车SerDes芯片"
+      ],
+      "industry_position": [
+        "国内领先的AI与多媒体芯片设计企业"
+      ],
+      "articles": [
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/Pfn9sMamn-D6qCsUjp-K3w",
+          "accidents": [
+            "1月20日发布涨价通知,合封KGD产品涨价40%~80%"
+          ],
+          "insights": [
+            "自研Wi-Fi6芯片即将导入主流客户",
+            "车载AI及SerDes芯片实现技术和量产突破"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "605377": {
+      "name": "华旺科技",
+      "code": "605377",
+      "board": "SH",
+      "core_business": [
+        "装饰原纸",
+        "特种纸"
+      ],
+      "industry_position": [
+        "中高端装饰原纸龙头"
+      ],
+      "articles": [
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/Pfn9sMamn-D6qCsUjp-K3w",
+          "accidents": [
+            "造纸行业新一轮密集涨价潮"
+          ],
+          "key_metrics": [
+            "公司25-27年EPS预测0.68/0.79/0.87元"
+          ],
+          "insights": [
+            "行业新增产能投放基本结束",
+            "浆价持续修复构成提价成本支撑"
+          ],
+          "target_valuation": [
+            "国金证券预计25-27年EPS 0.68/0.79/0.87元",
+            "当前PE 18/15/14倍,维持买入评级"
+          ]
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "002487": {
+      "name": "大金重工",
+      "code": "002487",
+      "board": "SZ",
+      "core_business": [
+        "风电塔筒",
+        "海上风电"
+      ],
+      "industry_position": [
+        "欧洲风电塔筒市占率达30%"
+      ],
+      "articles": [
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/Pfn9sMamn-D6qCsUjp-K3w",
+          "accidents": [
+            "英国取消33项风电组件进口关税",
+            "欧洲海风进入产业加速期"
+          ],
+          "insights": [
+            "欧洲市占率已达30%,开始向服务环节延伸"
+          ],
+          "target_valuation": [
+            "天风电新重点推荐"
+          ]
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "603606": {
+      "name": "东方电缆",
+      "code": "603606",
+      "board": "SH",
+      "core_business": [
+        "海缆"
+      ],
+      "industry_position": [
+        "英国海缆订单领先"
+      ],
+      "articles": [
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/Pfn9sMamn-D6qCsUjp-K3w",
+          "accidents": [
+            "英国取消风电组件关税利好海缆出海"
+          ],
+          "key_metrics": [
+            "已中标英国海缆订单近40亿"
+          ],
+          "insights": [
+            "26年英国AR7还有新增订单催化"
+          ],
+          "target_valuation": [
+            "天风电新重点推荐"
+          ]
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "601615": {
+      "name": "明阳智能",
+      "code": "601615",
+      "board": "SH",
+      "core_business": [
+        "风机"
+      ],
+      "articles": [
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/Pfn9sMamn-D6qCsUjp-K3w",
+          "accidents": [
+            "英国基本没有本地风机产能",
+            "明阳落地英国风机基地"
+          ],
+          "insights": [
+            "充分受益英国风电需求"
+          ],
+          "target_valuation": [
+            "天风电新重点推荐"
+          ]
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "300443": {
+      "name": "金雷股份",
+      "code": "300443",
+      "board": "SZ",
+      "core_business": [
+        "风电主轴"
+      ],
+      "partners": [
+        "西门子",
+        "维斯塔斯"
+      ],
+      "articles": [
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/Pfn9sMamn-D6qCsUjp-K3w",
+          "accidents": [
+            "西门子和维斯塔斯不断追加订单",
+            "签订产能锁产协议"
+          ],
+          "key_metrics": [
+            "前期欧洲收入占比30-40%"
+          ],
+          "insights": [
+            "欧洲海风放量直接受益"
+          ],
+          "target_valuation": [
+            "天风电新重点推荐"
+          ]
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "603507": {
+      "name": "振江股份",
+      "code": "603507",
+      "board": "SH",
+      "core_business": [
+        "风机零部件"
+      ],
+      "articles": [
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/Pfn9sMamn-D6qCsUjp-K3w",
+          "accidents": [
+            "欧洲海风吊装环节开始放量"
+          ],
+          "key_metrics": [
+            "Q1业绩有望开始释放"
+          ],
+          "insights": [
+            "欧洲风机零部件弹性大",
+            "27年及以后量还会再上一个大台阶"
+          ],
+          "target_valuation": [
+            "中泰电新推荐"
+          ]
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "002001": {
+      "name": "新和成",
+      "code": "002001",
+      "board": "SZ",
+      "core_business": [
+        "维生素",
+        "氨基酸"
+      ],
+      "articles": [
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/Pfn9sMamn-D6qCsUjp-K3w",
+          "accidents": [
+            "霍尔木兹海峡商业航运实质中断",
+            "维生素E价格66500元/吨周环比+11.8%",
+            "蛋氨酸价格23850元/吨周环比+24.54%"
+          ],
+          "insights": [
+            "中东局势不明朗,维生素氨基酸产品价格有望偏强运行"
+          ],
+          "target_valuation": [
+            "山西化工推荐维生素氨基酸产业链"
+          ]
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "600299": {
+      "name": "安迪苏",
+      "code": "600299",
+      "board": "SH",
+      "core_business": [
+        "蛋氨酸",
+        "维生素"
+      ],
+      "articles": [
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/Pfn9sMamn-D6qCsUjp-K3w",
+          "accidents": [
+            "蛋氨酸涨价至23850元/吨周环比+24.54%"
+          ],
+          "insights": [
+            "霍尔木兹海峡中断利好蛋氨酸涨价"
+          ],
+          "target_valuation": [
+            "山西化工推荐"
+          ]
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "600873": {
+      "name": "梅花生物",
+      "code": "600873",
+      "board": "SH",
+      "core_business": [
+        "氨基酸"
+      ],
+      "articles": [
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/Pfn9sMamn-D6qCsUjp-K3w",
+          "accidents": [
+            "蛋氨酸等氨基酸产品涨价"
+          ],
+          "insights": [
+            "霍尔木兹海峡中断利好氨基酸产业链"
+          ],
+          "target_valuation": [
+            "山西化工推荐"
+          ]
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "600216": {
+      "name": "浙江医药",
+      "code": "600216",
+      "board": "SH",
+      "core_business": [
+        "维生素E"
+      ],
+      "articles": [
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/Pfn9sMamn-D6qCsUjp-K3w",
+          "accidents": [
+            "维生素E价格66500元/吨周环比+11.76%"
+          ],
+          "insights": [
+            "中东局势推升维生素涨价预期"
+          ],
+          "target_valuation": [
+            "山西化工推荐"
+          ]
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "002426": {
+      "name": "胜利精密",
+      "code": "002426",
+      "board": "SZ",
+      "core_business": [
+        "复合铜箔"
+      ],
+      "articles": [
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/Pfn9sMamn-D6qCsUjp-K3w",
+          "accidents": [
+            "取得头部客户订单技术授权+订单",
+            "应客户要求大幅扩产"
+          ],
+          "key_metrics": [
+            "1平复合铜箔单位利润1元/平"
+          ],
+          "insights": [
+            "复合铜箔头部厂家普遍实现80%以上良率",
+            "报价已低于传统铜箔具备经济性"
+          ],
+          "target_valuation": [
+            "天风机械建议优先关注设备端"
+          ]
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "688359": {
+      "name": "三孚新科",
+      "code": "688359",
+      "board": "SH",
+      "core_business": [
+        "复合铜箔设备",
+        "PCB电镀设备",
+        "电镀药水"
+      ],
+      "partners": [
+        "胜利精密"
+      ],
+      "articles": [
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/Pfn9sMamn-D6qCsUjp-K3w",
+          "accidents": [
+            "与胜利精密深度合作复合铜箔设备"
+          ],
+          "key_metrics": [
+            "每亿平产能对应2亿设备+每年0.4亿药水"
+          ],
+          "insights": [
+            "PCB电镀设备+药水国产替代空间巨大"
+          ],
+          "target_valuation": [
+            "天风机械建议关注设备端"
+          ]
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "688700": {
+      "name": "东威科技",
+      "code": "688700",
+      "board": "SH",
+      "core_business": [
+        "电镀设备",
+        "磁控溅射设备"
+      ],
+      "articles": [
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/Pfn9sMamn-D6qCsUjp-K3w",
+          "accidents": [
+            "电镀设备25年翻倍,26年有望继续高增",
+            "AIPCB占比达一半"
+          ],
+          "key_metrics": [
+            "磁控溅射设备截至25年已出货6+亿元"
+          ],
+          "insights": [
+            "光伏HJT第三代镀铜设备已小批量试生产"
+          ],
+          "target_valuation": [
+            "天风机械建议关注设备端"
+          ]
         }
       ],
       "last_updated": "2026-06-04",
