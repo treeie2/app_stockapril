@@ -8520,8 +8520,8 @@
       "name": "格力电器"
     },
     "000657": {
-      "mention_count": 4,
-      "last_updated": "2026-05-31",
+      "mention_count": 5,
+      "last_updated": "2026-06-04",
       "partners": [],
       "concepts": [
         "2026一季报预增",
@@ -8589,6 +8589,21 @@
           "insights": [],
           "accidents": [
             "子公司金洲精工布局金刚石复合涂层"
+          ]
+        },
+        {
+          "title": "今天的一些信息整理6.3",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/UGk0JW8vLqtgg4ww8Kon6g",
+          "accidents": [
+            "钨价筑底或回升"
+          ],
+          "insights": [
+            "全球PCB钻针前二强，'高长径比+极小径'高端PCB钻针领先者"
+          ],
+          "key_metrics": [],
+          "target_valuation": [
+            "上调目标市值2200e"
           ]
         }
       ],
@@ -25519,7 +25534,7 @@
         "PCB 载板化",
         "AI 服务器 PCB"
       ],
-      "last_updated": "2026-05-31",
+      "last_updated": "2026-06-04",
       "industry_position": [
         "FSD域控制器PCB供应商（已有，追加）"
       ],
@@ -25543,7 +25558,7 @@
         "融资融券"
       ],
       "code": "002463",
-      "mention_count": 4,
+      "mention_count": 5,
       "partners": [
         "AI 服务器厂商"
       ],
@@ -25631,6 +25646,20 @@
           "url": "https://mp.weixin.qq.com/s/ZqxQQsvGQYGnHnX-Lcrcdw",
           "date": "2026-05-26",
           "summary": "高频高速CCL技术领先，积极参与AI服务器背板研发，采用先进工艺解决PTFE加工难题"
+        },
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/NMHh-jt7aTTCkl_W7wP8mA",
+          "accidents": [
+            "布局CoWoP、mSAP、光铜融合等前沿技术"
+          ],
+          "insights": [
+            "AI服务器与高速网络交换机产品是核心业绩支柱",
+            "未来将落地高密度光电集成线路板产能"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "board": "深市主板",
@@ -31808,8 +31837,8 @@
       "name": "威星智能"
     },
     "002851": {
-      "mention_count": 4,
-      "last_updated": "2026-06-03",
+      "mention_count": 5,
+      "last_updated": "2026-06-04",
       "concepts": [
         "一带一路",
         "中国AI 50",
@@ -31919,6 +31948,20 @@
             "算力基础设施",
             "电源设备"
           ]
+        },
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/NMHh-jt7aTTCkl_W7wP8mA",
+          "accidents": [
+            "自2025年底开始陆续有项目转入产品批量交付阶段"
+          ],
+          "insights": [
+            "持续发力AI数据中心电源赛道",
+            "产品矩阵从电网输入延伸至GPU终端，全链路覆盖"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "industry": "电力设备-其他电源设备-其他电源设备Ⅲ",
@@ -31942,8 +31985,8 @@
       ]
     },
     "002859": {
-      "mention_count": 3,
-      "last_updated": "2026-05-31",
+      "mention_count": 4,
+      "last_updated": "2026-06-04",
       "concepts": [
         "PET铜箔",
         "一带一路",
@@ -31960,7 +32003,8 @@
       "industry_position": [
         "国内稀缺的超精密光学加工装备厂商",
         "电子薄型载带行业龙头",
-        "离型膜国产替代领先厂商"
+        "离型膜国产替代领先厂商",
+        "MLCC上游离型膜和载带龙头"
       ],
       "articles": [
         {
@@ -32020,6 +32064,27 @@
           ],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理6.3",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/UGk0JW8vLqtgg4ww8Kon6g",
+          "accidents": [
+            "离型膜涨价30%-45%",
+            "塑料载带涨价15%-25%",
+            "埃福思收购推进顺利"
+          ],
+          "insights": [
+            "涨价催化下利润率改善将在二季度得到充分体现",
+            "埃福思并购将实现向半导体核心设备领域战略延伸"
+          ],
+          "key_metrics": [
+            "载带维持满产满销状态",
+            "预计全年两块核心业务净利润有望超预期"
+          ],
+          "target_valuation": [
+            "埃福思并购打开百亿增量天花板"
+          ]
         }
       ],
       "industry": "电子-其他电子-其他电子Ⅲ",
@@ -32044,7 +32109,9 @@
       ],
       "core_business": [
         "电子元器件制造",
-        "超精密光学加工装备"
+        "超精密光学加工装备",
+        "离型膜",
+        "塑料载带"
       ],
       "code": "002859",
       "name": "洁美科技"
@@ -32494,8 +32561,8 @@
       "name": "中大力德"
     },
     "002897": {
-      "mention_count": 2,
-      "last_updated": "2026-05-31",
+      "mention_count": 3,
+      "last_updated": "2026-06-04",
       "concepts": [
         "2025年报预增",
         "5G",
@@ -32524,7 +32591,8 @@
         "长安汽车概念"
       ],
       "partners": [
-        "华为"
+        "华为",
+        "中兴"
       ],
       "articles": [
         {
@@ -32542,6 +32610,23 @@
           "target_valuation": [
             "PE 29.60估值合理"
           ]
+        },
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/NMHh-jt7aTTCkl_W7wP8mA",
+          "accidents": [
+            "在研基于224G per lane超高速信号传输的新一代1.6T超高速光电连接器",
+            "3.2T ELSFP CPO OSFP端口已进入实质性开发阶段"
+          ],
+          "insights": [
+            "光模块液冷市场将成为数据中心最大液冷市场增长点",
+            "26年光模块液冷市场规模约10亿美元，2030年将突破63亿美元"
+          ],
+          "key_metrics": [
+            "预计26-28年归母净利润为4.6/6.8/8.9亿元"
+          ],
+          "target_valuation": []
         }
       ],
       "industry": "通信-通信设备-通信网络设备及器件",
@@ -32550,7 +32635,14 @@
         "光模块"
       ],
       "code": "002897",
-      "name": "意华股份"
+      "name": "意华股份",
+      "core_business": [
+        "高速连接器",
+        "高速光电模组"
+      ],
+      "industry_position": [
+        "国内少数实现高速连接器及高速光电模组量产的企业之一"
+      ]
     },
     "002902": {
       "mention_count": 2,
@@ -43689,8 +43781,8 @@
       "core_business": []
     },
     "300398": {
-      "mention_count": 3,
-      "last_updated": "2026-05-31",
+      "mention_count": 6,
+      "last_updated": "2026-06-04",
       "concepts": [
         "OLED",
         "中芯国际概念",
@@ -43710,7 +43802,9 @@
         "龙头",
         "材料——涂覆材料龙头",
         "半导体材料国产替代",
-        "光纤涂料龙头(60%市占率)"
+        "光纤涂料龙头(60%市占率)",
+        "光纤涂料国内绝对龙头，市占率长期超60%",
+        "国内少数同时配套DRAM、NAND两大国产存储龙头的材料厂商"
       ],
       "articles": [
         {
@@ -43751,6 +43845,25 @@
           "date": "2026-03-25",
           "title": "0325信息汇总",
           "source": "https://mp.weixin.qq.com/s/A7IP8VkQuahCOZjumNl8vg"
+        },
+        {
+          "title": "光纤、封装材料、光刻胶，飞凯材料正迈向AI细分领域中的专精特新小巨人",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/JYQDa5b1iO9n48zWXsE3Iw",
+          "accidents": [
+            "与长鑫存储签订年度框架采购大单",
+            "长鑫存储持续扩产带动订单环比明显抬升"
+          ],
+          "insights": [
+            "光纤涂料提供稳健现金流，半导体/显示材料为高速增长主力",
+            "从单一光纤材料商转型'光通信+半导体+显示'三轮驱动"
+          ],
+          "key_metrics": [
+            "2026Q1营收8.73亿元（+24.56%）",
+            "扣非净利润1.35亿元（+74.34%）",
+            "半导体材料收入近两年保持30%以上高增长"
+          ],
+          "target_valuation": []
         }
       ],
       "industry": "电子-电子化学品-电子化学品Ⅲ",
@@ -43759,18 +43872,33 @@
         "上游-树脂",
         "中游-涂料/材料制造",
         "下游-光纤/半导体/显示",
-        "上游-材料"
+        "上游-材料",
+        "上游-电子材料"
       ],
       "partners": [
         "中天",
         "亨通",
-        "长飞"
+        "长飞",
+        "长鑫存储",
+        "长飞光纤",
+        "亨通光电",
+        "烽火通信",
+        "中芯国际",
+        "华虹半导体",
+        "长电科技",
+        "通富微电",
+        "华天科技"
       ],
       "core_business": [
         "光纤涂料",
         "屏幕显示材料",
         "半导体材料",
-        "紫外固化材料"
+        "紫外固化材料",
+        "半导体光刻胶",
+        "湿电子化学品",
+        "CMP抛光液",
+        "临时键合胶",
+        "液晶材料"
       ],
       "code": "300398",
       "name": "飞凯材料"
@@ -44038,8 +44166,8 @@
       "name": "迦南科技"
     },
     "300416": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-04",
       "articles": [
         {
           "date": "2026-04-21",
@@ -44048,6 +44176,23 @@
           ],
           "title": "国机精工持续推荐：航天轴承 + 金刚石技术领军公司",
           "source": "manual_input"
+        },
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/NMHh-jt7aTTCkl_W7wP8mA",
+          "accidents": [
+            "华为'韬'定律有望从根本上加速国内半导体研发迭代"
+          ],
+          "insights": [
+            "环试服务受益于商业航天蓬勃发展",
+            "宜特是国内最强半导体测试公司，H芯片测试核心供应商"
+          ],
+          "key_metrics": [],
+          "target_valuation": [
+            "设备+环试业务支撑60-70e市值",
+            "对标胜科纳米总体市值看220e翻倍"
+          ]
         }
       ],
       "industry": "",
@@ -44078,6 +44223,11 @@
         "芯片概念",
         "融资融券",
         "高端装备"
+      ],
+      "core_business": [
+        "环试设备",
+        "环试服务",
+        "半导体测试"
       ]
     },
     "300418": {
@@ -50507,8 +50657,8 @@
       "name": "爱朋医疗"
     },
     "300757": {
-      "mention_count": 2,
-      "last_updated": "2026-05-31",
+      "mention_count": 3,
+      "last_updated": "2026-06-04",
       "concepts": [
         "BC电池",
         "HJT电池",
@@ -50549,12 +50699,29 @@
           "insights": [
             "产品涵盖HIT电池工艺自动化设备，覆盖PERC、N型、HIT/HJT等工艺"
           ]
+        },
+        {
+          "title": "今天的一些信息整理6.3",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/UGk0JW8vLqtgg4ww8Kon6g",
+          "accidents": [
+            "CPO商业化元年，设备环节卡位"
+          ],
+          "insights": [
+            "A股稀缺光耦台/光器件自动化测试与对准设备标的",
+            "覆盖双面晶圆测试、Die测试、模组测试"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "industry": "机械设备-自动化设备-其他自动化设备",
       "board": "SZ",
       "code": "300757",
-      "name": "罗博特科"
+      "name": "罗博特科",
+      "core_business": [
+        "光耦合/光器件自动化测试与对准设备"
+      ]
     },
     "300758": {
       "mention_count": 0,
@@ -51651,8 +51818,8 @@
       "name": "中科海讯"
     },
     "300812": {
-      "mention_count": 2,
-      "last_updated": "2026-05-31",
+      "mention_count": 3,
+      "last_updated": "2026-06-04",
       "partners": [],
       "concepts": [
         "MR(混合现实)",
@@ -51695,6 +51862,19 @@
           "accidents": [
             "与国内超一线光模块 Z 客户合作开发 CPO 自动化设备"
           ]
+        },
+        {
+          "title": "今天的一些信息整理6.3",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/UGk0JW8vLqtgg4ww8Kon6g",
+          "accidents": [
+            "已切入索尔思供应链并获相关订单"
+          ],
+          "insights": [
+            "在光通信器件贴装、半导体封装、精密视觉检测方向具备CPO/硅光设备延展预期"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "board": "",
@@ -51703,7 +51883,10 @@
       "chain": [],
       "name": "易天股份",
       "code": "300812",
-      "core_business": []
+      "core_business": [
+        "精密贴装设备",
+        "光通信器件贴装"
+      ]
     },
     "300819": {
       "mention_count": 1,
@@ -57884,8 +58067,8 @@
       ]
     },
     "301377": {
-      "mention_count": 2,
-      "last_updated": "2026-05-31",
+      "mention_count": 3,
+      "last_updated": "2026-06-04",
       "partners": [],
       "concepts": [
         "2025年报预增",
@@ -57928,6 +58111,21 @@
           "insights": [],
           "accidents": [
             "金刚石复合涂层PCB钻针，设备自制"
+          ]
+        },
+        {
+          "title": "今天的一些信息整理6.3",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/UGk0JW8vLqtgg4ww8Kon6g",
+          "accidents": [
+            "全球PCB钻针龙头"
+          ],
+          "insights": [
+            "拥有磨床-涂层-检测等核心设备自制能力"
+          ],
+          "key_metrics": [],
+          "target_valuation": [
+            "上调目标市值2000e"
           ]
         }
       ],
@@ -64027,8 +64225,8 @@
       "name": "铜峰电子"
     },
     "600246": {
-      "mention_count": 2,
-      "last_updated": "2026-05-31",
+      "mention_count": 3,
+      "last_updated": "2026-06-04",
       "concepts": [
         "5G",
         "京津冀一体化",
@@ -64056,6 +64254,20 @@
           "insights": [
             "通过并购切入光芯片产业链的重要资本运作标的"
           ]
+        },
+        {
+          "title": "今天的一些信息整理6.3",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/UGk0JW8vLqtgg4ww8Kon6g",
+          "accidents": [
+            "连接芯片成为AI基础设施瓶颈"
+          ],
+          "insights": [
+            "自研FabricLink技术降低GPU互联延迟、提升算力利用率",
+            "深度绑定阿里云、华为昇腾及核心服务器厂商"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "industry": "房地产-房地产-住宅开发",
@@ -64064,7 +64276,17 @@
         "为PCIe高速交换芯片"
       ],
       "code": "600246",
-      "name": "万通发展"
+      "name": "万通发展",
+      "core_business": [
+        "PCIe 5.0 Switch芯片"
+      ],
+      "industry_position": [
+        "A股唯一量产PCIe 5.0 Switch"
+      ],
+      "partners": [
+        "阿里云",
+        "华为昇腾"
+      ]
     },
     "600256": {
       "mention_count": 1,
@@ -72230,8 +72452,8 @@
       "name": "星湖科技"
     },
     "600869": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-04",
       "partners": [],
       "concepts": [
         "DeepSeek概念",
@@ -72291,6 +72513,20 @@
           "accidents": [
             "AIDC光纤配套"
           ]
+        },
+        {
+          "title": "今天的一些信息整理6.3",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/UGk0JW8vLqtgg4ww8Kon6g",
+          "accidents": [
+            "与安捷诺签署长期光纤供应协议"
+          ],
+          "insights": [
+            "特种光纤技术领先，多芯光纤、空芯光纤等核心产品",
+            "AIDC专用光纤产品成功进入全球供应链体系"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "board": "",
@@ -72299,7 +72535,10 @@
       "chain": [],
       "name": "远东股份",
       "code": "600869",
-      "core_business": []
+      "core_business": [
+        "特种光纤",
+        "AIDC全光互联"
+      ]
     },
     "600873": {
       "mention_count": 1,
@@ -85164,8 +85403,8 @@
       ]
     },
     "603661": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-04",
       "concepts": [
         "一带一路",
         "人民币贬值受益",
@@ -85183,6 +85422,22 @@
           "date": "2026-03-11",
           "title": "国产算力芯片_概念股全梳理",
           "source": "https://mp.weixin.qq.com/s/p5nB5n0NMhCZ5EnyUmvg5Q"
+        },
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/NMHh-jt7aTTCkl_W7wP8mA",
+          "accidents": [
+            "深化'制造出海与品牌出海'双轨并行战略"
+          ],
+          "insights": [
+            "ODM与自主品牌业务协同发展",
+            "2025年自主品牌对营收贡献58.92%"
+          ],
+          "key_metrics": [
+            "预计26-28年归母净利润分别为4.0/5.2/6.2亿元"
+          ],
+          "target_valuation": []
         }
       ],
       "industry": "轻工制造-家居用品-成品家居",
@@ -89387,8 +89642,8 @@
       "name": "光峰科技"
     },
     "688008": {
-      "mention_count": 2,
-      "last_updated": "2026-05-31",
+      "mention_count": 3,
+      "last_updated": "2026-06-04",
       "partners": [],
       "concepts": [
         "2025年报预增",
@@ -89441,6 +89696,21 @@
             "MRDIMM起量单机价值量提升",
             "CXL内存池化新市场"
           ]
+        },
+        {
+          "title": "今天的一些信息整理6.3",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/UGk0JW8vLqtgg4ww8Kon6g",
+          "accidents": [
+            "AI产业重心从算力竞赛转向连接升级"
+          ],
+          "insights": [
+            "内存接口芯片全球龙头",
+            "PCIe Retimer全球份额第二",
+            "推理时代CPU量增将直接带动规模增长"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "board": "SH",
@@ -94167,8 +94437,8 @@
       ]
     },
     "688257": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-04",
       "partners": [],
       "concepts": [
         "2026一季报预增",
@@ -94191,6 +94461,22 @@
           "accidents": [
             "收购慧联电子（PCB铣刀全球第一，金刚石涂层）"
           ]
+        },
+        {
+          "title": "今天的一些信息整理6.3",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/UGk0JW8vLqtgg4ww8Kon6g",
+          "accidents": [
+            "6月PCB微钻产能逐步爬坡"
+          ],
+          "insights": [
+            "拥有PCB钻针棒材-磨床-涂层-检测核心设备自研自制能力",
+            "A股刀具板块近10年唯一收入及利润均持续增长公司"
+          ],
+          "key_metrics": [],
+          "target_valuation": [
+            "上调目标市值600e"
+          ]
         }
       ],
       "board": "",
@@ -94199,7 +94485,10 @@
       "chain": [],
       "name": "新锐股份",
       "code": "688257",
-      "core_business": []
+      "core_business": [
+        "PCB钻针",
+        "数控刀具"
+      ]
     },
     "688261": {
       "mention_count": 2,
@@ -94963,8 +95252,8 @@
       "name": "大全能源"
     },
     "688308": {
-      "mention_count": 3,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-04",
       "concepts": [
         "2025年报预增",
         "2026一季报预增",
@@ -94994,6 +95283,21 @@
           ],
           "accidents": [
             "国产机床爆单"
+          ]
+        },
+        {
+          "title": "今天的一些信息整理6.3",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/UGk0JW8vLqtgg4ww8Kon6g",
+          "accidents": [
+            "永鑫精工是PCB微钻/铣刀细分领域国家级小巨人"
+          ],
+          "insights": [
+            "强强联合&双向赋能"
+          ],
+          "key_metrics": [],
+          "target_valuation": [
+            "上调目标市值400e"
           ]
         }
       ],
@@ -96326,8 +96630,8 @@
       "name": "中微半导"
     },
     "688381": {
-      "mention_count": 0,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-04",
       "concepts": [
         "5G",
         "AI手机",
@@ -96362,12 +96666,30 @@
           "insights": [
             "公司的Type-C信号/音频切换高速开关、电源管理芯片等产品已向国内AR/VR厂商量产，模块电源方案也在头部AI眼镜厂家测试导入中，未来有望受益于AI眼镜市场的增长。"
           ]
+        },
+        {
+          "title": "今天的一些信息整理6.3",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/UGk0JW8vLqtgg4ww8Kon6g",
+          "accidents": [
+            "光模块模拟芯片加速突破"
+          ],
+          "insights": [
+            "国内少数系统布局光模块模拟芯片的企业",
+            "已导入光迅科技、华工正源、剑桥科技等国内头部光模块厂商"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "industry": "电子-半导体-模拟芯片设计",
       "board": "",
       "code": "688381",
-      "name": "帝奥微"
+      "name": "帝奥微",
+      "core_business": [
+        "光模块模拟芯片",
+        "服务器信号开关"
+      ]
     },
     "688383": {
       "mention_count": 1,
@@ -97579,8 +97901,8 @@
       "name": "航亚科技"
     },
     "688515": {
-      "mention_count": 2,
-      "last_updated": "2026-05-31",
+      "mention_count": 3,
+      "last_updated": "2026-06-04",
       "partners": [],
       "concepts": [
         "人形机器人",
@@ -97624,6 +97946,20 @@
             "全球 DSP 芯片 26 年会持续缺货",
             "公司正在做 800G DSP 芯片，7nm 工艺制程，对标博通和 Marvell"
           ]
+        },
+        {
+          "title": "今天的一些信息整理6.3",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/UGk0JW8vLqtgg4ww8Kon6g",
+          "accidents": [
+            "2.5G以太网PHY规模量产"
+          ],
+          "insights": [
+            "国内高速以太网PHY+交换芯片佼佼者",
+            "受益数据中心网络升级与以太网连接芯片国产替代"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "board": "SH",
@@ -97632,7 +97968,10 @@
       "chain": [],
       "name": "裕太微",
       "code": "688515",
-      "core_business": []
+      "core_business": [
+        "高速以太网PHY芯片",
+        "交换芯片"
+      ]
     },
     "688516": {
       "mention_count": 3,
@@ -101069,8 +101408,8 @@
       "name": "电科蓝天"
     },
     "688981": {
-      "mention_count": 2,
-      "last_updated": "2026-05-31",
+      "mention_count": 3,
+      "last_updated": "2026-06-04",
       "concepts": [
         "OLED",
         "上海自贸区",
@@ -101087,7 +101426,8 @@
         "融资融券"
       ],
       "core_business": [
-        "承担昇腾910C等芯片量产，是国产超节点芯片制造的核心供应商"
+        "承担昇腾910C等芯片量产，是国产超节点芯片制造的核心供应商",
+        "集成电路晶圆代工"
       ],
       "articles": [
         {
@@ -101111,6 +101451,22 @@
           ],
           "key_metrics": [
             "稼动率93%"
+          ],
+          "target_valuation": []
+        },
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/NMHh-jt7aTTCkl_W7wP8mA",
+          "accidents": [
+            "AI虹吸效应带来专用存储和消费电子等产能回流中国"
+          ],
+          "insights": [
+            "AI需求虹吸海外代工产能，消费/IoT等客户订单回流中国",
+            "将持续受益于AI算力需求与自主可控的确定性趋势"
+          ],
+          "key_metrics": [
+            "在手订单充足"
           ],
           "target_valuation": []
         }
@@ -114123,9 +114479,23 @@
       "code": "300286",
       "name": "安科瑞",
       "concept": "",
-      "mention_count": 2,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/NMHh-jt7aTTCkl_W7wP8mA",
+          "accidents": [
+            "800V HVDC架构下监测保护需求从0到1快速放量"
+          ],
+          "insights": [
+            "伴随数据中心单机柜功率持续跃迁，公司AIDC产品配套价值量有望实现倍数级提升"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
       "concepts": [
         "专精特新",
         "人工智能",
@@ -114141,7 +114511,12 @@
         "虚拟电厂"
       ],
       "industry": "电力设备-电网设备-电气自控设备",
-      "board": ""
+      "board": "",
+      "core_business": [
+        "AIDC监测保护系统",
+        "智能小母线监控",
+        "精密配电管理"
+      ]
     },
     "300290": {
       "code": "300290",
@@ -114376,9 +114751,23 @@
       "code": "300331",
       "name": "苏大维格",
       "concept": "",
-      "mention_count": 8,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "今天的一些信息整理6.3",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/UGk0JW8vLqtgg4ww8Kon6g",
+          "accidents": [
+            "CPO产业链溢出效应，微纳制造环节受益"
+          ],
+          "insights": [
+            "微纳制造平台龙头，为光引擎集成提供底层支撑"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
       "concepts": [
         "3D打印",
         "AI PC",
@@ -114403,7 +114792,12 @@
         "融资融券"
       ],
       "industry": "电子-光学光电子-光学元件",
-      "board": ""
+      "board": "",
+      "core_business": [
+        "微纳制造",
+        "光栅",
+        "微纳压印工艺"
+      ]
     },
     "300332": {
       "code": "300332",
@@ -115039,8 +115433,27 @@
       "name": "迈克生物",
       "concept": "",
       "mention_count": 1,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "articles": [
+        {
+          "title": "今天的一些信息整理6.3",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/UGk0JW8vLqtgg4ww8Kon6g",
+          "accidents": [
+            "子公司拟投资不超过13亿元建设高频高速电子材料及高端助剂项目"
+          ],
+          "insights": [
+            "产品矩阵完善，切入高景气赛道",
+            "实现从通用助剂向电子级专用化学品的升级"
+          ],
+          "key_metrics": [
+            "规划聚苯醚树脂2500吨/年",
+            "高频高速阻燃剂2500吨/年",
+            "高端合成水滑石20000吨/年"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
       "concepts": [
         "人形机器人",
         "基因测序",
@@ -134953,6 +135366,63 @@
         }
       ],
       "last_updated": "2026-06-03",
+      "mention_count": 1
+    },
+    "688001": {
+      "name": "华兴源创",
+      "code": "688001",
+      "board": "SH",
+      "core_business": [
+        "消费电子检测",
+        "半导体检测",
+        "汽车电子检测"
+      ],
+      "articles": [
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/NMHh-jt7aTTCkl_W7wP8mA",
+          "accidents": [
+            "受益于消费电子复苏与AI产业带动"
+          ],
+          "insights": [
+            "通过降本增效、拓展新客户改善盈利",
+            "近三年研发投入占营收比始终保持在15%以上"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "688702": {
+      "name": "盛科通信",
+      "code": "688702",
+      "board": "SH",
+      "core_business": [
+        "以太网交换芯片"
+      ],
+      "industry_position": [
+        "国产以太网交换芯片龙头",
+        "境内唯一实现25.6T高端交换芯片量产"
+      ],
+      "articles": [
+        {
+          "title": "今天的一些信息整理6.3",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/UGk0JW8vLqtgg4ww8Kon6g",
+          "accidents": [
+            "51.2T新品落地进一步打开成长空间"
+          ],
+          "insights": [
+            "连接芯片成为AI算力扩展的核心约束，国产替代窗口打开"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
       "mention_count": 1
     }
   },
