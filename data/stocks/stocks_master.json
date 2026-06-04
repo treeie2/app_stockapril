@@ -9161,10 +9161,20 @@
     },
     "000733": {
       "core_business": [
-        "军用电子元器件核心供应商"
+        "军用电子元器件核心供应商",
+        "钽电解电容器",
+        "薄膜电容",
+        "超级电容",
+        "电阻",
+        "电感"
       ],
-      "last_updated": "2026-05-31",
-      "industry_position": [],
+      "last_updated": "2026-06-04",
+      "industry_position": [
+        "国内军工和民用钽电容双龙头",
+        "国际钽电解电容器品种最全、规格最多的专业制造企业之一",
+        "国内少数全面覆盖主动和被动元器件企业",
+        "去年民用钽电容收入国内排名第一"
+      ],
       "valuation": {},
       "industry": "国防军工-军工电子-军工电子Ⅲ",
       "concepts": [
@@ -9193,9 +9203,11 @@
         "飞行汽车(eVTOL)"
       ],
       "code": "000733",
-      "mention_count": 1,
+      "mention_count": 5,
       "partners": [
-        "军用电子元器件核心供应商"
+        "军用电子元器件核心供应商",
+        "国内传统通讯厂商",
+        "海外算力大厂"
       ],
       "articles": [
         {
@@ -9227,12 +9239,51 @@
           ],
           "title": "昨日市场复盘及操作策略，8月14日",
           "source": "https://mp.weixin.qq.com/s/yJgoUftndB0iC5cEh-z45A"
+        },
+        {
+          "title": "超级电容，相关核心龙头公司梳理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/zToCEAxYytp1jKaG_kdLYg",
+          "accidents": [],
+          "insights": [
+            "超级电容概念受益"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "【国泰海通军工】持续推荐振华科技：国内民用钽电容龙头持续涨价",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/j1H2pbRzSH2GL3dy8LcAqw",
+          "accidents": [
+            "钽电容已涨价三轮，海外大厂涨价30%-50%",
+            "工信部推动钽电容国产替代",
+            "服务器收入占比30%，已进入海外算力大厂"
+          ],
+          "insights": [
+            "钽电容比MLCC能量密度高，更受益服务器功率提升",
+            "扩产周期长于MLCC，涨价确定性更高",
+            "十五五规划全力拓展民品，目标占比40%以上"
+          ],
+          "key_metrics": [
+            "去年民用钽电容收入1.5亿元",
+            "今年保守2.5亿元",
+            "明年后年逐步扩产至5亿元",
+            "十五五末期做到10亿元以上产能"
+          ],
+          "target_valuation": [
+            "今年利润预计10-12亿",
+            "30X PE对应360亿市值",
+            "民用钽电容中期看100亿市值",
+            "一共460亿市值，看翻倍空间"
+          ]
         }
       ],
       "board": "SZ",
       "products": [],
       "chain": [
-        "3.下游消费/金融"
+        "3.下游消费/金融",
+        "中游-被动元器件"
       ],
       "name": "振华科技"
     },
@@ -35932,8 +35983,8 @@
       ]
     },
     "300037": {
-      "mention_count": 4,
-      "last_updated": "2026-06-01",
+      "mention_count": 5,
+      "last_updated": "2026-06-04",
       "concepts": [
         "2026一季报预增",
         "OLED",
@@ -35954,7 +36005,9 @@
         "锂电池概念"
       ],
       "core_business": [
-        "已将钠离子电池化学品列入产品体系。"
+        "已将钠离子电池化学品列入产品体系。",
+        "锂电池电解液",
+        "电容器化学品"
       ],
       "articles": [
         {
@@ -36030,6 +36083,18 @@
           ],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "title": "超级电容，相关核心龙头公司梳理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/zToCEAxYytp1jKaG_kdLYg",
+          "accidents": [],
+          "insights": [
+            "电容器化学品龙头直接受益于超级电容需求放量",
+            "已成为LG、三星、松下等海外电池大厂供应商"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "industry": "电力设备-电池-电池化学品",
@@ -36041,13 +36106,17 @@
       "concept": "PTFE;半导体;含氟新材料;新能源",
       "description": "在建2800吨PTFE产能，布局含氟新材料领域，绑定新能源与半导体产业链",
       "industry_position": [
-        "氟化液国产替代领先企业"
+        "氟化液国产替代领先企业",
+        "国内锂电池电解液及电容器化学品行业龙头"
       ],
       "chain": [
         "上游-氟化工材料"
       ],
       "partners": [
-        "英伟达(间接)"
+        "英伟达(间接)",
+        "LG",
+        "三星",
+        "松下"
       ]
     },
     "300040": {
@@ -64196,8 +64265,8 @@
       "name": "凌钢股份"
     },
     "600237": {
-      "mention_count": 0,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-04",
       "concepts": [
         "PET铜箔",
         "光伏概念",
@@ -64217,12 +64286,36 @@
           "date": "2026-01-16",
           "title": "600237  数字能源 超级电容 新能源车 高压快充 石英晶体谐振器 氢燃料电池 薄膜电容器龙头",
           "source": "https://mp.weixin.qq.com/s/Gk0zYfr1zpGyT5m1hf88Og"
+        },
+        {
+          "title": "超级电容，相关核心龙头公司梳理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/zToCEAxYytp1jKaG_kdLYg",
+          "accidents": [
+            "超级电容概念主力资金净流入34.24亿元"
+          ],
+          "insights": [
+            "电容器化学品龙头直接受益超级电容需求放量"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "industry": "电子-元件-被动元件",
       "board": "",
       "code": "600237",
-      "name": "铜峰电子"
+      "name": "铜峰电子",
+      "core_business": [
+        "薄膜电容器",
+        "电容器用薄膜"
+      ],
+      "industry_position": [
+        "国内领先的薄膜电容及薄膜材料生产商",
+        "拥有薄膜-金属化薄膜-薄膜电容器完整产业链"
+      ],
+      "chain": [
+        "中游-电容器制造"
+      ]
     },
     "600246": {
       "mention_count": 3,
@@ -103048,8 +103141,8 @@
       ]
     },
     "002484": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-04",
       "concepts": [
         "5G",
         "东数西算(算力)",
@@ -103106,21 +103199,43 @@
           ],
           "processed_by": "tbox",
           "processed_at": "2026-05-23T23:17:45.684749+08:00"
+        },
+        {
+          "title": "超级电容，相关核心龙头公司梳理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/zToCEAxYytp1jKaG_kdLYg",
+          "accidents": [
+            "向腾讯和阿里小批量出货EDLC",
+            "有望成为台达超容二供"
+          ],
+          "insights": [
+            "超级电容厂商直接受益于数据中心需求增长"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "processed_by": "tbox",
       "processed_at": "2026-05-23T23:17:45.684737+08:00",
       "core_business": [
-        "LIC超级电容"
+        "LIC超级电容",
+        "铝电解电容器",
+        "薄膜电容器",
+        "超级电容"
       ],
       "industry_position": [
-        "英伟达供应链70%份额,国内唯一认证"
+        "英伟达供应链70%份额,国内唯一认证",
+        "全国铝电解电容器行业排名第一",
+        "国内唯一、全球少数同时量产铝电解、薄膜、超级电容的企业"
       ],
       "chain": [
         "中游-超级电容"
       ],
       "partners": [
-        "英伟达(间接)"
+        "英伟达(间接)",
+        "腾讯",
+        "阿里",
+        "台达"
       ]
     },
     "002012": {
@@ -112803,9 +112918,22 @@
       "code": "002951",
       "name": "金时科技",
       "concept": "",
-      "mention_count": 2,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "超级电容，相关核心龙头公司梳理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/zToCEAxYytp1jKaG_kdLYg",
+          "accidents": [
+            "超级电容项目中试验证阶段",
+            "开发3000F低内阻超级电容器新产品"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
       "concepts": [
         "储能",
         "数字经济",
@@ -112816,7 +112944,13 @@
         "风电"
       ],
       "industry": "电力设备-其他电源设备-其他电源设备Ⅲ",
-      "board": ""
+      "board": "",
+      "core_business": [
+        "储能系统设备",
+        "混合储能",
+        "超级电容炭",
+        "超级电容器"
+      ]
     },
     "002952": {
       "code": "002952",
@@ -117364,9 +117498,21 @@
       "code": "300726",
       "name": "宏达电子",
       "concept": "",
-      "mention_count": 3,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "超级电容，相关核心龙头公司梳理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/zToCEAxYytp1jKaG_kdLYg",
+          "accidents": [],
+          "insights": [
+            "产品应用于工业控制、汽车电子等领域"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
       "concepts": [
         "5G",
         "传感器",
@@ -117383,7 +117529,15 @@
         "超级电容"
       ],
       "industry": "国防军工-军工电子-军工电子Ⅲ",
-      "board": ""
+      "board": "",
+      "core_business": [
+        "钽电解电容器",
+        "MLCC"
+      ],
+      "industry_position": [
+        "三条钽电解电容器国军标生产线",
+        "钽电容+MLCC多品类电容器布局"
+      ]
     },
     "300727": {
       "code": "300727",
@@ -129420,8 +129574,21 @@
       "name": "艾华集团",
       "concept": "",
       "mention_count": 1,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "articles": [
+        {
+          "title": "超级电容，相关核心龙头公司梳理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/zToCEAxYytp1jKaG_kdLYg",
+          "accidents": [
+            "MLPC聚焦通信、AI、服务器、数据中心领域",
+            "已向国内外客户供货"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
       "concepts": [
         "5G",
         "低空经济",
@@ -129441,7 +129608,14 @@
         "高压快充"
       ],
       "industry": "电子-元件-被动元件",
-      "board": ""
+      "board": "",
+      "core_business": [
+        "铝电解电容器",
+        "MLPC"
+      ],
+      "industry_position": [
+        "国内铝电解电容器行业龙头"
+      ]
     },
     "603991": {
       "code": "603991",
@@ -135493,6 +135667,33 @@
           "insights": [
             "连接芯片成为AI算力扩展的核心约束，国产替代窗口打开"
           ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "002806": {
+      "name": "华锋股份",
+      "code": "002806",
+      "board": "SZ",
+      "core_business": [
+        "低压化成箔",
+        "超级电容材料"
+      ],
+      "industry_position": [
+        "国内少数能向国际市场出口低压化成箔产品的企业之一"
+      ],
+      "articles": [
+        {
+          "title": "超级电容，相关核心龙头公司梳理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/zToCEAxYytp1jKaG_kdLYg",
+          "accidents": [
+            "超级电容用材料有技术储备"
+          ],
+          "insights": [],
           "key_metrics": [],
           "target_valuation": []
         }
