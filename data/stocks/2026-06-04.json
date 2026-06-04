@@ -1,6 +1,6 @@
 {
   "date": "2026-06-04",
-  "update_count": 147,
+  "update_count": 204,
   "last_updated": "2026-06-04",
   "stocks": {
     "688090": {
@@ -1054,10 +1054,26 @@
           ],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "title": "6月2日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/p0lzzWLYpN4Pq51YkLj_8g",
+          "accidents": [
+            "子公司获超千万元AIDC用光纤订单近1.5亿元，并与安捷诺签署长期AIDC用光纤供应协议",
+            "控股股东减持计划已执行完毕"
+          ],
+          "insights": [
+            "光纤+AIDC"
+          ],
+          "key_metrics": [
+            "AIDC用光纤订单近1.5亿元"
+          ],
+          "target_valuation": []
         }
       ],
       "last_updated": "2026-06-04",
-      "mention_count": 1
+      "mention_count": 2
     },
     "300463": {
       "name": "呈和科技",
@@ -2592,10 +2608,26 @@
             "20层高层数样品已出"
           ],
           "target_valuation": []
+        },
+        {
+          "title": "6月4日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/bVWgyozPFEYPbyaTu5-2Gw",
+          "accidents": [
+            "于2024年投资9.93亿元建设玻璃基封装载板试验线，目前已给部分国内客户送样",
+            "与康宁公司签署合作备忘录，拟围绕玻璃基封装载板等领域开展合作"
+          ],
+          "insights": [
+            "玻璃基封装载板+康宁合作"
+          ],
+          "key_metrics": [
+            "投资9.93亿元建设玻璃基封装载板试验线"
+          ],
+          "target_valuation": []
         }
       ],
       "last_updated": "2026-06-04",
-      "mention_count": 1
+      "mention_count": 2
     },
     "000700": {
       "name": "模塑科技",
@@ -2718,10 +2750,26 @@
           ],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "title": "6月2日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/p0lzzWLYpN4Pq51YkLj_8g",
+          "accidents": [
+            "800G/1.6T光模块已批量交付，200G PAM4 EML芯片累计出货超千万颗",
+            "2026Q1营收同比增长52.72%，归母净利润同比增长143.47%"
+          ],
+          "insights": [
+            "光模块+AI PCB"
+          ],
+          "key_metrics": [
+            "2026Q1营收同比增长52.72%，归母净利润同比增长143.47%"
+          ],
+          "target_valuation": []
         }
       ],
       "last_updated": "2026-06-04",
-      "mention_count": 1
+      "mention_count": 2
     },
     "002254": {
       "name": "泰和新材",
@@ -4951,6 +4999,2430 @@
       ],
       "last_updated": "2026-06-04",
       "mention_count": 1
+    },
+    "002213": {
+      "name": "大为股份",
+      "code": "002213",
+      "board": "SZ",
+      "industry": "电子-半导体-存储芯片",
+      "concepts": [
+        "半导体存储",
+        "锂矿"
+      ],
+      "products": [
+        "嵌入式存储器"
+      ],
+      "core_business": [
+        "半导体存储研发与生产"
+      ],
+      "industry_position": [
+        "2026年将加快LPDDR5量产并拓展AI、数据中心等高端市场"
+      ],
+      "chain": [
+        "中游-存储芯片"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "6月4日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/bVWgyozPFEYPbyaTu5-2Gw",
+          "accidents": [
+            "拟以简易程序定增募资不超1.085亿元用于嵌入式存储器研发及产业化项目",
+            "2026年将加快LPDDR5量产并拓展AI、数据中心等高端市场",
+            "2026Q1净利润1562.61万元，同比增长926.91%（一季度扭亏）"
+          ],
+          "insights": [
+            "半导体存储+锂矿审批双催化"
+          ],
+          "key_metrics": [
+            "2026Q1净利润1562.61万元，同比增长926.91%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "001309": {
+      "name": "德明利",
+      "code": "001309",
+      "board": "SZ",
+      "industry": "电子-半导体-存储芯片",
+      "concepts": [
+        "存储芯片",
+        "AI存储"
+      ],
+      "products": [
+        "存储芯片"
+      ],
+      "core_business": [
+        "存储芯片研发与销售"
+      ],
+      "industry_position": [
+        "AI大模型训练与推理正驱动存储需求快速增长，存储从算力配套升级为AI核心基础设施"
+      ],
+      "chain": [
+        "中游-存储芯片"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "6月4日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/bVWgyozPFEYPbyaTu5-2Gw",
+          "accidents": [
+            "公司在手订单充足，预期能够保持良好的业绩水平"
+          ],
+          "insights": [
+            "存储从算力配套升级为AI核心基础设施"
+          ],
+          "key_metrics": [
+            "在手订单充足"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "605358": {
+      "name": "立昂微",
+      "code": "605358",
+      "board": "SH",
+      "industry": "电子-半导体-半导体材料",
+      "concepts": [
+        "半导体硅片",
+        "12英寸硅片"
+      ],
+      "products": [
+        "半导体硅片"
+      ],
+      "core_business": [
+        "半导体硅片研发与生产"
+      ],
+      "industry_position": [
+        "12英寸硅片销量同比增长约61.90%"
+      ],
+      "chain": [
+        "上游-半导体材料"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "6月4日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/bVWgyozPFEYPbyaTu5-2Gw",
+          "accidents": [
+            "2025年年报净利润同比减亏54.47%",
+            "12英寸硅片销量同比增长约61.90%"
+          ],
+          "insights": [
+            "半导体硅片+业绩改善"
+          ],
+          "key_metrics": [
+            "12英寸硅片销量同比增长约61.90%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "688146": {
+      "name": "中船特气",
+      "code": "688146",
+      "board": "SH",
+      "industry": "化工-化学制品-电子化学品",
+      "concepts": [
+        "电子特气",
+        "光刻气"
+      ],
+      "products": [
+        "电子特种气体",
+        "光刻气"
+      ],
+      "core_business": [
+        "电子特种气体研发与生产"
+      ],
+      "industry_position": [
+        "电子特种气体产能及收入规模国内企业第一"
+      ],
+      "chain": [
+        "上游-半导体材料"
+      ],
+      "partners": [
+        "中国船舶集团"
+      ],
+      "articles": [
+        {
+          "title": "6月4日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/bVWgyozPFEYPbyaTu5-2Gw",
+          "accidents": [
+            "2026Q1净利润1.01亿元，同比增长16.86%"
+          ],
+          "insights": [
+            "电子特气+光刻气，国内产能第一"
+          ],
+          "key_metrics": [
+            "2026Q1净利润1.01亿元，同比增长16.86%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "000670": {
+      "name": "盈方微",
+      "code": "000670",
+      "board": "SZ",
+      "industry": "电子-半导体-半导体分销",
+      "concepts": [
+        "长江存储代理",
+        "半导体分销",
+        "重大资产重组"
+      ],
+      "products": [
+        "存储芯片分销"
+      ],
+      "core_business": [
+        "半导体分销+长江存储代理"
+      ],
+      "industry_position": [
+        "依托长江存储代理权，重点加大存储芯片供应体量"
+      ],
+      "chain": [
+        "中游-半导体分销"
+      ],
+      "partners": [
+        "长江存储",
+        "思特威",
+        "汇顶科技",
+        "小米",
+        "丘钛",
+        "立讯精密"
+      ],
+      "articles": [
+        {
+          "title": "6月4日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/bVWgyozPFEYPbyaTu5-2Gw",
+          "accidents": [
+            "拟通过发行股份及支付现金方式取得上海肖克利信息科技股份有限公司、富士德中国有限公司100%股份",
+            "分销业务持续深化与思特威、汇顶科技等核心供应商的战略协同"
+          ],
+          "insights": [
+            "长江存储代理+半导体分销+重大资产重组"
+          ],
+          "key_metrics": [
+            "分销业务收入增长16.17%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "003043": {
+      "name": "华亚智能",
+      "code": "003043",
+      "board": "SZ",
+      "industry": "机械设备-专用设备-半导体设备",
+      "concepts": [
+        "半导体设备",
+        "固态电池",
+        "精密金属结构件"
+      ],
+      "products": [
+        "精密金属结构件",
+        "固态电池干法电极压延设备"
+      ],
+      "core_business": [
+        "精密金属结构件+半导体设备"
+      ],
+      "industry_position": [
+        "精密金属结构件已覆盖半导体设备全制程，受益全球扩产周期",
+        "固态电池干法电极压延设备已率先获得知名电池企业工艺验证及订单落地"
+      ],
+      "chain": [
+        "中游-半导体设备"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "6月4日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/bVWgyozPFEYPbyaTu5-2Gw",
+          "accidents": [
+            "子公司冠鸿智能的固态电池干法电极压延设备已率先获得知名电池企业工艺验证及订单落地",
+            "出口销售营收占比达32.85%"
+          ],
+          "insights": [
+            "半导体设备+固态电池+精密金属结构件三重催化"
+          ],
+          "key_metrics": [
+            "出口销售营收占比达32.85%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "600667": {
+      "name": "太极实业",
+      "code": "600667",
+      "board": "SH",
+      "industry": "电子-半导体-先进封装",
+      "concepts": [
+        "存储芯片",
+        "SK海力士",
+        "先进封装"
+      ],
+      "products": [
+        "半导体后工序服务",
+        "FCBGA先进封装"
+      ],
+      "core_business": [
+        "半导体后工序服务+先进封装"
+      ],
+      "industry_position": [
+        "子公司海太半导体与SK海力士签订后工序服务合同至2030年",
+        "太极半导体已开发出FCBGA等先进封装工艺"
+      ],
+      "chain": [
+        "中游-半导体封测"
+      ],
+      "partners": [
+        "SK海力士"
+      ],
+      "articles": [
+        {
+          "title": "6月4日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/bVWgyozPFEYPbyaTu5-2Gw",
+          "accidents": [
+            "子公司海太半导体与SK海力士签订了《第四期后工序服务合同》，自2025年7月1日至2030年6月30日",
+            "太极半导体已开发出FCBGA等先进封装工艺"
+          ],
+          "insights": [
+            "存储芯片+SK海力士+先进封装"
+          ],
+          "key_metrics": [
+            "后工序服务合同至2030年"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "600703": {
+      "name": "三安光电",
+      "code": "600703",
+      "board": "SH",
+      "industry": "电子-光学光电子-LED",
+      "concepts": [
+        "光芯片",
+        "碳化硅"
+      ],
+      "products": [
+        "400G/800G光芯片",
+        "1.6T光芯片",
+        "碳化硅"
+      ],
+      "core_business": [
+        "光芯片研发与生产+碳化硅"
+      ],
+      "industry_position": [
+        "400G/800G光芯片已批量出货，1.6T光芯片已向客户送样验证",
+        "湖南三安是国内为数不多的碳化硅全链垂直整合制造平台"
+      ],
+      "chain": [
+        "上游-光芯片"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "6月4日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/bVWgyozPFEYPbyaTu5-2Gw",
+          "accidents": [
+            "400G/800G光芯片已批量出货，1.6T光芯片已向客户送样验证"
+          ],
+          "insights": [
+            "光芯片+碳化硅双轮驱动"
+          ],
+          "key_metrics": [
+            "400G/800G光芯片批量出货"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "000536": {
+      "name": "华映科技",
+      "code": "000536",
+      "board": "SZ",
+      "industry": "电子-光学光电子-显示器件",
+      "concepts": [
+        "车载显示",
+        "被动减持处置"
+      ],
+      "products": [
+        "车载显示单芯片高集成方案"
+      ],
+      "core_business": [
+        "车载显示+工控+中尺寸显示"
+      ],
+      "industry_position": [
+        "车载显示单芯片高集成方案已量产，2026年将加速向车载、工控、中尺寸等高毛利产品转型"
+      ],
+      "chain": [
+        "中游-显示器件"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "6月4日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/bVWgyozPFEYPbyaTu5-2Gw",
+          "accidents": [
+            "法院裁定强制卖出持股5%以上股东华映百慕大持有的公司股份，司法处置进入实质阶段"
+          ],
+          "insights": [
+            "车载显示+被动减持处置"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "600293": {
+      "name": "三峡新材",
+      "code": "600293",
+      "board": "SH",
+      "industry": "建筑材料-玻璃-电子玻璃",
+      "concepts": [
+        "电子玻璃",
+        "高端玻璃转型",
+        "硅材料基地",
+        "宜昌国资"
+      ],
+      "products": [
+        "汽车玻璃",
+        "电子玻璃",
+        "硅材料"
+      ],
+      "core_business": [
+        "电子玻璃+硅材料"
+      ],
+      "industry_position": [
+        "正加速向汽车玻璃、电子玻璃等高附加值领域拓展",
+        "拟投资不超过3亿元建设三峡新材硅材料基地项目"
+      ],
+      "chain": [
+        "上游-玻璃材料"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "6月4日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/bVWgyozPFEYPbyaTu5-2Gw",
+          "accidents": [
+            "拟投资不超过3亿元建设三峡新材硅材料基地项目",
+            "拥有自有硅砂矿"
+          ],
+          "insights": [
+            "电子玻璃+高端玻璃转型+硅材料基地"
+          ],
+          "key_metrics": [
+            "投资不超过3亿元建设硅材料基地"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "603920": {
+      "name": "世运电路",
+      "code": "603920",
+      "board": "SH",
+      "industry": "电子-印制电路板-PCB",
+      "concepts": [
+        "AI PCB",
+        "人形机器人"
+      ],
+      "products": [
+        "人形机器人PCB"
+      ],
+      "core_business": [
+        "PCB研发与生产"
+      ],
+      "industry_position": [
+        "自2020年起配合客户研发生产人形机器人PCB，产品已基本覆盖中央控制、视觉感知、关节驱动等核心系统"
+      ],
+      "chain": [
+        "中游-PCB"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "6月4日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/bVWgyozPFEYPbyaTu5-2Gw",
+          "accidents": [
+            "自2020年起配合客户研发生产人形机器人PCB，产品已基本覆盖中央控制、视觉感知、关节驱动等核心系统"
+          ],
+          "insights": [
+            "AI PCB+人形机器人双催化"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "002138": {
+      "name": "顺络电子",
+      "code": "002138",
+      "board": "SZ",
+      "industry": "电子-电子元件-被动元件",
+      "concepts": [
+        "MLCC",
+        "电感"
+      ],
+      "products": [
+        "电感",
+        "MLCC"
+      ],
+      "core_business": [
+        "电感研发与生产"
+      ],
+      "industry_position": [
+        "国内电感龙头"
+      ],
+      "chain": [
+        "中游-电子元件"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "6月4日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/bVWgyozPFEYPbyaTu5-2Gw",
+          "accidents": [
+            "MLCC内容价值较GB300增长约182%"
+          ],
+          "insights": [
+            "MLCC受益英伟达Rubin机架BOM拆解"
+          ],
+          "key_metrics": [
+            "MLCC内容价值较GB300增长约182%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "600487": {
+      "name": "亨通光电",
+      "code": "600487",
+      "board": "SH",
+      "industry": "通信-通信设备-光纤光缆",
+      "concepts": [
+        "光纤光缆",
+        "海缆"
+      ],
+      "products": [
+        "光纤光缆",
+        "海底光缆"
+      ],
+      "core_business": [
+        "光纤光缆+海底光缆"
+      ],
+      "industry_position": [
+        "拟分拆子公司亨通华海至科创板上市，亨通华海是全球前四具备跨洋洲际海底光缆通信网络综合解决方案能力的唯一中国企业"
+      ],
+      "chain": [
+        "中游-光纤光缆"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "6月4日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/bVWgyozPFEYPbyaTu5-2Gw",
+          "accidents": [
+            "拟分拆子公司亨通华海至科创板上市"
+          ],
+          "insights": [
+            "光纤光缆+CPO+海缆"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "600097": {
+      "name": "开创国际",
+      "code": "600097",
+      "board": "SH",
+      "industry": "农林牧渔-渔业-海洋捕捞",
+      "concepts": [
+        "鱼粉",
+        "海洋捕捞"
+      ],
+      "products": [
+        "鱼粉"
+      ],
+      "core_business": [
+        "海洋捕捞+鱼粉加工"
+      ],
+      "industry_position": [
+        "秘鲁超级鱼粉FOB出口报价飙升至2900美元/吨，创历史新高"
+      ],
+      "chain": [
+        "上游-渔业资源"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "6月4日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/bVWgyozPFEYPbyaTu5-2Gw",
+          "accidents": [
+            "秘鲁超级鱼粉FOB出口报价飙升至2900美元/吨，创历史新高"
+          ],
+          "insights": [
+            "鱼粉价格创历史新高"
+          ],
+          "key_metrics": [
+            "秘鲁超级鱼粉FOB出口报价飙升至2900美元/吨"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "002881": {
+      "name": "意华股份",
+      "code": "002881",
+      "board": "SZ",
+      "industry": "电子-电子元件-连接器",
+      "concepts": [
+        "华为链",
+        "800G高速连接器"
+      ],
+      "products": [
+        "800G OSFP112高速连接器",
+        "NPC模组"
+      ],
+      "core_business": [
+        "高速连接器研发与生产"
+      ],
+      "industry_position": [
+        "800G OSFP112高速连接器及NPC模组已批量交付，为国内少数实现800G量产企业之一",
+        "为华为5.5G设备高速连接器主要国产供应商"
+      ],
+      "chain": [
+        "中游-连接器"
+      ],
+      "partners": [
+        "华为"
+      ],
+      "articles": [
+        {
+          "title": "6月2日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/p0lzzWLYpN4Pq51YkLj_8g",
+          "accidents": [
+            "800G OSFP112高速连接器及NPC模组已批量交付",
+            "为华为5.5G设备高速连接器主要国产供应商"
+          ],
+          "insights": [
+            "华为链+800G高速连接器"
+          ],
+          "key_metrics": [
+            "800G OSFP112高速连接器及NPC模组已批量交付"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "301239": {
+      "name": "阿莱德",
+      "code": "301239",
+      "board": "SZ",
+      "industry": "化工-化学制品-导热材料",
+      "concepts": [
+        "光模块",
+        "导热材料",
+        "人形机器人"
+      ],
+      "products": [
+        "导热界面材料",
+        "光模块"
+      ],
+      "core_business": [
+        "导热材料+光模块"
+      ],
+      "industry_position": [
+        "与华工正源在光模块领域保持合作，已批量供货",
+        "导热界面材料可用于机器人关节部位，目前有人形机器人关节散热样品导入及小批量验证"
+      ],
+      "chain": [
+        "中游-导热材料"
+      ],
+      "partners": [
+        "华工正源"
+      ],
+      "articles": [
+        {
+          "title": "6月2日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/p0lzzWLYpN4Pq51YkLj_8g",
+          "accidents": [
+            "与华工正源在光模块领域保持合作，已批量供货",
+            "导热界面材料可用于机器人关节部位，目前有人形机器人关节散热样品导入及小批量验证"
+          ],
+          "insights": [
+            "光模块+导热材料+人形机器人"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "601869": {
+      "name": "长飞光纤",
+      "code": "601869",
+      "board": "SH",
+      "industry": "通信-通信设备-光纤光缆",
+      "concepts": [
+        "AI算力光纤",
+        "空芯光纤"
+      ],
+      "products": [
+        "空芯光纤",
+        "多芯光纤"
+      ],
+      "core_business": [
+        "光纤光缆研发与生产"
+      ],
+      "industry_position": [
+        "以空芯光纤、多芯光纤等产品全面覆盖智算中心光联接场景，空芯光纤衰减系数达0.04dB/km，已助力三大运营商开通首条商用线路"
+      ],
+      "chain": [
+        "中游-光纤光缆"
+      ],
+      "partners": [
+        "三大运营商"
+      ],
+      "articles": [
+        {
+          "title": "6月2日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/p0lzzWLYpN4Pq51YkLj_8g",
+          "accidents": [
+            "以空芯光纤、多芯光纤等产品全面覆盖智算中心光联接场景，空芯光纤衰减系数达0.04dB/km，已助力三大运营商开通首条商用线路",
+            "2026Q1归母净利润同比增长226.40%"
+          ],
+          "insights": [
+            "AI算力光纤+空芯光纤"
+          ],
+          "key_metrics": [
+            "2026Q1归母净利润同比增长226.40%",
+            "空芯光纤衰减系数达0.04dB/km"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "000586": {
+      "name": "汇源通信",
+      "code": "000586",
+      "board": "SZ",
+      "industry": "通信-通信设备-光纤光缆",
+      "concepts": [
+        "光纤",
+        "定增终止"
+      ],
+      "products": [
+        "电力特种光缆"
+      ],
+      "core_business": [
+        "电力特种光缆"
+      ],
+      "industry_position": [
+        "主营电力特种光缆，是国内高压输电线路在线监测产品的主力供应商之一"
+      ],
+      "chain": [
+        "中游-光纤光缆"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "6月2日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/p0lzzWLYpN4Pq51YkLj_8g",
+          "accidents": [
+            "终止向特定对象发行股票事项，同时终止筹划管理层收购和控制权变更事宜"
+          ],
+          "insights": [
+            "定增终止+光纤"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "301508": {
+      "name": "华盛昌",
+      "code": "301508",
+      "board": "SZ",
+      "industry": "机械设备-仪器仪表-测试仪器",
+      "concepts": [
+        "光通信测试",
+        "伽蓝特并购"
+      ],
+      "products": [
+        "光模块测试解决方案"
+      ],
+      "core_business": [
+        "测试仪器研发与生产"
+      ],
+      "industry_position": [
+        "完成对伽蓝特100%股权的工商变更登记，伽蓝特专注为光模块、硅光芯片厂商提供全流程测试解决方案"
+      ],
+      "chain": [
+        "中游-测试设备"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "6月2日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/p0lzzWLYpN4Pq51YkLj_8g",
+          "accidents": [
+            "完成对伽蓝特100%股权的工商变更登记，伽蓝特专注为光模块、硅光芯片厂商提供全流程测试解决方案",
+            "2026年一季度在手订单1.97亿元"
+          ],
+          "insights": [
+            "光通信测试+伽蓝特并购"
+          ],
+          "key_metrics": [
+            "2026年一季度在手订单1.97亿元"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "002975": {
+      "name": "博杰股份",
+      "code": "002975",
+      "board": "SZ",
+      "industry": "机械设备-专用设备-测试设备",
+      "concepts": [
+        "AI服务器测试",
+        "MLCC设备"
+      ],
+      "products": [
+        "AI服务器测试设备",
+        "MLCC设备"
+      ],
+      "core_business": [
+        "测试设备研发与生产"
+      ],
+      "industry_position": [
+        "已获得英伟达Vendor Code，2025年相关业务正式切入其量产产线"
+      ],
+      "chain": [
+        "中游-测试设备"
+      ],
+      "partners": [
+        "英伟达"
+      ],
+      "articles": [
+        {
+          "title": "6月2日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/p0lzzWLYpN4Pq51YkLj_8g",
+          "accidents": [
+            "已获得英伟达Vendor Code，2025年相关业务正式切入其量产产线",
+            "2026Q1营收4.68亿元，同比增长127.21%，归母净利润同比扭亏为盈"
+          ],
+          "insights": [
+            "AI服务器测试+MLCC设备"
+          ],
+          "key_metrics": [
+            "2026Q1营收4.68亿元，同比增长127.21%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "002957": {
+      "name": "科瑞技术",
+      "code": "002957",
+      "board": "SZ",
+      "industry": "机械设备-专用设备-半导体设备",
+      "concepts": [
+        "光器件耦合设备",
+        "半导体设备"
+      ],
+      "products": [
+        "光器件耦合设备",
+        "镜片及镜群耦合设备",
+        "光模块芯片AOI＆COS AOI检测设备"
+      ],
+      "core_business": [
+        "自动化设备研发与生产"
+      ],
+      "industry_position": [
+        "推出光器件耦合设备、镜片及镜群耦合设备、光模块芯片AOI＆COS AOI检测设备、超高精度堆叠设备等产品",
+        "半导体及光模块零部件收入1.74亿元，2026Q1该板块收入占比升至19.6%"
+      ],
+      "chain": [
+        "中游-自动化设备"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "6月2日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/p0lzzWLYpN4Pq51YkLj_8g",
+          "accidents": [
+            "推出光器件耦合设备、镜片及镜群耦合设备、光模块芯片AOI＆COS AOI检测设备、超高精度堆叠设备等产品",
+            "半导体及光模块零部件收入1.74亿元，2026Q1该板块收入占比升至19.6%"
+          ],
+          "insights": [
+            "光器件耦合设备+半导体设备"
+          ],
+          "key_metrics": [
+            "半导体及光模块零部件收入1.74亿元，2026Q1该板块收入占比升至19.6%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "002515": {
+      "name": "金字火腿",
+      "code": "002515",
+      "board": "SZ",
+      "industry": "食品饮料-食品加工-肉制品",
+      "concepts": [
+        "光通信",
+        "光模块电芯片"
+      ],
+      "products": [],
+      "core_business": [
+        "肉制品+光模块电芯片投资"
+      ],
+      "industry_position": [
+        "全资子公司福建金字半导体以1亿元增资中晟微电子，持股9.0909%，标的公司专注400G/800G/1.6T高速光模块核心电芯片TIA/Driver研发设计"
+      ],
+      "chain": [
+        "投资-光芯片"
+      ],
+      "partners": [
+        "中晟微电子"
+      ],
+      "articles": [
+        {
+          "title": "6月2日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/p0lzzWLYpN4Pq51YkLj_8g",
+          "accidents": [
+            "全资子公司福建金字半导体以1亿元增资中晟微电子，持股9.0909%"
+          ],
+          "insights": [
+            "光通信+光模块电芯片"
+          ],
+          "key_metrics": [
+            "1亿元增资中晟微电子，持股9.0909%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "688055": {
+      "name": "美迪凯",
+      "code": "688055",
+      "board": "SH",
+      "industry": "电子-光学光电子-光学元件",
+      "concepts": [
+        "玻璃基板",
+        "TGV工艺",
+        "MicroLED"
+      ],
+      "products": [
+        "玻璃基板",
+        "MicroLED"
+      ],
+      "core_business": [
+        "光学元件+玻璃基板代加工"
+      ],
+      "industry_position": [
+        "和日本玻璃厂商合作开展玻璃基板代加工业务，生产线已通过某头部fab厂验厂",
+        "TGV工艺最大深宽比可达50:1，孔侧壁Ra值≤80nm",
+        "8英寸硅基氮化镓外延MicroLED已于2025年第四季度开始小批量生产"
+      ],
+      "chain": [
+        "中游-光学元件"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "6月2日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/p0lzzWLYpN4Pq51YkLj_8g",
+          "accidents": [
+            "和日本玻璃厂商合作开展玻璃基板代加工业务，生产线已通过某头部fab厂验厂",
+            "TGV工艺最大深宽比可达50:1，孔侧壁Ra值≤80nm",
+            "8英寸硅基氮化镓外延MicroLED已于2025年第四季度开始小批量生产"
+          ],
+          "insights": [
+            "玻璃基板+TGV工艺+MicroLED"
+          ],
+          "key_metrics": [
+            "TGV工艺最大深宽比可达50:1"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "002175": {
+      "name": "实益达",
+      "code": "002175",
+      "board": "SZ",
+      "industry": "电子-电子元件-智能硬件",
+      "concepts": [
+        "先进封装",
+        "智能硬件",
+        "宇树科技"
+      ],
+      "products": [
+        "半导体封装设备部件及整机产品"
+      ],
+      "core_business": [
+        "智能硬件制造"
+      ],
+      "industry_position": [
+        "智能硬件制造业务涉及半导体封装设备部件及整机产品，已为ASM PT提供封装设备部件及整机产品",
+        "全资子公司持有浙江容腾创业投资合伙企业0.8333%股权，容腾持有宇树科技1.3217%股权"
+      ],
+      "chain": [
+        "中游-智能硬件"
+      ],
+      "partners": [
+        "ASM PT"
+      ],
+      "articles": [
+        {
+          "title": "6月2日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/p0lzzWLYpN4Pq51YkLj_8g",
+          "accidents": [
+            "已为ASM PT提供封装设备部件及整机产品",
+            "全资子公司持有浙江容腾创业投资合伙企业0.8333%股权，容腾持有宇树科技1.3217%股权"
+          ],
+          "insights": [
+            "先进封装+智能硬件+宇树科技"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "002876": {
+      "name": "三利谱",
+      "code": "002876",
+      "board": "SZ",
+      "industry": "电子-光学光电子-光学元件",
+      "concepts": [
+        "偏光片",
+        "消费电子"
+      ],
+      "products": [
+        "偏光片"
+      ],
+      "core_business": [
+        "偏光片研发与生产"
+      ],
+      "industry_position": [
+        "可折叠偏光片2025年已实现小批量应用，耐溶剂AMOLED偏光片已完成开发"
+      ],
+      "chain": [
+        "中游-光学元件"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "6月2日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/p0lzzWLYpN4Pq51YkLj_8g",
+          "accidents": [
+            "可折叠偏光片2025年已实现小批量应用，耐溶剂AMOLED偏光片已完成开发"
+          ],
+          "insights": [
+            "偏光片+消费电子"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "300993": {
+      "name": "泓淋电力",
+      "code": "300993",
+      "board": "SZ",
+      "industry": "电力设备-电网设备-电源线",
+      "concepts": [
+        "高速铜缆",
+        "电源线",
+        "戴尔产业链"
+      ],
+      "products": [
+        "电源线组件",
+        "100G至1.6T高速铜缆"
+      ],
+      "core_business": [
+        "电源线组件+高速铜缆"
+      ],
+      "industry_position": [
+        "已与戴尔科技建立长期合作，提供电源线组件产品",
+        "子公司推出100G至1.6T高速铜缆系列产品，切入AI服务器高速连接赛道"
+      ],
+      "chain": [
+        "中游-电源线"
+      ],
+      "partners": [
+        "戴尔科技"
+      ],
+      "articles": [
+        {
+          "title": "5月29日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/HJjPCkePJcAsRrYJxbt6Pw",
+          "accidents": [
+            "已与戴尔科技建立长期合作，提供电源线组件产品",
+            "子公司推出100G至1.6T高速铜缆系列产品，切入AI服务器高速连接赛道"
+          ],
+          "insights": [
+            "高速铜缆+电源线+戴尔产业链"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "603158": {
+      "name": "新亚电子",
+      "code": "603158",
+      "board": "SH",
+      "industry": "电力设备-电网设备-线缆",
+      "concepts": [
+        "戴尔产业链",
+        "高频高速铜缆"
+      ],
+      "products": [
+        "高频高速铜缆"
+      ],
+      "core_business": [
+        "线缆研发与生产"
+      ],
+      "industry_position": [
+        "通过安费诺进入戴尔等服务器制造商供应链，2025年该业务营收同比增长84.94%，AI服务器需求持续放量"
+      ],
+      "chain": [
+        "中游-线缆"
+      ],
+      "partners": [
+        "安费诺",
+        "戴尔"
+      ],
+      "articles": [
+        {
+          "title": "5月29日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/HJjPCkePJcAsRrYJxbt6Pw",
+          "accidents": [
+            "通过安费诺进入戴尔等服务器制造商供应链，2025年该业务营收同比增长84.94%，AI服务器需求持续放量"
+          ],
+          "insights": [
+            "戴尔产业链+高频高速铜缆"
+          ],
+          "key_metrics": [
+            "2025年该业务营收同比增长84.94%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "603890": {
+      "name": "春秋电子",
+      "code": "603890",
+      "board": "SH",
+      "industry": "电子-消费电子-结构件",
+      "concepts": [
+        "戴尔产业链",
+        "AIPC镁合金"
+      ],
+      "products": [
+        "AIPC镁合金产品"
+      ],
+      "core_business": [
+        "消费电子结构件"
+      ],
+      "industry_position": [
+        "与联想、惠普和戴尔建立稳定合作关系，AIPC渗透率持续提升，消费类镁合金产品收入同比增长超30%"
+      ],
+      "chain": [
+        "中游-结构件"
+      ],
+      "partners": [
+        "联想",
+        "惠普",
+        "戴尔"
+      ],
+      "articles": [
+        {
+          "title": "5月29日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/HJjPCkePJcAsRrYJxbt6Pw",
+          "accidents": [
+            "与联想、惠普和戴尔建立稳定合作关系，AIPC渗透率持续提升，消费类镁合金产品收入同比增长超30%"
+          ],
+          "insights": [
+            "戴尔产业链+AIPC镁合金"
+          ],
+          "key_metrics": [
+            "消费类镁合金产品收入同比增长超30%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "301012": {
+      "name": "荣旗科技",
+      "code": "301012",
+      "board": "SZ",
+      "industry": "机械设备-仪器仪表-智能检测",
+      "concepts": [
+        "智能检测",
+        "AI设备"
+      ],
+      "products": [
+        "智能检测设备"
+      ],
+      "core_business": [
+        "智能检测设备研发与生产"
+      ],
+      "industry_position": [
+        "主营智能检测设备，应用于消费电子、半导体等领域"
+      ],
+      "chain": [
+        "中游-检测设备"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "5月29日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/HJjPCkePJcAsRrYJxbt6Pw",
+          "accidents": [
+            "受戴尔产业链情绪带动，获作手新一等游资参与"
+          ],
+          "insights": [
+            "智能检测+AI设备"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "002824": {
+      "name": "和胜股份",
+      "code": "002824",
+      "board": "SZ",
+      "industry": "有色金属-有色金属-铝加工",
+      "concepts": [
+        "电池结构件",
+        "消费电子"
+      ],
+      "products": [
+        "电池结构件",
+        "折叠屏中框",
+        "转轴"
+      ],
+      "core_business": [
+        "电池结构件+消费电子结构件"
+      ],
+      "industry_position": [
+        "国内新能源汽车电池结构件核心供应商，已配套新能源车企销量前20名中的13家",
+        "成功适配旗舰手机折叠屏中框、转轴等核心部件"
+      ],
+      "chain": [
+        "中游-结构件"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "5月29日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/HJjPCkePJcAsRrYJxbt6Pw",
+          "accidents": [
+            "已配套新能源车企销量前20名中的13家",
+            "成功适配旗舰手机折叠屏中框、转轴等核心部件"
+          ],
+          "insights": [
+            "电池结构件+消费电子"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "002251": {
+      "name": "步步高",
+      "code": "002251",
+      "board": "SZ",
+      "industry": "商业贸易-零售-百货",
+      "concepts": [
+        "城市更新",
+        "零售调改",
+        "胖东来"
+      ],
+      "products": [],
+      "core_business": [
+        "零售"
+      ],
+      "industry_position": [
+        "胖东来团队调改已覆盖8家卖场，销售突破100亿元，调改效应持续释放"
+      ],
+      "chain": [
+        "下游-零售"
+      ],
+      "partners": [
+        "胖东来"
+      ],
+      "articles": [
+        {
+          "title": "5月29日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/HJjPCkePJcAsRrYJxbt6Pw",
+          "accidents": [
+            "胖东来团队调改已覆盖8家卖场，销售突破100亿元，调改效应持续释放"
+          ],
+          "insights": [
+            "城市更新+零售调改"
+          ],
+          "key_metrics": [
+            "胖东来团队调改已覆盖8家卖场，销售突破100亿元"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "600280": {
+      "name": "中央商场",
+      "code": "600280",
+      "board": "SH",
+      "industry": "商业贸易-零售-百货",
+      "concepts": [
+        "零售",
+        "城市更新"
+      ],
+      "products": [],
+      "core_business": [
+        "零售"
+      ],
+      "industry_position": [
+        "门店调改带来客流显著增长，城市更新政策加速商业转型，存量物业价值有望重估"
+      ],
+      "chain": [
+        "下游-零售"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "5月29日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/HJjPCkePJcAsRrYJxbt6Pw",
+          "accidents": [
+            "门店调改带来客流显著增长，城市更新政策加速商业转型"
+          ],
+          "insights": [
+            "零售+城市更新"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "600828": {
+      "name": "茂业商业",
+      "code": "600828",
+      "board": "SH",
+      "industry": "商业贸易-零售-百货",
+      "concepts": [
+        "零售",
+        "城市更新"
+      ],
+      "products": [],
+      "core_business": [
+        "零售"
+      ],
+      "industry_position": [
+        "持续优化门店布局，城市更新政策有望带来存量物业价值重估"
+      ],
+      "chain": [
+        "下游-零售"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "5月29日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/HJjPCkePJcAsRrYJxbt6Pw",
+          "accidents": [
+            "持续优化门店布局，城市更新政策有望带来存量物业价值重估"
+          ],
+          "insights": [
+            "零售+城市更新"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "600693": {
+      "name": "东百集团",
+      "code": "600693",
+      "board": "SH",
+      "industry": "商业贸易-零售-百货",
+      "concepts": [
+        "零售",
+        "仓储物流"
+      ],
+      "products": [],
+      "core_business": [
+        "零售+仓储物流"
+      ],
+      "industry_position": [
+        "仓储物流+零售双轮驱动，物流仓储业务持续扩张"
+      ],
+      "chain": [
+        "下游-零售"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "5月29日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/HJjPCkePJcAsRrYJxbt6Pw",
+          "accidents": [
+            "仓储物流+零售双轮驱动，物流仓储业务持续扩张"
+          ],
+          "insights": [
+            "零售+仓储物流"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "600857": {
+      "name": "宁波中百",
+      "code": "600857",
+      "board": "SH",
+      "industry": "商业贸易-零售-百货",
+      "concepts": [
+        "零售",
+        "实控人变更"
+      ],
+      "products": [],
+      "core_business": [
+        "零售"
+      ],
+      "industry_position": [
+        "杭州金帝取得公司28.96%股份，成为控股股东，实控人变更",
+        "2026Q1净利润同比增长285.61%"
+      ],
+      "chain": [
+        "下游-零售"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "5月29日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/HJjPCkePJcAsRrYJxbt6Pw",
+          "accidents": [
+            "杭州金帝取得公司28.96%股份，成为控股股东，实控人变更",
+            "2026Q1净利润同比增长285.61%"
+          ],
+          "insights": [
+            "零售+实控人变更"
+          ],
+          "key_metrics": [
+            "2026Q1净利润同比增长285.61%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "600865": {
+      "name": "百大集团",
+      "code": "600865",
+      "board": "SH",
+      "industry": "商业贸易-零售-百货",
+      "concepts": [
+        "零售",
+        "恒隆租约"
+      ],
+      "products": [],
+      "core_business": [
+        "零售"
+      ],
+      "industry_position": [
+        "与恒隆签署20年租赁合同，拟将杭州百货大楼整体出租给恒隆，租金每三年递增4.5%"
+      ],
+      "chain": [
+        "下游-零售"
+      ],
+      "partners": [
+        "恒隆"
+      ],
+      "articles": [
+        {
+          "title": "5月29日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/HJjPCkePJcAsRrYJxbt6Pw",
+          "accidents": [
+            "与恒隆签署20年租赁合同，拟将杭州百货大楼整体出租给恒隆，租金每三年递增4.5%"
+          ],
+          "insights": [
+            "零售+恒隆租约"
+          ],
+          "key_metrics": [
+            "20年租赁合同，租金每三年递增4.5%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "601116": {
+      "name": "三江购物",
+      "code": "601116",
+      "board": "SH",
+      "industry": "商业贸易-零售-超市",
+      "concepts": [
+        "零售",
+        "阿里概念"
+      ],
+      "products": [],
+      "core_business": [
+        "社区生鲜超市连锁经营"
+      ],
+      "industry_position": [
+        "核心业务为社区生鲜超市连锁经营，阿里系持股27%，持续布局社区零售"
+      ],
+      "chain": [
+        "下游-零售"
+      ],
+      "partners": [
+        "阿里"
+      ],
+      "articles": [
+        {
+          "title": "5月29日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/HJjPCkePJcAsRrYJxbt6Pw",
+          "accidents": [
+            "阿里系持股27%，持续布局社区零售"
+          ],
+          "insights": [
+            "零售+阿里概念"
+          ],
+          "key_metrics": [
+            "阿里系持股27%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "600778": {
+      "name": "国芳集团",
+      "code": "600778",
+      "board": "SH",
+      "industry": "商业贸易-零售-百货",
+      "concepts": [
+        "零售",
+        "算力布局"
+      ],
+      "products": [],
+      "core_business": [
+        "零售+算力"
+      ],
+      "industry_position": [
+        "投资设立御道智算及御道数科，布局算力赛道",
+        "2026Q1净利润同比增长174.14%"
+      ],
+      "chain": [
+        "下游-零售"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "5月29日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/HJjPCkePJcAsRrYJxbt6Pw",
+          "accidents": [
+            "投资设立御道智算及御道数科，布局算力赛道",
+            "2026Q1净利润同比增长174.14%"
+          ],
+          "insights": [
+            "零售+算力布局"
+          ],
+          "key_metrics": [
+            "2026Q1净利润同比增长174.14%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "601566": {
+      "name": "九牧王",
+      "code": "601566",
+      "board": "SH",
+      "industry": "纺织服装-服装家纺-男装",
+      "concepts": [
+        "男裤龙头",
+        "分红"
+      ],
+      "products": [
+        "科技保暖太空裤"
+      ],
+      "core_business": [
+        "男装"
+      ],
+      "industry_position": [
+        "与中国航天101所联合研发'首创科技保暖太空裤'，热销超8万条",
+        "每10股派5元含税，高股息吸引资金关注"
+      ],
+      "chain": [
+        "下游-服装"
+      ],
+      "partners": [
+        "中国航天101所"
+      ],
+      "articles": [
+        {
+          "title": "5月29日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/HJjPCkePJcAsRrYJxbt6Pw",
+          "accidents": [
+            "与中国航天101所联合研发'首创科技保暖太空裤'，热销超8万条",
+            "每10股派5元含税，高股息吸引资金关注"
+          ],
+          "insights": [
+            "男裤龙头+分红"
+          ],
+          "key_metrics": [
+            "太空裤热销超8万条",
+            "每10股派5元含税"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "000799": {
+      "name": "酒鬼酒",
+      "code": "000799",
+      "board": "SZ",
+      "industry": "食品饮料-白酒-白酒",
+      "concepts": [
+        "白酒",
+        "业绩复苏"
+      ],
+      "products": [
+        "白酒"
+      ],
+      "core_business": [
+        "白酒"
+      ],
+      "industry_position": [
+        "2026Q1营收同比增长30.11%，净利润同比增长44.96%，端午旺季预期催化"
+      ],
+      "chain": [
+        "下游-白酒"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "5月29日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/HJjPCkePJcAsRrYJxbt6Pw",
+          "accidents": [
+            "2026Q1营收同比增长30.11%，净利润同比增长44.96%，端午旺季预期催化"
+          ],
+          "insights": [
+            "白酒+业绩复苏"
+          ],
+          "key_metrics": [
+            "2026Q1营收同比增长30.11%，净利润同比增长44.96%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "000608": {
+      "name": "阳光股份",
+      "code": "000608",
+      "board": "SZ",
+      "industry": "房地产-房地产开发-商业地产",
+      "concepts": [
+        "城市更新",
+        "零售"
+      ],
+      "products": [],
+      "core_business": [
+        "商业地产运营"
+      ],
+      "industry_position": [
+        "城市更新业务推进，商业地产运营逐步恢复，存量物业有望受益于城市更新政策"
+      ],
+      "chain": [
+        "下游-商业地产"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "5月29日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/HJjPCkePJcAsRrYJxbt6Pw",
+          "accidents": [
+            "城市更新业务推进，商业地产运营逐步恢复"
+          ],
+          "insights": [
+            "城市更新+零售"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "000037": {
+      "name": "深南电A",
+      "code": "000037",
+      "board": "SZ",
+      "industry": "公用事业-电力-火电",
+      "concepts": [
+        "电力",
+        "业绩"
+      ],
+      "products": [],
+      "core_business": [
+        "电力"
+      ],
+      "industry_position": [
+        "控股股东减持计划完成，利空出尽",
+        "2026Q1净利润同比增长54.47%"
+      ],
+      "chain": [
+        "上游-电力"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "5月29日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/HJjPCkePJcAsRrYJxbt6Pw",
+          "accidents": [
+            "控股股东减持计划完成，利空出尽",
+            "2026Q1净利润同比增长54.47%"
+          ],
+          "insights": [
+            "电力+业绩"
+          ],
+          "key_metrics": [
+            "2026Q1净利润同比增长54.47%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "000767": {
+      "name": "晋控电力",
+      "code": "000767",
+      "board": "SZ",
+      "industry": "公用事业-电力-火电",
+      "concepts": [
+        "电力",
+        "城市更新"
+      ],
+      "products": [],
+      "core_business": [
+        "电力"
+      ],
+      "industry_position": [
+        "电力业务区域优势显著，城市更新带动基建用电需求，受益电力供需紧张"
+      ],
+      "chain": [
+        "上游-电力"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "5月29日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/HJjPCkePJcAsRrYJxbt6Pw",
+          "accidents": [
+            "电力业务区域优势显著，城市更新带动基建用电需求"
+          ],
+          "insights": [
+            "电力+城市更新"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "603162": {
+      "name": "得邦照明",
+      "code": "603162",
+      "board": "SH",
+      "industry": "电子-光学光电子-照明",
+      "concepts": [
+        "照明",
+        "城市更新"
+      ],
+      "products": [
+        "照明产品"
+      ],
+      "core_business": [
+        "照明产品"
+      ],
+      "industry_position": [
+        "照明产品在城市更新、景观照明领域有广泛应用"
+      ],
+      "chain": [
+        "下游-照明"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "5月29日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/HJjPCkePJcAsRrYJxbt6Pw",
+          "accidents": [
+            "照明产品在城市更新、景观照明领域有广泛应用"
+          ],
+          "insights": [
+            "照明+城市更新"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "600644": {
+      "name": "广安爱众",
+      "code": "600644",
+      "board": "SH",
+      "industry": "公用事业-电力-水电",
+      "concepts": [
+        "电力",
+        "城市更新"
+      ],
+      "products": [],
+      "core_business": [
+        "电力+水务"
+      ],
+      "industry_position": [
+        "电力业务区域垄断优势明显，城市更新带动水电、燃气等公用事业需求"
+      ],
+      "chain": [
+        "上游-公用事业"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "5月29日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/HJjPCkePJcAsRrYJxbt6Pw",
+          "accidents": [
+            "电力业务区域垄断优势明显，城市更新带动水电、燃气等公用事业需求"
+          ],
+          "insights": [
+            "电力+城市更新"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "600011": {
+      "name": "华能国际",
+      "code": "600011",
+      "board": "SH",
+      "industry": "公用事业-电力-火电",
+      "concepts": [
+        "火电龙头",
+        "业绩"
+      ],
+      "products": [],
+      "core_business": [
+        "火电"
+      ],
+      "industry_position": [
+        "火电装机规模行业领先，受益电力供需紧张及电价市场化改革，2026Q1业绩同比大幅改善"
+      ],
+      "chain": [
+        "上游-电力"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "5月29日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/HJjPCkePJcAsRrYJxbt6Pw",
+          "accidents": [
+            "火电装机规模行业领先，受益电力供需紧张及电价市场化改革",
+            "2026Q1业绩同比大幅改善"
+          ],
+          "insights": [
+            "火电龙头+业绩"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "600863": {
+      "name": "内蒙华电",
+      "code": "600863",
+      "board": "SH",
+      "industry": "公用事业-电力-火电",
+      "concepts": [
+        "火电",
+        "区域优势"
+      ],
+      "products": [],
+      "core_business": [
+        "火电"
+      ],
+      "industry_position": [
+        "火电业务集中在内蒙古区域，电力外送需求旺盛",
+        "受益南方电网负荷创新高及跨区域电力调度需求增加"
+      ],
+      "chain": [
+        "上游-电力"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "5月29日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/HJjPCkePJcAsRrYJxbt6Pw",
+          "accidents": [
+            "火电业务集中在内蒙古区域，电力外送需求旺盛",
+            "受益南方电网负荷创新高及跨区域电力调度需求增加"
+          ],
+          "insights": [
+            "火电+区域优势"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "600282": {
+      "name": "江苏国信",
+      "code": "600282",
+      "board": "SH",
+      "industry": "公用事业-电力-火电",
+      "concepts": [
+        "电力",
+        "金融双轮"
+      ],
+      "products": [],
+      "core_business": [
+        "电力+金融"
+      ],
+      "industry_position": [
+        "电力业务受益区域用电需求增长，金融业务稳健，2026Q1业绩双轮驱动增长"
+      ],
+      "chain": [
+        "上游-电力"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "5月29日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/HJjPCkePJcAsRrYJxbt6Pw",
+          "accidents": [
+            "电力业务受益区域用电需求增长，金融业务稳健",
+            "2026Q1业绩双轮驱动增长"
+          ],
+          "insights": [
+            "电力+金融双轮"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "002943": {
+      "name": "欧晶科技",
+      "code": "002943",
+      "board": "SZ",
+      "industry": "电力设备-光伏设备-光伏材料",
+      "concepts": [
+        "光伏材料",
+        "业绩"
+      ],
+      "products": [
+        "石英坩埚"
+      ],
+      "core_business": [
+        "光伏材料"
+      ],
+      "industry_position": [
+        "主营石英坩埚等光伏材料，受益光伏行业复苏及N型电池技术迭代，2026Q1业绩同比增长显著"
+      ],
+      "chain": [
+        "上游-光伏材料"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "5月29日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/HJjPCkePJcAsRrYJxbt6Pw",
+          "accidents": [
+            "主营石英坩埚等光伏材料，受益光伏行业复苏及N型电池技术迭代",
+            "2026Q1业绩同比增长显著"
+          ],
+          "insights": [
+            "光伏材料+业绩"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "600620": {
+      "name": "光大嘉宝",
+      "code": "600620",
+      "board": "SH",
+      "industry": "房地产-房地产开发-城市更新",
+      "concepts": [
+        "城市更新",
+        "地产"
+      ],
+      "products": [],
+      "core_business": [
+        "城市更新"
+      ],
+      "industry_position": [
+        "城市更新业务为核心战略，拥有多个存量物业改造项目",
+        "政策预计带来15-20万亿市场容量"
+      ],
+      "chain": [
+        "下游-城市更新"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "5月29日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/HJjPCkePJcAsRrYJxbt6Pw",
+          "accidents": [
+            "城市更新业务为核心战略，拥有多个存量物业改造项目",
+            "政策预计带来15-20万亿市场容量"
+          ],
+          "insights": [
+            "城市更新+地产"
+          ],
+          "key_metrics": [
+            "政策预计带来15-20万亿市场容量"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "000926": {
+      "name": "福星股份",
+      "code": "000926",
+      "board": "SZ",
+      "industry": "房地产-房地产开发-城市更新",
+      "concepts": [
+        "城市更新",
+        "地产"
+      ],
+      "products": [],
+      "core_business": [
+        "城市更新及旧城改造"
+      ],
+      "industry_position": [
+        "聚焦城市更新及旧城改造，多个旧改项目进入收获期，政策催化下价值重估"
+      ],
+      "chain": [
+        "下游-城市更新"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "5月29日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/HJjPCkePJcAsRrYJxbt6Pw",
+          "accidents": [
+            "聚焦城市更新及旧城改造，多个旧改项目进入收获期"
+          ],
+          "insights": [
+            "城市更新+地产"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "002457": {
+      "name": "青龙管业",
+      "code": "002457",
+      "board": "SZ",
+      "industry": "建筑材料-水泥制品-管道",
+      "concepts": [
+        "城市更新",
+        "管道"
+      ],
+      "products": [
+        "PCCP管道"
+      ],
+      "core_business": [
+        "PCCP管道"
+      ],
+      "industry_position": [
+        "PCCP管道业务受益水利工程及城市管网建设，城市更新带动地下管网改造需求"
+      ],
+      "chain": [
+        "中游-管道"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "5月29日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/HJjPCkePJcAsRrYJxbt6Pw",
+          "accidents": [
+            "PCCP管道业务受益水利工程及城市管网建设"
+          ],
+          "insights": [
+            "城市更新+管道"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "603616": {
+      "name": "韩建河山",
+      "code": "603616",
+      "board": "SH",
+      "industry": "建筑材料-水泥制品-管道",
+      "concepts": [
+        "城市更新",
+        "水利中标"
+      ],
+      "products": [
+        "PCCP管材"
+      ],
+      "core_business": [
+        "PCCP管材"
+      ],
+      "industry_position": [
+        "中标4.40亿元广西左江治旱黑水河现代化灌区工程PCCP管材项目，约占2025年营收49.77%"
+      ],
+      "chain": [
+        "中游-管道"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "5月29日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/HJjPCkePJcAsRrYJxbt6Pw",
+          "accidents": [
+            "中标4.40亿元广西左江治旱黑水河现代化灌区工程PCCP管材项目，约占2025年营收49.77%"
+          ],
+          "insights": [
+            "城市更新+水利中标"
+          ],
+          "key_metrics": [
+            "中标4.40亿元，约占2025年营收49.77%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "002081": {
+      "name": "金螳螂",
+      "code": "002081",
+      "board": "SZ",
+      "industry": "建筑装饰-装修装饰-装修装饰",
+      "concepts": [
+        "城市更新",
+        "中标"
+      ],
+      "products": [],
+      "core_business": [
+        "装修装饰"
+      ],
+      "industry_position": [
+        "孙公司中标澳门银河娱乐2.94亿元装修工程",
+        "将城市更新作为战略重点，已有多个项目获评住建部城市更新典型案例，洁净室业务布局电子半导体等高附加值领域"
+      ],
+      "chain": [
+        "下游-装修装饰"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "5月29日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/HJjPCkePJcAsRrYJxbt6Pw",
+          "accidents": [
+            "孙公司中标澳门银河娱乐2.94亿元装修工程",
+            "将城市更新作为战略重点，已有多个项目获评住建部城市更新典型案例"
+          ],
+          "insights": [
+            "城市更新+中标"
+          ],
+          "key_metrics": [
+            "中标澳门银河娱乐2.94亿元装修工程"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "000025": {
+      "name": "特力A",
+      "code": "000025",
+      "board": "SZ",
+      "industry": "房地产-房地产开发-商业地产",
+      "concepts": [
+        "城市更新",
+        "深圳国资"
+      ],
+      "products": [],
+      "core_business": [
+        "商业地产"
+      ],
+      "industry_position": [
+        "持有深圳罗湖、福田等片区物业资源，特力珠宝大厦、特力金钻大厦保持高出租率，计划通过旧改挖掘传统物业商业价值"
+      ],
+      "chain": [
+        "下游-商业地产"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "5月29日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/HJjPCkePJcAsRrYJxbt6Pw",
+          "accidents": [
+            "持有深圳罗湖、福田等片区物业资源，特力珠宝大厦、特力金钻大厦保持高出租率"
+          ],
+          "insights": [
+            "城市更新+深圳国资"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "000151": {
+      "name": "中成股份",
+      "code": "000151",
+      "board": "SZ",
+      "industry": "建筑装饰-建筑装饰-一带一路",
+      "concepts": [
+        "储能",
+        "央企",
+        "一带一路"
+      ],
+      "products": [],
+      "core_business": [
+        "储能项目投资运营+一带一路工程"
+      ],
+      "industry_position": [
+        "收购中技江苏100%股权，从事工商业用户侧储能项目投资运营，主要客户包括中国石化、宁德时代等",
+        "深耕亚非拉及'一带一路'共建国家二十余年，国外营收占比达83.61%"
+      ],
+      "chain": [
+        "中游-储能"
+      ],
+      "partners": [
+        "中国石化",
+        "宁德时代"
+      ],
+      "articles": [
+        {
+          "title": "5月29日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/HJjPCkePJcAsRrYJxbt6Pw",
+          "accidents": [
+            "收购中技江苏100%股权，从事工商业用户侧储能项目投资运营",
+            "国外营收占比达83.61%"
+          ],
+          "insights": [
+            "储能+央企+一带一路"
+          ],
+          "key_metrics": [
+            "国外营收占比达83.61%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "603060": {
+      "name": "国检集团",
+      "code": "603060",
+      "board": "SH",
+      "industry": "建筑装饰-建筑装饰-检测服务",
+      "concepts": [
+        "城市更新",
+        "存量房检测"
+      ],
+      "products": [],
+      "core_business": [
+        "工程检测"
+      ],
+      "industry_position": [
+        "已在既有建筑检测领域布局，工程检测板块拥有14家成员单位，开展存量房检测、既有建筑修护及"
+      ],
+      "chain": [
+        "中游-检测服务"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "5月29日一些首板逻辑",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/HJjPCkePJcAsRrYJxbt6Pw",
+          "accidents": [
+            "已在既有建筑检测领域布局，工程检测板块拥有14家成员单位"
+          ],
+          "insights": [
+            "城市更新+存量房检测"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
     }
   }
 }
