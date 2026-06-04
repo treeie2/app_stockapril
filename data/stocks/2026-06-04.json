@@ -1,6 +1,6 @@
 {
   "date": "2026-06-04",
-  "update_count": 79,
+  "update_count": 116,
   "last_updated": "2026-06-04",
   "stocks": {
     "688090": {
@@ -881,14 +881,19 @@
         "湿电子化学品",
         "CMP抛光液",
         "临时键合胶",
-        "液晶材料"
+        "液晶材料",
+        "半导体材料",
+        "屏幕显示材料",
+        "紫外固化材料"
       ],
       "industry_position": [
         "光纤涂料国内绝对龙头，市占率长期超60%",
-        "国内少数同时配套DRAM、NAND两大国产存储龙头的材料厂商"
+        "国内少数同时配套DRAM、NAND两大国产存储龙头的材料厂商",
+        "半导体材料领先企业"
       ],
       "chain": [
-        "上游-电子材料"
+        "上游-电子材料",
+        "上游-半导体材料"
       ],
       "partners": [
         "长鑫存储",
@@ -920,10 +925,34 @@
             "半导体材料收入近两年保持30%以上高增长"
           ],
           "target_valuation": []
+        },
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/mb-6LENvNMUAfcP6tfvXGQ",
+          "accidents": [
+            "2020-2025年营收从18.65亿增长至32.26亿",
+            "收购捷恩智液晶材料增强竞争力",
+            "新建年产30000吨半导体专用材料项目"
+          ],
+          "insights": [
+            "紫外固化材料光纤关键配套受益行业景气",
+            "先进封装材料加速放量"
+          ],
+          "key_metrics": [
+            "预计2026-2028年EPS 0.95/1.19/1.43元"
+          ],
+          "target_valuation": [
+            "目标价47.5元（2026年50倍PE）"
+          ]
         }
       ],
       "last_updated": "2026-06-04",
-      "mention_count": 1
+      "mention_count": 2,
+      "concepts": [
+        "先进封装",
+        "光纤材料"
+      ]
     },
     "002859": {
       "name": "洁美科技",
@@ -1048,7 +1077,8 @@
       "code": "600246",
       "board": "SH",
       "core_business": [
-        "PCIe 5.0 Switch芯片"
+        "PCIe 5.0 Switch芯片",
+        "光通信"
       ],
       "industry_position": [
         "A股唯一量产PCIe 5.0 Switch"
@@ -1071,10 +1101,24 @@
           ],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/mb-6LENvNMUAfcP6tfvXGQ",
+          "accidents": [],
+          "insights": [
+            "光互联产业链受益"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "last_updated": "2026-06-04",
-      "mention_count": 1
+      "mention_count": 2,
+      "concepts": [
+        "光互联"
+      ]
     },
     "688008": {
       "name": "澜起科技",
@@ -1095,10 +1139,35 @@
           ],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/mb-6LENvNMUAfcP6tfvXGQ",
+          "accidents": [],
+          "insights": [
+            "光互联产业链受益"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "last_updated": "2026-06-04",
-      "mention_count": 1
+      "mention_count": 2,
+      "core_business": [
+        "内存接口芯片",
+        "互连芯片"
+      ],
+      "industry_position": [
+        "内存接口芯片龙头"
+      ],
+      "chain": [
+        "上游-芯片设计"
+      ],
+      "concepts": [
+        "光互联",
+        "AI算力"
+      ]
     },
     "688702": {
       "name": "盛科通信",
@@ -2331,6 +2400,1365 @@
           "target_valuation": [
             "天风机械建议关注设备端"
           ]
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "920438": {
+      "name": "戈碧迦",
+      "code": "920438",
+      "board": "BJ",
+      "core_business": [
+        "光学玻璃及特种功能玻璃研发制造"
+      ],
+      "industry_position": [
+        "国内唯一量产高纯无碱硼硅玻璃原片的厂商",
+        "半导体玻璃基板原片环节国内绝对领先"
+      ],
+      "chain": [
+        "上游-玻璃原片制造"
+      ],
+      "partners": [
+        "通富微电",
+        "沃格光电"
+      ],
+      "articles": [
+        {
+          "title": "国内玻璃基板赛道：三家实力玩家",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/faZOXz25QZEpE_RVp-L8gQ",
+          "accidents": [
+            "2025年底月产2万片，2026年扩到5万片/月",
+            "已批量供货通富微电、沃格光电",
+            "在手订单饱满"
+          ],
+          "insights": [
+            "半导体玻璃基板原片国内唯一量产",
+            "直接受益玻璃基板商业化元年(2026)",
+            "扩产节奏明确，业绩弹性大"
+          ],
+          "key_metrics": [
+            "2025年底月产2万片",
+            "2026年扩到5万片/月"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "603773": {
+      "name": "沃格光电",
+      "code": "603773",
+      "board": "SH",
+      "core_business": [
+        "TGV玻璃通孔全制程加工",
+        "AMOLED玻璃基板"
+      ],
+      "industry_position": [
+        "国内少数掌握TGV全制程（打孔→填孔→布线）的企业"
+      ],
+      "chain": [
+        "中游-TGV精密加工"
+      ],
+      "partners": [
+        "戈碧迦"
+      ],
+      "articles": [
+        {
+          "title": "国内玻璃基板赛道：三家实力玩家",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/faZOXz25QZEpE_RVp-L8gQ",
+          "accidents": [
+            "武汉一期10万㎡/年量产",
+            "成都8.6代线2026年底投产",
+            "最小孔径3μm、深宽比150:1"
+          ],
+          "insights": [
+            "TGV全制程能力国内稀缺",
+            "8.6代线布局AMOLED玻璃基板",
+            "客户验证稳步推进"
+          ],
+          "key_metrics": [
+            "武汉一期10万㎡/年量产",
+            "成都8.6代线2026年底投产",
+            "最小孔径3μm、深宽比150:1"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "000725": {
+      "name": "京东方A",
+      "code": "000725",
+      "board": "SZ",
+      "core_business": [
+        "半导体显示面板",
+        "玻璃基封装载板",
+        "TGV",
+        "光互联"
+      ],
+      "industry_position": [
+        "全球显示面板龙头",
+        "玻璃基板潜在平台型巨头"
+      ],
+      "chain": [
+        "中游-面板级载板+TGV"
+      ],
+      "partners": [
+        "康宁"
+      ],
+      "concepts": [
+        "玻璃基板",
+        "半导体封装",
+        "光互联"
+      ],
+      "articles": [
+        {
+          "title": "国内玻璃基板赛道：三家实力玩家",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/faZOXz25QZEpE_RVp-L8gQ",
+          "accidents": [
+            "2024年投9.93亿试验线",
+            "20层高层数样品已出",
+            "2026年5月与康宁签三年合作"
+          ],
+          "insights": [
+            "面板龙头跨界玻璃基板封装",
+            "背靠资金+规模+玻璃加工能力+客户资源",
+            "有望成为全球重要参与者"
+          ],
+          "key_metrics": [
+            "2024年投9.93亿试验线",
+            "20层高层数样品已出"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "000700": {
+      "name": "模塑科技",
+      "code": "000700",
+      "board": "SZ",
+      "core_business": [
+        "汽车外饰件",
+        "人形机器人外覆盖件"
+      ],
+      "industry_position": [
+        "汽车外饰件领先企业"
+      ],
+      "chain": [
+        "中游-汽车零部件"
+      ],
+      "concepts": [
+        "机器人"
+      ],
+      "articles": [
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/mb-6LENvNMUAfcP6tfvXGQ",
+          "accidents": [
+            "获国内某知名新能源客户、北美知名电动车企及某豪华车品牌重大项目定点",
+            "预计总销售额超60亿元"
+          ],
+          "insights": [
+            "机器人业务打造二次成长曲线",
+            "2026年计划实现小批量向规模化突破"
+          ],
+          "key_metrics": [
+            "预计总销售额超60亿元",
+            "明慈医院2025年营收同比增长约10%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "002156": {
+      "name": "通富微电",
+      "code": "002156",
+      "board": "SZ",
+      "core_business": [
+        "集成电路封测"
+      ],
+      "industry_position": [
+        "国内封测龙头",
+        "AMD核心封测合作伙伴"
+      ],
+      "chain": [
+        "下游-封测"
+      ],
+      "partners": [
+        "AMD"
+      ],
+      "concepts": [
+        "先进封装",
+        "AI芯片"
+      ],
+      "articles": [
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/mb-6LENvNMUAfcP6tfvXGQ",
+          "accidents": [
+            "2026年计划投资91亿元（2025年计划60亿元）",
+            "承接AMD相关产品超过8成封测订单"
+          ],
+          "insights": [
+            "GPU及CPU价值有望重估",
+            "高端业务持续推进释放成长动能"
+          ],
+          "key_metrics": [
+            "2026年计划投资91亿元",
+            "崇川/南通/通富通科等投资35亿元",
+            "苏州/槟城投资56亿元"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "002384": {
+      "name": "东山精密",
+      "code": "002384",
+      "board": "SZ",
+      "core_business": [
+        "PCB制造",
+        "精密制造",
+        "光芯片技术",
+        "光模块"
+      ],
+      "industry_position": [
+        "国内PCB与精密制造领先企业"
+      ],
+      "chain": [
+        "中游-PCB制造"
+      ],
+      "concepts": [
+        "光模块",
+        "PCB"
+      ],
+      "articles": [
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/mb-6LENvNMUAfcP6tfvXGQ",
+          "accidents": [
+            "光芯片技术量产工艺及应用技术稳定可靠",
+            "下游光模块产品已实现多家行业头部客户批量供货",
+            "泰国生产基地建设稳步推进"
+          ],
+          "insights": [
+            "高端光模块产品市场需求旺盛",
+            "客户订单充足，出货规模稳步增长"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "002254": {
+      "name": "泰和新材",
+      "code": "002254",
+      "board": "SZ",
+      "core_business": [
+        "化纤制造",
+        "对位芳纶",
+        "芳纶纸"
+      ],
+      "industry_position": [
+        "化纤行业领先企业"
+      ],
+      "chain": [
+        "中游-化纤"
+      ],
+      "partners": [
+        "民士达"
+      ],
+      "articles": [
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/mb-6LENvNMUAfcP6tfvXGQ",
+          "accidents": [
+            "对位芳纶产能利用率约六七成，产销率约100%",
+            "国内主流光缆厂基本为公司客户"
+          ],
+          "insights": [
+            "后续资本开支围绕芳纶原料、绝缘/湿法无纺布、先进纺织方向"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "601609": {
+      "name": "金田股份",
+      "code": "601609",
+      "board": "SH",
+      "core_business": [
+        "AI机架母线",
+        "散热铜材",
+        "PEEK材料",
+        "再生铜"
+      ],
+      "industry_position": [
+        "AI散热铜材核心供应商",
+        "再生铜合规龙头"
+      ],
+      "chain": [
+        "中游-铜材加工"
+      ],
+      "concepts": [
+        "AI散热",
+        "液冷",
+        "PEEK"
+      ],
+      "partners": [
+        "欧洲知名材料供应商"
+      ],
+      "articles": [
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/mb-6LENvNMUAfcP6tfvXGQ",
+          "accidents": [
+            "高精密异型无氧铜排应用于多家第一梯队散热模组企业的多款顶级GPU散热方案中",
+            "突破PEEK材料国际专利壁垒",
+            "计划在越南投资建设年产3万吨液冷散热项目"
+          ],
+          "insights": [
+            "AI散热铜材核心受益",
+            "PEEK材料进口替代",
+            "再生铜合规出清利好龙头"
+          ],
+          "key_metrics": [
+            "25年绿色再生铜产品销量同比增长54%",
+            "精废价差一度突破6100元/吨"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "603155": {
+      "name": "新亚强",
+      "code": "603155",
+      "board": "SH",
+      "core_business": [
+        "硅烷功能性助剂",
+        "电子级硅烷"
+      ],
+      "industry_position": [
+        "硅烷功能性助剂龙头"
+      ],
+      "chain": [
+        "中游-化工新材料"
+      ],
+      "articles": [
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/mb-6LENvNMUAfcP6tfvXGQ",
+          "accidents": [
+            "26Q1功能性助剂销量3673吨同比+20%",
+            "26Q1均价3.33万/吨较25年均价+9.5%",
+            "六甲基二硅氮烷价格4.6万元/吨较年初+53.3%"
+          ],
+          "insights": [
+            "电子级硅烷持续拓展高端客户",
+            "价格上行周期业绩弹性大"
+          ],
+          "key_metrics": [
+            "预计2026-2028年EPS 0.45/0.60/0.78元"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "688593": {
+      "name": "新相微",
+      "code": "688593",
+      "board": "SH",
+      "core_business": [
+        "显示驱动芯片",
+        "Micro LED光模块",
+        "AR微显示模组"
+      ],
+      "industry_position": [
+        "显示驱动芯片设计企业"
+      ],
+      "chain": [
+        "上游-芯片设计"
+      ],
+      "partners": [
+        "京东方A",
+        "华灿光电"
+      ],
+      "articles": [
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/mb-6LENvNMUAfcP6tfvXGQ",
+          "accidents": [
+            "启动Micro LED光模块研发与生产",
+            "0.13寸AR微显示屏及4万像素ADB产品计划26Q1导入商业化",
+            "26Q2驱动芯片进入涨价通道"
+          ],
+          "insights": [
+            "显示驱动芯片价格拐点已至",
+            "Micro LED光模块开辟新成长曲线"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "300747": {
+      "name": "锐科激光",
+      "code": "300747",
+      "board": "SZ",
+      "core_business": [
+        "光纤激光器",
+        "特种光纤",
+        "激光反无",
+        "超快激光器",
+        "3D打印"
+      ],
+      "industry_position": [
+        "国内激光器领军企业"
+      ],
+      "chain": [
+        "中游-激光器制造"
+      ],
+      "subsidiaries": [
+        "睿芯光纤"
+      ],
+      "concepts": [
+        "激光反无",
+        "3D打印",
+        "光纤通信"
+      ],
+      "articles": [
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/mb-6LENvNMUAfcP6tfvXGQ",
+          "accidents": [
+            "睿芯具备全产业链光纤制备能力",
+            "激光反无十五五期间1→N加速放量",
+            "绑定下游头部厂商拓展高端PCB领域"
+          ],
+          "insights": [
+            "军民双驱重塑成长边界",
+            "星座组网推动3D打印需求"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "600460": {
+      "name": "士兰微",
+      "code": "600460",
+      "board": "SH",
+      "core_business": [
+        "半导体IDM",
+        "IGBT",
+        "SiC",
+        "IPM模块",
+        "MEMS传感器",
+        "MCU"
+      ],
+      "industry_position": [
+        "国内半导体IDM龙头"
+      ],
+      "chain": [
+        "中游-半导体制造"
+      ],
+      "subsidiaries": [
+        "士兰集科",
+        "士兰集成",
+        "士兰集昕",
+        "士兰明镓",
+        "士兰集宏"
+      ],
+      "concepts": [
+        "碳化硅",
+        "车规级芯片",
+        "AI算力"
+      ],
+      "articles": [
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/mb-6LENvNMUAfcP6tfvXGQ",
+          "accidents": [
+            "25年集成电路营收49.24亿元同比+20%",
+            "分立器件营收63.79亿元同比+17%",
+            "车规级SiC MOSFET模块累计出货超10万颗",
+            "规划总投资200亿元的12英寸高端模拟线"
+          ],
+          "insights": [
+            "碳化硅与模拟产品布局持续丰富",
+            "高门槛产品占比超80%",
+            "SiC 6英寸月产能1万片，8英寸已通线"
+          ],
+          "key_metrics": [
+            "士兰集科12英寸产出63.74万片同比+19%",
+            "士兰集成5/6英寸产出277.10万片同比+18%"
+          ],
+          "target_valuation": [
+            "预计26-28年归母净利润8.09/12.17/16.09亿元"
+          ]
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "688507": {
+      "name": "索辰科技",
+      "code": "688507",
+      "board": "SH",
+      "core_business": [
+        "CAE仿真软件",
+        "物理AI仿真平台"
+      ],
+      "industry_position": [
+        "国内CAE仿真软件龙头"
+      ],
+      "chain": [
+        "上游-工业软件"
+      ],
+      "products": [
+        "开物平台"
+      ],
+      "concepts": [
+        "物理AI",
+        "机器人仿真"
+      ],
+      "articles": [
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/mb-6LENvNMUAfcP6tfvXGQ",
+          "accidents": [
+            "推出开物平台，基于生成式物理AI技术",
+            "实现真实场景下四维时空耦合多物理场设计、仿真、优化和训练"
+          ],
+          "insights": [
+            "物理AI量产加速驱动仿真需求爆发",
+            "仿真平台价值被严重低估"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "300496": {
+      "name": "中科创达",
+      "code": "300496",
+      "board": "SZ",
+      "core_business": [
+        "智能操作系统",
+        "仿真平台"
+      ],
+      "industry_position": [
+        "智能操作系统龙头"
+      ],
+      "chain": [
+        "上游-软件平台"
+      ],
+      "concepts": [
+        "物理AI",
+        "机器人"
+      ],
+      "articles": [
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/mb-6LENvNMUAfcP6tfvXGQ",
+          "accidents": [],
+          "insights": [
+            "物理AI仿真赛道受益"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "688326": {
+      "name": "经纬恒润",
+      "code": "688326",
+      "board": "SH",
+      "core_business": [
+        "汽车电子",
+        "仿真测试"
+      ],
+      "industry_position": [
+        "汽车电子仿真领先企业"
+      ],
+      "chain": [
+        "上游-仿真测试"
+      ],
+      "concepts": [
+        "物理AI"
+      ],
+      "articles": [
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/mb-6LENvNMUAfcP6tfvXGQ",
+          "accidents": [],
+          "insights": [
+            "物理AI仿真赛道受益"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "002050": {
+      "name": "三花智控",
+      "code": "002050",
+      "board": "SZ",
+      "core_business": [
+        "热管理",
+        "机器人执行器"
+      ],
+      "industry_position": [
+        "全球热管理龙头",
+        "机器人核心零部件"
+      ],
+      "chain": [
+        "中游-零部件"
+      ],
+      "concepts": [
+        "机器人"
+      ],
+      "articles": [
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/mb-6LENvNMUAfcP6tfvXGQ",
+          "accidents": [
+            "核心标的回调至节前位置",
+            "供应商已收到PPA回函"
+          ],
+          "insights": [
+            "机器人产业进展加速",
+            "大批量生产近在咫尺"
+          ],
+          "key_metrics": [
+            "6月有望突破周100台+",
+            "9月预计达周产1k+"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "601689": {
+      "name": "拓普集团",
+      "code": "601689",
+      "board": "SH",
+      "core_business": [
+        "汽车零部件",
+        "机器人执行器"
+      ],
+      "industry_position": [
+        "国内汽车零部件龙头"
+      ],
+      "chain": [
+        "中游-零部件"
+      ],
+      "concepts": [
+        "机器人"
+      ],
+      "articles": [
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/mb-6LENvNMUAfcP6tfvXGQ",
+          "accidents": [],
+          "insights": [
+            "机器人核心确定性标的"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "603179": {
+      "name": "新泉股份",
+      "code": "603179",
+      "board": "SH",
+      "core_business": [
+        "汽车内饰件",
+        "机器人旋转关节+覆盖件"
+      ],
+      "industry_position": [
+        "汽车内饰领先企业"
+      ],
+      "chain": [
+        "中游-零部件"
+      ],
+      "concepts": [
+        "机器人"
+      ],
+      "articles": [
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/mb-6LENvNMUAfcP6tfvXGQ",
+          "accidents": [
+            "旋转执行器顺利推进",
+            "26H2有望导入"
+          ],
+          "insights": [
+            "机器人旋转关节+覆盖件新成长曲线"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "301529": {
+      "name": "福赛科技",
+      "code": "301529",
+      "board": "SZ",
+      "core_business": [
+        "PEEK轻量化件"
+      ],
+      "industry_position": [
+        "PEEK件轻量化领先供应商"
+      ],
+      "chain": [
+        "中游-PEEK零部件"
+      ],
+      "concepts": [
+        "机器人",
+        "PEEK"
+      ],
+      "articles": [
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/mb-6LENvNMUAfcP6tfvXGQ",
+          "accidents": [
+            "与国内Tier1新增2-3个大单品料号",
+            "在手料号10个+包括手部、腕部等核心传动部件"
+          ],
+          "insights": [
+            "深度卡位机器人轻量化赛道"
+          ],
+          "key_metrics": [
+            "在手料号10个+"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "300461": {
+      "name": "田中精机",
+      "code": "300461",
+      "board": "SZ",
+      "core_business": [
+        "电机绕线设备"
+      ],
+      "industry_position": [
+        "电机绕线设备领先企业"
+      ],
+      "chain": [
+        "上游-设备"
+      ],
+      "concepts": [
+        "机器人"
+      ],
+      "articles": [
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/mb-6LENvNMUAfcP6tfvXGQ",
+          "accidents": [],
+          "insights": [
+            "量产在即设备先行",
+            "电机绕线设备受益机器人量产"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "300580": {
+      "name": "贝斯特",
+      "code": "300580",
+      "board": "SZ",
+      "core_business": [
+        "精密零部件",
+        "丝杠"
+      ],
+      "industry_position": [
+        "精密零部件领先企业"
+      ],
+      "chain": [
+        "中游-精密零部件"
+      ],
+      "concepts": [
+        "机器人",
+        "丝杠"
+      ],
+      "articles": [
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/mb-6LENvNMUAfcP6tfvXGQ",
+          "accidents": [],
+          "insights": [
+            "机器人丝杠环节受益"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "601100": {
+      "name": "恒立液压",
+      "code": "601100",
+      "board": "SH",
+      "core_business": [
+        "液压件",
+        "丝杠"
+      ],
+      "industry_position": [
+        "国内液压件龙头"
+      ],
+      "chain": [
+        "中游-液压件"
+      ],
+      "concepts": [
+        "机器人",
+        "丝杠"
+      ],
+      "articles": [
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/mb-6LENvNMUAfcP6tfvXGQ",
+          "accidents": [],
+          "insights": [
+            "机器人丝杠环节受益"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "603119": {
+      "name": "浙江荣泰",
+      "code": "603119",
+      "board": "SH",
+      "core_business": [
+        "丝杠"
+      ],
+      "industry_position": [],
+      "chain": [],
+      "concepts": [
+        "机器人",
+        "丝杠"
+      ],
+      "articles": [
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/mb-6LENvNMUAfcP6tfvXGQ",
+          "accidents": [],
+          "insights": [
+            "机器人丝杠环节受益"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "603009": {
+      "name": "北特科技",
+      "code": "603009",
+      "board": "SH",
+      "core_business": [
+        "汽车零部件",
+        "丝杠"
+      ],
+      "industry_position": [],
+      "chain": [],
+      "concepts": [
+        "机器人",
+        "丝杠"
+      ],
+      "articles": [
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/mb-6LENvNMUAfcP6tfvXGQ",
+          "accidents": [],
+          "insights": [
+            "机器人丝杠环节受益"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "603667": {
+      "name": "五洲新春",
+      "code": "603667",
+      "board": "SH",
+      "core_business": [
+        "轴承",
+        "丝杠"
+      ],
+      "industry_position": [],
+      "chain": [],
+      "concepts": [
+        "机器人",
+        "丝杠"
+      ],
+      "articles": [
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/mb-6LENvNMUAfcP6tfvXGQ",
+          "accidents": [],
+          "insights": [
+            "机器人丝杠环节受益"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "300115": {
+      "name": "长盈精密",
+      "code": "300115",
+      "board": "SZ",
+      "core_business": [
+        "精密结构件"
+      ],
+      "industry_position": [
+        "精密结构件领先企业"
+      ],
+      "chain": [],
+      "concepts": [
+        "机器人"
+      ],
+      "articles": [
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/mb-6LENvNMUAfcP6tfvXGQ",
+          "accidents": [],
+          "insights": [
+            "机器人零部件环节受益"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "300953": {
+      "name": "震裕科技",
+      "code": "300953",
+      "board": "SZ",
+      "core_business": [
+        "精密模具",
+        "机器人零部件"
+      ],
+      "industry_position": [],
+      "chain": [],
+      "concepts": [
+        "机器人"
+      ],
+      "articles": [
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/mb-6LENvNMUAfcP6tfvXGQ",
+          "accidents": [],
+          "insights": [
+            "机器人零部件环节受益"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "688386": {
+      "name": "泛亚微透",
+      "code": "688386",
+      "board": "SH",
+      "core_business": [
+        "微透材料"
+      ],
+      "industry_position": [],
+      "chain": [],
+      "concepts": [
+        "机器人"
+      ],
+      "articles": [
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/mb-6LENvNMUAfcP6tfvXGQ",
+          "accidents": [],
+          "insights": [
+            "机器人零部件环节受益"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "603286": {
+      "name": "日盈电子",
+      "code": "603286",
+      "board": "SH",
+      "core_business": [
+        "汽车电子"
+      ],
+      "industry_position": [],
+      "chain": [],
+      "concepts": [
+        "机器人"
+      ],
+      "articles": [
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/mb-6LENvNMUAfcP6tfvXGQ",
+          "accidents": [],
+          "insights": [
+            "机器人零部件环节受益"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "002850": {
+      "name": "科达利",
+      "code": "002850",
+      "board": "SZ",
+      "core_business": [
+        "精密结构件",
+        "电池结构件"
+      ],
+      "industry_position": [
+        "电池结构件龙头"
+      ],
+      "chain": [],
+      "concepts": [
+        "机器人"
+      ],
+      "articles": [
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/mb-6LENvNMUAfcP6tfvXGQ",
+          "accidents": [],
+          "insights": [
+            "机器人零部件环节受益"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "002938": {
+      "name": "鹏鼎控股",
+      "code": "002938",
+      "board": "SZ",
+      "core_business": [
+        "PCB制造"
+      ],
+      "industry_position": [
+        "全球PCB龙头"
+      ],
+      "chain": [
+        "中游-PCB"
+      ],
+      "concepts": [
+        "AI算力",
+        "光互联"
+      ],
+      "articles": [
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/mb-6LENvNMUAfcP6tfvXGQ",
+          "accidents": [],
+          "insights": [
+            "光互联全面通胀受益",
+            "PCB上游核心标的"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "301526": {
+      "name": "国际复材",
+      "code": "301526",
+      "board": "SZ",
+      "core_business": [
+        "复合材料"
+      ],
+      "industry_position": [],
+      "chain": [],
+      "concepts": [
+        "光互联",
+        "PCB"
+      ],
+      "articles": [
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/mb-6LENvNMUAfcP6tfvXGQ",
+          "accidents": [],
+          "insights": [
+            "光互联产业链受益"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "300308": {
+      "name": "中际旭创",
+      "code": "300308",
+      "board": "SZ",
+      "core_business": [
+        "光模块"
+      ],
+      "industry_position": [
+        "全球光模块龙头"
+      ],
+      "chain": [
+        "中游-光模块"
+      ],
+      "concepts": [
+        "光互联",
+        "CPO"
+      ],
+      "articles": [
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/mb-6LENvNMUAfcP6tfvXGQ",
+          "accidents": [],
+          "insights": [
+            "光互联全面通胀核心受益",
+            "800G→1.6T→3.2T升级路径清晰"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "002273": {
+      "name": "水晶光电",
+      "code": "002273",
+      "board": "SZ",
+      "core_business": [
+        "光学元器件",
+        "光通信"
+      ],
+      "industry_position": [
+        "光学元器件领先企业"
+      ],
+      "chain": [],
+      "concepts": [
+        "光互联"
+      ],
+      "articles": [
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/mb-6LENvNMUAfcP6tfvXGQ",
+          "accidents": [],
+          "insights": [
+            "光互联产业链受益"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "688531": {
+      "name": "日联科技",
+      "code": "688531",
+      "board": "SH",
+      "core_business": [
+        "工业X射线检测"
+      ],
+      "industry_position": [],
+      "chain": [],
+      "concepts": [
+        "光互联"
+      ],
+      "articles": [
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/mb-6LENvNMUAfcP6tfvXGQ",
+          "accidents": [],
+          "insights": [
+            "光互联产业链受益"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "300913": {
+      "name": "兆龙互连",
+      "code": "300913",
+      "board": "SZ",
+      "core_business": [
+        "数据电缆",
+        "AEC有源电缆"
+      ],
+      "industry_position": [
+        "国际头部厂商AEC核心合作伙伴"
+      ],
+      "chain": [],
+      "partners": [
+        "Marvell"
+      ],
+      "concepts": [
+        "CPO",
+        "铜互连",
+        "光通信"
+      ],
+      "articles": [
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/mb-6LENvNMUAfcP6tfvXGQ",
+          "accidents": [
+            "量产800G DAC",
+            "掌握112G核心工艺",
+            "海外产能充足"
+          ],
+          "insights": [
+            "CPC铜互连作为CPO、NPO核心配套硬件",
+            "受益Marvell产业链订单"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
+      "mention_count": 1
+    },
+    "300252": {
+      "name": "金信诺",
+      "code": "300252",
+      "board": "SZ",
+      "core_business": [
+        "信号互联产品",
+        "DAC高速线缆"
+      ],
+      "industry_position": [],
+      "chain": [],
+      "partners": [
+        "英特尔",
+        "英伟达",
+        "中际旭创"
+      ],
+      "concepts": [
+        "CPO",
+        "铜互连"
+      ],
+      "articles": [
+        {
+          "title": "【机构调研】笔记整理",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/mb-6LENvNMUAfcP6tfvXGQ",
+          "accidents": [
+            "800G DAC已量产并通过英特尔、英伟达认证",
+            "与中际旭创合作CPC共封装配套CPO产品",
+            "224G产品适配1.6T迭代"
+          ],
+          "insights": [
+            "CPC铜互连作为CPO、NPO核心配套硬件",
+            "受益Marvell产业链"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "last_updated": "2026-06-04",
