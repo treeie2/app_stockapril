@@ -1,6 +1,6 @@
 {
   "date": "2026-06-04",
-  "update_count": 275,
+  "update_count": 280,
   "last_updated": "2026-06-04",
   "stocks": {
     "688090": {
@@ -2891,7 +2891,10 @@
       "concepts": [
         "AI散热",
         "液冷",
-        "PEEK"
+        "PEEK",
+        "铜",
+        "铜合金",
+        "铜箔"
       ],
       "partners": [
         "欧洲知名材料供应商"
@@ -2916,10 +2919,27 @@
             "精废价差一度突破6100元/吨"
           ],
           "target_valuation": []
+        },
+        {
+          "article_title": "需求暴增的高端铜产业链名单",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/rqm_sCS4a0j3z4e5gS7FOg",
+          "insights": [
+            "高端铜板带、极薄铜箔、特种铜合金供需缺口持续扩大",
+            "新能源汽车高压电磁扁线订单已排到2027年下半年",
+            "3微米极薄铜箔抗拉强度可达30公斤以上"
+          ],
+          "accidents": [
+            "高端铜产业链需求暴增"
+          ],
+          "key_metrics": []
         }
       ],
       "last_updated": "2026-06-04",
-      "mention_count": 1
+      "mention_count": 2,
+      "insights": [
+        "国内铜加工龙头，高端铜合金切入新能源汽车、芯片算力赛道"
+      ]
     },
     "603155": {
       "name": "新亚强",
@@ -5503,10 +5523,31 @@
           ],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "article_title": "碳化硅与第三代半导体10大核心龙头",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/iYZ37v1odLNhv-I_T3QKNw",
+          "insights": [
+            "北京晶飞半导体突破12英寸碳化硅晶圆剥离技术",
+            "2024年全球SiC功率器件市场34.3亿美元，2030年预计达103.85亿美元",
+            "碳化硅下游新能源汽车、充电桩、光伏储能需求爆发"
+          ],
+          "accidents": [
+            "碳化硅/第三代半导体板块关注度提升"
+          ],
+          "key_metrics": [
+            "国内SiC市场规模同比增长40%",
+            "SiC衬底/功率器件产能同比增长50%+"
+          ]
         }
       ],
-      "mention_count": 2,
-      "last_updated": "2026-06-04"
+      "mention_count": 3,
+      "last_updated": "2026-06-04",
+      "insights": [
+        "第三代半导体全产业链布局",
+        "LED+SiC双轮驱动"
+      ]
     },
     "000536": {
       "name": "华映科技",
@@ -10330,10 +10371,31 @@
             "1200V SiC模块通过英伟达认证"
           ],
           "target_valuation": []
+        },
+        {
+          "article_title": "碳化硅与第三代半导体10大核心龙头",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/iYZ37v1odLNhv-I_T3QKNw",
+          "insights": [
+            "北京晶飞半导体突破12英寸碳化硅晶圆剥离技术",
+            "2024年全球SiC功率器件市场34.3亿美元，2030年预计达103.85亿美元",
+            "碳化硅下游新能源汽车、充电桩、光伏储能需求爆发"
+          ],
+          "accidents": [
+            "碳化硅/第三代半导体板块关注度提升"
+          ],
+          "key_metrics": [
+            "国内SiC市场规模同比增长40%",
+            "SiC衬底/功率器件产能同比增长50%+"
+          ]
         }
       ],
-      "mention_count": 1,
-      "last_updated": "2026-06-04"
+      "mention_count": 2,
+      "last_updated": "2026-06-04",
+      "insights": [
+        "IGBT龙头，积极布局SiC功率器件",
+        "SiC产品已开始供货"
+      ]
     },
     "600745": {
       "name": "闻泰科技",
@@ -10506,10 +10568,31 @@
           ],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "article_title": "碳化硅与第三代半导体10大核心龙头",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/iYZ37v1odLNhv-I_T3QKNw",
+          "insights": [
+            "北京晶飞半导体突破12英寸碳化硅晶圆剥离技术",
+            "2024年全球SiC功率器件市场34.3亿美元，2030年预计达103.85亿美元",
+            "碳化硅下游新能源汽车、充电桩、光伏储能需求爆发"
+          ],
+          "accidents": [
+            "碳化硅/第三代半导体板块关注度提升"
+          ],
+          "key_metrics": [
+            "国内SiC市场规模同比增长40%",
+            "SiC衬底/功率器件产能同比增长50%+"
+          ]
         }
       ],
-      "mention_count": 1,
-      "last_updated": "2026-06-04"
+      "mention_count": 2,
+      "last_updated": "2026-06-04",
+      "insights": [
+        "SiC衬底龙头，产能逐步释放",
+        "国内碳化硅衬底龙头，技术领先"
+      ]
     },
     "688052": {
       "name": "纳芯微",
@@ -10770,6 +10853,250 @@
           ],
           "key_metrics": [],
           "target_valuation": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "920096": {
+      "code": "920096",
+      "name": "嘉晨智能",
+      "board": "BJ",
+      "industry": "电力设备-电机-电机驱动控制",
+      "concepts": [
+        "工业车辆电控",
+        "专精特新",
+        "北交所"
+      ],
+      "products": [
+        "电机驱动控制系统",
+        "整机控制系统",
+        "车联网产品"
+      ],
+      "core_business": [
+        "工业车辆电气控制系统研发与制造"
+      ],
+      "detail_texts": [
+        "工业车辆'智能大脑'，产品应用于工业车辆、挖掘机械、高空作业机械、移动机器人等场景",
+        "118项发明专利，281项软件著作权，主持参与制定20项国家及行业标准"
+      ],
+      "chain": [
+        "中游-核心零部件"
+      ],
+      "partners": [
+        "杭叉集团"
+      ],
+      "articles": [
+        {
+          "article_title": "嘉晨智能北交所上市",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/n2gaGSUhlmqIucL7fDPxqQ",
+          "insights": [
+            "嘉晨智能是工业车辆电气控制系统龙头",
+            "国家级专精特新'小巨人'企业",
+            "杭叉集团为其第二大股东"
+          ],
+          "accidents": [
+            "嘉晨智能(920096)北交所上市"
+          ],
+          "key_metrics": [
+            "2025年营收4.01亿元，净利润7123万元"
+          ]
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "688689": {
+      "code": "688689",
+      "name": "银河微电",
+      "board": "SH",
+      "industry": "电子-半导体-分立器件",
+      "concepts": [
+        "碳化硅",
+        "功率半导体",
+        "第三代半导体"
+      ],
+      "products": [
+        "碳化硅二极管",
+        "功率器件"
+      ],
+      "core_business": [
+        "功率半导体器件研发与制造"
+      ],
+      "detail_texts": [
+        "产品包括碳化硅二极管等，已开始批量供货",
+        "新能源等领域对SiC二极管需求增长"
+      ],
+      "chain": [
+        "中游-功率器件"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "article_title": "碳化硅与第三代半导体10大核心龙头",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/iYZ37v1odLNhv-I_T3QKNw",
+          "insights": [
+            "北京晶飞半导体突破12英寸碳化硅晶圆剥离技术",
+            "2024年全球SiC功率器件市场34.3亿美元，2030年预计达103.85亿美元",
+            "碳化硅下游新能源汽车、充电桩、光伏储能需求爆发"
+          ],
+          "accidents": [
+            "碳化硅/第三代半导体板块关注度提升"
+          ],
+          "key_metrics": [
+            "国内SiC市场规模同比增长40%",
+            "SiC衬底/功率器件产能同比增长50%+"
+          ]
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "603519": {
+      "code": "603519",
+      "name": "立霸股份",
+      "board": "SH",
+      "industry": "家用电器-白色家电-家电零部件",
+      "concepts": [
+        "碳化硅",
+        "投资布局",
+        "第三代半导体"
+      ],
+      "products": [
+        "家电用复合材料"
+      ],
+      "core_business": [
+        "家电用复合材料研发与生产"
+      ],
+      "detail_texts": [
+        "通过投资等方式布局碳化硅产业链，参与到碳化硅项目中"
+      ],
+      "chain": [
+        "上游-材料"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "article_title": "碳化硅与第三代半导体10大核心龙头",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/iYZ37v1odLNhv-I_T3QKNw",
+          "insights": [
+            "北京晶飞半导体突破12英寸碳化硅晶圆剥离技术",
+            "2024年全球SiC功率器件市场34.3亿美元，2030年预计达103.85亿美元",
+            "碳化硅下游新能源汽车、充电桩、光伏储能需求爆发"
+          ],
+          "accidents": [
+            "碳化硅/第三代半导体板块关注度提升"
+          ],
+          "key_metrics": [
+            "国内SiC市场规模同比增长40%",
+            "SiC衬底/功率器件产能同比增长50%+"
+          ]
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "874693": {
+      "code": "874693",
+      "name": "嘉德利",
+      "board": "BJ",
+      "industry": "电子-电子元件-薄膜电容器",
+      "concepts": [
+        "BOPP",
+        "电工膜",
+        "电容器",
+        "薄膜电容器",
+        "新能源汽车",
+        "特高压"
+      ],
+      "products": [
+        "BOPP电工膜",
+        "电容器用聚丙烯薄膜"
+      ],
+      "core_business": [
+        "BOPP电工膜生产与销售"
+      ],
+      "detail_texts": [
+        "全球领先的BOPP电工膜生产商，电容器用聚丙烯薄膜全球前二、国内第一",
+        "6英寸产线全球领先，客户认证周期长、壁垒高"
+      ],
+      "chain": [
+        "中游-关键材料"
+      ],
+      "partners": [
+        "新能源汽车厂商",
+        "特高压设备厂商"
+      ],
+      "articles": [
+        {
+          "article_title": "从包装膜到电容膜：中国BOPP薄膜七剑客，谁最能打？",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/qD5Q06xsfNLpjNJJnK-w-A",
+          "insights": [
+            "BOPP薄膜是包装、电子等领域最大用量透明软膜",
+            "电工膜(电容器用BOPP)技术壁垒极高",
+            "佛塑科技营收同比增长160%，净利润同比增长2694%",
+            "嘉德利BOPP电工膜全球前二、国内第一",
+            "龙辰科技BOPP基膜产能国内第一"
+          ],
+          "accidents": [
+            "BOPP薄膜行业景气上行"
+          ],
+          "key_metrics": []
+        }
+      ],
+      "mention_count": 1,
+      "last_updated": "2026-06-04"
+    },
+    "873823": {
+      "code": "873823",
+      "name": "龙辰科技",
+      "board": "BJ",
+      "industry": "电子-电子元件-薄膜电容器",
+      "concepts": [
+        "BOPP",
+        "基膜",
+        "电容器",
+        "薄膜电容器",
+        "金属化膜"
+      ],
+      "products": [
+        "BOPP基膜",
+        "金属化膜",
+        "切边膜"
+      ],
+      "core_business": [
+        "BOPP基膜研发与生产"
+      ],
+      "detail_texts": [
+        "薄膜电容器用BOPP基膜产能占有率国内第一",
+        "基膜在产业链中处于卡脖子位置，议价能力强"
+      ],
+      "chain": [
+        "中游-关键材料"
+      ],
+      "partners": [
+        "电容器厂商"
+      ],
+      "articles": [
+        {
+          "article_title": "从包装膜到电容膜：中国BOPP薄膜七剑客，谁最能打？",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/qD5Q06xsfNLpjNJJnK-w-A",
+          "insights": [
+            "BOPP薄膜是包装、电子等领域最大用量透明软膜",
+            "电工膜(电容器用BOPP)技术壁垒极高",
+            "佛塑科技营收同比增长160%，净利润同比增长2694%",
+            "嘉德利BOPP电工膜全球前二、国内第一",
+            "龙辰科技BOPP基膜产能国内第一"
+          ],
+          "accidents": [
+            "BOPP薄膜行业景气上行"
+          ],
+          "key_metrics": []
         }
       ],
       "mention_count": 1,
