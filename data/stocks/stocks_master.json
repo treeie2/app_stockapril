@@ -23258,11 +23258,13 @@
     },
     "002335": {
       "core_business": [
-        "电源设备与算力租赁服务"
+        "电源设备与算力租赁服务",
+        "数据中心基础设施"
       ],
-      "last_updated": "2026-05-31",
+      "last_updated": "2026-06-04",
       "industry_position": [
-        "出货量排名第一"
+        "出货量排名第一",
+        "深耕腾讯算力供应链，自研800V高压直流供电系统与小型SST，智算中心项目批量落地"
       ],
       "valuation": {},
       "industry": "电力设备-其他电源设备-其他电源设备Ⅲ",
@@ -23294,10 +23296,13 @@
         "量子科技",
         "锂电池概念",
         "阿里巴巴概念",
-        "高铁"
+        "高铁",
+        "数据中心",
+        "腾讯",
+        "800V高压直流"
       ],
       "code": "002335",
-      "mention_count": 4,
+      "mention_count": 2,
       "partners": [
         "腾讯",
         "华为",
@@ -23312,15 +23317,33 @@
           ],
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "title": "英伟达800V高压直流供电架构-核心受益公司",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/wvNmsOIapIM6S9OfunLD3w",
+          "accidents": [
+            "深耕腾讯算力供应链",
+            "自研800V高压直流供电系统与小型SST",
+            "智算中心项目批量落地"
+          ],
+          "insights": [
+            "数据中心-腾讯算力链"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "board": "SZ",
       "products": [
         "算力租赁服务",
-        "电源设备"
+        "电源设备",
+        "800V高压直流供电系统",
+        "SST固态变压器"
       ],
       "chain": [
-        "中游-算力租赁"
+        "中游-算力租赁",
+        "中游-数据中心基础设施"
       ],
       "name": "科华数据"
     },
@@ -27909,8 +27932,8 @@
       "name": "恺英网络"
     },
     "002518": {
-      "mention_count": 0,
-      "last_updated": "2026-05-31",
+      "mention_count": 3,
+      "last_updated": "2026-06-04",
       "concepts": [
         "2025年报预增",
         "一带一路",
@@ -27931,7 +27954,10 @@
         "融资融券",
         "锂电池概念",
         "阿里巴巴概念",
-        "风电"
+        "风电",
+        "UPS",
+        "数据中心",
+        "800V高压"
       ],
       "articles": [
         {
@@ -27949,12 +27975,40 @@
           ],
           "title": "金时科技002498，主板+储能+超级电容全产业链技术领先与产能营收双驱动，2月24日，星期二",
           "source": "https://mp.weixin.qq.com/s/R-xtN6B1OBzLbeSIOVpJTw"
+        },
+        {
+          "title": "英伟达800V高压直流供电架构-核心受益公司",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/wvNmsOIapIM6S9OfunLD3w",
+          "accidents": [
+            "完成800V高压UPS与直流机柜电源研发",
+            "海外AI数据中心已有试点落地",
+            "依托海外渠道承接Rubin海外配套订单"
+          ],
+          "insights": [
+            "UPS-800V高压"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "industry": "电力设备-其他电源设备-其他电源设备Ⅲ",
       "board": "SZ",
       "code": "002518",
-      "name": "科士达"
+      "name": "科士达",
+      "core_business": [
+        "UPS+数据中心"
+      ],
+      "industry_position": [
+        "完成800V高压UPS与直流机柜电源研发，海外AI数据中心已有试点落地"
+      ],
+      "chain": [
+        "中游-电源"
+      ],
+      "products": [
+        "高压UPS",
+        "直流机柜电源"
+      ]
     },
     "002522": {
       "mention_count": 1,
@@ -33191,7 +33245,7 @@
       "name": "威星智能"
     },
     "002851": {
-      "mention_count": 6,
+      "mention_count": 7,
       "last_updated": "2026-06-04",
       "concepts": [
         "一带一路",
@@ -33219,7 +33273,11 @@
         "风电",
         "高压快充",
         "高端装备",
-        "高铁"
+        "高铁",
+        "AI电源",
+        "英伟达",
+        "800V高压直流",
+        "服务器电源"
       ],
       "articles": [
         {
@@ -33330,6 +33388,25 @@
           ],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "title": "英伟达800V高压直流供电架构-核心受益公司",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/wvNmsOIapIM6S9OfunLD3w",
+          "accidents": [
+            "A股唯一英伟达官方认证AI电源厂商",
+            "自研800V高压直流Sidecar电源与18.5kW大功率PSU",
+            "切入Rubin ultra全球供应链，份额锁定15%-20%",
+            "绑定台达同体系800V供货链路"
+          ],
+          "insights": [
+            "AI电源-英伟达认证"
+          ],
+          "key_metrics": [
+            "份额锁定15%-20%",
+            "产品匹配2027机柜量产"
+          ],
+          "target_valuation": []
         }
       ],
       "industry": "电力设备-其他电源设备-其他电源设备Ⅲ",
@@ -33340,16 +33417,24 @@
       "processed_at": "2026-05-23T23:17:45.684775+08:00",
       "core_business": [
         "服务器电源研发与生产",
-        "AI数据中心电源解决方案"
+        "AI数据中心电源解决方案",
+        "AI电源+工业电源"
       ],
       "industry_position": [
-        "英伟达服务器电源核心供应商"
+        "英伟达服务器电源核心供应商",
+        "A股唯一英伟达官方认证AI电源厂商，800V高压直流电源切入Rubin ultra供应链",
+        "份额锁定15%-20%"
       ],
       "chain": [
-        "中游-电源设备制造"
+        "中游-电源设备制造",
+        "中游-电源"
       ],
       "partners": [
         "英伟达"
+      ],
+      "products": [
+        "800V高压直流Sidecar电源",
+        "18.5kW大功率PSU"
       ]
     },
     "002859": {
@@ -44967,8 +45052,8 @@
       "name": "ST创意"
     },
     "300373": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-04",
       "concepts": [
         "5G",
         "AI眼镜",
@@ -44996,19 +45081,50 @@
         "芯片概念",
         "英伟达概念",
         "融资融券",
-        "高压快充"
+        "高压快充",
+        "功率半导体",
+        "SiC",
+        "800V高压直流",
+        "二极管"
       ],
       "articles": [
         {
           "date": "",
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "title": "英伟达800V高压直流供电架构-核心受益公司",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/wvNmsOIapIM6S9OfunLD3w",
+          "accidents": [
+            "高压整流二极管批量配套800V电源前端",
+            "SiC分立器件处于头部电源客户验证阶段"
+          ],
+          "insights": [
+            "整流二极管-800V"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "industry": "电子-半导体-分立器件",
       "board": "SZ",
       "code": "300373",
-      "name": "扬杰科技"
+      "name": "扬杰科技",
+      "core_business": [
+        "功率分立器件"
+      ],
+      "industry_position": [
+        "高压整流二极管批量配套800V电源前端，SiC分立器件处于头部电源客户验证阶段"
+      ],
+      "chain": [
+        "上游-功率半导体"
+      ],
+      "products": [
+        "高压整流二极管",
+        "SiC分立器件"
+      ]
     },
     "300377": {
       "mention_count": 1,
@@ -49483,8 +49599,8 @@
       "name": "美联新材"
     },
     "300593": {
-      "mention_count": 4,
-      "last_updated": "2026-06-03",
+      "mention_count": 5,
+      "last_updated": "2026-06-04",
       "concepts": [
         "5G",
         "专精特新",
@@ -49496,13 +49612,17 @@
         "数据中心(AIDC)",
         "深股通",
         "芯片概念",
-        "融资融券"
+        "融资融券",
+        "模块电源",
+        "800V高压直流",
+        "数据中心"
       ],
       "industry_position": [
         "电源第一",
         "隐形冠军",
         "谷歌/亚马逊/Meta电源供应商",
-        "ADI核心供应商"
+        "ADI核心供应商",
+        "高压模块电源实现800V规格量产，兼顾服务器与军工电源，配套国内算力电源厂商"
       ],
       "articles": [
         {
@@ -49578,19 +49698,36 @@
             "算力基础设施",
             "电源设备"
           ]
+        },
+        {
+          "title": "英伟达800V高压直流供电架构-核心受益公司",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/wvNmsOIapIM6S9OfunLD3w",
+          "accidents": [
+            "高压模块电源实现800V规格量产",
+            "兼顾服务器与军工电源",
+            "配套国内算力电源厂商"
+          ],
+          "insights": [
+            "模块电源-800V"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "industry": "电力设备-其他电源设备-其他电源设备Ⅲ",
       "board": "SZ",
       "products": [
         "芯片",
-        "服务器"
+        "服务器",
+        "800V高压模块电源"
       ],
       "chain": [
         "下游-数据中心/通信",
         "服务",
         "中游-电源模块",
-        "上游-元器件"
+        "上游-元器件",
+        "中游-电源"
       ],
       "partners": [
         "英伟达",
@@ -49604,7 +49741,8 @@
         "三次电源",
         "耦合电源",
         "VPD电源",
-        "板载电源"
+        "板载电源",
+        "模块电源"
       ],
       "code": "300593",
       "name": "新雷能",
@@ -50925,8 +51063,8 @@
       "name": "江苏雷利"
     },
     "300661": {
-      "mention_count": 4,
-      "last_updated": "2026-05-31",
+      "mention_count": 5,
+      "last_updated": "2026-06-04",
       "partners": [],
       "concepts": [
         "OLED",
@@ -50942,12 +51080,17 @@
         "深股通",
         "芯片概念",
         "融资融券",
-        "锂电池概念"
+        "锂电池概念",
+        "模拟IC",
+        "PMIC",
+        "800V高压直流",
+        "数据中心"
       ],
       "industry_position": [
         "龙头",
         "消费电子模拟芯片龙头",
-        "圣邦股份等龙头"
+        "圣邦股份等龙头",
+        "布局多款高压PMIC电源芯片，在AI数据中心高压电源客户验证中"
       ],
       "articles": [
         {
@@ -50994,20 +51137,39 @@
             "模拟芯片复苏"
           ],
           "accidents": []
+        },
+        {
+          "title": "英伟达800V高压直流供电架构-核心受益公司",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/wvNmsOIapIM6S9OfunLD3w",
+          "accidents": [
+            "布局多款高压PMIC电源芯片",
+            "产品在AI数据中心高压电源客户验证中",
+            "覆盖800V电源辅助供电场景"
+          ],
+          "insights": [
+            "PMIC-高压"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "board": "SZ",
       "industry": "电子-半导体-模拟芯片设计",
       "products": [
-        "芯片"
+        "芯片",
+        "高压PMIC电源芯片"
       ],
       "chain": [
         "中游-制造",
-        "中游-设计"
+        "中游-设计",
+        "上游-模拟芯片"
       ],
       "name": "圣邦股份",
       "code": "300661",
-      "core_business": []
+      "core_business": [
+        "模拟IC"
+      ]
     },
     "300663": {
       "mention_count": 2,
@@ -51584,8 +51746,8 @@
       "name": "双一科技"
     },
     "300693": {
-      "mention_count": 2,
-      "last_updated": "2026-05-31",
+      "mention_count": 4,
+      "last_updated": "2026-06-04",
       "concepts": [
         "专精特新",
         "储能",
@@ -51599,7 +51761,10 @@
         "虚拟电厂",
         "融资融券",
         "锂电池概念",
-        "高压快充"
+        "高压快充",
+        "电能治理",
+        "液冷",
+        "800V高压直流"
       ],
       "articles": [
         {
@@ -51625,19 +51790,43 @@
           ],
           "title": "金时科技002498，主板+储能+超级电容全产业链技术领先与产能营收双驱动，2月24日，星期二",
           "source": "https://mp.weixin.qq.com/s/R-xtN6B1OBzLbeSIOVpJTw"
+        },
+        {
+          "title": "英伟达800V高压直流供电架构-核心受益公司",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/wvNmsOIapIM6S9OfunLD3w",
+          "accidents": [
+            "主营电能治理设备",
+            "800V架构必备APF有源滤波产品",
+            "与英伟达合作液冷配套电源",
+            "产品配套台达800V整机项目"
+          ],
+          "insights": [
+            "电能治理-APF"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "industry": "电力设备-其他电源设备-其他电源设备Ⅲ",
       "board": "SZ",
       "products": [
         "1全球一级",
-        "1级PCS"
+        "1级PCS",
+        "APF有源滤波"
       ],
       "chain": [
-        "中游-制造"
+        "中游-制造",
+        "中游-电源设备"
       ],
       "code": "300693",
-      "name": "盛弘股份"
+      "name": "盛弘股份",
+      "core_business": [
+        "电能治理设备"
+      ],
+      "industry_position": [
+        "800V架构必备APF有源滤波产品，与英伟达合作液冷配套电源"
+      ]
     },
     "300694": {
       "mention_count": 1,
@@ -54633,8 +54822,8 @@
       "name": "安克创新"
     },
     "300870": {
-      "mention_count": 0,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-04",
       "concepts": [
         "WiFi 6",
         "一带一路",
@@ -54653,7 +54842,10 @@
         "深股通",
         "第三代半导体",
         "融资融券",
-        "阿里巴巴概念"
+        "阿里巴巴概念",
+        "服务器电源",
+        "800V高压直流",
+        "数据中心"
       ],
       "articles": [
         {
@@ -54663,12 +54855,40 @@
           "insights": [
             "氮化镓功率器件"
           ]
+        },
+        {
+          "title": "英伟达800V高压直流供电架构-核心受益公司",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/wvNmsOIapIM6S9OfunLD3w",
+          "accidents": [
+            "高功率服务器电源量产",
+            "800V直流电源模块已批量供给国内头部算力企业",
+            "具备Rubin电源外协供货潜力"
+          ],
+          "insights": [
+            "服务器电源-800V"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "industry": "电力设备-其他电源设备-其他电源设备Ⅲ",
       "board": "SZ",
       "code": "300870",
-      "name": "欧陆通"
+      "name": "欧陆通",
+      "core_business": [
+        "服务器电源"
+      ],
+      "industry_position": [
+        "高功率服务器电源量产，800V直流电源模块已批量供给国内头部算力企业"
+      ],
+      "chain": [
+        "中游-电源"
+      ],
+      "products": [
+        "高功率服务器电源",
+        "800V直流电源模块"
+      ]
     },
     "300877": {
       "mention_count": 0,
@@ -72812,7 +73032,7 @@
       "name": "舍得酒业"
     },
     "600703": {
-      "mention_count": 3,
+      "mention_count": 4,
       "last_updated": "2026-06-04",
       "partners": [
         "华为",
@@ -72892,6 +73112,22 @@
           "key_metrics": [
             "400G/800G光芯片批量出货"
           ],
+          "target_valuation": []
+        },
+        {
+          "title": "英伟达800V高压直流供电架构-核心受益公司",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/wvNmsOIapIM6S9OfunLD3w",
+          "accidents": [
+            "全产业链SiC IDM企业",
+            "衬底-外延-芯片一体化量产",
+            "8英寸SiC外延片获英伟达认证",
+            "1200V高压器件供货麦格米特、台达等英伟达电源合作方"
+          ],
+          "insights": [
+            "SiC-IDM全产业链"
+          ],
+          "key_metrics": [],
           "target_valuation": []
         }
       ],
@@ -77389,8 +77625,8 @@
       "name": "海南橡胶"
     },
     "601126": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-04",
       "concepts": [
         "DeepSeek概念",
         "东数西算(算力)",
@@ -77415,10 +77651,15 @@
         "融资融券",
         "阿里巴巴概念",
         "雅下水电概念",
-        "风电"
+        "风电",
+        "SST固态变压器",
+        "英伟达",
+        "800V高压直流",
+        "数据中心"
       ],
       "industry_position": [
-        "固态变压器进度A股第二"
+        "固态变压器进度A股第二",
+        "首创10kV转800V直流SST架构，为英伟达800V一级备选供应商"
       ],
       "articles": [
         {
@@ -77428,6 +77669,21 @@
           "accidents": [
             "政策护航：2024-2025 年国内新增 12 项 SST 行业标准，"
           ]
+        },
+        {
+          "title": "英伟达800V高压直流供电架构-核心受益公司",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/wvNmsOIapIM6S9OfunLD3w",
+          "accidents": [
+            "央企输变电龙头",
+            "2.4MW级SST固态变压器实现商用",
+            "依托特高压技术降维切入数据中心800V配电"
+          ],
+          "insights": [
+            "SST-特高压技术"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "industry": "电力设备-电网设备-电气自控设备",
@@ -77436,13 +77692,16 @@
         "智能电网设备",
         "电力系统保护与控制设备",
         "储能设备",
-        "固态变压器"
+        "固态变压器",
+        "大功率固态变压器"
       ],
       "chain": [
-        "中游-设备制造"
+        "中游-设备制造",
+        "中游-电力设备"
       ],
       "core_business": [
-        "智能电网、电力系统保护与控制设备"
+        "智能电网、电力系统保护与控制设备",
+        "电网自动化+固态变压器"
       ],
       "code": "601126",
       "name": "四方股份"
@@ -77730,8 +77989,8 @@
       "name": "西部矿业"
     },
     "601179": {
-      "mention_count": 2,
-      "last_updated": "2026-05-31",
+      "mention_count": 3,
+      "last_updated": "2026-06-04",
       "concepts": [
         "东数西算(算力)",
         "中字头股票",
@@ -77754,12 +78013,17 @@
         "超级电容",
         "量子科技",
         "风电",
-        "高端装备"
+        "高端装备",
+        "SST固态变压器",
+        "800V高压直流",
+        "央企",
+        "数据中心"
       ],
       "industry_position": [
         "固态变压器进度A股第一，电力变压器市占率并列第五",
         "特高压设备市占率超40%",
-        "电力装备综合巨头"
+        "电力装备综合巨头",
+        "央企输变电龙头，2.4MW级SST固态变压器实现商用，依托特高压技术降维切入数据中心800V配电"
       ],
       "articles": [
         {
@@ -77784,24 +78048,42 @@
           "accidents": [
             "电力装备综合巨头，国内领先的输配电装备供应商，产品广泛应用于核电与特高压电网。2025年三季报营收同比增长11.54%，净利润增长19.29%。2026年初斩获国家电网14.47亿元订单，特高压设备国内市场占有率超过40%。"
           ]
+        },
+        {
+          "title": "英伟达800V高压直流供电架构-核心受益公司",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/wvNmsOIapIM6S9OfunLD3w",
+          "accidents": [
+            "央企输变电龙头",
+            "2.4MW级SST固态变压器实现商用",
+            "依托特高压技术降维切入数据中心800V配电"
+          ],
+          "insights": [
+            "SST-特高压技术"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "industry": "电力设备-电网设备-输变电设备",
       "board": "SH",
       "products": [
         "高压输配电设备",
-        "固态变压器"
+        "固态变压器",
+        "SST固态变压器"
       ],
       "chain": [
         "中游 - 电力设备",
         "中游 - 输配电装备",
-        "中游-设备制造"
+        "中游-设备制造",
+        "中游-电力设备"
       ],
       "core_business": [
         "核电设备",
         "特高压设备",
         "高压输配电设备研发、生产与销售",
-        "输配电装备"
+        "输配电装备",
+        "输变电设备"
       ],
       "code": "601179",
       "name": "中国西电"
@@ -82690,8 +82972,8 @@
       "name": "永吉股份"
     },
     "603063": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-04",
       "concepts": [
         "储能",
         "光伏概念",
@@ -82702,19 +82984,50 @@
         "海工装备",
         "粤港澳大湾区",
         "融资融券",
-        "风电"
+        "风电",
+        "HVDC",
+        "数据中心",
+        "800V高压直流",
+        "新能源"
       ],
       "articles": [
         {
           "date": "",
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "title": "英伟达800V高压直流供电架构-核心受益公司",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/wvNmsOIapIM6S9OfunLD3w",
+          "accidents": [
+            "维谛技术800V HVDC核心分包商",
+            "高压DC-DC变流模块批量供货国内外IDC",
+            "间接配套英伟达生态电源厂商"
+          ],
+          "insights": [
+            "HVDC-分包商"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "industry": "电力设备-风电设备-风电零部件",
       "board": "SH",
       "code": "603063",
-      "name": "禾望电气"
+      "name": "禾望电气",
+      "core_business": [
+        "电力电子"
+      ],
+      "industry_position": [
+        "维谛技术800V HVDC核心分包商，高压DC-DC变流模块批量供货国内外IDC"
+      ],
+      "chain": [
+        "中游-电力电子"
+      ],
+      "products": [
+        "高压DC-DC变流模块"
+      ]
     },
     "603067": {
       "mention_count": 2,
@@ -85390,8 +85703,8 @@
       "name": "海天味业"
     },
     "603290": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-04",
       "concepts": [
         "MCU芯片",
         "专精特新",
@@ -85406,22 +85719,55 @@
         "第三代半导体",
         "芯片概念",
         "融资融券",
-        "高压快充"
+        "高压快充",
+        "SiC",
+        "碳化硅",
+        "英伟达",
+        "800V高压直流",
+        "IGBT"
       ],
       "articles": [
         {
           "date": "",
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "title": "英伟达800V高压直流供电架构-核心受益公司",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/wvNmsOIapIM6S9OfunLD3w",
+          "accidents": [
+            "国内SiC模块龙头",
+            "1200V碳化硅功率模块通过英伟达800V架构认证",
+            "独家批量进入英伟达供应链",
+            "产品用于Rubin配套SST固态变压器与服务器电源"
+          ],
+          "insights": [
+            "SiC-国内龙头"
+          ],
+          "key_metrics": [
+            "1200V SiC模块通过英伟达认证"
+          ],
+          "target_valuation": []
         }
       ],
       "industry": "电子-半导体-分立器件",
       "board": "SH",
       "chain": [
-        "上游-材料"
+        "上游-材料",
+        "上游-功率半导体"
       ],
       "code": "603290",
-      "name": "斯达半导"
+      "name": "斯达半导",
+      "core_business": [
+        "功率半导体"
+      ],
+      "industry_position": [
+        "国内SiC模块龙头，1200V碳化硅功率模块通过英伟达800V架构认证，独家批量进入英伟达供应链"
+      ],
+      "products": [
+        "1200V碳化硅功率模块"
+      ]
     },
     "603296": {
       "mention_count": 1,
@@ -93611,8 +93957,8 @@
       "name": "佳华科技"
     },
     "688052": {
-      "mention_count": 2,
-      "last_updated": "2026-05-31",
+      "mention_count": 3,
+      "last_updated": "2026-06-04",
       "partners": [],
       "concepts": [
         "MCU芯片",
@@ -93627,10 +93973,15 @@
         "消费电子概念",
         "物联网",
         "芯片概念",
-        "融资融券"
+        "融资融券",
+        "隔离芯片",
+        "800V高压直流",
+        "英伟达",
+        "模拟IC"
       ],
       "industry_position": [
-        "国内车规级模拟芯片行业龙头"
+        "国内车规级模拟芯片行业龙头",
+        "高压隔离芯片龙头，自研800V级隔离驱动芯片，进入英伟达800V方案供应链验证"
       ],
       "articles": [
         {
@@ -93659,21 +94010,39 @@
           "accidents": [
             "模拟芯片Q1业绩超预期"
           ]
+        },
+        {
+          "title": "英伟达800V高压直流供电架构-核心受益公司",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/wvNmsOIapIM6S9OfunLD3w",
+          "accidents": [
+            "高压隔离芯片龙头",
+            "自研800V级隔离驱动芯片",
+            "进入英伟达800V方案供应链验证"
+          ],
+          "insights": [
+            "隔离芯片-800V"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "board": "SH",
       "industry": "电子-半导体-模拟芯片设计",
       "products": [
         "隔离芯片",
-        "驱动芯片"
+        "驱动芯片",
+        "800V级隔离驱动芯片"
       ],
       "chain": [
-        "中游-半导体设计"
+        "中游-半导体设计",
+        "上游-模拟芯片"
       ],
       "name": "纳芯微",
       "code": "688052",
       "core_business": [
-        "车规级模拟芯片的设计与研发"
+        "车规级模拟芯片的设计与研发",
+        "模拟IC"
       ]
     },
     "688055": {
@@ -97205,8 +97574,8 @@
       "name": "神工股份"
     },
     "688234": {
-      "mention_count": 4,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-04",
       "concepts": [
         "AI眼镜",
         "专精特新",
@@ -97216,11 +97585,15 @@
         "沪股通",
         "第三代半导体",
         "芯片概念",
-        "融资融券"
+        "融资融券",
+        "SiC衬底",
+        "碳化硅",
+        "800V高压直流"
       ],
       "industry_position": [
         "龙头",
-        "二是增量赛道龙头"
+        "二是增量赛道龙头",
+        "专注SiC衬底量产，8英寸导电型衬底供给国内功率器件厂，间接受益800V上游原材料增量需求"
       ],
       "articles": [
         {
@@ -97235,17 +97608,34 @@
           "insights": [
             "可重点关注两类标的：一是技术壁垒高、绑定头部客户的企业（如、北方华创，"
           ]
+        },
+        {
+          "title": "英伟达800V高压直流供电架构-核心受益公司",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/wvNmsOIapIM6S9OfunLD3w",
+          "accidents": [
+            "专注SiC衬底量产",
+            "8英寸导电型衬底供给国内功率器件厂",
+            "间接受益800V上游原材料增量需求"
+          ],
+          "insights": [
+            "SiC衬底-上游原材料"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "industry": "电子-半导体-半导体材料",
       "board": "SH",
       "products": [
         "芯片",
-        "设备"
+        "设备",
+        "SiC衬底"
       ],
       "chain": [
         "下游-设备",
-        "上游-材料"
+        "上游-材料",
+        "上游-半导体材料"
       ],
       "partners": [
         "华为",
@@ -97254,7 +97644,10 @@
         "宁德时代"
       ],
       "code": "688234",
-      "name": "天岳先进"
+      "name": "天岳先进",
+      "core_business": [
+        "SiC衬底材料"
+      ]
     },
     "688235": {
       "mention_count": 3,
@@ -100290,8 +100683,8 @@
       "name": "安必平"
     },
     "688396": {
-      "mention_count": 3,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-04",
       "concepts": [
         "MCU芯片",
         "传感器",
@@ -100317,19 +100710,51 @@
         "消费电子概念",
         "第三代半导体",
         "芯片概念",
-        "融资融券"
+        "融资融券",
+        "SiC",
+        "GaN",
+        "800V高压直流",
+        "IDM",
+        "功率半导体"
       ],
       "articles": [
         {
           "date": "",
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "title": "英伟达800V高压直流供电架构-核心受益公司",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/wvNmsOIapIM6S9OfunLD3w",
+          "accidents": [
+            "自建SiC/GaN量产产线",
+            "800V高压电源芯片批量出货",
+            "IDM模式保障算力电源持续供货能力"
+          ],
+          "insights": [
+            "SiC/GaN-IDM"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "industry": "电子-半导体-集成电路制造",
       "board": "SH",
       "code": "688396",
-      "name": "华润微"
+      "name": "华润微",
+      "core_business": [
+        "功率半导体IDM"
+      ],
+      "industry_position": [
+        "自建SiC/GaN量产产线，800V高压电源芯片批量出货，IDM模式保障算力电源持续供货能力"
+      ],
+      "chain": [
+        "上游-功率半导体"
+      ],
+      "products": [
+        "800V高压电源芯片"
+      ]
     },
     "688400": {
       "mention_count": 0,
@@ -103749,8 +104174,8 @@
       "name": "金迪克"
     },
     "688676": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-04",
       "concepts": [
         "专精特新",
         "中国AI 50",
@@ -103774,10 +104199,15 @@
         "阿里巴巴概念",
         "雅下水电概念",
         "风电",
-        "高端装备"
+        "高端装备",
+        "固态变压器",
+        "英伟达",
+        "800V高压直流",
+        "数据中心"
       ],
       "industry_position": [
-        "国内干式变压器龙头"
+        "国内干式变压器龙头",
+        "英伟达白皮书国内独家SST固态变压器供应商，2.4MW适配800V架构的固态变压器完成样机认证"
       ],
       "articles": [
         {
@@ -103792,6 +104222,23 @@
             "订单爆发：金盘科技 10 月 14 日可转债问询回复公告提及，",
             "SST 订单排产至 2026 年"
           ]
+        },
+        {
+          "title": "英伟达800V高压直流供电架构-核心受益公司",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/wvNmsOIapIM6S9OfunLD3w",
+          "accidents": [
+            "英伟达白皮书国内独家SST固态变压器供应商",
+            "2.4MW适配800V架构的固态变压器完成样机认证",
+            "2026年完成认证、2027年跟随机柜落地量产"
+          ],
+          "insights": [
+            "固态变压器-英伟达独家"
+          ],
+          "key_metrics": [
+            "2.4MW SST样机认证完成"
+          ],
+          "target_valuation": []
         }
       ],
       "industry": "电力设备-电网设备-输变电设备",
@@ -103799,13 +104246,16 @@
       "products": [
         "干式变压器",
         "新能源配套设备",
-        "固态变压器"
+        "固态变压器",
+        "SST固态变压器"
       ],
       "chain": [
-        "中游-设备制造"
+        "中游-设备制造",
+        "中游-电力设备"
       ],
       "core_business": [
-        "干式变压器、新能源配套设备"
+        "干式变压器、新能源配套设备",
+        "变压器+固态变压器"
       ],
       "code": "688676",
       "name": "金盘科技"
@@ -113435,9 +113885,25 @@
       "code": "002364",
       "name": "中恒电气",
       "concept": "",
-      "mention_count": 21,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "英伟达800V高压直流供电架构-核心受益公司",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/wvNmsOIapIM6S9OfunLD3w",
+          "accidents": [
+            "国内HVDC高压直流龙头",
+            "原有阿里巴拿马电源基础上落地800V系统升级订单",
+            "深度绑定国内头部云厂商算力机房改造"
+          ],
+          "insights": [
+            "HVDC-国内龙头"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
       "concepts": [
         "5G",
         "东数西算(算力)",
@@ -113467,10 +113933,26 @@
         "融资融券",
         "阿里巴巴概念",
         "风电",
-        "高压快充"
+        "高压快充",
+        "HVDC",
+        "800V高压直流",
+        "数据中心",
+        "云计算"
       ],
       "industry": "电力设备-其他电源设备-其他电源设备Ⅲ",
-      "board": ""
+      "board": "",
+      "core_business": [
+        "高压直流电源"
+      ],
+      "industry_position": [
+        "国内HVDC高压直流龙头，落地800V系统升级订单，深度绑定国内头部云厂商"
+      ],
+      "chain": [
+        "中游-电源"
+      ],
+      "products": [
+        "HVDC高压直流电源"
+      ]
     },
     "002365": {
       "code": "002365",
@@ -122697,9 +123179,25 @@
       "code": "301031",
       "name": "中熔电气",
       "concept": "",
-      "mention_count": 3,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "英伟达800V高压直流供电架构-核心受益公司",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/wvNmsOIapIM6S9OfunLD3w",
+          "accidents": [
+            "高压熔断器龙头",
+            "专为800V高压直流开发机房专用熔断器",
+            "与麦格米特、中恒电气协同开发配套产品"
+          ],
+          "insights": [
+            "熔断器-800V高压"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
       "concepts": [
         "2025年报预增",
         "专精特新",
@@ -122718,10 +123216,25 @@
         "融资融券",
         "西部大开发",
         "风电",
-        "高压快充"
+        "高压快充",
+        "熔断器",
+        "800V高压直流",
+        "新能源"
       ],
       "industry": "电子-其他电子-其他电子Ⅲ",
-      "board": ""
+      "board": "",
+      "core_business": [
+        "高压熔断器"
+      ],
+      "industry_position": [
+        "高压熔断器龙头，专为800V高压直流开发机房专用熔断器"
+      ],
+      "chain": [
+        "中游-电气元件"
+      ],
+      "products": [
+        "800V高压直流熔断器"
+      ]
     },
     "301032": {
       "code": "301032",
@@ -127118,7 +127631,7 @@
       "code": "600460",
       "name": "士兰微",
       "concept": "",
-      "mention_count": 1,
+      "mention_count": 2,
       "articles": [
         {
           "title": "【机构调研】笔记整理",
@@ -127142,6 +127655,21 @@
           "target_valuation": [
             "预计26-28年归母净利润8.09/12.17/16.09亿元"
           ]
+        },
+        {
+          "title": "英伟达800V高压直流供电架构-核心受益公司",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/wvNmsOIapIM6S9OfunLD3w",
+          "accidents": [
+            "自研800V氮化镓功率器件",
+            "产品小批量配套AI机房高压直流电源",
+            "持续推进英伟达体系验证"
+          ],
+          "insights": [
+            "GaN-自研800V"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "last_updated": "2026-06-04",
@@ -127190,6 +127718,9 @@
       ],
       "chain": [
         "中游-半导体制造"
+      ],
+      "products": [
+        "800V氮化镓功率器件"
       ]
     },
     "600469": {
@@ -128382,9 +128913,25 @@
       "code": "600745",
       "name": "闻泰科技",
       "concept": "",
-      "mention_count": 2,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "英伟达800V高压直流供电架构-核心受益公司",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/wvNmsOIapIM6S9OfunLD3w",
+          "accidents": [
+            "旗下安世半导体布局高压功率器件",
+            "自研800V电源功率芯片",
+            "产品供给全球头部云厂商与服务器厂"
+          ],
+          "insights": [
+            "功率器件-800V自研"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-04",
       "concepts": [
         "5G",
         "AI PC",
@@ -128410,10 +128957,26 @@
         "英伟达概念",
         "苹果概念",
         "虚拟现实",
-        "车联网(车路协同)"
+        "车联网(车路协同)",
+        "功率半导体",
+        "800V高压直流",
+        "AI服务器",
+        "安世半导体"
       ],
       "industry": "电子-半导体-分立器件",
-      "board": ""
+      "board": "",
+      "core_business": [
+        "ODM+功率半导体"
+      ],
+      "industry_position": [
+        "旗下安世半导体自研800V电源功率芯片，产品供给全球头部云厂商与服务器厂"
+      ],
+      "chain": [
+        "上游-功率半导体"
+      ],
+      "products": [
+        "高压功率芯片"
+      ]
     },
     "600749": {
       "code": "600749",
@@ -136656,7 +137219,7 @@
       "code": "688507",
       "name": "索辰科技",
       "concept": "",
-      "mention_count": 1,
+      "mention_count": 2,
       "articles": [
         {
           "title": "【机构调研】笔记整理",
@@ -136669,6 +137232,21 @@
           "insights": [
             "物理AI量产加速驱动仿真需求爆发",
             "仿真平台价值被严重低估"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "英伟达800V高压直流供电架构-核心受益公司",
+          "date": "2026-06-04",
+          "source": "https://mp.weixin.qq.com/s/wvNmsOIapIM6S9OfunLD3w",
+          "accidents": [
+            "800V高压DC-DC电源管理芯片送样英伟达合作电源厂",
+            "适配MGX与Rubin机柜供电架构",
+            "等待批量落地"
+          ],
+          "insights": [
+            "电源管理芯片-800V"
           ],
           "key_metrics": [],
           "target_valuation": []
@@ -141465,6 +142043,53 @@
       ],
       "last_updated": "2026-06-04",
       "mention_count": 1
+    },
+    "603344": {
+      "name": "星德胜",
+      "code": "603344",
+      "board": "SH",
+      "industry": "电力设备-电机-电机",
+      "concepts": [
+        "微特电机",
+        "清洁电器",
+        "机器人",
+        "新能源汽车"
+      ],
+      "products": [
+        "微特电机",
+        "直流无刷电机"
+      ],
+      "core_business": [
+        "微特电机研发制造"
+      ],
+      "industry_position": [
+        "全球吸尘器微特电机龙头，市占率27%",
+        "产品广泛应用于清洁电器、电动工具、园林工具等领域",
+        "客户覆盖全球知名品牌"
+      ],
+      "chain": [
+        "中游-电机"
+      ],
+      "partners": [],
+      "articles": [
+        {
+          "title": "星德胜(603344)-国际微特电机领先企业",
+          "date": "2024-04-10",
+          "source": "https://mp.weixin.qq.com/s/Cbiy7qflEcKpMX24CNJK4Q",
+          "accidents": [
+            "全球吸尘器微特电机市占率27%",
+            "客户包括必胜(Bissell)、鲨客(Shark)、TTI、伊莱克斯、百得、松下、日立、飞利浦、LG、美的、科沃斯、小米、石头科技等",
+            "产品涵盖交流串激电机、直流无刷电机、直流有刷电机三大类型"
+          ],
+          "insights": [
+            "微特电机-全球龙头(市占率27%)"
+          ],
+          "key_metrics": [
+            "全球吸尘器微特电机市占率27%"
+          ],
+          "target_valuation": []
+        }
+      ]
     }
   },
   "stock_count": 3212
