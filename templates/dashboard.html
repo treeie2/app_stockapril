@@ -1593,7 +1593,7 @@
                     let html = '';
                     data.topics.forEach(topic => {
                         const stocksHtml = (topic.stocks || []).slice(0, 8).map(stock => 
-                            `<a href="/stock/${encodeURIComponent(stock)}" class="hot-stock-tag" onclick="event.stopPropagation();">${escapeHtml(stock)}</a>`
+                            `<a href="/stock/${encodeURIComponent(stock.code || stock)}" class="hot-stock-tag" onclick="event.stopPropagation();">${escapeHtml(stock.name || stock)}</a>`
                         ).join('');
                         const moreCount = (topic.stocks || []).length - 8;
                         
@@ -1650,7 +1650,7 @@
                     let html = '';
                     data.groups.forEach(group => {
                         const stocksHtml = (group.stocks || []).slice(0, 6).map(stock => 
-                            `<a href="/stock/${encodeURIComponent(stock)}" class="hot-stock-tag" style="background:rgba(${hexToRgb(group.color || '#3b82f6')},.12);border-color:rgba(${hexToRgb(group.color || '#3b82f6')},.25);color:${group.color || '#3b82f6'};" onclick="event.stopPropagation();">${escapeHtml(stock)}</a>`
+                            `<a href="/stock/${encodeURIComponent(stock.code || stock)}" class="hot-stock-tag" style="background:rgba(${hexToRgb(group.color || '#3b82f6')},.12);border-color:rgba(${hexToRgb(group.color || '#3b82f6')},.25);color:${group.color || '#3b82f6'};" onclick="event.stopPropagation();">${escapeHtml(stock.name || stock)}</a>`
                         ).join('');
                         const moreCount = (group.stocks || []).length - 6;
                         

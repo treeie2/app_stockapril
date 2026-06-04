@@ -1067,6 +1067,16 @@ def api_hot_topics():
     # 只返回 display=true 的热点
     visible_topics = [t for t in topics if t.get('display', True)]
     
+    # 将个股名称转为含代码的对象（前端需要代码做链接）
+    load_all_data()
+    for topic in visible_topics:
+        stock_names = topic.get('stocks', [])
+        enriched = []
+        for name in stock_names:
+            code = _stock_name_to_code(name)
+            enriched.append({'name': name, 'code': code})
+        topic['stocks'] = enriched
+    
     return jsonify({
         'success': True,
         'topics': visible_topics,
@@ -1183,7 +1193,16 @@ def stock_detail(code):
     # 直接从本地数据加载（Firebase 同步由 Admin SDK 在编辑时处理）
     load_all_data()
     if code not in stocks:
-        return jsonify({'error': '股票不存在'}), 404
+        # 尝试按名称查找（兼容分组/热点用名称链接）
+        found_code = None
+        for c, d in stocks.items():
+            if d.get('name') == code:
+                found_code = c
+                break
+        if found_code:
+            code = found_code
+        else:
+            return jsonify({'error': '股票不存在'}), 404
     d = stocks[code]
     
     # 构建完整的 stock 对象
@@ -1969,6 +1988,15 @@ def save_hot_topics():
     except Exception as e:
         print(f"❌ 保存热点数据失败: {e}")
 
+def _stock_name_to_code(name):
+    """通过股票名称查找股票代码"""
+    if not stocks:
+        load_all_data()
+    for c, d in stocks.items():
+        if d.get('name') == name:
+            return c
+    return ''
+
 def load_groups_data():
     """加载分组数据"""
     global groups
@@ -2027,10 +2055,21 @@ def save_groups():
 def api_get_groups():
     """获取所有分组"""
     load_groups_data()
+    # 将分组个股名称转为含代码的对象
+    enriched_groups = []
+    for group in groups:
+        g = dict(group)
+        stock_names = g.get('stocks', [])
+        enriched = []
+        for name in stock_names:
+            code = _stock_name_to_code(name)
+            enriched.append({'name': name, 'code': code})
+        g['stocks'] = enriched
+        enriched_groups.append(g)
     return jsonify({
         'success': True,
-        'groups': groups,
-        'count': len(groups)
+        'groups': enriched_groups,
+        'count': len(enriched_groups)
     })
 
 @app.route('/api/group/<group_id>')
