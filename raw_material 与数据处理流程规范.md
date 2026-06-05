@@ -1,12 +1,27 @@
 # Raw Material 与数据处理流程规范
 
-**版本**: v2.3
-**更新日期**: 2026-05-15
-**适用**: 微信文章→原始素材→结构化数据全流程
+**版本**: v2.4
+**更新日期**: 2026-06-05
+**适用**: 微信文章→原始素材→结构化数据全流程（含离线 HTML 研报批量处理）
 
 ---
 
-## 🆕 v2.3 变更说明（2026-05-15）
+## 🆕 v2.4 变更说明（2026-06-05）
+
+### 新增：离线 HTML 研报批量处理流程
+- **背景**: value/ 和 topdown/ 目录存有批量离线下载的 HTML 深度研报
+- **工具**: `process_html_value.py` / `process_topdown.py` 用 BeautifulSoup 解析 HTML
+- **优势**: 纯文本干净提取，无需 LLM API
+- **流程**: HTML → raw_material_formatted/ → value_YYYY-MM-DD.json → stocks_master.json
+
+### 新增：第一层字段自动补齐
+- **工具**: `extract_first_layer.py` 从 raw_material 文章提取 products/core_business/industry_position/chain/partners
+- **覆盖**: products(100%), core_business(94%), industry_position(92%), chain(88%), partners(55%)
+- **工具**: `fill_stock_info.py` 从同花顺 Excel 补齐行业和概念
+
+### 数据清理
+- 删除 819 篇空文章（仅有链接无有效提取数据）
+- 个股总数: 3313 只，其中有文章: 1957 只
 
 ### 修复：数据合并流程
 - **问题**: `incremental_update.py` 将数据写入 skill 内部目录（`.trae/skills/.../data/master/`），前端不读取该路径，导致新数据不显示
@@ -104,38 +119,26 @@ title: 今天的一些信息整理 5.7
 ### 整体流程图
 
 ```
-微信公众号文章
-    ↓
-[Step 1] 抓取/创建 raw_material
-  - 方式A: fetch_wechat_to_raw_material.py（自动抓取）
-  - 方式B: AI 手动整理文章内容
-    ↓
-raw_material/raw_material_YYYY-MM-DD_N.md
-    ↓
-[Step 2] 提取个股结构化数据
-  - 方式A: extract_stocks_from_raw_material.py（LLM提取）
-  - 方式B: AI 辅助提取（直接分析文章→构建JSON）
-    ↓
-data/stocks_master_YYYY-MM-DD.json（中间产物）
-    ↓
-[Step 2.5] 增量合并到分片（可选，写入 skill 内部目录）
-  .trae/skills/wechat-fetch-research-embedded/scripts/incremental_update.py
-  ⚠️ 注意：此步骤写入 skill 内部目录，不影响前端
-    ↓
-[Step 3] 合并到主数据（关键步骤！）
-  python scripts/merge_new_stocks.py
-  - 将新数据合并到 data/stocks/stocks_master.json
-  - 更新 data/stocks/YYYY-MM-DD.json 分片文件
-  - 按 source 去重，避免重复文章
-    ↓
+微信公众号文章                     离线 HTML 研报
+    ↓ (实时抓取)                     ↓ (BeautifulSoup 解析)
+raw_material/YYYY-MM-DD.md       process_html_value.py
+raw_material/value_formatted/    process_topdown.py
+    ↓                               ↓
+[提取结构化数据]                data/stocks/value_YYYY-MM-DD.json
+  - LLM API 方式                    ↓
+  - AI 辅助方式               [补齐第一层字段]
+    ↓                         extract_first_layer.py
+data/stocks_master_YYYY-MM-DD.json  ↓
+    ↓                               ↓
+[合并到主数据 ← ← ← ← ← ← ← ← ← ← ┘
+  ↓
 data/stocks/stocks_master.json（主数据，前端读取）
     ↓
-[Step 4] 同步到 Firebase
-sync_stocks_to_firebase.py
+[同步到 Firebase]  sync_stocks_to_firebase.py
     ↓
 Firestore 数据库
     ↓
-[Step 5] Web 界面展示（重启 Flask 生效）
+[Web 界面展示]（重启 Flask 生效）
 ```
 
 ### Step 1: 创建 Raw Material
@@ -262,6 +265,48 @@ python map_industry_concept.py
   }
 }
 ```
+
+### Step 2.5: 批量处理离线 HTML 研报（🆕 v2.4）
+
+适用于已下载到 `raw_material/value/` 或 `raw_material/topdown/` 的大量 HTML 深度研报。
+
+```bash
+# Step 2.5a: 解析 HTML，提取纯文本 + 结构化数据
+python process_html_value.py    # 处理 raw_material/value/
+python process_topdown.py       # 处理 raw_material/topdown/
+
+# 输出:
+#   raw_material/value_formatted/ 或 topdown_formatted/  （纯文本 MD）
+#   data/stocks/value_YYYY-MM-DD.json                     （结构化 JSON）
+
+# Step 2.5b: AI 审核修正 JSON（名称、行业、概念不能错）
+#  - 名称：从文件名提取，需人工/LLM核对
+#  - 行业：从 archived/同花顺行业.xls 映射
+#  - 概念：从 archived/所属概念.xls 映射
+
+# Step 2.5c: 补齐第一层字段
+python extract_first_layer.py
+# 从 raw_material 提取 products/core_business/industry_position/chain/partners
+
+# Step 2.5d: 合并到 stocks_master.json
+# 由 process 脚本自动处理，或手动合并
+```
+
+**文件结构**：
+```
+raw_material/value/ 或 topdown/
+├── 万控智造（603070_sh)深度价值投资分析报告/
+│   └── index.html              ← 原始 HTML（含 CSS）
+    ↓ process_html_value.py
+raw_material/topdown_formatted/
+└── 万控智造（603070_sh)...md    ← 纯文本 MD
+    ↓
+data/stocks/value_YYYY-MM-DD.json  ← 结构化 JSON
+```
+
+**清理规则**（仅保留有效文章）：
+- 文章必须至少包含一个非空字段：accidents/insights/key_metrics/target_valuation
+- 仅有 source 链接但无任何提取数据的文章会被自动删除
 
 ### Step 3: 合并到主数据（关键步骤！）
 
@@ -484,4 +529,4 @@ git push origin main
 ---
 
 **文档维护**: 系统自动更新  
-**最后更新**: 2026-05-13
+**最后更新**: 2026-06-05
