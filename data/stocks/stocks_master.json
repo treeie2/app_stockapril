@@ -10843,7 +10843,7 @@
       "name": "三木集团"
     },
     "000636": {
-      "mention_count": 10,
+      "mention_count": 11,
       "last_updated": "2026-06-05",
       "partners": [
         "华为、浪潮等核心客户",
@@ -11113,6 +11113,37 @@
             "：英伟达Rubin平台预计2027年量产，供应链通常提前6-12个月启动备货，2026年H2有望看到高端MLCC订单进一步放量。",
             "短线交易建议：当前股价处于主升浪中段，5日均线为短期生命线。鉴于估值已较高，建议等待回调至48-50元区间（20日均线附近）再考虑介入，目标价65-70元，止损位设于42元（有效跌"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/RooWBcjS9EhIt5-owb9HTw",
+          "title": "一体化电感概念股：AI芯片电感TAM 25亿→440亿(2030年)",
+          "date": "2026-06-08",
+          "hot_topic": "一体化电感",
+          "accidents": [
+            "AI芯片电感TAM从25亿→2030年440亿(广义)",
+            "高端AI GPU电感21亿→324亿,五年高成长弹性",
+            "微型一体成型电感量产,消费/工控/储能"
+          ],
+          "insights": [
+            "AI服务器电源电感是PCB板卡供电核心元件",
+            "一体成型电感替代传统绕线电感趋势明确",
+            "国内老牌综合大厂"
+          ],
+          "key_metrics": [
+            "AI芯片电感TAM 21亿(2025)→324亿(2030)",
+            "五年CAGR超70%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "被动元件+一体成型电感"
+          ],
+          "industry_position": [
+            "国内老牌综合大厂"
+          ],
+          "chain": [
+            "上游-电感/磁性材料"
+          ],
+          "partners": []
         }
       ],
       "board": "SZ",
@@ -15128,7 +15159,7 @@
         "飞行汽车(eVTOL)"
       ],
       "code": "000969",
-      "mention_count": 2,
+      "mention_count": 3,
       "partners": [
         "业务关联"
       ],
@@ -15169,6 +15200,37 @@
             "中芯国际"
           ],
           "hot_topic": "金属钼(半导体互连)"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/RooWBcjS9EhIt5-owb9HTw",
+          "title": "一体化电感概念股：AI芯片电感TAM 25亿→440亿(2030年)",
+          "date": "2026-06-08",
+          "hot_topic": "一体化电感",
+          "accidents": [
+            "AI芯片电感TAM从25亿→2030年440亿(广义)",
+            "高端AI GPU电感21亿→324亿,五年高成长弹性",
+            "AI服务器+新能源高端电感用料"
+          ],
+          "insights": [
+            "AI服务器电源电感是PCB板卡供电核心元件",
+            "一体成型电感替代传统绕线电感趋势明确",
+            "高端非晶/纳米晶龙头"
+          ],
+          "key_metrics": [
+            "AI芯片电感TAM 21亿(2025)→324亿(2030)",
+            "五年CAGR超70%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "非晶纳米晶软磁材料"
+          ],
+          "industry_position": [
+            "高端非晶/纳米晶龙头"
+          ],
+          "chain": [
+            "上游-电感/磁性材料"
+          ],
+          "partners": []
         }
       ],
       "board": "SZ",
@@ -21117,7 +21179,7 @@
       "name": "实益达"
     },
     "002138": {
-      "mention_count": 6,
+      "mention_count": 7,
       "last_updated": "2026-06-04",
       "partners": [],
       "concepts": [
@@ -21278,6 +21340,39 @@
             "英伟达(N)",
             "谷歌",
             "亚马逊"
+          ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/RooWBcjS9EhIt5-owb9HTw",
+          "title": "一体化电感概念股：AI芯片电感TAM 25亿→440亿(2030年)",
+          "date": "2026-06-08",
+          "hot_topic": "一体化电感",
+          "accidents": [
+            "AI芯片电感TAM从25亿→2030年440亿(广义)",
+            "高端AI GPU电感21亿→324亿,五年高成长弹性",
+            "组装/铜磁共烧/模压全工艺一体成型量产"
+          ],
+          "insights": [
+            "AI服务器电源电感是PCB板卡供电核心元件",
+            "一体成型电感替代传统绕线电感趋势明确",
+            "全球顶级,TLVR电感行业前沿"
+          ],
+          "key_metrics": [
+            "AI芯片电感TAM 21亿(2025)→324亿(2030)",
+            "五年CAGR超70%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "片式电感"
+          ],
+          "industry_position": [
+            "全球顶级,TLVR电感行业前沿"
+          ],
+          "chain": [
+            "上游-电感/磁性材料"
+          ],
+          "partners": [
+            "英伟达"
           ]
         }
       ],
@@ -39031,7 +39126,7 @@
       ]
     },
     "002902": {
-      "mention_count": 2,
+      "mention_count": 3,
       "last_updated": "2026-06-05",
       "concepts": [
         "5G",
@@ -39076,6 +39171,37 @@
           "date": "",
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/RooWBcjS9EhIt5-owb9HTw",
+          "title": "一体化电感概念股：AI芯片电感TAM 25亿→440亿(2030年)",
+          "date": "2026-06-08",
+          "hot_topic": "一体化电感",
+          "accidents": [
+            "AI芯片电感TAM从25亿→2030年440亿(广义)",
+            "高端AI GPU电感21亿→324亿,五年高成长弹性",
+            "AI算力机柜+光伏储能配套"
+          ],
+          "insights": [
+            "AI服务器电源电感是PCB板卡供电核心元件",
+            "一体成型电感替代传统绕线电感趋势明确",
+            "通信与算力电源电感"
+          ],
+          "key_metrics": [
+            "AI芯片电感TAM 21亿(2025)→324亿(2030)",
+            "五年CAGR超70%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "TLVR电感+储能PFC电感"
+          ],
+          "industry_position": [
+            "通信与算力电源电感"
+          ],
+          "chain": [
+            "上游-电感/磁性材料"
+          ],
+          "partners": []
         }
       ],
       "industry": "通信-通信设备-通信网络设备及器件",
@@ -49981,7 +50107,7 @@
       ]
     },
     "300319": {
-      "mention_count": 1,
+      "mention_count": 2,
       "last_updated": "2026-05-31",
       "concepts": [
         "5G",
@@ -50021,6 +50147,37 @@
           "accidents": [
             "作为国内被动元器件龙头企业，积极推动电感、滤波器等产品的国产化替代，减少对国际巨头的依赖，受益于国产替代政策红利。"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/RooWBcjS9EhIt5-owb9HTw",
+          "title": "一体化电感概念股：AI芯片电感TAM 25亿→440亿(2030年)",
+          "date": "2026-06-08",
+          "hot_topic": "一体化电感",
+          "accidents": [
+            "AI芯片电感TAM从25亿→2030年440亿(广义)",
+            "高端AI GPU电感21亿→324亿,五年高成长弹性",
+            "核心产品出货份额大陆第一,大电流磁性元器件"
+          ],
+          "insights": [
+            "AI服务器电源电感是PCB板卡供电核心元件",
+            "一体成型电感替代传统绕线电感趋势明确",
+            "大陆第一,AI服务器/基站电源"
+          ],
+          "key_metrics": [
+            "AI芯片电感TAM 21亿(2025)→324亿(2030)",
+            "五年CAGR超70%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "一体成型电感"
+          ],
+          "industry_position": [
+            "大陆第一,AI服务器/基站电源"
+          ],
+          "chain": [
+            "上游-电感/磁性材料"
+          ],
+          "partners": []
         }
       ],
       "industry": "电子-元件-被动元件",
@@ -75464,7 +75621,7 @@
       "name": "西藏天路"
     },
     "600330": {
-      "mention_count": 4,
+      "mention_count": 5,
       "last_updated": "2026-06-05",
       "partners": [],
       "concepts": [
@@ -75557,6 +75714,37 @@
             "盈利能力：作为上游核心材料商，毛利率常年维持在50%以上，盈利稳定性强。"
           ],
           "target_valuation": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/RooWBcjS9EhIt5-owb9HTw",
+          "title": "一体化电感概念股：AI芯片电感TAM 25亿→440亿(2030年)",
+          "date": "2026-06-08",
+          "hot_topic": "一体化电感",
+          "accidents": [
+            "AI芯片电感TAM从25亿→2030年440亿(广义)",
+            "高端AI GPU电感21亿→324亿,五年高成长弹性",
+            "全行业电感厂商供货"
+          ],
+          "insights": [
+            "AI服务器电源电感是PCB板卡供电核心元件",
+            "一体成型电感替代传统绕线电感趋势明确",
+            "锰锌/镍锌磁芯上游大厂"
+          ],
+          "key_metrics": [
+            "AI芯片电感TAM 21亿(2025)→324亿(2030)",
+            "五年CAGR超70%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "软磁铁氧体磁芯"
+          ],
+          "industry_position": [
+            "锰锌/镍锌磁芯上游大厂"
+          ],
+          "chain": [
+            "上游-电感/磁性材料"
+          ],
+          "partners": []
         }
       ],
       "board": "SH",
@@ -119239,7 +119427,7 @@
       "processed_at": "2026-05-23T23:17:45.684796+08:00"
     },
     "300811": {
-      "mention_count": 2,
+      "mention_count": 3,
       "last_updated": "2026-06-01",
       "concepts": [
         "专精特新",
@@ -119329,6 +119517,37 @@
           "target_valuation": [
             "*   估值数据偏高：截至2026年5月底，铂科新材的市盈率（PE-TTM）约在65至81倍之间，处于过去5年中个股约80%的高位分位点，显著高于行业中位数。部"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/RooWBcjS9EhIt5-owb9HTw",
+          "title": "一体化电感概念股：AI芯片电感TAM 25亿→440亿(2030年)",
+          "date": "2026-06-08",
+          "hot_topic": "一体化电感",
+          "accidents": [
+            "AI芯片电感TAM从25亿→2030年440亿(广义)",
+            "高端AI GPU电感21亿→324亿,五年高成长弹性",
+            "铁硅/铁镍合金磁粉+芯片电感"
+          ],
+          "insights": [
+            "AI服务器电源电感是PCB板卡供电核心元件",
+            "一体成型电感替代传统绕线电感趋势明确",
+            "全球龙头,深度切入AI GPU板卡供电"
+          ],
+          "key_metrics": [
+            "AI芯片电感TAM 21亿(2025)→324亿(2030)",
+            "五年CAGR超70%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "金属软磁粉芯+芯片电感"
+          ],
+          "industry_position": [
+            "全球龙头,深度切入AI GPU板卡供电"
+          ],
+          "chain": [
+            "上游-电感/磁性材料"
+          ],
+          "partners": []
         }
       ],
       "processed_by": "tbox",
@@ -132612,7 +132831,7 @@
       "code": "300461",
       "name": "田中精机",
       "concept": "",
-      "mention_count": 1,
+      "mention_count": 2,
       "articles": [
         {
           "title": "【机构调研】笔记整理",
@@ -132625,6 +132844,37 @@
           ],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/RooWBcjS9EhIt5-owb9HTw",
+          "title": "一体化电感概念股：AI芯片电感TAM 25亿→440亿(2030年)",
+          "date": "2026-06-08",
+          "hot_topic": "一体化电感",
+          "accidents": [
+            "AI芯片电感TAM从25亿→2030年440亿(广义)",
+            "高端AI GPU电感21亿→324亿,五年高成长弹性",
+            "一体成型电感智能成套设备"
+          ],
+          "insights": [
+            "AI服务器电源电感是PCB板卡供电核心元件",
+            "一体成型电感替代传统绕线电感趋势明确",
+            "电感自动化产线配套龙头"
+          ],
+          "key_metrics": [
+            "AI芯片电感TAM 21亿(2025)→324亿(2030)",
+            "五年CAGR超70%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "电感生产设备"
+          ],
+          "industry_position": [
+            "电感自动化产线配套龙头"
+          ],
+          "chain": [
+            "上游-电感/磁性材料"
+          ],
+          "partners": []
         }
       ],
       "last_updated": "2026-06-04",
@@ -135745,8 +135995,40 @@
       "code": "300835",
       "name": "龙磁科技",
       "concept": "",
-      "mention_count": 2,
-      "articles": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/RooWBcjS9EhIt5-owb9HTw",
+          "title": "一体化电感概念股：AI芯片电感TAM 25亿→440亿(2030年)",
+          "date": "2026-06-08",
+          "hot_topic": "一体化电感",
+          "accidents": [
+            "AI芯片电感TAM从25亿→2030年440亿(广义)",
+            "高端AI GPU电感21亿→324亿,五年高成长弹性",
+            "试制小批量出货"
+          ],
+          "insights": [
+            "AI服务器电源电感是PCB板卡供电核心元件",
+            "一体成型电感替代传统绕线电感趋势明确",
+            "消费电子一体成型电感"
+          ],
+          "key_metrics": [
+            "AI芯片电感TAM 21亿(2025)→324亿(2030)",
+            "五年CAGR超70%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "软磁粉芯"
+          ],
+          "industry_position": [
+            "消费电子一体成型电感"
+          ],
+          "chain": [
+            "上游-电感/磁性材料"
+          ],
+          "partners": []
+        }
+      ],
       "last_updated": "2026-05-31",
       "concepts": [
         "专精特新",
@@ -139189,7 +139471,39 @@
       "name": "美信科技",
       "concept": "",
       "mention_count": 1,
-      "articles": [],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/RooWBcjS9EhIt5-owb9HTw",
+          "title": "一体化电感概念股：AI芯片电感TAM 25亿→440亿(2030年)",
+          "date": "2026-06-08",
+          "hot_topic": "一体化电感",
+          "accidents": [
+            "AI芯片电感TAM从25亿→2030年440亿(广义)",
+            "高端AI GPU电感21亿→324亿,五年高成长弹性",
+            "2023年突破,车载/通信放量"
+          ],
+          "insights": [
+            "AI服务器电源电感是PCB板卡供电核心元件",
+            "一体成型电感替代传统绕线电感趋势明确",
+            "CHIPLAN电感延长线,客户验证中"
+          ],
+          "key_metrics": [
+            "AI芯片电感TAM 21亿(2025)→324亿(2030)",
+            "五年CAGR超70%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "一体成型电感"
+          ],
+          "industry_position": [
+            "CHIPLAN电感延长线,客户验证中"
+          ],
+          "chain": [
+            "上游-电感/磁性材料"
+          ],
+          "partners": []
+        }
+      ],
       "last_updated": "2026-05-31",
       "concepts": [
         "5G",
@@ -158480,6 +158794,84 @@
         }
       ],
       "last_updated": "2026-05-31"
+    },
+    "301314": {
+      "code": "301314",
+      "name": "科瑞思",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/RooWBcjS9EhIt5-owb9HTw",
+          "title": "一体化电感概念股：AI芯片电感TAM 25亿→440亿(2030年)",
+          "date": "2026-06-08",
+          "hot_topic": "一体化电感",
+          "accidents": [
+            "AI芯片电感TAM从25亿→2030年440亿(广义)",
+            "高端AI GPU电感21亿→324亿,五年高成长弹性",
+            "专门一体成型电感研发部"
+          ],
+          "insights": [
+            "AI服务器电源电感是PCB板卡供电核心元件",
+            "一体成型电感替代传统绕线电感趋势明确",
+            "AI服务器专用,研发测试阶段"
+          ],
+          "key_metrics": [
+            "AI芯片电感TAM 21亿(2025)→324亿(2030)",
+            "五年CAGR超70%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "高端电感"
+          ],
+          "industry_position": [
+            "AI服务器专用,研发测试阶段"
+          ],
+          "chain": [
+            "上游-电感/磁性材料"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-06-08"
+    },
+    "300930": {
+      "code": "300930",
+      "name": "屹通新材",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/RooWBcjS9EhIt5-owb9HTw",
+          "title": "一体化电感概念股：AI芯片电感TAM 25亿→440亿(2030年)",
+          "date": "2026-06-08",
+          "hot_topic": "一体化电感",
+          "accidents": [
+            "AI芯片电感TAM从25亿→2030年440亿(广义)",
+            "高端AI GPU电感21亿→324亿,五年高成长弹性",
+            "芯片电感+一体成型电感原材料"
+          ],
+          "insights": [
+            "AI服务器电源电感是PCB板卡供电核心元件",
+            "一体成型电感替代传统绕线电感趋势明确",
+            "电感关键原材料供应商"
+          ],
+          "key_metrics": [
+            "AI芯片电感TAM 21亿(2025)→324亿(2030)",
+            "五年CAGR超70%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "铁硅铬粉"
+          ],
+          "industry_position": [
+            "电感关键原材料供应商"
+          ],
+          "chain": [
+            "上游-电感/磁性材料"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-06-08"
     }
   },
   "stock_count": 3212,
