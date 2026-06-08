@@ -44010,7 +44010,7 @@
       ]
     },
     "300037": {
-      "mention_count": 9,
+      "mention_count": 10,
       "last_updated": "2026-06-04",
       "concepts": [
         "2026一季报预增",
@@ -44255,6 +44255,33 @@
             "：英伟达Rubin平台预计2027年量产，供应链通常提前6-12个月启动备货，2026年H2有望看到高端MLCC订单进一步放量。",
             "短线交易建议：当前股价处于主升浪中段，5日均线为短期生命线。鉴于估值已较高，建议等待回调至48-50元区间（20日均线附近）再考虑介入，目标价65-70元，止损位设于42元（有效跌"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/lKUiXpbQmNdpykaxKOqkQw",
+          "title": "超级电容：Q1业绩翻倍4家公司，均处上游核心材料环节",
+          "date": "2026-06-08",
+          "hot_topic": "超级电容",
+          "accidents": [
+            "英伟达Rubin架构MLCC需求激增,VR200每机架MLCC价值4320美元(+182%)",
+            "超级电容Q1业绩爆发,4家上游材料公司净利翻倍"
+          ],
+          "insights": [
+            "新宙邦: 全球市占率近50%,近30年深耕"
+          ],
+          "key_metrics": [
+            "Q1净利+109.02%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "超级电容化学品"
+          ],
+          "industry_position": [
+            "全球市占率近50%,近30年深耕"
+          ],
+          "chain": [
+            "上游-超级电容材料"
+          ],
+          "partners": []
         }
       ],
       "industry": "电力设备-电池-电池化学品",
@@ -45037,7 +45064,7 @@
       ]
     },
     "300057": {
-      "mention_count": 2,
+      "mention_count": 3,
       "last_updated": "2026-06-01",
       "concepts": [
         "AI智能体",
@@ -45098,6 +45125,33 @@
           "target_valuation": [
             "26、27年预计2.5、4亿利润"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/lKUiXpbQmNdpykaxKOqkQw",
+          "title": "超级电容：Q1业绩翻倍4家公司，均处上游核心材料环节",
+          "date": "2026-06-08",
+          "hot_topic": "超级电容",
+          "accidents": [
+            "英伟达Rubin架构MLCC需求激增,VR200每机架MLCC价值4320美元(+182%)",
+            "超级电容Q1业绩爆发,4家上游材料公司净利翻倍"
+          ],
+          "insights": [
+            "万顺新材: 铝箔用于超级电容电极集流体"
+          ],
+          "key_metrics": [
+            "Q1净利+430.23%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "铝箔材料"
+          ],
+          "industry_position": [
+            "铝箔用于超级电容电极集流体"
+          ],
+          "chain": [
+            "上游-超级电容材料"
+          ],
+          "partners": []
         }
       ],
       "industry": "有色金属-工业金属-铝",
@@ -45110,7 +45164,10 @@
       "chain": [
         "上游-金属材料加工"
       ],
-      "partners": []
+      "partners": [],
+      "products": [
+        "铝箔材料"
+      ]
     },
     "300058": {
       "mention_count": 3,
@@ -86541,7 +86598,7 @@
       "partners": []
     },
     "600884": {
-      "mention_count": 3,
+      "mention_count": 4,
       "last_updated": "2026-06-01",
       "concepts": [
         "MiniLED",
@@ -86650,6 +86707,33 @@
             "新能源重卡：渗透率已达50%，存量1000万辆替换需求，单车带电量相当于10辆乘用车"
           ],
           "target_valuation": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/lKUiXpbQmNdpykaxKOqkQw",
+          "title": "超级电容：Q1业绩翻倍4家公司，均处上游核心材料环节",
+          "date": "2026-06-08",
+          "hot_topic": "超级电容",
+          "accidents": [
+            "英伟达Rubin架构MLCC需求激增,VR200每机架MLCC价值4320美元(+182%)",
+            "超级电容Q1业绩爆发,4家上游材料公司净利翻倍"
+          ],
+          "insights": [
+            "杉杉股份: 硬碳负极全球领先,千吨级量产"
+          ],
+          "key_metrics": [
+            "Q1净利+898.85%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "超级电容负极材料"
+          ],
+          "industry_position": [
+            "硬碳负极全球领先,千吨级量产"
+          ],
+          "chain": [
+            "上游-超级电容材料"
+          ],
+          "partners": []
         }
       ],
       "industry": "电子-光学光电子-面板",
@@ -164978,6 +165062,60 @@
         "概念-元件/MLCC/PCB"
       ],
       "board": "SZ"
+    },
+    "301238": {
+      "code": "301238",
+      "name": "瑞泰新材",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/lKUiXpbQmNdpykaxKOqkQw",
+          "title": "超级电容：Q1业绩翻倍4家公司，均处上游核心材料环节",
+          "date": "2026-06-08",
+          "hot_topic": "超级电容",
+          "accidents": [
+            "英伟达Rubin架构MLCC需求激增,VR200每机架MLCC价值4320美元(+182%)",
+            "超级电容Q1业绩爆发,4家上游材料公司净利翻倍"
+          ],
+          "insights": [
+            "瑞泰新材: 国内领跑,行业标准牵头制定者"
+          ],
+          "key_metrics": [
+            "Q1净利+380.70%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "超级电容电解液"
+          ],
+          "industry_position": [
+            "国内领跑,行业标准牵头制定者"
+          ],
+          "chain": [
+            "上游-超级电容材料"
+          ],
+          "partners": []
+        }
+      ],
+      "board": "SZ",
+      "core_business": [
+        "超级电容电解液"
+      ],
+      "industry_position": [
+        "国内领跑,行业标准牵头制定者"
+      ],
+      "chain": [
+        "上游-超级电容材料"
+      ],
+      "partners": [],
+      "concepts": [
+        "超级电容",
+        "AI服务器",
+        "上游材料"
+      ],
+      "products": [
+        "超级电容电解液"
+      ],
+      "last_updated": "2026-06-08"
     }
   },
   "stock_count": 3212,
