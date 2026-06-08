@@ -3,7 +3,7 @@
   "updated_at": "2026-06-04",
   "stocks": {
     "002962": {
-      "mention_count": 1,
+      "mention_count": 2,
       "last_updated": "2026-05-31",
       "partners": [],
       "name": "五方光电",
@@ -35,6 +35,32 @@
             "1.6T光模块把滤光片从单片零件推向高精度组件",
             "TGV/玻璃基板业务处于研发验证阶段"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/p0lzzWLYpN4Pq51YkLj_8g",
+          "title": "6月2日首板逻辑·光通信/CPO/先进封装/机器人/MLCC",
+          "date": "2026-06-08",
+          "accidents": [
+            "6月2日首板涨停",
+            "玻璃晶圆深加工量产线建成,板级产品规划"
+          ],
+          "insights": [
+            "玻璃基板+玻璃晶圆"
+          ],
+          "key_metrics": [
+            "配套知名终端"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "玻璃基板+玻璃晶圆"
+          ],
+          "industry_position": [
+            "玻璃基板+玻璃晶圆"
+          ],
+          "chain": [
+            "概念-先进封装/光学"
+          ],
+          "partners": []
         }
       ],
       "board": "SZ",
@@ -21486,7 +21512,7 @@
         "芯片概念"
       ],
       "code": "002137",
-      "mention_count": 2,
+      "mention_count": 3,
       "partners": [
         "切入半导体头部（ASM PT）供应链"
       ],
@@ -21519,6 +21545,32 @@
           ],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/p0lzzWLYpN4Pq51YkLj_8g",
+          "title": "6月2日首板逻辑·光通信/CPO/先进封装/机器人/MLCC",
+          "date": "2026-06-08",
+          "accidents": [
+            "6月2日首板涨停",
+            "为ASM PT提供封装设备部件,间接持股宇树科技"
+          ],
+          "insights": [
+            "先进封装+智能硬件"
+          ],
+          "key_metrics": [
+            "智能硬件制造"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "先进封装+智能硬件"
+          ],
+          "industry_position": [
+            "先进封装+智能硬件"
+          ],
+          "chain": [
+            "概念-先进封装/光学"
+          ],
+          "partners": []
         }
       ],
       "board": "SZ",
@@ -34592,7 +34644,7 @@
       "partners": []
     },
     "002590": {
-      "mention_count": 1,
+      "mention_count": 2,
       "last_updated": "2026-05-31",
       "concepts": [
         "两轮车",
@@ -34634,13 +34686,48 @@
             "*   **AEBS概念**：作为国内商用车AEBS市场龙头，受益于强制安装政策（2028年实施），公司将迎来大规模订单增长。",
             "以上概念反映了万安科技在汽车产业链中的多元化布局，以及对新兴技术、政策机遇的积极响应。"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/bVWgyozPFEYPbyaTu5-2Gw",
+          "title": "6月4日首板逻辑·半导体/存储/光通信/PCB/机器人",
+          "date": "2026-06-08",
+          "accidents": [
+            "6月4日首板涨停",
+            "增资同川科技布局具身智能"
+          ],
+          "insights": [
+            "机器人+智能驾驶"
+          ],
+          "key_metrics": [
+            "线控制动适配高阶智驾"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "机器人+智能驾驶"
+          ],
+          "industry_position": [
+            "机器人+智能驾驶"
+          ],
+          "chain": [
+            "概念-汽车/机器人"
+          ],
+          "partners": []
         }
       ],
       "industry": "汽车-汽车零部件-底盘与发动机系统",
       "board": "SZ",
       "code": "002590",
       "name": "万安科技",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "机器人+智能驾驶"
+      ],
+      "industry_position": [
+        "机器人+智能驾驶"
+      ],
+      "chain": [
+        "概念-汽车/机器人"
+      ]
     },
     "002594": {
       "mention_count": 5,
@@ -38271,7 +38358,7 @@
       ]
     },
     "002824": {
-      "mention_count": 2,
+      "mention_count": 3,
       "last_updated": "2026-06-04",
       "concepts": [
         "2025年报预增",
@@ -38320,6 +38407,32 @@
           ],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/bVWgyozPFEYPbyaTu5-2Gw",
+          "title": "6月4日首板逻辑·半导体/存储/光通信/PCB/机器人",
+          "date": "2026-06-08",
+          "accidents": [
+            "6月4日首板涨停",
+            "适配旗舰折叠屏中框/转轴"
+          ],
+          "insights": [
+            "折叠屏+电池结构件"
+          ],
+          "key_metrics": [
+            "配套新能源车销量前20中13家,Q1+104.65%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "折叠屏+电池结构件"
+          ],
+          "industry_position": [
+            "折叠屏+电池结构件"
+          ],
+          "chain": [
+            "概念-汽车/机器人"
+          ],
+          "partners": []
         }
       ],
       "industry": "有色金属-工业金属-铝",
@@ -38816,7 +38929,7 @@
       "partners": []
     },
     "002851": {
-      "mention_count": 6,
+      "mention_count": 7,
       "last_updated": "2026-06-04",
       "concepts": [
         "一带一路",
@@ -38970,6 +39083,32 @@
             "产品匹配2027机柜量产"
           ],
           "target_valuation": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/p0lzzWLYpN4Pq51YkLj_8g",
+          "title": "6月2日首板逻辑·光通信/CPO/先进封装/机器人/MLCC",
+          "date": "2026-06-08",
+          "accidents": [
+            "6月2日首板涨停",
+            "英伟达指定数据中心推荐提供商,Vera Rubin电源对接"
+          ],
+          "insights": [
+            "英伟达AI电源+算力电源全栈"
+          ],
+          "key_metrics": [
+            "GB300电源已获批量订单"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "英伟达AI电源+算力电源全栈"
+          ],
+          "industry_position": [
+            "英伟达AI电源+算力电源全栈"
+          ],
+          "chain": [
+            "概念-元件/MLCC/PCB"
+          ],
+          "partners": []
         }
       ],
       "industry": "电力设备-其他电源设备-其他电源设备Ⅲ",
@@ -39675,7 +39814,7 @@
       "partners": []
     },
     "002896": {
-      "mention_count": 2,
+      "mention_count": 3,
       "last_updated": "2026-05-10",
       "concepts": [
         "减速器",
@@ -39711,6 +39850,32 @@
           "insights": [
             "特斯拉机器人量产审厂核心供应商"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/p0lzzWLYpN4Pq51YkLj_8g",
+          "title": "6月2日首板逻辑·光通信/CPO/先进封装/机器人/MLCC",
+          "date": "2026-06-08",
+          "accidents": [
+            "6月2日首板涨停",
+            "行星/RV/谐波三大减速器批量生产"
+          ],
+          "insights": [
+            "减速器+机器人"
+          ],
+          "key_metrics": [
+            "减速器+电机+驱动一体化"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "减速器+机器人"
+          ],
+          "industry_position": [
+            "减速器+机器人"
+          ],
+          "chain": [
+            "概念-机器人/自动化"
+          ],
+          "partners": []
         }
       ],
       "industry": "机械设备-通用设备-金属制品",
@@ -39732,7 +39897,7 @@
       "name": "中大力德"
     },
     "002897": {
-      "mention_count": 3,
+      "mention_count": 4,
       "last_updated": "2026-06-04",
       "concepts": [
         "2025年报预增",
@@ -39798,6 +39963,32 @@
           "date": "",
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/p0lzzWLYpN4Pq51YkLj_8g",
+          "title": "6月2日首板逻辑·光通信/CPO/先进封装/机器人/MLCC",
+          "date": "2026-06-08",
+          "accidents": [
+            "6月2日首板涨停",
+            "800G OSFP112连接器批量交付,国内少数量产"
+          ],
+          "insights": [
+            "华为链+800G高速连接器"
+          ],
+          "key_metrics": [
+            "华为5.5G设备高速连接器主要国产供应商"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "华为链+800G高速连接器"
+          ],
+          "industry_position": [
+            "华为链+800G高速连接器"
+          ],
+          "chain": [
+            "概念-光通信/CPO"
+          ],
+          "partners": []
         }
       ],
       "industry": "通信-通信设备-通信网络设备及器件",
@@ -39813,6 +40004,9 @@
       ],
       "industry_position": [
         "国内少数实现高速连接器及高速光电模组量产的企业之一"
+      ],
+      "chain": [
+        "概念-光通信/CPO"
       ]
     },
     "002902": {
@@ -39916,7 +40110,7 @@
       ]
     },
     "002903": {
-      "mention_count": 1,
+      "mention_count": 2,
       "last_updated": "2026-05-31",
       "concepts": [
         "专精特新",
@@ -39942,13 +40136,48 @@
           "date": "2026-02-26",
           "title": "002903  数控磨削设备 半导体设备 碳化硅 工业母机 机器人 智能装备 专业从事数控磨削设备",
           "source": "https://mp.weixin.qq.com/s/IrpYTrVwJbcplHalCj0nVw"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/p0lzzWLYpN4Pq51YkLj_8g",
+          "title": "6月2日首板逻辑·光通信/CPO/先进封装/机器人/MLCC",
+          "date": "2026-06-08",
+          "accidents": [
+            "6月2日首板涨停",
+            "中国机床工具协会调研,螺旋拉床用于机器人零部件"
+          ],
+          "insights": [
+            "工业母机+机器人"
+          ],
+          "key_metrics": [
+            "AI+高端工业母机融合"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "工业母机+机器人"
+          ],
+          "industry_position": [
+            "工业母机+机器人"
+          ],
+          "chain": [
+            "概念-机器人/自动化"
+          ],
+          "partners": []
         }
       ],
       "industry": "机械设备-通用设备-机床工具",
       "board": "SZ",
       "code": "002903",
       "name": "宇环数控",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "工业母机+机器人"
+      ],
+      "industry_position": [
+        "工业母机+机器人"
+      ],
+      "chain": [
+        "概念-机器人/自动化"
+      ]
     },
     "002905": {
       "mention_count": 1,
@@ -41403,7 +41632,7 @@
       "partners": []
     },
     "002980": {
-      "mention_count": 1,
+      "mention_count": 2,
       "last_updated": "2026-05-31",
       "concepts": [
         "AI智能体",
@@ -41436,6 +41665,32 @@
           "insights": [
             "通过并购进入高速测试赛道的核心"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/p0lzzWLYpN4Pq51YkLj_8g",
+          "title": "6月2日首板逻辑·光通信/CPO/先进封装/机器人/MLCC",
+          "date": "2026-06-08",
+          "accidents": [
+            "6月2日首板涨停",
+            "完成伽蓝特100%收购,光模块/硅光芯片测试"
+          ],
+          "insights": [
+            "光通信测试+并购"
+          ],
+          "key_metrics": [
+            "Q1在手订单1.97亿"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "光通信测试+并购"
+          ],
+          "industry_position": [
+            "光通信测试+并购"
+          ],
+          "chain": [
+            "概念-光通信/CPO"
+          ],
+          "partners": []
         }
       ],
       "industry": "电力设备-电网设备-电气自控设备",
@@ -41445,6 +41700,15 @@
       "partners": [],
       "products": [
         "测试"
+      ],
+      "core_business": [
+        "光通信测试+并购"
+      ],
+      "industry_position": [
+        "光通信测试+并购"
+      ],
+      "chain": [
+        "概念-光通信/CPO"
       ]
     },
     "002987": {
@@ -55626,7 +55890,7 @@
       "partners": []
     },
     "300486": {
-      "mention_count": 2,
+      "mention_count": 3,
       "last_updated": "2026-06-05",
       "concepts": [
         "新型工业化",
@@ -55680,6 +55944,32 @@
             "），单笔订单金额直接占到2024年总营收的22.3%。"
           ],
           "target_valuation": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/p0lzzWLYpN4Pq51YkLj_8g",
+          "title": "6月2日首板逻辑·光通信/CPO/先进封装/机器人/MLCC",
+          "date": "2026-06-08",
+          "accidents": [
+            "6月2日首板涨停",
+            "智能物流仓储系统,全智能化无人工厂"
+          ],
+          "insights": [
+            "智能物流+机器人"
+          ],
+          "key_metrics": [
+            "Q1营收+23.38%净利+114.76%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "智能物流+机器人"
+          ],
+          "industry_position": [
+            "智能物流+机器人"
+          ],
+          "chain": [
+            "概念-机器人/自动化"
+          ],
+          "partners": []
         }
       ],
       "industry": "机械设备-自动化设备-其他自动化设备",
@@ -69751,7 +70041,7 @@
       "partners": []
     },
     "301419": {
-      "mention_count": 1,
+      "mention_count": 2,
       "last_updated": "2026-05-31",
       "concepts": [
         "5G",
@@ -69770,6 +70060,32 @@
           "date": "2026-01-16",
           "title": "01月16日___公告精选",
           "source": "https://mp.weixin.qq.com/s/qN7Z17lOZu8pTOQh-GcMjQ"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/p0lzzWLYpN4Pq51YkLj_8g",
+          "title": "6月2日首板逻辑·光通信/CPO/先进封装/机器人/MLCC",
+          "date": "2026-06-08",
+          "accidents": [
+            "6月2日首板涨停",
+            "与华工正源光模块合作批量供货"
+          ],
+          "insights": [
+            "光模块+导热材料"
+          ],
+          "key_metrics": [
+            "人形机器人关节散热样品导入"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "光模块+导热材料"
+          ],
+          "industry_position": [
+            "光模块+导热材料"
+          ],
+          "chain": [
+            "概念-光通信/CPO"
+          ],
+          "partners": []
         }
       ],
       "industry": "通信-通信设备-通信网络设备及器件",
@@ -69779,7 +70095,16 @@
       ],
       "code": "301419",
       "name": "阿莱德",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "光模块+导热材料"
+      ],
+      "industry_position": [
+        "光模块+导热材料"
+      ],
+      "chain": [
+        "概念-光通信/CPO"
+      ]
     },
     "301428": {
       "mention_count": 2,
@@ -79719,7 +80044,7 @@
       "partners": []
     },
     "600487": {
-      "mention_count": 4,
+      "mention_count": 5,
       "last_updated": "2026-06-04",
       "concepts": [
         "5G",
@@ -79836,6 +80161,32 @@
             "市值突破1万亿元，成为A股首只万亿市值CPO概念股"
           ],
           "target_valuation": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/p0lzzWLYpN4Pq51YkLj_8g",
+          "title": "6月2日首板逻辑·光通信/CPO/先进封装/机器人/MLCC",
+          "date": "2026-06-08",
+          "accidents": [
+            "6月2日首板涨停",
+            "拟分拆亨通华海科创板,全球前四跨洋海缆"
+          ],
+          "insights": [
+            "光纤光缆+CPO"
+          ],
+          "key_metrics": [
+            "CPO 26-27年规模上量"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "光纤光缆+CPO"
+          ],
+          "industry_position": [
+            "光纤光缆+CPO"
+          ],
+          "chain": [
+            "概念-光通信/CPO"
+          ],
+          "partners": []
         }
       ],
       "industry": "通信-通信设备-通信线缆及配套",
@@ -97978,7 +98329,7 @@
       "partners": []
     },
     "603286": {
-      "mention_count": 2,
+      "mention_count": 3,
       "last_updated": "2026-06-04",
       "concepts": [
         "新型工业化",
@@ -98020,6 +98371,32 @@
           ],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/bVWgyozPFEYPbyaTu5-2Gw",
+          "title": "6月4日首板逻辑·半导体/存储/光通信/PCB/机器人",
+          "date": "2026-06-08",
+          "accidents": [
+            "6月4日首板涨停",
+            "电子皮肤样品研发完成并送样"
+          ],
+          "insights": [
+            "人形机器人+电子皮肤"
+          ],
+          "key_metrics": [
+            "美国密歇根工厂已投产"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "人形机器人+电子皮肤"
+          ],
+          "industry_position": [
+            "人形机器人+电子皮肤"
+          ],
+          "chain": [
+            "概念-汽车/机器人"
+          ],
+          "partners": []
         }
       ],
       "industry": "汽车-汽车零部件-底盘与发动机系统",
@@ -121935,7 +122312,7 @@
       ]
     },
     "002484": {
-      "mention_count": 6,
+      "mention_count": 7,
       "last_updated": "2026-06-05",
       "concepts": [
         "5G",
@@ -122089,6 +122466,32 @@
             "2.  审慎且高效的全球化产能：为规避地缘政治风险并贴近客户，公司积极推进国际化布局。波兰4万吨/年锂离子动力电池电解液项目产销量逐步提升；马来西亚5万吨电解液"
           ],
           "target_valuation": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/bVWgyozPFEYPbyaTu5-2Gw",
+          "title": "6月4日首板逻辑·半导体/存储/光通信/PCB/机器人",
+          "date": "2026-06-08",
+          "accidents": [
+            "6月4日首板涨停",
+            "AI服务器电源全面铺开,26年规模发展元年"
+          ],
+          "insights": [
+            "超级电容+AI服务器电源"
+          ],
+          "key_metrics": [
+            "Q1超级电容1.06亿"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "超级电容+AI服务器电源"
+          ],
+          "industry_position": [
+            "超级电容+AI服务器电源"
+          ],
+          "chain": [
+            "概念-PCB/元件"
+          ],
+          "partners": []
         }
       ],
       "processed_by": "tbox",
@@ -122847,7 +123250,7 @@
       "partners": []
     },
     "002585": {
-      "mention_count": 2,
+      "mention_count": 3,
       "last_updated": "2026-06-05",
       "concepts": [
         "OLED",
@@ -122919,6 +123322,32 @@
             "行业预计2026年需求增长约10%，而产能释放已进入尾声，利好存量龙头提振毛利。"
           ],
           "target_valuation": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/bVWgyozPFEYPbyaTu5-2Gw",
+          "title": "6月4日首板逻辑·半导体/存储/光通信/PCB/机器人",
+          "date": "2026-06-08",
+          "accidents": [
+            "6月4日首板涨停",
+            "MLCC销售+148%,一期5亿平产能26年底投产"
+          ],
+          "insights": [
+            "MLCC离型膜+复合铜箔"
+          ],
+          "key_metrics": [
+            "复合铜箔量产"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "MLCC离型膜+复合铜箔"
+          ],
+          "industry_position": [
+            "MLCC离型膜+复合铜箔"
+          ],
+          "chain": [
+            "概念-PCB/元件"
+          ],
+          "partners": []
         }
       ],
       "core_business": [
@@ -124355,7 +124784,7 @@
       "code": "000062",
       "name": "深圳华强",
       "concept": "",
-      "mention_count": 1,
+      "mention_count": 2,
       "articles": [
         {
           "article_title": "碳化硅与第三代半导体10大核心龙头",
@@ -124373,11 +124802,41 @@
             "国内SiC市场规模同比增长40%",
             "SiC衬底/功率器件产能同比增长50%+"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/p0lzzWLYpN4Pq51YkLj_8g",
+          "title": "6月2日首板逻辑·光通信/CPO/先进封装/机器人/MLCC",
+          "date": "2026-06-08",
+          "accidents": [
+            "6月2日首板涨停",
+            "村田主要代理商,昇腾APN金牌部件伙伴"
+          ],
+          "insights": [
+            "MLCC涨价+华为昇腾"
+          ],
+          "key_metrics": [
+            "Q1营收+47.28%净利+90.28%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "MLCC涨价+华为昇腾"
+          ],
+          "industry_position": [
+            "MLCC涨价+华为昇腾"
+          ],
+          "chain": [
+            "概念-元件/MLCC/PCB"
+          ],
+          "partners": []
         }
       ],
       "last_updated": "2026-05-31",
-      "core_business": [],
-      "industry_position": [],
+      "core_business": [
+        "MLCC涨价+华为昇腾"
+      ],
+      "industry_position": [
+        "MLCC涨价+华为昇腾"
+      ],
       "valuation": {},
       "industry": "电子-其他电子-其他电子Ⅲ",
       "concepts": [
@@ -124414,7 +124873,9 @@
       "partners": [],
       "board": "SZ",
       "products": [],
-      "chain": [],
+      "chain": [
+        "概念-元件/MLCC/PCB"
+      ],
       "insights": [
         "电子元器件分销龙头，代理多家SiC产品",
         "自身也在布局SiC产业链"
@@ -125441,7 +125902,7 @@
       "code": "000700",
       "name": "模塑科技",
       "concept": "",
-      "mention_count": 1,
+      "mention_count": 2,
       "articles": [
         {
           "title": "【机构调研】笔记整理",
@@ -125460,6 +125921,32 @@
             "明慈医院2025年营收同比增长约10%"
           ],
           "target_valuation": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/p0lzzWLYpN4Pq51YkLj_8g",
+          "title": "6月2日首板逻辑·光通信/CPO/先进封装/机器人/MLCC",
+          "date": "2026-06-08",
+          "accidents": [
+            "6月2日首板涨停",
+            "获人形机器人外覆盖件小批量订单"
+          ],
+          "insights": [
+            "人形机器人+保险杠龙头"
+          ],
+          "key_metrics": [
+            "年保险杠产能600万套,国内前二"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "人形机器人+保险杠龙头"
+          ],
+          "industry_position": [
+            "人形机器人+保险杠龙头"
+          ],
+          "chain": [
+            "概念-机器人/自动化"
+          ],
+          "partners": []
         }
       ],
       "last_updated": "2026-06-04",
@@ -143510,8 +143997,35 @@
       "code": "600114",
       "name": "东睦股份",
       "concept": "",
-      "mention_count": 2,
-      "articles": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/p0lzzWLYpN4Pq51YkLj_8g",
+          "title": "6月2日首板逻辑·光通信/CPO/先进封装/机器人/MLCC",
+          "date": "2026-06-08",
+          "accidents": [
+            "6月2日首板涨停",
+            "收购富驰高科34.75%过会,行星减速器送样头部客户"
+          ],
+          "insights": [
+            "并购重组+机器人"
+          ],
+          "key_metrics": [
+            "GB300连接器MIM零件40余型号"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "并购重组+机器人"
+          ],
+          "industry_position": [
+            "并购重组+机器人"
+          ],
+          "chain": [
+            "概念-机器人/自动化"
+          ],
+          "partners": []
+        }
+      ],
       "last_updated": "2026-05-31",
       "concepts": [
         "3D打印",
@@ -143540,7 +144054,16 @@
       ],
       "industry": "机械设备-通用设备-金属制品",
       "board": "SH",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "并购重组+机器人"
+      ],
+      "industry_position": [
+        "并购重组+机器人"
+      ],
+      "chain": [
+        "概念-机器人/自动化"
+      ]
     },
     "600120": {
       "code": "600120",
@@ -144183,7 +144706,7 @@
       "code": "600255",
       "name": "鑫科材料",
       "concept": "",
-      "mention_count": 2,
+      "mention_count": 3,
       "articles": [
         {
           "article_title": "需求暴增的高端铜产业链名单",
@@ -144219,6 +144742,32 @@
             "传统高端铜板带材业务在一季度完成专业化调整，广西基地扭亏，一季度归母净利大增 84%，基本面迎来反转。"
           ],
           "target_valuation": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/p0lzzWLYpN4Pq51YkLj_8g",
+          "title": "6月2日首板逻辑·光通信/CPO/先进封装/机器人/MLCC",
+          "date": "2026-06-08",
+          "accidents": [
+            "6月2日首板涨停",
+            "布局800G-1.6T ACC/AEC高速铜连接"
+          ],
+          "insights": [
+            "高速铜连接+铜合金板带"
+          ],
+          "key_metrics": [
+            "Q1净利+84.28%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "高速铜连接+铜合金板带"
+          ],
+          "industry_position": [
+            "高速铜连接+铜合金板带"
+          ],
+          "chain": [
+            "概念-元件/MLCC/PCB"
+          ],
+          "partners": []
         }
       ],
       "last_updated": "2026-06-05",
@@ -152747,8 +153296,35 @@
       "code": "605288",
       "name": "凯迪股份",
       "concept": "",
-      "mention_count": 2,
-      "articles": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/p0lzzWLYpN4Pq51YkLj_8g",
+          "title": "6月2日首板逻辑·光通信/CPO/先进封装/机器人/MLCC",
+          "date": "2026-06-08",
+          "accidents": [
+            "6月2日首板涨停",
+            "具身机器人产品送样"
+          ],
+          "insights": [
+            "人形机器人+线性驱动"
+          ],
+          "key_metrics": [
+            "工业光伏推杆系列"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "人形机器人+线性驱动"
+          ],
+          "industry_position": [
+            "人形机器人+线性驱动"
+          ],
+          "chain": [
+            "概念-机器人/自动化"
+          ],
+          "partners": []
+        }
+      ],
       "last_updated": "2026-05-31",
       "concepts": [
         "一带一路",
@@ -152763,7 +153339,16 @@
       ],
       "industry": "机械设备-自动化设备-工控设备",
       "board": "SH",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "人形机器人+线性驱动"
+      ],
+      "industry_position": [
+        "人形机器人+线性驱动"
+      ],
+      "chain": [
+        "概念-机器人/自动化"
+      ]
     },
     "605296": {
       "code": "605296",
@@ -153278,8 +153863,35 @@
       "code": "688079",
       "name": "美迪凯",
       "concept": "",
-      "mention_count": 2,
-      "articles": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/p0lzzWLYpN4Pq51YkLj_8g",
+          "title": "6月2日首板逻辑·光通信/CPO/先进封装/机器人/MLCC",
+          "date": "2026-06-08",
+          "accidents": [
+            "6月2日首板涨停",
+            "TGV深宽比50:1,Ra≤80nm,已通过头部fab验厂"
+          ],
+          "insights": [
+            "玻璃基板+TGV"
+          ],
+          "key_metrics": [
+            "8英寸MicroLED小批量生产"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "玻璃基板+TGV"
+          ],
+          "industry_position": [
+            "玻璃基板+TGV"
+          ],
+          "chain": [
+            "概念-先进封装/光学"
+          ],
+          "partners": []
+        }
+      ],
       "last_updated": "2026-05-31",
       "concepts": [
         "5G",
@@ -153303,7 +153915,16 @@
       ],
       "industry": "电子-光学光电子-光学元件",
       "board": "SH",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "玻璃基板+TGV"
+      ],
+      "industry_position": [
+        "玻璃基板+TGV"
+      ],
+      "chain": [
+        "概念-先进封装/光学"
+      ]
     },
     "688090": {
       "code": "688090",
@@ -161176,9 +161797,46 @@
       ],
       "customers": [],
       "suppliers": [],
-      "articles": [],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/p0lzzWLYpN4Pq51YkLj_8g",
+          "title": "6月2日首板逻辑·光通信/CPO/先进封装/机器人/MLCC",
+          "date": "2026-06-08",
+          "accidents": [
+            "6月2日首板涨停",
+            "高导热金刚石粉体投产,600台压机年产20吨"
+          ],
+          "insights": [
+            "金刚石+高导热粉体"
+          ],
+          "key_metrics": [
+            "Q1扭亏"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "金刚石+高导热粉体"
+          ],
+          "industry_position": [
+            "金刚石+高导热粉体"
+          ],
+          "chain": [
+            "概念-机器人/自动化"
+          ],
+          "partners": []
+        }
+      ],
       "last_updated": "2026-06-04",
-      "partners": []
+      "partners": [],
+      "mention_count": 1,
+      "core_business": [
+        "金刚石+高导热粉体"
+      ],
+      "industry_position": [
+        "金刚石+高导热粉体"
+      ],
+      "chain": [
+        "概念-机器人/自动化"
+      ]
     },
     "301066": {
       "name": "万事利",
@@ -164188,6 +164846,138 @@
       "industry_position": [
         "黄羽肉鸡+预制菜全产业链"
       ]
+    },
+    "603500": {
+      "code": "603500",
+      "name": "祥和实业",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/bVWgyozPFEYPbyaTu5-2Gw",
+          "title": "6月4日首板逻辑·半导体/存储/光通信/PCB/机器人",
+          "date": "2026-06-08",
+          "accidents": [
+            "6月4日首板涨停",
+            "超级电容/锂电池电容器橡胶密封塞"
+          ],
+          "insights": [
+            "超级电容+轨交扣件"
+          ],
+          "key_metrics": [
+            "25年净利+78.31%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "超级电容+轨交扣件"
+          ],
+          "industry_position": [
+            "超级电容+轨交扣件"
+          ],
+          "chain": [
+            "概念-超级电容/MLCC"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-06-08",
+      "core_business": [
+        "超级电容+轨交扣件"
+      ],
+      "industry_position": [
+        "超级电容+轨交扣件"
+      ],
+      "chain": [
+        "概念-超级电容/MLCC"
+      ],
+      "board": "SH"
+    },
+    "920128": {
+      "code": "920128",
+      "name": "胜业电气",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/p0lzzWLYpN4Pq51YkLj_8g",
+          "title": "6月2日首板逻辑·光通信/CPO/先进封装/机器人/MLCC",
+          "date": "2026-06-08",
+          "accidents": [
+            "6月2日首板涨停",
+            "收购河南华佳51%股权,上游材料自主可控"
+          ],
+          "insights": [
+            "薄膜电容+并购"
+          ],
+          "key_metrics": [
+            "薄膜电容三细分市场国内第2"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "薄膜电容+并购"
+          ],
+          "industry_position": [
+            "薄膜电容+并购"
+          ],
+          "chain": [
+            "概念-元件/MLCC/PCB"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-06-08",
+      "core_business": [
+        "薄膜电容+并购"
+      ],
+      "industry_position": [
+        "薄膜电容+并购"
+      ],
+      "chain": [
+        "概念-元件/MLCC/PCB"
+      ],
+      "board": "BJ"
+    },
+    "301563": {
+      "code": "301563",
+      "name": "云汉芯城",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/p0lzzWLYpN4Pq51YkLj_8g",
+          "title": "6月2日首板逻辑·光通信/CPO/先进封装/机器人/MLCC",
+          "date": "2026-06-08",
+          "accidents": [
+            "6月2日首板涨停",
+            "Q1营收11.49亿+79.46%净利+152%"
+          ],
+          "insights": [
+            "电子元器件分销"
+          ],
+          "key_metrics": [
+            "AI算力+新能源车需求旺盛"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "电子元器件分销"
+          ],
+          "industry_position": [
+            "电子元器件分销"
+          ],
+          "chain": [
+            "概念-元件/MLCC/PCB"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-06-08",
+      "core_business": [
+        "电子元器件分销"
+      ],
+      "industry_position": [
+        "电子元器件分销"
+      ],
+      "chain": [
+        "概念-元件/MLCC/PCB"
+      ],
+      "board": "SZ"
     }
   },
   "stock_count": 3212,
