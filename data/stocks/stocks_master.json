@@ -822,8 +822,8 @@
       ]
     },
     "000837": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-08",
       "partners": [],
       "name": "秦川机床",
       "industry_position": [
@@ -863,6 +863,23 @@
             "齿轮加工机床",
             "精密磨床"
           ]
+        },
+        {
+          "title": "丝杠行业深度：特斯拉Optimus丝杠供应链全梳理",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/MHIzK5yGcAaNm33FL0GmPQ",
+          "accidents": [
+            "国内唯一自产螺纹磨床的企业",
+            "P0/C3高精度丝杠已量产，供货华为人形"
+          ],
+          "insights": [
+            "设备折旧成本低，具有成本优势"
+          ],
+          "key_metrics": [
+            "2026年产能20万套",
+            "2025年已出货8.5万套"
+          ],
+          "target_valuation": []
         }
       ],
       "board": "SZ",
@@ -21117,41 +21134,51 @@
       "name": "实益达"
     },
     "002138": {
-      "mention_count": 5,
-      "last_updated": "2026-06-04",
-      "partners": [],
+      "mention_count": 6,
+      "last_updated": "2026-06-08",
+      "partners": [
+        "亚马逊",
+        "谷歌",
+        "英伟达(N)",
+        "苹果"
+      ],
       "concepts": [
-        "5G",
+        "智能穿戴",
+        "融资融券",
         "6G概念",
-        "AI眼镜",
-        "PCB概念",
-        "传感器",
-        "储能",
         "光伏概念",
-        "共封装光学(CPO)",
-        "创投",
         "华为概念",
+        "消费电子概念",
+        "电感",
+        "共封装光学(CPO)",
+        "无线充电",
+        "燃料电池",
+        "新能源汽车",
+        "数据中心(AIDC)",
         "回购增持再贷款概念",
         "固态电池",
-        "小米概念",
-        "数据中心(AIDC)",
-        "新能源汽车",
+        "储能",
         "无人机",
-        "无线充电",
-        "智能穿戴",
-        "机器人概念",
+        "TLVR电感",
         "汽车电子",
-        "消费电子概念",
-        "深股通",
-        "燃料电池",
         "物联网",
         "移动支付",
+        "传感器",
+        "5G",
+        "AI眼镜",
+        "深股通",
         "芯片概念",
-        "融资融券",
+        "机器人概念",
+        "AI算力",
         "MLCC",
-        "电感"
+        "PCB概念",
+        "钽电容",
+        "创投",
+        "小米概念"
       ],
       "industry_position": [
+        "全球电感行业前三",
+        "国内民用钽电容进展最快",
         "国内电感龙头"
       ],
       "articles": [
@@ -21230,20 +21257,75 @@
             "顺络电子正处于从传统被动元件向AI算力核心供应商转型的关键期。虽然2026年一季度利润端短期承压，但其在AI电感和高端钽电容领域的布局已进入收获期。随着原材料价"
           ],
           "target_valuation": []
+        },
+        {
+          "title": "顺络电子，翻倍空间？",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/63qAcdPPP2PxVa0XOBsz7Q",
+          "accidents": [
+            "7月中全系列产品再次涨价35%、高端产品涨价70%+",
+            "TLVR电感交货期延长到32-40周，排产已延伸至2028年",
+            "海外AI大厂N客户部分订单陆续向国内企业转移",
+            "公司上半年已通过N客户的验证并收到订单锁定产能",
+            "公司产品于26年Q2进入苹果，已锁定二供资格"
+          ],
+          "insights": [
+            "TLVR电感市场份额有望从15%提升至30%以上",
+            "日韩同行因原材料供应问题，Q3将出现15%的产能缺口",
+            "钽电容业务迎来重大突破，进入苹果供应链",
+            "海外存储大厂海力士订单年内落地，铠侠、闪迪已完成审厂",
+            "基础业务叠加AI两大增量对应估值900亿"
+          ],
+          "key_metrics": [
+            "TLVR电感交货期32-40周",
+            "市场份额从15%提升至30%+",
+            "钽电容现有10亿支产能，今年再扩产3亿只",
+            "苹果二供对应约8-10亿稳定收入",
+            "现货价格涨15%-30%"
+          ],
+          "target_valuation": [
+            "900亿（基础业务+TLVR电感+AI钽电容两大增量）"
+          ],
+          "expected_price": [],
+          "expected_performance": [],
+          "market_valuation": [],
+          "core_business": [
+            "电感元件研发与制造",
+            "钽电容研发与制造"
+          ],
+          "industry_position": [
+            "全球电感行业前三",
+            "国内民用钽电容进展最快"
+          ],
+          "chain": [
+            "中游-被动元件制造"
+          ],
+          "partners": [
+            "苹果",
+            "英伟达(N)",
+            "谷歌",
+            "亚马逊"
+          ]
         }
       ],
       "board": "SZ",
       "industry": "电子-元件-被动元件",
       "products": [
-        "电感",
-        "MLCC"
+        "片式电感",
+        "MLCC",
+        "钽电容",
+        "TLVR电感",
+        "电感"
       ],
       "chain": [
-        "中游-电子元件"
+        "中游-电子元件",
+        "中游-被动元件制造"
       ],
       "name": "顺络电子",
       "code": "002138",
       "core_business": [
+        "钽电容研发与制造",
+        "电感元件研发与制造",
         "电感研发与生产"
       ]
     },
@@ -31507,8 +31589,8 @@
       "name": "中超控股"
     },
     "002472": {
-      "mention_count": 3,
-      "last_updated": "2026-05-31",
+      "mention_count": 4,
+      "last_updated": "2026-06-08",
       "concepts": [
         "减速器",
         "创投",
@@ -31553,6 +31635,20 @@
           ],
           "title": "“人形机器人概念”深度解析与操作策略，底部盘中参考，7月19日",
           "source": "https://mp.weixin.qq.com/s/bNPVnKdPR-sr8qjIvZ9B-g"
+        },
+        {
+          "title": "丝杠行业深度：特斯拉Optimus丝杠供应链全梳理",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/MHIzK5yGcAaNm33FL0GmPQ",
+          "accidents": [
+            "国内RV减速器龙头",
+            "特斯拉重载关节RV减速器核心供应商"
+          ],
+          "insights": [
+            "布局行星滚柱丝杠等精密传动部件"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "industry": "汽车-汽车零部件-底盘与发动机系统",
@@ -44740,8 +44836,8 @@
       "name": "尤洛卡"
     },
     "300100": {
-      "mention_count": 2,
-      "last_updated": "2026-06-04",
+      "mention_count": 3,
+      "last_updated": "2026-06-08",
       "concepts": [
         "融资融券",
         "PEEK材料",
@@ -44787,6 +44883,22 @@
             "PEEK+机器人执行器"
           ],
           "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "丝杠行业深度：特斯拉Optimus丝杠供应链全梳理",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/MHIzK5yGcAaNm33FL0GmPQ",
+          "accidents": [
+            "国内首款反向式行星滚柱丝杠研发成功",
+            "已向宇树科技、拓普集团交付样件"
+          ],
+          "insights": [
+            "反向式行星滚柱丝杠先锋"
+          ],
+          "key_metrics": [
+            "2026年建成10万套/年反向丝杠产线"
+          ],
           "target_valuation": []
         }
       ],
@@ -55906,8 +56018,8 @@
       "name": "数字认证"
     },
     "300580": {
-      "mention_count": 2,
-      "last_updated": "2026-06-04",
+      "mention_count": 3,
+      "last_updated": "2026-06-08",
       "concepts": [
         "PCB概念",
         "人形机器人",
@@ -55950,6 +56062,18 @@
           "insights": [
             "机器人丝杠环节受益"
           ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "丝杠行业深度：特斯拉Optimus丝杠供应链全梳理",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/MHIzK5yGcAaNm33FL0GmPQ",
+          "accidents": [
+            "行星滚柱丝杠配合客户持续送样",
+            "子公司已送样特斯拉Optimus灵巧手丝杠"
+          ],
+          "insights": [],
           "key_metrics": [],
           "target_valuation": []
         }
@@ -60679,8 +60803,8 @@
       "description": "获中邮证券买入评级，离型膜需求高增，微电子业务营收同比+54%，PET薄膜业务同比+56%，拟斥资5.1亿元扩产高端功能性膜材"
     },
     "300809": {
-      "mention_count": 1,
-      "last_updated": "2026-05-10",
+      "mention_count": 2,
+      "last_updated": "2026-06-08",
       "concepts": [
         "一带一路",
         "新型工业化",
@@ -60705,6 +60829,20 @@
           "accidents": [
             "轴联动技术突破"
           ]
+        },
+        {
+          "title": "丝杠行业深度：特斯拉Optimus丝杠供应链全梳理",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/MHIzK5yGcAaNm33FL0GmPQ",
+          "accidents": [
+            "国产螺纹磨床龙头",
+            "高精度数控螺纹磨床已供应五洲新春等"
+          ],
+          "insights": [
+            "打破海外垄断，为国产替代提供核心设备"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "industry": "机械设备-通用设备-机床工具",
@@ -62939,8 +63077,8 @@
       "name": "奥雅股份"
     },
     "300953": {
-      "mention_count": 2,
-      "last_updated": "2026-06-04",
+      "mention_count": 3,
+      "last_updated": "2026-06-08",
       "concepts": [
         "2025年报预增",
         "2026一季报预增",
@@ -62979,6 +63117,20 @@
           "date": "",
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "title": "丝杠行业深度：特斯拉Optimus丝杠供应链全梳理",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/MHIzK5yGcAaNm33FL0GmPQ",
+          "accidents": [
+            "行星滚柱丝杠小批量供货",
+            "线性执行器和灵巧手微型丝杠研发成功并送样"
+          ],
+          "insights": [],
+          "key_metrics": [
+            "日均100套（已建立2条产线）"
+          ],
+          "target_valuation": []
         }
       ],
       "industry": "电力设备-电池-锂电池",
@@ -86220,8 +86372,8 @@
       "name": "中国神华"
     },
     "601100": {
-      "mention_count": 5,
-      "last_updated": "2026-06-04",
+      "mention_count": 6,
+      "last_updated": "2026-06-08",
       "partners": [
         "特斯拉"
       ],
@@ -86316,6 +86468,24 @@
             "机器人丝杠环节受益"
           ],
           "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "丝杠行业深度：特斯拉Optimus丝杠供应链全梳理",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/MHIzK5yGcAaNm33FL0GmPQ",
+          "accidents": [
+            "子公司送样特斯拉、三花智控、宇树科技",
+            "覆盖正向/反向全品类"
+          ],
+          "insights": [
+            "液压跨界精密制造龙头，热处理工艺全球领先"
+          ],
+          "key_metrics": [
+            "2026年产能：行星滚柱10.4万套，滚珠106万套",
+            "2026年机器人丝杠营收预计2-3亿元",
+            "2027年有望突破10亿元"
+          ],
           "target_valuation": []
         }
       ],
@@ -89286,8 +89456,8 @@
       "name": "华泰证券"
     },
     "601689": {
-      "mention_count": 9,
-      "last_updated": "2026-06-04",
+      "mention_count": 10,
+      "last_updated": "2026-06-08",
       "concepts": [
         "一体化压铸",
         "中国AI 50",
@@ -89468,6 +89638,24 @@
             "从PE估值来看，海光信息PE为276倍，寒武纪PE为183倍，反映出市场对AI芯片企业的高成长预期。中际旭创PE为43倍，估值相对合理，作为业绩确定性较高的光模块龙头，具备较好的安",
             "国内AI服务器龙头，市场份额约30%。公司2026年Q1营收354.70亿元，同比下降24.30%，但净利润6.05亿元，同比增长30.74%，反映出产品结构优化和盈利能力提升。核"
           ]
+        },
+        {
+          "title": "丝杠行业深度：特斯拉Optimus丝杠供应链全梳理",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/MHIzK5yGcAaNm33FL0GmPQ",
+          "accidents": [
+            "特斯拉Optimus线性执行器总成核心供应商",
+            "自研丝杠配套自有执行器一体化打包"
+          ],
+          "insights": [
+            "特斯拉一级执行器总成供应商，精度C3级，良品率80%+"
+          ],
+          "key_metrics": [
+            "精度C3级",
+            "良品率80%以上",
+            "宁波基地规划产能30万套/年"
+          ],
+          "target_valuation": []
         }
       ],
       "industry": "汽车-汽车零部件-底盘与发动机系统",
@@ -91827,8 +92015,8 @@
       "concept": "CIS封测;TGV;TSV;先进封装"
     },
     "603009": {
-      "mention_count": 3,
-      "last_updated": "2026-06-04",
+      "mention_count": 4,
+      "last_updated": "2026-06-08",
       "concepts": [
         "2025年报预增",
         "人形机器人",
@@ -91892,6 +92080,20 @@
             "机器人丝杠环节受益"
           ],
           "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "丝杠行业深度：特斯拉Optimus丝杠供应链全梳理",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/MHIzK5yGcAaNm33FL0GmPQ",
+          "accidents": [
+            "已获特斯拉Optimus供应商代码",
+            "小批量试生产中"
+          ],
+          "insights": [],
+          "key_metrics": [
+            "投资18.5亿元建设行星滚柱丝杠研发生产基地"
+          ],
           "target_valuation": []
         }
       ],
@@ -93626,8 +93828,8 @@
       ]
     },
     "603119": {
-      "mention_count": 3,
-      "last_updated": "2026-06-04",
+      "mention_count": 4,
+      "last_updated": "2026-06-08",
       "concepts": [
         "一带一路",
         "专精特新",
@@ -93700,6 +93902,19 @@
           "accidents": [],
           "insights": [
             "机器人丝杠环节受益"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "丝杠行业深度：特斯拉Optimus丝杠供应链全梳理",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/MHIzK5yGcAaNm33FL0GmPQ",
+          "accidents": [
+            "收购狄兹精密51%股权，切入人形机器人零部件"
+          ],
+          "insights": [
+            "有望获得人形机器人规模化正式订单"
           ],
           "key_metrics": [],
           "target_valuation": []
@@ -99278,8 +99493,8 @@
       "name": "亿嘉和"
     },
     "603667": {
-      "mention_count": 3,
-      "last_updated": "2026-06-05",
+      "mention_count": 4,
+      "last_updated": "2026-06-08",
       "concepts": [
         "减速器",
         "沪股通",
@@ -99348,6 +99563,26 @@
           "target_valuation": [
             "考虑到其在人形机器人领域的国产替代地位，市场倾向于给予其高于传统轴承行业的估值溢价。"
           ]
+        },
+        {
+          "title": "丝杠行业深度：特斯拉Optimus丝杠供应链全梳理",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/MHIzK5yGcAaNm33FL0GmPQ",
+          "accidents": [
+            "特斯拉Optimus Gen3审厂核心供应商",
+            "接到新产能指引：2026年中周产1000台起步",
+            "间接供货特斯拉份额约40%"
+          ],
+          "insights": [
+            "国产行星滚柱丝杠龙头，特斯拉供应链核心卡位"
+          ],
+          "key_metrics": [
+            "周产能500台",
+            "月供货3000+根",
+            "精度±0.01mm",
+            "单套价值量近1万元"
+          ],
+          "target_valuation": []
         }
       ],
       "industry": "机械设备-通用设备-金属制品",
@@ -151397,20 +151632,93 @@
       "name": "中巨芯",
       "concept": "",
       "mention_count": 1,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "articles": [
+        {
+          "title": "中巨芯，翻倍空间？",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/zGuJIe2fJuufJNqMYvpjaw",
+          "accidents": [
+            "日本六氟化钨即将库存耗尽或于下月断供",
+            "六氟化钨主流参考价达180万元/吨（去年仅30-40万元/吨）",
+            "出口价达220万元/吨",
+            "全球存储大厂进入新一轮扩产周期"
+          ],
+          "insights": [
+            "日本或将出清2900吨WF6产能（全球产能约1万吨），供给出清有望催化价格继续上涨",
+            "3D NAND层数不断叠加导致单位芯片对WF6消耗量显著提升",
+            "公司拥有600吨WF6产能，当前接近满产并已确定扩产至2000吨",
+            "存储大厂长存、长鑫、海力士扩产带动WF6需求激增",
+            "预计今年收入40%以上增速并摘U"
+          ],
+          "key_metrics": [
+            "WF6产能600吨，扩产至2000吨",
+            "WF6价格从30-40万/吨涨至180万/吨",
+            "客户：长存、SMIC、海力士",
+            "半导体营收预计占8成以上"
+          ],
+          "target_valuation": [
+            "485亿，当前位置胜率赔率俱佳"
+          ],
+          "expected_price": [],
+          "expected_performance": [
+            "2026年收入40%以上增速并摘U"
+          ],
+          "market_valuation": [],
+          "core_business": [
+            "电子湿化学品研发与生产",
+            "电子特种气体生产"
+          ],
+          "industry_position": [
+            "国内第二大六氟化钨产能供应商"
+          ],
+          "chain": [
+            "中游-半导体材料制造"
+          ],
+          "partners": [
+            "长存",
+            "中芯国际(SMIC)",
+            "海力士",
+            "铠侠"
+          ]
+        }
+      ],
+      "last_updated": "2026-06-08",
       "concepts": [
-        "中芯国际概念",
-        "先进封装",
+        "融资融券",
         "国家大基金持股",
-        "存储芯片",
-        "氟化工概念",
         "沪股通",
+        "半导体材料",
+        "六氟化钨",
         "芯片概念",
-        "融资融券"
+        "中芯国际概念",
+        "氟化工",
+        "氟化工概念",
+        "先进封装",
+        "存储芯片"
       ],
       "industry": "电子-电子化学品-电子化学品Ⅲ",
-      "board": ""
+      "board": "",
+      "products": [
+        "六氟化钨(WF6)",
+        "电子特种气体",
+        "电子湿化学品"
+      ],
+      "core_business": [
+        "电子特种气体生产",
+        "电子湿化学品研发与生产"
+      ],
+      "industry_position": [
+        "国内第二大六氟化钨产能供应商"
+      ],
+      "chain": [
+        "中游-半导体材料制造"
+      ],
+      "partners": [
+        "长存",
+        "铠侠",
+        "海力士",
+        "中芯国际(SMIC)"
+      ]
     },
     "688551": {
       "code": "688551",
@@ -153643,7 +153951,7 @@
     "688813": {
       "name": "泰金新能",
       "concept": "铜箔设备;HVLP;光模块陶瓷封装;电解装备",
-      "mention_count": 1,
+      "mention_count": 2,
       "articles": [
         {
           "source": "https://mp.weixin.qq.com/s/enjIbYfMmf45GuESpZLY0Q",
@@ -153679,40 +153987,100 @@
             "光模块-陶瓷封装"
           ],
           "partners": []
+        },
+        {
+          "title": "泰金新能，翻倍空间？",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/AvLis4FyYJX91lKteLt4jw",
+          "accidents": [
+            "光模块陶瓷封装近期已涨价15%",
+            "子公司赛尔电子突破北美光模块大客户",
+            "HVLP铜箔极度紧缺，持续涨价"
+          ],
+          "insights": [
+            "光模块陶瓷封装领域为京瓷+中瓷双寡头垄断，导入新供应商迫在眉睫",
+            "赛尔电子从事玻璃、陶瓷封装等30年，承担多次国家级科研项目",
+            "铜箔表面处理设备全国唯一，性能对标日本三船",
+            "未来赛尔有望直接对标中瓷电子，市值空间弹性大"
+          ],
+          "key_metrics": [
+            "光模块陶瓷封装单只价值量200-300元，净利率有望达40%",
+            "HVLP+载体年扩产5万吨+，单万吨7亿",
+            "RTF年扩产6万吨，单万吨4亿",
+            "锂电&HTE合计年扩产30万吨，单万吨3亿+"
+          ],
+          "target_valuation": [
+            "550亿（光模块封装200亿+铜箔设备350亿），较目前翻倍空间"
+          ],
+          "expected_price": [],
+          "expected_performance": [],
+          "market_valuation": [],
+          "core_business": [
+            "高端电解成套装备研发制造",
+            "金属玻璃封接制品",
+            "钛电极"
+          ],
+          "industry_position": [
+            "国内铜箔表面处理设备唯一",
+            "光模块陶瓷封装双寡头格局下新进入者"
+          ],
+          "chain": [
+            "中游-专用设备制造"
+          ],
+          "partners": [
+            "京瓷",
+            "中瓷电子"
+          ]
         }
       ],
       "concepts": [
-        "PCB概念",
-        "PET铜箔",
-        "共封装光学(CPO)",
-        "军工",
-        "华为概念",
-        "国企改革",
-        "新股与次新股",
-        "核电",
-        "比亚迪概念",
-        "氢能源",
-        "注册制次新股",
-        "科创次新股",
         "融资融券",
+        "军工",
+        "核电",
+        "注册制次新股",
+        "PET铜箔",
+        "比亚迪概念",
+        "华为概念",
+        "共封装光学(CPO)",
+        "科创次新股",
+        "国企改革",
+        "光模块陶瓷封装",
         "西部大开发",
+        "氢能源",
+        "新股与次新股",
+        "PCB概念",
+        "铜箔设备",
         "锂电池概念"
       ],
-      "last_updated": "2026-05-31",
+      "last_updated": "2026-06-08",
       "code": "688813",
       "core_business": [
+        "高端电解成套装备研发制造",
         "电解成套装备",
-        "钛电极",
         "金属玻璃封接制品",
+        "钛电极",
         "HVLP铜箔设备"
       ],
       "industry_position": [
+        "国内铜箔表面处理设备唯一",
         "电解装备领域核心标的",
-        "HVLP表面处理设备全国唯一"
+        "HVLP表面处理设备全国唯一",
+        "光模块陶瓷封装双寡头格局下新进入者"
       ],
       "chain": [
-        "铜箔设备-HVLP",
-        "光模块-陶瓷封装"
+        "中游-专用设备制造",
+        "光模块-陶瓷封装",
+        "铜箔设备-HVLP"
+      ],
+      "products": [
+        "铜箔设备",
+        "钛电极",
+        "HVLP铜箔",
+        "光模块陶瓷封装"
+      ],
+      "partners": [
+        "中瓷电子",
+        "京瓷"
       ]
     },
     "300540": {
@@ -158338,9 +158706,53 @@
         }
       ],
       "last_updated": "2026-05-31"
+    },
+    "000708": {
+      "name": "中信特钢",
+      "code": "000708",
+      "board": "SZ",
+      "industry": "钢铁-钢铁-特钢",
+      "concepts": [
+        "特钢",
+        "军工",
+        "风电",
+        "汽车"
+      ],
+      "products": [
+        "合金结构钢"
+      ],
+      "core_business": [
+        "特钢研发生产"
+      ],
+      "industry_position": [
+        "国内特钢龙头"
+      ],
+      "chain": [
+        "上游-钢铁材料"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "丝杠行业深度：特斯拉Optimus丝杠供应链全梳理",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/MHIzK5yGcAaNm33FL0GmPQ",
+          "accidents": [
+            "丝杠专用高纯度合金结构钢核心供应商",
+            "供应国内所有头部丝杠厂商"
+          ],
+          "insights": [
+            "上游材料核心供应商，受益行业整体扩产"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-08"
     }
   },
   "stock_count": 3212,
   "total": 3266,
-  "last_updated": "2026-06-05T17:38:31.556239"
+  "last_updated": "2026-06-08",
+  "total_stocks": 3322
 }
