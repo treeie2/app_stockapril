@@ -342,8 +342,8 @@
       "processed_at": "2026-05-21T19:08:06.096198+08:00"
     },
     "688048": {
-      "mention_count": 2,
-      "last_updated": "2026-06-04",
+      "mention_count": 3,
+      "last_updated": "2026-06-08",
       "partners": [
         "中际旭创",
         "新易盛"
@@ -395,6 +395,20 @@
             "长光华芯：国内高功率半导体激光芯片龙头（IDM模式）。其976nm工业泵浦芯片国内市占率突破40%，且980nm通信泵浦芯片可共用产线。随着苏州二期12英寸产线"
           ],
           "target_valuation": []
+        },
+        {
+          "title": "磷化铟产业链深度分析：铟资源-衬底-光芯片-光模块全梳理",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/Y7c7tfTFQx2kawlaB5YXYQ",
+          "accidents": [
+            "华为哈勃战略投资，导入10G EML/APD产品",
+            "建立GaAs/InP/GaN三大材料体系"
+          ],
+          "insights": [
+            "A股半导体激光芯片第一股，稀缺性极强"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "board": "SH",
@@ -429,8 +443,8 @@
       ]
     },
     "688313": {
-      "mention_count": 5,
-      "last_updated": "2026-05-31",
+      "mention_count": 6,
+      "last_updated": "2026-06-08",
       "partners": [
         "华为",
         "中兴",
@@ -525,6 +539,19 @@
             "*   核心优势：通过收购索尔思光电，成为目前国内EML领域的“领头羊”。它是国内唯一实现200G EML大规模量产的企业，且良率高达85%-90%，直接进入了"
           ],
           "target_valuation": []
+        },
+        {
+          "title": "磷化铟产业链深度分析：铟资源-衬底-光芯片-光模块全梳理",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/Y7c7tfTFQx2kawlaB5YXYQ",
+          "accidents": [
+            "覆盖AWG、EML、CW激光器等多个核心环节"
+          ],
+          "insights": [
+            "IDM模式快速响应，全链条产能保障成核心竞争力"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "board": "SH",
@@ -554,8 +581,8 @@
       ]
     },
     "688498": {
-      "mention_count": 4,
-      "last_updated": "2026-05-31",
+      "mention_count": 5,
+      "last_updated": "2026-06-08",
       "partners": [
         "英伟达",
         "全球头部光模块厂商"
@@ -621,6 +648,19 @@
             "仕佳光子(688313)   逐步放量主打中低端   研发/小批量主要优势在AWG芯片，EML相对滞后   光芯片及光引擎月产能 10万只 (2026年Q3扩至",
             "*   核心优势：通过收购索尔思光电，成为目前国内EML领域的“领头羊”。它是国内唯一实现200G EML大规模量产的企业，且良率高达85%-90%，直接进入了"
           ],
+          "target_valuation": []
+        },
+        {
+          "title": "磷化铟产业链深度分析：铟资源-衬底-光芯片-光模块全梳理",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/Y7c7tfTFQx2kawlaB5YXYQ",
+          "accidents": [
+            "国内唯一量产25G/100G磷化铟EML光芯片"
+          ],
+          "insights": [
+            "IDM模式全链条能力成核心竞争优势"
+          ],
+          "key_metrics": [],
           "target_valuation": []
         }
       ],
@@ -1243,8 +1283,8 @@
       ]
     },
     "002865": {
-      "mention_count": 4,
-      "last_updated": "2026-05-31",
+      "mention_count": 5,
+      "last_updated": "2026-06-08",
       "partners": [
         "中科宇航"
       ],
@@ -1311,6 +1351,23 @@
             "光伏电池研发生产",
             "商业航天卫星"
           ]
+        },
+        {
+          "title": "太空太阳能主题：SpaceX AI卫星设计引爆万亿市场",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/ooy0mY5QNXEgZJC_IT4owA",
+          "accidents": [
+            "中国太阳能设备出口限制可能解除，作为SpaceX潜在供应商受益"
+          ],
+          "insights": [
+            "瑞银看好空基太阳能成为解决AI电力约束的结构性方案",
+            "汇丰认为出口禁令解除是关键催化剂"
+          ],
+          "key_metrics": [
+            "2035年太空太阳能年装机量预计达176GW",
+            "太空太阳能年TAM 1320亿美元"
+          ],
+          "target_valuation": []
         }
       ],
       "board": "SZ",
@@ -1547,8 +1604,8 @@
       ]
     },
     "300124": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-08",
       "partners": [],
       "name": "汇川技术",
       "industry_position": [
@@ -1584,6 +1641,21 @@
             "PLC",
             "工业自动化"
           ]
+        },
+        {
+          "title": "每日调研纪要汇总：戈碧迦/火炬电子/斯瑞新材/机器人T链等",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/rwMpB6wlV3sh-gjPin66ug",
+          "accidents": [
+            "工厂自动化（FA）复苏，2026年+13% y/y"
+          ],
+          "insights": [
+            "建议回调时买入"
+          ],
+          "key_metrics": [
+            "Q1 FA销售+7% y/y"
+          ],
+          "target_valuation": []
         }
       ],
       "board": "SZ",
@@ -1696,8 +1768,8 @@
       ]
     },
     "300308": {
-      "mention_count": 12,
-      "last_updated": "2026-06-04",
+      "mention_count": 13,
+      "last_updated": "2026-06-08",
       "partners": [
         "中芯、长江存储等），订单",
         "谷歌TPU V8发布后的订单"
@@ -2004,6 +2076,22 @@
             "从PE估值来看，海光信息PE为276倍，寒武纪PE为183倍，反映出市场对AI芯片企业的高成长预期。中际旭创PE为43倍，估值相对合理，作为业绩确定性较高的光模块龙头，具备较好的安",
             "国内AI服务器龙头，市场份额约30%。公司2026年Q1营收354.70亿元，同比下降24.30%，但净利润6.05亿元，同比增长30.74%，反映出产品结构优化和盈利能力提升。核"
           ]
+        },
+        {
+          "title": "磷化铟产业链深度分析：铟资源-衬底-光芯片-光模块全梳理",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/Y7c7tfTFQx2kawlaB5YXYQ",
+          "accidents": [
+            "全球光模块市占率第一（约25%）",
+            "800G/1.6T主力出货，深度绑定英伟达"
+          ],
+          "insights": [
+            "磷化铟产业链下游绝对核心"
+          ],
+          "key_metrics": [
+            "全球光模块市占率约25%"
+          ],
+          "target_valuation": []
         }
       ],
       "board": "SZ",
@@ -2212,8 +2300,8 @@
       ]
     },
     "300408": {
-      "mention_count": 8,
-      "last_updated": "2026-06-05",
+      "mention_count": 9,
+      "last_updated": "2026-06-08",
       "partners": [
         "华为、浪潮等核心客户",
         "英伟达Rubin架构交付进度：Q3是否如期启动全球交付，首批客户",
@@ -2416,6 +2504,24 @@
             "：英伟达Rubin平台预计2027年量产，供应链通常提前6-12个月启动备货，2026年H2有望看到高端MLCC订单进一步放量。",
             "短线交易建议：当前股价处于主升浪中段，5日均线为短期生命线。鉴于估值已较高，建议等待回调至48-50元区间（20日均线附近）再考虑介入，目标价65-70元，止损位设于42元（有效跌"
           ]
+        },
+        {
+          "title": "MLCC涨价专家会：三环涨价函+AI高容结构性短缺",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/VTW7qFrxfDu0dTtkumHoaw",
+          "accidents": [
+            "发布晶振基座涨价函（1612/2016涨10%+，2520/3225/5032涨20%+，6035及以上涨30%+）",
+            "MLCC高端产品涨价预期",
+            "取消特价折扣"
+          ],
+          "insights": [
+            "AI高容MLCC结构性短缺，三环已能生产AI相关0805-226规格并供应国内客户"
+          ],
+          "key_metrics": [
+            "计划扩产150-200亿颗，目标是全球第三，总产能600-750亿颗",
+            "产品已供应中科曙光、浪潮"
+          ],
+          "target_valuation": []
         }
       ],
       "board": "SZ",
@@ -2445,8 +2551,8 @@
       ]
     },
     "300433": {
-      "mention_count": 2,
-      "last_updated": "2026-06-04",
+      "mention_count": 3,
+      "last_updated": "2026-06-08",
       "partners": [
         "特斯拉",
         "英伟达",
@@ -2509,6 +2615,23 @@
           ],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "title": "每日调研纪要汇总：戈碧迦/火炬电子/斯瑞新材/机器人T链等",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/rwMpB6wlV3sh-gjPin66ug",
+          "accidents": [
+            "TGV全制程突破，大客户MOU落地在即",
+            "牵头起草TGV国家标准"
+          ],
+          "insights": [
+            "从消费电子组装向半导体先进封装核心标的重构"
+          ],
+          "key_metrics": [
+            "单片价值数万元，远期降本目标1000美元",
+            "3万平米厂房年底投用"
+          ],
+          "target_valuation": []
         }
       ],
       "board": "SZ",
@@ -2568,8 +2691,8 @@
       ]
     },
     "300502": {
-      "mention_count": 3,
-      "last_updated": "2026-05-31",
+      "mention_count": 4,
+      "last_updated": "2026-06-08",
       "partners": [
         "华为、中兴等大客户"
       ],
@@ -2651,6 +2774,22 @@
           "target_valuation": [
             "隔夜美股科技大涨，全球第三+国内第一，这只半导体材料股被严重低估，机构目标价111.2元！_20260515"
           ]
+        },
+        {
+          "title": "磷化铟产业链深度分析：铟资源-衬底-光芯片-光模块全梳理",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/Y7c7tfTFQx2kawlaB5YXYQ",
+          "accidents": [
+            "全球光模块市占率第二（约15%）",
+            "1.6T光模块放量明确"
+          ],
+          "insights": [
+            "磷化铟产业链第二极"
+          ],
+          "key_metrics": [
+            "全球光模块市占率约15%"
+          ],
+          "target_valuation": []
         }
       ],
       "board": "SZ",
@@ -7487,8 +7626,8 @@
       "name": "TCL科技"
     },
     "000157": {
-      "mention_count": 3,
-      "last_updated": "2026-05-31",
+      "mention_count": 4,
+      "last_updated": "2026-06-08",
       "partners": [],
       "concepts": [
         "一带一路",
@@ -7548,6 +7687,17 @@
             "工程机械板块"
           ],
           "accidents": []
+        },
+        {
+          "title": "每日调研纪要汇总：戈碧迦/火炬电子/斯瑞新材/机器人T链等",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/rwMpB6wlV3sh-gjPin66ug",
+          "accidents": [
+            "工程机械需求强现实"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "board": "SZ",
@@ -7828,7 +7978,7 @@
         "动力系统",
         "SOFC燃料电池"
       ],
-      "last_updated": "2026-06-05",
+      "last_updated": "2026-06-08",
       "industry_position": [
         "国产AI电力龙头",
         "全球动力龙头"
@@ -7862,7 +8012,7 @@
         "高股息精选"
       ],
       "code": "000338",
-      "mention_count": 4,
+      "mention_count": 5,
       "partners": [],
       "articles": [
         {
@@ -7939,6 +8089,30 @@
           ],
           "target_valuation": [
             "估值分析：太阳纸业PE最低（12.87倍），估值最具吸引力；恒立液压PE最高（54.00倍），市场给予高成长溢价；山鹰国际PE为负，公司处于亏损状态。"
+          ]
+        },
+        {
+          "title": "潍柴动力：高盛目标48元，AIDC电源重塑估值",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/zecL473S88DZVVwyWC3PtA",
+          "accidents": [
+            "Generac与超大规模数据中心运营商签署全球供应协议，潜在规模2027年超6亿美元",
+            "验证潍柴博杜安品牌大马力柴油发动机在全球数据中心竞争力"
+          ],
+          "insights": [
+            "高盛认为市场低估潍柴的表后主电源潜力（燃气发电机组和SOFC）",
+            "投资叙事从重卡切换至AI数据中心电源",
+            "AIDC电源2030年净利润占比预计升至43%"
+          ],
+          "key_metrics": [
+            "2026E EPS 1.72元",
+            "AIDC电源净利润占比当前12%，2030E升至43%",
+            "FCF yield 12.7%",
+            "股息率4.7%"
+          ],
+          "target_valuation": [
+            "A股目标价48元（+49%上行空间）",
+            "H股目标价56港元（+42.8%上行空间）"
           ]
         }
       ],
@@ -8448,8 +8622,8 @@
       "name": "东阿阿胶"
     },
     "000425": {
-      "mention_count": 5,
-      "last_updated": "2026-05-31",
+      "mention_count": 6,
+      "last_updated": "2026-06-08",
       "partners": [],
       "concepts": [
         "一带一路",
@@ -8522,6 +8696,17 @@
           "key_metrics": [
             "挖机涨价3%-5%"
           ],
+          "target_valuation": []
+        },
+        {
+          "title": "每日调研纪要汇总：戈碧迦/火炬电子/斯瑞新材/机器人T链等",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/rwMpB6wlV3sh-gjPin66ug",
+          "accidents": [
+            "工程机械需求强现实"
+          ],
+          "insights": [],
+          "key_metrics": [],
           "target_valuation": []
         }
       ],
@@ -8817,8 +9002,8 @@
       "name": "岭南控股"
     },
     "000528": {
-      "mention_count": 3,
-      "last_updated": "2026-05-31",
+      "mention_count": 4,
+      "last_updated": "2026-06-08",
       "partners": [],
       "concepts": [
         "DeepSeek概念",
@@ -8879,6 +9064,17 @@
           "key_metrics": [
             "挖机涨价5%"
           ],
+          "target_valuation": []
+        },
+        {
+          "title": "每日调研纪要汇总：戈碧迦/火炬电子/斯瑞新材/机器人T链等",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/rwMpB6wlV3sh-gjPin66ug",
+          "accidents": [
+            "工程机械需求强现实"
+          ],
+          "insights": [],
+          "key_metrics": [],
           "target_valuation": []
         }
       ],
@@ -10473,8 +10669,8 @@
       "name": "三木集团"
     },
     "000636": {
-      "mention_count": 10,
-      "last_updated": "2026-06-05",
+      "mention_count": 11,
+      "last_updated": "2026-06-08",
       "partners": [
         "华为、浪潮等核心客户",
         "英伟达Rubin架构交付进度：Q3是否如期启动全球交付，首批客户",
@@ -10743,6 +10939,23 @@
             "：英伟达Rubin平台预计2027年量产，供应链通常提前6-12个月启动备货，2026年H2有望看到高端MLCC订单进一步放量。",
             "短线交易建议：当前股价处于主升浪中段，5日均线为短期生命线。鉴于估值已较高，建议等待回调至48-50元区间（20日均线附近）再考虑介入，目标价65-70元，止损位设于42元（有效跌"
           ]
+        },
+        {
+          "title": "MLCC涨价专家会：三环涨价函+AI高容结构性短缺",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/VTW7qFrxfDu0dTtkumHoaw",
+          "accidents": [
+            "0603-104 50V现货价从5元涨至20元（春节后至5月底）",
+            "取消大客户5%价格优惠",
+            "扩产100亿颗"
+          ],
+          "insights": [
+            "能生产AI相关0805-226规格并供应国内客户"
+          ],
+          "key_metrics": [
+            "主力产品0603-104 50V现货价从5元涨至20元"
+          ],
+          "target_valuation": []
         }
       ],
       "board": "SZ",
@@ -14312,8 +14525,8 @@
       "name": "广济药业"
     },
     "000960": {
-      "mention_count": 4,
-      "last_updated": "2026-06-05",
+      "mention_count": 5,
+      "last_updated": "2026-06-08",
       "partners": [
         "国内头部半导体材料厂商"
       ],
@@ -14402,6 +14615,22 @@
           ],
           "key_metrics": [
             "*   2024年：国内市场占有率为 47.98%，全球市场占有率为 25.03%。"
+          ],
+          "target_valuation": []
+        },
+        {
+          "title": "磷化铟产业链深度分析：铟资源-衬底-光芯片-光模块全梳理",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/Y7c7tfTFQx2kawlaB5YXYQ",
+          "accidents": [
+            "全球铟资源储量第一（4821吨），铟价年初至今涨76%"
+          ],
+          "insights": [
+            "直接受益于铟价上涨"
+          ],
+          "key_metrics": [
+            "铟资源储量4821吨，全球原生铟市占率约30%",
+            "精铟价格约4950元/千克（涨76%）"
           ],
           "target_valuation": []
         }
@@ -15123,8 +15352,8 @@
       "name": "越秀资本"
     },
     "000988": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-08",
       "partners": [
         "英伟达、谷歌等全球头部客户",
         "英伟达产业链，订单",
@@ -15230,6 +15459,20 @@
           "target_valuation": [
             "隔夜美股科技大涨，全球第三+国内第一，这只半导体材料股被严重低估，机构目标价111.2元！_20260515"
           ]
+        },
+        {
+          "title": "磷化铟产业链深度分析：铟资源-衬底-光芯片-光模块全梳理",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/Y7c7tfTFQx2kawlaB5YXYQ",
+          "accidents": [
+            "1.6T光模块通过谷歌认证",
+            "CPO技术与磷化铟材料协同创新"
+          ],
+          "insights": [
+            "CPO前瞻技术布局先发优势"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "board": "SZ",
@@ -16792,7 +17035,7 @@
       "core_business": [
         "包括AI算力规划与设计等,为客户提供端到端的智算中心全流程服"
       ],
-      "last_updated": "2026-05-31",
+      "last_updated": "2026-06-08",
       "industry_position": [],
       "valuation": {},
       "industry": "计算机-计算机设备-其他计算机设备",
@@ -16831,9 +17074,23 @@
         "鸿蒙概念"
       ],
       "code": "001339",
-      "mention_count": 0,
+      "mention_count": 1,
       "partners": [],
-      "articles": [],
+      "articles": [
+        {
+          "title": "英伟达Cosmos 3开放架构：物理AI受益标的梳理",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/Kgy4aaRFdCGVDZiamzRL5g",
+          "accidents": [
+            "边缘侧实时推理需求激增"
+          ],
+          "insights": [
+            "高算力控制硬件销量显著放大"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
       "board": "SZ",
       "products": [
         "端到端的智算中心全流程服务"
@@ -18400,7 +18657,7 @@
         "热管理",
         "机器人执行器"
       ],
-      "last_updated": "2026-06-05",
+      "last_updated": "2026-06-08",
       "industry_position": [
         "隐形冠军",
         "全球热管理龙头",
@@ -18435,7 +18692,7 @@
         "机器人"
       ],
       "code": "002050",
-      "mention_count": 3,
+      "mention_count": 4,
       "partners": [
         "特斯拉"
       ],
@@ -18479,6 +18736,17 @@
             "6月有望突破周100台+",
             "9月预计达周产1k+"
           ],
+          "target_valuation": []
+        },
+        {
+          "title": "人形机器人T链核心供应商调研纪要",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/Zb1YXPjbWuuYQrC5xxGdrw",
+          "accidents": [
+            "电机环节已有部分型号敲定"
+          ],
+          "insights": [],
+          "key_metrics": [],
           "target_valuation": []
         }
       ],
@@ -23085,7 +23353,7 @@
       "core_business": [
         "智能语音及人工智能技术的研究、产品研发与产业化"
       ],
-      "last_updated": "2026-06-05",
+      "last_updated": "2026-06-08",
       "industry_position": [
         "全球领先",
         "龙头",
@@ -23145,7 +23413,7 @@
         "雄安新区"
       ],
       "code": "002230",
-      "mention_count": 5,
+      "mention_count": 6,
       "partners": [
         "百度"
       ],
@@ -23194,6 +23462,19 @@
             "重点关注成交量能配合的领涨个股",
             "操作上建议采取\"核心+卫星\"策略"
           ]
+        },
+        {
+          "title": "英伟达Cosmos 3开放架构：物理AI受益标的梳理",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/Kgy4aaRFdCGVDZiamzRL5g",
+          "accidents": [
+            "人形机器人对个性化交互需求增长"
+          ],
+          "insights": [
+            "机器人超脑平台采购量大规模释放"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "board": "SZ",
@@ -24774,8 +25055,8 @@
       "name": "神开股份"
     },
     "002281": {
-      "mention_count": 2,
-      "last_updated": "2026-06-05",
+      "mention_count": 3,
+      "last_updated": "2026-06-08",
       "partners": [],
       "concepts": [
         "5G",
@@ -24839,6 +25120,22 @@
             "长光华芯(688048)   稳定量产IDM模式自研   送样验证/小批量2026年可小批量出货   长期规划大：新平台规划年产能 1亿颗 (含多波段，非全为E",
             "仕佳光子(688313)   逐步放量主打中低端   研发/小批量主要优势在AWG芯片，EML相对滞后   光芯片及光引擎月产能 10万只 (2026年Q3扩至",
             "*   核心优势：通过收购索尔思光电，成为目前国内EML领域的“领头羊”。它是国内唯一实现200G EML大规模量产的企业，且良率高达85%-90%，直接进入了"
+          ],
+          "target_valuation": []
+        },
+        {
+          "title": "磷化铟产业链深度分析：铟资源-衬底-光芯片-光模块全梳理",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/Y7c7tfTFQx2kawlaB5YXYQ",
+          "accidents": [
+            "国内最大光器件IDM厂商",
+            "国内InP光芯片市占率约35%"
+          ],
+          "insights": [
+            "IDM模式+全链条能力+华为供应链是核心护城河"
+          ],
+          "key_metrics": [
+            "国内InP光芯片市占率约35%"
           ],
           "target_valuation": []
         }
@@ -26794,8 +27091,8 @@
       "name": "杰瑞股份"
     },
     "002354": {
-      "mention_count": 1,
-      "last_updated": "2026-06-05",
+      "mention_count": 2,
+      "last_updated": "2026-06-08",
       "concepts": [
         "AIGC概念",
         "AI应用",
@@ -26850,6 +27147,19 @@
           ],
           "title": "热点关注，今日操作策略与风险提示，底部竞价参考，7月17日",
           "source": "https://mp.weixin.qq.com/s/HbcSc94rA8Zc33_7oMB5bQ"
+        },
+        {
+          "title": "英伟达Cosmos 3开放架构：物理AI受益标的梳理",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/Kgy4aaRFdCGVDZiamzRL5g",
+          "accidents": [
+            "大模型训练使数据要素资产被重新认识"
+          ],
+          "insights": [
+            "三维具身智能数据集价值凸显"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "industry": "传媒-文化传媒-广告营销",
@@ -28986,8 +29296,8 @@
       "name": "尤夫股份"
     },
     "002428": {
-      "mention_count": 4,
-      "last_updated": "2026-06-05",
+      "mention_count": 5,
+      "last_updated": "2026-06-08",
       "partners": [
         "华为",
         "华为海思",
@@ -29070,6 +29380,26 @@
             "目前全球90%以上的磷化铟产能被日本住友、美国AXT等极少数寡头垄断。由于地缘政治和出口管制（如美国AXT在华产能受限），海外供应链频频“断供”。云南锗业作为国",
             "当产能达到45万片级别时，规模效应将快速拉平单位生产成本。此外，云南锗业在6英寸大尺寸磷化铟制备技术上良率已稳定在70%-75%，部分批次突破80%，不仅达到国",
             "* 产能利用率与量产不确定性：年报数据显示，公司2025年磷化铟晶片实际产量为10.01万片，尚未填满现有的15万片产能。在产能利用率未饱和的情况下启动三倍扩产"
+          ],
+          "target_valuation": []
+        },
+        {
+          "title": "磷化铟产业链深度分析：铟资源-衬底-光芯片-光模块全梳理",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/Y7c7tfTFQx2kawlaB5YXYQ",
+          "accidents": [
+            "A股唯一规模化量产6英寸磷化铟衬底",
+            "华为哈勃参股子公司（云南鑫耀），国内市占率60%-80%",
+            "产能大幅扩张：2026年底40万片，2027年100万片"
+          ],
+          "insights": [
+            "A股唯一6英寸磷化铟衬底量产企业，稀缺性极强",
+            "产能翻倍扩张，量价齐升逻辑清晰"
+          ],
+          "key_metrics": [
+            "当前6英寸衬底年产能15万片",
+            "2026年底目标40万片，2027年目标100万片",
+            "良率75%-80%"
           ],
           "target_valuation": []
         }
@@ -33585,8 +33915,8 @@
       "name": "亚玛顿"
     },
     "002625": {
-      "mention_count": 0,
-      "last_updated": "2026-05-10",
+      "mention_count": 2,
+      "last_updated": "2026-06-08",
       "concepts": [
         "AI应用",
         "军工",
@@ -33618,6 +33948,19 @@
           "accidents": [
             "短期事件驱动"
           ]
+        },
+        {
+          "title": "英伟达Cosmos 3开放架构：物理AI受益标的梳理",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/Kgy4aaRFdCGVDZiamzRL5g",
+          "accidents": [
+            "物理AI为超材料生产提供效率工具"
+          ],
+          "insights": [
+            "全球超材料量产交付领先地位继续保持"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "industry": "国防军工-军工装备-航空装备",
@@ -37007,8 +37350,8 @@
       ]
     },
     "002859": {
-      "mention_count": 8,
-      "last_updated": "2026-06-04",
+      "mention_count": 9,
+      "last_updated": "2026-06-08",
       "concepts": [
         "PET铜箔",
         "一带一路",
@@ -37204,6 +37547,22 @@
             "公司高端电子元器件产业化一期项目位于大连市金普新区，于2022年7月竣工投产，一期投资超过3.3亿元，设计年产能为30亿只射频微波瓷介电容器。据公司2026年5月7日投资者关系活动",
             "AI服务器用量激增至2万至3万颗",
             "，是传统服务器的30倍。AI服务器在全球MLCC应用结构中的占比，从2023年的不足5%快速攀升至2026年的预计15%以上。"
+          ],
+          "target_valuation": []
+        },
+        {
+          "title": "MLCC涨价专家会：三环涨价函+AI高容结构性短缺",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/VTW7qFrxfDu0dTtkumHoaw",
+          "accidents": [
+            "离型膜上月涨50%",
+            "已进入高端离型膜市场，开始给三星供货"
+          ],
+          "insights": [
+            "MLCC上游离型膜涨价受益"
+          ],
+          "key_metrics": [
+            "离型膜价格涨50%"
           ],
           "target_valuation": []
         }
@@ -39111,8 +39470,8 @@
       "name": "祥鑫科技"
     },
     "002975": {
-      "mention_count": 2,
-      "last_updated": "2026-06-04",
+      "mention_count": 3,
+      "last_updated": "2026-06-08",
       "partners": [
         "英伟达"
       ],
@@ -39192,6 +39551,20 @@
           "key_metrics": [
             "2026Q1营收4.68亿元，同比增长127.21%"
           ],
+          "target_valuation": []
+        },
+        {
+          "title": "磷化铟产业链深度分析：铟资源-衬底-光芯片-光模块全梳理",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/Y7c7tfTFQx2kawlaB5YXYQ",
+          "accidents": [
+            "子公司鼎泰芯源（持股24.68%）布局磷化铟衬底",
+            "捆绑英伟达、谷歌、苹果"
+          ],
+          "insights": [
+            "AI算力测试设备+液冷模组双轮驱动"
+          ],
+          "key_metrics": [],
           "target_valuation": []
         }
       ],
@@ -41203,8 +41576,8 @@
       "name": "机器人"
     },
     "300031": {
-      "mention_count": 0,
-      "last_updated": "2026-05-10",
+      "mention_count": 2,
+      "last_updated": "2026-06-08",
       "concepts": [
         "AI应用",
         "创投",
@@ -41243,6 +41616,19 @@
           ],
           "title": "“网络游戏概念”深度解析与操作策略，7月9日",
           "source": "https://mp.weixin.qq.com/s/mw7Or5MObKhLkrs9kHANLw"
+        },
+        {
+          "title": "六大券商集中推荐：东土科技/石英股份/菲沃泰/家联科技/奥比中光",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/dLPSfkZUFeFdKRgy6eUD4g",
+          "accidents": [
+            "与宇树合作开发四足机器人，切入矿山、港口等高危巡检场景"
+          ],
+          "insights": [
+            "具备机器人+数据中台商业化闭环能力"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "industry": "传媒-游戏-游戏Ⅲ",
@@ -45202,8 +45588,8 @@
       ]
     },
     "300179": {
-      "mention_count": 2,
-      "last_updated": "2026-06-05",
+      "mention_count": 3,
+      "last_updated": "2026-06-08",
       "concepts": [
         "培育钻石",
         "海工装备",
@@ -45240,6 +45626,28 @@
           "key_metrics": [
             "。极低的负债率和充裕的“弹药”足以为沙雅4.5亿元的CVD金刚石项目以及后续的产能扩张提供坚实保障。",
             "40.2%的收入增速"
+          ],
+          "target_valuation": []
+        },
+        {
+          "title": "四方达：金刚石散热片量产突破，英伟达GPU量产受益",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/cWQM-YENsc-MIJFgLdhahw",
+          "accidents": [
+            "金刚石散热片已通过客户测试进入小批量供货",
+            "具备英寸级金刚石衬底及薄膜生产能力",
+            "沙雅年产2.5万片CVD金刚石散热基地建设推进",
+            "自研CVD金刚石散热片热导率≥2000 W/(m·K)"
+          ],
+          "insights": [
+            "聚焦超硬材料领域，加快金刚石在高端领域产业化突破",
+            "MPCVD合成及加工设备自主研发保持技术壁垒"
+          ],
+          "key_metrics": [
+            "2025年营收5.67亿元（+7.98%）",
+            "研发投入占比10.13%",
+            "热导率≥2000 W/(m·K)",
+            "沙雅项目投资约4.5亿元"
           ],
           "target_valuation": []
         }
@@ -47795,8 +48203,8 @@
       ]
     },
     "300285": {
-      "mention_count": 5,
-      "last_updated": "2026-06-05",
+      "mention_count": 6,
+      "last_updated": "2026-06-08",
       "concepts": [
         "3D打印",
         "5G",
@@ -47905,6 +48313,17 @@
             "🚀 核心观点：已切入英伟达供应链，业绩弹性巨大",
             "📊 硅微粉涨价逻辑与国瓷的机遇"
           ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "MLCC涨价专家会：三环涨价函+AI高容结构性短缺",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/VTW7qFrxfDu0dTtkumHoaw",
+          "accidents": [
+            "MLCC上游材料受益标的"
+          ],
+          "insights": [],
           "key_metrics": [],
           "target_valuation": []
         }
@@ -48191,8 +48610,8 @@
       "name": "海峡创新"
     },
     "300302": {
-      "mention_count": 1,
-      "last_updated": "2026-06-05",
+      "mention_count": 2,
+      "last_updated": "2026-06-08",
       "concepts": [
         "专精特新",
         "东数西算(算力)",
@@ -48237,10 +48656,32 @@
           ],
           "processed_by": "tbox",
           "processed_at": "2026-05-20T11:46:50.489875+08:00"
+        },
+        {
+          "title": "同有科技：存储超级周期，业绩全面兑现",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/DstoyF8UH6RMM_pAlGPkNQ",
+          "accidents": [
+            "AI算力驱动存储超级周期（量价齐升）",
+            "参股忆恒创源进入利润收割期",
+            "泽石科技主控芯片突破"
+          ],
+          "insights": [
+            "2026年是全面兑现期，业绩大反转，迎来戴维斯双击"
+          ],
+          "key_metrics": [
+            "2026Q1营收1.22亿元（+156.12%）",
+            "归母净利润8718万元（扭亏）",
+            "毛利率48.02%",
+            "在手订单（含税）超2.5亿元"
+          ],
+          "target_valuation": [
+            "2026年机构一致预期归母净利润4.15亿元（+889%）"
+          ]
         }
       ],
       "industry": "计算机-计算机设备-其他计算机设备",
-      "board": "",
+      "board": "SZ",
       "code": "300302",
       "name": "同有科技",
       "processed_by": "tbox",
@@ -48517,8 +48958,8 @@
       ]
     },
     "300319": {
-      "mention_count": 0,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-08",
       "concepts": [
         "5G",
         "AI眼镜",
@@ -48557,6 +48998,17 @@
           "accidents": [
             "作为国内被动元器件龙头企业，积极推动电感、滤波器等产品的国产化替代，减少对国际巨头的依赖，受益于国产替代政策红利。"
           ]
+        },
+        {
+          "title": "MLCC涨价专家会：三环涨价函+AI高容结构性短缺",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/VTW7qFrxfDu0dTtkumHoaw",
+          "accidents": [
+            "计划扩产超过100亿颗"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "industry": "电子-元件-被动元件",
@@ -49526,8 +49978,8 @@
       "name": "北信源"
     },
     "300353": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-08",
       "concepts": [
         "2025年报预增",
         "5G",
@@ -49584,6 +50036,23 @@
           "insights": [
             "云边协同产业链相关公司：工业边缘控制服务器，对应“云边协同工业大脑”方案。"
           ]
+        },
+        {
+          "title": "六大券商集中推荐：东土科技/石英股份/菲沃泰/家联科技/奥比中光",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/dLPSfkZUFeFdKRgy6eUD4g",
+          "accidents": [
+            "黄仁勋提及机器人+AI制造",
+            "公司拥有工业操作系统和AI控制底层能力"
+          ],
+          "insights": [
+            "中航证券认为专注工业互联网平台技术，生态合作与自主可控进程加速",
+            "具备工业互联网核心卡位能力"
+          ],
+          "key_metrics": [
+            "主要产品包括工控芯片、工业服务器、边缘服务器"
+          ],
+          "target_valuation": []
         }
       ],
       "industry": "通信-通信设备-其他通信设备",
@@ -57699,8 +58168,8 @@
       ]
     },
     "300751": {
-      "mention_count": 5,
-      "last_updated": "2026-06-04",
+      "mention_count": 6,
+      "last_updated": "2026-06-08",
       "partners": [],
       "concepts": [
         "HJT电池",
@@ -57778,6 +58247,22 @@
             "卫星地面储能电站光伏产线设备供应商"
           ],
           "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "太空太阳能主题：SpaceX AI卫星设计引爆万亿市场",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/ooy0mY5QNXEgZJC_IT4owA",
+          "accidents": [
+            "SpaceX可能采购其设备（报道提及Tesla曾洽谈购买迈为设备）"
+          ],
+          "insights": [
+            "瑞银列入太空太阳能主题受益标的",
+            "汇丰认为出口禁令解除是催化剂"
+          ],
+          "key_metrics": [
+            "SpaceX在得州启动10GW太阳能工厂"
+          ],
           "target_valuation": []
         }
       ],
@@ -63323,8 +63808,8 @@
       "name": "逸豪新材"
     },
     "301193": {
-      "mention_count": 0,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-08",
       "concepts": [
         "3D打印",
         "一带一路",
@@ -63348,6 +63833,25 @@
             "这一增长主要源自三方面合力：随着国内“双碳”战略对绿色包装的强制性政策推动、茶饮及快餐行业的强势复苏带动餐饮具需求激增，以及公司深化与国内头部餐饮、茶饮等企业的合作带来的订单放量。",
             "特别是随着国内环保政策趋严，可降解塑料制品对传统塑料的替代进程加速，为公司创造了广阔的市场扩容空间。",
             "该布局不仅使公司能够更加灵活地应对宏观环境波动、产业政策调整以及国际贸易格局变化可能带来的潜在不利影响，还有效提升了公司的行业竞争力、海外市场占有率以及整体抗风险能力。"
+          ]
+        },
+        {
+          "title": "六大券商集中推荐：东土科技/石英股份/菲沃泰/家联科技/奥比中光",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/dLPSfkZUFeFdKRgy6eUD4g",
+          "accidents": [
+            "发布限制性股票激励计划，彰显业绩信心",
+            "布局3D打印耗材第二增长曲线"
+          ],
+          "insights": [
+            "国泰海通认为股权激励彰显发展信心，产能扩张业务多点开花"
+          ],
+          "key_metrics": [
+            "激励计划考核：2026-2028年收入较2025年增长30%/50%/70%",
+            "或净利润达2/3/4亿元"
+          ],
+          "target_valuation": [
+            "目标价30.43元（对应2026年40倍PE）"
           ]
         }
       ],
@@ -65551,8 +66055,8 @@
       "name": "敷尔佳"
     },
     "301373": {
-      "mention_count": 4,
-      "last_updated": "2026-06-01",
+      "mention_count": 5,
+      "last_updated": "2026-06-08",
       "partners": [
         "斗山",
         "台光",
@@ -65630,9 +66134,31 @@
           ],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "title": "凌玮科技：3倍空间？化学法硅微粉龙头",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/LX4wyLrw7EOsGwiLRkaMAg",
+          "accidents": [
+            "M8-M9-正交背板需要全部上化学法硅微粉",
+            "M9 vs M8化学法硅微粉价格+200%"
+          ],
+          "insights": [
+            "东北计算机认为能看到3倍空间",
+            "对标赢创、格雷斯国际巨头，目标成为国内化学法硅微粉龙头"
+          ],
+          "key_metrics": [
+            "M8化学法硅微粉价格20-40万/吨",
+            "M9接近100万/吨",
+            "半导体材料化学法硅微粉价格300万/吨起步",
+            "3000t产线结构上会从10亿-100亿进阶"
+          ],
+          "target_valuation": [
+            "坚定看500亿"
+          ]
         }
       ],
-      "board": "",
+      "board": "SZ",
       "industry": "基础化工-化学制品-其他化学制品",
       "products": [],
       "chain": [
@@ -66848,8 +67374,8 @@
       "processed_at": "2026-05-25T01:30:27.046039+08:00"
     },
     "301529": {
-      "mention_count": 3,
-      "last_updated": "2026-06-04",
+      "mention_count": 4,
+      "last_updated": "2026-06-08",
       "concepts": [
         "5G",
         "中俄贸易概念",
@@ -66894,6 +67420,20 @@
           "key_metrics": [
             "在手料号10个+"
           ],
+          "target_valuation": []
+        },
+        {
+          "title": "人形机器人T链核心供应商调研纪要",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/Zb1YXPjbWuuYQrC5xxGdrw",
+          "accidents": [
+            "切入丝杠小零件供应，SKU持续扩张（合计新增8-10个料号）",
+            "高管赴北美送样沟通产能规划"
+          ],
+          "insights": [
+            "PCB件环节确定性最高、进展超预期"
+          ],
+          "key_metrics": [],
           "target_valuation": []
         }
       ],
@@ -69211,8 +69751,8 @@
       "name": "中信证券"
     },
     "600031": {
-      "mention_count": 6,
-      "last_updated": "2026-05-28",
+      "mention_count": 7,
+      "last_updated": "2026-06-08",
       "partners": [
         "7. **金融与高股息防御**"
       ],
@@ -69301,6 +69841,21 @@
             "挖机涨价5%",
             "4月内销同比+35%",
             "4月出口同比+23%"
+          ],
+          "target_valuation": []
+        },
+        {
+          "title": "每日调研纪要汇总：戈碧迦/火炬电子/斯瑞新材/机器人T链等",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/rwMpB6wlV3sh-gjPin66ug",
+          "accidents": [
+            "工程机械出口数据月月加速"
+          ],
+          "insights": [
+            "低位低估值，赔钱难度大"
+          ],
+          "key_metrics": [
+            "对应明年PE约10倍"
           ],
           "target_valuation": []
         }
@@ -71866,8 +72421,8 @@
       "name": "复星医药"
     },
     "600206": {
-      "mention_count": 1,
-      "last_updated": "2026-06-05",
+      "mention_count": 2,
+      "last_updated": "2026-06-08",
       "partners": [],
       "concepts": [
         "2025年报预增",
@@ -71915,6 +72470,20 @@
             "2026年一季度的60%营收增长验证了下游半导体和新材料需求的强劲复苏。",
             "Q1经营性现金流为负（-12.2亿），主要系原材料储备和订单增加带来的采购开支，需关注后续季度回款情况。"
           ],
+          "target_valuation": []
+        },
+        {
+          "title": "磷化铟产业链深度分析：铟资源-衬底-光芯片-光模块全梳理",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/Y7c7tfTFQx2kawlaB5YXYQ",
+          "accidents": [
+            "央企半导体材料平台，具备2-6英寸磷化铟衬底布局",
+            "7N高纯铟提纯技术"
+          ],
+          "insights": [
+            "央企背景+全产业链协同是最大护城河"
+          ],
+          "key_metrics": [],
           "target_valuation": []
         }
       ],
@@ -73203,8 +73772,8 @@
       "name": "西藏天路"
     },
     "600330": {
-      "mention_count": 4,
-      "last_updated": "2026-06-05",
+      "mention_count": 5,
+      "last_updated": "2026-06-08",
       "partners": [],
       "concepts": [
         "5G",
@@ -73294,6 +73863,23 @@
             "技术优势：6英寸晶圆良率超过92%，8英寸良率稳定在70%以上，成本较海外低25%-30%。12英寸技术也已取得突破。",
             "市场进展：与中际旭创等行业龙头签订长期供货协议，年产能达130-140万片，订单已排至2026年第四季度。",
             "盈利能力：作为上游核心材料商，毛利率常年维持在50%以上，盈利稳定性强。"
+          ],
+          "target_valuation": []
+        },
+        {
+          "title": "磷化铟产业链深度分析：铟资源-衬底-光芯片-光模块全梳理",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/Y7c7tfTFQx2kawlaB5YXYQ",
+          "accidents": [
+            "国内少数同时布局磷化铟晶体和薄膜铌酸锂（TFLN）晶圆",
+            "2026年磷化铟晶体产能翻倍",
+            "国内唯一8英寸TFLN晶圆量产企业"
+          ],
+          "insights": [
+            "磷化铟+TFLN双赛道布局"
+          ],
+          "key_metrics": [
+            "TFLN晶圆良率92%，成本比日本低20%-25%"
           ],
           "target_valuation": []
         }
@@ -75738,8 +76324,8 @@
       "name": "中金黄金"
     },
     "600497": {
-      "mention_count": 4,
-      "last_updated": "2026-05-10",
+      "mention_count": 3,
+      "last_updated": "2026-06-08",
       "concepts": [
         "沪股通",
         "军工",
@@ -75786,6 +76372,19 @@
           ],
           "title": "驰宏锌锗(600497) - 产业链核心标的分析",
           "source": "原材料: raw_material_2026-04-12_3.md"
+        },
+        {
+          "title": "磷化铟产业链深度分析：铟资源-衬底-光芯片-光模块全梳理",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/Y7c7tfTFQx2kawlaB5YXYQ",
+          "accidents": [
+            "国内少数同时具备锗和铟双资源的企业"
+          ],
+          "insights": [
+            "在磷化铟产业链上游具备独特战略卡位"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "industry": "有色金属-工业金属-铅锌",
@@ -79123,8 +79722,8 @@
       "name": "舍得酒业"
     },
     "600703": {
-      "mention_count": 4,
-      "last_updated": "2026-06-05",
+      "mention_count": 5,
+      "last_updated": "2026-06-08",
       "partners": [
         "华为",
         "中际旭创"
@@ -79232,6 +79831,23 @@
             "国内SiC市场规模同比增长40%",
             "SiC衬底/功率器件产能同比增长50%+"
           ]
+        },
+        {
+          "title": "磷化铟产业链深度分析：铟资源-衬底-光芯片-光模块全梳理",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/Y7c7tfTFQx2kawlaB5YXYQ",
+          "accidents": [
+            "6英寸磷化铟外延产线已建成",
+            "通过华为海思认证，适配1.6T光模块"
+          ],
+          "insights": [
+            "磷化铟产业链中体量最大的标的"
+          ],
+          "key_metrics": [
+            "磷化铟外延片良率从30%提升至65%",
+            "成本较进口低20%"
+          ],
+          "target_valuation": []
         }
       ],
       "board": "SH",
@@ -82437,8 +83053,8 @@
       "name": "东方证券"
     },
     "600961": {
-      "mention_count": 2,
-      "last_updated": "2026-06-05",
+      "mention_count": 3,
+      "last_updated": "2026-06-08",
       "partners": [
         "国内多家化合物半导体厂商"
       ],
@@ -82523,6 +83139,22 @@
             "🎯 投资评级：★★★★★ 强烈推荐 | 目标价：上方空间打开 | 止损位：5日均线",
             "CPO/光模块：止损位设5日均线（约-5%），止盈目标+15-20%"
           ]
+        },
+        {
+          "title": "磷化铟产业链深度分析：铟资源-衬底-光芯片-光模块全梳理",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/Y7c7tfTFQx2kawlaB5YXYQ",
+          "accidents": [
+            "国内铟产能第二，铟产品产能约60吨/年",
+            "稳定量产6-7N高纯铟"
+          ],
+          "insights": [
+            "铟作为伴生金属回收，是磷化铟衬底原料核心供应商"
+          ],
+          "key_metrics": [
+            "铟产品产能约60吨/年"
+          ],
+          "target_valuation": []
         }
       ],
       "board": "SH",
@@ -83775,8 +84407,8 @@
       "name": "中国神华"
     },
     "601100": {
-      "mention_count": 5,
-      "last_updated": "2026-06-04",
+      "mention_count": 6,
+      "last_updated": "2026-06-08",
       "partners": [
         "特斯拉"
       ],
@@ -83871,6 +84503,21 @@
             "机器人丝杠环节受益"
           ],
           "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "人形机器人T链核心供应商调研纪要",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/Zb1YXPjbWuuYQrC5xxGdrw",
+          "accidents": [
+            "滚柱丝杠份额>70%，同时供应电机转子，单机ASP约15000元"
+          ],
+          "insights": [
+            "在滚柱丝杠赛道占据绝对主导地位"
+          ],
+          "key_metrics": [
+            "份额>70%，ASP 15000元"
+          ],
           "target_valuation": []
         }
       ],
@@ -86737,8 +87384,8 @@
       "name": "华泰证券"
     },
     "601689": {
-      "mention_count": 9,
-      "last_updated": "2026-06-04",
+      "mention_count": 10,
+      "last_updated": "2026-06-08",
       "concepts": [
         "一体化压铸",
         "中国AI 50",
@@ -86919,6 +87566,19 @@
             "从PE估值来看，海光信息PE为276倍，寒武纪PE为183倍，反映出市场对AI芯片企业的高成长预期。中际旭创PE为43倍，估值相对合理，作为业绩确定性较高的光模块龙头，具备较好的安",
             "国内AI服务器龙头，市场份额约30%。公司2026年Q1营收354.70亿元，同比下降24.30%，但净利润6.05亿元，同比增长30.74%，反映出产品结构优化和盈利能力提升。核"
           ]
+        },
+        {
+          "title": "人形机器人T链核心供应商调研纪要",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/Zb1YXPjbWuuYQrC5xxGdrw",
+          "accidents": [
+            "电机环节已有部分型号敲定，进入分型号定标阶段"
+          ],
+          "insights": [
+            "推进已进入较深度阶段"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "industry": "汽车-汽车零部件-底盘与发动机系统",
@@ -89127,8 +89787,8 @@
       "name": "宏昌电子"
     },
     "603005": {
-      "mention_count": 2,
-      "last_updated": "2026-06-05",
+      "mention_count": 3,
+      "last_updated": "2026-06-08",
       "partners": [],
       "concepts": [
         "人民币贬值受益",
@@ -89207,6 +89867,25 @@
             "毛利率稳居40%附近，远超传统封测同行；伴随产能利用率回升，ROE正步入上升通道。"
           ],
           "target_valuation": []
+        },
+        {
+          "title": "中巨芯+晶方科技+海致科技：六氟化钨涨价+CPO+AI",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/qtGWNf_Vahfcolqs5NevoQ",
+          "accidents": [
+            "3.2T单颗光引擎价值量70-80美金，随通道数量上行空间翻倍",
+            "车规级MLA已量产多年"
+          ],
+          "insights": [
+            "核心卡位CPO的MLA及垂直封装",
+            "向上空间大"
+          ],
+          "key_metrics": [
+            "具备280亿主业安全垫"
+          ],
+          "target_valuation": [
+            "目标市值800亿"
+          ]
         }
       ],
       "board": "SH",
@@ -90958,8 +91637,8 @@
       ]
     },
     "603119": {
-      "mention_count": 3,
-      "last_updated": "2026-06-04",
+      "mention_count": 4,
+      "last_updated": "2026-06-08",
       "concepts": [
         "一带一路",
         "专精特新",
@@ -91034,6 +91713,21 @@
             "机器人丝杠环节受益"
           ],
           "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "人形机器人T链核心供应商调研纪要",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/Zb1YXPjbWuuYQrC5xxGdrw",
+          "accidents": [
+            "滚珠丝杠核心供应商，明确未来两月交付约550台，周产50台首次落地"
+          ],
+          "insights": [
+            "丝杠环节确定性最强，仅两家核心供应商之一"
+          ],
+          "key_metrics": [
+            "交付计划550台"
+          ],
           "target_valuation": []
         }
       ],
@@ -92895,8 +93589,8 @@
       "name": "赛腾股份"
     },
     "603286": {
-      "mention_count": 2,
-      "last_updated": "2026-06-04",
+      "mention_count": 3,
+      "last_updated": "2026-06-08",
       "concepts": [
         "新型工业化",
         "长安汽车概念",
@@ -92934,6 +93628,20 @@
           "accidents": [],
           "insights": [
             "机器人零部件环节受益"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "人形机器人T链核心供应商调研纪要",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/Zb1YXPjbWuuYQrC5xxGdrw",
+          "accidents": [
+            "从手部覆盖件拓展至脖子覆盖件，单机价值量提升",
+            "传感器业务针对V4"
+          ],
+          "insights": [
+            "距离正式开硬模、拿正式订单时间较近"
           ],
           "key_metrics": [],
           "target_valuation": []
@@ -96582,8 +97290,8 @@
       "name": "五洲新春"
     },
     "603678": {
-      "mention_count": 4,
-      "last_updated": "2026-06-04",
+      "mention_count": 5,
+      "last_updated": "2026-06-08",
       "concepts": [
         "2025年报预增",
         "5G",
@@ -96674,6 +97382,25 @@
             "，是传统服务器的30倍。AI服务器在全球MLCC应用结构中的占比，从2023年的不足5%快速攀升至2026年的预计15%以上。"
           ],
           "target_valuation": []
+        },
+        {
+          "title": "每日调研纪要汇总：戈碧迦/火炬电子/斯瑞新材/机器人T链等",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/rwMpB6wlV3sh-gjPin66ug",
+          "accidents": [
+            "MLCC超级周期涨价",
+            "员工持股考核要求2026年利润同比增长100%"
+          ],
+          "insights": [
+            "MLCC涨价最大弹性标的"
+          ],
+          "key_metrics": [
+            "自产MLCC产能拉满产值可达10亿元+",
+            "贸易业务存货23亿元"
+          ],
+          "target_valuation": [
+            "利润翻倍最强业绩指引"
+          ]
         }
       ],
       "industry": "国防军工-军工电子-军工电子Ⅲ",
@@ -96734,8 +97461,8 @@
       "name": "今创集团"
     },
     "603688": {
-      "mention_count": 1,
-      "last_updated": "2026-05-10",
+      "mention_count": 3,
+      "last_updated": "2026-06-08",
       "concepts": [
         "光伏概念",
         "沪股通",
@@ -96767,6 +97494,25 @@
           ],
           "title": "热点关注，今日操作策略与风险提示，8月18日，星期一",
           "source": "https://mp.weixin.qq.com/s/yzPLXcIAmN2GhRG6hVitqw"
+        },
+        {
+          "title": "六大券商集中推荐：东土科技/石英股份/菲沃泰/家联科技/奥比中光",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/dLPSfkZUFeFdKRgy6eUD4g",
+          "accidents": [
+            "AI驱动半导体新阶段，石英材料需求高速增长",
+            "半导体自制砂实现0的突破"
+          ],
+          "insights": [
+            "国金证券首次覆盖，认为公司锚定半导体材料、光纤材料快车道，国产替代卡位稀缺"
+          ],
+          "key_metrics": [
+            "预计26-28年归母净利润3.4/7.0/10.5亿元（+121%/+107%/+50%）",
+            "对应26年PE为106.2倍"
+          ],
+          "target_valuation": [
+            "给予买入评级"
+          ]
         }
       ],
       "industry": "基础化工-非金属材料-非金属材料Ⅲ",
@@ -97027,7 +97773,7 @@
     },
     "603728": {
       "mention_count": 5,
-      "last_updated": "2026-05-31",
+      "last_updated": "2026-06-08",
       "concepts": [
         "5G",
         "专精特新",
@@ -97082,6 +97828,19 @@
           ],
           "title": "“小鹏汽车概念”深度解析与操作策略-文末盘中参考",
           "source": "https://mp.weixin.qq.com/s/Ife9KmDL3hOsZ-Pu8SN2PA"
+        },
+        {
+          "title": "英伟达Cosmos 3开放架构：物理AI受益标的梳理",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/Kgy4aaRFdCGVDZiamzRL5g",
+          "accidents": [
+            "机器人量产加速，关节零部件需求旺盛"
+          ],
+          "insights": [
+            "微型电机出货量爆发"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "industry": "电力设备-电机-电机Ⅲ",
@@ -97105,8 +97864,8 @@
       "name": "鸣志电器"
     },
     "603730": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-08",
       "concepts": [
         "上海自贸区",
         "人民币贬值受益",
@@ -97126,6 +97885,22 @@
             "需求旺盛",
             "客户优质"
           ]
+        },
+        {
+          "title": "人形机器人T链核心供应商调研纪要",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/Zb1YXPjbWuuYQrC5xxGdrw",
+          "accidents": [
+            "新增锻造骨架类产品图纸，建立每两周与北美团队沟通机制",
+            "电子皮肤传感器针对V4方案"
+          ],
+          "insights": [
+            "近期有两项超预期进展"
+          ],
+          "key_metrics": [
+            "单机价值量有望明显提升"
+          ],
+          "target_valuation": []
         }
       ],
       "industry": "汽车-汽车零部件-车身附件及饰件",
@@ -97906,8 +98681,8 @@
       "name": "步长制药"
     },
     "603859": {
-      "mention_count": 0,
-      "last_updated": "2026-05-10",
+      "mention_count": 3,
+      "last_updated": "2026-06-08",
       "concepts": [
         "AI应用",
         "沪股通",
@@ -97955,6 +98730,19 @@
           ],
           "title": "昨日市场复盘及操作策略，底部尾盘参考，8月28日，星期四",
           "source": "https://mp.weixin.qq.com/s/eaL58zcE50SbqtQ9LYSBiQ"
+        },
+        {
+          "title": "英伟达Cosmos 3开放架构：物理AI受益标的梳理",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/Kgy4aaRFdCGVDZiamzRL5g",
+          "accidents": [
+            "物理AI拉动工业软件配置比例"
+          ],
+          "insights": [
+            "工业仿真软件订单放量增长"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "industry": "计算机-IT服务-IT服务Ⅲ",
@@ -101188,8 +101976,8 @@
       "name": "福光股份"
     },
     "688017": {
-      "mention_count": 4,
-      "last_updated": "2026-05-31",
+      "mention_count": 6,
+      "last_updated": "2026-06-08",
       "concepts": [
         "2025年报预增",
         "专精特新",
@@ -101246,6 +102034,19 @@
           "accidents": [
             "\\. 政策驱动型板块"
           ]
+        },
+        {
+          "title": "六大券商集中推荐：东土科技/石英股份/菲沃泰/家联科技/奥比中光",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/dLPSfkZUFeFdKRgy6eUD4g",
+          "accidents": [
+            "人形机器人核心零部件谐波减速器受益"
+          ],
+          "insights": [
+            "MSTech认为随机器人产业推进，行业需求弹性巨大"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "industry": "机械设备-自动化设备-机器人",
@@ -102979,7 +103780,7 @@
     },
     "688102": {
       "mention_count": 3,
-      "last_updated": "2026-05-31",
+      "last_updated": "2026-06-08",
       "concepts": [
         "3D打印",
         "DeepSeek概念",
@@ -103029,6 +103830,22 @@
             "高端铜产业链需求暴增"
           ],
           "key_metrics": []
+        },
+        {
+          "title": "每日调研纪要汇总：戈碧迦/火炬电子/斯瑞新材/机器人T链等",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/rwMpB6wlV3sh-gjPin66ug",
+          "accidents": [
+            "液体火箭铜铬锆喷管唯一量产龙头",
+            "朱雀三号重要供应商"
+          ],
+          "insights": [
+            "火箭板块及光模块26年增速100%以上"
+          ],
+          "key_metrics": [
+            "下游客户包括蓝箭、天兵科技等"
+          ],
+          "target_valuation": []
         }
       ],
       "industry": "有色金属-金属新材料-其他金属新材料",
@@ -104576,8 +105393,8 @@
       "name": "巨一科技"
     },
     "688165": {
-      "mention_count": 2,
-      "last_updated": "2026-05-31",
+      "mention_count": 3,
+      "last_updated": "2026-06-08",
       "concepts": [
         "专精特新",
         "人工智能",
@@ -104618,6 +105435,19 @@
           "accidents": [
             "板块PE（TTM）升至45倍"
           ]
+        },
+        {
+          "title": "六大券商集中推荐：东土科技/石英股份/菲沃泰/家联科技/奥比中光",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/dLPSfkZUFeFdKRgy6eUD4g",
+          "accidents": [
+            "国产工业机器人平台型企业"
+          ],
+          "insights": [
+            "MSTech认为未来有望受益于AI赋能机器人升级"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "industry": "机械设备-自动化设备-机器人",
@@ -107547,8 +108377,8 @@
       "name": "青云科技"
     },
     "688322": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 4,
+      "last_updated": "2026-06-08",
       "partners": [],
       "concepts": [
         "3D打印",
@@ -107616,6 +108446,36 @@
           "accidents": [
             "荣耀机器人启动 A 股 IPO"
           ]
+        },
+        {
+          "title": "六大券商集中推荐：东土科技/石英股份/菲沃泰/家联科技/奥比中光",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/dLPSfkZUFeFdKRgy6eUD4g",
+          "accidents": [
+            "与全球3D打印龙头创想三维达成合作，正式布局消费级3D打印机赛道"
+          ],
+          "insights": [
+            "国金具身智能认为公司是物理AI核心底层铲子标的，新赛道有望再造一个奥比中光"
+          ],
+          "key_metrics": [
+            "若新品达成拓竹20%-30%销售规模，可新增营收20-30亿元，净利润4-6亿元"
+          ],
+          "target_valuation": [
+            "远期2030年目标市值1000亿元"
+          ]
+        },
+        {
+          "title": "英伟达Cosmos 3开放架构：物理AI受益标的梳理",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/Kgy4aaRFdCGVDZiamzRL5g",
+          "accidents": [
+            "英伟达大模型对高精度空间数据需求暴增"
+          ],
+          "insights": [
+            "三维视觉相机采购量爆发式增长"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "board": "SH",
@@ -112255,8 +113115,8 @@
       "name": "华丰科技"
     },
     "688630": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-08",
       "concepts": [
         "2025年报预增",
         "2026一季报预增",
@@ -112297,6 +113157,30 @@
             "2026年一季度新签订单接近9亿元，创公司成立11年来单季度历史新高",
             "首次一季度营收、净利润双双环比四季度正增长，净利润同比翻倍以上",
             "先进封装硅桥产品量产时间提前至2026年Q3初"
+          ]
+        },
+        {
+          "title": "芯碁微装：AI+先进封装双轮驱动，订单爆发",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/sg2i_i0uba5-Hsb6b7770g",
+          "accidents": [
+            "PCB高端设备订单爆发",
+            "先进封装WLP系列设备通过台积电类CoWoS-L验证"
+          ],
+          "insights": [
+            "当前处于订单高增-产能释放-业绩兑现-估值抬升正向循环，明确买入窗口",
+            "短期业绩复合增速有望维持50%+",
+            "长期从PCB设备商升级为泛半导体精密成像平台"
+          ],
+          "key_metrics": [
+            "2026Q1营收5.15亿元（同比+112.48%）",
+            "归母净利润1.08亿元（同比+108.98%）",
+            "合同负债1.18亿元（较2025年末+109.3%）",
+            "综合毛利率约42%",
+            "对应2026年PE约72倍"
+          ],
+          "target_valuation": [
+            "当前PE低于半导体设备行业均值，具备估值修复空间"
           ]
         }
       ],
@@ -115518,8 +116402,8 @@
       "processed_at": "2026-05-23T23:17:45.684796+08:00"
     },
     "300811": {
-      "mention_count": 2,
-      "last_updated": "2026-06-01",
+      "mention_count": 3,
+      "last_updated": "2026-06-08",
       "concepts": [
         "专精特新",
         "东数西算(算力)",
@@ -115608,6 +116492,21 @@
           "target_valuation": [
             "*   估值数据偏高：截至2026年5月底，铂科新材的市盈率（PE-TTM）约在65至81倍之间，处于过去5年中个股约80%的高位分位点，显著高于行业中位数。部"
           ]
+        },
+        {
+          "title": "MLCC涨价专家会：三环涨价函+AI高容结构性短缺",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/VTW7qFrxfDu0dTtkumHoaw",
+          "accidents": [
+            "镍粉供应商，大宗商品涨价15%"
+          ],
+          "insights": [
+            "三星和国内主要MLCC厂商的供应商"
+          ],
+          "key_metrics": [
+            "镍粉价格涨15%"
+          ],
+          "target_valuation": []
         }
       ],
       "processed_by": "tbox",
@@ -115629,8 +116528,8 @@
       ]
     },
     "002850": {
-      "mention_count": 3,
-      "last_updated": "2026-06-04",
+      "mention_count": 4,
+      "last_updated": "2026-06-08",
       "concepts": [
         "PEEK材料",
         "人形机器人",
@@ -115736,6 +116635,19 @@
           ],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "title": "人形机器人T链核心供应商调研纪要",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/Zb1YXPjbWuuYQrC5xxGdrw",
+          "accidents": [
+            "4月底签署PPA，等待回函后定标供应份额"
+          ],
+          "insights": [
+            "谐波环节仅思灵和科达利获得V3量产供应机会"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
       "processed_by": "tbox",
@@ -115757,8 +116669,8 @@
       ]
     },
     "300969": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-08",
       "concepts": [
         "人形机器人",
         "新能源汽车",
@@ -115806,6 +116718,22 @@
           ],
           "processed_by": "tbox",
           "processed_at": "2026-05-24T16:24:53.073775+08:00"
+        },
+        {
+          "title": "人形机器人T链核心供应商调研纪要",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/Zb1YXPjbWuuYQrC5xxGdrw",
+          "accidents": [
+            "唯一拿到手部电机硬模订单，三季度起月交付4万个手部电机",
+            "技术突破谐波磁场新技术"
+          ],
+          "insights": [
+            "发展状态类似去年的荣泰"
+          ],
+          "key_metrics": [
+            "月交付4万个手部电机（对应月产1000+台机器人）"
+          ],
+          "target_valuation": []
         }
       ],
       "processed_by": "tbox",
@@ -124238,9 +125166,21 @@
       "code": "002611",
       "name": "东方精工",
       "concept": "",
-      "mention_count": 3,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "英伟达Cosmos 3开放架构：物理AI受益标的梳理",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/Kgy4aaRFdCGVDZiamzRL5g",
+          "accidents": [
+            "物理大模型广泛应用，具身智能资产价值提升"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-08",
       "concepts": [
         "3D打印",
         "一带一路",
@@ -135038,9 +135978,34 @@
       "code": "301525",
       "name": "儒竞科技",
       "concept": "",
-      "mention_count": 2,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "儒竞科技：机器人+数据中心+热泵三线成长",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/OC8F0F-RSeMxsMZUeQ1UBg",
+          "accidents": [
+            "泰国基地产能爬坡，预计Q4对特斯拉规模供应驱控产品",
+            "数据中心一二次侧变频器及HVDC电源业务预计2026年有新增订单",
+            "欧洲热泵业务高速成长"
+          ],
+          "insights": [
+            "方正家电认为是市值最小的T链机器人标的，具备数倍补涨空间",
+            "列为6月金股"
+          ],
+          "key_metrics": [
+            "驱控单台价值量约1万元",
+            "假设100万台销量40%份额对应40亿收入6亿利润",
+            "热泵变频器百亿级市场，公司市占率25%",
+            "当前市值66亿元（含21亿净现金）"
+          ],
+          "target_valuation": [
+            "方正目标估值基于机器人业务150亿市值",
+            "当前66亿有数倍补涨空间"
+          ]
+        }
+      ],
+      "last_updated": "2026-06-08",
       "concepts": [
         "专精特新",
         "人形机器人",
@@ -135055,7 +136020,7 @@
         "融资融券"
       ],
       "industry": "机械设备-通用设备-制冷空调设备",
-      "board": ""
+      "board": "SZ"
     },
     "301533": {
       "code": "301533",
@@ -147273,7 +148238,7 @@
       "code": "688507",
       "name": "索辰科技",
       "concept": "",
-      "mention_count": 2,
+      "mention_count": 3,
       "articles": [
         {
           "title": "【机构调研】笔记整理",
@@ -147304,9 +148269,22 @@
           ],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "title": "英伟达Cosmos 3开放架构：物理AI受益标的梳理",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/Kgy4aaRFdCGVDZiamzRL5g",
+          "accidents": [
+            "英伟达Cosmos 3开放，物理AI仿真需求提升"
+          ],
+          "insights": [
+            "技术与英伟达物理环境平台对标"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
         }
       ],
-      "last_updated": "2026-06-04",
+      "last_updated": "2026-06-08",
       "concepts": [
         "AI应用",
         "AI智能体",
@@ -147510,8 +148488,32 @@
       "name": "中巨芯",
       "concept": "",
       "mention_count": 1,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "articles": [
+        {
+          "title": "中巨芯+晶方科技+海致科技：六氟化钨涨价+CPO+AI",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/qtGWNf_Vahfcolqs5NevoQ",
+          "accidents": [
+            "日本六氟化钨库存耗尽或于下月断供，供给出清催化价格上涨",
+            "国内六氟化钨价格达180万元/吨（去年仅30-40万元/吨）",
+            "公司600吨WF6产能接近满产，计划扩至2000吨"
+          ],
+          "insights": [
+            "供需缺口下六氟化钨涨价弹性标的",
+            "考虑稀缺卡位，胜率赔率俱佳"
+          ],
+          "key_metrics": [
+            "日本或将出清2900吨WF6产能（全球约1万吨）",
+            "公司拥有600吨WF6产能，计划扩至2000吨",
+            "六氟化钨出口价达220万元/吨",
+            "预计今年收入40%以上增速并摘U"
+          ],
+          "target_valuation": [
+            "市值看485亿"
+          ]
+        }
+      ],
+      "last_updated": "2026-06-08",
       "concepts": [
         "中芯国际概念",
         "先进封装",
@@ -147523,7 +148525,7 @@
         "融资融券"
       ],
       "industry": "电子-电子化学品-电子化学品Ⅲ",
-      "board": ""
+      "board": "SH"
     },
     "688551": {
       "code": "688551",
@@ -148522,9 +149524,23 @@
       "code": "688777",
       "name": "中控技术",
       "concept": "",
-      "mention_count": 9,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "英伟达Cosmos 3开放架构：物理AI受益标的梳理",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/Kgy4aaRFdCGVDZiamzRL5g",
+          "accidents": [
+            "物理大模型推动高危企业加速无人化"
+          ],
+          "insights": [
+            "工业软件与智能机器人销量上升"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-08",
       "concepts": [
         "AIGC概念",
         "AI应用",
@@ -149397,7 +150413,7 @@
       "code": "920438",
       "name": "戈碧迦",
       "concept": "",
-      "mention_count": 1,
+      "mention_count": 2,
       "articles": [
         {
           "title": "国内玻璃基板赛道：三家实力玩家",
@@ -149418,9 +150434,25 @@
             "2026年扩到5万片/月"
           ],
           "target_valuation": []
+        },
+        {
+          "title": "每日调研纪要汇总：戈碧迦/火炬电子/斯瑞新材/机器人T链等",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/rwMpB6wlV3sh-gjPin66ug",
+          "accidents": [
+            "玻璃基板国产替代，SKC海外产能2026H2释放",
+            "已向通富微电AMD批量供货"
+          ],
+          "insights": [
+            "深度受益供应链转移红利"
+          ],
+          "key_metrics": [
+            "累计订单1.26亿元"
+          ],
+          "target_valuation": []
         }
       ],
-      "last_updated": "2026-06-04",
+      "last_updated": "2026-06-08",
       "concepts": [
         "6G概念",
         "专精特新",
@@ -154106,9 +155138,260 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-06-05"
+    },
+    "301528": {
+      "name": "多浦乐",
+      "code": "301528",
+      "board": "SZ",
+      "industry": "机械设备-通用设备-仪器仪表",
+      "concepts": [
+        "新能源汽车",
+        "比亚迪概念",
+        "芯片概念",
+        "成飞概念",
+        "专精特新",
+        "商业航天",
+        "卫星导航",
+        "粤港澳大湾区",
+        "核电",
+        "融资融券"
+      ],
+      "products": [
+        "超声相控阵检测设备"
+      ],
+      "core_business": [
+        "超声无损检测设备研发、生产与销售"
+      ],
+      "industry_position": [
+        "国内超声相控阵检测设备龙头"
+      ],
+      "chain": [
+        "中游-检测设备制造"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "last_updated": "2026-06-08",
+      "articles": [
+        {
+          "title": "多浦乐：MLCC超声检测+PCB X光检测",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/5UknNX-7BwxNti8PVDbRRQ",
+          "accidents": [
+            "高容MLCC量产带来百亿级超声全检潜在市场",
+            "冷阴极X光产品已送样，中期有望再造一个多浦乐"
+          ],
+          "insights": [
+            "看好公司延展性，超声是HBM/PCB等领域无损检测的重要方式",
+            "对标奕瑞、埃科，先看翻倍空间"
+          ],
+          "key_metrics": [
+            "毛利率70%",
+            "净利率30%",
+            "当前市值50亿元"
+          ],
+          "target_valuation": [
+            "翻倍空间，目标市值约100亿元"
+          ]
+        }
+      ]
+    },
+    "688371": {
+      "name": "菲沃泰",
+      "code": "688371",
+      "board": "SH",
+      "industry": "电子-电子化学品-电子化学品Ⅲ",
+      "concepts": [
+        "AI眼镜",
+        "小米概念",
+        "液冷服务器",
+        "华为概念",
+        "医疗器械概念",
+        "共封装光学(CPO)",
+        "一带一路",
+        "脑机接口",
+        "沪股通",
+        "融资融券"
+      ],
+      "products": [
+        "纳米薄膜镀膜设备及服务"
+      ],
+      "core_business": [
+        "全链条自研的纳米薄膜厂商"
+      ],
+      "industry_position": [
+        "国内稀缺全链条自研纳米薄膜厂商"
+      ],
+      "chain": [],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "六大券商集中推荐：东土科技/石英股份/菲沃泰/家联科技/奥比中光",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/dLPSfkZUFeFdKRgy6eUD4g",
+          "accidents": [
+            "新能源、AI液冷服务器批量供货",
+            "机器人灵巧手空心杯电机镀膜已落地头部企业项目"
+          ],
+          "insights": [
+            "中邮证券认为公司是国内稀缺全链条自研的纳米薄膜厂商，第二增长曲线逐步兑现"
+          ],
+          "key_metrics": [
+            "预计26/27/28年归母净利润0.6/1.0/1.5亿元"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-08"
+    },
+    "300334": {
+      "name": "津膜科技",
+      "code": "300334",
+      "board": "SZ",
+      "industry": "基础化工-塑料制品-膜材料",
+      "concepts": [
+        "水务",
+        "膜材料",
+        "环保"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "津膜科技VS冠龙节能：水务双股逆势20cm涨停",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/Xl1cHd4jLqMMLQ_nQ7Ig6Q",
+          "accidents": [
+            "水务环保短期风口，逆势20CM涨停"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-08"
+    },
+    "301519": {
+      "name": "冠龙节能",
+      "code": "301519",
+      "board": "SZ",
+      "industry": "环保-环境治理-水务及水治理",
+      "concepts": [
+        "水务",
+        "阀门",
+        "节水"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "津膜科技VS冠龙节能：水务双股逆势20cm涨停",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/Xl1cHd4jLqMMLQ_nQ7Ig6Q",
+          "accidents": [
+            "水务环保短期风口，逆势20CM涨停"
+          ],
+          "insights": [],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-08"
+    },
+    "301029": {
+      "name": "怡合达",
+      "code": "301029",
+      "board": "SZ",
+      "industry": "机械设备-自动化设备-其他自动化设备",
+      "concepts": [
+        "自动化",
+        "FA零部件",
+        "机器人"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "mention_count": 0,
+      "articles": [],
+      "last_updated": "2026-06-08"
+    },
+    "301313": {
+      "name": "凡拓数创",
+      "code": "301313",
+      "board": "SZ",
+      "industry": "传媒-文化传媒-数字媒体",
+      "concepts": [
+        "数字孪生",
+        "AI"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "英伟达Cosmos 3开放架构：物理AI受益标的梳理",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/Kgy4aaRFdCGVDZiamzRL5g",
+          "accidents": [
+            "英伟达仿真平台降低数字孪生开发成本"
+          ],
+          "insights": [
+            "将在物理AI推广中获得大量场景落地机会"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-08"
+    },
+    "688682": {
+      "name": "霍莱沃",
+      "code": "688682",
+      "board": "SH",
+      "industry": "国防军工-军工电子-军工电子Ⅲ",
+      "concepts": [
+        "低空经济",
+        "电磁仿真",
+        "军工"
+      ],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "英伟达Cosmos 3开放架构：物理AI受益标的梳理",
+          "date": "2026-06-08",
+          "source": "https://mp.weixin.qq.com/s/Kgy4aaRFdCGVDZiamzRL5g",
+          "accidents": [
+            "低空经济+英伟达仿真带动电磁仿真需求"
+          ],
+          "insights": [
+            "低空物理环境仿真系统有望占据新风口"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-08"
     }
   },
   "stock_count": 3212,
   "total": 3266,
-  "last_updated": "2026-06-05T17:38:31.556239"
+  "last_updated": "2026-06-08T15:52:07+08:00"
 }
