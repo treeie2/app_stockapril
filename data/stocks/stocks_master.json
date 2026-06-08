@@ -6546,7 +6546,7 @@
       ]
     },
     "600143": {
-      "mention_count": 2,
+      "mention_count": 3,
       "last_updated": "2026-06-04",
       "partners": [
         "宁德时代",
@@ -6606,6 +6606,49 @@
           ],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/SX6oqyFmzn2TExE5xD2pLA",
+          "title": "金发科技：改性塑料龙头→PEEK第二曲线，切入人形机器人供应链",
+          "date": "2026-06-08",
+          "accidents": [
+            "PEEK产能突破1500吨,国内第二大PEEK生产商",
+            "珠海2万吨PEEK/PEKK规划,一期5000吨2026年达产",
+            "切入宇树/优必选/智元/Tesla Optimus供应链"
+          ],
+          "insights": [
+            "2025年营收653.96亿,改性塑料国内市占率约10%",
+            "PEEK可减重10kg/速度提升30%,碳纤维增强PEEK拉伸210MPa",
+            "PEEK成本较进口低约50%,研发投入24.89亿(4%)"
+          ],
+          "key_metrics": [
+            "2025年营收653.96亿",
+            "PEEK产能1500吨(国内第二)",
+            "研发投入24.89亿",
+            "累计专利6813件"
+          ],
+          "target_valuation": [
+            "市值约464亿,PE40"
+          ],
+          "core_business": [
+            "改性塑料",
+            "PEEK/特种工程塑料",
+            "碳纤维复合材料",
+            "LCP材料"
+          ],
+          "industry_position": [
+            "改性塑料国内龙头(市占率10%)",
+            "PEEK国内第二大"
+          ],
+          "chain": [
+            "上游-新材料"
+          ],
+          "partners": [
+            "宇树科技",
+            "优必选",
+            "智元机器人",
+            "特斯拉"
+          ]
         }
       ],
       "board": "SH",
