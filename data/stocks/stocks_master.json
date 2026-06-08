@@ -17685,7 +17685,9 @@
         "包括AI算力规划与设计等,为客户提供端到端的智算中心全流程服"
       ],
       "last_updated": "2026-05-31",
-      "industry_position": [],
+      "industry_position": [
+        "基于英伟达Isaac SIM平台,物理AI仿真"
+      ],
       "valuation": {},
       "industry": "计算机-计算机设备-其他计算机设备",
       "concepts": [
@@ -17723,7 +17725,7 @@
         "鸿蒙概念"
       ],
       "code": "001339",
-      "mention_count": 2,
+      "mention_count": 3,
       "partners": [],
       "articles": [
         {
@@ -17735,13 +17737,40 @@
           "date": "2026-03-05",
           "title": "智能经济概念股全梳理",
           "source": "https://mp.weixin.qq.com/s/38wLfMEVaATcpweuQ7AKMg"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/nupefj6L2mCB_gYuK8zK2g",
+          "title": "生成式物理AI产业链：Figure机器人30小时不停机，平台/硬件/应用全梳理",
+          "date": "2026-06-08",
+          "hot_topic": "生成式物理AI",
+          "accidents": [
+            "Figure F.03机器人连续工作30小时,处理38000+包裹",
+            "机器人自主请求同事接班,具身智能协作突破"
+          ],
+          "insights": [
+            "智微智能: 基于英伟达Isaac SIM平台,物理AI仿真"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "英伟达Isaac SIM生态"
+          ],
+          "industry_position": [
+            "基于英伟达Isaac SIM平台,物理AI仿真"
+          ],
+          "chain": [
+            "概念-应用层"
+          ],
+          "partners": []
         }
       ],
       "board": "SZ",
       "products": [
         "端到端的智算中心全流程服务"
       ],
-      "chain": [],
+      "chain": [
+        "概念-应用层"
+      ],
       "name": "智微智能"
     },
     "001367": {
@@ -26480,9 +26509,13 @@
       "name": "遥望科技"
     },
     "002292": {
-      "core_business": [],
+      "core_business": [
+        "诺亦腾(惯性动捕龙头)"
+      ],
       "last_updated": "2026-05-31",
-      "industry_position": [],
+      "industry_position": [
+        "持股5.12%,MEMS惯性动捕全球领先,机器人市占率近100%"
+      ],
       "valuation": {},
       "industry": "传媒-影视院线-影视院线Ⅲ",
       "concepts": [
@@ -26508,7 +26541,7 @@
         "跨境电商"
       ],
       "code": "002292",
-      "mention_count": 1,
+      "mention_count": 2,
       "partners": [],
       "articles": [
         {
@@ -26522,11 +26555,40 @@
           "accidents": [
             "拥有“Babytrend”（北美一线婴童品牌）和“澳贝”（国内婴童品牌），提供母婴出行用品、玩具及多品类母婴产品，受益于三胎政策及消费升级。"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/nupefj6L2mCB_gYuK8zK2g",
+          "title": "生成式物理AI产业链：Figure机器人30小时不停机，平台/硬件/应用全梳理",
+          "date": "2026-06-08",
+          "hot_topic": "生成式物理AI",
+          "accidents": [
+            "Figure F.03机器人连续工作30小时,处理38000+包裹",
+            "机器人自主请求同事接班,具身智能协作突破"
+          ],
+          "insights": [
+            "奥飞娱乐: 持股5.12%,MEMS惯性动捕全球领先,机器人市占率近100%"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "诺亦腾(惯性动捕龙头)"
+          ],
+          "industry_position": [
+            "持股5.12%,MEMS惯性动捕全球领先,机器人市占率近100%"
+          ],
+          "chain": [
+            "概念-硬件层"
+          ],
+          "partners": []
         }
       ],
       "board": "SZ",
-      "products": [],
-      "chain": [],
+      "products": [
+        "诺亦腾(惯性动捕龙头)"
+      ],
+      "chain": [
+        "概念-硬件层"
+      ],
       "name": "奥飞娱乐"
     },
     "002297": {
@@ -28223,7 +28285,7 @@
       "name": "杰瑞股份"
     },
     "002354": {
-      "mention_count": 1,
+      "mention_count": 2,
       "last_updated": "2026-06-05",
       "concepts": [
         "AIGC概念",
@@ -28279,13 +28341,50 @@
           ],
           "title": "热点关注，今日操作策略与风险提示，底部竞价参考，7月17日",
           "source": "https://mp.weixin.qq.com/s/HbcSc94rA8Zc33_7oMB5bQ"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/nupefj6L2mCB_gYuK8zK2g",
+          "title": "生成式物理AI产业链：Figure机器人30小时不停机，平台/硬件/应用全梳理",
+          "date": "2026-06-08",
+          "hot_topic": "生成式物理AI",
+          "accidents": [
+            "Figure F.03机器人连续工作30小时,处理38000+包裹",
+            "机器人自主请求同事接班,具身智能协作突破"
+          ],
+          "insights": [
+            "天娱数科: 150万组3D+65万组行为数据,数据资产化交易,具身智能安卓系统"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "Behavision MaaS平台"
+          ],
+          "industry_position": [
+            "150万组3D+65万组行为数据,数据资产化交易,具身智能安卓系统"
+          ],
+          "chain": [
+            "概念-平台层"
+          ],
+          "partners": []
         }
       ],
       "industry": "传媒-文化传媒-广告营销",
       "board": "SZ",
       "code": "002354",
       "name": "天娱数科",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "Behavision MaaS平台"
+      ],
+      "industry_position": [
+        "150万组3D+65万组行为数据,数据资产化交易,具身智能安卓系统"
+      ],
+      "chain": [
+        "概念-平台层"
+      ],
+      "products": [
+        "Behavision MaaS平台"
+      ]
     },
     "002356": {
       "mention_count": 1,
@@ -48010,7 +48109,7 @@
       "partners": []
     },
     "300182": {
-      "mention_count": 4,
+      "mention_count": 5,
       "last_updated": "2026-06-04",
       "concepts": [
         "AIGC概念",
@@ -48108,6 +48207,31 @@
             "在手订单超95亿"
           ],
           "target_valuation": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/nupefj6L2mCB_gYuK8zK2g",
+          "title": "生成式物理AI产业链：Figure机器人30小时不停机，平台/硬件/应用全梳理",
+          "date": "2026-06-08",
+          "hot_topic": "生成式物理AI",
+          "accidents": [
+            "Figure F.03机器人连续工作30小时,处理38000+包裹",
+            "机器人自主请求同事接班,具身智能协作突破"
+          ],
+          "insights": [
+            "捷成股份: 持股17.58%第一大股东,全身动捕+实时数字人"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "世优科技(全身动捕)"
+          ],
+          "industry_position": [
+            "持股17.58%第一大股东,全身动捕+实时数字人"
+          ],
+          "chain": [
+            "概念-硬件层"
+          ],
+          "partners": []
         }
       ],
       "industry": "传媒-影视院线-影视院线Ⅲ",
@@ -116140,7 +116264,7 @@
       "partners": []
     },
     "688400": {
-      "mention_count": 1,
+      "mention_count": 2,
       "last_updated": "2026-05-31",
       "concepts": [
         "2025年报预增",
@@ -116186,13 +116310,50 @@
           "insights": [
             "公司布局了OCS全光交换等下一代光通信技术，为数据中心和算力基础设施提供低时延、高带宽的光交换解决方案，受益于5G和数据中心建设需求。"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/nupefj6L2mCB_gYuK8zK2g",
+          "title": "生成式物理AI产业链：Figure机器人30小时不停机，平台/硬件/应用全梳理",
+          "date": "2026-06-08",
+          "hot_topic": "生成式物理AI",
+          "accidents": [
+            "Figure F.03机器人连续工作30小时,处理38000+包裹",
+            "机器人自主请求同事接班,具身智能协作突破"
+          ],
+          "insights": [
+            "凌云光: VisionWARE 5.0完全自研,苹果/华为/小米供应商"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "机器视觉(工业之眼)"
+          ],
+          "industry_position": [
+            "VisionWARE 5.0完全自研,苹果/华为/小米供应商"
+          ],
+          "chain": [
+            "概念-硬件层"
+          ],
+          "partners": []
         }
       ],
       "industry": "机械设备-自动化设备-其他自动化设备",
       "board": "SH",
       "code": "688400",
       "name": "凌云光",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "机器视觉(工业之眼)"
+      ],
+      "industry_position": [
+        "VisionWARE 5.0完全自研,苹果/华为/小米供应商"
+      ],
+      "chain": [
+        "概念-硬件层"
+      ],
+      "products": [
+        "机器视觉(工业之眼)"
+      ]
     },
     "688408": {
       "mention_count": 2,
@@ -133773,8 +133934,34 @@
       "code": "002995",
       "name": "天地在线",
       "concept": "",
-      "mention_count": 5,
-      "articles": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/nupefj6L2mCB_gYuK8zK2g",
+          "title": "生成式物理AI产业链：Figure机器人30小时不停机，平台/硬件/应用全梳理",
+          "date": "2026-06-08",
+          "hot_topic": "生成式物理AI",
+          "accidents": [
+            "Figure F.03机器人连续工作30小时,处理38000+包裹",
+            "机器人自主请求同事接班,具身智能协作突破"
+          ],
+          "insights": [
+            "天地在线: 持股7.69%第二大股东,手部/面部/全身全套方案"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "世优科技(全身动捕)"
+          ],
+          "industry_position": [
+            "持股7.69%第二大股东,手部/面部/全身全套方案"
+          ],
+          "chain": [
+            "概念-硬件层"
+          ],
+          "partners": []
+        }
+      ],
       "last_updated": "2026-05-31",
       "concepts": [
         "AIGC概念",
@@ -133805,7 +133992,19 @@
       ],
       "industry": "传媒-文化传媒-广告营销",
       "board": "SZ",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "世优科技(全身动捕)"
+      ],
+      "industry_position": [
+        "持股7.69%第二大股东,手部/面部/全身全套方案"
+      ],
+      "chain": [
+        "概念-硬件层"
+      ],
+      "products": [
+        "世优科技(全身动捕)"
+      ]
     },
     "003003": {
       "code": "003003",
@@ -135625,7 +135824,7 @@
       "code": "300296",
       "name": "利亚德",
       "concept": "",
-      "mention_count": 1,
+      "mention_count": 2,
       "articles": [
         {
           "title": "利亚德光通信业务",
@@ -135642,6 +135841,31 @@
           ],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/nupefj6L2mCB_gYuK8zK2g",
+          "title": "生成式物理AI产业链：Figure机器人30小时不停机，平台/硬件/应用全梳理",
+          "date": "2026-06-08",
+          "hot_topic": "生成式物理AI",
+          "accidents": [
+            "Figure F.03机器人连续工作30小时,处理38000+包裹",
+            "机器人自主请求同事接班,具身智能协作突破"
+          ],
+          "insights": [
+            "利亚德: 亚毫米级精度,机器人训练95%成功率,黑神话悟空技术支撑"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "OptiTrack光学动捕"
+          ],
+          "industry_position": [
+            "亚毫米级精度,机器人训练95%成功率,黑神话悟空技术支撑"
+          ],
+          "chain": [
+            "概念-硬件层"
+          ],
+          "partners": []
         }
       ],
       "last_updated": "2026-05-31",
@@ -135689,7 +135913,19 @@
       ],
       "industry": "电子-光学光电子-LED",
       "board": "SZ",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "OptiTrack光学动捕"
+      ],
+      "industry_position": [
+        "亚毫米级精度,机器人训练95%成功率,黑神话悟空技术支撑"
+      ],
+      "chain": [
+        "概念-硬件层"
+      ],
+      "products": [
+        "OptiTrack光学动捕"
+      ]
     },
     "300304": {
       "code": "300304",
@@ -156193,7 +156429,7 @@
       "code": "688507",
       "name": "索辰科技",
       "concept": "",
-      "mention_count": 2,
+      "mention_count": 3,
       "articles": [
         {
           "title": "【机构调研】笔记整理",
@@ -156224,6 +156460,31 @@
           ],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/nupefj6L2mCB_gYuK8zK2g",
+          "title": "生成式物理AI产业链：Figure机器人30小时不停机，平台/硬件/应用全梳理",
+          "date": "2026-06-08",
+          "hot_topic": "生成式物理AI",
+          "accidents": [
+            "Figure F.03机器人连续工作30小时,处理38000+包裹",
+            "机器人自主请求同事接班,具身智能协作突破"
+          ],
+          "insights": [
+            "索辰科技: 生成式建模仿真一体化,五大核心技术,定义物理规则的操作系统"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "物理AI开发平台(天工)"
+          ],
+          "industry_position": [
+            "生成式建模仿真一体化,五大核心技术,定义物理规则的操作系统"
+          ],
+          "chain": [
+            "概念-平台层"
+          ],
+          "partners": []
         }
       ],
       "last_updated": "2026-06-04",
@@ -164223,7 +164484,7 @@
     "301313": {
       "code": "301313",
       "name": "凡拓数创",
-      "mention_count": 1,
+      "mention_count": 2,
       "articles": [
         {
           "source": "https://mp.weixin.qq.com/s/j3xU4YIMB5uQzKI4330LAA",
@@ -164244,6 +164505,31 @@
           "industry_position": [],
           "chain": [
             "概念-物理AI"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/nupefj6L2mCB_gYuK8zK2g",
+          "title": "生成式物理AI产业链：Figure机器人30小时不停机，平台/硬件/应用全梳理",
+          "date": "2026-06-08",
+          "hot_topic": "生成式物理AI",
+          "accidents": [
+            "Figure F.03机器人连续工作30小时,处理38000+包裹",
+            "机器人自主请求同事接班,具身智能协作突破"
+          ],
+          "insights": [
+            "凡拓数创: 数字展示营收亚军,体验式展馆升级"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "数字展馆+数字孪生"
+          ],
+          "industry_position": [
+            "数字展示营收亚军,体验式展馆升级"
+          ],
+          "chain": [
+            "概念-应用层"
           ],
           "partners": []
         }
@@ -165116,6 +165402,58 @@
         "超级电容电解液"
       ],
       "last_updated": "2026-06-08"
+    },
+    "300556": {
+      "code": "300556",
+      "name": "丝路视觉",
+      "mention_count": 1,
+      "last_updated": "2026-06-08",
+      "board": "SZ",
+      "core_business": [
+        "数字展馆"
+      ],
+      "industry_position": [
+        "营收冠军,AI导演,政府和大量企业客户"
+      ],
+      "chain": [
+        "概念-应用层"
+      ],
+      "partners": [],
+      "concepts": [
+        "生成式物理AI",
+        "机器人",
+        "Figure"
+      ],
+      "products": [
+        "数字展馆"
+      ],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/nupefj6L2mCB_gYuK8zK2g",
+          "title": "生成式物理AI产业链：Figure机器人30小时不停机，平台/硬件/应用全梳理",
+          "date": "2026-06-08",
+          "hot_topic": "生成式物理AI",
+          "accidents": [
+            "Figure F.03机器人连续工作30小时,处理38000+包裹",
+            "机器人自主请求同事接班,具身智能协作突破"
+          ],
+          "insights": [
+            "丝路视觉: 营收冠军,AI导演,政府和大量企业客户"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "数字展馆"
+          ],
+          "industry_position": [
+            "营收冠军,AI导演,政府和大量企业客户"
+          ],
+          "chain": [
+            "概念-应用层"
+          ],
+          "partners": []
+        }
+      ]
     }
   },
   "stock_count": 3212,
