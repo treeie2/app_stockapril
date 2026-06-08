@@ -17725,8 +17725,10 @@
         "鸿蒙概念"
       ],
       "code": "001339",
-      "mention_count": 3,
-      "partners": [],
+      "mention_count": 4,
+      "partners": [
+        "华为"
+      ],
       "articles": [
         {
           "date": "2026-03-11",
@@ -17762,6 +17764,39 @@
             "概念-应用层"
           ],
           "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/BbKZCNaXFLfxi9966KxFRA",
+          "title": "鸿蒙7.0：1.1亿行自研代码,百亿大模型塞进手机,产业链核心标的",
+          "date": "2026-06-08",
+          "hot_topic": "鸿蒙7.0",
+          "accidents": [
+            "鸿蒙7.0全栈自研率100%,1.1亿行代码,彻底告别安卓",
+            "盘古大模型6.0(百亿参数)嵌入系统内核,端侧本地部署",
+            "应用安装快27%,内存占用降30%,内容加载快31%",
+            "100万AI开发者,50万+AI原子化服务"
+          ],
+          "insights": [
+            "智微智能: 华为昇腾金牌供应商,端侧算力"
+          ],
+          "key_metrics": [
+            "1.1亿行自研代码",
+            "端侧百亿参数大模型",
+            "离线语音准确率98%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "昇腾金牌+鸿蒙适配+AI PC代工"
+          ],
+          "industry_position": [
+            "华为昇腾金牌供应商,端侧算力"
+          ],
+          "chain": [
+            "概念-端侧算力"
+          ],
+          "partners": [
+            "华为"
+          ]
         }
       ],
       "board": "SZ",
@@ -51891,7 +51926,7 @@
       "partners": []
     },
     "300339": {
-      "mention_count": 1,
+      "mention_count": 2,
       "last_updated": "2026-06-05",
       "concepts": [
         "AI应用",
@@ -51954,6 +51989,39 @@
           ],
           "title": "9月23日，热点关注，今日操作策略与风险提示，文末本周3篇报告",
           "source": "https://mp.weixin.qq.com/s/uWL50qMe1Q8eb1Z6M_20hQ"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/BbKZCNaXFLfxi9966KxFRA",
+          "title": "鸿蒙7.0：1.1亿行自研代码,百亿大模型塞进手机,产业链核心标的",
+          "date": "2026-06-08",
+          "hot_topic": "鸿蒙7.0",
+          "accidents": [
+            "鸿蒙7.0全栈自研率100%,1.1亿行代码,彻底告别安卓",
+            "盘古大模型6.0(百亿参数)嵌入系统内核,端侧本地部署",
+            "应用安装快27%,内存占用降30%,内容加载快31%",
+            "100万AI开发者,50万+AI原子化服务"
+          ],
+          "insights": [
+            "润和软件: 开源鸿蒙创始单位,政务/教育落地"
+          ],
+          "key_metrics": [
+            "1.1亿行自研代码",
+            "端侧百亿参数大模型",
+            "离线语音准确率98%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "OpenHarmony行业发行版(HiHope)"
+          ],
+          "industry_position": [
+            "开源鸿蒙创始单位,政务/教育落地"
+          ],
+          "chain": [
+            "概念-鸿蒙ISV"
+          ],
+          "partners": [
+            "华为"
+          ]
         }
       ],
       "industry": "计算机-IT服务-IT服务Ⅲ",
@@ -51973,7 +52041,9 @@
       ],
       "code": "300339",
       "name": "润和软件",
-      "partners": []
+      "partners": [
+        "华为"
+      ]
     },
     "300342": {
       "mention_count": 1,
@@ -58065,7 +58135,7 @@
       "partners": []
     },
     "300598": {
-      "mention_count": 1,
+      "mention_count": 2,
       "last_updated": "2026-05-31",
       "concepts": [
         "AI应用",
@@ -58110,6 +58180,39 @@
           "date": "",
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/BbKZCNaXFLfxi9966KxFRA",
+          "title": "鸿蒙7.0：1.1亿行自研代码,百亿大模型塞进手机,产业链核心标的",
+          "date": "2026-06-08",
+          "hot_topic": "鸿蒙7.0",
+          "accidents": [
+            "鸿蒙7.0全栈自研率100%,1.1亿行代码,彻底告别安卓",
+            "盘古大模型6.0(百亿参数)嵌入系统内核,端侧本地部署",
+            "应用安装快27%,内存占用降30%,内容加载快31%",
+            "100万AI开发者,50万+AI原子化服务"
+          ],
+          "insights": [
+            "诚迈科技: 鸿蒙PC生态先行者,行业发行版"
+          ],
+          "key_metrics": [
+            "1.1亿行自研代码",
+            "端侧百亿参数大模型",
+            "离线语音准确率98%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "鸿蒙核心ISV+望龙电脑"
+          ],
+          "industry_position": [
+            "鸿蒙PC生态先行者,行业发行版"
+          ],
+          "chain": [
+            "概念-鸿蒙ISV"
+          ],
+          "partners": [
+            "华为"
+          ]
         }
       ],
       "industry": "计算机-软件开发-垂直应用软件",
@@ -58125,7 +58228,10 @@
         "华为"
       ],
       "code": "300598",
-      "name": "诚迈科技"
+      "name": "诚迈科技",
+      "core_business": [
+        "鸿蒙核心ISV+望龙电脑"
+      ]
     },
     "300602": {
       "mention_count": 3,
@@ -59133,7 +59239,7 @@
       "partners": []
     },
     "300638": {
-      "mention_count": 1,
+      "mention_count": 2,
       "last_updated": "2026-05-31",
       "core_business": [
         "无线通信模组与AI模组，承接设备上报、边缘接入和云端下发等链路。"
@@ -59146,6 +59252,39 @@
           "source": "https://mp.weixin.qq.com/s/oLlNiSiwCLbeK8RG1lBmMw",
           "insights": [
             "云边协同产业链相关公司：无线通信模组与AI模组，承接设备上报、边缘接入和云端下发等链路。"
+          ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/BbKZCNaXFLfxi9966KxFRA",
+          "title": "鸿蒙7.0：1.1亿行自研代码,百亿大模型塞进手机,产业链核心标的",
+          "date": "2026-06-08",
+          "hot_topic": "鸿蒙7.0",
+          "accidents": [
+            "鸿蒙7.0全栈自研率100%,1.1亿行代码,彻底告别安卓",
+            "盘古大模型6.0(百亿参数)嵌入系统内核,端侧本地部署",
+            "应用安装快27%,内存占用降30%,内容加载快31%",
+            "100万AI开发者,50万+AI原子化服务"
+          ],
+          "insights": [
+            "广和通: 华为AI玩具独家高性能模组,字节/腾讯合作"
+          ],
+          "key_metrics": [
+            "1.1亿行自研代码",
+            "端侧百亿参数大模型",
+            "离线语音准确率98%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "端侧AI模组"
+          ],
+          "industry_position": [
+            "华为AI玩具独家高性能模组,字节/腾讯合作"
+          ],
+          "chain": [
+            "概念-端侧模组"
+          ],
+          "partners": [
+            "华为"
           ]
         }
       ],
@@ -59189,9 +59328,17 @@
         "阿里巴巴概念"
       ],
       "name": "广和通",
-      "partners": [],
+      "partners": [
+        "华为"
+      ],
       "products": [
         "设备"
+      ],
+      "industry_position": [
+        "华为AI玩具独家高性能模组,字节/腾讯合作"
+      ],
+      "chain": [
+        "概念-端侧模组"
       ]
     },
     "300642": {
@@ -64620,7 +64767,7 @@
       "partners": []
     },
     "300925": {
-      "mention_count": 1,
+      "mention_count": 2,
       "last_updated": "2026-05-10",
       "concepts": [
         "AI应用",
@@ -64676,6 +64823,39 @@
           ],
           "accidents": [
             "马斯克发文称将在7天内开源新的算法"
+          ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/BbKZCNaXFLfxi9966KxFRA",
+          "title": "鸿蒙7.0：1.1亿行自研代码,百亿大模型塞进手机,产业链核心标的",
+          "date": "2026-06-08",
+          "hot_topic": "鸿蒙7.0",
+          "accidents": [
+            "鸿蒙7.0全栈自研率100%,1.1亿行代码,彻底告别安卓",
+            "盘古大模型6.0(百亿参数)嵌入系统内核,端侧本地部署",
+            "应用安装快27%,内存占用降30%,内容加载快31%",
+            "100万AI开发者,50万+AI原子化服务"
+          ],
+          "insights": [
+            "法本信息: 鸿蒙应用搬家服务商,App迁移需求暴增"
+          ],
+          "key_metrics": [
+            "1.1亿行自研代码",
+            "端侧百亿参数大模型",
+            "离线语音准确率98%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "鸿蒙原生应用开发/迁移"
+          ],
+          "industry_position": [
+            "鸿蒙应用搬家服务商,App迁移需求暴增"
+          ],
+          "chain": [
+            "概念-鸿蒙应用"
+          ],
+          "partners": [
+            "华为"
           ]
         }
       ],
@@ -68096,7 +68276,7 @@
       "partners": []
     },
     "301236": {
-      "mention_count": 1,
+      "mention_count": 2,
       "last_updated": "2026-05-10",
       "core_business": [
         "华为第一大 IT 外包服务商"
@@ -68126,6 +68306,39 @@
           "accidents": [
             "随着鸿蒙 PC 适配订单的集中释放，",
             "订单量的大幅增长，"
+          ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/BbKZCNaXFLfxi9966KxFRA",
+          "title": "鸿蒙7.0：1.1亿行自研代码,百亿大模型塞进手机,产业链核心标的",
+          "date": "2026-06-08",
+          "hot_topic": "鸿蒙7.0",
+          "accidents": [
+            "鸿蒙7.0全栈自研率100%,1.1亿行代码,彻底告别安卓",
+            "盘古大模型6.0(百亿参数)嵌入系统内核,端侧本地部署",
+            "应用安装快27%,内存占用降30%,内容加载快31%",
+            "100万AI开发者,50万+AI原子化服务"
+          ],
+          "insights": [
+            "软通动力: 软硬一体鸿蒙生态全能选手"
+          ],
+          "key_metrics": [
+            "1.1亿行自研代码",
+            "端侧百亿参数大模型",
+            "离线语音准确率98%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "鸿蒙ISV+同方PC+昇腾鲲鹏"
+          ],
+          "industry_position": [
+            "软硬一体鸿蒙生态全能选手"
+          ],
+          "chain": [
+            "概念-鸿蒙ISV"
+          ],
+          "partners": [
+            "华为"
           ]
         }
       ],
@@ -104120,7 +104333,7 @@
       "partners": []
     },
     "603893": {
-      "mention_count": 1,
+      "mention_count": 2,
       "last_updated": "2026-05-31",
       "concepts": [
         "2025年报预增",
@@ -104167,15 +104380,56 @@
           "insights": [
             "端侧AI芯片核心标的"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/BbKZCNaXFLfxi9966KxFRA",
+          "title": "鸿蒙7.0：1.1亿行自研代码,百亿大模型塞进手机,产业链核心标的",
+          "date": "2026-06-08",
+          "hot_topic": "鸿蒙7.0",
+          "accidents": [
+            "鸿蒙7.0全栈自研率100%,1.1亿行代码,彻底告别安卓",
+            "盘古大模型6.0(百亿参数)嵌入系统内核,端侧本地部署",
+            "应用安装快27%,内存占用降30%,内容加载快31%",
+            "100万AI开发者,50万+AI原子化服务"
+          ],
+          "insights": [
+            "瑞芯微: A股IoT SoC第一大,旗舰芯片国产第一梯队"
+          ],
+          "key_metrics": [
+            "1.1亿行自研代码",
+            "端侧百亿参数大模型",
+            "离线语音准确率98%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "物联网SoC/NPU端侧芯片"
+          ],
+          "industry_position": [
+            "A股IoT SoC第一大,旗舰芯片国产第一梯队"
+          ],
+          "chain": [
+            "概念-端侧芯片"
+          ],
+          "partners": [
+            "华为"
+          ]
         }
       ],
       "industry": "电子-半导体-数字芯片设计",
       "board": "SH",
       "code": "603893",
       "name": "瑞芯微",
-      "partners": [],
+      "partners": [
+        "华为"
+      ],
       "products": [
         "芯片"
+      ],
+      "industry_position": [
+        "A股IoT SoC第一大,旗舰芯片国产第一梯队"
+      ],
+      "chain": [
+        "概念-端侧芯片"
       ]
     },
     "603901": {
@@ -153828,8 +154082,42 @@
       "code": "688018",
       "name": "乐鑫科技",
       "concept": "",
-      "mention_count": 4,
-      "articles": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/BbKZCNaXFLfxi9966KxFRA",
+          "title": "鸿蒙7.0：1.1亿行自研代码,百亿大模型塞进手机,产业链核心标的",
+          "date": "2026-06-08",
+          "hot_topic": "鸿蒙7.0",
+          "accidents": [
+            "鸿蒙7.0全栈自研率100%,1.1亿行代码,彻底告别安卓",
+            "盘古大模型6.0(百亿参数)嵌入系统内核,端侧本地部署",
+            "应用安装快27%,内存占用降30%,内容加载快31%",
+            "100万AI开发者,50万+AI原子化服务"
+          ],
+          "insights": [
+            "乐鑫科技: WiFi MCU全球市占率35%,开源社区飞轮效应"
+          ],
+          "key_metrics": [
+            "1.1亿行自研代码",
+            "端侧百亿参数大模型",
+            "离线语音准确率98%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "WiFi MCU SoC"
+          ],
+          "industry_position": [
+            "WiFi MCU全球市占率35%,开源社区飞轮效应"
+          ],
+          "chain": [
+            "概念-端侧芯片"
+          ],
+          "partners": [
+            "华为"
+          ]
+        }
+      ],
       "last_updated": "2026-05-31",
       "concepts": [
         "AI智能体",
@@ -153852,7 +154140,21 @@
       ],
       "industry": "电子-半导体-数字芯片设计",
       "board": "SH",
-      "partners": []
+      "partners": [
+        "华为"
+      ],
+      "core_business": [
+        "WiFi MCU SoC"
+      ],
+      "industry_position": [
+        "WiFi MCU全球市占率35%,开源社区飞轮效应"
+      ],
+      "chain": [
+        "概念-端侧芯片"
+      ],
+      "products": [
+        "WiFi MCU SoC"
+      ]
     },
     "688022": {
       "code": "688022",
@@ -157235,8 +157537,42 @@
       "code": "688608",
       "name": "恒玄科技",
       "concept": "",
-      "mention_count": 5,
-      "articles": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/BbKZCNaXFLfxi9966KxFRA",
+          "title": "鸿蒙7.0：1.1亿行自研代码,百亿大模型塞进手机,产业链核心标的",
+          "date": "2026-06-08",
+          "hot_topic": "鸿蒙7.0",
+          "accidents": [
+            "鸿蒙7.0全栈自研率100%,1.1亿行代码,彻底告别安卓",
+            "盘古大模型6.0(百亿参数)嵌入系统内核,端侧本地部署",
+            "应用安装快27%,内存占用降30%,内容加载快31%",
+            "100万AI开发者,50万+AI原子化服务"
+          ],
+          "insights": [
+            "恒玄科技: AI耳机/智能眼镜/手表芯片龙头,离线语音"
+          ],
+          "key_metrics": [
+            "1.1亿行自研代码",
+            "端侧百亿参数大模型",
+            "离线语音准确率98%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "低功耗AIoT芯片"
+          ],
+          "industry_position": [
+            "AI耳机/智能眼镜/手表芯片龙头,离线语音"
+          ],
+          "chain": [
+            "概念-端侧芯片"
+          ],
+          "partners": [
+            "华为"
+          ]
+        }
+      ],
       "last_updated": "2026-05-31",
       "concepts": [
         "AI眼镜",
@@ -157258,7 +157594,21 @@
       ],
       "industry": "电子-半导体-数字芯片设计",
       "board": "SH",
-      "partners": []
+      "partners": [
+        "华为"
+      ],
+      "core_business": [
+        "低功耗AIoT芯片"
+      ],
+      "industry_position": [
+        "AI耳机/智能眼镜/手表芯片龙头,离线语音"
+      ],
+      "chain": [
+        "概念-端侧芯片"
+      ],
+      "products": [
+        "低功耗AIoT芯片"
+      ]
     },
     "688610": {
       "code": "688610",
