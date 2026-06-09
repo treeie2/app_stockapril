@@ -67708,8 +67708,8 @@
       "partners": []
     },
     "301196": {
-      "mention_count": 6,
-      "last_updated": "2026-05-31",
+      "mention_count": 7,
+      "last_updated": "2026-06-09",
       "partners": [],
       "concepts": [
         "PEEK材料",
@@ -67730,7 +67730,9 @@
         "福建自贸区",
         "融资融券"
       ],
-      "industry_position": [],
+      "industry_position": [
+        "MT插芯稀缺标的,净利率超40%"
+      ],
       "articles": [
         {
           "date": "2026-03-22",
@@ -67794,6 +67796,30 @@
           "date": "2026-03-25",
           "title": "今天的一些信息整理3.25",
           "source": ""
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/-u-3ooEHieGjBGLUHORN9Q",
+          "title": "唯科科技：MT插芯上游大通胀,数倍空间",
+          "date": "2026-06-09",
+          "accidents": [
+            "6月9日新增",
+            "MT插芯产能紧缺,16芯及以上量产能力,A股极少数,北美A客户突破月底放量,明年满产20亿"
+          ],
+          "insights": [
+            "MT插芯(光模块上游)+精密制造"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "MT插芯(光模块上游)+精密制造"
+          ],
+          "industry_position": [
+            "MT插芯稀缺标的,净利率超40%"
+          ],
+          "chain": [
+            "上游-芯片设计"
+          ],
+          "partners": []
         }
       ],
       "board": "SZ",
@@ -67804,10 +67830,14 @@
         "MPO 总成",
         "MPO"
       ],
-      "chain": [],
+      "chain": [
+        "上游-芯片设计"
+      ],
       "name": "唯科科技",
       "code": "301196",
-      "core_business": []
+      "core_business": [
+        "MT插芯(光模块上游)+精密制造"
+      ]
     },
     "301200": {
       "mention_count": 2,
@@ -111530,8 +111560,8 @@
       ]
     },
     "688141": {
-      "mention_count": 2,
-      "last_updated": "2026-05-31",
+      "mention_count": 3,
+      "last_updated": "2026-06-09",
       "partners": [],
       "concepts": [
         "专精特新",
@@ -111549,7 +111579,9 @@
         "融资融券",
         "锂电池概念"
       ],
-      "industry_position": [],
+      "industry_position": [
+        "HW链DrMOS龙头,16相控制器突破"
+      ],
       "articles": [
         {
           "date": "2026-05-13",
@@ -111572,6 +111604,30 @@
             "模拟芯片复苏"
           ],
           "accidents": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/xuXx32KIT3oKMXvc65o6WA",
+          "title": "杰华特：DrMOS国产替代,4倍空间看1500亿",
+          "date": "2026-06-09",
+          "accidents": [
+            "6月9日新增",
+            "深度绑定H客户GPU,有望成为DrMOS一供,28年国内DrMOS市场超百亿,目标1500亿市值"
+          ],
+          "insights": [
+            "DrMOS+多相控制器(国产GPU供电)"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "DrMOS+多相控制器(国产GPU供电)"
+          ],
+          "industry_position": [
+            "HW链DrMOS龙头,16相控制器突破"
+          ],
+          "chain": [
+            "上游-芯片设计"
+          ],
+          "partners": []
         }
       ],
       "board": "SH",
@@ -111579,10 +111635,14 @@
       "products": [
         "芯片"
       ],
-      "chain": [],
+      "chain": [
+        "上游-芯片设计"
+      ],
       "name": "杰华特",
       "code": "688141",
-      "core_business": []
+      "core_business": [
+        "DrMOS+多相控制器(国产GPU供电)"
+      ]
     },
     "688143": {
       "mention_count": 2,
@@ -156601,7 +156661,7 @@
       "code": "688368",
       "name": "晶丰明源",
       "concept": "",
-      "mention_count": 1,
+      "mention_count": 2,
       "articles": [
         {
           "title": "Al服务器，“特种兵”",
@@ -156615,9 +156675,33 @@
             "核心数据：它的高性能计算（HPC）电源芯片业务收入同比暴增了419.81%，出货量同比增长了121.49% 。"
           ],
           "target_valuation": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/ls3UA1LQgzoioL44lJONGA",
+          "title": "晶丰明源：DrMOS国产替代,翻倍空间看750亿",
+          "date": "2026-06-09",
+          "accidents": [
+            "6月9日新增",
+            "16相控制器突破,封装方案效率领先英飞凌/MPS,28年全球DrMOS市场120亿美元,目标750亿市值"
+          ],
+          "insights": [
+            "DrMOS+多相控制器(AI芯片供电)"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "DrMOS+多相控制器(AI芯片供电)"
+          ],
+          "industry_position": [
+            "NV谷歌链DrMOS龙头,自研16相控制器"
+          ],
+          "chain": [
+            "上游-芯片设计"
+          ],
+          "partners": []
         }
       ],
-      "last_updated": "2026-05-31",
+      "last_updated": "2026-06-09",
       "concepts": [
         "MCU芯片",
         "专精特新",
@@ -156640,6 +156724,15 @@
       "products": [
         "电源",
         "芯片"
+      ],
+      "core_business": [
+        "DrMOS+多相控制器(AI芯片供电)"
+      ],
+      "industry_position": [
+        "NV谷歌链DrMOS龙头,自研16相控制器"
+      ],
+      "chain": [
+        "上游-芯片设计"
       ]
     },
     "688369": {
