@@ -43179,8 +43179,8 @@
       "partners": []
     },
     "300001": {
-      "mention_count": 3,
-      "last_updated": "2026-05-31",
+      "mention_count": 4,
+      "last_updated": "2026-06-09",
       "concepts": [
         "MCU芯片",
         "PPP概念",
@@ -43246,6 +43246,30 @@
           ],
           "title": "“超充概念”深度解析与操作策略-文末盘中参考",
           "source": "https://mp.weixin.qq.com/s/ZLxKEUQ_Aie4_wbJMpoAew"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/BsZhPb1V4TGzX9d_s_KTPQ",
+          "title": "特锐德：算电岛+智算中心供电+预制舱变电站",
+          "date": "2026-06-09",
+          "accidents": [
+            "6月9日新增深度研报",
+            "算电岛TPS供电架构,高压直供110-220kV,SST效率98.5%,交付周期150天(传统1-2年)"
+          ],
+          "insights": [
+            "全球预制舱变电站龙头+算电岛TPS+SST碳化硅"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "全球预制舱变电站龙头+算电岛TPS+SST碳化硅"
+          ],
+          "industry_position": [
+            "全球预制舱市占率第一,高压47.3%,充电网全国第一"
+          ],
+          "chain": [
+            "中游-AI应用"
+          ],
+          "partners": []
         }
       ],
       "industry": "电力设备-电网设备-输变电设备",
@@ -104551,8 +104575,8 @@
       "partners": []
     },
     "603859": {
-      "mention_count": 2,
-      "last_updated": "2026-05-10",
+      "mention_count": 3,
+      "last_updated": "2026-06-09",
       "concepts": [
         "AI应用",
         "沪股通",
@@ -104600,13 +104624,46 @@
           ],
           "title": "昨日市场复盘及操作策略，底部尾盘参考，8月28日，星期四",
           "source": "https://mp.weixin.qq.com/s/eaL58zcE50SbqtQ9LYSBiQ"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/RcSQPztWliHjY50qxeyRSA",
+          "title": "能科科技：物理AI+具身智能+商业航天+AI应用",
+          "date": "2026-06-09",
+          "accidents": [
+            "6月9日新增深度研报",
+            "AI产品收入4.6亿+68.52%,员工持股AI对赌(25年+30%/26E+70%),灵智具身智能训推平台"
+          ],
+          "insights": [
+            "工业物理AI+具身智能+AI应用"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "工业物理AI+具身智能+AI应用"
+          ],
+          "industry_position": [
+            "军工保密+信创认证,25个AI Agent落地70+头部企业"
+          ],
+          "chain": [
+            "中游-AI应用"
+          ],
+          "partners": []
         }
       ],
       "industry": "计算机-IT服务-IT服务Ⅲ",
       "board": "SH",
       "code": "603859",
       "name": "能科科技",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "工业物理AI+具身智能+AI应用"
+      ],
+      "industry_position": [
+        "军工保密+信创认证,25个AI Agent落地70+头部企业"
+      ],
+      "chain": [
+        "中游-AI应用"
+      ]
     },
     "603861": {
       "mention_count": 1,
