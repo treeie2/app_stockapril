@@ -8470,7 +8470,7 @@
         "动力系统",
         "SOFC燃料电池"
       ],
-      "last_updated": "2026-06-05",
+      "last_updated": "2026-06-09",
       "industry_position": [
         "国产AI电力龙头",
         "全球动力龙头"
@@ -8504,7 +8504,7 @@
         "高股息精选"
       ],
       "code": "000338",
-      "mention_count": 4,
+      "mention_count": 5,
       "partners": [],
       "articles": [
         {
@@ -8582,6 +8582,30 @@
           "target_valuation": [
             "估值分析：太阳纸业PE最低（12.87倍），估值最具吸引力；恒立液压PE最高（54.00倍），市场给予高成长溢价；山鹰国际PE为负，公司处于亏损状态。"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/tgYo_VZ6Gmibn8pB2vyHgg",
+          "title": "高盛：潍柴动力—AI数据中心发电业务上行至2027",
+          "date": "2026-06-09",
+          "accidents": [
+            "6月9日新增个股",
+            "Generac签超大规模云厂全球供备协议,高盛维持买入"
+          ],
+          "insights": [
+            "AI数据中心发电(柴油/燃气/SOFC)+重卡发动机"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "AI数据中心发电(柴油/燃气/SOFC)+重卡发动机"
+          ],
+          "industry_position": [
+            "AIDC发电25年净利占比12%→2030年43%,增量EPS60%+"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
         }
       ],
       "board": "SZ",
@@ -33366,8 +33390,8 @@
       "partners": []
     },
     "002522": {
-      "mention_count": 1,
-      "last_updated": "2026-05-10",
+      "mention_count": 2,
+      "last_updated": "2026-06-09",
       "concepts": [
         "5G",
         "融资融券",
@@ -33385,6 +33409,30 @@
           "date": "",
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/Jl0a0KTfML4KO1Zny5M93A",
+          "title": "浙江众成：POF热收缩膜龙头+光纤材料+新材料",
+          "date": "2026-06-09",
+          "accidents": [
+            "6月9日新增个股",
+            "光缆油膏用SEP通过鉴定,打破美国科腾/日本可乐丽垄断"
+          ],
+          "insights": [
+            "POF热收缩膜(国内第一全球第二)+TPE弹性体"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "POF热收缩膜(国内第一全球第二)+TPE弹性体"
+          ],
+          "industry_position": [
+            "TPE材料国产替代,光纤上游材料"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
         }
       ],
       "industry": "基础化工-塑料制品-膜材料",
@@ -33394,7 +33442,13 @@
       ],
       "code": "002522",
       "name": "浙江众成",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "POF热收缩膜(国内第一全球第二)+TPE弹性体"
+      ],
+      "industry_position": [
+        "TPE材料国产替代,光纤上游材料"
+      ]
     },
     "002526": {
       "mention_count": 1,
@@ -145398,8 +145452,33 @@
       "name": "安彩高科",
       "concept": "",
       "mention_count": 1,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/plZbm3vlNvHKiTDPOKEO0g",
+          "title": "安彩高科：半导体材料+玻璃基板+光伏+光热玻璃+天然气",
+          "date": "2026-06-09",
+          "accidents": [
+            "6月9日新增个股",
+            "高纯石英半导体用玻璃项目(年产3000吨),硅基新材料"
+          ],
+          "insights": [
+            "光伏玻璃+光热玻璃+药用玻璃+天然气"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "光伏玻璃+光热玻璃+药用玻璃+天然气"
+          ],
+          "industry_position": [
+            "国企改革,河南国资,光伏/光热/药用玻璃多元化"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-06-09",
       "concepts": [
         "储能",
         "光伏概念",
@@ -145415,7 +145494,16 @@
       ],
       "industry": "电力设备-光伏设备-光伏辅材",
       "board": "SH",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "光伏玻璃+光热玻璃+药用玻璃+天然气"
+      ],
+      "industry_position": [
+        "国企改革,河南国资,光伏/光热/药用玻璃多元化"
+      ],
+      "chain": [
+        "中游-制造"
+      ]
     },
     "600208": {
       "code": "600208",
