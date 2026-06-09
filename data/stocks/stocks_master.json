@@ -39307,8 +39307,8 @@
       "partners": []
     },
     "002851": {
-      "mention_count": 7,
-      "last_updated": "2026-06-04",
+      "mention_count": 8,
+      "last_updated": "2026-06-09",
       "concepts": [
         "一带一路",
         "中国AI 50",
@@ -39485,6 +39485,30 @@
           ],
           "chain": [
             "概念-元件/MLCC/PCB"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/FB_Yi85_u5JS4uYFe1O7ag",
+          "title": "Rubin液冷价值量3倍增长+微信AI生态",
+          "date": "2026-06-09",
+          "accidents": [
+            "Rubin液冷成本从GB200的5.1万→15.8万美元(+3倍)",
+            "NV大陆唯一电源合格供应商,800V高压电源领先,二供可能性提升,二三次电源+SST+液冷布局,远期2000e+"
+          ],
+          "insights": [
+            "NV大陆唯一电源合格供应商"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "NV大陆唯一电源合格供应商"
+          ],
+          "industry_position": [
+            "NV大陆唯一电源合格供应商,800V高压电源领先,二供可能性提升,二三次电源+SST+液冷布局,远期2000e+"
+          ],
+          "chain": [
+            "中游-电源/液冷"
           ],
           "partners": []
         }
@@ -141849,7 +141873,7 @@
       "code": "301031",
       "name": "中熔电气",
       "concept": "",
-      "mention_count": 1,
+      "mention_count": 2,
       "articles": [
         {
           "title": "英伟达800V高压直流供电架构-核心受益公司",
@@ -141865,9 +141889,33 @@
           ],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/FB_Yi85_u5JS4uYFe1O7ag",
+          "title": "Rubin液冷价值量3倍增长+微信AI生态",
+          "date": "2026-06-09",
+          "accidents": [
+            "Rubin液冷成本从GB200的5.1万→15.8万美元(+3倍)",
+            "已具备±400V/800V HVDC产品升级能力,适配AIDC 800V高压直流架构"
+          ],
+          "insights": [
+            "AIDC 800V高压直流熔断器"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "AIDC 800V高压直流熔断器"
+          ],
+          "industry_position": [
+            "已具备±400V/800V HVDC产品升级能力,适配AIDC 800V高压直流架构"
+          ],
+          "chain": [
+            "中游-电源/液冷"
+          ],
+          "partners": []
         }
       ],
-      "last_updated": "2026-06-04",
+      "last_updated": "2026-06-09",
       "concepts": [
         "2025年报预增",
         "专精特新",
