@@ -44317,8 +44317,8 @@
       "partners": []
     },
     "300035": {
-      "mention_count": 2,
-      "last_updated": "2026-06-01",
+      "mention_count": 3,
+      "last_updated": "2026-06-09",
       "concepts": [
         "2025年报预增",
         "PCB概念",
@@ -44392,6 +44392,30 @@
             "归母净利润4.02亿，同比增长118.85%"
           ],
           "target_valuation": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/-B8KnyC5-FV9Fo09cIJW5Q",
+          "title": "6月9日信息汇总",
+          "date": "2026-06-09",
+          "accidents": [
+            "6月9日",
+            "钠电全年看好1-10,负极已涨价500-800元/吨,Q3供不应求持续普涨"
+          ],
+          "insights": [
+            "宁德钠电负极独供"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "宁德钠电负极独供"
+          ],
+          "industry_position": [
+            "宁德钠电负极独供"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
         }
       ],
       "industry": "电力设备-电池-电池化学品",
@@ -129596,7 +129620,7 @@
       "code": "002048",
       "name": "宁波华翔",
       "concept": "",
-      "mention_count": 1,
+      "mention_count": 2,
       "articles": [
         {
           "title": "涉足PEEK领域的上市公司盘点",
@@ -129614,9 +129638,33 @@
             "规划PEEK产能12000吨/年，一期4000吨试生产"
           ],
           "target_valuation": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/-B8KnyC5-FV9Fo09cIJW5Q",
+          "title": "6月9日信息汇总",
+          "date": "2026-06-09",
+          "accidents": [
+            "6月9日",
+            "与印度零部件巨头成立合资公司(持股20%),T机器人单机价值量3000美金,北美生产基地"
+          ],
+          "insights": [
+            "T机器人线束+连接件+PEEK结构件"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "T机器人线束+连接件+PEEK结构件"
+          ],
+          "industry_position": [
+            "同时直接对接特斯拉"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
         }
       ],
-      "last_updated": "2026-06-04",
+      "last_updated": "2026-06-09",
       "core_business": [
         "汽车零部件+PEEK材料"
       ],
@@ -153993,7 +154041,7 @@
       "code": "603989",
       "name": "艾华集团",
       "concept": "",
-      "mention_count": 1,
+      "mention_count": 2,
       "articles": [
         {
           "title": "超级电容，相关核心龙头公司梳理",
@@ -154006,9 +154054,33 @@
           "insights": [],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/-B8KnyC5-FV9Fo09cIJW5Q",
+          "title": "6月9日信息汇总",
+          "date": "2026-06-09",
+          "accidents": [
+            "6月9日",
+            "MLPC加速导入H客户,短期贡献超10亿收入,净利率超30%,受益AI服务器国产替代"
+          ],
+          "insights": [
+            "牛角电容(服务器电源)+MLPC"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "牛角电容(服务器电源)+MLPC"
+          ],
+          "industry_position": [
+            "台达/光宝/群光长期合作伙伴"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
         }
       ],
-      "last_updated": "2026-06-04",
+      "last_updated": "2026-06-09",
       "concepts": [
         "5G",
         "低空经济",
@@ -154036,7 +154108,10 @@
       "industry_position": [
         "国内铝电解电容器行业龙头"
       ],
-      "partners": []
+      "partners": [],
+      "chain": [
+        "中游-制造"
+      ]
     },
     "603991": {
       "code": "603991",
@@ -158920,8 +158995,33 @@
       "name": "悦安新材",
       "concept": "",
       "mention_count": 1,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/-B8KnyC5-FV9Fo09cIJW5Q",
+          "title": "6月9日信息汇总",
+          "date": "2026-06-09",
+          "accidents": [
+            "6月9日",
+            "国内第一全球第二(仅次于巴斯夫),AI服务器TLVR电感刚需,台达核心供应商"
+          ],
+          "insights": [
+            "羰基铁粉(电感核心原材料)"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "羰基铁粉(电感核心原材料)"
+          ],
+          "industry_position": [
+            "台达/三星电机/TDK供应商"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-06-09",
       "concepts": [
         "3D打印",
         "专精特新",
@@ -158934,7 +159034,16 @@
       ],
       "industry": "有色金属-金属新材料-磁性材料",
       "board": "SH",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "羰基铁粉(电感核心原材料)"
+      ],
+      "industry_position": [
+        "台达/三星电机/TDK供应商"
+      ],
+      "chain": [
+        "中游-制造"
+      ]
     },
     "688787": {
       "code": "688787",
