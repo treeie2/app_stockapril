@@ -1655,13 +1655,13 @@
                         const moreCount = (group.stocks || []).length - 6;
                         
                         html += `
-                        <div class="group-card" data-group-id="${group.id}" style="background:rgba(15,22,35,.8);border:1px solid rgba(${hexToRgb(group.color || '#3b82f6')},.2);border-radius:10px;padding:1rem;transition:all .2s;">
+                        <div class="group-card" data-group-id="${group.id}" onclick="window.location='/group/${group.id}'" style="cursor:pointer;background:rgba(15,22,35,.8);border:1px solid rgba(${hexToRgb(group.color || '#3b82f6')},.2);border-radius:10px;padding:1rem;transition:all .2s;">
                             <div style="display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem;position:relative;">
                                 <span style="font-size:1.2rem;">${group.icon || '📁'}</span>
-                                <span style="font-size:.95rem;font-weight:600;color:${group.color || 'var(--blue)'};flex:1;">${escapeHtml(group.name)}</span>
+                                <a href="/group/${group.id}" style="font-size:.95rem;font-weight:600;color:${group.color || 'var(--blue)'};flex:1;text-decoration:none;">${escapeHtml(group.name)}</a>
                                 <div style="display:flex;gap:6px;margin-left:auto;">
-                                    <button class="edit-group-btn" onclick="openEditGroupModal('${group.id}')" title="编辑分组" style="width:24px;height:24px;border-radius:50%;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .2s;font-size:12px;background:rgba(6,182,212,0.1);color:var(--cyan);">✏️</button>
-                                    <button class="delete-group-btn" onclick="deleteGroup('${group.id}', '${escapeHtml(group.name)}')" title="删除分组" style="width:24px;height:24px;border-radius:50%;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .2s;font-size:12px;background:rgba(244,63,94,0.1);color:var(--rose);">×</button>
+                                    <button class="edit-group-btn" onclick="event.stopPropagation();openEditGroupModal('${group.id}')" title="编辑分组" style="width:24px;height:24px;border-radius:50%;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .2s;font-size:12px;background:rgba(6,182,212,0.1);color:var(--cyan);">✏️</button>
+                                    <button class="delete-group-btn" onclick="event.stopPropagation();deleteGroup('${group.id}', '${escapeHtml(group.name)}')" title="删除分组" style="width:24px;height:24px;border-radius:50%;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .2s;font-size:12px;background:rgba(244,63,94,0.1);color:var(--rose);">×</button>
                                 </div>
                             </div>
                             ${group.description ? `<div style="font-size:.78rem;color:var(--t2);line-height:1.5;margin-bottom:.75rem;padding-bottom:.75rem;border-bottom:1px solid var(--border);">${escapeHtml(group.description.substring(0, 80))}${group.description.length > 80 ? '...' : ''}</div>` : ''}
@@ -1670,6 +1670,7 @@
                                 ${moreCount > 0 ? `<a href="/group/${group.id}" style="font-size:.72rem;color:var(--cyan);text-decoration:none;">+${moreCount}更多</a>` : ''}
                                 ${(group.stocks || []).length === 0 ? '<span style="font-size:.78rem;color:var(--t3);">暂无股票</span>' : ''}
                             </div>
+                            <div style="margin-top:.6rem;text-align:right;"><a href="/group/${group.id}" style="font-size:.72rem;color:var(--cyan);text-decoration:none;opacity:.7;">查看详情 →</a></div>
                         </div>`;
                     });
                     container.innerHTML = html;

@@ -517,7 +517,11 @@
         {% if stocks %}
         <div class="stocks-grid">
             {% for stock in stocks %}
+            {% if stock.code %}
             <a href="/stock/{{ stock.code }}" class="stock-card">
+            {% else %}
+            <div class="stock-card" style="opacity:.6;cursor:default;">
+            {% endif %}
                 <div class="stock-header">
                     <div>
                         <div class="stock-name">{{ stock.name }}</div>
@@ -542,7 +546,11 @@
                         <div class="metric-label">相关文章</div>
                     </div>
                 </div>
+            {% if stock.code %}
             </a>
+            {% else %}
+            </div>
+            {% endif %}
             {% endfor %}
         </div>
         {% else %}

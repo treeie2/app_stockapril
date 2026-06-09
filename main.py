@@ -967,11 +967,11 @@ def hot_topic_detail(topic_id):
     related_stocks = []
     for stock_name in topic.get('stocks', []):
         found = False
+        # 精确匹配
         for code, stock_data in stocks.items():
             if stock_data.get('name') == stock_name:
                 related_stocks.append({
-                    'code': code,
-                    'name': stock_data.get('name', ''),
+                    'code': code, 'name': stock_data.get('name', ''),
                     'board': stock_data.get('board', ''),
                     'industry': stock_data.get('industry', ''),
                     'concepts': stock_data.get('concepts', []),
@@ -981,17 +981,75 @@ def hot_topic_detail(topic_id):
                 found = True
                 break
         if not found:
+            # 模糊匹配：去除空格、大小写等
+            sn = stock_name.replace(' ', '').lower()
+            for code, stock_data in stocks.items():
+                mn = stock_data.get('name', '').replace(' ', '').lower()
+                if mn == sn or (len(sn) >= 2 and sn in mn) or (len(mn) >= 2 and mn in sn):
+                    related_stocks.append({
+                        'code': code, 'name': stock_data.get('name', ''),
+                        'board': stock_data.get('board', ''),
+                        'industry': stock_data.get('industry', ''),
+                        'concepts': stock_data.get('concepts', []),
+                        'mention_count': stock_data.get('mention_count', 0),
+                        'articles': stock_data.get('articles', [])
+                    })
+                    found = True
+                    break
+        if not found:
             related_stocks.append({
-                'code': '',
-                'name': stock_name,
-                'board': '',
-                'industry': '未录入数据库',
-                'concepts': [],
-                'mention_count': 0,
-                'articles': []
+                'code': '', 'name': stock_name,
+                'board': '', 'industry': '未录入数据库',
+                'concepts': [], 'mention_count': 0, 'articles': []
             })
     
     return render_template('hot_topic_detail.html', topic=topic, stocks=related_stocks)
+
+def _fetch_prices(codes):
+    """从腾讯财经获取实时行情"""
+    if not codes: return {}
+    qstr = ','.join(('sh' if c.startswith(('60','688','9')) else 'sz') + c for c in codes)
+    url = f'http://qt.gtimg.cn/q={qstr}'
+    try:
+        r = requests.get(url, timeout=5)
+        r.encoding = 'gbk'
+        prices = {}
+        for line in r.text.strip().split(';'):
+            if not line.strip(): continue
+            parts = line.split('~')
+            if len(parts) < 32: continue
+            code = parts[2] if len(parts) > 2 else ''
+            name = parts[1] if len(parts) > 1 else ''
+            current = parts[3] if len(parts) > 3 else '0'
+            yest_close = parts[4] if len(parts) > 4 else '0'
+            open_px = parts[5] if len(parts) > 5 else '0'
+            high = parts[33] if len(parts) > 33 else '0'
+            low = parts[34] if len(parts) > 34 else '0'
+            volume = parts[6] if len(parts) > 6 else '0'
+            amount = parts[37] if len(parts) > 37 else '0'
+            if code and current and yest_close:
+                cur = float(current)
+                cls = float(yest_close)
+                if cls > 0:
+                    pct = round((cur - cls) / cls * 100, 2)
+                    prices[code] = {
+                        'name': name, 'price': cur, 'yest_close': cls, 
+                        'pct': pct, 'open': float(open_px), 'high': float(high),
+                        'low': float(low), 'volume': int(volume) if volume.isdigit() else 0,
+                        'amount': float(amount) if amount.replace('.','',1).isdigit() else 0,
+                    }
+        return prices
+    except Exception as e:
+        print(f'⚠️ 获取行情失败: {e}')
+        return {}
+
+@app.route('/api/stock-prices')
+def api_stock_prices():
+    """实时行情 API"""
+    codes_str = request.args.get('codes', '')
+    if not codes_str: return jsonify({})
+    codes = [c.strip() for c in codes_str.split(',') if c.strip()]
+    return jsonify(_fetch_prices(codes))
 
 @app.route('/group/<group_id>')
 def group_detail(group_id):

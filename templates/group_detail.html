@@ -379,6 +379,9 @@
                             <div class="stock-name">{{ stock.name }}</div>
                             <div class="stock-code">{{ stock.code }}</div>
                         </div>
+                        <div class="stock-change" id="change-{{ stock.code }}" style="font-size:.85rem;font-weight:600;font-family:var(--mono);">
+                            <span style="color:var(--t3);font-size:.7rem;">--</span>
+                        </div>
                     </div>
                     {% if stock.industry %}
                     <div class="stock-industry">{{ stock.industry }}</div>
@@ -409,5 +412,26 @@
     <footer class="footer">
         CYBERRESEARCH © 2026 · AI-Powered Investment Research Platform
     </footer>
+    
+    <script>
+    // 获取实时行情
+    const codes = [{% for stock in stocks %}'{{ stock.code }}'{% if not loop.last %},{% endif %}{% endfor %}];
+    if (codes.length > 0) {
+        fetch('/api/stock-prices?codes=' + codes.join(','))
+            .then(r => r.json())
+            .then(data => {
+                Object.keys(data).forEach(code => {
+                    const p = data[code];
+                    const el = document.getElementById('change-' + code);
+                    if (el && p.pct !== undefined) {
+                        const cls = p.pct >= 0 ? 'var(--rose)' : 'var(--green)';
+                        const arrow = p.pct >= 0 ? '▲' : '▼';
+                        el.innerHTML = `<span style="color:${cls}">${arrow} ${p.price.toFixed(2)} ${p.pct >= 0 ? '+' : ''}${p.pct.toFixed(2)}%</span>`;
+                    }
+                });
+            })
+            .catch(e => console.warn('行情加载失败', e));
+    }
+    </script>
 </body>
 </html>
