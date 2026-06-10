@@ -62300,8 +62300,8 @@
       "partners": []
     },
     "300706": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-10",
       "concepts": [
         "HJT电池",
         "OLED",
@@ -62328,13 +62328,46 @@
           ],
           "title": "“HJT电池概念”深度解析与操作策略，7月9日",
           "source": "https://mp.weixin.qq.com/s/rfNk1HVG5fmM7Ufny722AQ"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/ujpEILe5w71sBNdGBMlVdQ",
+          "title": "阿石创：靶材涨价+光刻机材料，翻倍空间",
+          "date": "2026-06-10",
+          "accidents": [
+            "6月10日",
+            "靶材涨价20%毛利率从5%→20%,半导体靶材加速突破,子公司与xkl合作精密光学材料,国产DUV放量元年"
+          ],
+          "insights": [
+            "靶材涨价+光刻机材料"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "靶材涨价+光刻机材料"
+          ],
+          "industry_position": [
+            "靶材涨价20%毛利率从5%→20%,半导体靶材加速突破,子公司与xkl合作精密光学材料,国产DUV放量元年"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
         }
       ],
       "industry": "电子-半导体-半导体材料",
       "board": "SZ",
       "code": "300706",
       "name": "阿石创",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "靶材涨价+光刻机材料"
+      ],
+      "industry_position": [
+        "靶材涨价20%毛利率从5%→20%,半导体靶材加速突破,子公司与xkl合作精密光学材料,国产DUV放量元年"
+      ],
+      "chain": [
+        "中游-制造"
+      ]
     },
     "300707": {
       "mention_count": 1,
@@ -73822,8 +73855,8 @@
       ]
     },
     "301629": {
-      "mention_count": 2,
-      "last_updated": "2026-05-31",
+      "mention_count": 3,
+      "last_updated": "2026-06-10",
       "concepts": [
         "专精特新",
         "华为概念",
@@ -73865,6 +73898,30 @@
           "accidents": [
             "打破了海外企业在该设备领域的进口垄断"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/BhgHvHQ6ea6AJFThIh9x5Q",
+          "title": "矽电股份：NPO/硅光设备稀缺标的，翻倍空间",
+          "date": "2026-06-10",
+          "accidents": [
+            "6月10日",
+            "华为哈勃持股3%,NPO/CPO检测放量,联讯探针台核心供应商(1:1配套),兆驰3.35亿合同,目标400亿"
+          ],
+          "insights": [
+            "国产探针台份额第一+硅光检测"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "国产探针台份额第一+硅光检测"
+          ],
+          "industry_position": [
+            "华为哈勃持股3%,NPO/CPO检测放量,联讯探针台核心供应商(1:1配套),兆驰3.35亿合同,目标400亿"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
         }
       ],
       "industry": "电子-半导体-半导体设备",
@@ -132372,7 +132429,7 @@
       "code": "002048",
       "name": "宁波华翔",
       "concept": "",
-      "mention_count": 3,
+      "mention_count": 4,
       "articles": [
         {
           "title": "涉足PEEK领域的上市公司盘点",
@@ -132438,9 +132495,33 @@
             "中游-制造"
           ],
           "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/ueEuolUrEgicWOktiXVExw",
+          "title": "宁波华翔：T机器人独家供应商，3倍空间",
+          "date": "2026-06-10",
+          "accidents": [
+            "6月10日",
+            "独家供应T机器人,asp 2万/台,北美合资(中印唯一),长期asp不止2万,目标800亿市值(主业15亿+机器人20亿+)"
+          ],
+          "insights": [
+            "T机器人连接器+线束总成"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "T机器人连接器+线束总成"
+          ],
+          "industry_position": [
+            "独家供应T机器人,asp 2万/台,北美合资(中印唯一),长期asp不止2万,目标800亿市值(主业15亿+机器人20亿+)"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
         }
       ],
-      "last_updated": "2026-06-09",
+      "last_updated": "2026-06-10",
       "core_business": [
         "汽车零部件+PEEK材料"
       ],
