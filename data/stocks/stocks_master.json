@@ -928,8 +928,8 @@
       ]
     },
     "002156": {
-      "mention_count": 4,
-      "last_updated": "2026-06-05",
+      "mention_count": 5,
+      "last_updated": "2026-06-10",
       "partners": [
         "AMD"
       ],
@@ -1014,6 +1014,33 @@
             "从\"卖流量\"到\"卖算力\"：电信9.9元Token套餐背后，藏着一条164亿集采产业链_20260518"
           ],
           "target_valuation": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/EKdBqZXSB1kMbX4pzuPHjQ",
+          "title": "全球半导体代工第二极崛起：先进封装与设备红利周期",
+          "date": "2026-06-10",
+          "accidents": [
+            "英特尔18A良率80%+,EMIB良率90-95%,谷歌锁定300万+TPU订单替代台积电",
+            "Q1净利+224%,承接AMD高端CPU/GPU封测,异构封装"
+          ],
+          "insights": [
+            "AMD深度绑定,AI算力封装先锋"
+          ],
+          "key_metrics": [
+            "英特尔18A产能+100%",
+            "先进封装国产化加速"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "AMD深度绑定,AI算力封装先锋"
+          ],
+          "industry_position": [
+            "Q1净利+224%,承接AMD高端CPU/GPU封测,异构封装"
+          ],
+          "chain": [
+            "半导体产业链"
+          ],
+          "partners": []
         }
       ],
       "board": "SZ",
@@ -1207,8 +1234,8 @@
       ]
     },
     "002371": {
-      "mention_count": 6,
-      "last_updated": "2026-06-09",
+      "mention_count": 7,
+      "last_updated": "2026-06-10",
       "partners": [
         "中芯国际并购重组将带动上游封测需求，长电科技作为核心供应商",
         "中芯国际并购重组将带动设备采购需求，北方华创作为国产设备核心供应商",
@@ -1357,6 +1384,33 @@
           ],
           "chain": [
             "中游-制造"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/EKdBqZXSB1kMbX4pzuPHjQ",
+          "title": "全球半导体代工第二极崛起：先进封装与设备红利周期",
+          "date": "2026-06-10",
+          "accidents": [
+            "英特尔18A良率80%+,EMIB良率90-95%,谷歌锁定300万+TPU订单替代台积电",
+            "营收394亿,研发占18.49%,Q1经营现金流+143%,全工艺覆盖"
+          ],
+          "insights": [
+            "平台型国产设备旗舰"
+          ],
+          "key_metrics": [
+            "英特尔18A产能+100%",
+            "先进封装国产化加速"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "平台型国产设备旗舰"
+          ],
+          "industry_position": [
+            "营收394亿,研发占18.49%,Q1经营现金流+143%,全工艺覆盖"
+          ],
+          "chain": [
+            "半导体产业链"
           ],
           "partners": []
         }
@@ -4070,8 +4124,8 @@
       "description": "子公司中昊晨光PTFE产能3.3万吨/年，技术对标国际，用于5G基站及高端装备密封"
     },
     "600584": {
-      "mention_count": 6,
-      "last_updated": "2026-06-05",
+      "mention_count": 7,
+      "last_updated": "2026-06-10",
       "partners": [
         "平头哥(阿里)"
       ],
@@ -4235,6 +4289,33 @@
             "长鑫存储",
             "长江存储"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/EKdBqZXSB1kMbX4pzuPHjQ",
+          "title": "全球半导体代工第二极崛起：先进封装与设备红利周期",
+          "date": "2026-06-10",
+          "accidents": [
+            "英特尔18A良率80%+,EMIB良率90-95%,谷歌锁定300万+TPU订单替代台积电",
+            "市占率12.2%,XDFOI异构集成,CPO验证,产能利用率>80%利润释放"
+          ],
+          "insights": [
+            "全球OSAT第三,国内第一"
+          ],
+          "key_metrics": [
+            "英特尔18A产能+100%",
+            "先进封装国产化加速"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "全球OSAT第三,国内第一"
+          ],
+          "industry_position": [
+            "市占率12.2%,XDFOI异构集成,CPO验证,产能利用率>80%利润释放"
+          ],
+          "chain": [
+            "半导体产业链"
+          ],
+          "partners": []
         }
       ],
       "board": "SH",
@@ -4532,8 +4613,8 @@
       ]
     },
     "688012": {
-      "mention_count": 5,
-      "last_updated": "2026-06-09",
+      "mention_count": 6,
+      "last_updated": "2026-06-10",
       "partners": [
         "中芯国际并购重组将带动上游封测需求，长电科技作为核心供应商",
         "中芯国际并购重组将带动设备采购需求，北方华创作为国产设备核心供应商",
@@ -4665,6 +4746,33 @@
           ],
           "chain": [
             "中游-制造"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/EKdBqZXSB1kMbX4pzuPHjQ",
+          "title": "全球半导体代工第二极崛起：先进封装与设备红利周期",
+          "date": "2026-06-10",
+          "accidents": [
+            "英特尔18A良率80%+,EMIB良率90-95%,谷歌锁定300万+TPU订单替代台积电",
+            "Q1净利+197%,CCP60:1刻蚀,LPCVD+224%,并购杭州众硅切入CMP"
+          ],
+          "insights": [
+            "刻蚀设备全球领先"
+          ],
+          "key_metrics": [
+            "英特尔18A产能+100%",
+            "先进封装国产化加速"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "刻蚀设备全球领先"
+          ],
+          "industry_position": [
+            "Q1净利+197%,CCP60:1刻蚀,LPCVD+224%,并购杭州众硅切入CMP"
+          ],
+          "chain": [
+            "半导体产业链"
           ],
           "partners": []
         }
@@ -23690,8 +23798,8 @@
       "name": "怡亚通"
     },
     "002185": {
-      "mention_count": 3,
-      "last_updated": "2026-06-05",
+      "mention_count": 4,
+      "last_updated": "2026-06-10",
       "partners": [
         "收购推进"
       ],
@@ -23757,6 +23865,33 @@
             "先进封装方向"
           ],
           "accidents": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/EKdBqZXSB1kMbX4pzuPHjQ",
+          "title": "全球半导体代工第二极崛起：先进封装与设备红利周期",
+          "date": "2026-06-10",
+          "accidents": [
+            "英特尔18A良率80%+,EMIB良率90-95%,谷歌锁定300万+TPU订单替代台积电",
+            "Q1净利+568%,盘古晶圆级先进封装,车规FCBGA,ePoP存储封装"
+          ],
+          "insights": [
+            "多基地差异化+盘古项目"
+          ],
+          "key_metrics": [
+            "英特尔18A产能+100%",
+            "先进封装国产化加速"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "多基地差异化+盘古项目"
+          ],
+          "industry_position": [
+            "Q1净利+568%,盘古晶圆级先进封装,车规FCBGA,ePoP存储封装"
+          ],
+          "chain": [
+            "半导体产业链"
+          ],
+          "partners": []
         }
       ],
       "board": "SZ",
@@ -23770,7 +23905,9 @@
       ],
       "name": "华天科技",
       "code": "002185",
-      "core_business": []
+      "core_business": [
+        "多基地差异化+盘古项目"
+      ]
     },
     "002186": {
       "core_business": [],
@@ -111670,8 +111807,8 @@
       "name": "纵横股份"
     },
     "688072": {
-      "mention_count": 5,
-      "last_updated": "2026-06-09",
+      "mention_count": 6,
+      "last_updated": "2026-06-10",
       "partners": [],
       "concepts": [
         "国家大基金持股",
@@ -111774,6 +111911,33 @@
           ],
           "chain": [
             "中游-制造"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/EKdBqZXSB1kMbX4pzuPHjQ",
+          "title": "全球半导体代工第二极崛起：先进封装与设备红利周期",
+          "date": "2026-06-10",
+          "accidents": [
+            "英特尔18A良率80%+,EMIB良率90-95%,谷歌锁定300万+TPU订单替代台积电",
+            "PECVD+75%,ALD+192%,在手订单110亿,混合键合+CoW"
+          ],
+          "insights": [
+            "薄膜沉积+三维集成键合龙头"
+          ],
+          "key_metrics": [
+            "英特尔18A产能+100%",
+            "先进封装国产化加速"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "薄膜沉积+三维集成键合龙头"
+          ],
+          "industry_position": [
+            "PECVD+75%,ALD+192%,在手订单110亿,混合键合+CoW"
+          ],
+          "chain": [
+            "半导体产业链"
           ],
           "partners": []
         }
