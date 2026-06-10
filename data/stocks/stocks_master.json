@@ -14321,7 +14321,7 @@
       "core_business": [
         "中重稀土资源开采"
       ],
-      "last_updated": "2026-06-05",
+      "last_updated": "2026-06-10",
       "industry_position": [
         "全球领先",
         "龙头",
@@ -14342,7 +14342,7 @@
         "融资融券"
       ],
       "code": "000831",
-      "mention_count": 5,
+      "mention_count": 6,
       "partners": [],
       "articles": [
         {
@@ -14427,6 +14427,30 @@
             "北方稀土：首选标的，资源垄断+业绩爆发+估值合理，目标价56-62元",
             "今早8点分享的北方稀土精准命中涨停，验证了我们对稀土板块的判断。从近期走势看，北方稀土经历了\"冲高-回调-爆发\"的完整周期，一季报业绩暴增113.12%成为股价爆发的催化剂。在高油"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/UxneFpNgJ6QAoJ-Y2roOsw",
+          "title": "村田MLCC涨价+氧化镝拐点",
+          "date": "2026-06-10",
+          "accidents": [
+            "6月10日",
+            "中稀集团承诺27年初解决同业竞争,氧化镝国内产量3000吨中大集团内6-700吨,MLCC用高纯氧化镝垄断"
+          ],
+          "insights": [
+            "中稀集团上市平台,氧化镝龙头"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "中稀集团上市平台,氧化镝龙头"
+          ],
+          "industry_position": [
+            "中稀集团承诺27年初解决同业竞争,氧化镝国内产量3000吨中大集团内6-700吨,MLCC用高纯氧化镝垄断"
+          ],
+          "chain": [
+            "中游-材料"
+          ],
+          "partners": []
         }
       ],
       "board": "SZ",
@@ -79026,8 +79050,8 @@
       "partners": []
     },
     "600259": {
-      "mention_count": 4,
-      "last_updated": "2026-05-31",
+      "mention_count": 5,
+      "last_updated": "2026-06-10",
       "concepts": [
         "2026一季报预增",
         "中字头股票",
@@ -79112,6 +79136,30 @@
             "北方稀土：首选标的，资源垄断+业绩爆发+估值合理，目标价56-62元",
             "今早8点分享的北方稀土精准命中涨停，验证了我们对稀土板块的判断。从近期走势看，北方稀土经历了\"冲高-回调-爆发\"的完整周期，一季报业绩暴增113.12%成为股价爆发的催化剂。在高油"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/UxneFpNgJ6QAoJ-Y2roOsw",
+          "title": "村田MLCC涨价+氧化镝拐点",
+          "date": "2026-06-10",
+          "accidents": [
+            "6月10日",
+            "中稀集团承诺28年底解决同业竞争,氧化镝产量接近中国稀土,布局钨矿"
+          ],
+          "insights": [
+            "广东中重稀土龙头,氧化镝+钨矿"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "广东中重稀土龙头,氧化镝+钨矿"
+          ],
+          "industry_position": [
+            "中稀集团承诺28年底解决同业竞争,氧化镝产量接近中国稀土,布局钨矿"
+          ],
+          "chain": [
+            "中游-材料"
+          ],
+          "partners": []
         }
       ],
       "industry": "有色金属-小金属-稀土",
@@ -79121,7 +79169,10 @@
       "core_business": [
         "稀土冶炼分离"
       ],
-      "partners": []
+      "partners": [],
+      "chain": [
+        "中游-材料"
+      ]
     },
     "600260": {
       "mention_count": 1,
@@ -80979,8 +81030,8 @@
       "name": "五矿资本"
     },
     "600392": {
-      "mention_count": 5,
-      "last_updated": "2026-06-05",
+      "mention_count": 6,
+      "last_updated": "2026-06-10",
       "concepts": [
         "2025年报预增",
         "参股保险",
@@ -81084,6 +81135,30 @@
             "北方稀土：首选标的，资源垄断+业绩爆发+估值合理，目标价56-62元",
             "今早8点分享的北方稀土精准命中涨停，验证了我们对稀土板块的判断。从近期走势看，北方稀土经历了\"冲高-回调-爆发\"的完整周期，一季报业绩暴增113.12%成为股价爆发的催化剂。在高油"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/UxneFpNgJ6QAoJ-Y2roOsw",
+          "title": "村田MLCC涨价+氧化镝拐点",
+          "date": "2026-06-10",
+          "accidents": [
+            "6月10日",
+            "收购江阴加华扩大稀土版图"
+          ],
+          "insights": [
+            "稀土龙头,收购江阴加华"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "稀土龙头,收购江阴加华"
+          ],
+          "industry_position": [
+            "收购江阴加华扩大稀土版图"
+          ],
+          "chain": [
+            "中游-材料"
+          ],
+          "partners": []
         }
       ],
       "industry": "有色金属-小金属-稀土",
@@ -81094,7 +81169,10 @@
         "稀土分离",
         "稀土回收"
       ],
-      "partners": []
+      "partners": [],
+      "chain": [
+        "中游-材料"
+      ]
     },
     "600400": {
       "mention_count": 2,
@@ -154096,8 +154174,33 @@
       "name": "宿迁联盛",
       "concept": "",
       "mention_count": 1,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/GvymzmveG5AiKUNJoB4DEQ",
+          "title": "宿迁联盛：磷化铟衬底+光稳定剂+光伏",
+          "date": "2026-06-10",
+          "accidents": [
+            "6月10日",
+            "传统主业HALS去库存尾声,磷化铟衬底跨界(合资70%),一期12万片,面向1.6T/3.2T光模块+LiDAR"
+          ],
+          "insights": [
+            "光稳定剂(HALS)龙头+磷化铟衬底"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "光稳定剂(HALS)龙头+磷化铟衬底"
+          ],
+          "industry_position": [
+            "传统主业HALS去库存尾声,磷化铟衬底跨界(合资70%),一期12万片,面向1.6T/3.2T光模块+LiDAR"
+          ],
+          "chain": [
+            "中游-材料"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-06-10",
       "concepts": [
         "专精特新",
         "光伏概念",
@@ -154105,7 +154208,16 @@
       ],
       "industry": "基础化工-化学制品-其他化学制品",
       "board": "SH",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "光稳定剂(HALS)龙头+磷化铟衬底"
+      ],
+      "industry_position": [
+        "传统主业HALS去库存尾声,磷化铟衬底跨界(合资70%),一期12万片,面向1.6T/3.2T光模块+LiDAR"
+      ],
+      "chain": [
+        "中游-材料"
+      ]
     },
     "603080": {
       "code": "603080",
