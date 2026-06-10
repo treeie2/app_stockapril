@@ -3847,8 +3847,8 @@
       "description": "全球第二大刚性覆铜板企业，超低损耗CCL通过英伟达验证"
     },
     "600378": {
-      "mention_count": 7,
-      "last_updated": "2026-06-04",
+      "mention_count": 8,
+      "last_updated": "2026-06-10",
       "partners": [],
       "name": "昊华科技",
       "industry_position": [
@@ -3985,6 +3985,30 @@
           "industry_position": [],
           "chain": [
             "概念-其他"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/5stY69kkBVz8Dbg7n5-PUg",
+          "title": "6月10日首板逻辑",
+          "date": "2026-06-10",
+          "accidents": [
+            "6月10日首板涨停",
+            "六氟化钨涨价"
+          ],
+          "insights": [
+            "六氟化钨600吨+PCB"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "六氟化钨600吨+PCB"
+          ],
+          "industry_position": [
+            "六氟化钨涨价"
+          ],
+          "chain": [
+            "首板涨停"
           ],
           "partners": []
         }
@@ -13841,7 +13865,7 @@
       "core_business": [
         "IDC与算力租赁服务"
       ],
-      "last_updated": "2026-05-31",
+      "last_updated": "2026-06-10",
       "industry_position": [
         "小米系核心供应商"
       ],
@@ -13861,7 +13885,7 @@
         "西部大开发"
       ],
       "code": "000815",
-      "mention_count": 1,
+      "mention_count": 2,
       "partners": [
         "小米"
       ],
@@ -13874,6 +13898,30 @@
             "业务与公共云、智算集群政策高度契合，",
             "直接享受政策红利，"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/5stY69kkBVz8Dbg7n5-PUg",
+          "title": "6月10日首板逻辑",
+          "date": "2026-06-10",
+          "accidents": [
+            "6月10日首板涨停",
+            "中卫节点50MW,Q1+102.61%"
+          ],
+          "insights": [
+            "算力+东数西算"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "算力+东数西算"
+          ],
+          "industry_position": [
+            "中卫节点50MW,Q1+102.61%"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
         }
       ],
       "board": "SZ",
@@ -22873,7 +22921,7 @@
       "core_business": [
         "国内冰箱冷柜保温材料的龙头企业"
       ],
-      "last_updated": "2026-06-05",
+      "last_updated": "2026-06-10",
       "industry_position": [
         "龙头",
         "箱冷柜保温材料的龙头"
@@ -22889,7 +22937,7 @@
         "融资融券"
       ],
       "code": "002165",
-      "mention_count": 1,
+      "mention_count": 2,
       "partners": [],
       "articles": [
         {
@@ -22899,6 +22947,30 @@
           ],
           "title": "20250418-今日操作策略与风险提示-文末竞价参考",
           "source": "https://mp.weixin.qq.com/s/nIcKkNu0Eof4uRc9z6XHew"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/5stY69kkBVz8Dbg7n5-PUg",
+          "title": "6月10日首板逻辑",
+          "date": "2026-06-10",
+          "accidents": [
+            "6月10日首板涨停",
+            "泰兴基地16万吨环氧丙烷技改,6月30日达可使用状态"
+          ],
+          "insights": [
+            "环氧丙烷+技改"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "环氧丙烷+技改"
+          ],
+          "industry_position": [
+            "泰兴基地16万吨环氧丙烷技改,6月30日达可使用状态"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
         }
       ],
       "board": "SZ",
@@ -24438,9 +24510,13 @@
       "name": "准油股份"
     },
     "002208": {
-      "core_business": [],
-      "last_updated": "2026-05-10",
-      "industry_position": [],
+      "core_business": [
+        "间接投资长鑫科技"
+      ],
+      "last_updated": "2026-06-10",
+      "industry_position": [
+        "国联基金间接投资"
+      ],
       "valuation": {},
       "industry": "房地产-房地产-住宅开发",
       "concepts": [
@@ -24455,7 +24531,7 @@
         "深股通"
       ],
       "code": "002208",
-      "mention_count": 1,
+      "mention_count": 2,
       "partners": [],
       "articles": [
         {
@@ -24465,11 +24541,37 @@
           "insights": [
             "合肥城建：股权增值受益标的"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/5stY69kkBVz8Dbg7n5-PUg",
+          "title": "6月10日首板逻辑",
+          "date": "2026-06-10",
+          "accidents": [
+            "6月10日首板涨停",
+            "国联基金间接投资"
+          ],
+          "insights": [
+            "间接投资长鑫科技"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "间接投资长鑫科技"
+          ],
+          "industry_position": [
+            "国联基金间接投资"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
         }
       ],
       "board": "SZ",
       "products": [],
-      "chain": [],
+      "chain": [
+        "首板涨停"
+      ],
       "name": "合肥城建"
     },
     "002212": {
@@ -25919,7 +26021,7 @@
         "国产算力自主可控",
         "算力调度服务"
       ],
-      "last_updated": "2026-05-31",
+      "last_updated": "2026-06-10",
       "industry_position": [
         "国产算力领军",
         "华为昇腾核心合作伙伴"
@@ -25960,7 +26062,7 @@
         "鸿蒙概念"
       ],
       "code": "002261",
-      "mention_count": 2,
+      "mention_count": 3,
       "partners": [
         "华为",
         "英伟达"
@@ -26002,6 +26104,30 @@
             "3   拓维信息 (002261)   约 2.0-2.5万P   华为昇腾生态核心，国产算力市占率领先。"
           ],
           "target_valuation": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/5stY69kkBVz8Dbg7n5-PUg",
+          "title": "6月10日首板逻辑",
+          "date": "2026-06-10",
+          "accidents": [
+            "6月10日首板涨停",
+            "兆瀚DS一体机,鸿蒙+智元"
+          ],
+          "insights": [
+            "华为昇腾+AI应用"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "华为昇腾+AI应用"
+          ],
+          "industry_position": [
+            "兆瀚DS一体机,鸿蒙+智元"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
         }
       ],
       "board": "SZ",
@@ -30547,8 +30673,8 @@
       ]
     },
     "002409": {
-      "mention_count": 5,
-      "last_updated": "2026-06-04",
+      "mention_count": 6,
+      "last_updated": "2026-06-10",
       "concepts": [
         "OLED",
         "专精特新",
@@ -30697,6 +30823,30 @@
             "长鑫存储",
             "长江存储"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/5stY69kkBVz8Dbg7n5-PUg",
+          "title": "6月10日首板逻辑",
+          "date": "2026-06-10",
+          "accidents": [
+            "6月10日首板涨停",
+            "HBM前驱体供CoWoS"
+          ],
+          "insights": [
+            "半导体前驱体+HBM"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "半导体前驱体+HBM"
+          ],
+          "industry_position": [
+            "HBM前驱体供CoWoS"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
         }
       ],
       "industry": "电子-半导体-半导体材料",
@@ -36619,8 +36769,8 @@
       ]
     },
     "002657": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-10",
       "concepts": [
         "AIGC概念",
         "AI应用",
@@ -36671,6 +36821,30 @@
           ],
           "title": "热点关注，今日操作策略与风险提示，底部竞价参考，6月24日",
           "source": "https://mp.weixin.qq.com/s/exaHU0-Xyn1YDfApfLpDdQ"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/5stY69kkBVz8Dbg7n5-PUg",
+          "title": "6月10日首板逻辑",
+          "date": "2026-06-10",
+          "accidents": [
+            "6月10日首板涨停",
+            "算力/Agent,客户粘性77.48%"
+          ],
+          "insights": [
+            "AI全栈+金融科技"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "AI全栈+金融科技"
+          ],
+          "industry_position": [
+            "算力/Agent,客户粘性77.48%"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
         }
       ],
       "industry": "计算机-IT服务-IT服务Ⅲ",
@@ -36680,7 +36854,16 @@
       ],
       "code": "002657",
       "name": "中科金财",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "AI全栈+金融科技"
+      ],
+      "industry_position": [
+        "算力/Agent,客户粘性77.48%"
+      ],
+      "chain": [
+        "首板涨停"
+      ]
     },
     "002664": {
       "mention_count": 1,
@@ -51250,8 +51433,8 @@
       ]
     },
     "300264": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-10",
       "concepts": [
         "AIGC概念",
         "MR(混合现实)",
@@ -51278,13 +51461,46 @@
           "insights": [
             "2025年因控股股东拟变更，新增“股权转让（并购重组）”概念，市场关注其未来战略调整和业务整合潜力。"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/5stY69kkBVz8Dbg7n5-PUg",
+          "title": "6月10日首板逻辑",
+          "date": "2026-06-10",
+          "accidents": [
+            "6月10日首板涨停",
+            "仙剑MR互动游戏"
+          ],
+          "insights": [
+            "VR/AR"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "VR/AR"
+          ],
+          "industry_position": [
+            "仙剑MR互动游戏"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
         }
       ],
       "industry": "计算机-IT服务-IT服务Ⅲ",
       "board": "SZ",
       "code": "300264",
       "name": "佳创视讯",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "VR/AR"
+      ],
+      "industry_position": [
+        "仙剑MR互动游戏"
+      ],
+      "chain": [
+        "首板涨停"
+      ]
     },
     "300269": {
       "mention_count": 1,
@@ -62001,8 +62217,8 @@
       ]
     },
     "300721": {
-      "mention_count": 2,
-      "last_updated": "2026-06-05",
+      "mention_count": 3,
+      "last_updated": "2026-06-10",
       "concepts": [
         "OLED",
         "光刻胶",
@@ -62040,6 +62256,30 @@
             "：珠海 3 万吨产能已满产；泰兴二期 5 万吨高端专用醇醚项目（含湿电子化学品）已在 2026 年初备案并进入建设/爬坡阶段。"
           ],
           "target_valuation": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/5stY69kkBVz8Dbg7n5-PUg",
+          "title": "6月10日首板逻辑",
+          "date": "2026-06-10",
+          "accidents": [
+            "6月10日首板涨停",
+            "15万吨环氧丙烷,绿色技术"
+          ],
+          "insights": [
+            "HPPO环氧丙烷"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "HPPO环氧丙烷"
+          ],
+          "industry_position": [
+            "15万吨环氧丙烷,绿色技术"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
         }
       ],
       "industry": "基础化工-化学制品-其他化学制品",
@@ -77847,8 +78087,8 @@
       "partners": []
     },
     "600206": {
-      "mention_count": 3,
-      "last_updated": "2026-06-05",
+      "mention_count": 4,
+      "last_updated": "2026-06-10",
       "partners": [],
       "concepts": [
         "2025年报预增",
@@ -77918,6 +78158,30 @@
           "source": "https://mp.weixin.qq.com/s/5bluU2s8izAKQ9K3Fb2KGA",
           "insights": [],
           "accidents": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/5stY69kkBVz8Dbg7n5-PUg",
+          "title": "6月10日首板逻辑",
+          "date": "2026-06-10",
+          "accidents": [
+            "6月10日首板涨停",
+            "长存/长鑫供应商,靶材收入+50%"
+          ],
+          "insights": [
+            "半导体靶材+存储"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "半导体靶材+存储"
+          ],
+          "industry_position": [
+            "长存/长鑫供应商,靶材收入+50%"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
         }
       ],
       "board": "SH",
@@ -87324,8 +87588,8 @@
       "partners": []
     },
     "600843": {
-      "mention_count": 1,
-      "last_updated": "2026-05-10",
+      "mention_count": 2,
+      "last_updated": "2026-06-10",
       "concepts": [
         "机器人概念",
         "沪股通",
@@ -87353,6 +87617,30 @@
           "accidents": [
             "北京穿越者公司已预订首批 20 余位太空游客"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/5stY69kkBVz8Dbg7n5-PUg",
+          "title": "6月10日首板逻辑",
+          "date": "2026-06-10",
+          "accidents": [
+            "6月10日首板涨停",
+            "MOSAIC飞机+碳纤维缝制"
+          ],
+          "insights": [
+            "低空+机器人+碳纤维"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "低空+机器人+碳纤维"
+          ],
+          "industry_position": [
+            "MOSAIC飞机+碳纤维缝制"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
         }
       ],
       "industry": "机械设备-专用设备-纺织服装设备",
@@ -93611,8 +93899,8 @@
       "partners": []
     },
     "601678": {
-      "mention_count": 3,
-      "last_updated": "2026-06-05",
+      "mention_count": 4,
+      "last_updated": "2026-06-10",
       "concepts": [
         "参股保险",
         "参股银行",
@@ -93675,6 +93963,30 @@
             "毛利率由2025年底的约10%提升至"
           ],
           "target_valuation": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/5stY69kkBVz8Dbg7n5-PUg",
+          "title": "6月10日首板逻辑",
+          "date": "2026-06-10",
+          "accidents": [
+            "6月10日首板涨停",
+            "中东冲突→原料价差增大,HF纯度超SEMI C12"
+          ],
+          "insights": [
+            "环氧丙烷+电子级氢氟酸"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "环氧丙烷+电子级氢氟酸"
+          ],
+          "industry_position": [
+            "中东冲突→原料价差增大,HF纯度超SEMI C12"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
         }
       ],
       "industry": "基础化工-化学原料-氯碱",
@@ -96511,8 +96823,8 @@
       "partners": []
     },
     "603011": {
-      "mention_count": 3,
-      "last_updated": "2026-06-05",
+      "mention_count": 4,
+      "last_updated": "2026-06-10",
       "concepts": [
         "沪股通",
         "军工",
@@ -96618,6 +96930,30 @@
           "target_valuation": [
             "：2025 年报归母净利润亏损 1.8 亿至 2.6 亿元（最终落定在 -2.49 亿元），2026 年一季度延续亏损（-2868 万元）。当前市场给予其近百亿"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/5stY69kkBVz8Dbg7n5-PUg",
+          "title": "6月10日首板逻辑",
+          "date": "2026-06-10",
+          "accidents": [
+            "6月10日首板涨停",
+            "合作新易盛/联特科技"
+          ],
+          "insights": [
+            "光模块结构件+PIM"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "光模块结构件+PIM"
+          ],
+          "industry_position": [
+            "合作新易盛/联特科技"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
         }
       ],
       "industry": "机械设备-专用设备-其他专用设备",
@@ -98604,8 +98940,8 @@
       ]
     },
     "603160": {
-      "mention_count": 1,
-      "last_updated": "2026-05-10",
+      "mention_count": 2,
+      "last_updated": "2026-06-10",
       "concepts": [
         "AI应用",
         "沪股通",
@@ -98643,13 +98979,46 @@
           "date": "2025-03-29",
           "title": "风口byTY",
           "source": "https://mp.weixin.qq.com/s/BhjhMod4TjccWvlj7sSQMA"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/5stY69kkBVz8Dbg7n5-PUg",
+          "title": "6月10日首板逻辑",
+          "date": "2026-06-10",
+          "accidents": [
+            "6月10日首板涨停",
+            "全球高端机型首选方案,GT9926大规模商用"
+          ],
+          "insights": [
+            "超声波指纹传感器"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "超声波指纹传感器"
+          ],
+          "industry_position": [
+            "全球高端机型首选方案,GT9926大规模商用"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
         }
       ],
       "industry": "电子-半导体-模拟芯片设计",
       "board": "SH",
       "code": "603160",
       "name": "汇顶科技",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "超声波指纹传感器"
+      ],
+      "industry_position": [
+        "全球高端机型首选方案,GT9926大规模商用"
+      ],
+      "chain": [
+        "首板涨停"
+      ]
     },
     "603163": {
       "mention_count": 1,
@@ -99265,8 +99634,8 @@
       "partners": []
     },
     "603220": {
-      "mention_count": 3,
-      "last_updated": "2026-06-05",
+      "mention_count": 4,
+      "last_updated": "2026-06-10",
       "concepts": [
         "5G",
         "6G概念",
@@ -99347,6 +99716,30 @@
             "3   拓维信息 (002261)   约 2.0-2.5万P   华为昇腾生态核心，国产算力市占率领先。"
           ],
           "target_valuation": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/5stY69kkBVz8Dbg7n5-PUg",
+          "title": "6月10日首板逻辑",
+          "date": "2026-06-10",
+          "accidents": [
+            "6月10日首板涨停",
+            "800G/1.6T光模块组件"
+          ],
+          "insights": [
+            "中标7.4亿+1.7万P算力"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "中标7.4亿+1.7万P算力"
+          ],
+          "industry_position": [
+            "800G/1.6T光模块组件"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
         }
       ],
       "industry": "通信-通信服务-通信工程及服务",
@@ -103445,8 +103838,8 @@
       "name": "利通电子"
     },
     "603636": {
-      "mention_count": 2,
-      "last_updated": "2026-06-05",
+      "mention_count": 3,
+      "last_updated": "2026-06-10",
       "concepts": [
         "AI应用",
         "AI智能体",
@@ -103524,6 +103917,30 @@
             "2025年归母净利润亏损4.47亿元，已充分消化减值与转型投入。随着Token工厂投产，2026年有望迎来毛利率的显著提升。"
           ],
           "target_valuation": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/5stY69kkBVz8Dbg7n5-PUg",
+          "title": "6月10日首板逻辑",
+          "date": "2026-06-10",
+          "accidents": [
+            "6月10日首板涨停",
+            "每分钟1亿Token+,服务280万+"
+          ],
+          "insights": [
+            "Token工厂+AI政务"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "Token工厂+AI政务"
+          ],
+          "industry_position": [
+            "每分钟1亿Token+,服务280万+"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
         }
       ],
       "industry": "计算机-IT服务-IT服务Ⅲ",
@@ -103541,6 +103958,12 @@
         "服务，不仅服务国内，更具备出海潜力（如阿尔及利亚等海外市场）",
         "。",
         "2026年3月MWC巴塞罗那期间，华为携手南威发布“政务智能体”解决方案"
+      ],
+      "industry_position": [
+        "每分钟1亿Token+,服务280万+"
+      ],
+      "chain": [
+        "首板涨停"
       ]
     },
     "603650": {
@@ -105602,8 +106025,8 @@
       "partners": []
     },
     "603823": {
-      "mention_count": 1,
-      "last_updated": "2026-05-10",
+      "mention_count": 2,
+      "last_updated": "2026-06-10",
       "concepts": [
         "光刻胶",
         "沪股通",
@@ -105618,6 +106041,30 @@
           "insights": [
             "直接降本受益线：美瑞新材（材料端降本最直接）、百合花（颜料端环保 + 成本双重收益），"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/5stY69kkBVz8Dbg7n5-PUg",
+          "title": "6月10日首板逻辑",
+          "date": "2026-06-10",
+          "accidents": [
+            "6月10日首板涨停",
+            "1000吨PEEK面向机器人/新能源车"
+          ],
+          "insights": [
+            "光刻胶颜料+PEEK"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "光刻胶颜料+PEEK"
+          ],
+          "industry_position": [
+            "1000吨PEEK面向机器人/新能源车"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
         }
       ],
       "industry": "基础化工-化学制品-涂料油墨",
@@ -105630,6 +106077,12 @@
       "partners": [],
       "products": [
         "材料"
+      ],
+      "core_business": [
+        "光刻胶颜料+PEEK"
+      ],
+      "industry_position": [
+        "1000吨PEEK面向机器人/新能源车"
       ]
     },
     "603839": {
@@ -106493,8 +106946,8 @@
       ]
     },
     "603938": {
-      "mention_count": 5,
-      "last_updated": "2026-06-09",
+      "mention_count": 6,
+      "last_updated": "2026-06-10",
       "concepts": [
         "光伏概念",
         "沪股通",
@@ -106604,6 +107057,30 @@
           ],
           "chain": [
             "中游-制造"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/5stY69kkBVz8Dbg7n5-PUg",
+          "title": "6月10日首板逻辑",
+          "date": "2026-06-10",
+          "accidents": [
+            "6月10日首板涨停",
+            "亚洲少数9N级,满负荷"
+          ],
+          "insights": [
+            "高纯四氯化硅3万吨"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "高纯四氯化硅3万吨"
+          ],
+          "industry_position": [
+            "亚洲少数9N级,满负荷"
+          ],
+          "chain": [
+            "首板涨停"
           ],
           "partners": []
         }
@@ -131749,11 +132226,40 @@
       "code": "002119",
       "name": "康强电子",
       "concept": "",
-      "mention_count": 0,
-      "articles": [],
-      "last_updated": "2026-06-05",
-      "core_business": [],
-      "industry_position": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/5stY69kkBVz8Dbg7n5-PUg",
+          "title": "6月10日首板逻辑",
+          "date": "2026-06-10",
+          "accidents": [
+            "6月10日首板涨停",
+            "国内龙头,产能满负荷,拟回购1.3亿"
+          ],
+          "insights": [
+            "封装材料+引线框架"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "封装材料+引线框架"
+          ],
+          "industry_position": [
+            "国内龙头,产能满负荷,拟回购1.3亿"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-06-10",
+      "core_business": [
+        "封装材料+引线框架"
+      ],
+      "industry_position": [
+        "国内龙头,产能满负荷,拟回购1.3亿"
+      ],
       "valuation": {},
       "industry": "电子-半导体-半导体材料",
       "concepts": [
@@ -131769,7 +132275,9 @@
       "partners": [],
       "board": "SZ",
       "products": [],
-      "chain": []
+      "chain": [
+        "首板涨停"
+      ]
     },
     "002123": {
       "code": "002123",
@@ -135366,9 +135874,34 @@
       "code": "002757",
       "name": "南兴股份",
       "concept": "",
-      "mention_count": 6,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/5stY69kkBVz8Dbg7n5-PUg",
+          "title": "6月10日首板逻辑",
+          "date": "2026-06-10",
+          "accidents": [
+            "6月10日首板涨停",
+            "自有GPU算力,新设唯元智创"
+          ],
+          "insights": [
+            "算力租赁+AI推理"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "算力租赁+AI推理"
+          ],
+          "industry_position": [
+            "自有GPU算力,新设唯元智创"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-06-10",
       "concepts": [
         "AIGC概念",
         "AI应用",
@@ -135398,7 +135931,16 @@
       ],
       "industry": "机械设备-专用设备-其他专用设备",
       "board": "SZ",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "算力租赁+AI推理"
+      ],
+      "industry_position": [
+        "自有GPU算力,新设唯元智创"
+      ],
+      "chain": [
+        "首板涨停"
+      ]
     },
     "002760": {
       "code": "002760",
@@ -135590,9 +136132,34 @@
       "code": "002830",
       "name": "名雕股份",
       "concept": "",
-      "mention_count": 2,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/5stY69kkBVz8Dbg7n5-PUg",
+          "title": "6月10日首板逻辑",
+          "date": "2026-06-10",
+          "accidents": [
+            "6月10日首板涨停",
+            "鲸跃云科AI应用"
+          ],
+          "insights": [
+            "AI+家装"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "AI+家装"
+          ],
+          "industry_position": [
+            "鲸跃云科AI应用"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-06-10",
       "concepts": [
         "华为概念",
         "物业管理",
@@ -135600,7 +136167,16 @@
       ],
       "industry": "建筑装饰-建筑装饰-装饰园林",
       "board": "SZ",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "AI+家装"
+      ],
+      "industry_position": [
+        "鲸跃云科AI应用"
+      ],
+      "chain": [
+        "首板涨停"
+      ]
     },
     "002831": {
       "code": "002831",
@@ -153464,7 +154040,7 @@
       "code": "603155",
       "name": "新亚强",
       "concept": "",
-      "mention_count": 1,
+      "mention_count": 2,
       "articles": [
         {
           "title": "【机构调研】笔记整理",
@@ -153483,9 +154059,33 @@
             "预计2026-2028年EPS 0.45/0.60/0.78元"
           ],
           "target_valuation": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/5stY69kkBVz8Dbg7n5-PUg",
+          "title": "6月10日首板逻辑",
+          "date": "2026-06-10",
+          "accidents": [
+            "6月10日首板涨停",
+            "HMDS光刻必需试剂"
+          ],
+          "insights": [
+            "电子级HMDS+光纤"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "电子级HMDS+光纤"
+          ],
+          "industry_position": [
+            "HMDS光刻必需试剂"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
         }
       ],
-      "last_updated": "2026-06-04",
+      "last_updated": "2026-06-10",
       "concepts": [
         "光刻胶",
         "国企改革",
@@ -157805,9 +158405,34 @@
       "code": "688216",
       "name": "气派科技",
       "concept": "",
-      "mention_count": 2,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/5stY69kkBVz8Dbg7n5-PUg",
+          "title": "6月10日首板逻辑",
+          "date": "2026-06-10",
+          "accidents": [
+            "6月10日首板涨停",
+            "募资扩产5.14亿只/年"
+          ],
+          "insights": [
+            "先进封装+定增扩产"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "先进封装+定增扩产"
+          ],
+          "industry_position": [
+            "募资扩产5.14亿只/年"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-06-10",
       "concepts": [
         "5G",
         "MCU芯片",
@@ -157824,7 +158449,16 @@
       ],
       "industry": "电子-半导体-集成电路封测",
       "board": "SH",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "先进封装+定增扩产"
+      ],
+      "industry_position": [
+        "募资扩产5.14亿只/年"
+      ],
+      "chain": [
+        "首板涨停"
+      ]
     },
     "688221": {
       "code": "688221",
@@ -159321,9 +159955,34 @@
       "code": "688456",
       "name": "有研粉材",
       "concept": "",
-      "mention_count": 3,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/5stY69kkBVz8Dbg7n5-PUg",
+          "title": "6月10日首板逻辑",
+          "date": "2026-06-10",
+          "accidents": [
+            "6月10日首板涨停",
+            "国内唯一产业化,供美国铟泰/阿尔法"
+          ],
+          "insights": [
+            "T6超细锡粉"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "T6超细锡粉"
+          ],
+          "industry_position": [
+            "国内唯一产业化,供美国铟泰/阿尔法"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-06-10",
       "concepts": [
         "3D打印",
         "BC电池",
@@ -159347,7 +160006,16 @@
       ],
       "industry": "有色金属-金属新材料-其他金属新材料",
       "board": "SH",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "T6超细锡粉"
+      ],
+      "industry_position": [
+        "国内唯一产业化,供美国铟泰/阿尔法"
+      ],
+      "chain": [
+        "首板涨停"
+      ]
     },
     "688480": {
       "code": "688480",
@@ -160670,9 +161338,34 @@
       "code": "688662",
       "name": "富信科技",
       "concept": "",
-      "mention_count": 2,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/5stY69kkBVz8Dbg7n5-PUg",
+          "title": "6月10日首板逻辑",
+          "date": "2026-06-10",
+          "accidents": [
+            "6月10日首板涨停",
+            "1.6T光模块Micro TEC小批出货"
+          ],
+          "insights": [
+            "Micro TEC+CPO"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "Micro TEC+CPO"
+          ],
+          "industry_position": [
+            "1.6T光模块Micro TEC小批出货"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-06-10",
       "concepts": [
         "5G",
         "储能",
@@ -160682,7 +161375,16 @@
       ],
       "industry": "电子-其他电子-其他电子Ⅲ",
       "board": "SH",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "Micro TEC+CPO"
+      ],
+      "industry_position": [
+        "1.6T光模块Micro TEC小批出货"
+      ],
+      "chain": [
+        "首板涨停"
+      ]
     },
     "688667": {
       "code": "688667",
@@ -164530,10 +165232,34 @@
             "🎯 投资评级：★★★★★ 强烈推荐 | 目标价：上方空间打开 | 止损位：5日均线",
             "CPO/光模块：止损位设5日均线（约-5%），止盈目标+15-20%"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/5stY69kkBVz8Dbg7n5-PUg",
+          "title": "6月10日首板逻辑",
+          "date": "2026-06-10",
+          "accidents": [
+            "6月10日首板涨停",
+            "越南2.53亿,洁净室新赛道"
+          ],
+          "insights": [
+            "海外大单+洁净室"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "海外大单+洁净室"
+          ],
+          "industry_position": [
+            "越南2.53亿,洁净室新赛道"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
         }
       ],
-      "last_updated": "2026-06-05",
-      "mention_count": 2
+      "last_updated": "2026-06-10",
+      "mention_count": 3
     },
     "000025": {
       "name": "特力A",
@@ -169085,6 +169811,282 @@
           ],
           "chain": [
             "微信AI生态"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "603276": {
+      "code": "603276",
+      "name": "恒兴新材",
+      "last_updated": "2026-06-10",
+      "mention_count": 1,
+      "board": "SH",
+      "core_business": [
+        "锂电电解液+化工"
+      ],
+      "industry_position": [
+        "Q1收入+31.38%,净利+101.22%"
+      ],
+      "chain": [
+        "首板涨停"
+      ],
+      "partners": [],
+      "concepts": [
+        "化工/涨价"
+      ],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/5stY69kkBVz8Dbg7n5-PUg",
+          "title": "6月10日首板逻辑",
+          "date": "2026-06-10",
+          "accidents": [
+            "6月10日首板涨停",
+            "Q1收入+31.38%,净利+101.22%"
+          ],
+          "insights": [
+            "锂电电解液+化工"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "锂电电解液+化工"
+          ],
+          "industry_position": [
+            "Q1收入+31.38%,净利+101.22%"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "002960": {
+      "code": "002960",
+      "name": "青鸟消防",
+      "last_updated": "2026-06-10",
+      "mention_count": 1,
+      "board": "SZ",
+      "core_business": [
+        "消防机器人+人形机器人"
+      ],
+      "industry_position": [
+        "Physical AI,超维动力115自由度"
+      ],
+      "chain": [
+        "首板涨停"
+      ],
+      "partners": [],
+      "concepts": [
+        "低空/机器人"
+      ],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/5stY69kkBVz8Dbg7n5-PUg",
+          "title": "6月10日首板逻辑",
+          "date": "2026-06-10",
+          "accidents": [
+            "6月10日首板涨停",
+            "Physical AI,超维动力115自由度"
+          ],
+          "insights": [
+            "消防机器人+人形机器人"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "消防机器人+人形机器人"
+          ],
+          "industry_position": [
+            "Physical AI,超维动力115自由度"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "603886": {
+      "code": "603886",
+      "name": "元祖股份",
+      "last_updated": "2026-06-10",
+      "mention_count": 1,
+      "board": "SH",
+      "core_business": [
+        "端午消费+IP经济"
+      ],
+      "industry_position": [
+        "全国791店,联名熊猫/梦龙"
+      ],
+      "chain": [
+        "首板涨停"
+      ],
+      "partners": [],
+      "concepts": [
+        "消费"
+      ],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/5stY69kkBVz8Dbg7n5-PUg",
+          "title": "6月10日首板逻辑",
+          "date": "2026-06-10",
+          "accidents": [
+            "6月10日首板涨停",
+            "全国791店,联名熊猫/梦龙"
+          ],
+          "insights": [
+            "端午消费+IP经济"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "端午消费+IP经济"
+          ],
+          "industry_position": [
+            "全国791店,联名熊猫/梦龙"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "003030": {
+      "code": "003030",
+      "name": "祖名股份",
+      "last_updated": "2026-06-10",
+      "mention_count": 1,
+      "board": "SZ",
+      "core_business": [
+        "预制菜+魔芋+人造肉"
+      ],
+      "industry_position": [
+        "供海底捞"
+      ],
+      "chain": [
+        "首板涨停"
+      ],
+      "partners": [],
+      "concepts": [
+        "消费"
+      ],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/5stY69kkBVz8Dbg7n5-PUg",
+          "title": "6月10日首板逻辑",
+          "date": "2026-06-10",
+          "accidents": [
+            "6月10日首板涨停",
+            "供海底捞"
+          ],
+          "insights": [
+            "预制菜+魔芋+人造肉"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "预制菜+魔芋+人造肉"
+          ],
+          "industry_position": [
+            "供海底捞"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "600573": {
+      "code": "600573",
+      "name": "惠泉啤酒",
+      "last_updated": "2026-06-10",
+      "mention_count": 1,
+      "board": "SH",
+      "core_business": [
+        "啤酒高端化"
+      ],
+      "industry_position": [
+        "Q1净利+30.20%"
+      ],
+      "chain": [
+        "首板涨停"
+      ],
+      "partners": [],
+      "concepts": [
+        "消费"
+      ],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/5stY69kkBVz8Dbg7n5-PUg",
+          "title": "6月10日首板逻辑",
+          "date": "2026-06-10",
+          "accidents": [
+            "6月10日首板涨停",
+            "Q1净利+30.20%"
+          ],
+          "insights": [
+            "啤酒高端化"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "啤酒高端化"
+          ],
+          "industry_position": [
+            "Q1净利+30.20%"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "600058": {
+      "code": "600058",
+      "name": "五矿发展",
+      "last_updated": "2026-06-10",
+      "mention_count": 1,
+      "board": "SH",
+      "core_business": [
+        "铁矿资产置入重组"
+      ],
+      "industry_position": [
+        "置入铁矿资产"
+      ],
+      "chain": [
+        "首板涨停"
+      ],
+      "partners": [],
+      "concepts": [
+        "地产/基建"
+      ],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/5stY69kkBVz8Dbg7n5-PUg",
+          "title": "6月10日首板逻辑",
+          "date": "2026-06-10",
+          "accidents": [
+            "6月10日首板涨停",
+            "置入铁矿资产"
+          ],
+          "insights": [
+            "铁矿资产置入重组"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "铁矿资产置入重组"
+          ],
+          "industry_position": [
+            "置入铁矿资产"
+          ],
+          "chain": [
+            "首板涨停"
           ],
           "partners": []
         }
