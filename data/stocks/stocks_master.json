@@ -109215,8 +109215,8 @@
       "partners": []
     },
     "605358": {
-      "mention_count": 5,
-      "last_updated": "2026-06-09",
+      "mention_count": 6,
+      "last_updated": "2026-06-10",
       "concepts": [
         "5G",
         "专精特新",
@@ -109366,6 +109366,34 @@
           ],
           "chain": [
             "中游-制造"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/4852UzICjMM5mUxaCs32Xg",
+          "title": "大硅片涨价！AI驱动供需缺口",
+          "date": "2026-06-10",
+          "hot_topic": "大硅片涨价",
+          "accidents": [
+            "AI服务器耗硅量是普通服务器3.8倍,HBM对12英寸需求是传统DRAM 3倍,海外巨头已启动涨价",
+            "重掺占比高,涨价落地,Q2业绩显著改善,PE仅13倍(按28年涨价40%测算),化合物半导体催化"
+          ],
+          "insights": [
+            "重掺硅片龙头"
+          ],
+          "key_metrics": [
+            "按2028年涨价40%测算",
+            "海外硅片第二波加速行情"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "重掺硅片龙头"
+          ],
+          "industry_position": [
+            "重掺占比高,涨价落地,Q2业绩显著改善,PE仅13倍(按28年涨价40%测算),化合物半导体催化"
+          ],
+          "chain": [
+            "大硅片产业链"
           ],
           "partners": []
         }
@@ -113348,8 +113376,8 @@
       "partners": []
     },
     "688126": {
-      "mention_count": 6,
-      "last_updated": "2026-06-09",
+      "mention_count": 7,
+      "last_updated": "2026-06-10",
       "concepts": [
         "中芯国际概念",
         "人民币贬值受益",
@@ -113527,6 +113555,34 @@
           ],
           "chain": [
             "中游-制造"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/4852UzICjMM5mUxaCs32Xg",
+          "title": "大硅片涨价！AI驱动供需缺口",
+          "date": "2026-06-10",
+          "hot_topic": "大硅片涨价",
+          "accidents": [
+            "AI服务器耗硅量是普通服务器3.8倍,HBM对12英寸需求是传统DRAM 3倍,海外巨头已启动涨价",
+            "300mm大硅片国内领先,受益AI服务器耗硅量3.8倍"
+          ],
+          "insights": [
+            "12英寸大硅片龙头"
+          ],
+          "key_metrics": [
+            "按2028年涨价40%测算",
+            "海外硅片第二波加速行情"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "12英寸大硅片龙头"
+          ],
+          "industry_position": [
+            "300mm大硅片国内领先,受益AI服务器耗硅量3.8倍"
+          ],
+          "chain": [
+            "大硅片产业链"
           ],
           "partners": []
         }
@@ -124047,8 +124103,8 @@
       ]
     },
     "688783": {
-      "mention_count": 3,
-      "last_updated": "2026-06-09",
+      "mention_count": 4,
+      "last_updated": "2026-06-10",
       "code": "688783",
       "articles": [
         {
@@ -124118,6 +124174,34 @@
           ],
           "chain": [
             "中游-制造"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/4852UzICjMM5mUxaCs32Xg",
+          "title": "大硅片涨价！AI驱动供需缺口",
+          "date": "2026-06-10",
+          "hot_topic": "大硅片涨价",
+          "accidents": [
+            "AI服务器耗硅量是普通服务器3.8倍,HBM对12英寸需求是传统DRAM 3倍,海外巨头已启动涨价",
+            "12英寸占比高,受益国产替代"
+          ],
+          "insights": [
+            "12英寸硅片"
+          ],
+          "key_metrics": [
+            "按2028年涨价40%测算",
+            "海外硅片第二波加速行情"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "12英寸硅片"
+          ],
+          "industry_position": [
+            "12英寸占比高,受益国产替代"
+          ],
+          "chain": [
+            "大硅片产业链"
           ],
           "partners": []
         }
@@ -168512,7 +168596,7 @@
     "688584": {
       "code": "688584",
       "name": "上海合晶",
-      "mention_count": 2,
+      "mention_count": 3,
       "articles": [
         {
           "source": "https://mp.weixin.qq.com/s/YzllvF6wkpwGemQcNTdWrg",
@@ -168568,9 +168652,37 @@
             "中游-制造"
           ],
           "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/4852UzICjMM5mUxaCs32Xg",
+          "title": "大硅片涨价！AI驱动供需缺口",
+          "date": "2026-06-10",
+          "hot_topic": "大硅片涨价",
+          "accidents": [
+            "AI服务器耗硅量是普通服务器3.8倍,HBM对12英寸需求是传统DRAM 3倍,海外巨头已启动涨价",
+            "法国SOITEC股价映射,SOI硅片进展,PE 15倍"
+          ],
+          "insights": [
+            "外延片+SOI硅片"
+          ],
+          "key_metrics": [
+            "按2028年涨价40%测算",
+            "海外硅片第二波加速行情"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "外延片+SOI硅片"
+          ],
+          "industry_position": [
+            "法国SOITEC股价映射,SOI硅片进展,PE 15倍"
+          ],
+          "chain": [
+            "大硅片产业链"
+          ],
+          "partners": []
         }
       ],
-      "last_updated": "2026-06-09",
+      "last_updated": "2026-06-10",
       "partners": [],
       "board": "SH",
       "core_business": [
@@ -168584,12 +168696,16 @@
       ],
       "products": [
         "硅片"
+      ],
+      "concepts": [
+        "大硅片-SOI",
+        "大硅片涨价"
       ]
     },
     "688432": {
       "code": "688432",
       "name": "有研硅",
-      "mention_count": 2,
+      "mention_count": 3,
       "articles": [
         {
           "source": "https://mp.weixin.qq.com/s/YzllvF6wkpwGemQcNTdWrg",
@@ -168645,9 +168761,37 @@
             "中游-制造"
           ],
           "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/4852UzICjMM5mUxaCs32Xg",
+          "title": "大硅片涨价！AI驱动供需缺口",
+          "date": "2026-06-10",
+          "hot_topic": "大硅片涨价",
+          "accidents": [
+            "AI服务器耗硅量是普通服务器3.8倍,HBM对12英寸需求是传统DRAM 3倍,海外巨头已启动涨价",
+            "硅片涨价落地,12英寸并表预期,并购预期,PE 23倍"
+          ],
+          "insights": [
+            "特色硅片+硅部件"
+          ],
+          "key_metrics": [
+            "按2028年涨价40%测算",
+            "海外硅片第二波加速行情"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "特色硅片+硅部件"
+          ],
+          "industry_position": [
+            "硅片涨价落地,12英寸并表预期,并购预期,PE 23倍"
+          ],
+          "chain": [
+            "大硅片产业链"
+          ],
+          "partners": []
         }
       ],
-      "last_updated": "2026-06-09",
+      "last_updated": "2026-06-10",
       "partners": [],
       "board": "SH",
       "core_business": [
@@ -168661,6 +168805,10 @@
       ],
       "products": [
         "硅片"
+      ],
+      "concepts": [
+        "大硅片-特色",
+        "大硅片涨价"
       ]
     },
     "003026": {
