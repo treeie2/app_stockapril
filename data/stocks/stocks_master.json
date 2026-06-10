@@ -159337,7 +159337,7 @@
       "code": "688216",
       "name": "气派科技",
       "concept": "",
-      "mention_count": 1,
+      "mention_count": 2,
       "articles": [
         {
           "source": "https://mp.weixin.qq.com/s/5stY69kkBVz8Dbg7n5-PUg",
@@ -159362,9 +159362,33 @@
             "首板涨停"
           ],
           "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/TcfA48ArQctpqXyPgDlhtQ",
+          "title": "富信科技/气派科技20cm涨停分析",
+          "date": "2026-06-11",
+          "accidents": [
+            "6月11日",
+            "碳化硅封装批量出货,高密度封装技术,11分钟20cm涨停,净流入0.72亿"
+          ],
+          "insights": [
+            "先进封装+碳化硅MOSFET"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "先进封装+碳化硅MOSFET"
+          ],
+          "industry_position": [
+            "碳化硅封装批量出货,高密度封装技术,11分钟20cm涨停,净流入0.72亿"
+          ],
+          "chain": [
+            "半导体产业链"
+          ],
+          "partners": []
         }
       ],
-      "last_updated": "2026-06-10",
+      "last_updated": "2026-06-11",
       "concepts": [
         "5G",
         "MCU芯片",
@@ -162270,7 +162294,7 @@
       "code": "688662",
       "name": "富信科技",
       "concept": "",
-      "mention_count": 1,
+      "mention_count": 2,
       "articles": [
         {
           "source": "https://mp.weixin.qq.com/s/5stY69kkBVz8Dbg7n5-PUg",
@@ -162295,9 +162319,33 @@
             "首板涨停"
           ],
           "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/TcfA48ArQctpqXyPgDlhtQ",
+          "title": "富信科技/气派科技20cm涨停分析",
+          "date": "2026-06-11",
+          "accidents": [
+            "6月11日",
+            "400G/800G批量供货,6月底产能150万片/月,CPO技术对接,9秒20cm涨停,当日净流入1.74亿"
+          ],
+          "insights": [
+            "MicroTEC光模块温控龙头"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "MicroTEC光模块温控龙头"
+          ],
+          "industry_position": [
+            "400G/800G批量供货,6月底产能150万片/月,CPO技术对接,9秒20cm涨停,当日净流入1.74亿"
+          ],
+          "chain": [
+            "半导体产业链"
+          ],
+          "partners": []
         }
       ],
-      "last_updated": "2026-06-10",
+      "last_updated": "2026-06-11",
       "concepts": [
         "5G",
         "储能",
