@@ -27936,9 +27936,13 @@
       ]
     },
     "002326": {
-      "core_business": [],
-      "last_updated": "2026-05-10",
-      "industry_position": [],
+      "core_business": [
+        "含氟材料+LiFSI龙头"
+      ],
+      "last_updated": "2026-06-10",
+      "industry_position": [
+        "LiFSI产能6.7万吨全球最大,宁德47万吨长协,5万吨LiPF6技改,Q1净利+889.5%"
+      ],
       "valuation": {},
       "industry": "基础化工-化学制品-氟化工",
       "concepts": [
@@ -27952,8 +27956,10 @@
         "融资融券"
       ],
       "code": "002326",
-      "mention_count": 3,
-      "partners": [],
+      "mention_count": 4,
+      "partners": [
+        "宁德时代"
+      ],
       "articles": [
         {
           "date": "",
@@ -27975,6 +27981,35 @@
           "date": "2026-03-25",
           "title": "磷化工/磷酸铁锂，相关公司全梳理",
           "source": "https://mp.weixin.qq.com/s/rOLV5sYS7QgE3tEyHtJvmg"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/5RVFJGXjD_gp2Ufod_BWCw",
+          "title": "宁德时代扫货电解液与上游一体化整合战略分析",
+          "date": "2026-06-10",
+          "accidents": [
+            "宁德时代与新宙邦/永太科技签77万吨电解液长协(2026-2028)",
+            "LiFSI产能6.7万吨全球最大,宁德47万吨长协,5万吨LiPF6技改,Q1净利+889.5%"
+          ],
+          "insights": [
+            "含氟材料+LiFSI龙头"
+          ],
+          "key_metrics": [
+            "电解液均价1.75→3万/吨(+70%)",
+            "LiPF6从4.9→16.7万/吨"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "含氟材料+LiFSI龙头"
+          ],
+          "industry_position": [
+            "LiFSI产能6.7万吨全球最大,宁德47万吨长协,5万吨LiPF6技改,Q1净利+889.5%"
+          ],
+          "chain": [
+            "电解液产业链"
+          ],
+          "partners": [
+            "宁德时代"
+          ]
         }
       ],
       "board": "SZ",
@@ -30551,8 +30586,8 @@
       ]
     },
     "002407": {
-      "mention_count": 3,
-      "last_updated": "2026-05-31",
+      "mention_count": 4,
+      "last_updated": "2026-06-10",
       "concepts": [
         "PVDF概念",
         "中芯国际概念",
@@ -30653,6 +30688,35 @@
             "主线二：新能源电池业务放量，2026年收入目标突破100亿元",
             "公司2025年新能源电池业务收入28.50亿元（占比30.2%），同比增长76.84%，已成为第二大业务板块。2025年电池产能20GWh，2026年底规划产能50GWh，2027"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/5RVFJGXjD_gp2Ufod_BWCw",
+          "title": "宁德时代扫货电解液与上游一体化整合战略分析",
+          "date": "2026-06-10",
+          "accidents": [
+            "宁德时代与新宙邦/永太科技签77万吨电解液长协(2026-2028)",
+            "LiPF6产能6.5万吨,纯度99.999%+,Q1净利+480%,钠电池+固态材料布局"
+          ],
+          "insights": [
+            "晶体六氟磷酸锂龙头"
+          ],
+          "key_metrics": [
+            "电解液均价1.75→3万/吨(+70%)",
+            "LiPF6从4.9→16.7万/吨"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "晶体六氟磷酸锂龙头"
+          ],
+          "industry_position": [
+            "LiPF6产能6.5万吨,纯度99.999%+,Q1净利+480%,钠电池+固态材料布局"
+          ],
+          "chain": [
+            "电解液产业链"
+          ],
+          "partners": [
+            "宁德时代"
+          ]
         }
       ],
       "industry": "基础化工-化学制品-氟化工",
@@ -30670,6 +30734,9 @@
         "光刻胶",
         "CMP",
         "材料"
+      ],
+      "chain": [
+        "电解液产业链"
       ]
     },
     "002409": {
@@ -37419,8 +37486,8 @@
       "partners": []
     },
     "002709": {
-      "mention_count": 3,
-      "last_updated": "2026-06-05",
+      "mention_count": 4,
+      "last_updated": "2026-06-10",
       "concepts": [
         "2025年报预增",
         "PEEK材料",
@@ -37479,6 +37546,35 @@
           ],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/5RVFJGXjD_gp2Ufod_BWCw",
+          "title": "宁德时代扫货电解液与上游一体化整合战略分析",
+          "date": "2026-06-10",
+          "accidents": [
+            "宁德时代与新宙邦/永太科技签77万吨电解液长协(2026-2028)",
+            "市占率32.2%,72万吨产能,六氟自供率99%,Q1净利+1005%,摩洛哥/美国在建"
+          ],
+          "insights": [
+            "电解液全球龙头"
+          ],
+          "key_metrics": [
+            "电解液均价1.75→3万/吨(+70%)",
+            "LiPF6从4.9→16.7万/吨"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "电解液全球龙头"
+          ],
+          "industry_position": [
+            "市占率32.2%,72万吨产能,六氟自供率99%,Q1净利+1005%,摩洛哥/美国在建"
+          ],
+          "chain": [
+            "电解液产业链"
+          ],
+          "partners": [
+            "宁德时代"
+          ]
         }
       ],
       "industry": "电力设备-电池-电池化学品",
@@ -37491,7 +37587,9 @@
       "chain": [
         "下游-深加工"
       ],
-      "partners": [],
+      "partners": [
+        "宁德时代"
+      ],
       "products": [
         "材料"
       ]
@@ -38178,8 +38276,8 @@
       "partners": []
     },
     "002759": {
-      "mention_count": 4,
-      "last_updated": "2026-05-31",
+      "mention_count": 5,
+      "last_updated": "2026-06-10",
       "concepts": [
         "固态电池",
         "宁德时代概念",
@@ -38221,6 +38319,35 @@
           "date": "2026-03-25",
           "title": "磷化工/磷酸铁锂，相关公司全梳理",
           "source": "https://mp.weixin.qq.com/s/rOLV5sYS7QgE3tEyHtJvmg"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/5RVFJGXjD_gp2Ufod_BWCw",
+          "title": "宁德时代扫货电解液与上游一体化整合战略分析",
+          "date": "2026-06-10",
+          "accidents": [
+            "宁德时代与新宙邦/永太科技签77万吨电解液长协(2026-2028)",
+            "LiPF6产能3.7万吨,在建1.5万吨9月投产,与瑞泰新材合资3万吨"
+          ],
+          "insights": [
+            "高纯晶体六氟磷酸锂"
+          ],
+          "key_metrics": [
+            "电解液均价1.75→3万/吨(+70%)",
+            "LiPF6从4.9→16.7万/吨"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "高纯晶体六氟磷酸锂"
+          ],
+          "industry_position": [
+            "LiPF6产能3.7万吨,在建1.5万吨9月投产,与瑞泰新材合资3万吨"
+          ],
+          "chain": [
+            "电解液产业链"
+          ],
+          "partners": [
+            "宁德时代"
+          ]
         }
       ],
       "industry": "电力设备-电池-电池化学品",
@@ -38230,7 +38357,12 @@
       ],
       "code": "002759",
       "name": "天际股份",
-      "partners": []
+      "partners": [
+        "宁德时代"
+      ],
+      "industry_position": [
+        "LiPF6产能3.7万吨,在建1.5万吨9月投产,与瑞泰新材合资3万吨"
+      ]
     },
     "002762": {
       "mention_count": 1,
@@ -45123,8 +45255,8 @@
       ]
     },
     "300037": {
-      "mention_count": 10,
-      "last_updated": "2026-06-04",
+      "mention_count": 11,
+      "last_updated": "2026-06-10",
       "concepts": [
         "2026一季报预增",
         "OLED",
@@ -45395,6 +45527,35 @@
             "上游-超级电容材料"
           ],
           "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/5RVFJGXjD_gp2Ufod_BWCw",
+          "title": "宁德时代扫货电解液与上游一体化整合战略分析",
+          "date": "2026-06-10",
+          "accidents": [
+            "宁德时代与新宙邦/永太科技签77万吨电解液长协(2026-2028)",
+            "电池化学品68万吨+在建50万吨,宁德30万吨长协,LiFSI扩产,Q1净利+109%"
+          ],
+          "insights": [
+            "电解液+含氟化学品"
+          ],
+          "key_metrics": [
+            "电解液均价1.75→3万/吨(+70%)",
+            "LiPF6从4.9→16.7万/吨"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "电解液+含氟化学品"
+          ],
+          "industry_position": [
+            "电池化学品68万吨+在建50万吨,宁德30万吨长协,LiFSI扩产,Q1净利+109%"
+          ],
+          "chain": [
+            "电解液产业链"
+          ],
+          "partners": [
+            "宁德时代"
+          ]
         }
       ],
       "industry": "电力设备-电池-电池化学品",
@@ -70203,8 +70364,8 @@
       "partners": []
     },
     "301292": {
-      "mention_count": 2,
-      "last_updated": "2026-05-10",
+      "mention_count": 3,
+      "last_updated": "2026-06-10",
       "concepts": [
         "固态电池",
         "融资融券",
@@ -70236,15 +70397,55 @@
           "accidents": [
             "VC 厂商 Q2 业绩环比高增"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/5RVFJGXjD_gp2Ufod_BWCw",
+          "title": "宁德时代扫货电解液与上游一体化整合战略分析",
+          "date": "2026-06-10",
+          "accidents": [
+            "宁德时代与新宙邦/永太科技签77万吨电解液长协(2026-2028)",
+            "2026年产能规划100万吨,海外目标40%,获昆仑/法恩莱特等大单"
+          ],
+          "insights": [
+            "电解液溶剂巨头"
+          ],
+          "key_metrics": [
+            "电解液均价1.75→3万/吨(+70%)",
+            "LiPF6从4.9→16.7万/吨"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "电解液溶剂巨头"
+          ],
+          "industry_position": [
+            "2026年产能规划100万吨,海外目标40%,获昆仑/法恩莱特等大单"
+          ],
+          "chain": [
+            "电解液产业链"
+          ],
+          "partners": [
+            "宁德时代"
+          ]
         }
       ],
       "industry": "电力设备-电池-电池化学品",
       "board": "SZ",
       "code": "301292",
       "name": "海科新源",
-      "partners": [],
+      "partners": [
+        "宁德时代"
+      ],
       "products": [
         "材料"
+      ],
+      "core_business": [
+        "电解液溶剂巨头"
+      ],
+      "industry_position": [
+        "2026年产能规划100万吨,海外目标40%,获昆仑/法恩莱特等大单"
+      ],
+      "chain": [
+        "电解液产业链"
       ]
     },
     "301293": {
@@ -97445,8 +97646,8 @@
       "partners": []
     },
     "603026": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-10",
       "concepts": [
         "国企改革",
         "宁德时代概念",
@@ -97466,13 +97667,53 @@
           ],
           "title": "11月13日，市场复盘及操作策略，上证创新高，锂电池全线大涨",
           "source": "https://mp.weixin.qq.com/s/7AmYoNlX67Ol92XAxYw85Q"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/5RVFJGXjD_gp2Ufod_BWCw",
+          "title": "宁德时代扫货电解液与上游一体化整合战略分析",
+          "date": "2026-06-10",
+          "accidents": [
+            "宁德时代与新宙邦/永太科技签77万吨电解液长协(2026-2028)",
+            "溶剂80万吨,市占率22.2%,PO自供率95%,拟H股上市,布局固态"
+          ],
+          "insights": [
+            "电解液溶剂全球龙头"
+          ],
+          "key_metrics": [
+            "电解液均价1.75→3万/吨(+70%)",
+            "LiPF6从4.9→16.7万/吨"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "电解液溶剂全球龙头"
+          ],
+          "industry_position": [
+            "溶剂80万吨,市占率22.2%,PO自供率95%,拟H股上市,布局固态"
+          ],
+          "chain": [
+            "电解液产业链"
+          ],
+          "partners": [
+            "宁德时代"
+          ]
         }
       ],
       "industry": "电力设备-电池-电池化学品",
       "board": "SH",
       "code": "603026",
       "name": "石大胜华",
-      "partners": []
+      "partners": [
+        "宁德时代"
+      ],
+      "core_business": [
+        "电解液溶剂全球龙头"
+      ],
+      "industry_position": [
+        "溶剂80万吨,市占率22.2%,PO自供率95%,拟H股上市,布局固态"
+      ],
+      "chain": [
+        "电解液产业链"
+      ]
     },
     "603027": {
       "mention_count": 1,
@@ -118043,8 +118284,8 @@
       ]
     },
     "688353": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-10",
       "concepts": [
         "专精特新",
         "储能",
@@ -118069,13 +118310,50 @@
           "insights": [
             "钠电池产业链相关公司：是钠电电解液添加剂环节的重要公司。"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/5RVFJGXjD_gp2Ufod_BWCw",
+          "title": "宁德时代扫货电解液与上游一体化整合战略分析",
+          "date": "2026-06-10",
+          "accidents": [
+            "宁德时代与新宙邦/永太科技签77万吨电解液长协(2026-2028)",
+            "VC/FEC产能1.4万吨,全球50%+终端覆盖率,LiFSI 3000吨"
+          ],
+          "insights": [
+            "电解液添加剂全球第一"
+          ],
+          "key_metrics": [
+            "电解液均价1.75→3万/吨(+70%)",
+            "LiPF6从4.9→16.7万/吨"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "电解液添加剂全球第一"
+          ],
+          "industry_position": [
+            "VC/FEC产能1.4万吨,全球50%+终端覆盖率,LiFSI 3000吨"
+          ],
+          "chain": [
+            "电解液产业链"
+          ],
+          "partners": [
+            "宁德时代"
+          ]
         }
       ],
       "industry": "电力设备-电池-电池化学品",
       "board": "SH",
       "code": "688353",
       "name": "华盛锂电",
-      "partners": []
+      "partners": [
+        "宁德时代"
+      ],
+      "industry_position": [
+        "VC/FEC产能1.4万吨,全球50%+终端覆盖率,LiFSI 3000吨"
+      ],
+      "chain": [
+        "电解液产业链"
+      ]
     },
     "688361": {
       "mention_count": 2,
@@ -169564,7 +169842,7 @@
     "301238": {
       "code": "301238",
       "name": "瑞泰新材",
-      "mention_count": 1,
+      "mention_count": 2,
       "articles": [
         {
           "source": "https://mp.weixin.qq.com/s/lKUiXpbQmNdpykaxKOqkQw",
@@ -169592,6 +169870,35 @@
             "上游-超级电容材料"
           ],
           "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/5RVFJGXjD_gp2Ufod_BWCw",
+          "title": "宁德时代扫货电解液与上游一体化整合战略分析",
+          "date": "2026-06-10",
+          "accidents": [
+            "宁德时代与新宙邦/永太科技签77万吨电解液长协(2026-2028)",
+            "终止4000吨项目部分产线,控制风险,Q1净利+162.85%,高端定制化"
+          ],
+          "insights": [
+            "电解液+添加剂"
+          ],
+          "key_metrics": [
+            "电解液均价1.75→3万/吨(+70%)",
+            "LiPF6从4.9→16.7万/吨"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "电解液+添加剂"
+          ],
+          "industry_position": [
+            "终止4000吨项目部分产线,控制风险,Q1净利+162.85%,高端定制化"
+          ],
+          "chain": [
+            "电解液产业链"
+          ],
+          "partners": [
+            "宁德时代"
+          ]
         }
       ],
       "board": "SZ",
@@ -169604,7 +169911,9 @@
       "chain": [
         "上游-超级电容材料"
       ],
-      "partners": [],
+      "partners": [
+        "宁德时代"
+      ],
       "concepts": [
         "超级电容",
         "AI服务器",
@@ -169613,7 +169922,7 @@
       "products": [
         "超级电容电解液"
       ],
-      "last_updated": "2026-06-08"
+      "last_updated": "2026-06-10"
     },
     "300556": {
       "code": "300556",
