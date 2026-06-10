@@ -32404,8 +32404,8 @@
       "partners": []
     },
     "002459": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-11",
       "concepts": [
         "BC电池",
         "DeepSeek概念",
@@ -32434,6 +32434,30 @@
           ],
           "title": "上周复盘及操作建议-实时更新自动回复“今日标的”",
           "source": "https://mp.weixin.qq.com/s/IrfiJ_hpbPVHzj2a8vLKpA"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/Viwar41tClNUIgfwha0gwg",
+          "title": "6月10日信息汇总",
+          "date": "2026-06-11",
+          "accidents": [
+            "6月10日信息汇总",
+            "尾盘涨停,控产能政策预期(清退30%),行业见底"
+          ],
+          "insights": [
+            "光伏组件龙头"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "光伏组件龙头"
+          ],
+          "industry_position": [
+            "尾盘涨停,控产能政策预期(清退30%),行业见底"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
         }
       ],
       "industry": "电力设备-光伏设备-光伏电池组件",
@@ -32443,7 +32467,13 @@
       ],
       "code": "002459",
       "name": "晶澳科技",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "光伏组件龙头"
+      ],
+      "industry_position": [
+        "尾盘涨停,控产能政策预期(清退30%),行业见底"
+      ]
     },
     "002460": {
       "mention_count": 6,
@@ -82016,8 +82046,8 @@
       "partners": []
     },
     "600438": {
-      "mention_count": 5,
-      "last_updated": "2026-05-10",
+      "mention_count": 6,
+      "last_updated": "2026-06-11",
       "concepts": [
         "光伏概念",
         "BC电池",
@@ -82080,6 +82110,30 @@
           ],
           "title": "昨日市场复盘及操作策略，7月5日",
           "source": "https://mp.weixin.qq.com/s/3rpSqpWxgiMA3gF_TTBg1A"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/Viwar41tClNUIgfwha0gwg",
+          "title": "6月10日信息汇总",
+          "date": "2026-06-11",
+          "accidents": [
+            "6月10日信息汇总",
+            "收涨5%+,行业见底"
+          ],
+          "insights": [
+            "硅料+电池双龙头"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "硅料+电池双龙头"
+          ],
+          "industry_position": [
+            "收涨5%+,行业见底"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
         }
       ],
       "industry": "电力设备-光伏设备-硅料硅片",
@@ -82094,7 +82148,10 @@
         "_逻辑_"
       ],
       "code": "600438",
-      "name": "通威股份"
+      "name": "通威股份",
+      "core_business": [
+        "硅料+电池双龙头"
+      ]
     },
     "600456": {
       "mention_count": 1,
@@ -86798,8 +86855,8 @@
       "partners": []
     },
     "600732": {
-      "mention_count": 1,
-      "last_updated": "2026-05-10",
+      "mention_count": 2,
+      "last_updated": "2026-06-11",
       "concepts": [
         "光伏概念",
         "BC电池",
@@ -86821,13 +86878,43 @@
           ],
           "title": "风口byTY",
           "source": "https://mp.weixin.qq.com/s/N75n3eUWcUwlai0kmVSPtQ"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/Viwar41tClNUIgfwha0gwg",
+          "title": "6月10日信息汇总",
+          "date": "2026-06-11",
+          "accidents": [
+            "6月10日信息汇总",
+            "尾盘涨停,控产能政策预期"
+          ],
+          "insights": [
+            "光伏电池"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "光伏电池"
+          ],
+          "industry_position": [
+            "尾盘涨停,控产能政策预期"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
         }
       ],
       "industry": "电力设备-光伏设备-光伏电池组件",
       "board": "SH",
       "code": "600732",
       "name": "爱旭股份",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "光伏电池"
+      ],
+      "chain": [
+        "中游-制造"
+      ]
     },
     "600733": {
       "mention_count": 1,
@@ -90764,8 +90851,8 @@
       "name": "连云港"
     },
     "601012": {
-      "mention_count": 3,
-      "last_updated": "2026-05-10",
+      "mention_count": 4,
+      "last_updated": "2026-06-11",
       "concepts": [
         "光伏概念",
         "BC电池",
@@ -90859,6 +90946,30 @@
             "解读：2025年绿氢产能达28.5万吨/年，同比增长138%，产能扩张速度远超预期。按此增速，2030年有望实现400万吨/年的目标，产业规模突破万亿元。产能高速增长的核心驱动因素",
             "：储能+氢能双轮驱动，海外市场占比高，盈利能力强。2026年目标营收1100-1200亿元，净利润170-190亿元，成长空间明确。"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/Viwar41tClNUIgfwha0gwg",
+          "title": "6月10日信息汇总",
+          "date": "2026-06-11",
+          "accidents": [
+            "6月10日信息汇总",
+            "收涨5%+,行业见底出清"
+          ],
+          "insights": [
+            "光伏硅片+组件龙头"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "光伏硅片+组件龙头"
+          ],
+          "industry_position": [
+            "收涨5%+,行业见底出清"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
         }
       ],
       "industry": "电力设备-光伏设备-光伏电池组件",
@@ -90877,6 +90988,9 @@
         "化工",
         "设备",
         "材料"
+      ],
+      "core_business": [
+        "光伏硅片+组件龙头"
       ]
     },
     "601015": {
@@ -103861,8 +103975,8 @@
       ]
     },
     "603606": {
-      "mention_count": 3,
-      "last_updated": "2026-06-04",
+      "mention_count": 4,
+      "last_updated": "2026-06-11",
       "concepts": [
         "沪股通",
         "高端装备",
@@ -103913,6 +104027,30 @@
           "target_valuation": [
             "天风电新重点推荐"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/Viwar41tClNUIgfwha0gwg",
+          "title": "6月10日信息汇总",
+          "date": "2026-06-11",
+          "accidents": [
+            "6月10日信息汇总",
+            "中标52.31亿(绿色输电33.56亿+海缆11.13亿+海工7.62亿),PE仅18倍,海风十五五"
+          ],
+          "insights": [
+            "海缆龙头"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "海缆龙头"
+          ],
+          "industry_position": [
+            "中标52.31亿(绿色输电33.56亿+海缆11.13亿+海工7.62亿),PE仅18倍,海风十五五"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
         }
       ],
       "industry": "电力设备-电网设备-线缆部件及其他",
@@ -114604,8 +114742,8 @@
       "partners": []
     },
     "688167": {
-      "mention_count": 3,
-      "last_updated": "2026-06-09",
+      "mention_count": 4,
+      "last_updated": "2026-06-11",
       "concepts": [
         "沪股通",
         "MR(混合现实)",
@@ -114676,6 +114814,30 @@
             "中游-制造"
           ],
           "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/Viwar41tClNUIgfwha0gwg",
+          "title": "6月10日信息汇总",
+          "date": "2026-06-11",
+          "accidents": [
+            "6月10日信息汇总",
+            "与全球头部代工厂AH签署技术许可(1300万美元),微棱镜透镜阵列+垂直光学耦合器,PIC端合作最深"
+          ],
+          "insights": [
+            "CPO光学元器件龙头"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "CPO光学元器件龙头"
+          ],
+          "industry_position": [
+            "与全球头部代工厂AH签署技术许可(1300万美元),微棱镜透镜阵列+垂直光学耦合器,PIC端合作最深"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
         }
       ],
       "industry": "电子-半导体-分立器件",
@@ -114685,7 +114847,10 @@
       ],
       "code": "688167",
       "name": "炬光科技",
-      "partners": []
+      "partners": [],
+      "industry_position": [
+        "与全球头部代工厂AH签署技术许可(1300万美元),微棱镜透镜阵列+垂直光学耦合器,PIC端合作最深"
+      ]
     },
     "688169": {
       "mention_count": 1,
@@ -122310,8 +122475,8 @@
       "core_business": []
     },
     "688599": {
-      "mention_count": 1,
-      "last_updated": "2026-05-10",
+      "mention_count": 2,
+      "last_updated": "2026-06-11",
       "concepts": [
         "一带一路",
         "沪股通",
@@ -122352,6 +122517,30 @@
           "accidents": [
             "人大代表介绍柔性钙钛矿电池"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/Viwar41tClNUIgfwha0gwg",
+          "title": "6月10日信息汇总",
+          "date": "2026-06-11",
+          "accidents": [
+            "6月10日信息汇总",
+            "收涨5%+,2026年全球装机增速为负利于出清"
+          ],
+          "insights": [
+            "光伏组件+储能"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "光伏组件+储能"
+          ],
+          "industry_position": [
+            "收涨5%+,2026年全球装机增速为负利于出清"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
         }
       ],
       "industry": "电力设备-光伏设备-光伏电池组件",
@@ -126690,8 +126879,8 @@
       ]
     },
     "002850": {
-      "mention_count": 3,
-      "last_updated": "2026-06-04",
+      "mention_count": 4,
+      "last_updated": "2026-06-11",
       "concepts": [
         "PEEK材料",
         "人形机器人",
@@ -126797,6 +126986,30 @@
           ],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/Viwar41tClNUIgfwha0gwg",
+          "title": "6月10日信息汇总",
+          "date": "2026-06-11",
+          "accidents": [
+            "6月10日信息汇总",
+            "V3谐波PPA正式落地,7月SOP,泰国扩产,主业26-27年30-40%增长,目标千亿市值"
+          ],
+          "insights": [
+            "结构件龙头+谐波减速器"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "结构件龙头+谐波减速器"
+          ],
+          "industry_position": [
+            "V3谐波PPA正式落地,7月SOP,泰国扩产,主业26-27年30-40%增长,目标千亿市值"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
         }
       ],
       "processed_by": "tbox",
@@ -170679,8 +170892,8 @@
     "002960": {
       "code": "002960",
       "name": "青鸟消防",
-      "last_updated": "2026-06-10",
-      "mention_count": 1,
+      "last_updated": "2026-06-11",
+      "mention_count": 2,
       "board": "SZ",
       "core_business": [
         "消防机器人+人形机器人"
@@ -170717,6 +170930,30 @@
           ],
           "chain": [
             "首板涨停"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/Viwar41tClNUIgfwha0gwg",
+          "title": "6月10日信息汇总",
+          "date": "2026-06-11",
+          "accidents": [
+            "6月10日信息汇总",
+            "数据中心消防发货1.7亿+,储能消防+100%,青鸟灵豹Physical AI机器人,超维动力115自由度"
+          ],
+          "insights": [
+            "消防机器人+数据中心消防+储能消防"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "消防机器人+数据中心消防+储能消防"
+          ],
+          "industry_position": [
+            "数据中心消防发货1.7亿+,储能消防+100%,青鸟灵豹Physical AI机器人,超维动力115自由度"
+          ],
+          "chain": [
+            "中游-制造"
           ],
           "partners": []
         }
