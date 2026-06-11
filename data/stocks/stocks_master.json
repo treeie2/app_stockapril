@@ -65168,8 +65168,8 @@
       "partners": []
     },
     "300846": {
-      "mention_count": 2,
-      "last_updated": "2026-06-04",
+      "mention_count": 3,
+      "last_updated": "2026-06-11",
       "concepts": [
         "AIGC概念",
         "AI智能体",
@@ -65229,13 +65229,51 @@
           ],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/o-LD9W32eXd6I28Lr9D_cw",
+          "title": "燧原科技IPO关联概念板块深度分析",
+          "date": "2026-06-11",
+          "accidents": [
+            "燧原科技6月15日上会,拟募资60亿,腾讯持股20.26%,Q1营收+14倍",
+            "联合开发文生图MaaS,海南文昌100P超算中心,Token工厂转型"
+          ],
+          "insights": [
+            "燧原曜图MaaS平台+算力协同"
+          ],
+          "key_metrics": [
+            "燧原2025年营收9.9亿(+83.76%CAGR)",
+            "三年研发36.76亿",
+            "Pre-IPO估值200亿+"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "燧原曜图MaaS平台+算力协同"
+          ],
+          "industry_position": [
+            "联合开发文生图MaaS,海南文昌100P超算中心,Token工厂转型"
+          ],
+          "chain": [
+            "燧原科技IPO概念"
+          ],
+          "partners": [
+            "燧原科技"
+          ]
         }
       ],
       "industry": "通信-通信服务-通信应用增值服务",
       "board": "SZ",
       "code": "300846",
       "name": "首都在线",
-      "partners": []
+      "partners": [
+        "燧原科技"
+      ],
+      "industry_position": [
+        "联合开发文生图MaaS,海南文昌100P超算中心,Token工厂转型"
+      ],
+      "chain": [
+        "燧原科技IPO概念"
+      ]
     },
     "300848": {
       "mention_count": 1,
@@ -89718,8 +89756,8 @@
       "name": "广日股份"
     },
     "600895": {
-      "mention_count": 1,
-      "last_updated": "2026-05-10",
+      "mention_count": 2,
+      "last_updated": "2026-06-11",
       "concepts": [
         "创投",
         "沪股通",
@@ -89746,13 +89784,54 @@
           ],
           "title": "昨日市场复盘及操作策略，8月7日",
           "source": "https://mp.weixin.qq.com/s/ijSkRHujyD5a-o8GawajSQ"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/o-LD9W32eXd6I28Lr9D_cw",
+          "title": "燧原科技IPO关联概念板块深度分析",
+          "date": "2026-06-11",
+          "accidents": [
+            "燧原科技6月15日上会,拟募资60亿,腾讯持股20.26%,Q1营收+14倍",
+            "直接持股8.75%+专项基金8.16%,燧原Pre-IPO估值200亿+,IPO后股权价值重估"
+          ],
+          "insights": [
+            "燧原第二大机构股东(穿透16.91%)"
+          ],
+          "key_metrics": [
+            "燧原2025年营收9.9亿(+83.76%CAGR)",
+            "三年研发36.76亿",
+            "Pre-IPO估值200亿+"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "燧原第二大机构股东(穿透16.91%)"
+          ],
+          "industry_position": [
+            "直接持股8.75%+专项基金8.16%,燧原Pre-IPO估值200亿+,IPO后股权价值重估"
+          ],
+          "chain": [
+            "燧原科技IPO概念"
+          ],
+          "partners": [
+            "燧原科技"
+          ]
         }
       ],
       "industry": "房地产-房地产-产业地产",
       "board": "SH",
       "code": "600895",
       "name": "张江高科",
-      "partners": []
+      "partners": [
+        "燧原科技"
+      ],
+      "core_business": [
+        "燧原第二大机构股东(穿透16.91%)"
+      ],
+      "industry_position": [
+        "直接持股8.75%+专项基金8.16%,燧原Pre-IPO估值200亿+,IPO后股权价值重估"
+      ],
+      "chain": [
+        "燧原科技IPO概念"
+      ]
     },
     "600900": {
       "mention_count": 2,
@@ -141488,8 +141567,39 @@
       "name": "冰川网络",
       "concept": "",
       "mention_count": 1,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/o-LD9W32eXd6I28Lr9D_cw",
+          "title": "燧原科技IPO关联概念板块深度分析",
+          "date": "2026-06-11",
+          "accidents": [
+            "燧原科技6月15日上会,拟募资60亿,腾讯持股20.26%,Q1营收+14倍",
+            "通过早期创投平台微量参股,无业务往来,纯二级炒作标的"
+          ],
+          "insights": [
+            "极微量间接参股"
+          ],
+          "key_metrics": [
+            "燧原2025年营收9.9亿(+83.76%CAGR)",
+            "三年研发36.76亿",
+            "Pre-IPO估值200亿+"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "极微量间接参股"
+          ],
+          "industry_position": [
+            "通过早期创投平台微量参股,无业务往来,纯二级炒作标的"
+          ],
+          "chain": [
+            "燧原科技IPO概念"
+          ],
+          "partners": [
+            "燧原科技"
+          ]
+        }
+      ],
+      "last_updated": "2026-06-11",
       "concepts": [
         "IP经济(谷子经济)",
         "人民币贬值受益",
@@ -141503,7 +141613,18 @@
       ],
       "industry": "传媒-游戏-游戏Ⅲ",
       "board": "SZ",
-      "partners": []
+      "partners": [
+        "燧原科技"
+      ],
+      "core_business": [
+        "极微量间接参股"
+      ],
+      "industry_position": [
+        "通过早期创投平台微量参股,无业务往来,纯二级炒作标的"
+      ],
+      "chain": [
+        "燧原科技IPO概念"
+      ]
     },
     "300537": {
       "code": "300537",
@@ -142668,7 +142789,7 @@
       "code": "300657",
       "name": "弘信电子",
       "concept": "",
-      "mention_count": 1,
+      "mention_count": 2,
       "articles": [
         {
           "source": "https://mp.weixin.qq.com/s/DVRom10zDD16oEs9dqoe8g",
@@ -142705,9 +142826,39 @@
           "partners": [
             "戴尔"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/o-LD9W32eXd6I28Lr9D_cw",
+          "title": "燧原科技IPO关联概念板块深度分析",
+          "date": "2026-06-11",
+          "accidents": [
+            "燧原科技6月15日上会,拟募资60亿,腾讯持股20.26%,Q1营收+14倍",
+            "燧弘华创在手订单75亿+,规划年产10万台服务器,庆阳2万P算力集群,极高关联"
+          ],
+          "insights": [
+            "燧原全球唯一独家代工+间接持股1.66%"
+          ],
+          "key_metrics": [
+            "燧原2025年营收9.9亿(+83.76%CAGR)",
+            "三年研发36.76亿",
+            "Pre-IPO估值200亿+"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "燧原全球唯一独家代工+间接持股1.66%"
+          ],
+          "industry_position": [
+            "燧弘华创在手订单75亿+,规划年产10万台服务器,庆阳2万P算力集群,极高关联"
+          ],
+          "chain": [
+            "燧原科技IPO概念"
+          ],
+          "partners": [
+            "燧原科技"
+          ]
         }
       ],
-      "last_updated": "2026-05-31",
+      "last_updated": "2026-06-11",
       "concepts": [
         "2025年报预增",
         "AI PC",
@@ -142755,7 +142906,9 @@
       ],
       "industry": "电子-元件-印制电路板",
       "board": "SZ",
-      "partners": [],
+      "partners": [
+        "燧原科技"
+      ],
       "core_business": [
         "FPC软板"
       ],
@@ -151261,9 +151414,40 @@
       "code": "600635",
       "name": "大众公用",
       "concept": "",
-      "mention_count": 2,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/o-LD9W32eXd6I28Lr9D_cw",
+          "title": "燧原科技IPO关联概念板块深度分析",
+          "date": "2026-06-11",
+          "accidents": [
+            "燧原科技6月15日上会,拟募资60亿,腾讯持股20.26%,Q1营收+14倍",
+            "持有深创投13%股权,深创投参与燧原融资,无业务实质合作"
+          ],
+          "insights": [
+            "深创投→燧原间接穿透"
+          ],
+          "key_metrics": [
+            "燧原2025年营收9.9亿(+83.76%CAGR)",
+            "三年研发36.76亿",
+            "Pre-IPO估值200亿+"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "深创投→燧原间接穿透"
+          ],
+          "industry_position": [
+            "持有深创投13%股权,深创投参与燧原融资,无业务实质合作"
+          ],
+          "chain": [
+            "燧原科技IPO概念"
+          ],
+          "partners": [
+            "燧原科技"
+          ]
+        }
+      ],
+      "last_updated": "2026-06-11",
       "concepts": [
         "2025年报预增",
         "互联网金融",
@@ -151280,7 +151464,18 @@
       ],
       "industry": "公用事业-燃气-燃气Ⅲ",
       "board": "SH",
-      "partners": []
+      "partners": [
+        "燧原科技"
+      ],
+      "core_business": [
+        "深创投→燧原间接穿透"
+      ],
+      "industry_position": [
+        "持有深创投13%股权,深创投参与燧原融资,无业务实质合作"
+      ],
+      "chain": [
+        "燧原科技IPO概念"
+      ]
     },
     "600637": {
       "code": "600637",
