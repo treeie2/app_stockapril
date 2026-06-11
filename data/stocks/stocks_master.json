@@ -1234,8 +1234,8 @@
       ]
     },
     "002371": {
-      "mention_count": 7,
-      "last_updated": "2026-06-10",
+      "mention_count": 8,
+      "last_updated": "2026-06-11",
       "partners": [
         "中芯国际并购重组将带动上游封测需求，长电科技作为核心供应商",
         "中芯国际并购重组将带动设备采购需求，北方华创作为国产设备核心供应商",
@@ -1408,6 +1408,33 @@
           ],
           "industry_position": [
             "营收394亿,研发占18.49%,Q1经营现金流+143%,全工艺覆盖"
+          ],
+          "chain": [
+            "半导体产业链"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/2VoOQQgIWZoFLiOOwmP51w",
+          "title": "六氟化钨持续发酵+半导体设备涨价+氮化铝粉体+电子级氟化氢",
+          "date": "2026-06-11",
+          "accidents": [
+            "日本六氟化钨7月断供,WF6价格同比+232.7%,韩国涨价70-90%,海外设备涨价5-10%",
+            "全工艺覆盖,海外扩产瓶颈利好国产替代"
+          ],
+          "insights": [
+            "平台型国产设备旗舰"
+          ],
+          "key_metrics": [
+            "WF6: 523→1670-1810元/kg(+232.7%)",
+            "全球设备市场2028年2500亿美元"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "平台型国产设备旗舰"
+          ],
+          "industry_position": [
+            "全工艺覆盖,海外扩产瓶颈利好国产替代"
           ],
           "chain": [
             "半导体产业链"
@@ -1648,8 +1675,8 @@
       ]
     },
     "003031": {
-      "mention_count": 2,
-      "last_updated": "2026-05-17",
+      "mention_count": 3,
+      "last_updated": "2026-06-11",
       "partners": [
         "中微公司",
         "中际旭创",
@@ -1658,7 +1685,9 @@
         "比亚迪"
       ],
       "name": "中瓷电子",
-      "industry_position": [],
+      "industry_position": [
+        "电子陶瓷封装龙头,吞食京瓷份额,未来取代京瓷"
+      ],
       "articles": [
         {
           "date": "2026-04-12",
@@ -1710,6 +1739,33 @@
             "国联万众8英寸产线2025年刚通车，2026年主力运行，2027年满产。",
             "在新易盛体系里，中瓷供货比例已达70-80%；在中际旭创体系里，供货比例超50%。"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/2VoOQQgIWZoFLiOOwmP51w",
+          "title": "六氟化钨持续发酵+半导体设备涨价+氮化铝粉体+电子级氟化氢",
+          "date": "2026-06-11",
+          "accidents": [
+            "日本六氟化钨7月断供,WF6价格同比+232.7%,韩国涨价70-90%,海外设备涨价5-10%",
+            "电子陶瓷封装龙头,吞食京瓷份额,未来取代京瓷"
+          ],
+          "insights": [
+            "氮化铝基板全球唯二"
+          ],
+          "key_metrics": [
+            "WF6: 523→1670-1810元/kg(+232.7%)",
+            "全球设备市场2028年2500亿美元"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "氮化铝基板全球唯二"
+          ],
+          "industry_position": [
+            "电子陶瓷封装龙头,吞食京瓷份额,未来取代京瓷"
+          ],
+          "chain": [
+            "半导体产业链"
+          ],
+          "partners": []
         }
       ],
       "board": "SZ",
@@ -3901,7 +3957,7 @@
       "description": "全球第二大刚性覆铜板企业，超低损耗CCL通过英伟达验证"
     },
     "600378": {
-      "mention_count": 9,
+      "mention_count": 10,
       "last_updated": "2026-06-11",
       "partners": [],
       "name": "昊华科技",
@@ -4087,6 +4143,33 @@
           ],
           "chain": [
             "中游-制造"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/2VoOQQgIWZoFLiOOwmP51w",
+          "title": "六氟化钨持续发酵+半导体设备涨价+氮化铝粉体+电子级氟化氢",
+          "date": "2026-06-11",
+          "accidents": [
+            "日本六氟化钨7月断供,WF6价格同比+232.7%,韩国涨价70-90%,海外设备涨价5-10%",
+            "WF6产能,电子级NF3/CF4/SF6全系列"
+          ],
+          "insights": [
+            "六氟化钨+特种气体"
+          ],
+          "key_metrics": [
+            "WF6: 523→1670-1810元/kg(+232.7%)",
+            "全球设备市场2028年2500亿美元"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "六氟化钨+特种气体"
+          ],
+          "industry_position": [
+            "WF6产能,电子级NF3/CF4/SF6全系列"
+          ],
+          "chain": [
+            "半导体产业链"
           ],
           "partners": []
         }
@@ -4637,8 +4720,8 @@
       ]
     },
     "688012": {
-      "mention_count": 6,
-      "last_updated": "2026-06-10",
+      "mention_count": 7,
+      "last_updated": "2026-06-11",
       "partners": [
         "中芯国际并购重组将带动上游封测需求，长电科技作为核心供应商",
         "中芯国际并购重组将带动设备采购需求，北方华创作为国产设备核心供应商",
@@ -4794,6 +4877,33 @@
           ],
           "industry_position": [
             "Q1净利+197%,CCP60:1刻蚀,LPCVD+224%,并购杭州众硅切入CMP"
+          ],
+          "chain": [
+            "半导体产业链"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/2VoOQQgIWZoFLiOOwmP51w",
+          "title": "六氟化钨持续发酵+半导体设备涨价+氮化铝粉体+电子级氟化氢",
+          "date": "2026-06-11",
+          "accidents": [
+            "日本六氟化钨7月断供,WF6价格同比+232.7%,韩国涨价70-90%,海外设备涨价5-10%",
+            "海外设备涨价5-10%,三星/海力士主动接触国产设备,出海预期"
+          ],
+          "insights": [
+            "刻蚀设备全球领先"
+          ],
+          "key_metrics": [
+            "WF6: 523→1670-1810元/kg(+232.7%)",
+            "全球设备市场2028年2500亿美元"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "刻蚀设备全球领先"
+          ],
+          "industry_position": [
+            "海外设备涨价5-10%,三星/海力士主动接触国产设备,出海预期"
           ],
           "chain": [
             "半导体产业链"
@@ -4972,8 +5082,8 @@
       ]
     },
     "688146": {
-      "mention_count": 8,
-      "last_updated": "2026-06-04",
+      "mention_count": 9,
+      "last_updated": "2026-06-11",
       "partners": [
         "中国船舶集团"
       ],
@@ -5167,6 +5277,33 @@
           "partners": [
             "ASML"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/2VoOQQgIWZoFLiOOwmP51w",
+          "title": "六氟化钨持续发酵+半导体设备涨价+氮化铝粉体+电子级氟化氢",
+          "date": "2026-06-11",
+          "accidents": [
+            "日本六氟化钨7月断供,WF6价格同比+232.7%,韩国涨价70-90%,海外设备涨价5-10%",
+            "日本7月断供,WF6价格同比+232.7%(523→1670-1810元/kg),韩国涨价70-90%,国产替代窗口"
+          ],
+          "insights": [
+            "六氟化钨国产龙头"
+          ],
+          "key_metrics": [
+            "WF6: 523→1670-1810元/kg(+232.7%)",
+            "全球设备市场2028年2500亿美元"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "六氟化钨国产龙头"
+          ],
+          "industry_position": [
+            "日本7月断供,WF6价格同比+232.7%(523→1670-1810元/kg),韩国涨价70-90%,国产替代窗口"
+          ],
+          "chain": [
+            "半导体产业链"
+          ],
+          "partners": []
         }
       ],
       "board": "SH",
@@ -52550,8 +52687,8 @@
       ]
     },
     "300285": {
-      "mention_count": 7,
-      "last_updated": "2026-06-10",
+      "mention_count": 8,
+      "last_updated": "2026-06-11",
       "concepts": [
         "3D打印",
         "5G",
@@ -52689,6 +52826,33 @@
           ],
           "chain": [
             "流延机产业链"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/2VoOQQgIWZoFLiOOwmP51w",
+          "title": "六氟化钨持续发酵+半导体设备涨价+氮化铝粉体+电子级氟化氢",
+          "date": "2026-06-11",
+          "accidents": [
+            "日本六氟化钨7月断供,WF6价格同比+232.7%,韩国涨价70-90%,海外设备涨价5-10%",
+            "有氮化铝技术储备"
+          ],
+          "insights": [
+            "MLCC粉体+氮化铝技术"
+          ],
+          "key_metrics": [
+            "WF6: 523→1670-1810元/kg(+232.7%)",
+            "全球设备市场2028年2500亿美元"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "MLCC粉体+氮化铝技术"
+          ],
+          "industry_position": [
+            "有氮化铝技术储备"
+          ],
+          "chain": [
+            "半导体产业链"
           ],
           "partners": []
         }
@@ -80980,8 +81144,8 @@
       "partners": []
     },
     "600353": {
-      "mention_count": 3,
-      "last_updated": "2026-06-04",
+      "mention_count": 4,
+      "last_updated": "2026-06-11",
       "partners": [
         "国内光模块头部厂商"
       ],
@@ -81055,6 +81219,33 @@
           "target_valuation": [
             "300亿市值目标"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/2VoOQQgIWZoFLiOOwmP51w",
+          "title": "六氟化钨持续发酵+半导体设备涨价+氮化铝粉体+电子级氟化氢",
+          "date": "2026-06-11",
+          "accidents": [
+            "日本六氟化钨7月断供,WF6价格同比+232.7%,韩国涨价70-90%,海外设备涨价5-10%",
+            "500吨产能国内第一,全链条量产,日本德山占全球75%份额,国产替代"
+          ],
+          "insights": [
+            "氮化铝粉体国内龙头"
+          ],
+          "key_metrics": [
+            "WF6: 523→1670-1810元/kg(+232.7%)",
+            "全球设备市场2028年2500亿美元"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "氮化铝粉体国内龙头"
+          ],
+          "industry_position": [
+            "500吨产能国内第一,全链条量产,日本德山占全球75%份额,国产替代"
+          ],
+          "chain": [
+            "半导体产业链"
+          ],
+          "partners": []
         }
       ],
       "board": "SH",
@@ -112859,8 +113050,8 @@
       "name": "纵横股份"
     },
     "688072": {
-      "mention_count": 6,
-      "last_updated": "2026-06-10",
+      "mention_count": 7,
+      "last_updated": "2026-06-11",
       "partners": [],
       "concepts": [
         "国家大基金持股",
@@ -112992,6 +113183,33 @@
             "半导体产业链"
           ],
           "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/2VoOQQgIWZoFLiOOwmP51w",
+          "title": "六氟化钨持续发酵+半导体设备涨价+氮化铝粉体+电子级氟化氢",
+          "date": "2026-06-11",
+          "accidents": [
+            "日本六氟化钨7月断供,WF6价格同比+232.7%,韩国涨价70-90%,海外设备涨价5-10%",
+            "在手订单110亿,海外设备紧缺利好"
+          ],
+          "insights": [
+            "薄膜沉积+三维键合龙头"
+          ],
+          "key_metrics": [
+            "WF6: 523→1670-1810元/kg(+232.7%)",
+            "全球设备市场2028年2500亿美元"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "薄膜沉积+三维键合龙头"
+          ],
+          "industry_position": [
+            "在手订单110亿,海外设备紧缺利好"
+          ],
+          "chain": [
+            "半导体产业链"
+          ],
+          "partners": []
         }
       ],
       "board": "SH",
@@ -113090,8 +113308,8 @@
       "partners": []
     },
     "688082": {
-      "mention_count": 3,
-      "last_updated": "2026-05-19",
+      "mention_count": 4,
+      "last_updated": "2026-06-11",
       "code": "688082",
       "articles": [
         {
@@ -113162,6 +113380,33 @@
             "长鑫存储",
             "长江存储"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/2VoOQQgIWZoFLiOOwmP51w",
+          "title": "六氟化钨持续发酵+半导体设备涨价+氮化铝粉体+电子级氟化氢",
+          "date": "2026-06-11",
+          "accidents": [
+            "日本六氟化钨7月断供,WF6价格同比+232.7%,韩国涨价70-90%,海外设备涨价5-10%",
+            "海外客户验证,设备出海潜力"
+          ],
+          "insights": [
+            "清洗设备龙头"
+          ],
+          "key_metrics": [
+            "WF6: 523→1670-1810元/kg(+232.7%)",
+            "全球设备市场2028年2500亿美元"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "清洗设备龙头"
+          ],
+          "industry_position": [
+            "海外客户验证,设备出海潜力"
+          ],
+          "chain": [
+            "半导体产业链"
+          ],
+          "partners": []
         }
       ],
       "board": "SH",
@@ -113898,8 +114143,8 @@
       "partners": []
     },
     "688120": {
-      "mention_count": 5,
-      "last_updated": "2026-06-09",
+      "mention_count": 6,
+      "last_updated": "2026-06-11",
       "partners": [],
       "concepts": [
         "MicroLED概念",
@@ -114031,6 +114276,33 @@
           ],
           "chain": [
             "中游-制造"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/2VoOQQgIWZoFLiOOwmP51w",
+          "title": "六氟化钨持续发酵+半导体设备涨价+氮化铝粉体+电子级氟化氢",
+          "date": "2026-06-11",
+          "accidents": [
+            "日本六氟化钨7月断供,WF6价格同比+232.7%,韩国涨价70-90%,海外设备涨价5-10%",
+            "受益海外设备涨价+国产替代"
+          ],
+          "insights": [
+            "CMP设备龙头"
+          ],
+          "key_metrics": [
+            "WF6: 523→1670-1810元/kg(+232.7%)",
+            "全球设备市场2028年2500亿美元"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "CMP设备龙头"
+          ],
+          "industry_position": [
+            "受益海外设备涨价+国产替代"
+          ],
+          "chain": [
+            "半导体产业链"
           ],
           "partners": []
         }
@@ -116134,8 +116406,8 @@
       "partners": []
     },
     "688200": {
-      "mention_count": 3,
-      "last_updated": "2026-06-09",
+      "mention_count": 4,
+      "last_updated": "2026-06-11",
       "concepts": [
         "沪股通",
         "高端装备",
@@ -116205,6 +116477,33 @@
           ],
           "chain": [
             "中游-制造"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/2VoOQQgIWZoFLiOOwmP51w",
+          "title": "六氟化钨持续发酵+半导体设备涨价+氮化铝粉体+电子级氟化氢",
+          "date": "2026-06-11",
+          "accidents": [
+            "日本六氟化钨7月断供,WF6价格同比+232.7%,韩国涨价70-90%,海外设备涨价5-10%",
+            "海外客户拓展"
+          ],
+          "insights": [
+            "测试设备"
+          ],
+          "key_metrics": [
+            "WF6: 523→1670-1810元/kg(+232.7%)",
+            "全球设备市场2028年2500亿美元"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "测试设备"
+          ],
+          "industry_position": [
+            "海外客户拓展"
+          ],
+          "chain": [
+            "半导体产业链"
           ],
           "partners": []
         }
@@ -119662,8 +119961,8 @@
       ]
     },
     "688361": {
-      "mention_count": 2,
-      "last_updated": "2026-06-09",
+      "mention_count": 3,
+      "last_updated": "2026-06-11",
       "concepts": [
         "先进封装",
         "沪股通",
@@ -119706,13 +120005,49 @@
             "中游-制造"
           ],
           "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/2VoOQQgIWZoFLiOOwmP51w",
+          "title": "六氟化钨持续发酵+半导体设备涨价+氮化铝粉体+电子级氟化氢",
+          "date": "2026-06-11",
+          "accidents": [
+            "日本六氟化钨7月断供,WF6价格同比+232.7%,韩国涨价70-90%,海外设备涨价5-10%",
+            "海外客户验证中"
+          ],
+          "insights": [
+            "量检测设备"
+          ],
+          "key_metrics": [
+            "WF6: 523→1670-1810元/kg(+232.7%)",
+            "全球设备市场2028年2500亿美元"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "量检测设备"
+          ],
+          "industry_position": [
+            "海外客户验证中"
+          ],
+          "chain": [
+            "半导体产业链"
+          ],
+          "partners": []
         }
       ],
       "industry": "电子-半导体-半导体设备",
       "board": "SH",
       "code": "688361",
       "name": "中科飞测",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "量检测设备"
+      ],
+      "industry_position": [
+        "海外客户验证中"
+      ],
+      "chain": [
+        "半导体产业链"
+      ]
     },
     "688362": {
       "mention_count": 2,
@@ -123210,8 +123545,8 @@
       "partners": []
     },
     "688598": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-11",
       "partners": [],
       "concepts": [
         "专精特新",
@@ -123232,7 +123567,9 @@
         "锂电池概念",
         "飞行汽车(eVTOL)"
       ],
-      "industry_position": [],
+      "industry_position": [
+        "新切入氮化铝粉体赛道"
+      ],
       "articles": [
         {
           "date": "2026-05-13",
@@ -123248,6 +123585,33 @@
           "accidents": [
             "500吨高纯氮化铝粉体产线（26年6月建成）"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/2VoOQQgIWZoFLiOOwmP51w",
+          "title": "六氟化钨持续发酵+半导体设备涨价+氮化铝粉体+电子级氟化氢",
+          "date": "2026-06-11",
+          "accidents": [
+            "日本六氟化钨7月断供,WF6价格同比+232.7%,韩国涨价70-90%,海外设备涨价5-10%",
+            "新切入氮化铝粉体赛道"
+          ],
+          "insights": [
+            "碳基材料+氮化铝新切入"
+          ],
+          "key_metrics": [
+            "WF6: 523→1670-1810元/kg(+232.7%)",
+            "全球设备市场2028年2500亿美元"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "碳基材料+氮化铝新切入"
+          ],
+          "industry_position": [
+            "新切入氮化铝粉体赛道"
+          ],
+          "chain": [
+            "半导体产业链"
+          ],
+          "partners": []
         }
       ],
       "board": "SH",
@@ -123255,10 +123619,14 @@
       "products": [
         "材料"
       ],
-      "chain": [],
+      "chain": [
+        "半导体产业链"
+      ],
       "name": "金博股份",
       "code": "688598",
-      "core_business": []
+      "core_business": [
+        "碳基材料+氮化铝新切入"
+      ]
     },
     "688599": {
       "mention_count": 2,
@@ -162535,7 +162903,7 @@
       "code": "688549",
       "name": "中巨芯",
       "concept": "",
-      "mention_count": 1,
+      "mention_count": 2,
       "articles": [
         {
           "title": "中巨芯，翻倍空间？",
@@ -162584,9 +162952,36 @@
             "海力士",
             "铠侠"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/2VoOQQgIWZoFLiOOwmP51w",
+          "title": "六氟化钨持续发酵+半导体设备涨价+氮化铝粉体+电子级氟化氢",
+          "date": "2026-06-11",
+          "accidents": [
+            "日本六氟化钨7月断供,WF6价格同比+232.7%,韩国涨价70-90%,海外设备涨价5-10%",
+            "WF6相关,电子级化学品龙头"
+          ],
+          "insights": [
+            "电子湿化学品+特气"
+          ],
+          "key_metrics": [
+            "WF6: 523→1670-1810元/kg(+232.7%)",
+            "全球设备市场2028年2500亿美元"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "电子湿化学品+特气"
+          ],
+          "industry_position": [
+            "WF6相关,电子级化学品龙头"
+          ],
+          "chain": [
+            "半导体产业链"
+          ],
+          "partners": []
         }
       ],
-      "last_updated": "2026-05-31",
+      "last_updated": "2026-06-11",
       "concepts": [
         "中芯国际概念",
         "先进封装",
@@ -172447,6 +172842,56 @@
           ],
           "chain": [
             "环氧丙烷产业链"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "000635": {
+      "code": "000635",
+      "name": "英力特",
+      "last_updated": "2026-06-11",
+      "mention_count": 1,
+      "board": "SZ",
+      "core_business": [
+        "电子级氟化氢3万吨"
+      ],
+      "industry_position": [
+        "年产3万吨超净高纯电子级氟化氢,WF6氟源"
+      ],
+      "chain": [
+        "半导体产业链"
+      ],
+      "partners": [],
+      "concepts": [
+        "电子级氟化氢",
+        "去日化"
+      ],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/2VoOQQgIWZoFLiOOwmP51w",
+          "title": "六氟化钨持续发酵+半导体设备涨价+氮化铝粉体+电子级氟化氢",
+          "date": "2026-06-11",
+          "accidents": [
+            "日本六氟化钨7月断供,WF6价格同比+232.7%,韩国涨价70-90%,海外设备涨价5-10%",
+            "年产3万吨超净高纯电子级氟化氢,WF6氟源"
+          ],
+          "insights": [
+            "电子级氟化氢3万吨"
+          ],
+          "key_metrics": [
+            "WF6: 523→1670-1810元/kg(+232.7%)",
+            "全球设备市场2028年2500亿美元"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "电子级氟化氢3万吨"
+          ],
+          "industry_position": [
+            "年产3万吨超净高纯电子级氟化氢,WF6氟源"
+          ],
+          "chain": [
+            "半导体产业链"
           ],
           "partners": []
         }
