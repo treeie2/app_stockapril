@@ -6306,8 +6306,8 @@
       ]
     },
     "688700": {
-      "mention_count": 4,
-      "last_updated": "2026-06-09",
+      "mention_count": 5,
+      "last_updated": "2026-06-12",
       "partners": [],
       "name": "东威科技",
       "industry_position": [
@@ -6419,6 +6419,30 @@
           ],
           "chain": [
             "中游-复合集流体"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/WK4HNqSIWiGLV5qB1H6AqA",
+          "title": "6月11日信息汇总：对日替代+算力+钻针+电镀",
+          "date": "2026-06-12",
+          "accidents": [
+            "立昂微旗下金瑞泓涨价10-15%,对日替代加速,Helion G轮4.65亿美元融资",
+            "1-5月订单持续翻倍,玻璃基板电镀领跑,目标550-600亿市值"
+          ],
+          "insights": [
+            "PCB电镀设备+玻璃基板"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "PCB电镀设备+玻璃基板"
+          ],
+          "industry_position": [
+            "1-5月订单持续翻倍,玻璃基板电镀领跑,目标550-600亿市值"
+          ],
+          "chain": [
+            "中游-制造"
           ],
           "partners": []
         }
@@ -12423,8 +12447,8 @@
       "name": "格力电器"
     },
     "000657": {
-      "mention_count": 9,
-      "last_updated": "2026-06-09",
+      "mention_count": 10,
+      "last_updated": "2026-06-12",
       "partners": [
         "腾讯签订累计价值50亿元的三年期AI算力服务订单",
         "英伟达Preferred级独家合作"
@@ -12622,6 +12646,30 @@
           ],
           "industry_position": [
             "金洲精工,60倍+高长径比钻针"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/WK4HNqSIWiGLV5qB1H6AqA",
+          "title": "6月11日信息汇总：对日替代+算力+钻针+电镀",
+          "date": "2026-06-12",
+          "accidents": [
+            "立昂微旗下金瑞泓涨价10-15%,对日替代加速,Helion G轮4.65亿美元融资",
+            "日本佑能主导,金洲精工国产替代先锋,载板钻针缺货确定性高"
+          ],
+          "insights": [
+            "金洲精工载板钻针"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "金洲精工载板钻针"
+          ],
+          "industry_position": [
+            "日本佑能主导,金洲精工国产替代先锋,载板钻针缺货确定性高"
           ],
           "chain": [
             "中游-制造"
@@ -19298,7 +19346,7 @@
       "core_business": [
         "算力中心从\"被动用电\"转向\"主动参与电力市场\"，通过负荷聚合、虚拟电厂、绿电交易等方式实现电力成本优化和碳减排"
       ],
-      "last_updated": "2026-06-05",
+      "last_updated": "2026-06-12",
       "industry_position": [
         "龙头",
         "龙头，商业模式最成熟"
@@ -19339,7 +19387,7 @@
         "高压快充"
       ],
       "code": "002015",
-      "mention_count": 5,
+      "mention_count": 6,
       "partners": [
         "比亚迪"
       ],
@@ -19478,13 +19526,39 @@
             "行业地位：河南电力国资，火电+绿电+算力一体化转型标杆，拟投资11亿元参股先天算力，京津冀1GW算力布局。"
           ],
           "target_valuation": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/WK4HNqSIWiGLV5qB1H6AqA",
+          "title": "6月11日信息汇总：对日替代+算力+钻针+电镀",
+          "date": "2026-06-12",
+          "accidents": [
+            "立昂微旗下金瑞泓涨价10-15%,对日替代加速,Helion G轮4.65亿美元融资",
+            "3-5年规划2GW智算中心,马来西亚/泰国/印尼海外布局,已拿下NV"
+          ],
+          "insights": [
+            "算力租赁+燃机电站"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "算力租赁+燃机电站"
+          ],
+          "industry_position": [
+            "3-5年规划2GW智算中心,马来西亚/泰国/印尼海外布局,已拿下NV"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
         }
       ],
       "board": "SZ",
       "products": [
         "提供绿色供能整体解决方案，构建智算中心绿色供能整体解决方案"
       ],
-      "chain": [],
+      "chain": [
+        "中游-制造"
+      ],
       "name": "协鑫能科"
     },
     "002017": {
@@ -41224,8 +41298,8 @@
       ]
     },
     "002859": {
-      "mention_count": 9,
-      "last_updated": "2026-06-10",
+      "mention_count": 10,
+      "last_updated": "2026-06-12",
       "concepts": [
         "PET铜箔",
         "一带一路",
@@ -41445,6 +41519,30 @@
           ],
           "chain": [
             "流延机产业链"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/WK4HNqSIWiGLV5qB1H6AqA",
+          "title": "6月11日信息汇总：对日替代+算力+钻针+电镀",
+          "date": "2026-06-12",
+          "accidents": [
+            "立昂微旗下金瑞泓涨价10-15%,对日替代加速,Helion G轮4.65亿美元融资",
+            "日企主导,国产加速突围放量"
+          ],
+          "insights": [
+            "MLCC离型膜龙头"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "MLCC离型膜龙头"
+          ],
+          "industry_position": [
+            "日企主导,国产加速突围放量"
+          ],
+          "chain": [
+            "中游-制造"
           ],
           "partners": []
         }
@@ -111378,8 +111476,8 @@
       "partners": []
     },
     "605358": {
-      "mention_count": 6,
-      "last_updated": "2026-06-10",
+      "mention_count": 7,
+      "last_updated": "2026-06-12",
       "concepts": [
         "5G",
         "专精特新",
@@ -111557,6 +111655,30 @@
           ],
           "chain": [
             "大硅片产业链"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/WK4HNqSIWiGLV5qB1H6AqA",
+          "title": "6月11日信息汇总：对日替代+算力+钻针+电镀",
+          "date": "2026-06-12",
+          "accidents": [
+            "立昂微旗下金瑞泓涨价10-15%,对日替代加速,Helion G轮4.65亿美元融资",
+            "金瑞泓宣布涨价10-15%,对日替代受益"
+          ],
+          "insights": [
+            "重掺硅片龙头"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "重掺硅片龙头"
+          ],
+          "industry_position": [
+            "金瑞泓宣布涨价10-15%,对日替代受益"
+          ],
+          "chain": [
+            "中游-制造"
           ],
           "partners": []
         }
@@ -115644,8 +115766,8 @@
       "partners": []
     },
     "688126": {
-      "mention_count": 7,
-      "last_updated": "2026-06-10",
+      "mention_count": 8,
+      "last_updated": "2026-06-12",
       "concepts": [
         "中芯国际概念",
         "人民币贬值受益",
@@ -115851,6 +115973,30 @@
           ],
           "chain": [
             "大硅片产业链"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/WK4HNqSIWiGLV5qB1H6AqA",
+          "title": "6月11日信息汇总：对日替代+算力+钻针+电镀",
+          "date": "2026-06-12",
+          "accidents": [
+            "立昂微旗下金瑞泓涨价10-15%,对日替代加速,Helion G轮4.65亿美元融资",
+            "对日替代受益,硅片涨价趋势"
+          ],
+          "insights": [
+            "12英寸大硅片龙头"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "12英寸大硅片龙头"
+          ],
+          "industry_position": [
+            "对日替代受益,硅片涨价趋势"
+          ],
+          "chain": [
+            "中游-制造"
           ],
           "partners": []
         }
@@ -122767,8 +122913,8 @@
       "partners": []
     },
     "688478": {
-      "mention_count": 2,
-      "last_updated": "2026-06-09",
+      "mention_count": 3,
+      "last_updated": "2026-06-12",
       "partners": [],
       "concepts": [
         "专精特新",
@@ -122832,6 +122978,30 @@
           ],
           "industry_position": [
             "大硅片设备,在手订单3.5亿"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/WK4HNqSIWiGLV5qB1H6AqA",
+          "title": "6月11日信息汇总：对日替代+算力+钻针+电镀",
+          "date": "2026-06-12",
+          "accidents": [
+            "立昂微旗下金瑞泓涨价10-15%,对日替代加速,Helion G轮4.65亿美元融资",
+            "硅片设备,受益硅片扩产"
+          ],
+          "insights": [
+            "SiC+硅片长晶炉"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "SiC+硅片长晶炉"
+          ],
+          "industry_position": [
+            "硅片设备,受益硅片扩产"
           ],
           "chain": [
             "中游-制造"
@@ -126831,8 +127001,8 @@
       ]
     },
     "688783": {
-      "mention_count": 4,
-      "last_updated": "2026-06-10",
+      "mention_count": 5,
+      "last_updated": "2026-06-12",
       "code": "688783",
       "articles": [
         {
@@ -126930,6 +127100,30 @@
           ],
           "chain": [
             "大硅片产业链"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/WK4HNqSIWiGLV5qB1H6AqA",
+          "title": "6月11日信息汇总：对日替代+算力+钻针+电镀",
+          "date": "2026-06-12",
+          "accidents": [
+            "立昂微旗下金瑞泓涨价10-15%,对日替代加速,Helion G轮4.65亿美元融资",
+            "对日替代,高端大硅片近9成日企供应,国产替代加速"
+          ],
+          "insights": [
+            "12英寸大硅片"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "12英寸大硅片"
+          ],
+          "industry_position": [
+            "对日替代,高端大硅片近9成日企供应,国产替代加速"
+          ],
+          "chain": [
+            "中游-制造"
           ],
           "partners": []
         }
@@ -131150,8 +131344,8 @@
       "board": "SZ"
     },
     "301045": {
-      "mention_count": 0,
-      "last_updated": "2026-05-31",
+      "mention_count": 1,
+      "last_updated": "2026-06-12",
       "concepts": [
         "华为概念",
         "小米概念",
@@ -131163,8 +131357,42 @@
       "name": "天禄科技",
       "concept": "TAC光学膜;偏光片;面板;国产替代",
       "description": "TAC光学膜项目推进顺利，一期年产6000万平方米生产线部分设备已进场，联动京东方、三利谱打造协同研发生产模式，补齐TFT级TAC膜国产化短板",
-      "articles": [],
-      "partners": []
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/WK4HNqSIWiGLV5qB1H6AqA",
+          "title": "6月11日信息汇总：对日替代+算力+钻针+电镀",
+          "date": "2026-06-12",
+          "accidents": [
+            "立昂微旗下金瑞泓涨价10-15%,对日替代加速,Helion G轮4.65亿美元融资",
+            "日企占9成,下游面板大陆占7成,0-1国产突破"
+          ],
+          "insights": [
+            "TAC膜国产突破"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "TAC膜国产突破"
+          ],
+          "industry_position": [
+            "日企占9成,下游面板大陆占7成,0-1国产突破"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
+        }
+      ],
+      "partners": [],
+      "core_business": [
+        "TAC膜国产突破"
+      ],
+      "industry_position": [
+        "日企占9成,下游面板大陆占7成,0-1国产突破"
+      ],
+      "chain": [
+        "中游-制造"
+      ]
     },
     "300936": {
       "code": "300936",
@@ -139341,9 +139569,34 @@
       "code": "002735",
       "name": "王子新材",
       "concept": "",
-      "mention_count": 3,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/WK4HNqSIWiGLV5qB1H6AqA",
+          "title": "6月11日信息汇总：对日替代+算力+钻针+电镀",
+          "date": "2026-06-12",
+          "accidents": [
+            "立昂微旗下金瑞泓涨价10-15%,对日替代加速,Helion G轮4.65亿美元融资",
+            "台资电源SST验证落地,Helion电容体外唯一供应商,千万美金级订单"
+          ],
+          "insights": [
+            "SST电容+Helion聚变供应商"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "SST电容+Helion聚变供应商"
+          ],
+          "industry_position": [
+            "台资电源SST验证落地,Helion电容体外唯一供应商,千万美金级订单"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-06-12",
       "concepts": [
         "两轮车",
         "低空经济",
@@ -139365,7 +139618,16 @@
       ],
       "industry": "轻工制造-包装印刷-包装",
       "board": "SZ",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "SST电容+Helion聚变供应商"
+      ],
+      "industry_position": [
+        "台资电源SST验证落地,Helion电容体外唯一供应商,千万美金级订单"
+      ],
+      "chain": [
+        "中游-制造"
+      ]
     },
     "002736": {
       "code": "002736",
@@ -150021,7 +150283,7 @@
       "code": "301362",
       "name": "民爆光电",
       "concept": "",
-      "mention_count": 1,
+      "mention_count": 2,
       "articles": [
         {
           "source": "https://mp.weixin.qq.com/s/FB_Yi85_u5JS4uYFe1O7ag",
@@ -150046,9 +150308,33 @@
             "中游-制造"
           ],
           "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/WK4HNqSIWiGLV5qB1H6AqA",
+          "title": "6月11日信息汇总：对日替代+算力+钻针+电镀",
+          "date": "2026-06-12",
+          "accidents": [
+            "立昂微旗下金瑞泓涨价10-15%,对日替代加速,Helion G轮4.65亿美元融资",
+            "收购厦芝精密,微钻领域深厚积累"
+          ],
+          "insights": [
+            "厦芝精密微钻"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "厦芝精密微钻"
+          ],
+          "industry_position": [
+            "收购厦芝精密,微钻领域深厚积累"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
         }
       ],
-      "last_updated": "2026-06-09",
+      "last_updated": "2026-06-12",
       "concepts": [
         "C2M概念",
         "PCB概念",
@@ -150061,7 +150347,16 @@
       ],
       "industry": "电子-光学光电子-LED",
       "board": "SZ",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "厦芝精密微钻"
+      ],
+      "industry_position": [
+        "收购厦芝精密,微钻领域深厚积累"
+      ],
+      "chain": [
+        "中游-制造"
+      ]
     },
     "301368": {
       "code": "301368",
