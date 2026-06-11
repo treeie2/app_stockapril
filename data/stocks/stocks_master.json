@@ -3141,8 +3141,8 @@
       ]
     },
     "300666": {
-      "mention_count": 5,
-      "last_updated": "2026-06-09",
+      "mention_count": 6,
+      "last_updated": "2026-06-11",
       "partners": [
         "中芯国际等客户订单",
         "中芯国际、长江存储、台积电等优质头部客户"
@@ -3296,6 +3296,30 @@
           ],
           "industry_position": [
             "靶材涨价20%+"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/He_2kqIcWPjF-rHy1CGySg",
+          "title": "江丰电子：靶材涨价+零部件扭亏，2倍空间",
+          "date": "2026-06-11",
+          "accidents": [
+            "6月11日",
+            "靶材涨价超预期,静电卡盘订单+10倍,SHD通过全球头部fab认证,对日替代+涨价,短期830亿/远期1500亿,2倍空间"
+          ],
+          "insights": [
+            "靶材全球第二+零部件第二"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "靶材全球第二+零部件第二"
+          ],
+          "industry_position": [
+            "靶材涨价超预期,静电卡盘订单+10倍,SHD通过全球头部fab认证,对日替代+涨价,短期830亿/远期1500亿,2倍空间"
           ],
           "chain": [
             "中游-制造"
@@ -119054,8 +119078,8 @@
       "core_business": []
     },
     "688323": {
-      "mention_count": 2,
-      "last_updated": "2026-05-31",
+      "mention_count": 3,
+      "last_updated": "2026-06-11",
       "concepts": [
         "5G",
         "PCB概念",
@@ -119107,6 +119131,30 @@
             "PI薄膜+复合材料业务占比超75%",
             "卫星结构件+航天材料核心配套"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/Xk1oyuA6ncmVSGSfIxNYoA",
+          "title": "瑞华泰：PI薄膜缺口1万吨，6倍空间",
+          "date": "2026-06-11",
+          "accidents": [
+            "6月11日",
+            "PI产能5000吨/年,电子级缺口1万吨,海外涨价30-50%,华为/三星/长江存储客户,6倍空间看450亿"
+          ],
+          "insights": [
+            "电子级PI薄膜龙头"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "电子级PI薄膜龙头"
+          ],
+          "industry_position": [
+            "PI产能5000吨/年,电子级缺口1万吨,海外涨价30-50%,华为/三星/长江存储客户,6倍空间看450亿"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
         }
       ],
       "industry": "基础化工-塑料制品-膜材料",
@@ -172892,6 +172940,52 @@
           ],
           "chain": [
             "半导体产业链"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "605318": {
+      "code": "605318",
+      "name": "法狮龙",
+      "last_updated": "2026-06-11",
+      "mention_count": 1,
+      "board": "SH",
+      "core_business": [
+        "DCI算力专网,全国核心槽道20年独家"
+      ],
+      "industry_position": [
+        "AI算力专网,东数西算核心支撑,光纤量价锁定,全线投产年营收104亿/净利73亿,2倍空间"
+      ],
+      "chain": [
+        "中游-制造"
+      ],
+      "partners": [],
+      "concepts": [
+        "算力专网/DCI"
+      ],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/1I2Lln2oIOIvPDjj_oYfzQ",
+          "title": "法狮龙：DCI算力专网独家，2倍空间",
+          "date": "2026-06-11",
+          "accidents": [
+            "6月11日",
+            "AI算力专网,东数西算核心支撑,光纤量价锁定,全线投产年营收104亿/净利73亿,2倍空间"
+          ],
+          "insights": [
+            "DCI算力专网,全国核心槽道20年独家"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "DCI算力专网,全国核心槽道20年独家"
+          ],
+          "industry_position": [
+            "AI算力专网,东数西算核心支撑,光纤量价锁定,全线投产年营收104亿/净利73亿,2倍空间"
+          ],
+          "chain": [
+            "中游-制造"
           ],
           "partners": []
         }
