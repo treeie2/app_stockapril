@@ -8655,8 +8655,10 @@
       "name": "申万宏源"
     },
     "000301": {
-      "core_business": [],
-      "last_updated": "2026-05-31",
+      "core_business": [
+        "PO/SM联产20万吨"
+      ],
+      "last_updated": "2026-06-11",
       "industry_position": [
         "能，位于硫铁矿带,县域内硫铁矿储量超过4亿吨,全省第一",
         "股股东铜陵化工持有新桥矿业70%股权，后者拥有全国第二",
@@ -8679,7 +8681,7 @@
         "锂电池概念"
       ],
       "code": "000301",
-      "mention_count": 1,
+      "mention_count": 2,
       "partners": [],
       "articles": [
         {
@@ -8691,6 +8693,35 @@
           ],
           "title": "东方盛虹(000301) - 产业链核心标的分析",
           "source": "原材料: raw_material_2026-04-12_3.md"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/hBnjEsBDhWgZWOStZeRO6Q",
+          "title": "环氧丙烷产业链：落后产能出清，绿色工艺主导",
+          "date": "2026-06-11",
+          "hot_topic": "环氧丙烷",
+          "accidents": [
+            "4月1日起取消聚醚出口退税(13%→0),下游抢单引爆补库潮,行业开工率仅70%落后产能加速出清",
+            "炼化一体化,丙烯自给,联产苯乙烯"
+          ],
+          "insights": [
+            "PO/SM联产20万吨"
+          ],
+          "key_metrics": [
+            "2025年产能866万吨(全球60%)",
+            "绿色工艺占比70.3%",
+            "高附加值产品自给率不足40%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "PO/SM联产20万吨"
+          ],
+          "industry_position": [
+            "炼化一体化,丙烯自给,联产苯乙烯"
+          ],
+          "chain": [
+            "环氧丙烷产业链"
+          ],
+          "partners": []
         }
       ],
       "board": "SZ",
@@ -8704,7 +8735,9 @@
         "的是固态电解质用硫化锂原料\\n\\n\\n\\n\\n4",
         "恩捷股份"
       ],
-      "chain": [],
+      "chain": [
+        "环氧丙烷产业链"
+      ],
       "name": "东方盛虹"
     },
     "000333": {
@@ -14095,7 +14128,7 @@
         "业绩拐点与智算转型",
         "：业绩拐点与智算转型"
       ],
-      "last_updated": "2026-06-05",
+      "last_updated": "2026-06-11",
       "industry_position": [
         "龙头",
         "数据：华南IDC龙头"
@@ -14127,7 +14160,7 @@
         "铜缆高速连接"
       ],
       "code": "000818",
-      "mention_count": 2,
+      "mention_count": 3,
       "partners": [
         "英伟达"
       ],
@@ -14161,6 +14194,35 @@
             "800G光模块的硅光方案良率突破85%，在国产替代背景下具有较强的确定性。"
           ],
           "target_valuation": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/hBnjEsBDhWgZWOStZeRO6Q",
+          "title": "环氧丙烷产业链：落后产能出清，绿色工艺主导",
+          "date": "2026-06-11",
+          "hot_topic": "环氧丙烷",
+          "accidents": [
+            "4月1日起取消聚醚出口退税(13%→0),下游抢单引爆补库潮,行业开工率仅70%落后产能加速出清",
+            "氯碱配套,丙烯就近供应,聚醚/聚氨酯下游"
+          ],
+          "insights": [
+            "氯醇法PO"
+          ],
+          "key_metrics": [
+            "2025年产能866万吨(全球60%)",
+            "绿色工艺占比70.3%",
+            "高附加值产品自给率不足40%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "氯醇法PO"
+          ],
+          "industry_position": [
+            "氯碱配套,丙烯就近供应,聚醚/聚氨酯下游"
+          ],
+          "chain": [
+            "环氧丙烷产业链"
+          ],
+          "partners": []
         }
       ],
       "board": "SZ",
@@ -23101,7 +23163,7 @@
       "core_business": [
         "国内冰箱冷柜保温材料的龙头企业"
       ],
-      "last_updated": "2026-06-10",
+      "last_updated": "2026-06-11",
       "industry_position": [
         "龙头",
         "箱冷柜保温材料的龙头"
@@ -23117,7 +23179,7 @@
         "融资融券"
       ],
       "code": "002165",
-      "mention_count": 2,
+      "mention_count": 3,
       "partners": [],
       "articles": [
         {
@@ -23149,6 +23211,35 @@
           ],
           "chain": [
             "首板涨停"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/hBnjEsBDhWgZWOStZeRO6Q",
+          "title": "环氧丙烷产业链：落后产能出清，绿色工艺主导",
+          "date": "2026-06-11",
+          "hot_topic": "环氧丙烷",
+          "accidents": [
+            "4月1日起取消聚醚出口退税(13%→0),下游抢单引爆补库潮,行业开工率仅70%落后产能加速出清",
+            "聚氨酯硬泡组合聚醚龙头,冰箱/冷库/建筑保温"
+          ],
+          "insights": [
+            "PO→聚醚多元醇"
+          ],
+          "key_metrics": [
+            "2025年产能866万吨(全球60%)",
+            "绿色工艺占比70.3%",
+            "高附加值产品自给率不足40%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "PO→聚醚多元醇"
+          ],
+          "industry_position": [
+            "聚氨酯硬泡组合聚醚龙头,冰箱/冷库/建筑保温"
+          ],
+          "chain": [
+            "环氧丙烷产业链"
           ],
           "partners": []
         }
@@ -36993,8 +37084,8 @@
       "partners": []
     },
     "002648": {
-      "mention_count": 1,
-      "last_updated": "2026-05-10",
+      "mention_count": 2,
+      "last_updated": "2026-06-11",
       "concepts": [
         "融资融券",
         "互联网金融",
@@ -37014,13 +37105,51 @@
           "date": "",
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/hBnjEsBDhWgZWOStZeRO6Q",
+          "title": "环氧丙烷产业链：落后产能出清，绿色工艺主导",
+          "date": "2026-06-11",
+          "hot_topic": "环氧丙烷",
+          "accidents": [
+            "4月1日起取消聚醚出口退税(13%→0),下游抢单引爆补库潮,行业开工率仅70%落后产能加速出清",
+            "轻烃一体化,双氧水自给,长三角区位优势"
+          ],
+          "insights": [
+            "HPPO法PO重要生产商"
+          ],
+          "key_metrics": [
+            "2025年产能866万吨(全球60%)",
+            "绿色工艺占比70.3%",
+            "高附加值产品自给率不足40%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "HPPO法PO重要生产商"
+          ],
+          "industry_position": [
+            "轻烃一体化,双氧水自给,长三角区位优势"
+          ],
+          "chain": [
+            "环氧丙烷产业链"
+          ],
+          "partners": []
         }
       ],
       "industry": "基础化工-化学制品-其他化学制品",
       "board": "SZ",
       "code": "002648",
       "name": "卫星化学",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "HPPO法PO重要生产商"
+      ],
+      "industry_position": [
+        "轻烃一体化,双氧水自给,长三角区位优势"
+      ],
+      "chain": [
+        "环氧丙烷产业链"
+      ]
     },
     "002656": {
       "mention_count": 1,
@@ -38699,8 +38828,8 @@
       "partners": []
     },
     "002768": {
-      "mention_count": 2,
-      "last_updated": "2026-06-04",
+      "mention_count": 3,
+      "last_updated": "2026-06-11",
       "concepts": [
         "风电",
         "PEEK材料",
@@ -38750,6 +38879,35 @@
           "date": "",
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/hBnjEsBDhWgZWOStZeRO6Q",
+          "title": "环氧丙烷产业链：落后产能出清，绿色工艺主导",
+          "date": "2026-06-11",
+          "hot_topic": "环氧丙烷",
+          "accidents": [
+            "4月1日起取消聚醚出口退税(13%→0),下游抢单引爆补库潮,行业开工率仅70%落后产能加速出清",
+            "PO-聚醚-改性材料产业链,汽车/家电领域"
+          ],
+          "insights": [
+            "8万吨PO/SM联产"
+          ],
+          "key_metrics": [
+            "2025年产能866万吨(全球60%)",
+            "绿色工艺占比70.3%",
+            "高附加值产品自给率不足40%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "8万吨PO/SM联产"
+          ],
+          "industry_position": [
+            "PO-聚醚-改性材料产业链,汽车/家电领域"
+          ],
+          "chain": [
+            "环氧丙烷产业链"
+          ],
+          "partners": []
         }
       ],
       "industry": "基础化工-塑料制品-改性塑料",
@@ -39250,8 +39408,8 @@
       ]
     },
     "002809": {
-      "mention_count": 1,
-      "last_updated": "2026-05-10",
+      "mention_count": 2,
+      "last_updated": "2026-06-11",
       "concepts": [
         "水利",
         "京津冀一体化",
@@ -39271,13 +39429,51 @@
           "insights": [
             "弹性博弈型（短期关注）：可关注红墙股份（下游补涨）、美邦科技（短期弹性）等标的，"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/hBnjEsBDhWgZWOStZeRO6Q",
+          "title": "环氧丙烷产业链：落后产能出清，绿色工艺主导",
+          "date": "2026-06-11",
+          "hot_topic": "环氧丙烷",
+          "accidents": [
+            "4月1日起取消聚醚出口退税(13%→0),下游抢单引爆补库潮,行业开工率仅70%落后产能加速出清",
+            "聚醚单体是核心原料,基建/地产需求"
+          ],
+          "insights": [
+            "PO下游→混凝土外加剂"
+          ],
+          "key_metrics": [
+            "2025年产能866万吨(全球60%)",
+            "绿色工艺占比70.3%",
+            "高附加值产品自给率不足40%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "PO下游→混凝土外加剂"
+          ],
+          "industry_position": [
+            "聚醚单体是核心原料,基建/地产需求"
+          ],
+          "chain": [
+            "环氧丙烷产业链"
+          ],
+          "partners": []
         }
       ],
       "industry": "基础化工-化学制品-其他化学制品",
       "board": "SZ",
       "code": "002809",
       "name": "红墙股份",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "PO下游→混凝土外加剂"
+      ],
+      "industry_position": [
+        "聚醚单体是核心原料,基建/地产需求"
+      ],
+      "chain": [
+        "环氧丙烷产业链"
+      ]
     },
     "002810": {
       "mention_count": 1,
@@ -43595,8 +43791,8 @@
       "name": "兆威机电"
     },
     "003022": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-11",
       "concepts": [
         "HJT电池",
         "PEEK材料",
@@ -43622,13 +43818,51 @@
           ],
           "title": "热点关注，今日操作策略与风险提示，8月18日，星期一",
           "source": "https://mp.weixin.qq.com/s/yzPLXcIAmN2GhRG6hVitqw"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/hBnjEsBDhWgZWOStZeRO6Q",
+          "title": "环氧丙烷产业链：落后产能出清，绿色工艺主导",
+          "date": "2026-06-11",
+          "hot_topic": "环氧丙烷",
+          "accidents": [
+            "4月1日起取消聚醚出口退税(13%→0),下游抢单引爆补库潮,行业开工率仅70%落后产能加速出清",
+            "联泓格润一体化项目投产,PO-聚醚-新材料产业链"
+          ],
+          "insights": [
+            "30万吨PO+聚醚一体化"
+          ],
+          "key_metrics": [
+            "2025年产能866万吨(全球60%)",
+            "绿色工艺占比70.3%",
+            "高附加值产品自给率不足40%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "30万吨PO+聚醚一体化"
+          ],
+          "industry_position": [
+            "联泓格润一体化项目投产,PO-聚醚-新材料产业链"
+          ],
+          "chain": [
+            "环氧丙烷产业链"
+          ],
+          "partners": []
         }
       ],
       "industry": "电力设备-光伏设备-光伏辅材",
       "board": "SZ",
       "code": "003022",
       "name": "联泓新科",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "30万吨PO+聚醚一体化"
+      ],
+      "industry_position": [
+        "联泓格润一体化项目投产,PO-聚醚-新材料产业链"
+      ],
+      "chain": [
+        "环氧丙烷产业链"
+      ]
     },
     "003029": {
       "mention_count": 2,
@@ -62650,8 +62884,8 @@
       ]
     },
     "300721": {
-      "mention_count": 3,
-      "last_updated": "2026-06-10",
+      "mention_count": 4,
+      "last_updated": "2026-06-11",
       "concepts": [
         "OLED",
         "光刻胶",
@@ -62711,6 +62945,35 @@
           ],
           "chain": [
             "首板涨停"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/hBnjEsBDhWgZWOStZeRO6Q",
+          "title": "环氧丙烷产业链：落后产能出清，绿色工艺主导",
+          "date": "2026-06-11",
+          "hot_topic": "环氧丙烷",
+          "accidents": [
+            "4月1日起取消聚醚出口退税(13%→0),下游抢单引爆补库潮,行业开工率仅70%落后产能加速出清",
+            "PO部分自给,醇醚产品覆盖电子/涂料/油墨"
+          ],
+          "insights": [
+            "PO自产→丙二醇醚/醇醚酯"
+          ],
+          "key_metrics": [
+            "2025年产能866万吨(全球60%)",
+            "绿色工艺占比70.3%",
+            "高附加值产品自给率不足40%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "PO自产→丙二醇醚/醇醚酯"
+          ],
+          "industry_position": [
+            "PO部分自给,醇醚产品覆盖电子/涂料/油墨"
+          ],
+          "chain": [
+            "环氧丙烷产业链"
           ],
           "partners": []
         }
@@ -79916,8 +80179,8 @@
       "partners": []
     },
     "600308": {
-      "mention_count": 1,
-      "last_updated": "2026-05-10",
+      "mention_count": 2,
+      "last_updated": "2026-06-11",
       "concepts": [
         "光伏概念",
         "AI应用",
@@ -79942,17 +80205,55 @@
           "date": "",
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/hBnjEsBDhWgZWOStZeRO6Q",
+          "title": "环氧丙烷产业链：落后产能出清，绿色工艺主导",
+          "date": "2026-06-11",
+          "hot_topic": "环氧丙烷",
+          "accidents": [
+            "4月1日起取消聚醚出口退税(13%→0),下游抢单引爆补库潮,行业开工率仅70%落后产能加速出清",
+            "化工配套,PO衍生产品探索"
+          ],
+          "insights": [
+            "PO产业链配套"
+          ],
+          "key_metrics": [
+            "2025年产能866万吨(全球60%)",
+            "绿色工艺占比70.3%",
+            "高附加值产品自给率不足40%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "PO产业链配套"
+          ],
+          "industry_position": [
+            "化工配套,PO衍生产品探索"
+          ],
+          "chain": [
+            "环氧丙烷产业链"
+          ],
+          "partners": []
         }
       ],
       "industry": "轻工制造-造纸-造纸Ⅲ",
       "board": "SH",
       "code": "600308",
       "name": "华泰股份",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "PO产业链配套"
+      ],
+      "industry_position": [
+        "化工配套,PO衍生产品探索"
+      ],
+      "chain": [
+        "环氧丙烷产业链"
+      ]
     },
     "600309": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-11",
       "concepts": [
         "AIGC概念",
         "POE胶膜",
@@ -79992,6 +80293,35 @@
             "行业库存处于2024年以来低位",
             "供应偏紧叠加出口补单与下游需求复苏"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/hBnjEsBDhWgZWOStZeRO6Q",
+          "title": "环氧丙烷产业链：落后产能出清，绿色工艺主导",
+          "date": "2026-06-11",
+          "hot_topic": "环氧丙烷",
+          "accidents": [
+            "4月1日起取消聚醚出口退税(13%→0),下游抢单引爆补库潮,行业开工率仅70%落后产能加速出清",
+            "HPPO/PO/SM/氯醇法全覆盖,丙烯-PO-聚醚-聚氨酯全产业链闭环"
+          ],
+          "insights": [
+            "全球少数同时掌握三种PO技术"
+          ],
+          "key_metrics": [
+            "2025年产能866万吨(全球60%)",
+            "绿色工艺占比70.3%",
+            "高附加值产品自给率不足40%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "全球少数同时掌握三种PO技术"
+          ],
+          "industry_position": [
+            "HPPO/PO/SM/氯醇法全覆盖,丙烯-PO-聚醚-聚氨酯全产业链闭环"
+          ],
+          "chain": [
+            "环氧丙烷产业链"
+          ],
+          "partners": []
         }
       ],
       "industry": "基础化工-化学制品-聚氨酯",
@@ -83134,8 +83464,8 @@
       "name": "烽火通信"
     },
     "600500": {
-      "mention_count": 2,
-      "last_updated": "2026-06-09",
+      "mention_count": 3,
+      "last_updated": "2026-06-11",
       "concepts": [
         "一带一路",
         "上海自贸区",
@@ -83183,6 +83513,35 @@
           ],
           "chain": [
             "中游-PPE"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/hBnjEsBDhWgZWOStZeRO6Q",
+          "title": "环氧丙烷产业链：落后产能出清，绿色工艺主导",
+          "date": "2026-06-11",
+          "hot_topic": "环氧丙烷",
+          "accidents": [
+            "4月1日起取消聚醚出口退税(13%→0),下游抢单引爆补库潮,行业开工率仅70%落后产能加速出清",
+            "连云港碳三产业链核心,PO-聚醚-环氧树脂延伸"
+          ],
+          "insights": [
+            "40万吨HPPO法PO"
+          ],
+          "key_metrics": [
+            "2025年产能866万吨(全球60%)",
+            "绿色工艺占比70.3%",
+            "高附加值产品自给率不足40%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "40万吨HPPO法PO"
+          ],
+          "industry_position": [
+            "连云港碳三产业链核心,PO-聚醚-环氧树脂延伸"
+          ],
+          "chain": [
+            "环氧丙烷产业链"
           ],
           "partners": []
         }
@@ -90122,8 +90481,8 @@
       "name": "中国移动"
     },
     "600955": {
-      "mention_count": 1,
-      "last_updated": "2026-05-10",
+      "mention_count": 2,
+      "last_updated": "2026-06-11",
       "concepts": [
         "消毒剂",
         "沪股通",
@@ -90138,13 +90497,51 @@
           ],
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/hBnjEsBDhWgZWOStZeRO6Q",
+          "title": "环氧丙烷产业链：落后产能出清，绿色工艺主导",
+          "date": "2026-06-11",
+          "hot_topic": "环氧丙烷",
+          "accidents": [
+            "4月1日起取消聚醚出口退税(13%→0),下游抢单引爆补库潮,行业开工率仅70%落后产能加速出清",
+            "丙烯自给,PO-聚醚-丙二醇产业链"
+          ],
+          "insights": [
+            "丙烯→PO,先进工艺"
+          ],
+          "key_metrics": [
+            "2025年产能866万吨(全球60%)",
+            "绿色工艺占比70.3%",
+            "高附加值产品自给率不足40%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "丙烯→PO,先进工艺"
+          ],
+          "industry_position": [
+            "丙烯自给,PO-聚醚-丙二醇产业链"
+          ],
+          "chain": [
+            "环氧丙烷产业链"
+          ],
+          "partners": []
         }
       ],
       "industry": "基础化工-化学原料-其他化学原料",
       "board": "SH",
       "code": "600955",
       "name": "维远股份",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "丙烯→PO,先进工艺"
+      ],
+      "industry_position": [
+        "丙烯自给,PO-聚醚-丙二醇产业链"
+      ],
+      "chain": [
+        "环氧丙烷产业链"
+      ]
     },
     "600958": {
       "mention_count": 1,
@@ -94661,8 +95058,8 @@
       "partners": []
     },
     "601678": {
-      "mention_count": 4,
-      "last_updated": "2026-06-10",
+      "mention_count": 5,
+      "last_updated": "2026-06-11",
       "concepts": [
         "参股保险",
         "参股银行",
@@ -94747,6 +95144,35 @@
           ],
           "chain": [
             "首板涨停"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/hBnjEsBDhWgZWOStZeRO6Q",
+          "title": "环氧丙烷产业链：落后产能出清，绿色工艺主导",
+          "date": "2026-06-11",
+          "hot_topic": "环氧丙烷",
+          "accidents": [
+            "4月1日起取消聚醚出口退税(13%→0),下游抢单引爆补库潮,行业开工率仅70%落后产能加速出清",
+            "氯碱配套,聚醚/丙二醇下游,工艺升级中"
+          ],
+          "insights": [
+            "氯醇法→绿色工艺升级"
+          ],
+          "key_metrics": [
+            "2025年产能866万吨(全球60%)",
+            "绿色工艺占比70.3%",
+            "高附加值产品自给率不足40%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "氯醇法→绿色工艺升级"
+          ],
+          "industry_position": [
+            "氯碱配套,聚醚/丙二醇下游,工艺升级中"
+          ],
+          "chain": [
+            "环氧丙烷产业链"
           ],
           "partners": []
         }
@@ -98207,8 +98633,8 @@
       "partners": []
     },
     "603026": {
-      "mention_count": 2,
-      "last_updated": "2026-06-10",
+      "mention_count": 3,
+      "last_updated": "2026-06-11",
       "concepts": [
         "国企改革",
         "宁德时代概念",
@@ -98257,6 +98683,35 @@
           "partners": [
             "宁德时代"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/hBnjEsBDhWgZWOStZeRO6Q",
+          "title": "环氧丙烷产业链：落后产能出清，绿色工艺主导",
+          "date": "2026-06-11",
+          "hot_topic": "环氧丙烷",
+          "accidents": [
+            "4月1日起取消聚醚出口退税(13%→0),下游抢单引爆补库潮,行业开工率仅70%落后产能加速出清",
+            "PO是DMC核心原料,自给对冲原料波动,锂电池溶剂龙头"
+          ],
+          "insights": [
+            "PO自产自用→电解液溶剂"
+          ],
+          "key_metrics": [
+            "2025年产能866万吨(全球60%)",
+            "绿色工艺占比70.3%",
+            "高附加值产品自给率不足40%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "PO自产自用→电解液溶剂"
+          ],
+          "industry_position": [
+            "PO是DMC核心原料,自给对冲原料波动,锂电池溶剂龙头"
+          ],
+          "chain": [
+            "环氧丙烷产业链"
+          ],
+          "partners": []
         }
       ],
       "industry": "电力设备-电池-电池化学品",
@@ -99451,8 +99906,8 @@
       ]
     },
     "603120": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-11",
       "concepts": [
         "专精特新",
         "光刻胶",
@@ -99474,6 +99929,35 @@
             "肯特催化成立于2009年，主要从事**季铵（鏻）化合物****产品**的研发、生产和销售，拥有**季铵盐、季铵碱、季鏻盐、冠醚等四大系列产品，产品应用形式主要包括相转移催化剂、分子筛模板剂、固化促进剂、电解液添加剂**等，广泛应用于精细化工、分子筛、高分子材料、电池电解液、油田化学品等领域。",
             "在核心技术领域，公司主打的相转移催化剂展现出显著创新价值。"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/hBnjEsBDhWgZWOStZeRO6Q",
+          "title": "环氧丙烷产业链：落后产能出清，绿色工艺主导",
+          "date": "2026-06-11",
+          "hot_topic": "环氧丙烷",
+          "accidents": [
+            "4月1日起取消聚醚出口退税(13%→0),下游抢单引爆补库潮,行业开工率仅70%落后产能加速出清",
+            "系列催化剂已工业化应用,高效绿色生产"
+          ],
+          "insights": [
+            "PO工艺催化剂"
+          ],
+          "key_metrics": [
+            "2025年产能866万吨(全球60%)",
+            "绿色工艺占比70.3%",
+            "高附加值产品自给率不足40%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "PO工艺催化剂"
+          ],
+          "industry_position": [
+            "系列催化剂已工业化应用,高效绿色生产"
+          ],
+          "chain": [
+            "环氧丙烷产业链"
+          ],
+          "partners": []
         }
       ],
       "industry": "基础化工-化学制品-其他化学制品",
@@ -99484,6 +99968,15 @@
       "products": [
         "化工",
         "材料"
+      ],
+      "core_business": [
+        "PO工艺催化剂"
+      ],
+      "industry_position": [
+        "系列催化剂已工业化应用,高效绿色生产"
+      ],
+      "chain": [
+        "环氧丙烷产业链"
       ]
     },
     "603123": {
@@ -108739,7 +109232,7 @@
       "partners": []
     },
     "605020": {
-      "mention_count": 4,
+      "mention_count": 5,
       "last_updated": "2026-06-11",
       "concepts": [
         "2025年报预增",
@@ -108810,6 +109303,35 @@
           ],
           "chain": [
             "中游-制造"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/hBnjEsBDhWgZWOStZeRO6Q",
+          "title": "环氧丙烷产业链：落后产能出清，绿色工艺主导",
+          "date": "2026-06-11",
+          "hot_topic": "环氧丙烷",
+          "accidents": [
+            "4月1日起取消聚醚出口退税(13%→0),下游抢单引爆补库潮,行业开工率仅70%落后产能加速出清",
+            "六氟PO是PVDF等氟树脂关键中间体,新能源/半导体"
+          ],
+          "insights": [
+            "六氟环氧丙烷→含氟聚合物"
+          ],
+          "key_metrics": [
+            "2025年产能866万吨(全球60%)",
+            "绿色工艺占比70.3%",
+            "高附加值产品自给率不足40%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "六氟环氧丙烷→含氟聚合物"
+          ],
+          "industry_position": [
+            "六氟PO是PVDF等氟树脂关键中间体,新能源/半导体"
+          ],
+          "chain": [
+            "环氧丙烷产业链"
           ],
           "partners": []
         }
@@ -117212,8 +117734,8 @@
       ]
     },
     "688267": {
-      "mention_count": 1,
-      "last_updated": "2026-05-10",
+      "mention_count": 2,
+      "last_updated": "2026-06-11",
       "concepts": [
         "回购增持再贷款概念",
         "沪股通",
@@ -117242,13 +117764,48 @@
             "中触媒催化剂产能预计翻倍至3000吨/年，",
             "中触媒：催化剂龙头，"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/hBnjEsBDhWgZWOStZeRO6Q",
+          "title": "环氧丙烷产业链：落后产能出清，绿色工艺主导",
+          "date": "2026-06-11",
+          "hot_topic": "环氧丙烷",
+          "accidents": [
+            "4月1日起取消聚醚出口退税(13%→0),下游抢单引爆补库潮,行业开工率仅70%落后产能加速出清",
+            "高活性/高选择性,已工业化应用,助力行业绿色转型"
+          ],
+          "insights": [
+            "HPPO专用催化剂龙头"
+          ],
+          "key_metrics": [
+            "2025年产能866万吨(全球60%)",
+            "绿色工艺占比70.3%",
+            "高附加值产品自给率不足40%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "HPPO专用催化剂龙头"
+          ],
+          "industry_position": [
+            "高活性/高选择性,已工业化应用,助力行业绿色转型"
+          ],
+          "chain": [
+            "环氧丙烷产业链"
+          ],
+          "partners": []
         }
       ],
       "industry": "基础化工-化学制品-其他化学制品",
       "board": "SH",
       "code": "688267",
       "name": "中触媒",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "HPPO专用催化剂龙头"
+      ],
+      "chain": [
+        "环氧丙烷产业链"
+      ]
     },
     "688270": {
       "mention_count": 1,
@@ -135314,9 +135871,39 @@
       "code": "002408",
       "name": "齐翔腾达",
       "concept": "",
-      "mention_count": 5,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/hBnjEsBDhWgZWOStZeRO6Q",
+          "title": "环氧丙烷产业链：落后产能出清，绿色工艺主导",
+          "date": "2026-06-11",
+          "hot_topic": "环氧丙烷",
+          "accidents": [
+            "4月1日起取消聚醚出口退税(13%→0),下游抢单引爆补库潮,行业开工率仅70%落后产能加速出清",
+            "丙烯自给,联产苯乙烯,聚氨酯材料"
+          ],
+          "insights": [
+            "PO/SM联产,碳四产业链"
+          ],
+          "key_metrics": [
+            "2025年产能866万吨(全球60%)",
+            "绿色工艺占比70.3%",
+            "高附加值产品自给率不足40%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "PO/SM联产,碳四产业链"
+          ],
+          "industry_position": [
+            "丙烯自给,联产苯乙烯,聚氨酯材料"
+          ],
+          "chain": [
+            "环氧丙烷产业链"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-06-11",
       "concepts": [
         "可降解塑料",
         "国企改革",
@@ -135328,7 +135915,16 @@
       ],
       "industry": "石油石化-石油加工贸易-石油加工",
       "board": "SZ",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "PO/SM联产,碳四产业链"
+      ],
+      "industry_position": [
+        "丙烯自给,联产苯乙烯,聚氨酯材料"
+      ],
+      "chain": [
+        "环氧丙烷产业链"
+      ]
     },
     "002419": {
       "code": "002419",
@@ -151306,9 +151902,39 @@
       "code": "600618",
       "name": "氯碱化工",
       "concept": "",
-      "mention_count": 5,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/hBnjEsBDhWgZWOStZeRO6Q",
+          "title": "环氧丙烷产业链：落后产能出清，绿色工艺主导",
+          "date": "2026-06-11",
+          "hot_topic": "环氧丙烷",
+          "accidents": [
+            "4月1日起取消聚醚出口退税(13%→0),下游抢单引爆补库潮,行业开工率仅70%落后产能加速出清",
+            "氯碱配套,氯气/烧碱协同,区位优势"
+          ],
+          "insights": [
+            "氯醇法PO,上海化工区"
+          ],
+          "key_metrics": [
+            "2025年产能866万吨(全球60%)",
+            "绿色工艺占比70.3%",
+            "高附加值产品自给率不足40%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "氯醇法PO,上海化工区"
+          ],
+          "industry_position": [
+            "氯碱配套,氯气/烧碱协同,区位优势"
+          ],
+          "chain": [
+            "环氧丙烷产业链"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-06-11",
       "concepts": [
         "上海国企改革",
         "国企改革",
@@ -151320,7 +151946,16 @@
       ],
       "industry": "基础化工-化学原料-氯碱",
       "board": "SH",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "氯醇法PO,上海化工区"
+      ],
+      "industry_position": [
+        "氯碱配套,氯气/烧碱协同,区位优势"
+      ],
+      "chain": [
+        "环氧丙烷产业链"
+      ]
     },
     "600623": {
       "code": "600623",
@@ -152271,9 +152906,39 @@
       "code": "600800",
       "name": "渤海化学",
       "concept": "",
-      "mention_count": 2,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/hBnjEsBDhWgZWOStZeRO6Q",
+          "title": "环氧丙烷产业链：落后产能出清，绿色工艺主导",
+          "date": "2026-06-11",
+          "hot_topic": "环氧丙烷",
+          "accidents": [
+            "4月1日起取消聚醚出口退税(13%→0),下游抢单引爆补库潮,行业开工率仅70%落后产能加速出清",
+            "丙烯自给,PO-聚醚-丙二醇"
+          ],
+          "insights": [
+            "丙烯→PO"
+          ],
+          "key_metrics": [
+            "2025年产能866万吨(全球60%)",
+            "绿色工艺占比70.3%",
+            "高附加值产品自给率不足40%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "丙烯→PO"
+          ],
+          "industry_position": [
+            "丙烯自给,PO-聚醚-丙二醇"
+          ],
+          "chain": [
+            "环氧丙烷产业链"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-06-11",
       "concepts": [
         "丙烯酸",
         "国企改革",
@@ -152285,7 +152950,16 @@
       ],
       "industry": "石油石化-石油加工贸易-石油加工",
       "board": "SH",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "丙烯→PO"
+      ],
+      "industry_position": [
+        "丙烯自给,PO-聚醚-丙二醇"
+      ],
+      "chain": [
+        "环氧丙烷产业链"
+      ]
     },
     "600803": {
       "code": "600803",
@@ -153521,7 +154195,7 @@
       "code": "601117",
       "name": "中国化学",
       "concept": "",
-      "mention_count": 1,
+      "mention_count": 2,
       "articles": [
         {
           "title": "在“双碳”目标和能源安全战略的推动下，绿色氢气（绿氢）、绿色氨气（绿氨）和绿色甲醇正成为能源化工行业的新赛道。",
@@ -153543,9 +154217,38 @@
             "*   核心布局：作为大型能源集团，其甲醇年产能超过400万吨。"
           ],
           "target_valuation": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/hBnjEsBDhWgZWOStZeRO6Q",
+          "title": "环氧丙烷产业链：落后产能出清，绿色工艺主导",
+          "date": "2026-06-11",
+          "hot_topic": "环氧丙烷",
+          "accidents": [
+            "4月1日起取消聚醚出口退税(13%→0),下游抢单引爆补库潮,行业开工率仅70%落后产能加速出清",
+            "打破国外垄断,一期试车,工程总包输出"
+          ],
+          "insights": [
+            "自研HPPO技术,泉州项目"
+          ],
+          "key_metrics": [
+            "2025年产能866万吨(全球60%)",
+            "绿色工艺占比70.3%",
+            "高附加值产品自给率不足40%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "自研HPPO技术,泉州项目"
+          ],
+          "industry_position": [
+            "打破国外垄断,一期试车,工程总包输出"
+          ],
+          "chain": [
+            "环氧丙烷产业链"
+          ],
+          "partners": []
         }
       ],
-      "last_updated": "2026-05-31",
+      "last_updated": "2026-06-11",
       "concepts": [
         "一带一路",
         "中字头股票",
@@ -153571,6 +154274,15 @@
       "partners": [],
       "products": [
         "化工"
+      ],
+      "core_business": [
+        "自研HPPO技术,泉州项目"
+      ],
+      "industry_position": [
+        "打破国外垄断,一期试车,工程总包输出"
+      ],
+      "chain": [
+        "环氧丙烷产业链"
       ]
     },
     "601137": {
@@ -171579,6 +172291,162 @@
           ],
           "chain": [
             "首板涨停"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "920261": {
+      "code": "920261",
+      "name": "一诺威",
+      "last_updated": "2026-06-11",
+      "mention_count": 1,
+      "board": "BJ",
+      "core_business": [
+        "PO→聚氨酯材料"
+      ],
+      "industry_position": [
+        "聚醚多元醇/聚氨酯弹性体,建筑/交通/工业"
+      ],
+      "chain": [
+        "环氧丙烷产业链"
+      ],
+      "partners": [],
+      "concepts": [
+        "PO-聚氨酯",
+        "环氧丙烷"
+      ],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/hBnjEsBDhWgZWOStZeRO6Q",
+          "title": "环氧丙烷产业链：落后产能出清，绿色工艺主导",
+          "date": "2026-06-11",
+          "hot_topic": "环氧丙烷",
+          "accidents": [
+            "4月1日起取消聚醚出口退税(13%→0),下游抢单引爆补库潮,行业开工率仅70%落后产能加速出清",
+            "聚醚多元醇/聚氨酯弹性体,建筑/交通/工业"
+          ],
+          "insights": [
+            "PO→聚氨酯材料"
+          ],
+          "key_metrics": [
+            "2025年产能866万吨(全球60%)",
+            "绿色工艺占比70.3%",
+            "高附加值产品自给率不足40%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "PO→聚氨酯材料"
+          ],
+          "industry_position": [
+            "聚醚多元醇/聚氨酯弹性体,建筑/交通/工业"
+          ],
+          "chain": [
+            "环氧丙烷产业链"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "301601": {
+      "code": "301601",
+      "name": "惠通科技",
+      "last_updated": "2026-06-11",
+      "mention_count": 1,
+      "board": "SZ",
+      "core_business": [
+        "PO衍生产品"
+      ],
+      "industry_position": [
+        "涂料/胶粘剂/电子材料,PO下游高附加值应用"
+      ],
+      "chain": [
+        "环氧丙烷产业链"
+      ],
+      "partners": [],
+      "concepts": [
+        "PO-下游",
+        "环氧丙烷"
+      ],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/hBnjEsBDhWgZWOStZeRO6Q",
+          "title": "环氧丙烷产业链：落后产能出清，绿色工艺主导",
+          "date": "2026-06-11",
+          "hot_topic": "环氧丙烷",
+          "accidents": [
+            "4月1日起取消聚醚出口退税(13%→0),下游抢单引爆补库潮,行业开工率仅70%落后产能加速出清",
+            "涂料/胶粘剂/电子材料,PO下游高附加值应用"
+          ],
+          "insights": [
+            "PO衍生产品"
+          ],
+          "key_metrics": [
+            "2025年产能866万吨(全球60%)",
+            "绿色工艺占比70.3%",
+            "高附加值产品自给率不足40%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "PO衍生产品"
+          ],
+          "industry_position": [
+            "涂料/胶粘剂/电子材料,PO下游高附加值应用"
+          ],
+          "chain": [
+            "环氧丙烷产业链"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "920099": {
+      "code": "920099",
+      "name": "瑞华技术",
+      "last_updated": "2026-06-11",
+      "mention_count": 1,
+      "board": "BJ",
+      "core_business": [
+        "PO/SM联产技术服务"
+      ],
+      "industry_position": [
+        "工艺技术成熟,已应用于多个项目,绿色环保"
+      ],
+      "chain": [
+        "环氧丙烷产业链"
+      ],
+      "partners": [],
+      "concepts": [
+        "PO-技术服务",
+        "环氧丙烷"
+      ],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/hBnjEsBDhWgZWOStZeRO6Q",
+          "title": "环氧丙烷产业链：落后产能出清，绿色工艺主导",
+          "date": "2026-06-11",
+          "hot_topic": "环氧丙烷",
+          "accidents": [
+            "4月1日起取消聚醚出口退税(13%→0),下游抢单引爆补库潮,行业开工率仅70%落后产能加速出清",
+            "工艺技术成熟,已应用于多个项目,绿色环保"
+          ],
+          "insights": [
+            "PO/SM联产技术服务"
+          ],
+          "key_metrics": [
+            "2025年产能866万吨(全球60%)",
+            "绿色工艺占比70.3%",
+            "高附加值产品自给率不足40%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "PO/SM联产技术服务"
+          ],
+          "industry_position": [
+            "工艺技术成熟,已应用于多个项目,绿色环保"
+          ],
+          "chain": [
+            "环氧丙烷产业链"
           ],
           "partners": []
         }
