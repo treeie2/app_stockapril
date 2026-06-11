@@ -3141,7 +3141,7 @@
       ]
     },
     "300666": {
-      "mention_count": 7,
+      "mention_count": 8,
       "last_updated": "2026-06-11",
       "partners": [
         "中芯国际等客户订单",
@@ -3347,6 +3347,30 @@
           ],
           "chain": [
             "首板涨停"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/weJ4TYTRcMp4KDYxhpX80w",
+          "title": "日本半导体11个卡脖子位置，中国公司逐个拔掉",
+          "date": "2026-06-11",
+          "accidents": [
+            "日本11个卡脖子位置逐个突破:涂胶显影/陶瓷零部件/光刻胶/石英件/测试机/探针台/靶材/掩膜版/先进封装材料/硅零部件/划片机",
+            "铝/铜/钛/钽靶材,台积电/SK海力士客户,全球5-8%市占,营收30-40亿+40%"
+          ],
+          "insights": [
+            "靶材国内绝对龙头"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "靶材国内绝对龙头"
+          ],
+          "industry_position": [
+            "铝/铜/钛/钽靶材,台积电/SK海力士客户,全球5-8%市占,营收30-40亿+40%"
+          ],
+          "chain": [
+            "半导体国产替代"
           ],
           "partners": []
         }
@@ -3647,8 +3671,8 @@
       ]
     },
     "301611": {
-      "mention_count": 2,
-      "last_updated": "2026-06-09",
+      "mention_count": 3,
+      "last_updated": "2026-06-11",
       "partners": [
         "中微公司",
         "北方华创",
@@ -3657,7 +3681,9 @@
         "长鑫存储"
       ],
       "name": "珂玛科技",
-      "industry_position": [],
+      "industry_position": [
+        "刻蚀/薄膜设备用陶瓷,接近京瓷/碍子水平,中微/北方华创/TEL客户,营收+40-50%"
+      ],
       "articles": [
         {
           "date": "2026-04-22",
@@ -3713,6 +3739,30 @@
           ],
           "chain": [
             "中游-制造"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/weJ4TYTRcMp4KDYxhpX80w",
+          "title": "日本半导体11个卡脖子位置，中国公司逐个拔掉",
+          "date": "2026-06-11",
+          "accidents": [
+            "日本11个卡脖子位置逐个突破:涂胶显影/陶瓷零部件/光刻胶/石英件/测试机/探针台/靶材/掩膜版/先进封装材料/硅零部件/划片机",
+            "刻蚀/薄膜设备用陶瓷,接近京瓷/碍子水平,中微/北方华创/TEL客户,营收+40-50%"
+          ],
+          "insights": [
+            "陶瓷零部件国内龙头"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "陶瓷零部件国内龙头"
+          ],
+          "industry_position": [
+            "刻蚀/薄膜设备用陶瓷,接近京瓷/碍子水平,中微/北方华创/TEL客户,营收+40-50%"
+          ],
+          "chain": [
+            "半导体国产替代"
           ],
           "partners": []
         }
@@ -47050,8 +47100,8 @@
       "name": "航宇微"
     },
     "300054": {
-      "mention_count": 8,
-      "last_updated": "2026-05-31",
+      "mention_count": 9,
+      "last_updated": "2026-06-11",
       "concepts": [
         "2026一季报预增",
         "OLED",
@@ -47289,6 +47339,30 @@
             "长鑫存储",
             "长江存储"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/weJ4TYTRcMp4KDYxhpX80w",
+          "title": "日本半导体11个卡脖子位置，中国公司逐个拔掉",
+          "date": "2026-06-11",
+          "accidents": [
+            "日本11个卡脖子位置逐个突破:涂胶显影/陶瓷零部件/光刻胶/石英件/测试机/探针台/靶材/掩膜版/先进封装材料/硅零部件/划片机",
+            "KrF/ArF验证推进中,进度略慢于彤程"
+          ],
+          "insights": [
+            "光刻胶+CMP抛光垫"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "光刻胶+CMP抛光垫"
+          ],
+          "industry_position": [
+            "KrF/ArF验证推进中,进度略慢于彤程"
+          ],
+          "chain": [
+            "半导体国产替代"
+          ],
+          "partners": []
         }
       ],
       "industry": "电子-电子化学品-电子化学品Ⅲ",
@@ -58583,8 +58657,8 @@
       "description": "与客户联合开发PTFE方案，布局高多层PCB市场，解决多层板应用技术难题"
     },
     "300480": {
-      "mention_count": 1,
-      "last_updated": "2026-06-05",
+      "mention_count": 2,
+      "last_updated": "2026-06-11",
       "partners": [],
       "concepts": [
         "一带一路",
@@ -58603,7 +58677,9 @@
         "芯片概念",
         "高端装备"
       ],
-      "industry_position": [],
+      "industry_position": [
+        "8/12英寸划片机,接近TEL水平,营收+30-50%"
+      ],
       "articles": [
         {
           "date": "2026-05-13",
@@ -58617,15 +58693,43 @@
           "accidents": [
             "划片机交付同比增300%"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/weJ4TYTRcMp4KDYxhpX80w",
+          "title": "日本半导体11个卡脖子位置，中国公司逐个拔掉",
+          "date": "2026-06-11",
+          "accidents": [
+            "日本11个卡脖子位置逐个突破:涂胶显影/陶瓷零部件/光刻胶/石英件/测试机/探针台/靶材/掩膜版/先进封装材料/硅零部件/划片机",
+            "8/12英寸划片机,接近TEL水平,营收+30-50%"
+          ],
+          "insights": [
+            "划片机国产突破者"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "划片机国产突破者"
+          ],
+          "industry_position": [
+            "8/12英寸划片机,接近TEL水平,营收+30-50%"
+          ],
+          "chain": [
+            "半导体国产替代"
+          ],
+          "partners": []
         }
       ],
       "board": "SZ",
       "industry": "机械设备-专用设备-能源及重型设备",
       "products": [],
-      "chain": [],
+      "chain": [
+        "半导体国产替代"
+      ],
       "name": "光力科技",
       "code": "300480",
-      "core_business": []
+      "core_business": [
+        "划片机国产突破者"
+      ]
     },
     "300485": {
       "mention_count": 1,
@@ -61002,8 +61106,8 @@
       "partners": []
     },
     "300604": {
-      "mention_count": 6,
-      "last_updated": "2026-06-09",
+      "mention_count": 7,
+      "last_updated": "2026-06-11",
       "partners": [],
       "concepts": [
         "2025年报预增",
@@ -61104,6 +61208,30 @@
           ],
           "chain": [
             "中游-制造"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/weJ4TYTRcMp4KDYxhpX80w",
+          "title": "日本半导体11个卡脖子位置，中国公司逐个拔掉",
+          "date": "2026-06-11",
+          "accidents": [
+            "日本11个卡脖子位置逐个突破:涂胶显影/陶瓷零部件/光刻胶/石英件/测试机/探针台/靶材/掩膜版/先进封装材料/硅零部件/划片机",
+            "数字测试机对标爱德万/泰瑞达,批量供货头部封测厂"
+          ],
+          "insights": [
+            "测试机龙头(数字+模拟)"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "测试机龙头(数字+模拟)"
+          ],
+          "industry_position": [
+            "数字测试机对标爱德万/泰瑞达,批量供货头部封测厂"
+          ],
+          "chain": [
+            "半导体国产替代"
           ],
           "partners": []
         }
@@ -63194,7 +63322,7 @@
       "partners": []
     },
     "300706": {
-      "mention_count": 3,
+      "mention_count": 4,
       "last_updated": "2026-06-11",
       "concepts": [
         "HJT电池",
@@ -63268,6 +63396,30 @@
           ],
           "chain": [
             "首板涨停"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/weJ4TYTRcMp4KDYxhpX80w",
+          "title": "日本半导体11个卡脖子位置，中国公司逐个拔掉",
+          "date": "2026-06-11",
+          "accidents": [
+            "日本11个卡脖子位置逐个突破:涂胶显影/陶瓷零部件/光刻胶/石英件/测试机/探针台/靶材/掩膜版/先进封装材料/硅零部件/划片机",
+            "面板靶材优势,半导体拓展中"
+          ],
+          "insights": [
+            "显示面板靶材→半导体"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "显示面板靶材→半导体"
+          ],
+          "industry_position": [
+            "面板靶材优势,半导体拓展中"
+          ],
+          "chain": [
+            "半导体国产替代"
           ],
           "partners": []
         }
@@ -74840,7 +74992,7 @@
       ]
     },
     "301629": {
-      "mention_count": 4,
+      "mention_count": 5,
       "last_updated": "2026-06-11",
       "concepts": [
         "专精特新",
@@ -74929,6 +75081,30 @@
           ],
           "chain": [
             "中游-制造"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/weJ4TYTRcMp4KDYxhpX80w",
+          "title": "日本半导体11个卡脖子位置，中国公司逐个拔掉",
+          "date": "2026-06-11",
+          "accidents": [
+            "日本11个卡脖子位置逐个突破:涂胶显影/陶瓷零部件/光刻胶/石英件/测试机/探针台/靶材/掩膜版/先进封装材料/硅零部件/划片机",
+            "8/12英寸探针台,接近TEL/东京精密水平,营收+30-50%"
+          ],
+          "insights": [
+            "探针台全球少数量产"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "探针台全球少数量产"
+          ],
+          "industry_position": [
+            "8/12英寸探针台,接近TEL/东京精密水平,营收+30-50%"
+          ],
+          "chain": [
+            "半导体国产替代"
           ],
           "partners": []
         }
@@ -106240,8 +106416,8 @@
       ]
     },
     "603650": {
-      "mention_count": 7,
-      "last_updated": "2026-05-14",
+      "mention_count": 8,
+      "last_updated": "2026-06-11",
       "concepts": [
         "光刻胶",
         "沪股通",
@@ -106357,6 +106533,30 @@
             "当前我国半导体材料整体国产化率仅约15%,高端领域仍高度依赖进口。\"十五五\"规划明确提出2030年关键材料自给率目标≥80%,国产替代空间超5倍。政策层面,中国对钨实施出口管制后,",
             "图3: 半导体材料国产化率与目标对比(数据来源: \"十五五\"规划)"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/weJ4TYTRcMp4KDYxhpX80w",
+          "title": "日本半导体11个卡脖子位置，中国公司逐个拔掉",
+          "date": "2026-06-11",
+          "accidents": [
+            "日本11个卡脖子位置逐个突破:涂胶显影/陶瓷零部件/光刻胶/石英件/测试机/探针台/靶材/掩膜版/先进封装材料/硅零部件/划片机",
+            "ArF验证即将通过,光刻胶收入8-10亿+60%,EUV研发中"
+          ],
+          "insights": [
+            "光刻胶(ArF/KrF/GI全系列)"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "光刻胶(ArF/KrF/GI全系列)"
+          ],
+          "industry_position": [
+            "ArF验证即将通过,光刻胶收入8-10亿+60%,EUV研发中"
+          ],
+          "chain": [
+            "半导体国产替代"
+          ],
+          "partners": []
         }
       ],
       "industry": "基础化工-橡胶制品-其他橡胶制品",
@@ -112963,8 +113163,8 @@
       "partners": []
     },
     "688037": {
-      "mention_count": 4,
-      "last_updated": "2026-06-09",
+      "mention_count": 5,
+      "last_updated": "2026-06-11",
       "partners": [],
       "concepts": [
         "中芯国际概念",
@@ -113057,6 +113257,30 @@
           ],
           "chain": [
             "中游-制造"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/weJ4TYTRcMp4KDYxhpX80w",
+          "title": "日本半导体11个卡脖子位置，中国公司逐个拔掉",
+          "date": "2026-06-11",
+          "accidents": [
+            "日本11个卡脖子位置逐个突破:涂胶显影/陶瓷零部件/光刻胶/石英件/测试机/探针台/靶材/掩膜版/先进封装材料/硅零部件/划片机",
+            "国内唯一批量供货,中芯/华虹/长存/长鑫客户,ArF浸没式研发中,出货200-300台+50%"
+          ],
+          "insights": [
+            "涂胶显影设备国内唯一"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "涂胶显影设备国内唯一"
+          ],
+          "industry_position": [
+            "国内唯一批量供货,中芯/华虹/长存/长鑫客户,ArF浸没式研发中,出货200-300台+50%"
+          ],
+          "chain": [
+            "半导体国产替代"
           ],
           "partners": []
         }
@@ -115859,8 +116083,10 @@
         "硅微粉利润：3.8e (3000t*20w/t)",
         "目标市值：492 亿 (4 倍空间)"
       ],
-      "last_updated": "2026-05-31",
-      "industry_position": [],
+      "last_updated": "2026-06-11",
+      "industry_position": [
+        "平板显示为主,半导体突破中"
+      ],
       "industry": "电子 - 光学光电子",
       "insights": "添加剂 + 树脂刚刚开始，H2 有望量价齐升\n主业 1.7e 利润，化学法硅微粉 3000t 对应 3.8e 利润\nM8+9 市场 1.5wt 需求，缺口 40%\n价格从 20w/t 向 100w/t 区间通胀",
       "code": "688138",
@@ -115874,7 +116100,7 @@
         "虚拟现实",
         "融资融券"
       ],
-      "mention_count": 1,
+      "mention_count": 2,
       "target_market_cap": "492 亿",
       "partners": [],
       "articles": [
@@ -115887,6 +116113,30 @@
           ],
           "title": "凌玮科技，4 倍空间？",
           "source": "https://mp.weixin.qq.com/s/JXmzfn_g6l91Ha9G1z5Q_g"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/weJ4TYTRcMp4KDYxhpX80w",
+          "title": "日本半导体11个卡脖子位置，中国公司逐个拔掉",
+          "date": "2026-06-11",
+          "accidents": [
+            "日本11个卡脖子位置逐个突破:涂胶显影/陶瓷零部件/光刻胶/石英件/测试机/探针台/靶材/掩膜版/先进封装材料/硅零部件/划片机",
+            "平板显示为主,半导体突破中"
+          ],
+          "insights": [
+            "掩膜版"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "掩膜版"
+          ],
+          "industry_position": [
+            "平板显示为主,半导体突破中"
+          ],
+          "chain": [
+            "半导体国产替代"
+          ],
+          "partners": []
         }
       ],
       "board": "SH",
@@ -117256,7 +117506,7 @@
       "partners": []
     },
     "688200": {
-      "mention_count": 4,
+      "mention_count": 5,
       "last_updated": "2026-06-11",
       "concepts": [
         "沪股通",
@@ -117354,6 +117604,30 @@
           ],
           "chain": [
             "半导体产业链"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/weJ4TYTRcMp4KDYxhpX80w",
+          "title": "日本半导体11个卡脖子位置，中国公司逐个拔掉",
+          "date": "2026-06-11",
+          "accidents": [
+            "日本11个卡脖子位置逐个突破:涂胶显影/陶瓷零部件/光刻胶/石英件/测试机/探针台/靶材/掩膜版/先进封装材料/硅零部件/划片机",
+            "模拟测试全球15-20%,营收15-20亿+30%"
+          ],
+          "insights": [
+            "模拟测试机全球领先"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "模拟测试机全球领先"
+          ],
+          "industry_position": [
+            "模拟测试全球15-20%,营收15-20亿+30%"
+          ],
+          "chain": [
+            "半导体国产替代"
           ],
           "partners": []
         }
@@ -117981,8 +118255,8 @@
       "partners": []
     },
     "688233": {
-      "mention_count": 4,
-      "last_updated": "2026-06-09",
+      "mention_count": 5,
+      "last_updated": "2026-06-11",
       "concepts": [
         "2025年报预增",
         "专精特新",
@@ -118095,6 +118369,30 @@
           ],
           "chain": [
             "中游-制造"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/weJ4TYTRcMp4KDYxhpX80w",
+          "title": "日本半导体11个卡脖子位置，中国公司逐个拔掉",
+          "date": "2026-06-11",
+          "accidents": [
+            "日本11个卡脖子位置逐个突破:涂胶显影/陶瓷零部件/光刻胶/石英件/测试机/探针台/靶材/掩膜版/先进封装材料/硅零部件/划片机",
+            "刻蚀设备用,中微/北方华创/TEL/泛林客户,营收+30-50%"
+          ],
+          "insights": [
+            "硅零部件/硅电极"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "硅零部件/硅电极"
+          ],
+          "industry_position": [
+            "刻蚀设备用,中微/北方华创/TEL/泛林客户,营收+30-50%"
+          ],
+          "chain": [
+            "半导体国产替代"
           ],
           "partners": []
         }
@@ -119481,8 +119779,8 @@
       "partners": []
     },
     "688300": {
-      "mention_count": 3,
-      "last_updated": "2026-06-01",
+      "mention_count": 4,
+      "last_updated": "2026-06-11",
       "partners": [
         "生益科技"
       ],
@@ -119544,6 +119842,30 @@
           ],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/weJ4TYTRcMp4KDYxhpX80w",
+          "title": "日本半导体11个卡脖子位置，中国公司逐个拔掉",
+          "date": "2026-06-11",
+          "accidents": [
+            "日本11个卡脖子位置逐个突破:涂胶显影/陶瓷零部件/光刻胶/石英件/测试机/探针台/靶材/掩膜版/先进封装材料/硅零部件/划片机",
+            "球形硅微粉(塑封料/底部填充胶),接近日系水平,营收+40-50%"
+          ],
+          "insights": [
+            "先进封装硅微粉"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "先进封装硅微粉"
+          ],
+          "industry_position": [
+            "球形硅微粉(塑封料/底部填充胶),接近日系水平,营收+40-50%"
+          ],
+          "chain": [
+            "半导体国产替代"
+          ],
+          "partners": []
         }
       ],
       "board": "SH",
@@ -123433,8 +123755,8 @@
       "partners": []
     },
     "688530": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-11",
       "concepts": [
         "HJT电池",
         "MicroLED概念",
@@ -123452,17 +123774,50 @@
           "date": "2025-10-22",
           "title": "688530  半导体 复合集流体 太阳能 HIT电池 新材料 溅射靶材领域的领先半导体企业",
           "source": "https://mp.weixin.qq.com/s/aAYT6mUjHCtihZA0HQev3Q"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/weJ4TYTRcMp4KDYxhpX80w",
+          "title": "日本半导体11个卡脖子位置，中国公司逐个拔掉",
+          "date": "2026-06-11",
+          "accidents": [
+            "日本11个卡脖子位置逐个突破:涂胶显影/陶瓷零部件/光刻胶/石英件/测试机/探针台/靶材/掩膜版/先进封装材料/硅零部件/划片机",
+            "细分品类技术突破,放量中"
+          ],
+          "insights": [
+            "ITO靶材新锐"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "ITO靶材新锐"
+          ],
+          "industry_position": [
+            "细分品类技术突破,放量中"
+          ],
+          "chain": [
+            "半导体国产替代"
+          ],
+          "partners": []
         }
       ],
       "industry": "电子-半导体-半导体材料",
       "board": "SH",
       "code": "688530",
       "name": "欧莱新材",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "ITO靶材新锐"
+      ],
+      "industry_position": [
+        "细分品类技术突破,放量中"
+      ],
+      "chain": [
+        "半导体国产替代"
+      ]
     },
     "688535": {
-      "mention_count": 1,
-      "last_updated": "2026-05-10",
+      "mention_count": 2,
+      "last_updated": "2026-06-11",
       "concepts": [
         "光伏概念",
         "先进封装",
@@ -123491,6 +123846,30 @@
           ],
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/weJ4TYTRcMp4KDYxhpX80w",
+          "title": "日本半导体11个卡脖子位置，中国公司逐个拔掉",
+          "date": "2026-06-11",
+          "accidents": [
+            "日本11个卡脖子位置逐个突破:涂胶显影/陶瓷零部件/光刻胶/石英件/测试机/探针台/靶材/掩膜版/先进封装材料/硅零部件/划片机",
+            "部分产品已通过封测厂验证批量供货"
+          ],
+          "insights": [
+            "先进封装EMC(环氧模塑料)"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "先进封装EMC(环氧模塑料)"
+          ],
+          "industry_position": [
+            "部分产品已通过封测厂验证批量供货"
+          ],
+          "chain": [
+            "半导体国产替代"
+          ],
+          "partners": []
         }
       ],
       "industry": "电子-半导体-半导体材料",
@@ -123500,7 +123879,10 @@
       ],
       "code": "688535",
       "name": "华海诚科",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "先进封装EMC(环氧模塑料)"
+      ]
     },
     "688536": {
       "mention_count": 1,
@@ -124977,8 +125359,8 @@
       "name": "翔宇医疗"
     },
     "688627": {
-      "mention_count": 2,
-      "last_updated": "2026-05-31",
+      "mention_count": 3,
+      "last_updated": "2026-06-11",
       "concepts": [
         "MicroLED概念",
         "OLED",
@@ -125049,6 +125431,30 @@
           "partners": [],
           "processed_by": "tbox",
           "processed_at": "2026-05-25T01:14:26.522703+08:00"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/weJ4TYTRcMp4KDYxhpX80w",
+          "title": "日本半导体11个卡脖子位置，中国公司逐个拔掉",
+          "date": "2026-06-11",
+          "accidents": [
+            "日本11个卡脖子位置逐个突破:涂胶显影/陶瓷零部件/光刻胶/石英件/测试机/探针台/靶材/掩膜版/先进封装材料/硅零部件/划片机",
+            "国内少数切入存储测试,追赶期→突破期"
+          ],
+          "insights": [
+            "存储测试机"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "存储测试机"
+          ],
+          "industry_position": [
+            "国内少数切入存储测试,追赶期→突破期"
+          ],
+          "chain": [
+            "半导体国产替代"
+          ],
+          "partners": []
         }
       ],
       "industry": "机械设备-专用设备-其他专用设备",
@@ -141734,7 +142140,7 @@
       "code": "300236",
       "name": "上海新阳",
       "concept": "",
-      "mention_count": 1,
+      "mention_count": 2,
       "articles": [
         {
           "title": "硅片37%占比霸榜！半导体材料紧缺性加剧，这些龙头要爆发？九大半导体材料紧缺性、涨价预期分析报告_20260512",
@@ -141768,9 +142174,33 @@
             "当前我国半导体材料整体国产化率仅约15%,高端领域仍高度依赖进口。\"十五五\"规划明确提出2030年关键材料自给率目标≥80%,国产替代空间超5倍。政策层面,中国对钨实施出口管制后,",
             "图3: 半导体材料国产化率与目标对比(数据来源: \"十五五\"规划)"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/weJ4TYTRcMp4KDYxhpX80w",
+          "title": "日本半导体11个卡脖子位置，中国公司逐个拔掉",
+          "date": "2026-06-11",
+          "accidents": [
+            "日本11个卡脖子位置逐个突破:涂胶显影/陶瓷零部件/光刻胶/石英件/测试机/探针台/靶材/掩膜版/先进封装材料/硅零部件/划片机",
+            "KrF小批量供货,验证持续推进"
+          ],
+          "insights": [
+            "KrF/ArF光刻胶"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "KrF/ArF光刻胶"
+          ],
+          "industry_position": [
+            "KrF小批量供货,验证持续推进"
+          ],
+          "chain": [
+            "半导体国产替代"
+          ],
+          "partners": []
         }
       ],
-      "last_updated": "2026-05-31",
+      "last_updated": "2026-06-11",
       "concepts": [
         "2025年报预增",
         "专精特新",
@@ -141794,6 +142224,12 @@
         "抛光",
         "光刻胶",
         "材料"
+      ],
+      "core_business": [
+        "KrF/ArF光刻胶"
+      ],
+      "chain": [
+        "半导体国产替代"
       ]
     },
     "300244": {
@@ -163264,9 +163700,34 @@
       "code": "688401",
       "name": "路维光电",
       "concept": "",
-      "mention_count": 4,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/weJ4TYTRcMp4KDYxhpX80w",
+          "title": "日本半导体11个卡脖子位置，中国公司逐个拔掉",
+          "date": "2026-06-11",
+          "accidents": [
+            "日本11个卡脖子位置逐个突破:涂胶显影/陶瓷零部件/光刻胶/石英件/测试机/探针台/靶材/掩膜版/先进封装材料/硅零部件/划片机",
+            "平板显示+半导体(28nm),营收10-15亿+30%"
+          ],
+          "insights": [
+            "掩膜版国内龙头"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "掩膜版国内龙头"
+          ],
+          "industry_position": [
+            "平板显示+半导体(28nm),营收10-15亿+30%"
+          ],
+          "chain": [
+            "半导体国产替代"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-06-11",
       "concepts": [
         "MiniLED",
         "OLED",
@@ -163281,7 +163742,16 @@
       ],
       "industry": "电子-半导体-半导体材料",
       "board": "SH",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "掩膜版国内龙头"
+      ],
+      "industry_position": [
+        "平板显示+半导体(28nm),营收10-15亿+30%"
+      ],
+      "chain": [
+        "半导体国产替代"
+      ]
     },
     "688403": {
       "code": "688403",
@@ -164650,7 +165120,7 @@
       "code": "688605",
       "name": "先锋精科",
       "concept": "",
-      "mention_count": 1,
+      "mention_count": 2,
       "articles": [
         {
           "source": "https://mp.weixin.qq.com/s/FB_Yi85_u5JS4uYFe1O7ag",
@@ -164675,9 +165145,33 @@
             "中游-制造"
           ],
           "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/weJ4TYTRcMp4KDYxhpX80w",
+          "title": "日本半导体11个卡脖子位置，中国公司逐个拔掉",
+          "date": "2026-06-11",
+          "accidents": [
+            "日本11个卡脖子位置逐个突破:涂胶显影/陶瓷零部件/光刻胶/石英件/测试机/探针台/靶材/掩膜版/先进封装材料/硅零部件/划片机",
+            "部分细分品类独到优势,营收+30%以上"
+          ],
+          "insights": [
+            "陶瓷零部件"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "陶瓷零部件"
+          ],
+          "industry_position": [
+            "部分细分品类独到优势,营收+30%以上"
+          ],
+          "chain": [
+            "半导体国产替代"
+          ],
+          "partners": []
         }
       ],
-      "last_updated": "2026-06-09",
+      "last_updated": "2026-06-11",
       "concepts": [
         "专精特新",
         "中芯国际概念",
@@ -164691,7 +165185,16 @@
       ],
       "industry": "电子-半导体-半导体设备",
       "board": "SH",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "陶瓷零部件"
+      ],
+      "industry_position": [
+        "部分细分品类独到优势,营收+30%以上"
+      ],
+      "chain": [
+        "半导体国产替代"
+      ]
     },
     "688608": {
       "code": "688608",
@@ -166117,7 +166620,7 @@
       "code": "920179",
       "name": "凯德石英",
       "concept": "",
-      "mention_count": 1,
+      "mention_count": 2,
       "articles": [
         {
           "source": "https://mp.weixin.qq.com/s/FB_Yi85_u5JS4uYFe1O7ag",
@@ -166142,9 +166645,33 @@
             "中游-制造"
           ],
           "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/weJ4TYTRcMp4KDYxhpX80w",
+          "title": "日本半导体11个卡脖子位置，中国公司逐个拔掉",
+          "date": "2026-06-11",
+          "accidents": [
+            "日本11个卡脖子位置逐个突破:涂胶显影/陶瓷零部件/光刻胶/石英件/测试机/探针台/靶材/掩膜版/先进封装材料/硅零部件/划片机",
+            "石英舟/管/坩埚,12英寸高端认证推进,营收+30-40%"
+          ],
+          "insights": [
+            "石英件国内领先"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "石英件国内领先"
+          ],
+          "industry_position": [
+            "石英舟/管/坩埚,12英寸高端认证推进,营收+30-40%"
+          ],
+          "chain": [
+            "半导体国产替代"
+          ],
+          "partners": []
         }
       ],
-      "last_updated": "2026-06-09",
+      "last_updated": "2026-06-11",
       "concepts": [
         "专精特新",
         "中芯国际概念",
@@ -166155,7 +166682,16 @@
       ],
       "industry": "电子-半导体-半导体材料",
       "board": "BJ",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "石英件国内领先"
+      ],
+      "industry_position": [
+        "石英舟/管/坩埚,12英寸高端认证推进,营收+30-40%"
+      ],
+      "chain": [
+        "半导体国产替代"
+      ]
     },
     "920185": {
       "code": "920185",
