@@ -51912,8 +51912,8 @@
       "partners": []
     },
     "301069": {
-      "mention_count": 0,
-      "last_updated": "2026-05-10",
+      "mention_count": 1,
+      "last_updated": "2026-06-13",
       "concepts": [
         "融资融券",
         "PEEK材料",
@@ -51925,7 +51925,36 @@
       "industry_position": [
         "聚苯并咪唑（PBI）特种纤维用于空间移动吊带、宇航服"
       ],
-      "articles": [],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/zpCi_DgqWpERt-Q24UiQhA",
+          "title": "芳纶涨价，4只核心个股梳理",
+          "date": "2026-06-13",
+          "accidents": [
+            "对位芳纶(1414)涨价,AIDC大芯数光缆加强芯需求爆发",
+            "国内最大5.2万吨/年,深度绑定泰和新材"
+          ],
+          "insights": [
+            "间/对苯二甲酰氯(芳纶上游原料)"
+          ],
+          "key_metrics": [
+            "对位芳纶高模供需缺口最大"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "间/对苯二甲酰氯(芳纶上游原料)"
+          ],
+          "industry_position": [
+            "国内最大5.2万吨/年,深度绑定泰和新材"
+          ],
+          "chain": [
+            "芳纶产业链"
+          ],
+          "partners": [
+            "泰和新材"
+          ]
+        }
+      ],
       "industry": "基础化工-化学原料-其他化学原料",
       "board": "SZ",
       "products": [
@@ -60741,8 +60770,8 @@
       ]
     },
     "600352": {
-      "mention_count": 1,
-      "last_updated": "2026-06-09",
+      "mention_count": 2,
+      "last_updated": "2026-06-13",
       "concepts": [
         "人工智能",
         "创投",
@@ -60784,6 +60813,34 @@
             "上游-DMP"
           ],
           "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/zpCi_DgqWpERt-Q24UiQhA",
+          "title": "芳纶涨价，4只核心个股梳理",
+          "date": "2026-06-13",
+          "accidents": [
+            "对位芳纶(1414)涨价,AIDC大芯数光缆加强芯需求爆发",
+            "5000吨/年,配套化纤产业链"
+          ],
+          "insights": [
+            "对位芳纶+染料"
+          ],
+          "key_metrics": [
+            "对位芳纶高模供需缺口最大"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "对位芳纶+染料"
+          ],
+          "industry_position": [
+            "5000吨/年,配套化纤产业链"
+          ],
+          "chain": [
+            "芳纶产业链"
+          ],
+          "partners": [
+            "泰和新材"
+          ]
         }
       ],
       "industry": "基础化工-化学制品-纺织化学用品",
@@ -62571,8 +62628,8 @@
       ]
     },
     "600500": {
-      "mention_count": 2,
-      "last_updated": "2026-06-12",
+      "mention_count": 3,
+      "last_updated": "2026-06-13",
       "concepts": [
         "一带一路",
         "上海自贸区",
@@ -62643,6 +62700,34 @@
             "环氧丙烷产业链"
           ],
           "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/zpCi_DgqWpERt-Q24UiQhA",
+          "title": "芳纶涨价，4只核心个股梳理",
+          "date": "2026-06-13",
+          "accidents": [
+            "对位芳纶(1414)涨价,AIDC大芯数光缆加强芯需求爆发",
+            "国内对位芳纶第二,8000吨/年,光缆增强市占领先"
+          ],
+          "insights": [
+            "对位芳纶+化工新材料"
+          ],
+          "key_metrics": [
+            "对位芳纶高模供需缺口最大"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "对位芳纶+化工新材料"
+          ],
+          "industry_position": [
+            "国内对位芳纶第二,8000吨/年,光缆增强市占领先"
+          ],
+          "chain": [
+            "芳纶产业链"
+          ],
+          "partners": [
+            "泰和新材"
+          ]
         }
       ],
       "industry": "基础化工-化学制品-其他化学制品",
