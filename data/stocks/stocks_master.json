@@ -11052,7 +11052,7 @@
       "core_business": [
         "二、 核心业务板块分析"
       ],
-      "last_updated": "2026-06-05",
+      "last_updated": "2026-06-12",
       "industry_position": [
         "公司在电磁防御与电子蓝军领域处于国内领先地位，拥有稀缺的军工模拟仿真资产"
       ],
@@ -11094,7 +11094,7 @@
         "融资融券"
       ],
       "code": "000547",
-      "mention_count": 3,
+      "mention_count": 4,
       "partners": [],
       "articles": [
         {
@@ -11129,13 +11129,39 @@
           ],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/oFX2Hmw0AKrUVOBczGkc1w",
+          "title": "6月12日首板逻辑",
+          "date": "2026-06-12",
+          "accidents": [
+            "有色金属期货大涨,军工/汽车零部件/化工涨价线活跃",
+            "电子对抗/卫星通信"
+          ],
+          "insights": [
+            "军工电子+卫星通信"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "军工电子+卫星通信"
+          ],
+          "industry_position": [
+            "电子对抗/卫星通信"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
         }
       ],
       "board": "SZ",
       "products": [
         "技术支撑"
       ],
-      "chain": [],
+      "chain": [
+        "首板涨停"
+      ],
       "name": "航天发展"
     },
     "000550": {
@@ -12180,7 +12206,7 @@
       "core_business": [
         "预计2026年铜金产量将下降35%"
       ],
-      "last_updated": "2026-06-05",
+      "last_updated": "2026-06-12",
       "industry_position": [
         "占率连续三年稳居第一"
       ],
@@ -12203,7 +12229,7 @@
         "铜箔"
       ],
       "code": "000630",
-      "mention_count": 2,
+      "mention_count": 3,
       "partners": [],
       "articles": [
         {
@@ -12238,13 +12264,39 @@
             "高端铜产业链需求暴增"
           ],
           "key_metrics": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/oFX2Hmw0AKrUVOBczGkc1w",
+          "title": "6月12日首板逻辑",
+          "date": "2026-06-12",
+          "accidents": [
+            "有色金属期货大涨,军工/汽车零部件/化工涨价线活跃",
+            "宁德时代供应链,受益铜价上涨"
+          ],
+          "insights": [
+            "铜冶炼+铜箔"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "铜冶炼+铜箔"
+          ],
+          "industry_position": [
+            "宁德时代供应链,受益铜价上涨"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
         }
       ],
       "board": "SZ",
       "products": [
         "铜箔"
       ],
-      "chain": [],
+      "chain": [
+        "首板涨停"
+      ],
       "name": "铜陵有色",
       "insights": [
         "综合性铜生产企业，铜板带材为产业链延伸"
@@ -14124,8 +14176,10 @@
       "core_business": [
         "C919最大机身供应商（占比50%）"
       ],
-      "last_updated": "2026-05-10",
-      "industry_position": [],
+      "last_updated": "2026-06-12",
+      "industry_position": [
+        "轰-6/运-20,北方特气30亿电子特气项目含WF6"
+      ],
       "valuation": {},
       "industry": "国防军工-军工装备-航空装备",
       "concepts": [
@@ -14145,7 +14199,7 @@
         "中字头股票"
       ],
       "code": "000768",
-      "mention_count": 2,
+      "mention_count": 3,
       "partners": [
         "C919最大机身供应商（占比50%）"
       ],
@@ -14168,11 +14222,37 @@
           ],
           "title": "上周市场复盘及本周操作策略，文末尾盘参考，6月30日",
           "source": "https://mp.weixin.qq.com/s/fEcsyxybiVLvltchMc5TOg"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/oFX2Hmw0AKrUVOBczGkc1w",
+          "title": "6月12日首板逻辑",
+          "date": "2026-06-12",
+          "accidents": [
+            "有色金属期货大涨,军工/汽车零部件/化工涨价线活跃",
+            "轰-6/运-20,北方特气30亿电子特气项目含WF6"
+          ],
+          "insights": [
+            "军用飞机整机+六氟化钨"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "军用飞机整机+六氟化钨"
+          ],
+          "industry_position": [
+            "轰-6/运-20,北方特气30亿电子特气项目含WF6"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
         }
       ],
       "board": "SZ",
       "products": [],
-      "chain": [],
+      "chain": [
+        "首板涨停"
+      ],
       "name": "中航西飞"
     },
     "000776": {
@@ -19048,7 +19128,7 @@
         "院线电影制作",
         "主旋律精品内容"
       ],
-      "last_updated": "2026-06-04",
+      "last_updated": "2026-06-12",
       "industry_position": [
         "龙头",
         "主旋律龙头",
@@ -19073,7 +19153,7 @@
         "AIGC"
       ],
       "code": "001330",
-      "mention_count": 2,
+      "mention_count": 3,
       "partners": [],
       "articles": [
         {
@@ -19096,6 +19176,30 @@
           ],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/oFX2Hmw0AKrUVOBczGkc1w",
+          "title": "6月12日首板逻辑",
+          "date": "2026-06-12",
+          "accidents": [
+            "有色金属期货大涨,军工/汽车零部件/化工涨价线活跃",
+            "暑期档60+影片,四渡6月26日定档"
+          ],
+          "insights": [
+            "影视院线+暑期档"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "影视院线+暑期档"
+          ],
+          "industry_position": [
+            "暑期档60+影片,四渡6月26日定档"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
         }
       ],
       "board": "SZ",
@@ -21773,7 +21877,7 @@
       "core_business": [
         "汽车零部件+通航飞机制造"
       ],
-      "last_updated": "2026-06-04",
+      "last_updated": "2026-06-12",
       "industry_position": [
         "龙头",
         "低空飞行器制造龙头",
@@ -21809,7 +21913,7 @@
         "镁合金"
       ],
       "code": "002085",
-      "mention_count": 2,
+      "mention_count": 3,
       "partners": [],
       "articles": [
         {
@@ -21836,6 +21940,30 @@
           ],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/oFX2Hmw0AKrUVOBczGkc1w",
+          "title": "6月12日首板逻辑",
+          "date": "2026-06-12",
+          "accidents": [
+            "有色金属期货大涨,军工/汽车零部件/化工涨价线活跃",
+            "汽车轻量化+低空经济"
+          ],
+          "insights": [
+            "铝合金轮毂+通航飞机"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "铝合金轮毂+通航飞机"
+          ],
+          "industry_position": [
+            "汽车轻量化+低空经济"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
         }
       ],
       "board": "SZ",
@@ -25056,9 +25184,13 @@
       "name": "中光学"
     },
     "002190": {
-      "core_business": [],
-      "last_updated": "2026-05-31",
-      "industry_position": [],
+      "core_business": [
+        "汽车零部件+军工配套"
+      ],
+      "last_updated": "2026-06-12",
+      "industry_position": [
+        "锂电+军工双驱动"
+      ],
       "valuation": {},
       "industry": "汽车-汽车零部件-其他汽车零部件",
       "concepts": [
@@ -25081,7 +25213,7 @@
         "长安汽车概念"
       ],
       "code": "002190",
-      "mention_count": 1,
+      "mention_count": 2,
       "partners": [],
       "articles": [
         {
@@ -25091,6 +25223,30 @@
           "accidents": [
             "短期事件驱动"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/oFX2Hmw0AKrUVOBczGkc1w",
+          "title": "6月12日首板逻辑",
+          "date": "2026-06-12",
+          "accidents": [
+            "有色金属期货大涨,军工/汽车零部件/化工涨价线活跃",
+            "锂电+军工双驱动"
+          ],
+          "insights": [
+            "汽车零部件+军工配套"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "汽车零部件+军工配套"
+          ],
+          "industry_position": [
+            "锂电+军工双驱动"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
         }
       ],
       "board": "SZ",
@@ -42499,8 +42655,8 @@
       ]
     },
     "002882": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-12",
       "concepts": [
         "固态电池",
         "无人机",
@@ -42519,13 +42675,46 @@
           ],
           "title": "“固态电池”产业链深度解析与操作策略（2025年4月更新）",
           "source": "https://mp.weixin.qq.com/s/yUHGZSs9svQybkU8NH9pgg"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/oFX2Hmw0AKrUVOBczGkc1w",
+          "title": "6月12日首板逻辑",
+          "date": "2026-06-12",
+          "accidents": [
+            "有色金属期货大涨,军工/汽车零部件/化工涨价线活跃",
+            "国网/南网供应链"
+          ],
+          "insights": [
+            "电线电缆+电网"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "电线电缆+电网"
+          ],
+          "industry_position": [
+            "国网/南网供应链"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
         }
       ],
       "industry": "电力设备-电网设备-线缆部件及其他",
       "board": "SZ",
       "code": "002882",
       "name": "金龙羽",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "电线电缆+电网"
+      ],
+      "industry_position": [
+        "国网/南网供应链"
+      ],
+      "chain": [
+        "首板涨停"
+      ]
     },
     "002885": {
       "mention_count": 2,
@@ -43813,8 +44002,8 @@
       ]
     },
     "002935": {
-      "mention_count": 1,
-      "last_updated": "2026-05-10",
+      "mention_count": 2,
+      "last_updated": "2026-06-12",
       "concepts": [
         "军工",
         "融资融券",
@@ -43842,13 +44031,46 @@
             "4.  **商业航天**：天奥电子是火箭测控时统系统供应商，产品应用于嫦娥、天问等深空探测任务，未来在商业航天发射、卫星互联网等领域具有广阔的市场空间，随着商业航天产业的快速发展，公司将受益于卫星制造、发射及运营环节对时频产品的需求增长。",
             "5.  **5G通信**：为5G基站提供时间同步板卡、时钟服务器等产品，满足5G对高精度时间同步的需求，助力5G网络的建设和运行，同时受益于5G建设及通信行业国产化替代趋势，公司在通信领域的业务有望持续增长。"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/oFX2Hmw0AKrUVOBczGkc1w",
+          "title": "6月12日首板逻辑",
+          "date": "2026-06-12",
+          "accidents": [
+            "有色金属期货大涨,军工/汽车零部件/化工涨价线活跃",
+            "军用通信/导航"
+          ],
+          "insights": [
+            "时间频率产品"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "时间频率产品"
+          ],
+          "industry_position": [
+            "军用通信/导航"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
         }
       ],
       "industry": "国防军工-军工电子-军工电子Ⅲ",
       "board": "SZ",
       "code": "002935",
       "name": "天奥电子",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "时间频率产品"
+      ],
+      "industry_position": [
+        "军用通信/导航"
+      ],
+      "chain": [
+        "首板涨停"
+      ]
     },
     "002938": {
       "core_business": [
@@ -56406,8 +56628,8 @@
       "partners": []
     },
     "300377": {
-      "mention_count": 1,
-      "last_updated": "2026-05-10",
+      "mention_count": 2,
+      "last_updated": "2026-06-12",
       "concepts": [
         "AI应用",
         "互联网金融",
@@ -56434,13 +56656,46 @@
           "date": "",
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/oFX2Hmw0AKrUVOBczGkc1w",
+          "title": "6月12日首板逻辑",
+          "date": "2026-06-12",
+          "accidents": [
+            "有色金属期货大涨,军工/汽车零部件/化工涨价线活跃",
+            "资管/托管/估值系统"
+          ],
+          "insights": [
+            "金融IT解决方案"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "金融IT解决方案"
+          ],
+          "industry_position": [
+            "资管/托管/估值系统"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
         }
       ],
       "industry": "计算机-软件开发-垂直应用软件",
       "board": "SZ",
       "code": "300377",
       "name": "赢时胜",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "金融IT解决方案"
+      ],
+      "industry_position": [
+        "资管/托管/估值系统"
+      ],
+      "chain": [
+        "首板涨停"
+      ]
     },
     "300378": {
       "mention_count": 1,
@@ -71388,8 +71643,8 @@
       "partners": []
     },
     "301176": {
-      "mention_count": 2,
-      "last_updated": "2026-05-31",
+      "mention_count": 3,
+      "last_updated": "2026-06-12",
       "concepts": [
         "MiniLED",
         "PCB概念",
@@ -71414,6 +71669,30 @@
           "date": "2026-04-16",
           "title": "逸豪新材(301176) - 产业链核心标的分析",
           "source": "原材料: raw_material_2026-04-13.md"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/oFX2Hmw0AKrUVOBczGkc1w",
+          "title": "6月12日首板逻辑",
+          "date": "2026-06-12",
+          "accidents": [
+            "有色金属期货大涨,军工/汽车零部件/化工涨价线活跃",
+            "5G/新能源汽车,铜价上涨"
+          ],
+          "insights": [
+            "电子铜箔+铝基覆铜板"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "电子铜箔+铝基覆铜板"
+          ],
+          "industry_position": [
+            "5G/新能源汽车,铜价上涨"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
         }
       ],
       "industry": "电子-元件-印制电路板",
@@ -71429,7 +71708,10 @@
       ],
       "code": "301176",
       "name": "逸豪新材",
-      "partners": []
+      "partners": [],
+      "industry_position": [
+        "5G/新能源汽车,铜价上涨"
+      ]
     },
     "301193": {
       "mention_count": 1,
@@ -73766,8 +74048,8 @@
       ]
     },
     "301348": {
-      "mention_count": 3,
-      "last_updated": "2026-06-04",
+      "mention_count": 4,
+      "last_updated": "2026-06-12",
       "partners": [],
       "concepts": [
         "东数西算(算力)",
@@ -73826,6 +74108,30 @@
           ],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/oFX2Hmw0AKrUVOBczGkc1w",
+          "title": "6月12日首板逻辑",
+          "date": "2026-06-12",
+          "accidents": [
+            "有色金属期货大涨,军工/汽车零部件/化工涨价线活跃",
+            "分立器件/集成电路"
+          ],
+          "insights": [
+            "半导体封装测试"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "半导体封装测试"
+          ],
+          "industry_position": [
+            "分立器件/集成电路"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
         }
       ],
       "board": "SZ",
@@ -85452,8 +85758,8 @@
       "partners": []
     },
     "600497": {
-      "mention_count": 2,
-      "last_updated": "2026-05-10",
+      "mention_count": 3,
+      "last_updated": "2026-06-12",
       "concepts": [
         "沪股通",
         "军工",
@@ -85500,6 +85806,30 @@
           ],
           "title": "驰宏锌锗(600497) - 产业链核心标的分析",
           "source": "原材料: raw_material_2026-04-12_3.md"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/oFX2Hmw0AKrUVOBczGkc1w",
+          "title": "6月12日首板逻辑",
+          "date": "2026-06-12",
+          "accidents": [
+            "有色金属期货大涨,军工/汽车零部件/化工涨价线活跃",
+            "锗产品光纤/红外,锌价上涨"
+          ],
+          "insights": [
+            "锌锗综合回收"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "锌锗综合回收"
+          ],
+          "industry_position": [
+            "锗产品光纤/红外,锌价上涨"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
         }
       ],
       "industry": "有色金属-工业金属-铅锌",
@@ -86324,8 +86654,8 @@
       "partners": []
     },
     "600531": {
-      "mention_count": 2,
-      "last_updated": "2026-05-31",
+      "mention_count": 3,
+      "last_updated": "2026-06-12",
       "partners": [
         "国内多家半导体材料厂商"
       ],
@@ -86343,7 +86673,9 @@
         "锂电池概念",
         "黄金概念"
       ],
-      "industry_position": [],
+      "industry_position": [
+        "黄金贡献利润弹性"
+      ],
       "articles": [
         {
           "key_metrics": [],
@@ -86365,6 +86697,30 @@
           "source": "https://mp.weixin.qq.com/s/5bluU2s8izAKQ9K3Fb2KGA",
           "insights": [],
           "accidents": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/oFX2Hmw0AKrUVOBczGkc1w",
+          "title": "6月12日首板逻辑",
+          "date": "2026-06-12",
+          "accidents": [
+            "有色金属期货大涨,军工/汽车零部件/化工涨价线活跃",
+            "黄金贡献利润弹性"
+          ],
+          "insights": [
+            "铅锌+黄金"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "铅锌+黄金"
+          ],
+          "industry_position": [
+            "黄金贡献利润弹性"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
         }
       ],
       "board": "SH",
@@ -91383,8 +91739,8 @@
       "partners": []
     },
     "600862": {
-      "mention_count": 1,
-      "last_updated": "2026-05-10",
+      "mention_count": 2,
+      "last_updated": "2026-06-12",
       "concepts": [
         "创投",
         "沪股通",
@@ -91417,13 +91773,43 @@
           ],
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/oFX2Hmw0AKrUVOBczGkc1w",
+          "title": "6月12日首板逻辑",
+          "date": "2026-06-12",
+          "accidents": [
+            "有色金属期货大涨,军工/汽车零部件/化工涨价线活跃",
+            "军机民机结构件"
+          ],
+          "insights": [
+            "航空复合材料"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "航空复合材料"
+          ],
+          "industry_position": [
+            "军机民机结构件"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
         }
       ],
       "industry": "国防军工-军工装备-航空装备",
       "board": "SH",
       "code": "600862",
       "name": "中航高科",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "航空复合材料"
+      ],
+      "chain": [
+        "首板涨停"
+      ]
     },
     "600863": {
       "mention_count": 3,
@@ -92894,8 +93280,8 @@
       "partners": []
     },
     "600961": {
-      "mention_count": 4,
-      "last_updated": "2026-06-05",
+      "mention_count": 5,
+      "last_updated": "2026-06-12",
       "partners": [
         "国内多家化合物半导体厂商"
       ],
@@ -93001,6 +93387,30 @@
           "source": "https://mp.weixin.qq.com/s/5bluU2s8izAKQ9K3Fb2KGA",
           "insights": [],
           "accidents": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/oFX2Hmw0AKrUVOBczGkc1w",
+          "title": "6月12日首板逻辑",
+          "date": "2026-06-12",
+          "accidents": [
+            "有色金属期货大涨,军工/汽车零部件/化工涨价线活跃",
+            "锌产量前列,利润修复"
+          ],
+          "insights": [
+            "锌冶炼龙头"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "锌冶炼龙头"
+          ],
+          "industry_position": [
+            "锌产量前列,利润修复"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
         }
       ],
       "board": "SH",
@@ -96775,8 +97185,8 @@
       "partners": []
     },
     "601609": {
-      "mention_count": 3,
-      "last_updated": "2026-06-04",
+      "mention_count": 4,
+      "last_updated": "2026-06-12",
       "concepts": [
         "2025年报预增",
         "PEEK材料",
@@ -96868,6 +97278,30 @@
             "高端铜产业链需求暴增"
           ],
           "key_metrics": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/oFX2Hmw0AKrUVOBczGkc1w",
+          "title": "6月12日首板逻辑",
+          "date": "2026-06-12",
+          "accidents": [
+            "有色金属期货大涨,军工/汽车零部件/化工涨价线活跃",
+            "新能源车供应链"
+          ],
+          "insights": [
+            "铜加工+稀土永磁"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "铜加工+稀土永磁"
+          ],
+          "industry_position": [
+            "新能源车供应链"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
         }
       ],
       "industry": "有色金属-工业金属-铜",
@@ -102275,8 +102709,8 @@
       ]
     },
     "603120": {
-      "mention_count": 2,
-      "last_updated": "2026-06-11",
+      "mention_count": 3,
+      "last_updated": "2026-06-12",
       "concepts": [
         "专精特新",
         "光刻胶",
@@ -102325,6 +102759,30 @@
           ],
           "chain": [
             "环氧丙烷产业链"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/oFX2Hmw0AKrUVOBczGkc1w",
+          "title": "6月12日首板逻辑",
+          "date": "2026-06-12",
+          "accidents": [
+            "有色金属期货大涨,军工/汽车零部件/化工涨价线活跃",
+            "炼化/煤化工催化"
+          ],
+          "insights": [
+            "分子筛催化剂"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "分子筛催化剂"
+          ],
+          "industry_position": [
+            "炼化/煤化工催化"
+          ],
+          "chain": [
+            "首板涨停"
           ],
           "partners": []
         }
@@ -111444,8 +111902,8 @@
       "processed_at": "2026-05-20T11:46:50.489842+08:00"
     },
     "603990": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-12",
       "concepts": [
         "AI应用",
         "DRG/DIP",
@@ -111480,13 +111938,46 @@
             "公司由绵阳国资委控股，可能受益于国资改革政策支持，推动业务整合与战略布局。",
             "旗下玛丽医院拥有辅助生殖牌照，辅助生殖业务与多胎政策相关，市场需求增长潜力较大。"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/oFX2Hmw0AKrUVOBczGkc1w",
+          "title": "6月12日首板逻辑",
+          "date": "2026-06-12",
+          "accidents": [
+            "有色金属期货大涨,军工/汽车零部件/化工涨价线活跃",
+            "医院核心业务流程"
+          ],
+          "insights": [
+            "医疗信息化软件"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "医疗信息化软件"
+          ],
+          "industry_position": [
+            "医院核心业务流程"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
         }
       ],
       "industry": "计算机-软件开发-垂直应用软件",
       "board": "SH",
       "code": "603990",
       "name": "麦迪科技",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "医疗信息化软件"
+      ],
+      "industry_position": [
+        "医院核心业务流程"
+      ],
+      "chain": [
+        "首板涨停"
+      ]
     },
     "603992": {
       "mention_count": 2,
@@ -111549,8 +112040,8 @@
       ]
     },
     "603993": {
-      "mention_count": 3,
-      "last_updated": "2026-05-10",
+      "mention_count": 4,
+      "last_updated": "2026-06-12",
       "concepts": [
         "沪股通",
         "融资融券",
@@ -111641,6 +112132,30 @@
             "投资建议:强烈推荐,目标价看至22元。",
             "投资建议:推荐,目标价看至14元。"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/oFX2Hmw0AKrUVOBczGkc1w",
+          "title": "6月12日首板逻辑",
+          "date": "2026-06-12",
+          "accidents": [
+            "有色金属期货大涨,军工/汽车零部件/化工涨价线活跃",
+            "铜60万吨突破,钴全球第一"
+          ],
+          "insights": [
+            "铜+钴(全球钴第一)"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "铜+钴(全球钴第一)"
+          ],
+          "industry_position": [
+            "铜60万吨突破,钴全球第一"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
         }
       ],
       "industry": "有色金属-工业金属-铜",
@@ -113966,8 +114481,8 @@
       ]
     },
     "688010": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-12",
       "concepts": [
         "MicroLED概念",
         "专精特新",
@@ -114002,13 +114517,46 @@
             "光学镜头+遥感相机业务占比超80%",
             "卫星遥感+航天光学核心配套"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/oFX2Hmw0AKrUVOBczGkc1w",
+          "title": "6月12日首板逻辑",
+          "date": "2026-06-12",
+          "accidents": [
+            "有色金属期货大涨,军工/汽车零部件/化工涨价线活跃",
+            "安防/车载/天文,AI视觉"
+          ],
+          "insights": [
+            "光学镜头+光电系统"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "光学镜头+光电系统"
+          ],
+          "industry_position": [
+            "安防/车载/天文,AI视觉"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
         }
       ],
       "industry": "电子-光学光电子-光学元件",
       "board": "SH",
       "code": "688010",
       "name": "福光股份",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "光学镜头+光电系统"
+      ],
+      "industry_position": [
+        "安防/车载/天文,AI视觉"
+      ],
+      "chain": [
+        "首板涨停"
+      ]
     },
     "688017": {
       "mention_count": 5,
@@ -133465,11 +134013,40 @@
       "code": "000506",
       "name": "招金黄金",
       "concept": "",
-      "mention_count": 2,
-      "articles": [],
-      "last_updated": "2026-05-31",
-      "core_business": [],
-      "industry_position": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/oFX2Hmw0AKrUVOBczGkc1w",
+          "title": "6月12日首板逻辑",
+          "date": "2026-06-12",
+          "accidents": [
+            "有色金属期货大涨,军工/汽车零部件/化工涨价线活跃",
+            "金价上涨+避险"
+          ],
+          "insights": [
+            "黄金采选冶炼"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "黄金采选冶炼"
+          ],
+          "industry_position": [
+            "金价上涨+避险"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-06-12",
+      "core_business": [
+        "黄金采选冶炼"
+      ],
+      "industry_position": [
+        "金价上涨+避险"
+      ],
       "valuation": {},
       "industry": "有色金属-贵金属-贵金属Ⅲ",
       "concepts": [
@@ -133486,7 +134063,9 @@
       "partners": [],
       "board": "SZ",
       "products": [],
-      "chain": []
+      "chain": [
+        "首板涨停"
+      ]
     },
     "000510": {
       "code": "000510",
@@ -134452,7 +135031,7 @@
       "code": "000737",
       "name": "北方铜业",
       "concept": "",
-      "mention_count": 1,
+      "mention_count": 2,
       "articles": [
         {
           "article_title": "需求暴增的高端铜产业链名单",
@@ -134467,11 +135046,39 @@
             "高端铜产业链需求暴增"
           ],
           "key_metrics": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/oFX2Hmw0AKrUVOBczGkc1w",
+          "title": "6月12日首板逻辑",
+          "date": "2026-06-12",
+          "accidents": [
+            "有色金属期货大涨,军工/汽车零部件/化工涨价线活跃",
+            "铜精矿自给率高,铜价上涨重估"
+          ],
+          "insights": [
+            "铜矿采选"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "铜矿采选"
+          ],
+          "industry_position": [
+            "铜精矿自给率高,铜价上涨重估"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
         }
       ],
-      "last_updated": "2026-06-05",
-      "core_business": [],
-      "industry_position": [],
+      "last_updated": "2026-06-12",
+      "core_business": [
+        "铜矿采选"
+      ],
+      "industry_position": [
+        "铜精矿自给率高,铜价上涨重估"
+      ],
       "valuation": {},
       "industry": "有色金属-工业金属-铜",
       "concepts": [
@@ -134491,7 +135098,9 @@
       "products": [
         "铜箔"
       ],
-      "chain": [],
+      "chain": [
+        "首板涨停"
+      ],
       "insights": [
         "高性能铜及铜合金带材、压延铜箔"
       ]
@@ -134592,11 +135201,40 @@
       "code": "000751",
       "name": "锌业股份",
       "concept": "",
-      "mention_count": 2,
-      "articles": [],
-      "last_updated": "2026-05-31",
-      "core_business": [],
-      "industry_position": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/oFX2Hmw0AKrUVOBczGkc1w",
+          "title": "6月12日首板逻辑",
+          "date": "2026-06-12",
+          "accidents": [
+            "有色金属期货大涨,军工/汽车零部件/化工涨价线活跃",
+            "锌价上涨受益"
+          ],
+          "insights": [
+            "锌冶炼"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "锌冶炼"
+          ],
+          "industry_position": [
+            "锌价上涨受益"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-06-12",
+      "core_business": [
+        "锌冶炼"
+      ],
+      "industry_position": [
+        "锌价上涨受益"
+      ],
       "valuation": {},
       "industry": "有色金属-工业金属-铅锌",
       "concepts": [
@@ -134611,7 +135249,9 @@
       "partners": [],
       "board": "SZ",
       "products": [],
-      "chain": []
+      "chain": [
+        "首板涨停"
+      ]
     },
     "000756": {
       "code": "000756",
@@ -134653,10 +135293,39 @@
       "name": "中色股份",
       "concept": "",
       "mention_count": 1,
-      "articles": [],
-      "last_updated": "2026-05-31",
-      "core_business": [],
-      "industry_position": [],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/oFX2Hmw0AKrUVOBczGkc1w",
+          "title": "6月12日首板逻辑",
+          "date": "2026-06-12",
+          "accidents": [
+            "有色金属期货大涨,军工/汽车零部件/化工涨价线活跃",
+            "海外工程+铜矿资源"
+          ],
+          "insights": [
+            "有色工程+赞比亚铜矿"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "有色工程+赞比亚铜矿"
+          ],
+          "industry_position": [
+            "海外工程+铜矿资源"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-06-12",
+      "core_business": [
+        "有色工程+赞比亚铜矿"
+      ],
+      "industry_position": [
+        "海外工程+铜矿资源"
+      ],
       "valuation": {},
       "industry": "有色金属-工业金属-铅锌",
       "concepts": [
@@ -134680,17 +135349,48 @@
       "partners": [],
       "board": "SZ",
       "products": [],
-      "chain": []
+      "chain": [
+        "首板涨停"
+      ]
     },
     "000759": {
       "code": "000759",
       "name": "中百集团",
       "concept": "",
       "mention_count": 1,
-      "articles": [],
-      "last_updated": "2026-05-31",
-      "core_business": [],
-      "industry_position": [],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/oFX2Hmw0AKrUVOBczGkc1w",
+          "title": "6月12日首板逻辑",
+          "date": "2026-06-12",
+          "accidents": [
+            "有色金属期货大涨,军工/汽车零部件/化工涨价线活跃",
+            "消费复苏,零售轮动"
+          ],
+          "insights": [
+            "超市零售+消费"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "超市零售+消费"
+          ],
+          "industry_position": [
+            "消费复苏,零售轮动"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-06-12",
+      "core_business": [
+        "超市零售+消费"
+      ],
+      "industry_position": [
+        "消费复苏,零售轮动"
+      ],
       "valuation": {},
       "industry": "商贸零售-零售-百货零售",
       "concepts": [
@@ -134713,7 +135413,9 @@
       "partners": [],
       "board": "SZ",
       "products": [],
-      "chain": []
+      "chain": [
+        "首板涨停"
+      ]
     },
     "000767": {
       "code": "000767",
@@ -140149,9 +140851,34 @@
       "code": "002597",
       "name": "金禾实业",
       "concept": "",
-      "mention_count": 4,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/oFX2Hmw0AKrUVOBczGkc1w",
+          "title": "6月12日首板逻辑",
+          "date": "2026-06-12",
+          "accidents": [
+            "有色金属期货大涨,军工/汽车零部件/化工涨价线活跃",
+            "甜味剂涨价预期"
+          ],
+          "insights": [
+            "安赛蜜/三氯蔗糖全球领先"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "安赛蜜/三氯蔗糖全球领先"
+          ],
+          "industry_position": [
+            "甜味剂涨价预期"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-06-12",
       "concepts": [
         "代糖概念",
         "光伏概念",
@@ -140165,7 +140892,16 @@
       ],
       "industry": "基础化工-化学制品-食品及饲料添加剂",
       "board": "SZ",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "安赛蜜/三氯蔗糖全球领先"
+      ],
+      "industry_position": [
+        "甜味剂涨价预期"
+      ],
+      "chain": [
+        "首板涨停"
+      ]
     },
     "002605": {
       "code": "002605",
@@ -140446,9 +141182,34 @@
       "code": "002637",
       "name": "赞宇科技",
       "concept": "",
-      "mention_count": 2,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/oFX2Hmw0AKrUVOBczGkc1w",
+          "title": "6月12日首板逻辑",
+          "date": "2026-06-12",
+          "accidents": [
+            "有色金属期货大涨,军工/汽车零部件/化工涨价线活跃",
+            "棕榈油涨价传导"
+          ],
+          "insights": [
+            "表面活性剂+油脂化工"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "表面活性剂+油脂化工"
+          ],
+          "industry_position": [
+            "棕榈油涨价传导"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-06-12",
       "concepts": [
         "一带一路",
         "回购增持再贷款概念",
@@ -140459,7 +141220,16 @@
       ],
       "industry": "基础化工-化学制品-其他化学制品",
       "board": "SZ",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "表面活性剂+油脂化工"
+      ],
+      "industry_position": [
+        "棕榈油涨价传导"
+      ],
+      "chain": [
+        "首板涨停"
+      ]
     },
     "002639": {
       "code": "002639",
@@ -142412,9 +143182,34 @@
       "code": "002985",
       "name": "北摩高科",
       "concept": "",
-      "mention_count": 5,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/oFX2Hmw0AKrUVOBczGkc1w",
+          "title": "6月12日首板逻辑",
+          "date": "2026-06-12",
+          "accidents": [
+            "有色金属期货大涨,军工/汽车零部件/化工涨价线活跃",
+            "歼击机/运输机覆盖"
+          ],
+          "insights": [
+            "飞机刹车系统"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "飞机刹车系统"
+          ],
+          "industry_position": [
+            "歼击机/运输机覆盖"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-06-12",
       "concepts": [
         "2025年报预增",
         "京津冀一体化",
@@ -142434,7 +143229,16 @@
       ],
       "industry": "国防军工-军工装备-航空装备",
       "board": "SZ",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "飞机刹车系统"
+      ],
+      "industry_position": [
+        "歼击机/运输机覆盖"
+      ],
+      "chain": [
+        "首板涨停"
+      ]
     },
     "002986": {
       "code": "002986",
@@ -146179,9 +146983,34 @@
       "code": "300581",
       "name": "晨曦航空",
       "concept": "",
-      "mention_count": 2,
-      "articles": [],
-      "last_updated": "2026-05-10",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/oFX2Hmw0AKrUVOBczGkc1w",
+          "title": "6月12日首板逻辑",
+          "date": "2026-06-12",
+          "accidents": [
+            "有色金属期货大涨,军工/汽车零部件/化工涨价线活跃",
+            "军用飞机/无人机"
+          ],
+          "insights": [
+            "航空惯性导航"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "航空惯性导航"
+          ],
+          "industry_position": [
+            "军用飞机/无人机"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-06-12",
       "concepts": [
         "军工",
         "融资融券",
@@ -146195,7 +147024,16 @@
       ],
       "industry": "国防军工-军工装备-航空装备",
       "board": "SZ",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "航空惯性导航"
+      ],
+      "industry_position": [
+        "军用飞机/无人机"
+      ],
+      "chain": [
+        "首板涨停"
+      ]
     },
     "300587": {
       "code": "300587",
@@ -154713,9 +155551,34 @@
       "code": "600391",
       "name": "航发科技",
       "concept": "",
-      "mention_count": 7,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/oFX2Hmw0AKrUVOBczGkc1w",
+          "title": "6月12日首板逻辑",
+          "date": "2026-06-12",
+          "accidents": [
+            "有色金属期货大涨,军工/汽车零部件/化工涨价线活跃",
+            "发动机国产替代"
+          ],
+          "insights": [
+            "航空发动机零部件"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "航空发动机零部件"
+          ],
+          "industry_position": [
+            "发动机国产替代"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-06-12",
       "concepts": [
         "军工",
         "国产航母",
@@ -154730,7 +155593,16 @@
       ],
       "industry": "国防军工-军工装备-航空装备",
       "board": "SH",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "航空发动机零部件"
+      ],
+      "industry_position": [
+        "发动机国产替代"
+      ],
+      "chain": [
+        "首板涨停"
+      ]
     },
     "600397": {
       "code": "600397",
@@ -155682,9 +156554,34 @@
       "code": "600601",
       "name": "方正科技",
       "concept": "",
-      "mention_count": 9,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/oFX2Hmw0AKrUVOBczGkc1w",
+          "title": "6月12日首板逻辑",
+          "date": "2026-06-12",
+          "accidents": [
+            "有色金属期货大涨,军工/汽车零部件/化工涨价线活跃",
+            "存储芯片/AI服务器"
+          ],
+          "insights": [
+            "PCB+半导体封装基板"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "PCB+半导体封装基板"
+          ],
+          "industry_position": [
+            "存储芯片/AI服务器"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-06-12",
       "concepts": [
         "2025年报预增",
         "5G",
@@ -155700,7 +156597,16 @@
       ],
       "industry": "电子-元件-印制电路板",
       "board": "SH",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "PCB+半导体封装基板"
+      ],
+      "industry_position": [
+        "存储芯片/AI服务器"
+      ],
+      "chain": [
+        "首板涨停"
+      ]
     },
     "600603": {
       "code": "600603",
@@ -161134,8 +162040,33 @@
       "name": "多伦科技",
       "concept": "",
       "mention_count": 1,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/oFX2Hmw0AKrUVOBczGkc1w",
+          "title": "6月12日首板逻辑",
+          "date": "2026-06-12",
+          "accidents": [
+            "有色金属期货大涨,军工/汽车零部件/化工涨价线活跃",
+            "新能源车检测布局"
+          ],
+          "insights": [
+            "智能交通+驾考系统"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "智能交通+驾考系统"
+          ],
+          "industry_position": [
+            "新能源车检测布局"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-06-12",
       "concepts": [
         "AI应用",
         "ChatGPT概念",
@@ -161173,7 +162104,16 @@
       ],
       "industry": "计算机-软件开发-垂直应用软件",
       "board": "SH",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "智能交通+驾考系统"
+      ],
+      "industry_position": [
+        "新能源车检测布局"
+      ],
+      "chain": [
+        "首板涨停"
+      ]
     },
     "603529": {
       "code": "603529",
@@ -161724,9 +162664,34 @@
       "code": "603738",
       "name": "泰晶科技",
       "concept": "",
-      "mention_count": 2,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/oFX2Hmw0AKrUVOBczGkc1w",
+          "title": "6月12日首板逻辑",
+          "date": "2026-06-12",
+          "accidents": [
+            "有色金属期货大涨,军工/汽车零部件/化工涨价线活跃",
+            "华为/小米供应链,半导体映射"
+          ],
+          "insights": [
+            "石英晶体谐振器+光刻"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "石英晶体谐振器+光刻"
+          ],
+          "industry_position": [
+            "华为/小米供应链,半导体映射"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-06-12",
       "concepts": [
         "5G",
         "6G概念",
@@ -161759,7 +162724,16 @@
       ],
       "industry": "电子-元件-被动元件",
       "board": "SH",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "石英晶体谐振器+光刻"
+      ],
+      "industry_position": [
+        "华为/小米供应链,半导体映射"
+      ],
+      "chain": [
+        "首板涨停"
+      ]
     },
     "603755": {
       "code": "603755",
@@ -171724,10 +172698,34 @@
             "国外营收占比达83.61%"
           ],
           "target_valuation": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/oFX2Hmw0AKrUVOBczGkc1w",
+          "title": "6月12日首板逻辑",
+          "date": "2026-06-12",
+          "accidents": [
+            "有色金属期货大涨,军工/汽车零部件/化工涨价线活跃",
+            "非洲/东南亚"
+          ],
+          "insights": [
+            "国际贸易+国际工程"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "国际贸易+国际工程"
+          ],
+          "industry_position": [
+            "非洲/东南亚"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
         }
       ],
-      "last_updated": "2026-06-04",
-      "mention_count": 1
+      "last_updated": "2026-06-12",
+      "mention_count": 2
     },
     "603060": {
       "name": "国检集团",
@@ -172906,15 +173904,48 @@
       "code": "002051",
       "board": "SZ",
       "industry": "",
-      "concepts": [],
+      "concepts": [
+        "工程"
+      ],
       "products": [],
-      "core_business": [],
-      "industry_position": [],
-      "chain": [],
+      "core_business": [
+        "国际工程+一带一路"
+      ],
+      "industry_position": [
+        "美伊协议受益"
+      ],
+      "chain": [
+        "首板涨停"
+      ],
       "partners": [],
-      "mention_count": 0,
-      "articles": [],
-      "last_updated": "2026-06-05"
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/oFX2Hmw0AKrUVOBczGkc1w",
+          "title": "6月12日首板逻辑",
+          "date": "2026-06-12",
+          "accidents": [
+            "有色金属期货大涨,军工/汽车零部件/化工涨价线活跃",
+            "美伊协议受益"
+          ],
+          "insights": [
+            "国际工程+一带一路"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "国际工程+一带一路"
+          ],
+          "industry_position": [
+            "美伊协议受益"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-06-12"
     },
     "603937": {
       "name": "丽岛新材",
@@ -178052,6 +179083,512 @@
           ],
           "chain": [
             "GLP-1产业链"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "920634": {
+      "code": "920634",
+      "name": "新威凌",
+      "last_updated": "2026-06-12",
+      "mention_count": 1,
+      "board": "BJ",
+      "core_business": [
+        "锌粉+新材料"
+      ],
+      "industry_position": [
+        "锌价上涨受益"
+      ],
+      "chain": [
+        "首板涨停"
+      ],
+      "partners": [],
+      "concepts": [
+        "工业金属"
+      ],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/oFX2Hmw0AKrUVOBczGkc1w",
+          "title": "6月12日首板逻辑",
+          "date": "2026-06-12",
+          "accidents": [
+            "有色金属期货大涨,军工/汽车零部件/化工涨价线活跃",
+            "锌价上涨受益"
+          ],
+          "insights": [
+            "锌粉+新材料"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "锌粉+新材料"
+          ],
+          "industry_position": [
+            "锌价上涨受益"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "603335": {
+      "code": "603335",
+      "name": "迪生力",
+      "last_updated": "2026-06-12",
+      "mention_count": 1,
+      "board": "SH",
+      "core_business": [
+        "铝合金汽车轮毂"
+      ],
+      "industry_position": [
+        "国内外主流车企供应链"
+      ],
+      "chain": [
+        "首板涨停"
+      ],
+      "partners": [],
+      "concepts": [
+        "汽车零部件"
+      ],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/oFX2Hmw0AKrUVOBczGkc1w",
+          "title": "6月12日首板逻辑",
+          "date": "2026-06-12",
+          "accidents": [
+            "有色金属期货大涨,军工/汽车零部件/化工涨价线活跃",
+            "国内外主流车企供应链"
+          ],
+          "insights": [
+            "铝合金汽车轮毂"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "铝合金汽车轮毂"
+          ],
+          "industry_position": [
+            "国内外主流车企供应链"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "002976": {
+      "code": "002976",
+      "name": "瑞玛精密",
+      "last_updated": "2026-06-12",
+      "mention_count": 1,
+      "board": "SZ",
+      "core_business": [
+        "汽车精密零部件"
+      ],
+      "industry_position": [
+        "特斯拉/蔚来客户"
+      ],
+      "chain": [
+        "首板涨停"
+      ],
+      "partners": [],
+      "concepts": [
+        "汽车零部件"
+      ],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/oFX2Hmw0AKrUVOBczGkc1w",
+          "title": "6月12日首板逻辑",
+          "date": "2026-06-12",
+          "accidents": [
+            "有色金属期货大涨,军工/汽车零部件/化工涨价线活跃",
+            "特斯拉/蔚来客户"
+          ],
+          "insights": [
+            "汽车精密零部件"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "汽车精密零部件"
+          ],
+          "industry_position": [
+            "特斯拉/蔚来客户"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "002997": {
+      "code": "002997",
+      "name": "瑞鹄模具",
+      "last_updated": "2026-06-12",
+      "mention_count": 1,
+      "board": "SZ",
+      "core_business": [
+        "汽车模具+轻量化"
+      ],
+      "industry_position": [
+        "奇瑞/比亚迪客户"
+      ],
+      "chain": [
+        "首板涨停"
+      ],
+      "partners": [],
+      "concepts": [
+        "汽车零部件"
+      ],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/oFX2Hmw0AKrUVOBczGkc1w",
+          "title": "6月12日首板逻辑",
+          "date": "2026-06-12",
+          "accidents": [
+            "有色金属期货大涨,军工/汽车零部件/化工涨价线活跃",
+            "奇瑞/比亚迪客户"
+          ],
+          "insights": [
+            "汽车模具+轻量化"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "汽车模具+轻量化"
+          ],
+          "industry_position": [
+            "奇瑞/比亚迪客户"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "603020": {
+      "code": "603020",
+      "name": "爱普股份",
+      "last_updated": "2026-06-12",
+      "mention_count": 1,
+      "board": "SH",
+      "core_business": [
+        "香精香料+食品添加剂"
+      ],
+      "industry_position": [
+        "消费复苏+化工涨价"
+      ],
+      "chain": [
+        "首板涨停"
+      ],
+      "partners": [],
+      "concepts": [
+        "化工/涨价"
+      ],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/oFX2Hmw0AKrUVOBczGkc1w",
+          "title": "6月12日首板逻辑",
+          "date": "2026-06-12",
+          "accidents": [
+            "有色金属期货大涨,军工/汽车零部件/化工涨价线活跃",
+            "消费复苏+化工涨价"
+          ],
+          "insights": [
+            "香精香料+食品添加剂"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "香精香料+食品添加剂"
+          ],
+          "industry_position": [
+            "消费复苏+化工涨价"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "605198": {
+      "code": "605198",
+      "name": "安德利",
+      "last_updated": "2026-06-12",
+      "mention_count": 1,
+      "board": "SH",
+      "core_business": [
+        "浓缩果汁出口"
+      ],
+      "industry_position": [
+        "农产品涨价,出口欧美"
+      ],
+      "chain": [
+        "首板涨停"
+      ],
+      "partners": [],
+      "concepts": [
+        "消费"
+      ],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/oFX2Hmw0AKrUVOBczGkc1w",
+          "title": "6月12日首板逻辑",
+          "date": "2026-06-12",
+          "accidents": [
+            "有色金属期货大涨,军工/汽车零部件/化工涨价线活跃",
+            "农产品涨价,出口欧美"
+          ],
+          "insights": [
+            "浓缩果汁出口"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "浓缩果汁出口"
+          ],
+          "industry_position": [
+            "农产品涨价,出口欧美"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "688163": {
+      "code": "688163",
+      "name": "赛伦生物",
+      "last_updated": "2026-06-12",
+      "mention_count": 1,
+      "board": "SH",
+      "core_business": [
+        "抗毒素/抗血清"
+      ],
+      "industry_position": [
+        "破伤风/蛇毒治疗"
+      ],
+      "chain": [
+        "首板涨停"
+      ],
+      "partners": [],
+      "concepts": [
+        "生物制品"
+      ],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/oFX2Hmw0AKrUVOBczGkc1w",
+          "title": "6月12日首板逻辑",
+          "date": "2026-06-12",
+          "accidents": [
+            "有色金属期货大涨,军工/汽车零部件/化工涨价线活跃",
+            "破伤风/蛇毒治疗"
+          ],
+          "insights": [
+            "抗毒素/抗血清"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "抗毒素/抗血清"
+          ],
+          "industry_position": [
+            "破伤风/蛇毒治疗"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "601696": {
+      "code": "601696",
+      "name": "中银证券",
+      "last_updated": "2026-06-12",
+      "mention_count": 1,
+      "board": "SH",
+      "core_business": [
+        "证券经纪+投行"
+      ],
+      "industry_position": [
+        "市场活跃受益"
+      ],
+      "chain": [
+        "首板涨停"
+      ],
+      "partners": [],
+      "concepts": [
+        "证券"
+      ],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/oFX2Hmw0AKrUVOBczGkc1w",
+          "title": "6月12日首板逻辑",
+          "date": "2026-06-12",
+          "accidents": [
+            "有色金属期货大涨,军工/汽车零部件/化工涨价线活跃",
+            "市场活跃受益"
+          ],
+          "insights": [
+            "证券经纪+投行"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "证券经纪+投行"
+          ],
+          "industry_position": [
+            "市场活跃受益"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "600906": {
+      "code": "600906",
+      "name": "财达证券",
+      "last_updated": "2026-06-12",
+      "mention_count": 1,
+      "board": "SH",
+      "core_business": [
+        "证券+河北国资"
+      ],
+      "industry_position": [
+        "河北地方券商"
+      ],
+      "chain": [
+        "首板涨停"
+      ],
+      "partners": [],
+      "concepts": [
+        "证券"
+      ],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/oFX2Hmw0AKrUVOBczGkc1w",
+          "title": "6月12日首板逻辑",
+          "date": "2026-06-12",
+          "accidents": [
+            "有色金属期货大涨,军工/汽车零部件/化工涨价线活跃",
+            "河北地方券商"
+          ],
+          "insights": [
+            "证券+河北国资"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "证券+河北国资"
+          ],
+          "industry_position": [
+            "河北地方券商"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "600567": {
+      "code": "600567",
+      "name": "山鹰国际",
+      "last_updated": "2026-06-12",
+      "mention_count": 1,
+      "board": "SH",
+      "core_business": [
+        "造纸+包装"
+      ],
+      "industry_position": [
+        "纸价上涨受益"
+      ],
+      "chain": [
+        "首板涨停"
+      ],
+      "partners": [],
+      "concepts": [
+        "造纸"
+      ],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/oFX2Hmw0AKrUVOBczGkc1w",
+          "title": "6月12日首板逻辑",
+          "date": "2026-06-12",
+          "accidents": [
+            "有色金属期货大涨,军工/汽车零部件/化工涨价线活跃",
+            "纸价上涨受益"
+          ],
+          "insights": [
+            "造纸+包装"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "造纸+包装"
+          ],
+          "industry_position": [
+            "纸价上涨受益"
+          ],
+          "chain": [
+            "首板涨停"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "001206": {
+      "code": "001206",
+      "name": "依依股份",
+      "last_updated": "2026-06-12",
+      "mention_count": 1,
+      "board": "SZ",
+      "core_business": [
+        "宠物卫生用品"
+      ],
+      "industry_position": [
+        "宠物经济+消费复苏"
+      ],
+      "chain": [
+        "首板涨停"
+      ],
+      "partners": [],
+      "concepts": [
+        "宠物"
+      ],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/oFX2Hmw0AKrUVOBczGkc1w",
+          "title": "6月12日首板逻辑",
+          "date": "2026-06-12",
+          "accidents": [
+            "有色金属期货大涨,军工/汽车零部件/化工涨价线活跃",
+            "宠物经济+消费复苏"
+          ],
+          "insights": [
+            "宠物卫生用品"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "宠物卫生用品"
+          ],
+          "industry_position": [
+            "宠物经济+消费复苏"
+          ],
+          "chain": [
+            "首板涨停"
           ],
           "partners": []
         }
