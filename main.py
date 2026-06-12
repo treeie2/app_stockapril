@@ -3077,6 +3077,20 @@ def sync_to_firebase(stocks_dict, stats):
                         }
                     }
                 
+                # 添加估值字段
+                valuation = stock.get("valuation", {})
+                if valuation:
+                    val_fields = {}
+                    for vk in ['target_market_cap', 'target_price', 'pe', 'upside', 'rating']:
+                        vv = valuation.get(vk)
+                        if vv:
+                            val_fields[vk] = {"stringValue": str(vv)}
+                    vb = valuation.get('target_market_cap_billion')
+                    if vb is not None:
+                        val_fields['target_market_cap_billion'] = {"doubleValue": float(vb)}
+                    if val_fields:
+                        firestore_data["fields"]["valuation"] = {"mapValue": {"fields": val_fields}}
+                
                 # 添加文章数组
                 articles = stock.get("articles", [])
                 if articles:
