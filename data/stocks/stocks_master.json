@@ -4811,8 +4811,8 @@
       ]
     },
     "002254": {
-      "mention_count": 4,
-      "last_updated": "2026-06-12",
+      "mention_count": 5,
+      "last_updated": "2026-06-13",
       "partners": [
         "民士达"
       ],
@@ -4906,6 +4906,33 @@
           ],
           "chain": [
             "中游-制造"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/zpCi_DgqWpERt-Q24UiQhA",
+          "title": "芳纶涨价，4只核心个股梳理",
+          "date": "2026-06-13",
+          "accidents": [
+            "对位芳纶涨价,AIDC光缆需求爆发",
+            "对位芳纶1.6万吨/年国内第一全球第三,光缆用芳纶市占45%+,高模/细旦丝直供AIDC光缆,产销率100%"
+          ],
+          "insights": [
+            "对位芳纶(1414)+间位芳纶(1313)"
+          ],
+          "key_metrics": [
+            "对位芳纶高模供需缺口最大",
+            "芳纶纸年内涨幅10-15%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "对位芳纶(1414)+间位芳纶(1313)"
+          ],
+          "industry_position": [
+            "对位芳纶1.6万吨/年国内第一全球第三,光缆用芳纶市占45%+,高模/细旦丝直供AIDC光缆,产销率100%"
+          ],
+          "chain": [
+            "芳纶产业链"
           ],
           "partners": []
         }
@@ -135628,7 +135655,7 @@
       "code": "920394",
       "name": "民士达",
       "last_updated": "2026-06-13",
-      "mention_count": 1,
+      "mention_count": 2,
       "articles": [
         {
           "source": "https://mp.weixin.qq.com/s/_AxJ67eFzTt1FMrzZK2-ZQ",
@@ -135651,6 +135678,33 @@
           ],
           "chain": [
             "中游-制造"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/zpCi_DgqWpERt-Q24UiQhA",
+          "title": "芳纶涨价，4只核心个股梳理",
+          "date": "2026-06-13",
+          "accidents": [
+            "对位芳纶涨价,AIDC光缆需求爆发",
+            "国内唯一全系列芳纶纸,全球第二(仅次于杜邦),华为/比亚迪/中车/ABB客户,AIDC绝缘/载板主力"
+          ],
+          "insights": [
+            "芳纶纸(间位+对位)"
+          ],
+          "key_metrics": [
+            "对位芳纶高模供需缺口最大",
+            "芳纶纸年内涨幅10-15%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "芳纶纸(间位+对位)"
+          ],
+          "industry_position": [
+            "国内唯一全系列芳纶纸,全球第二(仅次于杜邦),华为/比亚迪/中车/ABB客户,AIDC绝缘/载板主力"
+          ],
+          "chain": [
+            "芳纶产业链"
           ],
           "partners": []
         }
@@ -137326,6 +137380,61 @@
             "中游-制造"
           ],
           "partners": []
+        }
+      ]
+    },
+    "600810": {
+      "code": "600810",
+      "name": "神马股份",
+      "last_updated": "2026-06-13",
+      "mention_count": 1,
+      "board": "SH",
+      "core_business": [
+        "对位芳纶+尼龙66"
+      ],
+      "industry_position": [
+        "一期4000吨/年(2025量产),高模切入算力光缆,规划万吨扩产"
+      ],
+      "chain": [
+        "芳纶产业链"
+      ],
+      "partners": [
+        "泰和新材"
+      ],
+      "concepts": [
+        "芳纶",
+        "AIDC光缆",
+        "涨价"
+      ],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/zpCi_DgqWpERt-Q24UiQhA",
+          "title": "芳纶涨价，4只核心个股梳理",
+          "date": "2026-06-13",
+          "accidents": [
+            "对位芳纶(1414)涨价,AIDC大芯数光缆加强芯需求爆发,高模75GPa+供需缺口最大",
+            "一期4000吨/年(2025量产),高模切入算力光缆,规划万吨扩产"
+          ],
+          "insights": [
+            "对位芳纶+尼龙66"
+          ],
+          "key_metrics": [
+            "对位芳纶高模价格弹性最高",
+            "光缆用芳纶泰和新材市占45%+"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "对位芳纶+尼龙66"
+          ],
+          "industry_position": [
+            "一期4000吨/年(2025量产),高模切入算力光缆,规划万吨扩产"
+          ],
+          "chain": [
+            "芳纶产业链"
+          ],
+          "partners": [
+            "泰和新材"
+          ]
         }
       ]
     }
