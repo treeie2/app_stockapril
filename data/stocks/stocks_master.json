@@ -94,7 +94,7 @@
       ]
     },
     "002436": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-06-05",
       "partners": [
         "头部AI芯片/服务器客户"
@@ -128,15 +128,6 @@
           "target_valuation": [
             "- 盈利弹性：若FCBGA项目实现满产，净利率可达20%以上。东兴证券预计2026年EPS为0.25元，对应目标价18.41元。但需注意，当前股价已反映部分预期"
           ]
-        },
-        {
-          "date": "2026-04-21",
-          "key_metrics": [],
-          "target_valuation": [],
-          "title": "TGV（玻璃通孔）技术全解析 + 核心企业梳理",
-          "source": "https://mp.weixin.qq.com/s/6PeirSTCbFUP9h2JdS5i2Q",
-          "insights": [],
-          "accidents": []
         }
       ],
       "board": "SZ",
@@ -380,7 +371,7 @@
       "processed_at": "2026-05-21T19:08:06.096198+08:00"
     },
     "688048": {
-      "mention_count": 4,
+      "mention_count": 2,
       "last_updated": "2026-06-04",
       "partners": [
         "中际旭创",
@@ -433,27 +424,6 @@
             "长光华芯：国内高功率半导体激光芯片龙头（IDM模式）。其976nm工业泵浦芯片国内市占率突破40%，且980nm通信泵浦芯片可共用产线。随着苏州二期12英寸产线"
           ],
           "target_valuation": []
-        },
-        {
-          "key_metrics": [],
-          "target_valuation": [],
-          "summary": "",
-          "source": "微信公众号",
-          "insights": [],
-          "accidents": [],
-          "date": "2026-04-21",
-          "content": "磷化铟光芯片领域重要企业",
-          "analysis": "",
-          "title": "磷化铟（InP）：AI 算力卡脖子核心，全产业链标的全梳理"
-        },
-        {
-          "date": "2026-04-21",
-          "key_metrics": [],
-          "target_valuation": [],
-          "title": "光板块领涨全市场！磷化铟：AI算力卡脖子核心，全产业链标的全梳理（附权威出处）",
-          "source": "https://mp.weixin.qq.com/s/5bluU2s8izAKQ9K3Fb2KGA",
-          "insights": [],
-          "accidents": []
         }
       ],
       "board": "SH",
@@ -488,7 +458,7 @@
       ]
     },
     "688313": {
-      "mention_count": 6,
+      "mention_count": 5,
       "last_updated": "2026-05-31",
       "partners": [
         "华为",
@@ -584,11 +554,6 @@
             "*   核心优势：通过收购索尔思光电，成为目前国内EML领域的“领头羊”。它是国内唯一实现200G EML大规模量产的企业，且良率高达85%-90%，直接进入了"
           ],
           "target_valuation": []
-        },
-        {
-          "date": "2026-04-21",
-          "title": "光板块领涨全市场！磷化铟：AI算力卡脖子核心，全产业链标的全梳理（附权威出处）",
-          "source": "https://mp.weixin.qq.com/s/5bluU2s8izAKQ9K3Fb2KGA"
         }
       ],
       "board": "SH",
@@ -622,7 +587,7 @@
       }
     },
     "688498": {
-      "mention_count": 6,
+      "mention_count": 5,
       "last_updated": "2026-06-12",
       "partners": [
         "英伟达",
@@ -690,11 +655,6 @@
             "*   核心优势：通过收购索尔思光电，成为目前国内EML领域的“领头羊”。它是国内唯一实现200G EML大规模量产的企业，且良率高达85%-90%，直接进入了"
           ],
           "target_valuation": []
-        },
-        {
-          "date": "2026-04-21",
-          "title": "光板块领涨全市场！磷化铟：AI算力卡脖子核心，全产业链标的全梳理（附权威出处）",
-          "source": "https://mp.weixin.qq.com/s/5bluU2s8izAKQ9K3Fb2KGA"
         },
         {
           "source": "https://mp.weixin.qq.com/s/_AxJ67eFzTt1FMrzZK2-ZQ",
@@ -8330,15 +8290,9 @@
         "2025年报预增"
       ],
       "code": "000028",
-      "mention_count": 1,
+      "mention_count": 0,
       "partners": [],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "board": "SZ",
       "products": [
         "平台"
@@ -9305,7 +9259,7 @@
         "证金持股"
       ],
       "code": "000166",
-      "mention_count": 3,
+      "mention_count": 1,
       "partners": [],
       "articles": [
         {
@@ -9321,16 +9275,6 @@
             "政策风险",
             "技术风险"
           ]
-        },
-        {
-          "date": "2026-03-25",
-          "title": "今天的一些信息整理3.25",
-          "source": ""
-        },
-        {
-          "date": "2026-03-25",
-          "title": "今天的一些信息整理3.25",
-          "source": "https://mp.weixin.qq.com/s/IPF3zZ0n--NiWQWch4MWCA"
         }
       ],
       "board": "SZ",
@@ -9838,15 +9782,9 @@
         "高股息精选"
       ],
       "code": "000404",
-      "mention_count": 1,
+      "mention_count": 0,
       "partners": [],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "board": "SZ",
       "products": [],
       "chain": [],
@@ -9874,7 +9812,7 @@
         "深股通"
       ],
       "code": "000408",
-      "mention_count": 2,
+      "mention_count": 1,
       "partners": [],
       "articles": [
         {
@@ -9885,11 +9823,6 @@
             "依托察尔汗盐湖资源，采用创新提锂技术，锂盐产能持续扩张",
             "双驱动业务模式（锂+铜）增强抗周期能力"
           ]
-        },
-        {
-          "date": "2025-08-11",
-          "title": "风口byTY",
-          "source": "https://mp.weixin.qq.com/s/tdvRssizutb0ogKdNtgupA"
         }
       ],
       "board": "SZ",
@@ -10487,20 +10420,9 @@
         "高压氧舱"
       ],
       "code": "000516",
-      "mention_count": 2,
+      "mention_count": 0,
       "partners": [],
-      "articles": [
-        {
-          "date": "2026-01-15",
-          "title": "01月15日___公告精选",
-          "source": "https://mp.weixin.qq.com/s/JUD8Rl1vSTqdVJlWf40wzw"
-        },
-        {
-          "date": "2026-03-10",
-          "title": "脑机接口_江苏_相关公司全梳理",
-          "source": "https://mp.weixin.qq.com/s/b6Dc2Y4Br\\_LZmAuABEr4tQ"
-        }
-      ],
+      "articles": [],
       "board": "SZ",
       "products": [
         "的研发、生产及销售",
@@ -10537,7 +10459,7 @@
         "融资融券"
       ],
       "code": "000519",
-      "mention_count": 2,
+      "mention_count": 1,
       "partners": [],
       "articles": [
         {
@@ -10555,11 +10477,6 @@
           "target_valuation": [
             "ROE排名第三，净资产收益率0.53"
           ]
-        },
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
         }
       ],
       "board": "SZ",
@@ -10601,15 +10518,9 @@
         "融资融券"
       ],
       "code": "000524",
-      "mention_count": 1,
+      "mention_count": 0,
       "partners": [],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "board": "SZ",
       "products": [],
       "chain": [],
@@ -10710,15 +10621,9 @@
         "深股通"
       ],
       "code": "000532",
-      "mention_count": 1,
+      "mention_count": 0,
       "partners": [],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "board": "SZ",
       "products": [],
       "chain": [],
@@ -12112,17 +12017,11 @@
         "股权转让(并购重组)"
       ],
       "code": "000625",
-      "mention_count": 1,
+      "mention_count": 0,
       "partners": [
         "华为"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "board": "SZ",
       "products": [],
       "chain": [],
@@ -13145,15 +13044,9 @@
         "绿色电力"
       ],
       "code": "000663",
-      "mention_count": 1,
+      "mention_count": 0,
       "partners": [],
-      "articles": [
-        {
-          "date": "2025-10-14",
-          "title": "000663  稀土矿 林业资源 碳中和 循环经过 以森林资源为主营的综合企业",
-          "source": "https://mp.weixin.qq.com/s/fz37iOKh-GiUWaWe9mwQxg"
-        }
-      ],
+      "articles": [],
       "board": "SZ",
       "products": [],
       "chain": [],
@@ -14051,15 +13944,9 @@
         "深股通"
       ],
       "code": "000753",
-      "mention_count": 1,
+      "mention_count": 0,
       "partners": [],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "board": "SZ",
       "products": [],
       "chain": [
@@ -14362,15 +14249,9 @@
         "风电"
       ],
       "code": "000795",
-      "mention_count": 1,
+      "mention_count": 0,
       "partners": [],
-      "articles": [
-        {
-          "date": "2025-07-29",
-          "title": "000795  稀土永磁 机器人 新能源汽车 军工 小金属 新材料纯正稀土永磁股",
-          "source": "https://mp.weixin.qq.com/s/afujPBTpJYmJHu5mdmQM-Q"
-        }
-      ],
+      "articles": [],
       "board": "SZ",
       "products": [],
       "chain": [],
@@ -14399,15 +14280,9 @@
         "深股通"
       ],
       "code": "000796",
-      "mention_count": 1,
+      "mention_count": 0,
       "partners": [],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "board": "SZ",
       "products": [],
       "chain": [],
@@ -14464,15 +14339,9 @@
         "预制菜"
       ],
       "code": "000798",
-      "mention_count": 1,
+      "mention_count": 0,
       "partners": [],
-      "articles": [
-        {
-          "date": "2025-11-16",
-          "title": "000798  远洋渔业 水产品 预制菜 社区团购 参股保险 央企 远洋渔业龙头企业",
-          "source": "https://mp.weixin.qq.com/s/DoNSwJmpycnDh-009zy8FQ"
-        }
-      ],
+      "articles": [],
       "board": "SZ",
       "products": [],
       "chain": [],
@@ -14728,7 +14597,7 @@
         "雅下水电概念"
       ],
       "code": "000811",
-      "mention_count": 3,
+      "mention_count": 2,
       "partners": [
         "Dayone",
         "北美头部EPC",
@@ -14767,11 +14636,6 @@
             "北美头部EPC",
             "北美CSP"
           ]
-        },
-        {
-          "date": "2025-11-08",
-          "title": "风口byTY",
-          "source": "https://mp.weixin.qq.com/s/CxxsTbyOmAwloHzAKdnAhw"
         },
         {
           "source": "https://mp.weixin.qq.com/s/FB_Yi85_u5JS4uYFe1O7ag",
@@ -15658,15 +15522,9 @@
         "车联网(车路协同)"
       ],
       "code": "000886",
-      "mention_count": 1,
+      "mention_count": 0,
       "partners": [],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "board": "SZ",
       "products": [],
       "chain": [
@@ -16101,15 +15959,9 @@
         "雄安新区"
       ],
       "code": "000931",
-      "mention_count": 1,
+      "mention_count": 0,
       "partners": [],
-      "articles": [
-        {
-          "date": "2025-08-27",
-          "title": "000931  创新药 创投 生物医药 养老",
-          "source": "https://mp.weixin.qq.com/s/3HIrjy9Vfn8ZGWErksuadw"
-        }
-      ],
+      "articles": [],
       "board": "SZ",
       "products": [],
       "chain": [],
@@ -16137,15 +15989,9 @@
         "华为概念"
       ],
       "code": "000932",
-      "mention_count": 1,
+      "mention_count": 0,
       "partners": [],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "board": "SZ",
       "products": [],
       "chain": [
@@ -16171,15 +16017,9 @@
         "融资融券"
       ],
       "code": "000935",
-      "mention_count": 1,
+      "mention_count": 0,
       "partners": [],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "board": "SZ",
       "products": [],
       "chain": [],
@@ -16512,7 +16352,7 @@
       "name": "广济药业"
     },
     "000960": {
-      "mention_count": 5,
+      "mention_count": 4,
       "last_updated": "2026-06-05",
       "partners": [
         "国内头部半导体材料厂商"
@@ -16604,11 +16444,6 @@
             "*   2024年：国内市场占有率为 47.98%，全球市场占有率为 25.03%。"
           ],
           "target_valuation": []
-        },
-        {
-          "date": "2026-04-21",
-          "title": "光板块领涨全市场！磷化铟：AI算力卡脖子核心，全产业链标的全梳理（附权威出处）",
-          "source": "https://mp.weixin.qq.com/s/5bluU2s8izAKQ9K3Fb2KGA"
         }
       ],
       "board": "SZ",
@@ -17342,15 +17177,9 @@
         "人形机器人"
       ],
       "code": "000983",
-      "mention_count": 1,
+      "mention_count": 0,
       "partners": [],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "board": "SZ",
       "products": [],
       "chain": [],
@@ -17413,7 +17242,7 @@
       "name": "越秀资本"
     },
     "000988": {
-      "mention_count": 3,
+      "mention_count": 1,
       "last_updated": "2026-05-31",
       "partners": [
         "英伟达、谷歌等全球头部客户",
@@ -17520,27 +17349,6 @@
           "target_valuation": [
             "隔夜美股科技大涨，全球第三+国内第一，这只半导体材料股被严重低估，机构目标价111.2元！_20260515"
           ]
-        },
-        {
-          "key_metrics": [],
-          "target_valuation": [],
-          "summary": "",
-          "source": "微信公众号",
-          "insights": [],
-          "accidents": [],
-          "date": "2026-04-21",
-          "content": "光模块领域重要企业",
-          "analysis": "",
-          "title": "磷化铟（InP）：AI 算力卡脖子核心，全产业链标的全梳理"
-        },
-        {
-          "date": "2026-04-21",
-          "key_metrics": [],
-          "target_valuation": [],
-          "title": "光板块领涨全市场！磷化铟：AI算力卡脖子核心，全产业链标的全梳理（附权威出处）",
-          "source": "https://mp.weixin.qq.com/s/5bluU2s8izAKQ9K3Fb2KGA",
-          "insights": [],
-          "accidents": []
         }
       ],
       "board": "SZ",
@@ -17586,15 +17394,9 @@
         "风电"
       ],
       "code": "000993",
-      "mention_count": 1,
+      "mention_count": 0,
       "partners": [],
-      "articles": [
-        {
-          "date": "2025-07-14",
-          "title": "000993  绿色电力 创投 稀土 航运 磷酸铁锂 黄金 光伏 风电 储能 国资 福建省最大的电力股份制企业",
-          "source": "https://mp.weixin.qq.com/s/B8DKfd7r9y2bcqgu6LzjXw"
-        }
-      ],
+      "articles": [],
       "board": "SZ",
       "products": [],
       "chain": [],
@@ -18039,15 +17841,9 @@
         "深股通"
       ],
       "code": "001213",
-      "mention_count": 1,
+      "mention_count": 0,
       "partners": [],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "board": "SZ",
       "products": [],
       "chain": [],
@@ -18248,15 +18044,9 @@
         "深股通"
       ],
       "code": "001236",
-      "mention_count": 1,
+      "mention_count": 0,
       "partners": [],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "board": "SZ",
       "products": [],
       "chain": [],
@@ -18296,15 +18086,9 @@
         "风电"
       ],
       "code": "001266",
-      "mention_count": 1,
+      "mention_count": 0,
       "partners": [],
-      "articles": [
-        {
-          "date": "2026-03-05",
-          "title": "智能经济概念股全梳理",
-          "source": "https://mp.weixin.qq.com/s/38wLfMEVaATcpweuQ7AKMg"
-        }
-      ],
+      "articles": [],
       "board": "SZ",
       "products": [],
       "chain": [],
@@ -18919,20 +18703,9 @@
         "鸿蒙概念"
       ],
       "code": "001314",
-      "mention_count": 2,
+      "mention_count": 0,
       "partners": [],
-      "articles": [
-        {
-          "date": "2026-03-09",
-          "title": "养龙虾_OpenClaw_相关公司全梳理",
-          "source": "https://mp.weixin.qq.com/s/QdXmOmXpD4cdHolnyEVSwA"
-        },
-        {
-          "date": "2026-03-08",
-          "title": "龙虾___OpenClaw__概念股全梳理",
-          "source": "https://mp.weixin.qq.com/s/Z4azYxp4pCXn6Netk83EWQ"
-        }
-      ],
+      "articles": [],
       "board": "SZ",
       "products": [
         "“硬件+软件”一体化成品方案"
@@ -18960,15 +18733,9 @@
         "航空发动机"
       ],
       "code": "001316",
-      "mention_count": 1,
+      "mention_count": 0,
       "partners": [],
-      "articles": [
-        {
-          "date": "2025-10-22",
-          "title": "刚刚_商务部表态全力支持_空客天津二线正式投产_核心产业链迎来订单潮（附股）_",
-          "source": "https://mp.weixin.qq.com/s/jgU3GokO156Iqv5-ZBcskg"
-        }
-      ],
+      "articles": [],
       "board": "SZ",
       "products": [
         "业务为航材分销"
@@ -19202,21 +18969,11 @@
         "鸿蒙概念"
       ],
       "code": "001339",
-      "mention_count": 4,
+      "mention_count": 2,
       "partners": [
         "华为"
       ],
       "articles": [
-        {
-          "date": "2026-03-11",
-          "title": "国产算力芯片_概念股全梳理",
-          "source": "https://mp.weixin.qq.com/s/p5nB5n0NMhCZ5EnyUmvg5Q"
-        },
-        {
-          "date": "2026-03-05",
-          "title": "智能经济概念股全梳理",
-          "source": "https://mp.weixin.qq.com/s/38wLfMEVaATcpweuQ7AKMg"
-        },
         {
           "source": "https://mp.weixin.qq.com/s/nupefj6L2mCB_gYuK8zK2g",
           "title": "生成式物理AI产业链：Figure机器人30小时不停机，平台/硬件/应用全梳理",
@@ -19299,15 +19056,9 @@
         "融资融券"
       ],
       "code": "001367",
-      "mention_count": 1,
+      "mention_count": 0,
       "partners": [],
-      "articles": [
-        {
-          "date": "2025-07-31",
-          "title": "001367  化学药品原料药及中间体 四大品类的化药原料药龙头",
-          "source": "https://mp.weixin.qq.com/s/olIccrVcwY0wMd8JeE4CFw"
-        }
-      ],
+      "articles": [],
       "board": "SZ",
       "products": [],
       "chain": [],
@@ -19617,15 +19368,9 @@
         "融资融券"
       ],
       "code": "002008",
-      "mention_count": 1,
+      "mention_count": 0,
       "partners": [],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "board": "SZ",
       "products": [],
       "chain": [],
@@ -19725,15 +19470,9 @@
         "融资融券"
       ],
       "code": "002010",
-      "mention_count": 1,
+      "mention_count": 0,
       "partners": [],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "board": "SZ",
       "products": [],
       "chain": [],
@@ -20073,22 +19812,16 @@
         "融资融券"
       ],
       "code": "002020",
-      "mention_count": 1,
+      "mention_count": 0,
       "partners": [],
-      "articles": [
-        {
-          "date": "2025-08-16",
-          "title": "风口byTY",
-          "source": "https://mp.weixin.qq.com/s/iHTyfDOkIDfS8EK4LdMidg"
-        }
-      ],
+      "articles": [],
       "board": "SZ",
       "products": [],
       "chain": [],
       "name": "京新药业"
     },
     "002023": {
-      "mention_count": 2,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "partners": [
         "华为海思"
@@ -20120,29 +19853,7 @@
       "industry_position": [
         "参股海威华芯布局6英寸磷化铟量产代工"
       ],
-      "articles": [
-        {
-          "key_metrics": [],
-          "target_valuation": [],
-          "summary": "",
-          "source": "微信公众号",
-          "insights": [],
-          "accidents": [],
-          "date": "2026-04-21",
-          "content": "磷化铟光芯片领域重要企业",
-          "analysis": "",
-          "title": "磷化铟（InP）：AI 算力卡脖子核心，全产业链标的全梳理"
-        },
-        {
-          "date": "2026-04-21",
-          "key_metrics": [],
-          "target_valuation": [],
-          "title": "光板块领涨全市场！磷化铟：AI算力卡脖子核心，全产业链标的全梳理（附权威出处）",
-          "source": "https://mp.weixin.qq.com/s/5bluU2s8izAKQ9K3Fb2KGA",
-          "insights": [],
-          "accidents": []
-        }
-      ],
+      "articles": [],
       "board": "SZ",
       "industry": "国防军工-军工装备-航空装备",
       "products": [
@@ -20735,7 +20446,7 @@
       "name": "国光电器"
     },
     "002046": {
-      "mention_count": 4,
+      "mention_count": 3,
       "last_updated": "2026-06-05",
       "partners": [],
       "concepts": [
@@ -20787,11 +20498,6 @@
             "盈利能力较差，营收成长性较为一般",
             "估值已被推至偏高水平"
           ]
-        },
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
         },
         {
           "source": "https://mp.weixin.qq.com/s/j3xU4YIMB5uQzKI4330LAA",
@@ -21212,7 +20918,7 @@
         "鸿蒙概念"
       ],
       "code": "002063",
-      "mention_count": 2,
+      "mention_count": 1,
       "partners": [],
       "articles": [
         {
@@ -21244,11 +20950,6 @@
             "2026年业绩预期：随着智算中心陆续投运，算力租赁收入有望贡献全年营收增量。预计全年净利润增速在15%-25%区间，算力业务毛利率可达40%以上。"
           ],
           "target_valuation": []
-        },
-        {
-          "date": "2025-07-21",
-          "title": "002063  RWA 虚拟电厂 数字货币 碳交易 区块链 能源互联网 人工智能 航天军工 国内电力财务软件龙头企业",
-          "source": "https://mp.weixin.qq.com/s/OoiOPZp7f\\_GCeRtLd4hbUw"
         }
       ],
       "board": "SZ",
@@ -21866,15 +21567,9 @@
         "高股息精选"
       ],
       "code": "002091",
-      "mention_count": 1,
+      "mention_count": 0,
       "partners": [],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "board": "SZ",
       "products": [],
       "chain": [],
@@ -22449,15 +22144,9 @@
         "融资融券"
       ],
       "code": "002115",
-      "mention_count": 1,
+      "mention_count": 0,
       "partners": [],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "board": "SZ",
       "products": [],
       "chain": [],
@@ -22747,7 +22436,7 @@
         "融资融券"
       ],
       "code": "002129",
-      "mention_count": 4,
+      "mention_count": 3,
       "partners": [],
       "articles": [
         {
@@ -22758,11 +22447,6 @@
             "光伏跨界半导体硅片龙头，12英寸硅片产能位居国内前列",
             "长江存储核心供应商，存储芯片市场回暖受益国产替代红利"
           ]
-        },
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
         },
         {
           "source": "https://mp.weixin.qq.com/s/YzllvF6wkpwGemQcNTdWrg",
@@ -24246,7 +23930,7 @@
         "锂电池概念"
       ],
       "code": "002170",
-      "mention_count": 3,
+      "mention_count": 1,
       "partners": [],
       "articles": [
         {
@@ -24256,16 +23940,6 @@
           "insights": [
             "产能扩张"
           ]
-        },
-        {
-          "date": "2026-03-25",
-          "title": "磷化工/磷酸铁锂，相关公司全梳理",
-          "source": ""
-        },
-        {
-          "date": "2026-03-25",
-          "title": "磷化工/磷酸铁锂，相关公司全梳理",
-          "source": "https://mp.weixin.qq.com/s/rOLV5sYS7QgE3tEyHtJvmg"
         }
       ],
       "board": "SZ",
@@ -24317,7 +23991,7 @@
         "机器人"
       ],
       "code": "002171",
-      "mention_count": 5,
+      "mention_count": 4,
       "partners": [],
       "articles": [
         {
@@ -24382,11 +24056,6 @@
             "楚江新材碳纤维+铜基材料双轮驱动"
           ],
           "key_metrics": []
-        },
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
         }
       ],
       "board": "SZ",
@@ -24782,15 +24451,9 @@
         "鸿蒙概念"
       ],
       "code": "002183",
-      "mention_count": 1,
+      "mention_count": 0,
       "partners": [],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "board": "SZ",
       "products": [],
       "chain": [
@@ -25224,15 +24887,9 @@
         "鸿蒙概念"
       ],
       "code": "002195",
-      "mention_count": 1,
+      "mention_count": 0,
       "partners": [],
-      "articles": [
-        {
-          "date": "2025-08-29",
-          "title": "风口byTY",
-          "source": "https://mp.weixin.qq.com/s/qrVNZeTuy6xRgEpcklV2WQ"
-        }
-      ],
+      "articles": [],
       "board": "SZ",
       "products": [
         "SEEG-128高密度脑电设备"
@@ -25388,7 +25045,7 @@
         "风电"
       ],
       "code": "002202",
-      "mention_count": 5,
+      "mention_count": 4,
       "partners": [],
       "articles": [
         {
@@ -25426,11 +25083,6 @@
             "成本上升",
             "政策风险"
           ]
-        },
-        {
-          "date": "2026-03-25",
-          "title": "0324信息汇总",
-          "source": ""
         }
       ],
       "board": "SZ",
@@ -25836,15 +25488,9 @@
         "深股通"
       ],
       "code": "002216",
-      "mention_count": 1,
+      "mention_count": 0,
       "partners": [],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "board": "SZ",
       "products": [],
       "chain": [],
@@ -26073,15 +25719,9 @@
         "机器人概念"
       ],
       "code": "002224",
-      "mention_count": 1,
+      "mention_count": 0,
       "partners": [],
-      "articles": [
-        {
-          "date": "2025-10-31",
-          "title": "002224  量子通信 机器人 无人潜器 储能 工业大麻 体育产业 军民融合 橡胶V带龙头企业",
-          "source": "https://mp.weixin.qq.com/s/yXdI\\_TWa9YAgKSzHVNIluQ"
-        }
-      ],
+      "articles": [],
       "board": "SZ",
       "products": [],
       "chain": [],
@@ -26371,15 +26011,9 @@
         "鸿蒙概念"
       ],
       "code": "002236",
-      "mention_count": 1,
+      "mention_count": 0,
       "partners": [],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "board": "SZ",
       "products": [],
       "chain": [],
@@ -26627,7 +26261,7 @@
         "锂电池概念"
       ],
       "code": "002243",
-      "mention_count": 2,
+      "mention_count": 1,
       "partners": [
         "微灵医疗"
       ],
@@ -26645,11 +26279,6 @@
           ],
           "key_metrics": [],
           "target_valuation": []
-        },
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
         }
       ],
       "board": "SZ",
@@ -26882,7 +26511,7 @@
         "融资融券"
       ],
       "code": "002250",
-      "mention_count": 4,
+      "mention_count": 2,
       "partners": [],
       "articles": [
         {
@@ -26900,16 +26529,6 @@
           "insights": [
             "产能扩张"
           ]
-        },
-        {
-          "date": "2026-03-25",
-          "title": "磷化工/磷酸铁锂，相关公司全梳理",
-          "source": ""
-        },
-        {
-          "date": "2026-03-25",
-          "title": "磷化工/磷酸铁锂，相关公司全梳理",
-          "source": "https://mp.weixin.qq.com/s/rOLV5sYS7QgE3tEyHtJvmg"
         }
       ],
       "board": "SZ",
@@ -27946,7 +27565,7 @@
       "name": "神开股份"
     },
     "002281": {
-      "mention_count": 4,
+      "mention_count": 2,
       "last_updated": "2026-06-05",
       "partners": [],
       "concepts": [
@@ -28013,27 +27632,6 @@
             "*   核心优势：通过收购索尔思光电，成为目前国内EML领域的“领头羊”。它是国内唯一实现200G EML大规模量产的企业，且良率高达85%-90%，直接进入了"
           ],
           "target_valuation": []
-        },
-        {
-          "key_metrics": [],
-          "target_valuation": [],
-          "summary": "",
-          "source": "微信公众号",
-          "insights": [],
-          "accidents": [],
-          "date": "2026-04-21",
-          "content": "光模块领域重要企业",
-          "analysis": "",
-          "title": "磷化铟（InP）：AI 算力卡脖子核心，全产业链标的全梳理"
-        },
-        {
-          "date": "2026-04-21",
-          "key_metrics": [],
-          "target_valuation": [],
-          "title": "光板块领涨全市场！磷化铟：AI算力卡脖子核心，全产业链标的全梳理（附权威出处）",
-          "source": "https://mp.weixin.qq.com/s/5bluU2s8izAKQ9K3Fb2KGA",
-          "insights": [],
-          "accidents": []
         }
       ],
       "board": "SZ",
@@ -28327,15 +27925,9 @@
         "跨境电商"
       ],
       "code": "002291",
-      "mention_count": 1,
+      "mention_count": 0,
       "partners": [],
-      "articles": [
-        {
-          "date": "2026-01-14",
-          "title": "002291  AI应用 数字营销 虚拟现实 互联网电商 网红经济 游戏 数字营销领域的璀璨明星",
-          "source": "https://mp.weixin.qq.com/s/DxhofxlOQodVRpoIbJ9ovg"
-        }
-      ],
+      "articles": [],
       "board": "SZ",
       "products": [],
       "chain": [],
@@ -28646,15 +28238,9 @@
         "融资融券"
       ],
       "code": "002304",
-      "mention_count": 1,
+      "mention_count": 0,
       "partners": [],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "board": "SZ",
       "products": [],
       "chain": [],
@@ -28907,15 +28493,9 @@
         "网络安全"
       ],
       "code": "002316",
-      "mention_count": 1,
+      "mention_count": 0,
       "partners": [],
-      "articles": [
-        {
-          "date": "2026-02-06",
-          "title": "002316  专网通讯 金融科技 智慧城市 数据中心 智慧电网 数字经济 云计算 多元金融 专网通信信息技术解决方案提供商",
-          "source": "https://mp.weixin.qq.com/s/6ncMXDXk33\\_eft4DsPixOw"
-        }
-      ],
+      "articles": [],
       "board": "SZ",
       "products": [],
       "chain": [],
@@ -28985,15 +28565,9 @@
         "深股通"
       ],
       "code": "002318",
-      "mention_count": 1,
+      "mention_count": 0,
       "partners": [],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "board": "SZ",
       "products": [],
       "chain": [],
@@ -29130,7 +28704,7 @@
         "融资融券"
       ],
       "code": "002326",
-      "mention_count": 4,
+      "mention_count": 3,
       "partners": [
         "宁德时代"
       ],
@@ -29150,11 +28724,6 @@
           "insights": [
             "产能扩张"
           ]
-        },
-        {
-          "date": "2026-03-25",
-          "title": "磷化工/磷酸铁锂，相关公司全梳理",
-          "source": "https://mp.weixin.qq.com/s/rOLV5sYS7QgE3tEyHtJvmg"
         },
         {
           "source": "https://mp.weixin.qq.com/s/5RVFJGXjD_gp2Ufod_BWCw",
@@ -29637,15 +29206,9 @@
         "高端装备"
       ],
       "code": "002337",
-      "mention_count": 1,
+      "mention_count": 0,
       "partners": [],
-      "articles": [
-        {
-          "date": "2025-10-22",
-          "title": "刚刚_商务部表态全力支持_空客天津二线正式投产_核心产业链迎来订单潮（附股）_",
-          "source": "https://mp.weixin.qq.com/s/jgU3GokO156Iqv5-ZBcskg"
-        }
-      ],
+      "articles": [],
       "board": "SZ",
       "products": [
         "A320大部件运输所需的工装夹具"
@@ -29690,7 +29253,7 @@
         "国产替代"
       ],
       "code": "002338",
-      "mention_count": 2,
+      "mention_count": 1,
       "partners": [],
       "articles": [
         {
@@ -29710,11 +29273,6 @@
             "2025年营收约8亿元"
           ],
           "target_valuation": []
-        },
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
         }
       ],
       "board": "SZ",
@@ -30085,7 +29643,7 @@
       "partners": []
     },
     "002353": {
-      "mention_count": 5,
+      "mention_count": 2,
       "last_updated": "2026-05-31",
       "concepts": [
         "一带一路",
@@ -30142,21 +29700,6 @@
           ],
           "key_metrics": [],
           "target_valuation": []
-        },
-        {
-          "date": "2026-01-15",
-          "title": "01月15日___公告精选",
-          "source": "https://mp.weixin.qq.com/s/JUD8Rl1vSTqdVJlWf40wzw"
-        },
-        {
-          "date": "2026-03-10",
-          "title": "AI电力出海_变压器_概念股全梳理",
-          "source": "https://mp.weixin.qq.com/s/oiLMXMEHF1inUS2KXiOGJA"
-        },
-        {
-          "date": "2026-03-25",
-          "title": "0324信息汇总",
-          "source": "https://mp.weixin.qq.com/s/s1uCNiF6CMoRNov-ffsrhg"
         }
       ],
       "industry": "机械设备-专用设备-能源及重型设备",
@@ -30366,7 +29909,7 @@
       "partners": []
     },
     "002360": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "ST板块",
@@ -30374,13 +29917,7 @@
         "可降解塑料",
         "民爆概念"
       ],
-      "articles": [
-        {
-          "date": "2026-03-10",
-          "title": "硅微粉_相关公司梳理",
-          "source": "https://mp.weixin.qq.com/s/8RRhX9XkFXbi-goFb3Z1fg"
-        }
-      ],
+      "articles": [],
       "industry": "基础化工-化学制品-民爆用品",
       "board": "SZ",
       "products": [
@@ -31151,7 +30688,7 @@
       "partners": []
     },
     "002386": {
-      "mention_count": 3,
+      "mention_count": 1,
       "last_updated": "2026-05-31",
       "concepts": [
         "储能",
@@ -31179,16 +30716,6 @@
           "insights": [
             "产能扩张"
           ]
-        },
-        {
-          "date": "2026-03-25",
-          "title": "磷化工/磷酸铁锂，相关公司全梳理",
-          "source": ""
-        },
-        {
-          "date": "2026-03-25",
-          "title": "磷化工/磷酸铁锂，相关公司全梳理",
-          "source": "https://mp.weixin.qq.com/s/rOLV5sYS7QgE3tEyHtJvmg"
         }
       ],
       "industry": "基础化工-化学原料-氯碱",
@@ -31430,7 +30957,7 @@
       "partners": []
     },
     "002395": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "MR(混合现实)",
@@ -31442,13 +30969,7 @@
         "融资融券",
         "足球概念"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "基础化工-塑料制品-合成树脂",
       "board": "SZ",
       "chain": [
@@ -31657,7 +31178,7 @@
       "partners": []
     },
     "002404": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "IP经济(谷子经济)",
@@ -31673,13 +31194,7 @@
         "长三角一体化",
         "高股息精选"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "纺织服饰-服装家纺-服装",
       "board": "SZ",
       "code": "002404",
@@ -32582,7 +32097,7 @@
       "partners": []
     },
     "002422": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "肝炎概念",
@@ -32601,13 +32116,7 @@
       "industry_position": [
         "隐形冠军"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "医药生物-化学制药-化学制剂",
       "board": "SZ",
       "chain": [
@@ -32661,7 +32170,7 @@
       "partners": []
     },
     "002428": {
-      "mention_count": 7,
+      "mention_count": 6,
       "last_updated": "2026-06-12",
       "partners": [
         "华为",
@@ -32747,11 +32256,6 @@
             "* 产能利用率与量产不确定性：年报数据显示，公司2025年磷化铟晶片实际产量为10.01万片，尚未填满现有的15万片产能。在产能利用率未饱和的情况下启动三倍扩产"
           ],
           "target_valuation": []
-        },
-        {
-          "date": "2026-04-21",
-          "title": "光板块领涨全市场！磷化铟：AI算力卡脖子核心，全产业链标的全梳理（附权威出处）",
-          "source": "https://mp.weixin.qq.com/s/5bluU2s8izAKQ9K3Fb2KGA"
         },
         {
           "source": "https://mp.weixin.qq.com/s/FB_Yi85_u5JS4uYFe1O7ag",
@@ -34587,7 +34091,7 @@
       ]
     },
     "002478": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "一带一路",
@@ -34605,13 +34109,7 @@
         "超超临界发电",
         "页岩气"
       ],
-      "articles": [
-        {
-          "date": "2026-03-10",
-          "title": "AI电力出海_变压器_概念股全梳理",
-          "source": "https://mp.weixin.qq.com/s/oiLMXMEHF1inUS2KXiOGJA"
-        }
-      ],
+      "articles": [],
       "industry": "钢铁-钢铁-特钢",
       "board": "SZ",
       "products": [
@@ -34824,7 +34322,7 @@
       ]
     },
     "002491": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-06-05",
       "concepts": [
         "5G",
@@ -34841,13 +34339,7 @@
         "融资融券",
         "长三角一体化"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "通信-通信设备-通信线缆及配套",
       "board": "SZ",
       "code": "002491",
@@ -35074,7 +34566,7 @@
       "partners": []
     },
     "002510": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "京津冀一体化",
@@ -35099,13 +34591,7 @@
         "长安汽车概念",
         "飞行汽车(eVTOL)"
       ],
-      "articles": [
-        {
-          "date": "2025-10-22",
-          "title": "刚刚_商务部表态全力支持_空客天津二线正式投产_核心产业链迎来订单潮（附股）_",
-          "source": "https://mp.weixin.qq.com/s/jgU3GokO156Iqv5-ZBcskg"
-        }
-      ],
+      "articles": [],
       "industry": "汽车-汽车零部件-其他汽车零部件",
       "board": "SZ",
       "products": [
@@ -35367,7 +34853,7 @@
       "partners": []
     },
     "002522": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-06-09",
       "concepts": [
         "5G",
@@ -35382,11 +34868,6 @@
         "华为概念"
       ],
       "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        },
         {
           "source": "https://mp.weixin.qq.com/s/Jl0a0KTfML4KO1Zny5M93A",
           "title": "浙江众成：POF热收缩膜龙头+光纤材料+新材料",
@@ -35867,7 +35348,7 @@
       "partners": []
     },
     "002539": {
-      "mention_count": 3,
+      "mention_count": 1,
       "last_updated": "2026-05-31",
       "concepts": [
         "乡村振兴",
@@ -35891,16 +35372,6 @@
           "insights": [
             "产能扩张"
           ]
-        },
-        {
-          "date": "2026-03-25",
-          "title": "磷化工/磷酸铁锂，相关公司全梳理",
-          "source": ""
-        },
-        {
-          "date": "2026-03-25",
-          "title": "磷化工/磷酸铁锂，相关公司全梳理",
-          "source": "https://mp.weixin.qq.com/s/rOLV5sYS7QgE3tEyHtJvmg"
         }
       ],
       "industry": "基础化工-农化制品-复合肥",
@@ -36180,7 +35651,7 @@
       ]
     },
     "002551": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "独角兽概念",
@@ -36189,13 +35660,7 @@
         "粤港澳大湾区",
         "医疗器械概念"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "医药生物-医疗器械-医疗耗材",
       "board": "SZ",
       "code": "002551",
@@ -36256,7 +35721,7 @@
       "partners": []
     },
     "002556": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "乡村振兴",
@@ -36288,13 +35753,7 @@
       "industry_position": [
         "能，位于硫铁矿带,县域内硫铁矿储量超过4亿吨,全省第一"
       ],
-      "articles": [
-        {
-          "date": "2026-04-16",
-          "title": "辉隆股份(002556) - 产业链核心标的分析",
-          "source": "原材料: raw_material_2026-04-12_3.md"
-        }
-      ],
+      "articles": [],
       "industry": "农林牧渔-种植业与林业-农业综合",
       "board": "SZ",
       "code": "002556",
@@ -36409,7 +35868,7 @@
       "partners": []
     },
     "002562": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-06-04",
       "concepts": [
         "2025年报预增",
@@ -36440,11 +35899,6 @@
           ],
           "key_metrics": [],
           "target_valuation": []
-        },
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
         }
       ],
       "industry": "基础化工-化学制品-食品及饲料添加剂",
@@ -36466,7 +35920,7 @@
       "partners": []
     },
     "002563": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "IP经济(谷子经济)",
@@ -36481,13 +35935,7 @@
         "跨境电商",
         "高股息精选"
       ],
-      "articles": [
-        {
-          "date": "2025-11-30",
-          "title": "002563  新零售 电商 童婴 以渠道精准适配深耕全球大众服饰领域",
-          "source": "https://mp.weixin.qq.com/s/9Z\\_-oMU1KB2Z4KjS\\_YCvDQ"
-        }
-      ],
+      "articles": [],
       "industry": "纺织服饰-服装家纺-服装",
       "board": "SZ",
       "code": "002563",
@@ -36861,7 +36309,7 @@
       "name": "圣阳股份"
     },
     "002583": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "6G概念",
@@ -36894,13 +36342,7 @@
         "卫星导航",
         "区块链"
       ],
-      "articles": [
-        {
-          "date": "2025-05-16",
-          "title": "风口byTY",
-          "source": "https://mp.weixin.qq.com/s/Ie7pRCjArIXgYHw1wmvqFw"
-        }
-      ],
+      "articles": [],
       "industry": "通信-通信设备-通信网络设备及器件",
       "board": "SZ",
       "products": [
@@ -36971,7 +36413,7 @@
       "partners": []
     },
     "002587": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "AI应用",
@@ -37012,13 +36454,7 @@
         "元宇宙",
         "区块链"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "电子-光学光电子-LED",
       "board": "SZ",
       "products": [
@@ -37292,7 +36728,7 @@
       ]
     },
     "002595": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-05-31",
       "concepts": [
         "工业母机",
@@ -37320,11 +36756,6 @@
           ],
           "key_metrics": [],
           "target_valuation": []
-        },
-        {
-          "date": "2026-03-10",
-          "title": "AI电力出海_变压器_概念股全梳理",
-          "source": "https://mp.weixin.qq.com/s/oiLMXMEHF1inUS2KXiOGJA"
         }
       ],
       "industry": "机械设备-专用设备-其他专用设备",
@@ -37880,7 +37311,7 @@
       "partners": []
     },
     "002636": {
-      "mention_count": 5,
+      "mention_count": 4,
       "last_updated": "2026-06-12",
       "concepts": [
         "2025年报预增",
@@ -37937,11 +37368,6 @@
             "玻纤布自供率>50%"
           ],
           "target_valuation": []
-        },
-        {
-          "date": "2026-03-19",
-          "title": "金安国纪：CCL 涨价持续，Q2 业绩有望翻倍",
-          "source": "https://mp.weixin.qq.com/s/test-article-2"
         },
         {
           "source": "https://mp.weixin.qq.com/s/j3xU4YIMB5uQzKI4330LAA",
@@ -38013,7 +37439,7 @@
       }
     },
     "002640": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "跨境电商",
@@ -38029,13 +37455,7 @@
       "core_business": [
         "跨境电商领域的代表性企业"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "商贸零售-互联网电商-互联网电商Ⅲ",
       "board": "SZ",
       "code": "002640",
@@ -38192,7 +37612,7 @@
       "partners": []
     },
     "002648": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-06-11",
       "concepts": [
         "融资融券",
@@ -38209,11 +37629,6 @@
         "煤化工概念"
       ],
       "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        },
         {
           "source": "https://mp.weixin.qq.com/s/hBnjEsBDhWgZWOStZeRO6Q",
           "title": "环氧丙烷产业链：落后产能出清，绿色工艺主导",
@@ -39134,7 +38549,7 @@
       "partners": []
     },
     "002718": {
-      "mention_count": 2,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "智能家居",
@@ -39146,18 +38561,7 @@
         "未发生变化",
         "业务未发生变化"
       ],
-      "articles": [
-        {
-          "date": "2026-01-14",
-          "title": "01月14日___公告精选",
-          "source": "https://mp.weixin.qq.com/s/Bb2447-2lU2LGAVbW38B0Q"
-        },
-        {
-          "date": "2026-01-15",
-          "title": "01月15日___公告精选",
-          "source": "https://mp.weixin.qq.com/s/JUD8Rl1vSTqdVJlWf40wzw"
-        }
-      ],
+      "articles": [],
       "industry": "建筑材料-建筑材料-其他建材",
       "board": "SZ",
       "products": [
@@ -39168,7 +38572,7 @@
       "partners": []
     },
     "002725": {
-      "mention_count": 2,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "partners": [
         "国内头部光模块厂商"
@@ -39187,29 +38591,7 @@
         "芯片概念"
       ],
       "industry_position": [],
-      "articles": [
-        {
-          "key_metrics": [],
-          "target_valuation": [],
-          "summary": "",
-          "source": "微信公众号",
-          "insights": [],
-          "accidents": [],
-          "date": "2026-04-21",
-          "content": "光模块领域重要企业",
-          "analysis": "",
-          "title": "磷化铟（InP）：AI 算力卡脖子核心，全产业链标的全梳理"
-        },
-        {
-          "date": "2026-04-21",
-          "key_metrics": [],
-          "target_valuation": [],
-          "title": "光板块领涨全市场！磷化铟：AI算力卡脖子核心，全产业链标的全梳理（附权威出处）",
-          "source": "https://mp.weixin.qq.com/s/5bluU2s8izAKQ9K3Fb2KGA",
-          "insights": [],
-          "accidents": []
-        }
-      ],
+      "articles": [],
       "board": "SZ",
       "industry": "汽车-汽车零部件-轮胎轮毂",
       "products": [],
@@ -39348,7 +38730,7 @@
       }
     },
     "002738": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-05-31",
       "concepts": [
         "2026一季报预增",
@@ -39372,11 +38754,6 @@
             "拥有津巴布韦Bikita锂矿和加拿大Tanco锂矿，锂资源自给率高达100%",
             "铯铷盐业务高毛利提供现金流支持，是\"小而美\"的资源巨头"
           ]
-        },
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
         }
       ],
       "industry": "有色金属-小金属-其他小金属",
@@ -39715,7 +39092,7 @@
       "partners": []
     },
     "002756": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-06-05",
       "code": "002756",
       "articles": [
@@ -39727,11 +39104,6 @@
             "锂云母提锂技术标杆，依托江西宜春锂云母资源，实现采选冶一体化布局",
             "特钢业务提供现金流支撑，抗周期能力突出"
           ]
-        },
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
         }
       ],
       "industry": "有色金属-能源金属-锂",
@@ -39760,7 +39132,7 @@
       "partners": []
     },
     "002759": {
-      "mention_count": 5,
+      "mention_count": 3,
       "last_updated": "2026-06-10",
       "concepts": [
         "固态电池",
@@ -39793,16 +39165,6 @@
           "insights": [
             "产能扩张"
           ]
-        },
-        {
-          "date": "2026-03-25",
-          "title": "磷化工/磷酸铁锂，相关公司全梳理",
-          "source": ""
-        },
-        {
-          "date": "2026-03-25",
-          "title": "磷化工/磷酸铁锂，相关公司全梳理",
-          "source": "https://mp.weixin.qq.com/s/rOLV5sYS7QgE3tEyHtJvmg"
         },
         {
           "source": "https://mp.weixin.qq.com/s/5RVFJGXjD_gp2Ufod_BWCw",
@@ -39908,7 +39270,7 @@
       "partners": []
     },
     "002765": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "减速器",
@@ -39930,13 +39292,7 @@
         "西部大开发",
         "虚拟现实"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "汽车-汽车零部件-底盘与发动机系统",
       "board": "SZ",
       "code": "002765",
@@ -39944,7 +39300,7 @@
       "partners": []
     },
     "002768": {
-      "mention_count": 3,
+      "mention_count": 2,
       "last_updated": "2026-06-11",
       "concepts": [
         "风电",
@@ -39990,11 +39346,6 @@
             "规划PEEK产能1000吨/年"
           ],
           "target_valuation": []
-        },
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
         },
         {
           "source": "https://mp.weixin.qq.com/s/hBnjEsBDhWgZWOStZeRO6Q",
@@ -40162,7 +39513,7 @@
       "partners": []
     },
     "002782": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "5G",
@@ -40181,13 +39532,7 @@
         "融资融券",
         "高压快充"
       ],
-      "articles": [
-        {
-          "date": "2026-03-10",
-          "title": "AI电力出海_变压器_概念股全梳理",
-          "source": "https://mp.weixin.qq.com/s/oiLMXMEHF1inUS2KXiOGJA"
-        }
-      ],
+      "articles": [],
       "industry": "电子-其他电子-其他电子Ⅲ",
       "board": "SZ",
       "products": [
@@ -41629,7 +40974,7 @@
       "board": "SZ"
     },
     "002849": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-06-05",
       "concepts": [
         "DeepSeek概念",
@@ -41641,13 +40986,7 @@
         "物联网",
         "锂电池概念"
       ],
-      "articles": [
-        {
-          "date": "2025-07-03",
-          "title": "002849  算力 SAAS 天然气 智能表 智能计量解决方案的供应商",
-          "source": "https://mp.weixin.qq.com/s/kiG4Ei7OFgGsBfljoMcmgw"
-        }
-      ],
+      "articles": [],
       "industry": "机械设备-通用设备-仪器仪表",
       "board": "SZ",
       "code": "002849",
@@ -41890,7 +41229,7 @@
       ]
     },
     "002859": {
-      "mention_count": 10,
+      "mention_count": 9,
       "last_updated": "2026-06-12",
       "concepts": [
         "PET铜箔",
@@ -41990,15 +41329,6 @@
           "target_valuation": [
             "埃福思并购打开百亿增量天花板"
           ]
-        },
-        {
-          "title": "算力 冷液",
-          "date": "2026-04-17",
-          "source": "",
-          "accidents": [],
-          "insights": [],
-          "key_metrics": [],
-          "target_valuation": []
         },
         {
           "title": "昌红科技（300151.SZ）半导体国产替代+医疗耗材双轮驱动，业绩拐点临近_20260603",
@@ -42234,7 +41564,7 @@
       "partners": []
     },
     "002877": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "专精特新",
@@ -42242,13 +41572,7 @@
         "工业互联网",
         "新型工业化"
       ],
-      "articles": [
-        {
-          "date": "2026-03-05",
-          "title": "智能经济概念股全梳理",
-          "source": "https://mp.weixin.qq.com/s/38wLfMEVaATcpweuQ7AKMg"
-        }
-      ],
+      "articles": [],
       "industry": "机械设备-通用设备-金属制品",
       "board": "SZ",
       "products": [
@@ -42699,7 +42023,7 @@
       "name": "中大力德"
     },
     "002897": {
-      "mention_count": 4,
+      "mention_count": 3,
       "last_updated": "2026-06-04",
       "concepts": [
         "2025年报预增",
@@ -42762,11 +42086,6 @@
           "target_valuation": []
         },
         {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        },
-        {
           "source": "https://mp.weixin.qq.com/s/p0lzzWLYpN4Pq51YkLj_8g",
           "title": "6月2日首板逻辑·光通信/CPO/先进封装/机器人/MLCC",
           "date": "2026-06-08",
@@ -42815,7 +42134,7 @@
       }
     },
     "002902": {
-      "mention_count": 3,
+      "mention_count": 2,
       "last_updated": "2026-06-05",
       "concepts": [
         "5G",
@@ -42855,11 +42174,6 @@
           "insights": [
             "高速光模块向硅光升级的重要受益方"
           ]
-        },
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
         },
         {
           "source": "https://mp.weixin.qq.com/s/RooWBcjS9EhIt5-owb9HTw",
@@ -42915,7 +42229,7 @@
       ]
     },
     "002903": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-05-31",
       "concepts": [
         "专精特新",
@@ -42937,11 +42251,6 @@
         "融资融券"
       ],
       "articles": [
-        {
-          "date": "2026-02-26",
-          "title": "002903  数控磨削设备 半导体设备 碳化硅 工业母机 机器人 智能装备 专业从事数控磨削设备",
-          "source": "https://mp.weixin.qq.com/s/IrpYTrVwJbcplHalCj0nVw"
-        },
         {
           "source": "https://mp.weixin.qq.com/s/p0lzzWLYpN4Pq51YkLj_8g",
           "title": "6月2日首板逻辑·光通信/CPO/先进封装/机器人/MLCC",
@@ -43461,7 +42770,7 @@
       "partners": []
     },
     "002925": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "新型工业化",
@@ -43496,13 +42805,7 @@
       "industry_position": [
         "与InteraXon合作"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "电子-消费电子-消费电子零部件及组装",
       "board": "SZ",
       "products": [
@@ -44277,7 +43580,7 @@
       "name": "祥鑫科技"
     },
     "002975": {
-      "mention_count": 5,
+      "mention_count": 3,
       "last_updated": "2026-06-10",
       "partners": [
         "英伟达"
@@ -44359,27 +43662,6 @@
             "2026Q1营收4.68亿元，同比增长127.21%"
           ],
           "target_valuation": []
-        },
-        {
-          "key_metrics": [],
-          "target_valuation": [],
-          "summary": "",
-          "source": "微信公众号",
-          "insights": [],
-          "accidents": [],
-          "date": "2026-04-21",
-          "content": "通过参股珠海鼎泰芯源晶体有限公司，深度布局磷化铟衬底赛道\n截至 2026 年 4 月，直接持有鼎泰芯源 10.281% 股权",
-          "analysis": "",
-          "title": "磷化铟（InP）：AI 算力卡脖子核心，全产业链标的全梳理"
-        },
-        {
-          "date": "2026-04-21",
-          "key_metrics": [],
-          "target_valuation": [],
-          "title": "光板块领涨全市场！磷化铟：AI算力卡脖子核心，全产业链标的全梳理（附权威出处）",
-          "source": "https://mp.weixin.qq.com/s/5bluU2s8izAKQ9K3Fb2KGA",
-          "insights": [],
-          "accidents": []
         },
         {
           "source": "https://mp.weixin.qq.com/s/yGz44voKbx2C5jwWrGBoNw",
@@ -44469,7 +43751,7 @@
       "partners": []
     },
     "002979": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "专精特新",
@@ -44491,13 +43773,7 @@
       "core_business": [
         "电机产品供应，为机器人关节提供稳定动力来源"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "机械设备-自动化设备-机器人",
       "board": "SZ",
       "code": "002979",
@@ -44812,7 +44088,7 @@
       }
     },
     "002992": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "AI眼镜",
@@ -44834,13 +44110,7 @@
       "industry_position": [
         "： 复合集流体(PET/PP 铜箔) 核心"
       ],
-      "articles": [
-        {
-          "date": "2026-04-16",
-          "title": "宝明科技(002992) - 产业链核心标的分析",
-          "source": "原材料: raw_material_2026-04-13.md"
-        }
-      ],
+      "articles": [],
       "industry": "电子-光学光电子-LED",
       "board": "SZ",
       "products": [
@@ -45200,7 +44470,7 @@
       "partners": []
     },
     "003035": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "乡村振兴",
@@ -45218,13 +44488,7 @@
         "融资融券",
         "风电"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "公用事业-电力-电能综合服务",
       "board": "SZ",
       "code": "003035",
@@ -45436,18 +44700,12 @@
       "partners": []
     },
     "103637": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "其他"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "其他",
       "board": "SZ",
       "code": "103637",
@@ -45608,18 +44866,12 @@
       "partners": []
     },
     "159760": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "医疗"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "其他",
       "board": "SZ",
       "code": "159760",
@@ -47772,7 +47024,7 @@
       ]
     },
     "300053": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "MCU芯片",
@@ -47803,13 +47055,7 @@
       "industry_position": [
         "为中科宇航太空旅游装备提供宇航芯片、AI 算法、硬件支持"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "电子-半导体-数字芯片设计",
       "board": "SZ",
       "products": [
@@ -48842,7 +48088,7 @@
       ]
     },
     "300082": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-06-05",
       "concepts": [
         "PCB概念",
@@ -48859,13 +48105,7 @@
         "钠离子电池",
         "锂电池概念"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "基础化工-化学原料-其他化学原料",
       "board": "SZ",
       "code": "300082",
@@ -48971,7 +48211,7 @@
       "partners": []
     },
     "300085": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "AI应用",
@@ -48996,13 +48236,7 @@
         "粤港澳大湾区",
         "区块链"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "计算机-软件开发-垂直应用软件",
       "board": "SZ",
       "code": "300085",
@@ -49040,7 +48274,7 @@
       "partners": []
     },
     "300088": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "AI手机",
@@ -49074,13 +48308,7 @@
         "车联网(车路协同)",
         "锂电池概念"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "电子-光学光电子-面板",
       "board": "SZ",
       "products": [
@@ -49120,7 +48348,7 @@
       "partners": []
     },
     "300099": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "高铁",
@@ -49141,13 +48369,7 @@
         "华为概念",
         "区块链"
       ],
-      "articles": [
-        {
-          "date": "2026-02-11",
-          "title": "300099  国防军工 智慧矿山 机器人 氢能源 多模态AI 军工信息化 以矿山井下通讯 军工信息化服务 轨交车载通讯服务及能源信息服务",
-          "source": "https://mp.weixin.qq.com/s/VuxRDvNztlwNF0akncs55A"
-        }
-      ],
+      "articles": [],
       "industry": "机械设备-专用设备-能源及重型设备",
       "board": "SZ",
       "code": "300099",
@@ -49225,7 +48447,7 @@
       ]
     },
     "300101": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "5G",
@@ -49249,13 +48471,7 @@
         "融资融券",
         "西部大开发"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "国防军工-军工电子-军工电子Ⅲ",
       "board": "SZ",
       "code": "300101",
@@ -49552,7 +48768,7 @@
       ]
     },
     "300118": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-05-10",
       "concepts": [
         "光伏概念",
@@ -49584,11 +48800,6 @@
           "insights": [],
           "key_metrics": [],
           "target_valuation": []
-        },
-        {
-          "date": "2026-01-25",
-          "title": "风口byTY",
-          "source": "https://mp.weixin.qq.com/s/kj0FV3-ymGg5dhwi2ubrDQ"
         }
       ],
       "industry": "电力设备-光伏设备-光伏电池组件",
@@ -49650,7 +48861,7 @@
       ]
     },
     "300121": {
-      "mention_count": 3,
+      "mention_count": 1,
       "last_updated": "2026-05-31",
       "concepts": [
         "回购增持再贷款概念",
@@ -49674,16 +48885,6 @@
             "竞争加剧",
             "成本上升"
           ]
-        },
-        {
-          "date": "2026-03-25",
-          "title": "今天的一些信息整理3.25",
-          "source": ""
-        },
-        {
-          "date": "2026-03-25",
-          "title": "今天的一些信息整理3.25",
-          "source": "https://mp.weixin.qq.com/s/IPF3zZ0n--NiWQWch4MWCA"
         }
       ],
       "industry": "基础化工-橡胶制品-其他橡胶制品",
@@ -49693,7 +48894,7 @@
       "partners": []
     },
     "300122": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-05-31",
       "concepts": [
         "减肥药",
@@ -49719,11 +48920,6 @@
           ],
           "title": "01月14日___公告精选",
           "source": "https://mp.weixin.qq.com/s/Bb2447-2lU2LGAVbW38B0Q"
-        },
-        {
-          "date": "2026-01-13",
-          "title": "01月13日___公告精选",
-          "source": "https://mp.weixin.qq.com/s/rsZJiIMkryfLfjf9tkDtFA"
         }
       ],
       "industry": "医药生物-生物制品-疫苗",
@@ -50536,7 +49732,7 @@
       "partners": []
     },
     "300162": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "先进封装",
@@ -50558,13 +49754,7 @@
         "元宇宙",
         "粤港澳大湾区"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "电子-光学光电子-LED",
       "board": "SZ",
       "products": [
@@ -51651,7 +50841,7 @@
       "partners": []
     },
     "300201": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "储能",
@@ -51670,13 +50860,7 @@
         "锂电池概念",
         "高端装备"
       ],
-      "articles": [
-        {
-          "date": "2025-12-03",
-          "title": "300201  低空经济 机器人 储能 工业互联 无人机 核污染防治 军工 高空作业车第一股",
-          "source": "https://mp.weixin.qq.com/s/\\_MMx8AcY1pf2LZPAp6lGWQ"
-        }
-      ],
+      "articles": [],
       "industry": "机械设备-工程机械-工程机械Ⅲ",
       "board": "SZ",
       "code": "300201",
@@ -52097,7 +51281,7 @@
       ]
     },
     "300222": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "5G",
@@ -52132,13 +51316,7 @@
       "core_business": [
         "数字能源和智能机器人,布局主动配电网、人工智能等核心技术研发"
       ],
-      "articles": [
-        {
-          "date": "2026-03-05",
-          "title": "智能经济概念股全梳理",
-          "source": "https://mp.weixin.qq.com/s/38wLfMEVaATcpweuQ7AKMg"
-        }
-      ],
+      "articles": [],
       "industry": "电力设备-电网设备-电气自控设备",
       "board": "SZ",
       "products": [
@@ -52508,7 +51686,7 @@
       "name": "拓尔思"
     },
     "300231": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "东数西算(算力)",
@@ -52529,13 +51707,7 @@
         "网络安全",
         "阿里巴巴概念"
       ],
-      "articles": [
-        {
-          "date": "2025-08-19",
-          "title": "300231  算力RWA 信创 数据中心 大数据 云计算 数字货币 RCS IT基础设施第三方服务商",
-          "source": "https://mp.weixin.qq.com/s/dfiX9GPL3MDzmFc2oBh4Dg"
-        }
-      ],
+      "articles": [],
       "industry": "计算机-IT服务-IT服务Ⅲ",
       "board": "SZ",
       "code": "300231",
@@ -52775,7 +51947,7 @@
       "partners": []
     },
     "300242": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "互联网保险",
@@ -52788,13 +51960,7 @@
         "粤港澳大湾区",
         "网络游戏"
       ],
-      "articles": [
-        {
-          "date": "2026-01-13",
-          "title": "300242  互联网营销 AI技术 网红经济 抖音 化妆品 互联网信息服务企业",
-          "source": "https://mp.weixin.qq.com/s/TPI6zwvwBRJZxnBGlEB\\_xA"
-        }
-      ],
+      "articles": [],
       "industry": "传媒-文化传媒-广告营销",
       "board": "SZ",
       "code": "300242",
@@ -52888,7 +52054,7 @@
       "partners": []
     },
     "300250": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "5G",
@@ -52916,13 +52082,7 @@
         "虚拟现实",
         "鸿蒙概念"
       ],
-      "articles": [
-        {
-          "date": "2025-09-21",
-          "title": "300250  智能连接(F5G) 数据感知(DPI) 智能应用 华为鸿蒙 大数据产业链 数智化解决方案及运营服务提供者",
-          "source": "https://mp.weixin.qq.com/s/jM0Jdn2yROEbRyrOKUp2Sg"
-        }
-      ],
+      "articles": [],
       "industry": "计算机-IT服务-IT服务Ⅲ",
       "board": "SZ",
       "code": "300250",
@@ -53148,7 +52308,7 @@
       "partners": []
     },
     "300255": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "创新药",
@@ -53158,13 +52318,7 @@
         "减肥药",
         "深股通"
       ],
-      "articles": [
-        {
-          "date": "2025-06-09",
-          "title": "风口byTY",
-          "source": "https://mp.weixin.qq.com/s/klqy0Mhvojz8sd-QxBUbhg"
-        }
-      ],
+      "articles": [],
       "industry": "医药生物-化学制药-化学制剂",
       "board": "SZ",
       "code": "300255",
@@ -53172,7 +52326,7 @@
       "partners": []
     },
     "300260": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-06-09",
       "concepts": [
         "OLED",
@@ -53190,11 +52344,6 @@
         "国内半导体级真空阀门行业龙头"
       ],
       "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        },
         {
           "source": "https://mp.weixin.qq.com/s/FB_Yi85_u5JS4uYFe1O7ag",
           "title": "6月9日信息汇总：Rubin液冷+电源+光纤+硅片+零部件+设备等",
@@ -53544,7 +52693,7 @@
       "partners": []
     },
     "300272": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "人民币贬值受益",
@@ -53562,13 +52711,7 @@
         "细胞免疫治疗",
         "辅助生殖"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "家用电器-小家电-小家电Ⅲ",
       "board": "SZ",
       "code": "300272",
@@ -53911,7 +53054,7 @@
       ]
     },
     "300285": {
-      "mention_count": 8,
+      "mention_count": 7,
       "last_updated": "2026-06-11",
       "concepts": [
         "3D打印",
@@ -54023,11 +53166,6 @@
           ],
           "key_metrics": [],
           "target_valuation": []
-        },
-        {
-          "date": "2026-01-02",
-          "title": "风口byTY",
-          "source": "https://mp.weixin.qq.com/s/nKPpwprD5jWDBIZf1bjblA"
         },
         {
           "source": "https://mp.weixin.qq.com/s/yGz44voKbx2C5jwWrGBoNw",
@@ -54221,7 +53359,7 @@
       ]
     },
     "300293": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "一带一路",
@@ -54235,13 +53373,7 @@
         "特斯拉概念",
         "高端装备"
       ],
-      "articles": [
-        {
-          "date": "2025-09-18",
-          "title": "300293  蓝半导体 光刻机 工业母机 机器人 极紫外激光 全球领先的清洗及表面处理系统提供商",
-          "source": "https://mp.weixin.qq.com/s/V2ajjlAp-r7osPNMIIAIIg"
-        }
-      ],
+      "articles": [],
       "industry": "机械设备-专用设备-其他专用设备",
       "board": "SZ",
       "code": "300293",
@@ -54379,7 +53511,7 @@
       "partners": []
     },
     "300302": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-06-05",
       "concepts": [
         "专精特新",
@@ -54425,11 +53557,6 @@
           ],
           "processed_by": "tbox",
           "processed_at": "2026-05-20T11:46:50.489875+08:00"
-        },
-        {
-          "date": "2025-08-19",
-          "title": "300302  储存芯片 国产操作系统 软件服务 国防军工 云数据 云计算 国内拥有自有品牌和自主知识产权的存储厂商",
-          "source": "https://mp.weixin.qq.com/s/8ZWiua1wq052xaUgiPAU0A"
         }
       ],
       "industry": "计算机-计算机设备-其他计算机设备",
@@ -54525,7 +53652,7 @@
       "name": "聚飞光电"
     },
     "300306": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "OLED",
@@ -54540,13 +53667,7 @@
         "汽车电子",
         "眼科医疗"
       ],
-      "articles": [
-        {
-          "date": "2025-12-16",
-          "title": "300306  智能检测 机器人 电子身份证 LED 金融科技 创投 机器视觉 光电检测设备和校准服务专业供应商",
-          "source": "https://mp.weixin.qq.com/s/uasRcPY9EsvBW8eaPOZnWw"
-        }
-      ],
+      "articles": [],
       "industry": "机械设备-通用设备-仪器仪表",
       "board": "SZ",
       "code": "300306",
@@ -54636,7 +53757,7 @@
       "partners": []
     },
     "300316": {
-      "mention_count": 6,
+      "mention_count": 5,
       "last_updated": "2026-06-09",
       "partners": [
         "国内头部磷化铟衬底厂商"
@@ -54706,11 +53827,6 @@
           ],
           "key_metrics": [],
           "target_valuation": []
-        },
-        {
-          "date": "2026-04-21",
-          "title": "光板块领涨全市场！磷化铟：AI算力卡脖子核心，全产业链标的全梳理（附权威出处）",
-          "source": "https://mp.weixin.qq.com/s/5bluU2s8izAKQ9K3Fb2KGA"
         },
         {
           "source": "https://mp.weixin.qq.com/s/FB_Yi85_u5JS4uYFe1O7ag",
@@ -55013,7 +54129,7 @@
       "partners": []
     },
     "300324": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-05-31",
       "concepts": [
         "AI应用",
@@ -55085,11 +54201,6 @@
           ],
           "processed_by": "tbox",
           "processed_at": "2026-05-20T11:46:50.489848+08:00"
-        },
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
         }
       ],
       "industry": "计算机-计算机设备-其他计算机设备",
@@ -55118,7 +54229,7 @@
       ]
     },
     "300337": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "3D打印",
@@ -55150,13 +54261,7 @@
         "之一是利用3D打印技术生产航空航天",
         "业务之一是利用3D打印技术生产航空航天"
       ],
-      "articles": [
-        {
-          "date": "2026-01-16",
-          "title": "01月16日___热点前瞻",
-          "source": "https://mp.weixin.qq.com/s/4nGPzqEkXyZryflu7gUuaQ"
-        }
-      ],
+      "articles": [],
       "industry": "有色金属-工业金属-铝",
       "board": "SZ",
       "products": [
@@ -55288,7 +54393,7 @@
       ]
     },
     "300342": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "家用电器",
@@ -55307,13 +54412,7 @@
         "华为概念",
         "低空经济"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "家用电器-白色家电-家电零部件",
       "board": "SZ",
       "products": [
@@ -55630,7 +54729,7 @@
       ]
     },
     "300347": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "创新药",
@@ -55643,13 +54742,7 @@
         "医疗器械概念",
         "智能医疗"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "医药生物-医疗服务-医疗研发外包",
       "board": "SZ",
       "code": "300347",
@@ -56170,7 +55263,7 @@
       "partners": []
     },
     "300373": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-06-04",
       "concepts": [
         "5G",
@@ -56219,11 +55312,6 @@
           ],
           "key_metrics": [],
           "target_valuation": []
-        },
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
         }
       ],
       "industry": "电子-半导体-分立器件",
@@ -56246,7 +55334,7 @@
       "partners": []
     },
     "300377": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "AI应用",
@@ -56269,13 +55357,7 @@
         "粤港澳大湾区",
         "区块链"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "计算机-软件开发-垂直应用软件",
       "board": "SZ",
       "code": "300377",
@@ -56450,7 +55532,7 @@
       "partners": []
     },
     "300387": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "中俄贸易概念",
@@ -56468,13 +55550,7 @@
         "生态农业",
         "磷化工"
       ],
-      "articles": [
-        {
-          "date": "2025-07-04",
-          "title": "300387  农业RWA 合成生物 机器人 数字乡村 农村电商 大数据 石墨烯 化肥助剂行业龙头",
-          "source": "https://mp.weixin.qq.com/s/naXbylXXfYDyEXf8LwIeCA"
-        }
-      ],
+      "articles": [],
       "industry": "基础化工-农化制品-复合肥",
       "board": "SZ",
       "code": "300387",
@@ -56985,7 +56061,7 @@
       }
     },
     "300398": {
-      "mention_count": 7,
+      "mention_count": 6,
       "last_updated": "2026-06-09",
       "concepts": [
         "OLED",
@@ -57075,11 +56151,6 @@
           "target_valuation": [
             "目标价47.5元（2026年50倍PE）"
           ]
-        },
-        {
-          "date": "2026-03-25",
-          "title": "0325信息汇总",
-          "source": "https://mp.weixin.qq.com/s/A7IP8VkQuahCOZjumNl8vg"
         },
         {
           "source": "https://mp.weixin.qq.com/s/QLxDdAi3IChWPejbnoo0JA",
@@ -57645,7 +56716,7 @@
       "partners": []
     },
     "300423": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "专精特新",
@@ -57670,13 +56741,7 @@
         "锂电池概念",
         "风电"
       ],
-      "articles": [
-        {
-          "date": "2025-09-11",
-          "title": "300423  氢能源 储能 燃料电池 智能电网 智能家居 电气成套设备综合解决方案服务商",
-          "source": "https://mp.weixin.qq.com/s/jTPOkx2NCk2kyhyBRr5xMA"
-        }
-      ],
+      "articles": [],
       "industry": "电力设备-电网设备-输变电设备",
       "board": "SZ",
       "code": "300423",
@@ -57684,7 +56749,7 @@
       "partners": []
     },
     "300424": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "人民币贬值受益",
@@ -57702,13 +56767,7 @@
       "core_business": [
         "的维修能力与资质能够覆盖空客大量机型"
       ],
-      "articles": [
-        {
-          "date": "2025-10-22",
-          "title": "刚刚_商务部表态全力支持_空客天津二线正式投产_核心产业链迎来订单潮（附股）_",
-          "source": "https://mp.weixin.qq.com/s/jgU3GokO156Iqv5-ZBcskg"
-        }
-      ],
+      "articles": [],
       "industry": "国防军工-军工装备-航空装备",
       "board": "SZ",
       "code": "300424",
@@ -57754,7 +56813,7 @@
       ]
     },
     "300430": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-06-05",
       "concepts": [
         "AI应用",
@@ -57775,13 +56834,7 @@
       "industry_position": [
         "子公司覆盖侵入+非侵入式脑机"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "机械设备-自动化设备-其他自动化设备",
       "board": "SZ",
       "products": [
@@ -57798,7 +56851,7 @@
       "partners": []
     },
     "300432": {
-      "mention_count": 6,
+      "mention_count": 4,
       "last_updated": "2026-05-31",
       "partners": [],
       "concepts": [
@@ -57886,16 +56939,6 @@
           "source": "https://mp.weixin.qq.com/s/pJdVEIG1uDO21if2CuxEKw",
           "insights": [],
           "accidents": []
-        },
-        {
-          "date": "2026-03-25",
-          "title": "磷化工/磷酸铁锂，相关公司全梳理",
-          "source": ""
-        },
-        {
-          "date": "2026-03-25",
-          "title": "磷化工/磷酸铁锂，相关公司全梳理",
-          "source": "https://mp.weixin.qq.com/s/rOLV5sYS7QgE3tEyHtJvmg"
         }
       ],
       "board": "SZ",
@@ -57914,7 +56957,7 @@
       "core_business": []
     },
     "300435": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "一带一路",
@@ -57933,13 +56976,7 @@
         "芯片概念",
         "高端装备"
       ],
-      "articles": [
-        {
-          "date": "2026-01-16",
-          "title": "01月16日___热点前瞻",
-          "source": "https://mp.weixin.qq.com/s/4nGPzqEkXyZryflu7gUuaQ"
-        }
-      ],
+      "articles": [],
       "industry": "机械设备-专用设备-能源及重型设备",
       "board": "SZ",
       "products": [
@@ -58477,7 +57514,7 @@
       }
     },
     "300451": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "AI应用",
@@ -58506,13 +57543,7 @@
         "医药电商",
         "区块链"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "计算机-软件开发-垂直应用软件",
       "board": "SZ",
       "chain": [
@@ -58523,7 +57554,7 @@
       "partners": []
     },
     "300454": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-06-04",
       "concepts": [
         "2025年报预增",
@@ -58565,11 +57596,6 @@
           ],
           "key_metrics": [],
           "target_valuation": []
-        },
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
         }
       ],
       "industry": "计算机-软件开发-横向通用软件",
@@ -58590,7 +57616,7 @@
       "partners": []
     },
     "300455": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "军工",
@@ -58610,13 +57636,7 @@
         "MCU芯片",
         "国企改革"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "计算机-计算机设备-其他计算机设备",
       "board": "SZ",
       "code": "300455",
@@ -58624,7 +57644,7 @@
       "partners": []
     },
     "300456": {
-      "mention_count": 2,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "partners": [],
       "concepts": [
@@ -58659,22 +57679,7 @@
         "融资融券"
       ],
       "industry_position": [],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        },
-        {
-          "date": "2026-04-21",
-          "key_metrics": [],
-          "target_valuation": [],
-          "title": "TGV（玻璃通孔）技术全解析 + 核心企业梳理",
-          "source": "https://mp.weixin.qq.com/s/6PeirSTCbFUP9h2JdS5i2Q",
-          "insights": [],
-          "accidents": []
-        }
-      ],
+      "articles": [],
       "board": "SZ",
       "industry": "电子-半导体-集成电路制造",
       "products": [],
@@ -58879,7 +57884,7 @@
       "partners": []
     },
     "300466": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "AI应用",
@@ -58906,13 +57911,7 @@
         "网络安全",
         "鸿蒙概念"
       ],
-      "articles": [
-        {
-          "date": "2026-03-05",
-          "title": "智能经济概念股全梳理",
-          "source": "https://mp.weixin.qq.com/s/38wLfMEVaATcpweuQ7AKMg"
-        }
-      ],
+      "articles": [],
       "industry": "机械设备-通用设备-仪器仪表",
       "board": "SZ",
       "products": [
@@ -59144,7 +58143,7 @@
       "partners": []
     },
     "300473": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "2025年报预增",
@@ -59165,13 +58164,7 @@
         "锂电池概念",
         "长安汽车概念"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "汽车-汽车零部件-其他汽车零部件",
       "board": "SZ",
       "code": "300473",
@@ -60800,7 +59793,7 @@
       "name": "长芯博创"
     },
     "300552": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "ETC",
@@ -60822,13 +59815,7 @@
         "深股通",
         "车联网(车路协同)"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "计算机-计算机设备-其他计算机设备",
       "board": "SZ",
       "code": "300552",
@@ -60915,7 +59902,7 @@
       "partners": []
     },
     "300561": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "AI应用",
@@ -60934,13 +59921,7 @@
         "股权转让(并购重组)",
         "语音技术"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "计算机-软件开发-垂直应用软件",
       "board": "SZ",
       "code": "300561",
@@ -61045,7 +60026,7 @@
       "partners": []
     },
     "300570": {
-      "mention_count": 5,
+      "mention_count": 4,
       "last_updated": "2026-05-31",
       "partners": [],
       "concepts": [
@@ -61107,11 +60088,6 @@
           "accidents": [
             "直接受益OpenAI MRC协议，光连接需求扩大8倍"
           ]
-        },
-        {
-          "date": "2025-08-15",
-          "title": "风口byTY",
-          "source": "https://mp.weixin.qq.com/s/xeN1AtnVUVSwMtUy67fuAw"
         }
       ],
       "board": "SZ",
@@ -61222,7 +60198,7 @@
       "partners": []
     },
     "300579": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "东数西算(算力)",
@@ -61256,13 +60232,7 @@
         "云计算",
         "区块链"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "计算机-软件开发-横向通用软件",
       "board": "SZ",
       "code": "300579",
@@ -61617,7 +60587,7 @@
       }
     },
     "300595": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "AI眼镜",
@@ -61631,13 +60601,7 @@
       "core_business": [
         "自闭症诊疗设备的研发生产,涉及脑电波等信号的采集和处理"
       ],
-      "articles": [
-        {
-          "date": "2026-03-10",
-          "title": "脑机接口_江苏_相关公司全梳理",
-          "source": "https://mp.weixin.qq.com/s/b6Dc2Y4Br\\_LZmAuABEr4tQ"
-        }
-      ],
+      "articles": [],
       "industry": "医药生物-医疗器械-医疗耗材",
       "board": "SZ",
       "products": [
@@ -61648,7 +60612,7 @@
       "partners": []
     },
     "300598": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-05-31",
       "concepts": [
         "AI应用",
@@ -61689,11 +60653,6 @@
         "隐形冠军"
       ],
       "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        },
         {
           "source": "https://mp.weixin.qq.com/s/BbKZCNaXFLfxi9966KxFRA",
           "title": "鸿蒙7.0：1.1亿行自研代码,百亿大模型塞进手机,产业链核心标的",
@@ -61938,7 +60897,7 @@
       "partners": []
     },
     "300604": {
-      "mention_count": 7,
+      "mention_count": 6,
       "last_updated": "2026-06-11",
       "partners": [],
       "concepts": [
@@ -62013,11 +60972,6 @@
           "partners": [],
           "processed_by": "tbox",
           "processed_at": "2026-05-25T01:14:26.522689+08:00"
-        },
-        {
-          "date": "2026-04-21",
-          "title": "半导体测试设备",
-          "source": "manual_input"
         },
         {
           "source": "https://mp.weixin.qq.com/s/FB_Yi85_u5JS4uYFe1O7ag",
@@ -62431,7 +61385,7 @@
       "name": "光库科技"
     },
     "300622": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-05-31",
       "partners": [],
       "concepts": [
@@ -62465,11 +61419,6 @@
             "设立宏川智算，打造第三增长曲线",
             "韶关项目签约国产十万卡先进封装算力集群，总投资 50 亿元"
           ]
-        },
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
         }
       ],
       "board": "SZ",
@@ -62618,7 +61567,7 @@
       "name": "华测导航"
     },
     "300629": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-05-31",
       "concepts": [
         "低空经济",
@@ -62645,11 +61594,6 @@
             "布局碳纤维+吸波隐身复合材，适配军工、低空经济的隐身+轻量化需求",
             "处于研发验证阶段"
           ]
-        },
-        {
-          "date": "2025-08-21",
-          "title": "300629  军工信息化 低空飞行器 无人机 军工新材料 军事保密通信数据链及特殊应用材料领域",
-          "source": "https://mp.weixin.qq.com/s/GQDu10CnbpQ6I3s-Kn17cw"
         }
       ],
       "industry": "国防军工-军工电子-军工电子Ⅲ",
@@ -62762,7 +61706,7 @@
       ]
     },
     "300635": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "AI智能体",
@@ -62784,13 +61728,7 @@
         "股权转让(并购重组)",
         "风电"
       ],
-      "articles": [
-        {
-          "date": "2025-08-03",
-          "title": "300635  新型城镇化 数据中心 低空经济 水利 智算与大数据 工程监理业务龙头",
-          "source": "https://mp.weixin.qq.com/s/uSb-2CnVJoh2MG8LZLExPg"
-        }
-      ],
+      "articles": [],
       "industry": "建筑装饰-建筑装饰-工程咨询服务",
       "board": "SZ",
       "code": "300635",
@@ -62963,7 +61901,7 @@
       "partners": []
     },
     "300645": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "AIGC概念",
@@ -63002,13 +61940,7 @@
         "阿里巴巴概念",
         "食品安全"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "计算机-计算机设备-其他计算机设备",
       "board": "SZ",
       "code": "300645",
@@ -63016,20 +61948,14 @@
       "partners": []
     },
     "300651": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "2025年报预增",
         "体育产业",
         "足球概念"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "轻工制造-家居用品-文娱用品",
       "board": "SZ",
       "code": "300651",
@@ -63037,7 +61963,7 @@
       "partners": []
     },
     "300652": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "专精特新",
@@ -63054,13 +61980,7 @@
       "core_business": [
         "脑机接口与机器人核心部件"
       ],
-      "articles": [
-        {
-          "date": "2026-03-10",
-          "title": "脑机接口_江苏_相关公司全梳理",
-          "source": "https://mp.weixin.qq.com/s/b6Dc2Y4Br\\_LZmAuABEr4tQ"
-        }
-      ],
+      "articles": [],
       "industry": "汽车-汽车零部件-轮胎轮毂",
       "board": "SZ",
       "products": [
@@ -63072,7 +61992,7 @@
       "partners": []
     },
     "300654": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "AIGC概念",
@@ -63086,13 +62006,7 @@
         "文化传媒概念",
         "职业教育"
       ],
-      "articles": [
-        {
-          "date": "2025-11-24",
-          "title": "300654  AI智能体 AI教育 文化传媒 教育出版 人工智能 教育领域企业",
-          "source": "https://mp.weixin.qq.com/s/jk5strmpS6F2zvoJUkphMQ"
-        }
-      ],
+      "articles": [],
       "industry": "传媒-文化传媒-出版",
       "board": "SZ",
       "code": "300654",
@@ -63419,7 +62333,7 @@
       "core_business": []
     },
     "300670": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "储能",
@@ -63432,13 +62346,7 @@
         "绿色电力",
         "风电"
       ],
-      "articles": [
-        {
-          "date": "2026-03-05",
-          "title": "智能经济概念股全梳理",
-          "source": "https://mp.weixin.qq.com/s/38wLfMEVaATcpweuQ7AKMg"
-        }
-      ],
+      "articles": [],
       "industry": "电力设备-电网设备-输变电设备",
       "board": "SZ",
       "products": [
@@ -63532,7 +62440,7 @@
       "partners": []
     },
     "300676": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "创投",
@@ -63554,13 +62462,7 @@
         "区块链",
         "智能医疗"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "医药生物-医疗服务-其他医疗服务",
       "board": "SZ",
       "code": "300676",
@@ -63823,7 +62725,7 @@
       }
     },
     "300688": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "AI应用",
@@ -63855,13 +62757,7 @@
         "元宇宙",
         "区块链"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "社会服务-教育-教育Ⅲ",
       "board": "SZ",
       "code": "300688",
@@ -65387,7 +64283,7 @@
       ]
     },
     "300758": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "AI应用",
@@ -65400,13 +64296,7 @@
         "钙钛矿电池",
         "钠离子电池"
       ],
-      "articles": [
-        {
-          "date": "2025-07-08",
-          "title": "300758  化工 光刻胶 钙钛矿电池 钠离子电池 高性能有机颜料领域的隐形冠军",
-          "source": "https://mp.weixin.qq.com/s/FlfhJ8gNghqlVzrVP9hK\\_g"
-        }
-      ],
+      "articles": [],
       "industry": "基础化工-化学制品-涂料油墨",
       "board": "SZ",
       "code": "300758",
@@ -65692,7 +64582,7 @@
       "partners": []
     },
     "300766": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-06-05",
       "concepts": [
         "AI应用",
@@ -65730,13 +64620,7 @@
         "云计算",
         "区块链"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "计算机-软件开发-横向通用软件",
       "board": "SZ",
       "code": "300766",
@@ -65924,7 +64808,7 @@
       "name": "拉卡拉"
     },
     "300776": {
-      "mention_count": 4,
+      "mention_count": 3,
       "last_updated": "2026-06-05",
       "partners": [],
       "concepts": [
@@ -65975,15 +64859,6 @@
           "insights": [
             "入选智能光伏试点示范，为光伏电池片提供激光掺杂、激光转印解决方案"
           ]
-        },
-        {
-          "date": "2026-04-21",
-          "key_metrics": [],
-          "target_valuation": [],
-          "title": "TGV（玻璃通孔）技术全解析 + 核心企业梳理",
-          "source": "https://mp.weixin.qq.com/s/6PeirSTCbFUP9h2JdS5i2Q",
-          "insights": [],
-          "accidents": []
         }
       ],
       "board": "SZ",
@@ -66706,7 +65581,7 @@
       "core_business": []
     },
     "300821": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-06-05",
       "concepts": [
         "2026一季报预增",
@@ -66729,11 +65604,6 @@
           ],
           "key_metrics": [],
           "target_valuation": []
-        },
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
         }
       ],
       "industry": "基础化工-化学制品-有机硅",
@@ -66946,7 +65816,7 @@
       "partners": []
     },
     "300836": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "2025年报预增",
@@ -66965,13 +65835,7 @@
         "绿色电力",
         "苹果概念"
       ],
-      "articles": [
-        {
-          "date": "2026-03-05",
-          "title": "智能经济概念股全梳理",
-          "source": "https://mp.weixin.qq.com/s/38wLfMEVaATcpweuQ7AKMg"
-        }
-      ],
+      "articles": [],
       "industry": "机械设备-专用设备-其他专用设备",
       "board": "SZ",
       "products": [
@@ -67857,7 +66721,7 @@
       "name": "狄耐克"
     },
     "300887": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "5G",
@@ -67895,13 +66759,7 @@
       "core_business": [
         "开展过相关检测"
       ],
-      "articles": [
-        {
-          "date": "2026-03-10",
-          "title": "脑机接口_江苏_相关公司全梳理",
-          "source": "https://mp.weixin.qq.com/s/b6Dc2Y4Br\\_LZmAuABEr4tQ"
-        }
-      ],
+      "articles": [],
       "industry": "社会服务-其他社会服务-专业服务",
       "board": "SZ",
       "code": "300887",
@@ -68317,7 +67175,7 @@
       "name": "宝丽迪"
     },
     "300911": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "AIGC概念",
@@ -68331,13 +67189,7 @@
         "融资融券",
         "阿里巴巴概念"
       ],
-      "articles": [
-        {
-          "date": "2026-03-05",
-          "title": "智能经济概念股全梳理",
-          "source": "https://mp.weixin.qq.com/s/38wLfMEVaATcpweuQ7AKMg"
-        }
-      ],
+      "articles": [],
       "industry": "家用电器-厨卫电器-厨卫电器Ⅲ",
       "board": "SZ",
       "products": [
@@ -68911,7 +67763,7 @@
       "partners": []
     },
     "300945": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "NFT概念",
@@ -68922,13 +67774,7 @@
         "元宇宙",
         "深股通"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "纺织服饰-服装家纺-饰品",
       "board": "SZ",
       "code": "300945",
@@ -68981,7 +67827,7 @@
       "partners": []
     },
     "300953": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-06-04",
       "concepts": [
         "2025年报预增",
@@ -69016,11 +67862,6 @@
           ],
           "key_metrics": [],
           "target_valuation": []
-        },
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
         }
       ],
       "industry": "电力设备-电池-锂电池",
@@ -69077,7 +67918,7 @@
       "partners": []
     },
     "300975": {
-      "mention_count": 5,
+      "mention_count": 2,
       "last_updated": "2026-06-05",
       "concepts": [
         "2025年报预增",
@@ -69132,21 +67973,6 @@
           ],
           "key_metrics": [],
           "target_valuation": []
-        },
-        {
-          "date": "2026-03-25",
-          "title": "商络电子，2倍空间？",
-          "source": "wechat"
-        },
-        {
-          "date": "2026-03-25",
-          "title": "商络电子，2倍空间？",
-          "source": ""
-        },
-        {
-          "date": "2026-03-25",
-          "title": "商络电子，2倍空间？",
-          "source": "https://mp.weixin.qq.com/s/IWSkupdgzfXQ0I-iAXRI2A"
         }
       ],
       "industry": "电子-其他电子-其他电子Ⅲ",
@@ -69865,7 +68691,7 @@
       ]
     },
     "301033": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "医美概念",
@@ -69874,13 +68700,7 @@
         "3D打印",
         "医疗器械概念"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "医药生物-医疗器械-医疗耗材",
       "board": "SZ",
       "products": [
@@ -70084,7 +68904,7 @@
       "partners": []
     },
     "301079": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "一带一路",
@@ -70103,13 +68923,7 @@
         "风电",
         "高铁"
       ],
-      "articles": [
-        {
-          "date": "2026-01-13",
-          "title": "01月13日___公告精选",
-          "source": "https://mp.weixin.qq.com/s/rsZJiIMkryfLfjf9tkDtFA"
-        }
-      ],
+      "articles": [],
       "industry": "机械设备-工程机械-工程机械Ⅲ",
       "board": "SZ",
       "products": [
@@ -70452,7 +69266,7 @@
       "partners": []
     },
     "301096": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "AI应用",
@@ -70471,13 +69285,7 @@
         "幽门螺杆菌概念",
         "智能医疗"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "医药生物-医疗服务-医疗研发外包",
       "board": "SZ",
       "code": "301096",
@@ -70485,7 +69293,7 @@
       "partners": []
     },
     "301099": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "车联网(车路协同)",
@@ -70515,13 +69323,7 @@
         "股权转让(并购重组)",
         "传感器"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "电子-其他电子-其他电子Ⅲ",
       "board": "SZ",
       "code": "301099",
@@ -70573,7 +69375,7 @@
       "partners": []
     },
     "301117": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "AI智能体",
@@ -70602,13 +69404,7 @@
         "融资融券",
         "西部大开发"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "计算机-计算机设备-安防设备",
       "board": "SZ",
       "code": "301117",
@@ -70616,7 +69412,7 @@
       "partners": []
     },
     "301118": {
-      "mention_count": 3,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "一带一路",
@@ -70629,23 +69425,7 @@
         "芯片概念",
         "融资融券"
       ],
-      "articles": [
-        {
-          "date": "2026-03-25",
-          "title": "磷化工/磷酸铁锂，相关公司全梳理",
-          "source": "wechat"
-        },
-        {
-          "date": "2026-03-25",
-          "title": "磷化工/磷酸铁锂，相关公司全梳理",
-          "source": ""
-        },
-        {
-          "date": "2026-03-25",
-          "title": "磷化工/磷酸铁锂，相关公司全梳理",
-          "source": "https://mp.weixin.qq.com/s/rOLV5sYS7QgE3tEyHtJvmg"
-        }
-      ],
+      "articles": [],
       "industry": "基础化工-化学原料-其他化学原料",
       "board": "SZ",
       "products": [
@@ -71096,7 +69876,7 @@
       "name": "中一科技"
     },
     "301153": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "AI应用",
@@ -71123,13 +69903,7 @@
         "财税数字化",
         "区块链"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "计算机-软件开发-垂直应用软件",
       "board": "SZ",
       "code": "301153",
@@ -71227,7 +70001,7 @@
       "partners": []
     },
     "301176": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-05-31",
       "concepts": [
         "MiniLED",
@@ -71248,11 +70022,6 @@
           "insights": [
             "公司PCB产品应用于汽车电子领域，如车载显示屏、车灯模组、电控系统等，已通过IATF16949汽车质量管理体系认证，与比亚迪等车企供应链建立合作，受益于新能源汽车渗透率提升。"
           ]
-        },
-        {
-          "date": "2026-04-16",
-          "title": "逸豪新材(301176) - 产业链核心标的分析",
-          "source": "原材料: raw_material_2026-04-13.md"
         }
       ],
       "industry": "电子-元件-印制电路板",
@@ -71306,7 +70075,7 @@
       "partners": []
     },
     "301196": {
-      "mention_count": 8,
+      "mention_count": 6,
       "last_updated": "2026-06-09",
       "partners": [],
       "concepts": [
@@ -71384,16 +70153,6 @@
           "accidents": [
             "MPO连接和MT插芯受益MRC协议"
           ]
-        },
-        {
-          "date": "2026-03-22",
-          "title": "唯科科技，3 倍空间？",
-          "source": "https://mp.weixin.qq.com/s/dq1FIvwRVwSkg-MupLiFig"
-        },
-        {
-          "date": "2026-03-25",
-          "title": "今天的一些信息整理3.25",
-          "source": ""
         },
         {
           "source": "https://mp.weixin.qq.com/s/-u-3ooEHieGjBGLUHORN9Q",
@@ -71566,7 +70325,7 @@
       "partners": []
     },
     "301205": {
-      "mention_count": 3,
+      "mention_count": 2,
       "last_updated": "2026-06-12",
       "concepts": [
         "5G",
@@ -71585,11 +70344,6 @@
           "insights": [
             "硅光与CPO落地链条中的直接受益者"
           ]
-        },
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
         },
         {
           "source": "https://mp.weixin.qq.com/s/_AxJ67eFzTt1FMrzZK2-ZQ",
@@ -72133,16 +70887,10 @@
       "partners": []
     },
     "301226": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "code": "301226",
-      "articles": [
-        {
-          "date": "2026-03-05",
-          "title": "智能经济概念股全梳理",
-          "source": "https://mp.weixin.qq.com/s/38wLfMEVaATcpweuQ7AKMg"
-        }
-      ],
+      "articles": [],
       "industry": "机械设备-通用设备-其他通用设备",
       "board": "SZ",
       "products": [
@@ -72419,7 +71167,7 @@
       "name": "软通动力"
     },
     "301246": {
-      "mention_count": 3,
+      "mention_count": 1,
       "last_updated": "2026-05-10",
       "code": "301246",
       "articles": [
@@ -72430,16 +71178,6 @@
           "insights": [
             "产能扩张"
           ]
-        },
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        },
-        {
-          "date": "2026-03-25",
-          "title": "磷化工/磷酸铁锂，相关公司全梳理",
-          "source": "https://mp.weixin.qq.com/s/rOLV5sYS7QgE3tEyHtJvmg"
         }
       ],
       "industry": "医药生物-化学制药-原料药",
@@ -72466,19 +71204,13 @@
       "partners": []
     },
     "301248": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "core_business": [
         "已经建设数千P的算力服务集群"
       ],
       "code": "301248",
-      "articles": [
-        {
-          "date": "2026-03-05",
-          "title": "智能经济概念股全梳理",
-          "source": "https://mp.weixin.qq.com/s/38wLfMEVaATcpweuQ7AKMg"
-        }
-      ],
+      "articles": [],
       "industry": "计算机-IT服务-IT服务Ⅲ",
       "board": "SZ",
       "concepts": [
@@ -72903,7 +71635,7 @@
       ]
     },
     "301307": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-05-10",
       "concepts": [
         "减速器",
@@ -72964,11 +71696,6 @@
             "半导体-设备结构件"
           ],
           "partners": []
-        },
-        {
-          "date": "2025-12-08",
-          "title": "风口byTY",
-          "source": "https://mp.weixin.qq.com/s/kLLysHybxv3NIvEdHfph8Q"
         }
       ],
       "industry": "通信-通信设备-通信网络设备及器件",
@@ -73212,7 +71939,7 @@
       "partners": []
     },
     "301312": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-05-31",
       "concepts": [
         "AI PC",
@@ -73251,11 +71978,6 @@
           "insights": [
             "设备国产化方向的重要参与者"
           ]
-        },
-        {
-          "date": "2026-03-19",
-          "title": "智立方，250%空间？",
-          "source": "https://mp.weixin.qq.com/s/rhAht_cOB_4uAmIhV1CpYQ"
         }
       ],
       "industry": "机械设备-自动化设备-工控设备",
@@ -73325,7 +72047,7 @@
       "partners": []
     },
     "301317": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "2025年报预增",
@@ -73340,13 +72062,7 @@
         "空气能热泵",
         "融资融券"
       ],
-      "articles": [
-        {
-          "date": "2026-03-19",
-          "title": "鑫磊股份，3倍空间？",
-          "source": "https://mp.weixin.qq.com/s/2CnFIwr5OkAW6NWiAvO9pw"
-        }
-      ],
+      "articles": [],
       "industry": "机械设备-通用设备-其他通用设备",
       "board": "SZ",
       "code": "301317",
@@ -73513,7 +72229,7 @@
       }
     },
     "301336": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "小米汽车",
@@ -73525,13 +72241,7 @@
         "西部大开发",
         "华为概念"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "轻工制造-家居用品-成品家居",
       "board": "SZ",
       "code": "301336",
@@ -74452,7 +73162,7 @@
       "partners": []
     },
     "301408": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-06-05",
       "concepts": [
         "AI应用",
@@ -74473,13 +73183,7 @@
         "**大盘趋势与资金面核心逻辑**：市场风格向有政策支持的板块倾斜，龙虎榜显示该股昨日获机构资金净买入，显示资金认可",
         "**大盘趋势与资金面核心"
       ],
-      "articles": [
-        {
-          "date": "2026-04-16",
-          "title": "华人健康(301408) - 产业链核心标的分析",
-          "source": "原材料: raw_material_2026-04-16.md"
-        }
-      ],
+      "articles": [],
       "industry": "医药生物-医药商业-药店",
       "board": "SZ",
       "code": "301408",
@@ -74522,7 +73226,7 @@
       "partners": []
     },
     "301419": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-05-31",
       "concepts": [
         "5G",
@@ -74537,11 +73241,6 @@
         "融资融券"
       ],
       "articles": [
-        {
-          "date": "2026-01-16",
-          "title": "01月16日___公告精选",
-          "source": "https://mp.weixin.qq.com/s/qN7Z17lOZu8pTOQh-GcMjQ"
-        },
         {
           "source": "https://mp.weixin.qq.com/s/p0lzzWLYpN4Pq51YkLj_8g",
           "title": "6月2日首板逻辑·光通信/CPO/先进封装/机器人/MLCC",
@@ -74588,7 +73287,7 @@
       ]
     },
     "301428": {
-      "mention_count": 3,
+      "mention_count": 2,
       "last_updated": "2026-06-10",
       "concepts": [
         "AIGC概念",
@@ -74637,11 +73336,6 @@
           ],
           "key_metrics": [],
           "target_valuation": []
-        },
-        {
-          "date": "2025-07-13",
-          "title": "301428  数据要数 大数据 智慧城市 网络安全 专业信息技术服务商",
-          "source": "https://mp.weixin.qq.com/s/SDl4vDKcLFASzVwSedCAHQ"
         },
         {
           "source": "https://mp.weixin.qq.com/s/SJnaTxHDxnKq80Qxs9-Vtg",
@@ -74728,7 +73422,7 @@
       ]
     },
     "301486": {
-      "mention_count": 4,
+      "mention_count": 2,
       "last_updated": "2026-06-02",
       "concepts": [
         "5G",
@@ -74778,16 +73472,6 @@
           ],
           "key_metrics": [],
           "target_valuation": []
-        },
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        },
-        {
-          "date": "2026-03-25",
-          "title": "今天的一些信息整理3.25",
-          "source": "https://mp.weixin.qq.com/s/IPF3zZ0n--NiWQWch4MWCA"
         }
       ],
       "industry": "电子-消费电子-消费电子零部件及组装",
@@ -74983,7 +73667,7 @@
       "partners": []
     },
     "301515": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "专精特新",
@@ -74994,13 +73678,7 @@
         "融资融券",
         "西部大开发"
       ],
-      "articles": [
-        {
-          "date": "2026-03-10",
-          "title": "脑机接口_江苏_相关公司全梳理",
-          "source": "https://mp.weixin.qq.com/s/b6Dc2Y4Br\\_LZmAuABEr4tQ"
-        }
-      ],
+      "articles": [],
       "industry": "医药生物-医疗器械-医疗设备",
       "board": "SZ",
       "products": [
@@ -75328,7 +74006,7 @@
       }
     },
     "301529": {
-      "mention_count": 5,
+      "mention_count": 3,
       "last_updated": "2026-06-04",
       "concepts": [
         "5G",
@@ -75375,16 +74053,6 @@
             "在手料号10个+"
           ],
           "target_valuation": []
-        },
-        {
-          "date": "2026-03-25",
-          "title": "今天的一些信息整理3.25",
-          "source": ""
-        },
-        {
-          "date": "2026-03-25",
-          "title": "今天的一些信息整理3.25",
-          "source": "https://mp.weixin.qq.com/s/IPF3zZ0n--NiWQWch4MWCA"
         }
       ],
       "industry": "汽车-汽车零部件-车身附件及饰件",
@@ -75445,7 +74113,7 @@
       ]
     },
     "301558": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "2025年报预增",
@@ -75463,13 +74131,7 @@
         "融资融券",
         "跨境电商"
       ],
-      "articles": [
-        {
-          "date": "2026-02-09",
-          "title": "301558  AI多模态 跨境电商 AI智能图片 AI SaaS软件 出口跨境电商与物流零售企业 跨境电商行业综合服务商",
-          "source": "https://mp.weixin.qq.com/s/l1S442urxLbd47haUQRCHA"
-        }
-      ],
+      "articles": [],
       "industry": "商贸零售-互联网电商-互联网电商Ⅲ",
       "board": "SZ",
       "code": "301558",
@@ -75910,7 +74572,7 @@
       "partners": []
     },
     "301607": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "2025年报预增",
@@ -75925,13 +74587,7 @@
         "融资融券",
         "高压快充"
       ],
-      "articles": [
-        {
-          "date": "2025-08-18",
-          "title": "301607  汽车核心零部件 高压快充 半导体 充电桩 新能源汽车高压电源系统的高新技术企业",
-          "source": "https://mp.weixin.qq.com/s/v97irY5zToLy-UomN1W-bw"
-        }
-      ],
+      "articles": [],
       "industry": "汽车-汽车零部件-汽车电子电气系统",
       "board": "SZ",
       "code": "301607",
@@ -76193,7 +74849,7 @@
       ]
     },
     "301638": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "AI应用",
@@ -76228,13 +74884,7 @@
         "量子科技",
         "鸿蒙概念"
       ],
-      "articles": [
-        {
-          "date": "2026-03-02",
-          "title": "301638  智能电网 人工智能 国产芯片 传感器 鸿蒙 物联网 电力能源行业数字化业务的公司",
-          "source": "https://mp.weixin.qq.com/s/0J8dlS5QkvXOqxN95Us0dw"
-        }
-      ],
+      "articles": [],
       "industry": "计算机-IT服务-IT服务Ⅲ",
       "board": "SZ",
       "code": "301638",
@@ -76400,7 +75050,7 @@
       "partners": []
     },
     "301668": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "专精特新",
@@ -76411,13 +75061,7 @@
         "融资融券",
         "风电"
       ],
-      "articles": [
-        {
-          "date": "2025-10-21",
-          "title": "301668  智能电网 智能配电设备企业",
-          "source": "https://mp.weixin.qq.com/s/e5nSozkoy3EO5NY3Jy0Daw"
-        }
-      ],
+      "articles": [],
       "industry": "电力设备-电网设备-输变电设备",
       "board": "SZ",
       "code": "301668",
@@ -76627,18 +75271,12 @@
       "partners": []
     },
     "430300": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "医疗"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "新三板",
       "board": "SZ",
       "code": "430300",
@@ -76646,18 +75284,12 @@
       "partners": []
     },
     "470366": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "新三板"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "新三板",
       "board": "SZ",
       "code": "470366",
@@ -76712,18 +75344,12 @@
       "partners": []
     },
     "512000": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "其他"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "其他",
       "board": "SZ",
       "code": "512000",
@@ -76902,18 +75528,12 @@
       "partners": []
     },
     "515070": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "科技"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "其他",
       "board": "SZ",
       "code": "515070",
@@ -77308,18 +75928,12 @@
       "partners": []
     },
     "588990": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "其他"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "其他",
       "board": "SZ",
       "products": [
@@ -77373,7 +75987,7 @@
       "partners": []
     },
     "600009": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "上海自贸区",
@@ -77386,13 +76000,7 @@
         "国企改革",
         "免税店"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "交通运输-机场航运-机场",
       "board": "SH",
       "code": "600009",
@@ -78069,7 +76677,7 @@
       "partners": []
     },
     "600038": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-06-04",
       "concepts": [
         "中字头股票",
@@ -78104,11 +76712,6 @@
           ],
           "key_metrics": [],
           "target_valuation": []
-        },
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
         }
       ],
       "industry": "国防军工-军工装备-航空装备",
@@ -78133,18 +76736,12 @@
       "partners": []
     },
     "600046": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "制造业"
       ],
-      "articles": [
-        {
-          "date": "2026-03-19",
-          "title": "",
-          "source": "https://mp.weixin.qq.com/s/PQ_0mafAn44Fag7BrsESCQ"
-        }
-      ],
+      "articles": [],
       "industry": "制造业",
       "board": "SH",
       "code": "600046",
@@ -78370,7 +76967,7 @@
       "partners": []
     },
     "600060": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "AI智能体",
@@ -78399,13 +76996,7 @@
         "融资融券",
         "高股息精选"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "家用电器-黑色家电-彩电",
       "board": "SH",
       "code": "600060",
@@ -78516,7 +77107,7 @@
       "partners": []
     },
     "600072": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "沪股通",
@@ -78536,13 +77127,7 @@
         "PPP概念",
         "国企改革"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "电力设备-风电设备-风电整机",
       "board": "SH",
       "code": "600072",
@@ -78654,7 +77239,7 @@
       "core_business": []
     },
     "600085": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "DeepSeek概念",
@@ -78667,13 +77252,7 @@
         "融资融券",
         "超级品牌"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "医药生物-中药-中药Ⅲ",
       "board": "SH",
       "code": "600085",
@@ -79066,7 +77645,7 @@
       "partners": []
     },
     "600105": {
-      "mention_count": 3,
+      "mention_count": 2,
       "last_updated": "2026-06-01",
       "partners": [
         "国内头部光模块厂商",
@@ -79153,11 +77732,6 @@
             "高温超导带材计划扩产5万公里"
           ],
           "target_valuation": []
-        },
-        {
-          "date": "2026-04-21",
-          "title": "光板块领涨全市场！磷化铟：AI算力卡脖子核心，全产业链标的全梳理（附权威出处）",
-          "source": "https://mp.weixin.qq.com/s/5bluU2s8izAKQ9K3Fb2KGA"
         }
       ],
       "board": "SH",
@@ -79789,7 +78363,7 @@
       "partners": []
     },
     "600141": {
-      "mention_count": 5,
+      "mention_count": 3,
       "last_updated": "2026-06-11",
       "concepts": [
         "中芯国际概念",
@@ -79837,16 +78411,6 @@
           ],
           "key_metrics": [],
           "target_valuation": []
-        },
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        },
-        {
-          "date": "2026-03-25",
-          "title": "磷化工/磷酸铁锂，相关公司全梳理",
-          "source": "https://mp.weixin.qq.com/s/rOLV5sYS7QgE3tEyHtJvmg"
         },
         {
           "source": "https://mp.weixin.qq.com/s/NbUXn2W_bAsC3kDvNXjsvw",
@@ -80029,7 +78593,7 @@
       "partners": []
     },
     "600153": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "DeepSeek概念",
@@ -80048,13 +78612,7 @@
         "金属铜",
         "高股息精选"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "交通运输-物流-物流Ⅲ",
       "board": "SH",
       "code": "600153",
@@ -80128,7 +78686,7 @@
       ]
     },
     "600158": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "NFT概念",
@@ -80151,13 +78709,7 @@
       "core_business": [
         "国家体育总局系统内唯一的上市平台"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "社会服务-其他社会服务-体育",
       "board": "SH",
       "products": [
@@ -80760,7 +79312,7 @@
       "partners": []
     },
     "600206": {
-      "mention_count": 4,
+      "mention_count": 2,
       "last_updated": "2026-06-10",
       "partners": [],
       "concepts": [
@@ -80810,27 +79362,6 @@
             "Q1经营性现金流为负（-12.2亿），主要系原材料储备和订单增加带来的采购开支，需关注后续季度回款情况。"
           ],
           "target_valuation": []
-        },
-        {
-          "key_metrics": [],
-          "target_valuation": [],
-          "summary": "",
-          "source": "微信公众号",
-          "insights": [],
-          "accidents": [],
-          "date": "2026-04-21",
-          "content": "具备相关技术储备，曾承担国家\"02 专项\"6 英寸磷化铟单晶片制备项目\n暂无明确产业化量产计划",
-          "analysis": "",
-          "title": "磷化铟（InP）：AI 算力卡脖子核心，全产业链标的全梳理"
-        },
-        {
-          "date": "2026-04-21",
-          "key_metrics": [],
-          "target_valuation": [],
-          "title": "光板块领涨全市场！磷化铟：AI算力卡脖子核心，全产业链标的全梳理（附权威出处）",
-          "source": "https://mp.weixin.qq.com/s/5bluU2s8izAKQ9K3Fb2KGA",
-          "insights": [],
-          "accidents": []
         },
         {
           "source": "https://mp.weixin.qq.com/s/5stY69kkBVz8Dbg7n5-PUg",
@@ -81132,7 +79663,7 @@
       "partners": []
     },
     "600237": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-06-04",
       "concepts": [
         "PET铜箔",
@@ -81161,11 +79692,6 @@
           ],
           "key_metrics": [],
           "target_valuation": []
-        },
-        {
-          "date": "2026-01-16",
-          "title": "600237  数字能源 超级电容 新能源车 高压快充 石英晶体谐振器 氢燃料电池 薄膜电容器龙头",
-          "source": "https://mp.weixin.qq.com/s/Gk0zYfr1zpGyT5m1hf88Og"
         }
       ],
       "industry": "电子-元件-被动元件",
@@ -81186,7 +79712,7 @@
       "partners": []
     },
     "600246": {
-      "mention_count": 5,
+      "mention_count": 4,
       "last_updated": "2026-06-04",
       "concepts": [
         "5G",
@@ -81236,11 +79762,6 @@
           ],
           "key_metrics": [],
           "target_valuation": []
-        },
-        {
-          "date": "2026-03-11",
-          "title": "国产算力芯片_概念股全梳理",
-          "source": "https://mp.weixin.qq.com/s/p5nB5n0NMhCZ5EnyUmvg5Q"
         },
         {
           "source": "https://mp.weixin.qq.com/s/QRPnYQ5t7TSZ4jpZUM0R2A",
@@ -81310,7 +79831,7 @@
       }
     },
     "600256": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "一带一路",
@@ -81326,13 +79847,7 @@
         "西部大开发",
         "煤化工概念"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "石油石化-油气开采及服务-油气开采",
       "board": "SH",
       "code": "600256",
@@ -81340,7 +79855,7 @@
       "partners": []
     },
     "600258": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "沪股通",
@@ -81351,13 +79866,7 @@
         "国企改革",
         "阿里巴巴概念"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "社会服务-旅游及酒店-酒店",
       "board": "SH",
       "code": "600258",
@@ -81743,7 +80252,7 @@
       ]
     },
     "600282": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-06-04",
       "concepts": [
         "C2M概念",
@@ -81783,11 +80292,6 @@
           ],
           "key_metrics": [],
           "target_valuation": []
-        },
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
         }
       ],
       "industry": "钢铁-钢铁-普钢",
@@ -81806,7 +80310,7 @@
       "partners": []
     },
     "600289": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "ST板块",
@@ -81820,13 +80324,7 @@
         "黑龙江自贸区",
         "数据安全"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "通信-通信服务-通信工程及服务",
       "board": "SH",
       "products": [
@@ -82010,7 +80508,7 @@
       "partners": []
     },
     "600308": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-06-11",
       "concepts": [
         "光伏概念",
@@ -82032,11 +80530,6 @@
         "元宇宙"
       ],
       "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        },
         {
           "source": "https://mp.weixin.qq.com/s/hBnjEsBDhWgZWOStZeRO6Q",
           "title": "环氧丙烷产业链：落后产能出清，绿色工艺主导",
@@ -83325,7 +81818,7 @@
       "partners": []
     },
     "600376": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-06-05",
       "concepts": [
         "沪股通",
@@ -83341,13 +81834,7 @@
         "国企改革",
         "租售同权"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "房地产-房地产-住宅开发",
       "board": "SH",
       "code": "600376",
@@ -83974,7 +82461,7 @@
       }
     },
     "600410": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-06-05",
       "concepts": [
         "AIGC概念",
@@ -84014,13 +82501,7 @@
       "core_business": [
         "相关收入占公司整体营业收入比例较低"
       ],
-      "articles": [
-        {
-          "date": "2026-01-16",
-          "title": "01月16日___公告精选",
-          "source": "https://mp.weixin.qq.com/s/qN7Z17lOZu8pTOQh-GcMjQ"
-        }
-      ],
+      "articles": [],
       "industry": "计算机-IT服务-IT服务Ⅲ",
       "board": "SH",
       "code": "600410",
@@ -84210,7 +82691,7 @@
       "partners": []
     },
     "600423": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "ST板块",
@@ -84220,13 +82701,7 @@
         "芯片概念",
         "西部大开发"
       ],
-      "articles": [
-        {
-          "date": "2025-07-23",
-          "title": "600423  化工 电子级双氧水 半导体 国企改革 双氧水龙头企业",
-          "source": "https://mp.weixin.qq.com/s/2MYFkqj6ZOeFBzi5i4bTvw"
-        }
-      ],
+      "articles": [],
       "industry": "基础化工-化学原料-其他化学原料",
       "board": "SH",
       "code": "600423",
@@ -84907,7 +83382,7 @@
       "partners": []
     },
     "600482": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-05-31",
       "concepts": [
         "DeepSeek概念",
@@ -84956,11 +83431,6 @@
             "2026年30亿利润，30X",
             "少数股权注入完成后2027年76亿利润，12X"
           ]
-        },
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
         }
       ],
       "industry": "电力设备-其他电源设备-其他电源设备Ⅲ",
@@ -86112,7 +84582,7 @@
       "partners": []
     },
     "600528": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "DeepSeek概念",
@@ -86132,13 +84602,7 @@
         "高端装备",
         "高铁"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "机械设备-轨交设备-轨交设备Ⅲ",
       "board": "SH",
       "code": "600528",
@@ -86146,7 +84610,7 @@
       "partners": []
     },
     "600531": {
-      "mention_count": 2,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "partners": [
         "国内多家半导体材料厂商"
@@ -86166,29 +84630,7 @@
         "黄金概念"
       ],
       "industry_position": [],
-      "articles": [
-        {
-          "key_metrics": [],
-          "target_valuation": [],
-          "summary": "",
-          "source": "微信公众号",
-          "insights": [],
-          "accidents": [],
-          "date": "2026-04-21",
-          "content": "国内铅锌冶炼龙头，依托铅锌冶炼系统规模化回收稀散金属铟\n铟年产能 30 吨，2025 年铟产量 28 吨",
-          "analysis": "",
-          "title": "磷化铟（InP）：AI 算力卡脖子核心，全产业链标的全梳理"
-        },
-        {
-          "date": "2026-04-21",
-          "key_metrics": [],
-          "target_valuation": [],
-          "title": "光板块领涨全市场！磷化铟：AI算力卡脖子核心，全产业链标的全梳理（附权威出处）",
-          "source": "https://mp.weixin.qq.com/s/5bluU2s8izAKQ9K3Fb2KGA",
-          "insights": [],
-          "accidents": []
-        }
-      ],
+      "articles": [],
       "board": "SH",
       "industry": "有色金属-工业金属-铅锌",
       "products": [
@@ -87020,7 +85462,7 @@
       "name": "信雅达"
     },
     "600577": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "ERP概念",
@@ -87043,13 +85485,7 @@
         "铜缆高速连接",
         "高压快充"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "电力设备-电网设备-线缆部件及其他",
       "board": "SH",
       "code": "600577",
@@ -87609,7 +86045,7 @@
       "partners": []
     },
     "600596": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-06-03",
       "concepts": [
         "2026一季报预增",
@@ -87645,11 +86081,6 @@
           ],
           "key_metrics": [],
           "target_valuation": []
-        },
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
         }
       ],
       "industry": "基础化工-农化制品-农药",
@@ -87948,7 +86379,7 @@
       "partners": []
     },
     "600633": {
-      "mention_count": 3,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "AIGC概念",
@@ -87996,23 +86427,7 @@
       "core_business": [
         "数字营销服务和广告代理"
       ],
-      "articles": [
-        {
-          "date": "2026-01-14",
-          "title": "01月14日___公告精选",
-          "source": "https://mp.weixin.qq.com/s/Bb2447-2lU2LGAVbW38B0Q"
-        },
-        {
-          "date": "2026-03-09",
-          "title": "养龙虾_OpenClaw_相关公司全梳理",
-          "source": "https://mp.weixin.qq.com/s/QdXmOmXpD4cdHolnyEVSwA"
-        },
-        {
-          "date": "2026-03-11",
-          "title": "国产算力芯片_概念股全梳理",
-          "source": "https://mp.weixin.qq.com/s/p5nB5n0NMhCZ5EnyUmvg5Q"
-        }
-      ],
+      "articles": [],
       "industry": "传媒-游戏-游戏Ⅲ",
       "board": "SH",
       "products": [
@@ -88549,7 +86964,7 @@
       "partners": []
     },
     "600682": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "沪股通",
@@ -88563,13 +86978,7 @@
         "IP经济(谷子经济)",
         "养老概念"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "综合-综合-综合Ⅲ",
       "board": "SH",
       "code": "600682",
@@ -88671,7 +87080,7 @@
       "partners": []
     },
     "600688": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "沪股通",
@@ -88684,13 +87093,7 @@
         "碳交易",
         "国企改革"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "石油石化-石油加工贸易-石油加工",
       "board": "SH",
       "code": "600688",
@@ -88989,7 +87392,7 @@
       "partners": []
     },
     "600702": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "回购增持再贷款概念",
@@ -89000,13 +87403,7 @@
         "C2M概念",
         "西部大开发"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "食品饮料-白酒-白酒Ⅲ",
       "board": "SH",
       "code": "600702",
@@ -89014,7 +87411,7 @@
       "partners": []
     },
     "600703": {
-      "mention_count": 5,
+      "mention_count": 4,
       "last_updated": "2026-06-05",
       "partners": [
         "华为",
@@ -89123,11 +87520,6 @@
             "国内SiC市场规模同比增长40%",
             "SiC衬底/功率器件产能同比增长50%+"
           ]
-        },
-        {
-          "date": "2026-04-21",
-          "title": "光板块领涨全市场！磷化铟：AI算力卡脖子核心，全产业链标的全梳理（附权威出处）",
-          "source": "https://mp.weixin.qq.com/s/5bluU2s8izAKQ9K3Fb2KGA"
         }
       ],
       "board": "SH",
@@ -89200,7 +87592,7 @@
       "partners": []
     },
     "600707": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-06-05",
       "partners": [],
       "concepts": [
@@ -89214,17 +87606,7 @@
       "industry_position": [
         "显示基板龙头"
       ],
-      "articles": [
-        {
-          "date": "2026-04-21",
-          "key_metrics": [],
-          "target_valuation": [],
-          "title": "TGV（玻璃通孔）技术全解析 + 核心企业梳理",
-          "source": "https://mp.weixin.qq.com/s/6PeirSTCbFUP9h2JdS5i2Q",
-          "insights": [],
-          "accidents": []
-        }
-      ],
+      "articles": [],
       "board": "SH",
       "industry": "电子-光学光电子-面板",
       "products": [
@@ -89847,7 +88229,7 @@
       "partners": []
     },
     "600759": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "ST板块",
@@ -89858,13 +88240,7 @@
         "天然气",
         "海南自贸区"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "石油石化-油气开采及服务-油气开采",
       "board": "SH",
       "code": "600759",
@@ -89954,7 +88330,7 @@
       "partners": []
     },
     "600761": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "沪股通",
@@ -89968,13 +88344,7 @@
         "国企改革",
         "机器视觉"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "机械设备-工程机械-工程机械Ⅲ",
       "board": "SH",
       "products": [
@@ -90134,7 +88504,7 @@
       "partners": []
     },
     "600775": {
-      "mention_count": 2,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "东数西算(算力)",
@@ -90156,18 +88526,7 @@
         "脑机接口",
         "融资融券"
       ],
-      "articles": [
-        {
-          "date": "2026-03-11",
-          "title": "600775  卫星导航 脑机接口 5G 6G通信技术 输配电设备 智能制造 央企改革 轨道交通 机器人 军工信息化龙头 卫星终端打通天基互联",
-          "source": "https://mp.weixin.qq.com/s/eFohuuF\\_aj9wE25WAgH4Kw"
-        },
-        {
-          "date": "2025-08-05",
-          "title": "600775  卫星导航 脑机接口 5G 6G通信技术 输配电设备 智能制造 机器人 军工信息化 卫星终端打通 天基互联",
-          "source": "https://mp.weixin.qq.com/s/KTo1zkTUkJy5jq7O3bkN0Q"
-        }
-      ],
+      "articles": [],
       "industry": "通信-通信设备-通信终端及配件",
       "board": "SH",
       "code": "600775",
@@ -90243,7 +88602,7 @@
       "partners": []
     },
     "600783": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "创投",
@@ -90256,13 +88615,7 @@
       "industry_position": [
         "股权/投资关联"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "非银金融-多元金融-多元金融Ⅲ",
       "board": "SH",
       "products": [
@@ -90397,7 +88750,7 @@
       "partners": []
     },
     "600797": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "AI应用",
@@ -90441,13 +88794,7 @@
         "阿里巴巴概念",
         "鸿蒙概念"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "计算机-IT服务-IT服务Ⅲ",
       "board": "SH",
       "products": [
@@ -90462,7 +88809,7 @@
       "partners": []
     },
     "600798": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "一带一路",
@@ -90471,13 +88818,7 @@
         "中俄贸易概念",
         "国企改革"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "交通运输-港口航运-航运",
       "board": "SH",
       "code": "600798",
@@ -90515,7 +88856,7 @@
       "partners": []
     },
     "600802": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "融资融券",
@@ -90527,13 +88868,7 @@
         "参股券商",
         "水泥概念"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "建筑材料-建筑材料-水泥",
       "board": "SH",
       "code": "600802",
@@ -90571,7 +88906,7 @@
       "partners": []
     },
     "600809": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "沪股通",
@@ -90580,13 +88915,7 @@
         "同花顺漂亮100",
         "国企改革"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "食品饮料-白酒-白酒Ⅲ",
       "board": "SH",
       "code": "600809",
@@ -90680,7 +89009,7 @@
       "partners": []
     },
     "600826": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "AI智能体",
@@ -90701,13 +89030,7 @@
       "core_business": [
         "高性能脑电及脑机接口技术研发和应用"
       ],
-      "articles": [
-        {
-          "date": "2026-03-10",
-          "title": "脑机接口_江苏_相关公司全梳理",
-          "source": "https://mp.weixin.qq.com/s/b6Dc2Y4Br\\_LZmAuABEr4tQ"
-        }
-      ],
+      "articles": [],
       "industry": "社会服务-其他社会服务-专业服务",
       "board": "SH",
       "code": "600826",
@@ -92105,7 +90428,7 @@
       "partners": []
     },
     "600889": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "ST板块",
@@ -92118,13 +90441,7 @@
         "机器人概念",
         "股权转让(并购重组)"
       ],
-      "articles": [
-        {
-          "date": "2025-10-15",
-          "title": "600889  5G A 东数西算信息智能传输 通信网络维护 区块链 信息技术企业",
-          "source": "https://mp.weixin.qq.com/s/7Cx0cxLbxAPUvBVHM6D-hA"
-        }
-      ],
+      "articles": [],
       "industry": "机械设备-通用设备-其他通用设备",
       "board": "SH",
       "code": "600889",
@@ -92486,7 +90803,7 @@
       "partners": []
     },
     "600927": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "沪股通",
@@ -92494,13 +90811,7 @@
         "国企改革",
         "期货概念"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "非银金融-多元金融-多元金融Ⅲ",
       "board": "SH",
       "code": "600927",
@@ -92710,7 +91021,7 @@
       "partners": []
     },
     "600961": {
-      "mention_count": 4,
+      "mention_count": 2,
       "last_updated": "2026-06-05",
       "partners": [
         "国内多家化合物半导体厂商"
@@ -92796,27 +91107,6 @@
             "🎯 投资评级：★★★★★ 强烈推荐 | 目标价：上方空间打开 | 止损位：5日均线",
             "CPO/光模块：止损位设5日均线（约-5%），止盈目标+15-20%"
           ]
-        },
-        {
-          "key_metrics": [],
-          "target_valuation": [],
-          "summary": "",
-          "source": "微信公众号",
-          "insights": [],
-          "accidents": [],
-          "date": "2026-04-21",
-          "content": "国内锌冶炼伴生铟回收技术领军者\n铟年产能 60 吨，2025 年铟产量 52 吨",
-          "analysis": "",
-          "title": "磷化铟（InP）：AI 算力卡脖子核心，全产业链标的全梳理"
-        },
-        {
-          "date": "2026-04-21",
-          "key_metrics": [],
-          "target_valuation": [],
-          "title": "光板块领涨全市场！磷化铟：AI算力卡脖子核心，全产业链标的全梳理（附权威出处）",
-          "source": "https://mp.weixin.qq.com/s/5bluU2s8izAKQ9K3Fb2KGA",
-          "insights": [],
-          "accidents": []
         }
       ],
       "board": "SH",
@@ -92840,7 +91130,7 @@
       }
     },
     "600967": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "减速器",
@@ -92869,13 +91159,7 @@
         "西部大开发",
         "高铁"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "国防军工-军工装备-地面兵装",
       "board": "SH",
       "code": "600967",
@@ -92883,7 +91167,7 @@
       "partners": []
     },
     "600970": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "DeepSeek概念",
@@ -92899,13 +91183,7 @@
         "风电",
         "高股息精选"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "建筑装饰-建筑装饰-专业工程",
       "board": "SH",
       "code": "600970",
@@ -93414,7 +91692,7 @@
       "partners": []
     },
     "601001": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "国企改革",
@@ -93423,13 +91701,7 @@
         "融资融券",
         "高股息精选"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "煤炭-煤炭开采加工-煤炭开采",
       "board": "SH",
       "code": "601001",
@@ -94016,18 +92288,12 @@
       "partners": []
     },
     "601081": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "制造业"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "制造业",
       "board": "SH",
       "code": "601081",
@@ -94035,7 +92301,7 @@
       "partners": []
     },
     "601083": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "一带一路",
@@ -94051,13 +92317,7 @@
         "融资融券",
         "跨境电商"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "交通运输-港口航运-航运",
       "board": "SH",
       "code": "601083",
@@ -94295,7 +92555,7 @@
       "processed_at": "2026-05-24T16:24:53.073732+08:00"
     },
     "601106": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "一带一路",
@@ -94318,13 +92578,7 @@
         "高端装备",
         "黑龙江自贸区"
       ],
-      "articles": [
-        {
-          "date": "2026-01-15",
-          "title": "01月15日___公告精选",
-          "source": "https://mp.weixin.qq.com/s/JUD8Rl1vSTqdVJlWf40wzw"
-        }
-      ],
+      "articles": [],
       "industry": "机械设备-专用设备-能源及重型设备",
       "board": "SH",
       "products": [
@@ -94998,7 +93252,7 @@
       }
     },
     "601139": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "DeepSeek概念",
@@ -95019,13 +93273,7 @@
         "融资融券",
         "证金持股"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "公用事业-燃气-燃气Ⅲ",
       "board": "SH",
       "code": "601139",
@@ -95194,7 +93442,7 @@
       "partners": []
     },
     "601186": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "PPP概念",
@@ -95216,13 +93464,7 @@
         "高股息精选",
         "高铁"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "建筑装饰-建筑装饰-基础建设",
       "board": "SH",
       "code": "601186",
@@ -95230,7 +93472,7 @@
       "partners": []
     },
     "601198": {
-      "mention_count": 4,
+      "mention_count": 2,
       "last_updated": "2026-05-31",
       "concepts": [
         "互联网金融",
@@ -95274,16 +93516,6 @@
           "target_valuation": [
             "- 盈利弹性：若FCBGA项目实现满产，净利率可达20%以上。东兴证券预计2026年EPS为0.25元，对应目标价18.41元。但需注意，当前股价已反映部分预期"
           ]
-        },
-        {
-          "date": "2026-03-25",
-          "title": "今天的一些信息整理3.25",
-          "source": "wechat"
-        },
-        {
-          "date": "2026-03-25",
-          "title": "今天的一些信息整理3.25",
-          "source": "https://mp.weixin.qq.com/s/IPF3zZ0n--NiWQWch4MWCA"
         }
       ],
       "industry": "非银金融-证券-证券Ⅲ",
@@ -95493,7 +93725,7 @@
       ]
     },
     "601211": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "沪股通",
@@ -95508,13 +93740,7 @@
       "industry_position": [
         "通过三支基金持股中科宇航约 0.2%"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "非银金融-证券-证券Ⅲ",
       "board": "SH",
       "products": [
@@ -96153,7 +94379,7 @@
       "partners": []
     },
     "601567": {
-      "mention_count": 3,
+      "mention_count": 1,
       "last_updated": "2026-05-31",
       "concepts": [
         "AI应用",
@@ -96186,16 +94412,6 @@
             "成本上升",
             "需求下滑"
           ]
-        },
-        {
-          "date": "2026-03-25",
-          "title": "0324信息汇总",
-          "source": ""
-        },
-        {
-          "date": "2026-03-25",
-          "title": "0324信息汇总",
-          "source": "https://mp.weixin.qq.com/s/s1uCNiF6CMoRNov-ffsrhg"
         }
       ],
       "industry": "电力设备-电网设备-输变电设备",
@@ -96512,7 +94728,7 @@
       }
     },
     "601601": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "互联网保险",
@@ -96523,13 +94739,7 @@
         "融资融券",
         "证金持股"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "非银金融-保险-保险Ⅲ",
       "board": "SH",
       "code": "601601",
@@ -96572,7 +94782,7 @@
       "partners": []
     },
     "601608": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-06-05",
       "concepts": [
         "减速器",
@@ -96603,13 +94813,7 @@
       "industry_position": [
         "领军企业"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "机械设备-专用设备-能源及重型设备",
       "board": "SH",
       "code": "601608",
@@ -96887,7 +95091,7 @@
       }
     },
     "601616": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "充电桩",
@@ -96897,13 +95101,7 @@
         "腾讯概念",
         "风电"
       ],
-      "articles": [
-        {
-          "date": "2026-03-04",
-          "title": "601616  AI 数据中心 充电桩 智能电网 电力设备 配电控制领域企业",
-          "source": "https://mp.weixin.qq.com/s/e8uWMy02Gtegj-tS9axcwQ"
-        }
-      ],
+      "articles": [],
       "industry": "电力设备-电网设备-输变电设备",
       "board": "SH",
       "code": "601616",
@@ -96911,7 +95109,7 @@
       "partners": []
     },
     "601628": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "中字头股票",
@@ -96923,13 +95121,7 @@
         "融资融券",
         "证金持股"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "非银金融-保险-保险Ⅲ",
       "board": "SH",
       "code": "601628",
@@ -98152,7 +96344,7 @@
       "partners": []
     },
     "601778": {
-      "mention_count": 3,
+      "mention_count": 2,
       "last_updated": "2026-06-05",
       "concepts": [
         "东数西算(算力)",
@@ -98211,11 +96403,6 @@
             "行业地位：河南电力国资，火电+绿电+算力一体化转型标杆，拟投资11亿元参股先天算力，京津冀1GW算力布局。"
           ],
           "target_valuation": []
-        },
-        {
-          "date": "2026-03-25",
-          "title": "0325信息汇总",
-          "source": "https://mp.weixin.qq.com/s/A7IP8VkQuahCOZjumNl8vg"
         }
       ],
       "industry": "公用事业-电力-新能源发电",
@@ -98232,7 +96419,7 @@
       "partners": []
     },
     "601789": {
-      "mention_count": 4,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "PPP概念",
@@ -98259,28 +96446,7 @@
         "为数据中心机柜位出租,主要客户包括金山云",
         "业务为数据中心机柜位出租,主要客户包括金山云"
       ],
-      "articles": [
-        {
-          "date": "2026-01-15",
-          "title": "01月15日___公告精选",
-          "source": "https://mp.weixin.qq.com/s/JUD8Rl1vSTqdVJlWf40wzw"
-        },
-        {
-          "date": "2026-03-09",
-          "title": "养龙虾_OpenClaw_相关公司全梳理",
-          "source": "https://mp.weixin.qq.com/s/QdXmOmXpD4cdHolnyEVSwA"
-        },
-        {
-          "date": "2026-03-09",
-          "title": "小米龙虾_miclaw_相关公司全梳理",
-          "source": "https://mp.weixin.qq.com/s/0gPS9aotUkpq1k3XRHfAbw"
-        },
-        {
-          "date": "2026-03-08",
-          "title": "龙虾___OpenClaw__概念股全梳理",
-          "source": "https://mp.weixin.qq.com/s/Z4azYxp4pCXn6Netk83EWQ"
-        }
-      ],
+      "articles": [],
       "industry": "建筑装饰-建筑装饰-房屋建设",
       "board": "SH",
       "products": [
@@ -99548,7 +97714,7 @@
       "partners": []
     },
     "601958": {
-      "mention_count": 3,
+      "mention_count": 2,
       "last_updated": "2026-06-11",
       "concepts": [
         "沪股通",
@@ -99595,11 +97761,6 @@
             "中芯国际"
           ],
           "hot_topic": "金属钼(半导体互连)"
-        },
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
         },
         {
           "source": "https://mp.weixin.qq.com/s/NbUXn2W_bAsC3kDvNXjsvw",
@@ -99876,7 +98037,7 @@
       "partners": []
     },
     "603002": {
-      "mention_count": 4,
+      "mention_count": 3,
       "last_updated": "2026-06-09",
       "concepts": [
         "3D打印",
@@ -99924,11 +98085,6 @@
           "target_valuation": [
             "3. 业绩弹性与估值重估：高端树脂业务具备极高的业绩弹性。据测算，2025年AI树脂业务有望贡献超10亿元营收，毛利率超65%，有望驱动公司估值从传统化工向电子"
           ]
-        },
-        {
-          "date": "2025-08-13",
-          "title": "603002  环氧树脂 覆铜板 PCB的上游国产龙头 英伟达供应商 先进封装 国内领先的高端环氧树脂龙头企业",
-          "source": "https://mp.weixin.qq.com/s/0sJFlfiOsdwHLmEDnUCRPw"
         },
         {
           "source": "https://mp.weixin.qq.com/s/7Z7Qm8F3mzF6jQXTZiutog",
@@ -99981,7 +98137,7 @@
       ]
     },
     "603005": {
-      "mention_count": 3,
+      "mention_count": 2,
       "last_updated": "2026-06-05",
       "partners": [],
       "concepts": [
@@ -100061,18 +98217,6 @@
             "毛利率稳居40%附近，远超传统封测同行；伴随产能利用率回升，ROE正步入上升通道。"
           ],
           "target_valuation": []
-        },
-        {
-          "key_metrics": [],
-          "target_valuation": [],
-          "summary": "",
-          "source": "微信公众号",
-          "insights": [],
-          "accidents": [],
-          "date": "2026-04-21",
-          "content": "TGV 领域有深入布局，是玻璃基板封装技术的领军企业",
-          "analysis": "",
-          "title": "TGV（玻璃通孔）技术全解析 + 核心企业梳理"
         }
       ],
       "board": "SH",
@@ -100186,7 +98330,7 @@
       ]
     },
     "603010": {
-      "mention_count": 3,
+      "mention_count": 1,
       "last_updated": "2026-05-10",
       "concepts": [
         "沪股通",
@@ -100206,16 +98350,6 @@
           "insights": [
             "产能扩张"
           ]
-        },
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        },
-        {
-          "date": "2026-03-25",
-          "title": "磷化工/磷酸铁锂，相关公司全梳理",
-          "source": "https://mp.weixin.qq.com/s/rOLV5sYS7QgE3tEyHtJvmg"
         }
       ],
       "industry": "基础化工-化学制品-其他化学制品",
@@ -100383,7 +98517,7 @@
       }
     },
     "603015": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "沪股通",
@@ -100407,13 +98541,7 @@
         "核电",
         "物联网"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "机械设备-自动化设备-工控设备",
       "board": "SH",
       "code": "603015",
@@ -100464,7 +98592,7 @@
       }
     },
     "603017": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-05-31",
       "concepts": [
         "DeepSeek概念",
@@ -100521,11 +98649,6 @@
           "target_valuation": [
             "⭐ 中际旭创（300308）：光模块全球龙头，一季报业绩高增验证景气度，中线持有目标价120元。"
           ]
-        },
-        {
-          "date": "2025-10-17",
-          "title": "603017  低空经济 多模态AI 数据中心 光伏建筑一体化 工程建设 装配建筑 独角兽 设计总承包双轮驱动",
-          "source": "https://mp.weixin.qq.com/s/emJjbpyuFNnfA5ptHDSUFQ"
         }
       ],
       "industry": "建筑装饰-建筑装饰-工程咨询服务",
@@ -100606,7 +98729,7 @@
       "partners": []
     },
     "603019": {
-      "mention_count": 8,
+      "mention_count": 7,
       "last_updated": "2026-06-05",
       "partners": [
         "华为"
@@ -100796,18 +98919,6 @@
             "从PE估值来看，海光信息PE为276倍，寒武纪PE为183倍，反映出市场对AI芯片企业的高成长预期。中际旭创PE为43倍，估值相对合理，作为业绩确定性较高的光模块龙头，具备较好的安",
             "国内AI服务器龙头，市场份额约30%。公司2026年Q1营收354.70亿元，同比下降24.30%，但净利润6.05亿元，同比增长30.74%，反映出产品结构优化和盈利能力提升。核"
           ]
-        },
-        {
-          "key_metrics": [],
-          "target_valuation": [],
-          "summary": "",
-          "source": "手动整理",
-          "insights": [],
-          "accidents": [],
-          "date": "2026-04-21",
-          "content": "",
-          "analysis": "",
-          "title": "航天轴承 + 金刚石散热 + AI 服务器核心标的梳理"
         }
       ],
       "board": "SH",
@@ -100838,7 +98949,7 @@
       }
     },
     "603023": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "车联网(车路协同)",
@@ -100853,13 +98964,7 @@
         "黑龙江自贸区",
         "摘帽"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "汽车-汽车零部件-汽车电子电气系统",
       "board": "SH",
       "code": "603023",
@@ -101260,7 +99365,7 @@
       "partners": []
     },
     "603063": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-06-04",
       "concepts": [
         "储能",
@@ -101293,11 +99398,6 @@
           ],
           "key_metrics": [],
           "target_valuation": []
-        },
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
         }
       ],
       "industry": "电力设备-风电设备-风电零部件",
@@ -101451,7 +99551,7 @@
       "partners": []
     },
     "603077": {
-      "mention_count": 4,
+      "mention_count": 2,
       "last_updated": "2026-05-31",
       "concepts": [
         "TOPCON电池",
@@ -101494,16 +99594,6 @@
           "insights": [
             "产能扩张"
           ]
-        },
-        {
-          "date": "2026-03-25",
-          "title": "磷化工/磷酸铁锂，相关公司全梳理",
-          "source": ""
-        },
-        {
-          "date": "2026-03-25",
-          "title": "磷化工/磷酸铁锂，相关公司全梳理",
-          "source": "https://mp.weixin.qq.com/s/rOLV5sYS7QgE3tEyHtJvmg"
         }
       ],
       "industry": "基础化工-农化制品-磷肥及磷化工",
@@ -101755,7 +99845,7 @@
       "partners": []
     },
     "603097": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "储能",
@@ -101769,13 +99859,7 @@
         "雄安新区",
         "风电"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "电力设备-电网设备-输变电设备",
       "board": "SH",
       "code": "603097",
@@ -101866,7 +99950,7 @@
       "partners": []
     },
     "603108": {
-      "mention_count": 2,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "AIGC概念",
@@ -101888,18 +99972,7 @@
       "core_business": [
         "加速落地"
       ],
-      "articles": [
-        {
-          "date": "2026-01-13",
-          "title": "01月13日___公告精选",
-          "source": "https://mp.weixin.qq.com/s/rsZJiIMkryfLfjf9tkDtFA"
-        },
-        {
-          "date": "2026-01-15",
-          "title": "01月15日___热点前瞻",
-          "source": "https://mp.weixin.qq.com/s/WaHW1uChP\\_xswrs-BJhduw"
-        }
-      ],
+      "articles": [],
       "industry": "医药生物-医药商业-医药流通",
       "board": "SH",
       "products": [
@@ -102259,20 +100332,14 @@
       "partners": []
     },
     "603125": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "沪股通",
         "融资融券",
         "风电"
       ],
-      "articles": [
-        {
-          "date": "2025-10-10",
-          "title": "603125  高端光刻胶材料 TMA 精细化工 风电 高分子新材料特种单体龙头",
-          "source": "https://mp.weixin.qq.com/s/YhPZpQqahuqiv\\_0EekhsSQ"
-        }
-      ],
+      "articles": [],
       "industry": "基础化工-化学制品-其他化学制品",
       "board": "SH",
       "code": "603125",
@@ -102315,7 +100382,7 @@
       "partners": []
     },
     "603131": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "沪股通",
@@ -102332,13 +100399,7 @@
         "工业母机",
         "卫星导航"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "机械设备-通用设备-其他通用设备",
       "board": "SH",
       "chain": [
@@ -102349,7 +100410,7 @@
       "partners": []
     },
     "603138": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-05-31",
       "concepts": [
         "人工智能",
@@ -102371,11 +100432,6 @@
           ],
           "title": "01月16日___公告精选",
           "source": "https://mp.weixin.qq.com/s/qN7Z17lOZu8pTOQh-GcMjQ"
-        },
-        {
-          "date": "2026-03-10",
-          "title": "AI向量数据库_概念股全梳理",
-          "source": "https://mp.weixin.qq.com/s/k51b1aXf63VuWXP0o\\_UUiA"
         }
       ],
       "industry": "计算机-软件开发-横向通用软件",
@@ -102476,7 +100532,7 @@
       }
     },
     "603160": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-06-10",
       "concepts": [
         "AI应用",
@@ -102511,11 +100567,6 @@
         "粤港澳大湾区"
       ],
       "articles": [
-        {
-          "date": "2025-03-29",
-          "title": "风口byTY",
-          "source": "https://mp.weixin.qq.com/s/BhjhMod4TjccWvlj7sSQMA"
-        },
         {
           "source": "https://mp.weixin.qq.com/s/5stY69kkBVz8Dbg7n5-PUg",
           "title": "6月10日首板逻辑",
@@ -102791,7 +100842,7 @@
       "partners": []
     },
     "603193": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "C2M概念",
@@ -102801,13 +100852,7 @@
         "融资融券",
         "跨境电商"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "美容护理-美容护理-个护用品",
       "board": "SH",
       "code": "603193",
@@ -103105,7 +101150,7 @@
       "partners": []
     },
     "603215": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "AI眼镜",
@@ -103119,13 +101164,7 @@
         "机器人概念",
         "网红经济"
       ],
-      "articles": [
-        {
-          "date": "2026-03-11",
-          "title": "国产算力芯片_概念股全梳理",
-          "source": "https://mp.weixin.qq.com/s/p5nB5n0NMhCZ5EnyUmvg5Q"
-        }
-      ],
+      "articles": [],
       "industry": "家用电器-小家电-小家电Ⅲ",
       "board": "SH",
       "products": [
@@ -103170,7 +101209,7 @@
       "partners": []
     },
     "603220": {
-      "mention_count": 4,
+      "mention_count": 3,
       "last_updated": "2026-06-10",
       "concepts": [
         "5G",
@@ -103223,15 +101262,6 @@
             "已投产算力1.8万P",
             "2026年底计划扩至3万P"
           ]
-        },
-        {
-          "title": "算力 冷液",
-          "date": "2026-04-17",
-          "source": "",
-          "accidents": [],
-          "insights": [],
-          "key_metrics": [],
-          "target_valuation": []
         },
         {
           "title": "红云路工作室0",
@@ -103406,7 +101436,7 @@
       "partners": []
     },
     "603228": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-06-05",
       "code": "603228",
       "articles": [
@@ -103439,11 +101469,6 @@
           "partners": [
             "英伟达"
           ]
-        },
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
         }
       ],
       "board": "SH",
@@ -103541,7 +101566,7 @@
       "partners": []
     },
     "603232": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-06-05",
       "concepts": [
         "AI智能体",
@@ -103600,11 +101625,6 @@
             "截至 2026 年 5 月下旬，公司经历由盈转亏后，传统 P/E 估值阶段性失效（市销率 P/S 约 9.8 倍，市净率 P/B 约 3.1 倍）。但其价值核心"
           ],
           "target_valuation": []
-        },
-        {
-          "date": "2025-10-19",
-          "title": "603232  量子科技 数据安全 稳定币 移动支付 军工信息 国内商用密码领域头部企业 中国信息安全数字证书领域的先行者",
-          "source": "https://mp.weixin.qq.com/s/-iWm5otw5hUAJ3G5fZ5ypw"
         }
       ],
       "industry": "计算机-软件开发-横向通用软件",
@@ -104345,7 +102365,7 @@
       }
     },
     "603290": {
-      "mention_count": 3,
+      "mention_count": 2,
       "last_updated": "2026-06-04",
       "concepts": [
         "MCU芯片",
@@ -104403,11 +102423,6 @@
             "国内SiC市场规模同比增长40%",
             "SiC衬底/功率器件产能同比增长50%+"
           ]
-        },
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
         }
       ],
       "industry": "电子-半导体-分立器件",
@@ -104707,7 +102722,7 @@
       "partners": []
     },
     "603305": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "一体化压铸",
@@ -104728,13 +102743,7 @@
       "partners": [
         "特斯拉"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "汽车-汽车零部件-底盘与发动机系统",
       "board": "SH",
       "code": "603305",
@@ -105033,7 +103042,7 @@
       "partners": []
     },
     "603345": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "预制菜",
@@ -105042,13 +103051,7 @@
         "福建自贸区",
         "海峡两岸"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "食品饮料-食品加工制造-预加工食品",
       "board": "SH",
       "chain": [
@@ -105747,7 +103750,7 @@
       "name": "金辰股份"
     },
     "603416": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "机器人概念",
@@ -105757,13 +103760,7 @@
         "融资融券",
         "机器视觉"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "机械设备-自动化设备-机器人",
       "board": "SH",
       "code": "603416",
@@ -106216,7 +104213,7 @@
       "partners": []
     },
     "603511": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "沪股通",
@@ -106226,13 +104223,7 @@
         "跨境电商",
         "IP经济(谷子经济)"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "纺织服饰-服装家纺-服装",
       "board": "SH",
       "code": "603511",
@@ -106349,7 +104340,7 @@
       ]
     },
     "603533": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-06-04",
       "concepts": [
         "AI应用",
@@ -106387,11 +104378,6 @@
           ],
           "key_metrics": [],
           "target_valuation": []
-        },
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
         }
       ],
       "industry": "传媒-文化传媒-数字媒体",
@@ -107989,7 +105975,7 @@
       "partners": []
     },
     "603661": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-06-04",
       "concepts": [
         "一带一路",
@@ -108019,11 +106005,6 @@
             "预计26-28年归母净利润分别为4.0/5.2/6.2亿元"
           ],
           "target_valuation": []
-        },
-        {
-          "date": "2026-03-11",
-          "title": "国产算力芯片_概念股全梳理",
-          "source": "https://mp.weixin.qq.com/s/p5nB5n0NMhCZ5EnyUmvg5Q"
         }
       ],
       "industry": "轻工制造-家居用品-成品家居",
@@ -108538,7 +106519,7 @@
       "partners": []
     },
     "603690": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-06-04",
       "concepts": [
         "先进封装",
@@ -108574,11 +106555,6 @@
           ],
           "key_metrics": [],
           "target_valuation": []
-        },
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
         }
       ],
       "industry": "电子-半导体-半导体设备",
@@ -108669,7 +106645,7 @@
       "partners": []
     },
     "603703": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "5G",
@@ -108682,13 +106658,7 @@
         "量子科技",
         "铜缆高速连接"
       ],
-      "articles": [
-        {
-          "date": "2025-11-26",
-          "title": "603703  商业航天 卫星通讯 铜缆高速连接 5G科技 量子科技 卫星通信广播电视终端全球供应商",
-          "source": "https://mp.weixin.qq.com/s/Ll-jcWgs4S5UzHoYN3dr8A"
-        }
-      ],
+      "articles": [],
       "industry": "电子-光学光电子-面板",
       "board": "SH",
       "code": "603703",
@@ -108739,7 +106709,7 @@
       "partners": []
     },
     "603721": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "AI应用",
@@ -108765,13 +106735,7 @@
         "虚拟现实",
         "足球概念"
       ],
-      "articles": [
-        {
-          "date": "2026-03-05",
-          "title": "阶跃星辰_概念股全梳理",
-          "source": "https://mp.weixin.qq.com/s/x5SI-nZsEJACW5ptKWuU7Q"
-        }
-      ],
+      "articles": [],
       "industry": "传媒-影视院线-影视院线Ⅲ",
       "board": "SH",
       "products": [
@@ -108892,7 +106856,7 @@
       "name": "鸣志电器"
     },
     "603730": {
-      "mention_count": 3,
+      "mention_count": 1,
       "last_updated": "2026-05-31",
       "concepts": [
         "上海自贸区",
@@ -108913,16 +106877,6 @@
             "需求旺盛",
             "客户优质"
           ]
-        },
-        {
-          "date": "2026-03-25",
-          "title": "0325信息汇总",
-          "source": ""
-        },
-        {
-          "date": "2026-03-25",
-          "title": "0325信息汇总",
-          "source": "https://mp.weixin.qq.com/s/A7IP8VkQuahCOZjumNl8vg"
         }
       ],
       "industry": "汽车-汽车零部件-车身附件及饰件",
@@ -109044,7 +106998,7 @@
       "partners": []
     },
     "603773": {
-      "mention_count": 5,
+      "mention_count": 4,
       "last_updated": "2026-06-09",
       "partners": [
         "华为昇腾",
@@ -109124,15 +107078,6 @@
             "最小孔径3μm、深宽比150:1"
           ],
           "target_valuation": []
-        },
-        {
-          "date": "2026-04-21",
-          "key_metrics": [],
-          "target_valuation": [],
-          "title": "TGV（玻璃通孔）技术全解析 + 核心企业梳理",
-          "source": "https://mp.weixin.qq.com/s/6PeirSTCbFUP9h2JdS5i2Q",
-          "insights": [],
-          "accidents": []
         },
         {
           "source": "https://mp.weixin.qq.com/s/iEE6C_ikHNLZZlfa6-ux3A",
@@ -109830,7 +107775,7 @@
       "name": "安正时尚"
     },
     "603858": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "肝炎概念",
@@ -109846,13 +107791,7 @@
         "流感",
         "医药电商"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "医药生物-中药-中药Ⅲ",
       "board": "SH",
       "code": "603858",
@@ -110114,7 +108053,7 @@
       "name": "数据港"
     },
     "603882": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "AIGC概念",
@@ -110138,13 +108077,7 @@
         "融资融券",
         "食品安全"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "医药生物-医疗服务-其他医疗服务",
       "board": "SH",
       "code": "603882",
@@ -110322,7 +108255,7 @@
       "partners": []
     },
     "603906": {
-      "mention_count": 4,
+      "mention_count": 1,
       "last_updated": "2026-06-05",
       "concepts": [
         "一带一路",
@@ -110352,21 +108285,6 @@
           ],
           "title": "6月5日操作策略与风险提示-文末竞价参考",
           "source": "https://mp.weixin.qq.com/s/mviQg-7136xDWYgllcdRMA"
-        },
-        {
-          "date": "2026-03-25",
-          "title": "磷化工/磷酸铁锂，相关公司全梳理",
-          "source": "wechat"
-        },
-        {
-          "date": "2026-03-25",
-          "title": "磷化工/磷酸铁锂，相关公司全梳理",
-          "source": ""
-        },
-        {
-          "date": "2026-03-25",
-          "title": "磷化工/磷酸铁锂，相关公司全梳理",
-          "source": "https://mp.weixin.qq.com/s/rOLV5sYS7QgE3tEyHtJvmg"
         }
       ],
       "industry": "电力设备-电池-电池化学品",
@@ -111336,7 +109254,7 @@
       "partners": []
     },
     "603992": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-06-11",
       "concepts": [
         "2026一季报预增",
@@ -111350,11 +109268,6 @@
         "福建自贸区"
       ],
       "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        },
         {
           "source": "https://mp.weixin.qq.com/s/NbUXn2W_bAsC3kDvNXjsvw",
           "title": "6月11日首板逻辑",
@@ -112075,7 +109988,7 @@
       "partners": []
     },
     "605100": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "传感器",
@@ -112085,13 +109998,7 @@
         "汽车电子",
         "高端装备"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "机械设备-通用设备-金属制品",
       "board": "SH",
       "products": [
@@ -112359,7 +110266,7 @@
       "partners": []
     },
     "605208": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "减速器",
@@ -112375,13 +110282,7 @@
         "2025年报预增",
         "一体化压铸"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "有色金属-工业金属-铝",
       "board": "SH",
       "code": "605208",
@@ -112512,7 +110413,7 @@
       ]
     },
     "605287": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "AIGC概念",
@@ -112527,13 +110428,7 @@
         "虚拟现实",
         "装配式建筑"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "建筑装饰-建筑装饰-装饰园林",
       "board": "SH",
       "code": "605287",
@@ -112541,7 +110436,7 @@
       "partners": []
     },
     "605300": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "预制菜",
@@ -112550,13 +110445,7 @@
         "跨境电商",
         "代糖概念"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "食品饮料-饮料制造-乳品",
       "board": "SH",
       "code": "605300",
@@ -112885,7 +110774,7 @@
       "partners": []
     },
     "605376": {
-      "mention_count": 4,
+      "mention_count": 3,
       "last_updated": "2026-05-28",
       "partners": [
         "三星"
@@ -112962,11 +110851,6 @@
           ],
           "key_metrics": [],
           "target_valuation": []
-        },
-        {
-          "date": "2025-08-01",
-          "title": "风口byTY",
-          "source": "https://mp.weixin.qq.com/s/M-ICFAKKMZPgG4cWA18QhA"
         }
       ],
       "board": "SH",
@@ -112999,7 +110883,7 @@
       ]
     },
     "605399": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-06-03",
       "concepts": [
         "融资融券",
@@ -113020,11 +110904,6 @@
           ],
           "key_metrics": [],
           "target_valuation": []
-        },
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
         }
       ],
       "industry": "基础化工-化学制品-有机硅",
@@ -113160,7 +111039,7 @@
       "partners": []
     },
     "605588": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "苹果概念",
@@ -113173,13 +111052,7 @@
         "富士康概念",
         "华为概念"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "电子-光学光电子-面板",
       "board": "SH",
       "code": "605588",
@@ -113341,7 +111214,7 @@
       ]
     },
     "605598": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "商业航天",
@@ -113356,13 +111229,7 @@
       "industry_position": [
         "HJT电池生产基地基建工程解决方案提供商"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "建筑装饰-建筑装饰-专业工程",
       "board": "SH",
       "products": [
@@ -114303,7 +112170,7 @@
       "name": "国盾量子"
     },
     "688028": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-05-28",
       "concepts": [
         "沪股通",
@@ -114333,11 +112200,6 @@
           "target_valuation": [
             "ROE排名第一，净资产收益率1.42"
           ]
-        },
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
         }
       ],
       "industry": "机械设备-通用设备-磨具磨料",
@@ -115121,7 +112983,7 @@
       "partners": []
     },
     "688062": {
-      "mention_count": 3,
+      "mention_count": 1,
       "last_updated": "2026-05-31",
       "concepts": [
         "创新药",
@@ -115144,16 +113006,6 @@
             "技术领先",
             "业绩增长"
           ]
-        },
-        {
-          "date": "2026-03-25",
-          "title": "0324信息汇总",
-          "source": ""
-        },
-        {
-          "date": "2026-03-25",
-          "title": "0324信息汇总",
-          "source": "https://mp.weixin.qq.com/s/s1uCNiF6CMoRNov-ffsrhg"
         }
       ],
       "industry": "医药生物-生物制品-其他生物制品",
@@ -115781,7 +113633,7 @@
       "partners": []
     },
     "688085": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "机器人概念",
@@ -115792,13 +113644,7 @@
         "医疗器械概念",
         "智能医疗"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "医药生物-医疗器械-医疗耗材",
       "board": "SH",
       "code": "688085",
@@ -115865,7 +113711,7 @@
       "partners": []
     },
     "688097": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-05-31",
       "concepts": [
         "5G",
@@ -115913,11 +113759,6 @@
           "insights": [
             "自动化组装方向的重要补充"
           ]
-        },
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
         }
       ],
       "industry": "机械设备-自动化设备-其他自动化设备",
@@ -116087,7 +113928,7 @@
       "partners": []
     },
     "688103": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "沪股通",
@@ -116109,13 +113950,7 @@
         "华为概念",
         "低空经济"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "电子-其他电子-其他电子Ⅲ",
       "board": "SH",
       "code": "688103",
@@ -116123,7 +113958,7 @@
       "partners": []
     },
     "688107": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "5G",
@@ -116144,13 +113979,7 @@
         "融资融券",
         "量子科技"
       ],
-      "articles": [
-        {
-          "date": "2026-03-19",
-          "title": "",
-          "source": "https://mp.weixin.qq.com/s/PQ_0mafAn44Fag7BrsESCQ"
-        }
-      ],
+      "articles": [],
       "industry": "电子-半导体-数字芯片设计",
       "board": "SH",
       "code": "688107",
@@ -116158,7 +113987,7 @@
       "partners": []
     },
     "688108": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "2025年报预增",
@@ -116167,13 +113996,7 @@
         "沪股通",
         "融资融券"
       ],
-      "articles": [
-        {
-          "date": "2026-03-10",
-          "title": "脑机接口_江苏_相关公司全梳理",
-          "source": "https://mp.weixin.qq.com/s/b6Dc2Y4Br\\_LZmAuABEr4tQ"
-        }
-      ],
+      "articles": [],
       "industry": "医药生物-医疗器械-医疗耗材",
       "board": "SH",
       "products": [
@@ -116185,7 +114008,7 @@
       "partners": []
     },
     "688110": {
-      "mention_count": 3,
+      "mention_count": 2,
       "last_updated": "2026-05-10",
       "partners": [],
       "concepts": [
@@ -116225,11 +114048,6 @@
             "AI驱动存储需求"
           ],
           "accidents": []
-        },
-        {
-          "date": "2025-08-04",
-          "title": "风口byTY",
-          "source": "https://mp.weixin.qq.com/s/KhFc4FFkuOGAI749Mv6drA"
         }
       ],
       "board": "SH",
@@ -117290,7 +115108,7 @@
       ]
     },
     "688135": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-05-20",
       "concepts": [
         "先进封装",
@@ -117336,11 +115154,6 @@
           ],
           "processed_by": "tbox",
           "processed_at": "2026-05-20T11:46:50.489818+08:00"
-        },
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
         }
       ],
       "industry": "电子-半导体-集成电路封测",
@@ -117733,7 +115546,7 @@
       "partners": []
     },
     "688152": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "融资融券",
@@ -117754,13 +115567,7 @@
         "数据安全",
         "华为概念"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "计算机-软件开发-横向通用软件",
       "board": "SH",
       "code": "688152",
@@ -118025,7 +115832,7 @@
       "partners": []
     },
     "688162": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "减速器",
@@ -118044,13 +115851,7 @@
         "小米概念",
         "华为汽车"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "机械设备-专用设备-其他专用设备",
       "board": "SH",
       "code": "688162",
@@ -118314,7 +116115,7 @@
       ]
     },
     "688169": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "家用电器",
@@ -118328,13 +116129,7 @@
         "DeepSeek概念",
         "小米概念"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "家用电器-小家电-小家电Ⅲ",
       "board": "SH",
       "code": "688169",
@@ -118342,7 +116137,7 @@
       "partners": []
     },
     "688170": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "partners": [],
       "concepts": [
@@ -118375,17 +116170,7 @@
       "industry_position": [
         "TGV激光微孔加工设备供应商"
       ],
-      "articles": [
-        {
-          "date": "2026-04-21",
-          "key_metrics": [],
-          "target_valuation": [],
-          "title": "TGV（玻璃通孔）技术全解析 + 核心企业梳理",
-          "source": "https://mp.weixin.qq.com/s/6PeirSTCbFUP9h2JdS5i2Q",
-          "insights": [],
-          "accidents": []
-        }
-      ],
+      "articles": [],
       "board": "SH",
       "industry": "机械设备-自动化设备-激光设备",
       "products": [
@@ -118474,7 +116259,7 @@
       }
     },
     "688180": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "沪股通",
@@ -118487,13 +116272,7 @@
       "industry_position": [
         "VV116全球权益与商业化主体"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "医药生物-生物制品-其他生物制品",
       "board": "SH",
       "products": [
@@ -119966,7 +117745,7 @@
       "core_business": []
     },
     "688244": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "AI应用",
@@ -119992,13 +117771,7 @@
       "partners": [
         "华为"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "计算机-软件开发-横向通用软件",
       "board": "SH",
       "products": [
@@ -120048,7 +117821,7 @@
       "partners": []
     },
     "688249": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-06-05",
       "concepts": [
         "沪股通",
@@ -120063,13 +117836,7 @@
         "汽车芯片",
         "国企改革"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "电子-半导体-集成电路制造",
       "board": "SH",
       "code": "688249",
@@ -120457,7 +118224,7 @@
       }
     },
     "688261": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-05-31",
       "concepts": [
         "5G",
@@ -120518,11 +118285,6 @@
           "partners": [
             "台达"
           ]
-        },
-        {
-          "date": "2025-09-04",
-          "title": "风口byTY",
-          "source": "https://mp.weixin.qq.com/s/bszfNxF8Mee_gH-Xo_7hBw"
         }
       ],
       "industry": "电子-半导体-分立器件",
@@ -120708,7 +118470,7 @@
       "partners": []
     },
     "688272": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "专精特新",
@@ -120724,13 +118486,7 @@
         "车联网(车路协同)",
         "量子科技"
       ],
-      "articles": [
-        {
-          "date": "2025-12-19",
-          "title": "688272  红外热成像 商业航天 机器人 军工 红外热成像产品和解决方案企业",
-          "source": "https://mp.weixin.qq.com/s/yWCJTFglRqWlURiLdL829w"
-        }
-      ],
+      "articles": [],
       "industry": "国防军工-军工电子-军工电子Ⅲ",
       "board": "SH",
       "code": "688272",
@@ -121468,7 +119224,7 @@
       ]
     },
     "688314": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "3D打印",
@@ -121480,13 +119236,7 @@
         "融资融券",
         "西部大开发"
       ],
-      "articles": [
-        {
-          "date": "2026-03-10",
-          "title": "脑机接口_江苏_相关公司全梳理",
-          "source": "https://mp.weixin.qq.com/s/b6Dc2Y4Br\\_LZmAuABEr4tQ"
-        }
-      ],
+      "articles": [],
       "industry": "医药生物-医疗器械-医疗耗材",
       "board": "SH",
       "products": [
@@ -121991,7 +119741,7 @@
       "name": "铂力特"
     },
     "688337": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-05-31",
       "concepts": [
         "DeepSeek概念",
@@ -122009,11 +119759,6 @@
           "insights": [
             "高速光模块测试仪器国产替代的重要受益者"
           ]
-        },
-        {
-          "date": "2026-03-10",
-          "title": "脑机接口_江苏_相关公司全梳理",
-          "source": "https://mp.weixin.qq.com/s/b6Dc2Y4Br\\_LZmAuABEr4tQ"
         }
       ],
       "industry": "机械设备-通用设备-仪器仪表",
@@ -122901,7 +120646,7 @@
       ]
     },
     "688380": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "沪股通",
@@ -122921,13 +120666,7 @@
         "MCU芯片",
         "汽车芯片"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "电子-半导体-数字芯片设计",
       "board": "SH",
       "products": [
@@ -123056,7 +120795,7 @@
       "partners": []
     },
     "688385": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-06-04",
       "concepts": [
         "MCU芯片",
@@ -123082,11 +120821,6 @@
           ],
           "key_metrics": [],
           "target_valuation": []
-        },
-        {
-          "date": "2026-03-19",
-          "title": "",
-          "source": "https://mp.weixin.qq.com/s/PQ_0mafAn44Fag7BrsESCQ"
         }
       ],
       "industry": "电子-半导体-数字芯片设计",
@@ -123538,7 +121272,7 @@
       }
     },
     "688393": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "人工智能",
@@ -123547,13 +121281,7 @@
         "腾讯概念",
         "融资融券"
       ],
-      "articles": [
-        {
-          "date": "2026-01-15",
-          "title": "01月15日___热点前瞻",
-          "source": "https://mp.weixin.qq.com/s/WaHW1uChP\\_xswrs-BJhduw"
-        }
-      ],
+      "articles": [],
       "industry": "医药生物-医疗器械-体外诊断",
       "board": "SH",
       "products": [
@@ -123564,7 +121292,7 @@
       "partners": []
     },
     "688396": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-06-04",
       "concepts": [
         "MCU芯片",
@@ -123613,11 +121341,6 @@
           ],
           "key_metrics": [],
           "target_valuation": []
-        },
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
         }
       ],
       "industry": "电子-半导体-集成电路制造",
@@ -123731,7 +121454,7 @@
       ]
     },
     "688408": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-05-28",
       "concepts": [
         "光伏概念",
@@ -123755,11 +121478,6 @@
           "target_valuation": [
             "PE 65.13，估值合理"
           ]
-        },
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
         }
       ],
       "industry": "电力设备-光伏设备-光伏辅材",
@@ -123778,7 +121496,7 @@
       }
     },
     "688418": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "5G",
@@ -123817,13 +121535,7 @@
       "industry_position": [
         "深度参与中国星网低轨卫星项目"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "通信-通信设备-其他通信设备",
       "board": "SH",
       "products": [
@@ -123989,7 +121701,7 @@
       "partners": []
     },
     "688443": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "创新药",
@@ -124000,13 +121712,7 @@
       "core_business": [
         "国产首款全人源抗 IL-17A 单抗"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "医药生物-生物制品-其他生物制品",
       "board": "SH",
       "code": "688443",
@@ -124014,7 +121720,7 @@
       "partners": []
     },
     "688469": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-06-09",
       "concepts": [
         "5G",
@@ -124041,11 +121747,6 @@
         "融资融券"
       ],
       "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        },
         {
           "source": "https://mp.weixin.qq.com/s/FB_Yi85_u5JS4uYFe1O7ag",
           "title": "6月9日信息汇总：Rubin液冷+电源+光纤+硅片+零部件+设备等",
@@ -125103,7 +122804,7 @@
       "processed_at": "2026-05-20T11:46:50.489890+08:00"
     },
     "688526": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "沪股通",
@@ -125116,13 +122817,7 @@
         "动物疫苗",
         "生态农业"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "农林牧渔-养殖业-动物保健",
       "board": "SH",
       "code": "688526",
@@ -125161,7 +122856,7 @@
       "partners": []
     },
     "688529": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "小米汽车",
@@ -125185,13 +122880,7 @@
         "DeepSeek概念",
         "机器视觉"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "机械设备-专用设备-其他专用设备",
       "board": "SH",
       "code": "688529",
@@ -125199,7 +122888,7 @@
       "partners": []
     },
     "688530": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-06-11",
       "concepts": [
         "HJT电池",
@@ -125214,11 +122903,6 @@
         "钙钛矿电池"
       ],
       "articles": [
-        {
-          "date": "2025-10-22",
-          "title": "688530  半导体 复合集流体 太阳能 HIT电池 新材料 溅射靶材领域的领先半导体企业",
-          "source": "https://mp.weixin.qq.com/s/aAYT6mUjHCtihZA0HQev3Q"
-        },
         {
           "source": "https://mp.weixin.qq.com/s/weJ4TYTRcMp4KDYxhpX80w",
           "title": "日本半导体11个卡脖子位置，中国公司逐个拔掉",
@@ -125423,7 +123107,7 @@
       "partners": []
     },
     "688543": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "商业航天",
@@ -125439,13 +123123,7 @@
         "收入中占比极低（不足1%）",
         "业务收入中占比极低（不足1%）"
       ],
-      "articles": [
-        {
-          "date": "2026-01-13",
-          "title": "01月13日___公告精选",
-          "source": "https://mp.weixin.qq.com/s/rsZJiIMkryfLfjf9tkDtFA"
-        }
-      ],
+      "articles": [],
       "industry": "国防军工-军工装备-地面兵装",
       "board": "SH",
       "products": [
@@ -125842,7 +123520,7 @@
       "partners": []
     },
     "688567": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "两轮车",
@@ -125864,13 +123542,7 @@
         "飞行汽车(eVTOL)",
         "高压快充"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "电力设备-电池-锂电池",
       "board": "SH",
       "code": "688567",
@@ -125999,7 +123671,7 @@
       "partners": []
     },
     "688580": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "机器人概念",
@@ -126015,13 +123687,7 @@
       "industry_position": [
         "神经康复细分龙头"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "医药生物-医疗器械-医疗设备",
       "board": "SH",
       "products": [
@@ -126234,7 +123900,7 @@
       "partners": []
     },
     "688596": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-06-09",
       "concepts": [
         "专精特新",
@@ -126256,11 +123922,6 @@
         "高端装备"
       ],
       "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        },
         {
           "source": "https://mp.weixin.qq.com/s/FB_Yi85_u5JS4uYFe1O7ag",
           "title": "6月9日信息汇总：Rubin液冷+电源+光纤+硅片+零部件+设备等",
@@ -126465,7 +124126,7 @@
       "partners": []
     },
     "688603": {
-      "mention_count": 3,
+      "mention_count": 2,
       "last_updated": "2026-05-31",
       "partners": [
         "国内半导体装备头部企业"
@@ -126512,15 +124173,6 @@
             "上游-PCB化学品"
           ],
           "partners": []
-        },
-        {
-          "date": "2026-04-21",
-          "key_metrics": [],
-          "target_valuation": [],
-          "title": "TGV（玻璃通孔）技术全解析 + 核心企业梳理",
-          "source": "https://mp.weixin.qq.com/s/6PeirSTCbFUP9h2JdS5i2Q",
-          "insights": [],
-          "accidents": []
         }
       ],
       "board": "SH",
@@ -126668,7 +124320,7 @@
       "partners": []
     },
     "688617": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "沪股通",
@@ -126676,13 +124328,7 @@
         "专精特新",
         "医疗器械概念"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "医药生物-医疗器械-医疗耗材",
       "board": "SH",
       "code": "688617",
@@ -127155,7 +124801,7 @@
       "partners": []
     },
     "688636": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "沪股通",
@@ -127171,13 +124817,7 @@
         "西部大开发",
         "卫星导航"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "国防军工-军工电子-军工电子Ⅲ",
       "board": "SH",
       "products": [
@@ -127188,7 +124828,7 @@
       "partners": []
     },
     "688639": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "人工智能",
@@ -127199,13 +124839,7 @@
         "维生素",
         "融资融券"
       ],
-      "articles": [
-        {
-          "date": "2026-03-12",
-          "title": "维生素氨基酸__相关公司全梳理",
-          "source": "https://mp.weixin.qq.com/s/ZpFfSMj-M8NDyjPXqATiMg"
-        }
-      ],
+      "articles": [],
       "industry": "基础化工-化学制品-食品及饲料添加剂",
       "board": "SH",
       "products": [
@@ -127707,7 +125341,7 @@
       "partners": []
     },
     "688686": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "AI应用",
@@ -127721,13 +125355,7 @@
         "粤港澳大湾区",
         "机器视觉"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "机械设备-自动化设备-其他自动化设备",
       "board": "SH",
       "code": "688686",
@@ -127764,7 +125392,7 @@
       "partners": []
     },
     "688691": {
-      "mention_count": 3,
+      "mention_count": 2,
       "last_updated": "2026-05-10",
       "partners": [],
       "concepts": [
@@ -127804,11 +125432,6 @@
             "国产芯片设计服务"
           ],
           "accidents": []
-        },
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
         }
       ],
       "board": "SH",
@@ -127900,7 +125523,7 @@
       "partners": []
     },
     "688709": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-05-31",
       "concepts": [
         "MCU芯片",
@@ -127939,11 +125562,6 @@
           "accidents": [
             "全球首发侵入式脑机接口医疗器械获批"
           ]
-        },
-        {
-          "date": "2026-03-19",
-          "title": "",
-          "source": "https://mp.weixin.qq.com/s/PQ_0mafAn44Fag7BrsESCQ"
         }
       ],
       "industry": "电子-半导体-模拟芯片设计",
@@ -128041,7 +125659,7 @@
       ]
     },
     "688733": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-06-12",
       "concepts": [
         "PCB概念",
@@ -128060,11 +125678,6 @@
         "锂电池概念"
       ],
       "articles": [
-        {
-          "date": "2026-03-10",
-          "title": "硅微粉_相关公司梳理",
-          "source": "https://mp.weixin.qq.com/s/8RRhX9XkFXbi-goFb3Z1fg"
-        },
         {
           "source": "https://mp.weixin.qq.com/s/_AxJ67eFzTt1FMrzZK2-ZQ",
           "title": "6月11日信息整理：CPO+液冷+CCL+DrMOS+设备+零部件等",
@@ -129355,18 +126968,12 @@
       ]
     },
     "835207": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "科技"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "新三板",
       "board": "SZ",
       "code": "835207",
@@ -129396,18 +127003,12 @@
       "partners": []
     },
     "837092": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "科技"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "新三板",
       "board": "SZ",
       "code": "837092",
@@ -129562,18 +127163,12 @@
       "partners": []
     },
     "872808": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-10",
       "concepts": [
         "新三板"
       ],
-      "articles": [
-        {
-          "date": "",
-          "title": "风口byTY",
-          "source": ""
-        }
-      ],
+      "articles": [],
       "industry": "新三板",
       "board": "SZ",
       "products": [
@@ -129637,7 +127232,7 @@
       "partners": []
     },
     "920810": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-05-31",
       "concepts": [
         "专精特新",
@@ -129650,13 +127245,7 @@
         ",拓展智能机器人领域;致力于打造“智能工厂大脑”",
         "打造“智能工厂大脑”"
       ],
-      "articles": [
-        {
-          "date": "2026-03-05",
-          "title": "智能经济概念股全梳理",
-          "source": "https://mp.weixin.qq.com/s/38wLfMEVaATcpweuQ7AKMg"
-        }
-      ],
+      "articles": [],
       "industry": "机械设备-专用设备-印刷包装机械",
       "board": "SZ",
       "code": "920810",
@@ -174094,13 +171683,7 @@
         "氢能源",
         "中俄贸易概念"
       ],
-      "articles": [
-        {
-          "date": "2025-10-27",
-          "title": "920158  电脱设备 海工装备 智能制造 能源化工专用设备制造商",
-          "source": "https://mp.weixin.qq.com/s/XDtw-j3SzmCANKovqqATfA"
-        }
-      ],
+      "articles": [],
       "industry": "机械设备-专用设备-能源及重型设备",
       "board": "BJ",
       "code": "920158",
