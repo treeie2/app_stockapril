@@ -1307,8 +1307,8 @@ def stock_detail(code):
     
     stock['articles'] = articles
     
-    # 添加上一页/下一页导航
-    stock_codes = sorted(stocks.keys())
+    # 添加上一页/下一页导航（按更新时间排序）
+    stock_codes = sorted(stocks.keys(), key=lambda c: (stocks[c].get('last_updated', ''), c), reverse=True)
     current_idx = stock_codes.index(code) if code in stock_codes else -1
     prev_stock = None
     next_stock = None
