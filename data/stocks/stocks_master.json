@@ -65730,8 +65730,8 @@
       "name": "爱朋医疗"
     },
     "300757": {
-      "mention_count": 3,
-      "last_updated": "2026-06-05",
+      "mention_count": 4,
+      "last_updated": "2026-06-12",
       "concepts": [
         "BC电池",
         "HJT电池",
@@ -65786,6 +65786,30 @@
           ],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/KtRIovNM4PEWUYErbepmAg",
+          "title": "6月12日机构调研笔记",
+          "date": "2026-06-12",
+          "accidents": [
+            "6月12日机构调研",
+            "CPO光路对准+测试,受益大规模AI集群CPO加速"
+          ],
+          "insights": [
+            "CPO测试设备"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "CPO测试设备"
+          ],
+          "industry_position": [
+            "CPO光路对准+测试,受益大规模AI集群CPO加速"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
         }
       ],
       "industry": "机械设备-自动化设备-其他自动化设备",
@@ -65799,6 +65823,12 @@
       "products": [
         "设备",
         "测试"
+      ],
+      "industry_position": [
+        "CPO光路对准+测试,受益大规模AI集群CPO加速"
+      ],
+      "chain": [
+        "中游-制造"
       ]
     },
     "300758": {
@@ -94005,8 +94035,8 @@
       "partners": []
     },
     "601001": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-12",
       "concepts": [
         "国企改革",
         "沪股通",
@@ -94019,13 +94049,46 @@
           "date": "",
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/KtRIovNM4PEWUYErbepmAg",
+          "title": "6月12日机构调研笔记",
+          "date": "2026-06-12",
+          "accidents": [
+            "6月12日机构调研",
+            "分红比例50%,股息率2.87%,3月煤价同比转增,Q2弹性"
+          ],
+          "insights": [
+            "煤炭+高分红"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "煤炭+高分红"
+          ],
+          "industry_position": [
+            "分红比例50%,股息率2.87%,3月煤价同比转增,Q2弹性"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
         }
       ],
       "industry": "煤炭-煤炭开采加工-煤炭开采",
       "board": "SH",
       "code": "601001",
       "name": "晋控煤业",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "煤炭+高分红"
+      ],
+      "industry_position": [
+        "分红比例50%,股息率2.87%,3月煤价同比转增,Q2弹性"
+      ],
+      "chain": [
+        "中游-制造"
+      ]
     },
     "601005": {
       "mention_count": 1,
@@ -104806,8 +104869,8 @@
       ]
     },
     "603283": {
-      "mention_count": 1,
-      "last_updated": "2026-05-10",
+      "mention_count": 2,
+      "last_updated": "2026-06-12",
       "concepts": [
         "光伏概念",
         "苹果概念",
@@ -104840,6 +104903,30 @@
           ],
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/KtRIovNM4PEWUYErbepmAg",
+          "title": "6月12日机构调研笔记",
+          "date": "2026-06-12",
+          "accidents": [
+            "6月12日机构调研",
+            "收购OPTIMA切入8/12寸晶圆检测,三星/Sumco客户,HBM突破"
+          ],
+          "insights": [
+            "晶圆检测+HBM+消费电子设备"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "晶圆检测+HBM+消费电子设备"
+          ],
+          "industry_position": [
+            "收购OPTIMA切入8/12寸晶圆检测,三星/Sumco客户,HBM突破"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
         }
       ],
       "industry": "机械设备-自动化设备-工控设备",
@@ -114802,7 +114889,7 @@
         "27 年利润：3 亿 (600 万平*50 元/平)",
         "目标市值：200-300 亿 (2 倍 + 空间)"
       ],
-      "last_updated": "2026-05-31",
+      "last_updated": "2026-06-12",
       "industry_position": [
         "国内唯一对标三井金属",
         "自主研发纯物理剥离层技术"
@@ -114823,7 +114910,7 @@
         "稀土永磁",
         "融资融券"
       ],
-      "mention_count": 2,
+      "mention_count": 3,
       "target_market_cap": "200-300 亿",
       "partners": [],
       "articles": [
@@ -114873,6 +114960,30 @@
           "partners": [],
           "processed_by": "tbox",
           "processed_at": "2026-05-23T21:40:13.059407+08:00"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/KtRIovNM4PEWUYErbepmAg",
+          "title": "6月12日机构调研笔记",
+          "date": "2026-06-12",
+          "accidents": [
+            "6月12日机构调研",
+            "载体铜箔国产替代,SLP/类载板,AI硬件升级"
+          ],
+          "insights": [
+            "电磁屏蔽膜+载体铜箔"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "电磁屏蔽膜+载体铜箔"
+          ],
+          "industry_position": [
+            "载体铜箔国产替代,SLP/类载板,AI硬件升级"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
         }
       ],
       "board": "SH",
@@ -152483,7 +152594,7 @@
       "code": "301358",
       "name": "湖南裕能",
       "concept": "",
-      "mention_count": 2,
+      "mention_count": 3,
       "articles": [
         {
           "title": "湖南裕能：上调目标价至人民币115.3元/股，维持买入评级",
@@ -152537,9 +152648,33 @@
             "新能源重卡：渗透率已达50%，存量1000万辆替换需求，单车带电量相当于10辆乘用车"
           ],
           "target_valuation": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/KtRIovNM4PEWUYErbepmAg",
+          "title": "6月12日机构调研笔记",
+          "date": "2026-06-12",
+          "accidents": [
+            "6月12日机构调研",
+            "26年出货160万吨+40%,满产满销,高端产品占比70-80%,磷矿年底投产"
+          ],
+          "insights": [
+            "磷酸铁锂龙头"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "磷酸铁锂龙头"
+          ],
+          "industry_position": [
+            "26年出货160万吨+40%,满产满销,高端产品占比70-80%,磷矿年底投产"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
         }
       ],
-      "last_updated": "2026-06-04",
+      "last_updated": "2026-06-12",
       "concepts": [
         "2025年报预增",
         "储能",
@@ -162170,8 +162305,33 @@
       "name": "美诺华",
       "concept": "",
       "mention_count": 1,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/KtRIovNM4PEWUYErbepmAg",
+          "title": "6月12日机构调研笔记",
+          "date": "2026-06-12",
+          "accidents": [
+            "6月12日机构调研",
+            "沙坦类价格企稳回暖,JH389人体试验完成,制剂产线满产"
+          ],
+          "insights": [
+            "特色原料药+制剂一体化"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "特色原料药+制剂一体化"
+          ],
+          "industry_position": [
+            "沙坦类价格企稳回暖,JH389人体试验完成,制剂产线满产"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-06-12",
       "concepts": [
         "CRO概念",
         "人民币贬值受益",
@@ -162187,7 +162347,16 @@
       ],
       "industry": "医药生物-化学制药-原料药",
       "board": "SH",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "特色原料药+制剂一体化"
+      ],
+      "industry_position": [
+        "沙坦类价格企稳回暖,JH389人体试验完成,制剂产线满产"
+      ],
+      "chain": [
+        "中游-制造"
+      ]
     },
     "603556": {
       "code": "603556",
@@ -179596,6 +179765,144 @@
           ],
           "chain": [
             "首板涨停"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "688581": {
+      "code": "688581",
+      "name": "安杰思",
+      "last_updated": "2026-06-12",
+      "mention_count": 1,
+      "board": "SH",
+      "core_business": [
+        "内镜耗材+高端诊疗设备"
+      ],
+      "industry_position": [
+        "单极/双极电刀+电子内窥镜获批,海外亚洲+20%,泰国工厂扩产"
+      ],
+      "chain": [
+        "中游-制造"
+      ],
+      "partners": [],
+      "concepts": [
+        "医疗器械"
+      ],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/KtRIovNM4PEWUYErbepmAg",
+          "title": "6月12日机构调研笔记",
+          "date": "2026-06-12",
+          "accidents": [
+            "6月12日机构调研",
+            "单极/双极电刀+电子内窥镜获批,海外亚洲+20%,泰国工厂扩产"
+          ],
+          "insights": [
+            "内镜耗材+高端诊疗设备"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "内镜耗材+高端诊疗设备"
+          ],
+          "industry_position": [
+            "单极/双极电刀+电子内窥镜获批,海外亚洲+20%,泰国工厂扩产"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "688721": {
+      "code": "688721",
+      "name": "龙图光罩",
+      "last_updated": "2026-06-12",
+      "mention_count": 1,
+      "board": "SH",
+      "core_business": [
+        "半导体掩膜版"
+      ],
+      "industry_position": [
+        "130nm→65nm→40nm工艺提升,汽车/存储芯片用"
+      ],
+      "chain": [
+        "中游-制造"
+      ],
+      "partners": [],
+      "concepts": [
+        "掩膜版"
+      ],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/KtRIovNM4PEWUYErbepmAg",
+          "title": "6月12日机构调研笔记",
+          "date": "2026-06-12",
+          "accidents": [
+            "6月12日机构调研",
+            "130nm→65nm→40nm工艺提升,汽车/存储芯片用"
+          ],
+          "insights": [
+            "半导体掩膜版"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "半导体掩膜版"
+          ],
+          "industry_position": [
+            "130nm→65nm→40nm工艺提升,汽车/存储芯片用"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "920554": {
+      "code": "920554",
+      "name": "铜冠铜箔",
+      "last_updated": "2026-06-12",
+      "mention_count": 1,
+      "board": "SZ",
+      "core_business": [
+        "载体铜箔+PCB铜箔"
+      ],
+      "industry_position": [
+        "mSAP必需载体铜箔,光模块国产替代,AI铜箔受益"
+      ],
+      "chain": [
+        "中游-制造"
+      ],
+      "partners": [],
+      "concepts": [
+        "铜箔"
+      ],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/KtRIovNM4PEWUYErbepmAg",
+          "title": "6月12日机构调研笔记",
+          "date": "2026-06-12",
+          "accidents": [
+            "6月12日机构调研",
+            "mSAP必需载体铜箔,光模块国产替代,AI铜箔受益"
+          ],
+          "insights": [
+            "载体铜箔+PCB铜箔"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "载体铜箔+PCB铜箔"
+          ],
+          "industry_position": [
+            "mSAP必需载体铜箔,光模块国产替代,AI铜箔受益"
+          ],
+          "chain": [
+            "中游-制造"
           ],
           "partners": []
         }
