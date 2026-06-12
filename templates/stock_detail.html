@@ -197,6 +197,46 @@
             </div>
         </div>
 
+        <!-- 机构估值（来自研报分析） -->
+        {% set v = stock.valuation %}
+        {% if v and (v.target_market_cap or v.target_price or v.pe or v.upside or v.rating) %}
+        <div class="section">
+            <h3>🎯 机构估值</h3>
+            <div class="price-row">
+                {% if v.target_market_cap %}
+                <div class="price-item">
+                    <div class="label">目标市值</div>
+                    <div class="value" style="font-size:20px;color:var(--accent-cyan);">{{ v.target_market_cap }}</div>
+                </div>
+                {% endif %}
+                {% if v.target_price %}
+                <div class="price-item">
+                    <div class="label">目标价</div>
+                    <div class="value" style="font-size:20px;color:var(--accent-blue);">{{ v.target_price }}</div>
+                </div>
+                {% endif %}
+                {% if v.pe %}
+                <div class="price-item">
+                    <div class="label">参考 PE</div>
+                    <div class="value" style="font-size:20px;color:var(--accent-violet);">{{ v.pe }}</div>
+                </div>
+                {% endif %}
+                {% if v.upside %}
+                <div class="price-item">
+                    <div class="label">上涨空间</div>
+                    <div class="value" style="font-size:20px;color:var(--accent-rose);">{{ v.upside }}</div>
+                </div>
+                {% endif %}
+            </div>
+            {% if v.rating %}
+            <div style="margin-top:12px;display:flex;gap:8px;align-items:center;">
+                <span style="font-size:13px;color:var(--text-muted);">机构评级</span>
+                <span style="padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;background:rgba(59,130,246,0.15);color:var(--accent-blue);border:1px solid rgba(59,130,246,0.3);">{{ v.rating }}</span>
+            </div>
+            {% endif %}
+        </div>
+        {% endif %}
+
         <!-- 目标估值（来自文章） -->
         {% set tv_items = [] %}
         {% for article in stock.articles %}

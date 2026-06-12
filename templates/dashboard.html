@@ -826,7 +826,7 @@
         }
         /* responsive */
         @media(max-width:900px){
-            .col-cap,.col-articles { display:none; }
+            .col-cap,.col-valuation,.col-articles { display:none; }
             .search-wrap { width:150px; }
         }
         @media(max-width:640px){
@@ -959,6 +959,7 @@
                         <th class="num" style="min-width:80px;">最新价</th>
                         <th class="num" style="min-width:80px;">涨跌幅</th>
                         <th class="num col-cap" style="min-width:76px;">总市值</th>
+                        <th class="num col-valuation" style="min-width:80px;">机构估值</th>
                         <th class="num col-mention" style="min-width:60px;">提及</th>
                         <th class="num col-articles" style="min-width:60px;">文章</th>
                         <th class="col-updated" style="min-width:100px;">更新时间</th>
@@ -1001,6 +1002,20 @@
                         </td>
                         <td class="num col-cap" id="mc-{{ stock.code }}">
                             <span style="color:var(--t3)">—</span>
+                        </td>
+                        <td class="num col-valuation" style="font-size:.72rem;">
+                            {% set v = stock.get('valuation', {}) %}
+                            {% if v.get('target_market_cap') %}
+                                <span style="color:var(--accent-cyan);" title="目标市值">{{ v.target_market_cap }}</span>
+                            {% elif v.get('target_price') %}
+                                <span style="color:var(--accent-blue);" title="目标价">{{ v.target_price }}</span>
+                            {% elif v.get('pe') %}
+                                <span style="color:var(--accent-violet);" title="参考PE">{{ v.pe }}</span>
+                            {% elif v.get('rating') %}
+                                <span style="color:var(--accent-amber);" title="评级">{{ v.rating }}</span>
+                            {% else %}
+                                <span style="color:var(--t3)">—</span>
+                            {% endif %}
                         </td>
                         <td class="num col-mention">
                             {% if stock.mention_count and stock.mention_count > 0 %}

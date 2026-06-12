@@ -170,7 +170,10 @@
       "core_business": [
         "封装基板制造",
         "玻璃基板工艺"
-      ]
+      ],
+      "valuation": {
+        "target_price": "18.41 元"
+      }
     },
     "002916": {
       "core_business": [
@@ -612,7 +615,11 @@
       "code": "688313",
       "core_business": [
         "磷化铟光芯片研发制造"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "1100.0 亿",
+        "target_market_cap_billion": 1100.0
+      }
     },
     "688498": {
       "mention_count": 6,
@@ -869,7 +876,11 @@
       "code": "603256",
       "core_business": [
         "电子布生产"
-      ]
+      ],
+      "valuation": {
+        "pe": "17.0 倍 PE",
+        "target_price": "31.36 元"
+      }
     },
     "000837": {
       "mention_count": 1,
@@ -1255,7 +1266,12 @@
         "AI光学",
         "光学元器件",
         "光通信"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "500.0 亿",
+        "target_market_cap_billion": 500.0,
+        "rating": "买入"
+      }
     },
     "002371": {
       "mention_count": 8,
@@ -1503,7 +1519,10 @@
       "insights": [
         "半导体设备龙头，提供SiC生产关键设备",
         "受益于SiC行业扩产"
-      ]
+      ],
+      "valuation": {
+        "pe": "65.0 倍 PE"
+      }
     },
     "002865": {
       "mention_count": 4,
@@ -1836,7 +1855,10 @@
       "core_business": [
         "第三代半导体（碳化硅/氮化镓）芯片设计与制造",
         "高端电子陶瓷封装"
-      ]
+      ],
+      "valuation": {
+        "pe": "24.8 倍 PE"
+      }
     },
     "300124": {
       "mention_count": 1,
@@ -2358,7 +2380,14 @@
         "高速光模块",
         "DSP芯片",
         "光模块"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "2.00 万亿",
+        "target_market_cap_billion": 20000.0,
+        "pe": "276.0 倍 PE",
+        "rating": "强烈推荐",
+        "target_price": "850.00 元"
+      }
     },
     "300328": {
       "mention_count": 2,
@@ -2792,7 +2821,11 @@
       "code": "300408",
       "core_business": [
         "MLCC制造"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "450.0 亿",
+        "target_market_cap_billion": 450.0
+      }
     },
     "300433": {
       "mention_count": 2,
@@ -2917,7 +2950,11 @@
         "超薄玻璃(UTG)",
         "消费电子玻璃盖板",
         "精密制造"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "3000.0 亿",
+        "target_market_cap_billion": 3000.0
+      }
     },
     "300502": {
       "mention_count": 4,
@@ -3054,7 +3091,10 @@
       "code": "300502",
       "core_business": [
         "光模块,NPO技术领先"
-      ]
+      ],
+      "valuation": {
+        "target_price": "111.20 元"
+      }
     },
     "300508": {
       "mention_count": 2,
@@ -3503,7 +3543,11 @@
       "code": "300666",
       "core_business": [
         "从材料供应商向材料+核心零部件一体化解决方案商转型"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "1000.0 亿",
+        "target_market_cap_billion": 1000.0
+      }
     },
     "300709": {
       "mention_count": 1,
@@ -3688,7 +3732,11 @@
       "core_business": [
         "射频电源研发生产",
         "半导体设备零部件"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "600.0 亿",
+        "target_market_cap_billion": 600.0
+      }
     },
     "301591": {
       "mention_count": 2,
@@ -3918,7 +3966,11 @@
       "code": "301611",
       "core_business": [
         "先进陶瓷材料的研发与生产，应用于半导体设备"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "2000.0 亿",
+        "target_market_cap_billion": 2000.0
+      }
     },
     "600183": {
       "mention_count": 8,
@@ -4200,7 +4252,11 @@
         "覆铜板(CCL)"
       ],
       "concept": "CCL;PTFE;英伟达;覆铜板;高频通信",
-      "description": "全球第二大刚性覆铜板企业，超低损耗CCL通过英伟达验证"
+      "description": "全球第二大刚性覆铜板企业，超低损耗CCL通过英伟达验证",
+      "valuation": {
+        "target_market_cap": "300.0 亿",
+        "target_market_cap_billion": 300.0
+      }
     },
     "600378": {
       "mention_count": 11,
@@ -4734,7 +4790,12 @@
         "芯片封测"
       ],
       "processed_by": "tbox",
-      "processed_at": "2026-05-20T11:46:50.489909+08:00"
+      "processed_at": "2026-05-20T11:46:50.489909+08:00",
+      "valuation": {
+        "target_market_cap": "300.0 亿",
+        "target_market_cap_billion": 300.0,
+        "pe": "65.0 倍 PE"
+      }
     },
     "603115": {
       "mention_count": 2,
@@ -5011,7 +5072,11 @@
       "core_business": [
         "冷却塔",
         "燃气轮机撬装"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "200.0 亿",
+        "target_market_cap_billion": 200.0
+      }
     },
     "688012": {
       "mention_count": 7,
@@ -5233,7 +5298,10 @@
       "code": "688012",
       "core_business": [
         "刻蚀设备"
-      ]
+      ],
+      "valuation": {
+        "pe": "65.0 倍 PE"
+      }
     },
     "688106": {
       "mention_count": 4,
@@ -5745,7 +5813,11 @@
       "core_business": [
         "物联网通信模组",
         "算力租赁"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "200.0 亿",
+        "target_market_cap_billion": 200.0
+      }
     },
     "688268": {
       "mention_count": 11,
@@ -6057,7 +6129,13 @@
         "电子特气研发生产",
         "氦气供应",
         "锗烷（锗硅外延气体）生产"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "200.0 亿",
+        "target_market_cap_billion": 200.0,
+        "rating": "持有",
+        "target_price": "120.00 元"
+      }
     },
     "688305": {
       "mention_count": 1,
@@ -6301,7 +6379,13 @@
       "core_business": [
         "覆铜板",
         "ABF材料（参股兴南创芯）"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "700.0 亿",
+        "target_market_cap_billion": 700.0,
+        "pe": "140.0 倍 PE",
+        "rating": "买入"
+      }
     },
     "688548": {
       "mention_count": 5,
@@ -6703,7 +6787,11 @@
         "磁控溅射设备"
       ],
       "processed_by": "tbox",
-      "processed_at": "2026-05-23T21:40:13.059452+08:00"
+      "processed_at": "2026-05-23T21:40:13.059452+08:00",
+      "valuation": {
+        "target_market_cap": "500.0 亿",
+        "target_market_cap_billion": 500.0
+      }
     },
     "688809": {
       "mention_count": 2,
@@ -6794,7 +6882,11 @@
         "探针卡研发生产"
       ],
       "processed_by": "tbox",
-      "processed_at": "2026-05-25T01:14:26.522719+08:00"
+      "processed_at": "2026-05-25T01:14:26.522719+08:00",
+      "valuation": {
+        "target_market_cap": "1000.0 亿",
+        "target_market_cap_billion": 1000.0
+      }
     },
     "000066": {
       "mention_count": 1,
@@ -6899,7 +6991,11 @@
         "参股CPU设计公司",
         "服务器整机及AI服务器",
         "服务器电源研发与制造"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "600.0 亿",
+        "target_market_cap_billion": 600.0
+      }
     },
     "002254": {
       "mention_count": 5,
@@ -7062,7 +7158,11 @@
         "化纤制造",
         "对位芳纶",
         "芳纶纸"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "330.0 亿",
+        "target_market_cap_billion": 330.0
+      }
     },
     "002886": {
       "mention_count": 3,
@@ -7783,7 +7883,12 @@
         "改性PEEK",
         "改性塑料",
         "改性塑料+特种工程塑料"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "464.0 亿",
+        "target_market_cap_billion": 464.0,
+        "pe": "40.0 倍 PE"
+      }
     },
     "688716": {
       "mention_count": 2,
@@ -9438,7 +9543,9 @@
         "国产AI电力龙头",
         "全球动力龙头"
       ],
-      "valuation": {},
+      "valuation": {
+        "pe": "16.0 倍 PE"
+      },
       "industry": "汽车-汽车零部件-底盘与发动机系统",
       "concepts": [
         "AI智能体",
@@ -10690,7 +10797,9 @@
         "燃机叶片国产替代先锋",
         "DQ/703国产燃机订单"
       ],
-      "valuation": {},
+      "valuation": {
+        "pe": "14.0 倍 PE"
+      },
       "industry": "医药生物-生物制品-其他生物制品",
       "concepts": [
         "低空经济",
@@ -12525,7 +12634,11 @@
       "code": "000636",
       "core_business": [
         "全球第二、国内唯一高端钛酸钡粉体供应商"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "450.0 亿",
+        "target_market_cap_billion": 450.0
+      }
     },
     "000638": {
       "core_business": [],
@@ -12566,7 +12679,10 @@
       "core_business": [],
       "last_updated": "2026-05-10",
       "industry_position": [],
-      "valuation": {},
+      "valuation": {
+        "target_market_cap": "350.0 亿",
+        "target_market_cap_billion": 350.0
+      },
       "industry": "制造业",
       "concepts": [
         "制造业"
@@ -12934,7 +13050,11 @@
       "code": "000657",
       "core_business": [
         "钨矿开采、钨制品加工"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "2200.0 亿",
+        "target_market_cap_billion": 2200.0
+      }
     },
     "000659": {
       "core_business": [],
@@ -13502,7 +13622,10 @@
         "全球显示面板龙头",
         "玻璃基板潜在平台型巨头"
       ],
-      "valuation": {},
+      "valuation": {
+        "target_market_cap": "4000.0 亿",
+        "target_market_cap_billion": 4000.0
+      },
       "industry": "电子-光学光电子-面板",
       "concepts": [
         "AI眼镜",
@@ -13674,7 +13797,10 @@
         "国内少数全面覆盖主动和被动元器件企业",
         "去年民用钽电容收入国内排名第一"
       ],
-      "valuation": {},
+      "valuation": {
+        "target_market_cap": "460.0 亿",
+        "target_market_cap_billion": 460.0
+      },
       "industry": "国防军工-军工电子-军工电子Ⅲ",
       "concepts": [
         "低空经济",
@@ -16066,7 +16192,12 @@
         "龙头",
         "服务器（硬件载体龙头"
       ],
-      "valuation": {},
+      "valuation": {
+        "target_market_cap": "2000.0 亿",
+        "target_market_cap_billion": 2000.0,
+        "pe": "276.0 倍 PE",
+        "target_price": "111.20 元"
+      },
       "industry": "计算机-IT服务-IT服务Ⅲ",
       "concepts": [
         "5G",
@@ -16628,7 +16759,10 @@
         "NCP渠道算力供应商",
         "环卫装备龙头"
       ],
-      "valuation": {},
+      "valuation": {
+        "target_market_cap": "500.0 亿",
+        "target_market_cap_billion": 500.0
+      },
       "industry": "环保-环保设备-环保设备Ⅲ",
       "concepts": [
         "PPP概念",
@@ -17184,7 +17318,13 @@
         "AI服务器",
         "存储设备",
         "算力基础设施"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "2000.0 亿",
+        "target_market_cap_billion": 2000.0,
+        "pe": "276.0 倍 PE",
+        "target_price": "111.20 元"
+      }
     },
     "000983": {
       "core_business": [],
@@ -17418,7 +17558,10 @@
       "core_business": [
         "磷化铟量子点光芯片自研",
         "光模块制造"
-      ]
+      ],
+      "valuation": {
+        "target_price": "111.20 元"
+      }
     },
     "000993": {
       "core_business": [],
@@ -17691,7 +17834,9 @@
       "core_business": [],
       "last_updated": "2026-05-31",
       "industry_position": [],
-      "valuation": {},
+      "valuation": {
+        "upside": "1.2%"
+      },
       "industry": "钢铁-钢铁-冶钢原料",
       "concepts": [
         "乡村振兴",
@@ -18036,7 +18181,11 @@
         "国内矿用轮胎核心供应商",
         "矿用巨胎领先企业"
       ],
-      "valuation": {},
+      "valuation": {
+        "target_market_cap": "210.0 亿",
+        "target_market_cap_billion": 210.0,
+        "pe": "14.0 倍 PE"
+      },
       "industry": "汽车-汽车零部件-轮胎轮毂",
       "concepts": [
         "一带一路",
@@ -18730,7 +18879,11 @@
       "code": "001309",
       "core_business": [
         "存储芯片研发与销售"
-      ]
+      ],
+      "valuation": {
+        "rating": "买入",
+        "target_price": "180.00 元"
+      }
     },
     "001314": {
       "core_business": [],
@@ -19595,7 +19748,11 @@
         "龙头",
         "龙头，商业模式最成熟"
       ],
-      "valuation": {},
+      "valuation": {
+        "upside": "15.0%",
+        "rating": "强烈推荐",
+        "target_price": "29.00 元"
+      },
       "industry": "公用事业-电力-新能源发电",
       "concepts": [
         "东数西算(算力)",
@@ -20678,7 +20835,11 @@
         "半导体设备",
         "精密制造",
         "轴承及超硬材料制品"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "600.0 亿",
+        "target_market_cap_billion": 600.0
+      }
     },
     "002047": {
       "mention_count": 1,
@@ -20733,7 +20894,11 @@
         "模块",
         "芯片",
         "封装"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "350.0 亿",
+        "target_market_cap_billion": 350.0
+      }
     },
     "002049": {
       "core_business": [],
@@ -21305,7 +21470,11 @@
         "国内风电叶片龙头",
         "玻纤行业领先企业"
       ],
-      "valuation": {},
+      "valuation": {
+        "pe": "17.0 倍 PE",
+        "rating": "买入",
+        "target_price": "51.82 元"
+      },
       "industry": "建筑材料-建筑材料-玻璃玻纤",
       "concepts": [
         "PCB概念",
@@ -22464,7 +22633,10 @@
       "industry_position": [
         "液冷+缺电核心票"
       ],
-      "valuation": {},
+      "valuation": {
+        "target_market_cap": "800.0 亿",
+        "target_market_cap_billion": 800.0
+      },
       "industry": "汽车-汽车零部件-底盘与发动机系统",
       "concepts": [
         "东数西算(算力)",
@@ -23261,7 +23433,11 @@
       "code": "002138",
       "core_business": [
         "电感研发与生产"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "900.0 亿",
+        "target_market_cap_billion": 900.0
+      }
     },
     "002140": {
       "core_business": [
@@ -24367,7 +24543,10 @@
         "为低空飞行器提供信号传输、电力连接等核心部件，产品可靠性高",
         "从主机控制系统到空管、运营设备，都依赖稳定连接器保障信号与电力传输"
       ],
-      "valuation": {},
+      "valuation": {
+        "target_market_cap": "900.0 亿",
+        "target_market_cap_billion": 900.0
+      },
       "industry": "国防军工-军工电子-军工电子Ⅲ",
       "concepts": [
         "5G",
@@ -25278,7 +25457,10 @@
         "液冷逻辑",
         "锂电量增"
       ],
-      "valuation": {},
+      "valuation": {
+        "target_market_cap": "1100.0 亿",
+        "target_market_cap_billion": 1100.0
+      },
       "industry": "有色金属-工业金属-铜",
       "concepts": [
         "PCB概念",
@@ -26214,7 +26396,10 @@
         "龙头",
         ".SZ）——二线龙头"
       ],
-      "valuation": {},
+      "valuation": {
+        "target_market_cap": "329.0 亿",
+        "target_market_cap_billion": 329.0
+      },
       "industry": "有色金属-能源金属-锂",
       "concepts": [
         "盐湖提锂",
@@ -26295,7 +26480,9 @@
         "龙头",
         "市场占有率的龙头"
       ],
-      "valuation": {},
+      "valuation": {
+        "rating": "买入"
+      },
       "industry": "电子-消费电子-消费电子零部件及组装",
       "concepts": [
         "同花顺果指数",
@@ -27968,7 +28155,11 @@
         "重卡发动机零部件",
         "大缸径曲轴连杆",
         "天然气喷射系统"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "260.0 亿",
+        "target_market_cap_billion": 260.0
+      }
     },
     "002284": {
       "core_business": [],
@@ -29215,7 +29406,11 @@
         "AI供配电设备（模块化UPS、800V HVDC、SST）",
         "液冷全栈方案（柜式/机架式CDU、manifold管路、软件控制）",
         "工控自动化（变频器、伺服系统）"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "200.0 亿",
+        "target_market_cap_billion": 200.0
+      }
     },
     "002335": {
       "core_business": [
@@ -30320,7 +30515,11 @@
       "partners": [
         "中芯、长江存储等），订单",
         "谷歌TPU V8发布后的订单"
-      ]
+      ],
+      "valuation": {
+        "rating": "持有",
+        "target_price": "120.00 元"
+      }
     },
     "002366": {
       "mention_count": 2,
@@ -30641,7 +30840,11 @@
       ],
       "code": "002378",
       "name": "章源钨业",
-      "partners": []
+      "partners": [],
+      "valuation": {
+        "target_market_cap": "2000.0 亿",
+        "target_market_cap_billion": 2000.0
+      }
     },
     "002383": {
       "mention_count": 1,
@@ -30874,7 +31077,11 @@
         "精密制造",
         "光芯片技术",
         "光模块"
-      ]
+      ],
+      "valuation": {
+        "rating": "强烈推荐",
+        "target_price": "850.00 元"
+      }
     },
     "002385": {
       "mention_count": 2,
@@ -31992,7 +32199,10 @@
       "partners": [
         "中芯国际等客户订单",
         "中芯国际、长江存储、台积电等优质头部客户"
-      ]
+      ],
+      "valuation": {
+        "target_price": "111.20 元"
+      }
     },
     "002413": {
       "mention_count": 1,
@@ -32889,7 +33099,11 @@
         "模块",
         "芯片",
         "封装"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "350.0 亿",
+        "target_market_cap_billion": 350.0
+      }
     },
     "002438": {
       "mention_count": 1,
@@ -33557,7 +33771,10 @@
       "industry_position": [
         "FSD域控制器PCB供应商（已有，追加）"
       ],
-      "valuation": {},
+      "valuation": {
+        "target_market_cap": "3000.0 亿",
+        "target_market_cap_billion": 3000.0
+      },
       "industry": "电子 - 电子元件 - PCB",
       "concepts": [
         "2026一季报预增",
@@ -35451,7 +35668,10 @@
       ],
       "code": "002534",
       "name": "西子洁能",
-      "partners": []
+      "partners": [],
+      "valuation": {
+        "pe": "28.0 倍 PE"
+      }
     },
     "002536": {
       "mention_count": 3,
@@ -37786,7 +38006,11 @@
       "partners": [],
       "chain": [
         "概念-元件PCB"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "25.0 亿",
+        "target_market_cap_billion": 25.0
+      }
     },
     "002640": {
       "mention_count": 1,
@@ -38085,7 +38309,11 @@
         "模块",
         "芯片",
         "封装"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "350.0 亿",
+        "target_market_cap_billion": 350.0
+      }
     },
     "002657": {
       "mention_count": 2,
@@ -39113,7 +39341,11 @@
         "模块",
         "芯片",
         "封装"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "350.0 亿",
+        "target_market_cap_billion": 350.0
+      }
     },
     "002738": {
       "mention_count": 2,
@@ -40585,7 +40817,10 @@
       ],
       "products": [
         "设备"
-      ]
+      ],
+      "valuation": {
+        "target_price": "100.00 元"
+      }
     },
     "002819": {
       "mention_count": 1,
@@ -40751,7 +40986,11 @@
         "模块",
         "芯片",
         "封装"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "350.0 亿",
+        "target_market_cap_billion": 350.0
+      }
     },
     "002824": {
       "mention_count": 4,
@@ -40874,7 +41113,11 @@
         "折叠屏中框",
         "转轴"
       ],
-      "partners": []
+      "partners": [],
+      "valuation": {
+        "target_market_cap": "150.0 亿",
+        "target_market_cap_billion": 150.0
+      }
     },
     "002825": {
       "mention_count": 1,
@@ -41156,7 +41399,12 @@
       "industry_position": [
         "全球第一；英维克在储能液冷领域市占率领先"
       ],
-      "partners": []
+      "partners": [],
+      "valuation": {
+        "upside": "15.0%",
+        "rating": "强烈推荐",
+        "target_price": "29.00 元"
+      }
     },
     "002842": {
       "mention_count": 3,
@@ -41250,7 +41498,11 @@
       ],
       "chain": [
         "首板涨停"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "2000.0 亿",
+        "target_market_cap_billion": 2000.0
+      }
     },
     "002843": {
       "mention_count": 1,
@@ -42276,7 +42528,11 @@
       "code": "002885",
       "name": "京泉华",
       "processed_by": "tbox",
-      "processed_at": "2026-05-24T23:02:59.546446+08:00"
+      "processed_at": "2026-05-24T23:02:59.546446+08:00",
+      "valuation": {
+        "target_market_cap": "500.0 亿",
+        "target_market_cap_billion": 500.0
+      }
     },
     "002891": {
       "mention_count": 1,
@@ -42553,7 +42809,10 @@
       ],
       "chain": [
         "概念-光通信/CPO"
-      ]
+      ],
+      "valuation": {
+        "pe": "29.6 倍 PE"
+      }
     },
     "002902": {
       "mention_count": 3,
@@ -42936,7 +43195,11 @@
       "board": "SZ",
       "code": "002911",
       "name": "佛燃能源",
-      "partners": []
+      "partners": [],
+      "valuation": {
+        "target_market_cap": "300.0 亿",
+        "target_market_cap_billion": 300.0
+      }
     },
     "002920": {
       "mention_count": 6,
@@ -43161,7 +43424,10 @@
         "阿里AIDC唯一供应商",
         "阿里AIDC唯一供应商",
         "阿里AIDC移相变压器唯一指定供应商"
-      ]
+      ],
+      "valuation": {
+        "rating": "买入"
+      }
     },
     "002923": {
       "mention_count": 1,
@@ -43457,7 +43723,12 @@
         "平台",
         "平台，公司定位为“Token工厂”，旨在降低行业大模型的开发门槛",
         "“算力资源”到提供“AI能力”的升级"
-      ]
+      ],
+      "valuation": {
+        "upside": "19.0%",
+        "rating": "强烈推荐",
+        "target_price": "30.00 元"
+      }
     },
     "002935": {
       "mention_count": 1,
@@ -43909,7 +44180,11 @@
         "镜片及镜群耦合设备",
         "光模块芯片AOI＆COS AOI检测设备"
       ],
-      "partners": []
+      "partners": [],
+      "valuation": {
+        "target_market_cap": "700.0 亿",
+        "target_market_cap_billion": 700.0
+      }
     },
     "002965": {
       "mention_count": 2,
@@ -44146,7 +44421,11 @@
       "core_business": [
         "参股磷化铟衬底企业",
         "测试设备研发与生产"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "500.0 亿",
+        "target_market_cap_billion": 500.0
+      }
     },
     "002978": {
       "mention_count": 1,
@@ -44526,7 +44805,11 @@
       "core_business": [
         "算力租赁",
         "智慧口岸"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "460.0 亿",
+        "target_market_cap_billion": 460.0
+      }
     },
     "002992": {
       "mention_count": 1,
@@ -45092,7 +45375,10 @@
         "设备",
         "硅片",
         "材料"
-      ]
+      ],
+      "valuation": {
+        "target_price": "111.20 元"
+      }
     },
     "01066": {
       "mention_count": 2,
@@ -47044,7 +47330,11 @@
         "设备",
         "材料",
         "铜箔"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "300.0 亿",
+        "target_market_cap_billion": 300.0
+      }
     },
     "300040": {
       "mention_count": 1,
@@ -51724,7 +52014,11 @@
         "模块",
         "芯片",
         "封装"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "350.0 亿",
+        "target_market_cap_billion": 350.0
+      }
     },
     "300221": {
       "mention_count": 2,
@@ -52545,7 +52839,11 @@
       "chain": [],
       "name": "瑞丰高材",
       "code": "300243",
-      "core_business": []
+      "core_business": [],
+      "valuation": {
+        "target_market_cap": "100.0 亿",
+        "target_market_cap_billion": 100.0
+      }
     },
     "300245": {
       "mention_count": 1,
@@ -53545,7 +53843,12 @@
         "电解槽制造"
       ],
       "code": "300274",
-      "name": "阳光电源"
+      "name": "阳光电源",
+      "valuation": {
+        "upside": "15.0%",
+        "rating": "强烈推荐",
+        "target_price": "29.00 元"
+      }
     },
     "300283": {
       "mention_count": 2,
@@ -54448,7 +54751,10 @@
         "晶体生长设备与工艺研发",
         "磷化铟单晶炉制造",
         "半导体设备、光伏设备、衬底材料及耗材零部件"
-      ]
+      ],
+      "valuation": {
+        "pe": "67.8 倍 PE"
+      }
     },
     "300319": {
       "mention_count": 3,
@@ -56300,7 +56606,11 @@
       "products": [
         "模块",
         "芯片"
-      ]
+      ],
+      "valuation": {
+        "rating": "买入",
+        "target_price": "180.00 元"
+      }
     },
     "300393": {
       "mention_count": 2,
@@ -56393,7 +56703,11 @@
         "BC 电池技术",
         "太空光伏",
         "TOPCon 电池制造"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "450.0 亿",
+        "target_market_cap_billion": 450.0
+      }
     },
     "300394": {
       "mention_count": 3,
@@ -56664,7 +56978,11 @@
       ],
       "name": "菲利华",
       "code": "300395",
-      "core_business": []
+      "core_business": [],
+      "valuation": {
+        "pe": "17.0 倍 PE",
+        "target_price": "31.36 元"
+      }
     },
     "300398": {
       "mention_count": 7,
@@ -56876,7 +57194,10 @@
         "封装",
         "键合",
         "材料"
-      ]
+      ],
+      "valuation": {
+        "target_price": "47.50 元"
+      }
     },
     "300401": {
       "mention_count": 1,
@@ -57216,7 +57537,11 @@
       "products": [
         "芯片",
         "测试"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "600.0 亿",
+        "target_market_cap_billion": 600.0
+      }
     },
     "300418": {
       "mention_count": 2,
@@ -57863,7 +58188,10 @@
         "算力调度平台"
       ],
       "code": "300442",
-      "name": "润泽科技"
+      "name": "润泽科技",
+      "valuation": {
+        "target_price": "111.20 元"
+      }
     },
     "300444": {
       "mention_count": 2,
@@ -58143,7 +58471,10 @@
       ],
       "industry_position": [
         "MLCC设备龙头"
-      ]
+      ],
+      "valuation": {
+        "target_price": "66.65 元"
+      }
     },
     "300451": {
       "mention_count": 1,
@@ -58635,7 +58966,11 @@
       ],
       "code": "300467",
       "name": "迅游科技",
-      "partners": []
+      "partners": [],
+      "valuation": {
+        "target_market_cap": "272.0 亿",
+        "target_market_cap_billion": 272.0
+      }
     },
     "300468": {
       "mention_count": 4,
@@ -59000,7 +59335,11 @@
       "code": "300475",
       "core_business": [
         "近期股价涨幅超 80% 的龙头企业"
-      ]
+      ],
+      "valuation": {
+        "rating": "买入",
+        "target_price": "180.00 元"
+      }
     },
     "300476": {
       "core_business": [
@@ -59010,7 +59349,10 @@
       "industry_position": [
         "全球PCB龙头"
       ],
-      "valuation": {},
+      "valuation": {
+        "target_market_cap": "300.0 亿",
+        "target_market_cap_billion": 300.0
+      },
       "industry": "电子 - 电子元件 - PCB",
       "concepts": [
         "2025年报预增",
@@ -61268,7 +61610,11 @@
       "code": "300593",
       "name": "新雷能",
       "processed_by": "tbox",
-      "processed_at": "2026-05-24T23:02:59.546457+08:00"
+      "processed_at": "2026-05-24T23:02:59.546457+08:00",
+      "valuation": {
+        "rating": "强烈推荐",
+        "target_price": "850.00 元"
+      }
     },
     "300595": {
       "mention_count": 1,
@@ -63345,7 +63691,12 @@
       "industry_position": [
         "全球第一；英维克在储能液冷领域市占率领先"
       ],
-      "partners": []
+      "partners": [],
+      "valuation": {
+        "upside": "15.0%",
+        "rating": "强烈推荐",
+        "target_price": "29.00 元"
+      }
     },
     "300684": {
       "mention_count": 1,
@@ -63466,7 +63817,10 @@
       "board": "SZ",
       "code": "300686",
       "name": "智动力",
-      "partners": []
+      "partners": [],
+      "valuation": {
+        "pe": "25.3 倍 PE"
+      }
     },
     "300688": {
       "mention_count": 1,
@@ -63559,7 +63913,10 @@
       "board": "SZ",
       "code": "300689",
       "name": "澄天伟业",
-      "partners": []
+      "partners": [],
+      "valuation": {
+        "pe": "25.3 倍 PE"
+      }
     },
     "300690": {
       "mention_count": 1,
@@ -64808,7 +65165,11 @@
       "products": [
         "模块",
         "材料"
-      ]
+      ],
+      "valuation": {
+        "rating": "持有",
+        "target_price": "120.00 元"
+      }
     },
     "300751": {
       "mention_count": 5,
@@ -65297,7 +65658,10 @@
         "宁德时代以10GWh订单",
         "特斯拉、Fluence、Wartsila等全球顶级储能系统集成商合作",
         "宁德时代（300750）：全球储能电池龙头，技术领先、成本优势、客户"
-      ]
+      ],
+      "valuation": {
+        "pe": "29.4 倍 PE"
+      }
     },
     "300765": {
       "mention_count": 1,
@@ -65774,7 +66138,11 @@
       "products": [
         "芯片",
         "材料"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "400.0 亿",
+        "target_market_cap_billion": 400.0
+      }
     },
     "300785": {
       "mention_count": 1,
@@ -66499,7 +66867,10 @@
         "宁德时代以10GWh订单",
         "特斯拉、Fluence、Wartsila等全球顶级储能系统集成商合作",
         "宁德时代（300750）：全球储能电池龙头，技术领先、成本优势、客户"
-      ]
+      ],
+      "valuation": {
+        "pe": "52.0 倍 PE"
+      }
     },
     "300830": {
       "mention_count": 1,
@@ -66672,7 +67043,10 @@
       ],
       "code": "300842",
       "name": "帝科股份",
-      "partners": []
+      "partners": [],
+      "valuation": {
+        "pe": "447.2 倍 PE"
+      }
     },
     "300846": {
       "mention_count": 3,
@@ -67130,7 +67504,11 @@
       "core_business": [
         "AI算力服务",
         "大模型训练算力租赁"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "2000.0 亿",
+        "target_market_cap_billion": 2000.0
+      }
     },
     "300859": {
       "mention_count": 1,
@@ -68202,7 +68580,11 @@
       "partners": [],
       "products": [
         "材料"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "150.0 亿",
+        "target_market_cap_billion": 150.0
+      }
     },
     "300921": {
       "mention_count": 1,
@@ -69014,7 +69396,11 @@
         "高端电子箔",
         "载体铜箔",
         "锂电铜箔"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "400.0 亿",
+        "target_market_cap_billion": 400.0
+      }
     },
     "300997": {
       "mention_count": 1,
@@ -69978,7 +70364,11 @@
       ],
       "code": "301086",
       "name": "鸿富瀚",
-      "partners": []
+      "partners": [],
+      "valuation": {
+        "target_market_cap": "300.0 亿",
+        "target_market_cap_billion": 300.0
+      }
     },
     "301092": {
       "mention_count": 1,
@@ -71608,7 +71998,12 @@
         "宁德时代核心供应商",
         "宁德时代核心供应商",
         "宁德时代核心供应商"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "450.0 亿",
+        "target_market_cap_billion": 450.0,
+        "rating": "买入"
+      }
     },
     "301219": {
       "mention_count": 1,
@@ -72414,7 +72809,11 @@
       "code": "301299",
       "core_business": [
         "TGV镀膜设备制造"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "800.0 亿",
+        "target_market_cap_billion": 800.0
+      }
     },
     "301302": {
       "mention_count": 2,
@@ -72765,7 +73164,12 @@
       "code": "301308",
       "core_business": [
         "存储模组"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "2000.0 亿",
+        "target_market_cap_billion": 2000.0,
+        "pe": "276.0 倍 PE"
+      }
     },
     "301311": {
       "mention_count": 1,
@@ -73048,7 +73452,11 @@
       "code": "301319",
       "core_business": [
         "微电子焊接材料（锡膏、焊锡丝、助焊剂等）"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "250.0 亿",
+        "target_market_cap_billion": 250.0
+      }
     },
     "301325": {
       "mention_count": 1,
@@ -73099,7 +73507,10 @@
       "partners": [],
       "products": [
         "设备"
-      ]
+      ],
+      "valuation": {
+        "target_price": "66.56 元"
+      }
     },
     "301336": {
       "mention_count": 1,
@@ -73544,7 +73955,11 @@
         "硅微粉",
         "填料",
         "CCL上游材料"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "200.0 亿",
+        "target_market_cap_billion": 200.0
+      }
     },
     "301377": {
       "mention_count": 5,
@@ -73687,7 +74102,11 @@
       "core_business": [
         "PCB钻针制造",
         "具身机器人核心精密部件"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "2000.0 亿",
+        "target_market_cap_billion": 2000.0
+      }
     },
     "301386": {
       "mention_count": 1,
@@ -73931,7 +74350,11 @@
         "与阿里云有深度合作的硬件设备供应商、算力支持服务商将直接受益"
       ],
       "code": "301396",
-      "name": "宏景科技"
+      "name": "宏景科技",
+      "valuation": {
+        "target_market_cap": "800.0 亿",
+        "target_market_cap_billion": 800.0
+      }
     },
     "301398": {
       "mention_count": 2,
@@ -74897,7 +75320,12 @@
       "code": "301526",
       "name": "国际复材",
       "processed_by": "tbox",
-      "processed_at": "2026-05-25T01:30:27.046039+08:00"
+      "processed_at": "2026-05-25T01:30:27.046039+08:00",
+      "valuation": {
+        "pe": "17.0 倍 PE",
+        "rating": "增持",
+        "target_price": "31.36 元"
+      }
     },
     "301529": {
       "mention_count": 5,
@@ -75382,7 +75810,11 @@
         "华为、浪潮等核心客户",
         "英伟达Rubin架构交付进度：Q3是否如期启动全球交付，首批客户",
         "华为、浪潮等国内AI服务器品牌订单"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "450.0 亿",
+        "target_market_cap_billion": 450.0
+      }
     },
     "301575": {
       "mention_count": 1,
@@ -78571,7 +79003,11 @@
       "products": [
         "模块",
         "材料"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "2500.0 亿",
+        "target_market_cap_billion": 2500.0
+      }
     },
     "600104": {
       "mention_count": 2,
@@ -78738,7 +79174,11 @@
       "code": "600105",
       "core_business": [
         "磷化铟光芯片IDM全产业链"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "750.0 亿",
+        "target_market_cap_billion": 750.0
+      }
     },
     "600110": {
       "mention_count": 5,
@@ -78908,7 +79348,11 @@
       "processed_at": "2026-05-23T21:40:13.059441+08:00",
       "insights": [
         "能批量生产3μm极薄锂电铜箔"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "300.0 亿",
+        "target_market_cap_billion": 300.0
+      }
     },
     "600111": {
       "mention_count": 5,
@@ -80080,7 +80524,11 @@
         "长三角一体化",
         "风电"
       ],
-      "name": "中国巨石"
+      "name": "中国巨石",
+      "valuation": {
+        "pe": "17.0 倍 PE",
+        "target_price": "31.36 元"
+      }
     },
     "600180": {
       "mention_count": 1,
@@ -80855,7 +81303,11 @@
       ],
       "chain": [
         "中游-芯片设计"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "3000.0 亿",
+        "target_market_cap_billion": 3000.0
+      }
     },
     "600256": {
       "mention_count": 1,
@@ -82533,7 +82985,11 @@
       "core_business": [
         "氮化铝粉体/陶瓷基板",
         "电子元器件+氮化铝陶瓷"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "300.0 亿",
+        "target_market_cap_billion": 300.0
+      }
     },
     "600361": {
       "mention_count": 1,
@@ -83510,7 +83966,12 @@
       "industry_position": [
         "全球光模块龙头",
         "全球出货占比超40%，稳居第一"
-      ]
+      ],
+      "valuation": {
+        "upside": "15.0%",
+        "rating": "强烈推荐",
+        "target_price": "29.00 元"
+      }
     },
     "600410": {
       "mention_count": 1,
@@ -84517,7 +84978,10 @@
       ],
       "code": "600482",
       "name": "中国动力",
-      "partners": []
+      "partners": [],
+      "valuation": {
+        "pe": "30.0 倍 PE"
+      }
     },
     "600486": {
       "mention_count": 2,
@@ -86140,7 +86604,11 @@
       "name": "厦门钨业",
       "partners": [
         "华为、中兴等大客户"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "2000.0 亿",
+        "target_market_cap_billion": 2000.0
+      }
     },
     "600550": {
       "mention_count": 2,
@@ -86426,7 +86894,10 @@
       "board": "SH",
       "code": "600569",
       "name": "安阳钢铁",
-      "partners": []
+      "partners": [],
+      "valuation": {
+        "upside": "1.2%"
+      }
     },
     "600570": {
       "mention_count": 1,
@@ -86936,7 +87407,10 @@
       ],
       "last_updated": "2026-06-05",
       "industry_position": [],
-      "valuation": {},
+      "valuation": {
+        "target_market_cap": "580.0 亿",
+        "target_market_cap_billion": 580.0
+      },
       "industry": "计算机 - 算力服务 - AIDC",
       "concepts": [
         "东数西算(算力)",
@@ -90901,7 +91375,10 @@
       ],
       "partners": [
         "恒隆"
-      ]
+      ],
+      "valuation": {
+        "rating": "持有"
+      }
     },
     "600866": {
       "mention_count": 1,
@@ -91920,7 +92397,12 @@
         "龙头",
         "龙头,业绩稳定,分红率高,算电协同稳定供应商"
       ],
-      "partners": []
+      "partners": [],
+      "valuation": {
+        "upside": "19.0%",
+        "rating": "强烈推荐",
+        "target_price": "30.00 元"
+      }
     },
     "600905": {
       "mention_count": 1,
@@ -92351,7 +92833,11 @@
       "core_business": [
         "锌冶炼伴生铟回收",
         "高纯铟制备"
-      ]
+      ],
+      "valuation": {
+        "rating": "强烈推荐",
+        "target_price": "850.00 元"
+      }
     },
     "600967": {
       "mention_count": 1,
@@ -92527,7 +93013,10 @@
       "board": "SH",
       "code": "600980",
       "name": "北矿科技",
-      "partners": []
+      "partners": [],
+      "valuation": {
+        "pe": "25.3 倍 PE"
+      }
     },
     "600986": {
       "mention_count": 1,
@@ -92657,7 +93146,10 @@
       "board": "SH",
       "code": "600987",
       "name": "航民股份",
-      "partners": []
+      "partners": [],
+      "valuation": {
+        "pe": "25.3 倍 PE"
+      }
     },
     "600988": {
       "mention_count": 3,
@@ -93486,7 +93978,10 @@
         "证券服务"
       ],
       "code": "601066",
-      "name": "中信建投"
+      "name": "中信建投",
+      "valuation": {
+        "pe": "65.0 倍 PE"
+      }
     },
     "601069": {
       "mention_count": 1,
@@ -94494,7 +94989,13 @@
       "name": "工业富联",
       "core_business": [
         "AI服务器ODM"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "2000.0 亿",
+        "target_market_cap_billion": 2000.0,
+        "pe": "276.0 倍 PE",
+        "target_price": "111.20 元"
+      }
     },
     "601139": {
       "mention_count": 1,
@@ -94792,7 +95293,10 @@
       ],
       "code": "601198",
       "name": "东兴证券",
-      "partners": []
+      "partners": [],
+      "valuation": {
+        "target_price": "18.41 元"
+      }
     },
     "601208": {
       "mention_count": 8,
@@ -96001,7 +96505,11 @@
       "name": "中国铝业",
       "partners": [
         "华为、中兴等大客户"
-      ]
+      ],
+      "valuation": {
+        "rating": "强烈推荐",
+        "target_price": "42.00 元"
+      }
     },
     "601601": {
       "mention_count": 1,
@@ -96372,7 +96880,11 @@
       ],
       "code": "601615",
       "name": "明阳智能",
-      "partners": []
+      "partners": [],
+      "valuation": {
+        "target_market_cap": "600.0 亿",
+        "target_market_cap_billion": 600.0
+      }
     },
     "601616": {
       "mention_count": 1,
@@ -96461,7 +96973,11 @@
       "chain": [],
       "name": "旗滨集团",
       "code": "601636",
-      "core_business": []
+      "core_business": [],
+      "valuation": {
+        "target_market_cap": "230.0 亿",
+        "target_market_cap_billion": 230.0
+      }
     },
     "601658": {
       "mention_count": 1,
@@ -97125,7 +97641,12 @@
       ],
       "partners": [
         "特斯拉"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "2000.0 亿",
+        "target_market_cap_billion": 2000.0,
+        "pe": "276.0 倍 PE"
+      }
     },
     "601698": {
       "mention_count": 6,
@@ -97340,7 +97861,11 @@
       ],
       "code": "601702",
       "name": "华峰铝业",
-      "partners": []
+      "partners": [],
+      "valuation": {
+        "pe": "12.9 倍 PE",
+        "rating": "买入"
+      }
     },
     "601718": {
       "mention_count": 1,
@@ -97559,7 +98084,10 @@
         "通信服务"
       ],
       "code": "601728",
-      "name": "中国电信"
+      "name": "中国电信",
+      "valuation": {
+        "target_price": "111.20 元"
+      }
     },
     "601766": {
       "mention_count": 1,
@@ -98096,7 +98624,10 @@
         "光伏玻璃",
         "超薄玻璃"
       ],
-      "partners": []
+      "partners": [],
+      "valuation": {
+        "pe": "48.8 倍 PE"
+      }
     },
     "601868": {
       "mention_count": 4,
@@ -98906,7 +99437,11 @@
       ],
       "code": "601899",
       "name": "紫金矿业",
-      "partners": []
+      "partners": [],
+      "valuation": {
+        "rating": "强烈推荐",
+        "target_price": "42.00 元"
+      }
     },
     "601933": {
       "mention_count": 1,
@@ -99243,7 +99778,10 @@
         "设备",
         "硅片",
         "材料"
-      ]
+      ],
+      "valuation": {
+        "target_price": "111.20 元"
+      }
     },
     "601988": {
       "mention_count": 1,
@@ -99838,7 +100376,11 @@
       ],
       "industry_position": [
         "PCB真空层压设备国产替代核心标的"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "250.0 亿",
+        "target_market_cap_billion": 250.0
+      }
     },
     "603015": {
       "mention_count": 1,
@@ -99916,7 +100458,10 @@
       "board": "SH",
       "code": "603016",
       "name": "新宏泰",
-      "partners": []
+      "partners": [],
+      "valuation": {
+        "pe": "25.3 倍 PE"
+      }
     },
     "603017": {
       "mention_count": 2,
@@ -100001,7 +100546,11 @@
       "products": [
         "模块",
         "材料"
-      ]
+      ],
+      "valuation": {
+        "rating": "持有",
+        "target_price": "120.00 元"
+      }
     },
     "603018": {
       "mention_count": 1,
@@ -100280,7 +100829,13 @@
         "超级计算",
         "国产算力中心",
         "数据存储"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "2000.0 亿",
+        "target_market_cap_billion": 2000.0,
+        "pe": "276.0 倍 PE",
+        "target_price": "111.20 元"
+      }
     },
     "603023": {
       "mention_count": 1,
@@ -101485,7 +102040,11 @@
       "core_business": [
         "AI 服务器",
         "交换机"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "500.0 亿",
+        "target_market_cap_billion": 500.0
+      }
     },
     "603119": {
       "mention_count": 3,
@@ -101911,7 +102470,10 @@
       ],
       "products": [
         "高频高速铜缆"
-      ]
+      ],
+      "valuation": {
+        "pe": "25.3 倍 PE"
+      }
     },
     "603160": {
       "mention_count": 2,
@@ -102927,7 +103489,11 @@
       ],
       "products": [
         "模块"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "1250.0 亿",
+        "target_market_cap_billion": 1250.0
+      }
     },
     "603229": {
       "mention_count": 1,
@@ -103773,7 +104339,10 @@
       "board": "SH",
       "code": "603288",
       "name": "海天味业",
-      "partners": []
+      "partners": [],
+      "valuation": {
+        "pe": "25.3 倍 PE"
+      }
     },
     "603290": {
       "mention_count": 3,
@@ -103998,7 +104567,11 @@
         "特气",
         "芯片",
         "封装"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "300.0 亿",
+        "target_market_cap_billion": 300.0
+      }
     },
     "603297": {
       "mention_count": 1,
@@ -104735,7 +105308,10 @@
       ],
       "code": "603355",
       "name": "莱克电气",
-      "partners": []
+      "partners": [],
+      "valuation": {
+        "rating": "买入"
+      }
     },
     "603359": {
       "mention_count": 1,
@@ -106077,7 +106653,10 @@
       "board": "SH",
       "code": "603588",
       "name": "高能环境",
-      "partners": []
+      "partners": [],
+      "valuation": {
+        "pe": "25.3 倍 PE"
+      }
     },
     "603595": {
       "mention_count": 1,
@@ -106391,7 +106970,10 @@
       ],
       "partners": [
         "花知晓"
-      ]
+      ],
+      "valuation": {
+        "target_price": "80.20 元"
+      }
     },
     "603606": {
       "mention_count": 4,
@@ -106905,7 +107487,11 @@
         "GPU云算力调度"
       ],
       "code": "603629",
-      "name": "利通电子"
+      "name": "利通电子",
+      "valuation": {
+        "target_market_cap": "620.0 亿",
+        "target_market_cap_billion": 620.0
+      }
     },
     "603636": {
       "mention_count": 3,
@@ -107880,7 +108466,10 @@
       "board": "SH",
       "code": "603680",
       "name": "今创集团",
-      "partners": []
+      "partners": [],
+      "valuation": {
+        "pe": "25.3 倍 PE"
+      }
     },
     "603688": {
       "mention_count": 3,
@@ -110914,7 +111503,11 @@
       ],
       "code": "603993",
       "name": "洛阳钼业",
-      "partners": []
+      "partners": [],
+      "valuation": {
+        "rating": "强烈推荐",
+        "target_price": "42.00 元"
+      }
     },
     "603998": {
       "mention_count": 1,
@@ -111238,7 +111831,10 @@
         "精密铸件"
       ],
       "code": "605060",
-      "name": "联德股份"
+      "name": "联德股份",
+      "valuation": {
+        "pe": "18.0 倍 PE"
+      }
     },
     "605068": {
       "mention_count": 1,
@@ -112947,7 +113543,10 @@
       "products": [
         "设备",
         "测试"
-      ]
+      ],
+      "valuation": {
+        "target_price": "31.93 元"
+      }
     },
     "688007": {
       "mention_count": 1,
@@ -113221,7 +113820,12 @@
         "HBM控制器",
         "内存接口芯片",
         "互连芯片"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "300.0 亿",
+        "target_market_cap_billion": 300.0,
+        "pe": "65.0 倍 PE"
+      }
     },
     "688010": {
       "mention_count": 1,
@@ -114178,7 +114782,12 @@
       "code": "688041",
       "core_business": [
         "2. **算力需求爆发**"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "2000.0 亿",
+        "target_market_cap_billion": 2000.0,
+        "pe": "276.0 倍 PE"
+      }
     },
     "688047": {
       "mention_count": 4,
@@ -116020,7 +116629,11 @@
         "磨划设备",
         "半导体抛光设备的研发与生产",
         "CMP 设备制造"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "1200.0 亿",
+        "target_market_cap_billion": 1200.0
+      }
     },
     "688122": {
       "mention_count": 4,
@@ -116236,7 +116849,11 @@
         "VPD 企业级 SSD 芯片",
         "端侧 LPU AI 芯片",
         "SPD 存储芯片"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "1000.0 亿",
+        "target_market_cap_billion": 1000.0
+      }
     },
     "688125": {
       "mention_count": 1,
@@ -116632,7 +117249,11 @@
         "玻璃非球面透镜",
         "晶圆级微纳光学",
         "硅基MLA"
-      ]
+      ],
+      "valuation": {
+        "rating": "买入",
+        "target_price": "82.00 元"
+      }
     },
     "688130": {
       "mention_count": 1,
@@ -117846,7 +118467,11 @@
         "硅光代工（硅光芯片制造）",
         "先进制程晶圆代工",
         "功率器件（MOSFET、IGBT等）"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "2700.0 亿",
+        "target_market_cap_billion": 2700.0
+      }
     },
     "688180": {
       "mention_count": 1,
@@ -117970,7 +118595,10 @@
       "industry_position": [
         "全球市占率位列第一"
       ],
-      "valuation": {},
+      "valuation": {
+        "target_market_cap": "300.0 亿",
+        "target_market_cap_billion": 300.0
+      },
       "industry": "电子 - 电子元件 - PCB",
       "concepts": [
         "2025年报预增",
@@ -118642,7 +119270,11 @@
         "MicroLED光通信芯片(TX/RX/PD)"
       ],
       "processed_by": "tbox",
-      "processed_at": "2026-05-20T20:36:11.630124+08:00"
+      "processed_at": "2026-05-20T20:36:11.630124+08:00",
+      "valuation": {
+        "target_market_cap": "900.0 亿",
+        "target_market_cap_billion": 900.0
+      }
     },
     "688219": {
       "mention_count": 2,
@@ -119510,7 +120142,11 @@
       "code": "688250",
       "core_business": [
         "交换芯片研发与销售"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "2700.0 亿",
+        "target_market_cap_billion": 2700.0
+      }
     },
     "688256": {
       "mention_count": 11,
@@ -119752,7 +120388,13 @@
       "code": "688256",
       "core_business": [
         "国产大模型第一梯队成员"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "5000.0 亿",
+        "target_market_cap_billion": 5000.0,
+        "pe": "276.0 倍 PE",
+        "upside": "40.0%"
+      }
     },
     "688257": {
       "mention_count": 2,
@@ -119808,7 +120450,11 @@
       "core_business": [
         "PCB钻针",
         "数控刀具"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "600.0 亿",
+        "target_market_cap_billion": 600.0
+      }
     },
     "688261": {
       "mention_count": 2,
@@ -119895,7 +120541,11 @@
       ],
       "products": [
         "电源"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "250.0 亿",
+        "target_market_cap_billion": 250.0
+      }
     },
     "688267": {
       "mention_count": 2,
@@ -120241,7 +120891,11 @@
       "chain": [],
       "name": "峰岹科技",
       "code": "688279",
-      "core_business": []
+      "core_business": [],
+      "valuation": {
+        "target_market_cap": "540.0 亿",
+        "target_market_cap_billion": 540.0
+      }
     },
     "688282": {
       "mention_count": 2,
@@ -120739,7 +121393,11 @@
       ],
       "code": "688308",
       "name": "欧科亿",
-      "partners": []
+      "partners": [],
+      "valuation": {
+        "target_market_cap": "400.0 亿",
+        "target_market_cap_billion": 400.0
+      }
     },
     "688311": {
       "mention_count": 1,
@@ -122645,7 +123303,11 @@
       "name": "嘉元科技",
       "insights": [
         "锂电铜箔龙头，已实现3.5μm及更薄铜箔产业化"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "350.0 亿",
+        "target_market_cap_billion": 350.0
+      }
     },
     "688390": {
       "mention_count": 5,
@@ -122770,7 +123432,10 @@
         "宁德时代以10GWh订单",
         "特斯拉、Fluence、Wartsila等全球顶级储能系统集成商合作",
         "宁德时代（300750）：全球储能电池龙头，技术领先、成本优势、客户"
-      ]
+      ],
+      "valuation": {
+        "pe": "192.1 倍 PE"
+      }
     },
     "688392": {
       "mention_count": 3,
@@ -122866,7 +123531,11 @@
       "chain": [],
       "name": "骄成超声",
       "code": "688392",
-      "core_business": []
+      "core_business": [],
+      "valuation": {
+        "target_market_cap": "400.0 亿",
+        "target_market_cap_billion": 400.0
+      }
     },
     "688393": {
       "mention_count": 1,
@@ -123103,7 +123772,10 @@
       "products": [
         "光伏跟踪支架"
       ],
-      "partners": []
+      "partners": [],
+      "valuation": {
+        "pe": "65.1 倍 PE"
+      }
     },
     "688418": {
       "mention_count": 1,
@@ -123617,7 +124289,11 @@
       "code": "688478",
       "core_business": [
         "SiC 长晶炉研发制造"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "200.0 亿",
+        "target_market_cap_billion": 200.0
+      }
     },
     "688499": {
       "mention_count": 1,
@@ -123819,7 +124495,10 @@
         "HJT银浆",
         "光伏银浆"
       ],
-      "partners": []
+      "partners": [],
+      "valuation": {
+        "pe": "59.5 倍 PE"
+      }
     },
     "688506": {
       "mention_count": 1,
@@ -125695,7 +126374,11 @@
       "code": "688598",
       "core_business": [
         "碳基材料+氮化铝新切入"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "225.0 亿",
+        "target_market_cap_billion": 225.0
+      }
     },
     "688599": {
       "mention_count": 2,
@@ -127921,7 +128604,11 @@
         "高压快充"
       ],
       "code": "688800",
-      "core_business": []
+      "core_business": [],
+      "valuation": {
+        "target_market_cap": "370.0 亿",
+        "target_market_cap_billion": 370.0
+      }
     },
     "688818": {
       "mention_count": 1,
@@ -128075,7 +128762,10 @@
       "products": [
         "设备",
         "芯片"
-      ]
+      ],
+      "valuation": {
+        "pe": "65.0 倍 PE"
+      }
     },
     "688999": {
       "mention_count": 1,
@@ -128354,7 +129044,11 @@
         "等静压设备研发制造",
         "固态电池设备解决方案",
         "超高压装备制造"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "120.0 亿",
+        "target_market_cap_billion": 120.0
+      }
     },
     "832522": {
       "name": "纳科诺尔",
@@ -129310,7 +130004,10 @@
         "IDC制冷压缩机龙头",
         "北美四大客户突破在即"
       ],
-      "valuation": {},
+      "valuation": {
+        "target_market_cap": "500.0 亿",
+        "target_market_cap_billion": 500.0
+      },
       "industry": "机械设备-通用设备-制冷空调设备",
       "concepts": [
         "专精特新",
@@ -129471,7 +130168,11 @@
       ],
       "products": [
         "电源"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "600.0 亿",
+        "target_market_cap_billion": 600.0
+      }
     },
     "301511": {
       "code": "301511",
@@ -130180,7 +130881,12 @@
         "电源",
         "芯片",
         "电感"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "500.0 亿",
+        "target_market_cap_billion": 500.0,
+        "pe": "65.0 倍 PE"
+      }
     },
     "002850": {
       "mention_count": 5,
@@ -130359,7 +131065,11 @@
       ],
       "products": [
         "减速器"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "450.0 亿",
+        "target_market_cap_billion": 450.0
+      }
     },
     "300969": {
       "mention_count": 1,
@@ -131428,7 +132138,10 @@
           ]
         }
       ],
-      "partners": []
+      "partners": [],
+      "valuation": {
+        "pe": "30.3 倍 PE"
+      }
     },
     "688726": {
       "mention_count": 1,
@@ -131468,7 +132181,10 @@
           ]
         }
       ],
-      "partners": []
+      "partners": [],
+      "valuation": {
+        "pe": "38.2 倍 PE"
+      }
     },
     "603185": {
       "mention_count": 1,
@@ -131509,7 +132225,10 @@
           ]
         }
       ],
-      "partners": []
+      "partners": [],
+      "valuation": {
+        "pe": "63.3 倍 PE"
+      }
     },
     "301266": {
       "mention_count": 1,
@@ -131548,7 +132267,10 @@
           ]
         }
       ],
-      "partners": []
+      "partners": [],
+      "valuation": {
+        "pe": "73.0 倍 PE"
+      }
     },
     "688717": {
       "mention_count": 1,
@@ -131587,7 +132309,10 @@
           ]
         }
       ],
-      "partners": []
+      "partners": [],
+      "valuation": {
+        "pe": "79.7 倍 PE"
+      }
     },
     "301168": {
       "name": "通灵股份",
@@ -131624,7 +132349,10 @@
       "last_updated": "2026-06-05",
       "code": "301168",
       "partners": [],
-      "board": "SZ"
+      "board": "SZ",
+      "valuation": {
+        "pe": "93.5 倍 PE"
+      }
     },
     "301278": {
       "name": "快可电子",
@@ -131679,7 +132407,10 @@
       "last_updated": "2026-06-04",
       "code": "301278",
       "partners": [],
-      "board": "SZ"
+      "board": "SZ",
+      "valuation": {
+        "pe": "134.6 倍 PE"
+      }
     },
     "301046": {
       "mention_count": 1,
@@ -131722,7 +132453,10 @@
           ]
         }
       ],
-      "partners": []
+      "partners": [],
+      "valuation": {
+        "pe": "140.7 倍 PE"
+      }
     },
     "603381": {
       "mention_count": 1,
@@ -131775,7 +132509,10 @@
       ],
       "last_updated": "2026-05-31",
       "industry_position": [],
-      "valuation": {},
+      "valuation": {
+        "target_market_cap": "900.0 亿",
+        "target_market_cap_billion": 900.0
+      },
       "industry": "电力设备-光伏设备-光伏电池组件",
       "concepts": [
         "5G",
@@ -142837,7 +143574,11 @@
         "华为、浪潮等核心客户",
         "英伟达Rubin架构交付进度：Q3是否如期启动全球交付，首批客户",
         "华为、浪潮等国内AI服务器品牌订单"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "450.0 亿",
+        "target_market_cap_billion": 450.0
+      }
     },
     "300153": {
       "code": "300153",
@@ -147876,7 +148617,11 @@
       ],
       "products": [
         "电机"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "270.0 亿",
+        "target_market_cap_billion": 270.0
+      }
     },
     "300817": {
       "code": "300817",
@@ -148955,7 +149700,11 @@
       "products": [
         "模块",
         "材料"
-      ]
+      ],
+      "valuation": {
+        "rating": "持有",
+        "target_price": "120.00 元"
+      }
     },
     "301035": {
       "code": "301035",
@@ -150835,7 +151584,12 @@
       ],
       "products": [
         "材料"
-      ]
+      ],
+      "valuation": {
+        "pe": "19.5 倍 PE",
+        "rating": "买入",
+        "target_price": "115.30 元"
+      }
     },
     "301360": {
       "code": "301360",
@@ -150975,7 +151729,11 @@
       "products": [
         "设备",
         "测试"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "120.0 亿",
+        "target_market_cap_billion": 120.0
+      }
     },
     "301361": {
       "code": "301361",
@@ -153719,7 +154477,11 @@
       ],
       "core_business": [
         "作为国内拥有自主锶矿（天青石储备）的龙头"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "200.0 亿",
+        "target_market_cap_billion": 200.0
+      }
     },
     "600382": {
       "code": "600382",
@@ -156334,7 +157096,11 @@
       ],
       "industry": "公用事业-电力-水电",
       "board": "SH",
-      "partners": []
+      "partners": [],
+      "valuation": {
+        "target_market_cap": "230.0 亿",
+        "target_market_cap_billion": 230.0
+      }
     },
     "600871": {
       "code": "600871",
@@ -158015,7 +158781,10 @@
         "基板",
         "芯片",
         "封装"
-      ]
+      ],
+      "valuation": {
+        "target_price": "18.41 元"
+      }
     },
     "601900": {
       "code": "601900",
@@ -158987,7 +159756,11 @@
         "铜粉",
         "液冷板代工"
       ],
-      "partners": []
+      "partners": [],
+      "valuation": {
+        "target_market_cap": "400.0 亿",
+        "target_market_cap_billion": 400.0
+      }
     },
     "603127": {
       "code": "603127",
@@ -162884,7 +163657,11 @@
         "MPO连接器",
         "PFC产品"
       ],
-      "partners": []
+      "partners": [],
+      "valuation": {
+        "target_market_cap": "400.0 亿",
+        "target_market_cap_billion": 400.0
+      }
     },
     "688091": {
       "code": "688091",
@@ -165818,7 +166595,11 @@
       ],
       "products": [
         "芯片"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "485.0 亿",
+        "target_market_cap_billion": 485.0
+      }
     },
     "688551": {
       "code": "688551",
@@ -165899,7 +166680,11 @@
       "partners": [
         "致茂"
       ],
-      "board": "SH"
+      "board": "SH",
+      "valuation": {
+        "target_market_cap": "200.0 亿",
+        "target_market_cap_billion": 200.0
+      }
     },
     "688556": {
       "code": "688556",
@@ -168098,7 +168883,10 @@
         "封装",
         "测试",
         "材料"
-      ]
+      ],
+      "valuation": {
+        "target_price": "18.41 元"
+      }
     },
     "920284": {
       "code": "920284",
@@ -168710,7 +169498,11 @@
         "模块",
         "封装",
         "铜箔"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "550.0 亿",
+        "target_market_cap_billion": 550.0
+      }
     },
     "300540": {
       "name": "蜀道装备",
@@ -169059,7 +169851,11 @@
             "国投机械目标市值80e+，相对现价有翻倍空间"
           ]
         }
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "80.0 亿",
+        "target_market_cap_billion": 80.0
+      }
     },
     "002014": {
       "name": "永新股份",
@@ -169747,7 +170543,11 @@
       ],
       "last_updated": "2026-06-04",
       "mention_count": 1,
-      "partners": []
+      "partners": [],
+      "valuation": {
+        "pe": "18.0 倍 PE",
+        "rating": "买入"
+      }
     },
     "300443": {
       "name": "金雷股份",
@@ -170649,7 +171449,11 @@
         }
       ],
       "last_updated": "2026-06-10",
-      "mention_count": 3
+      "mention_count": 3,
+      "valuation": {
+        "rating": "强烈推荐",
+        "target_price": "850.00 元"
+      }
     },
     "000025": {
       "name": "特力A",
@@ -171323,7 +172127,11 @@
         }
       ],
       "last_updated": "2026-06-04",
-      "mention_count": 1
+      "mention_count": 1,
+      "valuation": {
+        "target_market_cap": "100.0 亿",
+        "target_market_cap_billion": 100.0
+      }
     },
     "920028": {
       "name": "新恒泰",
@@ -174124,7 +174932,11 @@
       "industry_position": [
         "京元电子视觉检测一供(排他性)",
         "Rubin架构AI封装检测稀缺资产"
-      ]
+      ],
+      "valuation": {
+        "target_market_cap": "100.0 亿",
+        "target_market_cap_billion": 100.0
+      }
     },
     "688207": {
       "code": "688207",
@@ -176714,5 +177526,6 @@
   },
   "stock_count": 3212,
   "total": 3266,
-  "last_updated": "2026-06-05T17:38:31.556239"
+  "last_updated": "2026-06-05T17:38:31.556239",
+  "valuation_extracted_at": "2026-06-04"
 }
