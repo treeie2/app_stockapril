@@ -615,8 +615,8 @@
       ]
     },
     "688498": {
-      "mention_count": 5,
-      "last_updated": "2026-05-31",
+      "mention_count": 6,
+      "last_updated": "2026-06-12",
       "partners": [
         "英伟达",
         "全球头部光模块厂商"
@@ -688,6 +688,30 @@
           "date": "2026-04-21",
           "title": "光板块领涨全市场！磷化铟：AI算力卡脖子核心，全产业链标的全梳理（附权威出处）",
           "source": "https://mp.weixin.qq.com/s/5bluU2s8izAKQ9K3Fb2KGA"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/_AxJ67eFzTt1FMrzZK2-ZQ",
+          "title": "6月11日信息整理：CPO+液冷+CCL+DrMOS+设备+零部件等",
+          "date": "2026-06-12",
+          "accidents": [
+            "中国管控InP出口,AMAT/TEL涨价5-10%,台积电26年CAPEX 520-560亿美元",
+            "800G/1.6T硅光模块受益"
+          ],
+          "insights": [
+            "InP光芯片"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "InP光芯片"
+          ],
+          "industry_position": [
+            "800G/1.6T硅光模块受益"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
         }
       ],
       "board": "SH",
@@ -1964,8 +1988,8 @@
       ]
     },
     "300308": {
-      "mention_count": 12,
-      "last_updated": "2026-06-04",
+      "mention_count": 13,
+      "last_updated": "2026-06-12",
       "partners": [
         "中芯、长江存储等），订单",
         "谷歌TPU V8发布后的订单"
@@ -2272,6 +2296,30 @@
             "从PE估值来看，海光信息PE为276倍，寒武纪PE为183倍，反映出市场对AI芯片企业的高成长预期。中际旭创PE为43倍，估值相对合理，作为业绩确定性较高的光模块龙头，具备较好的安",
             "国内AI服务器龙头，市场份额约30%。公司2026年Q1营收354.70亿元，同比下降24.30%，但净利润6.05亿元，同比增长30.74%，反映出产品结构优化和盈利能力提升。核"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/_AxJ67eFzTt1FMrzZK2-ZQ",
+          "title": "6月11日信息整理：CPO+液冷+CCL+DrMOS+设备+零部件等",
+          "date": "2026-06-12",
+          "accidents": [
+            "中国管控InP出口,AMAT/TEL涨价5-10%,台积电26年CAPEX 520-560亿美元",
+            "美银上调目标价至1650元,2027E营收2117亿净利733亿,1.6T市场份额40%+"
+          ],
+          "insights": [
+            "光模块全球龙头"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "光模块全球龙头"
+          ],
+          "industry_position": [
+            "美银上调目标价至1650元,2027E营收2117亿净利733亿,1.6T市场份额40%+"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
         }
       ],
       "board": "SZ",
@@ -2872,8 +2920,8 @@
       ]
     },
     "300502": {
-      "mention_count": 3,
-      "last_updated": "2026-05-31",
+      "mention_count": 4,
+      "last_updated": "2026-06-12",
       "partners": [
         "华为、中兴等大客户"
       ],
@@ -2955,6 +3003,30 @@
           "target_valuation": [
             "隔夜美股科技大涨，全球第三+国内第一，这只半导体材料股被严重低估，机构目标价111.2元！_20260515"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/_AxJ67eFzTt1FMrzZK2-ZQ",
+          "title": "6月11日信息整理：CPO+液冷+CCL+DrMOS+设备+零部件等",
+          "date": "2026-06-12",
+          "accidents": [
+            "中国管控InP出口,AMAT/TEL涨价5-10%,台积电26年CAPEX 520-560亿美元",
+            "Q2业绩改善,海外scale up需求提速,4B美金物料订单"
+          ],
+          "insights": [
+            "光模块,NPO技术领先"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "光模块,NPO技术领先"
+          ],
+          "industry_position": [
+            "Q2业绩改善,海外scale up需求提速,4B美金物料订单"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
         }
       ],
       "board": "SZ",
@@ -2964,7 +3036,9 @@
         "硅片",
         "材料"
       ],
-      "chain": [],
+      "chain": [
+        "中游-制造"
+      ],
       "concepts": [
         "2025年报预增",
         "5G",
@@ -2978,7 +3052,9 @@
         "西部大开发"
       ],
       "code": "300502",
-      "core_business": []
+      "core_business": [
+        "光模块,NPO技术领先"
+      ]
     },
     "300508": {
       "mention_count": 2,
@@ -3141,8 +3217,8 @@
       ]
     },
     "300666": {
-      "mention_count": 8,
-      "last_updated": "2026-06-11",
+      "mention_count": 9,
+      "last_updated": "2026-06-12",
       "partners": [
         "中芯国际等客户订单",
         "中芯国际、长江存储、台积电等优质头部客户"
@@ -3371,6 +3447,30 @@
           ],
           "chain": [
             "半导体国产替代"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/_AxJ67eFzTt1FMrzZK2-ZQ",
+          "title": "6月11日信息整理：CPO+液冷+CCL+DrMOS+设备+零部件等",
+          "date": "2026-06-12",
+          "accidents": [
+            "中国管控InP出口,AMAT/TEL涨价5-10%,台积电26年CAPEX 520-560亿美元",
+            "靶材涨价超预期(钽靶/铜靶/钨靶),静电吸盘Q1+400%,目标1200亿"
+          ],
+          "insights": [
+            "靶材全球第二+零部件龙头"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "靶材全球第二+零部件龙头"
+          ],
+          "industry_position": [
+            "靶材涨价超预期(钽靶/铜靶/钨靶),静电吸盘Q1+400%,目标1200亿"
+          ],
+          "chain": [
+            "中游-制造"
           ],
           "partners": []
         }
@@ -3671,8 +3771,8 @@
       ]
     },
     "301611": {
-      "mention_count": 3,
-      "last_updated": "2026-06-11",
+      "mention_count": 4,
+      "last_updated": "2026-06-12",
       "partners": [
         "中微公司",
         "北方华创",
@@ -3765,6 +3865,30 @@
             "半导体国产替代"
           ],
           "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/_AxJ67eFzTt1FMrzZK2-ZQ",
+          "title": "6月11日信息整理：CPO+液冷+CCL+DrMOS+设备+零部件等",
+          "date": "2026-06-12",
+          "accidents": [
+            "中国管控InP出口,AMAT/TEL涨价5-10%,台积电26年CAPEX 520-560亿美元",
+            "华西首推800亿目标"
+          ],
+          "insights": [
+            "陶瓷零部件龙头"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "陶瓷零部件龙头"
+          ],
+          "industry_position": [
+            "华西首推800亿目标"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
         }
       ],
       "board": "SZ",
@@ -3797,8 +3921,8 @@
       ]
     },
     "600183": {
-      "mention_count": 7,
-      "last_updated": "2026-06-09",
+      "mention_count": 8,
+      "last_updated": "2026-06-12",
       "partners": [
         "佛智芯",
         "国内IC载板厂"
@@ -4014,6 +4138,30 @@
             "下游-CCL"
           ],
           "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/_AxJ67eFzTt1FMrzZK2-ZQ",
+          "title": "6月11日信息整理：CPO+液冷+CCL+DrMOS+设备+零部件等",
+          "date": "2026-06-12",
+          "accidents": [
+            "中国管控InP出口,AMAT/TEL涨价5-10%,台积电26年CAPEX 520-560亿美元",
+            "FR4净利率超高速料,AI CCL计划6月提价"
+          ],
+          "insights": [
+            "CCL全球龙头"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "CCL全球龙头"
+          ],
+          "industry_position": [
+            "FR4净利率超高速料,AI CCL计划6月提价"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
         }
       ],
       "board": "SH",
@@ -4055,8 +4203,8 @@
       "description": "全球第二大刚性覆铜板企业，超低损耗CCL通过英伟达验证"
     },
     "600378": {
-      "mention_count": 10,
-      "last_updated": "2026-06-11",
+      "mention_count": 11,
+      "last_updated": "2026-06-12",
       "partners": [],
       "name": "昊华科技",
       "industry_position": [
@@ -4268,6 +4416,30 @@
           ],
           "chain": [
             "半导体产业链"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/_AxJ67eFzTt1FMrzZK2-ZQ",
+          "title": "6月11日信息整理：CPO+液冷+CCL+DrMOS+设备+零部件等",
+          "date": "2026-06-12",
+          "accidents": [
+            "中国管控InP出口,AMAT/TEL涨价5-10%,台积电26年CAPEX 520-560亿美元",
+            "WF6+特气全系列"
+          ],
+          "insights": [
+            "六氟化钨+特种气体"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "六氟化钨+特种气体"
+          ],
+          "industry_position": [
+            "WF6+特气全系列"
+          ],
+          "chain": [
+            "中游-制造"
           ],
           "partners": []
         }
@@ -4634,8 +4806,8 @@
       "core_business": []
     },
     "603186": {
-      "mention_count": 2,
-      "last_updated": "2026-05-26",
+      "mention_count": 3,
+      "last_updated": "2026-06-12",
       "partners": [
         "国内主要IC载板厂"
       ],
@@ -4700,6 +4872,30 @@
           "industry_position": [],
           "chain": [
             "概念-元件PCB"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/_AxJ67eFzTt1FMrzZK2-ZQ",
+          "title": "6月11日信息整理：CPO+液冷+CCL+DrMOS+设备+零部件等",
+          "date": "2026-06-12",
+          "accidents": [
+            "中国管控InP出口,AMAT/TEL涨价5-10%,台积电26年CAPEX 520-560亿美元",
+            "CCL涨价持续兑现"
+          ],
+          "insights": [
+            "CCL涨价受益"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "CCL涨价受益"
+          ],
+          "industry_position": [
+            "CCL涨价持续兑现"
+          ],
+          "chain": [
+            "中游-制造"
           ],
           "partners": []
         }
@@ -5180,8 +5376,8 @@
       ]
     },
     "688146": {
-      "mention_count": 9,
-      "last_updated": "2026-06-11",
+      "mention_count": 10,
+      "last_updated": "2026-06-12",
       "partners": [
         "中国船舶集团"
       ],
@@ -5400,6 +5596,30 @@
           ],
           "chain": [
             "半导体产业链"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/_AxJ67eFzTt1FMrzZK2-ZQ",
+          "title": "6月11日信息整理：CPO+液冷+CCL+DrMOS+设备+零部件等",
+          "date": "2026-06-12",
+          "accidents": [
+            "中国管控InP出口,AMAT/TEL涨价5-10%,台积电26年CAPEX 520-560亿美元",
+            "WF6管制受益"
+          ],
+          "insights": [
+            "六氟化钨国产龙头"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "六氟化钨国产龙头"
+          ],
+          "industry_position": [
+            "WF6管制受益"
+          ],
+          "chain": [
+            "中游-制造"
           ],
           "partners": []
         }
@@ -6682,8 +6902,8 @@
       ]
     },
     "002254": {
-      "mention_count": 4,
-      "last_updated": "2026-06-11",
+      "mention_count": 5,
+      "last_updated": "2026-06-12",
       "partners": [
         "民士达"
       ],
@@ -6777,6 +6997,30 @@
           ],
           "chain": [
             "首板涨停"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/_AxJ67eFzTt1FMrzZK2-ZQ",
+          "title": "6月11日信息整理：CPO+液冷+CCL+DrMOS+设备+零部件等",
+          "date": "2026-06-12",
+          "accidents": [
+            "中国管控InP出口,AMAT/TEL涨价5-10%,台积电26年CAPEX 520-560亿美元",
+            "对位芳纶40-50%光缆,杜邦AIDC涨价"
+          ],
+          "insights": [
+            "芳纶+光纤光缆"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "芳纶+光纤光缆"
+          ],
+          "industry_position": [
+            "对位芳纶40-50%光缆,杜邦AIDC涨价"
+          ],
+          "chain": [
+            "中游-制造"
           ],
           "partners": []
         }
@@ -31527,8 +31771,8 @@
       ]
     },
     "002409": {
-      "mention_count": 6,
-      "last_updated": "2026-06-10",
+      "mention_count": 7,
+      "last_updated": "2026-06-12",
       "concepts": [
         "OLED",
         "专精特新",
@@ -31699,6 +31943,30 @@
           ],
           "chain": [
             "首板涨停"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/_AxJ67eFzTt1FMrzZK2-ZQ",
+          "title": "6月11日信息整理：CPO+液冷+CCL+DrMOS+设备+零部件等",
+          "date": "2026-06-12",
+          "accidents": [
+            "中国管控InP出口,AMAT/TEL涨价5-10%,台积电26年CAPEX 520-560亿美元",
+            "储能涨价受益"
+          ],
+          "insights": [
+            "前驱体+HBM"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "前驱体+HBM"
+          ],
+          "industry_position": [
+            "储能涨价受益"
+          ],
+          "chain": [
+            "中游-制造"
           ],
           "partners": []
         }
@@ -32183,8 +32451,8 @@
       "partners": []
     },
     "002428": {
-      "mention_count": 6,
-      "last_updated": "2026-06-09",
+      "mention_count": 7,
+      "last_updated": "2026-06-12",
       "partners": [
         "华为",
         "华为海思",
@@ -32293,6 +32561,30 @@
           ],
           "industry_position": [
             "锗全产业链,光纤级四氯化锗"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/_AxJ67eFzTt1FMrzZK2-ZQ",
+          "title": "6月11日信息整理：CPO+液冷+CCL+DrMOS+设备+零部件等",
+          "date": "2026-06-12",
+          "accidents": [
+            "中国管控InP出口,AMAT/TEL涨价5-10%,台积电26年CAPEX 520-560亿美元",
+            "中国管控InP出口,800G/1.6T硅光模块核心衬底,供给偏紧"
+          ],
+          "insights": [
+            "磷化铟(InP)衬底"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "磷化铟(InP)衬底"
+          ],
+          "industry_position": [
+            "中国管控InP出口,800G/1.6T硅光模块核心衬底,供给偏紧"
           ],
           "chain": [
             "中游-制造"
@@ -35505,8 +35797,8 @@
       "name": "春兴精工"
     },
     "002549": {
-      "mention_count": 3,
-      "last_updated": "2026-06-11",
+      "mention_count": 4,
+      "last_updated": "2026-06-12",
       "concepts": [
         "专精特新",
         "俄乌冲突概念",
@@ -35569,6 +35861,30 @@
           ],
           "chain": [
             "首板涨停"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/_AxJ67eFzTt1FMrzZK2-ZQ",
+          "title": "6月11日信息整理：CPO+液冷+CCL+DrMOS+设备+零部件等",
+          "date": "2026-06-12",
+          "accidents": [
+            "中国管控InP出口,AMAT/TEL涨价5-10%,台积电26年CAPEX 520-560亿美元",
+            "ASML认证,WF6产业链"
+          ],
+          "insights": [
+            "电子特气+光刻气"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "电子特气+光刻气"
+          ],
+          "industry_position": [
+            "ASML认证,WF6产业链"
+          ],
+          "chain": [
+            "中游-制造"
           ],
           "partners": []
         }
@@ -37344,8 +37660,8 @@
       "partners": []
     },
     "002636": {
-      "mention_count": 4,
-      "last_updated": "2026-05-31",
+      "mention_count": 5,
+      "last_updated": "2026-06-12",
       "concepts": [
         "2025年报预增",
         "PCB概念",
@@ -37426,6 +37742,30 @@
           "industry_position": [],
           "chain": [
             "概念-元件PCB"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/_AxJ67eFzTt1FMrzZK2-ZQ",
+          "title": "6月11日信息整理：CPO+液冷+CCL+DrMOS+设备+零部件等",
+          "date": "2026-06-12",
+          "accidents": [
+            "中国管控InP出口,AMAT/TEL涨价5-10%,台积电26年CAPEX 520-560亿美元",
+            "净利率跃升16%,对下游涨价10%,FR4涨价弹性核心标的"
+          ],
+          "insights": [
+            "CCL涨价弹性最大"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "CCL涨价弹性最大"
+          ],
+          "industry_position": [
+            "净利率跃升16%,对下游涨价10%,FR4涨价弹性核心标的"
+          ],
+          "chain": [
+            "中游-制造"
           ],
           "partners": []
         }
@@ -48093,8 +48433,8 @@
       "partners": []
     },
     "300077": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-12",
       "concepts": [
         "3D打印",
         "AI智能体",
@@ -48167,6 +48507,30 @@
           ],
           "processed_by": "tbox",
           "processed_at": "2026-05-20T11:46:50.489861+08:00"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/_AxJ67eFzTt1FMrzZK2-ZQ",
+          "title": "6月11日信息整理：CPO+液冷+CCL+DrMOS+设备+零部件等",
+          "date": "2026-06-12",
+          "accidents": [
+            "中国管控InP出口,AMAT/TEL涨价5-10%,台积电26年CAPEX 520-560亿美元",
+            "AI服务器MCU已量产,800G/1.6T光模块MCU推进,目标220亿"
+          ],
+          "insights": [
+            "MCU国产替代龙头"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "MCU国产替代龙头"
+          ],
+          "industry_position": [
+            "AI服务器MCU已量产,800G/1.6T光模块MCU推进,目标220亿"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
         }
       ],
       "processed_by": "tbox",
@@ -54777,8 +55141,8 @@
       "partners": []
     },
     "300346": {
-      "mention_count": 6,
-      "last_updated": "2026-06-04",
+      "mention_count": 7,
+      "last_updated": "2026-06-12",
       "concepts": [
         "OLED",
         "专精特新",
@@ -54912,6 +55276,30 @@
             "当前我国半导体材料整体国产化率仅约15%,高端领域仍高度依赖进口。\"十五五\"规划明确提出2030年关键材料自给率目标≥80%,国产替代空间超5倍。政策层面,中国对钨实施出口管制后,",
             "图3: 半导体材料国产化率与目标对比(数据来源: \"十五五\"规划)"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/_AxJ67eFzTt1FMrzZK2-ZQ",
+          "title": "6月11日信息整理：CPO+液冷+CCL+DrMOS+设备+零部件等",
+          "date": "2026-06-12",
+          "accidents": [
+            "中国管控InP出口,AMAT/TEL涨价5-10%,台积电26年CAPEX 520-560亿美元",
+            "MO源营收7.14亿+23.5%,ArF光刻胶突破2000万,三氟化氮扩产2000吨"
+          ],
+          "insights": [
+            "前驱体+特气+光刻胶"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "前驱体+特气+光刻胶"
+          ],
+          "industry_position": [
+            "MO源营收7.14亿+23.5%,ArF光刻胶突破2000万,三氟化氮扩产2000吨"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
         }
       ],
       "industry": "电子-电子化学品-电子化学品Ⅲ",
@@ -67403,8 +67791,8 @@
       ]
     },
     "300903": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-12",
       "partners": [],
       "concepts": [
         "5G",
@@ -67436,7 +67824,9 @@
         "钠离子电池",
         "锂电池概念"
       ],
-      "industry_position": [],
+      "industry_position": [
+        "AI高算力散热陶瓷基板研发中,定增10万㎡高端服务器PCB"
+      ],
       "articles": [
         {
           "date": "2026-05-13",
@@ -67448,15 +67838,43 @@
             "具备自研陶瓷团队的PCB厂商龙头"
           ],
           "accidents": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/_AxJ67eFzTt1FMrzZK2-ZQ",
+          "title": "6月11日信息整理：CPO+液冷+CCL+DrMOS+设备+零部件等",
+          "date": "2026-06-12",
+          "accidents": [
+            "中国管控InP出口,AMAT/TEL涨价5-10%,台积电26年CAPEX 520-560亿美元",
+            "AI高算力散热陶瓷基板研发中,定增10万㎡高端服务器PCB"
+          ],
+          "insights": [
+            "陶瓷基板AI散热"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "陶瓷基板AI散热"
+          ],
+          "industry_position": [
+            "AI高算力散热陶瓷基板研发中,定增10万㎡高端服务器PCB"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
         }
       ],
       "board": "SZ",
       "industry": "电子-元件-印制电路板",
       "products": [],
-      "chain": [],
+      "chain": [
+        "中游-制造"
+      ],
       "name": "科翔股份",
       "code": "300903",
-      "core_business": []
+      "core_business": [
+        "陶瓷基板AI散热"
+      ]
     },
     "300905": {
       "mention_count": 1,
@@ -70758,8 +71176,8 @@
       "partners": []
     },
     "301205": {
-      "mention_count": 2,
-      "last_updated": "2026-05-31",
+      "mention_count": 3,
+      "last_updated": "2026-06-12",
       "concepts": [
         "5G",
         "人民币贬值受益",
@@ -70782,13 +71200,46 @@
           "date": "",
           "title": "风口byTY",
           "source": ""
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/_AxJ67eFzTt1FMrzZK2-ZQ",
+          "title": "6月11日信息整理：CPO+液冷+CCL+DrMOS+设备+零部件等",
+          "date": "2026-06-12",
+          "accidents": [
+            "中国管控InP出口,AMAT/TEL涨价5-10%,台积电26年CAPEX 520-560亿美元",
+            "DSP forecast上修,翻倍量保守"
+          ],
+          "insights": [
+            "光模块+DSP"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "光模块+DSP"
+          ],
+          "industry_position": [
+            "DSP forecast上修,翻倍量保守"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
         }
       ],
       "industry": "通信-通信设备-通信网络设备及器件",
       "board": "SZ",
       "code": "301205",
       "name": "联特科技",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "光模块+DSP"
+      ],
+      "industry_position": [
+        "DSP forecast上修,翻倍量保守"
+      ],
+      "chain": [
+        "中游-制造"
+      ]
     },
     "301207": {
       "mention_count": 1,
@@ -73303,8 +73754,8 @@
       "partners": []
     },
     "301389": {
-      "mention_count": 2,
-      "last_updated": "2026-05-26",
+      "mention_count": 3,
+      "last_updated": "2026-06-12",
       "concepts": [
         "苹果概念",
         "融资融券",
@@ -73371,6 +73822,30 @@
           "partners": [],
           "processed_by": "tbox",
           "processed_at": "2026-05-23T21:40:13.059444+08:00"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/_AxJ67eFzTt1FMrzZK2-ZQ",
+          "title": "6月11日信息整理：CPO+液冷+CCL+DrMOS+设备+零部件等",
+          "date": "2026-06-12",
+          "accidents": [
+            "中国管控InP出口,AMAT/TEL涨价5-10%,台积电26年CAPEX 520-560亿美元",
+            "表面粗糙度<0.4μm,再次送样头部PTFE厂商,台系背景淮安/泰国产能"
+          ],
+          "insights": [
+            "HVLP5铜箔+PTFE互补"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "HVLP5铜箔+PTFE互补"
+          ],
+          "industry_position": [
+            "表面粗糙度<0.4μm,再次送样头部PTFE厂商,台系背景淮安/泰国产能"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
         }
       ],
       "industry": "电子-消费电子-消费电子零部件及组装",
@@ -84409,8 +84884,8 @@
       "partners": []
     },
     "600498": {
-      "mention_count": 2,
-      "last_updated": "2026-06-11",
+      "mention_count": 3,
+      "last_updated": "2026-06-12",
       "concepts": [
         "5G",
         "6G概念",
@@ -84485,6 +84960,30 @@
             "首板涨停"
           ],
           "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/_AxJ67eFzTt1FMrzZK2-ZQ",
+          "title": "6月11日信息整理：CPO+液冷+CCL+DrMOS+设备+零部件等",
+          "date": "2026-06-12",
+          "accidents": [
+            "中国管控InP出口,AMAT/TEL涨价5-10%,台积电26年CAPEX 520-560亿美元",
+            "自研51.2T NPO交换机,800G DCI方案,保偏光纤自主可控"
+          ],
+          "insights": [
+            "光纤+算力互联产品"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "光纤+算力互联产品"
+          ],
+          "industry_position": [
+            "自研51.2T NPO交换机,800G DCI方案,保偏光纤自主可控"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
         }
       ],
       "industry": "通信-通信设备-通信网络设备及器件",
@@ -84506,8 +85005,8 @@
       ]
     },
     "600500": {
-      "mention_count": 3,
-      "last_updated": "2026-06-11",
+      "mention_count": 4,
+      "last_updated": "2026-06-12",
       "concepts": [
         "一带一路",
         "上海自贸区",
@@ -84584,6 +85083,30 @@
           ],
           "chain": [
             "环氧丙烷产业链"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/_AxJ67eFzTt1FMrzZK2-ZQ",
+          "title": "6月11日信息整理：CPO+液冷+CCL+DrMOS+设备+零部件等",
+          "date": "2026-06-12",
+          "accidents": [
+            "中国管控InP出口,AMAT/TEL涨价5-10%,台积电26年CAPEX 520-560亿美元",
+            "芳纶布局"
+          ],
+          "insights": [
+            "芳纶+PPE树脂"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "芳纶+PPE树脂"
+          ],
+          "industry_position": [
+            "芳纶布局"
+          ],
+          "chain": [
+            "中游-制造"
           ],
           "partners": []
         }
@@ -116297,8 +116820,8 @@
       ]
     },
     "688141": {
-      "mention_count": 4,
-      "last_updated": "2026-06-09",
+      "mention_count": 5,
+      "last_updated": "2026-06-12",
       "partners": [],
       "concepts": [
         "专精特新",
@@ -116384,6 +116907,30 @@
           ],
           "industry_position": [
             "H客户GPU一供"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/_AxJ67eFzTt1FMrzZK2-ZQ",
+          "title": "6月11日信息整理：CPO+液冷+CCL+DrMOS+设备+零部件等",
+          "date": "2026-06-12",
+          "accidents": [
+            "中国管控InP出口,AMAT/TEL涨价5-10%,台积电26年CAPEX 520-560亿美元",
+            "H客户GPU供货,Q1营收+40%+,存货逐季提升,放量最早"
+          ],
+          "insights": [
+            "DrMOS龙头"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "DrMOS龙头"
+          ],
+          "industry_position": [
+            "H客户GPU供货,Q1营收+40%+,存货逐季提升,放量最早"
           ],
           "chain": [
             "中游-制造"
@@ -116987,8 +117534,8 @@
       "partners": []
     },
     "688167": {
-      "mention_count": 5,
-      "last_updated": "2026-06-11",
+      "mention_count": 6,
+      "last_updated": "2026-06-12",
       "concepts": [
         "沪股通",
         "MR(混合现实)",
@@ -117105,6 +117652,30 @@
           ],
           "chain": [
             "首板涨停"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/_AxJ67eFzTt1FMrzZK2-ZQ",
+          "title": "6月11日信息整理：CPO+液冷+CCL+DrMOS+设备+零部件等",
+          "date": "2026-06-12",
+          "accidents": [
+            "中国管控InP出口,AMAT/TEL涨价5-10%,台积电26年CAPEX 520-560亿美元",
+            "向AH公司技术许可1300万美元+特许权使用费"
+          ],
+          "insights": [
+            "CPO微棱镜+光学耦合器"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "CPO微棱镜+光学耦合器"
+          ],
+          "industry_position": [
+            "向AH公司技术许可1300万美元+特许权使用费"
+          ],
+          "chain": [
+            "中游-制造"
           ],
           "partners": []
         }
@@ -119925,8 +120496,8 @@
       "partners": []
     },
     "688300": {
-      "mention_count": 4,
-      "last_updated": "2026-06-11",
+      "mention_count": 5,
+      "last_updated": "2026-06-12",
       "partners": [
         "生益科技"
       ],
@@ -120010,6 +120581,30 @@
           ],
           "chain": [
             "半导体国产替代"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/_AxJ67eFzTt1FMrzZK2-ZQ",
+          "title": "6月11日信息整理：CPO+液冷+CCL+DrMOS+设备+零部件等",
+          "date": "2026-06-12",
+          "accidents": [
+            "中国管控InP出口,AMAT/TEL涨价5-10%,台积电26年CAPEX 520-560亿美元",
+            "先进封装材料,HBM"
+          ],
+          "insights": [
+            "球形硅微粉+氧化铝"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "球形硅微粉+氧化铝"
+          ],
+          "industry_position": [
+            "先进封装材料,HBM"
+          ],
+          "chain": [
+            "中游-制造"
           ],
           "partners": []
         }
@@ -126763,8 +127358,8 @@
       ]
     },
     "688733": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-12",
       "concepts": [
         "PCB概念",
         "专精特新",
@@ -126786,6 +127381,30 @@
           "date": "2026-03-10",
           "title": "硅微粉_相关公司梳理",
           "source": "https://mp.weixin.qq.com/s/8RRhX9XkFXbi-goFb3Z1fg"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/_AxJ67eFzTt1FMrzZK2-ZQ",
+          "title": "6月11日信息整理：CPO+液冷+CCL+DrMOS+设备+零部件等",
+          "date": "2026-06-12",
+          "accidents": [
+            "中国管控InP出口,AMAT/TEL涨价5-10%,台积电26年CAPEX 520-560亿美元",
+            "电子陶瓷基板高纯粉体"
+          ],
+          "insights": [
+            "氧化铝+勃姆石"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "氧化铝+勃姆石"
+          ],
+          "industry_position": [
+            "电子陶瓷基板高纯粉体"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
         }
       ],
       "industry": "电力设备-电池-电池化学品",
@@ -126795,7 +127414,16 @@
       ],
       "code": "688733",
       "name": "壹石通",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "氧化铝+勃姆石"
+      ],
+      "industry_position": [
+        "电子陶瓷基板高纯粉体"
+      ],
+      "chain": [
+        "中游-制造"
+      ]
     },
     "688757": {
       "mention_count": 1,
@@ -130066,8 +130694,8 @@
       ]
     },
     "688260": {
-      "mention_count": 2,
-      "last_updated": "2026-05-31",
+      "mention_count": 3,
+      "last_updated": "2026-06-12",
       "concepts": [
         "光纤概念",
         "华为概念",
@@ -130121,6 +130749,30 @@
           ],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/_AxJ67eFzTt1FMrzZK2-ZQ",
+          "title": "6月11日信息整理：CPO+液冷+CCL+DrMOS+设备+零部件等",
+          "date": "2026-06-12",
+          "accidents": [
+            "中国管控InP出口,AMAT/TEL涨价5-10%,台积电26年CAPEX 520-560亿美元",
+            "氮化铝DPC基板1.6T光模块散热,激光热沉国内第一,MLCC双轮驱动"
+          ],
+          "insights": [
+            "DPC陶瓷基板+MLCC"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "DPC陶瓷基板+MLCC"
+          ],
+          "industry_position": [
+            "氮化铝DPC基板1.6T光模块散热,激光热沉国内第一,MLCC双轮驱动"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
         }
       ],
       "core_business": [
@@ -139976,8 +140628,33 @@
       "name": "裕同科技",
       "concept": "",
       "mention_count": 1,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/_AxJ67eFzTt1FMrzZK2-ZQ",
+          "title": "6月11日信息整理：CPO+液冷+CCL+DrMOS+设备+零部件等",
+          "date": "2026-06-12",
+          "accidents": [
+            "中国管控InP出口,AMAT/TEL涨价5-10%,台积电26年CAPEX 520-560亿美元",
+            "华研科技QD快接头,AI眼镜充电盒/声学,新材料碳纤维26-27年放量"
+          ],
+          "insights": [
+            "液冷快接头+AI眼镜"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "液冷快接头+AI眼镜"
+          ],
+          "industry_position": [
+            "华研科技QD快接头,AI眼镜充电盒/声学,新材料碳纤维26-27年放量"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-06-12",
       "concepts": [
         "可降解塑料",
         "宠物经济",
@@ -139989,7 +140666,16 @@
       ],
       "industry": "轻工制造-包装印刷-包装",
       "board": "SZ",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "液冷快接头+AI眼镜"
+      ],
+      "industry_position": [
+        "华研科技QD快接头,AI眼镜充电盒/声学,新材料碳纤维26-27年放量"
+      ],
+      "chain": [
+        "中游-制造"
+      ]
     },
     "002838": {
       "code": "002838",
@@ -149155,9 +149841,34 @@
       "code": "301183",
       "name": "东田微",
       "concept": "",
-      "mention_count": 11,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/_AxJ67eFzTt1FMrzZK2-ZQ",
+          "title": "6月11日信息整理：CPO+液冷+CCL+DrMOS+设备+零部件等",
+          "date": "2026-06-12",
+          "accidents": [
+            "中国管控InP出口,AMAT/TEL涨价5-10%,台积电26年CAPEX 520-560亿美元",
+            "Q2隔离器+滤光片扩产落地,大客户导入"
+          ],
+          "insights": [
+            "隔离器+滤光片扩产"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "隔离器+滤光片扩产"
+          ],
+          "industry_position": [
+            "Q2隔离器+滤光片扩产落地,大客户导入"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-06-12",
       "concepts": [
         "2025年报预增",
         "6G概念",
@@ -149176,7 +149887,16 @@
       ],
       "industry": "电子-光学光电子-光学元件",
       "board": "SZ",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "隔离器+滤光片扩产"
+      ],
+      "industry_position": [
+        "Q2隔离器+滤光片扩产落地,大客户导入"
+      ],
+      "chain": [
+        "中游-制造"
+      ]
     },
     "301191": {
       "code": "301191",
@@ -163610,7 +164330,7 @@
       "code": "688368",
       "name": "晶丰明源",
       "concept": "",
-      "mention_count": 2,
+      "mention_count": 3,
       "articles": [
         {
           "title": "Al服务器，“特种兵”",
@@ -163648,9 +164368,33 @@
             "上游-芯片设计"
           ],
           "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/_AxJ67eFzTt1FMrzZK2-ZQ",
+          "title": "6月11日信息整理：CPO+液冷+CCL+DrMOS+设备+零部件等",
+          "date": "2026-06-12",
+          "accidents": [
+            "中国管控InP出口,AMAT/TEL涨价5-10%,台积电26年CAPEX 520-560亿美元",
+            "16相控制器,封装效率领先,Q1营收+40%+"
+          ],
+          "insights": [
+            "DrMOS国产替代"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "DrMOS国产替代"
+          ],
+          "industry_position": [
+            "16相控制器,封装效率领先,Q1营收+40%+"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
         }
       ],
-      "last_updated": "2026-06-09",
+      "last_updated": "2026-06-12",
       "concepts": [
         "MCU芯片",
         "专精特新",
@@ -163736,7 +164480,7 @@
       "code": "688376",
       "name": "美埃科技",
       "concept": "",
-      "mention_count": 1,
+      "mention_count": 2,
       "articles": [
         {
           "source": "https://mp.weixin.qq.com/s/FB_Yi85_u5JS4uYFe1O7ag",
@@ -163761,9 +164505,33 @@
             "中游-制造"
           ],
           "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/_AxJ67eFzTt1FMrzZK2-ZQ",
+          "title": "6月11日信息整理：CPO+液冷+CCL+DrMOS+设备+零部件等",
+          "date": "2026-06-12",
+          "accidents": [
+            "中国管控InP出口,AMAT/TEL涨价5-10%,台积电26年CAPEX 520-560亿美元",
+            "AI驱动半导体CAPEX加速,26Q1迎收入拐点"
+          ],
+          "insights": [
+            "洁净室设备+耗材"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "洁净室设备+耗材"
+          ],
+          "industry_position": [
+            "AI驱动半导体CAPEX加速,26Q1迎收入拐点"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
         }
       ],
-      "last_updated": "2026-06-09",
+      "last_updated": "2026-06-12",
       "concepts": [
         "PM2.5",
         "专精特新",
@@ -163778,7 +164546,16 @@
       ],
       "industry": "环保-环保设备-环保设备Ⅲ",
       "board": "SH",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "洁净室设备+耗材"
+      ],
+      "industry_position": [
+        "AI驱动半导体CAPEX加速,26Q1迎收入拐点"
+      ],
+      "chain": [
+        "中游-制造"
+      ]
     },
     "688377": {
       "code": "688377",
@@ -164074,7 +164851,7 @@
       "code": "688409",
       "name": "富创精密",
       "concept": "",
-      "mention_count": 1,
+      "mention_count": 2,
       "articles": [
         {
           "source": "https://mp.weixin.qq.com/s/FB_Yi85_u5JS4uYFe1O7ag",
@@ -164099,9 +164876,33 @@
             "中游-制造"
           ],
           "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/_AxJ67eFzTt1FMrzZK2-ZQ",
+          "title": "6月11日信息整理：CPO+液冷+CCL+DrMOS+设备+零部件等",
+          "date": "2026-06-12",
+          "accidents": [
+            "中国管控InP出口,AMAT/TEL涨价5-10%,台积电26年CAPEX 520-560亿美元",
+            "华西首推1000亿目标,产能快速扩张"
+          ],
+          "insights": [
+            "半导体零部件龙头"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "半导体零部件龙头"
+          ],
+          "industry_position": [
+            "华西首推1000亿目标,产能快速扩张"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
         }
       ],
-      "last_updated": "2026-06-09",
+      "last_updated": "2026-06-12",
       "concepts": [
         "DeepSeek概念",
         "专精特新",
@@ -164113,7 +164914,16 @@
       ],
       "industry": "电子-半导体-半导体设备",
       "board": "SH",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "半导体零部件龙头"
+      ],
+      "industry_position": [
+        "华西首推1000亿目标,产能快速扩张"
+      ],
+      "chain": [
+        "中游-制造"
+      ]
     },
     "688411": {
       "code": "688411",
@@ -164653,7 +165463,7 @@
       "code": "688508",
       "name": "芯朋微",
       "concept": "",
-      "mention_count": 1,
+      "mention_count": 2,
       "articles": [
         {
           "source": "https://mp.weixin.qq.com/s/FB_Yi85_u5JS4uYFe1O7ag",
@@ -164678,9 +165488,33 @@
             "中游-制造"
           ],
           "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/_AxJ67eFzTt1FMrzZK2-ZQ",
+          "title": "6月11日信息整理：CPO+液冷+CCL+DrMOS+设备+零部件等",
+          "date": "2026-06-12",
+          "accidents": [
+            "中国管控InP出口,AMAT/TEL涨价5-10%,台积电26年CAPEX 520-560亿美元",
+            "新产品替代,环比+10%"
+          ],
+          "insights": [
+            "DrMOS"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "DrMOS"
+          ],
+          "industry_position": [
+            "新产品替代,环比+10%"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
         }
       ],
-      "last_updated": "2026-06-09",
+      "last_updated": "2026-06-12",
       "concepts": [
         "2025年报预增",
         "DeepSeek概念",
@@ -164703,7 +165537,16 @@
       ],
       "industry": "电子-半导体-模拟芯片设计",
       "board": "SH",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "DrMOS"
+      ],
+      "industry_position": [
+        "新产品替代,环比+10%"
+      ],
+      "chain": [
+        "中游-制造"
+      ]
     },
     "688513": {
       "code": "688513",
@@ -164847,7 +165690,7 @@
       "code": "688549",
       "name": "中巨芯",
       "concept": "",
-      "mention_count": 2,
+      "mention_count": 3,
       "articles": [
         {
           "title": "中巨芯，翻倍空间？",
@@ -164923,9 +165766,33 @@
             "半导体产业链"
           ],
           "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/_AxJ67eFzTt1FMrzZK2-ZQ",
+          "title": "6月11日信息整理：CPO+液冷+CCL+DrMOS+设备+零部件等",
+          "date": "2026-06-12",
+          "accidents": [
+            "中国管控InP出口,AMAT/TEL涨价5-10%,台积电26年CAPEX 520-560亿美元",
+            "WF6产业链"
+          ],
+          "insights": [
+            "电子湿化学品+特气"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "电子湿化学品+特气"
+          ],
+          "industry_position": [
+            "WF6产业链"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
         }
       ],
-      "last_updated": "2026-06-11",
+      "last_updated": "2026-06-12",
       "concepts": [
         "中芯国际概念",
         "先进封装",
@@ -171563,7 +172430,7 @@
       "partners": [
         "英伟达"
       ],
-      "mention_count": 1,
+      "mention_count": 2,
       "articles": [
         {
           "title": "宝鼎科技（002552.sz) 深度价值投资分析报告：PCB铜箔+黄金采选+Q1业绩大增",
@@ -171583,9 +172450,33 @@
             "Q1净利大增267%表明综合毛利率已进入快速上行通道。铜箔涨价与黄金高毛利叠加，预计2026全年净资产收益率（ROE）将较往年出现根本性扭转。"
           ],
           "target_valuation": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/_AxJ67eFzTt1FMrzZK2-ZQ",
+          "title": "6月11日信息整理：CPO+液冷+CCL+DrMOS+设备+零部件等",
+          "date": "2026-06-12",
+          "accidents": [
+            "中国管控InP出口,AMAT/TEL涨价5-10%,台积电26年CAPEX 520-560亿美元",
+            "载体铜箔进展顺利,下订单在即"
+          ],
+          "insights": [
+            "CCL/铜箔"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "CCL/铜箔"
+          ],
+          "industry_position": [
+            "载体铜箔进展顺利,下订单在即"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
         }
       ],
-      "last_updated": "2026-06-05"
+      "last_updated": "2026-06-12"
     },
     "300897": {
       "name": "山科智能",
@@ -174417,8 +175308,8 @@
     "920394": {
       "code": "920394",
       "name": "民士达",
-      "last_updated": "2026-06-09",
-      "mention_count": 1,
+      "last_updated": "2026-06-12",
+      "mention_count": 2,
       "articles": [
         {
           "source": "https://mp.weixin.qq.com/s/FB_Yi85_u5JS4uYFe1O7ag",
@@ -174443,7 +175334,44 @@
             "中游-制造"
           ],
           "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/_AxJ67eFzTt1FMrzZK2-ZQ",
+          "title": "6月11日信息整理：CPO+液冷+CCL+DrMOS+设备+零部件等",
+          "date": "2026-06-12",
+          "accidents": [
+            "中国管控InP出口,AMAT/TEL涨价5-10%,台积电26年CAPEX 520-560亿美元",
+            "芳纶纸CCL送样台光/生益,CTE低至负值"
+          ],
+          "insights": [
+            "芳纶纸PCB应用"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "芳纶纸PCB应用"
+          ],
+          "industry_position": [
+            "芳纶纸CCL送样台光/生益,CTE低至负值"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
         }
+      ],
+      "board": "BJ",
+      "core_business": [
+        "芳纶纸PCB应用"
+      ],
+      "industry_position": [
+        "芳纶纸CCL送样台光/生益,CTE低至负值"
+      ],
+      "chain": [
+        "中游-制造"
+      ],
+      "concepts": [
+        "芳纶"
       ]
     },
     "002065": {
@@ -174952,8 +175880,8 @@
     "000635": {
       "code": "000635",
       "name": "英力特",
-      "last_updated": "2026-06-11",
-      "mention_count": 1,
+      "last_updated": "2026-06-12",
+      "mention_count": 2,
       "board": "SZ",
       "core_business": [
         "电子级氟化氢3万吨"
@@ -174996,14 +175924,38 @@
             "半导体产业链"
           ],
           "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/_AxJ67eFzTt1FMrzZK2-ZQ",
+          "title": "6月11日信息整理：CPO+液冷+CCL+DrMOS+设备+零部件等",
+          "date": "2026-06-12",
+          "accidents": [
+            "中国管控InP出口,AMAT/TEL涨价5-10%,台积电26年CAPEX 520-560亿美元",
+            "WF6氟源,3万吨超净高纯电子级HF"
+          ],
+          "insights": [
+            "电子级氟化氢3万吨"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "电子级氟化氢3万吨"
+          ],
+          "industry_position": [
+            "WF6氟源,3万吨超净高纯电子级HF"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
         }
       ]
     },
     "605318": {
       "code": "605318",
       "name": "法狮龙",
-      "last_updated": "2026-06-11",
-      "mention_count": 1,
+      "last_updated": "2026-06-12",
+      "mention_count": 2,
       "board": "SH",
       "core_business": [
         "DCI算力专网,全国核心槽道20年独家"
@@ -175037,6 +175989,30 @@
           ],
           "industry_position": [
             "AI算力专网,东数西算核心支撑,光纤量价锁定,全线投产年营收104亿/净利73亿,2倍空间"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/_AxJ67eFzTt1FMrzZK2-ZQ",
+          "title": "6月11日信息整理：CPO+液冷+CCL+DrMOS+设备+零部件等",
+          "date": "2026-06-12",
+          "accidents": [
+            "中国管控InP出口,AMAT/TEL涨价5-10%,台积电26年CAPEX 520-560亿美元",
+            "全国核心槽道20年独家,全线投产年营收104亿净利73亿"
+          ],
+          "insights": [
+            "DCI算力专网独家"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "DCI算力专网独家"
+          ],
+          "industry_position": [
+            "全国核心槽道20年独家,全线投产年营收104亿净利73亿"
           ],
           "chain": [
             "中游-制造"
@@ -175684,6 +176660,52 @@
           ],
           "chain": [
             "首板涨停"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "920971": {
+      "code": "920971",
+      "name": "天马新材",
+      "last_updated": "2026-06-12",
+      "mention_count": 1,
+      "board": "BJ",
+      "core_business": [
+        "Low-α球形氧化铝"
+      ],
+      "industry_position": [
+        "HBM封装填料,AI服务器导热TIM"
+      ],
+      "chain": [
+        "中游-制造"
+      ],
+      "partners": [],
+      "concepts": [
+        "氧化铝"
+      ],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/_AxJ67eFzTt1FMrzZK2-ZQ",
+          "title": "6月11日信息整理：CPO+液冷+CCL+DrMOS+设备+零部件等",
+          "date": "2026-06-12",
+          "accidents": [
+            "中国管控InP出口,AMAT/TEL涨价5-10%,台积电26年CAPEX 520-560亿美元",
+            "HBM封装填料,AI服务器导热TIM"
+          ],
+          "insights": [
+            "Low-α球形氧化铝"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "Low-α球形氧化铝"
+          ],
+          "industry_position": [
+            "HBM封装填料,AI服务器导热TIM"
+          ],
+          "chain": [
+            "中游-制造"
           ],
           "partners": []
         }
