@@ -54379,8 +54379,8 @@
       "partners": []
     },
     "301319": {
-      "mention_count": 3,
-      "last_updated": "2026-06-01",
+      "mention_count": 4,
+      "last_updated": "2026-06-13",
       "partners": [],
       "concepts": [
         "专精特新",
@@ -54461,6 +54461,33 @@
             "7号粉水溶性锡膏、5号粉高可靠锡膏已小批量试产"
           ],
           "target_valuation": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/LZYx8XzU3fxqDLOtfrNoXQ",
+          "title": "光模块锡膏供应格局",
+          "date": "2026-06-13",
+          "accidents": [
+            "光模块速率升级→COB/CPO封装→T6/T7锡膏量价双升,800G+高速光模块锡膏刚需",
+            "国内龙头,T7级锡膏量产并通过光模块客户认证"
+          ],
+          "insights": [
+            "微电子焊接材料(锡膏/助焊剂)"
+          ],
+          "key_metrics": [
+            "全球高端锡膏贺利氏/阿尔法/千住垄断80%+",
+            "国产替代空间大"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "微电子焊接材料(锡膏/助焊剂)"
+          ],
+          "industry_position": [
+            "国内龙头,T7级锡膏量产并通过光模块客户认证"
+          ],
+          "chain": [
+            "光模块上游"
+          ],
+          "partners": []
         }
       ],
       "board": "SZ",
@@ -126913,9 +126940,37 @@
       "code": "688379",
       "name": "华光新材",
       "concept": "",
-      "mention_count": 0,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/LZYx8XzU3fxqDLOtfrNoXQ",
+          "title": "光模块锡膏供应格局",
+          "date": "2026-06-13",
+          "accidents": [
+            "光模块速率升级→COB/CPO封装→T6/T7锡膏量价双升,800G+高速光模块锡膏刚需",
+            "T6级锡膏量产,T7研发中"
+          ],
+          "insights": [
+            "焊接材料(银钎料/铜基钎料/银浆)"
+          ],
+          "key_metrics": [
+            "全球高端锡膏贺利氏/阿尔法/千住垄断80%+",
+            "国产替代空间大"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "焊接材料(银钎料/铜基钎料/银浆)"
+          ],
+          "industry_position": [
+            "T6级锡膏量产,T7研发中"
+          ],
+          "chain": [
+            "光模块上游"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-06-13",
       "concepts": [
         "2025年报预增",
         "人形机器人",
@@ -126938,7 +126993,16 @@
       ],
       "industry": "机械设备-通用设备-金属制品",
       "board": "SH",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "焊接材料(银钎料/铜基钎料/银浆)"
+      ],
+      "industry_position": [
+        "T6级锡膏量产,T7研发中"
+      ],
+      "chain": [
+        "光模块上游"
+      ]
     },
     "688382": {
       "code": "688382",
@@ -127346,7 +127410,7 @@
       "code": "688456",
       "name": "有研粉材",
       "concept": "",
-      "mention_count": 1,
+      "mention_count": 2,
       "articles": [
         {
           "source": "https://mp.weixin.qq.com/s/einCFjpDrJDqJjzo1qlS0w",
@@ -127371,9 +127435,36 @@
             "中游-制造"
           ],
           "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/LZYx8XzU3fxqDLOtfrNoXQ",
+          "title": "光模块锡膏供应格局",
+          "date": "2026-06-13",
+          "accidents": [
+            "光模块速率升级→COB/CPO封装→T6/T7锡膏量价双升,800G+高速光模块锡膏刚需",
+            "国内高端锡粉龙头,锡膏厂上游供应商"
+          ],
+          "insights": [
+            "铜基金属粉体+锡基焊粉"
+          ],
+          "key_metrics": [
+            "全球高端锡膏贺利氏/阿尔法/千住垄断80%+",
+            "国产替代空间大"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "铜基金属粉体+锡基焊粉"
+          ],
+          "industry_position": [
+            "国内高端锡粉龙头,锡膏厂上游供应商"
+          ],
+          "chain": [
+            "光模块上游"
+          ],
+          "partners": []
         }
       ],
-      "last_updated": "2026-06-12",
+      "last_updated": "2026-06-13",
       "concepts": [
         "3D打印",
         "BC电池",
@@ -137435,6 +137526,57 @@
           "partners": [
             "泰和新材"
           ]
+        }
+      ]
+    },
+    "603045": {
+      "code": "603045",
+      "name": "福达合金",
+      "last_updated": "2026-06-13",
+      "mention_count": 1,
+      "board": "SH",
+      "core_business": [
+        "银电接触材料+半导体级锡膏/锡球"
+      ],
+      "industry_position": [
+        "半导体级锡膏/锡球,纳米烧结银浆(MLCC浆料)"
+      ],
+      "chain": [
+        "光模块上游"
+      ],
+      "partners": [],
+      "concepts": [
+        "锡膏/半导体",
+        "高速光模块",
+        "COB封装"
+      ],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/LZYx8XzU3fxqDLOtfrNoXQ",
+          "title": "光模块锡膏供应格局",
+          "date": "2026-06-13",
+          "accidents": [
+            "光模块速率升级→COB/CPO封装→T6/T7锡膏量价双升,800G+高速光模块锡膏刚需",
+            "半导体级锡膏/锡球,纳米烧结银浆(MLCC浆料)"
+          ],
+          "insights": [
+            "银电接触材料+半导体级锡膏/锡球"
+          ],
+          "key_metrics": [
+            "全球高端锡膏贺利氏/阿尔法/千住垄断80%+",
+            "国产替代空间大"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "银电接触材料+半导体级锡膏/锡球"
+          ],
+          "industry_position": [
+            "半导体级锡膏/锡球,纳米烧结银浆(MLCC浆料)"
+          ],
+          "chain": [
+            "光模块上游"
+          ],
+          "partners": []
         }
       ]
     }
