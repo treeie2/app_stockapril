@@ -561,7 +561,7 @@
       ]
     },
     "688498": {
-      "mention_count": 4,
+      "mention_count": 5,
       "last_updated": "2026-06-12",
       "partners": [
         "英伟达",
@@ -640,6 +640,30 @@
           ],
           "industry_position": [
             "800G/1.6T硅光模块受益"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/6XnVfODYMRcgQM5RhG3tcw",
+          "title": "机构一周核心纪要5.30-6.3",
+          "date": "2026-06-12",
+          "accidents": [
+            "5.30-6.3机构核心纪要",
+            "100G/200G EML芯片,CPO/硅光供应商"
+          ],
+          "insights": [
+            "高速光芯片"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "高速光芯片"
+          ],
+          "industry_position": [
+            "100G/200G EML芯片,CPO/硅光供应商"
           ],
           "chain": [
             "中游-制造"
@@ -1123,8 +1147,8 @@
       ]
     },
     "002371": {
-      "mention_count": 7,
-      "last_updated": "2026-06-11",
+      "mention_count": 8,
+      "last_updated": "2026-06-12",
       "partners": [
         "中芯国际并购重组将带动上游封测需求，长电科技作为核心供应商",
         "中芯国际并购重组将带动设备采购需求，北方华创作为国产设备核心供应商",
@@ -1316,6 +1340,30 @@
           ],
           "chain": [
             "半导体产业链"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/6XnVfODYMRcgQM5RhG3tcw",
+          "title": "机构一周核心纪要5.30-6.3",
+          "date": "2026-06-12",
+          "accidents": [
+            "5.30-6.3机构核心纪要",
+            "GAA刻蚀市占率同步突破,存储设备放量"
+          ],
+          "insights": [
+            "GAA刻蚀设备"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "GAA刻蚀设备"
+          ],
+          "industry_position": [
+            "GAA刻蚀市占率同步突破,存储设备放量"
+          ],
+          "chain": [
+            "中游-制造"
           ],
           "partners": []
         }
@@ -2325,8 +2373,8 @@
       ]
     },
     "300408": {
-      "mention_count": 7,
-      "last_updated": "2026-06-10",
+      "mention_count": 8,
+      "last_updated": "2026-06-12",
       "partners": [
         "华为、浪潮等核心客户",
         "英伟达Rubin架构交付进度：Q3是否如期启动全球交付，首批客户",
@@ -2527,6 +2575,30 @@
           ],
           "chain": [
             "流延机产业链"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/6XnVfODYMRcgQM5RhG3tcw",
+          "title": "机构一周核心纪要5.30-6.3",
+          "date": "2026-06-12",
+          "accidents": [
+            "5.30-6.3机构核心纪要",
+            "高容MLCC突破0402/0201,ender手套产线转MLCC,单月产能翻倍"
+          ],
+          "insights": [
+            "MLCC+光纤陶瓷插芯"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "MLCC+光纤陶瓷插芯"
+          ],
+          "industry_position": [
+            "高容MLCC突破0402/0201,ender手套产线转MLCC,单月产能翻倍"
+          ],
+          "chain": [
+            "中游-制造"
           ],
           "partners": []
         }
@@ -3709,7 +3781,7 @@
       ]
     },
     "600183": {
-      "mention_count": 8,
+      "mention_count": 9,
       "last_updated": "2026-06-12",
       "partners": [
         "佛智芯",
@@ -3945,6 +4017,30 @@
           ],
           "industry_position": [
             "FR4净利率超高速料,AI CCL计划6月提价"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/6XnVfODYMRcgQM5RhG3tcw",
+          "title": "机构一周核心纪要5.30-6.3",
+          "date": "2026-06-12",
+          "accidents": [
+            "5.30-6.3机构核心纪要",
+            "CCL市占率全球第二,AI服务器高频高速CCL突破"
+          ],
+          "insights": [
+            "覆铜板龙头"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "覆铜板龙头"
+          ],
+          "industry_position": [
+            "CCL市占率全球第二,AI服务器高频高速CCL突破"
           ],
           "chain": [
             "中游-制造"
@@ -8578,9 +8674,13 @@
       "name": "中信海直"
     },
     "000100": {
-      "core_business": [],
-      "last_updated": "2026-05-31",
-      "industry_position": [],
+      "core_business": [
+        "面板+光伏"
+      ],
+      "last_updated": "2026-06-12",
+      "industry_position": [
+        "TCL华星面板,TCL中环光伏"
+      ],
       "valuation": {},
       "industry": "电子-光学光电子-面板",
       "concepts": [
@@ -8608,12 +8708,39 @@
         "超级品牌"
       ],
       "code": "000100",
-      "mention_count": 0,
+      "mention_count": 1,
       "partners": [],
-      "articles": [],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/6XnVfODYMRcgQM5RhG3tcw",
+          "title": "机构一周核心纪要5.30-6.3",
+          "date": "2026-06-12",
+          "accidents": [
+            "5.30-6.3机构核心纪要",
+            "TCL华星面板,TCL中环光伏"
+          ],
+          "insights": [
+            "面板+光伏"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "面板+光伏"
+          ],
+          "industry_position": [
+            "TCL华星面板,TCL中环光伏"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
+        }
+      ],
       "board": "SZ",
       "products": [],
-      "chain": [],
+      "chain": [
+        "中游-制造"
+      ],
       "name": "TCL科技"
     },
     "000157": {
@@ -9939,7 +10066,7 @@
         "高温合金",
         "燃气轮机叶片"
       ],
-      "last_updated": "2026-05-31",
+      "last_updated": "2026-06-12",
       "industry_position": [
         "燃机叶片国产替代先锋",
         "DQ/703国产燃机订单"
@@ -9957,7 +10084,7 @@
         "融资融券"
       ],
       "code": "000534",
-      "mention_count": 1,
+      "mention_count": 2,
       "partners": [
         "DQ",
         "703"
@@ -9981,6 +10108,30 @@
           ],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/6XnVfODYMRcgQM5RhG3tcw",
+          "title": "机构一周核心纪要5.30-6.3",
+          "date": "2026-06-12",
+          "accidents": [
+            "5.30-6.3机构核心纪要",
+            "燃机/航空发动机叶片,国产替代"
+          ],
+          "insights": [
+            "高温合金叶片"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "高温合金叶片"
+          ],
+          "industry_position": [
+            "燃机/航空发动机叶片,国产替代"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
         }
       ],
       "board": "SZ",
@@ -11228,8 +11379,8 @@
       "name": "三木集团"
     },
     "000636": {
-      "mention_count": 10,
-      "last_updated": "2026-06-10",
+      "mention_count": 11,
+      "last_updated": "2026-06-12",
       "partners": [
         "华为、浪潮等核心客户",
         "英伟达Rubin架构交付进度：Q3是否如期启动全球交付，首批客户",
@@ -11527,6 +11678,30 @@
           ],
           "chain": [
             "流延机产业链"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/6XnVfODYMRcgQM5RhG3tcw",
+          "title": "机构一周核心纪要5.30-6.3",
+          "date": "2026-06-12",
+          "accidents": [
+            "5.30-6.3机构核心纪要",
+            "祥和工业园募投加速,车规MLCC国产替代,动储125亿颗/年"
+          ],
+          "insights": [
+            "MLCC龙头"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "MLCC龙头"
+          ],
+          "industry_position": [
+            "祥和工业园募投加速,车规MLCC国产替代,动储125亿颗/年"
+          ],
+          "chain": [
+            "中游-制造"
           ],
           "partners": []
         }
@@ -26392,8 +26567,8 @@
       "partners": []
     },
     "002353": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-12",
       "concepts": [
         "一带一路",
         "中俄贸易概念",
@@ -26436,6 +26611,30 @@
           ],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/6XnVfODYMRcgQM5RhG3tcw",
+          "title": "机构一周核心纪要5.30-6.3",
+          "date": "2026-06-12",
+          "accidents": [
+            "5.30-6.3机构核心纪要",
+            "GT15燃机增压市场,油气设备龙头"
+          ],
+          "insights": [
+            "燃机+压裂设备"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "燃机+压裂设备"
+          ],
+          "industry_position": [
+            "GT15燃机增压市场,油气设备龙头"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
         }
       ],
       "industry": "机械设备-专用设备-能源及重型设备",
@@ -30169,8 +30368,8 @@
       ]
     },
     "002475": {
-      "mention_count": 2,
-      "last_updated": "2026-05-31",
+      "mention_count": 3,
+      "last_updated": "2026-06-12",
       "partners": [],
       "concepts": [
         "5G",
@@ -30271,6 +30470,30 @@
           "partners": [
             "戴尔"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/6XnVfODYMRcgQM5RhG3tcw",
+          "title": "机构一周核心纪要5.30-6.3",
+          "date": "2026-06-12",
+          "accidents": [
+            "5.30-6.3机构核心纪要",
+            "800G/1.6T光模块组测,苹果/英伟达供应商"
+          ],
+          "insights": [
+            "CPO/光模块组装"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "CPO/光模块组装"
+          ],
+          "industry_position": [
+            "800G/1.6T光模块组测,苹果/英伟达供应商"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
         }
       ],
       "board": "SZ",
@@ -37264,8 +37487,8 @@
       "name": "中大力德"
     },
     "002897": {
-      "mention_count": 2,
-      "last_updated": "2026-06-04",
+      "mention_count": 3,
+      "last_updated": "2026-06-12",
       "concepts": [
         "2025年报预增",
         "5G",
@@ -37338,6 +37561,30 @@
           ],
           "chain": [
             "概念-光通信/CPO"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/6XnVfODYMRcgQM5RhG3tcw",
+          "title": "机构一周核心纪要5.30-6.3",
+          "date": "2026-06-12",
+          "accidents": [
+            "5.30-6.3机构核心纪要",
+            "SFP+/QSFP+高速连接器,华为/中兴供应商"
+          ],
+          "insights": [
+            "铜缆高速连接器"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "铜缆高速连接器"
+          ],
+          "industry_position": [
+            "SFP+/QSFP+高速连接器,华为/中兴供应商"
+          ],
+          "chain": [
+            "中游-制造"
           ],
           "partners": []
         }
@@ -56668,8 +56915,8 @@
       ]
     },
     "300751": {
-      "mention_count": 0,
-      "last_updated": "2026-06-04",
+      "mention_count": 1,
+      "last_updated": "2026-06-12",
       "partners": [],
       "concepts": [
         "HJT电池",
@@ -56695,7 +56942,32 @@
         "技术水平领先",
         "T）电池设备绝对龙头"
       ],
-      "articles": [],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/6XnVfODYMRcgQM5RhG3tcw",
+          "title": "机构一周核心纪要5.30-6.3",
+          "date": "2026-06-12",
+          "accidents": [
+            "5.30-6.3机构核心纪要",
+            "钼基薄膜沉积工艺突破,钙钛矿/HJT"
+          ],
+          "insights": [
+            "HJT设备+钼基薄膜"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "HJT设备+钼基薄膜"
+          ],
+          "industry_position": [
+            "钼基薄膜沉积工艺突破,钙钛矿/HJT"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
+        }
+      ],
       "board": "SZ",
       "industry": "电力设备-光伏设备-光伏加工设备",
       "products": [
@@ -58263,8 +58535,8 @@
       ]
     },
     "300848": {
-      "mention_count": 0,
-      "last_updated": "2026-05-10",
+      "mention_count": 1,
+      "last_updated": "2026-06-12",
       "concepts": [
         "充电桩",
         "露营经济",
@@ -58276,7 +58548,32 @@
         "华为概念",
         "染料"
       ],
-      "articles": [],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/6XnVfODYMRcgQM5RhG3tcw",
+          "title": "机构一周核心纪要5.30-6.3",
+          "date": "2026-06-12",
+          "accidents": [
+            "5.30-6.3机构核心纪要",
+            "热塑性聚氨酯,可降解塑料"
+          ],
+          "insights": [
+            "TPU新材料"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "TPU新材料"
+          ],
+          "industry_position": [
+            "热塑性聚氨酯,可降解塑料"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
+        }
+      ],
       "industry": "基础化工-化学制品-聚氨酯",
       "board": "SZ",
       "chain": [
@@ -58287,6 +58584,12 @@
       "partners": [],
       "products": [
         "材料"
+      ],
+      "core_business": [
+        "TPU新材料"
+      ],
+      "industry_position": [
+        "热塑性聚氨酯,可降解塑料"
       ]
     },
     "300850": {
@@ -59246,8 +59549,8 @@
       "partners": []
     },
     "300913": {
-      "mention_count": 2,
-      "last_updated": "2026-06-05",
+      "mention_count": 3,
+      "last_updated": "2026-06-12",
       "concepts": [
         "5G",
         "人民币贬值受益",
@@ -59311,6 +59614,30 @@
             "：目前静态PE处于较高区间，但考虑到AI产业趋势对高速铜缆需求的刚性扩张，以及公司近50%的净利润复合增长率，对应"
           ],
           "target_valuation": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/6XnVfODYMRcgQM5RhG3tcw",
+          "title": "机构一周核心纪要5.30-6.3",
+          "date": "2026-06-12",
+          "accidents": [
+            "5.30-6.3机构核心纪要",
+            "400G/800G DAC铜缆,AI数据中心"
+          ],
+          "insights": [
+            "高速铜缆+DAC"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "高速铜缆+DAC"
+          ],
+          "industry_position": [
+            "400G/800G DAC铜缆,AI数据中心"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
         }
       ],
       "industry": "通信-通信设备-通信线缆及配套",
@@ -72834,8 +73161,8 @@
       "partners": []
     },
     "600482": {
-      "mention_count": 0,
-      "last_updated": "2026-05-31",
+      "mention_count": 1,
+      "last_updated": "2026-06-12",
       "concepts": [
         "DeepSeek概念",
         "中字头股票",
@@ -72868,7 +73195,32 @@
         "全球船舶发动机龙一",
         "国内船舶动力绝对龙头"
       ],
-      "articles": [],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/6XnVfODYMRcgQM5RhG3tcw",
+          "title": "机构一周核心纪要5.30-6.3",
+          "date": "2026-06-12",
+          "accidents": [
+            "5.30-6.3机构核心纪要",
+            "15MW级GT15燃机突破,HK燃机 Licensing布局"
+          ],
+          "insights": [
+            "燃气轮机+船舶动力"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "燃气轮机+船舶动力"
+          ],
+          "industry_position": [
+            "15MW级GT15燃机突破,HK燃机 Licensing布局"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
+        }
+      ],
       "industry": "电力设备-其他电源设备-其他电源设备Ⅲ",
       "board": "SH",
       "chain": [
@@ -92869,8 +93221,8 @@
       "partners": []
     },
     "603773": {
-      "mention_count": 3,
-      "last_updated": "2026-06-09",
+      "mention_count": 4,
+      "last_updated": "2026-06-12",
       "partners": [
         "华为昇腾",
         "CPO光模块客户",
@@ -92963,6 +93315,30 @@
           ],
           "chain": [
             "中游-复合集流体"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/6XnVfODYMRcgQM5RhG3tcw",
+          "title": "机构一周核心纪要5.30-6.3",
+          "date": "2026-06-12",
+          "accidents": [
+            "5.30-6.3机构核心纪要",
+            "Mini/Micro LED玻璃基板,MIP封装"
+          ],
+          "insights": [
+            "玻璃基板"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "玻璃基板"
+          ],
+          "industry_position": [
+            "Mini/Micro LED玻璃基板,MIP封装"
+          ],
+          "chain": [
+            "中游-制造"
           ],
           "partners": []
         }
@@ -94867,8 +95243,8 @@
       ]
     },
     "603992": {
-      "mention_count": 1,
-      "last_updated": "2026-06-11",
+      "mention_count": 2,
+      "last_updated": "2026-06-12",
       "concepts": [
         "2026一季报预增",
         "C2M概念",
@@ -94902,6 +95278,30 @@
           ],
           "chain": [
             "首板涨停"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/6XnVfODYMRcgQM5RhG3tcw",
+          "title": "机构一周核心纪要5.30-6.3",
+          "date": "2026-06-12",
+          "accidents": [
+            "5.30-6.3机构核心纪要",
+            "智能家居,ODM/OEM双模式"
+          ],
+          "insights": [
+            "智能硬件"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "智能硬件"
+          ],
+          "industry_position": [
+            "智能家居,ODM/OEM双模式"
+          ],
+          "chain": [
+            "中游-制造"
           ],
           "partners": []
         }
@@ -95254,8 +95654,8 @@
       ]
     },
     "605060": {
-      "mention_count": 0,
-      "last_updated": "2026-05-31",
+      "mention_count": 1,
+      "last_updated": "2026-06-12",
       "concepts": [
         "专精特新",
         "农机",
@@ -95269,7 +95669,32 @@
         "卡特颜巴赫核心供应商",
         "精密制造龙头"
       ],
-      "articles": [],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/6XnVfODYMRcgQM5RhG3tcw",
+          "title": "机构一周核心纪要5.30-6.3",
+          "date": "2026-06-12",
+          "accidents": [
+            "5.30-6.3机构核心纪要",
+            "燃机壳体/轴承座,制冷+燃机双轮"
+          ],
+          "insights": [
+            "燃机铸件+压缩机"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "燃机铸件+压缩机"
+          ],
+          "industry_position": [
+            "燃机壳体/轴承座,制冷+燃机双轮"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
+        }
+      ],
       "industry": "机械设备-通用设备-其他通用设备",
       "board": "SH",
       "chain": [
@@ -103178,7 +103603,7 @@
       "partners": []
     },
     "688300": {
-      "mention_count": 4,
+      "mention_count": 5,
       "last_updated": "2026-06-12",
       "partners": [
         "生益科技"
@@ -103274,6 +103699,30 @@
           ],
           "industry_position": [
             "先进封装材料,HBM"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/6XnVfODYMRcgQM5RhG3tcw",
+          "title": "机构一周核心纪要5.30-6.3",
+          "date": "2026-06-12",
+          "accidents": [
+            "5.30-6.3机构核心纪要",
+            "Lowα球形硅微粉,EMC/CCL填料,AI服务器放量"
+          ],
+          "insights": [
+            "电子级硅微粉"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "电子级硅微粉"
+          ],
+          "industry_position": [
+            "Lowα球形硅微粉,EMC/CCL填料,AI服务器放量"
           ],
           "chain": [
             "中游-制造"
@@ -108016,8 +108465,8 @@
       "partners": []
     },
     "688629": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-12",
       "concepts": [
         "5G",
         "低空经济",
@@ -108056,6 +108505,30 @@
           "accidents": [
             "DeepSeek-V4模型发布及国产算力（特别是'昇腾 950超节点'）发展"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/6XnVfODYMRcgQM5RhG3tcw",
+          "title": "机构一周核心纪要5.30-6.3",
+          "date": "2026-06-12",
+          "accidents": [
+            "5.30-6.3机构核心纪要",
+            "56Gbps/112Gbps高速背板,光模块+GPU互联"
+          ],
+          "insights": [
+            "高速背板连接器"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "高速背板连接器"
+          ],
+          "industry_position": [
+            "56Gbps/112Gbps高速背板,光模块+GPU互联"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
         }
       ],
       "industry": "国防军工-军工电子-军工电子Ⅲ",
@@ -108064,7 +108537,13 @@
         "华为"
       ],
       "code": "688629",
-      "name": "华丰科技"
+      "name": "华丰科技",
+      "industry_position": [
+        "56Gbps/112Gbps高速背板,光模块+GPU互联"
+      ],
+      "chain": [
+        "中游-制造"
+      ]
     },
     "688630": {
       "mention_count": 1,
@@ -129550,8 +130029,33 @@
       "name": "胜蓝股份",
       "concept": "",
       "mention_count": 1,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/6XnVfODYMRcgQM5RhG3tcw",
+          "title": "机构一周核心纪要5.30-6.3",
+          "date": "2026-06-12",
+          "accidents": [
+            "5.30-6.3机构核心纪要",
+            "AI服务器液冷方案供应商"
+          ],
+          "insights": [
+            "液冷连接器+高速线缆"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "液冷连接器+高速线缆"
+          ],
+          "industry_position": [
+            "AI服务器液冷方案供应商"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-06-12",
       "concepts": [
         "人形机器人",
         "低空经济",
@@ -129575,7 +130079,16 @@
       ],
       "industry": "电子-消费电子-消费电子零部件及组装",
       "board": "SZ",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "液冷连接器+高速线缆"
+      ],
+      "industry_position": [
+        "AI服务器液冷方案供应商"
+      ],
+      "chain": [
+        "中游-制造"
+      ]
     },
     "300855": {
       "code": "300855",
@@ -135002,8 +135515,33 @@
       "name": "华发股份",
       "concept": "",
       "mention_count": 1,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/6XnVfODYMRcgQM5RhG3tcw",
+          "title": "机构一周核心纪要5.30-6.3",
+          "date": "2026-06-12",
+          "accidents": [
+            "5.30-6.3机构核心纪要",
+            "4亿收购Angiokide,Q4临床,NMPA创新器械"
+          ],
+          "insights": [
+            "珠海地产+Angiokide"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "珠海地产+Angiokide"
+          ],
+          "industry_position": [
+            "4亿收购Angiokide,Q4临床,NMPA创新器械"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-06-12",
       "concepts": [
         "冰雪产业",
         "华为概念",
@@ -135022,7 +135560,16 @@
       ],
       "industry": "房地产-房地产-住宅开发",
       "board": "SH",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "珠海地产+Angiokide"
+      ],
+      "industry_position": [
+        "4亿收购Angiokide,Q4临床,NMPA创新器械"
+      ],
+      "chain": [
+        "中游-制造"
+      ]
     },
     "600328": {
       "code": "600328",
@@ -141245,7 +141792,7 @@
       "code": "603308",
       "name": "应流股份",
       "concept": "",
-      "mention_count": 1,
+      "mention_count": 2,
       "articles": [
         {
           "title": "GE vernova核心部件供应商",
@@ -141265,9 +141812,33 @@
           ],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/6XnVfODYMRcgQM5RhG3tcw",
+          "title": "机构一周核心纪要5.30-6.3",
+          "date": "2026-06-12",
+          "accidents": [
+            "5.30-6.3机构核心纪要",
+            "高温合金叶片,燃机国产替代"
+          ],
+          "insights": [
+            "燃机叶片+高端铸件"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "燃机叶片+高端铸件"
+          ],
+          "industry_position": [
+            "高温合金叶片,燃机国产替代"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
         }
       ],
-      "last_updated": "2026-05-31",
+      "last_updated": "2026-06-12",
       "concepts": [
         "3D打印",
         "一带一路",
@@ -141289,7 +141860,16 @@
       ],
       "industry": "机械设备-通用设备-金属制品",
       "board": "SH",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "燃机叶片+高端铸件"
+      ],
+      "industry_position": [
+        "高温合金叶片,燃机国产替代"
+      ],
+      "chain": [
+        "中游-制造"
+      ]
     },
     "603311": {
       "code": "603311",
@@ -142755,8 +143335,33 @@
       "name": "苏博特",
       "concept": "",
       "mention_count": 1,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/6XnVfODYMRcgQM5RhG3tcw",
+          "title": "机构一周核心纪要5.30-6.3",
+          "date": "2026-06-12",
+          "accidents": [
+            "5.30-6.3机构核心纪要",
+            "减水剂龙头,基建+地产"
+          ],
+          "insights": [
+            "混凝土外加剂"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "混凝土外加剂"
+          ],
+          "industry_position": [
+            "减水剂龙头,基建+地产"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-06-12",
       "concepts": [
         "AI应用",
         "军工",
@@ -142773,7 +143378,16 @@
       ],
       "industry": "基础化工-化学制品-其他化学制品",
       "board": "SH",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "混凝土外加剂"
+      ],
+      "industry_position": [
+        "减水剂龙头,基建+地产"
+      ],
+      "chain": [
+        "中游-制造"
+      ]
     },
     "603919": {
       "code": "603919",
@@ -144647,9 +145261,34 @@
       "code": "688095",
       "name": "福昕软件",
       "concept": "",
-      "mention_count": 4,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/6XnVfODYMRcgQM5RhG3tcw",
+          "title": "机构一周核心纪要5.30-6.3",
+          "date": "2026-06-12",
+          "accidents": [
+            "5.30-6.3机构核心纪要",
+            "AI文档助手,Foxit PDF国产化"
+          ],
+          "insights": [
+            "PDF编辑软件"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "PDF编辑软件"
+          ],
+          "industry_position": [
+            "AI文档助手,Foxit PDF国产化"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-06-12",
       "concepts": [
         "AIGC概念",
         "AI应用",
@@ -144666,7 +145305,16 @@
       ],
       "industry": "计算机-软件开发-横向通用软件",
       "board": "SH",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "PDF编辑软件"
+      ],
+      "industry_position": [
+        "AI文档助手,Foxit PDF国产化"
+      ],
+      "chain": [
+        "中游-制造"
+      ]
     },
     "688098": {
       "code": "688098",
@@ -146121,8 +146769,33 @@
       "name": "致远互联",
       "concept": "",
       "mention_count": 1,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/6XnVfODYMRcgQM5RhG3tcw",
+          "title": "机构一周核心纪要5.30-6.3",
+          "date": "2026-06-12",
+          "accidents": [
+            "5.30-6.3机构核心纪要",
+            "COP协同办公平台,信创替代"
+          ],
+          "insights": [
+            "协同管理软件"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "协同管理软件"
+          ],
+          "industry_position": [
+            "COP协同办公平台,信创替代"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-06-12",
       "concepts": [
         "AIGC概念",
         "AI智能体",
@@ -146146,7 +146819,16 @@
       ],
       "industry": "计算机-软件开发-横向通用软件",
       "board": "SH",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "协同管理软件"
+      ],
+      "industry_position": [
+        "COP协同办公平台,信创替代"
+      ],
+      "chain": [
+        "中游-制造"
+      ]
     },
     "688373": {
       "code": "688373",
@@ -159335,6 +160017,144 @@
           ],
           "industry_position": [
             "mSAP必需载体铜箔,光模块国产替代,AI铜箔受益"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "003018": {
+      "code": "003018",
+      "name": "金富科技",
+      "last_updated": "2026-06-12",
+      "mention_count": 1,
+      "board": "BJ",
+      "core_business": [
+        "液冷机柜/真空腔体"
+      ],
+      "industry_position": [
+        "AI服务器液冷渗透率+15%,单机柜价值量3000-5000元"
+      ],
+      "chain": [
+        "中游-制造"
+      ],
+      "partners": [],
+      "concepts": [
+        "液冷"
+      ],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/6XnVfODYMRcgQM5RhG3tcw",
+          "title": "机构一周核心纪要5.30-6.3",
+          "date": "2026-06-12",
+          "accidents": [
+            "5.30-6.3机构核心纪要",
+            "AI服务器液冷渗透率+15%,单机柜价值量3000-5000元"
+          ],
+          "insights": [
+            "液冷机柜/真空腔体"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "液冷机柜/真空腔体"
+          ],
+          "industry_position": [
+            "AI服务器液冷渗透率+15%,单机柜价值量3000-5000元"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "002955": {
+      "code": "002955",
+      "name": "鸿合科技",
+      "last_updated": "2026-06-12",
+      "mention_count": 1,
+      "board": "SZ",
+      "core_business": [
+        "教育平板"
+      ],
+      "industry_position": [
+        "鸿合π智能教学,海外教育市场"
+      ],
+      "chain": [
+        "中游-制造"
+      ],
+      "partners": [],
+      "concepts": [
+        "教育"
+      ],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/6XnVfODYMRcgQM5RhG3tcw",
+          "title": "机构一周核心纪要5.30-6.3",
+          "date": "2026-06-12",
+          "accidents": [
+            "5.30-6.3机构核心纪要",
+            "鸿合π智能教学,海外教育市场"
+          ],
+          "insights": [
+            "教育平板"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "教育平板"
+          ],
+          "industry_position": [
+            "鸿合π智能教学,海外教育市场"
+          ],
+          "chain": [
+            "中游-制造"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "603038": {
+      "code": "603038",
+      "name": "华立股份",
+      "last_updated": "2026-06-12",
+      "mention_count": 1,
+      "board": "SZ",
+      "core_business": [
+        "智能家居+新材料"
+      ],
+      "industry_position": [
+        "复合材料,家具封边条"
+      ],
+      "chain": [
+        "中游-制造"
+      ],
+      "partners": [],
+      "concepts": [
+        "消费电子"
+      ],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/6XnVfODYMRcgQM5RhG3tcw",
+          "title": "机构一周核心纪要5.30-6.3",
+          "date": "2026-06-12",
+          "accidents": [
+            "5.30-6.3机构核心纪要",
+            "复合材料,家具封边条"
+          ],
+          "insights": [
+            "智能家居+新材料"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "智能家居+新材料"
+          ],
+          "industry_position": [
+            "复合材料,家具封边条"
           ],
           "chain": [
             "中游-制造"
