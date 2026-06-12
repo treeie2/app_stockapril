@@ -52070,7 +52070,9 @@
       ],
       "code": "301069",
       "name": "凯盛新材",
-      "partners": []
+      "partners": [
+        "SpaceX"
+      ]
     },
     "301071": {
       "mention_count": 0,
