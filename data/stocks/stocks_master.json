@@ -10382,9 +10382,13 @@
       "name": "粤高速A"
     },
     "000513": {
-      "core_business": [],
-      "last_updated": "2026-05-31",
-      "industry_position": [],
+      "core_business": [
+        "司美格鲁肽仿制药"
+      ],
+      "last_updated": "2026-06-12",
+      "industry_position": [
+        "原料药-制剂一体化,FDA申报审评,27年专利到期替代"
+      ],
       "valuation": {},
       "industry": "医药生物-化学制药-化学制剂",
       "concepts": [
@@ -10406,7 +10410,7 @@
         "重组蛋白"
       ],
       "code": "000513",
-      "mention_count": 1,
+      "mention_count": 2,
       "partners": [],
       "articles": [
         {
@@ -10417,11 +10421,41 @@
           ],
           "title": "热点关注，今日操作策略与风险提示，底部竞价参考，7月17日",
           "source": "https://mp.weixin.qq.com/s/HbcSc94rA8Zc33_7oMB5bQ"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/x2b9ooiNgBm6cxS2G8OyIA",
+          "title": "口服GLP-1引爆千亿市场：A股全产业链受益图谱",
+          "date": "2026-06-12",
+          "accidents": [
+            "高盛上调2030年全球减肥药市场至1140亿美元,口服GLP-1从'小众高价'向'大众消费'跃迁",
+            "原料药-制剂一体化,FDA申报审评,27年专利到期替代"
+          ],
+          "insights": [
+            "司美格鲁肽仿制药"
+          ],
+          "key_metrics": [
+            "2030年1140亿美元",
+            "多肽原料药CAGR 70%+",
+            "渗透率<1%→10%+"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "司美格鲁肽仿制药"
+          ],
+          "industry_position": [
+            "原料药-制剂一体化,FDA申报审评,27年专利到期替代"
+          ],
+          "chain": [
+            "GLP-1产业链"
+          ],
+          "partners": []
         }
       ],
       "board": "SZ",
       "products": [],
-      "chain": [],
+      "chain": [
+        "GLP-1产业链"
+      ],
       "name": "丽珠集团"
     },
     "000516": {
@@ -16696,8 +16730,10 @@
       "core_business": [
         "GLP-1赛道双寡头之一"
       ],
-      "last_updated": "2026-05-10",
-      "industry_position": [],
+      "last_updated": "2026-06-12",
+      "industry_position": [
+        "奥司那肽(口服)III期,Oral GLP-1/I+GIP双靶"
+      ],
       "valuation": {},
       "industry": "医药生物-化学制药-化学制剂",
       "concepts": [
@@ -16718,7 +16754,7 @@
         "融资融券"
       ],
       "code": "000963",
-      "mention_count": 1,
+      "mention_count": 2,
       "partners": [],
       "articles": [
         {
@@ -16731,11 +16767,41 @@
           "accidents": [
             "GLP-1赛道双寡头之一"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/x2b9ooiNgBm6cxS2G8OyIA",
+          "title": "口服GLP-1引爆千亿市场：A股全产业链受益图谱",
+          "date": "2026-06-12",
+          "accidents": [
+            "高盛上调2030年全球减肥药市场至1140亿美元,口服GLP-1从'小众高价'向'大众消费'跃迁",
+            "奥司那肽(口服)III期,Oral GLP-1/I+GIP双靶"
+          ],
+          "insights": [
+            "利拉鲁肽已上市+口服HDM1002"
+          ],
+          "key_metrics": [
+            "2030年1140亿美元",
+            "多肽原料药CAGR 70%+",
+            "渗透率<1%→10%+"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "利拉鲁肽已上市+口服HDM1002"
+          ],
+          "industry_position": [
+            "奥司那肽(口服)III期,Oral GLP-1/I+GIP双靶"
+          ],
+          "chain": [
+            "GLP-1产业链"
+          ],
+          "partners": []
         }
       ],
       "board": "SZ",
       "products": [],
-      "chain": [],
+      "chain": [
+        "GLP-1产业链"
+      ],
       "name": "华东医药"
     },
     "000967": {
@@ -26000,8 +26066,10 @@
       "name": "福晶科技"
     },
     "002223": {
-      "core_business": [],
-      "last_updated": "2026-05-10",
+      "core_business": [
+        "家用医疗设备+减重"
+      ],
+      "last_updated": "2026-06-12",
       "industry_position": [
         "龙头",
         "机市占率稳居全国第一",
@@ -26025,7 +26093,7 @@
         "融资融券"
       ],
       "code": "002223",
-      "mention_count": 1,
+      "mention_count": 2,
       "partners": [],
       "articles": [
         {
@@ -26035,6 +26103,34 @@
           ],
           "title": "“新冠概念”深度解析与操作策略5月17日",
           "source": "https://mp.weixin.qq.com/s/iBIofgKMT8npKNpfEP_G3A"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/x2b9ooiNgBm6cxS2G8OyIA",
+          "title": "口服GLP-1引爆千亿市场：A股全产业链受益图谱",
+          "date": "2026-06-12",
+          "accidents": [
+            "高盛上调2030年全球减肥药市场至1140亿美元,口服GLP-1从'小众高价'向'大众消费'跃迁",
+            "血糖仪/体脂秤,GLP-1带动减重需求爆发"
+          ],
+          "insights": [
+            "家用医疗设备+减重"
+          ],
+          "key_metrics": [
+            "2030年1140亿美元",
+            "多肽原料药CAGR 70%+",
+            "渗透率<1%→10%+"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "家用医疗设备+减重"
+          ],
+          "industry_position": [
+            "血糖仪/体脂秤,GLP-1带动减重需求爆发"
+          ],
+          "chain": [
+            "GLP-1产业链"
+          ],
+          "partners": []
         }
       ],
       "board": "SZ",
@@ -40892,8 +40988,8 @@
       "partners": []
     },
     "002821": {
-      "mention_count": 1,
-      "last_updated": "2026-06-05",
+      "mention_count": 2,
+      "last_updated": "2026-06-12",
       "concepts": [
         "创新药",
         "京津冀一体化",
@@ -40913,13 +41009,50 @@
           ],
           "title": "昨日市场复盘及操作策略，8月1日",
           "source": "https://mp.weixin.qq.com/s/458ZZ1z4qxLviJ8cVFU9mQ"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/x2b9ooiNgBm6cxS2G8OyIA",
+          "title": "口服GLP-1引爆千亿市场：A股全产业链受益图谱",
+          "date": "2026-06-12",
+          "accidents": [
+            "高盛上调2030年全球减肥药市场至1140亿美元,口服GLP-1从'小众高价'向'大众消费'跃迁",
+            "28-30步合成工艺壁垒高,连续流领先,26年GLP-1+50%"
+          ],
+          "insights": [
+            "礼来口服Orforglipron中间体"
+          ],
+          "key_metrics": [
+            "2030年1140亿美元",
+            "多肽原料药CAGR 70%+",
+            "渗透率<1%→10%+"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "礼来口服Orforglipron中间体"
+          ],
+          "industry_position": [
+            "28-30步合成工艺壁垒高,连续流领先,26年GLP-1+50%"
+          ],
+          "chain": [
+            "GLP-1产业链"
+          ],
+          "partners": []
         }
       ],
       "industry": "医药生物-医疗服务-医疗研发外包",
       "board": "SZ",
       "code": "002821",
       "name": "凯莱英",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "礼来口服Orforglipron中间体"
+      ],
+      "industry_position": [
+        "28-30步合成工艺壁垒高,连续流领先,26年GLP-1+50%"
+      ],
+      "chain": [
+        "GLP-1产业链"
+      ]
     },
     "002823": {
       "mention_count": 1,
@@ -45822,8 +45955,8 @@
       "partners": []
     },
     "300003": {
-      "mention_count": 1,
-      "last_updated": "2026-05-10",
+      "mention_count": 2,
+      "last_updated": "2026-06-12",
       "concepts": [
         "猴痘概念",
         "AIGC概念",
@@ -45866,6 +45999,34 @@
           "accidents": [
             "全球首发侵入式脑机接口医疗器械获批"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/x2b9ooiNgBm6cxS2G8OyIA",
+          "title": "口服GLP-1引爆千亿市场：A股全产业链受益图谱",
+          "date": "2026-06-12",
+          "accidents": [
+            "高盛上调2030年全球减肥药市场至1140亿美元,口服GLP-1从'小众高价'向'大众消费'跃迁",
+            "药物+器械+服务一体化"
+          ],
+          "insights": [
+            "GLP-1药物+血糖监测"
+          ],
+          "key_metrics": [
+            "2030年1140亿美元",
+            "多肽原料药CAGR 70%+",
+            "渗透率<1%→10%+"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "GLP-1药物+血糖监测"
+          ],
+          "industry_position": [
+            "药物+器械+服务一体化"
+          ],
+          "chain": [
+            "GLP-1产业链"
+          ],
+          "partners": []
         }
       ],
       "industry": "医药生物-医疗器械-医疗耗材",
@@ -51525,8 +51686,8 @@
       "name": "长海股份"
     },
     "300199": {
-      "mention_count": 1,
-      "last_updated": "2026-05-10",
+      "mention_count": 2,
+      "last_updated": "2026-06-12",
       "concepts": [
         "创投",
         "人民币贬值受益",
@@ -51563,13 +51724,50 @@
           "accidents": [
             "现金（40%）"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/x2b9ooiNgBm6cxS2G8OyIA",
+          "title": "口服GLP-1引爆千亿市场：A股全产业链受益图谱",
+          "date": "2026-06-12",
+          "accidents": [
+            "高盛上调2030年全球减肥药市场至1140亿美元,口服GLP-1从'小众高价'向'大众消费'跃迁",
+            "FDA DMF备案,1.8亿订单,年产300kg产线投产"
+          ],
+          "insights": [
+            "利拉鲁肽/司美格鲁肽原料药"
+          ],
+          "key_metrics": [
+            "2030年1140亿美元",
+            "多肽原料药CAGR 70%+",
+            "渗透率<1%→10%+"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "利拉鲁肽/司美格鲁肽原料药"
+          ],
+          "industry_position": [
+            "FDA DMF备案,1.8亿订单,年产300kg产线投产"
+          ],
+          "chain": [
+            "GLP-1产业链"
+          ],
+          "partners": []
         }
       ],
       "industry": "医药生物-化学制药-化学制剂",
       "board": "SZ",
       "code": "300199",
       "name": "翰宇药业",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "利拉鲁肽/司美格鲁肽原料药"
+      ],
+      "industry_position": [
+        "FDA DMF备案,1.8亿订单,年产300kg产线投产"
+      ],
+      "chain": [
+        "GLP-1产业链"
+      ]
     },
     "300200": {
       "mention_count": 1,
@@ -65369,8 +65567,8 @@
       "partners": []
     },
     "300759": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-12",
       "concepts": [
         "CRO概念",
         "人工智能",
@@ -65388,13 +65586,50 @@
           ],
           "title": "01月14日___公告精选",
           "source": "https://mp.weixin.qq.com/s/Bb2447-2lU2LGAVbW38B0Q"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/x2b9ooiNgBm6cxS2G8OyIA",
+          "title": "口服GLP-1引爆千亿市场：A股全产业链受益图谱",
+          "date": "2026-06-12",
+          "accidents": [
+            "高盛上调2030年全球减肥药市场至1140亿美元,口服GLP-1从'小众高价'向'大众消费'跃迁",
+            "临床前到商业化一站式,多肽产能扩张,26年+35%"
+          ],
+          "insights": [
+            "GLP-1全链条CDMO"
+          ],
+          "key_metrics": [
+            "2030年1140亿美元",
+            "多肽原料药CAGR 70%+",
+            "渗透率<1%→10%+"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "GLP-1全链条CDMO"
+          ],
+          "industry_position": [
+            "临床前到商业化一站式,多肽产能扩张,26年+35%"
+          ],
+          "chain": [
+            "GLP-1产业链"
+          ],
+          "partners": []
         }
       ],
       "industry": "医药生物-医疗服务-医疗研发外包",
       "board": "SZ",
       "code": "300759",
       "name": "康龙化成",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "GLP-1全链条CDMO"
+      ],
+      "industry_position": [
+        "临床前到商业化一站式,多肽产能扩张,26年+35%"
+      ],
+      "chain": [
+        "GLP-1产业链"
+      ]
     },
     "300760": {
       "mention_count": 2,
@@ -71461,8 +71696,8 @@
       ]
     },
     "301201": {
-      "mention_count": 1,
-      "last_updated": "2026-05-10",
+      "mention_count": 2,
+      "last_updated": "2026-06-12",
       "concepts": [
         "肝炎概念",
         "创新药",
@@ -71483,13 +71718,50 @@
           "insights": [
             "资金对板块的关注度已提升至新高度"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/x2b9ooiNgBm6cxS2G8OyIA",
+          "title": "口服GLP-1引爆千亿市场：A股全产业链受益图谱",
+          "date": "2026-06-12",
+          "accidents": [
+            "高盛上调2030年全球减肥药市场至1140亿美元,口服GLP-1从'小众高价'向'大众消费'跃迁",
+            "深度绑定礼来,订单排期至2027年"
+          ],
+          "insights": [
+            "礼来口服GLP-1关键中间体"
+          ],
+          "key_metrics": [
+            "2030年1140亿美元",
+            "多肽原料药CAGR 70%+",
+            "渗透率<1%→10%+"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "礼来口服GLP-1关键中间体"
+          ],
+          "industry_position": [
+            "深度绑定礼来,订单排期至2027年"
+          ],
+          "chain": [
+            "GLP-1产业链"
+          ],
+          "partners": []
         }
       ],
       "industry": "医药生物-医疗服务-医疗研发外包",
       "board": "SZ",
       "code": "301201",
       "name": "诚达药业",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "礼来口服GLP-1关键中间体"
+      ],
+      "industry_position": [
+        "深度绑定礼来,订单排期至2027年"
+      ],
+      "chain": [
+        "GLP-1产业链"
+      ]
     },
     "301205": {
       "mention_count": 3,
@@ -81456,8 +81728,8 @@
       "partners": []
     },
     "600276": {
-      "mention_count": 6,
-      "last_updated": "2026-05-31",
+      "mention_count": 7,
+      "last_updated": "2026-06-12",
       "partners": [],
       "concepts": [
         "仿制药一致性评价",
@@ -81544,6 +81816,34 @@
           "accidents": [
             "与BMS达成全球战略合作，总规模152亿美元"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/x2b9ooiNgBm6cxS2G8OyIA",
+          "title": "口服GLP-1引爆千亿市场：A股全产业链受益图谱",
+          "date": "2026-06-12",
+          "accidents": [
+            "高盛上调2030年全球减肥药市场至1140亿美元,口服GLP-1从'小众高价'向'大众消费'跃迁",
+            "III期临床,减重效果-9.8%,呕吐率仅11.4%,板块风向标"
+          ],
+          "insights": [
+            "口服GLP-1/GIP双靶HRS9531"
+          ],
+          "key_metrics": [
+            "2030年1140亿美元",
+            "多肽原料药CAGR 70%+",
+            "渗透率<1%→10%+"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "口服GLP-1/GIP双靶HRS9531"
+          ],
+          "industry_position": [
+            "III期临床,减重效果-9.8%,呕吐率仅11.4%,板块风向标"
+          ],
+          "chain": [
+            "GLP-1产业链"
+          ],
+          "partners": []
         }
       ],
       "board": "SH",
@@ -81554,7 +81854,9 @@
       ],
       "name": "恒瑞医药",
       "code": "600276",
-      "core_business": []
+      "core_business": [
+        "口服GLP-1/GIP双靶HRS9531"
+      ]
     },
     "600280": {
       "mention_count": 3,
@@ -103727,8 +104029,8 @@
       "partners": []
     },
     "603259": {
-      "mention_count": 5,
-      "last_updated": "2026-05-10",
+      "mention_count": 6,
+      "last_updated": "2026-06-12",
       "concepts": [
         "回购增持再贷款概念",
         "同花顺出海50",
@@ -103793,6 +104095,34 @@
           "insights": [
             "领跌板块逻辑"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/x2b9ooiNgBm6cxS2G8OyIA",
+          "title": "口服GLP-1引爆千亿市场：A股全产业链受益图谱",
+          "date": "2026-06-12",
+          "accidents": [
+            "高盛上调2030年全球减肥药市场至1140亿美元,口服GLP-1从'小众高价'向'大众消费'跃迁",
+            "覆盖全球20%GLP-1项目,TIDES 25-28年CAGR 38%,产能130kL"
+          ],
+          "insights": [
+            "全球多肽CDMO龙头"
+          ],
+          "key_metrics": [
+            "2030年1140亿美元",
+            "多肽原料药CAGR 70%+",
+            "渗透率<1%→10%+"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "全球多肽CDMO龙头"
+          ],
+          "industry_position": [
+            "覆盖全球20%GLP-1项目,TIDES 25-28年CAGR 38%,产能130kL"
+          ],
+          "chain": [
+            "GLP-1产业链"
+          ],
+          "partners": []
         }
       ],
       "industry": "医药生物-医疗服务-医疗研发外包",
@@ -134170,11 +134500,44 @@
       "code": "000739",
       "name": "普洛药业",
       "concept": "",
-      "mention_count": 2,
-      "articles": [],
-      "last_updated": "2026-05-31",
-      "core_business": [],
-      "industry_position": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/x2b9ooiNgBm6cxS2G8OyIA",
+          "title": "口服GLP-1引爆千亿市场：A股全产业链受益图谱",
+          "date": "2026-06-12",
+          "accidents": [
+            "高盛上调2030年全球减肥药市场至1140亿美元,口服GLP-1从'小众高价'向'大众消费'跃迁",
+            "产能规模优势,口服GLP-1商业化受益"
+          ],
+          "insights": [
+            "GLP-1中间体+原料药"
+          ],
+          "key_metrics": [
+            "2030年1140亿美元",
+            "多肽原料药CAGR 70%+",
+            "渗透率<1%→10%+"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "GLP-1中间体+原料药"
+          ],
+          "industry_position": [
+            "产能规模优势,口服GLP-1商业化受益"
+          ],
+          "chain": [
+            "GLP-1产业链"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-06-12",
+      "core_business": [
+        "GLP-1中间体+原料药"
+      ],
+      "industry_position": [
+        "产能规模优势,口服GLP-1商业化受益"
+      ],
       "valuation": {},
       "industry": "医药生物-化学制药-原料药",
       "concepts": [
@@ -134197,7 +134560,9 @@
       "partners": [],
       "board": "SZ",
       "products": [],
-      "chain": []
+      "chain": [
+        "GLP-1产业链"
+      ]
     },
     "000750": {
       "code": "000750",
@@ -144959,8 +145324,37 @@
       "name": "山河药辅",
       "concept": "",
       "mention_count": 1,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/x2b9ooiNgBm6cxS2G8OyIA",
+          "title": "口服GLP-1引爆千亿市场：A股全产业链受益图谱",
+          "date": "2026-06-12",
+          "accidents": [
+            "高盛上调2030年全球减肥药市场至1140亿美元,口服GLP-1从'小众高价'向'大众消费'跃迁",
+            "FDA认证,SNAC是口服司美格鲁肽核心辅料"
+          ],
+          "insights": [
+            "SNAC辅料(口服GLP-1关键)"
+          ],
+          "key_metrics": [
+            "2030年1140亿美元",
+            "多肽原料药CAGR 70%+",
+            "渗透率<1%→10%+"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "SNAC辅料(口服GLP-1关键)"
+          ],
+          "industry_position": [
+            "FDA认证,SNAC是口服司美格鲁肽核心辅料"
+          ],
+          "chain": [
+            "GLP-1产业链"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-06-12",
       "concepts": [
         "专精特新",
         "医美概念",
@@ -144968,7 +145362,16 @@
       ],
       "industry": "医药生物-化学制药-原料药",
       "board": "SZ",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "SNAC辅料(口服GLP-1关键)"
+      ],
+      "industry_position": [
+        "FDA认证,SNAC是口服司美格鲁肽核心辅料"
+      ],
+      "chain": [
+        "GLP-1产业链"
+      ]
     },
     "300457": {
       "code": "300457",
@@ -151698,8 +152101,37 @@
       "name": "昊帆生物",
       "concept": "",
       "mention_count": 1,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/x2b9ooiNgBm6cxS2G8OyIA",
+          "title": "口服GLP-1引爆千亿市场：A股全产业链受益图谱",
+          "date": "2026-06-12",
+          "accidents": [
+            "高盛上调2030年全球减肥药市场至1140亿美元,口服GLP-1从'小众高价'向'大众消费'跃迁",
+            "市占率30%+,礼来/诺和诺德供应商,毛利率50%+"
+          ],
+          "insights": [
+            "多肽合成试剂龙头"
+          ],
+          "key_metrics": [
+            "2030年1140亿美元",
+            "多肽原料药CAGR 70%+",
+            "渗透率<1%→10%+"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "多肽合成试剂龙头"
+          ],
+          "industry_position": [
+            "市占率30%+,礼来/诺和诺德供应商,毛利率50%+"
+          ],
+          "chain": [
+            "GLP-1产业链"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-06-12",
       "concepts": [
         "CRO概念",
         "减肥药",
@@ -151709,7 +152141,16 @@
       ],
       "industry": "医药生物-生物制品-其他生物制品",
       "board": "SZ",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "多肽合成试剂龙头"
+      ],
+      "industry_position": [
+        "市占率30%+,礼来/诺和诺德供应商,毛利率50%+"
+      ],
+      "chain": [
+        "GLP-1产业链"
+      ]
     },
     "301397": {
       "code": "301397",
@@ -159229,8 +159670,37 @@
       "name": "甘李药业",
       "concept": "",
       "mention_count": 1,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/x2b9ooiNgBm6cxS2G8OyIA",
+          "title": "口服GLP-1引爆千亿市场：A股全产业链受益图谱",
+          "date": "2026-06-12",
+          "accidents": [
+            "高盛上调2030年全球减肥药市场至1140亿美元,口服GLP-1从'小众高价'向'大众消费'跃迁",
+            "GLP-1管线III期,困境反转预期"
+          ],
+          "insights": [
+            "胰岛素→GLP-1转型"
+          ],
+          "key_metrics": [
+            "2030年1140亿美元",
+            "多肽原料药CAGR 70%+",
+            "渗透率<1%→10%+"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "胰岛素→GLP-1转型"
+          ],
+          "industry_position": [
+            "GLP-1管线III期,困境反转预期"
+          ],
+          "chain": [
+            "GLP-1产业链"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-06-12",
       "concepts": [
         "2025年报预增",
         "减肥药",
@@ -159244,7 +159714,16 @@
       ],
       "industry": "医药生物-生物制品-其他生物制品",
       "board": "SH",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "胰岛素→GLP-1转型"
+      ],
+      "industry_position": [
+        "GLP-1管线III期,困境反转预期"
+      ],
+      "chain": [
+        "GLP-1产业链"
+      ]
     },
     "603090": {
       "code": "603090",
@@ -177313,6 +177792,266 @@
           ],
           "chain": [
             "中游-制造"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "688117": {
+      "code": "688117",
+      "name": "圣诺生物",
+      "last_updated": "2026-06-12",
+      "mention_count": 1,
+      "board": "SH",
+      "core_business": [
+        "GLP-1多肽原料药"
+      ],
+      "industry_position": [
+        "Q1营收+62.57%,净利+215.70%,产业化基地投产"
+      ],
+      "chain": [
+        "GLP-1产业链"
+      ],
+      "partners": [],
+      "concepts": [
+        "原料药",
+        "口服GLP-1",
+        "减肥药"
+      ],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/x2b9ooiNgBm6cxS2G8OyIA",
+          "title": "口服GLP-1引爆千亿市场：A股全产业链受益图谱",
+          "date": "2026-06-12",
+          "accidents": [
+            "高盛上调2030年全球减肥药市场至1140亿美元,口服GLP-1从'小众高价'向'大众消费'跃迁",
+            "Q1营收+62.57%,净利+215.70%,产业化基地投产"
+          ],
+          "insights": [
+            "GLP-1多肽原料药"
+          ],
+          "key_metrics": [
+            "2030年1140亿美元",
+            "多肽原料药CAGR 70%+",
+            "渗透率<1%→10%+"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "GLP-1多肽原料药"
+          ],
+          "industry_position": [
+            "Q1营收+62.57%,净利+215.70%,产业化基地投产"
+          ],
+          "chain": [
+            "GLP-1产业链"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "688076": {
+      "code": "688076",
+      "name": "ST诺泰",
+      "last_updated": "2026-06-12",
+      "mention_count": 1,
+      "board": "SH",
+      "core_business": [
+        "多肽CDMO+原料药"
+      ],
+      "industry_position": [
+        "固相合成产能扩张,礼来/诺和诺德供应链,毛利率40%+"
+      ],
+      "chain": [
+        "GLP-1产业链"
+      ],
+      "partners": [],
+      "concepts": [
+        "原料药/CDMO",
+        "口服GLP-1",
+        "减肥药"
+      ],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/x2b9ooiNgBm6cxS2G8OyIA",
+          "title": "口服GLP-1引爆千亿市场：A股全产业链受益图谱",
+          "date": "2026-06-12",
+          "accidents": [
+            "高盛上调2030年全球减肥药市场至1140亿美元,口服GLP-1从'小众高价'向'大众消费'跃迁",
+            "固相合成产能扩张,礼来/诺和诺德供应链,毛利率40%+"
+          ],
+          "insights": [
+            "多肽CDMO+原料药"
+          ],
+          "key_metrics": [
+            "2030年1140亿美元",
+            "多肽原料药CAGR 70%+",
+            "渗透率<1%→10%+"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "多肽CDMO+原料药"
+          ],
+          "industry_position": [
+            "固相合成产能扩张,礼来/诺和诺德供应链,毛利率40%+"
+          ],
+          "chain": [
+            "GLP-1产业链"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "301509": {
+      "code": "301509",
+      "name": "金凯生科",
+      "last_updated": "2026-06-12",
+      "mention_count": 1,
+      "board": "SZ",
+      "core_business": [
+        "诺和诺德口服司美格鲁肽中间体"
+      ],
+      "industry_position": [
+        "口服片剂关键中间体核心供应商,订单确定性强"
+      ],
+      "chain": [
+        "GLP-1产业链"
+      ],
+      "partners": [],
+      "concepts": [
+        "中间体",
+        "口服GLP-1",
+        "减肥药"
+      ],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/x2b9ooiNgBm6cxS2G8OyIA",
+          "title": "口服GLP-1引爆千亿市场：A股全产业链受益图谱",
+          "date": "2026-06-12",
+          "accidents": [
+            "高盛上调2030年全球减肥药市场至1140亿美元,口服GLP-1从'小众高价'向'大众消费'跃迁",
+            "口服片剂关键中间体核心供应商,订单确定性强"
+          ],
+          "insights": [
+            "诺和诺德口服司美格鲁肽中间体"
+          ],
+          "key_metrics": [
+            "2030年1140亿美元",
+            "多肽原料药CAGR 70%+",
+            "渗透率<1%→10%+"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "诺和诺德口服司美格鲁肽中间体"
+          ],
+          "industry_position": [
+            "口服片剂关键中间体核心供应商,订单确定性强"
+          ],
+          "chain": [
+            "GLP-1产业链"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "300171": {
+      "code": "300171",
+      "name": "东富龙",
+      "last_updated": "2026-06-12",
+      "mention_count": 1,
+      "board": "SZ",
+      "core_business": [
+        "冻干机+GLP-1生产设备"
+      ],
+      "industry_position": [
+        "国内市占率第一,订单排期至2027年"
+      ],
+      "chain": [
+        "GLP-1产业链"
+      ],
+      "partners": [],
+      "concepts": [
+        "设备",
+        "口服GLP-1",
+        "减肥药"
+      ],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/x2b9ooiNgBm6cxS2G8OyIA",
+          "title": "口服GLP-1引爆千亿市场：A股全产业链受益图谱",
+          "date": "2026-06-12",
+          "accidents": [
+            "高盛上调2030年全球减肥药市场至1140亿美元,口服GLP-1从'小众高价'向'大众消费'跃迁",
+            "国内市占率第一,订单排期至2027年"
+          ],
+          "insights": [
+            "冻干机+GLP-1生产设备"
+          ],
+          "key_metrics": [
+            "2030年1140亿美元",
+            "多肽原料药CAGR 70%+",
+            "渗透率<1%→10%+"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "冻干机+GLP-1生产设备"
+          ],
+          "industry_position": [
+            "国内市占率第一,订单排期至2027年"
+          ],
+          "chain": [
+            "GLP-1产业链"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "300358": {
+      "code": "300358",
+      "name": "楚天科技",
+      "last_updated": "2026-06-12",
+      "mention_count": 1,
+      "board": "SZ",
+      "core_business": [
+        "GLP-1药整线解决方案"
+      ],
+      "industry_position": [
+        "合成/纯化/制剂全流程,国产替代受益"
+      ],
+      "chain": [
+        "GLP-1产业链"
+      ],
+      "partners": [],
+      "concepts": [
+        "设备",
+        "口服GLP-1",
+        "减肥药"
+      ],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/x2b9ooiNgBm6cxS2G8OyIA",
+          "title": "口服GLP-1引爆千亿市场：A股全产业链受益图谱",
+          "date": "2026-06-12",
+          "accidents": [
+            "高盛上调2030年全球减肥药市场至1140亿美元,口服GLP-1从'小众高价'向'大众消费'跃迁",
+            "合成/纯化/制剂全流程,国产替代受益"
+          ],
+          "insights": [
+            "GLP-1药整线解决方案"
+          ],
+          "key_metrics": [
+            "2030年1140亿美元",
+            "多肽原料药CAGR 70%+",
+            "渗透率<1%→10%+"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "GLP-1药整线解决方案"
+          ],
+          "industry_position": [
+            "合成/纯化/制剂全流程,国产替代受益"
+          ],
+          "chain": [
+            "GLP-1产业链"
           ],
           "partners": []
         }
