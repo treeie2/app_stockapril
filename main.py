@@ -1295,6 +1295,7 @@ def stock_detail(code):
             'date': a.get('date', a.get('published_at', '')),
             'source': a.get('source', ''),
             'context': a.get('context', ''),
+            'industry_background': a.get('industry_background', []),
             'insights': a.get('insights', a.get('insight', [])),
             'accidents': a.get('accidents', [a.get('accident', '')] if a.get('accident') else []),
             'key_metrics': a.get('key_metrics', []),
