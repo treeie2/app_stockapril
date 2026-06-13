@@ -64,5 +64,16 @@
     "changes": {
       "deleted_article": "测试文章 - 点击删除试试"
     }
+  },
+  {
+    "timestamp": "2026-06-13T20:33:24.185394",
+    "code": "002916",
+    "name": "深南电路",
+    "fields": [
+      "articles"
+    ],
+    "changes": {
+      "deleted_article": "机构调研增量信息"
+    }
   }
 ]
