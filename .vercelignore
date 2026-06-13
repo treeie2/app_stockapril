@@ -1,0 +1,34 @@
+# ── Skills folders (not needed for deployment) ──
+.trae/
+.claude/
+.qoder/
+.codebuddy/
+
+# ── Large intermediate data files ──
+data/stocks_JL.json
+data/stocks_LJRZ.json
+data/stocks_gyzb.json
+data/stocks_dns.json
+data/stocks_batch100.json
+data/stocks_master_2026-*.json
+data/stocks/2026-*.json
+
+# ── Master: use .json.gz only (2.5MB vs 11.9MB) ──
+!data/stocks/stocks_master.json.gz
+data/stocks/stocks_master.json
+
+# ── Raw material & temp ──
+raw_material/
+compen/
+tmp_article*.txt
+new_article*.txt
+wechat-fetch-research-embedded_v2.4.zip
+
+# ── Dev scripts ──
+scripts/process_articles/
+*.py.tmp
+
+# ── Python cache ──
+__pycache__/
+*.pyc
+*.pyo
