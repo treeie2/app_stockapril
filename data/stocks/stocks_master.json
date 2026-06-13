@@ -10384,7 +10384,7 @@
       "name": "格力电器"
     },
     "000657": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-06-13",
       "partners": [
         "腾讯签订累计价值50亿元的三年期AI算力服务订单",
@@ -10420,23 +10420,6 @@
         "：优先布局前4家龙头"
       ],
       "articles": [
-        {
-          "source": "https://mp.weixin.qq.com/s/WK4HNqSIWiGLV5qB1H6AqA",
-          "title": "0611 信息汇总",
-          "date": "2026-06-11",
-          "accidents": [
-            "tool（日股上市公司）深耕载板微钻多年，中国的金洲精工（#中钨高新 旗下孙公司）是载板钻针国产替代先锋，民爆光电收购的厦芝精密则拥有微钻领域深厚积累，东莞头部大厂也有"
-          ],
-          "insights": [
-            "tool（日股上市公司）深耕载板微钻多年，中国的金洲精工（#中钨高新 旗下孙公司）是载板钻针国产替代先锋，民爆光电收购的"
-          ],
-          "key_metrics": [],
-          "target_valuation": [],
-          "core_business": [],
-          "industry_position": [],
-          "chain": [],
-          "partners": []
-        },
         {
           "source": "https://mp.weixin.qq.com/s/CSUC7h3PzC3BLQPg-PHDoA",
           "title": "六氟化钨断供+以钼代钨引爆有色行情！主力重仓龙头谁吃存储材料千亿红利？90%散户误踩伪矿产陷阱？",
@@ -38073,7 +38056,7 @@
       "partners": []
     },
     "300024": {
-      "mention_count": 23,
+      "mention_count": 22,
       "last_updated": "2026-06-13",
       "concepts": [
         "军工",
@@ -38160,23 +38143,6 @@
             "：中芯国际产能利用率从75%提升至85%，AI芯片代工需求是主要增量。"
           ],
           "target_valuation": []
-        },
-        {
-          "source": "https://mp.weixin.qq.com/s/Viwar41tClNUIgfwha0gwg",
-          "title": "0610 信息汇总",
-          "date": "2026-06-10",
-          "accidents": [
-            "度发货量同比增长将近50%，保持较高的增速。\n\n【物理AI、机器人业务】：\n\n-与云深处科技深度合作，旗下青鸟灵豹机器人是双方深度融合开发的成果；其具备Physica"
-          ],
-          "insights": [
-            "度发货量同比增长将近50%，保持较高的增速。\n\n【物理AI、机器人业务】：\n\n-与云深处科技深度合作，旗下青鸟灵豹机器人"
-          ],
-          "key_metrics": [],
-          "target_valuation": [],
-          "core_business": [],
-          "industry_position": [],
-          "chain": [],
-          "partners": []
         },
         {
           "source": "https://mp.weixin.qq.com/s/NbUXn2W_bAsC3kDvNXjsvw",
@@ -42673,7 +42639,7 @@
       "partners": []
     },
     "300201": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-06-13",
       "concepts": [
         "储能",
@@ -42692,25 +42658,7 @@
         "锂电池概念",
         "高端装备"
       ],
-      "articles": [
-        {
-          "source": "https://mp.weixin.qq.com/s/eVCzG9vZ4r7HNVW4HY_xiA",
-          "title": "0531 信息汇总",
-          "date": "2026-05-31",
-          "accidents": [
-            "禾迈、昱能】；②大储：【阳光、阿特斯、海博】；③储能消防：【海伦哲】。\n\n—————————————————————\n\n一些重要的细节信息汇总\n\n【❗注：以下信息为市"
-          ],
-          "insights": [
-            "禾迈、昱能】；②大储：【阳光、阿特斯、海博】；③储能消防：【海伦哲】。\n\n—————————————————————\n\n"
-          ],
-          "key_metrics": [],
-          "target_valuation": [],
-          "core_business": [],
-          "industry_position": [],
-          "chain": [],
-          "partners": []
-        }
-      ],
+      "articles": [],
       "industry": "机械设备-工程机械-工程机械Ⅲ",
       "board": "SZ",
       "code": "300201",
@@ -63971,40 +63919,10 @@
       "partners": []
     },
     "600103": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-06-05",
       "code": "600103",
-      "articles": [
-        {
-          "source": "https://mp.weixin.qq.com/s/CFt7jVFZlBidyq2Iv6UUXw",
-          "title": "0519信息整理",
-          "date": "2026-05-19",
-          "accidents": [
-            "Q2起AI PCB步入出货通道"
-          ],
-          "insights": [
-            "1.6T光模块SLP份额持续提升"
-          ],
-          "key_metrics": [
-            ""
-          ],
-          "target_valuation": [
-            "目标市值2500亿"
-          ],
-          "core_business": [
-            "1.6T光模块SLP"
-          ],
-          "industry_position": [
-            "SLP份额持续提升"
-          ],
-          "chain": [
-            "中游-PCB"
-          ],
-          "partners": [
-            "谷歌"
-          ]
-        }
-      ],
+      "articles": [],
       "board": "SH",
       "industry": "轻工制造-造纸-造纸Ⅲ",
       "concepts": [
@@ -64953,7 +64871,7 @@
       "partners": []
     },
     "600160": {
-      "mention_count": 3,
+      "mention_count": 2,
       "last_updated": "2026-06-13",
       "concepts": [
         "2025年报预增",
@@ -64997,23 +64915,6 @@
             "超纯级PFA纯度要求11N+"
           ],
           "target_valuation": []
-        },
-        {
-          "source": "https://mp.weixin.qq.com/s/eVCzG9vZ4r7HNVW4HY_xiA",
-          "title": "0531 信息汇总",
-          "date": "2026-05-31",
-          "accidents": [
-            "40e市值，叠加主业100e，合计540e目标市值。\n\n⭕【巨化股份】卡位先进制程核心环节，“半导体血管”超纯PFA打破国外垄断，助力“中国芯”自主可控\n\n超纯PFA("
-          ],
-          "insights": [
-            "40e市值，叠加主业100e，合计540e目标市值。\n\n⭕【巨化股份】卡位先进制程核心环节，“半导体血管”超纯PFA打破"
-          ],
-          "key_metrics": [],
-          "target_valuation": [],
-          "core_business": [],
-          "industry_position": [],
-          "chain": [],
-          "partners": []
         },
         {
           "source": "https://mp.weixin.qq.com/s/a-YFnvPS9QVfX_Zpz14Aeg",
@@ -67027,7 +66928,7 @@
       "partners": []
     },
     "600353": {
-      "mention_count": 4,
+      "mention_count": 3,
       "last_updated": "2026-06-13",
       "partners": [
         "国内光模块头部厂商"
@@ -67040,38 +66941,6 @@
         "明年预计扩产至1000吨"
       ],
       "articles": [
-        {
-          "source": "https://mp.weixin.qq.com/s/CFt7jVFZlBidyq2Iv6UUXw",
-          "title": "0519信息整理",
-          "date": "2026-05-19",
-          "accidents": [
-            "氮化铝粉体打破德山垄断",
-            "230W/m·k超高热导基板批量供货",
-            "国内光模块头部几家已对接合作近期下单"
-          ],
-          "insights": [
-            "陶瓷基板国产化率仅15%",
-            "800G以上光模块必须用氮化铝",
-            "国网28年前用高压灭弧室替代SF6断路器"
-          ],
-          "key_metrics": [
-            "营收15.86亿"
-          ],
-          "target_valuation": [],
-          "core_business": [
-            "氮化铝粉体/陶瓷基板"
-          ],
-          "industry_position": [
-            "氮化铝粉体国内产能最大(500吨)",
-            "全产业链自给"
-          ],
-          "chain": [
-            "上游-陶瓷基板材料"
-          ],
-          "partners": [
-            "国内光模块头部厂商"
-          ]
-        },
         {
           "title": "旭光电子，翻倍空间？",
           "date": "2026-06-04",
@@ -79426,7 +79295,7 @@
       "partners": []
     },
     "601877": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-06-13",
       "concepts": [
         "一带一路",
@@ -79448,25 +79317,7 @@
         "阿里巴巴概念",
         "风电"
       ],
-      "articles": [
-        {
-          "source": "https://mp.weixin.qq.com/s/eVCzG9vZ4r7HNVW4HY_xiA",
-          "title": "0531 信息汇总",
-          "date": "2026-05-31",
-          "accidents": [
-            "关注：①配网行业头部企业：【东方电子、威胜信息、许继、科林、正泰电器】等；②有望在配网应用的SST和固态直流断路器：【阳光、四方、良信】等。\n\n储能：进入2026Q2、"
-          ],
-          "insights": [
-            "关注：①配网行业头部企业：【东方电子、威胜信息、许继、科林、正泰电器】等；②有望在配网应用的SST和固态直流断路器：【阳"
-          ],
-          "key_metrics": [],
-          "target_valuation": [],
-          "core_business": [],
-          "industry_position": [],
-          "chain": [],
-          "partners": []
-        }
-      ],
+      "articles": [],
       "industry": "电力设备-电网设备-输变电设备",
       "board": "SH",
       "code": "601877",
@@ -87695,7 +87546,7 @@
       "partners": []
     },
     "603800": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-06-13",
       "concepts": [
         "PCB概念",
@@ -87712,25 +87563,7 @@
         "锂电池概念",
         "页岩气"
       ],
-      "articles": [
-        {
-          "source": "https://mp.weixin.qq.com/s/eVCzG9vZ4r7HNVW4HY_xiA",
-          "title": "0531 信息汇总",
-          "date": "2026-05-31",
-          "accidents": [
-            "，不代表个人观点，不构成投资建议，请谨慎参考。】\n\n⭕【\n\n洪田股份】铜箔设备+新并购VCP电镀设备+光学设备\n\n1⃣铜箔设备主业景气反转、产能优势明显\n\n①公司是电解"
-          ],
-          "insights": [
-            "，不代表个人观点，不构成投资建议，请谨慎参考。】\n\n⭕【\n\n洪田股份】铜箔设备+新并购VCP电镀设备+光学设备\n\n1⃣铜"
-          ],
-          "key_metrics": [],
-          "target_valuation": [],
-          "core_business": [],
-          "industry_position": [],
-          "chain": [],
-          "partners": []
-        }
-      ],
+      "articles": [],
       "industry": "机械设备-专用设备-其他专用设备",
       "board": "SH",
       "code": "603800",
@@ -90600,7 +90433,7 @@
       "partners": []
     },
     "605488": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-06-01",
       "code": "605488",
       "board": "SH",
@@ -90616,39 +90449,7 @@
         "苹果概念"
       ],
       "name": "福莱新材",
-      "articles": [
-        {
-          "source": "https://mp.weixin.qq.com/s/CFt7jVFZlBidyq2Iv6UUXw",
-          "title": "0519信息整理",
-          "date": "2026-05-19",
-          "accidents": [
-            "灵心巧手采购10万套触觉传感器(≈2万只灵巧手)",
-            "三代电子皮肤快速迭代"
-          ],
-          "insights": [
-            "电子皮肤是人形机器人预期差最大+壁垒最高环节",
-            "单台人形机器人全身使用价值量7-8000元"
-          ],
-          "key_metrics": [
-            "10万套订单"
-          ],
-          "target_valuation": [],
-          "core_business": [
-            "电子皮肤/触觉传感器"
-          ],
-          "industry_position": [
-            "电子皮肤龙头,T机器人定点预期"
-          ],
-          "chain": [
-            "中游-传感器"
-          ],
-          "partners": [
-            "灵心巧手",
-            "特斯拉",
-            "F客户"
-          ]
-        }
-      ],
+      "articles": [],
       "core_business": [
         "电子皮肤/触觉传感器"
       ],
@@ -92692,39 +92493,10 @@
       "partners": []
     },
     "688082": {
-      "mention_count": 3,
+      "mention_count": 2,
       "last_updated": "2026-06-13",
       "code": "688082",
       "articles": [
-        {
-          "source": "https://mp.weixin.qq.com/s/CFt7jVFZlBidyq2Iv6UUXw",
-          "title": "0519信息整理",
-          "date": "2026-05-19",
-          "accidents": [
-            "新进入日月光高雄/中坜/新加坡工厂",
-            "CX加单约100台存储湿法清洗设备"
-          ],
-          "insights": [
-            "间接进入NV供应体系"
-          ],
-          "key_metrics": [
-            "12腔体均价2500-3000w/台"
-          ],
-          "target_valuation": [],
-          "core_business": [
-            "湿法清洗设备"
-          ],
-          "industry_position": [
-            "第一个成规模进国际top客户的国产半导体设备公司"
-          ],
-          "chain": [
-            "中游-半导体设备"
-          ],
-          "partners": [
-            "日月光(高雄/中坜/新加坡)",
-            "NV(间接)"
-          ]
-        },
         {
           "source": "https://mp.weixin.qq.com/s/Aauj5Qwi3abLDXIOt8RtHg",
           "title": "深度绑定长鑫和长江存储，20家公司分析",
@@ -93028,7 +92800,7 @@
       "partners": []
     },
     "688100": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-06-13",
       "concepts": [
         "专精特新",
@@ -93051,25 +92823,7 @@
       "core_business": [
         "拥有基于云边协同的电力边缘监控平台。"
       ],
-      "articles": [
-        {
-          "source": "https://mp.weixin.qq.com/s/eVCzG9vZ4r7HNVW4HY_xiA",
-          "title": "0531 信息汇总",
-          "date": "2026-05-31",
-          "accidents": [
-            "一轮景气周期。\n\n建议关注：①配网行业头部企业：【东方电子、威胜信息、许继、科林、正泰电器】等；②有望在配网应用的SST和固态直流断路器：【阳光、四方、良信】等。\n\n储"
-          ],
-          "insights": [
-            "一轮景气周期。\n\n建议关注：①配网行业头部企业：【东方电子、威胜信息、许继、科林、正泰电器】等；②有望在配网应用的SST"
-          ],
-          "key_metrics": [],
-          "target_valuation": [],
-          "core_business": [],
-          "industry_position": [],
-          "chain": [],
-          "partners": []
-        }
-      ],
+      "articles": [],
       "industry": "通信-通信设备-通信终端及配件",
       "board": "SH",
       "code": "688100",
@@ -94729,7 +94483,7 @@
       "partners": []
     },
     "688167": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-06-13",
       "concepts": [
         "沪股通",
@@ -94759,23 +94513,6 @@
         "光场匀化器市占率超60%"
       ],
       "articles": [
-        {
-          "source": "https://mp.weixin.qq.com/s/Viwar41tClNUIgfwha0gwg",
-          "title": "0610 信息汇总",
-          "date": "2026-06-10",
-          "accidents": [
-            "，后续公司会和这家企业在消防机器人领域开展深度合作。\n\n⭕【炬光科技】与全球头部半导体代工厂AH公司签署技术许可协议，CPO产业卡位显著领先\n\n事件：炬光科技全资子公司"
-          ],
-          "insights": [
-            "，后续公司会和这家企业在消防机器人领域开展深度合作。\n\n⭕【炬光科技】与全球头部半导体代工厂AH公司签署技术许可协议，C"
-          ],
-          "key_metrics": [],
-          "target_valuation": [],
-          "core_business": [],
-          "industry_position": [],
-          "chain": [],
-          "partners": []
-        },
         {
           "source": "https://mp.weixin.qq.com/s/NbUXn2W_bAsC3kDvNXjsvw",
           "title": "6月11日一些首板逻辑",
@@ -98437,7 +98174,7 @@
       ]
     },
     "688390": {
-      "mention_count": 3,
+      "mention_count": 2,
       "last_updated": "2026-06-13",
       "concepts": [
         "储能",
@@ -98509,23 +98246,6 @@
             "2026年第一季度，中国储能企业在欧洲市场斩获订单超30GWh，已接近2025年全年订单量的50%。这一爆发式增长背后，是地缘政治催化、政策支持、经济性提升三重因素的叠加效应。"
           ],
           "target_valuation": []
-        },
-        {
-          "source": "https://mp.weixin.qq.com/s/eVCzG9vZ4r7HNVW4HY_xiA",
-          "title": "0531 信息汇总",
-          "date": "2026-05-31",
-          "accidents": [
-            "稳定，但整体呈现略微降低趋势。\n\n建议关注，①户储：【艾罗、固德威、锦浪、禾迈、昱能】；②大储：【阳光、阿特斯、海博】；③储能消防：【海伦哲】。\n\n—————————"
-          ],
-          "insights": [
-            "稳定，但整体呈现略微降低趋势。\n\n建议关注，①户储：【艾罗、固德威、锦浪、禾迈、昱能】；②大储：【阳光、阿特斯、海博】；"
-          ],
-          "key_metrics": [],
-          "target_valuation": [],
-          "core_business": [],
-          "industry_position": [],
-          "chain": [],
-          "partners": []
         }
       ],
       "industry": "电力设备-光伏设备-逆变器",
@@ -99048,7 +98768,7 @@
       "partners": []
     },
     "688472": {
-      "mention_count": 2,
+      "mention_count": 1,
       "last_updated": "2026-06-13",
       "concepts": [
         "光伏概念",
@@ -99082,23 +98802,6 @@
           "accidents": [
             "太空光伏板块持续活跃"
           ]
-        },
-        {
-          "source": "https://mp.weixin.qq.com/s/eVCzG9vZ4r7HNVW4HY_xiA",
-          "title": "0531 信息汇总",
-          "date": "2026-05-31",
-          "accidents": [
-            "①户储：【艾罗、固德威、锦浪、禾迈、昱能】；②大储：【阳光、阿特斯、海博】；③储能消防：【海伦哲】。\n\n—————————————————————\n\n一些重要的细节信"
-          ],
-          "insights": [
-            "①户储：【艾罗、固德威、锦浪、禾迈、昱能】；②大储：【阳光、阿特斯、海博】；③储能消防：【海伦哲】。\n\n————————"
-          ],
-          "key_metrics": [],
-          "target_valuation": [],
-          "core_business": [],
-          "industry_position": [],
-          "chain": [],
-          "partners": []
         }
       ],
       "industry": "电力设备-光伏设备-光伏电池组件",
@@ -99630,7 +99333,7 @@
       "partners": []
     },
     "688525": {
-      "mention_count": 5,
+      "mention_count": 4,
       "last_updated": "2026-06-13",
       "partners": [
         "平头哥(阿里)"
@@ -99690,23 +99393,6 @@
           ],
           "processed_by": "tbox",
           "processed_at": "2026-05-20T11:46:50.489885+08:00"
-        },
-        {
-          "title": "5月27日上市公司晚间信息汇总",
-          "date": "2026-05-27",
-          "source": "https://mp.weixin.qq.com/s/7DKotArkps7s6fSmUMuJOQ",
-          "accidents": [
-            "子公司海南南佰算继续向行云集成电路增资1000万元",
-            "拟1亿元参与设立产业基金，围绕存储+先进封装领域布局"
-          ],
-          "insights": [
-            "存储+先进封装双线布局，产业基金规模不超过5亿元"
-          ],
-          "key_metrics": [
-            "产业基金认购1亿元(20%)",
-            "行云集成电路增资完成"
-          ],
-          "target_valuation": []
         },
         {
           "source": "https://mp.weixin.qq.com/s/Aauj5Qwi3abLDXIOt8RtHg",
@@ -101399,7 +101085,7 @@
       ]
     },
     "688630": {
-      "mention_count": 1,
+      "mention_count": 0,
       "last_updated": "2026-06-13",
       "concepts": [
         "2025年报预增",
@@ -101422,28 +101108,7 @@
         "PCB曝光机国内龙头",
         "先进封装设备领先厂商"
       ],
-      "articles": [
-        {
-          "date": "2026-04-20",
-          "key_metrics": [
-            "一季度新签订单接近9亿元",
-            "在手订单约7亿元",
-            "经营现金流超1亿元"
-          ],
-          "title": "芯碁微装调研纪要",
-          "source": "https://mp.weixin.qq.com/s/TvXrpqjooxTOgmGBP2OB3g",
-          "insights": [
-            "PCB曝光机每周交付上限25台、3月已近满产",
-            "先进封装2027年60台交付上限已提前备料30套",
-            "2026年全球二氧化碳激光钻需求接近2000台，供给缺口超1000台"
-          ],
-          "accidents": [
-            "2026年一季度新签订单接近9亿元，创公司成立11年来单季度历史新高",
-            "首次一季度营收、净利润双双环比四季度正增长，净利润同比翻倍以上",
-            "先进封装硅桥产品量产时间提前至2026年Q3初"
-          ]
-        }
-      ],
+      "articles": [],
       "industry": "机械设备-专用设备-其他专用设备",
       "board": "SH",
       "products": [
@@ -102381,7 +102046,7 @@
       ]
     },
     "688783": {
-      "mention_count": 5,
+      "mention_count": 4,
       "last_updated": "2026-06-13",
       "code": "688783",
       "articles": [
@@ -102426,23 +102091,6 @@
           "chain": [
             "大硅片产业链"
           ],
-          "partners": []
-        },
-        {
-          "source": "https://mp.weixin.qq.com/s/WK4HNqSIWiGLV5qB1H6AqA",
-          "title": "0611 信息汇总",
-          "date": "2026-06-11",
-          "accidents": [
-            "主导领域也有望实现国产加速推进。\n\n相关标的：\n\n大硅片： 西安奕材、沪硅产业、立昂微、晶升股份（SiC+硅片长晶炉）等；\n\nTAC膜： 天禄科技等；#MLCC离型膜："
-          ],
-          "insights": [
-            "主导领域也有望实现国产加速推进。\n\n相关标的：\n\n大硅片： 西安奕材、沪硅产业、立昂微、晶升股份（SiC+硅片长晶炉）等"
-          ],
-          "key_metrics": [],
-          "target_valuation": [],
-          "core_business": [],
-          "industry_position": [],
-          "chain": [],
           "partners": []
         },
         {
@@ -107156,26 +106804,8 @@
       "code": "000682",
       "name": "东方电子",
       "concept": "",
-      "mention_count": 1,
-      "articles": [
-        {
-          "source": "https://mp.weixin.qq.com/s/eVCzG9vZ4r7HNVW4HY_xiA",
-          "title": "0531 信息汇总",
-          "date": "2026-05-31",
-          "accidents": [
-            "块或进入新一轮景气周期。\n\n建议关注：①配网行业头部企业：【东方电子、威胜信息、许继、科林、正泰电器】等；②有望在配网应用的SST和固态直流断路器：【阳光、四方、良信】"
-          ],
-          "insights": [
-            "块或进入新一轮景气周期。\n\n建议关注：①配网行业头部企业：【东方电子、威胜信息、许继、科林、正泰电器】等；②有望在配网应"
-          ],
-          "key_metrics": [],
-          "target_valuation": [],
-          "core_business": [],
-          "industry_position": [],
-          "chain": [],
-          "partners": []
-        }
-      ],
+      "mention_count": 0,
+      "articles": [],
       "last_updated": "2026-06-13",
       "core_business": [],
       "industry_position": [],
@@ -138796,7 +138426,7 @@
       "code": "688368",
       "name": "晶丰明源",
       "concept": "",
-      "mention_count": 3,
+      "mention_count": 2,
       "articles": [
         {
           "source": "https://mp.weixin.qq.com/s/ls3UA1LQgzoioL44lJONGA",
@@ -138820,23 +138450,6 @@
           "chain": [
             "上游-芯片设计"
           ],
-          "partners": []
-        },
-        {
-          "source": "https://mp.weixin.qq.com/s/eVCzG9vZ4r7HNVW4HY_xiA",
-          "title": "0531 信息汇总",
-          "date": "2026-05-31",
-          "accidents": [
-            "表节奏，预计26/27/28年业绩5/10/17e。\n\n⭕【晶丰明源】DrMOS在AI服务器电源的导入\n\nDrMOS——通过台达导入NV、谷歌链\n\n①行业供不应求："
-          ],
-          "insights": [
-            "表节奏，预计26/27/28年业绩5/10/17e。\n\n⭕【晶丰明源】DrMOS在AI服务器电源的导入\n\nDrMOS——"
-          ],
-          "key_metrics": [],
-          "target_valuation": [],
-          "core_business": [],
-          "industry_position": [],
-          "chain": [],
           "partners": []
         },
         {
