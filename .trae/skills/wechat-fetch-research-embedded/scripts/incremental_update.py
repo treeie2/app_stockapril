@@ -137,7 +137,7 @@ class IncrementalUpdater:
         Returns:
             统计信息字典
         """
-        print(f"📖 读取源文件: {json_path}")
+        print(f"[INFO] 读取源文件: {json_path}")
         
         with open(json_path, 'r', encoding='utf-8') as f:
             source_data = json.load(f)
