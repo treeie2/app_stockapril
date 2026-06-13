@@ -884,11 +884,12 @@
       ]
     },
     "002371": {
-      "mention_count": 4,
-      "last_updated": "2026-06-12",
+      "mention_count": 5,
+      "last_updated": "2026-06-13",
       "partners": [
         "中芯国际并购重组将带动上游封测需求，长电科技作为核心供应商",
         "中芯国际并购重组将带动设备采购需求，北方华创作为国产设备核心供应商",
+        "SK海力士",
         "中芯国际并购重组将带动刻蚀设备需求，中微公司作为核心供应商"
       ],
       "name": "北方华创",
@@ -1000,6 +1001,34 @@
           "partners": [
             "长鑫存储",
             "长江存储"
+          ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/M1KmYJdPg2Z6t-fnXGQR5A",
+          "title": "SK海力士设备供应商涨价利好个股全解析",
+          "date": "2026-06-13",
+          "accidents": [
+            "SK海力士设备供应商提价3-4%,HBM超级周期",
+            "SK海力士核心供应商,设备涨价增厚毛利率,订单排至2027Q1"
+          ],
+          "insights": [
+            "国产设备龙头,全工序平台"
+          ],
+          "key_metrics": [
+            "设备涨价3-4%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "国产设备龙头,全工序平台"
+          ],
+          "industry_position": [
+            "SK海力士核心供应商,设备涨价增厚毛利率,订单排至2027Q1"
+          ],
+          "chain": [
+            "半导体"
+          ],
+          "partners": [
+            "SK海力士"
           ]
         }
       ],
@@ -2294,11 +2323,12 @@
       ]
     },
     "300666": {
-      "mention_count": 4,
-      "last_updated": "2026-06-12",
+      "mention_count": 5,
+      "last_updated": "2026-06-13",
       "partners": [
-        "中芯国际等客户订单",
-        "中芯国际、长江存储、台积电等优质头部客户"
+        "中芯国际、长江存储、台积电等优质头部客户",
+        "SK海力士",
+        "中芯国际等客户订单"
       ],
       "name": "江丰电子",
       "industry_position": [
@@ -2433,6 +2463,34 @@
             "中游-制造"
           ],
           "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/M1KmYJdPg2Z6t-fnXGQR5A",
+          "title": "SK海力士设备供应商涨价利好个股全解析",
+          "date": "2026-06-13",
+          "accidents": [
+            "SK海力士设备供应商提价3-4%,HBM超级周期",
+            "海力士靶材长协提价4%,HBM4验证中"
+          ],
+          "insights": [
+            "溅射靶材龙头"
+          ],
+          "key_metrics": [
+            "设备涨价3-4%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "溅射靶材龙头"
+          ],
+          "industry_position": [
+            "海力士靶材长协提价4%,HBM4验证中"
+          ],
+          "chain": [
+            "半导体"
+          ],
+          "partners": [
+            "SK海力士"
+          ]
         }
       ],
       "board": "SZ",
@@ -3374,11 +3432,12 @@
       ]
     },
     "688012": {
-      "mention_count": 5,
-      "last_updated": "2026-06-11",
+      "mention_count": 6,
+      "last_updated": "2026-06-13",
       "partners": [
         "中芯国际并购重组将带动上游封测需求，长电科技作为核心供应商",
         "中芯国际并购重组将带动设备采购需求，北方华创作为国产设备核心供应商",
+        "SK海力士",
         "中芯国际并购重组将带动刻蚀设备需求，中微公司作为核心供应商"
       ],
       "name": "中微公司",
@@ -3528,6 +3587,34 @@
             "半导体产业链"
           ],
           "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/M1KmYJdPg2Z6t-fnXGQR5A",
+          "title": "SK海力士设备供应商涨价利好个股全解析",
+          "date": "2026-06-13",
+          "accidents": [
+            "SK海力士设备供应商提价3-4%,HBM超级周期",
+            "SK海力士NAND/HBM核心供应商,刻蚀订单+120%,HBM占比30%"
+          ],
+          "insights": [
+            "3D NAND高深宽比刻蚀龙头"
+          ],
+          "key_metrics": [
+            "设备涨价3-4%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "3D NAND高深宽比刻蚀龙头"
+          ],
+          "industry_position": [
+            "SK海力士NAND/HBM核心供应商,刻蚀订单+120%,HBM占比30%"
+          ],
+          "chain": [
+            "半导体"
+          ],
+          "partners": [
+            "SK海力士"
+          ]
         }
       ],
       "board": "SH",
@@ -23742,8 +23829,8 @@
       ]
     },
     "002409": {
-      "mention_count": 5,
-      "last_updated": "2026-06-12",
+      "mention_count": 6,
+      "last_updated": "2026-06-13",
       "concepts": [
         "OLED",
         "专精特新",
@@ -23904,6 +23991,34 @@
             "中游-制造"
           ],
           "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/M1KmYJdPg2Z6t-fnXGQR5A",
+          "title": "SK海力士设备供应商涨价利好个股全解析",
+          "date": "2026-06-13",
+          "accidents": [
+            "SK海力士设备供应商提价3-4%,HBM超级周期",
+            "海力士前驱体订单+200%,毛利率55%+"
+          ],
+          "insights": [
+            "HBM前驱体材料核心供应商"
+          ],
+          "key_metrics": [
+            "设备涨价3-4%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "HBM前驱体材料核心供应商"
+          ],
+          "industry_position": [
+            "海力士前驱体订单+200%,毛利率55%+"
+          ],
+          "chain": [
+            "半导体"
+          ],
+          "partners": [
+            "SK海力士"
+          ]
         }
       ],
       "industry": "电子-半导体-半导体材料",
@@ -23925,8 +24040,9 @@
         "以成为业内领先的电子特气供应商为目标，继续在含氟类电子特气领域深耕细作"
       ],
       "partners": [
-        "中芯国际等客户订单",
-        "中芯国际、长江存储、台积电等优质头部客户"
+        "中芯国际、长江存储、台积电等优质头部客户",
+        "SK海力士",
+        "中芯国际等客户订单"
       ]
     },
     "002413": {
@@ -39624,8 +39740,8 @@
       "partners": []
     },
     "300260": {
-      "mention_count": 0,
-      "last_updated": "2026-06-09",
+      "mention_count": 1,
+      "last_updated": "2026-06-13",
       "concepts": [
         "OLED",
         "中芯国际概念",
@@ -39641,7 +39757,37 @@
       "industry_position": [
         "国内半导体级真空阀门行业龙头"
       ],
-      "articles": [],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/M1KmYJdPg2Z6t-fnXGQR5A",
+          "title": "SK海力士设备供应商涨价利好个股全解析",
+          "date": "2026-06-13",
+          "accidents": [
+            "SK海力士设备供应商提价3-4%,HBM/DRAM超级周期下设备供不应求",
+            "海力士设备供应商核心配套,订单+120%,毛利率40%+"
+          ],
+          "insights": [
+            "半导体高纯真空管道系统"
+          ],
+          "key_metrics": [
+            "设备涨价3-4%",
+            "HBM产能2026年预计增长100%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "半导体高纯真空管道系统"
+          ],
+          "industry_position": [
+            "海力士设备供应商核心配套,订单+120%,毛利率40%+"
+          ],
+          "chain": [
+            "半导体设备"
+          ],
+          "partners": [
+            "SK海力士"
+          ]
+        }
+      ],
       "industry": "轻工制造-包装印刷-包装",
       "board": "SZ",
       "products": [
@@ -39655,7 +39801,9 @@
       ],
       "code": "300260",
       "name": "新莱应材",
-      "partners": []
+      "partners": [
+        "SK海力士"
+      ]
     },
     "300261": {
       "mention_count": 1,
@@ -44102,9 +44250,11 @@
       "partners": []
     },
     "300475": {
-      "mention_count": 1,
-      "last_updated": "2026-06-05",
-      "partners": [],
+      "mention_count": 2,
+      "last_updated": "2026-06-13",
+      "partners": [
+        "SK海力士"
+      ],
       "concepts": [
         "2025年报预增",
         "2026一季报预增",
@@ -44156,6 +44306,34 @@
             "投资建议：买入(★★★★☆)，目标价95元，建议逢低配置",
             "投资建议：买入(★★★★☆)，目标价180元，注意高位回调风险",
             "投资建议：强力推荐(★★★★★)，目标价150元，存储涨价核心受益标的"
+          ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/M1KmYJdPg2Z6t-fnXGQR5A",
+          "title": "SK海力士设备供应商涨价利好个股全解析",
+          "date": "2026-06-13",
+          "accidents": [
+            "SK海力士设备供应商提价3-4%,HBM超级周期",
+            "HBM分销收入+300%,子公司海普存储进军SSD/DRAM"
+          ],
+          "insights": [
+            "SK海力士中国核心代理商"
+          ],
+          "key_metrics": [
+            "设备涨价3-4%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "SK海力士中国核心代理商"
+          ],
+          "industry_position": [
+            "HBM分销收入+300%,子公司海普存储进军SSD/DRAM"
+          ],
+          "chain": [
+            "半导体"
+          ],
+          "partners": [
+            "SK海力士"
           ]
         }
       ],
@@ -46271,9 +46449,11 @@
       "partners": []
     },
     "300604": {
-      "mention_count": 0,
-      "last_updated": "2026-06-11",
-      "partners": [],
+      "mention_count": 1,
+      "last_updated": "2026-06-13",
+      "partners": [
+        "SK海力士"
+      ],
       "concepts": [
         "2025年报预增",
         "专精特新",
@@ -46287,7 +46467,37 @@
       "industry_position": [
         "SoC量产唯一国内品牌"
       ],
-      "articles": [],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/M1KmYJdPg2Z6t-fnXGQR5A",
+          "title": "SK海力士设备供应商涨价利好个股全解析",
+          "date": "2026-06-13",
+          "accidents": [
+            "SK海力士设备供应商提价3-4%,HBM/DRAM超级周期下设备供不应求",
+            "全球唯一同时通过三星/SK海力士/美光HBM测试认证,毛利率50%+,海力士订单+150%"
+          ],
+          "insights": [
+            "HBM/DRAM测试设备"
+          ],
+          "key_metrics": [
+            "设备涨价3-4%",
+            "HBM产能2026年预计增长100%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "HBM/DRAM测试设备"
+          ],
+          "industry_position": [
+            "全球唯一同时通过三星/SK海力士/美光HBM测试认证,毛利率50%+,海力士订单+150%"
+          ],
+          "chain": [
+            "半导体设备"
+          ],
+          "partners": [
+            "SK海力士"
+          ]
+        }
+      ],
       "board": "SZ",
       "industry": "电子-半导体-半导体设备",
       "products": [
@@ -64905,8 +65115,8 @@
       ]
     },
     "600667": {
-      "mention_count": 1,
-      "last_updated": "2026-06-11",
+      "mention_count": 2,
+      "last_updated": "2026-06-13",
       "concepts": [
         "OLED",
         "先进封装",
@@ -64940,6 +65150,35 @@
           ],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/M1KmYJdPg2Z6t-fnXGQR5A",
+          "title": "SK海力士设备供应商涨价利好个股全解析",
+          "date": "2026-06-13",
+          "accidents": [
+            "SK海力士设备供应商提价3-4%,HBM/DRAM超级周期下设备供不应求",
+            "海力士HBM3E封测长协10亿+,封测收入+60%"
+          ],
+          "insights": [
+            "海力士HBM封装测试(海太半导体)"
+          ],
+          "key_metrics": [
+            "设备涨价3-4%",
+            "HBM产能2026年预计增长100%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "海力士HBM封装测试(海太半导体)"
+          ],
+          "industry_position": [
+            "海力士HBM3E封测长协10亿+,封测收入+60%"
+          ],
+          "chain": [
+            "半导体设备"
+          ],
+          "partners": [
+            "SK海力士"
+          ]
         }
       ],
       "industry": "建筑装饰-建筑装饰-工程咨询服务",
@@ -64962,8 +65201,8 @@
       ]
     },
     "600673": {
-      "mention_count": 2,
-      "last_updated": "2026-06-04",
+      "mention_count": 3,
+      "last_updated": "2026-06-13",
       "concepts": [
         "AI应用",
         "PVDF概念",
@@ -65038,6 +65277,44 @@
           ],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/pp-bsPjGyjeXe5FNvzSSDw",
+          "title": "东阳光-深度：AI版图持续扩张，打造算力链之光",
+          "date": "2026-06-13",
+          "accidents": [
+            "收购秦淮数据100%股权(280亿),运营799MW远期4GW,字节跳动收入占比80%+",
+            "全球唯一量产积层箔,AI服务器电源高端电容",
+            "制冷剂6万吨配额,R32涨价",
+            "与中际旭创合作液冷,30万套/年冷板产能"
+          ],
+          "insights": [
+            "从周期化工→AI算力基础设施平台,估值重塑"
+          ],
+          "key_metrics": [
+            "26/27/28年盈利15.71/19.80/25.03亿",
+            "PE 68/54/43倍",
+            "秦淮数据净利率29%",
+            "买入评级"
+          ],
+          "target_valuation": [
+            "财通证券首次覆盖,买入评级"
+          ],
+          "core_business": [
+            "电极箔+制冷剂+液冷+IDC"
+          ],
+          "industry_position": [
+            "全球电极箔龙头",
+            "制冷剂第一梯队",
+            "IDC(秦淮数据)运营商"
+          ],
+          "chain": [
+            "AI算力基础设施"
+          ],
+          "partners": [
+            "字节跳动",
+            "中际旭创"
+          ]
         }
       ],
       "industry": "综合-综合-综合Ⅲ",
@@ -75944,8 +76221,8 @@
       ]
     },
     "603283": {
-      "mention_count": 1,
-      "last_updated": "2026-06-12",
+      "mention_count": 2,
+      "last_updated": "2026-06-13",
       "concepts": [
         "光伏概念",
         "苹果概念",
@@ -75994,6 +76271,34 @@
             "中游-制造"
           ],
           "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/M1KmYJdPg2Z6t-fnXGQR5A",
+          "title": "SK海力士设备供应商涨价利好个股全解析",
+          "date": "2026-06-13",
+          "accidents": [
+            "SK海力士设备供应商提价3-4%,HBM超级周期",
+            "海力士检测设备订单+150%,已提价3%"
+          ],
+          "insights": [
+            "收购Optima切入半导体量检测"
+          ],
+          "key_metrics": [
+            "设备涨价3-4%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "收购Optima切入半导体量检测"
+          ],
+          "industry_position": [
+            "海力士检测设备订单+150%,已提价3%"
+          ],
+          "chain": [
+            "半导体"
+          ],
+          "partners": [
+            "SK海力士"
+          ]
         }
       ],
       "industry": "机械设备-自动化设备-工控设备",
@@ -76009,7 +76314,9 @@
       ],
       "code": "603283",
       "name": "赛腾股份",
-      "partners": []
+      "partners": [
+        "SK海力士"
+      ]
     },
     "603286": {
       "mention_count": 0,
@@ -83608,9 +83915,11 @@
       "name": "纵横股份"
     },
     "688072": {
-      "mention_count": 3,
-      "last_updated": "2026-06-11",
-      "partners": [],
+      "mention_count": 4,
+      "last_updated": "2026-06-13",
+      "partners": [
+        "SK海力士"
+      ],
       "concepts": [
         "国家大基金持股",
         "存储芯片",
@@ -83695,6 +84004,35 @@
             "半导体产业链"
           ],
           "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/M1KmYJdPg2Z6t-fnXGQR5A",
+          "title": "SK海力士设备供应商涨价利好个股全解析",
+          "date": "2026-06-13",
+          "accidents": [
+            "SK海力士设备供应商提价3-4%,HBM/DRAM超级周期下设备供不应求",
+            "海力士HBM产线核心供应商,已提价2-3%,新接订单5亿+"
+          ],
+          "insights": [
+            "PECVD/PALD薄膜沉积设备"
+          ],
+          "key_metrics": [
+            "设备涨价3-4%",
+            "HBM产能2026年预计增长100%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "PECVD/PALD薄膜沉积设备"
+          ],
+          "industry_position": [
+            "海力士HBM产线核心供应商,已提价2-3%,新接订单5亿+"
+          ],
+          "chain": [
+            "半导体设备"
+          ],
+          "partners": [
+            "SK海力士"
+          ]
         }
       ],
       "board": "SH",
@@ -127763,7 +128101,7 @@
       "code": "688409",
       "name": "富创精密",
       "concept": "",
-      "mention_count": 1,
+      "mention_count": 2,
       "articles": [
         {
           "source": "https://mp.weixin.qq.com/s/_AxJ67eFzTt1FMrzZK2-ZQ",
@@ -127788,9 +128126,38 @@
             "中游-制造"
           ],
           "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/M1KmYJdPg2Z6t-fnXGQR5A",
+          "title": "SK海力士设备供应商涨价利好个股全解析",
+          "date": "2026-06-13",
+          "accidents": [
+            "SK海力士设备供应商提价3-4%,HBM/DRAM超级周期下设备供不应求",
+            "国内零部件龙头,供应用材料/泛林/ASML,已提价3-5%,订单+180%"
+          ],
+          "insights": [
+            "半导体设备精密零部件"
+          ],
+          "key_metrics": [
+            "设备涨价3-4%",
+            "HBM产能2026年预计增长100%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "半导体设备精密零部件"
+          ],
+          "industry_position": [
+            "国内零部件龙头,供应用材料/泛林/ASML,已提价3-5%,订单+180%"
+          ],
+          "chain": [
+            "半导体设备"
+          ],
+          "partners": [
+            "SK海力士"
+          ]
         }
       ],
-      "last_updated": "2026-06-12",
+      "last_updated": "2026-06-13",
       "concepts": [
         "DeepSeek概念",
         "专精特新",
@@ -127802,7 +128169,9 @@
       ],
       "industry": "电子-半导体-半导体设备",
       "board": "SH",
-      "partners": [],
+      "partners": [
+        "SK海力士"
+      ],
       "core_business": [
         "半导体零部件龙头"
       ],
