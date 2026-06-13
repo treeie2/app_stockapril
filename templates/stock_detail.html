@@ -196,6 +196,16 @@
         </div>
         {% endif %}
 
+        <!-- 🌐 行业赛道背景（聚合自所有文章） -->
+        {% if stock.industry_background %}
+        <div class="section">
+            <h3>🌐 行业赛道背景</h3>
+            <ul style="margin:0;padding-left:20px;color:var(--text-secondary);font-size:13px;line-height:1.8;">
+                {% for item in stock.industry_background %}<li>{{ item }}</li>{% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+
         <!-- 所属分组 -->
         {% if stock.groups and stock.groups|length > 0 %}
         <div class="section">
