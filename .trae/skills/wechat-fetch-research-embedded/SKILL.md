@@ -1,9 +1,9 @@
 ---
 name: wechat-fetch-research-embedded
-description: 把微信公众号文章链接转成可结构化投研素材并沉淀到 JSON 数据库的工作流技能（v2.3）。内置《全部个股.xls》和《数据结构规范_v2》，支持 Docker 部署和 Celery 队列。适用场景：你给出一个或多个 mp.weixin.qq.com 链接，需要（1）可靠读取公众号正文并落盘 raw_material；（2）从 raw_material 识别提到的个股（自动映射内置 stock list）；（3）按内置《数据结构规范_v2》抽取 accidents/insights/key_metrics/target_valuation；（4）**增量合并到按日期分片的 JSON 文件**（解决大文件问题）；（5）可选同步到 Firestore/GitHub 分片。
+description: 把微信公众号文章链接转成可结构化投研素材并沉淀到 JSON 数据库的工作流技能（v2.4）。内置《全部个股.xls》和《数据结构规范_v2》，支持 Docker 部署和 Celery 队列。适用场景：你给出一个或多个 mp.weixin.qq.com 链接，需要（1）可靠读取公众号正文并落盘 raw_material；（2）从 raw_material 识别提到的个股（自动映射内置 stock list）；（3）按内置《数据结构规范_v2》执行 5 维度抽取（industry_background/accidents/insights/key_metrics/target_valuation）+ 轻量模式合并第一层信息；（4）**增量合并到按日期分片的 JSON 文件**；（5）可选同步到 Firestore/GitHub 分片。
 ---
 
-# wechat-fetch-research-embedded (v2.3)
+# wechat-fetch-research-embedded (v2.4)
 
 > ⚠️ **重要路径说明**：本技能输出到 `data/stocks/` 目录（前端读取），**不是** `data/master/`。详见下方目录约定。
 
@@ -26,9 +26,41 @@ description: 把微信公众号文章链接转成可结构化投研素材并沉�
 
 ## v2.4 变更说明
 
-### 新增：三道防线质量过滤体系
+### 新增：5 维度抽取标准 + 硬性规则清洗
 
-在 `extract_stocks_from_raw_material.py` 中实现了三层递进的过滤机制，系统性地拦截低质量文章（多股罗列、行业综述、每日汇总等）污染个股页面。
+在 v2.3 三道防线基础上，升级为严格的 **5 维度** 个股数据抽取标准，新增 `industry_background`（行业/赛道背景）字段，并集成 `clean_extracted_stock()` 后置硬性规则清洗函数。
+
+---
+
+**5 维度标准：**
+
+| 维度 | 字段名 | 定义 | 红线约束 |
+|------|--------|------|----------|
+| 1 | `industry_background` | 行业/赛道宏观趋势、政策红利、供需变化 | **严禁出现公司名称**；同赛道股票内容一致 |
+| 2 | `insights` | 个股投资逻辑、竞争优势、受益逻辑 | 必须指向具体个股，严禁泛行业科普 |
+| 3 | `accidents` | 客观事实/动作/项目进展 | 单条 ≤60 字，严禁主观推测词 |
+| 4 | `key_metrics` | 量化财务/业务数据 | 每一条**必须包含阿拉伯数字** |
+| 5 | `target_valuation` | 资产定价锚点 | 必须包含市值数额/目标股价/PE/PB |
+
+**clean_extracted_stock() 硬性规则清洗（后置执行）：**
+- `key_metrics` → 强制要求包含 `\d`，否则丢弃
+- `target_valuation` → 强制要求包含估值单位词（亿/元/PE/PB/倍/市值/目标价）+ 数字
+- `accidents` → 强制限制单条 ≤60 字
+- `industry_background` → 自动替换混入的公司名为"业内相关公司"
+
+**轻量模式（v2.4 新增）：不浪费第一层信息**
+
+当个股未通过投研质量过滤（`__THIN__` 标记或 substance≤1），但 LLM 提取到了有价值的 `products`/`core_business`/`industry_position`/`chain`/`partners` 时：
+
+- ❌ **不写 article**（不产生低质量投研数据）
+- ✅ **静默合并第一层字段**（products/core_business/industry_position/chain/partners）
+- ✅ **mention_count 不变**（因为这不是一篇有效的独立分析）
+
+| 场景 | 处理 |
+|------|------|
+| 投研质量通过 | 写完整 article + 更新第一层 + mention_count+1 |
+| `__THIN__` 或有第一层信息但 substance≤1 | 轻量合并第一层字段，mention_count 不变 |
+| 完全无信息 | 丢弃 |
 
 ---
 
@@ -332,15 +364,16 @@ python scripts/extract_stocks_from_raw_material.py \
 
 ### 方式 B: AI 辅助提取（推荐）
 
-AI 从文章内容提取以下 **8 个字段**：
+AI 从文章内容提取以下 **9 个字段**：
 
 **结构化数据字段**：
 | 字段 | 类型 | 说明 | 示例 |
 |------|------|------|------|
-| `accidents` | string[] | 事件/催化剂，事实性描述 | `["二季度订单加速放量"]` |
-| `insights` | string[] | 投研观点，原文或忠实改写 | `["国产交换芯片龙头"]` |
-| `key_metrics` | string[] | 关键指标，数字/比率/市占率 | `["2026年AEC收入10-15亿元"]` |
-| `target_valuation` | string[] | 目标估值/目标价 | `["370亿"]` |
+| `industry_background` | string[] | 行业/赛道背景，严禁公司名 | `["AI服务器出货量爆发，驱动高阶PCB需求"]` |
+| `accidents` | string[] | 事件/催化剂，事实性描述，≤60字 | `["二季度订单加速放量"]` |
+| `insights` | string[] | 个股投研观点，原文或忠实改写 | `["国产交换芯片龙头"]` |
+| `key_metrics` | string[] | 关键指标，必须包含数字 | `["2026年AEC收入10-15亿元"]` |
+| `target_valuation` | string[] | 目标估值/目标价，含具体数值 | `["370亿"]` |
 
 **个股数据字段**（从文章上下文推断）：
 | 字段 | 类型 | 说明 | 示例 |
@@ -498,17 +531,19 @@ python scripts/pipeline.py \
 6. **mention_count 累加**：每次更新会累加 mention_count，如需重置请手动编辑。
 7. **⭐ 路径问题**：`incremental_update.py` 写入 `.trae/skills/.../data/master/`，**前端不读取**。务必使用 `merge_new_stocks.py`。
 8. **行业字段**：`industry` 必须使用三级分类（如"电子-半导体-集成电路"），禁止使用"创业板/科创板"等板块名。
+9. **⭐ v2.4 轻量模式**：`__THIN__` 或投研内容不足的个股不会写入 article，但仍会静默合并第一层字段（products/core_business/industry_position/chain/partners），mention_count 不变。
 
 ---
 
 ## 抽取规则（核心点）
 
 - **先识别个股**：从 raw_material 中抽取"候选个股名/代码" → 映射到《全部个股.xls》（代码+简称）。
-- **再按文章维度抽字段**：对每篇文章、每只股票，抽取：
+- **再按文章维度抽 5 维度字段**：对每篇文章、每只股票，抽取：
+  - `industry_background`：行业/赛道宏观背景，严禁出现公司名称
   - `accidents`：事件/催化剂/行业新闻（短句，超 60 字需压缩）
   - `insights`：投研观点/逻辑
-  - `key_metrics`：量化指标/市占率/财务/产能等
-  - `target_valuation`：估值/目标市值/空间/测算
+  - `key_metrics`：量化指标/市占率/财务/产能等（必须包含数字）
+  - `target_valuation`：估值/目标市值/空间/测算（必须包含具体数值）
   - `core_business`：核心业务/主要产品
   - `industry_position`：行业地位/竞争优势
   - `chain`：产业链位置

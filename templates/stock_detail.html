@@ -102,6 +102,22 @@
             cursor: pointer; font-size: 13px;
         }
         .btn-cancel-article:hover { background: var(--bg-secondary); }
+        .industry-bg {
+            margin: 12px 0;
+            padding: 12px 16px;
+            background: linear-gradient(135deg, rgba(6,182,212,0.06), rgba(99,179,237,0.03));
+            border-left: 3px solid var(--accent-cyan);
+            border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+        }
+        .industry-bg strong {
+            color: var(--accent-cyan);
+            font-size: 13px;
+        }
+        .industry-bg li {
+            color: var(--text-secondary);
+            font-size: 13px;
+            line-height: 1.6;
+        }
         .toast {
             position: fixed; top: 20px; right: 20px; padding: 12px 24px;
             border-radius: var(--radius-sm); font-size: 14px; z-index: 2000;
@@ -338,8 +354,14 @@
                 <div id="display{{ loop.index0 }}">
                     <h4>{{ article.title }}</h4>
                     <div class="meta">{{ article.date }} · <a href="{{ article.source }}" target="_blank" style="color: var(--accent-cyan);">原文链接</a></div>
+                    {% if article.industry_background %}
+                    <div class="industry-bg">
+                        <strong>🌐 行业/赛道背景：</strong>
+                        <ul>{% for item in article.industry_background %}<li>{{ item }}</li>{% endfor %}</ul>
+                    </div>
+                    {% endif %}
                     {% if article.accidents %}
-                    <div><strong>催化剂/事件：</strong>
+                    <div><strong>⚡ 催化剂/事件：</strong>
                         <ul>{% for item in article.accidents %}<li>{{ item }}</li>{% endfor %}</ul>
                     </div>
                     {% endif %}
@@ -374,7 +396,12 @@
                         <input type="text" class="edit-source" value="{{ article.source }}">
                     </div>
                     <div class="edit-field">
-                        <label>催化剂/事件（每行一条）</label>
+                        <label>🌐 行业/赛道背景（每行一条，严禁出现公司名）</label>
+                        <textarea class="edit-industry-bg" rows="2">{% for item in article.industry_background %}{{ item }}
+{% endfor %}</textarea>
+                    </div>
+                    <div class="edit-field">
+                        <label>⚡ 催化剂/事件（每行一条，≤60字）</label>
                         <textarea class="edit-accidents" rows="3">{% for item in article.accidents %}{{ item }}
 {% endfor %}</textarea>
                     </div>
@@ -631,6 +658,7 @@
                 title: editArea.querySelector('.edit-title').value.trim(),
                 date: editArea.querySelector('.edit-date').value.trim(),
                 source: editArea.querySelector('.edit-source').value.trim(),
+                industry_background: editArea.querySelector('.edit-industry-bg').value.split('\n').map(s => s.trim()).filter(Boolean),
                 accidents: editArea.querySelector('.edit-accidents').value.split('\n').map(s => s.trim()).filter(Boolean),
                 insights: editArea.querySelector('.edit-insights').value.split('\n').map(s => s.trim()).filter(Boolean),
                 key_metrics: editArea.querySelector('.edit-metrics').value.split('\n').map(s => s.trim()).filter(Boolean),

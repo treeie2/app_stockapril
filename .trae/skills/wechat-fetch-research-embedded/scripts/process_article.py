@@ -152,10 +152,11 @@ def process_article(url, article_content, stock_code, structured_data):
         article_content: 文章内容文本
         stock_code: 股票代码（6 位数字）
         structured_data: 结构化数据字典，包含：
+            - industry_background: 行业/赛道背景列表（严禁出现公司名）
             - accidents: 催化剂/事件列表
             - insights: 投资洞察列表
-            - key_metrics: 关键指标列表
-            - target_valuation: 目标估值列表
+            - key_metrics: 关键指标列表（必须包含数字）
+            - target_valuation: 目标估值列表（必须包含具体数值）
             - core_business: 核心业务/主要产品列表
             - industry_position: 行业地位/竞争优势列表
             - chain: 产业链位置列表
@@ -189,6 +190,7 @@ def process_article(url, article_content, stock_code, structured_data):
                 'title': f'今天的一些信息整理 {today[5:7]}.{today[8:10]}',
                 'date': today,
                 'source': url,
+                'industry_background': structured_data.get('industry_background', []),
                 'accidents': structured_data.get('accidents', []),
                 'insights': structured_data.get('insights', []),
                 'key_metrics': structured_data.get('key_metrics', []),

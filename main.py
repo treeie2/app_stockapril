@@ -1726,6 +1726,8 @@ def api_stock_article_edit(code):
         article['date'] = data['date']
     if 'source' in data:
         article['source'] = data['source']
+    if 'industry_background' in data:
+        article['industry_background'] = data['industry_background']
     if 'accidents' in data:
         article['accidents'] = data['accidents']
     if 'insights' in data:

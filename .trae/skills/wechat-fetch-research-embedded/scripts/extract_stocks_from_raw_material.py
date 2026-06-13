@@ -18,9 +18,14 @@ import datetime as dt
 import json
 import os
 import re
+import sys
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Dict, List, Tuple
+
+# Fix Windows GBK encoding issues
+if sys.platform == 'win32' and hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8')
 
 import pandas as pd
 from openai import OpenAI
@@ -252,6 +257,7 @@ SYSTEM_EXTRACT = (
     "        \"title\": \"文章标题\",\n"
     "        \"date\": \"YYYY-MM-DD\",\n"
     "        \"source\": \"文章链接\",\n"
+    "        \"industry_background\": [\"行业/赛道背景\"],\n"
     "        \"accidents\": [\"事件/催化剂\"],\n"
     "        \"insights\": [\"投研观点/逻辑\"],\n"
     "        \"key_metrics\": [\"关键指标\"],\n"
@@ -266,18 +272,25 @@ SYSTEM_EXTRACT = (
     "    }\n"
     "  ]\n"
     "}\n"
-    "抽取规则：\n"
-    "- accidents：只写事实事件/催化剂，单条<=60字。拒绝行业泛论。\n"
-    "- insights：保留原文或忠实改写，仅写针对该个股的观点。不要把宏观行业描述放入。\n"
-    "- key_metrics：关键财务指标、业务数据（营收、利润、市占率、产能等具体数字）。\n"
-    "- target_valuation：目标市值、PE、估值区间。\n"
+    "抽取规则（严格执行 5 维度划分）：\n"
+    "- industry_background：仅提取行业/赛道/产业链层面的宏观趋势、政策红利、供需变化。\n"
+    "  ★ 严禁出现任何具体公司名称！若多只股票属同一赛道，此字段内容必须完全一致地复制到每只相关股票节点中。\n"
+    "  ★ 若文章没有行业背景描述，返回空数组 []。\n"
+    "- accidents：只写客观事实事件/催化剂/动作，单条<=60字。\n"
+    "  ★ 严禁包含主观推测（如\"预计\"、\"可能\"、\"有望\"、\"看好\"等词汇，归入 insights）。\n"
+    "- insights：仅写针对该具体个股的投资逻辑、竞争优势与受益逻辑。回答\"这家公司凭什么最受益\"。\n"
+    "  ★ 严禁填充泛泛的行业科普。\n"
+    "- key_metrics：关键量化指标，每一条必须包含具体的阿拉伯数字或百分比（%）。\n"
+    "  ★ 纯定性描述（如\"大幅增长\"、\"遥遥领先\"）直接丢弃。\n"
+    "- target_valuation：目标估值，必须包含市值数额（亿）、目标股价（元）或 PE/PB 等具体倍数。\n"
+    "  ★ 无具体数字的表述（如\"估值极具吸引力\"）移入 insights。\n"
     "- products：主要产品、服务、技术（2-3个关键词）。\n"
     "- core_business：核心业务（1-2句话）。\n"
     "- industry：所属行业（如\"电子-半导体-集成电路\"）。\n"
     "- industry_position：行业地位、竞争优势、市场排名。\n"
     "- partners：主要客户、供应商、合作伙伴（公司名称）。\n"
     "- chain：产业链位置（如\"上游-原材料\"）。\n"
-    "- 如果文章中没有某字段信息，返回空列表或空字符串。\n"
+    "- 如果文章中没有某字段信息，严格返回空数组 [] 或空字符串，严禁臆测！\n"
     "- 只输出 JSON（不要解释、不要 markdown）。\n"
 )
 
@@ -533,16 +546,20 @@ def has_list_patterns_in_content(article: ArticleBlock) -> bool:
     return False
 
 
-def filter_items_by_quality(items: List[Dict], article: ArticleBlock) -> List[Dict]:
-    """Filter extracted items, removing low-quality stock-article pairs.
+def filter_items_by_quality(items: List[Dict], article: ArticleBlock) -> Tuple[List[Dict], List[Dict]]:
+    """将提取结果分为"通过"和"仅第一层信息"两路。
 
     Rules:
-    - Remove items marked __THIN__ (AI flagged as industry-background-only)
-    - Remove if accidents+insights+metrics+valuation total <= 2 items (just mentioned)
-    - Remove if insights+metrics+valuation <= 1 (no substantive analysis)
-    - Remove if item has multi-stock rolisting patterns in accidents field
+    - 通过: 有实质投研内容（accidents+insights+metrics+valuation 有足够条目）→ 写完整 article
+    - 轻量: 投研质量不足，但有 stock-level 字段（products/core_business/industry_position/chain/partners）
+            → 不写 article，但静默合并第一层信息，不增加 mention_count
+    - 丢弃: 无任何有效信息
+
+    Returns: (passed_items, lightweight_items)
     """
-    filtered = []
+    passed = []
+    lightweight = []
+
     for it in items:
         if not isinstance(it, dict):
             continue
@@ -555,29 +572,47 @@ def filter_items_by_quality(items: List[Dict], article: ArticleBlock) -> List[Di
         metrics = art.get("key_metrics", []) or []
         valuation = art.get("target_valuation", []) or []
 
-        # 检测 __THIN__ 标记：AI 判定为"行业背景型"个股
+        # Check for multi-stock listing patterns: always reject
+        if any(re.search(r'(推荐.*等|#重点推荐|重点推荐)', str(x)) for x in accidents):
+            continue
+
+        # 检测 __THIN__ 标记 → 降级为轻量模式
         if "__THIN__" in str(accidents):
             code = it.get("code", "?")
             name = it.get("name", "?")
-            print(f"  ⛔ [{code} {name}] __THIN__ 标记：行业背景型个股，跳过")
+            # 检查第一层字段是否有价值
+            if _has_stock_level_info(it):
+                print(f"  🔽 [{code} {name}] __THIN__ 标记：降级为轻量模式（仅更新第一层信息）")
+                lightweight.append(it)
             continue
 
         # Total item count
         total = len(accidents) + len(insights) + len(metrics) + len(valuation)
-        if total <= 2:
-            continue
 
         # Substantive analysis check
         substance = len(insights) + len(metrics) + len(valuation)
-        if substance <= 1:
-            continue
 
-        # Check for multi-stock listing patterns in accidents
-        if any(re.search(r'(推荐.*等|#重点推荐|重点推荐)', str(x)) for x in accidents):
-            continue
+        if total > 2 and substance > 1:
+            passed.append(it)
+        elif _has_stock_level_info(it):
+            code = it.get("code", "?")
+            name = it.get("name", "?")
+            print(f"  🔽 [{code} {name}] 投研内容不足(total={total}, substance={substance})：降级为轻量模式")
+            lightweight.append(it)
 
-        filtered.append(it)
-    return filtered
+    return passed, lightweight
+
+
+def _has_stock_level_info(it: Dict) -> bool:
+    """检查 item 是否包含有价值的股票第一层字段"""
+    stock_fields = ["products", "core_business", "industry_position", "chain", "partners"]
+    for field in stock_fields:
+        val = it.get(field, None)
+        if isinstance(val, list) and len(val) > 0:
+            return True
+        if isinstance(val, str) and val.strip():
+            return True
+    return False
 
 
 # ---------------------------
@@ -588,19 +623,20 @@ def clean_extracted_data(stock_data: Dict[str, Any]) -> Dict[str, Any] | None:
     """过滤掉无效的个股提取结果。
 
     规则：文章必须至少包含一个非空字段
-    （accidents/insights/key_metrics/target_valuation）。
+    （industry_background/accidents/insights/key_metrics/target_valuation）。
     如果某股票下没有任何有效文章了，返回 None。
     """
     valid_articles = []
 
     for article in stock_data.get("articles", []):
+        industry_bg = article.get("industry_background", [])
         accidents = article.get("accidents", [])
         insights = article.get("insights", [])
         key_metrics = article.get("key_metrics", [])
         target_val = article.get("target_valuation", [])
 
-        # 核心逻辑：四个字段全为空 → 丢弃
-        if any([accidents, insights, key_metrics, target_val]):
+        # 核心逻辑：五个字段全为空 → 丢弃
+        if any([industry_bg, accidents, insights, key_metrics, target_val]):
             # 额外清理 __THIN__ 残留
             accidents_clean = [a for a in accidents if a != "__THIN__"]
             if accidents_clean != accidents:
@@ -612,6 +648,54 @@ def clean_extracted_data(stock_data: Dict[str, Any]) -> Dict[str, Any] | None:
     # 没有任何有效文章 → 返回 None
     if not valid_articles:
         return None
+
+    return stock_data
+
+
+# ---------------------------
+# 后置数据规范清洗 (Hard Rule Enforcement)
+# ---------------------------
+
+def clean_extracted_stock(stock_data: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    对 LLM 提取的个股数据进行硬性规则校验与清洗。
+    确保 key_metrics 含数字、target_valuation 含估值单位、
+    accidents 单条 <=60 字、industry_background 不混入公司名。
+    """
+    stock_name = stock_data.get("name", "")
+
+    for article in stock_data.get("articles", []):
+
+        # 1. 清洗 key_metrics：强制要求包含数字
+        valid_metrics = []
+        for metric in article.get("key_metrics", []):
+            if re.search(r'\d', metric):  # 必须包含阿拉伯数字
+                valid_metrics.append(metric)
+        article["key_metrics"] = valid_metrics
+
+        # 2. 清洗 target_valuation：强制要求包含估值单位/特征词
+        valid_val = []
+        val_keywords = ['亿', '元', 'PE', 'PB', '倍', '市值', '目标价']
+        for val in article.get("target_valuation", []):
+            if any(kw in val for kw in val_keywords) and re.search(r'\d', val):
+                valid_val.append(val)
+        article["target_valuation"] = valid_val
+
+        # 3. 清洗 accidents：强制长度限制（单条 <=60 字）
+        valid_accidents = []
+        for acc in article.get("accidents", []):
+            if len(acc) <= 60:
+                valid_accidents.append(acc)
+            # 超过 60 字直接丢弃（不在 Python 层面截断，避免产生无意义片段）
+        article["accidents"] = valid_accidents
+
+        # 4. 清洗 industry_background：去除偶然混入的公司名
+        clean_bg = []
+        for bg in article.get("industry_background", []):
+            if stock_name and stock_name in bg:
+                bg = bg.replace(stock_name, "业内相关公司")
+            clean_bg.append(bg)
+        article["industry_background"] = clean_bg
 
     return stock_data
 
@@ -635,6 +719,50 @@ def ensure_stock_base(code: str, name: str) -> Dict[str, Any]:
         "mention_count": 0,
         "articles": [],
     }
+
+
+def merge_lightweight_stock_info(master: Dict[str, Any], items: List[Dict[str, Any]]):
+    """仅合并第一层个股信息，不写 article，不增加 mention_count。
+
+    适用场景：投研质量不足以成为文章，但 LLM 提取到的 products/core_business/
+    industry_position/chain/partners 仍有价值。
+    """
+    stocks = master.setdefault("stocks", [])
+    by_code = {s.get("code"): s for s in stocks if isinstance(s, dict) and s.get("code")}
+
+    merged_count = 0
+    for it in items:
+        if not isinstance(it, dict):
+            continue
+        code = str(it.get("code", "")).strip()
+        name = str(it.get("name", "")).strip()
+        if not re.fullmatch(r"\d{6}", code):
+            continue
+
+        s = by_code.get(code)
+        if not s:
+            s = ensure_stock_base(code, name or code)
+            stocks.append(s)
+            by_code[code] = s
+
+        any_merged = False
+        for field in ["products", "core_business", "industry_position", "chain", "partners"]:
+            val = it.get(field, None)
+            if isinstance(val, list) and len(val) > 0:
+                existing = set(s.get(field, []))
+                new_items = [str(x).strip() for x in val if str(x).strip()]
+                before = len(existing)
+                for item in new_items:
+                    existing.add(item)
+                if len(existing) > before:
+                    any_merged = True
+                    s[field] = sorted(list(existing))
+
+        if any_merged:
+            merged_count += 1
+            print(f"  📝 [{code} {name}] 轻量合并第一层信息 (mention_count 不变)")
+
+    return merged_count
 
 
 def merge_into_master(master: Dict[str, Any], items: List[Dict[str, Any]]):
@@ -680,7 +808,7 @@ def merge_into_master(master: Dict[str, Any], items: List[Dict[str, Any]]):
                     s[field] = sorted(list(existing))
 
         # 处理 article 字段
-        for k in ["accidents", "insights", "key_metrics", "target_valuation"]:
+        for k in ["industry_background", "accidents", "insights", "key_metrics", "target_valuation"]:
             v = art.get(k, [])
             if not isinstance(v, list):
                 v = []
@@ -699,6 +827,7 @@ def merge_into_master(master: Dict[str, Any], items: List[Dict[str, Any]]):
                 "title": art["title"],
                 "date": art["date"],
                 "source": art["source"],
+                "industry_background": art.get("industry_background", []),
                 "accidents": art["accidents"],
                 "insights": art["insights"],
                 "key_metrics": art["key_metrics"],
@@ -797,18 +926,29 @@ def main():
         # Step B: extract structured items
         items = extract_items(api_manager, art, mapped)
 
-        # ─── 过滤层 4: 移除低质量个股条目（顺带提及/无实质分析） ───
+        # ─── 过滤层 4: 分两路——通过(完整article) / 轻量(仅第一层信息) ───
         before_filter = len(items)
-        items = filter_items_by_quality(items, art)
-        if before_filter != len(items):
-            print(f"  质量过滤: {before_filter} -> {len(items)} 条 (移除 {before_filter - len(items)} 条低质量)")
+        passed_items, lightweight_items = filter_items_by_quality(items, art)
+        if before_filter != len(passed_items) + len(lightweight_items):
+            filtered_out = before_filter - len(passed_items) - len(lightweight_items)
+            print(f"  质量过滤: {before_filter} -> {len(passed_items)} 通过 + {len(lightweight_items)} 轻量 (丢弃 {filtered_out} 条)")
 
-        if not items:
-            print(f"  过滤后无有效条目，跳过")
+        # 轻量合并：不写 article，只更新第一层字段
+        if lightweight_items:
+            for it in lightweight_items:
+                if isinstance(it, dict) and re.fullmatch(r"\d{6}", str(it.get("code", ""))):
+                    code = str(it["code"])
+                    it.setdefault("name", code_to_name.get(code, ""))
+            lw_merged = merge_lightweight_stock_info(master, lightweight_items)
+            if lw_merged > 0:
+                print(f"  📝 轻量模式合并了 {lw_merged} 只股票的第一层信息")
+
+        if not passed_items:
+            print(f"  无通过条目，继续")
             continue
 
         # Fill missing name via map
-        for it in items:
+        for it in passed_items:
             if isinstance(it, dict) and re.fullmatch(r"\d{6}", str(it.get("code", ""))):
                 code = str(it["code"])
                 it.setdefault("name", code_to_name.get(code, ""))
@@ -817,8 +957,8 @@ def main():
                     it["article"].setdefault("date", art.date)
                     it["article"].setdefault("title", art.title)
 
-        merge_into_master(master, items)
-        print(f"  已提取 {len(items)} 条结构化数据")
+        merge_into_master(master, passed_items)
+        print(f"  已提取 {len(passed_items)} 条结构化数据")
 
     # ─── 第三道防线：后置清理 ───
     stocks_list = master.get("stocks", [])
@@ -838,6 +978,17 @@ def main():
     after_clean = len(stocks_cleaned)
     if cleaned_count > 0:
         print(f"\n[第三道防线] 后置清理: {before_clean} -> {after_clean} 只 (移除 {cleaned_count} 只无效个股)\n")
+
+    # ─── 后置硬性规则清洗：key_metrics 数字校验 / target_valuation 估值词校验 / accidents 长度 / industry_background 公司名清洗 ───
+    print(f"[硬性规则清洗] 对 {after_clean} 只股票执行 key_metrics/target_valuation/accidents 硬性规则清洗...")
+    stocks_final = []
+    for stock in stocks_cleaned:
+        stock = clean_extracted_stock(stock)
+        # 清洗后再检查是否有有效文章
+        if stock.get("articles"):
+            stocks_final.append(stock)
+    master["stocks"] = stocks_final
+    print(f"[硬性规则清洗] 完成，剩余 {len(stocks_final)} 只股票\n")
 
     write_json(args.out_json, master)
     print(f"\n{'='*60}")
