@@ -27,6 +27,14 @@ INDUSTRY_KEYWORDS = [
     'SpaceX', 'Token出海', '储能即', '出海',
 ]
 
+# 综合资讯/每日汇总类文章标题关键词（应跳过，不归入个股）
+DIGEST_TITLE_KEYWORDS = [
+    '今天的一些信息整理',
+    '信息汇总',
+    '信息整理',
+    '调研纪要',  # 除非是特定个股的调研纪要
+]
+
 
 def strip_css_and_html(text):
     """Strip CSS styles and HTML junk from article text."""
@@ -311,6 +319,14 @@ def process_articles():
         meta['stock_code'] = stock_info['stock_code']
         meta['stock_name'] = stock_info['stock_name']
         meta['is_industry_report'] = stock_info['is_industry_report']
+
+        # 检查标题是否为综合资讯/每日汇总类文章，是则跳过不归入个股
+        if not meta['is_industry_report']:
+            for kw in DIGEST_TITLE_KEYWORDS:
+                if kw in meta['title']:
+                    meta['is_industry_report'] = True
+                    print(f"  [跳过综合资讯] {filename} -> {meta['title'][:50]}")
+                    break
 
         if not meta['date']:
             stats['no_date'] += 1

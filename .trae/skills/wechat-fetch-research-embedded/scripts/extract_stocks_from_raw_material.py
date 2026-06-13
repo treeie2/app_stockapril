@@ -219,18 +219,29 @@ class APIManager:
 
 SYSTEM_IDENTIFY = (
     "你是中文金融研报信息抽取助手。任务：从公众号文章正文中识别提到的A股个股名称/代码。\n"
-    "约束：\n"
-    "- 只输出 JSON（不要解释、不要 markdown）。\n"
+    "【严格过滤原则】：\n"
+    "- 仅识别文章中有实质性分析的个股（有具体业务进展、财务数据、订单、估值或独立判断），而非仅仅是行业背景举例。\n"
+    "- 如果个股只是被罗列（如\"推荐A、B、C等\"），或仅作为行业背景提及（如\"像某某一样\"），不要识别。\n"
     "- 若不确定，宁可不输出。\n"
     "- 允许输出 name 或 code（6位数字），能给 code 优先给 code。\n"
+    "- 只输出 JSON（不要解释、不要 markdown）。\n"
     "输出格式示例：{\"stocks\":[{\"name\":\"新雷能\",\"code\":\"300593\"}]}"
 )
 
 SYSTEM_EXTRACT = (
     "你是中文金融研报结构化抽取助手。\n"
+    "正在处理一篇复杂的金融市场研报。你的任务是为每只个股提取结构化数据。\n\n"
     "你会收到：\n"
     "1) 一篇公众号文章（可能包含多只股票内容）\n"
-    "2) 需要抽取的股票列表（已经映射到代码）\n"
+    "2) 需要抽取的股票列表（已经映射到代码）\n\n"
+    "【严格过滤原则】在提取前，对列表中每只股票做如下三步判断：\n"
+    "1. 该公司是否有独立的事件/催化剂描述（非行业泛论）？\n"
+    "2. 描述中是否有至少一个具体数字、时间节点或明确判断？\n"
+    "3. 该公司是否被当作主角而非行业背景举例？\n\n"
+    "全部为否 → 跳过该公司，不输出。\n"
+    "至少一条为是 → 正常提取。但如果 accidents 为空：\n"
+    "  - 有 insights 或 key_metrics → accidents 填写 [\"__THIN__\"] 作为标记\n"
+    "  - 完全没有 insights/key_metrics → 跳过该公司\n\n"
     "请为每只股票生成一条 article 记录，字段必须符合下列 JSON Schema：\n"
     "{\n"
     "  \"items\": [\n"
@@ -256,16 +267,16 @@ SYSTEM_EXTRACT = (
     "  ]\n"
     "}\n"
     "抽取规则：\n"
-    "- accidents：只写事实事件，单条<=60 字。\n"
-    "- insights：保留原文或忠实改写。\n"
-    "- key_metrics：关键财务指标、业务数据（营收、利润、市占率等）。\n"
+    "- accidents：只写事实事件/催化剂，单条<=60字。拒绝行业泛论。\n"
+    "- insights：保留原文或忠实改写，仅写针对该个股的观点。不要把宏观行业描述放入。\n"
+    "- key_metrics：关键财务指标、业务数据（营收、利润、市占率、产能等具体数字）。\n"
     "- target_valuation：目标市值、PE、估值区间。\n"
-    "- products：主要产品、服务、技术（2-3 个关键词）。\n"
-    "- core_business：核心业务、主营业务（1-2 句话）。\n"
-    "- industry：所属行业（如\"电子 - 半导体 - 集成电路\"）。\n"
-    "- industry_position：行业地位、竞争优势、市场排名（如\"龙头\"、\"领先\"、\"市占率第一\"）。\n"
+    "- products：主要产品、服务、技术（2-3个关键词）。\n"
+    "- core_business：核心业务（1-2句话）。\n"
+    "- industry：所属行业（如\"电子-半导体-集成电路\"）。\n"
+    "- industry_position：行业地位、竞争优势、市场排名。\n"
     "- partners：主要客户、供应商、合作伙伴（公司名称）。\n"
-    "- chain：产业链位置（如\"上游-原材料\"、\"中游-芯片设计\"）。\n"
+    "- chain：产业链位置（如\"上游-原材料\"）。\n"
     "- 如果文章中没有某字段信息，返回空列表或空字符串。\n"
     "- 只输出 JSON（不要解释、不要 markdown）。\n"
 )
@@ -427,6 +438,185 @@ def extract_items(api_manager: APIManager, article: ArticleBlock, mapped_stocks:
 
 
 # ---------------------------
+# 第一道防线：Python 启发式预过滤
+# ---------------------------
+
+SIGNAL_KEYWORDS = [
+    "订单", "放量", "营收", "净利润", "市占率", "份额",
+    "估值", "目标价", "PE", "催化", "突破", "中标", "预期",
+    "产能", "量产", "扩产", "涨", "跌", "收购", "并购",
+    "回购", "分红", "业绩", "毛利率", "净利率", "ROE",
+    "新品", "客户", "合同", "项目",
+]
+
+
+def is_valid_stock_context(text_block: str) -> bool:
+    """判断包含股票的文本块是否具有提取价值。
+
+    规则：
+    1. 长度 < 30 字符 → 大概率一笔带过 → 拒绝
+    2. 包含至少 1 个信号关键词 → 放行
+    3. 长度 > 100 字符 → 有足够上下文 → 放行
+    """
+    text = text_block.strip()
+    if len(text) < 30:
+        return False
+
+    keyword_matches = sum(1 for kw in SIGNAL_KEYWORDS if kw in text)
+    if keyword_matches >= 1 or len(text) > 100:
+        return True
+    return False
+
+
+# ---------------------------
+# Quality Filtering
+# ---------------------------
+
+DIGEST_TITLE_PATTERNS = [
+    r'\d+月\d+日[一些]?首板逻辑',
+    r'\d+月\d+日信息[整理汇总]',
+    r'今天的一些信息整理',
+    r'信息[汇总整理]',
+    r'一周核心纪要',
+    r'周度[汇总纪要]',
+    r'周报',
+    r'\d{6}信息汇总',
+]
+
+BROAD_LIST_TITLE_PATTERNS = [
+    r'盈利最强[的]?\d+[家只]企业',
+    r'\d+只主力重仓龙头',
+    r'\d+家上市公司[受益对标]',
+    r'全产业链[受益图谱布局]',
+    r'A股全产业链',
+    r'产业链全景解析',
+    r'供应格局梳理',
+    r'\d+家核心公司',
+    r'全线涨停',
+    r'龙头名单',
+    r'核心公司[一览名单]',
+    r'谁[吃瓜]?千亿',
+    r'90%散户',
+    r'伪[陷阱]?',
+]
+
+
+def is_digest_article(title: str) -> bool:
+    """Check if article title indicates a daily digest/weekly roundup (skip entirely)."""
+    for p in DIGEST_TITLE_PATTERNS:
+        if re.search(p, title):
+            return True
+    return False
+
+
+def is_broad_list_article(title: str) -> bool:
+    """Check if article title indicates multi-stock rolisting / industry overview (skip entirely)."""
+    for p in BROAD_LIST_TITLE_PATTERNS:
+        if re.search(p, title):
+            return True
+    return False
+
+
+def has_list_patterns_in_content(article: ArticleBlock) -> bool:
+    """Check article content for multi-stock recommendation patterns."""
+    content = article.content
+    patterns = [
+        r'推荐.*等[。，；]?$',
+        r'#重点推荐[：:]',
+        r'重点推荐.*等',
+        r'港股[方面：:]',
+        r'美股[方面：:]',
+    ]
+    for p in patterns:
+        if re.search(p, content, re.MULTILINE):
+            return True
+    return False
+
+
+def filter_items_by_quality(items: List[Dict], article: ArticleBlock) -> List[Dict]:
+    """Filter extracted items, removing low-quality stock-article pairs.
+
+    Rules:
+    - Remove items marked __THIN__ (AI flagged as industry-background-only)
+    - Remove if accidents+insights+metrics+valuation total <= 2 items (just mentioned)
+    - Remove if insights+metrics+valuation <= 1 (no substantive analysis)
+    - Remove if item has multi-stock rolisting patterns in accidents field
+    """
+    filtered = []
+    for it in items:
+        if not isinstance(it, dict):
+            continue
+        art = it.get("article", {})
+        if not isinstance(art, dict):
+            continue
+
+        accidents = art.get("accidents", []) or []
+        insights = art.get("insights", []) or []
+        metrics = art.get("key_metrics", []) or []
+        valuation = art.get("target_valuation", []) or []
+
+        # 检测 __THIN__ 标记：AI 判定为"行业背景型"个股
+        if "__THIN__" in str(accidents):
+            code = it.get("code", "?")
+            name = it.get("name", "?")
+            print(f"  ⛔ [{code} {name}] __THIN__ 标记：行业背景型个股，跳过")
+            continue
+
+        # Total item count
+        total = len(accidents) + len(insights) + len(metrics) + len(valuation)
+        if total <= 2:
+            continue
+
+        # Substantive analysis check
+        substance = len(insights) + len(metrics) + len(valuation)
+        if substance <= 1:
+            continue
+
+        # Check for multi-stock listing patterns in accidents
+        if any(re.search(r'(推荐.*等|#重点推荐|重点推荐)', str(x)) for x in accidents):
+            continue
+
+        filtered.append(it)
+    return filtered
+
+
+# ---------------------------
+# 第三道防线：后置数据清理
+# ---------------------------
+
+def clean_extracted_data(stock_data: Dict[str, Any]) -> Dict[str, Any] | None:
+    """过滤掉无效的个股提取结果。
+
+    规则：文章必须至少包含一个非空字段
+    （accidents/insights/key_metrics/target_valuation）。
+    如果某股票下没有任何有效文章了，返回 None。
+    """
+    valid_articles = []
+
+    for article in stock_data.get("articles", []):
+        accidents = article.get("accidents", [])
+        insights = article.get("insights", [])
+        key_metrics = article.get("key_metrics", [])
+        target_val = article.get("target_valuation", [])
+
+        # 核心逻辑：四个字段全为空 → 丢弃
+        if any([accidents, insights, key_metrics, target_val]):
+            # 额外清理 __THIN__ 残留
+            accidents_clean = [a for a in accidents if a != "__THIN__"]
+            if accidents_clean != accidents:
+                article["accidents"] = accidents_clean
+            valid_articles.append(article)
+
+    stock_data["articles"] = valid_articles
+
+    # 没有任何有效文章 → 返回 None
+    if not valid_articles:
+        return None
+
+    return stock_data
+
+
+# ---------------------------
 # Merge
 # ---------------------------
 
@@ -564,6 +754,21 @@ def main():
     for art in articles:
         print(f"\n{'='*60}")
         print(f"[处理文章] {art.title or art.source[:50]}...")
+
+        # ─── 过滤层 1: 每日汇总/周报 → 整篇跳过 ───
+        if is_digest_article(art.title):
+            print(f"  ⛔ 每日汇总/周报文章，跳过: {art.title}")
+            continue
+
+        # ─── 过滤层 2: 多股罗列/行业综述标题 → 整篇跳过 ───
+        if is_broad_list_article(art.title):
+            print(f"  ⛔ 多股罗列/行业综述文章，跳过: {art.title}")
+            continue
+
+        # ─── 过滤层 3: 内容含多股推荐模式（如 #重点推荐）→ 整篇跳过 ───
+        if has_list_patterns_in_content(art):
+            print(f"  ⛔ 内容含多股推荐模式，跳过")
+            continue
         
         # Step A: identify mentioned stocks
         candidates = identify_stocks_in_article(api_manager, art.content)
@@ -592,6 +797,16 @@ def main():
         # Step B: extract structured items
         items = extract_items(api_manager, art, mapped)
 
+        # ─── 过滤层 4: 移除低质量个股条目（顺带提及/无实质分析） ───
+        before_filter = len(items)
+        items = filter_items_by_quality(items, art)
+        if before_filter != len(items):
+            print(f"  质量过滤: {before_filter} -> {len(items)} 条 (移除 {before_filter - len(items)} 条低质量)")
+
+        if not items:
+            print(f"  过滤后无有效条目，跳过")
+            continue
+
         # Fill missing name via map
         for it in items:
             if isinstance(it, dict) and re.fullmatch(r"\d{6}", str(it.get("code", ""))):
@@ -604,6 +819,25 @@ def main():
 
         merge_into_master(master, items)
         print(f"  已提取 {len(items)} 条结构化数据")
+
+    # ─── 第三道防线：后置清理 ───
+    stocks_list = master.get("stocks", [])
+    before_clean = len(stocks_list)
+    stocks_cleaned = []
+    cleaned_count = 0
+    for stock in stocks_list:
+        result = clean_extracted_data(stock)
+        if result is not None:
+            stocks_cleaned.append(result)
+        else:
+            code = stock.get("code", "?")
+            name = stock.get("name", "?")
+            print(f"  🗑 [{code} {name}] 清理：无有效文章，移除股票节点")
+            cleaned_count += 1
+    master["stocks"] = stocks_cleaned
+    after_clean = len(stocks_cleaned)
+    if cleaned_count > 0:
+        print(f"\n[第三道防线] 后置清理: {before_clean} -> {after_clean} 只 (移除 {cleaned_count} 只无效个股)\n")
 
     write_json(args.out_json, master)
     print(f"\n{'='*60}")
