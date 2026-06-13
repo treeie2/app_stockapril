@@ -3720,4 +3720,3 @@ def api_sync_groups_all():
         'firebase': {'success': fb_ok, 'message': f'✅ 已同步 {len(groups)} 个分组到 Firebase'} if fb_ok else None,
         'errors': errors if errors else None
     })
-f o r c e   r e d e p l o y :   v 2 . 4   w i t h   . j s o n . g z   s u p p o r t 
