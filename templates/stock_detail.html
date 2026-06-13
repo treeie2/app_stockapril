@@ -350,11 +350,11 @@
             <div class="article-card" id="articleCard{{ loop.index0 }}">
                 <button class="btn-delete-article" onclick="deleteArticle({{ loop.index0 }})">🗑 删除</button>
                 <button class="btn-edit-article" onclick="toggleEditArticle({{ loop.index0 }})" id="editBtn{{ loop.index0 }}">✏️ 编辑</button>
-                <!-- 显示模式 -->
+                <!-- 显示模式 v2.4 -->
                 <div id="display{{ loop.index0 }}">
                     <h4>{{ article.title }}</h4>
                     <div class="meta">{{ article.date }} · <a href="{{ article.source }}" target="_blank" style="color: var(--accent-cyan);">原文链接</a></div>
-                    {% if article.industry_background %}
+                    {% if article.industry_background and article.industry_background|length > 0 %}
                     <div class="industry-bg">
                         <strong>🌐 行业/赛道背景：</strong>
                         <ul>{% for item in article.industry_background %}<li>{{ item }}</li>{% endfor %}</ul>
