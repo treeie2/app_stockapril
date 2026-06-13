@@ -63,7 +63,7 @@ class GitHubSyncer:
         elif response.status_code == 404:
             return None
         else:
-            print(f"   ⚠️ 获取 SHA 失败 ({file_path}): HTTP {response.status_code}")
+            print(f"   [WARN] 获取 SHA 失败 ({file_path}): HTTP {response.status_code}")
             return None
     
     def _upload_file(self, file_path: str, content: str, message: str) -> bool:
@@ -93,11 +93,11 @@ class GitHubSyncer:
         
         if response.status_code in [200, 201]:
             commit_url = response.json().get('commit', {}).get('html_url', '')
-            print(f"   ✅ {file_path} -> {commit_url}")
+            print(f"   [OK] {file_path} -> {commit_url}")
             self.results.append({"file": file_path, "status": "success", "url": commit_url})
             return True
         else:
-            print(f"   ❌ {file_path} 失败: HTTP {response.status_code}")
+            print(f"   [ERR] {file_path} 失败: HTTP {response.status_code}")
             self.results.append({"file": file_path, "status": "failed", "error": response.text[:200]})
             return False
     
@@ -113,7 +113,7 @@ class GitHubSyncer:
         """
         shard_path = Path(local_shard_path)
         if not shard_path.exists():
-            print(f"❌ 文件不存在: {local_shard_path}")
+            print(f"[ERR] 文件不存在: {local_shard_path}")
             return False
         
         if date is None:
@@ -138,7 +138,7 @@ class GitHubSyncer:
         """
         index_path = Path(local_index_path)
         if not index_path.exists():
-            print(f"❌ 文件不存在: {local_index_path}")
+            print(f"[ERR] 文件不存在: {local_index_path}")
             return False
         
         with open(index_path, 'r', encoding='utf-8') as f:
@@ -160,7 +160,7 @@ class GitHubSyncer:
         """
         master_path = Path(local_master_path)
         if not master_path.exists():
-            print(f"❌ 文件不存在: {local_master_path}")
+            print(f"[ERR] 文件不存在: {local_master_path}")
             return False
         
         with open(master_path, 'r', encoding='utf-8') as f:
@@ -182,7 +182,7 @@ class GitHubSyncer:
         """
         from .merge_stocks import merge_stocks_from_files
         
-        print(f"📖 读取本地数据: {json_path}")
+        print(f"[READ] 读取本地数据: {json_path}")
         
         with open(json_path, 'r', encoding='utf-8') as f:
             new_data = json.load(f)
@@ -243,7 +243,7 @@ class GitHubSyncer:
         elif response.status_code == 404:
             return None, None
         else:
-            print(f"⚠️ 获取远程文件失败: HTTP {response.status_code}")
+            print(f"[WARN] 获取远程文件失败: HTTP {response.status_code}")
             return None, None
     
     def sync_daily_shards(self, base_dir: str, days: int = 1) -> Dict[str, Any]:
@@ -264,7 +264,7 @@ class GitHubSyncer:
         synced_count = 0
         failed_count = 0
         
-        print(f"\n🔄 同步最近 {days} 天的分片文件...\n")
+        print(f"\n[SYNC] 同步最近 {days} 天的分片文件...\n")
         
         for i in range(days):
             d = today.replace(day=today.day - i)
@@ -272,19 +272,19 @@ class GitHubSyncer:
             shard_file = stocks_dir / f"{date_str}.json"
             
             if shard_file.exists():
-                print(f"📅 [{date_str}]")
+                print(f"[DATE] [{date_str}]")
                 if self.sync_shard_file(str(shard_file), date_str):
                     synced_count += 1
                 else:
                     failed_count += 1
             else:
-                print(f"⏭️ [{date_str}] 无分片文件，跳过")
+                print(f"[SKIP] [{date_str}] 无分片文件，跳过")
         
-        print(f"\n📋 同步索引文件...")
+        print(f"\n[INDEX] 同步索引文件...")
         if index_path.exists():
             self.sync_index_file(str(index_path))
         else:
-            print(f"   ⚠️ 索引文件不存在: {index_path}")
+            print(f"   [WARN] 索引文件不存在: {index_path}")
         
         stats = {
             "synced_shards": synced_count,
@@ -292,7 +292,7 @@ class GitHubSyncer:
             "results": self.results
         }
         
-        print(f"\n✅ 分片同步完成:")
+        print(f"\n[OK] 分片同步完成:")
         print(f"   成功: {synced_count}")
         print(f"   失败: {failed_count}")
         
@@ -307,8 +307,8 @@ class GitHubSyncer:
             f"\n{'='*50}",
             f"GitHub 同步结果摘要",
             f"{'='*50}",
-            f"✅ 成功: {success}",
-            f"❌ 失败: {failed}",
+            f"[OK] 成功: {success}",
+            f"[ERR] 失败: {failed}",
             f"总计: {len(self.results)}"
         ]
         
@@ -392,7 +392,7 @@ Examples:
     if args.base_dir is None:
         args.base_dir = str(Path(__file__).parent.parent / "data" / "master")
     
-    print("🚀 开始 GitHub 同步...")
+    print("[START] 开始 GitHub 同步...")
     print(f"   模式: {args.mode}")
     print(f"   仓库: {args.github_repo}")
     print(f"   分支: {args.branch}")
@@ -411,7 +411,7 @@ Examples:
         
     elif args.mode == "single":
         if not args.json:
-            print("❌ --mode single 需要 --json 参数")
+            print("[ERR] --mode single 需要 --json 参数")
             sys.exit(1)
         success = syncer.sync_single_json(args.json)
         
@@ -420,7 +420,7 @@ Examples:
         
         master_path = Path(args.base_dir) / "stocks_master.json"
         if master_path.exists():
-            print(f"\n📦 同步主文件备份...")
+            print(f"\n[BACKUP] 同步主文件备份...")
             syncer.sync_master_file(str(master_path))
         
         success = stats['failed_shards'] == 0
@@ -428,9 +428,9 @@ Examples:
     print(syncer.get_results_summary())
     
     if success:
-        print("\n✅ 完成!")
+        print("\n[OK] 完成!")
     else:
-        print("\n❌ 部分失败!")
+        print("\n[ERR] 部分失败!")
         sys.exit(1)
 
 

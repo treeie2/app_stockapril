@@ -209,13 +209,13 @@ class IncrementalUpdater:
             "index_file": str(self.index_file)
         }
         
-        print(f"\n✅ 增量合并完成:")
-        print(f"   📅 日期: {today}")
+        print(f"\n[OK] 增量合并完成:")
+        print(f"   [DATE] 日期: {today}")
         print(f"   ➕ 新增: {new_count} 只")
-        print(f"   🔄 更新: {updated_count} 只")
-        print(f"   📊 当日总计: {stats['total_in_day']} 只")
+        print(f"   [SYNC] 更新: {updated_count} 只")
+        print(f"   [DATA] 当日总计: {stats['total_in_day']} 只")
         print(f"   📚 索引总计: {stats['total_indexed']} 只")
-        print(f"   💾 分片文件: {stats['daily_file']}")
+        print(f"   [SAVE] 分片文件: {stats['daily_file']}")
         
         return stats
     
@@ -256,20 +256,20 @@ class IncrementalUpdater:
         index['last_updated'] = today
         self._save_index(index)
         
-        print(f"✅ 已{action}: {stock_data.get('name', stock_code)} ({stock_code}) -> {today}.json")
+        print(f"[OK] 已{action}: {stock_data.get('name', stock_code)} ({stock_code}) -> {today}.json")
         
         return {"action": action, "stock_code": stock_code, "date": today}
     
     def rebuild_index(self) -> Dict[str, Any]:
         """从所有分片文件重建索引"""
-        print("🔄 重建索引...")
+        print("[SYNC] 重建索引...")
         
         stock_index = {}
         total_files = 0
         total_stocks = 0
         
         if not self.stocks_dir.exists():
-            print("⚠️ stocks 目录不存在")
+            print("[WARN] stocks 目录不存在")
             return {"total_files": 0, "total_stocks": 0}
         
         for file_path in sorted(self.stocks_dir.glob("*.json")):
@@ -290,7 +290,7 @@ class IncrementalUpdater:
                 total_files += 1
                 total_stocks += len(stocks)
             except Exception as e:
-                print(f"   ⚠️ 跳过 {file_path.name}: {e}")
+                print(f"   [WARN] 跳过 {file_path.name}: {e}")
         
         index_data = {
             "version": "2.0",
@@ -301,7 +301,7 @@ class IncrementalUpdater:
         
         self._save_index(index_data)
         
-        print(f"✅ 索引重建完成:")
+        print(f"[OK] 索引重建完成:")
         print(f"   📁 分片文件: {total_files}")
         print(f"   📚 总股票数: {len(stock_index)}")
         
@@ -329,12 +329,12 @@ class IncrementalUpdater:
     
     def build_master_from_shards(self) -> bool:
         """从所有分片构建主文件（可选的完整备份）"""
-        print("🔄 从分片构建主文件...")
+        print("[SYNC] 从分片构建主文件...")
         
         all_stocks = {}
         
         if not self.stocks_dir.exists():
-            print("⚠️ stocks 目录不存在")
+            print("[WARN] stocks 目录不存在")
             return False
         
         for file_path in sorted(self.stocks_dir.glob("*.json")):
@@ -343,7 +343,7 @@ class IncrementalUpdater:
                     data = json.load(f)
                 all_stocks.update(data.get('stocks', {}))
             except Exception as e:
-                print(f"   ⚠️ 跳过 {file_path.name}: {e}")
+                print(f"   [WARN] 跳过 {file_path.name}: {e}")
         
         master_data = {
             "stocks": list(all_stocks.values()),
@@ -358,7 +358,7 @@ class IncrementalUpdater:
         with open(self.master_file, 'w', encoding='utf-8') as f:
             json.dump(master_data, f, ensure_ascii=False, indent=2)
         
-        print(f"✅ 主文件已构建: {self.master_file}")
+        print(f"[OK] 主文件已构建: {self.master_file}")
         print(f"   总计: {len(all_stocks)} 只股票")
         
         return True
@@ -399,13 +399,13 @@ Examples:
     
     if args.mode == "merge":
         if not args.json:
-            print("❌ --mode merge 需要 --json 参数")
+            print("[ERR] --mode merge 需要 --json 参数")
             sys.exit(1)
         result = updater.merge_from_json(args.json)
         
     elif args.mode == "single":
         if not args.stock_code:
-            print("❌ --mode single 需要 --stock-code 参数")
+            print("[ERR] --mode single 需要 --stock-code 参数")
             sys.exit(1)
         
         if args.stock_data:
@@ -422,7 +422,7 @@ Examples:
         success = updater.build_master_from_shards()
         result = {"success": success}
     
-    print("\n✅ 完成!")
+    print("\n[OK] 完成!")
     return result
 
 

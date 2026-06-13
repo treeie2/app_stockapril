@@ -760,7 +760,7 @@ def merge_lightweight_stock_info(master: Dict[str, Any], items: List[Dict[str, A
 
         if any_merged:
             merged_count += 1
-            print(f"  📝 [{code} {name}] 轻量合并第一层信息 (mention_count 不变)")
+            print(f"  [NOTE] [{code} {name}] 轻量合并第一层信息 (mention_count 不变)")
 
     return merged_count
 
@@ -941,7 +941,7 @@ def main():
                     it.setdefault("name", code_to_name.get(code, ""))
             lw_merged = merge_lightweight_stock_info(master, lightweight_items)
             if lw_merged > 0:
-                print(f"  📝 轻量模式合并了 {lw_merged} 只股票的第一层信息")
+                print(f"  [NOTE] 轻量模式合并了 {lw_merged} 只股票的第一层信息")
 
         if not passed_items:
             print(f"  无通过条目，继续")
