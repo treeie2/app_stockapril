@@ -210,6 +210,12 @@
       "sourceType": "well-known",
       "computedHash": "37664a511e12ecab3fb8eba7a27a42ca35170668b5eaec6b5798229cdebb98a0"
     },
+    "wind-mcp-skill": {
+      "source": "Wind-Information-Co-Ltd/wind-skills",
+      "sourceType": "github",
+      "skillPath": "skills/wind-mcp-skill/SKILL.md",
+      "computedHash": "0538bd5857b59e7a7258966e125107bfe0c51689fc2405ff4bf2fb5413182f79"
+    },
     "xcode-project-setup": {
       "source": "firebase/agent-skills",
       "sourceType": "github",
