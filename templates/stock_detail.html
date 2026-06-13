@@ -345,7 +345,7 @@
 
         <!-- 文章列表-行内编辑 -->
         <div class="section">
-            <h3>📄 相关文章（{{ stock.articles|length }} 篇）</h3>
+            <h3>📄 相关文章（{{ stock.articles|length }} 篇）<small style="color:var(--accent-cyan);font-size:12px;"> v2.4 · 含行业背景</small></h3>
             {% for article in stock.articles %}
             <div class="article-card" id="articleCard{{ loop.index0 }}">
                 <button class="btn-delete-article" onclick="deleteArticle({{ loop.index0 }})">🗑 删除</button>
