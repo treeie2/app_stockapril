@@ -180,8 +180,6 @@ class GitHubSyncer:
         Returns:
             是否成功
         """
-        from .merge_stocks import merge_stocks_from_files
-        
         print(f"[READ] 读取本地数据: {json_path}")
         
         with open(json_path, 'r', encoding='utf-8') as f:
