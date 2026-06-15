@@ -32,6 +32,11 @@ OUTPUT_DIR = SKILL_DIR
 DEFAULT_COLOR = "65535"
 TIP_MAX_LEN = 500
 
+def _list(v):
+    if isinstance(v, str): return [v] if v.strip() else []
+    if isinstance(v, list): return v
+    return []
+
 
 def convert_code_to_mark_id(code: str) -> str | None:
     code = code.strip()
@@ -100,11 +105,11 @@ def get_last_updated(stock: dict) -> str:
 def build_research_tip(stock: dict, name: str) -> str:
     parts = []
 
-    products = stock.get("products", [])
+    products = _list(stock.get("products", []))
     if products:
         parts.append(f"【产品】{' / '.join(products[:4])}")
 
-    core_biz = stock.get("core_business", [])
+    core_biz = _list(stock.get("core_business", []))
     if core_biz:
         parts.append(f"【核心业务】{' / '.join(core_biz[:4])}")
 
@@ -129,7 +134,7 @@ def build_research_tip(stock: dict, name: str) -> str:
         for a in smart_dedup(all_accidents, 3):
             parts.append(f"【催化剂】{a}")
 
-    concepts = stock.get("concepts", [])
+    concepts = _list(stock.get("concepts", []))
     if concepts and not products and not core_biz and not all_vals and not all_insights and not all_accidents:
         parts.append(f"【概念】{' / '.join(concepts[:5])}")
 
@@ -155,7 +160,7 @@ def build_research_tipword(stock: dict) -> str:
         else:
             tags.append("有估值")
 
-    products = stock.get("products", [])
+    products = _list(stock.get("products", []))
     if products:
         tags.append("有产品")
 
@@ -176,19 +181,19 @@ def build_research_tipword(stock: dict) -> str:
 
 def generate():
     today = datetime.now().strftime("%Y-%m-%d")
-    print(f"🔧 tdx_mark — 通达信 mark.dat 生成器 (优化版 v2)")
-    print(f"📅 日期: {today}")
-    print(f"📂 项目目录: {PROJECT_DIR}")
+    print(f"[TOOL] tdx_mark — 通达信 mark.dat 生成器 (优化版 v2)")
+    print(f"[DATE] 日期: {today}")
+    print(f"[DIR] 项目目录: {PROJECT_DIR}")
     print()
 
     if not MASTER_FILE.exists():
-        print(f"❌ 错误: 找不到 {MASTER_FILE}")
+        print(f"[ERR] 错误: 找不到 {MASTER_FILE}")
         return
 
     with open(MASTER_FILE, "r", encoding="utf-8") as f:
         master = json.load(f)
     stocks = master.get("stocks", {})
-    print(f"📊 stocks_master.json: {len(stocks)} 只股票")
+    print(f"[DATA] stocks_master.json: {len(stocks)} 只股票")
 
     research_map = {}
     for code, stock in stocks.items():
@@ -198,11 +203,11 @@ def generate():
         name = stock.get("name", "")
         if stock.get("articles") or stock.get("last_updated"):
             research_map[mid] = (stock, name)
-    print(f"🔬 有研究数据: {len(research_map)} 只")
+    print(f"[SCAN] 有研究数据: {len(research_map)} 只")
 
     orig_sections, orig_order = parse_mark_dat(ORIGINAL_FILE)
     orig_count = len(orig_sections["[MARK]"])
-    print(f"📜 原始 mark.dat: {orig_count} 只标记")
+    print(f"[ORIG] 原始 mark.dat: {orig_count} 只标记")
 
     result_mark = {}
     result_time = {}
@@ -259,12 +264,12 @@ def generate():
                 no_content_stocks.append((mark_id, name))
                 result_color[mark_id] = "255"
 
-    print(f"\n🔄 处理结果:")
-    print(f"   🔁 替换为研究数据: {replaced} 只")
-    print(f"   🔒 保留原始标签:   {kept} 只")
-    print(f"   🆕 新增股票:       {new_added} 只")
-    print(f"   ⚠️  无新内容(红色): {len(no_content_stocks)} 只")
-    print(f"   📦 总计:           {len(result_mark)} 只")
+    print(f"\n[PROC] 处理结果:")
+    print(f"   [REPL] 替换为研究数据: {replaced} 只")
+    print(f"   [KEEP] 保留原始标签:   {kept} 只")
+    print(f"   [NEW] 新增股票:       {new_added} 只")
+    print(f"   [WARN]  无新内容(红色): {len(no_content_stocks)} 只")
+    print(f"   [TOTAL] 总计:           {len(result_mark)} 只")
 
     if no_content_stocks:
         print(f"\n{'='*40}")
@@ -296,11 +301,11 @@ def generate():
 
     shutil.copy2(output_file, latest_file)
 
-    print(f"\n✅ 生成完成!")
-    print(f"   📄 {output_file.name} ({(output_file.stat().st_size / 1024):.1f} KB)")
-    print(f"   📄 {latest_file.name}")
+    print(f"\n[OK] 生成完成!")
+    print(f"   [FILE] {output_file.name} ({(output_file.stat().st_size / 1024):.1f} KB)")
+    print(f"   [FILE] {latest_file.name}")
     print()
-    print(f"📌 使用步骤:")
+    print(f"[INFO] 使用步骤:")
     print(f"   1. 关闭通达信")
     print(f"   2. 将 {output_file.name} 复制到 T0002\\mark.dat")
     print(f"   3. 重启通达信")
