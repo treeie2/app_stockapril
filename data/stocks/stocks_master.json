@@ -2105,7 +2105,9 @@
           "title": "大摩——中国工业行业调研纪要——资本开支热潮持续升级、覆盖范围进一步拓宽",
           "date": "2026-06-14",
           "source": "https://mp.weixin.qq.com/s/ra92lBlnSFlpaUMfa7HyPA",
-          "industry_background": "国内工业领域迎来大规模资本开支上行周期，覆盖AI硬件、通用自动化设备、高端装备等多条主线；人形机器人属于中长期主线，国内产业链推进快于海外。",
+          "industry_background": [
+            "国内工业领域迎来大规模资本开支上行周期，覆盖AI硬件、通用自动化设备、高端装备等多条主线；人形机器人属于中长期主线，国内产业链推进快于海外。"
+          ],
           "accidents": [
             "五月订单同比增长35%以上",
             "前四月营收同比增幅超40%"
@@ -2124,7 +2126,9 @@
           "title": "野村——中国工业自动化行业｜工业人工智能规模化落地尚需2至3年过渡期",
           "date": "2026-06-14",
           "source": "https://mp.weixin.qq.com/s/uOvVMMKNFoteLyfwQX5kAg",
-          "industry_background": "工业AI短期内并非独立增长主线，行业整体仍需2-3年转型阵痛期；国内自动化厂商依托传统DCS存量设备商业化AI能力，软件订阅+硬件融合两种模式并行。",
+          "industry_background": [
+            "工业AI短期内并非独立增长主线，行业整体仍需2-3年转型阵痛期；国内自动化厂商依托传统DCS存量设备商业化AI能力，软件订阅+硬件融合两种模式并行。"
+          ],
           "accidents": [
             "野村给予买入评级，目标价85元"
           ],
@@ -5347,7 +5351,7 @@
         "高股息精选"
       ],
       "code": "603115",
-      "core_business": []
+      "core_business": ""
     },
     "603186": {
       "mention_count": 1,
@@ -7093,7 +7097,9 @@
           "title": "东威科技调研要点更新",
           "date": "2026-06-14",
           "source": "https://mp.weixin.qq.com/s/eLBUE-o03wrRRxCbQBfaSA",
-          "industry_background": "PCB行业资本开支上行，高端电镀设备需求旺盛；玻璃基板、复合铜箔等新技术路线打开设备企业第二成长曲线。",
+          "industry_background": [
+            "PCB行业资本开支上行，高端电镀设备需求旺盛；玻璃基板、复合铜箔等新技术路线打开设备企业第二成长曲线。"
+          ],
           "accidents": [
             "1-5月订单翻倍增长",
             "在手订单30亿+",
@@ -8391,7 +8397,7 @@
       "core_business": "PEEK树脂及改性材料PEEK树脂合成"
     },
     "000002": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [],
       "valuation": {},
@@ -8646,7 +8652,7 @@
       "partners": []
     },
     "000028": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [],
       "valuation": {},
@@ -9012,7 +9018,7 @@
       "name": "中集集团"
     },
     "000041": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [],
       "valuation": {},
@@ -9186,7 +9192,7 @@
       "full_name": "中兴通讯股份有限公司"
     },
     "000065": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -9220,7 +9226,7 @@
       "name": "北方国际"
     },
     "000089": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [],
       "valuation": {},
@@ -9499,7 +9505,9 @@
           "title": "大摩——中国工业行业调研纪要——资本开支热潮持续升级、覆盖范围进一步拓宽",
           "date": "2026-06-14",
           "source": "https://mp.weixin.qq.com/s/ra92lBlnSFlpaUMfa7HyPA",
-          "industry_background": "工程机械海外市场表现突出，西欧、南美为核心增长区域；电动设备出货量占比提升至30-35%。",
+          "industry_background": [
+            "工程机械海外市场表现突出，西欧、南美为核心增长区域；电动设备出货量占比提升至30-35%。"
+          ],
           "accidents": [
             "全年营收同比增长10-15%",
             "净利润目标60亿元",
@@ -9535,7 +9543,7 @@
       "full_name": "中联重科（000157）全称为中联重科股份有限公司"
     },
     "000158": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -10070,7 +10078,7 @@
       "name": "许继电气"
     },
     "000404": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -10247,7 +10255,7 @@
       "name": "沈阳机床"
     },
     "000417": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [],
       "valuation": {},
@@ -10541,7 +10549,7 @@
       "name": "兴业银锡"
     },
     "000429": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [],
       "valuation": {},
@@ -10630,7 +10638,7 @@
       "name": "丽珠集团"
     },
     "000516": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -10723,7 +10731,7 @@
       "name": "中兵红箭"
     },
     "000524": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [],
       "valuation": {},
@@ -10797,7 +10805,7 @@
       "chain": [],
       "name": "柳工",
       "code": "000528",
-      "core_business": []
+      "core_business": ""
     },
     "000532": {
       "core_business": "股权投资+创投平台，珠海金控，投资机器人产业链",
@@ -11070,7 +11078,7 @@
       "name": "华映科技"
     },
     "000538": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [
         "龙头",
@@ -11105,7 +11113,7 @@
       "name": "云南白药"
     },
     "000543": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -11248,7 +11256,7 @@
       "name": "航天发展"
     },
     "000550": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -11278,7 +11286,7 @@
       "name": "江铃汽车"
     },
     "000551": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -11359,7 +11367,7 @@
       "name": "泰山石油"
     },
     "000555": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -11551,7 +11559,7 @@
       "name": "渝三峡A"
     },
     "000566": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -11585,7 +11593,7 @@
       "name": "海南海药"
     },
     "000567": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [],
       "valuation": {},
@@ -11673,7 +11681,7 @@
       "name": "泸州老窖"
     },
     "000572": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [
         "位居板块第一"
@@ -11712,7 +11720,7 @@
       "name": "海马汽车"
     },
     "000582": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [],
       "valuation": {},
@@ -11747,7 +11755,7 @@
       "name": "北部湾港"
     },
     "000592": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-06-05",
       "industry_position": [
         "龙头",
@@ -11778,7 +11786,7 @@
       "name": "平潭发展"
     },
     "000596": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [
         "龙头",
@@ -11802,7 +11810,7 @@
       "name": "古井贡酒"
     },
     "000597": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -11828,7 +11836,7 @@
       "name": "东北制药"
     },
     "000599": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [],
       "valuation": {},
@@ -11863,7 +11871,7 @@
       "name": "青岛双星"
     },
     "000603": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -11942,7 +11950,7 @@
       "name": "华媒控股"
     },
     "000610": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [
         "龙头",
@@ -12006,7 +12014,7 @@
       "name": "中油资本"
     },
     "000625": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [],
       "valuation": {},
@@ -12183,7 +12191,7 @@
       "full_name": "铜陵有色金属集团股份有限公司"
     },
     "000632": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -12538,7 +12546,7 @@
       "list_date": "19961129"
     },
     "000638": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -12564,7 +12572,7 @@
       "name": "*ST万方"
     },
     "000646": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [],
       "valuation": {},
@@ -12587,7 +12595,7 @@
       "name": "KLA"
     },
     "000651": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -12828,7 +12836,7 @@
       "list_date": "19961205"
     },
     "000659": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [],
       "valuation": {},
@@ -12848,7 +12856,7 @@
       "name": "珠海中富"
     },
     "000661": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [],
       "valuation": {},
@@ -12878,7 +12886,7 @@
       "name": "长春高新"
     },
     "000663": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -13025,10 +13033,10 @@
       "chain": [],
       "name": "上峰水泥",
       "code": "000672",
-      "core_business": []
+      "core_business": ""
     },
     "000676": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -13682,7 +13690,7 @@
       "full_name": "振华科技（000733）全称为中国振华(集团)科技股份有限公司"
     },
     "000735": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [
         "龙头",
@@ -13715,7 +13723,7 @@
       "name": "罗牛山"
     },
     "000738": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -13744,7 +13752,7 @@
       "name": "航发控制"
     },
     "000753": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [],
       "valuation": {},
@@ -13897,7 +13905,7 @@
       "name": "中航西飞"
     },
     "000776": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [
         "龙头",
@@ -13922,7 +13930,7 @@
       "name": "广发证券"
     },
     "000777": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [
         "龙头",
@@ -14020,7 +14028,7 @@
       "name": "盐湖股份"
     },
     "000795": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -14054,7 +14062,7 @@
       "name": "英洛华"
     },
     "000796": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [],
       "valuation": {},
@@ -14085,7 +14093,7 @@
       "name": "凯撒旅业"
     },
     "000797": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [],
       "valuation": {},
@@ -14112,7 +14120,7 @@
       "name": "中国武夷"
     },
     "000798": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -14205,7 +14213,7 @@
       "full_name": "酒鬼酒股份有限公司"
     },
     "000801": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -14662,7 +14670,7 @@
       "name": "岳阳兴长"
     },
     "000823": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -14882,7 +14890,7 @@
       "name": "粤桂股份"
     },
     "000850": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [],
       "valuation": {},
@@ -14911,7 +14919,7 @@
       "name": "华茂股份"
     },
     "000852": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [],
       "valuation": {},
@@ -14947,7 +14955,7 @@
       "name": "石化机械"
     },
     "000858": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [
         "龙头",
@@ -14978,7 +14986,7 @@
       "name": "五粮液"
     },
     "000860": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [
         "龙头",
@@ -15029,7 +15037,7 @@
       "name": "云南铜业"
     },
     "000886": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -15067,7 +15075,7 @@
       "name": "海南高速"
     },
     "000890": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -15100,7 +15108,7 @@
       "name": "法尔胜"
     },
     "000895": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -15127,7 +15135,7 @@
       "name": "双汇发展"
     },
     "000900": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -15158,7 +15166,7 @@
       "name": "现代投资"
     },
     "000901": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [],
       "valuation": {},
@@ -15240,7 +15248,7 @@
       "name": "新洋丰"
     },
     "000905": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [
         "龙头",
@@ -15313,7 +15321,7 @@
       "name": "电广传媒"
     },
     "000922": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [],
       "valuation": {},
@@ -15467,7 +15475,7 @@
       "name": "中关村"
     },
     "000932": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [],
       "valuation": {},
@@ -15499,7 +15507,7 @@
       "name": "华菱钢铁"
     },
     "000935": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [],
       "valuation": {},
@@ -15640,7 +15648,7 @@
       "name": "紫光股份"
     },
     "000948": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -15753,7 +15761,7 @@
       "name": "中国重汽"
     },
     "000952": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -16082,7 +16090,7 @@
       "name": "盈峰环境"
     },
     "000968": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [],
       "valuation": {},
@@ -16277,7 +16285,7 @@
       "full_name": "中科三环（000970）全称为北京中科三环高技术股份有限公司"
     },
     "000975": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -16517,7 +16525,7 @@
       "core_business": "AI 服务器AI服务器存储设备算力基础设施"
     },
     "000983": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [],
       "valuation": {},
@@ -16755,7 +16763,7 @@
       "core_business": "磷化铟量子点光芯片自研光模块制造"
     },
     "000993": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -16786,7 +16794,7 @@
       "name": "闽东电力"
     },
     "000995": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-06-05",
       "industry_position": [
         "龙头",
@@ -16810,7 +16818,7 @@
       "name": "皇台酒业"
     },
     "000997": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [],
       "valuation": {},
@@ -16904,7 +16912,7 @@
       "name": "隆平高科"
     },
     "000999": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [
         "龙头",
@@ -17045,7 +17053,7 @@
       "name": "华菱线缆"
     },
     "001209": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -17067,7 +17075,7 @@
       "name": "洪兴股份"
     },
     "001212": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -17092,7 +17100,7 @@
       "name": "中旗新材"
     },
     "001213": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [],
       "valuation": {},
@@ -17297,7 +17305,7 @@
       "name": "海安集团"
     },
     "001236": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [],
       "valuation": {},
@@ -17459,7 +17467,7 @@
       "name": "*ST铖昌"
     },
     "001280": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -17494,7 +17502,7 @@
       "name": "中国铀业"
     },
     "001283": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -17655,7 +17663,7 @@
       "core_business": "电子元器件分销"
     },
     "001288": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [],
       "valuation": {},
@@ -17903,7 +17911,7 @@
       "list_date": "20220701"
     },
     "001314": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -17974,7 +17982,7 @@
       "name": "润贝航科"
     },
     "001322": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [],
       "valuation": {},
@@ -18100,7 +18108,7 @@
       "name": "锡装股份"
     },
     "001337": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [
         "四川区域龙头，具备国资背景"
@@ -18274,7 +18282,7 @@
       "name": "智微智能"
     },
     "001367": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -18333,7 +18341,7 @@
       "name": "腾达科技"
     },
     "001386": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -18363,7 +18371,7 @@
       "name": "马可波罗"
     },
     "001651": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [],
       "valuation": {},
@@ -18396,7 +18404,7 @@
       "name": "摩恩电气"
     },
     "001914": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -18422,7 +18430,7 @@
       "name": "招商积余"
     },
     "001979": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -18673,7 +18681,9 @@
           "title": "大摩——中国工业行业调研纪要——资本开支热潮持续升级、覆盖范围进一步拓宽",
           "date": "2026-06-14",
           "source": "https://mp.weixin.qq.com/s/ra92lBlnSFlpaUMfa7HyPA",
-          "industry_background": "国内工业领域迎来大规模资本开支上行周期，AI硬件设备、苹果产业链景气度大幅超预期；PCB行业资本开支周期延续。",
+          "industry_background": [
+            "国内工业领域迎来大规模资本开支上行周期，AI硬件设备、苹果产业链景气度大幅超预期；PCB行业资本开支周期延续。"
+          ],
           "accidents": [
             "预计2026年营收突破260亿元",
             "超快激光钻孔设备单台售价500-700万元，已斩获多笔新订单",
@@ -18776,7 +18786,7 @@
       "name": "天奇股份"
     },
     "002010": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [],
       "valuation": {},
@@ -19019,7 +19029,7 @@
       "name": "东信和平"
     },
     "002019": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -19046,7 +19056,7 @@
       "name": "亿帆医药"
     },
     "002020": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [],
       "valuation": {},
@@ -19152,7 +19162,7 @@
       "core_business": "参股磷化铟代工平台磷化铟晶圆代工航空维修"
     },
     "002024": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [],
       "valuation": {},
@@ -19416,7 +19426,7 @@
       "processed_at": "2026-05-21T19:08:06.096145+08:00"
     },
     "002037": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [],
       "valuation": {},
@@ -19446,7 +19456,7 @@
       "name": "保利联合"
     },
     "002040": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [],
       "valuation": {},
@@ -19767,7 +19777,7 @@
       ]
     },
     "002049": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [
         "隐形冠军"
@@ -20089,7 +20099,7 @@
       "name": "ST得润"
     },
     "002063": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [
         "龙头",
@@ -20260,7 +20270,7 @@
       "name": "国轩高科"
     },
     "002079": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-06-05",
       "industry_position": [],
       "valuation": {},
@@ -20457,7 +20467,7 @@
       "full_name": "中材科技（002080）全称为中材科技股份有限公司"
     },
     "002082": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-06-05",
       "industry_position": [],
       "valuation": {},
@@ -20486,7 +20496,7 @@
       "name": "万邦德"
     },
     "002083": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -20640,7 +20650,7 @@
       "name": "鲁阳节能"
     },
     "002091": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -20817,7 +20827,7 @@
       "name": "广东鸿图"
     },
     "002102": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -20839,7 +20849,7 @@
       "name": "能特科技"
     },
     "002104": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [],
       "valuation": {},
@@ -20879,7 +20889,7 @@
       "name": "恒宝股份"
     },
     "002107": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -21035,7 +21045,7 @@
       "name": "三变科技"
     },
     "002114": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -21061,7 +21071,7 @@
       "name": "罗平锌电"
     },
     "002115": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-06-05",
       "industry_position": [],
       "valuation": {},
@@ -21103,7 +21113,7 @@
       "name": "三维通信"
     },
     "002117": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -21149,7 +21159,7 @@
       "name": "东港股份"
     },
     "002120": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -21668,7 +21678,7 @@
       "name": "恒星科技"
     },
     "002134": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [],
       "valuation": {},
@@ -22110,7 +22120,7 @@
       "name": "东华科技"
     },
     "002148": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [],
       "valuation": {},
@@ -22335,7 +22345,7 @@
       "name": "北斗星通"
     },
     "002152": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -22400,7 +22410,7 @@
       "name": "广电运通"
     },
     "002153": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [
         "龙头"
@@ -22496,7 +22506,7 @@
       "partners": []
     },
     "002162": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [
         "龙头",
@@ -22533,7 +22543,7 @@
       "name": "悦心健康"
     },
     "002163": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [],
       "valuation": {},
@@ -22742,7 +22752,7 @@
       "name": "*ST惠程"
     },
     "002169": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -22775,7 +22785,7 @@
       "name": "智光电气"
     },
     "002170": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -22810,7 +22820,7 @@
       "name": "芭田股份"
     },
     "002171": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -22909,7 +22919,7 @@
       "name": "创新医疗"
     },
     "002176": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-06-05",
       "industry_position": [],
       "valuation": {},
@@ -22942,7 +22952,7 @@
       "name": "江特电机"
     },
     "002177": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-06-05",
       "industry_position": [],
       "valuation": {},
@@ -23092,7 +23102,7 @@
       "name": "中航光电"
     },
     "002181": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [],
       "valuation": {},
@@ -23146,7 +23156,7 @@
       "name": "粤传媒"
     },
     "002183": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -23277,7 +23287,7 @@
       "core_business": "多基地差异化+盘古项目"
     },
     "002186": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [],
       "valuation": {},
@@ -23304,7 +23314,7 @@
       "name": "全聚德"
     },
     "002189": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -23403,7 +23413,7 @@
       "name": "成飞集成"
     },
     "002192": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [
         "龙头",
@@ -23894,7 +23904,7 @@
       "full_name": "海亮股份（002203）全称为浙江海亮股份有限公司"
     },
     "002207": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -23966,7 +23976,7 @@
       "name": "合肥城建"
     },
     "002212": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -24034,7 +24044,7 @@
       "name": "天融信"
     },
     "002216": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [
         "隐形冠军"
@@ -24280,7 +24290,7 @@
       "name": "鱼跃医疗"
     },
     "002224": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -24471,7 +24481,7 @@
       "name": "科大讯飞"
     },
     "002236": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -24784,7 +24794,7 @@
       "name": "力合科创"
     },
     "002244": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [],
       "valuation": {},
@@ -24953,7 +24963,7 @@
       "name": "北化股份"
     },
     "002250": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [],
       "valuation": {},
@@ -25503,7 +25513,7 @@
       "name": "新华都"
     },
     "002265": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [
         "* **逻辑**：汽车连杆市占率国内第一，军民融合深化，订单稳定性强"
@@ -25542,7 +25552,7 @@
       "name": "建设工业"
     },
     "002266": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [],
       "valuation": {},
@@ -25588,7 +25598,7 @@
       "name": "浙富控股"
     },
     "002268": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -25685,7 +25695,7 @@
       "name": "华明装备"
     },
     "002271": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -25809,7 +25819,7 @@
       "name": "川润股份"
     },
     "002276": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -25851,7 +25861,7 @@
       "name": "万马股份"
     },
     "002278": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -26140,7 +26150,7 @@
       "core_business": "重卡发动机零部件大缸径曲轴连杆天然气喷射系统"
     },
     "002284": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -26222,10 +26232,10 @@
       "chain": [],
       "name": "禾盛新材",
       "code": "002290",
-      "core_business": []
+      "core_business": ""
     },
     "002291": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -26401,7 +26411,7 @@
       "full_name": "博云新材（002297）全称为湖南博云新材料股份有限公司"
     },
     "002298": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-06-05",
       "industry_position": [],
       "valuation": {},
@@ -26466,7 +26476,7 @@
       "name": "中电鑫龙"
     },
     "002299": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -26492,7 +26502,7 @@
       "name": "圣农发展"
     },
     "002301": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [],
       "valuation": {},
@@ -26530,7 +26540,7 @@
       "name": "齐心集团"
     },
     "002304": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [],
       "valuation": {},
@@ -26660,7 +26670,7 @@
       "name": "东方新能"
     },
     "002313": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-06-05",
       "industry_position": [],
       "valuation": {},
@@ -26705,7 +26715,7 @@
       "name": "日海智能"
     },
     "002315": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [
         "龙头",
@@ -26753,7 +26763,7 @@
       "name": "焦点科技"
     },
     "002316": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -26784,7 +26794,7 @@
       "name": "亚联发展"
     },
     "002317": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [],
       "valuation": {},
@@ -26821,7 +26831,7 @@
       "name": "众生药业"
     },
     "002318": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [],
       "valuation": {},
@@ -27019,7 +27029,7 @@
       "name": "永太科技"
     },
     "002328": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-06-05",
       "industry_position": [],
       "valuation": {},
@@ -27053,7 +27063,7 @@
       "name": "新朋股份"
     },
     "002330": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [],
       "valuation": {},
@@ -27345,7 +27355,7 @@
       "name": "科华数据"
     },
     "002337": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
@@ -27452,7 +27462,7 @@
       "full_name": "奥普光电（002338）全称为长春奥普光电技术股份有限公司"
     },
     "002340": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-31",
       "industry_position": [
         "龙头",
@@ -27565,7 +27575,7 @@
       "full_name": "巨力索具（002342）全称为巨力索具股份有限公司"
     },
     "002343": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [],
       "valuation": {},
@@ -27698,7 +27708,7 @@
       "name": "北京科锐"
     },
     "002351": {
-      "core_business": [],
+      "core_business": "",
       "last_updated": "2026-05-10",
       "industry_position": [],
       "valuation": {},
@@ -37048,7 +37058,7 @@
       "chain": [],
       "name": "华源控股",
       "code": "002787",
-      "core_business": []
+      "core_business": ""
     },
     "002792": {
       "mention_count": 3,
@@ -42344,7 +42354,7 @@
       "chain": [],
       "name": "南风股份",
       "code": "300004",
-      "core_business": []
+      "core_business": ""
     },
     "300005": {
       "mention_count": 1,
@@ -46262,7 +46272,7 @@
       "chain": [],
       "name": "英唐智控",
       "code": "300131",
-      "core_business": [],
+      "core_business": "",
       "insights": [
         "在SiC功率器件等领域有布局",
         "研发费用增长明显"
@@ -46484,7 +46494,9 @@
           "title": "野村——信维通信（300136.SZ）——卫星业务增量可期，消费电子AI硬件放量在即",
           "date": "2026-06-14",
           "source": "https://mp.weixin.qq.com/s/Vu4xLeCxd3gz-AjBM_KoYQ",
-          "industry_background": "中国卫星互联网进入密集部署期，千帆星座2026年全年发射量超200颗，GW星座接力高频发射超300颗；消费电子AI硬件新品周期开启，带动上游组件需求增长。",
+          "industry_background": [
+            "中国卫星互联网进入密集部署期，千帆星座2026年全年发射量超200颗，GW星座接力高频发射超300颗；消费电子AI硬件新品周期开启，带动上游组件需求增长。"
+          ],
           "accidents": [
             "目标价从87元上调至138元",
             "收到美国大客户新型组件资质请求",
@@ -46623,7 +46635,7 @@
       "chain": [],
       "name": "沃森生物",
       "code": "300142",
-      "core_business": []
+      "core_business": ""
     },
     "300144": {
       "mention_count": 0,
@@ -49023,7 +49035,7 @@
       "chain": [],
       "name": "瑞丰高材",
       "code": "300243",
-      "core_business": []
+      "core_business": ""
     },
     "300245": {
       "mention_count": 1,
@@ -50439,7 +50451,9 @@
           "title": "同有科技（300302）2026年业绩预测与深度拆解：步入全面兑现期的存储黑马",
           "date": "2026-06-14",
           "source": "https://mp.weixin.qq.com/s/n1p3vx9ljownI4yBplfIiA",
-          "industry_background": "AI算力需求狂飙突进驱动存储超级周期，万卡GPU服务器所需存储容量是传统服务器4-5倍；存储芯片国产替代浪潮加速，企业级SSD和主控芯片环节景气度高。",
+          "industry_background": [
+            "AI算力需求狂飙突进驱动存储超级周期，万卡GPU服务器所需存储容量是传统服务器4-5倍；存储芯片国产替代浪潮加速，企业级SSD和主控芯片环节景气度高。"
+          ],
           "accidents": [
             "2026年Q1营收1.22亿，同比增156%",
             "Q1归母净利润8718万，扭亏为盈",
@@ -54111,7 +54125,9 @@
           "title": "大摩——中国工业行业调研纪要——资本开支热潮持续升级、覆盖范围进一步拓宽",
           "date": "2026-06-14",
           "source": "https://mp.weixin.qq.com/s/ra92lBlnSFlpaUMfa7HyPA",
-          "industry_background": "锂电设备需求火热，固态电池设备进度较快；钠离子电池商业化提速，储能、重卡动力电池成为锂电新增需求。",
+          "industry_background": [
+            "锂电设备需求火热，固态电池设备进度较快；钠离子电池商业化提速，储能、重卡动力电池成为锂电新增需求。"
+          ],
           "accidents": [
             "Q2新订单增速至少持平Q1的60%同比增幅",
             "固态电池设备进度较快",
@@ -56799,7 +56815,9 @@
           "title": "【继续强CALL】容大感光：卡位PCB油墨环节，干膜加速导入",
           "date": "2026-06-14",
           "source": "https://mp.weixin.qq.com/s/n_I7lsoGWzBD0pEpiR4NUg",
-          "industry_background": "AI PCB带动高端油墨需求升级，日本供应商供不应求，下游客户亟需新供应商；PCB油墨国产替代加速，干膜市场空间广阔。",
+          "industry_background": [
+            "AI PCB带动高端油墨需求升级，日本供应商供不应求，下游客户亟需新供应商；PCB油墨国产替代加速，干膜市场空间广阔。"
+          ],
           "accidents": [
             "加速油墨验证导入",
             "干膜加速导入"
@@ -58032,7 +58050,7 @@
       "chain": [],
       "name": "博士眼镜",
       "code": "300622",
-      "core_business": []
+      "core_business": ""
     },
     "300624": {
       "mention_count": 0,
@@ -60177,7 +60195,9 @@
           "title": "花旗——宁德时代2026年有望实现1万亿瓦时出货、净利破千亿",
           "date": "2026-06-14",
           "source": "https://mp.weixin.qq.com/s/vLBOxcJ2o2OD_NXTOIQAiA",
-          "industry_background": "储能业务成为全年高景气增长点，新能源车+储能双需求共振；碳酸锂价格站上20万元/吨，高价反而印证行业需求坚挺。",
+          "industry_background": [
+            "储能业务成为全年高景气增长点，新能源车+储能双需求共振；碳酸锂价格站上20万元/吨，高价反而印证行业需求坚挺。"
+          ],
           "accidents": [
             "2026年电池出货目标1TWh",
             "产能目标1.2TWh",
@@ -60305,7 +60325,9 @@
           "title": "大摩——中国工业行业调研纪要——资本开支热潮持续升级、覆盖范围进一步拓宽",
           "date": "2026-06-14",
           "source": "https://mp.weixin.qq.com/s/ra92lBlnSFlpaUMfa7HyPA",
-          "industry_background": "光伏行业景气度触底回升，半导体设备需求火热，已切入多家主流封测企业。",
+          "industry_background": [
+            "光伏行业景气度触底回升，半导体设备需求火热，已切入多家主流封测企业。"
+          ],
           "accidents": [
             "2026年光伏订单目标60亿",
             "半导体订单35-40亿"
@@ -61607,7 +61629,7 @@
       "chain": [],
       "name": "聚杰微纤",
       "code": "300819",
-      "core_business": []
+      "core_business": ""
     },
     "300821": {
       "mention_count": 0,
@@ -62895,7 +62917,9 @@
           "title": "科翔股份：AI高算力散热核心，稀缺性价值重塑",
           "date": "2026-06-14",
           "source": "https://mp.weixin.qq.com/s/fpdXf0VjtDP69osBCOt4BA",
-          "industry_background": "AI高算力芯片散热需求迫切，陶瓷基板成为解决高功率芯片散热痛点的关键材料；高端服务器PCB向高阶HDI升级趋势明确。",
+          "industry_background": [
+            "AI高算力芯片散热需求迫切，陶瓷基板成为解决高功率芯片散热痛点的关键材料；高端服务器PCB向高阶HDI升级趋势明确。"
+          ],
           "accidents": [
             "陶瓷基板处于研发打样阶段",
             "推进定增项目，计划建成10万㎡/年高端服务器PCB产能"
@@ -67934,7 +67958,9 @@
           "title": "凯格精机：被低估的隐形冠军，三大维度看500亿市值路径图",
           "date": "2026-06-14",
           "source": "https://mp.weixin.qq.com/s/j6x5_VQPEzMNw5qrU487oA",
-          "industry_background": "AIoT、新能源汽车电子、Mini LED等新兴领域对高精度SMT设备需求爆发式增长；半导体封装设备国产化率极低，国产替代空间广阔。",
+          "industry_background": [
+            "AIoT、新能源汽车电子、Mini LED等新兴领域对高精度SMT设备需求爆发式增长；半导体封装设备国产化率极低，国产替代空间广阔。"
+          ],
           "accidents": [
             "固晶机等半导体封装设备已通过下游头部客户验证",
             "半导体业务开始贡献订单"
@@ -71397,7 +71423,9 @@
           "title": "大摩——中国工业行业调研纪要——资本开支热潮持续升级、覆盖范围进一步拓宽",
           "date": "2026-06-14",
           "source": "https://mp.weixin.qq.com/s/ra92lBlnSFlpaUMfa7HyPA",
-          "industry_background": "工程机械板块需求亮眼，海外市场表现突出；电动化设备成为中期重要增长点，售价较传统柴油机型高出30-40%。",
+          "industry_background": [
+            "工程机械板块需求亮眼，海外市场表现突出；电动化设备成为中期重要增长点，售价较传统柴油机型高出30-40%。"
+          ],
           "accidents": [
             "Q2营收同比增约20%",
             "海外增速超20%、国内约15%",
@@ -71926,7 +71954,7 @@
       "chain": [],
       "name": "澄星股份",
       "code": "600078",
-      "core_business": []
+      "core_business": ""
     },
     "600085": {
       "mention_count": 0,
@@ -85637,7 +85665,9 @@
           "title": "大摩——中国工业行业调研纪要——资本开支热潮持续升级、覆盖范围进一步拓宽",
           "date": "2026-06-14",
           "source": "https://mp.weixin.qq.com/s/ra92lBlnSFlpaUMfa7HyPA",
-          "industry_background": "人形机器人产业链国内推进快于海外，零部件厂商纷纷扩产备货；工程机械海外市场表现突出，依托全球基建升温与中国品牌市占率提升。",
+          "industry_background": [
+            "人形机器人产业链国内推进快于海外，零部件厂商纷纷扩产备货；工程机械海外市场表现突出，依托全球基建升温与中国品牌市占率提升。"
+          ],
           "accidents": [
             "海外整机厂商机身丝杠品类市占率超70%",
             "墨西哥基地年底产能可支撑十万台机器人",
@@ -102734,7 +102764,9 @@
           "title": "大摩——中国工业行业调研纪要——资本开支热潮持续升级、覆盖范围进一步拓宽",
           "date": "2026-06-14",
           "source": "https://mp.weixin.qq.com/s/ra92lBlnSFlpaUMfa7HyPA",
-          "industry_background": "人形机器人属于中长期主线，国内产业链推进更快，零部件厂商纷纷扩产备货，谐波减速器等核心部件企业优势显著。",
+          "industry_background": [
+            "人形机器人属于中长期主线，国内产业链推进更快，零部件厂商纷纷扩产备货，谐波减速器等核心部件企业优势显著。"
+          ],
           "accidents": [
             "五月月出货量达5万台",
             "产能持续扩张，目标对标海外龙头年产能"
@@ -107888,7 +107920,7 @@
       "chain": [],
       "name": "翱捷科技",
       "code": "688220",
-      "core_business": []
+      "core_business": ""
     },
     "688223": {
       "mention_count": 1,
@@ -110851,7 +110883,7 @@
       "chain": [],
       "name": "甬矽电子",
       "code": "688362",
-      "core_business": []
+      "core_business": ""
     },
     "688363": {
       "mention_count": 0,
@@ -112547,7 +112579,9 @@
           "title": "大摩——中国工业行业调研纪要——资本开支热潮持续升级、覆盖范围进一步拓宽",
           "date": "2026-06-14",
           "source": "https://mp.weixin.qq.com/s/ra92lBlnSFlpaUMfa7HyPA",
-          "industry_background": "半导体设备成为光伏设备企业第二增长曲线，光模块检测设备需求增长。",
+          "industry_background": [
+            "半导体设备成为光伏设备企业第二增长曲线，光模块检测设备需求增长。"
+          ],
           "accidents": [
             "2026年半导体订单预计翻倍至5亿",
             "功率半导体设备3亿、光模块检测设备2亿"
@@ -113287,7 +113321,7 @@
       "chain": [],
       "name": "思瑞浦",
       "code": "688536",
-      "core_business": []
+      "core_business": ""
     },
     "688539": {
       "mention_count": 1,
@@ -115239,7 +115273,7 @@
       "chain": [],
       "name": "京仪装备",
       "code": "688652",
-      "core_business": []
+      "core_business": ""
     },
     "688655": {
       "core_business": "mSAP PCB 研发生产",
@@ -115597,7 +115631,7 @@
       "chain": [],
       "name": "灿芯股份",
       "code": "688691",
-      "core_business": []
+      "core_business": ""
     },
     "688698": {
       "mention_count": 0,
@@ -120047,7 +120081,7 @@
         "证金持股",
         "跨境电商"
       ],
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "chain": [],
       "partners": [],
@@ -120123,7 +120157,7 @@
         "融资融券",
         "超级电容"
       ],
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "chain": [],
       "partners": [],
@@ -120260,7 +120294,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "电力设备-电池-电池化学品",
@@ -120313,7 +120347,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "房地产-房地产-住宅开发",
@@ -120339,7 +120373,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "环保-环境治理-固废治理",
@@ -120374,7 +120408,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "房地产-房地产-住宅开发",
@@ -120398,7 +120432,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "农林牧渔-养殖业-生猪养殖",
@@ -120427,7 +120461,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "商贸零售-零售-商业物业经营",
@@ -120720,7 +120754,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-06-05",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "医药生物-医药商业-医药流通",
@@ -120747,7 +120781,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "公用事业-电力-新能源发电",
@@ -120778,7 +120812,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "传媒-文化传媒-电视广播",
@@ -120830,7 +120864,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "电力设备-光伏设备-光伏辅材",
@@ -120856,7 +120890,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "公用事业-燃气-燃气Ⅲ",
@@ -120881,7 +120915,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "商贸零售-零售-百货零售",
@@ -120906,7 +120940,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "社会服务-旅游及酒店-酒店",
@@ -121044,7 +121078,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "基础化工-农化制品-农药",
@@ -121071,7 +121105,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-06-05",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "公用事业-电力-新能源发电",
@@ -121099,7 +121133,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "基础化工-化学原料-钛白粉",
@@ -121177,7 +121211,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "商贸零售-零售-百货零售",
@@ -121212,7 +121246,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "汽车-汽车零部件-底盘与发动机系统",
@@ -121389,7 +121423,7 @@
         }
       ],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "公用事业-燃气-燃气Ⅲ",
@@ -121417,7 +121451,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "公用事业-电力-水电",
@@ -121557,7 +121591,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "医药生物-中药-中药Ⅲ",
@@ -121592,7 +121626,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "传媒-文化传媒-电视广播",
@@ -121632,7 +121666,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "基础化工-化学纤维-粘胶",
@@ -121655,7 +121689,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "机械设备-工程机械-工程机械Ⅲ",
@@ -121747,7 +121781,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "基础化工-化学原料-纯碱",
@@ -121926,7 +121960,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "食品饮料-食品加工制造-休闲食品",
@@ -121960,7 +121994,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "传媒-文化传媒-出版",
@@ -121998,7 +122032,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "社会服务-旅游及酒店-餐饮",
@@ -122161,7 +122195,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "非银金融-证券-证券Ⅲ",
@@ -122232,7 +122266,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "医药生物-化学制药-原料药",
@@ -122462,7 +122496,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "非银金融-证券-证券Ⅲ",
@@ -122484,7 +122518,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "建筑材料-建筑材料-其他建材",
@@ -122557,7 +122591,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "汽车-汽车整车-商用载货车",
@@ -122590,7 +122624,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "传媒-影视院线-影视院线Ⅲ",
@@ -122611,7 +122645,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "环保-环境治理-固废治理",
@@ -122635,7 +122669,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "机械设备-通用设备-其他通用设备",
@@ -122665,7 +122699,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "电力设备-光伏设备-光伏加工设备",
@@ -122699,7 +122733,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "基础化工-化学原料-纯碱",
@@ -122724,7 +122758,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "商贸零售-零售-专业连锁",
@@ -122768,7 +122802,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "通信-通信服务-通信应用增值服务",
@@ -122909,7 +122943,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "公用事业-电力-电能综合服务",
@@ -122945,7 +122979,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "农林牧渔-农产品加工-畜禽饲料",
@@ -122973,7 +123007,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "建筑材料-建筑材料-水泥",
@@ -123000,7 +123034,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "机械设备-通用设备-其他通用设备",
@@ -123136,7 +123170,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "基础化工-农化制品-钾肥",
@@ -123160,7 +123194,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "交通运输-物流-物流Ⅲ",
@@ -123192,7 +123226,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "有色金属-工业金属-铝",
@@ -123219,7 +123253,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "基础化工-化学纤维-涤纶",
@@ -123243,7 +123277,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "基础化工-化学纤维-氨纶",
@@ -123331,7 +123365,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "社会服务-旅游及酒店-自然景点",
@@ -123357,7 +123391,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "汽车-汽车零部件-底盘与发动机系统",
@@ -123391,7 +123425,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "食品饮料-食品加工制造-预加工食品",
@@ -123413,7 +123447,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "轻工制造-家居用品-其他家居用品",
@@ -123442,7 +123476,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "机械设备-工程机械-工程机械Ⅲ",
@@ -123544,7 +123578,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "汽车-汽车零部件-底盘与发动机系统",
@@ -123574,7 +123608,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "公用事业-燃气-燃气Ⅲ",
@@ -123651,7 +123685,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "汽车-汽车零部件-其他汽车零部件",
@@ -123714,7 +123748,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "机械设备-专用设备-能源及重型设备",
@@ -123799,7 +123833,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "汽车-汽车零部件-底盘与发动机系统",
@@ -124098,7 +124132,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "交通运输-港口航运-港口",
@@ -124218,7 +124252,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "医药生物-生物制品-疫苗",
@@ -124244,7 +124278,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "家用电器-白色家电-家电零部件",
@@ -124280,7 +124314,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "医药生物-医疗器械-体外诊断",
@@ -124305,7 +124339,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "机械设备-通用设备-金属制品",
@@ -124343,7 +124377,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "传媒-文化传媒-广告营销",
@@ -124496,7 +124530,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "社会服务-旅游及酒店-自然景点",
@@ -124522,7 +124556,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "医药生物-化学制药-化学制剂",
@@ -124560,7 +124594,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "建筑材料-建筑材料-其他建材",
@@ -124779,7 +124813,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "基础化工-化学制品-纺织化学用品",
@@ -124806,7 +124840,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "社会服务-其他社会服务-专业服务",
@@ -124852,7 +124886,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "社会服务-旅游及酒店-人工景点",
@@ -124996,7 +125030,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "电力设备-电网设备-电气自控设备",
@@ -125037,7 +125071,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "基础化工-化学原料-氯碱",
@@ -125071,7 +125105,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "医药生物-化学制药-原料药",
@@ -125098,7 +125132,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "农林牧渔-农产品加工-畜禽饲料",
@@ -125128,7 +125162,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "轻工制造-家居用品-文娱用品",
@@ -125202,7 +125236,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "通信-通信服务-通信应用增值服务",
@@ -125266,7 +125300,7 @@
         }
       ],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "农林牧渔-养殖业-生猪养殖",
@@ -125337,7 +125371,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "煤炭-煤炭开采加工-煤炭开采",
@@ -125367,7 +125401,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "基础化工-化学原料-钛白粉",
@@ -125389,7 +125423,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "农林牧渔-养殖业-动物保健",
@@ -125416,7 +125450,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "基础化工-化学原料-钛白粉",
@@ -125490,7 +125524,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "农林牧渔-养殖业-生猪养殖",
@@ -125514,7 +125548,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "社会服务-旅游及酒店-自然景点",
@@ -125609,7 +125643,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "基础化工-化学制品-食品及饲料添加剂",
@@ -125643,7 +125677,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "有色金属-小金属-其他小金属",
@@ -125685,7 +125719,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "轻工制造-包装印刷-包装",
@@ -125714,7 +125748,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "基础化工-化学纤维-涤纶",
@@ -125819,7 +125853,7 @@
         }
       ],
       "last_updated": "2026-06-05",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "电子-光学光电子-面板",
@@ -125864,7 +125898,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "石油石化-石油加工贸易-石油加工",
@@ -125950,7 +125984,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "电力设备-其他电源设备-其他电源设备Ⅲ",
@@ -125985,7 +126019,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "轻工制造-包装印刷-包装",
@@ -126009,7 +126043,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "计算机-IT服务-IT服务Ⅲ",
@@ -126068,7 +126102,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "轻工制造-造纸-造纸Ⅲ",
@@ -126103,7 +126137,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "有色金属-贵金属-贵金属Ⅲ",
@@ -126132,7 +126166,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "汽车-汽车零部件-汽车电子电气系统",
@@ -126167,7 +126201,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-06-05",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "机械设备-通用设备-机床工具",
@@ -126189,7 +126223,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "电力设备-电机-电机Ⅲ",
@@ -126224,7 +126258,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "公用事业-燃气-燃气Ⅲ",
@@ -126245,7 +126279,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "公用事业-燃气-燃气Ⅲ",
@@ -126271,7 +126305,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "纺织服饰-服装家纺-服装",
@@ -126295,7 +126329,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "基础化工-化学原料-煤化工",
@@ -126319,7 +126353,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "计算机-软件开发-横向通用软件",
@@ -126442,7 +126476,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "通信-通信设备-通信网络设备及器件",
@@ -126501,7 +126535,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "建筑材料-建筑材料-水泥",
@@ -126534,7 +126568,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "建筑装饰-建筑装饰-基础建设",
@@ -126564,7 +126598,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "农林牧渔-农产品加工-水产饲料",
@@ -126588,7 +126622,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "基础化工-农化制品-磷肥及磷化工",
@@ -126617,7 +126651,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "农林牧渔-养殖业-其他养殖",
@@ -126643,7 +126677,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-06-05",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "建筑装饰-建筑装饰-专业工程",
@@ -126671,7 +126705,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "食品饮料-饮料制造-乳品",
@@ -126703,7 +126737,7 @@
       "mention_count": 0,
       "articles": [],
       "last_updated": "2026-05-31",
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "valuation": {},
       "industry": "计算机-IT服务-IT服务Ⅲ",
@@ -129624,7 +129658,9 @@
           "title": "裕同科技：（华研）或顺利取得NV供应商Code",
           "date": "2026-06-14",
           "source": "https://mp.weixin.qq.com/s/w7n4h31zSx4zUwiYTd5nUQ",
-          "industry_background": "液冷产业链持续扩容，快接头小型化轻量化为趋势；AI眼镜深度绑定全球头部品牌，碳纤维材料需求增长。",
+          "industry_background": [
+            "液冷产业链持续扩容，快接头小型化轻量化为趋势；AI眼镜深度绑定全球头部品牌，碳纤维材料需求增长。"
+          ],
           "accidents": [
             "子公司华研科技新一代快接头有望获NV直接供应商认证Code",
             "AI眼镜份额50%+",
@@ -139019,7 +139055,9 @@
           "title": "高盛——锐捷网络（301165）：发力400G/800G交换机产品升级，受益国内云与AI资本开支热潮",
           "date": "2026-06-14",
           "source": "https://mp.weixin.qq.com/s/lYIqRBamRuq6E4Dc1G5e3g",
-          "industry_background": "国内云厂商持续加大资本投入，带动AI数据中心交换机需求上行；400G/800G高速交换机产品迭代加速，LPO光模块技术路线受关注。",
+          "industry_background": [
+            "国内云厂商持续加大资本投入，带动AI数据中心交换机需求上行；400G/800G高速交换机产品迭代加速，LPO光模块技术路线受关注。"
+          ],
           "accidents": [
             "Q1预付账款环比增长十倍以上至5.01亿元",
             "已向头部云厂商交付1.68万只400G LPO光模块",
@@ -150141,7 +150179,9 @@
           "title": "华懋科技：800-1000亿的逻辑和空间测算再梳理",
           "date": "2026-06-14",
           "source": "https://mp.weixin.qq.com/s/ysODlXmXiX2jSs-WJf87oQ",
-          "industry_background": "800G/1.6T光模块需求爆发，PCBA环节受益；国产GPU放量带动板卡需求；NPO（近封装光学）2028年市场预计6000-7000万只。",
+          "industry_background": [
+            "800G/1.6T光模块需求爆发，PCBA环节受益；国产GPU放量带动板卡需求；NPO（近封装光学）2028年市场预计6000-7000万只。"
+          ],
           "accidents": [
             "子公司富创优越在光模块PCBA和GPU板卡领域布局",
             "参股中科智芯布局先进封装"
@@ -151402,7 +151442,9 @@
           "title": "大摩——中国工业行业调研纪要——资本开支热潮持续升级、覆盖范围进一步拓宽",
           "date": "2026-06-14",
           "source": "https://mp.weixin.qq.com/s/ra92lBlnSFlpaUMfa7HyPA",
-          "industry_background": "国内核电、煤化工领域需求提升；离岸工程、核电、水处理、高端阀门升级为长期增长主线。",
+          "industry_background": [
+            "国内核电、煤化工领域需求提升；离岸工程、核电、水处理、高端阀门升级为长期增长主线。"
+          ],
           "accidents": [
             "中东局势导致短期出货暂缓",
             "2027年底总产能新增20-30亿规模"
@@ -159157,7 +159199,9 @@
           "title": "野村——中国工业自动化行业｜工业人工智能规模化落地尚需2至3年过渡期",
           "date": "2026-06-14",
           "source": "https://mp.weixin.qq.com/s/uOvVMMKNFoteLyfwQX5kAg",
-          "industry_background": "工业AI短期内并非独立增长主线，行业整体仍需2-3年转型阵痛期；国内自动化厂商依托传统DCS存量设备商业化AI能力，软件订阅+硬件融合两种模式并行。",
+          "industry_background": [
+            "工业AI短期内并非独立增长主线，行业整体仍需2-3年转型阵痛期；国内自动化厂商依托传统DCS存量设备商业化AI能力，软件订阅+硬件融合两种模式并行。"
+          ],
           "accidents": [
             "2026年Q1工业AI相关收入1.84亿元，占总营收12%"
           ],
@@ -163713,7 +163757,7 @@
       "industry": "",
       "concepts": [],
       "products": [],
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "chain": [],
       "partners": [],
@@ -163853,7 +163897,7 @@
       "industry": "",
       "concepts": [],
       "products": [],
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "chain": [],
       "partners": [],
@@ -163880,7 +163924,7 @@
       "industry": "",
       "concepts": [],
       "products": [],
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "chain": [],
       "partners": [],
@@ -164071,7 +164115,7 @@
       "industry": "",
       "concepts": [],
       "products": [],
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "chain": [],
       "partners": [],
@@ -164234,7 +164278,7 @@
       "industry": "",
       "concepts": [],
       "products": [],
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "chain": [],
       "partners": [],
@@ -164249,7 +164293,7 @@
       "industry": "",
       "concepts": [],
       "products": [],
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "chain": [],
       "partners": [],
@@ -164313,7 +164357,7 @@
       "industry": "",
       "concepts": [],
       "products": [],
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "chain": [],
       "partners": [],
@@ -164341,7 +164385,7 @@
       "industry": "",
       "concepts": [],
       "products": [],
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "chain": [],
       "partners": [],
@@ -164418,7 +164462,7 @@
       "industry": "",
       "concepts": [],
       "products": [],
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "chain": [],
       "partners": [],
@@ -164548,7 +164592,7 @@
       "industry": "",
       "concepts": [],
       "products": [],
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "chain": [],
       "partners": [],
@@ -164731,7 +164775,7 @@
       "industry": "",
       "concepts": [],
       "products": [],
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "chain": [],
       "partners": [],
@@ -164856,7 +164900,7 @@
       "industry": "",
       "concepts": [],
       "products": [],
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "chain": [],
       "partners": [],
@@ -165125,7 +165169,7 @@
       "industry": "",
       "concepts": [],
       "products": [],
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "chain": [],
       "partners": [],
@@ -165140,7 +165184,7 @@
       "industry": "",
       "concepts": [],
       "products": [],
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "chain": [],
       "partners": [],
@@ -165295,7 +165339,7 @@
       "industry": "",
       "concepts": [],
       "products": [],
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "chain": [],
       "partners": [],
@@ -165310,7 +165354,7 @@
       "industry": "",
       "concepts": [],
       "products": [],
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "chain": [],
       "partners": [],
@@ -165438,7 +165482,7 @@
       "industry": "",
       "concepts": [],
       "products": [],
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "chain": [],
       "partners": [],
@@ -165453,7 +165497,7 @@
       "industry": "",
       "concepts": [],
       "products": [],
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "chain": [],
       "partners": [],
@@ -165468,7 +165512,7 @@
       "industry": "",
       "concepts": [],
       "products": [],
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "chain": [],
       "partners": [],
@@ -165483,7 +165527,7 @@
       "industry": "",
       "concepts": [],
       "products": [],
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "chain": [],
       "partners": [],
@@ -165498,7 +165542,7 @@
       "industry": "",
       "concepts": [],
       "products": [],
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "chain": [],
       "partners": [],
@@ -165513,7 +165557,7 @@
       "industry": "",
       "concepts": [],
       "products": [],
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "chain": [],
       "partners": [],
@@ -165528,7 +165572,7 @@
       "industry": "",
       "concepts": [],
       "products": [],
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "chain": [],
       "partners": [],
@@ -165555,7 +165599,7 @@
       "industry": "",
       "concepts": [],
       "products": [],
-      "core_business": [],
+      "core_business": "",
       "industry_position": [],
       "chain": [],
       "partners": [],
@@ -173261,7 +173305,9 @@
           "title": "伯恩斯坦——腾讯：微信智能体AI即将落地？",
           "date": "2026-06-14",
           "source": "https://mp.weixin.qq.com/s/teoFrEsbG6dwvPj_jUnyRQ",
-          "industry_background": "手机厂商与超级应用在AI智能体领域加速合作，微信依托超高用户活跃度有望成为国内用户触达各类智能体服务的核心平台；行业面临算力成本与商业化节奏的平衡。",
+          "industry_background": [
+            "手机厂商与超级应用在AI智能体领域加速合作，微信依托超高用户活跃度有望成为国内用户触达各类智能体服务的核心平台；行业面临算力成本与商业化节奏的平衡。"
+          ],
           "accidents": [
             "与华为、荣耀、小米、OPPO、vivo五大手机厂商达成智能体互联合作",
             "面向小程序开发者开放AI生态接口",
@@ -173318,7 +173364,9 @@
           "title": "野村——大立光(3008.TW)——CPO元件具全自动化潜力",
           "date": "2026-06-14",
           "source": "https://mp.weixin.qq.com/s/cGNORNRa-7XZMxNyJk_vdg",
-          "industry_background": "CPO（共封装光学）量产测试全自动化是行业痛点，限制从年产出<5万套小众市场扩展至5000万+套；光学设计/精密组装/全产线自动化能力是CPO客户选择合作伙伴的关键。",
+          "industry_background": [
+            "CPO（共封装光学）量产测试全自动化是行业痛点，限制从年产出<5万套小众市场扩展至5000万+套；光学设计/精密组装/全产线自动化能力是CPO客户选择合作伙伴的关键。"
+          ],
           "accidents": [
             "在COMPUTEX 2026展示PMLA及FA关键CPO元件",
             "FA对齐精度达±0.3μm",
@@ -173377,7 +173425,9 @@
           "title": "大摩——泡泡玛特：跟踪H&H持仓变化，维持增持，目标价247港元",
           "date": "2026-06-14",
           "source": "https://mp.weixin.qq.com/s/ZBAQQw_BZjhGjaTa4cuxPA",
-          "industry_background": "潮玩行业海外市场空间优于国内本土，海外拓店为中长期核心增长逻辑；新品IP放量是下半年核心催化。",
+          "industry_background": [
+            "潮玩行业海外市场空间优于国内本土，海外拓店为中长期核心增长逻辑；新品IP放量是下半年核心催化。"
+          ],
           "accidents": [
             "H&H净多头比例4.76%",
             "Labubu联名FIFA系列产品落地",
@@ -173430,7 +173480,9 @@
           "title": "【中信证券】康方生物2亿港元股份回购计划+核心高管拟增持",
           "date": "2026-06-14",
           "source": "https://mp.weixin.qq.com/s/_TwaXYJr5WZ2lLlBwqEunw",
-          "industry_background": "创新药行业临床数据催化密集，双抗药物在肺癌等大适应症中展现优于PD-1单抗的疗效优势。",
+          "industry_background": [
+            "创新药行业临床数据催化密集，双抗药物在肺癌等大适应症中展现优于PD-1单抗的疗效优势。"
+          ],
           "accidents": [
             "董事会批准2亿港元回购计划",
             "核心高管拟增持总金额上限5000万港元",
