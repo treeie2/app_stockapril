@@ -3,11 +3,11 @@
 """GitHub 同步脚本 - 支持分片存储和单文件两种模式
 
 新模式 (推荐): 按日期分片同步
-  - 同步当天分片: data/master/stocks/YYYY-MM-DD.json
-  - 同步索引: data/master/stocks_index.json
+  - 同步当天分片: data/stocks/YYYY-MM-DD.json
+  - 同步索引: data/stocks/stocks_index.json
   
 旧模式 (兼容): 单一主文件同步  
-  - 同步到: data/master/stocks_master.json
+  - 同步到: data/stocks/stocks_master.json
 
 使用方式:
     # 分片模式 (推荐)
@@ -122,7 +122,7 @@ class GitHubSyncer:
         with open(shard_path, 'r', encoding='utf-8') as f:
             content = f.read()
         
-        remote_path = f"data/master/stocks/{date}.json"
+        remote_path = f"data/stocks/{date}.json"
         message = f"Update stock shard {date} - {datetime.now().strftime('%Y-%m-%d %H:%M')}"
         
         return self._upload_file(remote_path, content, message)
@@ -144,7 +144,7 @@ class GitHubSyncer:
         with open(index_path, 'r', encoding='utf-8') as f:
             content = f.read()
         
-        remote_path = "data/master/stocks_index.json"
+        remote_path = "data/stocks/stocks_index.json"
         message = f"Update stocks index - {datetime.now().strftime('%Y-%m-%d %H:%M')}"
         
         return self._upload_file(remote_path, content, message)
@@ -166,7 +166,7 @@ class GitHubSyncer:
         with open(master_path, 'r', encoding='utf-8') as f:
             content = f.read()
         
-        remote_path = "data/master/stocks_master.json"
+        remote_path = "data/stocks/stocks_master.json"
         message = f"Update stocks master - {datetime.now().strftime('%Y-%m-%d %H:%M')}"
         
         return self._upload_file(remote_path, content, message)
@@ -213,11 +213,11 @@ class GitHubSyncer:
         content = json.dumps(final_data, ensure_ascii=False, indent=2)
         message = f'Merge stocks from Agent - {datetime.now().strftime("%Y-%m-%d %H:%M")} (+{len(new_stocks)} stocks, total {len(merged_stocks)})'
         
-        return self._upload_file("data/master/stocks_master.json", content, message)
+        return self._upload_file("data/stocks/stocks_master.json", content, message)
     
     def _fetch_remote_master(self) -> Tuple[Optional[Dict], Optional[str]]:
         """获取远程主文件内容"""
-        file_path = 'data/master/stocks_master.json'
+        file_path = 'data/stocks/stocks_master.json'
         url = f"https://api.github.com/repos/{self.github_repo}/contents/{file_path}?ref={self.branch}"
         
         response = requests.get(url, headers=self.headers)
