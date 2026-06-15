@@ -34,7 +34,6 @@ data/stocks_luojirenzhe.json
 data/stocks_douniushicaijin.json
 
 # ── Raw JSON (use .gz instead) ──
-data/stocks/stocks_master.json
 
 # ── Old backups ──
 stocks_master (1).json
