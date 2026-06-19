@@ -10,7 +10,7 @@ import json
 import math
 import time
 from dataclasses import dataclass
-from datetime import datetime
+from datetime import datetime, time as dt_time
 from pathlib import Path
 from typing import Dict, List, Tuple
 
@@ -197,48 +197,56 @@ def fetch_all_data() -> FetchResult:
     return FetchResult(ranking_df=hot_df, update_time=update_time, source_status=status)
 
 
+def is_market_open(now: datetime = None) -> Tuple[bool, str]:
+    """判断当前是否在 A 股交易时段（9:30-15:00，仅工作日）"""
+    if now is None:
+        now = datetime.now()
+    weekday = now.weekday()
+    if weekday >= 5:  # 周六=5, 周日=6
+        return False, "休市（周末）"
+    t = now.time()
+    if dt_time(9, 30) <= t <= dt_time(11, 30):
+        return True, "交易中（上午盘）"
+    if dt_time(13, 0) <= t <= dt_time(15, 0):
+        return True, "交易中（下午盘）"
+    if t < dt_time(9, 30):
+        return False, "等待开盘"
+    if dt_time(11, 30) < t < dt_time(13, 0):
+        return False, "午间休市"
+    return False, "已收盘"
+
+
 def update_intraday_history(ranking_df: pd.DataFrame, update_time: datetime) -> pd.DataFrame:
+    market_open, market_status = is_market_open(update_time)
     history_store = safe_read_json(INTRADAY_HISTORY_FILE, {})
     trading_day = update_time.strftime("%Y-%m-%d")
     today_history = history_store.get(trading_day, [])
 
-    if not today_history:
-        base_times = ["09:35:00", "10:05:00", "10:35:00", "11:00:00", "13:30:00"]
-        scales = [0.32, 0.48, 0.61, 0.77, 0.9]
-        seed_rows = []
-        for ts, scale in zip(base_times, scales):
-            seed_rows.append(
-                {
-                    "timestamp": ts,
-                    "epoch": int(update_time.timestamp()),
-                    "sectors": {
-                        row["展示名称"]: round(float(row["今日主力净流入-净额"]) * scale, 2)
-                        for _, row in ranking_df.iterrows()
-                        if pd.notna(row["今日主力净流入-净额"])
-                    },
-                }
-            )
-        today_history.extend(seed_rows)
+    # 仅在交易时段记录新快照；收盘后不再追加数据
+    if market_open:
+        snapshot = {
+            "timestamp": update_time.strftime("%H:%M:%S"),
+            "epoch": int(update_time.timestamp()),
+            "sectors": {
+                row["展示名称"]: float(row["今日主力净流入-净额"])
+                for _, row in ranking_df.iterrows()
+                if pd.notna(row["今日主力净流入-净额"])
+            },
+        }
+        # 去重：同一秒只记录一次
+        if not today_history or today_history[-1].get("timestamp") != snapshot["timestamp"]:
+            today_history.append(snapshot)
+        history_store[trading_day] = today_history[-240:]
+        safe_write_json(INTRADAY_HISTORY_FILE, history_store)
 
-    snapshot = {
-        "timestamp": update_time.strftime("%H:%M:%S"),
-        "epoch": int(update_time.timestamp()),
-        "sectors": {
-            row["展示名称"]: float(row["今日主力净流入-净额"])
-            for _, row in ranking_df.iterrows()
-            if pd.notna(row["今日主力净流入-净额"])
-        },
-    }
-
-    if not today_history or today_history[-1].get("timestamp") != snapshot["timestamp"]:
-        today_history.append(snapshot)
-    history_store[trading_day] = today_history[-240:]
-    safe_write_json(INTRADAY_HISTORY_FILE, history_store)
-
+    # 构建展示用的 DataFrame，仅显示 9:30-15:05 范围
     rows = []
     for item in today_history:
+        ts = item.get("timestamp", "")
+        if ts < "09:30:00" or ts > "15:05:00":
+            continue
         for name, value in item.get("sectors", {}).items():
-            rows.append({"时间": item["timestamp"], "板块": name, "净流入": value})
+            rows.append({"时间": ts, "板块": name, "净流入": value})
     return pd.DataFrame(rows)
 
 
@@ -352,8 +360,8 @@ def build_bar_option(ranking_df: pd.DataFrame) -> dict:
     }
 
 
-def render_top_bar(fetch_result: FetchResult) -> None:
-    left, mid, right, action = st.columns([3.8, 1.7, 1.8, 1.4])
+def render_top_bar(fetch_result: FetchResult, market_status: str) -> None:
+    left, mid, right, action = st.columns([3.3, 1.2, 1.7, 1.3])
     with left:
         st.markdown("""
         <div class='hero-title'>
@@ -364,7 +372,9 @@ def render_top_bar(fetch_result: FetchResult) -> None:
     with mid:
         st.metric("数据时间", fetch_result.update_time.strftime("%H:%M:%S"))
     with right:
-        st.metric("数据状态", fetch_result.source_status)
+        market_open = "交易中" in market_status
+        color = "normal" if market_open else "inverse"
+        st.metric("市场状态", market_status, delta="", delta_color=color)
     with action:
         st.button("立即刷新", type="primary", width="stretch", on_click=fetch_sector_fund_flow.clear)
 
@@ -429,9 +439,18 @@ st.markdown(
 
 with st.sidebar:
     st.markdown("### 参数设置")
-    auto_refresh_enabled = st.toggle("开启自动刷新（每5分钟）", value=True)
-    if auto_refresh_enabled:
-        st_autorefresh(interval=AUTO_REFRESH_MS, key="auto-refresh")
+
+    # 先判断市场状态，收盘后自动关闭轮询
+    _, _ms = is_market_open()
+    if "交易中" not in _ms:
+        st.info(f"🔒 {_ms} — 自动刷新已暂停")
+        auto_refresh_enabled = False
+        st_autorefresh(interval=0, key="auto-refresh-off")
+    else:
+        auto_refresh_enabled = st.toggle("开启自动刷新（每5分钟）", value=True)
+        if auto_refresh_enabled:
+            st_autorefresh(interval=AUTO_REFRESH_MS, key="auto-refresh")
+
     chart_mode = st.radio("主图类型", ["折线图", "柱状图"], horizontal=True)
     ranking_count = st.slider("排行显示数量", min_value=5, max_value=12, value=8)
     st.markdown("---")
@@ -440,15 +459,18 @@ with st.sidebar:
         **说明**
         - 数据源：AKShare → 通达信板块资金流
         - 默认聚焦：芯片、光伏、储能、AI、新能源车、医疗、银行、军工
-        - 折线图为盘中轮询快照累积走势
+        - 折线图为盘中 9:30-15:00 轮询快照累积走势
+        - 收盘后停止采集，次日自动恢复
         """
     )
 
 fetch_result = fetch_all_data()
 ranking_df = fetch_result.ranking_df.copy()
+
+market_open, market_status = is_market_open(fetch_result.update_time)
 history_df = update_intraday_history(ranking_df, fetch_result.update_time)
 
-render_top_bar(fetch_result)
+render_top_bar(fetch_result, market_status)
 
 summary_cols = st.columns(4)
 top_inflow = ranking_df.iloc[0] if not ranking_df.empty else None
@@ -525,7 +547,7 @@ st.dataframe(
     },
 )
 st.markdown(
-    f"<div class='footnote'>数据更新时间：{fetch_result.update_time.strftime('%Y-%m-%d %H:%M:%S')}。AKShare 接入的通达信板块资金流数据可能存在数分钟延时；折线图为本应用在日内按刷新时点累计的快照走势，不是交易所原始逐笔分时。</div>",
+    f"<div class='footnote'>📌 {market_status} · 数据更新时间：{fetch_result.update_time.strftime('%Y-%m-%d %H:%M:%S')}。AKShare 接入的通达信板块资金流数据；折线图为盘中 9:30-15:00 轮询快照累积走势，收盘后停止采集。</div>",
     unsafe_allow_html=True,
 )
 st.markdown("</div>", unsafe_allow_html=True)
