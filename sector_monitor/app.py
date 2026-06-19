@@ -496,7 +496,8 @@ with left_col:
     )
     if chart_mode == "折线图":
         if history_df.empty or history_df["时间"].nunique() < 2:
-            st.info("当前快照点还不够，等待下一次刷新后将生成更完整的日内走势线。")
+            st.info("📊 日内走势数据不足（需盘中 9:30-15:00 累积 ≥2 个快照点），已自动切换为柱状图。交易时段折线图将自动生成。")
+            st_echarts(options=build_bar_option(ranking_df), height="520px", key="bar-fallback")
         else:
             st_echarts(options=build_line_option(history_df), height="520px", key="line-chart")
     else:
