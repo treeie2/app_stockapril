@@ -42,8 +42,8 @@ SECTOR_CANDIDATES = {
 }
 
 DATA_SOURCES = {
-    "概念资金流": {"preferred": ["芯片", "光伏", "储能", "AI", "新能源车", "军工"]},
-    "行业资金流": {"preferred": ["医疗", "银行"]},
+    "概念": ak.stock_fund_flow_concept,
+    "行业": ak.stock_fund_flow_industry,
 }
 
 
@@ -88,25 +88,30 @@ def safe_write_json(path: Path, payload) -> None:
 
 
 @st.cache_data(ttl=CACHE_TTL_SECONDS, show_spinner=False)
-def fetch_sector_rank(indicator: str, sector_type: str) -> pd.DataFrame:
-    last_error = None
+def fetch_sector_fund_flow(source_name: str, fetch_func) -> pd.DataFrame:
     for _ in range(3):
         try:
-            df = ak.stock_sector_fund_flow_rank(indicator=indicator, sector_type=sector_type)
+            df = fetch_func()
             if df is not None and not df.empty:
                 return df
         except Exception as exc:
-            last_error = exc
             time.sleep(1.2)
-    raise RuntimeError(f"AKShare 获取失败: {sector_type} / {indicator} / {last_error}")
+            last_error = exc
+    raise RuntimeError(f"TDX {source_name}获取失败: {last_error}")
 
 
-def normalize_rank_df(df: pd.DataFrame, sector_type: str) -> pd.DataFrame:
+def normalize_rank_df(df: pd.DataFrame, source_name: str) -> pd.DataFrame:
     temp = df.copy()
-    temp["今日主力净流入-净额"] = pd.to_numeric(temp["今日主力净流入-净额"], errors="coerce")
-    temp["今日主力净流入-净占比"] = pd.to_numeric(temp["今日主力净流入-净占比"], errors="coerce")
-    temp["今日涨跌幅"] = pd.to_numeric(temp["今日涨跌幅"], errors="coerce")
-    temp["板块类型"] = sector_type
+    temp["名称"] = temp["行业"]
+    temp["今日主力净流入-净额"] = pd.to_numeric(temp["净额"], errors="coerce") * 1e8
+    temp["今日涨跌幅"] = pd.to_numeric(temp["行业-涨跌幅"], errors="coerce")
+    temp["今日主力净流入-净占比"] = (
+        (pd.to_numeric(temp["净额"], errors="coerce") * 1e8)
+        / (pd.to_numeric(temp["流入资金"], errors="coerce") * 1e8 + 1)
+        * 100
+    ).round(2)
+    temp["今日主力净流入最大股"] = temp.get("领涨股", "")
+    temp["板块类型"] = f"通达信·{source_name}"
     return temp
 
 
@@ -158,10 +163,10 @@ def build_demo_df() -> pd.DataFrame:
 def fetch_all_data() -> FetchResult:
     frames: List[pd.DataFrame] = []
     errors: List[str] = []
-    for sector_type in DATA_SOURCES.keys():
+    for source_name, fetch_func in DATA_SOURCES.items():
         try:
-            df = fetch_sector_rank(indicator="今日", sector_type=sector_type)
-            frames.append(normalize_rank_df(df, sector_type))
+            df = fetch_sector_fund_flow(source_name, fetch_func)
+            frames.append(normalize_rank_df(df, source_name))
         except Exception as exc:
             errors.append(str(exc))
 
@@ -433,7 +438,7 @@ with st.sidebar:
     st.markdown(
         """
         **说明**
-        - 数据源：AKShare → 东方财富板块资金流
+        - 数据源：AKShare → 通达信板块资金流
         - 默认聚焦：芯片、光伏、储能、AI、新能源车、医疗、银行、军工
         - 折线图为盘中轮询快照累积走势
         """
@@ -520,7 +525,7 @@ st.dataframe(
     },
 )
 st.markdown(
-    f"<div class='footnote'>数据更新时间：{fetch_result.update_time.strftime('%Y-%m-%d %H:%M:%S')}。AKShare 接入的东方财富板块资金流数据可能存在数分钟延时；折线图为本应用在日内按刷新时点累计的快照走势，不是交易所原始逐笔分时。</div>",
+    f"<div class='footnote'>数据更新时间：{fetch_result.update_time.strftime('%Y-%m-%d %H:%M:%S')}。AKShare 接入的通达信板块资金流数据可能存在数分钟延时；折线图为本应用在日内按刷新时点累计的快照走势，不是交易所原始逐笔分时。</div>",
     unsafe_allow_html=True,
 )
 st.markdown("</div>", unsafe_allow_html=True)
