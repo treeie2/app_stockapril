@@ -83,6 +83,12 @@ app = Flask(__name__,
             static_url_path='/static',
             template_folder=str(BASE_DIR / 'templates'))
 
+# Streamlit 板块资金监控重定向
+@app.route('/monitor')
+def monitor_redirect():
+    streamlit_url = os.environ.get('STREAMLIT_URL', 'http://localhost:8501')
+    return render_template('redirect.html', url=streamlit_url, title='板块资金监控')
+
 # 文章API服务配置
 ARTICLE_API_URL = os.environ.get('ARTICLE_API_URL', 'http://localhost:5001')
 
