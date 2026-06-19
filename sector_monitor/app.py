@@ -366,7 +366,7 @@ def render_top_bar(fetch_result: FetchResult) -> None:
     with right:
         st.metric("数据状态", fetch_result.source_status)
     with action:
-        st.button("立即刷新", type="primary", width="stretch", on_click=fetch_sector_rank.clear)
+        st.button("立即刷新", type="primary", width="stretch", on_click=fetch_sector_fund_flow.clear)
 
 
 st.set_page_config(page_title="A股板块资金流入监控", page_icon="📈", layout="wide")
