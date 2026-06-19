@@ -496,8 +496,17 @@ with left_col:
     )
     if chart_mode == "折线图":
         if history_df.empty or history_df["时间"].nunique() < 2:
-            st.info("📊 日内走势数据不足（需盘中 9:30-15:00 累积 ≥2 个快照点），已自动切换为柱状图。交易时段折线图将自动生成。")
-            st_echarts(options=build_bar_option(ranking_df), height="520px", key="bar-fallback")
+            if not market_open and not ranking_df.empty:
+                # 收盘后：用当日终值生成 15:00 单点折线，避免空图
+                end_df = pd.DataFrame([
+                    {"时间": "15:00:00", "板块": row["展示名称"], "净流入": row["今日主力净流入-净额"]}
+                    for _, row in ranking_df.iterrows()
+                ])
+                st.info("📌 今日收盘终值（非日内走势）。完整折线图需盘中 9:30 开始运行采集。")
+                st_echarts(options=build_line_option(end_df), height="520px", key="line-eod")
+            else:
+                st.info("📊 日内走势数据不足（需盘中 9:30-15:00 累积 ≥2 个快照点），已自动切换为柱状图。")
+                st_echarts(options=build_bar_option(ranking_df), height="520px", key="bar-fallback")
         else:
             st_echarts(options=build_line_option(history_df), height="520px", key="line-chart")
     else:
