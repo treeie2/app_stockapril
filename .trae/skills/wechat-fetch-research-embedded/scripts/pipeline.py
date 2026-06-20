@@ -153,8 +153,8 @@ def run_pipeline(
         for art in articles:
             logger.info(f"[Pipeline] Processing article: {art.title or art.source[:50]}")
             
-            # Identify stocks
-            candidates = identify_stocks_in_article(api_manager, art.content)
+            # Identify stocks (v2.7: 本地扫描优先)
+            candidates = identify_stocks_in_article(api_manager, art.content, name_to_code)
             
             mapped = []
             for c in candidates:

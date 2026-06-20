@@ -386,8 +386,90 @@ def llm_json(api_manager: APIManager, system: str, user: str, max_retries: int =
     raise RuntimeError(f"所有API都无法完成请求: {last_error}")
 
 
-def identify_stocks_in_article(api_manager: APIManager, article_text: str) -> List[Dict[str, str]]:
-    user = f"文章正文如下（用三引号包裹）：\n\n'''\n{article_text}\n'''"
+# ─── 本地股票名扫描（v2.7: 0 API 调用，解决长文 AI 识别遗漏） ───
+
+# 常见词：短股票名可能是普通词，避免误匹配
+_STOP_WORDS = set("上海 北京 深圳 广州 杭州 南京 成都 武汉 西安 重庆 中国 美国 日本 韩国 德国 法国 英国 华为 腾讯 阿里 百度 京东 小米 字节 美光 苹果 谷歌 微软 英伟达 特斯拉 比亚迪 宁德 海康 大华 中兴 建设 光明 长安 东方 南方 北方 西部 东风 长江 黄河 泰山 恒生 国泰 中信 光大 招商 平安".split())
+
+def local_scan_stock_names(article_text: str, name_to_code: dict) -> List[Dict[str, str]]:
+    """本地扫描文章中提到哪些股票名——0 API 调用，极快。
+    
+    规则：
+    1. 股票名在正文中出现 → 匹配
+    2. 股票名 >= 4 个字 → 直接采用（高置信度）
+    3. 股票名 2-3 个字 → 只在命中多个段落/有上下文数字时采用
+    4. 常见词（地名/大公司名）→ 跳过
+    """
+    seen = {}  # code -> name
+    text = article_text
+    
+    for name, code in name_to_code.items():
+        if not name or len(name) < 2:
+            continue
+        
+        # 跳过常见词
+        if name in _STOP_WORDS:
+            continue
+        
+        # 检查是否在文章中出现
+        count = text.count(name)
+        if count == 0:
+            continue
+        
+        # 高置信度：4 字及以上，不需要额外验证
+        if len(name) >= 4:
+            seen[code] = name
+            continue
+        
+        # 2-3 字股票：额外验证
+        if len(name) == 3:
+            # 3 字名：出现 >= 2 次 或 紧挨着数字/百分比 → 采用
+            if count >= 2:
+                seen[code] = name
+                continue
+            # 检查上下文：前后 10 字范围有数字
+            for match in re.finditer(re.escape(name), text):
+                ctx = text[max(0, match.start()-10):match.end()+10]
+                if re.search(r'\d', ctx):
+                    seen[code] = name
+                    break
+            continue
+        
+        if len(name) == 2:
+            # 2 字名：出现 >= 3 次 + 有数字上下文 → 采用
+            if count >= 3:
+                has_digit = False
+                for match in re.finditer(re.escape(name), text):
+                    ctx = text[max(0, match.start()-15):match.end()+15]
+                    if re.search(r'\d', ctx):
+                        has_digit = True
+                        break
+                if has_digit:
+                    seen[code] = name
+            continue
+    
+    return [{"code": c, "name": n} for c, n in seen.items()]
+
+
+def identify_stocks_in_article(api_manager: APIManager, article_text: str, name_to_code: dict = None) -> List[Dict[str, str]]:
+    """识别文章中提到的股票（v2.7: 本地扫描优先，AI 仅做兜底验证）"""
+    
+    # ─── 方式 A: 本地扫描（0 API 调用，覆盖 90%+ 场景） ───
+    if name_to_code:
+        local = local_scan_stock_names(article_text, name_to_code)
+        if local:
+            print(f"  [本地扫描] 发现 {len(local)} 只股票: {', '.join(s['name'][:4] for s in local[:8])}" + 
+                  ("..." if len(local) > 8 else ""))
+            
+            # 本地扫描结果足够 → 直接返回，0 API 调用
+            return local
+        
+        print(f"  [本地扫描] 未发现匹配股票，尝试 AI 识别...")
+    
+    # ─── 方式 B: AI 识别（兜底，用于较难匹配的文章） ───
+    # 发送前 4000 字给 AI（足够覆盖所有个股名位置）
+    text_sample = article_text[:4000]
+    user = f"文章正文如下（用三引号包裹）：\n\n'''\n{text_sample}\n'''"
     obj = llm_json(api_manager, SYSTEM_IDENTIFY, user)
     stocks = obj.get("stocks", []) if isinstance(obj, dict) else []
     out = []
@@ -403,21 +485,60 @@ def identify_stocks_in_article(api_manager: APIManager, article_text: str) -> Li
     return out
 
 
-def extract_items(api_manager: APIManager, article: ArticleBlock, mapped_stocks: List[Dict[str, str]], batch_size: int = 5) -> List[Dict[str, Any]]:
-    """Extract items in batches to avoid timeout on long articles."""
-    all_items = []
+def _extract_context_for_stocks(article_text: str, stock_names: list, context_chars: int = 400) -> str:
+    """提取文章中与指定股票相关的段落（v2.7: 减少 prompt token）"""
+    if len(article_text) <= 2000:
+        return article_text  # 短文直接全传
     
-    # If few stocks, process all at once
-    if len(mapped_stocks) <= batch_size:
-        stock_lines = "\n".join([f"- {s['name']} ({s['code']})" for s in mapped_stocks])
-        user = (
+    lines = article_text.split('\n')
+    relevant_lines = set()
+    
+    for name in stock_names:
+        for i, line in enumerate(lines):
+            if name in line:
+                # 取上下文 ±2 行
+                for j in range(max(0, i-2), min(len(lines), i+3)):
+                    relevant_lines.add(j)
+    
+    if not relevant_lines:
+        return article_text[:2000]  # fallback
+    
+    # 重组，保留原始顺序，用空行合并不连续的段落
+    sorted_lines = sorted(relevant_lines)
+    result = []
+    prev = None
+    for idx in sorted_lines:
+        if prev is not None and idx > prev + 1:
+            result.append("")  # 空行分隔
+        result.append(lines[idx])
+        prev = idx
+    
+    ctx = "\n".join(result)
+    if len(ctx) > 3000:
+        ctx = ctx[:3000] + "\n...(内容截断)"
+    return ctx
+
+
+def extract_items(api_manager: APIManager, article: ArticleBlock, mapped_stocks: List[Dict[str, str]], batch_size: int = 5) -> List[Dict[str, Any]]:
+    """Extract items in batches to avoid timeout on long articles (v2.7: 只传相关段落)."""
+    all_items = []
+    stock_names = [s['name'] for s in mapped_stocks]
+    
+    def build_user(batch):
+        stock_lines = "\n".join([f"- {s['name']} ({s['code']})" for s in batch])
+        # v2.7: 只传与这批股票相关的段落，而非全文
+        context = _extract_context_for_stocks(article.content, [s['name'] for s in batch])
+        return (
             f"股票列表：\n{stock_lines}\n\n"
             f"文章链接：{article.source}\n"
             f"文章日期：{article.date}\n"
             f"文章标题（可能为空）：{article.title}\n\n"
-            f"正文如下（三引号包裹）：\n\n'''\n{article.content}\n'''"
+            f"正文相关段落（三引号包裹）：\n\n'''\n{context}\n'''"
         )
-        obj = llm_json(api_manager, SYSTEM_EXTRACT, user)
+    
+    # If few stocks, process all at once
+    if len(mapped_stocks) <= batch_size:
+        obj = llm_json(api_manager, SYSTEM_EXTRACT, build_user(mapped_stocks))
         items = obj.get("items", []) if isinstance(obj, dict) else []
         return items if isinstance(items, list) else []
     
@@ -428,17 +549,8 @@ def extract_items(api_manager: APIManager, article: ArticleBlock, mapped_stocks:
         batch_num = (i // batch_size) + 1
         total_batches = (len(mapped_stocks) + batch_size - 1) // batch_size
         print(f"  [批次 {batch_num}/{total_batches}] 处理: {', '.join([s['name'] for s in batch])}")
-        
-        stock_lines = "\n".join([f"- {s['name']} ({s['code']})" for s in batch])
-        user = (
-            f"股票列表：\n{stock_lines}\n\n"
-            f"文章链接：{article.source}\n"
-            f"文章日期：{article.date}\n"
-            f"文章标题（可能为空）：{article.title}\n\n"
-            f"正文如下（三引号包裹）：\n\n'''\n{article.content}\n'''"
-        )
         try:
-            obj = llm_json(api_manager, SYSTEM_EXTRACT, user)
+            obj = llm_json(api_manager, SYSTEM_EXTRACT, build_user(batch))
             items = obj.get("items", []) if isinstance(obj, dict) else []
             if isinstance(items, list):
                 all_items.extend(items)
@@ -886,8 +998,8 @@ def main():
             print(f"  ⛔ 内容含多股推荐模式，跳过")
             continue
         
-        # Step A: identify mentioned stocks
-        candidates = identify_stocks_in_article(api_manager, art.content)
+        # Step A: identify mentioned stocks (v2.7: 本地扫描优先)
+        candidates = identify_stocks_in_article(api_manager, art.content, name_to_code)
 
         mapped: List[Dict[str, str]] = []
         for c in candidates:
