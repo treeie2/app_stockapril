@@ -502,6 +502,72 @@ def load_data_from_supabase():
         return None, None
 
 
+def load_data_from_supabase_http():
+    """纯 stdlib 从 Supabase REST API 加载数据（0 额外依赖，Vercel 可用）"""
+    import urllib.request
+    url = "https://fcnzwhjpzfojeszzlyeo.supabase.co"
+    key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZjbnp3aGpwemZvamVzenpseWVvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODE5Mzc0MTUsImV4cCI6MjA5NzUxMzQxNX0.X44fD4gto39L4Wv6S4y05iukKqxuKudnTZS1PASyj1I"
+    
+    print("📋 从 Supabase REST API 加载数据 (stdlib)...")
+    all_stocks = {}
+    concepts = {}
+    offset = 0
+    limit = 1000
+    
+    while True:
+        api_url = f"{url}/rest/v1/stocks?select=*&limit={limit}&offset={offset}"
+        req = urllib.request.Request(api_url, headers={
+            "apikey": key,
+            "Authorization": f"Bearer {key}",
+            "Accept": "application/json"
+        })
+        try:
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                data = json.loads(resp.read().decode())
+        except Exception as e:
+            print(f"  ⚠️ Supabase HTTP 请求失败 (offset={offset}): {e}")
+            break
+        
+        if not data:
+            break
+        
+        for row in data:
+            code = row.get("code", "")
+            if not code:
+                continue
+            stock = {
+                "name": row.get("name", ""),
+                "code": code,
+                "board": row.get("board", ""),
+                "industry": row.get("industry", ""),
+                "concepts": json.loads(row.get("concepts", "[]")) if isinstance(row.get("concepts"), str) else (row.get("concepts") or []),
+                "products": json.loads(row.get("products", "[]")) if isinstance(row.get("products"), str) else (row.get("products") or []),
+                "core_business": json.loads(row.get("core_business", "[]")) if isinstance(row.get("core_business"), str) else (row.get("core_business") or []),
+                "industry_position": json.loads(row.get("industry_position", "[]")) if isinstance(row.get("industry_position"), str) else (row.get("industry_position") or []),
+                "chain": json.loads(row.get("chain", "[]")) if isinstance(row.get("chain"), str) else (row.get("chain") or []),
+                "partners": json.loads(row.get("partners", "[]")) if isinstance(row.get("partners"), str) else (row.get("partners") or []),
+                "mention_count": row.get("mention_count", 0),
+                "last_updated": row.get("last_updated", ""),
+                "articles": json.loads(row.get("articles", "[]")) if isinstance(row.get("articles"), str) else (row.get("articles") or []),
+                "detail_texts": json.loads(row.get("detail_texts", "[]")) if isinstance(row.get("detail_texts"), str) else (row.get("detail_texts") or []),
+            }
+            all_stocks[code] = stock
+            for concept in stock.get("concepts", []):
+                if concept not in concepts:
+                    concepts[concept] = {"stocks": []}
+                concepts[concept]["stocks"].append(code)
+        
+        offset += limit
+        if len(data) < limit:
+            break
+    
+    if all_stocks:
+        print(f"  ✅ Supabase HTTP: {len(all_stocks)} stocks")
+        return all_stocks, concepts
+    print(f"  ⚠️ Supabase HTTP 未获取到数据")
+    return None, None
+
+
 def load_data_from_local():
     """从本地文件或 GitHub 加载数据"""
     print("📋 从数据源加载数据...")
@@ -657,32 +723,36 @@ def load_all_data():
     is_vercel = 'VERCEL' in os.environ
     
     try:
-        # ─── Vercel: GitHub raw 直读 + 强防缓存（0 额外依赖） ───
+        # ─── Vercel: Supabase REST API (纯 stdlib) → GitHub raw 回退 ───
         if is_vercel:
-            import time as _time, random as _random
-            print("📋 Vercel: GitHub raw 读取最新 stocks_master.json ...")
-            try:
-                # 三重防缓存：时间戳 + 随机数 + no-cache header
+            print("📋 Vercel: Supabase REST API (stdlib) 读取...")
+            sb_stocks, sb_concepts = load_data_from_supabase_http()
+            if sb_stocks:
+                stocks.update(sb_stocks)
+                concepts.update(sb_concepts)
+            else:
+                # 回退 GitHub raw
+                import time as _time, random as _random
                 gh_url = (f"https://raw.githubusercontent.com/treeie2/app_stockapril/main/"
                          f"data/stocks/stocks_master.json?"
                          f"t={int(_time.time())}&r={_random.randint(0,99999)}")
-                r = requests.get(gh_url, timeout=30, headers={
-                    "Cache-Control": "no-cache, no-store, must-revalidate",
-                    "Pragma": "no-cache",
-                    "Expires": "0"
-                })
-                r.raise_for_status()
-                data = json.loads(r.text)
-                gh_stocks = data.get("stocks", {})
-                if gh_stocks:
-                    stocks.update(gh_stocks)
-                    print(f"  ✅ GitHub raw: {len(gh_stocks)} stocks (updated_at={data.get('updated_at','?')})")
-            except Exception as e:
-                print(f"  ⚠️ GitHub raw 失败: {e}, 本地回退...")
-                loaded, loaded_c = load_data_from_local()
-                if loaded:
-                    stocks.update(loaded)
-                    concepts.update(loaded_c)
+                print(f"  ⚠️ Supabase 失败，尝试 GitHub raw...")
+                try:
+                    r = requests.get(gh_url, timeout=30, headers={
+                        "Cache-Control": "no-cache, no-store, must-revalidate"
+                    })
+                    r.raise_for_status()
+                    data = json.loads(r.text)
+                    gh_stocks = data.get("stocks", {})
+                    if gh_stocks:
+                        stocks.update(gh_stocks)
+                        print(f"  ✅ GitHub raw: {len(gh_stocks)} stocks")
+                except Exception as gh_e:
+                    print(f"  ⚠️ GitHub raw 也失败: {gh_e}")
+                    loaded, loaded_c = load_data_from_local()
+                    if loaded:
+                        stocks.update(loaded)
+                        concepts.update(loaded_c)
         else:
             # ─── 本地/Docker: 优先本地文件（最快） ───
             print("📋 从本地 stocks_master.json 加载...")
