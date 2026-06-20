@@ -657,28 +657,33 @@ def load_all_data():
     is_vercel = 'VERCEL' in os.environ
     
     try:
-        # ─── Vercel: GitHub raw 直读 + 防缓存 ───
+        # ─── Vercel: Supabase API 直读（最可靠，无 CDN 缓存问题） ───
         if is_vercel:
-            import time as _time
-            print("📋 Vercel 环境：GitHub raw 加载最新 stocks_master.json ...")
-            try:
+            print("📋 Vercel 环境：Supabase API 加载最新数据...")
+            supabase_stocks, supabase_concepts = load_data_from_supabase()
+            if supabase_stocks:
+                stocks.update(supabase_stocks)
+                concepts.update(supabase_concepts)
+                print(f"  ✅ Supabase: {len(supabase_stocks)} stocks")
+            else:
+                # 回退 GitHub raw
+                print("  ⚠️ Supabase 失败，尝试 GitHub raw...")
+                import time as _time
                 gh_url = f"https://raw.githubusercontent.com/treeie2/app_stockapril/main/data/stocks/stocks_master.json?t={int(_time.time())}"
-                r = requests.get(gh_url, timeout=30, headers={
-                    "Cache-Control": "no-cache, no-store",
-                    "Pragma": "no-cache"
-                })
-                r.raise_for_status()
-                data = json.loads(r.text)
-                gh_stocks = data.get("stocks", {})
-                if gh_stocks:
-                    stocks.update(gh_stocks)
-                    print(f"  ✅ GitHub raw: {len(gh_stocks)} stocks (updated_at={data.get('updated_at','?')})")
-            except Exception as e:
-                print(f"  ⚠️ GitHub raw 失败: {e}, 本地回退...")
-                loaded, loaded_c = load_data_from_local()
-                if loaded:
-                    stocks.update(loaded)
-                    concepts.update(loaded_c)
+                try:
+                    r = requests.get(gh_url, timeout=30, headers={"Cache-Control": "no-cache"})
+                    r.raise_for_status()
+                    data = json.loads(r.text)
+                    gh_stocks = data.get("stocks", {})
+                    if gh_stocks:
+                        stocks.update(gh_stocks)
+                        print(f"  ✅ GitHub raw: {len(gh_stocks)} stocks")
+                except Exception as gh_e:
+                    print(f"  ⚠️ GitHub raw 也失败: {gh_e}, 本地回退...")
+                    loaded, loaded_c = load_data_from_local()
+                    if loaded:
+                        stocks.update(loaded)
+                        concepts.update(loaded_c)
         else:
             # ─── 本地/Docker: 优先本地文件（最快） ───
             print("📋 从本地 stocks_master.json 加载...")
