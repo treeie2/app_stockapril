@@ -870,10 +870,11 @@ def main():
         print(f"\n{'='*60}")
         print(f"[处理文章] {art.title or art.source[:50]}...")
 
-        # ─── 过滤层 1: 每日汇总/周报 → 整篇跳过 ───
-        if is_digest_article(art.title):
-            print(f"  ⛔ 每日汇总/周报文章，跳过: {art.title}")
-            continue
+        # ─── v2.7: 不再按标题整篇拒绝"每日汇总/首板逻辑"类文章 ───
+        # 改由 AI 逐股判断 + __THIN__ 后置清洗，确保含有具体信息的个股不被误杀
+        is_digest = is_digest_article(art.title)
+        if is_digest:
+            print(f"  ℹ️ 每日汇总/首板逻辑类文章，将逐股判断: {art.title}")
 
         # ─── 过滤层 2: 多股罗列/行业综述标题 → 整篇跳过 ───
         if is_broad_list_article(art.title):
