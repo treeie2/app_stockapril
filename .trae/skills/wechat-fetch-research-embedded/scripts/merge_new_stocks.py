@@ -5,7 +5,8 @@ import sys
 from datetime import date
 from pathlib import Path
 
-from merge_utils import merge_articles, merge_set_fields, load_master, save_master, load_or_create_shard, save_shard
+from merge_utils import (merge_articles, merge_set_fields, load_master, save_master,
+                          load_or_create_shard, save_shard, normalize_all_stock_dates)
 
 BASE_DIR = Path(__file__).parent.parent
 PROJECT_ROOT = Path(__file__).parent.parent.parent.parent.parent
@@ -62,6 +63,12 @@ def merge_new_stocks(date_str=None):
             master_stocks[code] = new_s
             master_stocks[code]['last_updated'] = date_str
             print(f'  [NEW] {code} {new_s.get("name", "")}: 新增股票')
+    
+    # ─── v2.8: 合并后自动规范化所有日期格式为 YYYY-MM-DD ───
+    date_stats = normalize_all_stock_dates(master_stocks)
+    if date_stats['stocks_affected']:
+        print(f'[NORM] 规范化 {date_stats["stocks_affected"]} 只股票的日期格式 '
+              f'(last_updated: {date_stats["last_updated"]}, article.date: {date_stats["article_date"]})')
     
     master['stocks'] = master_stocks
     save_master(PROJECT_ROOT, master)
