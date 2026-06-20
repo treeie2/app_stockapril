@@ -657,18 +657,22 @@ def load_all_data():
     is_vercel = 'VERCEL' in os.environ
     
     try:
-        # ─── Vercel: GitHub raw 直读（repo 已公开，0 额外依赖） ───
+        # ─── Vercel: GitHub raw 直读 + 防缓存 ───
         if is_vercel:
+            import time as _time
             print("📋 Vercel 环境：GitHub raw 加载最新 stocks_master.json ...")
             try:
-                gh_url = "https://raw.githubusercontent.com/treeie2/app_stockapril/main/data/stocks/stocks_master.json"
-                r = requests.get(gh_url, timeout=30)
+                gh_url = f"https://raw.githubusercontent.com/treeie2/app_stockapril/main/data/stocks/stocks_master.json?t={int(_time.time())}"
+                r = requests.get(gh_url, timeout=30, headers={
+                    "Cache-Control": "no-cache, no-store",
+                    "Pragma": "no-cache"
+                })
                 r.raise_for_status()
                 data = json.loads(r.text)
                 gh_stocks = data.get("stocks", {})
                 if gh_stocks:
                     stocks.update(gh_stocks)
-                    print(f"  ✅ GitHub raw: {len(gh_stocks)} stocks")
+                    print(f"  ✅ GitHub raw: {len(gh_stocks)} stocks (updated_at={data.get('updated_at','?')})")
             except Exception as e:
                 print(f"  ⚠️ GitHub raw 失败: {e}, 本地回退...")
                 loaded, loaded_c = load_data_from_local()
