@@ -657,30 +657,28 @@ def load_all_data():
     is_vercel = 'VERCEL' in os.environ
     
     try:
-        # ─── Vercel: 直接从 GitHub raw 加载（0 额外依赖，永远最新） ───
+        # ─── Vercel: 用本地打包的 JSON（构建时随代码一起部署） ───
         if is_vercel:
-            print("📋 Vercel 环境：从 GitHub raw 加载最新数据...")
-            gh_url = "https://raw.githubusercontent.com/treeie2/app_stockapril/main/data/stocks/stocks_master.json"
-            try:
-                r = requests.get(gh_url, timeout=30)
-                r.raise_for_status()
-                data = json.loads(r.text)
-                gh_stocks = data.get("stocks", {})
-                if gh_stocks:
-                    stocks.update(gh_stocks)
-                    print(f"  ✅ GitHub raw: {len(gh_stocks)} stocks")
-                else:
-                    print("  ⚠️ GitHub raw 数据为空，本地回退")
-                    loaded, loaded_c = load_data_from_local()
-                    if loaded:
-                        stocks.update(loaded)
-                        concepts.update(loaded_c)
-            except Exception as e:
-                print(f"  ⚠️ GitHub raw 失败: {e}, 本地回退")
-                loaded, loaded_c = load_data_from_local()
-                if loaded:
-                    stocks.update(loaded)
-                    concepts.update(loaded_c)
+            print("📋 Vercel 环境：加载本地 stocks_master.json ...")
+            loaded, loaded_c = load_data_from_local()
+            if loaded:
+                stocks.update(loaded)
+                concepts.update(loaded_c)
+                print(f"  ✅ 本地加载: {len(loaded)} stocks")
+            else:
+                # 终极回退：GitHub raw
+                print("  ⚠️ 本地加载失败，尝试 GitHub raw ...")
+                try:
+                    gh_url = "https://raw.githubusercontent.com/treeie2/app_stockapril/main/data/stocks/stocks_master.json"
+                    r = requests.get(gh_url, timeout=30)
+                    r.raise_for_status()
+                    data = json.loads(r.text)
+                    gh_stocks = data.get("stocks", {})
+                    if gh_stocks:
+                        stocks.update(gh_stocks)
+                        print(f"  ✅ GitHub raw: {len(gh_stocks)} stocks")
+                except Exception as e:
+                    print(f"  ⚠️ GitHub raw 也失败: {e}")
         else:
             # ─── 本地/Docker: 优先本地文件（最快） ───
             print("📋 从本地 stocks_master.json 加载...")
