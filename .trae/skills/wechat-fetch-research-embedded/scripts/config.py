@@ -37,27 +37,41 @@ class Config:
     
     def __init__(self, config_path: Optional[str] = None):
         self.file_config = load_json_config(config_path)
+        # 解析 active profile：优先用 profiles[active] → 回退到 api → {}
+        active = self.file_config.get("active", "")
+        profiles = self.file_config.get("profiles", {})
+        self._api = profiles.get(active, self.file_config.get("api", {}))
+    
+    @property
+    def active_profile(self) -> str:
+        """当前使用的 API 配置名"""
+        return self.file_config.get("active", "default")
+    
+    @property
+    def available_profiles(self) -> list:
+        """所有可用 API 配置名"""
+        return list(self.file_config.get("profiles", {}).keys())
     
     # API Configuration
     @property
     def primary_api_key(self) -> str:
         return get_env_or_default(
             "PRIMARY_API_KEY",
-            self.file_config.get("api", {}).get("api_key", "")
+            self._api.get("api_key", "")
         )
     
     @property
     def primary_base_url(self) -> str:
         return get_env_or_default(
             "PRIMARY_BASE_URL",
-            self.file_config.get("api", {}).get("base_url", "")
+            self._api.get("base_url", "")
         )
     
     @property
     def primary_model(self) -> str:
         return get_env_or_default(
             "PRIMARY_MODEL",
-            self.file_config.get("api", {}).get("model", "deepseek-v3-2-251201")
+            self._api.get("model", "deepseek-v3-2-251201")
         )
     
     @property
