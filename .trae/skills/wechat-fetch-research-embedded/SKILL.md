@@ -1,9 +1,9 @@
 ---
 name: wechat-fetch-research-embedded
-description: 把微信公众号文章链接转成可结构化投研素材并沉淀到 JSON 数据库的工作流技能（v2.4）。内置《全部个股.xls》和《数据结构规范_v2》，支持 Docker 部署和 Celery 队列。适用场景：你给出一个或多个 mp.weixin.qq.com 链接，需要（1）可靠读取公众号正文并落盘 raw_material；（2）从 raw_material 识别提到的个股（自动映射内置 stock list）；（3）按内置《数据结构规范_v2》执行 5 维度抽取（industry_background/accidents/insights/key_metrics/target_valuation）+ 轻量模式合并第一层信息；（4）**增量合并到按日期分片的 JSON 文件**；（5）可选同步到 Firestore/GitHub 分片。
+description: 把微信公众号文章链接转成可结构化投研素材并沉淀到 JSON 数据库的工作流技能（v2.6）。内置《全部个股.xls》和《数据结构规范_v2》，支持 Docker 部署。适用场景：你给出一个或多个 mp.weixin.qq.com 链接，需要（1）可靠读取公众号正文并落盘 raw_material；（2）从 raw_material 识别提到的个股（自动映射内置 stock list）；（3）按内置《数据结构规范_v2》执行 5 维度抽取；（4）**增量合并到按日期分片的 JSON 文件**；（5）同步到 GitHub；（6）增量同步到 Supabase PostgreSQL。
 ---
 
-# wechat-fetch-research-embedded (v2.5)
+# wechat-fetch-research-embedded (v2.6)
 
 > ⚠️ **重要路径说明**：本技能输出到 `data/stocks/` 目录（前端读取），**不是** `data/master/`。详见下方目录约定。
 
@@ -19,12 +19,20 @@ description: 把微信公众号文章链接转成可结构化投研素材并沉�
 - **`data/stocks/stocks_master.json`**（主数据文件，前端读取）
 - （可选）同步到 Firebase Firestore
 - （可选）同步到 GitHub
+- （推荐）同步到 Supabase PostgreSQL
 
 > 数据结构以 `references/数据结构规范_v2.md` 为准。
 
 ---
 
-## v2.5 变更说明
+## v2.6 变更说明
+
+### Supabase 同步集成
+- **`scripts/sync_to_supabase.py`** 全新脚本：支持 `--full` 全量同步和 `--date` 日期增量同步
+- **`pipeline.py`** 新增 `--sync-supabase` 参数：一条命令完成 GitHub + Supabase 双写
+- **`_lobster_quick.py`** 新增 Step 7 增量 Supabase 同步：龙虾终端自动同步
+
+### v2.5 变更说明
 
 ### 代码质量优化
 - **共享合并模块** `merge_utils.py`：消除 6 个脚本中重复的文章去重/字段合并/分片读写逻辑
@@ -167,9 +175,10 @@ python scripts/pipeline.py `
 1. 抓取公众号文章正文
 2. 保存到 `raw_material/raw_material_YYYY-MM-DD.md`
 3. 抽取个股结构化信息
-4. 增量合并到日期分片
+4. 增量合并到日期分片（stocks_master.json）
 5. （可选）同步到 Firestore
 6. （可选）同步到 GitHub
+7. （可选）增量同步到 Supabase PostgreSQL
 
 #### 方式 B: 分步执行
 
@@ -271,6 +280,32 @@ git push origin main
 - 访问 https://vercel.com/dashboard
 - 查看部署状态
 - 访问线上网站验证数据已更新
+
+### 步骤 5: 同步到 Supabase（推荐）
+
+#### 方式 A: Pipeline 自动同步
+
+```bash
+python scripts/pipeline.py \
+  --url "https://mp.weixin.qq.com/s/..." \
+  --sync-github --sync-supabase
+```
+
+#### 方式 B: 独立脚本同步
+
+```bash
+# 全量同步 stocks_master.json → Supabase
+python scripts/sync_to_supabase.py --full
+
+# 增量同步指定日期
+python scripts/sync_to_supabase.py --date 2026-06-20
+```
+
+**Supabase 数据表：**
+- `stocks` — 股票主表（code, name, articles JSONB, mention_count 等）
+- `groups_data` — 分组表（行业/概念分组及其股票列表）
+- `hot_topics` — 热门题材表
+- 数据库地址：https://fcnzwhjpzfojeszzlyeo.supabase.co
 
 ---
 
@@ -498,6 +533,7 @@ python scripts/pipeline.py \
 | `scripts/incremental_update.py` | **增量更新**（按日期分片维护） | v2.5 |
 | `scripts/map_industry_concept.py` | **批量更新行业/概念**（从同花顺映射） | v2.2 |
 | `scripts/sync_to_github.py` | **GitHub 同步** | v2.5 |
+| `scripts/sync_to_supabase.py` | **Supabase 同步**（全量/增量） | v1.0 NEW |
 | `scripts/fetch_wechat_to_raw_material.py` | 正文落盘为 raw_material | v1.x |
 | `scripts/fetch_wechat_via_browser_dom.py` | 浏览器 DOM 抽取全文 | v1.x |
 | `scripts/extract_stocks_from_raw_material.py` | LLM 抽取个股信息 | v1.x |
@@ -511,26 +547,26 @@ python scripts/pipeline.py \
 ## Pipeline 完整流程图
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                    pipeline.py (v2.0)                       │
-├─────────────────────────────────────────────────────────────┤
-│                                                             │
-│  URL ──→ [Step 1] 浏览器抓取 ──→ raw_material/*.md         │
-│                    │                                       │
-│                    ▼                                       │
-│             [Step 2] LLM/AI 抽取 ──→ stocks_master_*.json   │
-│                    │                                       │
-│                    ▼                                       │
-│   [Step 2.5] ⭐ merge_new_stocks.py（关键步骤！）          │
-│              │         │                                   │
-│              ▼         ▼                                   │
-│   data/stocks/stocks_master.json   data/stocks/YYYY-MM-DD   │
-│              │                                             │
-│              ├─→ [Step 3] Firestore (可选)                │
-│              │                                             │
-│              └─→ [Step 4] GitHub push (可选)              │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────────────┐
+│                    pipeline.py (v2.6)                                │
+├──────────────────────────────────────────────────────────────────────┤
+│                                                                      │
+│  URL ──→ [Step 1] 浏览器/requests 抓取 ──→ raw_material/*.md        │
+│                    │                                                │
+│                    ▼                                                │
+│             [Step 2] LLM/AI 抽取 ──→ stocks_master_*.json            │
+│                    │                                                │
+│                    ▼                                                │
+│   [Step 2.5] ⭐ merge_new_stocks.py（关键步骤！）                   │
+│              │         │                                            │
+│              ▼         ▼                                            │
+│   data/stocks/stocks_master.json   data/stocks/YYYY-MM-DD            │
+│              │                                                      │
+│              ├─→ [Step 3] Firestore (可选)                         │
+│              ├─→ [Step 4] GitHub push (可选)                       │
+│              └─→ [Step 5] Supabase upsert (推荐)                   │
+│                                                                      │
+└──────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
@@ -546,6 +582,7 @@ python scripts/pipeline.py \
 7. **⭐ 路径问题**：`incremental_update.py` 写入 `.trae/skills/.../data/master/`，**前端不读取**。务必使用 `merge_new_stocks.py`。
 8. **行业字段**：`industry` 必须使用三级分类（如"电子-半导体-集成电路"），禁止使用"创业板/科创板"等板块名。
 9. **⭐ v2.4 轻量模式**：`__THIN__` 或投研内容不足的个股不会写入 article，但仍会静默合并第一层字段（products/core_business/industry_position/chain/partners），mention_count 不变。
+10. **⭐ v2.6 Supabase 同步**：需要 `pip install supabase`。使用 `--sync-supabase` 可选参数增量同步当日数据。独立全量同步：`python scripts/sync_to_supabase.py --full`。
 
 ---
 

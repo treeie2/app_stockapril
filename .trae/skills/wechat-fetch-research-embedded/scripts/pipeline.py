@@ -8,10 +8,11 @@ This module provides a unified interface for the complete workflow:
 3. Incremental merge to date-based shards
 4. Sync to Firestore (optional)
 5. Sync to GitHub shards (optional)
+6. Sync to Supabase (optional)
 
 Usage:
     python scripts/pipeline.py --url "https://mp.weixin.qq.com/s/..."
-    python scripts/pipeline.py --url "https://mp.weixin.qq.com/s/..." --sync-firestore --sync-github
+    python scripts/pipeline.py --url "https://mp.weixin.qq.com/s/..." --sync-github --sync-supabase
 """
 
 import argparse
@@ -29,6 +30,7 @@ def run_pipeline(
     url: str,
     sync_firestore: bool = False,
     sync_github: bool = False,
+    sync_supabase: bool = False,
     headless: bool = True,
     timeout: int = 300,
     use_shards: bool = True,
@@ -40,6 +42,7 @@ def run_pipeline(
         url: WeChat article URL
         sync_firestore: Whether to sync to Firestore
         sync_github: Whether to sync to GitHub
+        sync_supabase: Whether to sync to Supabase (PostgreSQL)
         headless: Run browser in headless mode
         timeout: Browser timeout in seconds
         use_shards: Use new date-based shard storage (default: True)
@@ -265,6 +268,16 @@ def run_pipeline(
             github_main(GithubArgs())
             logger.info(f"[Pipeline] GitHub sync completed")
         
+        # Step 6: Sync to Supabase (optional)
+        if sync_supabase:
+            logger.info(f"[Pipeline] Step 6: Syncing to Supabase")
+            
+            from scripts.sync_to_supabase import sync_date
+            
+            supabase_result = sync_date(today)
+            result["supabase_info"] = supabase_result
+            logger.info(f"[Pipeline] Supabase sync completed: {supabase_result['success']} stocks")
+        
         result["success"] = True
         mode_str = "shard" if use_shards else "single-file"
         logger.info(f"[Pipeline] Pipeline completed successfully ({mode_str} mode). Found {result['stocks_found']} stocks.")
@@ -290,14 +303,14 @@ Examples:
   # Basic usage (默认使用分片存储)
   python scripts/pipeline.py --url "https://mp.weixin.qq.com/s/..."
   
-  # With Firestore sync
-  python scripts/pipeline.py --url "https://mp.weixin.qq.com/s/..." --sync-firestore
+  # With Supabase sync (推荐)
+  python scripts/pipeline.py --url "https://mp.weixin.qq.com/s/..." --sync-supabase
   
-  # With GitHub sync (分片模式)
-  python scripts/pipeline.py --url "https://mp.weixin.qq.com/s/..." --sync-github
+  # With GitHub + Supabase sync
+  python scripts/pipeline.py --url "https://mp.weixin.qq.com/s/..." --sync-github --sync-supabase
   
   # Full pipeline with all syncs
-  python scripts/pipeline.py --url "https://mp.weixin.qq.com/s/..." --sync-firestore --sync-github
+  python scripts/pipeline.py --url "https://mp.weixin.qq.com/s/..." --sync-firestore --sync-github --sync-supabase
   
   # Non-headless mode (for first-time login)
   python scripts/pipeline.py --url "https://mp.weixin.qq.com/s/..." --no-headless
@@ -313,6 +326,7 @@ Examples:
     parser.add_argument("--url", required=True, help="WeChat article URL")
     parser.add_argument("--sync-firestore", action="store_true", help="Sync to Firestore")
     parser.add_argument("--sync-github", action="store_true", help="Sync to GitHub")
+    parser.add_argument("--sync-supabase", action="store_true", help="Sync to Supabase (PostgreSQL)")
     parser.add_argument("--no-headless", action="store_true", help="Show browser window")
     parser.add_argument("--timeout", type=int, default=300, help="Browser timeout (seconds)")
     parser.add_argument("--config", help="Path to config file")
@@ -332,6 +346,7 @@ Examples:
         url=args.url,
         sync_firestore=args.sync_firestore,
         sync_github=args.sync_github,
+        sync_supabase=args.sync_supabase,
         headless=not args.no_headless,
         timeout=args.timeout,
         use_shards=not args.no_shards,
