@@ -647,70 +647,58 @@ groups = []
 _data_loaded = False
 
 def load_all_data():
-    """加载所有数据（懒加载）- 本地优先，Firebase 补充"""
+    """加载所有数据（懒加载）- Vercel走Supabase，本地走文件"""
     global stocks, concepts, hot_topics, _data_loaded
     
     if _data_loaded:
         return
     
     print("📋 开始加载数据...")
+    is_vercel = 'VERCEL' in os.environ
     
     try:
-        # 1. 优先从本地 master 文件加载（最快）
-        print("📋 从本地 stocks_master.json 加载...")
-        try:
-            loaded_stocks, loaded_concepts = load_data_from_local()
-            if loaded_stocks:
-                stocks.update(loaded_stocks)
-                concepts.update(loaded_concepts)
-                print(f"  ✅ 本地加载成功：{len(loaded_stocks)} 只股票")
-        except Exception as e:
-            print(f"  ⚠️ 本地加载失败：{e}")
-        
-        # 2. 尝试从云端补充最新数据（Supabase 或 Firebase）
-        cloud_sources = [
-            ("Supabase", load_data_from_supabase),
-            ("Firebase", load_data_from_firebase),
-        ]
-        if stocks:
-            for name, loader in cloud_sources:
-                print(f"📋 尝试从 {name} 补充数据...")
-                try:
-                    cloud_stocks, cloud_concepts = loader()
-                    if cloud_stocks:
-                        new_count = 0
-                        updated_count = 0
-                        for code, fb_stock in cloud_stocks.items():
-                            fb_updated = fb_stock.get('last_updated', '')
-                            local_stock = stocks.get(code)
-                            if local_stock is None:
-                                stocks[code] = fb_stock
-                                new_count += 1
-                            else:
-                                local_updated = local_stock.get('last_updated', '')
-                                if fb_updated > local_updated:
-                                    stocks[code] = fb_stock
-                                    updated_count += 1
-                        concepts.update(cloud_concepts)
-                        print(f"  ✅ {name} 补充成功：{new_count} 只新股票，{updated_count} 只已更新")
-                        break  # 有一个云源成功即可
+        # ─── Vercel: 直接从 Supabase 加载（不打包 JSON，解决 Lambda 体积问题） ───
+        if is_vercel:
+            print("📋 Vercel 环境：直接从 Supabase 加载...")
+            supabase_stocks, supabase_concepts = load_data_from_supabase()
+            if supabase_stocks:
+                stocks.update(supabase_stocks)
+                concepts.update(supabase_concepts)
+                print(f"  ✅ Supabase 加载成功：{len(supabase_stocks)} 只股票")
+            else:
+                print("  ⚠️ Supabase 加载失败，尝试 Firebase...")
+                fb_stocks, fb_concepts = load_data_from_firebase()
+                if fb_stocks:
+                    stocks.update(fb_stocks)
+                    concepts.update(fb_concepts)
+                else:
+                    print("  ⚠️ 所有云端源加载失败，尝试本地回退...")
+                    loaded_stocks, loaded_concepts = load_data_from_local()
+                    if loaded_stocks:
+                        stocks.update(loaded_stocks)
+                        concepts.update(loaded_concepts)
                     else:
-                        print(f"  ⚠️ {name} 数据为空")
-                except Exception as e:
-                    print(f"  ⚠️ {name} 加载失败：{e}")
+                        print("  ❌ 所有数据源加载失败")
         else:
-            # 本地加载失败，尝试云端
-            for name, loader in cloud_sources:
-                print(f"📋 本地加载失败，尝试从 {name} 加载...")
-                try:
-                    cloud_stocks, cloud_concepts = loader()
-                    if cloud_stocks:
-                        stocks.update(cloud_stocks)
-                        concepts.update(cloud_concepts)
-                        print(f"  ✅ {name} 加载成功：{len(cloud_stocks)} 只股票")
-                        break
-                except Exception as e:
-                    print(f"  ⚠️ {name} 加载失败：{e}")
+            # ─── 本地/Docker: 优先本地文件（最快） ───
+            print("📋 从本地 stocks_master.json 加载...")
+            try:
+                loaded_stocks, loaded_concepts = load_data_from_local()
+                if loaded_stocks:
+                    stocks.update(loaded_stocks)
+                    concepts.update(loaded_concepts)
+                    print(f"  ✅ 本地加载成功：{len(loaded_stocks)} 只股票")
+            except Exception as e:
+                print(f"  ⚠️ 本地加载失败：{e}")
+            
+            # 尝试从 Supabase 补充
+            if not stocks:
+                print("📋 本地无数据，尝试 Supabase...")
+                supabase_stocks, supabase_concepts = load_data_from_supabase()
+                if supabase_stocks:
+                    stocks.update(supabase_stocks)
+                    concepts.update(supabase_concepts)
+                    print(f"  ✅ Supabase 加载成功：{len(supabase_stocks)} 只股票")
         
         # 3. 加载热点数据（本地优先）
         if HOT_TOPICS_FILE.exists():
