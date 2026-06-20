@@ -3,7 +3,7 @@ name: wechat-fetch-research-embedded
 description: 把微信公众号文章链接转成可结构化投研素材并沉淀到 JSON 数据库的工作流技能（v2.4）。内置《全部个股.xls》和《数据结构规范_v2》，支持 Docker 部署和 Celery 队列。适用场景：你给出一个或多个 mp.weixin.qq.com 链接，需要（1）可靠读取公众号正文并落盘 raw_material；（2）从 raw_material 识别提到的个股（自动映射内置 stock list）；（3）按内置《数据结构规范_v2》执行 5 维度抽取（industry_background/accidents/insights/key_metrics/target_valuation）+ 轻量模式合并第一层信息；（4）**增量合并到按日期分片的 JSON 文件**；（5）可选同步到 Firestore/GitHub 分片。
 ---
 
-# wechat-fetch-research-embedded (v2.4)
+# wechat-fetch-research-embedded (v2.5)
 
 > ⚠️ **重要路径说明**：本技能输出到 `data/stocks/` 目录（前端读取），**不是** `data/master/`。详见下方目录约定。
 
@@ -21,6 +21,18 @@ description: 把微信公众号文章链接转成可结构化投研素材并沉�
 - （可选）同步到 GitHub
 
 > 数据结构以 `references/数据结构规范_v2.md` 为准。
+
+---
+
+## v2.5 变更说明
+
+### 代码质量优化
+- **共享合并模块** `merge_utils.py`：消除 6 个脚本中重复的文章去重/字段合并/分片读写逻辑
+- **路径统一**：所有脚本输出到 `data/stocks/`（废弃 `data/master/`）
+- **安全修复**：移除 `.env.example` 中硬编码的 R2 真实凭证
+- **清理冗余**：删除 `{data,raw_material}` 残留目录
+- **脚本归档**：一次性脚本（merge_harmony/merge_articles/add_*）移至 `scripts/archived/`
+- **merge_new_stocks.py** 重构为使用 merge_utils，代码量减少 40%
 
 ---
 
@@ -413,7 +425,7 @@ python scripts/merge_new_stocks.py
 ## Step 3（可选）：同步 JSON 到 Firebase Firestore
 
 ```bash
-python sync_to_firebase.py \
+python sync_to_firestore.py \
   --credentials ".trae/rules/firebase-credentials.json" \
   --json "data/stocks/stocks_master.json" \
   --on_exists merge
@@ -480,17 +492,19 @@ python scripts/pipeline.py \
 
 | 脚本 | 功能 | 版本 |
 |------|------|------|
-| `scripts/pipeline.py` | **统一 Pipeline**（集成全流程） | v2.0 |
-| `scripts/merge_new_stocks.py` | **⭐ 合并到主数据**（推荐，前端可见） | v2.3 NEW |
-| `scripts/incremental_update.py` | **旧版合并**（写入 skill 内部目录，前端不可见） | v2.0 |
-| `scripts/process_article.py` | **AI 辅助全流程**（提取+映射+合并） | v2.2 |
+| `scripts/pipeline.py` | **统一 Pipeline**（集成全流程） | v2.5 |
+| `scripts/merge_new_stocks.py` | **⭐ 合并到主数据**（推荐，使用 merge_utils） | v2.5 |
+| `scripts/merge_utils.py` | **共享合并模块**（消除重复逻辑） | v2.5 NEW |
+| `scripts/incremental_update.py` | **增量更新**（按日期分片维护） | v2.5 |
 | `scripts/map_industry_concept.py` | **批量更新行业/概念**（从同花顺映射） | v2.2 |
-| `scripts/sync_to_github.py` | **GitHub 同步** | v2.0 |
+| `scripts/sync_to_github.py` | **GitHub 同步** | v2.5 |
 | `scripts/fetch_wechat_to_raw_material.py` | 正文落盘为 raw_material | v1.x |
 | `scripts/fetch_wechat_via_browser_dom.py` | 浏览器 DOM 抽取全文 | v1.x |
 | `scripts/extract_stocks_from_raw_material.py` | LLM 抽取个股信息 | v1.x |
 | `scripts/sync_to_firestore.py` | 同步到 Firestore | v1.x |
 | `scripts/sync_to_r2.py` | 同步到 Cloudflare R2 | v1.x |
+| `scripts/process_article.py` | AI 辅助提取（手动调用） | v2.2 |
+| `scripts/archived/` | 一次性/已废弃脚本归档 | — |
 
 ---
 

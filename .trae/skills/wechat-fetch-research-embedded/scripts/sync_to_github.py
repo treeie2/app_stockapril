@@ -13,7 +13,7 @@
     # 分片模式 (推荐)
     python scripts/sync_to_github.py \
       --mode shard \
-      --base-dir "data/master" \
+      --base-dir "data/stocks" \
       --github-token "$GITHUB_TOKEN"
     
     # 单文件模式 (旧)
@@ -25,7 +25,7 @@
     # 全量同步 (分片 + 索引 + 主文件)
     python scripts/sync_to_github.py \
       --mode full \
-      --base-dir "data/master" \
+      --base-dir "data/stocks" \
       --github-token "$GITHUB_TOKEN"
 """
 
@@ -248,7 +248,7 @@ class GitHubSyncer:
         """同步最近 N 天的分片文件和索引
         
         Args:
-            base_dir: 本地 data/master 目录路径
+            base_dir: 本地 data/stocks 目录路径
             days: 同步最近几天的分片（默认1=仅今天）
             
         Returns:
@@ -381,14 +381,14 @@ Examples:
     parser.add_argument("--github-token", required=True, help="GitHub Personal Access Token")
     parser.add_argument("--github-repo", default="treeie2/app_stockapril", help="GitHub 仓库名")
     parser.add_argument("--branch", default="main", help="分支名 (默认: main)")
-    parser.add_argument("--base-dir", default=None, help="基础目录 (默认: skill/data/master)")
+    parser.add_argument("--base-dir", default=None, help="基础目录 (默认: data/stocks)")
     parser.add_argument("--json", default=None, help="JSON 文件路径 (mode=single)")
     parser.add_argument("--days", type=int, default=1, help="同步最近N天分片 (默认: 1)")
     
     args = parser.parse_args()
     
     if args.base_dir is None:
-        args.base_dir = str(Path(__file__).parent.parent / "data" / "master")
+        args.base_dir = str(Path(__file__).parent.parent.parent.parent.parent / "data" / "stocks")
     
     print("[START] 开始 GitHub 同步...")
     print(f"   模式: {args.mode}")

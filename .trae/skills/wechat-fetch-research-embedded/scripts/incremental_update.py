@@ -3,11 +3,10 @@
 """增量更新机制 - 将抽取结果按日期分片存储并维护索引
 
 数据架构:
-  data/master/
+  data/stocks/
   ├── stocks_index.json           # 索引文件（股票代码列表和最后更新时间）
-  ├── stocks_master.json          # 主文件（完整数据，可选备份）
-  └── stocks/
-      ├── 2026-04-17.json        # 按日期分片存储
+  ├── stocks_master.json          # 主文件（完整前端读取）
+  └── 2026-04-17.json             # 按日期分片存储
       ├── 2026-04-16.json
       └── ...
 
@@ -43,9 +42,9 @@ class IncrementalUpdater:
         if base_dir:
             self.base_dir = Path(base_dir)
         else:
-            self.base_dir = Path(__file__).parent.parent / "data" / "master"
+            self.base_dir = Path(__file__).parent.parent.parent.parent.parent / "data" / "stocks"
         
-        self.stocks_dir = self.base_dir / "stocks"
+        self.stocks_dir = self.base_dir
         self.index_file = self.base_dir / "stocks_index.json"
         self.master_file = self.base_dir / "stocks_master.json"
         self.terminal = terminal  # 终端标识

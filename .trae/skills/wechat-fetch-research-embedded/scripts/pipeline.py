@@ -209,7 +209,7 @@ def run_pipeline(
             
             from scripts.incremental_update import IncrementalUpdater
             
-            master_base_dir = Path(config.data_dir).parent / "master"
+            master_base_dir = Path(config.data_dir).parent / "stocks"
             updater = IncrementalUpdater(base_dir=str(master_base_dir), terminal=terminal)
             
             shard_stats = updater.merge_from_json(str(stocks_file))

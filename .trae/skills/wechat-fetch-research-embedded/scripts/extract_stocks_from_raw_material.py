@@ -463,23 +463,9 @@ SIGNAL_KEYWORDS = [
 ]
 
 
-def is_valid_stock_context(text_block: str) -> bool:
-    """判断包含股票的文本块是否具有提取价值。
-
-    规则：
-    1. 长度 < 30 字符 → 大概率一笔带过 → 拒绝
-    2. 包含至少 1 个信号关键词 → 放行
-    3. 长度 > 100 字符 → 有足够上下文 → 放行
-    """
-    text = text_block.strip()
-    if len(text) < 30:
-        return False
-
-    keyword_matches = sum(1 for kw in SIGNAL_KEYWORDS if kw in text)
-    if keyword_matches >= 1 or len(text) > 100:
-        return True
-    return False
-
+# NOTE: is_valid_stock_context() removed in v2.5 — the 第一道防线 logic
+# was redundant with AI prompt filtering (第二防线) + post-processing (第三防线).
+# The SIGNAL_KEYWORDS list is kept for reference.
 
 # ---------------------------
 # Quality Filtering
