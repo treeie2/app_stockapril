@@ -1,9 +1,9 @@
 ---
 name: wechat-fetch-research-embedded
-description: 把微信公众号文章链接转成可结构化投研素材并沉淀到 JSON 数据库的工作流技能（v2.8）。内置《全部个股.xls》和《数据结构规范_v2》，支持 Docker 部署。适用场景：你给出一个或多个 mp.weixin.qq.com 链接，需要（1）可靠读取公众号正文并落盘 raw_material；（2）从 raw_material 识别提到的个股（自动映射内置 stock list）；（3）按内置《数据结构规范_v2》执行 5 维度抽取；（4）**增量合并到按日期分片的 JSON 文件**；（5）同步到 GitHub；（6）增量同步到 Supabase PostgreSQL。
+description: 把微信公众号文章链接转成可结构化投研素材并沉淀到 JSON 数据库的工作流技能（v2.9）。内置《全部个股.xls》和《数据结构规范_v2》，支持 Docker 部署。适用场景：你给出一个或多个 mp.weixin.qq.com 链接，需要（1）可靠读取公众号正文并落盘 raw_material；（2）从 raw_material 识别提到的个股（自动映射内置 stock list）；（3）按内置《数据结构规范_v2》执行 5 维度抽取；（4）**增量合并到按日期分片的 JSON 文件**；（5）同步到 GitHub；（6）增量同步到 Supabase PostgreSQL。
 ---
 
-# wechat-fetch-research-embedded (v2.8)
+# wechat-fetch-research-embedded (v2.9)
 
 > ⚠️ **重要路径说明**：本技能输出到 `data/stocks/` 目录（前端读取），**不是** `data/master/`。详见下方目录约定。
 
@@ -24,6 +24,14 @@ description: 把微信公众号文章链接转成可结构化投研素材并沉�
 > 数据结构以 `references/数据结构规范_v2.md` 为准。
 
 ---
+
+## v2.9 变更说明
+
+### stocks_master.json.gz 自动生成
+- **merge_new_stocks.py** 保存主文件时自动生成 `.json.gz` 压缩版（914KB vs 5MB）
+- **Vercel 优先读取 `.gz`**：节省部署空间，加载更快
+- **merge_utils.py** 新增 `_save_gz()` 函数
+- **已修复**：历史 gz 损坏（60KB）导致 Vercel 只读到 3360 stocks → 重新生成为 914KB/3506 stocks
 
 ## v2.8 变更说明
 
@@ -601,6 +609,7 @@ python scripts/pipeline.py \
 9. **⭐ v2.4 轻量模式**：`__THIN__` 或投研内容不足的个股不会写入 article，但仍会静默合并第一层字段（products/core_business/industry_position/chain/partners），mention_count 不变。
 10. **⭐ v2.6 Supabase 同步**：需要 `pip install supabase`。使用 `--sync-supabase` 可选参数增量同步当日数据。独立全量同步：`python scripts/sync_to_supabase.py --full`。
 11. **⭐ v2.8 日期格式**：所有日期统一为 `YYYY-MM-DD`（如 `2026-06-20`）。禁止 YYYYMMDD、YYYY/MM/DD、MM.DD。merge_new_stocks.py 合并后自动规范化。手动修复：`python scripts/normalize_dates.py`。
+12. **⭐ v2.9 json.gz 文件**：Vercel 优先读取 `stocks_master.json.gz`（压缩版），`merge_new_stocks.py` 合并后自动生成。如 gz 损坏导致数据异常，运行 `python _regz.py` 重新生成。
 
 ---
 

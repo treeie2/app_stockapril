@@ -134,12 +134,24 @@ def load_master(project_root: Path) -> Dict:
 
 
 def save_master(project_root: Path, master: Dict) -> Path:
-    """保存主数据文件。返回文件路径。"""
+    """保存主数据文件。同时自动生成 .json.gz 压缩版供 Vercel 读取。返回文件路径。"""
     path = project_root / 'data' / 'stocks' / 'stocks_master.json'
     path.parent.mkdir(parents=True, exist_ok=True)
     with open(path, 'w', encoding='utf-8') as f:
         json.dump(master, f, ensure_ascii=False, indent=2)
+    # 自动生成 gz 压缩版
+    _save_gz(path)
     return path
+
+
+def _save_gz(json_path: Path) -> Path:
+    """生成 json.gz 压缩版（Vercel 部署优先读取 .gz 节省空间）。"""
+    import gzip
+    gz_path = json_path.with_suffix(json_path.suffix + '.gz')
+    with open(json_path, 'r', encoding='utf-8') as f_in:
+        with gzip.open(gz_path, 'wt', encoding='utf-8', compresslevel=9) as f_out:
+            f_out.write(f_in.read())
+    return gz_path
 
 
 def load_or_create_shard(project_root: Path, date_str: str) -> Dict:
