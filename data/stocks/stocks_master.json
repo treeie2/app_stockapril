@@ -1028,7 +1028,13 @@
       "code": "600460",
       "board": "SH",
       "industry": "电子-半导体-集成电路",
-      "concepts": [],
+      "concepts": [
+        "AI数据中心",
+        "DrMOS",
+        "IDM",
+        "功率半导体",
+        "半导体设备"
+      ],
       "products": [
         "AI电源管理芯片",
         "AI电源管理芯片（PMIC）",
@@ -1036,18 +1042,26 @@
         "功率分立器件（IGBT、MOSFET）"
       ],
       "core_business": [
+        "AI数据中心供电半导体方案",
+        "DrMOS研发与销售",
+        "Efuse产品",
         "功率半导体和AI电源管理芯片的设计与制造。",
         "半导体产品的设计、制造与销售。",
         "半导体器件的研发、生产和销售",
-        "半导体器件的设计、制造和销售，包括功率器件和AI电源管理芯片"
+        "半导体器件的设计、制造和销售，包括功率器件和AI电源管理芯片",
+        "多相控制器"
       ],
-      "industry_position": [],
+      "industry_position": [
+        "DrMOS领域核心厂商",
+        "IDM模式功率半导体龙头"
+      ],
       "chain": [
         "中游-芯片制造",
-        "中游-芯片设计制造"
+        "中游-芯片设计制造",
+        "半导体-集成电路-IDM"
       ],
       "partners": [],
-      "mention_count": 1,
+      "mention_count": 4,
       "articles": [
         {
           "title": "今天的一些信息整理6.20",
@@ -1066,9 +1080,33 @@
             "全球主要功率半导体公司资本支出今年仅小幅增长约11%。"
           ],
           "target_valuation": []
+        },
+        {
+          "url": "https://mp.weixin.qq.com/s/WmuLWN7UTANYX2DjzRxthA",
+          "title": "士兰微布局AI数据中心供电的全链路半导体解决方案",
+          "source": "微信公众号",
+          "content": "士兰微布局AI数据中心供电的全链路半导体解决方案，新产品包括DrMOS、Efuse、多相控制器。DrMOS本质上是Driver+MOSFET。士兰微是DrMOS领域核心厂商，最大的优势是IDM，不管是模拟电路还是功率元器件，都有可靠的落地能力。功率和模拟电路技术协同，公司核心优势是IDM模式，在BCD工艺上积累深厚。JHT呼声大，但并不非没有对手，乾坤未定，你我皆是黑马。从估值层面来看，目前头部的几个DrMOS厂商其DrMOS收入占比也很小，士兰微有很大的预期差，估值参考JHT。",
+          "article_id": "7b90400ac3e4dcee",
+          "published_at": "2026-06-21"
+        },
+        {
+          "url": "https://mp.weixin.qq.com/s/m8Lw0yYQdXZaQmt929jR4g",
+          "title": "士兰微DrMOS深度：AI数据中心供电方案续篇",
+          "source": "微信公众号",
+          "content": "士兰微布局AI数据中心供电的全链路半导体解决方案，新产品包括DrMOS、Efuse、多相控制器。DrMOS本质上是Driver+MOSFET。士兰微是DrMOS领域核心厂商，最大的优势是IDM，不管是模拟电路还是功率元器件，都有可靠的落地能力。功率和模拟电路技术协同，公司核心优势是IDM模式，在BCD工艺上积累深厚。JHT呼声大，但并不非没有对手，乾坤未定，你我皆是黑马。从估值层面来看，目前头部的几个DrMOS厂商其DrMOS收入占比也很小，士兰微有很大的预期差，估值参考JHT。",
+          "article_id": "238b08018ce0151f",
+          "published_at": "2026-06-21"
+        },
+        {
+          "url": "https://mp.weixin.qq.com/s/1R43BqAV1IES5X7NwT8w6w",
+          "title": "士兰微AI数据中心供电方案：DrMOS/Efuse/多相控制器全解析",
+          "source": "微信公众号",
+          "content": "士兰微布局AI数据中心供电的全链路半导体解决方案，新产品包括DrMOS、Efuse、多相控制器。DrMOS本质上是Driver+MOSFET。士兰微是DrMOS领域核心厂商，最大的优势是IDM，不管是模拟电路还是功率元器件，都有可靠的落地能力。功率和模拟电路技术协同，公司核心优势是IDM模式，在BCD工艺上积累深厚。JHT呼声大，但并不非没有对手，乾坤未定，你我皆是黑马。从估值层面来看，目前头部的几个DrMOS厂商其DrMOS收入占比也很小，士兰微有很大的预期差，估值参考JHT。",
+          "article_id": "92670b00bac393ce",
+          "published_at": "2026-06-21"
         }
       ],
-      "last_updated": "2026-06-20"
+      "last_updated": "2026-06-21"
     },
     "603206": {
       "name": "嘉环科技",
