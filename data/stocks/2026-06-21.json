@@ -1,6 +1,6 @@
 {
   "date": "2026-06-21",
-  "update_count": 14,
+  "update_count": 15,
   "stocks": {
     "600460": {
       "name": "士兰微",
@@ -675,6 +675,59 @@
             "2025年归母净利润扭亏为盈"
           ],
           "target_valuation": []
+        }
+      ]
+    },
+    "002916": {
+      "name": "深南电路",
+      "code": "002916",
+      "board": "SZ",
+      "industry": "电子-元件-印制电路板",
+      "concepts": [],
+      "products": [
+        "FC-BGA基板",
+        "高层数PCB",
+        "高阶HDI"
+      ],
+      "core_business": [
+        "印制电路板（PCB）的研发、生产和销售"
+      ],
+      "industry_position": [
+        "国内领先的PCB制造商，在高阶HDI和服务器用高层板领域具备技术优势"
+      ],
+      "chain": [
+        "中游-印制电路板制造"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "深南电路：拟募资48.8亿扩建AI PCB产能",
+          "date": "2026-06-21",
+          "source": "https://mp.weixin.qq.com/s/8ONvwXxRq8j0D7lHfeva7Q",
+          "industry_background": [
+            "AI服务器、800G/1.6T光模块驱动高阶HDI/高层板需求"
+          ],
+          "accidents": [
+            "拟募资48.8亿元，其中36亿元用于无锡AI服务器高层数PCB扩产项目（总投资45亿元）",
+            "广州FC-BGA基板一期项目盈亏平衡时间点提前至2026年",
+            "承诺2026-2028年现金分红不低于归母净利润的20%"
+          ],
+          "insights": [
+            "花旗维持买入评级",
+            "目标价360元，对应2027年38倍PE"
+          ],
+          "key_metrics": [
+            "募资总额48.8亿元",
+            "无锡项目总投资45亿元",
+            "目标价360元",
+            "2027年PE 38倍",
+            "分红承诺不低于归母净利润20%"
+          ],
+          "target_valuation": [
+            "目标价360元",
+            "2027年38倍PE"
+          ]
         }
       ]
     }

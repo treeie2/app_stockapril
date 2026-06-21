@@ -153,16 +153,18 @@
     },
     "002916": {
       "core_business": [
-        "服务器高阶PCB制造",
         "PCB、封装基板光模块 PCB 供应高端 PCB 研发生产",
-        "PCB制造。"
+        "PCB制造。",
+        "印制电路板（PCB）的研发、生产和销售",
+        "服务器高阶PCB制造"
       ],
-      "last_updated": "2026-06-10",
+      "last_updated": "2026-06-21",
       "industry_position": [
-        "头部PCB供应链的重要成员。",
-        "国内PCB龙头",
-        "PCB行业排名第三（PCBTop3）",
         "FSD域控制器PCB供应商",
+        "PCB行业排名第三（PCBTop3）",
+        "国内PCB龙头",
+        "国内领先的PCB制造商，在高阶HDI和服务器用高层板领域具备技术优势",
+        "头部PCB供应链的重要成员。",
         "服务器高阶PCB龙头"
       ],
       "valuation": {},
@@ -188,7 +190,7 @@
         "华为概念"
       ],
       "code": "002916",
-      "mention_count": 5,
+      "mention_count": 7,
       "partners": [
         "鼎泰高科",
         "光模块龙头厂商"
@@ -323,22 +325,54 @@
           ],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "title": "深南电路：拟募资48.8亿扩建AI PCB产能",
+          "date": "2026-06-21",
+          "source": "https://mp.weixin.qq.com/s/8ONvwXxRq8j0D7lHfeva7Q",
+          "industry_background": [
+            "AI服务器、800G/1.6T光模块驱动高阶HDI/高层板需求"
+          ],
+          "accidents": [
+            "拟募资48.8亿元，其中36亿元用于无锡AI服务器高层数PCB扩产项目（总投资45亿元）",
+            "广州FC-BGA基板一期项目盈亏平衡时间点提前至2026年",
+            "承诺2026-2028年现金分红不低于归母净利润的20%"
+          ],
+          "insights": [
+            "花旗维持买入评级",
+            "目标价360元，对应2027年38倍PE"
+          ],
+          "key_metrics": [
+            "募资总额48.8亿元",
+            "无锡项目总投资45亿元",
+            "目标价360元",
+            "2027年PE 38倍",
+            "分红承诺不低于归母净利润20%"
+          ],
+          "target_valuation": [
+            "目标价360元",
+            "2027年38倍PE"
+          ]
         }
       ],
       "board": "SZ",
       "products": [
-        "mSAP PCB",
-        "IC 载板",
         "1.6T 光模块 PCB",
-        "服务器高阶PCB",
+        "ABF载板",
+        "FC-BGA基板",
+        "IC 载板",
         "PCB",
-        "ABF载板"
+        "mSAP PCB",
+        "服务器高阶PCB",
+        "高层数PCB",
+        "高阶HDI"
       ],
       "chain": [
-        "中游 - PCB 制造",
         "下游-电子制造",
+        "中游 - PCB 制造",
+        "中游-PCB",
         "中游-PCB制造",
-        "中游-PCB"
+        "中游-印制电路板制造"
       ],
       "name": "深南电路",
       "processed_by": "tbox",
