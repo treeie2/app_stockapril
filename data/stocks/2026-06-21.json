@@ -1,6 +1,6 @@
 {
   "date": "2026-06-21",
-  "update_count": 16,
+  "update_count": 17,
   "stocks": {
     "600460": {
       "name": "士兰微",
@@ -781,6 +781,51 @@
             "计划投资2.5亿新建1000吨产线",
             "铝电解电容隔膜毛利率30%-40%",
             "风电叶片2026年收入约120亿"
+          ],
+          "target_valuation": []
+        }
+      ]
+    },
+    "603206": {
+      "name": "嘉环科技",
+      "code": "603206",
+      "board": "SH",
+      "industry": "通信-技术服务",
+      "concepts": [],
+      "products": [
+        "ICT技术服务",
+        "数智化服务"
+      ],
+      "core_business": [
+        "深耕ICT技术服务20余年"
+      ],
+      "industry_position": [
+        "深度绑定华为与三大运营商"
+      ],
+      "chain": [],
+      "partners": [
+        "三大运营商",
+        "华为"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "嘉环科技：华为算力+AI智算+DeepSeek，通信外包向数智全栈交付转型",
+          "date": "2026-06-21",
+          "source": "https://mp.weixin.qq.com/s/JBEAE8iKLdYPXIUO7yvdOg",
+          "industry_background": [],
+          "accidents": [
+            "正向政企数智化、AI算力运营转型"
+          ],
+          "insights": [
+            "深耕ICT技术服务20余年，深度绑定华为与三大运营商",
+            "短期受华为+AI算力概念驱动，中期需验证利润止跌回升，长期取决于商业模式升级"
+          ],
+          "key_metrics": [
+            "25年营收46.85亿+4.58%",
+            "归母5323万-23.3%",
+            "经营现金流转正至4.50亿",
+            "当前PE约122倍"
           ],
           "target_valuation": []
         }
