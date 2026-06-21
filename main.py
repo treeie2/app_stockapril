@@ -1127,6 +1127,10 @@ def groups_list():
 @app.route('/group/<group_id>')
 def group_detail(group_id):
     """分组详情页"""
+    # Vercel 可能存在两次 URL 编码，先解码
+    from urllib.parse import unquote
+    group_id = unquote(unquote(group_id))
+    
     load_all_data()  # 确保 stocks 已加载
     load_groups_data()
     
@@ -2319,20 +2323,36 @@ def _stock_name_to_code(name):
     return ''
 
 def load_groups_data():
-    """加载分组数据"""
+    """加载分组数据（Vercel 下本地文件缺失时自动回退 GitHub raw）"""
     global groups
     try:
         if GROUPS_FILE.exists():
             with open(GROUPS_FILE, 'r', encoding='utf-8') as f:
                 groups_data = json.load(f)
                 groups = groups_data.get('groups', [])
-            print(f"📊 加载分组数据：{len(groups)} 个分组")
+            print(f"📊 加载分组数据（本地）：{len(groups)} 个分组")
         else:
             groups = []
-            print(f"📊 分组文件不存在，使用空列表")
+            print(f"📊 分组文件不存在：{GROUPS_FILE}")
     except Exception as e:
         print(f"⚠️ 加载分组数据失败：{e}")
         groups = []
+    
+    # Vercel fallback：本地加载失败时从 GitHub raw 加载
+    if not groups and 'VERCEL' in os.environ:
+        print("📋 Vercel: 本地 groups 为空，尝试 GitHub raw...")
+        try:
+            import time as _t, random as _r
+            gh_url = (f"https://raw.githubusercontent.com/treeie2/app_stockapril/main/"
+                     f"data/groups/groups.json?t={int(_t.time())}&r={_r.randint(0,99999)}")
+            r = requests.get(gh_url, timeout=20, headers={"Cache-Control": "no-cache"})
+            r.raise_for_status()
+            data = json.loads(r.text)
+            groups = data.get('groups', [])
+            print(f"  ✅ GitHub raw: {len(groups)} 个分组")
+        except Exception as e:
+            print(f"  ⚠️ GitHub raw 也失败: {e}")
+            groups = []
 
 def save_groups():
     """保存分组数据到文件"""
@@ -2576,6 +2596,7 @@ def api_debug():
     global _data_loaded, stocks
     _data_loaded = False
     load_hot_topics_only()
+    load_groups_data()
     hot_file = HOT_TOPICS_FILE
     result = {
         'base_dir': str(BASE_DIR),
@@ -2584,6 +2605,9 @@ def api_debug():
         'hot_topics_exists': hot_file.exists(),
         'hot_topics_count': len(hot_topics),
         'stocks_count': len(stocks),
+        'groups_file': str(GROUPS_FILE),
+        'groups_exists': GROUPS_FILE.exists(),
+        'groups_count': len(groups),
         'data_loaded': _data_loaded,
         'vercel': 'VERCEL' in os.environ,
         'python_version': sys.version,
