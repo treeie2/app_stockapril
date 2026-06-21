@@ -1428,6 +1428,23 @@ def stock_detail(code):
                 'color_rgb': color_rgb
             })
     
+    # 查找股票所属分组
+    load_groups_data()
+    stock_groups = []
+    stock_name = d.get('name', '')
+    for group in groups:
+        if stock_name in group.get('stocks', []):
+            color = group.get('color', '#6366f1')
+            stock_groups.append({
+                'id': group.get('id', ''),
+                'name': group.get('name', ''),
+                'category': group.get('category', ''),
+                'icon': group.get('icon', '📁'),
+                'color': color,
+                'color_rgb': ','.join(str(int(color[i:i+2], 16)) for i in (1,3,5))
+            })
+    stock['groups'] = stock_groups
+    
     return render_template('stock_detail.html', stock=stock)
 
 @app.route('/concepts')
