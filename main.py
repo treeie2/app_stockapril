@@ -1119,6 +1119,11 @@ def api_stock_prices():
     codes = [c.strip() for c in codes_str.split(',') if c.strip()]
     return jsonify(_fetch_prices(codes))
 
+@app.route('/groups')
+def groups_list():
+    """所有分组列表页"""
+    return render_template('groups.html')
+
 @app.route('/group/<group_id>')
 def group_detail(group_id):
     """分组详情页"""
