@@ -1,6 +1,6 @@
 {
   "date": "2026-06-21",
-  "update_count": 1,
+  "update_count": 8,
   "stocks": {
     "600460": {
       "name": "士兰微",
@@ -73,6 +73,342 @@
         "半导体-集成电路-IDM"
       ],
       "partners": []
+    },
+    "000625": {
+      "name": "长安汽车",
+      "code": "000625",
+      "board": "SZ",
+      "industry": "汽车",
+      "concepts": [],
+      "products": [
+        "人形机器人",
+        "汽车",
+        "自动驾驶系统"
+      ],
+      "core_business": [
+        "汽车制造与销售"
+      ],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "2026-06-19 机构调研汇总",
+          "date": "2026-06-21",
+          "source": "https://mp.weixin.qq.com/s/XFjaRsT-JFGPRvDCvalNVg",
+          "industry_background": [],
+          "accidents": [
+            "2030年海外销量目标150万辆",
+            "2025年海外出口63.7万辆，同比增长18.9%，覆盖118个国家",
+            "天枢智能机器人公司于2026年3月成立，布局全尺寸/中型/小型人形机器人",
+            "天枢领航系统（L3自动驾驶）上路试点"
+          ],
+          "insights": [
+            "全球化战略加速"
+          ],
+          "key_metrics": [
+            "2030年海外销量目标150万辆",
+            "2025年海外出口63.7万辆，同比+18.9%",
+            "覆盖118个国家"
+          ],
+          "target_valuation": []
+        }
+      ]
+    },
+    "000725": {
+      "name": "京东方A",
+      "code": "000725",
+      "board": "SZ",
+      "industry": "电子-显示器件",
+      "concepts": [],
+      "products": [
+        "AMOLED显示面板",
+        "玻璃基封装载板",
+        "钙钛矿"
+      ],
+      "core_business": [
+        "半导体显示器件及物联网创新业务"
+      ],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "2026-06-19 机构调研汇总",
+          "date": "2026-06-21",
+          "source": "https://mp.weixin.qq.com/s/XFjaRsT-JFGPRvDCvalNVg",
+          "industry_background": [],
+          "accidents": [
+            "第8.6代AMOLED产线于2026年6月17日量产，为国内首条",
+            "玻璃基封装载板完成全流程工艺拉通，已进入客户送样",
+            "钙钛矿效率达27.61%（手套箱），创4项世界纪录"
+          ],
+          "insights": [
+            "__THIN__"
+          ],
+          "key_metrics": [
+            "钙钛矿效率27.61%",
+            "创4项世界纪录"
+          ],
+          "target_valuation": []
+        }
+      ]
+    },
+    "300054": {
+      "name": "鼎龙股份",
+      "code": "300054",
+      "board": "SZ",
+      "industry": "电子-半导体材料",
+      "concepts": [],
+      "products": [
+        "CMP抛光垫",
+        "板级封装材料"
+      ],
+      "core_business": [
+        "集成电路用CMP抛光垫的研发、生产和销售"
+      ],
+      "industry_position": [
+        "产品全面覆盖国内主流晶圆制造企业",
+        "集成电路用CMP抛光垫国内供应龙头"
+      ],
+      "chain": [
+        "上游-半导体材料"
+      ],
+      "partners": [
+        "国内主流晶圆制造企业",
+        "板级封装领域重要客户"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "鼎龙股份：板级封装+CMP抛光垫+一季报增长",
+          "date": "2026-06-21",
+          "source": "https://mp.weixin.qq.com/s/eJ83fVW3oMSrOLbbTK46yw",
+          "industry_background": [
+            "AI算力需求爆发推动先进封装技术迭代，玻璃基板成为下一代核心基板"
+          ],
+          "accidents": [
+            "抛光垫产品获板级封装领域重要客户订单，将批量进入以玻璃基板为代表的板级封装产线",
+            "2026年一季度营收10.20亿元，同比+23.82%；归母净利润2.51亿元，同比+77.99%"
+          ],
+          "insights": [
+            "继2.5D和3D封装后又进入板级封装领域，产品应用领域持续拓宽",
+            "作为国内CMP抛光垫供应龙头，持续推进高端产品验证导入，全面覆盖国内主流晶圆制造企业"
+          ],
+          "key_metrics": [
+            "2026年一季度营收10.20亿元，同比+23.82%",
+            "2026年一季度归母净利润2.51亿元，同比+77.99%"
+          ],
+          "target_valuation": []
+        }
+      ]
+    },
+    "300568": {
+      "name": "星源材质",
+      "code": "300568",
+      "board": "SZ",
+      "industry": "电力设备-电池-电池化学品",
+      "concepts": [],
+      "products": [
+        "压电制动器",
+        "干法隔膜",
+        "湿法隔膜"
+      ],
+      "core_business": [
+        "通过参股公司布局半导体压电制动器业务。",
+        "锂离子电池隔膜的研发、生产及销售。"
+      ],
+      "industry_position": [],
+      "chain": [
+        "中游-电池材料"
+      ],
+      "partners": [
+        "邦瓷电子科技"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "星源材质：隔膜盈利修复+半导体突破",
+          "date": "2026-06-21",
+          "source": "https://mp.weixin.qq.com/s/yaPKhuzeYIqdgRKmMgqz7w",
+          "industry_background": [],
+          "accidents": [
+            "Q2湿法隔膜出货11亿平以上，干法接近2亿平。",
+            "Q3旺季二线客户进一步涨价。",
+            "参股邦瓷电子科技，其压电制动器实现纳米级位移控制。",
+            "半导体领域替代德国PI、日本京瓷同类产品。"
+          ],
+          "insights": [
+            "湿法单平盈利0.15元大幅修复。",
+            "半导体业务提供估值期权。"
+          ],
+          "key_metrics": [
+            "Q2湿法隔膜出货11亿平+",
+            "Q2干法隔膜出货接近2亿平",
+            "湿法单平盈利0.15元",
+            "27年湿法出货55亿平",
+            "27年湿法单平盈利0.3元+",
+            "27年干法出货15亿平",
+            "27年干法单平盈利0.1元",
+            "27年主业利润18亿",
+            "主业估值20X",
+            "主业市值360亿",
+            "目标市值600亿"
+          ],
+          "target_valuation": [
+            "主业市值360亿",
+            "目标市值600亿"
+          ]
+        }
+      ]
+    },
+    "002741": {
+      "name": "光华科技",
+      "code": "002741",
+      "board": "SZ",
+      "industry": "化工-电子化学品",
+      "concepts": [],
+      "products": [
+        "MSAP药水",
+        "PCB铜粉",
+        "高纯化学品"
+      ],
+      "core_business": [
+        "PCB专用化学品、电子化学品的研发、生产和销售。"
+      ],
+      "industry_position": [
+        "PCB药水国产替代的重要参与者，深度合作头部PCB厂商。"
+      ],
+      "chain": [
+        "中游-电子化学品"
+      ],
+      "partners": [
+        "佛芯",
+        "兴森",
+        "沃格",
+        "沪电",
+        "深南",
+        "生益",
+        "胜宏",
+        "鹏鼎"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "光华科技：MSAP药水放量+PCB铜粉涨价",
+          "date": "2026-06-21",
+          "source": "https://mp.weixin.qq.com/s/ilZQVP3AnRR5DcsJoLXa6Q",
+          "industry_background": [
+            "PCB药水原来90%+被海外占据，MSAP加速国产替代。MSAP药水占PCB价值量翻倍。"
+          ],
+          "accidents": [
+            "深度合作鹏鼎/沪电等大厂，在深南/胜宏/兴森/生益等突破。",
+            "PCB铜粉持续涨价，Q3预计吨净利6000元。"
+          ],
+          "insights": [
+            "MSAP药水毛利率大幅提升，加速国产替代。",
+            "PCB铜粉涨价扩产，吨净利提升。"
+          ],
+          "key_metrics": [
+            "27年药水收入13-15亿，贡献4.5亿+利润。",
+            "PCB铜粉26年产能3万吨，潜在转产3万吨。27年4-5万吨出货，贡献3.2亿利润。",
+            "主业高纯化学品Q1收入50%+增长，27年12亿收入/1.8亿利润。",
+            "吨净利4000元+，Q3预计6000元。"
+          ],
+          "target_valuation": [
+            "27年9亿归母利润，30X PE看270亿。"
+          ]
+        }
+      ]
+    },
+    "301217": {
+      "name": "铜冠铜箔",
+      "code": "301217",
+      "board": "SZ",
+      "industry": "有色金属-铜加工",
+      "concepts": [],
+      "products": [
+        "HVLP铜箔",
+        "算力铜箔"
+      ],
+      "core_business": [
+        "高端电子铜箔的研发、生产和销售。"
+      ],
+      "industry_position": [
+        "HVLP1-4全谱系量产",
+        "国产绝对龙头"
+      ],
+      "chain": [
+        "中游-铜箔制造"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "HVLP4算力铜箔订单排到2027下半年",
+          "date": "2026-06-21",
+          "source": "https://mp.weixin.qq.com/s/hgwSb7z1kH0caY_gw1eHQg",
+          "industry_background": [],
+          "accidents": [
+            "HVLP4代算力铜箔订单排到2027下半年，100%锁单。",
+            "26Q1净利同比+2138%。"
+          ],
+          "insights": [
+            "国产绝对龙头，HVLP1-4全谱系量产。",
+            "HVLP4粗糙度Rz≤0.55μm。"
+          ],
+          "key_metrics": [
+            "26Q1净利同比+2138%",
+            "HVLP4粗糙度Rz≤0.55μm"
+          ],
+          "target_valuation": []
+        }
+      ]
+    },
+    "301511": {
+      "name": "德福科技",
+      "code": "301511",
+      "board": "SZ",
+      "industry": "有色金属-铜加工",
+      "concepts": [],
+      "products": [
+        "AI专用铜箔",
+        "HVLP铜箔"
+      ],
+      "core_business": [
+        "高端电子铜箔的研发、生产和销售。"
+      ],
+      "industry_position": [
+        "全球第二家HVLP4量产"
+      ],
+      "chain": [
+        "中游-铜箔制造"
+      ],
+      "partners": [
+        "英伟达"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "HVLP4算力铜箔订单排到2027下半年",
+          "date": "2026-06-21",
+          "source": "https://mp.weixin.qq.com/s/hgwSb7z1kH0caY_gw1eHQg",
+          "industry_background": [],
+          "accidents": [
+            "全球第二家HVLP4量产，通过英伟达GB200/Rubin认证。",
+            "31亿投建5万吨AI专用铜箔。"
+          ],
+          "insights": [
+            "通过英伟达GB200/Rubin认证。"
+          ],
+          "key_metrics": [
+            "31亿投建5万吨AI专用铜箔"
+          ],
+          "target_valuation": []
+        }
+      ]
     }
   }
 }
