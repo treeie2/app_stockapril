@@ -1,52 +1,77 @@
-{% extends "base.html" %}
-{% block content %}
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>股票分组</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
-    .category-nav { display:flex; flex-wrap:wrap; gap:.5rem; margin:1rem 0; }
-    .category-btn { padding:.4rem .8rem; border-radius:20px; border:1px solid var(--border); background:var(--bg-card); color:var(--t2); cursor:pointer; font-size:.78rem; font-weight:600; transition:all .2s; }
-    .category-btn:hover, .category-btn.active { background:var(--blue); color:#fff; border-color:var(--blue); }
-    .groups-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(320px, 1fr)); gap:1rem; margin:1rem 0; }
-    .group-card { background:var(--bg-card); border:1px solid var(--border); border-radius:10px; padding:1.25rem; cursor:pointer; transition:all .2s; }
-    .group-card:hover { transform:translateY(-2px); box-shadow:0 4px 12px rgba(0,0,0,.2); }
-    .group-stocks { display:flex; flex-wrap:wrap; gap:.3rem; margin-top:.75rem; }
-    .stock-tag { padding:.2rem .5rem; border-radius:4px; font-size:.72rem; text-decoration:none; }
-    @media(max-width:768px){.groups-grid{grid-template-columns:1fr}}
+:root {
+    --bg: #0a0e17;
+    --bg-card: rgba(15,22,35,.9);
+    --border: rgba(59,130,246,.15);
+    --blue: #3b82f6;
+    --t1: #e2e8f0;
+    --t2: #94a3b8;
+    --t3: #64748b;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:'Inter',sans-serif; background:var(--bg); color:var(--t1); min-height:100vh; }
+.container { max-width:1200px; margin:0 auto; padding:1rem; }
+nav { display:flex; align-items:center; gap:1rem; padding:.75rem 0; border-bottom:1px solid var(--border); margin-bottom:1.5rem; }
+nav a { color:var(--t2); text-decoration:none; font-size:.85rem; font-weight:500; }
+nav a:hover { color:var(--blue); }
+nav .brand { font-weight:700; font-size:1rem; color:var(--t1); }
+.category-nav { display:flex; flex-wrap:wrap; gap:.5rem; margin:1rem 0; }
+.category-btn { padding:.4rem .8rem; border-radius:20px; border:1px solid var(--border); background:var(--bg-card); color:var(--t2); cursor:pointer; font-size:.78rem; font-weight:600; transition:all .2s; }
+.category-btn:hover, .category-btn.active { background:var(--blue); color:#fff; border-color:var(--blue); }
+.groups-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(320px, 1fr)); gap:1rem; margin:1rem 0; }
+.group-card { background:var(--bg-card); border:1px solid var(--border); border-radius:10px; padding:1.25rem; cursor:pointer; transition:all .2s; }
+.group-card:hover { transform:translateY(-2px); box-shadow:0 4px 12px rgba(0,0,0,.3); }
+.group-stocks { display:flex; flex-wrap:wrap; gap:.3rem; margin-top:.75rem; }
+.stock-tag { padding:.2rem .5rem; border-radius:4px; font-size:.72rem; text-decoration:none; white-space:nowrap; }
+.header-row { display:flex; justify-content:space-between; align-items:center; margin-bottom:.5rem; flex-wrap:wrap; gap:.5rem; }
+@media(max-width:768px){ .groups-grid{grid-template-columns:1fr} }
 </style>
+</head>
+<body>
+<nav>
+    <a href="/" class="brand">📊 Stock Research</a>
+    <a href="/">首页</a>
+    <a href="/groups" style="color:var(--blue);font-weight:700;">分组</a>
+</nav>
 
-<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;">
-    <h2 style="margin:0;">📁 股票分组</h2>
-    <div style="display:flex;gap:.5rem;">
-        <button onclick="openAddGroupModal()" style="padding:.5rem 1rem;background:var(--blue);border:none;border-radius:20px;color:#fff;font-size:.82rem;font-weight:600;cursor:pointer;">+ 新建</button>
-        <a href="/" style="padding:.5rem 1rem;background:var(--bg-card);border:1px solid var(--border);border-radius:20px;color:var(--t2);font-size:.82rem;text-decoration:none;">← 首页</a>
+<div class="container">
+    <div class="header-row">
+        <h2 style="margin:0;font-size:1.3rem;">📁 股票分组</h2>
+        <span id="groupCount" style="font-size:.82rem;color:var(--t3);"></span>
     </div>
-</div>
 
-<!-- Category filter -->
-<div class="category-nav">
-    <button class="category-btn active" onclick="filterGroups('all')">全部</button>
-</div>
+    <div class="category-nav">
+        <button class="category-btn active" onclick="filterGroups('all')">全部</button>
+    </div>
 
-<div class="groups-grid" id="groupsGrid">
-    <div style="text-align:center;padding:2rem;color:var(--t3);grid-column:1/-1;">⏳ 加载中...</div>
+    <div class="groups-grid" id="groupsGrid">
+        <div style="text-align:center;padding:2rem;color:var(--t3);grid-column:1/-1;">加载中...</div>
+    </div>
 </div>
 
 <script>
 let allGroups = [];
-let allCategories = [];
 
 async function loadGroups() {
     try {
         const resp = await fetch('/api/groups');
         const data = await resp.json();
         allGroups = data.groups || [];
+        document.getElementById('groupCount').textContent = `共 ${allGroups.length} 个分组`;
         
-        // Collect categories
         const catSet = new Set();
         allGroups.forEach(g => { if(g.category) catSet.add(g.category); });
-        allCategories = ['全部', ...Array.from(catSet).sort()];
+        const categories = ['全部', ...Array.from(catSet).sort()];
         
-        // Render category buttons
-        const nav = document.querySelector('.category-nav');
-        nav.innerHTML = allCategories.map(c => 
+        document.querySelector('.category-nav').innerHTML = categories.map(c => 
             `<button class="category-btn${c==='全部'?' active':''}" onclick="filterGroups('${c}')">${c}</button>`
         ).join('');
         
@@ -72,24 +97,25 @@ function renderGroups(groups) {
     }
     
     grid.innerHTML = groups.map(g => {
-        const stocksHtml = (g.stocks || []).slice(0, 8).map(s => 
-            `<a href="/stock/${encodeURIComponent(s.code || s)}" class="stock-tag" style="background:rgba(${hexToRgb(g.color || '#3b82f6')},.12);color:${g.color || '#3b82f6'};">${(s.name || s).substring(0,6)}</a>`
-        ).join('');
-        const more = (g.stocks || []).length > 8 ? ` +${g.stocks.length - 8}` : '';
+        const color = g.color || '#3b82f6';
+        const stocks = g.stocks || [];
+        const stocksHtml = stocks.slice(0, 8).map(s => {
+            const name = typeof s === 'string' ? s : (s.name || s.code || s);
+            const code = s.code || name;
+            return `<a href="/stock/${encodeURIComponent(code)}" class="stock-tag" style="background:rgba(${hexToRgb(color)},.12);color:${color};">${name.substring(0,6)}</a>`;
+        }).join('');
+        const more = stocks.length > 8 ? ` +${stocks.length - 8}` : '';
         
         return `
-        <div class="group-card" onclick="location.href='/group/${g.id}'" style="border-left:3px solid ${g.color || '#3b82f6'};">
+        <div class="group-card" onclick="location.href='/group/${g.id}'" style="border-left:3px solid ${color};">
             <div style="display:flex;align-items:center;gap:.5rem;">
                 <span style="font-size:1.3rem;">${g.icon || '📁'}</span>
-                <span style="font-weight:700;font-size:.95rem;color:${g.color || '#fff'};">${g.name}</span>
-                ${g.category ? `<span style="font-size:.7rem;background:rgba(${hexToRgb(g.color||'#3b82f6')},.15);color:${g.color||'#3b82f6'};padding:.15rem .4rem;border-radius:10px;">${g.category}</span>` : ''}
-                <span style="font-size:.72rem;color:var(--t3);margin-left:auto;">${g.stocks.length}只</span>
+                <span style="font-weight:700;font-size:.95rem;color:${color};">${g.name}</span>
+                ${g.category ? `<span style="font-size:.7rem;background:rgba(${hexToRgb(color)},.15);color:${color};padding:.15rem .4rem;border-radius:10px;">${g.category}</span>` : ''}
+                <span style="font-size:.72rem;color:var(--t3);margin-left:auto;">${stocks.length}只</span>
             </div>
             ${g.description ? `<div style="font-size:.75rem;color:var(--t3);line-height:1.4;margin-top:.5rem;">${g.description.substring(0,80)}${g.description.length>80?'...':''}</div>` : ''}
-            <div class="group-stocks">
-                ${stocksHtml}
-                ${more ? `<span style="font-size:.72rem;color:var(--t3);">${more}</span>` : ''}
-            </div>
+            <div class="group-stocks">${stocksHtml}${more ? `<span style="font-size:.72rem;color:var(--t3);">${more}</span>` : ''}</div>
         </div>`;
     }).join('');
 }
@@ -102,4 +128,5 @@ function filterGroups(cat) {
 
 loadGroups();
 </script>
-{% endblock %}
+</body>
+</html>
