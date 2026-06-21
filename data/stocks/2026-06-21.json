@@ -1,6 +1,6 @@
 {
   "date": "2026-06-21",
-  "update_count": 10,
+  "update_count": 14,
   "stocks": {
     "600460": {
       "name": "士兰微",
@@ -504,6 +504,177 @@
           "target_valuation": [
             "年内看400亿，明年看600亿"
           ]
+        }
+      ]
+    },
+    "300293": {
+      "name": "蓝英装备",
+      "code": "300293",
+      "board": "SZ",
+      "industry": "机械设备-专用设备",
+      "concepts": [],
+      "products": [
+        "工业清洗系统",
+        "橡胶智能装备",
+        "表面处理系统"
+      ],
+      "core_business": [
+        "全球领先的工业清洗及表面处理系统提供商。"
+      ],
+      "industry_position": [
+        "全球领先工业清洗及表面处理系统提供商。",
+        "橡胶智能装备国内市占率居首。"
+      ],
+      "chain": [
+        "上游-设备供应商"
+      ],
+      "partners": [
+        "荷兰ASML"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "蓝英装备：半导体+光刻机+工业母机+机器人",
+          "date": "2026-06-21",
+          "source": "https://mp.weixin.qq.com/s/D7qX00wArNudFY9M0qK8GQ",
+          "industry_background": [],
+          "accidents": [
+            "瑞士子公司UCM AG是荷兰ASML极紫外光刻机光学系统关键部件清洗设备供应商，特定工艺全球唯一。"
+          ],
+          "insights": [
+            "全球领先工业清洗及表面处理系统提供商。"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ]
+    },
+    "600362": {
+      "name": "江西铜业",
+      "code": "600362",
+      "board": "SH",
+      "industry": "有色金属-铜",
+      "concepts": [],
+      "products": [
+        "钨",
+        "铜箔",
+        "阴极铜",
+        "黄金"
+      ],
+      "core_business": [
+        "中国最大阴极铜生产商。"
+      ],
+      "industry_position": [
+        "中国最大阴极铜生产商，铜资源储量约占全国21%。"
+      ],
+      "chain": [
+        "上游-矿产资源",
+        "中游-冶炼加工"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "江西铜业：阴极铜龙头+新材料+中期票据",
+          "date": "2026-06-21",
+          "source": "https://mp.weixin.qq.com/s/ICJrltFFRSPUob5vz8T2zQ",
+          "industry_background": [],
+          "accidents": [
+            "子公司江铜铜箔计划分拆香港上市。",
+            "海外收购索尔黄金。",
+            "参股巴库塔钨矿商业化量产。",
+            "计划发行150亿中期票据。"
+          ],
+          "insights": [
+            "中国最大阴极铜生产商，铜资源储量约占全国21%。",
+            "子公司江铜铜箔受益AI算力高端铜箔需求满产爆单。"
+          ],
+          "key_metrics": [
+            "铜资源储量约占全国21%。",
+            "计划发行150亿中期票据。"
+          ],
+          "target_valuation": []
+        }
+      ]
+    },
+    "301580": {
+      "name": "爱迪特",
+      "code": "301580",
+      "board": "SZ",
+      "industry": "医药生物-医疗器械-口腔医疗",
+      "concepts": [],
+      "products": [
+        "氧化锆瓷块",
+        "种植体"
+      ],
+      "core_business": [
+        "口腔修复材料及口腔数字化设备的研发、生产和销售"
+      ],
+      "industry_position": [
+        "氧化锆瓷块全球第二"
+      ],
+      "chain": [],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "爱迪特：氧化锆替代+口腔种植医保+外销龙头",
+          "date": "2026-06-21",
+          "source": "https://mp.weixin.qq.com/s/SvcTZAdvtEkD7pvlr1DD_Q",
+          "industry_background": [],
+          "accidents": [
+            "日本东曹原料耗尽被迫减产",
+            "沃兰种植体入选集采"
+          ],
+          "insights": [
+            "公司锁定长单全球客户加速切换",
+            "公司为氧化锆瓷块全球第二"
+          ],
+          "key_metrics": [
+            "外销收入6.86亿占66.3%",
+            "25年营收10.35亿+16.51%",
+            "25年归母1.96亿+30.39%",
+            "26Q1营收2.57亿+25.35%",
+            "募投新增氧化锆196万块"
+          ],
+          "target_valuation": []
+        }
+      ]
+    },
+    "002167": {
+      "name": "东方锆业",
+      "code": "002167",
+      "board": "SZ",
+      "industry": "",
+      "concepts": [],
+      "products": [
+        "电池级氯氧化锆",
+        "高纯复合氧化锆"
+      ],
+      "core_business": [
+        "锆材料的生产与销售。"
+      ],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "东方锆业：锆材料+固态电池+定增",
+          "date": "2026-06-21",
+          "source": "https://mp.weixin.qq.com/s/hzY_iXFaUVz7YnILeOudUA",
+          "industry_background": [],
+          "accidents": [
+            "2026年5月发布11.7亿元定增预案，投向电池级氯氧化锆和高纯复合氧化锆。"
+          ],
+          "insights": [
+            "切入固态电池电解质关键原材料供应链。"
+          ],
+          "key_metrics": [
+            "2025年毛利率16.72%",
+            "2025年归母净利润扭亏为盈"
+          ],
+          "target_valuation": []
         }
       ]
     }
