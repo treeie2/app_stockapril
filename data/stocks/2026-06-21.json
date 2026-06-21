@@ -1,6 +1,6 @@
 {
   "date": "2026-06-21",
-  "update_count": 24,
+  "update_count": 36,
   "stocks": {
     "600460": {
       "name": "士兰微",
@@ -1189,6 +1189,588 @@
           "key_metrics": [
             "集采6,208张昇腾加速卡",
             "采购规模约20亿元"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-21"
+    },
+    "000969": {
+      "name": "安泰科技",
+      "code": "000969",
+      "board": "SZ",
+      "industry": "有色金属-金属新材料",
+      "concepts": [],
+      "products": [
+        "偏滤器靶板",
+        "钨基部件",
+        "钨铜复合块"
+      ],
+      "core_business": [
+        "聚变用钨基偏滤器等核心材料与部件的研发、生产和销售"
+      ],
+      "industry_position": [
+        "EAST、ITER 等装置的核心供应商",
+        "全球唯一全系列聚变用钨基偏滤器量产上市企业，市占率超 70%",
+        "技术壁垒极高"
+      ],
+      "chain": [
+        "上游-核心材料与部件"
+      ],
+      "partners": [
+        "BEST",
+        "EAST",
+        "ITER"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "【人造太阳】全球最大“人造太阳”核心部件完成研制 可控核聚变加速商业落地",
+          "date": "2026-06-21",
+          "source": "https://mp.weixin.qq.com/s/5pEY5pIlzqSMMRJuQBRz8g",
+          "industry_background": [
+            "可控核聚变加速商业落地",
+            "偏滤器被称为核聚变装置的 “心脏”，需耐受 2000℃以上高温与 1 亿℃等离子体冲击，是托卡马克装置的关键内部部件，每次检修均需更换，具备长期复购属性"
+          ],
+          "accidents": [
+            "全球最大“人造太阳”——国际热核聚变实验堆（ITER）计划核心部件偏滤器完成全部...",
+            "2025 年中标 BEST 偏滤器靶板项目 6990.84 万元"
+          ],
+          "insights": [
+            "全球唯一全系列聚变用钨基偏滤器量产上市企业，市占率超 70%，技术壁垒极高。公司自主研发偏滤器靶板、钨铜复合块，2015 年起持续为 ITER 偏滤器提供钨铜复合部件",
+            "此次偏滤器集成测试阶段将直接带动公司高附加值钨基部件订单放量"
+          ],
+          "key_metrics": [
+            "市占率超 70%",
+            "2024 年新签核聚变业务订单同比增长 150%",
+            "2026 年核聚变业务预计贡献营收超 8 亿元，同比增长 200%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-21"
+    },
+    "301310": {
+      "name": "鑫宏业",
+      "code": "301310",
+      "board": "SZ",
+      "industry": "电力设备-线缆部件",
+      "concepts": [],
+      "products": [
+        "PIC电缆",
+        "核级电缆"
+      ],
+      "core_business": [
+        "核级电缆等特种电缆的研发、生产和销售"
+      ],
+      "industry_position": [
+        "首个跻身 ITER 项目供应链的中国民营企业，打破欧美日韩企业长期技术垄断"
+      ],
+      "chain": [
+        "配套设备"
+      ],
+      "partners": [
+        "ITER"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "【人造太阳】全球最大“人造太阳”核心部件完成研制 可控核聚变加速商业落地",
+          "date": "2026-06-21",
+          "source": "https://mp.weixin.qq.com/s/5pEY5pIlzqSMMRJuQBRz8g",
+          "industry_background": [
+            "可控核聚变加速商业落地",
+            "核聚变装置需要大量配套设备与材料，国产化率不足 30%，替代空间巨大"
+          ],
+          "accidents": [
+            "全资子公司江苏华光完成 ITER 项目核心配套 PIC（电力、控制和仪表）电缆交..."
+          ],
+          "insights": [
+            "核级电缆具备耐辐射、耐高温、高可靠性特点，适配核聚变极端环境"
+          ],
+          "key_metrics": [
+            "2026 年核级电缆业务预计同比增长 200%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-21"
+    },
+    "600105": {
+      "name": "永鼎股份",
+      "code": "600105",
+      "board": "SH",
+      "industry": "电力设备-超导材料",
+      "concepts": [],
+      "products": [
+        "REBCO 超导带材",
+        "高温超导带材"
+      ],
+      "core_business": [
+        "高温超导带材等超导材料的研发、生产和销售"
+      ],
+      "industry_position": [
+        "高温超导带材龙头"
+      ],
+      "chain": [
+        "上游-超导材料"
+      ],
+      "partners": [
+        "核工业西南物理研究院"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "【人造太阳】全球最大“人造太阳”核心部件完成研制 可控核聚变加速商业落地",
+          "date": "2026-06-21",
+          "source": "https://mp.weixin.qq.com/s/5pEY5pIlzqSMMRJuQBRz8g",
+          "industry_background": [
+            "可控核聚变加速商业落地",
+            "超导磁体是托卡马克装置产生强磁场约束等离子体的核心，分为低温超导（当前主流）与高温超导（下一代方向）两条技术路线"
+          ],
+          "accidents": [
+            "旗下东部超导 HF1200 系列是适配可控核聚变场景的千米级 REBCO 超导带..."
+          ],
+          "insights": [
+            "高温超导材料龙头，技术路线与国际前沿高度契合，高温超导材料将用于下一代紧凑型商用聚变堆",
+            "打开长期成长空间"
+          ],
+          "key_metrics": [
+            "2026 年高温超导业务预计同比增长 300%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-21"
+    },
+    "600875": {
+      "name": "东方电气",
+      "code": "600875",
+      "board": "SH",
+      "industry": "电力设备-电源设备",
+      "concepts": [],
+      "products": [
+        "大型磁体电源",
+        "换流变压器"
+      ],
+      "core_business": [
+        "大型电力设备制造"
+      ],
+      "industry_position": [
+        "核聚变能源系统集成商"
+      ],
+      "chain": [
+        "配套设备与材料"
+      ],
+      "partners": [
+        "ITER项目"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "【人造太阳】全球最大“人造太阳”核心部件完成研制 可控核聚变加速商业落地",
+          "date": "2026-06-21",
+          "source": "https://mp.weixin.qq.com/s/5pEY5pIlzqSMMRJuQBRz8g",
+          "industry_background": [
+            "可控核聚变加速商业落地",
+            "核聚变装置需要大量配套设备与材料，国产化率不足30%，替代空间巨大"
+          ],
+          "accidents": [
+            "为ITER项目提供大型磁体电源、换流变压器等核心设备"
+          ],
+          "insights": [
+            "获15家机构研报关注，是核聚变能源系统集成商，在大型电力设备制造领域技术领先",
+            "成为核聚变商业化的重要装备供应商"
+          ],
+          "key_metrics": [
+            "2026年核聚变电源设备业务预计同比增长100%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-21"
+    },
+    "601611": {
+      "name": "中国核建",
+      "code": "601611",
+      "board": "SH",
+      "industry": "建筑装饰-专业工程",
+      "concepts": [],
+      "products": [
+        "核工程建设"
+      ],
+      "core_business": [
+        "核工程建设"
+      ],
+      "industry_position": [
+        "中国核工业建设领域龙头"
+      ],
+      "chain": [
+        "系统集成与工程服务"
+      ],
+      "partners": [
+        "ITER项目",
+        "核工业西南物理研究院"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "【人造太阳】全球最大“人造太阳”核心部件完成研制 可控核聚变加速商业落地",
+          "date": "2026-06-21",
+          "source": "https://mp.weixin.qq.com/s/5pEY5pIlzqSMMRJuQBRz8g",
+          "industry_background": [
+            "可控核聚变加速商业落地"
+          ],
+          "accidents": [
+            "旗下核工业西南物理研究院牵头中方联合体承担ITER偏滤器集成总包任务"
+          ],
+          "insights": [
+            "作为中国核工业建设领域龙头，参与ITER项目核心装备安装与调试工作，具备复杂核聚变装置安装能力",
+            "受益于ITER项目与国内核聚变示范堆建设双重需求"
+          ],
+          "key_metrics": [
+            "2026年核聚变工程业务预计同比增长150%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-21"
+    },
+    "601985": {
+      "name": "中国核电",
+      "code": "601985",
+      "board": "SH",
+      "industry": "公用事业-电力",
+      "concepts": [],
+      "products": [
+        "核聚变工程服务",
+        "磁体电源控制系统"
+      ],
+      "core_business": [
+        "核电运营",
+        "核聚变工程服务"
+      ],
+      "industry_position": [],
+      "chain": [
+        "系统集成与工程服务"
+      ],
+      "partners": [
+        "ITER项目",
+        "中国核电工程有限公司",
+        "中国聚变能源有限公司"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "【人造太阳】全球最大“人造太阳”核心部件完成研制 可控核聚变加速商业落地",
+          "date": "2026-06-21",
+          "source": "https://mp.weixin.qq.com/s/5pEY5pIlzqSMMRJuQBRz8g",
+          "industry_background": [
+            "可控核聚变加速商业落地"
+          ],
+          "accidents": [
+            "子公司中国核电工程有限公司是中方联合体核心成员，提供磁体电源控制系统，并牵头中法...",
+            "2025年公告参股中国聚变能源有限公司，参与聚变堆商业化顶层设计与工程化推进"
+          ],
+          "insights": [
+            "实现从核电运营向核聚变前沿领域的战略布局",
+            "此次偏滤器集成测试成功将加速公司核聚变工程服务业务拓展"
+          ],
+          "key_metrics": [
+            "2026年相关业务预计贡献营收超10亿元，同比增长250%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-21"
+    },
+    "603308": {
+      "name": "应流股份",
+      "code": "603308",
+      "board": "SH",
+      "industry": "有色金属-金属新材料",
+      "concepts": [],
+      "products": [
+        "X-750镍基合金",
+        "变形高温耐蚀合金",
+        "铸造高温耐蚀合金"
+      ],
+      "core_business": [
+        "高端特种合金材料研发生产"
+      ],
+      "industry_position": [
+        "高端特种合金材料研发生产龙头"
+      ],
+      "chain": [
+        "配套设备与材料"
+      ],
+      "partners": [
+        "ITER项目"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "【人造太阳】全球最大“人造太阳”核心部件完成研制 可控核聚变加速商业落地",
+          "date": "2026-06-21",
+          "source": "https://mp.weixin.qq.com/s/5pEY5pIlzqSMMRJuQBRz8g",
+          "industry_background": [
+            "可控核聚变加速商业落地",
+            "核聚变装置需要大量配套设备与材料，国产化率不足30%，替代空间巨大"
+          ],
+          "accidents": [
+            "自主研发的X-750镍基合金耐温达1.5亿℃，为全球唯二通过ITER认证的产品，..."
+          ],
+          "insights": [
+            "是高端特种合金材料研发生产龙头，主打变形高温耐蚀合金、铸造高温耐蚀合金",
+            "深度受益于核聚变装置核心材料国产化进程"
+          ],
+          "key_metrics": [
+            "2026年核聚变特种合金业务预计同比增长180%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-21"
+    },
+    "688122": {
+      "name": "西部超导",
+      "code": "688122",
+      "board": "SH",
+      "industry": "有色金属-金属新材料-超导材料",
+      "concepts": [],
+      "products": [
+        "NbTi超导线材",
+        "Nb₃Sn线材",
+        "低温超导线材"
+      ],
+      "core_business": [
+        "超导材料与磁体系统"
+      ],
+      "industry_position": [
+        "ITER低温超导线材国内独家供应商",
+        "全球仅两家能量产核聚变级Nb₃Sn线材",
+        "全球唯一通过ITER全流程认证的NbTi超导线材供应商",
+        "国内唯一、全球双寡头之一"
+      ],
+      "chain": [
+        "上游-原材料"
+      ],
+      "partners": [
+        "国际热核聚变实验堆（ITER）"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "【人造太阳】全球最大“人造太阳”核心部件完成研制 可控核聚变加速商业落地",
+          "date": "2026-06-21",
+          "source": "https://mp.weixin.qq.com/s/5pEY5pIlzqSMMRJuQBRz8g",
+          "industry_background": [
+            "可控核聚变加速商业落地",
+            "全球最大“人造太阳”——国际热核聚变实验堆（ITER）计划核心部件偏滤器完成全部设计、认证与制造工作，正式由部件研制转入集成测试新阶段",
+            "我国在ITER核心装备制造领域实现从“部件供货”向“系统集成”的关键跨越",
+            "偏滤器量产 + 超导磁体升级 + 系统集成突破 + 商业化加速四重红利"
+          ],
+          "accidents": [
+            "2026年4月设立合肥聚能专攻聚变工程用高性能低温超导线材",
+            "ITER进入集成测试与国内CFETR项目推进"
+          ],
+          "insights": [
+            "国内唯一、全球双寡头之一，ITER低温超导线材国内独家供应商，全球仅两家能量产核聚变级Nb₃Sn线材",
+            "占据ITER项目40%以上低温超导材料订单，国内市占率超95%",
+            "全球唯一通过ITER全流程认证的NbTi超导线材供应商，累计交付量占ITER总量近70%，国产化率100%",
+            "成为核聚变商业化的核心材料保障"
+          ],
+          "key_metrics": [
+            "占据ITER项目40%以上低温超导材料订单",
+            "国内市占率超95%",
+            "累计交付量占ITER总量近70%",
+            "国产化率100%",
+            "公司超导材料业务预计2026年同比增长180%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-21"
+    },
+    "688776": {
+      "name": "国光电气",
+      "code": "688776",
+      "board": "SH",
+      "industry": "机械设备-专用设备-真空设备",
+      "concepts": [],
+      "products": [
+        "偏滤器模块",
+        "包层系统",
+        "涉氚设备"
+      ],
+      "core_business": [
+        "核聚变领域复杂组件与系统解决方案"
+      ],
+      "industry_position": [
+        "ITER市占率领先",
+        "偏滤器模块、涉氚设备、包层系统核心供应商"
+      ],
+      "chain": [
+        "中游-设备/部件"
+      ],
+      "partners": [
+        "核工业西南物理研究院"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "【人造太阳】全球最大“人造太阳”核心部件完成研制 可控核聚变加速商业落地",
+          "date": "2026-06-21",
+          "source": "https://mp.weixin.qq.com/s/5pEY5pIlzqSMMRJuQBRz8g",
+          "industry_background": [
+            "可控核聚变加速商业落地",
+            "全球最大“人造太阳”——国际热核聚变实验堆（ITER）计划核心部件偏滤器完成全部设计、认证与制造工作，正式由部件研制转入集成测试新阶段",
+            "我国在ITER核心装备制造领域实现从“部件供货”向“系统集成”的关键跨越",
+            "偏滤器量产 + 超导磁体升级 + 系统集成突破 + 商业化加速四重红利"
+          ],
+          "accidents": [
+            "偏滤器进入集成测试阶段"
+          ],
+          "insights": [
+            "偏滤器模块、涉氚设备、包层系统核心供应商，ITER市占率领先",
+            "在核聚变领域深耕多年，提供偏滤器相关的复杂组件与系统解决方案",
+            "与核工业西南物理研究院深度合作，参与国内EAST、BEST等多个核聚变项目",
+            "偏滤器进入集成测试阶段后，公司系统级产品需求将显著增长，成为新的利润增长点"
+          ],
+          "key_metrics": [
+            "2026年核聚变业务预计同比增长120%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-21"
+    },
+    "002241": {
+      "name": "歌尔股份",
+      "code": "002241",
+      "board": "SZ",
+      "industry": "电子-消费电子-VR/AR设备",
+      "concepts": [],
+      "products": [
+        "VR/AR硬件整机",
+        "光学模组"
+      ],
+      "core_business": [
+        "全球VR/AR硬件整机龙头。"
+      ],
+      "industry_position": [
+        "VR一体机出货量全球领先",
+        "全球VR/AR硬件整机龙头"
+      ],
+      "chain": [
+        "硬件制造"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "【国漫】AI赋能国漫 尽显“科技+国漫”融合魅力",
+          "date": "2026-06-21",
+          "source": "https://mp.weixin.qq.com/s/HTwtjHEKNN3ZNEpWl9Rqtw",
+          "industry_background": [
+            "VR/AR技术是实现《大闹天宫》等国漫IP沉浸式体验的关键，大空间互动、具身化参与等场景带动硬件与内容需求爆发。"
+          ],
+          "accidents": [
+            "为《大闹天宫》VR大空间互动项目提供核心硬件支持。"
+          ],
+          "insights": [
+            "全球VR/AR硬件整机龙头，具备从光学模组到整机制造的全产业链能力，国漫IP沉浸式体验项目的爆发将直接带动高端VR设备需求增长。"
+          ],
+          "key_metrics": [
+            "2026年VR业务预计同比增长超60%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-21"
+    },
+    "002354": {
+      "name": "天娱数科",
+      "code": "002354",
+      "board": "SZ",
+      "industry": "计算机-软件开发-人工智能",
+      "concepts": [],
+      "products": [
+        "AI应用分发平台",
+        "天星大模型",
+        "数字人技术"
+      ],
+      "core_business": [
+        "以天星大模型为技术底座，聚焦空间智能与数字人领域，构建AI应用分发平台。"
+      ],
+      "industry_position": [],
+      "chain": [
+        "数字人技术与智能交互"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "【国漫】AI赋能国漫 尽显“科技+国漫”融合魅力",
+          "date": "2026-06-21",
+          "source": "https://mp.weixin.qq.com/s/HTwtjHEKNN3ZNEpWl9Rqtw",
+          "industry_background": [
+            "数字人实时播报、智能对话等技术让经典国漫IP\"活\"起来，成为本届动漫节的一大亮点。"
+          ],
+          "accidents": [
+            "为\"央漫童心幼儿园\"等项目提供技术支持。"
+          ],
+          "insights": [
+            "以天星大模型为技术底座，聚焦空间智能与数字人领域，构建AI应用分发平台。公司数字人技术可快速复刻国漫经典角色，实现实时对话、动作捕捉与情感交互。"
+          ],
+          "key_metrics": [
+            "2026年数字人业务订单同比增长超200%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-21"
+    },
+    "300133": {
+      "name": "华策影视",
+      "code": "300133",
+      "board": "SZ",
+      "industry": "传媒-影视-影视制作",
+      "concepts": [],
+      "products": [
+        "AIGC应用",
+        "动漫",
+        "电影",
+        "电视剧"
+      ],
+      "core_business": [
+        "国内影视剧制作龙头，构建覆盖电视剧、电影、动漫的全品类IP矩阵。"
+      ],
+      "industry_position": [
+        "国内影视剧制作龙头",
+        "年产能位居行业前列"
+      ],
+      "chain": [
+        "内容创作"
+      ],
+      "partners": [
+        "中国网络作家村"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "【国漫】AI赋能国漫 尽显“科技+国漫”融合魅力",
+          "date": "2026-06-21",
+          "source": "https://mp.weixin.qq.com/s/HTwtjHEKNN3ZNEpWl9Rqtw",
+          "industry_background": [],
+          "accidents": [
+            "2026年计划推出5部AI赋能国漫作品，包括《西游记》系列新内容。"
+          ],
+          "insights": [
+            "国内影视剧制作龙头，构建覆盖电视剧、电影、动漫的全品类IP矩阵。成立AIGC应用研究院，依托数据与IP优势训练文本、图文、3D资产大模型，推动AI在动漫内容创作中的落地，年产能位居行业前列。"
+          ],
+          "key_metrics": [
+            "2026年计划推出5部AI赋能国漫作品"
           ],
           "target_valuation": []
         }
