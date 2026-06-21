@@ -1127,6 +1127,7 @@ def groups_list():
 @app.route('/group/<group_id>')
 def group_detail(group_id):
     """分组详情页"""
+    load_all_data()  # 确保 stocks 已加载
     load_groups_data()
     
     # 查找分组
@@ -1157,8 +1158,6 @@ def group_detail(group_id):
                 break
     
     return render_template('group_detail.html', group=group, stocks=related_stocks)
-    
-    return render_template('hot_topic_detail.html', topic=topic, stocks=related_stocks)
 
 # ============================================
 # 热点数据 API（独立的、健壮的热点头点加载）
