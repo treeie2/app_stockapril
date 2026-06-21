@@ -50,38 +50,67 @@
             z-index:100;
             background:rgba(8,12,20,.9);
             backdrop-filter:blur(20px);
+            -webkit-backdrop-filter:blur(20px);
             border-bottom:1px solid var(--border);
             display:flex;
             align-items:center;
             gap:.5rem;
-            height:56px;
+            min-height:56px;
             padding:0 1.5rem;
+            flex-wrap:nowrap;
+            overflow-x:auto;
         }
+        .nav::-webkit-scrollbar { display:none; }
         .nav-brand {
             font-weight:700;
-            font-size:.9rem;
+            font-size:.85rem;
             letter-spacing:.12em;
             color:var(--cyan);
             text-decoration:none;
             display:flex;
             align-items:center;
-            gap:.45rem;
-            margin-right:.75rem;
+            gap:.4rem;
+            margin-right:.5rem;
+            flex-shrink:0;
+        }
+        .nav-links {
+            display:flex;
+            align-items:center;
+            gap:.3rem;
+            flex:1;
         }
         .nav-link {
-            padding:.3rem .75rem;
+            padding:.3rem .65rem;
             border-radius:6px;
             color:var(--t2);
             text-decoration:none;
             font-size:.78rem;
             font-weight:500;
             transition:all .18s;
+            white-space:nowrap;
+            flex-shrink:0;
         }
         .nav-link:hover, .nav-link.active {
             color:var(--t1);
             background:rgba(255,255,255,.05);
         }
         .nav-link.active { color:var(--cyan); }
+
+        /* Mobile nav toggle */
+        .nav-toggle {
+            display:none;
+            width:36px;
+            height:36px;
+            border:none;
+            background:rgba(255,255,255,.05);
+            border-radius:8px;
+            cursor:pointer;
+            color:var(--t1);
+            font-size:1.1rem;
+            flex-shrink:0;
+            align-items:center;
+            justify-content:center;
+        }
         /* ─── Main Content ─── */
         .main {
             position:relative;
@@ -458,18 +487,84 @@
         }
         /* ─── Responsive ─── */
         @media (max-width:768px) {
-            .stocks-grid {
-                grid-template-columns:1fr;
+            .nav { padding:.5rem .75rem; gap:.4rem; min-height:auto; flex-wrap:wrap; }
+            .nav-toggle { display:flex; }
+            .nav-links {
+                display:none;
+                order:4;
+                flex-direction:column;
+                align-items:stretch;
+                width:100%;
+                gap:.2rem;
+                margin-top:.5rem;
+                padding-top:.5rem;
+                border-top:1px solid var(--border);
             }
-            .topic-title {
-                font-size:1.4rem;
+            .nav-links.on { display:flex; }
+            .nav-link { padding:.55rem .75rem; font-size:.82rem; }
+
+            .main { padding:1rem .75rem; }
+            .breadcrumb {
+                flex-wrap:wrap;
+                gap:.3rem;
+                font-size:.72rem;
+                margin-bottom:1rem;
             }
+            .topic-header { padding:1.25rem 1rem; margin-bottom:1.25rem; border-radius:10px; }
+            .topic-title { font-size:1.3rem; margin-bottom:.75rem; gap:.5rem; }
+            .topic-title::before { font-size:1.2rem; }
+            .topic-meta {
+                flex-wrap:wrap;
+                gap:.5rem 1rem;
+                margin-bottom:1rem;
+                font-size:.75rem;
+            }
+            .topic-drivers { font-size:.85rem; line-height:1.7; padding:1rem; }
+
+            .section-title { font-size:.95rem; margin-bottom:.75rem; }
+
+            /* 股票卡片 - 单列 */
+            .stocks-grid { grid-template-columns:1fr; gap:.6rem; }
+            .stock-card { padding:1rem; border-radius:10px; }
+            .stock-name { font-size:1rem; }
+            .stock-industry { font-size:.75rem; margin-bottom:.5rem; }
+            .stock-concepts { gap:.3rem; }
+            .concept-tag { font-size:.7rem; padding:.15rem .5rem; }
+            .stock-metrics { margin-top:.75rem; padding-top:.75rem; gap:.75rem; }
+            .metric-value { font-size:.82rem; }
+            .metric-label { font-size:.65rem; }
+
+            /* 编辑按钮 */
             .edit-btn {
                 bottom:1rem;
                 right:1rem;
                 width:48px;
                 height:48px;
+                font-size:1.2rem;
             }
+
+            /* 模态框 */
+            .modal-content { border-radius:10px; max-width:calc(100% - 1rem); }
+            .modal-header { padding:1rem; }
+            .modal-title { font-size:.95rem; }
+            .modal-body { padding:1rem; }
+            .form-group { margin-bottom:1rem; }
+            .form-label { font-size:.75rem; }
+            .form-input, .form-textarea { padding:.65rem .85rem; font-size:.85rem; }
+            .form-textarea { min-height:90px; }
+            .stock-tags { gap:.35rem; margin-top:.5rem; }
+            .stock-tag { padding:.3rem .6rem; font-size:.75rem; }
+            .add-stock-wrap { flex-wrap:wrap; gap:.4rem; }
+            .btn-add { padding:.4rem .75rem; font-size:.75rem; }
+            .modal-footer { padding:1rem; gap:.5rem; }
+            .btn-cancel, .btn-save { padding:.55rem 1rem; font-size:.82rem; }
+        }
+        @media (max-width:400px) {
+            .main { padding:.75rem .5rem; }
+            .topic-header { padding:1rem .85rem; }
+            .topic-title { font-size:1.15rem; }
+            .topic-drivers { font-size:.82rem; padding:.85rem; }
+            .stock-card { padding:.85rem; }
         }
     </style>
 </head>
@@ -482,10 +577,13 @@
             </svg>
             个股研究数据库
         </a>
-        <a href="/" class="nav-link">仪表板</a>
-        <a href="/stocks" class="nav-link">股票列表</a>
-        <a href="/concepts" class="nav-link">概念大全</a>
-        <a href="/search" class="nav-link">搜索</a>
+        <div class="nav-links" id="navLinks">
+            <a href="/" class="nav-link">仪表板</a>
+            <a href="/stocks" class="nav-link">股票列表</a>
+            <a href="/concepts" class="nav-link">概念大全</a>
+            <a href="/search" class="nav-link">搜索</a>
+        </div>
+        <button class="nav-toggle" id="navToggle" aria-label="菜单">☰</button>
     </nav>
 
     <!-- Main Content -->
@@ -698,6 +796,16 @@
                 closeEditModal();
             }
         });
+
+        // 移动端导航切换
+        const navToggle = document.getElementById('navToggle');
+        const navLinks = document.getElementById('navLinks');
+        if (navToggle && navLinks) {
+            navToggle.addEventListener('click', () => {
+                navLinks.classList.toggle('on');
+                navToggle.textContent = navLinks.classList.contains('on') ? '✕' : '☰';
+            });
+        }
     </script>
 </body>
 </html>

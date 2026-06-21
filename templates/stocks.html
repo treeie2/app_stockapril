@@ -56,48 +56,78 @@
             z-index: 100;
             background: rgba(8, 12, 20, 0.88);
             backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
             border-bottom: 1px solid var(--border);
-            padding: 0 2rem;
+            padding: 0 1.5rem;
             display: flex;
             align-items: center;
-            gap: 1rem;
-            height: 60px;
+            gap: 0.6rem;
+            min-height: 56px;
+            flex-wrap: nowrap;
+            overflow-x: auto;
         }
-        
+        .navbar::-webkit-scrollbar { display: none; }
+
         .navbar-brand {
-            font-size: 0.95rem;
+            font-size: 0.85rem;
             font-weight: 700;
             letter-spacing: 0.12em;
             color: var(--accent-cyan);
             text-decoration: none;
             display: flex;
             align-items: center;
-            gap: 0.5rem;
+            gap: 0.4rem;
             margin-right: 0.5rem;
+            flex-shrink: 0;
         }
-        
-        .navbar-brand svg { width: 18px; height: 18px; }
-        
+
+        .navbar-brand svg { width: 16px; height: 16px; }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+            flex: 1;
+        }
+
         .nav-link {
-            padding: 0.35rem 0.8rem;
-            border-radius: var(--radius-sm);
+            padding: 0.3rem 0.65rem;
+            border-radius: 6px;
             color: var(--text-secondary);
             text-decoration: none;
-            font-size: 0.8rem;
+            font-size: 0.78rem;
             font-weight: 500;
             transition: all 0.2s;
+            white-space: nowrap;
+            flex-shrink: 0;
         }
-        
+
         .nav-link:hover {
             color: var(--text-primary);
             background: rgba(255,255,255,0.05);
         }
-        
+
         .nav-link.active {
             color: var(--accent-cyan);
             background: rgba(6,182,212,0.1);
         }
-        
+
+        /* Mobile nav toggle */
+        .nav-toggle {
+            display: none;
+            width: 36px;
+            height: 36px;
+            border: none;
+            background: rgba(255,255,255,0.05);
+            border-radius: 8px;
+            cursor: pointer;
+            color: var(--text-primary);
+            font-size: 1.1rem;
+            flex-shrink: 0;
+            align-items: center;
+            justify-content: center;
+        }
+
         /* 主容器 */
         .container {
             max-width: 1400px;
@@ -328,16 +358,99 @@
         
         /* 响应式 */
         @media (max-width: 768px) {
-            .navbar { padding: 0 1rem; }
-            .container { padding: 1rem; }
-            .table-header, .stock-row {
-                grid-template-columns: 70px 1fr 80px;
-                gap: 0.5rem;
-            }
-            .table-header > *:nth-child(5),
-            .stock-row > *:nth-child(5) {
+            .navbar { padding: 0.5rem 0.75rem; gap: 0.4rem; min-height: auto; flex-wrap: wrap; }
+            .nav-toggle { display: flex; }
+            .nav-links {
                 display: none;
+                order: 4;
+                flex-direction: column;
+                align-items: stretch;
+                width: 100%;
+                gap: 0.2rem;
+                margin-top: 0.5rem;
+                padding-top: 0.5rem;
+                border-top: 1px solid var(--border);
             }
+            .nav-links.on { display: flex; }
+            .nav-link { padding: 0.55rem 0.75rem; font-size: 0.82rem; }
+
+            .container { padding: 1rem 0.75rem; }
+            .page-header { margin-bottom: 1.25rem; }
+            .page-title { font-size: 1.4rem; }
+            .page-title span { font-size: 0.75rem; }
+
+            /* Toolbar (排序选择) */
+            div[style*="margin-top: 1rem"][style*="display: flex"] {
+                flex-wrap: wrap !important;
+                gap: 0.35rem !important;
+                margin-top: 0.75rem !important;
+            }
+
+            /* 搜索框 */
+            .search-box { padding: 0.85rem; flex-wrap: wrap; gap: 0.5rem; }
+            .search-input { padding: 0.65rem 0.85rem; font-size: 0.82rem; }
+            .search-btn { padding: 0.65rem 1rem; font-size: 0.82rem; }
+
+            /* 统计卡片 - 双列 */
+            .stats-bar { gap: 0.6rem; }
+            .stat-card { padding: 0.75rem 0.9rem; min-width: 45%; flex: 1 1 45%; }
+            .stat-icon { width: 32px; height: 32px; font-size: 1rem; }
+            .stat-value { font-size: 1.2rem; }
+            .stat-label { font-size: 0.7rem; }
+
+            /* 表格 → 卡片 */
+            .stocks-table { border-radius: var(--radius-lg); overflow: visible; }
+            .table-header { display: none; }
+            .stock-row {
+                display: block !important;
+                padding: 1rem;
+                margin-bottom: 0.6rem;
+                background: var(--bg-card);
+                border: 1px solid var(--border);
+                border-radius: var(--radius-md);
+                position: relative;
+            }
+            .stock-row:active { background: rgba(59,130,246,0.06); }
+            .stock-row > div {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0.25rem 0;
+                gap: 0.75rem;
+            }
+            .stock-row > div::before {
+                content: attr(data-label);
+                color: var(--text-secondary);
+                font-size: 0.7rem;
+                text-transform: uppercase;
+                letter-spacing: 0.04em;
+                flex-shrink: 0;
+            }
+            .stock-code { font-size: 0.78rem; color: var(--accent-cyan); }
+            .stock-row > div:first-child .stock-code { font-weight: 700; font-size: 0.82rem; }
+            .stock-name { font-size: 0.95rem; font-weight: 700; color: var(--text-primary); }
+            .stock-row > div:first-child {
+                flex-direction: column;
+                align-items: flex-start;
+                padding-bottom: 0.5rem;
+                margin-bottom: 0.25rem;
+                border-bottom: 1px solid var(--border);
+            }
+            .stock-row > div:first-child::before { display: none; }
+            .stock-row > div:first-child .stock-name { margin-bottom: 0.15rem; }
+            .stock-concepts { justify-content: flex-end !important; flex-wrap: wrap; max-width: 65%; }
+            .concept-tag { font-size: 0.65rem; padding: 0.15rem 0.5rem; }
+            .stock-mention { font-size: 0.82rem; }
+            .stock-updated { font-size: 0.75rem; }
+
+            .empty-state { padding: 2.5rem 1rem; }
+            .empty-state-icon { font-size: 2.2rem; }
+        }
+        @media (max-width: 400px) {
+            .container { padding: 0.75rem 0.5rem; }
+            .page-title { font-size: 1.2rem; }
+            .stock-row { padding: 0.75rem; }
+            .stat-card { min-width: 100%; }
         }
     </style>
 </head>
@@ -350,12 +463,15 @@
             </svg>
             CYBERRESEARCH
         </a>
-        <a href="/" class="nav-link">仪表板</a>
-        <a href="/stocks" class="nav-link active">股票列表</a>
-        <a href="/social-security-new" class="nav-link">社保新进</a>
-        <a href="/concepts" class="nav-link">概念大全</a>
-        <a href="/monitor" class="nav-link">资金监控</a>
-        <a href="/search" class="nav-link">🔍 搜索</a>
+        <div class="nav-links" id="navLinks">
+            <a href="/" class="nav-link">仪表板</a>
+            <a href="/stocks" class="nav-link active">股票列表</a>
+            <a href="/social-security-new" class="nav-link">社保新进</a>
+            <a href="/concepts" class="nav-link">概念大全</a>
+            <a href="/monitor" class="nav-link">资金监控</a>
+            <a href="/search" class="nav-link">🔍 搜索</a>
+        </div>
+        <button class="nav-toggle" id="navToggle" aria-label="菜单">☰</button>
     </nav>
     
     <div class="container">
@@ -431,19 +547,19 @@
                data-name="{{ s.name }}" 
                data-concepts="{{ s.concepts|join(',') }}"
                data-updated="{{ s.last_updated or '' }}">
-                <div class="stock-code">{{ s.code }}</div>
-                <div class="stock-name">{{ s.name }}</div>
-                <div class="stock-mention {% if s.mention_count > 5 %}high{% elif s.mention_count > 2 %}medium{% else %}low{% endif %}">
+                <div class="stock-code" data-label="代码">{{ s.code }}</div>
+                <div class="stock-name" data-label="名称">{{ s.name }}</div>
+                <div class="stock-mention {% if s.mention_count > 5 %}high{% elif s.mention_count > 2 %}medium{% else %}low{% endif %}" data-label="热度">
                     {% if s.mention_count > 0 %}🔥 {{ s.mention_count }}{% else %}—{% endif %}
                 </div>
-                <div class="stock-updated {% if s.last_updated and s.last_updated[:10] >= '2026-05-09' %}new{% endif %}">
+                <div class="stock-updated {% if s.last_updated and s.last_updated[:10] >= '2026-05-09' %}new{% endif %}" data-label="更新">
                     {% if s.last_updated %}
                         🕐 {{ s.last_updated[:10] }}
                     {% else %}
                         —
                     {% endif %}
                 </div>
-                <div class="stock-concepts">
+                <div class="stock-concepts" data-label="概念">
                     {% for c in s.concepts[:5] %}
                     <span class="concept-tag">{{ c }}</span>
                     {% endfor %}
@@ -485,6 +601,16 @@
         function changeSort(sortType) {
             // 跳转到带排序参数的 URL
             window.location.href = '/stocks?sort=' + sortType;
+        }
+
+        // 移动端导航切换
+        const navToggle = document.getElementById('navToggle');
+        const navLinks = document.getElementById('navLinks');
+        if (navToggle && navLinks) {
+            navToggle.addEventListener('click', () => {
+                navLinks.classList.toggle('on');
+                navToggle.textContent = navLinks.classList.contains('on') ? '✕' : '☰';
+            });
         }
     </script>
 </body>

@@ -148,6 +148,47 @@
         .related-stock:hover { border-color: var(--accent-blue); background: rgba(59,130,246,0.1); }
         .related-stock .sim { font-size: 11px; color: var(--text-muted); }
         .loading-price { color: var(--text-muted); font-size: 14px; }
+
+        /* ─── Mobile Responsive ─── */
+        @media (max-width: 768px) {
+            div[style*="max-width: 900px"] { padding: 12px 12px 100px !important; }
+            .nav-bar { padding: 12px; flex-wrap: wrap; gap: 6px; margin: 10px 0; }
+            .nav-btn { padding: 8px 12px; font-size: 12px; }
+            .nav-info { order: 3; width: 100%; text-align: center; font-size: 12px; margin-top: 4px; }
+            .stock-header { flex-wrap: wrap; gap: 8px; }
+            .stock-header > div:first-child { width: 100%; }
+            .stock-header > div:nth-child(2) { margin-left: 0 !important; flex-direction: row !important; align-items: center; gap: 16px; width: 100%; }
+            .stock-header > div:nth-child(2) > div { flex: 1; text-align: center; }
+            .stock-name { font-size: 22px; }
+            .section { padding: 14px; margin: 12px 0; border-radius: 12px; }
+            .section h3 { font-size: 14px; }
+            .price-row { flex-direction: column; gap: 12px; }
+            .price-item { min-width: auto; width: 100%; display: flex; justify-content: space-between; align-items: center; padding: 6px 0; border-bottom: 1px solid var(--border); }
+            .price-item:last-child { border-bottom: none; }
+            .price-item .label { margin-bottom: 0; font-size: 11px; }
+            .price-item .value { font-size: 18px; }
+            .article-card { padding: 12px; }
+            .article-card h4 { font-size: 13px; }
+            .article-card .meta { font-size: 11px; }
+            .article-card ul { font-size: 12px; padding-left: 16px; }
+            .tag { font-size: 11px; padding: 2px 8px; }
+            .sync-bar { padding: 10px 12px; gap: 8px; flex-wrap: wrap; justify-content: center; }
+            .sync-bar .btn { padding: 6px 12px; font-size: 12px; }
+            .sync-status { margin-left: 0; font-size: 11px; width: 100%; text-align: center; order: 5; }
+            .industry-bg { padding: 10px 12px; font-size: 12px; }
+            .edit-field label { font-size: 12px; }
+            .edit-field input, .edit-field textarea { padding: 6px 10px; font-size: 13px; }
+            .toast { padding: 8px 14px; font-size: 12px; right: 12px; top: 12px; left: 12px; }
+            .topic-meta { flex-wrap: wrap; gap: 10px; }
+            .topic-header { padding: 16px; }
+            .topic-title { font-size: 20px; }
+            .topic-drivers { font-size: 13px; line-height: 1.7; padding: 10px; }
+        }
+        @media (max-width: 400px) {
+            .stock-name { font-size: 20px; }
+            .section { padding: 12px; }
+            .price-item .value { font-size: 16px; }
+        }
     </style>
 </head>
 <body>

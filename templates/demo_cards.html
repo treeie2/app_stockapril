@@ -120,13 +120,76 @@
             position: relative;
             z-index: 1;
         }
+
+        /* Mobile Nav Toggle */
+        .nav-toggle {
+            display: none;
+            width: 38px; height: 38px;
+            border: 1px solid rgba(99, 179, 237, 0.12);
+            background: rgba(255,255,255,0.03);
+            border-radius: 8px;
+            color: #06b6d4;
+            cursor: pointer;
+            align-items: center;
+            justify-content: center;
+            font-size: 1rem;
+            margin-left: auto;
+            flex-shrink: 0;
+        }
+        .nav-links-mobile {
+            display: none;
+            width: 100%;
+            flex-direction: column;
+            gap: 0.25rem;
+            margin-top: 0.5rem;
+            padding-top: 0.5rem;
+            border-top: 1px solid rgba(99, 179, 237, 0.12);
+            order: 99;
+        }
+        .nav-links-mobile.on { display: flex; }
+        .nav-links-mobile .nav-link { padding: 0.6rem 0.85rem; font-size: 0.9rem; }
+        .nav-links-mobile .nav-link.active { color: #06b6d4; background: rgba(6,182,212,0.1); }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .navbar {
+                padding: 0.75rem 1rem;
+                height: auto;
+                flex-wrap: wrap;
+                gap: 0.35rem;
+            }
+            .nav-toggle { display: flex; }
+            .navbar-nav { display: none; }
+            .navbar-brand { font-size: 0.85rem; letter-spacing: 0.1em; }
+
+            .container { padding: 1rem; }
+
+            .page-header { margin-bottom: 1.5rem; }
+            .page-title { font-size: 1.2rem; }
+            .page-subtitle { font-size: 0.75rem; }
+
+            .demo-section { margin-bottom: 2rem; }
+            .demo-title { font-size: 0.95rem; margin-bottom: 0.4rem; }
+            .demo-desc { font-size: 0.72rem; margin-bottom: 1rem; line-height: 1.5; }
+
+            .stocks-grid {
+                grid-template-columns: 1fr;
+                gap: 0.75rem;
+            }
+
+            .footer { padding: 1.5rem 1rem; font-size: 0.7rem; }
+        }
+        @media (max-width: 400px) {
+            .container { padding: 0.75rem 0.5rem; }
+            .page-title { font-size: 1.05rem; }
+        }
     </style>
 </head>
 <body>
     <!-- 导航栏 -->
     <nav class="navbar">
         <a href="/" class="navbar-brand">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
             </svg>
             CYBERRESEARCH
@@ -137,6 +200,13 @@
             <a href="/concepts" class="nav-link">概念大全</a>
             <a href="/demo/cards" class="nav-link active">组件展示</a>
         </nav>
+        <button class="nav-toggle" id="navToggle" aria-label="菜单">☰</button>
+        <div class="nav-links-mobile" id="navLinks">
+            <a href="/" class="nav-link">仪表板</a>
+            <a href="/stocks" class="nav-link">股票列表</a>
+            <a href="/concepts" class="nav-link">概念大全</a>
+            <a href="/demo/cards" class="nav-link active">组件展示</a>
+        </div>
     </nav>
     
     <div class="container">
@@ -467,6 +537,16 @@
         }
         
         document.addEventListener('DOMContentLoaded', fetchMarketData);
+    </script>
+    <script>
+        const navToggle = document.getElementById('navToggle');
+        const navLinks = document.getElementById('navLinks');
+        if (navToggle && navLinks) {
+            navToggle.addEventListener('click', () => {
+                navLinks.classList.toggle('on');
+                navToggle.textContent = navLinks.classList.contains('on') ? '✕' : '☰';
+            });
+        }
     </script>
 </body>
 </html>

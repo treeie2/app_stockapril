@@ -157,6 +157,63 @@
             border-radius:4px;
             font-family:var(--mono);
         }
+
+        /* Mobile Nav Toggle */
+        .nav-toggle {
+            display: none;
+            width: 38px; height: 38px;
+            border: 1px solid var(--border);
+            background: rgba(255,255,255,0.03);
+            border-radius: 8px;
+            color: var(--cyan);
+            cursor: pointer;
+            align-items: center;
+            justify-content: center;
+            font-size: 1rem;
+            margin-left: auto;
+            flex-shrink: 0;
+        }
+        .nav-links-mobile {
+            display: none;
+            width: 100%;
+            flex-direction: column;
+            gap: 0.25rem;
+            margin-top: 0.5rem;
+            padding-top: 0.5rem;
+            border-top: 1px solid var(--border);
+        }
+        .nav-links-mobile.on { display: flex; }
+        .nav-links-mobile .nav-link { padding: 0.6rem 0.85rem; font-size: 0.9rem; }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .nav {
+                padding: 0.75rem 1rem;
+                height: auto;
+                flex-wrap: wrap;
+                gap: 0.35rem;
+            }
+            .nav-toggle { display: flex; }
+            .nav > .nav-link { display: none; }
+            .nav-brand { font-size: 0.85rem; }
+
+            .wrap { padding: 1rem; }
+            .page-title { font-size: 1.2rem; }
+            .page-sub { font-size: 0.75rem; margin-bottom: 1.25rem; }
+
+            .card { padding: 1rem 1.1rem; margin-bottom: 1rem; border-radius: 10px; }
+            .card-title { font-size: 0.9rem; margin-bottom: 0.75rem; }
+
+            textarea { min-height: 300px; font-size: 0.75rem; padding: 0.75rem; }
+
+            .btn { padding: 0.5rem 1.2rem; font-size: 0.8rem; margin-top: 0.75rem; }
+
+            .instructions { font-size: 0.72rem; line-height: 1.5; }
+        }
+        @media (max-width: 400px) {
+            .wrap { padding: 0.75rem 0.5rem; }
+            textarea { min-height: 250px; }
+        }
     </style>
 </head>
 <body>
@@ -167,7 +224,16 @@
         <a href="/social-security-new" class="nav-link">社保新进</a>
         <a href="/concepts" class="nav-link">概念大全</a>
         <a href="/monitor" class="nav-link">资金监控</a>
-        <a href="/update-stocks" class="nav-link">📥 导入数据</a>
+        <a href="/update-stocks" class="nav-link" style="color:var(--cyan)">📥 导入数据</a>
+        <button class="nav-toggle" id="navToggle" aria-label="菜单">☰</button>
+        <div class="nav-links-mobile" id="navLinks">
+            <a href="/" class="nav-link">仪表板</a>
+            <a href="/stocks" class="nav-link">股票列表</a>
+            <a href="/social-security-new" class="nav-link">社保新进</a>
+            <a href="/concepts" class="nav-link">概念大全</a>
+            <a href="/monitor" class="nav-link">资金监控</a>
+            <a href="/update-stocks" class="nav-link" style="color:var(--cyan)">📥 导入数据</a>
+        </div>
     </nav>
     
     <div class="wrap">
@@ -252,6 +318,16 @@
                 btn.textContent = '🚀 导入数据';
                 result.style.display = 'block';
             }
+        }
+    </script>
+    <script>
+        const navToggle = document.getElementById('navToggle');
+        const navLinks = document.getElementById('navLinks');
+        if (navToggle && navLinks) {
+            navToggle.addEventListener('click', () => {
+                navLinks.classList.toggle('on');
+                navToggle.textContent = navLinks.classList.contains('on') ? '✕' : '☰';
+            });
         }
     </script>
 </body>
