@@ -1,10 +1,26 @@
 # Raw Material 与数据处理流程规范
 
-**版本**: v2.5
-**更新日期**: 2026-06-13
+**版本**: v2.9
+**更新日期**: 2026-06-21
 **适用**: 微信文章→原始素材→结构化数据全流程（5 维度标准 + 轻量模式）
 
 ---
+
+## 🆕 v2.9 变更说明（2026-06-21）
+
+### json.gz 自动生成 + Supabase 同步
+- **merge_new_stocks.py** 保存主文件时自动生成 `stocks_master.json.gz`（~914KB）
+- **Vercel 优先读取 `.gz`**：加载更快，节省空间
+- **Supabase 替代 Firebase**：`sync_to_supabase.py` 全量/增量同步
+- **日期格式强制 YYYY-MM-DD**：`normalize_dates.py` 检查和修复
+
+## 🆕 v2.7 变更说明（2026-06-19）
+
+### 本地股票扫描 + 上下文提取
+- **`local_scan_stock_names()`**：0 API 调用识别文章中的股票
+- **`_extract_context_for_stocks()`**：长文只传相关段落（6000→500字）
+- **移除 BROAD_LIST 标题过滤**：不再按标题整篇拒绝
+- **`__THIN__` 三道防线**：逐股判断质量
 
 ## 🆕 v2.5 变更说明（2026-06-13）
 
@@ -348,32 +364,32 @@ python scripts/merge_new_stocks.py
 python -c "import json; d=json.load(open('data/stocks/stocks_master.json','r',encoding='utf-8')); s=d['stocks'].get('002254',{}); print(s.get('name',''), len(s.get('articles',[])), 'articles'); [print('  -', a.get('title'), 'tv:', a.get('target_valuation')) for a in s.get('articles',[])]"
 ```
 
-### Step 4: 同步到 Firebase
+### Step 4: 同步到 Supabase
 
 ```bash
-python sync_stocks_to_firebase.py \
-  --credentials ".trae/rules/firebase-credentials.json" \
-  --json "data/stocks/stocks_master.json" \
-  --on_exists merge
+# 增量同步（推荐，每次合并后运行）
+python .trae/skills/wechat-fetch-research-embedded/scripts/sync_to_supabase.py --date 2026-06-20
+
+# 全量同步（首次或修复时使用）
+python .trae/skills/wechat-fetch-research-embedded/scripts/sync_to_supabase.py --full
 ```
 
-### Step 5: 刷新 Web 界面
+### Step 5: 推送 + Vercel 部署
 
-合并后必须**重启 Flask 服务器**才能生效：
+merge_new_stocks.py 已自动完成 git push。还需手动操作：
 
 ```bash
-# 停止旧进程
-Stop-Process -Name "python" -Force
+# 1. 验证 json.gz 正确（~900KB，不是 60KB）
+python _regz.py
 
-# 重启
-cd project_root
-Start-Process -NoNewWindow python -ArgumentList "main.py"
+# 2. 同步到 Supabase
+python .trae/skills/wechat-fetch-research-embedded/scripts/sync_to_supabase.py --date 2026-06-20
 
-# 打开浏览器验证
-# http://127.0.0.1:7860/stock/002254
+# 3. 去 Vercel Dashboard (https://vercel.com/dashboard)
+#    → stockj 项目 → Deployments → Redeploy
 ```
 
-> ⚠️ **注意**：如果页面仍不显示新数据，请检查是否漏掉了 Step 3（`python scripts/merge_new_stocks.py`）。`incremental_update.py` 写入的是 skill 内部目录，前端不读取。
+> ⚠️ **Vercel 自动部署可能失效**，需手动 Redeploy。数据加载链：Supabase HTTP API → GitHub raw → 本地 .json.gz
 
 ---
 
@@ -482,10 +498,11 @@ python -c "import json; d=json.load(open('data/stocks/stocks_master.json','r',en
 #### 4. 同步到 Firebase
 
 ```bash
-python sync_stocks_to_firebase.py \
-  --credentials ".trae/rules/firebase-credentials.json" \
-  --json "data/stocks/stocks_master.json" \
-  --on_exists merge
+# 增量同步（推荐，每次合并后运行）
+python .trae/skills/wechat-fetch-research-embedded/scripts/sync_to_supabase.py --date 2026-06-20
+
+# 全量同步（首次或修复时使用）
+python .trae/skills/wechat-fetch-research-embedded/scripts/sync_to_supabase.py --full
 ```
 
 #### 5. 重启服务器 + Git 提交
@@ -547,4 +564,4 @@ git push origin main
 ---
 
 **文档维护**: 系统自动更新  
-**最后更新**: 2026-06-13
+**最后更新**: 2026-06-21
