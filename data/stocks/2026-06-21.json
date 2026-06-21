@@ -1,6 +1,6 @@
 {
   "date": "2026-06-21",
-  "update_count": 20,
+  "update_count": 24,
   "stocks": {
     "600460": {
       "name": "士兰微",
@@ -1000,6 +1000,201 @@
         }
       ],
       "last_updated": "2026-06-21"
+    },
+    "000988": {
+      "name": "华工科技",
+      "code": "000988",
+      "board": "SZ",
+      "industry": "电子-光学光电子",
+      "concepts": [],
+      "products": [
+        "光模块",
+        "激光设备",
+        "硅光芯片"
+      ],
+      "core_business": [
+        "集“光联接、智能感知、智能制造”三大业务于一体的高科技企业集团"
+      ],
+      "industry_position": [
+        "中国激光行业的首家上市公司",
+        "华为、中兴的核心供应商",
+        "连续多年蝉联华为“全球金牌供应商奖”"
+      ],
+      "chain": [
+        "中游-光模块/光器件"
+      ],
+      "partners": [
+        "中兴",
+        "华为",
+        "长飞"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "【华为昇腾】昇腾产业链深度分析",
+          "date": "2026-06-21",
+          "source": "https://mp.weixin.qq.com/s/uECBzS2weTX0Q37LprLlfQ",
+          "industry_background": [
+            "昇腾链的研究特点就是缺少公开可查的资料"
+          ],
+          "accidents": [
+            "公司旗下华工正源光器件是华为、中兴的核心供应商",
+            "公司连续多年蝉联华为“全球金牌供应商奖”",
+            "公司有自研硅光芯片能力"
+          ],
+          "insights": [
+            "从光模块对于NV链的重要性角度来看，华工科技等供应华为光模块的企业产业链地位还是非常重要的",
+            "华工给昇腾提供光模块应该是长期明确的",
+            "和长飞等联合提供华为家智算方案，也是比较有机会的"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-21"
+    },
+    "002025": {
+      "name": "航天电器",
+      "code": "002025",
+      "board": "SZ",
+      "industry": "电子-连接器",
+      "concepts": [],
+      "products": [
+        "液冷连接器",
+        "线缆组件",
+        "高速连接器"
+      ],
+      "core_business": [
+        "中国高端连接器、微特电机及继电器领域的核心企业。"
+      ],
+      "industry_position": [
+        "中国高端连接器、微特电机及继电器领域的核心企业之一。",
+        "部分产品切入华为昇腾供应链。"
+      ],
+      "chain": [
+        "上游-连接器/线缆组件"
+      ],
+      "partners": [
+        "华为昇腾"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "【华为昇腾】昇腾产业链深度分析",
+          "date": "2026-06-21",
+          "source": "https://mp.weixin.qq.com/s/uECBzS2weTX0Q37LprLlfQ",
+          "industry_background": [
+            "昇腾产业链扩散，市场意识到整机需要完整上游配套，参与动作顺着产业链向上游传导。",
+            "昇腾910B产能释放、服务器批量出货。"
+          ],
+          "accidents": [
+            "公司近期明确了为昇腾服务器提供包括电源连接器、射频连接器、高速连接器及线缆组件、液冷连接器等产品。",
+            "公司子公司华旃6月份获得昇腾950服务器cable tray（线缆托盘）的小批量供应代码。"
+          ],
+          "insights": [
+            "公司是华为昇腾供应链的参与者，部分产品已切入。作为中国高端连接器、微特电机及继电器领域的核心企业之一，有望受益于昇腾服务器需求增长。",
+            "隶属于中国航天科工集团，实际控制人为国务院国资委，具备技术和资质优势。"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-21"
+    },
+    "301236": {
+      "name": "软通动力",
+      "code": "301236",
+      "board": "SZ",
+      "industry": "计算机-IT服务-IT服务",
+      "concepts": [],
+      "products": [
+        "IT服务",
+        "软件"
+      ],
+      "core_business": [
+        "提供软件与信息技术服务，以及数字化运营服务。"
+      ],
+      "industry_position": [
+        "昇腾产业链软件环节的参与者，旗下软通华方为昇腾整机渠道伙伴。"
+      ],
+      "chain": [
+        "整机销售",
+        "软件与服务"
+      ],
+      "partners": [
+        "华为"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "【华为昇腾】昇腾产业链深度分析",
+          "date": "2026-06-21",
+          "source": "https://mp.weixin.qq.com/s/uECBzS2weTX0Q37LprLlfQ",
+          "industry_background": [
+            "昇腾产业链扩散，市场意识到整机需要完整上游配套，参与动作顺着产业链向上游传导。",
+            "市场开始就国产替代长期空间达成一致预期。"
+          ],
+          "accidents": [
+            "旗下软通华方是昇腾整机代工与销售渠道伙伴之一。"
+          ],
+          "insights": [
+            "软件是昇腾产业链扩散阶段新增的赛道之一，涉及CANN适配。",
+            "作为昇腾整机渠道伙伴，但华为对渠道伙伴管控较强，每年份额变动很大。"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-21"
+    },
+    "600941": {
+      "name": "中国移动",
+      "code": "600941",
+      "board": "SH",
+      "industry": "通信",
+      "concepts": [],
+      "products": [
+        "算力服务",
+        "通信服务"
+      ],
+      "core_business": [
+        "移动通信、有线宽带、政企及家庭市场服务"
+      ],
+      "industry_position": [
+        "国内领先的电信运营商"
+      ],
+      "chain": [
+        "下游-算力采购与应用"
+      ],
+      "partners": [
+        "华为"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "【华为昇腾】昇腾产业链深度分析",
+          "date": "2026-06-21",
+          "source": "https://mp.weixin.qq.com/s/uECBzS2weTX0Q37LprLlfQ",
+          "industry_background": [
+            "昇腾产业链发展",
+            "国产AI算力需求增长",
+            "昇腾芯片及服务器生态"
+          ],
+          "accidents": [
+            "2026年4月，中国移动AI超节点集采落地，集采6,208张昇腾加速卡，全部指定..."
+          ],
+          "insights": [
+            "作为头部运营商，是昇腾算力的重要采购方和应用方"
+          ],
+          "key_metrics": [
+            "集采6,208张昇腾加速卡",
+            "采购规模约20亿元"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-21"
     }
-  }
+  },
+  "last_updated": "2026-06-21"
 }
