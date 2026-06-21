@@ -1,0 +1,1370 @@
+{
+  "date": "2026-06-18",
+  "update_count": 32,
+  "stocks": {
+    "002167": {
+      "name": "东方锆业",
+      "code": "002167",
+      "board": "SZ",
+      "industry": "有色金属-稀有金属-锆",
+      "concepts": [],
+      "products": [
+        "固态电池电解质",
+        "锆材料"
+      ],
+      "core_business": [
+        "锆材料及固态电池相关技术研发与生产。"
+      ],
+      "industry_position": [
+        "参股公司拥有国际原创的锆基氧氯化物固态电解质技术。"
+      ],
+      "chain": [
+        "上游-原材料"
+      ],
+      "partners": [
+        "合肥固宁纪元"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "每日首板逻辑汇总 2026年6月18日",
+          "date": "2026-06-18",
+          "source": "https://mp.weixin.qq.com/s/cWLv5bI-kqJ_isNEOWW0xg",
+          "industry_background": [
+            "稀土、钨、锂、钴、镓、锗等36种关键矿产正式列入国家战略性矿产资源目录，自6月15日起施行。"
+          ],
+          "accidents": [
+            "公司出资参股合肥固宁纪元，实控人马骋教授团队研发的锆基氧氯化物固态电解质为国际原创技术，已完成电池原型验证。",
+            "公司拟募资11.70亿元用于年产1万吨新能源电池级高纯复合氧化锆项目。"
+          ],
+          "insights": [
+            "公司布局锆基固态电解质技术，并募资扩产新能源电池级高纯氧化锆，受益于锆材料在固态电池等新能源领域的应用前景。"
+          ],
+          "key_metrics": [
+            "拟募资11.70亿元。",
+            "年产1万吨新能源电池级高纯复合氧化锆。"
+          ],
+          "target_valuation": []
+        }
+      ]
+    },
+    "603663": {
+      "name": "三祥新材",
+      "code": "603663",
+      "board": "SH",
+      "industry": "有色金属-稀有金属-锆铪",
+      "concepts": [],
+      "products": [
+        "氧氯化铪",
+        "氧氯化锆"
+      ],
+      "core_business": [
+        "锆铪分离及电子级材料生产。"
+      ],
+      "industry_position": [
+        "锆铪分离半工业化产线可稳定产出高纯产品。"
+      ],
+      "chain": [
+        "上游-原材料"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "每日首板逻辑汇总 2026年6月18日",
+          "date": "2026-06-18",
+          "source": "https://mp.weixin.qq.com/s/cWLv5bI-kqJ_isNEOWW0xg",
+          "industry_background": [
+            "稀土、钨、锂、钴、镓、锗等36种关键矿产正式列入国家战略性矿产资源目录，自6月15日起施行。"
+          ],
+          "accidents": [
+            "公司锆铪分离半工业化产线已可连续稳定产出4N级以上电子级氧氯化铪及氧氯化锆，预计投产在即。",
+            "公司已将部分锆铪产品向下游半导体领域客户送样。"
+          ],
+          "insights": [
+            "公司锆铪分离技术取得进展，产品可应用于半导体领域，受益于铪在存储、CPU、GPU等高端芯片中的应用前景。"
+          ],
+          "key_metrics": [
+            "产出4N级以上电子级氧氯化铪及氧氯化锆。"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-18"
+    },
+    "001216": {
+      "name": "华瓷股份",
+      "code": "001216",
+      "board": "SZ",
+      "industry": "轻工制造-家用轻工-陶瓷制品",
+      "concepts": [],
+      "products": [
+        "氧化锆粉体",
+        "齿科产品"
+      ],
+      "core_business": [
+        "陶瓷制品及氧化锆粉体研发。"
+      ],
+      "industry_position": [
+        "子公司齿科产品取得FDA认证。"
+      ],
+      "chain": [
+        "中游-制造"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "每日首板逻辑汇总 2026年6月18日",
+          "date": "2026-06-18",
+          "source": "https://mp.weixin.qq.com/s/cWLv5bI-kqJ_isNEOWW0xg",
+          "industry_background": [
+            "稀土、钨、锂、钴、镓、锗等36种关键矿产正式列入国家战略性矿产资源目录，自6月15日起施行。"
+          ],
+          "accidents": [
+            "公司子公司华联特陶生产的齿科产品于2024年取得FDA医疗器械资质认证，销往多个国家。",
+            "子公司江西金环旗下子公司在氧化锆粉体研发领域已取得阶段性成果。"
+          ],
+          "insights": [
+            "公司齿科产品取得国际认证，并布局氧化锆粉体研发，业务向高端材料领域延伸。"
+          ],
+          "key_metrics": [
+            "2024年取得FDA医疗器械资质认证。"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-18"
+    },
+    "002805": {
+      "name": "丰元股份",
+      "code": "002805",
+      "board": "SZ",
+      "industry": "电力设备-电池-电池化学品",
+      "concepts": [],
+      "products": [
+        "固态电池",
+        "磷酸铁锂正极材料",
+        "锂电池材料"
+      ],
+      "core_business": [
+        "高性能锂电池磷酸铁锂正极材料的研发、生产和销售。"
+      ],
+      "industry_position": [],
+      "chain": [
+        "中游-电池材料"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "每日首板逻辑汇总 2026年6月18日",
+          "date": "2026-06-18",
+          "source": "https://mp.weixin.qq.com/s/cWLv5bI-kqJ_isNEOWW0xg",
+          "industry_background": [
+            "据近日国务院常务会议审议通过的《矿产资源法实施条例》，稀土、钨、锂、钴、镓、锗等36种关键矿产正式列入国家战略性矿产资源目录，自6月15日起施行。"
+          ],
+          "accidents": [
+            "据2026年6月13日公告，公司拟投资新建年产5万吨高性能锂电池磷酸铁锂正极材料产线。",
+            "据2026年6月17日投资者关系活动记录表，公司2026年一季度实现营收13.8..."
+          ],
+          "insights": [
+            "公司同时布局磷酸铁锂正极材料和固态电池领域，受益于关键矿产战略地位提升和新能源电池产业发展。"
+          ],
+          "key_metrics": [
+            "2026年一季度营收13.83亿元，同比增长276.52%。",
+            "2026年一季度归母净利润7693.40万元，同比扭亏为盈。",
+            "拟新建年产5万吨磷酸铁锂正极材料产线。"
+          ],
+          "target_valuation": []
+        }
+      ]
+    },
+    "688478": {
+      "name": "晶升股份",
+      "code": "688478",
+      "board": "SH",
+      "industry": "机械设备-半导体设备-晶体生长设备",
+      "concepts": [],
+      "products": [
+        "半导体设备",
+        "碳化硅单晶炉"
+      ],
+      "core_business": [
+        "碳化硅等半导体晶体生长设备的研发、生产和销售。"
+      ],
+      "industry_position": [
+        "国内碳化硅单晶炉主要厂商之一"
+      ],
+      "chain": [
+        "上游-设备"
+      ],
+      "partners": [
+        "国内下游碳化硅材料主流厂商"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "每日首板逻辑汇总 2026年6月18日",
+          "date": "2026-06-18",
+          "source": "https://mp.weixin.qq.com/s/cWLv5bI-kqJ_isNEOWW0xg",
+          "industry_background": [
+            "据中证报，国际半导体产业协会（SEMI）最新报告显示，2026年第一季度全球半导体设备出货金额达到365.5亿美元，同比增长14%，创下历史最高单季纪录。"
+          ],
+          "accidents": [
+            "据2026年5月13日及6月5日互动易，公司2026年碳化硅设备订单已呈现好转趋势，近期有批量订单陆续交付。",
+            "据2026年4月30日年报，公司为国内碳化硅单晶炉主要厂商之一，产品已大批量交付国内下游碳化硅材料主流厂商。"
+          ],
+          "insights": [
+            "作为国内碳化硅单晶炉主要厂商，受益于全球半导体设备市场高景气及碳化硅材料需求增长，订单呈现好转趋势。"
+          ],
+          "key_metrics": [
+            "2026年第一季度全球半导体设备出货金额365.5亿美元，同比增长14%。"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-18"
+    },
+    "600076": {
+      "name": "康欣新材",
+      "code": "600076",
+      "board": "SH",
+      "industry": "机械设备-半导体设备",
+      "concepts": [],
+      "products": [
+        "半导体器件专用设备"
+      ],
+      "core_business": [
+        "通过收购宇邦半导体，切入半导体器件专用设备制造领域。"
+      ],
+      "industry_position": [],
+      "chain": [
+        "上游-设备"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "每日首板逻辑汇总 2026年6月18日",
+          "date": "2026-06-18",
+          "source": "https://mp.weixin.qq.com/s/cWLv5bI-kqJ_isNEOWW0xg",
+          "industry_background": [
+            "据中证报，国际半导体产业协会（SEMI）最新报告显示，2026年第一季度全球半导体设备出货金额达到365.5亿美元，同比增长14%，创下历史最高单季纪录。"
+          ],
+          "accidents": [
+            "据2026年5月15日互动易，公司收购宇邦半导体股权已于2026年4月完成工商变..."
+          ],
+          "insights": [
+            "通过收购宇邦半导体股权，公司成功切入半导体器件专用设备制造领域，实现业务转型，受益于半导体设备行业高景气度。"
+          ],
+          "key_metrics": [
+            "使用现金39,168万元取得宇邦半导体51%股权。"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-18"
+    },
+    "002281": {
+      "name": "光迅科技",
+      "code": "002281",
+      "board": "SZ",
+      "industry": "通信-通信设备-光通信设备",
+      "concepts": [],
+      "products": [
+        "1.6T光模块",
+        "3.2T硅光单模NPO模块",
+        "CPO光器件"
+      ],
+      "core_business": [
+        "光通信器件、模块和子系统的研发、生产和销售。"
+      ],
+      "industry_position": [
+        "全球首款3.2T硅光单模NPO模块推出者"
+      ],
+      "chain": [
+        "中游-光器件/模块"
+      ],
+      "partners": [
+        "国内头部CSP厂商"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "每日首板逻辑汇总 2026年6月18日",
+          "date": "2026-06-18",
+          "source": "https://mp.weixin.qq.com/s/cWLv5bI-kqJ_isNEOWW0xg",
+          "industry_background": [
+            "据中证报，国际半导体产业协会（SEMI）最新报告显示，2026年第一季度全球半导体设备出货金额达到365.5亿美元，同比增长14%，创下历史最高单季纪录。"
+          ],
+          "accidents": [
+            "据2026年5月14日及5月15日互动易，公司在2026年3月OFC展会上推出全...",
+            "据2026年5月15日投资者关系管理信息，公司积极投入共封装光学CPO相关光器件..."
+          ],
+          "insights": [
+            "公司推出全球首款3.2T硅光单模NPO模块，并具备1.6T光模块批量交付能力，在高速光模块领域技术领先，深度绑定国内头部云服务商，受益于AI算力需求。"
+          ],
+          "key_metrics": [
+            "推出全球首款3.2T硅光单模NPO模块。",
+            "1.6T光模块产品已具备批量交付能力。"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-18"
+    },
+    "300861": {
+      "name": "美畅股份",
+      "code": "300861",
+      "board": "SZ",
+      "industry": "机械设备-通用设备-金刚石线",
+      "concepts": [],
+      "products": [
+        "金刚石线",
+        "钨丝金刚线"
+      ],
+      "core_business": [
+        "金刚石线生产，可用于碳化硅等半导体材料切割。"
+      ],
+      "industry_position": [],
+      "chain": [
+        "上游-切割耗材"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "每日首板逻辑汇总 2026年6月18日",
+          "date": "2026-06-18",
+          "source": "https://mp.weixin.qq.com/s/cWLv5bI-kqJ_isNEOWW0xg",
+          "industry_background": [
+            "2026年第一季度全球半导体设备出货金额达到365.5亿美元，同比增长14%，创下历史最高单季纪录。"
+          ],
+          "accidents": [
+            "据2026年5月20日投资者关系活动记录表，公司产品金刚石线可用于碳化硅等半导体材料切割。",
+            "据2026年4月29日公告，公司2026年一季报归母净利润1.94亿元，同比增长634.00%。"
+          ],
+          "insights": [
+            "产品金刚石线可用于碳化硅等半导体材料切割。"
+          ],
+          "key_metrics": [
+            "2026年一季报归母净利润1.94亿元，同比增长634.00%。"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-18"
+    },
+    "603380": {
+      "name": "易德龙",
+      "code": "603380",
+      "board": "SH",
+      "industry": "电子-电子制造",
+      "concepts": [],
+      "products": [
+        "AI服务器",
+        "人形机器人关节电机",
+        "车载电控"
+      ],
+      "core_business": [
+        "通讯设备业务，聚焦人形机器人关节电机、车载电控等核心品类。"
+      ],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "每日首板逻辑汇总 2026年6月18日",
+          "date": "2026-06-18",
+          "source": "https://mp.weixin.qq.com/s/cWLv5bI-kqJ_isNEOWW0xg",
+          "industry_background": [
+            "国际半导体产业协会（SEMI）最新报告显示，2026 年第一季度全球半导体设备出货金额达到 365.5 亿美元，同比增长 14%，创下历史最高单季纪录。",
+            "德银近日报告中指出，人形机器人市场正从炒作阶段过渡至早期规模化商业化阶段，并将 2026 年全球人形机器人出货预测调高逾一倍至近 5 万台，2030 年和 2050 年分别看至 70 万与 700 万台。"
+          ],
+          "accidents": [
+            "据 2026 年 4 月 24 日投资者关系活动记录表，公司通讯下游头部服务器客..."
+          ],
+          "insights": [
+            "公司聚焦人形机器人关节电机、车载电控等核心品类，多款高附加值样机完成研发、验证测试及量产导入。"
+          ],
+          "key_metrics": [
+            "通讯设备业务2025年营收同比增长41.14%。"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-18"
+    },
+    "002859": {
+      "name": "洁美科技",
+      "code": "002859",
+      "board": "SZ",
+      "industry": "电子-电子元件",
+      "concepts": [],
+      "products": [
+        "HVLP铜箔",
+        "MLCC离型膜"
+      ],
+      "core_business": [
+        "MLCC离型膜的生产与销售，布局AI算力前端材料。"
+      ],
+      "industry_position": [
+        "MLCC离型膜已稳定批量供货国巨、三星、村田等全球头部客户。"
+      ],
+      "chain": [
+        "中游-电子材料"
+      ],
+      "partners": [
+        "三星",
+        "国巨",
+        "村田",
+        "韩国斗山"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "每日首板逻辑汇总 2026年6月18日",
+          "date": "2026-06-18",
+          "source": "https://mp.weixin.qq.com/s/cWLv5bI-kqJ_isNEOWW0xg",
+          "industry_background": [
+            "国际半导体产业协会（SEMI）最新报告显示，2026 年第一季度全球半导体设备出货金额达到 365.5 亿美元，同比增长 14%，创下历史最高单季纪录。",
+            "据国投证券研报，AI 高容 MLCC 爆发，高纯氧化镝为高容介质必备原料，全球高纯镝紧缺，2027 年 AI-MLCC 新增镝需求 1500 吨，占全球总供给近四成。"
+          ],
+          "accidents": [
+            "据 2026 年 5 月 22 日投资者关系活动记录表，公司 MLCC 离型膜已...",
+            "据 2026 年 5 月 22 日投资者关系活动记录表，控股子公司柔震科技 HV..."
+          ],
+          "insights": [
+            "公司 MLCC 离型膜已稳定批量供货全球头部客户，并布局 AI 算力前端材料。"
+          ],
+          "key_metrics": [
+            "MLCC离型膜4月出货超2700万平米。"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-18"
+    },
+    "603358": {
+      "name": "华达科技",
+      "code": "603358",
+      "board": "SH",
+      "industry": "汽车-汽车零部件",
+      "concepts": [],
+      "products": [
+        "人形机器人样件",
+        "新能源汽车零部件"
+      ],
+      "core_business": [
+        "人形机器人零部件开发与新能源汽车零部件业务。"
+      ],
+      "industry_position": [],
+      "chain": [
+        "中游-汽车零部件"
+      ],
+      "partners": [
+        "埃夫特"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "每日首板逻辑汇总 2026年6月18日",
+          "date": "2026-06-18",
+          "source": "https://mp.weixin.qq.com/s/cWLv5bI-kqJ_isNEOWW0xg",
+          "industry_background": [
+            "德银近日报告中指出，人形机器人市场正从炒作阶段过渡至早期规模化商业化阶段，并将 2026 年全球人形机器人出货预测调高逾一倍至近 5 万台，2030 年和 2050 年分别看至 70 万与 700 万台。"
+          ],
+          "accidents": [
+            "据 2025 年 11 月 8 日投资者关系记录表，公司与埃夫特战略合作并已开发人形机器人样件。",
+            "据 2026 年 6 月 2 日机构调研，2025 年度新能源汽车零部件业务实现..."
+          ],
+          "insights": [
+            "公司已开发人形机器人样件，新能源汽车零部件业务收入占比高。"
+          ],
+          "key_metrics": [
+            "2025年度新能源汽车零部件业务实现收入19.55亿元，占主营业务收入42.21%。"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-18"
+    },
+    "002283": {
+      "name": "天润工业",
+      "code": "002283",
+      "board": "SZ",
+      "industry": "机械设备-通用设备-内燃机零部件",
+      "concepts": [],
+      "products": [
+        "大缸径曲轴",
+        "连杆"
+      ],
+      "core_business": [
+        "大缸径曲轴、连杆业务，受益于数据中心建设带来的发电机组发动机需求。"
+      ],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "每日首板逻辑汇总 2026年6月18日",
+          "date": "2026-06-18",
+          "source": "https://mp.weixin.qq.com/s/cWLv5bI-kqJ_isNEOWW0xg",
+          "industry_background": [
+            "人形机器人市场正从炒作阶段过渡至早期规模化商业化阶段，德银将2026年全球人形机器人出货预测调高逾一倍至近5万台，2030年和2050年分别看至70万与700万台。"
+          ],
+          "accidents": [
+            "据2026年3月31日投资者关系活动记录表，公司2025年大缸径曲轴、连杆业务收入4.10亿元，同比增长53%。"
+          ],
+          "insights": [
+            "大缸径曲轴、连杆业务主要受益于全球数据中心建设提速，发电机组用大缸径发动机需求激增。"
+          ],
+          "key_metrics": [
+            "2025年大缸径曲轴、连杆业务收入4.10亿元，同比增长53%。"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-18"
+    },
+    "301310": {
+      "name": "鑫宏业",
+      "code": "301310",
+      "board": "SZ",
+      "industry": "电力设备-线缆部件",
+      "concepts": [],
+      "products": [
+        "高柔性极细机器人电缆",
+        "高速铜缆"
+      ],
+      "core_business": [
+        "生产高柔性极细人形机器人用电缆，并为智算场景研发高速铜缆连接技术。"
+      ],
+      "industry_position": [],
+      "chain": [],
+      "partners": [
+        "华为",
+        "星动纪元",
+        "特斯拉"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "每日首板逻辑汇总 2026年6月18日",
+          "date": "2026-06-18",
+          "source": "https://mp.weixin.qq.com/s/cWLv5bI-kqJ_isNEOWW0xg",
+          "industry_background": [
+            "人形机器人市场正从炒作阶段过渡至早期规模化商业化阶段，德银将2026年全球人形机器人出货预测调高逾一倍至近5万台，2030年和2050年分别看至70万与700万台。"
+          ],
+          "accidents": [
+            "据2026年4月17日年报，公司高柔性极细人形机器人用电缆可实现1000万次以上..."
+          ],
+          "insights": [
+            "公司针对智算场景下的高速铜缆连接领域已开展专项技术研究。"
+          ],
+          "key_metrics": [
+            "高柔性极细人形机器人用电缆可实现1000万次以上耐弯折。"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-18"
+    },
+    "000657": {
+      "name": "中钨高新",
+      "code": "000657",
+      "board": "SZ",
+      "industry": "有色金属-钨",
+      "concepts": [],
+      "products": [
+        "PCB 钻针",
+        "微钻"
+      ],
+      "core_business": [
+        "PCB 钻针业务，微钻扩产项目已投产。"
+      ],
+      "industry_position": [],
+      "chain": [
+        "中游-硬质合金及工具"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "每日首板逻辑汇总 2026年6月18日",
+          "date": "2026-06-18",
+          "source": "https://mp.weixin.qq.com/s/cWLv5bI-kqJ_isNEOWW0xg",
+          "industry_background": [
+            "据近日国务院常务会议审议通过的《矿产资源法实施条例》，将稀土、钨、锂、钴、镓、锗等 36 种关键矿产正式列入国家战略性矿产资源目录。"
+          ],
+          "accidents": [
+            "据 2026 年 6 月 14 日中国基金报报道，深证 100 指数样本股调整于 6 月 15 日生效，中钨高新被调入。",
+            "据 2026 年 5 月 13 日机构调研，AI 服务器高景气驱动，公司 PCB..."
+          ],
+          "insights": [
+            "AI 服务器高景气驱动 PCB 钻针市场需求旺盛，公司产能处于满产状态，扩产项目已投产。"
+          ],
+          "key_metrics": [
+            "1.4 亿支微钻扩产项目已于 2026 年 3 月达产。"
+          ],
+          "target_valuation": []
+        }
+      ]
+    },
+    "002842": {
+      "name": "翔鹭钨业",
+      "code": "002842",
+      "board": "SZ",
+      "industry": "有色金属-钨",
+      "concepts": [],
+      "products": [
+        "硬质合金",
+        "钨精矿"
+      ],
+      "core_business": [
+        "钨行业全产业链业务，涵盖钨精矿采选到硬质合金全系列生产。"
+      ],
+      "industry_position": [
+        "国内钨行业具备完整产业链的企业之一。"
+      ],
+      "chain": [
+        "上游-采选",
+        "中游-冶炼及硬质合金制造"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "每日首板逻辑汇总 2026年6月18日",
+          "date": "2026-06-18",
+          "source": "https://mp.weixin.qq.com/s/cWLv5bI-kqJ_isNEOWW0xg",
+          "industry_background": [
+            "据近日国务院常务会议审议通过的《矿产资源法实施条例》，将稀土、钨、锂、钴、镓、锗等 36 种关键矿产正式列入国家战略性矿产资源目录。"
+          ],
+          "accidents": [
+            "据 2026 年 6 月 18 日公告，公司向特定对象发行股票申请获得审核通过。"
+          ],
+          "insights": [
+            "公司是国内钨行业具备完整产业链的企业之一，业务涵盖钨精矿采选到硬质合金全系列生产。"
+          ],
+          "key_metrics": [
+            "2026 年一季度营收 11.48 亿元，同比增长 138.65%。",
+            "2026 年一季度归母净利润 2.51 亿元，同比增长 2917.13%。"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-18"
+    },
+    "600259": {
+      "name": "中稀有色",
+      "code": "600259",
+      "board": "SH",
+      "industry": "有色金属-稀土",
+      "concepts": [],
+      "products": [
+        "稀土"
+      ],
+      "core_business": [
+        "稀土业务，拥有完整产业链。"
+      ],
+      "industry_position": [
+        "广东省内唯一合法稀土采矿权人，拥有省内全部稀土采矿证。"
+      ],
+      "chain": [
+        "上游-采选",
+        "中游-冶炼分离"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "每日首板逻辑汇总 2026年6月18日",
+          "date": "2026-06-18",
+          "source": "https://mp.weixin.qq.com/s/cWLv5bI-kqJ_isNEOWW0xg",
+          "industry_background": [
+            "据近日国务院常务会议审议通过《矿产资源法实施条例》，自 6 月 15 日起施行。据国投证券研报，AI 高容 MLCC 爆发，高纯氧化镝为高容介质必备原料，全球高纯镝紧缺，2027 年 AI-MLCC 新增镝需求 1500 吨，占全球总供给近四成。"
+          ],
+          "accidents": [
+            "据 2026 年 6 月 16 日报道，近日稀土主流产品价格持续上涨，氧化镝、氧化铽价格强势上行。"
+          ],
+          "insights": [
+            "公司是广东省内唯一合法稀土采矿权人，拥有省内全部稀土采矿证，具备完整产业链，受益于稀土价格上涨。"
+          ],
+          "key_metrics": [
+            "2026 年一季度归母净利润 1.71 亿元，同比增长 261.55%。"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-18"
+    },
+    "600392": {
+      "name": "盛和资源",
+      "code": "600392",
+      "board": "SH",
+      "industry": "有色金属-稀土",
+      "concepts": [],
+      "products": [
+        "稀土"
+      ],
+      "core_business": [
+        "稀土业务，拥有稀土分离工厂。"
+      ],
+      "industry_position": [],
+      "chain": [
+        "中游-冶炼分离"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "每日首板逻辑汇总 2026年6月18日",
+          "date": "2026-06-18",
+          "source": "https://mp.weixin.qq.com/s/cWLv5bI-kqJ_isNEOWW0xg",
+          "industry_background": [
+            "据近日国务院常务会议审议通过《矿产资源法实施条例》，自 6 月 15 日起施行。据国投证券研报，AI 高容 MLCC 爆发，高纯氧化镝为高容介质必备原料，全球高纯镝紧缺，2027 年 AI-MLCC 新增镝需求 1500 吨，占全球总供给近四成。"
+          ],
+          "accidents": [
+            "据 2026 年 6 月 12 日投资者关系活动记录表，公司 2025 年完成收..."
+          ],
+          "insights": [
+            "收购的江阴加华稀土分离工厂已恢复正常生产运营，增强了公司稀土分离能力。"
+          ],
+          "key_metrics": [
+            "江阴加华稀土分离工厂核准分离能力为 3800 吨 / 年。",
+            "2026 年一季度实现归母净利润 3.27 亿元，同比增长 94.46%。"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-18"
+    },
+    "002907": {
+      "name": "华森制药",
+      "code": "002907",
+      "board": "SZ",
+      "industry": "医药生物-中药-中药Ⅲ",
+      "concepts": [],
+      "products": [
+        "中成药",
+        "创新药"
+      ],
+      "core_business": [
+        "创新药及中成药的研发、生产和销售。"
+      ],
+      "industry_position": [
+        "拥有7个1.1类创新药在研项目，覆盖多个治疗领域。"
+      ],
+      "chain": [
+        "中游-医药制造"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "每日首板逻辑汇总 2026年6月18日",
+          "date": "2026-06-18",
+          "source": "https://mp.weixin.qq.com/s/cWLv5bI-kqJ_isNEOWW0xg",
+          "industry_background": [
+            "医药行业上市公司近期掀起回购潮，仅在今年二季度，已有超百家医药 A 股或 H 股上市公司披露回购或股份增持计划。"
+          ],
+          "accidents": [
+            "据 2026 年 6 月 15 日投资者关系活动记录表，公司拥有 7 个 1.1..."
+          ],
+          "insights": [
+            "公司拥有7个1.1类创新药在研项目，覆盖肿瘤、神经、消化等多个重要治疗领域，创新药管线储备较为丰富。"
+          ],
+          "key_metrics": [
+            "拥有 7 个 1.1 类创新药在研项目"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-18"
+    },
+    "002317": {
+      "name": "众生药业",
+      "code": "002317",
+      "board": "SZ",
+      "industry": "医药生物-化学制药-化学制剂",
+      "concepts": [],
+      "products": [
+        "RAY1225注射液",
+        "创新药"
+      ],
+      "core_business": [
+        "药品的研发、生产和销售，聚焦创新药领域。"
+      ],
+      "industry_position": [
+        "控股子公司众生睿创的创新药RAY1225注射液临床数据亮眼。"
+      ],
+      "chain": [
+        "中游-医药制造"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "每日首板逻辑汇总 2026年6月18日",
+          "date": "2026-06-18",
+          "source": "https://mp.weixin.qq.com/s/cWLv5bI-kqJ_isNEOWW0xg",
+          "industry_background": [
+            "医药行业上市公司近期掀起回购潮，仅在今年二季度，已有超百家医药 A 股或 H 股上市公司披露回购或股份增持计划。"
+          ],
+          "accidents": [
+            "美国时间6月7日，公司控股子公司众生睿创的RAY1225注射液II期临床研究成果...",
+            "据2026年6月11日互动易，该药物III期临床试验已于2025年7月完成入组，试验周期为52周。"
+          ],
+          "insights": [
+            "公司核心创新药RAY1225注射液在II期临床中展现出显著的减重效果（体重下降21.18%），III期临床已完成入组，进展顺利，有望成为重磅产品。"
+          ],
+          "key_metrics": [
+            "18mg剂量组治疗24周体重较基线下降21.18%",
+            "III期临床试验已于2025年7月完成入组，试验周期为52周"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-18"
+    },
+    "688131": {
+      "name": "皓元医药",
+      "code": "688131",
+      "board": "SH",
+      "industry": "医药生物-医药研发及生产外包-CRO/CMO",
+      "concepts": [],
+      "products": [
+        "ADC CDMO服务",
+        "分子砌块"
+      ],
+      "core_business": [
+        "为全球医药企业和科研机构提供从药物发现到商业化生产的原料药、中间体及相关技术服务。"
+      ],
+      "industry_position": [
+        "重庆ADC CDMO基地已顺利投产，ADC业务订单增长。"
+      ],
+      "chain": [
+        "中游-医药研发及生产服务"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "每日首板逻辑汇总 2026年6月18日",
+          "date": "2026-06-18",
+          "source": "https://mp.weixin.qq.com/s/cWLv5bI-kqJ_isNEOWW0xg",
+          "industry_background": [
+            "医药行业上市公司近期掀起回购潮，仅在今年二季度，已有超百家医药 A 股或 H 股上市公司披露回购或股份增持计划。"
+          ],
+          "accidents": [
+            "据 2026 年 6 月 8 日投资者关系活动记录表，公司重庆皓元抗体偶联 CD..."
+          ],
+          "insights": [
+            "公司重庆ADC CDMO基地顺利投产，且在手订单持续增长，表明公司在ADC药物研发生产服务领域具备竞争力，有望受益于ADC赛道高景气度。"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-18"
+    },
+    "603127": {
+      "name": "昭衍新药",
+      "code": "603127",
+      "board": "SH",
+      "industry": "医药生物-医药研发及生产外包-CRO/CMO",
+      "concepts": [],
+      "products": [
+        "临床前CRO服务",
+        "实验猴"
+      ],
+      "core_business": [
+        "为医药研发提供临床前安全性评价服务及相关实验动物业务。"
+      ],
+      "industry_position": [
+        "国内领先的临床前CRO企业。"
+      ],
+      "chain": [
+        "中游-医药研发及生产服务"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "每日首板逻辑汇总 2026年6月18日",
+          "date": "2026-06-18",
+          "source": "https://mp.weixin.qq.com/s/cWLv5bI-kqJ_isNEOWW0xg",
+          "industry_background": [
+            "医药行业上市公司近期掀起回购潮，仅在今年二季度，已有超百家医药 A 股或 H 股上市公司披露回购或股份增持计划。"
+          ],
+          "accidents": [
+            "据 2026 年 5 月 19 日业绩说明会，公司 2026 年第一季度归母净利..."
+          ],
+          "insights": [
+            "公司作为临床前CRO龙头，受益于实验猴价格回升，毛利率改善，带动2026年一季度业绩显著增长。"
+          ],
+          "key_metrics": [
+            "2026 年第一季度归母净利润同比增长显著"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-18"
+    },
+    "002950": {
+      "name": "奥美医疗",
+      "code": "002950",
+      "board": "SZ",
+      "industry": "医药生物-医疗器械-医用敷料",
+      "concepts": [],
+      "products": [
+        "医用敷料"
+      ],
+      "core_business": [
+        "医用敷料的研发、生产与销售。"
+      ],
+      "industry_position": [
+        "中国医用敷料出口行业第一"
+      ],
+      "chain": [
+        "中游-医疗器械制造"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "每日首板逻辑汇总 2026年6月18日",
+          "date": "2026-06-18",
+          "source": "https://mp.weixin.qq.com/s/cWLv5bI-kqJ_isNEOWW0xg",
+          "industry_background": [
+            "医药行业上市公司近期掀起回购潮，仅在今年二季度，已有超百家医药 A 股或 H 股上市公司披露回购或股份增持计划。"
+          ],
+          "accidents": [
+            "据2026年6月18日公告，公司董事会审议通过《2026年员工持股计划草案》。"
+          ],
+          "insights": [
+            "公司自 2008 年至今连续多年保持中国医用敷料出口行业第一位置，境外营收占比达 82.35%。"
+          ],
+          "key_metrics": [
+            "境外营收占比达 82.35%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-18"
+    },
+    "000889": {
+      "name": "中嘉博创",
+      "code": "000889",
+      "board": "SZ",
+      "industry": "通信-通信服务",
+      "concepts": [],
+      "products": [
+        "算力销售",
+        "通信服务"
+      ],
+      "core_business": [
+        "算力销售与通信服务。"
+      ],
+      "industry_position": [],
+      "chain": [
+        "中游-服务提供商"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "每日首板逻辑汇总 2026年6月18日",
+          "date": "2026-06-18",
+          "source": "https://mp.weixin.qq.com/s/cWLv5bI-kqJ_isNEOWW0xg",
+          "industry_background": [],
+          "accidents": [
+            "据2026年5月19日互动易，公司依法向刘英魁追索股份对价返还，对应金额约 7.25 亿元。"
+          ],
+          "insights": [
+            "子公司海南博创云天科技有限公司主营算力销售。"
+          ],
+          "key_metrics": [
+            "追索股份对价返还对应金额约 7.25 亿元"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-18"
+    },
+    "002354": {
+      "name": "天娱数科",
+      "code": "002354",
+      "board": "SZ",
+      "industry": "计算机-人工智能",
+      "concepts": [],
+      "products": [
+        "3D视觉AI模组"
+      ],
+      "core_business": [
+        "参股公司研发3D视觉AI模组，用于人形机器人、灵巧手及协作臂。"
+      ],
+      "industry_position": [],
+      "chain": [
+        "上游-核心零部件"
+      ],
+      "partners": [
+        "芯明"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "每日首板逻辑汇总 2026年6月18日",
+          "date": "2026-06-18",
+          "source": "https://mp.weixin.qq.com/s/cWLv5bI-kqJ_isNEOWW0xg",
+          "industry_background": [],
+          "accidents": [
+            "参股公司芯明发布自研3D视觉AI模组R216g，内置空间智能芯片提供3.5 TO..."
+          ],
+          "insights": [
+            "该模组解决\"看得清、抓得准\"的核心痛点。"
+          ],
+          "key_metrics": [
+            "3.5 TOPS端侧算力"
+          ],
+          "target_valuation": []
+        }
+      ]
+    },
+    "300166": {
+      "name": "东方国信",
+      "code": "300166",
+      "board": "SZ",
+      "industry": "计算机-IT服务-软件开发",
+      "concepts": [],
+      "products": [
+        "AI算力云平台",
+        "算力租赁"
+      ],
+      "core_business": [
+        "提供大数据、云计算及人工智能技术产品与服务，运营AI算力云平台。"
+      ],
+      "industry_position": [
+        "国内领先的C端AI算力云平台运营商"
+      ],
+      "chain": [
+        "中游-算力服务"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "每日首板逻辑汇总 2026年6月18日",
+          "date": "2026-06-18",
+          "source": "https://mp.weixin.qq.com/s/cWLv5bI-kqJ_isNEOWW0xg",
+          "industry_background": [],
+          "accidents": [
+            "据2026年5月19日投资者关系活动记录表，公司内蒙古和林格尔智算中心共规划6栋...",
+            "据2026年4月24日年报，公司控股子公司视拓云运营的AutoDL.com平台是..."
+          ],
+          "insights": [
+            "公司是国内领先的C端AI算力云平台运营商，拥有庞大的GPU及国产AI加速芯片资源，在算力租赁市场具备规模优势。"
+          ],
+          "key_metrics": [
+            "运营约3万张GPU及国产AI加速芯片。"
+          ],
+          "target_valuation": []
+        }
+      ]
+    },
+    "603496": {
+      "name": "恒为科技",
+      "code": "603496",
+      "board": "SH",
+      "industry": "计算机-计算机设备-通信设备",
+      "concepts": [],
+      "products": [
+        "汇聚分流设备",
+        "网络可视化"
+      ],
+      "core_business": [
+        "从事网络可视化及智能系统平台的研发、销售与服务。"
+      ],
+      "industry_position": [
+        "华为钻石部件合作伙伴",
+        "网络可视化领域主要厂商"
+      ],
+      "chain": [
+        "中游-网络设备"
+      ],
+      "partners": [
+        "中国移动",
+        "华为"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "每日首板逻辑汇总 2026年6月18日",
+          "date": "2026-06-18",
+          "source": "https://mp.weixin.qq.com/s/cWLv5bI-kqJ_isNEOWW0xg",
+          "industry_background": [],
+          "accidents": [
+            "据2026年5月6日投资者关系活动记录表，公司2025年成为华为授权的金牌部件合...",
+            "据2026年6月15日互动易，在中国移动2026年至2027年汇聚分流设备集中采..."
+          ],
+          "insights": [
+            "公司是华为钻石部件合作伙伴，合作关系紧密。在中国移动汇聚分流设备集采中作为第一中标候选人，份额领先，显示其在网络可视化领域的市场竞争力。"
+          ],
+          "key_metrics": [
+            "中标份额为40%。"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-18"
+    },
+    "688227": {
+      "name": "品高股份",
+      "code": "688227",
+      "board": "SH",
+      "industry": "计算机-IT服务-云计算",
+      "concepts": [],
+      "products": [
+        "AI一体机",
+        "云计算软件"
+      ],
+      "core_business": [
+        "提供云计算产品、解决方案及服务，并布局国产AI芯片及一体机。"
+      ],
+      "industry_position": [
+        "国产AI芯片及一体机的布局者"
+      ],
+      "chain": [
+        "中游-云计算服务与软件"
+      ],
+      "partners": [
+        "江原科技"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "每日首板逻辑汇总 2026年6月18日",
+          "date": "2026-06-18",
+          "source": "https://mp.weixin.qq.com/s/cWLv5bI-kqJ_isNEOWW0xg",
+          "industry_background": [],
+          "accidents": [
+            "据2026年6月1日投资者关系活动记录表，公司参股的江原科技T800芯片已进入流...",
+            "据2025年年报，公司联合江原科技推出搭载全国产AI加速芯片的品原AI一体机系列..."
+          ],
+          "insights": [
+            "公司通过参股江原科技，布局全国产AI加速芯片，并推出AI一体机产品，在国产化算力领域具备先发优势，产品已实现场景化落地应用。"
+          ],
+          "key_metrics": [
+            "T800芯片预计将在2026年第三或第四季度实现量产。"
+          ],
+          "target_valuation": []
+        }
+      ]
+    },
+    "002655": {
+      "name": "共达电声",
+      "code": "002655",
+      "board": "SZ",
+      "industry": "电子-消费电子-电子零部件",
+      "concepts": [],
+      "products": [
+        "RNC振动传感器模组",
+        "车载语音模组"
+      ],
+      "core_business": [
+        "从事微型电声元器件及电声组件的研发、生产和销售，聚焦车载电子业务。"
+      ],
+      "industry_position": [
+        "车载声学模组供应商"
+      ],
+      "chain": [
+        "中游-汽车电子零部件"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "每日首板逻辑汇总 2026年6月18日",
+          "date": "2026-06-18",
+          "source": "https://mp.weixin.qq.com/s/cWLv5bI-kqJ_isNEOWW0xg",
+          "industry_background": [],
+          "accidents": [
+            "据2026年6月5日公告，公司拟向浙江镝嘉精密科技有限公司增资不超过2亿元并委派过半数董事，取得其不低于51%控制权。",
+            "据2025年年报，公司聚焦车载电子业务，主要产品包括车载语音模组、RNC振动传感器模组等。"
+          ],
+          "insights": [
+            "公司通过拟控股浙江镝嘉精密科技，有望拓展精密制造能力，强化其在车载电子领域的布局，与现有车载声学业务形成协同。"
+          ],
+          "key_metrics": [
+            "拟增资不超过2亿元。"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-18"
+    },
+    "603201": {
+      "name": "常润股份",
+      "code": "603201",
+      "board": "SH",
+      "industry": "汽车-汽车零部件-底盘与发动机系统",
+      "concepts": [],
+      "products": [
+        "千斤顶",
+        "汽车配套零部件"
+      ],
+      "core_business": [
+        "从事汽车配套零部件的研发、生产和销售，是全球主要的千斤顶制造商。"
+      ],
+      "industry_position": [
+        "全球最大的千斤顶制造企业"
+      ],
+      "chain": [
+        "中游-汽车零部件制造"
+      ],
+      "partners": [
+        "比亚迪",
+        "特斯拉"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "每日首板逻辑汇总 2026年6月18日",
+          "date": "2026-06-18",
+          "source": "https://mp.weixin.qq.com/s/cWLv5bI-kqJ_isNEOWW0xg",
+          "industry_background": [],
+          "accidents": [
+            "据2026年4月23日年报，公司作为全球最大的千斤顶制造企业，汽车配套零部件OE..."
+          ],
+          "insights": [
+            "公司是全球千斤顶制造龙头，汽车配套业务已成功切入特斯拉、比亚迪等头部新能源车企供应链，受益于新能源汽车行业增长。"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-18"
+    },
+    "603223": {
+      "name": "恒通股份",
+      "code": "603223",
+      "board": "SH",
+      "industry": "交通运输-港口",
+      "concepts": [],
+      "products": [
+        "LNG",
+        "港口物流"
+      ],
+      "core_business": [
+        "港口物流与LNG业务"
+      ],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "每日首板逻辑汇总 2026年6月18日",
+          "date": "2026-06-18",
+          "source": "https://mp.weixin.qq.com/s/cWLv5bI-kqJ_isNEOWW0xg",
+          "industry_background": [],
+          "accidents": [
+            "2026年第一季度归母净利润9316.31万元，同比增长118.95%，主要系子公司裕龙港务码头业务量增加所致。"
+          ],
+          "insights": [
+            "__THIN__"
+          ],
+          "key_metrics": [
+            "2026年第一季度归母净利润9316.31万元，同比增长118.95%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-18"
+    },
+    "002392": {
+      "name": "北京利尔",
+      "code": "002392",
+      "board": "SZ",
+      "industry": "有色金属-电池材料",
+      "concepts": [],
+      "products": [
+        "硅碳负极材料"
+      ],
+      "core_business": [
+        "耐火材料及拟收购的硅碳负极材料业务"
+      ],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "每日首板逻辑汇总 2026年6月18日",
+          "date": "2026-06-18",
+          "source": "https://mp.weixin.qq.com/s/cWLv5bI-kqJ_isNEOWW0xg",
+          "industry_background": [],
+          "accidents": [
+            "公司拟以9.90亿元收购洛阳联创锂能科技有限公司65%股权，切入硅碳负极材料领域。"
+          ],
+          "insights": [
+            "__THIN__"
+          ],
+          "key_metrics": [
+            "收购金额9.90亿元",
+            "收购股权比例65%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-18"
+    },
+    "002442": {
+      "name": "龙星科技",
+      "code": "002442",
+      "board": "SZ",
+      "industry": "化工-炭黑",
+      "concepts": [],
+      "products": [
+        "炭黑",
+        "绿色炭黑"
+      ],
+      "core_business": [
+        "炭黑产品的研发、生产和销售"
+      ],
+      "industry_position": [
+        "炭黑行业龙头"
+      ],
+      "chain": [
+        "中游-化工原料"
+      ],
+      "partners": [
+        "多家头部轮胎企业"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "每日首板逻辑汇总 2026年6月18日",
+          "date": "2026-06-18",
+          "source": "https://mp.weixin.qq.com/s/cWLv5bI-kqJ_isNEOWW0xg",
+          "industry_background": [],
+          "accidents": [
+            "据华西证券2026年6月17日研报，公司是炭黑行业龙头，2025年炭黑设计产能6..."
+          ],
+          "insights": [
+            "公司作为炭黑行业龙头，绿色炭黑产品通过头部轮胎企业认证，有望受益于轮胎行业绿色化转型。"
+          ],
+          "key_metrics": [
+            "2025年炭黑设计产能60万吨"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-18"
+    }
+  }
+}
