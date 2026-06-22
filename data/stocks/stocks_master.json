@@ -1,6 +1,6 @@
 {
   "version": "2.3",
-  "updated_at": "2026-06-14",
+  "updated_at": "2026-06-22",
   "stocks": {
     "002962": {
       "mention_count": 2,
@@ -13144,7 +13144,7 @@
       "core_business": [
         "钛钒矿开采、加工"
       ],
-      "last_updated": "2026-05-31",
+      "last_updated": "2026-06-22",
       "industry_position": [
         "钛钒金属核心公司"
       ],
@@ -13163,9 +13163,25 @@
         "钛白粉概念"
       ],
       "code": "000629",
-      "mention_count": 0,
+      "mention_count": 1,
       "partners": [],
-      "articles": [],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/jEm8s8M2mntaaBZdH19S3A",
+          "title": "钛白粉产业深度解读：五轮涨价背后的产业逻辑与核心标的",
+          "date": "2026-06-22",
+          "fetched_at": "2026-06-22",
+          "industry_background": "钛白粉行业2026年进入深度调整期，产能主动收缩，行业集中度提升。",
+          "accidents": [],
+          "insights": [
+            "钛白粉+钛化工一体化标的，产业链协同效应",
+            "亚洲新兴市场出口增量方向受益"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": ""
+        }
+      ],
       "board": "SZ",
       "products": [
         "钛制品",
@@ -37786,8 +37802,8 @@
       ]
     },
     "002601": {
-      "mention_count": 0,
-      "last_updated": "2026-05-10",
+      "mention_count": 1,
+      "last_updated": "2026-06-22",
       "concepts": [
         "融资融券",
         "钛白粉概念",
@@ -37808,7 +37824,34 @@
       "industry_position": [
         "全球第四"
       ],
-      "articles": [],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/jEm8s8M2mntaaBZdH19S3A",
+          "title": "钛白粉产业深度解读：五轮涨价背后的产业逻辑与核心标的",
+          "date": "2026-06-22",
+          "fetched_at": "2026-06-22",
+          "industry_background": "钛白粉是涂料、塑料、造纸等行业不可或缺的白色颜料。2026年行业从被动涨价向结构性分化切换，上游硫磺供给缺口推高成本，下游需求疲软与海外贸易壁垒压制盈利，氯化法与硫酸法企业利润剪刀差持续扩大。",
+          "accidents": [
+            "2025年产量472万吨，同比下降0.99%，20多年来首次年度产量同比下降",
+            "2025年有效产能从590万吨降至570万吨，全流程型企业由44家缩减至36家",
+            "2026年3月初龙佰率先涨价500元/吨，当月累计涨幅2000元/吨",
+            "6月5日龙佰再次上调国内价格1000元/吨，国际市场上调150美元/吨",
+            "今年国内累计最高涨幅已达3500元/吨"
+          ],
+          "insights": [
+            "行业绝对龙头，230万吨/年产能占据国内约40%份额",
+            "氯化法技术行业领先，硫酸法成本控制能力强",
+            "充分受益于本轮涨价行情"
+          ],
+          "key_metrics": [
+            "产能230万吨/年，市占率约40%",
+            "2026年累计涨幅3500元/吨",
+            "龙佰6月5日国内涨1000元/吨，国际涨150美元/吨"
+          ],
+          "target_valuation": [],
+          "content": ""
+        }
+      ],
       "industry": "基础化工-化学原料-钛白粉",
       "board": "SZ",
       "products": [
@@ -132185,7 +132228,7 @@
       "code": "000545",
       "name": "金浦钛业",
       "concept": "",
-      "mention_count": 1,
+      "mention_count": 2,
       "articles": [
         {
           "title": "有色金属",
@@ -132203,6 +132246,20 @@
             "一季度净利润增长30%"
           ],
           "target_valuation": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/jEm8s8M2mntaaBZdH19S3A",
+          "title": "钛白粉产业深度解读：五轮涨价背后的产业逻辑与核心标的",
+          "date": "2026-06-22",
+          "fetched_at": "2026-06-22",
+          "industry_background": "钛白粉行业2026年进入深度调整期，K型分化格局下大厂维持满负荷，小厂减产停产。",
+          "accidents": [],
+          "insights": [
+            "钛白粉行业重要参与者，受益于行业集中度提升"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": ""
         }
       ],
       "last_updated": "2026-06-22",
@@ -136781,9 +136838,31 @@
       "code": "002136",
       "name": "安纳达",
       "concept": "",
-      "mention_count": 0,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/jEm8s8M2mntaaBZdH19S3A",
+          "title": "钛白粉产业深度解读：五轮涨价背后的产业逻辑与核心标的",
+          "date": "2026-06-22",
+          "fetched_at": "2026-06-22",
+          "industry_background": "钛白粉是涂料、塑料、造纸等行业不可或缺的白色颜料。2026年行业从被动涨价向结构性分化切换。",
+          "accidents": [
+            "已有及规划产能达64万吨/年，跃居行业第二",
+            "6月5日迅速跟涨龙佰涨价函"
+          ],
+          "insights": [
+            "产能跃居行业第二，规模优势显著",
+            "硫磺自给率高，业绩弹性大"
+          ],
+          "key_metrics": [
+            "产能64万吨/年，行业第二",
+            "跟涨龙佰6月5日涨价"
+          ],
+          "target_valuation": [],
+          "content": ""
+        }
+      ],
+      "last_updated": "2026-06-22",
       "core_business": [],
       "industry_position": [],
       "valuation": {},
@@ -136859,9 +136938,29 @@
       "code": "002145",
       "name": "钛能化学",
       "concept": "",
-      "mention_count": 0,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/jEm8s8M2mntaaBZdH19S3A",
+          "title": "钛白粉产业深度解读：五轮涨价背后的产业逻辑与核心标的",
+          "date": "2026-06-22",
+          "fetched_at": "2026-06-22",
+          "industry_background": "钛白粉行业2026年从普涨普跌走向K型分化，氯化法与硫酸法利润剪刀差持续扩大。",
+          "accidents": [
+            "6月5日跟涨龙佰涨价函"
+          ],
+          "insights": [
+            "硫酸法头部企业，积极布局氯化法转型",
+            "行业第三位置，产能52万吨/年"
+          ],
+          "key_metrics": [
+            "产能52万吨/年，行业第三"
+          ],
+          "target_valuation": [],
+          "content": ""
+        }
+      ],
+      "last_updated": "2026-06-22",
       "core_business": [],
       "industry_position": [],
       "valuation": {},
