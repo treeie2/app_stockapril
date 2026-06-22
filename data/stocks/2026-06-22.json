@@ -91,7 +91,7 @@
         "宝马",
         "林肯"
       ],
-      "mention_count": 1,
+      "mention_count": 2,
       "articles": [
         {
           "title": "产业链深度分析",
@@ -119,6 +119,21 @@
             "与全球近270家运营商建立合作",
             "NPU最高算力32TOPS"
           ],
+          "target_valuation": []
+        },
+        {
+          "title": "晶晨股份、瑞芯微、全志科技、星宸科技初步分析",
+          "date": "2026-05-16",
+          "source": "要一点冷静",
+          "industry_background": [],
+          "accidents": [
+            "发展WiFi芯片和6nm先进制程芯片"
+          ],
+          "insights": [
+            "智能电视全球市占率第二",
+            "机顶盒市场生态壁垒深厚"
+          ],
+          "key_metrics": [],
           "target_valuation": []
         }
       ],
