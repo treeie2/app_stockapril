@@ -1362,8 +1362,12 @@ def stock_detail(code):
     
     # 统一文章字段格式 + 收集行业赛道背景
     def _to_list(val):
+        if val is None:
+            return []
         if isinstance(val, list):
             return [x.strip() for x in val if x and isinstance(x, str) and x.strip()]
+        if isinstance(val, dict):
+            return [f"{k}：{v}" for k, v in val.items() if k and str(v).strip()]
         if isinstance(val, str) and val.strip():
             import re
             parts = re.split(r'[；;\n]', val)
