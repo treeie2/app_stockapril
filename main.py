@@ -1361,12 +1361,21 @@ def stock_detail(code):
     }
     
     # 统一文章字段格式 + 收集行业赛道背景
+    def _to_list(val):
+        if isinstance(val, list):
+            return [x.strip() for x in val if x and isinstance(x, str) and x.strip()]
+        if isinstance(val, str) and val.strip():
+            import re
+            parts = re.split(r'[；;\n]', val)
+            return [p.strip() for p in parts if p and p.strip()]
+        return []
+
     raw_articles = d.get('articles', [])[:20]
     articles = []
     all_industry_bg = []  # 聚合所有文章的 industry_background
     seen_ib = set()
     for a in raw_articles:
-        ib_list = a.get('industry_background', [])
+        ib_list = _to_list(a.get('industry_background', []))
         for ib in ib_list:
             if ib and ib not in seen_ib:
                 seen_ib.add(ib)
@@ -1378,14 +1387,14 @@ def stock_detail(code):
             'date': a.get('date', a.get('published_at', '')),
             'source': a.get('source', ''),
             'context': a.get('context', ''),
-            'industry_background': a.get('industry_background', []),
-            'insights': a.get('insights', a.get('insight', [])),
-            'accidents': a.get('accidents', [a.get('accident', '')] if a.get('accident') else []),
-            'key_metrics': a.get('key_metrics', []),
-            'target_valuation': a.get('target_valuation', []),
-            'industry_position': a.get('industry_position', []),
-            'products': a.get('products', []),
-            'partners': a.get('partners', [])
+            'industry_background': ib_list,
+            'insights': _to_list(a.get('insights', a.get('insight', []))),
+            'accidents': _to_list(a.get('accidents', [a.get('accident', '')] if a.get('accident') else [])),
+            'key_metrics': _to_list(a.get('key_metrics', [])),
+            'target_valuation': _to_list(a.get('target_valuation', [])),
+            'industry_position': _to_list(a.get('industry_position', [])),
+            'products': _to_list(a.get('products', [])),
+            'partners': _to_list(a.get('partners', []))
         }
         articles.append(article)
     
