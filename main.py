@@ -1662,8 +1662,7 @@ def api_stock_edit(code):
 @app.route('/api/stock/<code>/article/delete', methods=['POST'])
 def api_stock_article_delete(code):
     code = re.sub(r'\.(SH|SZ|BJ)$', '', code)
-    """删除指定文章"""
-    # 确保数据已加载
+    """删除指定文章（按 source URL 标识，避免数组索引错位）"""
     try:
         load_all_data()
     except Exception as e:
@@ -1673,26 +1672,30 @@ def api_stock_article_delete(code):
         return jsonify({'success': False, 'error': '股票不存在'}), 404
     
     data = request.json
-    if not data or 'article_index' not in data:
-        return jsonify({'success': False, 'error': '缺少 article_index 参数'}), 400
+    if not data:
+        return jsonify({'success': False, 'error': '缺少参数'}), 400
     
-    article_index = data['article_index']
+    article_source = data.get('article_source', '')
     articles = stocks[code].get('articles', [])
     
-    if article_index < 0 or article_index >= len(articles):
-        return jsonify({'success': False, 'error': '文章索引无效'}), 400
+    # 找到要删除的文章索引（按 source URL 匹配）
+    article_index = -1
+    for i, a in enumerate(articles):
+        if a.get('source') == article_source:
+            article_index = i
+            break
     
-    # 记录被删除的文章信息
+    if article_index < 0:
+        return jsonify({'success': False, 'error': '未找到该文章'}), 404
+    
     deleted_article = articles[article_index]
     deleted_title = deleted_article.get('title', '（无标题）')
     
-    # 删除文章
     articles.pop(article_index)
     stocks[code]['articles'] = articles
     stocks[code]['mention_count'] = len(articles)
     stocks[code]['last_updated'] = datetime.now().strftime('%Y-%m-%d')
     
-    # 记录编辑日志
     edit_log.append({
         'timestamp': datetime.now().isoformat(),
         'code': code,
@@ -1702,10 +1705,8 @@ def api_stock_article_delete(code):
     })
     save_edit_log()
     
-    # 保存到文件
     save_stocks_to_file(code)
     
-    # 同步到 Firebase（单只股票）
     firebase_synced = False
     firebase_error = None
     try:
@@ -1767,9 +1768,9 @@ def api_stock_article_delete(code):
                     "arrayValue": {"values": [{"stringValue": c} for c in concepts]}
                 }
             
-            articles = stock.get("articles", [])
+            articles_list = stock.get("articles", [])
             article_values = []
-            for article in articles:
+            for article in articles_list:
                 af = {
                     "title": {"stringValue": article.get("title", "")},
                     "date": {"stringValue": article.get("date", "")},
@@ -1801,12 +1802,59 @@ def api_stock_article_delete(code):
     except Exception as e:
         firebase_error = str(e)
     
+    github_synced = False
+    github_error = None
+    try:
+        master_file = BASE_DIR / 'data' / 'stocks' / 'stocks_master.json'
+        gz_file = BASE_DIR / 'data' / 'stocks' / 'stocks_master.json.gz'
+        import gzip
+        with open(master_file, 'rb') as f:
+            raw = f.read()
+        with gzip.open(gz_file, 'wb') as f:
+            f.write(raw)
+        
+        result = _sync_json_to_github(
+            master_file,
+            'data/stocks/stocks_master.json',
+            f'[Web Sync] 删除文章: {deleted_title} - {stocks[code].get("name","")} ({code})'
+        )
+        github_synced = result.get('success', False)
+        if not github_synced:
+            github_error = result.get('error', '未知错误')
+        
+        _sync_json_to_github(
+            gz_file,
+            'data/stocks/stocks_master.json.gz',
+            f'[Web Sync] 删除文章: {deleted_title} - {stocks[code].get("name","")} ({code})'
+        )
+    except Exception as e:
+        github_error = str(e)
+    
+    supabase_synced = False
+    supabase_error = None
+    try:
+        sb = get_supabase_client()
+        if sb:
+            stock = stocks[code]
+            sb.table('stocks').upsert({
+                'code': code,
+                'name': stock.get('name', ''),
+                'articles': stock.get('articles', [])
+            }).execute()
+            supabase_synced = True
+    except Exception as e:
+        supabase_error = str(e)
+    
     return jsonify({
         'success': True,
         'deleted_title': deleted_title,
         'remaining_count': len(articles),
         'firebase_synced': firebase_synced,
-        'firebase_error': firebase_error
+        'firebase_error': firebase_error,
+        'github_synced': github_synced,
+        'github_error': github_error,
+        'supabase_synced': supabase_synced,
+        'supabase_error': supabase_error,
     })
 
 

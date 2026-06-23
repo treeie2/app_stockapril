@@ -398,8 +398,8 @@
         <div class="section">
             <h3>📄 相关文章（{{ stock.articles|length }} 篇）<small style="color:var(--accent-cyan);font-size:12px;"> v2.4 · 含行业背景</small></h3>
             {% for article in stock.articles %}
-            <div class="article-card" id="articleCard{{ loop.index0 }}">
-                <button class="btn-delete-article" onclick="deleteArticle({{ loop.index0 }})">🗑 删除</button>
+            <div class="article-card" id="articleCard{{ loop.index0 }}" data-source="{{ article.source }}">
+                <button class="btn-delete-article" onclick="deleteArticle('{{ article.source }}')">🗑 删除</button>
                 <button class="btn-edit-article" onclick="toggleEditArticle({{ loop.index0 }})" id="editBtn{{ loop.index0 }}">✏️ 编辑</button>
                 <!-- 显示模式 v2.4 -->
                 <div id="display{{ loop.index0 }}">
@@ -642,9 +642,9 @@
         }
 
         // ─── 删除文章 ───
-        async function deleteArticle(index) {
-            const articleCard = document.querySelectorAll('.article-card')[index];
-            const title = articleCard ? articleCard.querySelector('h4').textContent : '这篇文章';
+        async function deleteArticle(source) {
+            const card = document.querySelector(`.article-card[data-source="${CSS.escape(source)}"]`);
+            const title = card ? card.querySelector('h4').textContent : '这篇文章';
             if (!confirm(`确定要删除「${title}」吗？此操作不可撤销。`)) return;
 
             const status = document.getElementById('syncStatus');
@@ -655,21 +655,29 @@
                 const resp = await fetch(`/api/stock/${STOCK_CODE}/article/delete`, {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ article_index: index })
+                    body: JSON.stringify({ article_source: source })
                 });
                 const result = await resp.json();
                 if (result.success) {
-                    if (result.firebase_synced) {
-                        showToast(`✅ 已删除「${result.deleted_title}」并同步 Firebase`, 'success');
-                        status.textContent = '✅ 删除并同步成功';
-                        status.className = 'sync-status success';
-                    } else {
-                        showToast(`✅ 已删除「${result.deleted_title}」，但 Firebase 同步失败`, 'warning');
-                        status.textContent = '⚠️ 已删除，Firebase 同步失败: ' + (result.firebase_error || '');
-                        status.className = 'sync-status error';
+                    if (card) {
+                        card.style.transition = 'opacity 0.3s, transform 0.3s';
+                        card.style.opacity = '0';
+                        card.style.transform = 'translateX(30px)';
+                        setTimeout(() => card.remove(), 300);
                     }
-                    // 刷新页面以显示最新数据
-                    setTimeout(() => location.reload(), 1500);
+                    const countEl = document.querySelector('h3 small');
+                    const h3 = document.querySelector('.section > h3');
+                    if (h3) {
+                        h3.innerHTML = `📄 相关文章（${result.remaining_count} 篇）<small style="color:var(--accent-cyan);font-size:12px;"> v2.4 · 含行业背景</small>`;
+                    }
+                    const msgs = [];
+                    if (result.firebase_synced) msgs.push('Firebase');
+                    if (result.github_synced) msgs.push('GitHub');
+                    if (result.supabase_synced) msgs.push('Supabase');
+                    const syncText = msgs.length > 0 ? `已同步 ${msgs.join(' / ')}` : '本地已删除';
+                    showToast(`✅ 已删除「${result.deleted_title}」，${syncText}`, 'success');
+                    status.textContent = `✅ 删除成功 · ${syncText}`;
+                    status.className = 'sync-status success';
                 } else {
                     showToast('❌ 删除失败: ' + (result.error || '未知错误'), 'error');
                     status.textContent = '❌ 删除失败';
