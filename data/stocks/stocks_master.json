@@ -235684,6 +235684,66 @@
           "content": "金属铋相关文章，碲化铋是800G/1.6T光模块Micro TEC核心原料。"
         }
       ]
+    },
+    "839679": {
+      "name": "方盛股份",
+      "mention_count": 1,
+      "last_updated": "2026-06-24",
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/ULbAto1KiUgzWxK6kSj1LA",
+          "title": "英伟达Rubin引爆液冷：10家液冷产业链公司梳理",
+          "date": "2026年6月",
+          "fetched_at": "2026-06-24 22:51",
+          "industry_background": [
+            "英伟达Rubin将成为全球首个全面采用液冷方案的大规模AI计算平台",
+            "单机柜功率持续突破100kW、200kW，传统风冷已难以满足散热需求",
+            "液冷正在从可选配置变成AI时代的基础设施",
+            "中信证券：AI算力集群持续扩容，液冷市场空间有望保持高速增长",
+            "Rubin全面液冷时代到来，液冷渗透率快速提升"
+          ],
+          "accidents": [],
+          "insights": [
+            "在换热器领域积累较深",
+            "集装箱式数据中心冷却系统已经实现小批量出货",
+            "液冷产品主要包括液冷散热器、液冷泵站等",
+            "积累了相变液冷相关技术经验"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": ""
+        }
+      ]
+    },
+    "300917": {
+      "name": "爱克股份",
+      "mention_count": 1,
+      "last_updated": "2026-06-24",
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/ULbAto1KiUgzWxK6kSj1LA",
+          "title": "英伟达Rubin引爆液冷：10家液冷产业链公司梳理",
+          "date": "2026年6月",
+          "fetched_at": "2026-06-24 22:51",
+          "industry_background": [
+            "英伟达Rubin将成为全球首个全面采用液冷方案的大规模AI计算平台",
+            "单机柜功率持续突破100kW、200kW，传统风冷已难以满足散热需求",
+            "液冷正在从可选配置变成AI时代的基础设施",
+            "中信证券：AI算力集群持续扩容，液冷市场空间有望保持高速增长",
+            "Rubin全面液冷时代到来，液冷渗透率快速提升"
+          ],
+          "accidents": [],
+          "insights": [
+            "拟收购东莞硅翔100%股权",
+            "后者主要从事浸没式液冷机组、液冷板等产品研发",
+            "应用领域包括智算中心、储能等",
+            "交易完成后将在热管理领域获得新的增长曲线"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": ""
+        }
+      ]
     }
   },
   "stock_count": 3488,
