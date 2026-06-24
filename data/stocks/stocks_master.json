@@ -32520,7 +32520,7 @@
         "军工电子"
       ],
       "code": "002179",
-      "mention_count": 7,
+      "mention_count": 8,
       "partners": [],
       "articles": [
         {
@@ -32633,6 +32633,28 @@
           ],
           "title": "“高端装备概念”深度解析与操作策略，底部盘中参考，7月22日",
           "source": "https://mp.weixin.qq.com/s/7MFat5fjd6HTbDhNe2_Ucg"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/ULbAto1KiUgzWxK6kSj1LA",
+          "title": "英伟达Rubin引爆液冷：10家液冷产业链公司梳理",
+          "date": "2026年6月",
+          "fetched_at": "2026-06-24 22:47",
+          "industry_background": [
+            "英伟达Rubin将成为全球首个全面采用液冷方案的大规模AI计算平台",
+            "单机柜功率持续突破100kW、200kW，传统风冷已难以满足散热需求",
+            "液冷正在从可选配置变成AI时代的基础设施",
+            "中信证券：AI算力集群持续扩容，液冷市场空间有望保持高速增长",
+            "Rubin全面液冷时代到来，液冷渗透率快速提升"
+          ],
+          "accidents": [],
+          "insights": [
+            "已实现交换机端液冷散热方案规模化落地",
+            "在光模块液冷领域展开布局，相关产品进入批量交付阶段",
+            "液冷产品覆盖流体连接器、冷板、CDU以及浸没式液冷系统等多个方向"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": ""
         }
       ],
       "board": "SZ",
@@ -36283,7 +36305,7 @@
         "高端装备"
       ],
       "code": "002272",
-      "mention_count": 3,
+      "mention_count": 4,
       "partners": [
         "存储芯片行业迎来涨价潮"
       ],
@@ -36351,6 +36373,28 @@
           "accidents": [
             "存储芯片行业迎来涨价潮"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/ULbAto1KiUgzWxK6kSj1LA",
+          "title": "英伟达Rubin引爆液冷：10家液冷产业链公司梳理",
+          "date": "2026年6月",
+          "fetched_at": "2026-06-24 22:47",
+          "industry_background": [
+            "英伟达Rubin将成为全球首个全面采用液冷方案的大规模AI计算平台",
+            "单机柜功率持续突破100kW、200kW，传统风冷已难以满足散热需求",
+            "液冷正在从可选配置变成AI时代的基础设施",
+            "中信证券：AI算力集群持续扩容，液冷市场空间有望保持高速增长",
+            "Rubin全面液冷时代到来，液冷渗透率快速提升"
+          ],
+          "accidents": [],
+          "insights": [
+            "旗下川润欧盛将在江苏启东建设液冷系统关键零部件产业化项目",
+            "数据中心液冷系统产线已经投产",
+            "业务范围覆盖服务器液冷、储能液冷以及能源装备散热等方向"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": ""
         }
       ],
       "board": "SZ",
@@ -46223,7 +46267,7 @@
       "partners": []
     },
     "002536": {
-      "mention_count": 7,
+      "mention_count": 8,
       "last_updated": "2026-06-24",
       "concepts": [
         "一带一路",
@@ -46367,6 +46411,29 @@
           "accidents": [],
           "insights": [
             "飞龙股份获券商重点推荐"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": ""
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/ULbAto1KiUgzWxK6kSj1LA",
+          "title": "英伟达Rubin引爆液冷：10家液冷产业链公司梳理",
+          "date": "2026年6月",
+          "fetched_at": "2026-06-24 22:47",
+          "industry_background": [
+            "英伟达Rubin将成为全球首个全面采用液冷方案的大规模AI计算平台",
+            "单机柜功率持续突破100kW、200kW，传统风冷已难以满足散热需求",
+            "液冷正在从可选配置变成AI时代的基础设施",
+            "中信证券：AI算力集群持续扩容，液冷市场空间有望保持高速增长",
+            "Rubin全面液冷时代到来，液冷渗透率快速提升"
+          ],
+          "accidents": [],
+          "insights": [
+            "针对液冷服务器CDU系统，机架内和行级方案均已完成电子液冷泵适配",
+            "已与英维克、台达电子、超聚变、联想等40余家企业展开合作",
+            "部分项目进入量产阶段",
+            "液冷泵是整个液冷系统的重要核心部件"
           ],
           "key_metrics": [],
           "target_valuation": [],
@@ -89672,7 +89739,7 @@
       "full_name": "利和兴（301013）全称为深圳市利和兴股份有限公司"
     },
     "301018": {
-      "mention_count": 3,
+      "mention_count": 4,
       "last_updated": "2026-06-24",
       "concepts": [
         "2025年报预增",
@@ -89757,6 +89824,28 @@
           "accidents": [],
           "insights": [
             "申菱环境获券商重点推荐"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": ""
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/ULbAto1KiUgzWxK6kSj1LA",
+          "title": "英伟达Rubin引爆液冷：10家液冷产业链公司梳理",
+          "date": "2026年6月",
+          "fetched_at": "2026-06-24 22:47",
+          "industry_background": [
+            "英伟达Rubin将成为全球首个全面采用液冷方案的大规模AI计算平台",
+            "单机柜功率持续突破100kW、200kW，传统风冷已难以满足散热需求",
+            "液冷正在从可选配置变成AI时代的基础设施",
+            "中信证券：AI算力集群持续扩容，液冷市场空间有望保持高速增长",
+            "Rubin全面液冷时代到来，液冷渗透率快速提升"
+          ],
+          "accidents": [],
+          "insights": [
+            "早在2011年就开始研究液冷散热技术",
+            "计划募资8亿元建设液冷新质智造基地",
+            "液冷产品已经批量供应华为、腾讯、字节跳动等客户"
           ],
           "key_metrics": [],
           "target_valuation": [],
@@ -166093,7 +166182,7 @@
       "partners": []
     },
     "872808": {
-      "mention_count": 1,
+      "mention_count": 2,
       "last_updated": "2026-06-24",
       "concepts": [
         "新三板"
@@ -166126,6 +166215,29 @@
             "中游-液冷散热"
           ],
           "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/ULbAto1KiUgzWxK6kSj1LA",
+          "title": "英伟达Rubin引爆液冷：10家液冷产业链公司梳理",
+          "date": "2026年6月",
+          "fetched_at": "2026-06-24 22:47",
+          "industry_background": [
+            "英伟达Rubin将成为全球首个全面采用液冷方案的大规模AI计算平台",
+            "单机柜功率持续突破100kW、200kW，传统风冷已难以满足散热需求",
+            "液冷正在从可选配置变成AI时代的基础设施",
+            "中信证券：AI算力集群持续扩容，液冷市场空间有望保持高速增长",
+            "Rubin全面液冷时代到来，液冷渗透率快速提升"
+          ],
+          "accidents": [],
+          "insights": [
+            "国内液冷数据中心龙头之一",
+            "推出MW级相变浸没液冷整机柜解决方案C8000 V3.0",
+            "单机柜最高支持超过900kW功率，可面向超高密度AI算力集群部署",
+            "全浸没式相变液冷技术，部分项目PUE最低可降至1.04"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": ""
         }
       ],
       "industry": "新三板",
@@ -178904,7 +179016,7 @@
       "code": "002470",
       "name": "金正大",
       "concept": "",
-      "mention_count": 1,
+      "mention_count": 2,
       "articles": [
         {
           "source": "https://mp.weixin.qq.com/s/wgIADbKjaYrkqcxXXduB-w",
@@ -178920,6 +179032,28 @@
           "key_metrics": [
             "磷酸市占率9%，国内第一"
           ],
+          "target_valuation": [],
+          "content": ""
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/ULbAto1KiUgzWxK6kSj1LA",
+          "title": "英伟达Rubin引爆液冷：10家液冷产业链公司梳理",
+          "date": "2026年6月",
+          "fetched_at": "2026-06-24 22:47",
+          "industry_background": [
+            "英伟达Rubin将成为全球首个全面采用液冷方案的大规模AI计算平台",
+            "单机柜功率持续突破100kW、200kW，传统风冷已难以满足散热需求",
+            "液冷正在从可选配置变成AI时代的基础设施",
+            "中信证券：AI算力集群持续扩容，液冷市场空间有望保持高速增长",
+            "Rubin全面液冷时代到来，液冷渗透率快速提升"
+          ],
+          "accidents": [],
+          "insights": [
+            "计划收购柯斯宇51%股权",
+            "标的公司主要生产分水器、冷板等液冷核心部件",
+            "通过收购切入数据中心液冷赛道"
+          ],
+          "key_metrics": [],
           "target_valuation": [],
           "content": ""
         }
@@ -213481,7 +213615,7 @@
       "code": "688668",
       "name": "鼎通科技",
       "concept": "",
-      "mention_count": 7,
+      "mention_count": 8,
       "articles": [
         {
           "source": "https://mp.weixin.qq.com/s/fd0RYbvXvlnTSHR4gt0Zvg",
@@ -213608,6 +213742,28 @@
           "insights": [
             "主营高速连接器及组件，包括背板、I/O、铜缆连接器",
             "供货安费诺、莫仕、泰科"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": ""
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/ULbAto1KiUgzWxK6kSj1LA",
+          "title": "英伟达Rubin引爆液冷：10家液冷产业链公司梳理",
+          "date": "2026年6月",
+          "fetched_at": "2026-06-24 22:47",
+          "industry_background": [
+            "英伟达Rubin将成为全球首个全面采用液冷方案的大规模AI计算平台",
+            "单机柜功率持续突破100kW、200kW，传统风冷已难以满足散热需求",
+            "液冷正在从可选配置变成AI时代的基础设施",
+            "中信证券：AI算力集群持续扩容，液冷市场空间有望保持高速增长",
+            "Rubin全面液冷时代到来，液冷渗透率快速提升"
+          ],
+          "accidents": [],
+          "insights": [
+            "目前已有两条液冷产线投入运行，今年规划建设5条产线",
+            "较早实现服务器光口液冷模组量产",
+            "下游客户包括立讯精密、富士康等"
           ],
           "key_metrics": [],
           "target_valuation": [],
@@ -228236,7 +228392,7 @@
       "code": "003018",
       "name": "金富科技",
       "last_updated": "2026-06-24",
-      "mention_count": 4,
+      "mention_count": 5,
       "board": "BJ",
       "core_business": [
         "液冷产业链卡位精准新晋标的",
@@ -228345,6 +228501,28 @@
           "insights": [],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/ULbAto1KiUgzWxK6kSj1LA",
+          "title": "英伟达Rubin引爆液冷：10家液冷产业链公司梳理",
+          "date": "2026年6月",
+          "fetched_at": "2026-06-24 22:47",
+          "industry_background": [
+            "英伟达Rubin将成为全球首个全面采用液冷方案的大规模AI计算平台",
+            "单机柜功率持续突破100kW、200kW，传统风冷已难以满足散热需求",
+            "液冷正在从可选配置变成AI时代的基础设施",
+            "中信证券：AI算力集群持续扩容，液冷市场空间有望保持高速增长",
+            "Rubin全面液冷时代到来，液冷渗透率快速提升"
+          ],
+          "accidents": [],
+          "insights": [
+            "拟定增募资不超过3亿元，主要投向华南液冷板生产基地以及液冷组件扩产项目",
+            "旗下卓晖金属和联益热能均已进入液冷服务器零部件领域",
+            "覆盖液冷板、液冷组件等产品，是部分头部客户的重要供应商"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": ""
         }
       ],
       "full_name": "金富科技（003018）全称为金富科技股份有限公司",
