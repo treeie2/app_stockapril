@@ -1,6 +1,6 @@
 {
   "version": "2.3",
-  "updated_at": "2026-06-24",
+  "updated_at": "2026-06-24T21:50:00+08:00",
   "stocks": {
     "002962": {
       "mention_count": 3,
@@ -10167,8 +10167,8 @@
       "processed_at": "2026-05-25T01:14:26.522719+08:00"
     },
     "000066": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 3,
+      "last_updated": "2026-06-24",
       "partners": [
         "华为",
         "海光信息",
@@ -10176,9 +10176,54 @@
       ],
       "name": "中国长城",
       "industry_position": [
+        "自主可控整机龙头",
         "服务器电源国内第一国际前三"
       ],
       "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/voex86VdFH7lsnlPFn-X1Q",
+          "title": "央视报道：灵晟超算登顶全球，15只核心受益股",
+          "date": "2026-06-24",
+          "accidents": [
+            "灵晟超算2.19EFlops登顶全球"
+          ],
+          "insights": [
+            "国产自主可控整机龙头，飞腾+鲲鹏双CPU路线，党政及关键行业超算核心供应商"
+          ],
+          "key_metrics": [],
+          "core_business": [
+            "国产整机(飞腾+鲲鹏)"
+          ],
+          "industry_position": [
+            "自主可控整机龙头"
+          ],
+          "chain": [
+            "中游-整机集成"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/voex86VdFH7lsnlPFn-X1Q",
+          "title": "央视报道：灵晟超算登顶全球，15只核心受益股",
+          "date": "2026-06-24",
+          "accidents": [
+            "灵晟超算2.19EFlops登顶全球"
+          ],
+          "insights": [
+            "国产自主可控整机龙头，飞腾+鲲鹏双CPU路线，党政及关键行业超算核心供应商"
+          ],
+          "key_metrics": [],
+          "core_business": [
+            "国产整机(飞腾+鲲鹏)"
+          ],
+          "industry_position": [
+            "自主可控整机龙头"
+          ],
+          "chain": [
+            "中游-整机集成"
+          ],
+          "partners": []
+        },
         {
           "date": "2026-05-05",
           "key_metrics": [
@@ -10221,6 +10266,7 @@
         "通用服务器"
       ],
       "chain": [
+        "中游-整机集成",
         "上游 - CPU设计（通过参股）",
         "中游 - 服务器整机制造",
         "中游 - 电源供应器制造"
@@ -10266,8 +10312,11 @@
       ],
       "code": "000066",
       "core_business": [
+        "国产整机(飞腾+鲲鹏)",
         "参股CPU设计公司服务器整机及AI服务器服务器电源研发与制造"
-      ]
+      ],
+      "processed_by": "trae",
+      "processed_at": "2026-06-24T21:32:00+08:00"
     },
     "002254": {
       "mention_count": 9,
@@ -11917,10 +11966,12 @@
     },
     "000034": {
       "core_business": [
+        "鲲鹏超算中心运营",
         "渠道分销"
       ],
-      "last_updated": "2026-06-23",
+      "last_updated": "2026-06-24",
       "industry_position": [
+        "鲲鹏超算商业化核心渠道",
         "龙头",
         "昇腾生态软件适配龙头"
       ],
@@ -11966,11 +12017,60 @@
         "鸿蒙概念"
       ],
       "code": "000034",
-      "mention_count": 3,
+      "mention_count": 5,
       "partners": [
+        "华为",
         "中国移动"
       ],
       "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/voex86VdFH7lsnlPFn-X1Q",
+          "title": "央视报道：灵晟超算登顶全球，15只核心受益股",
+          "date": "2026-06-24",
+          "accidents": [
+            "灵晟超算2.19EFlops登顶全球"
+          ],
+          "insights": [
+            "超聚变/鲲鹏体系核心总经销商，自主运营厦门鲲鹏超算中心"
+          ],
+          "key_metrics": [],
+          "core_business": [
+            "鲲鹏超算中心运营"
+          ],
+          "industry_position": [
+            "鲲鹏超算商业化核心渠道"
+          ],
+          "chain": [
+            "下游-集成运营"
+          ],
+          "partners": [
+            "华为"
+          ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/voex86VdFH7lsnlPFn-X1Q",
+          "title": "央视报道：灵晟超算登顶全球，15只核心受益股",
+          "date": "2026-06-24",
+          "accidents": [
+            "灵晟超算2.19EFlops登顶全球"
+          ],
+          "insights": [
+            "超聚变/鲲鹏体系核心总经销商，自主运营厦门鲲鹏超算中心"
+          ],
+          "key_metrics": [],
+          "core_business": [
+            "鲲鹏超算中心运营"
+          ],
+          "industry_position": [
+            "鲲鹏超算商业化核心渠道"
+          ],
+          "chain": [
+            "下游-集成运营"
+          ],
+          "partners": [
+            "华为"
+          ]
+        },
         {
           "source": "https://mp.weixin.qq.com/s/gh23WHwcPlXn8fzBTjhlmg",
           "title": "每日首板逻辑0616：神州数码-华为昇腾+AI算力+存储芯片，AI收入330亿(+47.7%)",
@@ -12051,10 +12151,13 @@
         "设备"
       ],
       "chain": [
+        "下游-集成运营",
         "下游-设备",
         "服务"
       ],
-      "name": "神州数码"
+      "name": "神州数码",
+      "processed_by": "trae",
+      "processed_at": "2026-06-24T21:32:00+08:00"
     },
     "000037": {
       "core_business": [
@@ -21404,10 +21507,14 @@
     },
     "000938": {
       "core_business": [
+        "液冷服务器+数据中心",
+        "高速交换机/分布式存储",
         "控股新华三"
       ],
-      "last_updated": "2026-06-23",
+      "last_updated": "2026-06-24",
       "industry_position": [
+        "液冷服务器+数据中心",
+        "高端网络与企业级存储龙头",
         "龙头",
         "服务器（硬件载体龙头"
       ],
@@ -21450,11 +21557,79 @@
         "阿里巴巴概念"
       ],
       "code": "000938",
-      "mention_count": 6,
+      "mention_count": 9,
       "partners": [
         "字节跳动"
       ],
       "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/fd0RYbvXvlnTSHR4gt0Zvg",
+          "title": "液冷产业链: 液冷全产业链梳理：上游材料到下游IDC全景图",
+          "date": "2026-06-24",
+          "accidents": [
+            "液冷服务器产品与数据中心整体方案，适配AI算力集群散热",
+            "英伟达Rubin全液冷方案推动产业链从上游冷却液→中游系统集成→下游服务器/IDC全面受益"
+          ],
+          "insights": [
+            "液冷产业链涵盖上游冷却液/零部件→中游系统温控→下游服务器整机/IDC三层架构"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "液冷服务器+数据中心"
+          ],
+          "industry_position": [
+            "液冷服务器+数据中心"
+          ],
+          "chain": [
+            "中游-液冷散热"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/voex86VdFH7lsnlPFn-X1Q",
+          "title": "央视报道：灵晟超算登顶全球，15只核心受益股",
+          "date": "2026-06-24",
+          "accidents": [
+            "灵晟超算2.19EFlops登顶全球"
+          ],
+          "insights": [
+            "旗下新华三为国内高端网络与企业级存储龙头，灵启高速互连核心国产供应商"
+          ],
+          "key_metrics": [],
+          "core_business": [
+            "高速交换机/分布式存储"
+          ],
+          "industry_position": [
+            "高端网络与企业级存储龙头"
+          ],
+          "chain": [
+            "中游-高速互连"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/voex86VdFH7lsnlPFn-X1Q",
+          "title": "央视报道：灵晟超算登顶全球，15只核心受益股",
+          "date": "2026-06-24",
+          "accidents": [
+            "灵晟超算2.19EFlops登顶全球"
+          ],
+          "insights": [
+            "旗下新华三为国内高端网络与企业级存储龙头，灵启高速互连核心国产供应商"
+          ],
+          "key_metrics": [],
+          "core_business": [
+            "高速交换机/分布式存储"
+          ],
+          "industry_position": [
+            "高端网络与企业级存储龙头"
+          ],
+          "chain": [
+            "中游-高速互连"
+          ],
+          "partners": []
+        },
         {
           "title": "字节2000亿砸向AI基建！有人看到风险，有人看到翻倍机会？短线投资机会深度分析报告_20260510",
           "date": "2026-05-11",
@@ -21583,11 +21758,15 @@
         "系统"
       ],
       "chain": [
+        "中游-液冷散热",
+        "中游-高速互连",
         "下游-系统",
         "服务",
         "光模块交换机"
       ],
-      "name": "紫光股份"
+      "name": "紫光股份",
+      "processed_by": "trae",
+      "processed_at": "2026-06-24T21:50:00+08:00"
     },
     "000948": {
       "core_business": [],
@@ -22664,8 +22843,8 @@
       "name": "山金国际"
     },
     "000977": {
-      "mention_count": 9,
-      "last_updated": "2026-06-20",
+      "mention_count": 10,
+      "last_updated": "2026-06-24",
       "partners": [
         "英伟达、谷歌等全球头部客户",
         "英伟达产业链，订单",
@@ -22701,10 +22880,35 @@
         "算力"
       ],
       "industry_position": [
+        "液冷服务器龙头",
         "AI 服务器龙头",
         "国内AI服务器龙头"
       ],
       "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/fd0RYbvXvlnTSHR4gt0Zvg",
+          "title": "液冷产业链: 液冷全产业链梳理：上游材料到下游IDC全景图",
+          "date": "2026-06-24",
+          "accidents": [
+            "全系列液冷服务器，冷板式液冷批量出货，国内服务器龙头",
+            "英伟达Rubin全液冷方案推动产业链从上游冷却液→中游系统集成→下游服务器/IDC全面受益"
+          ],
+          "insights": [
+            "液冷产业链涵盖上游冷却液/零部件→中游系统温控→下游服务器整机/IDC三层架构"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "液冷服务器龙头"
+          ],
+          "industry_position": [
+            "液冷服务器龙头"
+          ],
+          "chain": [
+            "中游-液冷散热"
+          ],
+          "partners": []
+        },
         {
           "title": "MiniMax，最核心的10家公司和产业链梳理",
           "date": "2026-06-04",
@@ -22903,18 +23107,22 @@
         "芯片"
       ],
       "chain": [
+        "中游-液冷散热",
         "下游 - AI 服务器",
         "上游-算力硬件"
       ],
       "name": "浪潮信息",
       "code": "000977",
       "core_business": [
+        "液冷服务器龙头",
         "AI 服务器AI服务器存储设备算力基础设施",
         "AI 服务器",
         "AI服务器",
         "存储设备",
         "算力基础设施"
-      ]
+      ],
+      "processed_by": "trae",
+      "processed_at": "2026-06-24T21:50:00+08:00"
     },
     "000983": {
       "core_business": [],
@@ -29214,12 +29422,14 @@
     },
     "002126": {
       "core_business": [
+        "热管理跨界厂商",
         "液冷热管理板换产品",
         "液冷热管理",
         "板换产品"
       ],
-      "last_updated": "2026-06-13",
+      "last_updated": "2026-06-24",
       "industry_position": [
+        "热管理跨界厂商",
         "液冷+缺电核心票"
       ],
       "valuation": {},
@@ -29251,9 +29461,33 @@
         "长安汽车概念"
       ],
       "code": "002126",
-      "mention_count": 6,
+      "mention_count": 7,
       "partners": [],
       "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/fd0RYbvXvlnTSHR4gt0Zvg",
+          "title": "液冷产业链: 液冷全产业链梳理：上游材料到下游IDC全景图",
+          "date": "2026-06-24",
+          "accidents": [
+            "服务器冷板/换热器，热管理跨界厂商，已批量供货产能扩张",
+            "英伟达Rubin全液冷方案推动产业链从上游冷却液→中游系统集成→下游服务器/IDC全面受益"
+          ],
+          "insights": [
+            "液冷产业链涵盖上游冷却液/零部件→中游系统温控→下游服务器整机/IDC三层架构"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "热管理跨界厂商"
+          ],
+          "industry_position": [
+            "热管理跨界厂商"
+          ],
+          "chain": [
+            "中游-液冷散热"
+          ],
+          "partners": []
+        },
         {
           "source": "https://mp.weixin.qq.com/s/BKbiRG_PK-5kFYJXsV4gvQ",
           "title": "艾可蓝2倍空间/天润工业/银轮股份",
@@ -29381,9 +29615,12 @@
       "board": "SZ",
       "products": [],
       "chain": [
+        "中游-液冷散热",
         "中游-热管理"
       ],
-      "name": "银轮股份"
+      "name": "银轮股份",
+      "processed_by": "trae",
+      "processed_at": "2026-06-24T21:50:00+08:00"
     },
     "002129": {
       "core_business": [
@@ -30711,9 +30948,13 @@
       "name": "北斗星通"
     },
     "002152": {
-      "core_business": [],
-      "last_updated": "2026-06-19",
-      "industry_position": [],
+      "core_business": [
+        "鲲鹏+昇腾服务器整机"
+      ],
+      "last_updated": "2026-06-24",
+      "industry_position": [
+        "深圳超算产业链核心配套"
+      ],
       "valuation": {},
       "industry": "计算机-计算机设备-其他计算机设备",
       "concepts": [
@@ -30762,9 +31003,59 @@
         "鸿蒙概念"
       ],
       "code": "002152",
-      "mention_count": 2,
-      "partners": [],
+      "mention_count": 4,
+      "partners": [
+        "华为"
+      ],
       "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/voex86VdFH7lsnlPFn-X1Q",
+          "title": "央视报道：灵晟超算登顶全球，15只核心受益股",
+          "date": "2026-06-24",
+          "accidents": [
+            "灵晟超算2.19EFlops登顶全球"
+          ],
+          "insights": [
+            "控股广电五舟，华为鲲鹏+昇腾双认证核心服务器整机厂商"
+          ],
+          "key_metrics": [],
+          "core_business": [
+            "鲲鹏+昇腾服务器整机"
+          ],
+          "industry_position": [
+            "深圳超算产业链核心配套"
+          ],
+          "chain": [
+            "中游-服务器整机"
+          ],
+          "partners": [
+            "华为"
+          ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/voex86VdFH7lsnlPFn-X1Q",
+          "title": "央视报道：灵晟超算登顶全球，15只核心受益股",
+          "date": "2026-06-24",
+          "accidents": [
+            "灵晟超算2.19EFlops登顶全球"
+          ],
+          "insights": [
+            "控股广电五舟，华为鲲鹏+昇腾双认证核心服务器整机厂商"
+          ],
+          "key_metrics": [],
+          "core_business": [
+            "鲲鹏+昇腾服务器整机"
+          ],
+          "industry_position": [
+            "深圳超算产业链核心配套"
+          ],
+          "chain": [
+            "中游-服务器整机"
+          ],
+          "partners": [
+            "华为"
+          ]
+        },
         {
           "title": "2026-06-18 机构调研汇总",
           "date": "2026-06-19",
@@ -30798,10 +31089,13 @@
         "平台"
       ],
       "chain": [
+        "中游-服务器整机",
         "平台",
         "服务"
       ],
-      "name": "广电运通"
+      "name": "广电运通",
+      "processed_by": "trae",
+      "processed_at": "2026-06-24T21:32:00+08:00"
     },
     "002153": {
       "core_business": [],
@@ -34847,13 +35141,15 @@
     },
     "002261": {
       "core_business": [
+        "华为鲲鹏+昇腾服务器",
         "华为昇腾+英伟达双轮驱动国产算力自主可控算力调度服务",
         "华为昇腾+英伟达双轮驱动",
         "国产算力自主可控",
         "算力调度服务"
       ],
-      "last_updated": "2026-06-13",
+      "last_updated": "2026-06-24",
       "industry_position": [
+        "鲲鹏超算生态最核心标的",
         "国产算力领军",
         "华为昇腾核心合作伙伴"
       ],
@@ -34893,12 +35189,66 @@
         "鸿蒙概念"
       ],
       "code": "002261",
-      "mention_count": 5,
+      "mention_count": 7,
       "partners": [
         "华为",
         "英伟达"
       ],
       "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/voex86VdFH7lsnlPFn-X1Q",
+          "title": "央视报道：灵晟超算登顶全球，15只核心受益股",
+          "date": "2026-06-24",
+          "accidents": [
+            "灵晟超算以2.19EFlops登顶全球Top500(ISC2026)",
+            "华为鲲鹏+昇腾战略级合作伙伴"
+          ],
+          "insights": [
+            "鲲鹏超算生态落地最核心标的，直接受益国产超算算力需求放量"
+          ],
+          "key_metrics": [
+            "灵晟超算2.19EFlops登顶全球"
+          ],
+          "core_business": [
+            "华为鲲鹏+昇腾服务器"
+          ],
+          "industry_position": [
+            "鲲鹏超算生态最核心标的"
+          ],
+          "chain": [
+            "中游-算力服务器"
+          ],
+          "partners": [
+            "华为"
+          ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/voex86VdFH7lsnlPFn-X1Q",
+          "title": "央视报道：灵晟超算登顶全球，15只核心受益股",
+          "date": "2026-06-24",
+          "accidents": [
+            "灵晟超算以2.19EFlops登顶全球Top500(ISC2026)",
+            "华为鲲鹏+昇腾战略级合作伙伴"
+          ],
+          "insights": [
+            "鲲鹏超算生态落地最核心标的，直接受益国产超算算力需求放量"
+          ],
+          "key_metrics": [
+            "灵晟超算2.19EFlops登顶全球"
+          ],
+          "core_business": [
+            "华为鲲鹏+昇腾服务器"
+          ],
+          "industry_position": [
+            "鲲鹏超算生态最核心标的"
+          ],
+          "chain": [
+            "中游-算力服务器"
+          ],
+          "partners": [
+            "华为"
+          ]
+        },
         {
           "date": "2026-04-19",
           "key_metrics": [
@@ -35004,10 +35354,13 @@
         "AI算力平台"
       ],
       "chain": [
+        "中游-算力服务器",
         "算力租赁-中游-算力服务",
         "AI基础设施-中游-算力运营"
       ],
-      "name": "拓维信息"
+      "name": "拓维信息",
+      "processed_by": "trae",
+      "processed_at": "2026-06-24T21:32:00+08:00"
     },
     "002263": {
       "core_business": [
@@ -35477,13 +35830,15 @@
     },
     "002272": {
       "core_business": [
+        "一站式温控系统",
         "基本盘提供抗风险底座是一家深耕润滑、液压及热管理系统的传统风电/重型装备制造企业作为国内风电液压润滑油箱和冷却系统的核心供应商",
         "基本盘提供抗风险底座",
         "是一家深耕润滑、液压及热管理系统的传统风电/重型装备制造企业",
         "作为国内风电液压润滑油箱和冷却系统的核心供应商"
       ],
-      "last_updated": "2026-06-05",
+      "last_updated": "2026-06-24",
       "industry_position": [
+        "一站式温控系统",
         "作为国内风电液压润滑油箱和冷却系统的核心供应商，公司受益于海上风电大型化和风电出海的大趋势"
       ],
       "valuation": {},
@@ -35516,11 +35871,35 @@
         "高端装备"
       ],
       "code": "002272",
-      "mention_count": 2,
+      "mention_count": 3,
       "partners": [
         "存储芯片行业迎来涨价潮"
       ],
       "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/fd0RYbvXvlnTSHR4gt0Zvg",
+          "title": "液冷产业链: 液冷全产业链梳理：上游材料到下游IDC全景图",
+          "date": "2026-06-24",
+          "accidents": [
+            "冷板式/浸没式全栈方案，CDU/冷板/管路等一站式温控系统",
+            "英伟达Rubin全液冷方案推动产业链从上游冷却液→中游系统集成→下游服务器/IDC全面受益"
+          ],
+          "insights": [
+            "液冷产业链涵盖上游冷却液/零部件→中游系统温控→下游服务器整机/IDC三层架构"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "一站式温控系统"
+          ],
+          "industry_position": [
+            "一站式温控系统"
+          ],
+          "chain": [
+            "中游-液冷散热"
+          ],
+          "partners": []
+        },
         {
           "title": "川润股份（002272.sz) 深度价值投资及分析报告：液冷服务器+定增扩产+风电装备",
           "date": "2026-05-19",
@@ -35570,9 +35949,12 @@
         "供应链支持与制造工艺积淀"
       ],
       "chain": [
+        "中游-液冷散热",
         "华为公布昇腾芯片roadmap"
       ],
-      "name": "川润股份"
+      "name": "川润股份",
+      "processed_by": "trae",
+      "processed_at": "2026-06-24T21:50:00+08:00"
     },
     "002276": {
       "core_business": [],
@@ -40429,8 +40811,8 @@
       "full_name": "多氟多（002407）全称为多氟多新材料股份有限公司"
     },
     "002409": {
-      "mention_count": 14,
-      "last_updated": "2026-06-19",
+      "mention_count": 16,
+      "last_updated": "2026-06-24",
       "concepts": [
         "OLED",
         "专精特新",
@@ -40452,11 +40834,56 @@
         "半导体材料"
       ],
       "core_business": [
+        "HBM前驱体/球形硅微粉/特种气体",
         "国内 HBM 相关材料核心标的电子材料+含氟电子特气",
         "国内 HBM 相关材料核心标的",
         "电子材料+含氟电子特气"
       ],
       "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/voex86VdFH7lsnlPFn-X1Q",
+          "title": "央视报道：灵晟超算登顶全球，15只核心受益股",
+          "date": "2026-06-24",
+          "accidents": [
+            "灵晟超算2.19EFlops登顶全球"
+          ],
+          "insights": [
+            "国产HBM材料绝对龙头，横跨前驱体/球形硅微粉填料/特种气体三大HBM核心耗材"
+          ],
+          "key_metrics": [],
+          "core_business": [
+            "HBM前驱体/球形硅微粉/特种气体"
+          ],
+          "industry_position": [
+            "HBM材料绝对龙头"
+          ],
+          "chain": [
+            "上游-HBM材料"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/voex86VdFH7lsnlPFn-X1Q",
+          "title": "央视报道：灵晟超算登顶全球，15只核心受益股",
+          "date": "2026-06-24",
+          "accidents": [
+            "灵晟超算2.19EFlops登顶全球"
+          ],
+          "insights": [
+            "国产HBM材料绝对龙头，横跨前驱体/球形硅微粉填料/特种气体三大HBM核心耗材"
+          ],
+          "key_metrics": [],
+          "core_business": [
+            "HBM前驱体/球形硅微粉/特种气体"
+          ],
+          "industry_position": [
+            "HBM材料绝对龙头"
+          ],
+          "chain": [
+            "上游-HBM材料"
+          ],
+          "partners": []
+        },
         {
           "title": "电子特气，盈利最强的10家企业",
           "date": "2026-06-04",
@@ -40775,6 +41202,7 @@
         "含氟电子特气"
       ],
       "chain": [
+        "上游-HBM材料",
         "下游-设备",
         "中游-制造",
         "上游-材料",
@@ -40783,6 +41211,7 @@
       "code": "002409",
       "name": "雅克科技",
       "industry_position": [
+        "HBM材料绝对龙头",
         "以成为业内领先的电子特气供应商为目标，继续在含氟类电子特气领域深耕细作"
       ],
       "partners": [
@@ -40791,7 +41220,9 @@
         "中芯国际等客户订单"
       ],
       "full_name": "江苏雅克科技股份有限公司",
-      "list_date": "20100525"
+      "list_date": "20100525",
+      "processed_by": "trae",
+      "processed_at": "2026-06-24T21:32:00+08:00"
     },
     "002413": {
       "mention_count": 1,
@@ -45267,8 +45698,8 @@
       "partners": []
     },
     "002536": {
-      "mention_count": 5,
-      "last_updated": "2026-06-13",
+      "mention_count": 6,
+      "last_updated": "2026-06-24",
       "concepts": [
         "一带一路",
         "人民币贬值受益",
@@ -45293,10 +45724,35 @@
         "长安汽车概念"
       ],
       "industry_position": [
+        "液冷泵核心供应商",
         "龙头",
         "龙股份——液冷泵龙头"
       ],
       "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/fd0RYbvXvlnTSHR4gt0Zvg",
+          "title": "液冷产业链: 液冷全产业链梳理：上游材料到下游IDC全景图",
+          "date": "2026-06-24",
+          "accidents": [
+            "液冷循环电子泵，提供核心动力元器件",
+            "英伟达Rubin全液冷方案推动产业链从上游冷却液→中游系统集成→下游服务器/IDC全面受益"
+          ],
+          "insights": [
+            "液冷产业链涵盖上游冷却液/零部件→中游系统温控→下游服务器整机/IDC三层架构"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "液冷泵核心供应商"
+          ],
+          "industry_position": [
+            "液冷泵核心供应商"
+          ],
+          "chain": [
+            "中游-液冷散热"
+          ],
+          "partners": []
+        },
         {
           "source": "https://mp.weixin.qq.com/s/bVWgyozPFEYPbyaTu5-2Gw",
           "title": "6月4日一些首板逻辑",
@@ -45382,9 +45838,14 @@
       "code": "002536",
       "name": "飞龙股份",
       "core_business": [
+        "液冷泵核心供应商",
         "汽车水泵+热管理模块+电子水泵，新能源车热管理"
       ],
-      "chain": []
+      "chain": [
+        "中游-液冷散热"
+      ],
+      "processed_by": "trae",
+      "processed_at": "2026-06-24T21:50:00+08:00"
     },
     "002537": {
       "mention_count": 3,
@@ -46582,8 +47043,8 @@
       ]
     },
     "002580": {
-      "mention_count": 3,
-      "last_updated": "2026-06-20",
+      "mention_count": 4,
+      "last_updated": "2026-06-24",
       "concepts": [
         "5G",
         "一带一路",
@@ -46610,11 +47071,40 @@
         "鸿蒙概念"
       ],
       "industry_position": [
+        "AI散热+新能源双属性标的",
         "国内数据中心铅酸备用电源市场约40%份额",
         "算力备电龙头",
         "山东国资控股"
       ],
       "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/PPIDppr8nI4wUDtrqzGWvA",
+          "title": "液冷龙头: 英伟达Rubin全液冷时代：液冷温控龙头深度解析",
+          "date": "2026-06-24",
+          "accidents": [
+            "铅酸电池+储能+液冷概念，兼具AI散热+新能源双重属性，6月23日涨停",
+            "英伟达Rubin全面采用100%液冷，单机柜液冷组件价值量超5.57万美元"
+          ],
+          "insights": [
+            "2027年全球AIDC液冷市场218亿美元→2030年505亿美元",
+            "进入海外大客户链+批量交付产能+财务指标变化三维度选股"
+          ],
+          "key_metrics": [
+            "2027年AIDC液冷市场218亿美元",
+            "2030年达505亿美元"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "AI散热+新能源双属性标的"
+          ],
+          "industry_position": [
+            "AI散热+新能源双属性标的"
+          ],
+          "chain": [
+            "中游-液冷散热"
+          ],
+          "partners": []
+        },
         {
           "date": "2026-04-20",
           "key_metrics": [
@@ -46681,6 +47171,7 @@
         "储能系统"
       ],
       "chain": [
+        "中游-液冷散热",
         "算力-上游-备电系统",
         "储能-中游-储能系统",
         "固态电池-中游-电池制造"
@@ -46692,11 +47183,14 @@
         "三大运营商"
       ],
       "core_business": [
+        "AI散热+新能源双属性标的",
         "数据中心备电系统固态电池研发液冷储能解决方案通信基站储能"
       ],
       "code": "002580",
       "name": "圣阳股份",
-      "full_name": "圣阳股份（002580）全称为山东圣阳电源股份有限公司"
+      "full_name": "圣阳股份（002580）全称为山东圣阳电源股份有限公司",
+      "processed_by": "trae",
+      "processed_at": "2026-06-24T21:50:00+08:00"
     },
     "002583": {
       "mention_count": 1,
@@ -52151,8 +52645,8 @@
       "partners": []
     },
     "002837": {
-      "mention_count": 13,
-      "last_updated": "2026-06-20",
+      "mention_count": 16,
+      "last_updated": "2026-06-24",
       "concepts": [
         "东数西算(算力)",
         "中国AI 50",
@@ -52176,10 +52670,84 @@
         "高铁"
       ],
       "core_business": [
+        "液冷温控绝对龙头，全链条布局",
+        "数据中心液冷温控",
         "液冷龙头，深度配套智算中心超节点，冷板式液冷市占率超42%数据中心温控/液冷",
         "液冷龙头，深度配套智算中心超节点，冷板式液冷市占率超42%"
       ],
       "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/PPIDppr8nI4wUDtrqzGWvA",
+          "title": "液冷龙头: 英伟达Rubin全液冷时代：液冷温控龙头深度解析",
+          "date": "2026-06-24",
+          "accidents": [
+            "液冷温控绝对龙头，全链条冷板/CDU/接头/机柜方案，进入英伟达GB300 RVL供应商名单，英特尔液冷创新加速计划首位合作伙伴",
+            "英伟达Rubin全面采用100%液冷，单机柜液冷组件价值量超5.57万美元"
+          ],
+          "insights": [
+            "2027年全球AIDC液冷市场218亿美元→2030年505亿美元",
+            "进入海外大客户链+批量交付产能+财务指标变化三维度选股"
+          ],
+          "key_metrics": [
+            "2027年AIDC液冷市场218亿美元",
+            "2030年达505亿美元"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "液冷温控绝对龙头，全链条布局"
+          ],
+          "industry_position": [
+            "液冷温控绝对龙头，全链条布局"
+          ],
+          "chain": [
+            "中游-液冷散热"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/voex86VdFH7lsnlPFn-X1Q",
+          "title": "央视报道：灵晟超算登顶全球，15只核心受益股",
+          "date": "2026-06-24",
+          "accidents": [
+            "灵晟超算2.19EFlops登顶全球"
+          ],
+          "insights": [
+            "数据中心液冷温控龙头，冷板式液冷市占率第一，全链条自研自产"
+          ],
+          "key_metrics": [],
+          "core_business": [
+            "数据中心液冷温控"
+          ],
+          "industry_position": [
+            "冷板式液冷市占率第一"
+          ],
+          "chain": [
+            "中游-液冷散热"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/voex86VdFH7lsnlPFn-X1Q",
+          "title": "央视报道：灵晟超算登顶全球，15只核心受益股",
+          "date": "2026-06-24",
+          "accidents": [
+            "灵晟超算2.19EFlops登顶全球"
+          ],
+          "insights": [
+            "数据中心液冷温控龙头，冷板式液冷市占率第一，全链条自研自产"
+          ],
+          "key_metrics": [],
+          "core_business": [
+            "数据中心液冷温控"
+          ],
+          "industry_position": [
+            "冷板式液冷市占率第一"
+          ],
+          "chain": [
+            "中游-液冷散热"
+          ],
+          "partners": []
+        },
         {
           "title": "紧急！AI算力即将面临\"断电\"危机？国家出手，这5大板块要爆发？_20260510",
           "date": "2026-05-11",
@@ -52478,6 +53046,8 @@
         "提供固态变压器SST及电源解决方案"
       ],
       "industry_position": [
+        "液冷温控绝对龙头，全链条布局",
+        "冷板式液冷市占率第一",
         "全球第一；英维克在储能液冷领域市占率领先",
         "液冷板块龙头"
       ],
@@ -52487,8 +53057,11 @@
       "full_name": "深圳市英维克科技股份有限公司",
       "list_date": "20161229",
       "chain": [
+        "中游-液冷散热",
         "中游-数据中心基础设施"
-      ]
+      ],
+      "processed_by": "trae",
+      "processed_at": "2026-06-24T21:50:00+08:00"
     },
     "002842": {
       "mention_count": 6,
@@ -64078,8 +64651,8 @@
       "partners": []
     },
     "300145": {
-      "mention_count": 3,
-      "last_updated": "2026-06-23",
+      "mention_count": 4,
+      "last_updated": "2026-06-24",
       "concepts": [
         "PPP概念",
         "专精特新",
@@ -64109,6 +64682,30 @@
         "风电"
       ],
       "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/fd0RYbvXvlnTSHR4gt0Zvg",
+          "title": "液冷产业链: 液冷全产业链梳理：上游材料到下游IDC全景图",
+          "date": "2026-06-24",
+          "accidents": [
+            "液冷专用屏蔽泵/CDU冷量分配单元，向中游集成延伸",
+            "英伟达Rubin全液冷方案推动产业链从上游冷却液→中游系统集成→下游服务器/IDC全面受益"
+          ],
+          "insights": [
+            "液冷产业链涵盖上游冷却液/零部件→中游系统温控→下游服务器整机/IDC三层架构"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "屏蔽泵+CDU供应商"
+          ],
+          "industry_position": [
+            "屏蔽泵+CDU供应商"
+          ],
+          "chain": [
+            "中游-液冷散热"
+          ],
+          "partners": []
+        },
         {
           "date": "2026-03-02",
           "key_metrics": [
@@ -64174,9 +64771,17 @@
       "name": "南方泵业",
       "partners": [],
       "core_business": [
+        "屏蔽泵+CDU供应商",
         "不锈钢泵龙头→液冷泵+氢能泵+光伏泵，数据中心液冷系统核心部件，液冷+氢能+数据中心泵三重催化"
       ],
-      "chain": []
+      "chain": [
+        "中游-液冷散热"
+      ],
+      "industry_position": [
+        "屏蔽泵+CDU供应商"
+      ],
+      "processed_by": "trae",
+      "processed_at": "2026-06-24T21:50:00+08:00"
     },
     "300157": {
       "mention_count": 2,
@@ -66436,8 +67041,8 @@
       "partners": []
     },
     "300227": {
-      "mention_count": 1,
-      "last_updated": "2026-05-10",
+      "mention_count": 3,
+      "last_updated": "2026-06-24",
       "concepts": [
         "苹果概念",
         "军工",
@@ -66464,6 +67069,98 @@
       ],
       "articles": [
         {
+          "source": "https://mp.weixin.qq.com/s/C2JyTrJ3jdwPcJZ6FuMr3g",
+          "title": "光韵达深度覆盖：激光智能制造龙头，军工+3D打印+低空经济多概念共振",
+          "date": "2026-06-24",
+          "accidents": [
+            "子公司通宇航空为成飞/西飞提供航空零部件制造(数控加工+增材制造)",
+            "牵头成立深圳市3D打印制造业创新中心，覆盖3D打印全产业链",
+            "ITE智能检测设备原有+新产品均大幅增长",
+            "3D打印业务营收大幅增长，亏损逐步减少"
+          ],
+          "insights": [
+            "国内领先精密激光+智能制造解决方案供应商，SMT/PCB/LDS/3DP四大精密制造板块",
+            "航空航天军工：子公司通宇航空服务成飞/西飞及军用飞机/无人机/导弹",
+            "低空经济：无人机关键部件供应",
+            "8大概念共振：激光智能制造/航空航天军工/3D打印/大飞机/低空经济/智能制造/电子信息/军民融合",
+            "长期服务华为/中兴/富士康/比亚迪等头部电子制造客户"
+          ],
+          "key_metrics": [
+            "SMT业务稳定增长，纳米模板附加值高",
+            "ITE业务原有+新产品均大幅增长",
+            "3D打印营收大幅增长亏损收窄"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "精密激光模板/零件(SMT)",
+            "柔性线路板激光成型/钻孔(PCB)",
+            "LDS激光直接成型天线",
+            "3D打印(工业/医疗/文创)",
+            "智能检测设备(ITE)"
+          ],
+          "industry_position": [
+            "国内领先激光智能制造解决方案提供商",
+            "牵头深圳市3D打印制造业创新中心"
+          ],
+          "chain": [
+            "中游-激光智能制造"
+          ],
+          "partners": [
+            "华为",
+            "中兴",
+            "富士康",
+            "比亚迪",
+            "成飞",
+            "西飞"
+          ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/C2JyTrJ3jdwPcJZ6FuMr3g",
+          "title": "光韵达深度覆盖：激光智能制造龙头，军工+3D打印+低空经济多概念共振",
+          "date": "2026-06-24",
+          "accidents": [
+            "子公司通宇航空为成飞/西飞提供航空零部件制造(数控加工+增材制造)",
+            "牵头成立深圳市3D打印制造业创新中心，覆盖3D打印全产业链",
+            "ITE智能检测设备原有+新产品均大幅增长",
+            "3D打印业务营收大幅增长，亏损逐步减少"
+          ],
+          "insights": [
+            "国内领先精密激光+智能制造解决方案供应商，SMT/PCB/LDS/3DP四大精密制造板块",
+            "航空航天军工：子公司通宇航空服务成飞/西飞及军用飞机/无人机/导弹",
+            "低空经济：无人机关键部件供应",
+            "8大概念共振：激光智能制造/航空航天军工/3D打印/大飞机/低空经济/智能制造/电子信息/军民融合",
+            "长期服务华为/中兴/富士康/比亚迪等头部电子制造客户"
+          ],
+          "key_metrics": [
+            "SMT业务稳定增长，纳米模板附加值高",
+            "ITE业务原有+新产品均大幅增长",
+            "3D打印营收大幅增长亏损收窄"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "精密激光模板/零件(SMT)",
+            "柔性线路板激光成型/钻孔(PCB)",
+            "LDS激光直接成型天线",
+            "3D打印(工业/医疗/文创)",
+            "智能检测设备(ITE)"
+          ],
+          "industry_position": [
+            "国内领先激光智能制造解决方案提供商",
+            "牵头深圳市3D打印制造业创新中心"
+          ],
+          "chain": [
+            "中游-激光智能制造"
+          ],
+          "partners": [
+            "华为",
+            "中兴",
+            "富士康",
+            "比亚迪",
+            "成飞",
+            "西飞"
+          ]
+        },
+        {
           "date": "2025-10-23",
           "title": "300227  商业航天 大飞机 低空经济 3D打印 军工 全激光产业链布局的智能制造解决方案与服务提供商",
           "source": "https://mp.weixin.qq.com/s/LvXA6A\\_VLQsWdnvomECGxg",
@@ -66481,10 +67178,31 @@
       "board": "SZ",
       "code": "300227",
       "name": "光韵达",
-      "partners": [],
+      "partners": [
+        "华为",
+        "中兴",
+        "富士康",
+        "比亚迪",
+        "成飞",
+        "西飞"
+      ],
       "core_business": [
+        "精密激光模板/零件(SMT)",
+        "柔性线路板激光成型/钻孔(PCB)",
+        "LDS激光直接成型天线",
+        "3D打印(工业/医疗/文创)",
+        "智能检测设备(ITE)",
         "激光精密加工(SMT模板/PCB切割)，商业航天+大飞机+低空经济+3D打印+军工"
-      ]
+      ],
+      "industry_position": [
+        "国内领先激光智能制造解决方案提供商",
+        "牵头深圳市3D打印制造业创新中心"
+      ],
+      "chain": [
+        "中游-激光智能制造"
+      ],
+      "processed_by": "trae",
+      "processed_at": "2026-06-24T21:32:00+08:00"
     },
     "300228": {
       "mention_count": 1,
@@ -69848,8 +70566,8 @@
       "partners": []
     },
     "300339": {
-      "mention_count": 2,
-      "last_updated": "2026-06-05",
+      "mention_count": 4,
+      "last_updated": "2026-06-24",
       "concepts": [
         "AI应用",
         "创投",
@@ -69900,10 +70618,59 @@
         "物联网"
       ],
       "industry_position": [
+        "OpenEuler生态核心",
         "龙头",
         "润和软件等龙头"
       ],
       "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/voex86VdFH7lsnlPFn-X1Q",
+          "title": "央视报道：灵晟超算登顶全球，15只核心受益股",
+          "date": "2026-06-24",
+          "accidents": [
+            "灵晟超算2.19EFlops登顶全球"
+          ],
+          "insights": [
+            "OpenEuler生态核心厂商，鲲鹏生态重要软件服务商，超算全栈软件国产化受益"
+          ],
+          "key_metrics": [],
+          "core_business": [
+            "OpenEuler/鲲鹏软件服务"
+          ],
+          "industry_position": [
+            "OpenEuler生态核心"
+          ],
+          "chain": [
+            "中游-系统软件"
+          ],
+          "partners": [
+            "华为"
+          ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/voex86VdFH7lsnlPFn-X1Q",
+          "title": "央视报道：灵晟超算登顶全球，15只核心受益股",
+          "date": "2026-06-24",
+          "accidents": [
+            "灵晟超算2.19EFlops登顶全球"
+          ],
+          "insights": [
+            "OpenEuler生态核心厂商，鲲鹏生态重要软件服务商，超算全栈软件国产化受益"
+          ],
+          "key_metrics": [],
+          "core_business": [
+            "OpenEuler/鲲鹏软件服务"
+          ],
+          "industry_position": [
+            "OpenEuler生态核心"
+          ],
+          "chain": [
+            "中游-系统软件"
+          ],
+          "partners": [
+            "华为"
+          ]
+        },
         {
           "source": "https://mp.weixin.qq.com/s/BbKZCNaXFLfxi9966KxFRA",
           "title": "鸿蒙7.0：1.1亿行自研代码,百亿大模型塞进手机,产业链核心标的",
@@ -69953,18 +70720,22 @@
         "系统"
       ],
       "chain": [
+        "中游-系统软件",
         "下游-系统",
         "服务",
         "中游-制造"
       ],
       "core_business": [
+        "OpenEuler/鲲鹏软件服务",
         "操作系统层的两大核心企业"
       ],
       "code": "300339",
       "name": "润和软件",
       "partners": [
         "华为"
-      ]
+      ],
+      "processed_by": "trae",
+      "processed_at": "2026-06-24T21:32:00+08:00"
     },
     "300342": {
       "mention_count": 1,
@@ -73351,8 +74122,8 @@
       "partners": []
     },
     "300442": {
-      "mention_count": 4,
-      "last_updated": "2026-06-05",
+      "mention_count": 5,
+      "last_updated": "2026-06-24",
       "concepts": [
         "2025年报预增",
         "东数西算(算力)",
@@ -73368,11 +74139,36 @@
         "融资融券"
       ],
       "industry_position": [
+        "液冷智算园区运营商",
         "全国算力枢纽布局绝对龙头",
         "国内领先的园区级IDC与AIDC运营商",
         "唯一通过NCP认证的第三方AIDC运营商"
       ],
       "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/fd0RYbvXvlnTSHR4gt0Zvg",
+          "title": "液冷产业链: 液冷全产业链梳理：上游材料到下游IDC全景图",
+          "date": "2026-06-24",
+          "accidents": [
+            "液冷智算园区，全液冷设计项目，第三方IDC运营商规模化落地",
+            "英伟达Rubin全液冷方案推动产业链从上游冷却液→中游系统集成→下游服务器/IDC全面受益"
+          ],
+          "insights": [
+            "液冷产业链涵盖上游冷却液/零部件→中游系统温控→下游服务器整机/IDC三层架构"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "液冷智算园区运营商"
+          ],
+          "industry_position": [
+            "液冷智算园区运营商"
+          ],
+          "chain": [
+            "中游-液冷散热"
+          ],
+          "partners": []
+        },
         {
           "date": "2026-04-19",
           "key_metrics": [
@@ -73475,6 +74271,7 @@
         "液冷解决方案"
       ],
       "chain": [
+        "中游-液冷散热",
         "算力租赁-中游-智算中心",
         "AI基础设施-中游-数据中心"
       ],
@@ -73482,13 +74279,16 @@
         "字节跳动"
       ],
       "core_business": [
+        "液冷智算园区运营商",
         "园区级IDC与AIDC运营智算基础设施算力调度平台",
         "园区级IDC与AIDC运营",
         "智算基础设施",
         "算力调度平台"
       ],
       "code": "300442",
-      "name": "润泽科技"
+      "name": "润泽科技",
+      "processed_by": "trae",
+      "processed_at": "2026-06-24T21:50:00+08:00"
     },
     "300444": {
       "mention_count": 2,
@@ -75853,8 +76653,8 @@
       "partners": []
     },
     "300499": {
-      "mention_count": 2,
-      "last_updated": "2026-06-20",
+      "mention_count": 5,
+      "last_updated": "2026-06-24",
       "concepts": [
         "一带一路",
         "专精特新",
@@ -75885,10 +76685,84 @@
         "风电"
       ],
       "core_business": [
+        "全路线液冷方案供应商",
+        "液冷系统(冷板+浸没式)",
         "超节点提供全液冷解决方案",
         "浸没式液冷市占率60%，为昇腾384超节点提供全液冷解决方案"
       ],
       "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/PPIDppr8nI4wUDtrqzGWvA",
+          "title": "液冷龙头: 英伟达Rubin全液冷时代：液冷温控龙头深度解析",
+          "date": "2026-06-24",
+          "accidents": [
+            "全路线液冷方案供应商，覆盖冷板/浸没式液冷，已批量交付头部客户，6月23日盘中涨近8%",
+            "英伟达Rubin全面采用100%液冷，单机柜液冷组件价值量超5.57万美元"
+          ],
+          "insights": [
+            "2027年全球AIDC液冷市场218亿美元→2030年505亿美元",
+            "进入海外大客户链+批量交付产能+财务指标变化三维度选股"
+          ],
+          "key_metrics": [
+            "2027年AIDC液冷市场218亿美元",
+            "2030年达505亿美元"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "全路线液冷方案供应商"
+          ],
+          "industry_position": [
+            "全路线液冷方案供应商"
+          ],
+          "chain": [
+            "中游-液冷散热"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/voex86VdFH7lsnlPFn-X1Q",
+          "title": "央视报道：灵晟超算登顶全球，15只核心受益股",
+          "date": "2026-06-24",
+          "accidents": [
+            "灵晟超算2.19EFlops登顶全球"
+          ],
+          "insights": [
+            "液冷系统全路线方案供应商，覆盖冷板/浸没式，已批量交付头部客户"
+          ],
+          "key_metrics": [],
+          "core_business": [
+            "液冷系统(冷板+浸没式)"
+          ],
+          "industry_position": [
+            "全路线液冷供应商"
+          ],
+          "chain": [
+            "中游-液冷散热"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/voex86VdFH7lsnlPFn-X1Q",
+          "title": "央视报道：灵晟超算登顶全球，15只核心受益股",
+          "date": "2026-06-24",
+          "accidents": [
+            "灵晟超算2.19EFlops登顶全球"
+          ],
+          "insights": [
+            "液冷系统全路线方案供应商，覆盖冷板/浸没式，已批量交付头部客户"
+          ],
+          "key_metrics": [],
+          "core_business": [
+            "液冷系统(冷板+浸没式)"
+          ],
+          "industry_position": [
+            "全路线液冷供应商"
+          ],
+          "chain": [
+            "中游-液冷散热"
+          ],
+          "partners": []
+        },
         {
           "title": "第三篇：算力芯片&服务器硬件赛道（AI服务器+AI芯片+存储芯片+液冷+电源）海外芯片限制加剧！AI服务器/存储/液冷全线走强",
           "date": "2026-06-20",
@@ -75928,7 +76802,16 @@
       "board": "SZ",
       "code": "300499",
       "name": "高澜股份",
-      "partners": []
+      "partners": [],
+      "industry_position": [
+        "全路线液冷方案供应商",
+        "全路线液冷供应商"
+      ],
+      "chain": [
+        "中游-液冷散热"
+      ],
+      "processed_by": "trae",
+      "processed_at": "2026-06-24T21:50:00+08:00"
     },
     "300500": {
       "mention_count": 1,
@@ -78311,8 +79194,8 @@
       "chain": []
     },
     "300604": {
-      "mention_count": 13,
-      "last_updated": "2026-06-19",
+      "mention_count": 14,
+      "last_updated": "2026-06-24",
       "partners": [
         "SK海力士"
       ],
@@ -78327,9 +79210,39 @@
         "融资融券"
       ],
       "industry_position": [
-        "SoC量产唯一国内品牌"
+        "SoC量产唯一国内品牌",
+        "国产SoC测试机龙头，SoC量产唯一国内品牌"
       ],
       "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/i3_ZuZaADdGr-_mWl2F_pw",
+          "title": "华峰测控，200%空间？",
+          "date": "2026-06-24",
+          "accidents": [
+            "华峰测控分部估值中SoC测试机对标长川科技50%市值(参考估值750亿)",
+            "HYDZ强调CCKJ已开始规模化释放利润，同环比高增"
+          ],
+          "insights": [
+            "作为国产SoC测试机龙头，被用作华峰测控SoC业务分部估值的对标基准",
+            "SoC测试机市场空间是模拟测试机的4-6倍",
+            "华峰测控和长川科技共同受益于AI芯片测试需求爆发"
+          ],
+          "key_metrics": [
+            "SoC测试机市场空间为模拟测试机4-6倍",
+            "被华峰测控分部估值中作为SoC对标(50%市值=750亿)"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "SoC/模拟/数字/功率全品类测试"
+          ],
+          "industry_position": [
+            "国产SoC测试机龙头，SoC量产唯一国内品牌"
+          ],
+          "chain": [
+            "中游-半导体测试设备"
+          ],
+          "partners": []
+        },
         {
           "source": "https://mp.weixin.qq.com/s/M1KmYJdPg2Z6t-fnXGQR5A",
           "title": "SK海力士设备供应商涨价利好个股全解析",
@@ -78557,15 +79470,16 @@
         "设备"
       ],
       "chain": [
-        "下游-设备"
+        "下游-设备",
+        "中游-半导体测试设备"
       ],
       "name": "长川科技",
       "code": "300604",
       "core_business": [
         "SoC/模拟/数字/功率全品类测试"
       ],
-      "processed_by": "tbox",
-      "processed_at": "2026-05-25T01:14:26.522695+08:00"
+      "processed_by": "trae",
+      "processed_at": "2026-06-24T21:25:00+08:00"
     },
     "300605": {
       "mention_count": 1,
@@ -80269,8 +81183,8 @@
       "partners": []
     },
     "300684": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-24",
       "concepts": [
         "2025年报预增",
         "5G",
@@ -80302,6 +81216,30 @@
         "虚拟现实"
       ],
       "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/fd0RYbvXvlnTSHR4gt0Zvg",
+          "title": "液冷产业链: 液冷全产业链梳理：上游材料到下游IDC全景图",
+          "date": "2026-06-24",
+          "accidents": [
+            "导热材料/液冷冷板，产品配套头部整机厂商",
+            "英伟达Rubin全液冷方案推动产业链从上游冷却液→中游系统集成→下游服务器/IDC全面受益"
+          ],
+          "insights": [
+            "液冷产业链涵盖上游冷却液/零部件→中游系统温控→下游服务器整机/IDC三层架构"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "导热材料供应商"
+          ],
+          "industry_position": [
+            "导热材料供应商"
+          ],
+          "chain": [
+            "中游-液冷散热"
+          ],
+          "partners": []
+        },
         {
           "title": "300684中石科技:Rubin 散热方案",
           "date": "2026-05-27",
@@ -80337,8 +81275,17 @@
         "材料"
       ],
       "core_business": [
+        "导热材料供应商",
         "导热材料/石墨散热膜，散热材料，英伟达Rubin散热方案"
-      ]
+      ],
+      "industry_position": [
+        "导热材料供应商"
+      ],
+      "chain": [
+        "中游-液冷散热"
+      ],
+      "processed_by": "trae",
+      "processed_at": "2026-06-24T21:50:00+08:00"
     },
     "300686": {
       "mention_count": 1,
@@ -87801,8 +88748,8 @@
       "full_name": "利和兴（301013）全称为深圳市利和兴股份有限公司"
     },
     "301018": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-24",
       "concepts": [
         "2025年报预增",
         "5G",
@@ -87836,10 +88783,35 @@
         "高压快充"
       ],
       "industry_position": [
+        "全栈液冷温控方案",
         "龙头",
         "菱环境——CDU龙头"
       ],
       "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/fd0RYbvXvlnTSHR4gt0Zvg",
+          "title": "液冷产业链: 液冷全产业链梳理：上游材料到下游IDC全景图",
+          "date": "2026-06-24",
+          "accidents": [
+            "全栈液冷温控方案(冷源/CDU/浸没式)，适配高密度AI算力机房",
+            "英伟达Rubin全液冷方案推动产业链从上游冷却液→中游系统集成→下游服务器/IDC全面受益"
+          ],
+          "insights": [
+            "液冷产业链涵盖上游冷却液/零部件→中游系统温控→下游服务器整机/IDC三层架构"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "全栈液冷温控方案"
+          ],
+          "industry_position": [
+            "全栈液冷温控方案"
+          ],
+          "chain": [
+            "中游-液冷散热"
+          ],
+          "partners": []
+        },
         {
           "date": "",
           "key_metrics": [
@@ -87855,7 +88827,15 @@
         "华为"
       ],
       "code": "301018",
-      "name": "申菱环境"
+      "name": "申菱环境",
+      "core_business": [
+        "全栈液冷温控方案"
+      ],
+      "chain": [
+        "中游-液冷散热"
+      ],
+      "processed_by": "trae",
+      "processed_at": "2026-06-24T21:50:00+08:00"
     },
     "301028": {
       "mention_count": 1,
@@ -91247,17 +92227,67 @@
       ]
     },
     "301236": {
-      "mention_count": 6,
-      "last_updated": "2026-06-23",
+      "mention_count": 8,
+      "last_updated": "2026-06-24",
       "core_business": [
+        "昇腾/鲲鹏软件服务",
         "华为第一大 IT 外包服务商IT服务、AI解决方案",
         "华为第一大 IT 外包服务商"
       ],
       "industry_position": [
+        "华为昇腾钻石级合作伙伴",
         "软通动力作为华为第一",
         "蒙应用开发领域的领先"
       ],
       "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/voex86VdFH7lsnlPFn-X1Q",
+          "title": "央视报道：灵晟超算登顶全球，15只核心受益股",
+          "date": "2026-06-24",
+          "accidents": [
+            "灵晟超算2.19EFlops登顶全球"
+          ],
+          "insights": [
+            "华为昇腾钻石级合作伙伴，深度参与超算中心软件栈建设与行业应用适配"
+          ],
+          "key_metrics": [],
+          "core_business": [
+            "昇腾/鲲鹏软件服务"
+          ],
+          "industry_position": [
+            "华为昇腾钻石级合作伙伴"
+          ],
+          "chain": [
+            "中游-系统软件"
+          ],
+          "partners": [
+            "华为"
+          ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/voex86VdFH7lsnlPFn-X1Q",
+          "title": "央视报道：灵晟超算登顶全球，15只核心受益股",
+          "date": "2026-06-24",
+          "accidents": [
+            "灵晟超算2.19EFlops登顶全球"
+          ],
+          "insights": [
+            "华为昇腾钻石级合作伙伴，深度参与超算中心软件栈建设与行业应用适配"
+          ],
+          "key_metrics": [],
+          "core_business": [
+            "昇腾/鲲鹏软件服务"
+          ],
+          "industry_position": [
+            "华为昇腾钻石级合作伙伴"
+          ],
+          "chain": [
+            "中游-系统软件"
+          ],
+          "partners": [
+            "华为"
+          ]
+        },
         {
           "source": "https://mp.weixin.qq.com/s/BbKZCNaXFLfxi9966KxFRA",
           "title": "鸿蒙7.0：1.1亿行自研代码,百亿大模型塞进手机,产业链核心标的",
@@ -91399,15 +92429,16 @@
         "系统"
       ],
       "chain": [
+        "中游-系统软件",
         "下游-设备",
         "下游-IT服务",
         "服务",
         "下游-系统"
       ],
       "partners": [
+        "华为",
         "青岛港",
-        "腾讯云",
-        "华为"
+        "腾讯云"
       ],
       "code": "301236",
       "concepts": [
@@ -91474,7 +92505,9 @@
         "融资融券"
       ],
       "name": "软通动力",
-      "full_name": "软通动力（301236）全称为软通动力信息技术(集团)股份有限公司"
+      "full_name": "软通动力（301236）全称为软通动力信息技术(集团)股份有限公司",
+      "processed_by": "trae",
+      "processed_at": "2026-06-24T21:32:00+08:00"
     },
     "301246": {
       "mention_count": 3,
@@ -92148,8 +93181,8 @@
       ]
     },
     "301308": {
-      "mention_count": 9,
-      "last_updated": "2026-06-13",
+      "mention_count": 11,
+      "last_updated": "2026-06-24",
       "partners": [
         "英伟达、AMD等海外厂商获得约550亿元订单",
         "字节跳动已成为寒武纪第一大客户",
@@ -92182,11 +93215,56 @@
         "融资融券"
       ],
       "industry_position": [
+        "国产存储龙头",
         "龙头",
         "芯创、聚辰股份等龙头",
         "江波龙：存储模组龙头"
       ],
       "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/voex86VdFH7lsnlPFn-X1Q",
+          "title": "央视报道：灵晟超算登顶全球，15只核心受益股",
+          "date": "2026-06-24",
+          "accidents": [
+            "灵晟超算2.19EFlops登顶全球"
+          ],
+          "insights": [
+            "国产存储龙头，企业级SSD/内存模组国内第一梯队，匹配超算分层存储需求"
+          ],
+          "key_metrics": [],
+          "core_business": [
+            "企业级SSD/内存模组"
+          ],
+          "industry_position": [
+            "国产存储龙头"
+          ],
+          "chain": [
+            "中游-存储设备"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/voex86VdFH7lsnlPFn-X1Q",
+          "title": "央视报道：灵晟超算登顶全球，15只核心受益股",
+          "date": "2026-06-24",
+          "accidents": [
+            "灵晟超算2.19EFlops登顶全球"
+          ],
+          "insights": [
+            "国产存储龙头，企业级SSD/内存模组国内第一梯队，匹配超算分层存储需求"
+          ],
+          "key_metrics": [],
+          "core_business": [
+            "企业级SSD/内存模组"
+          ],
+          "industry_position": [
+            "国产存储龙头"
+          ],
+          "chain": [
+            "中游-存储设备"
+          ],
+          "partners": []
+        },
         {
           "title": "字节2000亿砸向AI基建！有人看到风险，有人看到翻倍机会？短线投资机会深度分析报告_20260510",
           "date": "2026-05-11",
@@ -92366,15 +93444,19 @@
         "芯片"
       ],
       "chain": [
+        "中游-存储设备",
         "下游-封测"
       ],
       "name": "江波龙",
       "code": "301308",
       "core_business": [
+        "企业级SSD/内存模组",
         "江波龙（301308）全称为深圳市江波龙电子股份有限公司，所属行业为半导体类。公司主营业务聚焦于半导体存储应用产品的研发",
         "存储模组"
       ],
-      "full_name": "江波龙（301308）全称为深圳市江波龙电子股份有限公司"
+      "full_name": "江波龙（301308）全称为深圳市江波龙电子股份有限公司",
+      "processed_by": "trae",
+      "processed_at": "2026-06-24T21:32:00+08:00"
     },
     "301311": {
       "mention_count": 1,
@@ -100835,8 +101917,8 @@
       "partners": []
     },
     "600160": {
-      "mention_count": 11,
-      "last_updated": "2026-06-23",
+      "mention_count": 12,
+      "last_updated": "2026-06-24",
       "concepts": [
         "2025年报预增",
         "PVDF概念",
@@ -100855,11 +101937,36 @@
         "风电"
       ],
       "industry_position": [
+        "氟化工龙头",
         "龙头",
         "制冷剂龙头",
         "游核心部件+中游龙头"
       ],
       "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/fd0RYbvXvlnTSHR4gt0Zvg",
+          "title": "液冷产业链: 液冷全产业链梳理：上游材料到下游IDC全景图",
+          "date": "2026-06-24",
+          "accidents": [
+            "电子级氟化液，浸没式液冷核心工质，国内氟化工龙头",
+            "英伟达Rubin全液冷方案推动产业链从上游冷却液→中游系统集成→下游服务器/IDC全面受益"
+          ],
+          "insights": [
+            "液冷产业链涵盖上游冷却液/零部件→中游系统温控→下游服务器整机/IDC三层架构"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "氟化工龙头"
+          ],
+          "industry_position": [
+            "氟化工龙头"
+          ],
+          "chain": [
+            "中游-液冷散热"
+          ],
+          "partners": []
+        },
         {
           "title": "受益晶圆扩产：超纯PFA（可溶性聚四氟乙烯）供应格局梳理",
           "date": "2026-06-01",
@@ -101043,9 +102150,11 @@
         "第三代氟制冷剂"
       ],
       "chain": [
+        "中游-液冷散热",
         "中游-化工生产"
       ],
       "core_business": [
+        "氟化工龙头",
         "年制冷剂业务毛利率修复至",
         "R32产能占比超30%",
         "2024年制冷剂业务毛利率修复至58%"
@@ -101054,7 +102163,9 @@
       "name": "巨化股份",
       "concept": "PTFE;化工材料;氟化工",
       "description": "国内PTFE产能龙头，现有产能1.5万吨/年，拟建3万吨/年，覆盖全产业链",
-      "partners": []
+      "partners": [],
+      "processed_by": "trae",
+      "processed_at": "2026-06-24T21:50:00+08:00"
     },
     "600166": {
       "mention_count": 1,
@@ -108688,8 +109799,8 @@
       ]
     },
     "600536": {
-      "mention_count": 3,
-      "last_updated": "2026-05-31",
+      "mention_count": 5,
+      "last_updated": "2026-06-24",
       "concepts": [
         "AI PC",
         "DeepSeek概念",
@@ -108724,6 +109835,50 @@
       ],
       "articles": [
         {
+          "source": "https://mp.weixin.qq.com/s/voex86VdFH7lsnlPFn-X1Q",
+          "title": "央视报道：灵晟超算登顶全球，15只核心受益股",
+          "date": "2026-06-24",
+          "accidents": [
+            "灵晟超算2.19EFlops登顶全球"
+          ],
+          "insights": [
+            "国产基础软件龙头，银河麒麟操作系统是灵晟超算核心基础软件底座"
+          ],
+          "key_metrics": [],
+          "core_business": [
+            "银河麒麟操作系统"
+          ],
+          "industry_position": [
+            "国产基础软件龙头"
+          ],
+          "chain": [
+            "中游-操作系统"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/voex86VdFH7lsnlPFn-X1Q",
+          "title": "央视报道：灵晟超算登顶全球，15只核心受益股",
+          "date": "2026-06-24",
+          "accidents": [
+            "灵晟超算2.19EFlops登顶全球"
+          ],
+          "insights": [
+            "国产基础软件龙头，银河麒麟操作系统是灵晟超算核心基础软件底座"
+          ],
+          "key_metrics": [],
+          "core_business": [
+            "银河麒麟操作系统"
+          ],
+          "industry_position": [
+            "国产基础软件龙头"
+          ],
+          "chain": [
+            "中游-操作系统"
+          ],
+          "partners": []
+        },
+        {
           "date": "2025-04-08",
           "title": "“关税”深度解析与操作策略（4月6日更新）",
           "source": "https://mp.weixin.qq.com/s/T4u3t7nK9-8rXOE4lDTHGA",
@@ -108756,11 +109911,20 @@
         "系统"
       ],
       "chain": [
+        "中游-操作系统",
         "下游-系统"
       ],
       "code": "600536",
       "name": "中国软件",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "银河麒麟操作系统"
+      ],
+      "industry_position": [
+        "国产基础软件龙头"
+      ],
+      "processed_by": "trae",
+      "processed_at": "2026-06-24T21:32:00+08:00"
     },
     "600537": {
       "mention_count": 2,
@@ -125912,8 +127076,8 @@
       "partners": []
     },
     "603019": {
-      "mention_count": 14,
-      "last_updated": "2026-06-13",
+      "mention_count": 17,
+      "last_updated": "2026-06-24",
       "partners": [
         "华为"
       ],
@@ -125955,11 +127119,81 @@
         "国产算力"
       ],
       "industry_position": [
+        "液冷标准制定者",
+        "液冷+超算双龙头",
         "中科院国资背景超算龙头",
         "国内 AI 服务器龙头",
         "国家智算大项目核心承担方"
       ],
       "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/fd0RYbvXvlnTSHR4gt0Zvg",
+          "title": "液冷产业链: 液冷全产业链梳理：上游材料到下游IDC全景图",
+          "date": "2026-06-24",
+          "accidents": [
+            "浸没式液冷技术+液冷标准制定，高端计算服务器龙头",
+            "英伟达Rubin全液冷方案推动产业链从上游冷却液→中游系统集成→下游服务器/IDC全面受益"
+          ],
+          "insights": [
+            "液冷产业链涵盖上游冷却液/零部件→中游系统温控→下游服务器整机/IDC三层架构"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "液冷标准制定者"
+          ],
+          "industry_position": [
+            "液冷标准制定者"
+          ],
+          "chain": [
+            "中游-液冷散热"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/voex86VdFH7lsnlPFn-X1Q",
+          "title": "央视报道：灵晟超算登顶全球，15只核心受益股",
+          "date": "2026-06-24",
+          "accidents": [
+            "灵晟超算2.19EFlops登顶全球"
+          ],
+          "insights": [
+            "国内超算行业绝对龙头，全栈布局芯片/液冷/高速网络/系统集成，浸没式液冷市占率超60%"
+          ],
+          "key_metrics": [],
+          "core_business": [
+            "超算整机/液冷/高速网络"
+          ],
+          "industry_position": [
+            "液冷+超算双龙头"
+          ],
+          "chain": [
+            "中游-超算系统"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/voex86VdFH7lsnlPFn-X1Q",
+          "title": "央视报道：灵晟超算登顶全球，15只核心受益股",
+          "date": "2026-06-24",
+          "accidents": [
+            "灵晟超算2.19EFlops登顶全球"
+          ],
+          "insights": [
+            "国内超算行业绝对龙头，全栈布局芯片/液冷/高速网络/系统集成，浸没式液冷市占率超60%"
+          ],
+          "key_metrics": [],
+          "core_business": [
+            "超算整机/液冷/高速网络"
+          ],
+          "industry_position": [
+            "液冷+超算双龙头"
+          ],
+          "chain": [
+            "中游-超算系统"
+          ],
+          "partners": []
+        },
         {
           "title": "MiniMax，最核心的10家公司和产业链梳理",
           "date": "2026-06-04",
@@ -126240,6 +127474,8 @@
         "连续多年入围IDC中国区市场领导者象限"
       ],
       "chain": [
+        "中游-液冷散热",
+        "中游-超算系统",
         "上游-算力基础设施",
         "下游 - 算力系统集成",
         "中游-算力基础设施"
@@ -126247,6 +127483,8 @@
       "name": "中科曙光",
       "code": "603019",
       "core_business": [
+        "液冷标准制定者",
+        "超算整机/液冷/高速网络",
         "算力设备金刚石散热产品国产算力中心超级计算高性能计算、AI算力数据存储",
         "算力设备",
         "金刚石散热产品",
@@ -126255,7 +127493,9 @@
         "数据存储"
       ],
       "full_name": "曙光信息产业股份有限公司",
-      "list_date": "20141106"
+      "list_date": "20141106",
+      "processed_by": "trae",
+      "processed_at": "2026-06-24T21:50:00+08:00"
     },
     "603023": {
       "mention_count": 0,
@@ -131680,8 +132920,8 @@
       "partners": []
     },
     "603379": {
-      "mention_count": 6,
-      "last_updated": "2026-06-23",
+      "mention_count": 7,
+      "last_updated": "2026-06-24",
       "concepts": [
         "2025年报预增",
         "PVDF概念",
@@ -131692,10 +132932,35 @@
         "锂电池概念"
       ],
       "industry_position": [
+        "氟化液量产厂商",
         "龙头",
         "制冷剂龙头"
       ],
       "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/fd0RYbvXvlnTSHR4gt0Zvg",
+          "title": "液冷产业链: 液冷全产业链梳理：上游材料到下游IDC全景图",
+          "date": "2026-06-24",
+          "accidents": [
+            "全氟己酮类氟化液，适配液冷散热，具备量产能力",
+            "英伟达Rubin全液冷方案推动产业链从上游冷却液→中游系统集成→下游服务器/IDC全面受益"
+          ],
+          "insights": [
+            "液冷产业链涵盖上游冷却液/零部件→中游系统温控→下游服务器整机/IDC三层架构"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "氟化液量产厂商"
+          ],
+          "industry_position": [
+            "氟化液量产厂商"
+          ],
+          "chain": [
+            "中游-液冷散热"
+          ],
+          "partners": []
+        },
         {
           "source": "https://mp.weixin.qq.com/s/6XnVfODYMRcgQM5RhG3tcw",
           "title": "今天的一些信息整理6.12",
@@ -131804,16 +133069,20 @@
       "industry": "基础化工-化学制品-氟化工",
       "board": "SH",
       "chain": [
+        "中游-液冷散热",
         "板块轮动与核心标的R134a全球第二（产能6.5万吨）",
         "核心逻辑"
       ],
       "core_business": [
+        "氟化液量产厂商",
         "板块轮动与核心标的",
         "板块轮动与核心标的R134a全球第二（产能6.5万吨）"
       ],
       "code": "603379",
       "name": "三美股份",
-      "partners": []
+      "partners": [],
+      "processed_by": "trae",
+      "processed_at": "2026-06-24T21:50:00+08:00"
     },
     "603386": {
       "mention_count": 5,
@@ -136063,8 +137332,8 @@
       ]
     },
     "603757": {
-      "mention_count": 5,
-      "last_updated": "2026-06-13",
+      "mention_count": 6,
+      "last_updated": "2026-06-24",
       "concepts": [
         "专精特新",
         "储能",
@@ -136082,6 +137351,34 @@
         "高端装备"
       ],
       "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/PPIDppr8nI4wUDtrqzGWvA",
+          "title": "液冷龙头: 英伟达Rubin全液冷时代：液冷温控龙头深度解析",
+          "date": "2026-06-24",
+          "accidents": [
+            "服务器液冷电子水泵，液冷系统核心动力部件，6月23日涨停",
+            "英伟达Rubin全面采用100%液冷，单机柜液冷组件价值量超5.57万美元"
+          ],
+          "insights": [
+            "2027年全球AIDC液冷市场218亿美元→2030年505亿美元",
+            "进入海外大客户链+批量交付产能+财务指标变化三维度选股"
+          ],
+          "key_metrics": [
+            "2027年AIDC液冷市场218亿美元",
+            "2030年达505亿美元"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "液冷泵核心供应商"
+          ],
+          "industry_position": [
+            "液冷泵核心供应商"
+          ],
+          "chain": [
+            "中游-液冷散热"
+          ],
+          "partners": []
+        },
         {
           "date": "2026-04-05",
           "key_metrics": [
@@ -136178,9 +137475,18 @@
         "设备"
       ],
       "core_business": [
+        "液冷泵核心供应商",
         "各类泵（民用水泵/工业泵），泵业龙头"
       ],
-      "full_name": "浙江大元泵业股份有限公司"
+      "full_name": "浙江大元泵业股份有限公司",
+      "industry_position": [
+        "液冷泵核心供应商"
+      ],
+      "chain": [
+        "中游-液冷散热"
+      ],
+      "processed_by": "trae",
+      "processed_at": "2026-06-24T21:50:00+08:00"
     },
     "603767": {
       "mention_count": 1,
@@ -137919,8 +139225,8 @@
       "partners": []
     },
     "603906": {
-      "mention_count": 4,
-      "last_updated": "2026-06-05",
+      "mention_count": 5,
+      "last_updated": "2026-06-24",
       "concepts": [
         "一带一路",
         "储能",
@@ -137942,6 +139248,30 @@
         "锂电池概念"
       ],
       "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/fd0RYbvXvlnTSHR4gt0Zvg",
+          "title": "液冷产业链: 液冷全产业链梳理：上游材料到下游IDC全景图",
+          "date": "2026-06-24",
+          "accidents": [
+            "数据中心液冷专用冷却液，核心工质耗材",
+            "英伟达Rubin全液冷方案推动产业链从上游冷却液→中游系统集成→下游服务器/IDC全面受益"
+          ],
+          "insights": [
+            "液冷产业链涵盖上游冷却液/零部件→中游系统温控→下游服务器整机/IDC三层架构"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "冷却液供应商"
+          ],
+          "industry_position": [
+            "冷却液供应商"
+          ],
+          "chain": [
+            "中游-液冷散热"
+          ],
+          "partners": []
+        },
         {
           "date": "2025-06-05",
           "key_metrics": [
@@ -137970,11 +139300,22 @@
       "board": "SH",
       "code": "603906",
       "name": "龙蟠科技",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "冷却液供应商"
+      ],
+      "industry_position": [
+        "冷却液供应商"
+      ],
+      "chain": [
+        "中游-液冷散热"
+      ],
+      "processed_by": "trae",
+      "processed_at": "2026-06-24T21:50:00+08:00"
     },
     "603912": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-24",
       "concepts": [
         "5G",
         "DeepSeek概念",
@@ -137991,6 +139332,30 @@
       ],
       "articles": [
         {
+          "source": "https://mp.weixin.qq.com/s/fd0RYbvXvlnTSHR4gt0Zvg",
+          "title": "液冷产业链: 液冷全产业链梳理：上游材料到下游IDC全景图",
+          "date": "2026-06-24",
+          "accidents": [
+            "液冷散热技术，高功率算力解决方案，机房温控设备厂商",
+            "英伟达Rubin全液冷方案推动产业链从上游冷却液→中游系统集成→下游服务器/IDC全面受益"
+          ],
+          "insights": [
+            "液冷产业链涵盖上游冷却液/零部件→中游系统温控→下游服务器整机/IDC三层架构"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "机房温控设备厂商"
+          ],
+          "industry_position": [
+            "机房温控设备厂商"
+          ],
+          "chain": [
+            "中游-液冷散热"
+          ],
+          "partners": []
+        },
+        {
           "date": "2026-02-27",
           "title": "2月27日，热点关注，今日操作策略与风险提示（下面按数字顺序排列）",
           "source": "https://mp.weixin.qq.com/s/tShlGWSWO8ZvuV6INkYcHA",
@@ -138006,7 +139371,18 @@
       "partners": [],
       "products": [
         "设备"
-      ]
+      ],
+      "core_business": [
+        "机房温控设备厂商"
+      ],
+      "industry_position": [
+        "机房温控设备厂商"
+      ],
+      "chain": [
+        "中游-液冷散热"
+      ],
+      "processed_by": "trae",
+      "processed_at": "2026-06-24T21:50:00+08:00"
     },
     "603917": {
       "mention_count": 1,
@@ -141172,8 +142548,8 @@
       "list_date": "20200911"
     },
     "605366": {
-      "mention_count": 2,
-      "last_updated": "2026-06-03",
+      "mention_count": 5,
+      "last_updated": "2026-06-24",
       "concepts": [
         "回购增持再贷款概念",
         "融资融券",
@@ -141181,11 +142557,149 @@
         "有机硅概念"
       ],
       "industry_position": [
+        "全球含硫硅烷龙头，市占率连续多年全球第一",
+        "国家制造业单项冠军示范企业",
         "龙头",
         "新材：硅烷偶联剂龙头",
-        "、宏柏新材（硅烷龙头"
+        "、宏柏新材（硅烷龙头",
+        "光纤级四氯化硅：国内唯一满足北美光纤大厂要求",
+        "电子级正硅酸乙酯：获台系头部客户验证，打破进口依赖",
+        "纳米硅：三氯氢硅路线独家突破，成本优势极强"
       ],
       "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/3N7BvDefS2wmAnDYEUmemQ",
+          "title": "宏柏新材深度覆盖：全球含硫硅烷龙头，气凝胶+新能源打开成长空间",
+          "date": "2026-06-24",
+          "accidents": [
+            "气凝胶产品已通过宁德时代供应商认证，应用于新能源汽车电池隔热及建筑节能",
+            "全球含硫硅烷市占率连续多年全球第一，国家制造业单项冠军示范企业",
+            "率先完成氯循环生产，自主掌控三氯氢硅原料"
+          ],
+          "insights": [
+            "全球含硫硅烷规模最大的企业之一，客户覆盖全球前十大轮胎企业(韩泰/马牌/固特异/锦湖/普利司通/米其林)",
+            "完整硅块-氯硅烷-中间体-功能性硅烷-气相白炭黑绿色循环产业链，成本与品质双优势",
+            "新能源车绿色轮胎核心原材料：含硫硅烷因耐磨低滚阻特性随新能源车产量增长需求爆发",
+            "硅能源概念：产品在光伏胶膜、多晶硅生产有应用，与光伏新能源深度关联"
+          ],
+          "key_metrics": [
+            "含硫硅烷全球市占率连续多年第一",
+            "气凝胶通过宁德时代供应商认证",
+            "客户覆盖全球前十大轮胎企业"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "功能性硅烷(含硫硅烷)",
+            "气凝胶(电池隔热)",
+            "硅烷偶联剂",
+            "气相白炭黑"
+          ],
+          "industry_position": [
+            "全球含硫硅烷龙头，市占率连续多年全球第一",
+            "国家制造业单项冠军示范企业"
+          ],
+          "chain": [
+            "中游-硅基新材料"
+          ],
+          "partners": [
+            "宁德时代",
+            "韩泰",
+            "德国马牌",
+            "固特异",
+            "锦湖",
+            "普利司通",
+            "米其林"
+          ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/3N7BvDefS2wmAnDYEUmemQ",
+          "title": "宏柏新材深度覆盖：全球含硫硅烷龙头，气凝胶+新能源打开成长空间",
+          "date": "2026-06-24",
+          "accidents": [
+            "气凝胶产品已通过宁德时代供应商认证，应用于新能源汽车电池隔热及建筑节能",
+            "全球含硫硅烷市占率连续多年全球第一，国家制造业单项冠军示范企业",
+            "率先完成氯循环生产，自主掌控三氯氢硅原料"
+          ],
+          "insights": [
+            "全球含硫硅烷规模最大的企业之一，客户覆盖全球前十大轮胎企业(韩泰/马牌/固特异/锦湖/普利司通/米其林)",
+            "完整硅块-氯硅烷-中间体-功能性硅烷-气相白炭黑绿色循环产业链，成本与品质双优势",
+            "新能源车绿色轮胎核心原材料：含硫硅烷因耐磨低滚阻特性随新能源车产量增长需求爆发",
+            "硅能源概念：产品在光伏胶膜、多晶硅生产有应用，与光伏新能源深度关联"
+          ],
+          "key_metrics": [
+            "含硫硅烷全球市占率连续多年第一",
+            "气凝胶通过宁德时代供应商认证",
+            "客户覆盖全球前十大轮胎企业"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "功能性硅烷(含硫硅烷)",
+            "气凝胶(电池隔热)",
+            "硅烷偶联剂",
+            "气相白炭黑"
+          ],
+          "industry_position": [
+            "全球含硫硅烷龙头，市占率连续多年全球第一",
+            "国家制造业单项冠军示范企业"
+          ],
+          "chain": [
+            "中游-硅基新材料"
+          ],
+          "partners": [
+            "宁德时代",
+            "韩泰",
+            "德国马牌",
+            "固特异",
+            "锦湖",
+            "普利司通",
+            "米其林"
+          ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/iDXJXBsr7OSkmpFo9r_4Jg",
+          "title": "宏柏新材，400%空间？",
+          "date": "2026-06-24",
+          "accidents": [
+            "2万吨高端光纤级四氯化硅有望绑定海外大厂，唯一满足北美光纤大厂要求的国内厂商",
+            "5000吨电子级正硅酸乙酯台系头部客户验证通过，半导体前驱体国产替代",
+            "纳米硅路线打通，突破性三氯氢硅路线，中试成功，成本优势极强"
+          ],
+          "insights": [
+            "光纤级四氯化硅：9N级高纯，九江/泰国基地2万吨，28年出货2万吨，单吨净利2-3万→4-6亿利润 → 150亿市值(30xPE)",
+            "电子级正硅酸乙酯：半导体前驱体，5000吨，28年出货5000吨，单吨净利3万→1.5亿利润 → 45亿市值(30xPE)",
+            "纳米硅：三氯氢硅路线突破性技术，中试产品指标优异，未来有望10亿+利润 → 150亿市值",
+            "传统主业硅烷偶联剂：50亿市值底仓",
+            "合计目标市值400亿，对应400%上涨空间"
+          ],
+          "key_metrics": [
+            "光纤级SiCl4: 2万吨→4-6亿利润→150亿市值(30xPE)",
+            "电子级TEOS: 5000吨→1.5亿利润→45亿市值(30xPE)",
+            "纳米硅: 10亿+利润潜力→150亿市值",
+            "传统硅烷偶联剂: 50亿市值",
+            "合计目标400亿市值，400%空间"
+          ],
+          "target_valuation": [
+            "400亿目标市值(400%空间)"
+          ],
+          "core_business": [
+            "高端光纤级四氯化硅(9N级)",
+            "电子级正硅酸乙酯(半导体前驱体)",
+            "纳米硅(三氯氢硅路线)",
+            "硅烷偶联剂(传统主业)"
+          ],
+          "industry_position": [
+            "光纤级四氯化硅：国内唯一满足北美光纤大厂要求",
+            "电子级正硅酸乙酯：获台系头部客户验证，打破进口依赖",
+            "纳米硅：三氯氢硅路线独家突破，成本优势极强"
+          ],
+          "chain": [
+            "上游-半导体材料"
+          ],
+          "partners": [
+            "北美光纤大厂",
+            "台系头部半导体客户"
+          ]
+        },
         {
           "date": "",
           "key_metrics": [
@@ -141220,12 +142734,34 @@
       "code": "605366",
       "name": "宏柏新材",
       "core_business": [
-        "功能性硅烷、纳米硅材料"
+        "功能性硅烷(含硫硅烷)",
+        "气凝胶(电池隔热)",
+        "硅烷偶联剂",
+        "气相白炭黑",
+        "功能性硅烷、纳米硅材料",
+        "高端光纤级四氯化硅(9N级)",
+        "电子级正硅酸乙酯(半导体前驱体)",
+        "纳米硅(三氯氢硅路线)",
+        "硅烷偶联剂(传统主业)"
       ],
       "chain": [
-        "下游-深加工"
+        "中游-硅基新材料",
+        "下游-深加工",
+        "上游-半导体材料"
       ],
-      "partners": []
+      "partners": [
+        "宁德时代",
+        "韩泰",
+        "德国马牌",
+        "固特异",
+        "锦湖",
+        "普利司通",
+        "米其林",
+        "北美光纤大厂",
+        "台系头部半导体客户"
+      ],
+      "processed_by": "trae",
+      "processed_at": "2026-06-24T21:32:00+08:00"
     },
     "605376": {
       "mention_count": 4,
@@ -143648,8 +145184,8 @@
       "partners": []
     },
     "688041": {
-      "mention_count": 13,
-      "last_updated": "2026-06-20",
+      "mention_count": 15,
+      "last_updated": "2026-06-24",
       "partners": [
         "英伟达"
       ],
@@ -143669,6 +145205,7 @@
         "融资融券"
       ],
       "industry_position": [
+        "国产高性能计算芯片标杆",
         "国产AI芯片龙头",
         "国内第一",
         "龙头",
@@ -143677,6 +145214,50 @@
         "全球领先"
       ],
       "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/voex86VdFH7lsnlPFn-X1Q",
+          "title": "央视报道：灵晟超算登顶全球，15只核心受益股",
+          "date": "2026-06-24",
+          "accidents": [
+            "灵晟超算以2.19EFlops登顶全球Top500(ISC2026)"
+          ],
+          "insights": [
+            "国产高端x86 CPU龙头，国内超算两大自主芯片路线核心厂商"
+          ],
+          "key_metrics": [],
+          "core_business": [
+            "国产高端x86 CPU"
+          ],
+          "industry_position": [
+            "国产高性能计算芯片标杆"
+          ],
+          "chain": [
+            "上游-算力芯片"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/voex86VdFH7lsnlPFn-X1Q",
+          "title": "央视报道：灵晟超算登顶全球，15只核心受益股",
+          "date": "2026-06-24",
+          "accidents": [
+            "灵晟超算以2.19EFlops登顶全球Top500(ISC2026)"
+          ],
+          "insights": [
+            "国产高端x86 CPU龙头，国内超算两大自主芯片路线核心厂商"
+          ],
+          "key_metrics": [],
+          "core_business": [
+            "国产高端x86 CPU"
+          ],
+          "industry_position": [
+            "国产高性能计算芯片标杆"
+          ],
+          "chain": [
+            "上游-算力芯片"
+          ],
+          "partners": []
+        },
         {
           "title": "字节2000亿砸向AI基建！有人看到风险，有人看到翻倍机会？短线投资机会深度分析报告_20260510",
           "date": "2026-05-11",
@@ -143893,6 +145474,7 @@
         "系统"
       ],
       "chain": [
+        "上游-算力芯片",
         "服务",
         "中游-制造",
         "平台",
@@ -143903,9 +145485,12 @@
       "name": "海光信息",
       "code": "688041",
       "core_business": [
+        "国产高端x86 CPU",
         "驱信国D动+ ，UICAP国产AI芯片)G(6算深x双8产创海光",
         "2. **算力需求爆发**"
-      ]
+      ],
+      "processed_by": "trae",
+      "processed_at": "2026-06-24T21:32:00+08:00"
     },
     "688047": {
       "mention_count": 4,
@@ -149184,8 +150769,8 @@
       "full_name": "腾景科技（688195）全称为腾景科技股份有限公司"
     },
     "688200": {
-      "mention_count": 7,
-      "last_updated": "2026-06-19",
+      "mention_count": 8,
+      "last_updated": "2026-06-24",
       "concepts": [
         "沪股通",
         "高端装备",
@@ -149197,6 +150782,49 @@
         "华为概念"
       ],
       "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/i3_ZuZaADdGr-_mWl2F_pw",
+          "title": "华峰测控，200%空间？",
+          "date": "2026-06-24",
+          "accidents": [
+            "HYDZ认为华峰测控已完成超级测试设备生态布局，目标成为大陆爱德万+鸿劲",
+            "STS8600已通过算力相关客户验证，SoC今年有望实现订单0到1突破",
+            "功率测试设备全球影响力被市场低估"
+          ],
+          "insights": [
+            "认知差就是预期差：市场对功率测试设备全球影响力、SoC订单、SLT产业均缺乏感知",
+            "模拟/数模混合测试机：27E订单45亿→利润22亿→30xPE→660亿市值",
+            "功率测试机：27/28E订单10/20亿→利润4/8亿→30xPE→240亿市值",
+            "SoC测试机：27/28E订单10/30亿→对标长川50%市值→750亿市值",
+            "SLT系统级测试机：27/28E订单7/21亿→2/3 SoC市值→500亿市值",
+            "合计目标市值2150亿，当前约750亿，200%上涨空间",
+            "HFCK和CCKJ已开始规模化释放利润，同环比高增"
+          ],
+          "key_metrics": [
+            "模拟/数模混合测试27E: 订单45亿/利润22亿 → 660亿市值(30xPE)",
+            "功率测试机27/28E: 订单10/20亿/利润4/8亿 → 240亿市值(30xPE)",
+            "SoC测试机27/28E: 订单10/30亿 → 750亿市值(对标长川50%)",
+            "SLT测试机27/28E: 订单7/21亿 → 500亿市值(2/3 SoC)",
+            "合计目标市值: 2150亿，当前~750亿，空间200%"
+          ],
+          "target_valuation": [
+            "2150亿目标市值(当前~750亿，200%空间)"
+          ],
+          "core_business": [
+            "模拟/数模混合测试机",
+            "功率半导体测试机(IGBT/SiC)",
+            "SoC测试机(AI/HPC/汽车电子)",
+            "SLT系统级测试机"
+          ],
+          "industry_position": [
+            "大陆爱德万+鸿劲：超级测试设备生态布局",
+            "模拟国内第一，SoC唯一国内量产品牌"
+          ],
+          "chain": [
+            "中游-半导体测试设备"
+          ],
+          "partners": []
+        },
         {
           "source": "https://mp.weixin.qq.com/s/_AxJ67eFzTt1FMrzZK2-ZQ",
           "title": "今天的一些信息整理6.11",
@@ -149344,13 +150972,19 @@
       "board": "SH",
       "code": "688200",
       "name": "华峰测控",
-      "processed_by": "tbox",
-      "processed_at": "2026-05-25T01:14:26.522684+08:00",
+      "processed_by": "trae",
+      "processed_at": "2026-06-24T21:25:00+08:00",
       "core_business": [
-        "STS8600(面向AI/HPC SoC测试)"
+        "STS8600(面向AI/HPC SoC测试)",
+        "模拟/数模混合测试机",
+        "功率半导体测试机(IGBT/SiC)",
+        "SoC测试机(AI/HPC/汽车电子)",
+        "SLT系统级测试机"
       ],
       "industry_position": [
-        "模拟/功率/SoC测试平台"
+        "模拟/功率/SoC测试平台",
+        "大陆爱德万+鸿劲：超级测试设备生态布局",
+        "模拟国内第一，SoC唯一国内量产品牌"
       ],
       "chain": [
         "中游-半导体测试设备"
@@ -157312,8 +158946,8 @@
       "full_name": "。欧莱新材（688530）全称为广东欧莱高新材料股份有限公司"
     },
     "688535": {
-      "mention_count": 5,
-      "last_updated": "2026-06-19",
+      "mention_count": 7,
+      "last_updated": "2026-06-24",
       "concepts": [
         "光伏概念",
         "先进封装",
@@ -157329,11 +158963,56 @@
         "汽车芯片"
       ],
       "industry_position": [
+        "国内唯一HBM GMC量产厂商",
         "龙头",
         "：国内环氧塑封料领先",
         "诚科：环氧塑封料龙头"
       ],
       "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/voex86VdFH7lsnlPFn-X1Q",
+          "title": "央视报道：灵晟超算登顶全球，15只核心受益股",
+          "date": "2026-06-24",
+          "accidents": [
+            "灵晟超算2.19EFlops登顶全球"
+          ],
+          "insights": [
+            "国内唯一实现HBM专用GMC颗粒环氧塑封料量产，打破海外垄断"
+          ],
+          "key_metrics": [],
+          "core_business": [
+            "HBM环氧塑封料(GMC)"
+          ],
+          "industry_position": [
+            "国内唯一HBM GMC量产厂商"
+          ],
+          "chain": [
+            "上游-封装材料"
+          ],
+          "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/voex86VdFH7lsnlPFn-X1Q",
+          "title": "央视报道：灵晟超算登顶全球，15只核心受益股",
+          "date": "2026-06-24",
+          "accidents": [
+            "灵晟超算2.19EFlops登顶全球"
+          ],
+          "insights": [
+            "国内唯一实现HBM专用GMC颗粒环氧塑封料量产，打破海外垄断"
+          ],
+          "key_metrics": [],
+          "core_business": [
+            "HBM环氧塑封料(GMC)"
+          ],
+          "industry_position": [
+            "国内唯一HBM GMC量产厂商"
+          ],
+          "chain": [
+            "上游-封装材料"
+          ],
+          "partners": []
+        },
         {
           "source": "https://mp.weixin.qq.com/s/weJ4TYTRcMp4KDYxhpX80w",
           "title": "日本半导体11个卡脖子位置，中国公司逐个拔掉",
@@ -157425,14 +159104,18 @@
       "industry": "电子-半导体-半导体材料",
       "board": "SH",
       "chain": [
+        "上游-封装材料",
         "上游-材料"
       ],
       "code": "688535",
       "name": "华海诚科",
       "partners": [],
       "core_business": [
+        "HBM环氧塑封料(GMC)",
         "先进封装EMC(环氧模塑料)"
-      ]
+      ],
+      "processed_by": "trae",
+      "processed_at": "2026-06-24T21:32:00+08:00"
     },
     "688536": {
       "mention_count": 1,
@@ -159523,8 +161206,8 @@
       "partners": []
     },
     "688629": {
-      "mention_count": 3,
-      "last_updated": "2026-06-23",
+      "mention_count": 4,
+      "last_updated": "2026-06-24",
       "concepts": [
         "5G",
         "低空经济",
@@ -159550,10 +161233,39 @@
         "高铁"
       ],
       "core_business": [
+        "液冷连接器新军，业绩高增",
         "系列超节点高速线缆组最核心供应商",
         "华为昇腾950系列超节点高速线缆组最核心供应商，份额预计超60%"
       ],
       "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/PPIDppr8nI4wUDtrqzGWvA",
+          "title": "液冷龙头: 英伟达Rubin全液冷时代：液冷温控龙头深度解析",
+          "date": "2026-06-24",
+          "accidents": [
+            "液冷连接器及热控流道系统总成，Q1营收+56%归母净利+230%，技术卡位+业绩支撑",
+            "英伟达Rubin全面采用100%液冷，单机柜液冷组件价值量超5.57万美元"
+          ],
+          "insights": [
+            "2027年全球AIDC液冷市场218亿美元→2030年505亿美元",
+            "进入海外大客户链+批量交付产能+财务指标变化三维度选股"
+          ],
+          "key_metrics": [
+            "2027年AIDC液冷市场218亿美元",
+            "2030年达505亿美元"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "液冷连接器新军，业绩高增"
+          ],
+          "industry_position": [
+            "液冷连接器新军，业绩高增"
+          ],
+          "chain": [
+            "中游-液冷散热"
+          ],
+          "partners": []
+        },
         {
           "source": "https://mp.weixin.qq.com/s/eyFhr5LILIEtf_iHKL-fgQ",
           "title": "高速铜缆：黄仁勋盖章的AI短距互联刚需，光进铜不退、需求指数级爆发",
@@ -159611,12 +161323,16 @@
       "code": "688629",
       "name": "华丰科技",
       "industry_position": [
+        "液冷连接器新军，业绩高增",
         "56Gbps/112Gbps高速背板,光模块+GPU互联"
       ],
       "chain": [
+        "中游-液冷散热",
         "中游-制造",
         "MPO上游零部件"
-      ]
+      ],
+      "processed_by": "trae",
+      "processed_at": "2026-06-24T21:50:00+08:00"
     },
     "688630": {
       "mention_count": 5,
@@ -162614,23 +164330,61 @@
       "partners": []
     },
     "872808": {
-      "mention_count": 0,
-      "last_updated": "2026-05-10",
+      "mention_count": 1,
+      "last_updated": "2026-06-24",
       "concepts": [
         "新三板"
       ],
-      "articles": [],
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/PPIDppr8nI4wUDtrqzGWvA",
+          "title": "液冷龙头: 英伟达Rubin全液冷时代：液冷温控龙头深度解析",
+          "date": "2026-06-24",
+          "accidents": [
+            "AI数据中心浸没式液冷+光模块双概念，多年技术积累，6月23日涨超10%",
+            "英伟达Rubin全面采用100%液冷，单机柜液冷组件价值量超5.57万美元"
+          ],
+          "insights": [
+            "2027年全球AIDC液冷市场218亿美元→2030年505亿美元",
+            "进入海外大客户链+批量交付产能+财务指标变化三维度选股"
+          ],
+          "key_metrics": [
+            "2027年AIDC液冷市场218亿美元",
+            "2030年达505亿美元"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "浸没式液冷技术领先"
+          ],
+          "industry_position": [
+            "浸没式液冷技术领先"
+          ],
+          "chain": [
+            "中游-液冷散热"
+          ],
+          "partners": []
+        }
+      ],
       "industry": "新三板",
       "board": "SZ",
       "products": [
         "服务器"
       ],
       "chain": [
+        "中游-液冷散热",
         "服务"
       ],
       "code": "872808",
       "name": "曙光数创",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "浸没式液冷技术领先"
+      ],
+      "industry_position": [
+        "浸没式液冷技术领先"
+      ],
+      "processed_by": "trae",
+      "processed_at": "2026-06-24T21:50:00+08:00"
     },
     "881170": {
       "mention_count": 1,
@@ -166996,8 +168750,53 @@
       "code": "000062",
       "name": "深圳华强",
       "concept": "",
-      "mention_count": 5,
+      "mention_count": 6,
       "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/7lDiRJVayE739-HWBL3eXQ",
+          "title": "深圳华强深度覆盖：电子元器件交易龙头，昇腾AI打开第二曲线",
+          "date": "2026-06-24",
+          "accidents": [
+            "拟并购同行业深蕾科技，扩大授权分销版图",
+            "新增代理地瓜机器人、投资脉塔智能(关节模组)，切入具身智能赛道",
+            "昇腾APN金牌部件伙伴，自研边缘计算系统"
+          ],
+          "insights": [
+            "中国最大综合性电子元器件交易平台，覆盖授权分销+华强电子世界+华强电子网三大业务",
+            "授权分销覆盖江波龙/兆易创新/慧荣/华为海思/纳芯微等头部厂商，本土产品线占比持续提升",
+            "昇腾APN金牌部件伙伴+自研边缘计算：从分销商向AI解决方案商转型",
+            "拟并购深蕾科技进一步扩大规模，对标英唐智控/力源信息等竞对"
+          ],
+          "key_metrics": [
+            "PE(TTM): 61.6倍, PB: 5.09倍",
+            "2026E归母净利: 6.16亿",
+            "2027E归母净利: 6.81亿",
+            "2028E归母净利: 7.55亿",
+            "2026-2028净利润复合增速: ~11%"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "电子元器件授权分销",
+            "华强电子世界(物业租赁)",
+            "华强电子网(线上平台)",
+            "AI昇腾生态/边缘计算"
+          ],
+          "industry_position": [
+            "中国最大综合性电子元器件交易平台",
+            "昇腾APN金牌部件伙伴"
+          ],
+          "chain": [
+            "中游-电子元器件分销"
+          ],
+          "partners": [
+            "江波龙",
+            "兆易创新",
+            "华为海思",
+            "纳芯微",
+            "地瓜机器人",
+            "慧荣"
+          ]
+        },
         {
           "source": "https://mp.weixin.qq.com/s/p0lzzWLYpN4Pq51YkLj_8g",
           "title": "6月2日一些首板逻辑",
@@ -167104,12 +168903,18 @@
           "partners": []
         }
       ],
-      "last_updated": "2026-06-13",
+      "last_updated": "2026-06-24",
       "core_business": [
+        "电子元器件授权分销",
+        "华强电子世界(物业租赁)",
+        "华强电子网(线上平台)",
+        "AI昇腾生态/边缘计算",
         "MLCC涨价+华为昇腾电子元器件分销",
         "MLCC涨价+华为昇腾"
       ],
       "industry_position": [
+        "中国最大综合性电子元器件交易平台",
+        "昇腾APN金牌部件伙伴",
         "MLCC涨价+华为昇腾",
         "电子元器件分销龙头"
       ],
@@ -167147,11 +168952,18 @@
         "碳化硅"
       ],
       "partners": [
+        "江波龙",
+        "兆易创新",
+        "华为海思",
+        "纳芯微",
+        "地瓜机器人",
+        "慧荣",
         "村田"
       ],
       "board": "SZ",
       "products": [],
       "chain": [
+        "中游-电子元器件分销",
         "概念-元件/MLCC/PCB",
         "下游-分销"
       ],
@@ -167159,7 +168971,9 @@
         "电子元器件分销龙头，代理多家SiC产品",
         "自身也在布局SiC产业链"
       ],
-      "full_name": "深圳华强实业股份有限公司"
+      "full_name": "深圳华强实业股份有限公司",
+      "processed_by": "trae",
+      "processed_at": "2026-06-24T21:45:00+08:00"
     },
     "000070": {
       "code": "000070",
@@ -180319,8 +182133,32 @@
       "code": "300249",
       "name": "依米康",
       "concept": "",
-      "mention_count": 1,
+      "mention_count": 2,
       "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/fd0RYbvXvlnTSHR4gt0Zvg",
+          "title": "液冷产业链: 液冷全产业链梳理：上游材料到下游IDC全景图",
+          "date": "2026-06-24",
+          "accidents": [
+            "冷板式/浸没式液冷整体方案，具备技术储备与项目落地经验",
+            "英伟达Rubin全液冷方案推动产业链从上游冷却液→中游系统集成→下游服务器/IDC全面受益"
+          ],
+          "insights": [
+            "液冷产业链涵盖上游冷却液/零部件→中游系统温控→下游服务器整机/IDC三层架构"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "液冷整体方案提供商"
+          ],
+          "industry_position": [
+            "液冷整体方案提供商"
+          ],
+          "chain": [
+            "中游-液冷散热"
+          ],
+          "partners": []
+        },
         {
           "source": "https://mp.weixin.qq.com/s/ywrhlH8ZhPj9E0FcLmYDgw",
           "title": "依米康机构调研-2026-06-23",
@@ -180347,7 +182185,7 @@
           "content": "： 2025年海外订单同比暴增183%，东南亚市场战略落地成效显著 2025年公司海外订单合计25,949.17万元，同比大幅增长182.62%，其中海外本土客户与国内互联网厂商各占50%。公司在马来西亚设立全资子公司并搭建属地化服务网络，精密温控产品已批量落地马来西亚、泰国标杆项目，海外业务从配套型出海升级为自主型出海。 液冷业务进入加速放量期，2025年收入同比增长58%呈加速态势 2025年精密温控产品收入同比增长57.87%，2026年一季度同比增幅进一步扩大至87.78%，产能利用率持续抬升带动毛利率修复。2025年公司位列液冷数据中心市场厂商TOP8、一次侧干冷器市场TOP3，液冷产品已实现一次侧到二次侧全覆盖的全形态矩阵布局，定增募资将加速液冷规模化产能扩张。 应收账款管控精细化推进，财务结构优化助力现金流改善 公司通过剥离环保业务遗留长账龄坏账、青白江项目应收处置收尾，化解历史不良拖累。同步落地分级信用管理、优化合同回款条款、组建专项清欠小组催收存量应收。2026年6月定增完成，7,375.12万元补充流动资金优化资产负债结构，一年内短账期应收占比逐年抬升，回款效率稳步改善。"
         }
       ],
-      "last_updated": "2026-06-23",
+      "last_updated": "2026-06-24",
       "concepts": [
         "5G",
         "专精特新",
@@ -180377,7 +182215,18 @@
       ],
       "industry": "计算机-计算机设备-其他计算机设备",
       "board": "SZ",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "液冷整体方案提供商"
+      ],
+      "industry_position": [
+        "液冷整体方案提供商"
+      ],
+      "chain": [
+        "中游-液冷散热"
+      ],
+      "processed_by": "trae",
+      "processed_at": "2026-06-24T21:50:00+08:00"
     },
     "300257": {
       "code": "300257",
@@ -190197,9 +192046,38 @@
       "code": "301489",
       "name": "思泉新材",
       "concept": "",
-      "mention_count": 0,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/PPIDppr8nI4wUDtrqzGWvA",
+          "title": "液冷龙头: 英伟达Rubin全液冷时代：液冷温控龙头深度解析",
+          "date": "2026-06-24",
+          "accidents": [
+            "自主研发双相冷板/CDU/快速接头，投资多条液冷产线，已收到大客户液冷项目中标通知",
+            "英伟达Rubin全面采用100%液冷，单机柜液冷组件价值量超5.57万美元"
+          ],
+          "insights": [
+            "2027年全球AIDC液冷市场218亿美元→2030年505亿美元",
+            "进入海外大客户链+批量交付产能+财务指标变化三维度选股"
+          ],
+          "key_metrics": [
+            "2027年AIDC液冷市场218亿美元",
+            "2030年达505亿美元"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "液冷新锐，订单落地在即"
+          ],
+          "industry_position": [
+            "液冷新锐，订单落地在即"
+          ],
+          "chain": [
+            "中游-液冷散热"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-06-24",
       "concepts": [
         "AI PC",
         "AI手机",
@@ -190225,7 +192103,18 @@
       ],
       "industry": "电子-电子化学品-电子化学品Ⅲ",
       "board": "SZ",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "液冷新锐，订单落地在即"
+      ],
+      "industry_position": [
+        "液冷新锐，订单落地在即"
+      ],
+      "chain": [
+        "中游-液冷散热"
+      ],
+      "processed_by": "trae",
+      "processed_at": "2026-06-24T21:50:00+08:00"
     },
     "301498": {
       "code": "301498",
@@ -193977,9 +195866,38 @@
       "code": "600506",
       "name": "统一股份",
       "concept": "",
-      "mention_count": 0,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/PPIDppr8nI4wUDtrqzGWvA",
+          "title": "液冷龙头: 英伟达Rubin全液冷时代：液冷温控龙头深度解析",
+          "date": "2026-06-24",
+          "accidents": [
+            "液冷冷却液核心供应商，受益Rubin平台冷却液温度提升至45度技术路线，6月23日涨停",
+            "英伟达Rubin全面采用100%液冷，单机柜液冷组件价值量超5.57万美元"
+          ],
+          "insights": [
+            "2027年全球AIDC液冷市场218亿美元→2030年505亿美元",
+            "进入海外大客户链+批量交付产能+财务指标变化三维度选股"
+          ],
+          "key_metrics": [
+            "2027年AIDC液冷市场218亿美元",
+            "2030年达505亿美元"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "液冷冷却液赛道核心标的"
+          ],
+          "industry_position": [
+            "液冷冷却液赛道核心标的"
+          ],
+          "chain": [
+            "中游-液冷散热"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-06-24",
       "concepts": [
         "乡村振兴",
         "人工智能",
@@ -194008,7 +195926,18 @@
       ],
       "industry": "石油石化-石油加工贸易-石油加工",
       "board": "SH",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "液冷冷却液赛道核心标的"
+      ],
+      "industry_position": [
+        "液冷冷却液赛道核心标的"
+      ],
+      "chain": [
+        "中游-液冷散热"
+      ],
+      "processed_by": "trae",
+      "processed_at": "2026-06-24T21:50:00+08:00"
     },
     "600509": {
       "code": "600509",
@@ -206673,8 +208602,53 @@
       "code": "688403",
       "name": "汇成股份",
       "concept": "",
-      "mention_count": 1,
+      "mention_count": 2,
       "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/nN_XFEQm9x_yZPXa6KtaNg",
+          "title": "汇成真空，400%空间？(实际内容为汇成股份CoWoS先进封装)",
+          "date": "2026-06-24",
+          "accidents": [
+            "先进封装CoWoS从0到1进入实质性量产阶段，汇成股份为最强α标的",
+            "HITS技术一梯队，海外团队陆续脱敏到位",
+            "DRAM封测年底扩至6万片/月(超预期)",
+            "HITS总投资45-50亿，26年Q3-Q4投25亿，27年Q1产能4000-5000片/月，27年底扩至1万片/月",
+            "垂直打线技术(海力士同步)替代传统TSV，可降低一半成本"
+          ],
+          "insights": [
+            "传统DDIC+DRAM封测: 250亿市值底仓",
+            "先进封装HITS带动整体迈向千亿市值，400%空间",
+            "CoWoS标的中赔率最高",
+            "8维度技术全面领先(TSV/interposer/凸块/尺寸/2.5D/3D等)",
+            "26H2先进封装进入行业共振黄金期",
+            "27年为国产算力+HBM大年，预计CoWoS缺口达7万片/月",
+            "扩产将不断推升市值"
+          ],
+          "key_metrics": [
+            "传统DDIC+DRAM封测: 250亿市值",
+            "HITS先进封装目标: 1000亿市值(400%空间)",
+            "HITS阶段1: 26Q3-Q4投入25亿 → 27Q1产能4000-5000片/月",
+            "HITS阶段2: 再投25-30亿 → 27年底产能1万片/月",
+            "27年CoWoS缺口预计7万片/月"
+          ],
+          "target_valuation": [
+            "第一目标千亿市值(400%空间)"
+          ],
+          "core_business": [
+            "DDIC封测",
+            "DRAM封测",
+            "CoWoS先进封装(HITS)"
+          ],
+          "industry_position": [
+            "CoWoS断崖式领先",
+            "唯一前道interposer自主生产",
+            "最强α标的"
+          ],
+          "chain": [
+            "中游-先进封装"
+          ],
+          "partners": []
+        },
         {
           "source": "https://mp.weixin.qq.com/s/Ki6f8N7LTR9OmsUXiLRZxQ",
           "title": "美光科技+英伟达AI存储合作催化！存储芯片单日吸金121亿，存储芯片迎来反转行情！18只主力重仓龙头谁吃AI存储红利？",
@@ -206693,7 +208667,7 @@
           "partners": []
         }
       ],
-      "last_updated": "2026-06-13",
+      "last_updated": "2026-06-24",
       "concepts": [
         "OLED",
         "专精特新",
@@ -206709,8 +208683,21 @@
       "board": "SH",
       "partners": [],
       "core_business": [
-        "显示驱动芯片封测(DDIC金凸块)，封测中游→面板，美光+英伟达AI存储合作催化"
-      ]
+        "显示驱动芯片封测(DDIC金凸块)，封测中游→面板，美光+英伟达AI存储合作催化",
+        "DDIC封测",
+        "DRAM封测",
+        "CoWoS先进封装(HITS)"
+      ],
+      "industry_position": [
+        "CoWoS断崖式领先",
+        "唯一前道interposer自主生产",
+        "最强α标的"
+      ],
+      "chain": [
+        "中游-先进封装"
+      ],
+      "processed_by": "trae",
+      "processed_at": "2026-06-24T21:25:00+08:00"
     },
     "688409": {
       "code": "688409",
@@ -209431,8 +211418,32 @@
       "code": "688668",
       "name": "鼎通科技",
       "concept": "",
-      "mention_count": 5,
+      "mention_count": 6,
       "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/fd0RYbvXvlnTSHR4gt0Zvg",
+          "title": "液冷产业链: 液冷全产业链梳理：上游材料到下游IDC全景图",
+          "date": "2026-06-24",
+          "accidents": [
+            "液冷分水器/密封连接器/管路组件，进入头部供应链",
+            "英伟达Rubin全液冷方案推动产业链从上游冷却液→中游系统集成→下游服务器/IDC全面受益"
+          ],
+          "insights": [
+            "液冷产业链涵盖上游冷却液/零部件→中游系统温控→下游服务器整机/IDC三层架构"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "core_business": [
+            "液冷连接器供应商"
+          ],
+          "industry_position": [
+            "液冷连接器供应商"
+          ],
+          "chain": [
+            "中游-液冷散热"
+          ],
+          "partners": []
+        },
         {
           "source": "https://mp.weixin.qq.com/s/FB_Yi85_u5JS4uYFe1O7ag",
           "title": "今天的一些信息整理6.9",
@@ -209521,7 +211532,7 @@
           "partners": []
         }
       ],
-      "last_updated": "2026-06-13",
+      "last_updated": "2026-06-24",
       "concepts": [
         "2025年报预增",
         "5G",
@@ -209541,12 +211552,19 @@
       "board": "SH",
       "partners": [],
       "core_business": [
+        "液冷连接器供应商",
         "鼎通科技（688668）全称为东莞市鼎通精密科技股份有限公司，所属行业为通信系统设备。公司主营业务为研发、生产、销售通讯"
       ],
       "full_name": "鼎通科技（688668）全称为东莞市鼎通精密科技股份有限公司",
       "industry_position": [
+        "液冷连接器供应商",
         "连接器精密组件和汽车连接器精密组件。根据2025年报数据，核心产品营收占比分别为：通讯连接器壳体47.8%、汽车连接器组件25.83%、通讯"
-      ]
+      ],
+      "chain": [
+        "中游-液冷散热"
+      ],
+      "processed_by": "trae",
+      "processed_at": "2026-06-24T21:50:00+08:00"
     },
     "688680": {
       "code": "688680",
@@ -211759,9 +213777,38 @@
       "code": "920662",
       "name": "方盛股份",
       "concept": "",
-      "mention_count": 0,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "mention_count": 1,
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/PPIDppr8nI4wUDtrqzGWvA",
+          "title": "液冷龙头: 英伟达Rubin全液冷时代：液冷温控龙头深度解析",
+          "date": "2026-06-24",
+          "accidents": [
+            "北交所液冷高弹性品种，涨跌幅限制30%，6月23日盘中30%涨停",
+            "英伟达Rubin全面采用100%液冷，单机柜液冷组件价值量超5.57万美元"
+          ],
+          "insights": [
+            "2027年全球AIDC液冷市场218亿美元→2030年505亿美元",
+            "进入海外大客户链+批量交付产能+财务指标变化三维度选股"
+          ],
+          "key_metrics": [
+            "2027年AIDC液冷市场218亿美元",
+            "2030年达505亿美元"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "北交所液冷高弹性品种"
+          ],
+          "industry_position": [
+            "北交所液冷高弹性品种"
+          ],
+          "chain": [
+            "中游-液冷散热"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-06-24",
       "concepts": [
         "专精特新",
         "储能",
@@ -211778,7 +213825,18 @@
       ],
       "industry": "机械设备-通用设备-其他通用设备",
       "board": "BJ",
-      "partners": []
+      "partners": [],
+      "core_business": [
+        "北交所液冷高弹性品种"
+      ],
+      "industry_position": [
+        "北交所液冷高弹性品种"
+      ],
+      "chain": [
+        "中游-液冷散热"
+      ],
+      "processed_by": "trae",
+      "processed_at": "2026-06-24T21:50:00+08:00"
     },
     "920670": {
       "code": "920670",
@@ -224016,16 +226074,19 @@
     "003018": {
       "code": "003018",
       "name": "金富科技",
-      "last_updated": "2026-06-13",
-      "mention_count": 3,
+      "last_updated": "2026-06-24",
+      "mention_count": 4,
       "board": "BJ",
       "core_business": [
+        "液冷产业链卡位精准新晋标的",
         "液冷机柜/真空腔体"
       ],
       "industry_position": [
+        "液冷产业链卡位精准新晋标的",
         "AI服务器液冷渗透率+15%,单机柜价值量3000-5000元"
       ],
       "chain": [
+        "中游-液冷散热",
         "中游-制造"
       ],
       "partners": [],
@@ -224033,6 +226094,34 @@
         "液冷"
       ],
       "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/PPIDppr8nI4wUDtrqzGWvA",
+          "title": "液冷龙头: 英伟达Rubin全液冷时代：液冷温控龙头深度解析",
+          "date": "2026-06-24",
+          "accidents": [
+            "收购卓晖金属/联益热能切入液冷流道管路/冷板组件/分集水器，进入奇宏/宝德/双鸿等头部供应商体系",
+            "英伟达Rubin全面采用100%液冷，单机柜液冷组件价值量超5.57万美元"
+          ],
+          "insights": [
+            "2027年全球AIDC液冷市场218亿美元→2030年505亿美元",
+            "进入海外大客户链+批量交付产能+财务指标变化三维度选股"
+          ],
+          "key_metrics": [
+            "2027年AIDC液冷市场218亿美元",
+            "2030年达505亿美元"
+          ],
+          "target_valuation": [],
+          "core_business": [
+            "液冷产业链卡位精准新晋标的"
+          ],
+          "industry_position": [
+            "液冷产业链卡位精准新晋标的"
+          ],
+          "chain": [
+            "中游-液冷散热"
+          ],
+          "partners": []
+        },
         {
           "source": "https://mp.weixin.qq.com/s/6XnVfODYMRcgQM5RhG3tcw",
           "title": "机构一周核心纪要5.30-6.3",
@@ -224089,7 +226178,9 @@
         }
       ],
       "full_name": "金富科技（003018）全称为金富科技股份有限公司",
-      "industry": "轻工制造-包装印刷-包装"
+      "industry": "轻工制造-包装印刷-包装",
+      "processed_by": "trae",
+      "processed_at": "2026-06-24T21:50:00+08:00"
     },
     "002955": {
       "code": "002955",
