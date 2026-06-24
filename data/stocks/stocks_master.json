@@ -235035,6 +235035,34 @@
       "last_updated": "",
       "articles": [],
       "detail_texts": []
+    },
+    "300847": {
+      "name": "中船汉光",
+      "mention_count": 1,
+      "last_updated": "2026-06-24",
+      "articles": [
+        {
+          "source": "https://mp.weixin.qq.com/s/Y6rS_1pTwhX9EGrcKZzjxg",
+          "title": "金属铋：AI光模块的新卡点",
+          "date": "2026年",
+          "fetched_at": "2026-06-24 16:13",
+          "industry_background": [
+            "碲化铋（Bi₂Te₃）是Micro TEC微型热电制冷器的唯一商用核心原料",
+            "是800G/1.6T高速光模块激光器稳定运行的关键",
+            "中国对4N以上高纯铋纳入出口管制，日本95%高端原料依赖中国进口",
+            "日系厂商全球60%份额，库存告急停止接单，国产替代黄金窗口"
+          ],
+          "accidents": [],
+          "insights": [
+            "布局光模块精密温控器件，与富信科技形成差异化竞争",
+            "聚焦军工与高端通信市场，Micro TEC产品已通过中船集团认证",
+            "在高可靠性场景具备优势，受益于国产替代与军工信息化双重需求"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": "金属铋相关文章，碲化铋是800G/1.6T光模块Micro TEC核心原料。"
+        }
+      ]
     }
   },
   "stock_count": 3488,
