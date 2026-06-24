@@ -1,9 +1,9 @@
 ---
 name: wechat-fetch-research-embedded
-description: 把微信公众号文章链接转成可结构化投研素材并沉淀到 JSON 数据库的工作流技能（v2.9）。内置《全部个股.xls》和《数据结构规范_v2》，支持 Docker 部署。适用场景：你给出一个或多个 mp.weixin.qq.com 链接，需要（1）可靠读取公众号正文并落盘 raw_material；（2）从 raw_material 识别提到的个股（自动映射内置 stock list）；（3）按内置《数据结构规范_v2》执行 5 维度抽取；（4）**增量合并到按日期分片的 JSON 文件**；（5）同步到 GitHub；（6）增量同步到 Supabase PostgreSQL。
+description: 把微信公众号文章链接转成可结构化投研素材并沉淀到 JSON 数据库的工作流技能（v2.10）。内置《全部个股.xls》和《数据结构规范_v2》，支持 Docker 部署。适用场景：你给出一个或多个 mp.weixin.qq.com 链接，需要（1）可靠读取公众号正文并落盘 raw_material；（2）从 raw_material 识别提到的个股（自动映射内置 stock list）；（3）按内置《数据结构规范_v2》执行 5 维度抽取；（4）**增量合并到按日期分片的 JSON 文件**；（5）同步到 GitHub；（6）增量同步到 Supabase PostgreSQL。
 ---
 
-# wechat-fetch-research-embedded (v2.9)
+# wechat-fetch-research-embedded (v2.10)
 
 > ⚠️ **重要路径说明**：本技能输出到 `data/stocks/` 目录（前端读取），**不是** `data/master/`。详见下方目录约定。
 
@@ -24,6 +24,13 @@ description: 把微信公众号文章链接转成可结构化投研素材并沉�
 > 数据结构以 `references/数据结构规范_v2.md` 为准。
 
 ---
+
+## v2.10 变更说明
+
+### 标题过滤优化 + 分组自动填充
+- **移除过度拦截**：`r'供应格局梳理'` 从 BROAD_LIST_TITLE 中移除（有具体事件时不该拦截，如旺矽预付款→探针卡紧缺）
+- **分组关联流程**：当用户发送文章链接给特定分组时，不仅走 pipeline，还会直接填充分组股票
+- **空分组处理**："晶圆中测探针卡"等空分组补充了具体股票
 
 ## v2.9 变更说明
 
