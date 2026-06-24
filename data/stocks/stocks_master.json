@@ -221593,7 +221593,7 @@
       "industry_position": [],
       "chain": [],
       "partners": [],
-      "mention_count": 1,
+      "mention_count": 2,
       "articles": [
         {
           "source": "https://mp.weixin.qq.com/s/tuW1L5HNpLnbra868ieWKA",
@@ -221624,6 +221624,30 @@
           "industry_position": [],
           "chain": [],
           "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/EdxEYfM6FbCE6EZ9Sw0XJQ",
+          "title": "NCP深度：各公司拿卡能力完整排序",
+          "date": "2026年",
+          "fetched_at": "2026-06-24 16:06",
+          "industry_background": [
+            "NCP = NVIDIA Cloud Partner，算力云/算力租赁场景的官方认证体系",
+            "2026年国内B300总进口量不足2万台，NCP直采vs散单成本差270-300万/台",
+            "授权级别：双平台独家 > NCP Preferred > NCP Standard > NCP代采 > 散单"
+          ],
+          "accidents": [],
+          "insights": [
+            "NCP Standard级别，含税成本600万以下，全行业最低",
+            "年内已确认2000台（首批700台7月投运），唯一有实物验证的B300批量到货案例",
+            "渠道能力极强，对NVIDIA配货逻辑理解深，通过运营效率压低成本",
+            "成为沐曦总经销商后，每拿1台B300可锁定1.5台沐曦国产卡配货权，解决合规问题"
+          ],
+          "key_metrics": [
+            "2026年可获台数：2000台（确认）",
+            "全机成本：<600万（NCP Standard）"
+          ],
+          "target_valuation": [],
+          "content": ""
         }
       ],
       "last_updated": "2026-06-05"
