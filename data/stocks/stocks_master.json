@@ -26789,7 +26789,7 @@
         "铜缆高速连接"
       ],
       "code": "002025",
-      "mention_count": 4,
+      "mention_count": 5,
       "partners": [],
       "articles": [
         {
@@ -26856,6 +26856,26 @@
           "accidents": [],
           "insights": [
             "航天电器获券商重点推荐"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": ""
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/fIbC9h2sGrYMaLjfMMa9lA",
+          "title": "",
+          "date": "2026年",
+          "fetched_at": "2026-06-24 16:01",
+          "industry_background": [
+            "高速连接器是用于传输高速数字信号、速率大于25Gbps的连接器",
+            "在数据中心场景，是服务器、交换机等设备内部及设备间互联的核心组件",
+            "AI服务器、交换机需求爆发，巨头产能饱和，交付周期延长"
+          ],
+          "accidents": [],
+          "insights": [
+            "主营连接器与线缆组件、微特电机、光电器件",
+            "国内宇航级/军工连接器龙头",
+            "切入数据中心场景"
           ],
           "key_metrics": [],
           "target_valuation": [],
@@ -44370,7 +44390,7 @@
       ]
     },
     "002475": {
-      "mention_count": 10,
+      "mention_count": 11,
       "last_updated": "2026-06-24",
       "partners": [
         "苹果"
@@ -44610,6 +44630,25 @@
           "accidents": [],
           "insights": [
             "立讯精密获券商重点推荐"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": ""
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/fIbC9h2sGrYMaLjfMMa9lA",
+          "title": "",
+          "date": "2026年",
+          "fetched_at": "2026-06-24 16:01",
+          "industry_background": [
+            "高速连接器是用于传输高速数字信号、速率大于25Gbps的连接器",
+            "在数据中心场景，是服务器、交换机等设备内部及设备间互联的核心组件",
+            "AI服务器、交换机需求爆发，巨头产能饱和，交付周期延长"
+          ],
+          "accidents": [],
+          "insights": [
+            "国内高速连接器龙头，铜缆组件（DAC/ACC）全球龙头",
+            "产品矩阵覆盖消费电子、通信与数据中心、汽车电子领域"
           ],
           "key_metrics": [],
           "target_valuation": [],
@@ -90551,7 +90590,7 @@
       "partners": []
     },
     "301123": {
-      "mention_count": 7,
+      "mention_count": 8,
       "last_updated": "2026-06-13",
       "concepts": [
         "共封装光学(CPO)",
@@ -90688,6 +90727,25 @@
             "中游-制造"
           ],
           "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/fIbC9h2sGrYMaLjfMMa9lA",
+          "title": "",
+          "date": "2026年",
+          "fetched_at": "2026-06-24 16:01",
+          "industry_background": [
+            "高速连接器是用于传输高速数字信号、速率大于25Gbps的连接器",
+            "在数据中心场景，是服务器、交换机等设备内部及设备间互联的核心组件",
+            "AI服务器、交换机需求爆发，巨头产能饱和，交付周期延长"
+          ],
+          "accidents": [],
+          "insights": [
+            "主营FPC、连接器及组件、液冷散热模组",
+            "安费诺核心供应商"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": ""
         }
       ],
       "industry": "电子-消费电子-消费电子零部件及组装",
@@ -162322,7 +162380,7 @@
       "partners": []
     },
     "688629": {
-      "mention_count": 4,
+      "mention_count": 5,
       "last_updated": "2026-06-24",
       "concepts": [
         "5G",
@@ -162431,6 +162489,26 @@
           "accidents": [
             "DeepSeek-V4模型发布及国产算力（特别是'昇腾 950超节点'）发展"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/fIbC9h2sGrYMaLjfMMa9lA",
+          "title": "",
+          "date": "2026年",
+          "fetched_at": "2026-06-24 16:01",
+          "industry_background": [
+            "高速连接器是用于传输高速数字信号、速率大于25Gbps的连接器",
+            "在数据中心场景，是服务器、交换机等设备内部及设备间互联的核心组件",
+            "AI服务器、交换机需求爆发，巨头产能饱和，交付周期延长"
+          ],
+          "accidents": [],
+          "insights": [
+            "主营光、电连接器及线缆组件",
+            "高速背板连接器国内龙头，覆盖防务、通讯、数据中心场景",
+            "华为主供"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": ""
         }
       ],
       "industry": "国防军工-军工电子-军工电子Ⅲ",
@@ -212752,7 +212830,7 @@
       "code": "688668",
       "name": "鼎通科技",
       "concept": "",
-      "mention_count": 6,
+      "mention_count": 7,
       "articles": [
         {
           "source": "https://mp.weixin.qq.com/s/fd0RYbvXvlnTSHR4gt0Zvg",
@@ -212864,6 +212942,25 @@
             "中游-制造"
           ],
           "partners": []
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/fIbC9h2sGrYMaLjfMMa9lA",
+          "title": "",
+          "date": "2026年",
+          "fetched_at": "2026-06-24 16:01",
+          "industry_background": [
+            "高速连接器是用于传输高速数字信号、速率大于25Gbps的连接器",
+            "在数据中心场景，是服务器、交换机等设备内部及设备间互联的核心组件",
+            "AI服务器、交换机需求爆发，巨头产能饱和，交付周期延长"
+          ],
+          "accidents": [],
+          "insights": [
+            "主营高速连接器及组件，包括背板、I/O、铜缆连接器",
+            "供货安费诺、莫仕、泰科"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": ""
         }
       ],
       "last_updated": "2026-06-24",
