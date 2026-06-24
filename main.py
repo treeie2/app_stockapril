@@ -723,32 +723,32 @@ def load_all_data():
     is_vercel = 'VERCEL' in os.environ
     
     try:
-        # ─── Vercel: Supabase REST API (纯 stdlib) → GitHub raw 回退 ───
+        # ─── Vercel: GitHub raw 优先 (always latest) → Supabase 回退 ───
         if is_vercel:
-            print("📋 Vercel: Supabase REST API (stdlib) 读取...")
-            sb_stocks, sb_concepts = load_data_from_supabase_http()
-            if sb_stocks:
-                stocks.update(sb_stocks)
-                concepts.update(sb_concepts)
-            else:
-                # 回退 GitHub raw
-                import time as _time, random as _random
-                gh_url = (f"https://raw.githubusercontent.com/treeie2/app_stockapril/main/"
-                         f"data/stocks/stocks_master.json?"
-                         f"t={int(_time.time())}&r={_random.randint(0,99999)}")
-                print(f"  ⚠️ Supabase 失败，尝试 GitHub raw...")
-                try:
-                    r = requests.get(gh_url, timeout=30, headers={
-                        "Cache-Control": "no-cache, no-store, must-revalidate"
-                    })
-                    r.raise_for_status()
-                    data = json.loads(r.text)
-                    gh_stocks = data.get("stocks", {})
-                    if gh_stocks:
-                        stocks.update(gh_stocks)
-                        print(f"  ✅ GitHub raw: {len(gh_stocks)} stocks")
-                except Exception as gh_e:
-                    print(f"  ⚠️ GitHub raw 也失败: {gh_e}")
+            import time as _time, random as _random
+            gh_url = (f"https://raw.githubusercontent.com/treeie2/app_stockapril/main/"
+                     f"data/stocks/stocks_master.json?"
+                     f"t={int(_time.time())}&r={_random.randint(0,99999)}")
+            print("📋 Vercel: GitHub raw 读取最新数据...")
+            try:
+                r = requests.get(gh_url, timeout=30, headers={
+                    "Cache-Control": "no-cache, no-store, must-revalidate"
+                })
+                r.raise_for_status()
+                data = json.loads(r.text)
+                gh_stocks = data.get("stocks", {})
+                if gh_stocks:
+                    stocks.update(gh_stocks)
+                    print(f"  ✅ GitHub raw: {len(gh_stocks)} stocks")
+            except Exception as gh_e:
+                print(f"  ⚠️ GitHub raw 失败: {gh_e}, 尝试 Supabase...")
+                sb_stocks, sb_concepts = load_data_from_supabase_http()
+                if sb_stocks:
+                    stocks.update(sb_stocks)
+                    concepts.update(sb_concepts)
+                    print(f"  ✅ Supabase: {len(sb_stocks)} stocks")
+                else:
+                    print(f"  ⚠️ Supabase 也失败，本地回退...")
                     loaded, loaded_c = load_data_from_local()
                     if loaded:
                         stocks.update(loaded)
