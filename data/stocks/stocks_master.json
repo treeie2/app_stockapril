@@ -21665,7 +21665,7 @@
         "阿里巴巴概念"
       ],
       "code": "000938",
-      "mention_count": 9,
+      "mention_count": 10,
       "partners": [
         "字节跳动"
       ],
@@ -21857,6 +21857,27 @@
           "target_valuation": [
             "隔夜美股科技大涨，全球第三+国内第一，这只半导体材料股被严重低估，机构目标价111.2元！_20260515"
           ]
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/EdxEYfM6FbCE6EZ9Sw0XJQ",
+          "title": "NCP深度：各公司拿卡能力完整排序",
+          "date": "2026年",
+          "fetched_at": "2026-06-24 16:08",
+          "industry_background": [
+            "NCP = NVIDIA Cloud Partner，算力云/算力租赁场景的官方认证体系",
+            "分布式存储是万卡级集群的核心支撑",
+            "AI算力基础设施建设带动存储需求爆发"
+          ],
+          "accidents": [],
+          "insights": [
+            "旗下新华三拥有完整的分布式存储产品线",
+            "布局高速光互联与算力网络设备，为万卡级集群提供核心互联支撑",
+            "中科曙光万卡集群存储的成功验证了分布式存储在大规模算力场景的可行性",
+            "将加速紫光股份相关产品在AI数据中心与超算领域的渗透"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": ""
         }
       ],
       "board": "SZ",
@@ -22969,7 +22990,7 @@
       "name": "山金国际"
     },
     "000977": {
-      "mention_count": 10,
+      "mention_count": 11,
       "last_updated": "2026-06-24",
       "partners": [
         "英伟达、谷歌等全球头部客户",
@@ -23221,6 +23242,27 @@
           "content": "",
           "analysis": "",
           "title": "航天轴承 + 金刚石散热 + AI 服务器核心标的梳理"
+        },
+        {
+          "source": "https://mp.weixin.qq.com/s/EdxEYfM6FbCE6EZ9Sw0XJQ",
+          "title": "NCP深度：各公司拿卡能力完整排序",
+          "date": "2026年",
+          "fetched_at": "2026-06-24 16:08",
+          "industry_background": [
+            "NCP = NVIDIA Cloud Partner，算力云/算力租赁场景的官方认证体系",
+            "分布式存储是万卡级集群的核心支撑",
+            "AI算力基础设施建设带动存储需求爆发"
+          ],
+          "accidents": [],
+          "insights": [
+            "发布为大模型专门优化的分布式全闪存储AS13000G7-N系列",
+            "依托自研分布式文件系统提升大模型训练数据吞吐效率",
+            "IO500榜单的技术突破将推动全行业加大对高端分布式存储的投入",
+            "作为服务器与存储一体化解决方案提供商，将受益于AI算力基础设施建设浪潮"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "content": ""
         }
       ],
       "board": "SZ",
