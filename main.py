@@ -868,12 +868,12 @@ def load_hot_topics_only():
 
 @app.route('/')
 def dashboard():
-    # Vercel 环境：只加载热点数据，避免超时
+    # Vercel 环境：从 GitHub raw 加载最新数据
     if 'VERCEL' in os.environ:
         try:
-            load_hot_topics_only()
+            load_all_data()
         except Exception as e:
-            print(f"⚠️ 热点数据加载失败：{e}")
+            print(f"⚠️ 数据加载失败：{e}")
     else:
         # 本地环境：完整加载
         try:
