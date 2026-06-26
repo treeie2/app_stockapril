@@ -1422,6 +1422,113 @@
 </div>
 
 <script>
+        // ─── Tab Switching (defined early for all sections) ───
+        function switchTab(name) {
+            document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+            document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+            var btn = document.querySelector('.tab-btn[data-tab=\"' + name + '\"]');
+            if (btn) btn.classList.add('active');
+            var panel = document.getElementById('tab-' + name);
+            if (panel) panel.classList.add('active');
+            if (name === 'signals') { if (typeof lytInit === 'function') lytInit(); }
+        }
+
+        // ─── Lyt Signals (copied here for early availability) ───
+        var S=['启动','抢筹','突破','爆发','转强','起涨','主升','加速','强攻'];
+        var C=['#ff9800','#e91e63','#2196f3','#f44336','#4caf50','#9c27b0','#ffd700','#00ffff','#ff0077'];
+        var Dlyt=null, FDlyt=null, GRlyt=null, CHlyt=null, ASlyt={}, AGlyt={};
+        S.forEach(function(s){ASlyt[s]=false;});
+        function scolorlyt(s){if(s>=70)return's70';if(s>=50)return's50';if(s>=30)return's30';return's0';}
+        function lytInit() {
+            if (Dlyt) { lytRender(); return; }
+            var tbEl = document.getElementById('tb');
+            if (!tbEl) return;
+            tbEl.innerHTML = '<tr><td colspan=7 style=\"text-align:center;padding:30px;color:var(--t2)\">加载中...</td></tr>';
+            Promise.all([
+                fetch('/api/lyt-signals').then(function(r){return r.json();}),
+                fetch('/api/lyt-scores').then(function(r){return r.json();}).catch(function(){return{};}),
+                fetch('/api/lyt-groups').then(function(r){return r.json();}).catch(function(){return{};}),
+                fetch('/api/lyt-changes').then(function(r){return r.json();}).catch(function(){return{};})
+            ]).then(function(results){
+                Dlyt=results[0]; FDlyt=results[1]||{}; GRlyt=results[2]||{}; CHlyt=results[3]||{};
+                var dates = Dlyt.dates||[];
+                var dpEl = document.getElementById('dp');
+                if (dpEl) {
+                    dpEl.value = dates[dates.length-1]||'';
+                    dpEl.min = dates[0]||'';
+                    dpEl.max = dates[dates.length-1]||'';
+                }
+                var gnames = Object.keys(GRlyt);
+                gnames.forEach(function(g){AGlyt[g]=false;});
+                lytRender();
+            }).catch(function(e){
+                if (tbEl) tbEl.innerHTML = '<tr><td colspan=7 style=\"color:#ff0077;text-align:center;padding:30px\">Error: '+e.message+'</td></tr>';
+            });
+        }
+        function lytRender(){
+            if(!Dlyt){return;}
+            var dtEl = document.getElementById('dp');
+            var dt = dtEl ? dtEl.value : '';
+            var sigs = Dlyt.signals[dt] || {};
+            var nn = Dlyt.names || {};
+            var dinfoEl = document.getElementById('dinfo');
+            if (dinfoEl) dinfoEl.textContent = dt + ' · ';
+            var any = false;
+            S.forEach(function(s,i){if(ASlyt[s])any=true;});
+            var spHtml='';
+            S.forEach(function(s,i){
+                var cnt=(sigs[s]||[]).length;
+                spHtml+='<div class=\"sb'+(ASlyt[s]?' on':'')+'\" style=\"color:'+C[i]+';border-color:'+C[i]+'\" onclick=\"ASlyt[\\''+s+'\\']=!ASlyt[\\''+s+'\\'];lytRender()\"><span class=\"sc\">'+cnt+'</span><span class=\"sl\">'+s+'</span></div>';
+            });
+            var spEl = document.getElementById('sp'); if(spEl) spEl.innerHTML=spHtml;
+            var gnames=Object.keys(GRlyt);
+            var anyg=false; gnames.forEach(function(g){if(AGlyt[g])anyg=true;});
+            var gpHtml='<span class=\"tag\" style=\"font-size:11px\">分组:</span>';
+            gpHtml+='<div class=\"gb'+(anyg?'':' on')+'\" onclick=\"AGlyt={};lytRender()\">全部</div>';
+            gnames.forEach(function(g){
+                gpHtml+='<div class=\"gb'+(AGlyt[g]?' on':'')+'\" onclick=\"AGlyt[\\''+g+'\\']=!AGlyt[\\''+g+'\\'];lytRender()\">'+g+'</div>';
+            });
+            var gpEl = document.getElementById('gp'); if(gpEl) gpEl.innerHTML=gpHtml;
+            var sm={},first=true;
+            S.forEach(function(sig){
+                var use=!any||ASlyt[sig];
+                if(!use)return;
+                var es=sigs[sig]||[];
+                var cm={};es.forEach(function(e){cm[e.code]=e.close;});
+                if(!any){for(var c in cm){if(!sm[c])sm[c]={s:[],cl:cm[c]};sm[c].s.push(sig);}}
+                else if(first){for(var c in cm)sm[c]={s:[sig],cl:cm[c]};first=false;}
+                else{var nm={};for(var c in sm){if(cm[c]!==undefined){sm[c].s.push(sig);nm[c]=sm[c];}}sm=nm;}
+            });
+            if(anyg){
+                var gset={};
+                gnames.forEach(function(g){if(AGlyt[g]){GRlyt[g].stocks.forEach(function(c){gset[c]=g;});}});
+                var nm={};for(var c in sm){if(gset[c]!==undefined){nm[c]=sm[c];}}sm=nm;
+            }
+            var codes=Object.keys(sm).sort(function(a,b){
+                var sa=FDlyt[a]?FDlyt[a].score:0;var sb=FDlyt[b]?FDlyt[b].score:0;
+                if(sb!==sa)return sb-sa;
+                return sm[b].s.length-sm[a].s.length;
+            });
+            if(dinfoEl)dinfoEl.textContent=dt+' · '+codes.length+' stocks';
+            var rows='';
+            codes.forEach(function(c){
+                var e=sm[c],nm=nn[c]||'';
+                var tags=e.s.map(function(s){var i=S.indexOf(s);return '<span class=\"st\" style=\"color:'+C[i]+';border-color:'+C[i]+'\">'+s+'</span>';}).join(' ');
+                var fd=FDlyt[c]||{};
+                var scr=fd.score!==undefined?fd.score:'-';
+                var scrCls=typeof scr==='number'?scolorlyt(scr):'';
+                var gtags='';
+                gnames.forEach(function(g){if(GRlyt[g].stocks.indexOf(c)!==-1){gtags+='<span class=\"grptag\">'+g+'</span>';}});
+                var chg=CHlyt[dt]?CHlyt[dt][c]:null;
+                var chgStr='-', chgCls='';
+                if(chg!==null&&chg!==undefined){chgStr=(chg>=0?'+':'')+chg.toFixed(2)+'%';chgCls=chg>=0?'up':'down';}
+                var kurl = (c.charAt(0)==='6') ? 'https://gu.qq.com/sh'+c : (c.charAt(0)==='8'||c.charAt(0)==='4') ? 'https://gu.qq.com/bj'+c : 'https://gu.qq.com/sz'+c;
+                rows+='<tr><td class=\"pl\"><a href=\"/stock/'+c+'\" style=\"color:var(--c);text-decoration:none\">'+c+'</a></td><td>'+nm+'</td><td class=\"'+chgCls+'\">'+chgStr+'</td><td class=\"scr '+scrCls+'\">'+(typeof scr==='number'?scr.toFixed(1):scr)+'</td><td>'+tags+'</td><td>'+gtags+'</td><td style=\"font-size:10px\"><a href=\"'+kurl+'\" target=\"_blank\" style=\"color:var(--cyan);text-decoration:none;background:rgba(0,255,255,.08);padding:2px 6px;border-radius:3px;border:1px solid rgba(0,255,255,.2)\">K</a></td></tr>';
+            });
+            var tbEl = document.getElementById('tb');
+            if(tbEl) tbEl.innerHTML=rows||'<tr><td colspan=7 style=\"padding:20px;color:var(--t2)\">点击上方信号按钮筛选</td></tr>';
+        }
+
         // ─── Mobile nav toggle ───
         const navToggle = document.getElementById('navToggle');
         const navLinks = document.getElementById('navLinks');
@@ -2675,137 +2782,8 @@
             }
         }
     
-        // ============================================
-        // Three-Tab Switching
-        // ============================================
-        function switchTab(name) {
-            document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-            document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
-            document.querySelector(`.tab-btn[data-tab="${name}"]`).classList.add('active');
-            document.getElementById(`tab-${name}`).classList.add('active');
-            if (name === 'signals') lytInit();
-        }
+        // switchTab & lytInit already defined in first script block
 
-        // ============================================
-        // Lyt Signals Tab (完整老鸭头逻辑，与原 lyt/index.html 一致)
-        // ============================================
-        var S=['启动','抢筹','突破','爆发','转强','起涨','主升','加速','强攻'];
-        var C=['#ff9800','#e91e63','#2196f3','#f44336','#4caf50','#9c27b0','#ffd700','#00ffff','#ff0077'];
-        var D=null, FD=null, GR=null, CH=null, AS={}, AG={};
-        S.forEach(function(s){AS[s]=false;});
-
-        function scolor(s){if(s>=70)return's70';if(s>=50)return's50';if(s>=30)return's30';return's0';}
-
-        function lytInit() {
-            if (D) { lytRender(); return; }
-            document.getElementById('tb').innerHTML = '<tr><td colspan=7 style="text-align:center;padding:30px;color:var(--t2)">加载中...</td></tr>';
-            Promise.all([
-                fetch('/api/lyt-signals').then(function(r){return r.json();}),
-                fetch('/api/lyt-scores').then(function(r){return r.json();}).catch(function(){return{};}),
-                fetch('/api/lyt-groups').then(function(r){return r.json();}).catch(function(){return{};}),
-                fetch('/api/lyt-changes').then(function(r){return r.json();}).catch(function(){return{};})
-            ]).then(function(results){
-                D=results[0]; FD=results[1]||{}; GR=results[2]||{}; CH=results[3]||{};
-                var dates = D.dates||[];
-                document.getElementById('dp').value = dates[dates.length-1]||'';
-                document.getElementById('dp').min = dates[0]||'';
-                document.getElementById('dp').max = dates[dates.length-1]||'';
-                var gnames = Object.keys(GR);
-                gnames.forEach(function(g){AG[g]=false;});
-                lytRender();
-            }).catch(function(e){
-                document.getElementById('tb').innerHTML = '<tr><td colspan=7 style="color:#ff0077;text-align:center;padding:30px">Error: '+e.message+'</td></tr>';
-            });
-        }
-
-        function lytRender(){
-            if(!D){return;}
-            var dt=document.getElementById('dp').value;
-            var sigs=D.signals[dt]||{};
-            var nn=D.names||{};
-            document.getElementById('dinfo').textContent = dt + ' · ';
-
-            // Signal buttons
-            var sp='';var any=false;
-            S.forEach(function(s,i){AS[s]=AS[s]||false;if(AS[s])any=true;});
-            S.forEach(function(s,i){
-                var cnt=(sigs[s]||[]).length;
-                sp+='<div class="sb'+(AS[s]?' on':'')+'" style="color:'+C[i]+';border-color:'+C[i]+'" onclick="AS[\''+s+'\']=!AS[\''+s+'\'];lytRender()"><span class="sc">'+cnt+'</span><span class="sl">'+s+'</span></div>';
-            });
-            document.getElementById('sp').innerHTML=sp;
-
-            // Group buttons
-            var gnames=Object.keys(GR);
-            var gp='<span class="tag" style="font-size:11px">分组:</span>';
-            var anyg=false;
-            gnames.forEach(function(g){if(AG[g])anyg=true;});
-            gp+='<div class="gb'+(anyg?'':' on')+'" onclick="AG={};lytRender()">全部</div>';
-            gnames.forEach(function(g){
-                gp+='<div class="gb'+(AG[g]?' on':'')+'" onclick="AG[\''+g+'\']=!AG[\''+g+'\'];lytRender()">'+g+'</div>';
-            });
-            document.getElementById('gp').innerHTML=gp;
-
-            // Compute matching stocks
-            var sm={};var first=true;
-            S.forEach(function(sig){
-                var use=!any||AS[sig];
-                if(!use)return;
-                var es=sigs[sig]||[];
-                var cm={};es.forEach(function(e){cm[e.code]=e.close;});
-                if(!any){for(var c in cm){if(!sm[c])sm[c]={s:[],cl:cm[c]};sm[c].s.push(sig);}}
-                else if(first){for(var c in cm)sm[c]={s:[sig],cl:cm[c]};first=false;}
-                else{var nm={};for(var c in sm){if(cm[c]!==undefined){sm[c].s.push(sig);nm[c]=sm[c];}}sm=nm;}
-            });
-
-            // Filter by group
-            if(anyg){
-                var gset={};
-                gnames.forEach(function(g){if(AG[g]){GR[g].stocks.forEach(function(c){gset[c]=g;});}});
-                var nm={};
-                for(var c in sm){if(gset[c]!==undefined){nm[c]=sm[c];}}
-                sm=nm;
-            }
-
-            var codes=Object.keys(sm).sort(function(a,b){
-                var sa=FD[a]?FD[a].score:0;
-                var sb=FD[b]?FD[b].score:0;
-                if(sb!==sa)return sb-sa;
-                return sm[b].s.length-sm[a].s.length;
-            });
-            document.getElementById('dinfo').textContent = dt + ' · ' + codes.length + ' stocks';
-
-            var rows='';
-            codes.forEach(function(c){
-                var e=sm[c],nm=nn[c]||'';
-                var tags=e.s.map(function(s){var i=S.indexOf(s);return '<span class="st" style="color:'+C[i]+';border-color:'+C[i]+'">'+s+'</span>';}).join(' ');
-                var fd=FD[c]||{};
-                var scr=fd.score!==undefined?fd.score:'-';
-                var scrCls=typeof scr==='number'?scolor(scr):'';
-
-                var gtags='';
-                gnames.forEach(function(g){
-                    if(GR[g].stocks.indexOf(c)!==-1){
-                        gtags+='<span class="grptag">'+g+'</span>';
-                    }
-                });
-
-                var chg=CH[dt]?CH[dt][c]:null;
-                var chgStr='-', chgCls='';
-                if(chg!==null&&chg!==undefined){
-                    chgStr=(chg>=0?'+':'')+chg.toFixed(2)+'%';
-                    chgCls=chg>=0?'up':'down';
-                }
-
-                var kurl = (c.charAt(0)==='6') ? 'https://gu.qq.com/sh'+c :
-                           (c.charAt(0)==='8'||c.charAt(0)==='4') ? 'https://gu.qq.com/bj'+c :
-                           'https://gu.qq.com/sz'+c;
-                rows+='<tr><td class="pl"><a href="/stock/'+c+'" style="color:var(--c);text-decoration:none">'+c+'</a></td><td>'+nm+'</td><td class="'+chgCls+'">'+chgStr+'</td>'
-                    +'<td class="scr '+scrCls+'">'+(typeof scr==='number'?scr.toFixed(1):scr)+'</td>'
-                    +'<td>'+tags+'</td><td>'+gtags+'</td>'
-                    +'<td style="font-size:10px"><a href="'+kurl+'" target="_blank" style="color:var(--cyan);text-decoration:none;background:rgba(0,255,255,.08);padding:2px 6px;border-radius:3px;border:1px solid rgba(0,255,255,.2)">K</a></td></tr>';
-            });
-            document.getElementById('tb').innerHTML=rows||'<tr><td colspan=7 style="padding:20px;color:var(--t2)">点击上方信号按钮筛选</td></tr>';
-        }
 
 
 </script>
