@@ -1126,83 +1126,36 @@
         }
         .tab-panel { display:none; }
         .tab-panel.active { display:block; }
-        /* Groups Grid */
-        .groups-grid {
-            display:grid;
-            grid-template-columns:repeat(auto-fill,minmax(280px,1fr));
-            gap:10px;
-            margin-top:12px;
-        }
-        .group-card {
-            background:var(--bg-card);
-            border:1px solid var(--border);
-            border-radius:10px;
-            padding:14px;
-            cursor:pointer;
-            transition:all .15s;
-        }
-        .group-card:hover { border-color:var(--cyan); transform:translateY(-1px); }
-        .group-card h3 { font-size:.9rem; color:var(--cyan); margin-bottom:4px; }
-        .group-card p { font-size:.72rem; color:var(--t2); margin-bottom:6px; }
-        .group-card .tags { display:flex; flex-wrap:wrap; gap:4px; }
-        .group-card .tag {
-            font-size:.65rem;
-            padding:2px 8px;
-            border-radius:4px;
-            background:rgba(0,255,255,.1);
-            color:var(--cyan);
-            border:1px solid rgba(0,255,255,.2);
-        }
-        /* Signals Table */
-        .signals-wrap {
-            background:var(--bg-card);
-            border:1px solid var(--border);
-            border-radius:10px;
-            overflow:hidden;
-        }
-        .signals-toolbar {
-            display:flex;
-            gap:8px;
-            padding:10px 14px;
-            border-bottom:1px solid var(--border);
-            align-items:center;
-            flex-wrap:wrap;
-        }
-        .sig-btn {
-            padding:5px 12px;
-            border:1px solid rgba(160,196,255,.2);
-            background:rgba(160,196,255,.05);
-            color:var(--t2);
-            border-radius:6px;
-            font-size:.7rem;
-            cursor:pointer;
-            transition:.2s;
-        }
-        .sig-btn:hover,.sig-btn.on { border-color:var(--cyan); color:var(--cyan); background:rgba(0,255,255,.08); }
-        .sig-count { font-size:1.1rem; font-weight:700; display:block; }
-        .sig-label { font-size:.6rem; display:block; text-transform:uppercase; }
-        .signals-table { width:100%; border-collapse:collapse; font-size:.75rem; }
-        .signals-table th {
-            padding:7px 10px;
-            text-align:left;
-            color:var(--t2);
-            background:rgba(0,12,42,.95);
-            border-bottom:1px solid rgba(0,255,255,.1);
-        }
-        .signals-table td {
-            padding:5px 10px;
-            border-bottom:1px solid rgba(0,255,255,.06);
-        }
-        .signals-table tr:hover { background:var(--bg-row-hover); }
-        .sig-tag {
-            display:inline-block;
-            padding:1px 6px;
-            border-radius:3px;
-            font-size:.6rem;
-            font-weight:600;
-            border:1px solid;
-        }
-        @media(max-width:768px){.groups-grid{grid-template-columns:1fr}}
+        /* Lyt Signals (完整老鸭头样式) */
+        .lyt-wrap { max-width:1100px; }
+        .lyt-h { display:flex; justify-content:space-between; align-items:center; padding-bottom:14px; border-bottom:2px solid rgba(0,255,255,.3); margin-bottom:14px; flex-wrap:wrap; gap:10px; }
+        .lyt-h .page-title { color:var(--cyan); font-size:1.3rem; letter-spacing:2px; }
+        .lyt-h .page-sub { font-size:.75rem; color:var(--t2); margin-top:2px; }
+        .lyt-ctrl { display:flex; gap:8px; align-items:center; }
+        .lyt-ctrl input[type=date] { background:rgba(0,12,42,.6); color:var(--cyan); border:1px solid var(--cyan); padding:6px 10px; border-radius:6px; font-size:13px; outline:none; }
+        .lyt-ctrl .btn { background:transparent; color:var(--cyan); border:1px solid var(--cyan); padding:5px 12px; border-radius:6px; font-size:12px; cursor:pointer; }
+        .lyt-ctrl .btn:hover { background:var(--cyan); color:var(--bg); }
+        .lyt-sp { display:flex; gap:6px; flex-wrap:wrap; margin-bottom:8px; }
+        .lyt-gp-wrap { margin-bottom:2px; }
+        .lyt-gp { display:flex; gap:6px; flex-wrap:wrap; }
+        .sb { padding:6px 10px; border-radius:6px; cursor:pointer; border:1px solid; font-size:12px; text-align:center; width:78px; flex:none; opacity:.35; transition:.2s; user-select:none; }
+        .sb.on { opacity:1; box-shadow:0 0 10px; }
+        .gb { padding:4px 10px; border-radius:6px; cursor:pointer; border:1px solid rgba(160,196,255,.3); font-size:11px; text-align:center; opacity:.5; transition:.2s; user-select:none; background:rgba(160,196,255,.05); color:var(--t2); }
+        .gb.on { opacity:1; border-color:var(--cyan); color:var(--cyan); background:rgba(0,255,255,.08); }
+        .sc { font-size:20px; font-weight:bold; display:block; line-height:1.2; }
+        .sl { font-size:10px; display:block; }
+        .lyt-tw { background:var(--bg-card); border-radius:10px; overflow:hidden; border:1px solid var(--border); max-height:70vh; overflow-y:auto; }
+        .lyt-tw table { width:100%; border-collapse:collapse; font-size:12px; }
+        .lyt-tw th { padding:7px 10px; text-align:left; color:var(--t2); background:rgba(0,12,42,.95); border-bottom:1px solid rgba(0,255,255,.1); position:sticky; top:0; z-index:1; font-size:11px; white-space:nowrap; }
+        .lyt-tw td { padding:5px 10px; border-bottom:1px solid rgba(0,255,255,.06); }
+        .lyt-tw tr:hover { background:var(--bg-row-hover); }
+        .pl { font-family:var(--mono); color:var(--cyan); }
+        .up { color:var(--green); }
+        .down { color:var(--rose); }
+        .st { display:inline-block; padding:1px 5px; border-radius:3px; font-size:10px; margin:1px; font-weight:600; border:1px solid; }
+        .scr { font-weight:bold; font-size:13px; }
+        .scr.s70 { color:#00ff88; } .scr.s50 { color:#00ffcc; } .scr.s30 { color:#ffcc00; } .scr.s0 { color:#ff4466; }
+        .grptag { display:inline-block; padding:1px 5px; border-radius:3px; font-size:9px; margin:1px; background:rgba(0,255,255,.08); color:var(--t2); border:1px solid rgba(0,255,255,.15); }
 </style>
 </head>
 <body>
@@ -1236,7 +1189,7 @@
         <!-- Three-Tab Navigation -->
         <div class="tab-nav">
             <button class="tab-btn active" data-tab="dashboard" onclick="switchTab('dashboard')">📊 仪表盘</button>
-            <button class="tab-btn" data-tab="groups" onclick="switchTab('groups')">📁 分组</button>
+            <a href="/groups" class="tab-btn" style="text-decoration:none;display:inline-flex;align-items:center">📁 分组</a>
             <button class="tab-btn" data-tab="signals" onclick="switchTab('signals')">📡 突破信号</button>
         </div>
 
@@ -1446,27 +1399,23 @@
     
 </div><!-- end tab-dashboard -->
 
-<!-- Tab: Groups -->
-<div class="tab-panel" id="tab-groups">
-    <div class="page-hd"><div><div class="page-title">📁 股票分组</div><div class="page-sub">产业链分组 · 概念板块 · 热门题材</div></div></div>
-    <div id="groupsLoading" style="text-align:center;padding:40px;color:var(--t2);">加载中...</div>
-    <div class="groups-grid" id="groupsGrid"></div>
-</div>
-
-<!-- Tab: Signals (老鸭头) -->
+<!-- Tab: Signals (lyt 老鸭头完整版) -->
 <div class="tab-panel" id="tab-signals">
-    <div class="page-hd"><div><div class="page-title">📡 突破信号（老鸭头）</div><div class="page-sub">每日技术信号 · 五维评分 · 分组筛选</div></div></div>
-    <div class="signals-wrap">
-        <div class="signals-toolbar">
-            <span style="font-size:.7rem;color:var(--t2);margin-right:8px">日期:</span>
-            <input type="date" id="sigDate" onchange="renderSignals()" style="background:rgba(0,0,0,.3);border:1px solid rgba(0,255,255,.2);color:var(--cyan);padding:4px 8px;border-radius:4px;font-size:.7rem">
-            <span style="font-size:.7rem;color:var(--t2);margin-left:12px;margin-right:8px">信号:</span>
-            <div id="sigBtns"></div>
+    <div class="lyt-wrap">
+        <div class="lyt-h">
+            <div><div class="page-title">📡 Daily Stock Signals</div><div class="page-sub" id="dinfo">--</div></div>
+            <div class="lyt-ctrl">
+                <input type="date" id="dp" onchange="lytRender()">
+                <button class="btn" onclick="lytRender()">Go</button>
+            </div>
         </div>
-        <div style="max-height:60vh;overflow-y:auto">
-            <table class="signals-table">
-                <thead><tr><th>代码</th><th>名称</th><th>涨幅</th><th>五维</th><th>信号</th><th>分组</th></tr></thead>
-                <tbody id="sigBody"><tr><td colspan="6" style="text-align:center;padding:30px;color:var(--t2)">加载中...</td></tr></tbody>
+        <div class="lyt-sp" id="sp"></div>
+        <div class="lyt-gp-wrap"><div class="lyt-gp" id="gp" style="max-height:42px;overflow-y:hidden"></div></div>
+        <div style="text-align:right;margin-bottom:8px"><span class="tag" id="gptoggle" style="cursor:pointer;font-size:10px" onclick="var g=document.getElementById('gp');g.style.maxHeight=g.style.maxHeight==='42px'?'200px':'42px';this.textContent=this.textContent==='展开'?'收起':'展开'">展开</span></div>
+        <div class="lyt-tw">
+            <table>
+                <thead><tr><th>代码</th><th>名称</th><th>涨幅</th><th>五维</th><th>信号</th><th>分组</th><th>K</th></tr></thead>
+                <tbody id="tb"></tbody>
             </table>
         </div>
     </div>
@@ -2519,83 +2468,36 @@
         }
         .tab-panel { display:none; }
         .tab-panel.active { display:block; }
-        /* Groups Grid */
-        .groups-grid {
-            display:grid;
-            grid-template-columns:repeat(auto-fill,minmax(280px,1fr));
-            gap:10px;
-            margin-top:12px;
-        }
-        .group-card {
-            background:var(--bg-card);
-            border:1px solid var(--border);
-            border-radius:10px;
-            padding:14px;
-            cursor:pointer;
-            transition:all .15s;
-        }
-        .group-card:hover { border-color:var(--cyan); transform:translateY(-1px); }
-        .group-card h3 { font-size:.9rem; color:var(--cyan); margin-bottom:4px; }
-        .group-card p { font-size:.72rem; color:var(--t2); margin-bottom:6px; }
-        .group-card .tags { display:flex; flex-wrap:wrap; gap:4px; }
-        .group-card .tag {
-            font-size:.65rem;
-            padding:2px 8px;
-            border-radius:4px;
-            background:rgba(0,255,255,.1);
-            color:var(--cyan);
-            border:1px solid rgba(0,255,255,.2);
-        }
-        /* Signals Table */
-        .signals-wrap {
-            background:var(--bg-card);
-            border:1px solid var(--border);
-            border-radius:10px;
-            overflow:hidden;
-        }
-        .signals-toolbar {
-            display:flex;
-            gap:8px;
-            padding:10px 14px;
-            border-bottom:1px solid var(--border);
-            align-items:center;
-            flex-wrap:wrap;
-        }
-        .sig-btn {
-            padding:5px 12px;
-            border:1px solid rgba(160,196,255,.2);
-            background:rgba(160,196,255,.05);
-            color:var(--t2);
-            border-radius:6px;
-            font-size:.7rem;
-            cursor:pointer;
-            transition:.2s;
-        }
-        .sig-btn:hover,.sig-btn.on { border-color:var(--cyan); color:var(--cyan); background:rgba(0,255,255,.08); }
-        .sig-count { font-size:1.1rem; font-weight:700; display:block; }
-        .sig-label { font-size:.6rem; display:block; text-transform:uppercase; }
-        .signals-table { width:100%; border-collapse:collapse; font-size:.75rem; }
-        .signals-table th {
-            padding:7px 10px;
-            text-align:left;
-            color:var(--t2);
-            background:rgba(0,12,42,.95);
-            border-bottom:1px solid rgba(0,255,255,.1);
-        }
-        .signals-table td {
-            padding:5px 10px;
-            border-bottom:1px solid rgba(0,255,255,.06);
-        }
-        .signals-table tr:hover { background:var(--bg-row-hover); }
-        .sig-tag {
-            display:inline-block;
-            padding:1px 6px;
-            border-radius:3px;
-            font-size:.6rem;
-            font-weight:600;
-            border:1px solid;
-        }
-        @media(max-width:768px){.groups-grid{grid-template-columns:1fr}}
+        /* Lyt Signals (完整老鸭头样式) */
+        .lyt-wrap { max-width:1100px; }
+        .lyt-h { display:flex; justify-content:space-between; align-items:center; padding-bottom:14px; border-bottom:2px solid rgba(0,255,255,.3); margin-bottom:14px; flex-wrap:wrap; gap:10px; }
+        .lyt-h .page-title { color:var(--cyan); font-size:1.3rem; letter-spacing:2px; }
+        .lyt-h .page-sub { font-size:.75rem; color:var(--t2); margin-top:2px; }
+        .lyt-ctrl { display:flex; gap:8px; align-items:center; }
+        .lyt-ctrl input[type=date] { background:rgba(0,12,42,.6); color:var(--cyan); border:1px solid var(--cyan); padding:6px 10px; border-radius:6px; font-size:13px; outline:none; }
+        .lyt-ctrl .btn { background:transparent; color:var(--cyan); border:1px solid var(--cyan); padding:5px 12px; border-radius:6px; font-size:12px; cursor:pointer; }
+        .lyt-ctrl .btn:hover { background:var(--cyan); color:var(--bg); }
+        .lyt-sp { display:flex; gap:6px; flex-wrap:wrap; margin-bottom:8px; }
+        .lyt-gp-wrap { margin-bottom:2px; }
+        .lyt-gp { display:flex; gap:6px; flex-wrap:wrap; }
+        .sb { padding:6px 10px; border-radius:6px; cursor:pointer; border:1px solid; font-size:12px; text-align:center; width:78px; flex:none; opacity:.35; transition:.2s; user-select:none; }
+        .sb.on { opacity:1; box-shadow:0 0 10px; }
+        .gb { padding:4px 10px; border-radius:6px; cursor:pointer; border:1px solid rgba(160,196,255,.3); font-size:11px; text-align:center; opacity:.5; transition:.2s; user-select:none; background:rgba(160,196,255,.05); color:var(--t2); }
+        .gb.on { opacity:1; border-color:var(--cyan); color:var(--cyan); background:rgba(0,255,255,.08); }
+        .sc { font-size:20px; font-weight:bold; display:block; line-height:1.2; }
+        .sl { font-size:10px; display:block; }
+        .lyt-tw { background:var(--bg-card); border-radius:10px; overflow:hidden; border:1px solid var(--border); max-height:70vh; overflow-y:auto; }
+        .lyt-tw table { width:100%; border-collapse:collapse; font-size:12px; }
+        .lyt-tw th { padding:7px 10px; text-align:left; color:var(--t2); background:rgba(0,12,42,.95); border-bottom:1px solid rgba(0,255,255,.1); position:sticky; top:0; z-index:1; font-size:11px; white-space:nowrap; }
+        .lyt-tw td { padding:5px 10px; border-bottom:1px solid rgba(0,255,255,.06); }
+        .lyt-tw tr:hover { background:var(--bg-row-hover); }
+        .pl { font-family:var(--mono); color:var(--cyan); }
+        .up { color:var(--green); }
+        .down { color:var(--rose); }
+        .st { display:inline-block; padding:1px 5px; border-radius:3px; font-size:10px; margin:1px; font-weight:600; border:1px solid; }
+        .scr { font-weight:bold; font-size:13px; }
+        .scr.s70 { color:#00ff88; } .scr.s50 { color:#00ffcc; } .scr.s30 { color:#ffcc00; } .scr.s0 { color:#ff4466; }
+        .grptag { display:inline-block; padding:1px 5px; border-radius:3px; font-size:9px; margin:1px; background:rgba(0,255,255,.08); color:var(--t2); border:1px solid rgba(0,255,255,.15); }
 </style>
     
     <!-- 热点管理脚本 -->
@@ -2952,26 +2854,8 @@
             document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
             document.querySelector(`.tab-btn[data-tab="${name}"]`).classList.add('active');
             document.getElementById(`tab-${name}`).classList.add('active');
-            if (name === 'groups') loadGroups();
-            if (name === 'signals') loadSignals();
+            if (name === 'signals') lytInit();
         }
-
-        // ============================================
-        // Groups Tab
-        // ============================================
-        async function loadGroups() {
-            const grid = document.getElementById('groupsGrid');
-            if (grid.children.length > 0) return;
-            document.getElementById('groupsLoading').style.display = 'block';
-            try {
-                const r = await fetch('/api/groups');
-                const d = await r.json();
-                const groups = d.groups || d.data || [];
-                document.getElementById('groupsLoading').style.display = 'none';
-                if (!groups.length) { grid.innerHTML = '<div style="text-align:center;padding:40px;color:var(--t2);grid-column:1/-1">暂无分组</div>'; return; }
-                grid.innerHTML = groups.map(g => `
-                    <div class="group-card" onclick="window.location='/group/${g.id}'">
-                        <h3>${g.name}</h3>
                         <p>${g.description||''}</p>
                         <div style="font-size:.65rem;color:var(--t3);margin-bottom:6px">${(g.stocks||[]).length} 只个股</div>
                         <div class="tags">${(g.stocks||[]).slice(0,8).map(s=>`<span class="tag">${s}</span>`).join('')}</div>
@@ -2983,115 +2867,121 @@
         }
 
         // ============================================
-        // Signals Tab (老鸭头 - lyt breakt data)
+        // Lyt Signals Tab (完整老鸭头逻辑，与原 lyt/index.html 一致)
         // ============================================
-        let sigData = null, sigScores = null, sigGroups = null, sigChanges = null;
-        let sigFilter = {};
-        const SIG_NAMES = ['启动','抢筹','突破','爆发','转强','起涨','主升','加速','强攻'];
-        const SIG_COLORS = ['#ff9800','#e91e63','#2196f3','#f44336','#4caf50','#9c27b0','#ffd700','#00ffff','#ff0077'];
+        var S=['启动','抢筹','突破','爆发','转强','起涨','主升','加速','强攻'];
+        var C=['#ff9800','#e91e63','#2196f3','#f44336','#4caf50','#9c27b0','#ffd700','#00ffff','#ff0077'];
+        var D=null, FD=null, GR=null, CH=null, AS={}, AG={};
+        S.forEach(function(s){AS[s]=false;});
 
-        async function loadSignals() {
-            if (sigData) return;
-            try {
-                const [d,s,g,c] = await Promise.all([
-                    fetch('/api/lyt-signals').then(r=>r.json()),
-                    fetch('/api/lyt-scores').then(r=>r.json()).catch(()=>({})),
-                    fetch('/api/groups').then(r=>r.json().then(d=>(d.groups||d.data||[]))).catch(()=>[]),
-                    fetch('/api/lyt-changes').then(r=>r.json()).catch(()=>({}))
-                ]);
-                sigData = d; sigScores = s; sigGroups = g; sigChanges = c;
-                const dates = d.dates || [];
-                document.getElementById('sigDate').value = dates[dates.length-1]||'';
-                document.getElementById('sigDate').min = dates[0]||'';
-                document.getElementById('sigDate').max = dates[dates.length-1]||'';
-                renderSigBtns();
-                renderSignals();
-            } catch(e) {
-                document.getElementById('sigBody').innerHTML = '<tr><td colspan=6 style="color:#ff0077;text-align:center;padding:30px">加载失败: '+e.message+'</td></tr>';
-            }
-        }
+        function scolor(s){if(s>=70)return's70';if(s>=50)return's50';if(s>=30)return's30';return's0';}
 
-        function renderSigBtns() {
-            const btns = document.getElementById('sigBtns');
-            const sigs = (sigData && sigData.signals && sigData.signals[document.getElementById('sigDate').value]) || {};
-            const anyOn = Object.values(sigFilter).some(v=>v);
-            let html = '';
-            SIG_NAMES.forEach((n,i)=>{
-                const cnt = (sigs[n]||[]).length;
-                html += `<button class="sig-btn${sigFilter[n]?' on':''}" onclick="sigFilter['${n}']=!sigFilter['${n}'];sigFilter={...sigFilter};renderSigBtns();renderSignals()"><span class="sig-count" style="color:${SIG_COLORS[i]}">${cnt}</span><span class="sig-label">${n}</span></button>`;
+        function lytInit() {
+            if (D) { lytRender(); return; }
+            document.getElementById('tb').innerHTML = '<tr><td colspan=7 style="text-align:center;padding:30px;color:var(--t2)">加载中...</td></tr>';
+            Promise.all([
+                fetch('/api/lyt-signals').then(function(r){return r.json();}),
+                fetch('/api/lyt-scores').then(function(r){return r.json();}).catch(function(){return{};}),
+                fetch('/api/lyt-groups').then(function(r){return r.json();}).catch(function(){return{};}),
+                fetch('/api/lyt-changes').then(function(r){return r.json();}).catch(function(){return{};})
+            ]).then(function(results){
+                D=results[0]; FD=results[1]||{}; GR=results[2]||{}; CH=results[3]||{};
+                var dates = D.dates||[];
+                document.getElementById('dp').value = dates[dates.length-1]||'';
+                document.getElementById('dp').min = dates[0]||'';
+                document.getElementById('dp').max = dates[dates.length-1]||'';
+                var gnames = Object.keys(GR);
+                gnames.forEach(function(g){AG[g]=false;});
+                lytRender();
+            }).catch(function(e){
+                document.getElementById('tb').innerHTML = '<tr><td colspan=7 style="color:#ff0077;text-align:center;padding:30px">Error: '+e.message+'</td></tr>';
             });
-            btns.innerHTML = html;
         }
 
-        function renderSignals() {
-            const dt = document.getElementById('sigDate').value;
-            const sigs = (sigData && sigData.signals && sigData.signals[dt]) || {};
-            const names = (sigData && sigData.names) || {};
-            const anyOn = Object.values(sigFilter).some(v=>v);
+        function lytRender(){
+            if(!D){return;}
+            var dt=document.getElementById('dp').value;
+            var sigs=D.signals[dt]||{};
+            var nn=D.names||{};
+            document.getElementById('dinfo').textContent = dt + ' · ';
+
+            // Signal buttons
+            var sp='';var any=false;
+            S.forEach(function(s,i){AS[s]=AS[s]||false;if(AS[s])any=true;});
+            S.forEach(function(s,i){
+                var cnt=(sigs[s]||[]).length;
+                sp+='<div class="sb'+(AS[s]?' on':'')+'" style="color:'+C[i]+';border-color:'+C[i]+'" onclick="AS[\''+s+'\']=!AS[\''+s+'\'];lytRender()"><span class="sc">'+cnt+'</span><span class="sl">'+s+'</span></div>';
+            });
+            document.getElementById('sp').innerHTML=sp;
+
+            // Group buttons
+            var gnames=Object.keys(GR);
+            var gp='<span class="tag" style="font-size:11px">分组:</span>';
+            var anyg=false;
+            gnames.forEach(function(g){if(AG[g])anyg=true;});
+            gp+='<div class="gb'+(anyg?'':' on')+'" onclick="AG={};lytRender()">全部</div>';
+            gnames.forEach(function(g){
+                gp+='<div class="gb'+(AG[g]?' on':'')+'" onclick="AG[\''+g+'\']=!AG[\''+g+'\'];lytRender()">'+g+'</div>';
+            });
+            document.getElementById('gp').innerHTML=gp;
 
             // Compute matching stocks
-            let sm = {};
-            let first = true;
-            SIG_NAMES.forEach(name => {
-                const use = !anyOn || sigFilter[name];
-                if (!use) return;
-                const entries = sigs[name] || [];
-                const cm = {};
-                entries.forEach(e => { cm[e.code] = e.close; });
-                if (!anyOn) {
-                    for (let c in cm) { if (!sm[c]) sm[c] = { signals: [], close: cm[c] }; sm[c].signals.push(name); }
-                } else if (first) {
-                    for (let c in cm) sm[c] = { signals: [name], close: cm[c] };
-                    first = false;
-                } else {
-                    let nm = {};
-                    for (let c in sm) { if (cm[c] !== undefined) { sm[c].signals.push(name); nm[c] = sm[c]; } }
-                    sm = nm;
-                }
+            var sm={};var first=true;
+            S.forEach(function(sig){
+                var use=!any||AS[sig];
+                if(!use)return;
+                var es=sigs[sig]||[];
+                var cm={};es.forEach(function(e){cm[e.code]=e.close;});
+                if(!any){for(var c in cm){if(!sm[c])sm[c]={s:[],cl:cm[c]};sm[c].s.push(sig);}}
+                else if(first){for(var c in cm)sm[c]={s:[sig],cl:cm[c]};first=false;}
+                else{var nm={};for(var c in sm){if(cm[c]!==undefined){sm[c].s.push(sig);nm[c]=sm[c];}}sm=nm;}
             });
 
-            // Sort by score desc
-            let codes = Object.keys(sm).sort((a,b) => {
-                const sa = (sigScores[a]||{}).score||0;
-                const sb = (sigScores[b]||{}).score||0;
-                return sb - sa;
-            });
+            // Filter by group
+            if(anyg){
+                var gset={};
+                gnames.forEach(function(g){if(AG[g]){GR[g].stocks.forEach(function(c){gset[c]=g;});}});
+                var nm={};
+                for(var c in sm){if(gset[c]!==undefined){nm[c]=sm[c];}}
+                sm=nm;
+            }
 
-            // Find group names for each code
-            let gmap = {};
-            (sigGroups||[]).forEach(g => {
-                (g.stocks||[]).forEach(c => { 
-                    if (!gmap[c]) gmap[c] = [];
-                    if (gmap[c].length < 3) gmap[c].push(g.name);
+            var codes=Object.keys(sm).sort(function(a,b){
+                var sa=FD[a]?FD[a].score:0;
+                var sb=FD[b]?FD[b].score:0;
+                if(sb!==sa)return sb-sa;
+                return sm[b].s.length-sm[a].s.length;
+            });
+            document.getElementById('dinfo').textContent = dt + ' · ' + codes.length + ' stocks';
+
+            var rows='';
+            codes.forEach(function(c){
+                var e=sm[c],nm=nn[c]||'';
+                var tags=e.s.map(function(s){var i=S.indexOf(s);return '<span class="st" style="color:'+C[i]+';border-color:'+C[i]+'">'+s+'</span>';}).join(' ');
+                var fd=FD[c]||{};
+                var scr=fd.score!==undefined?fd.score:'-';
+                var scrCls=typeof scr==='number'?scolor(scr):'';
+
+                var gtags='';
+                gnames.forEach(function(g){
+                    if(GR[g].stocks.indexOf(c)!==-1){
+                        gtags+='<span class="grptag">'+g+'</span>';
+                    }
                 });
+
+                var chg=CH[dt]?CH[dt][c]:null;
+                var chgStr='-', chgCls='';
+                if(chg!==null&&chg!==undefined){
+                    chgStr=(chg>=0?'+':'')+chg.toFixed(2)+'%';
+                    chgCls=chg>=0?'up':'down';
+                }
+
+                rows+='<tr><td class="pl"><a href="/stock/'+c+'" style="color:var(--c);text-decoration:none">'+c+'</a></td><td>'+nm+'</td><td class="'+chgCls+'">'+chgStr+'</td>'
+                    +'<td class="scr '+scrCls+'">'+(typeof scr==='number'?scr.toFixed(1):scr)+'</td>'
+                    +'<td>'+tags+'</td><td>'+gtags+'</td>'
+                    +'<td></td></tr>';
             });
-
-            let rows = codes.map(c => {
-                const e = sm[c];
-                const nm = names[c] || '';
-                const tags = (e.signals||[]).map((s,i) => {
-                    const idx = SIG_NAMES.indexOf(s);
-                    return `<span class="sig-tag" style="color:${SIG_COLORS[idx]};border-color:${SIG_COLORS[idx]}">${s}</span>`;
-                }).join(' ');
-                const score = (sigScores[c]||{}).score;
-                const scStr = typeof score === 'number' ? score.toFixed(1) : '-';
-                const scColor = score >= 70 ? '#00ff88' : score >= 50 ? '#00ffcc' : score >= 30 ? '#ffcc00' : '#ff4466';
-                const chg = (sigChanges[dt]||{})[c];
-                const chgStr = chg !== null && chg !== undefined ? ((chg>=0?'+':'')+chg.toFixed(2)+'%') : '-';
-                const chgCls = chg > 0 ? 'color:#00ff88' : chg < 0 ? 'color:#ff0077' : '';
-                const gtags = (gmap[c]||[]).map(g => `<span style="font-size:.6rem;color:var(--t3)">${g}</span>`).join(', ');
-                return `<tr>
-                    <td style="font-family:var(--mono);color:var(--cyan);font-size:.7rem"><a href="/stock/${c}" style="color:var(--cyan);text-decoration:none">${c}</a></td>
-                    <td>${nm}</td>
-                    <td style="${chgCls};font-size:.75rem;font-weight:600">${chgStr}</td>
-                    <td style="font-weight:700;color:${scColor};font-size:.8rem">${scStr}</td>
-                    <td>${tags}</td>
-                    <td style="font-size:.65rem">${gtags}</td>
-                </tr>`;
-            }).join('');
-
-            document.getElementById('sigBody').innerHTML = rows || '<tr><td colspan=6 style="text-align:center;padding:30px;color:var(--t2)">点击信号按钮筛选</td></tr>';
-            document.getElementById('sigDate').onchange = () => { renderSigBtns(); renderSignals(); };
+            document.getElementById('tb').innerHTML=rows||'<tr><td colspan=7 style="padding:20px;color:var(--t2)">点击上方信号按钮筛选</td></tr>';
         }
 
 

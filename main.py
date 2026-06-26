@@ -968,6 +968,26 @@ def api_lyt_changes():
         print(f"lyt changes error: {e}")
     return jsonify({})
 
+@app.route('/api/lyt-groups')
+def api_lyt_groups():
+    """返回 lyt 格式的分组数据 {groupName: {stocks:[code,...]}}"""
+    import json
+    try:
+        # 从 groups.json 转换格式
+        gfile = BASE_DIR / "data" / "groups" / "groups.json"
+        if gfile.exists():
+            with open(gfile, 'r', encoding='utf-8') as f:
+                groups_data = json.load(f)
+            lyt_groups = {}
+            for g in groups_data.get("groups", []):
+                codes = g.get("stocks", [])
+                if codes:
+                    lyt_groups[g["name"]] = {"stocks": codes}
+            return jsonify(lyt_groups)
+    except Exception as e:
+        print(f"lyt groups error: {e}")
+    return jsonify({})
+
 @app.route('/')
 def dashboard():
     # Vercel 环境：从 GitHub raw 加载最新数据
