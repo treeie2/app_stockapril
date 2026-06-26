@@ -18,26 +18,23 @@ header .meta{display:inline;color:var(--t3);font-size:.75rem;margin-left:10px}
 .toolbar input,.toolbar select{padding:6px 12px;background:var(--card);border:1px solid var(--bdr);color:var(--t1);border-radius:6px;font-size:.8rem}
 .toolbar input{flex:1;min-width:200px}
 .toolbar input:focus,.toolbar select:focus{outline:none;border-color:var(--accent)}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:10px;padding:0 20px 20px}
-.card{background:var(--card);border:1px solid var(--bdr);border-radius:10px;padding:14px;cursor:pointer;transition:all .15s}
-.card:hover{border-color:var(--accent);transform:translateY(-1px)}
-.card .top{display:flex;justify-content:space-between;align-items:flex-start}
-.card .code{font-size:.7rem;color:var(--t3);font-family:monospace}
-.card .name{font-size:.95rem;font-weight:600}
-.card .mention{font-size:.7rem;background:var(--accent);color:#fff;padding:1px 8px;border-radius:10px;white-space:nowrap}
-.card .row{display:flex;gap:8px;margin-top:8px;flex-wrap:wrap}
-.card .tag{font-size:.65rem;padding:2px 8px;border-radius:4px;background:rgba(99,102,241,.15);color:var(--accent)}
-.card .tag.gr{background:rgba(16,185,129,.15);color:var(--green)}
-.card .tag.yl{background:rgba(245,158,11,.15);color:var(--yellow)}
-.card .pos{font-size:.7rem;color:var(--t2);margin-top:6px;line-height:1.4}
-.card .footer{display:flex;justify-content:space-between;margin-top:10px;font-size:.65rem;color:var(--t3)}
-.mkt-price{font-size:.85rem;font-weight:600;font-family:monospace}
-.mkt-chg{font-size:.75rem;font-weight:600;font-family:monospace}
-.mkt-cap{font-size:.65rem;font-family:monospace;color:var(--t3)}
-.card .signals{color:var(--cyan)}
-.card .dims{display:flex;gap:4px;margin-top:6px}
-.card .dim{width:40px;height:4px;border-radius:2px;background:var(--bdr);overflow:hidden}
-.card .dim .bar{height:100%;border-radius:2px}
+.refresh-btn{padding:6px 14px;background:var(--card);border:1px solid var(--accent);color:var(--accent);border-radius:6px;font-size:.8rem;cursor:pointer;white-space:nowrap}
+.refresh-btn:hover{background:var(--accent);color:#fff}
+.grid{padding:0 20px 20px}
+.row-stock{display:grid;grid-template-columns:50px 80px 1.2fr 1fr 80px 70px 75px 200px 70px 60px;gap:6px;align-items:center;padding:10px 12px;border-bottom:1px solid var(--bdr);cursor:pointer;font-size:.75rem;transition:background .1s}
+.row-stock:hover{background:rgba(99,102,241,.08)}
+.row-stock .code{font-family:monospace;color:var(--t3)}
+.row-stock .name{font-weight:600;color:var(--t1);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.row-stock .grp-tag{font-size:.6rem;background:rgba(6,182,212,.15);color:var(--cyan);padding:1px 6px;border-radius:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.row-stock .tag{font-size:.6rem;padding:1px 5px;border-radius:3px;background:rgba(99,102,241,.12);color:var(--accent);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin:1px 0;display:inline-block}
+.mkt-price{font-size:.8rem;font-weight:600;font-family:monospace;text-align:right}
+.mkt-chg{font-size:.75rem;font-weight:600;font-family:monospace;text-align:right}
+.mkt-cap{font-size:.65rem;font-family:monospace;color:var(--t3);text-align:right}
+.row-stock .kline-link{font-size:.6rem;background:rgba(245,158,11,.2);color:var(--yellow);padding:2px 8px;border-radius:3px;text-decoration:none;text-align:center}
+.row-stock .kline-link:hover{background:var(--yellow);color:#000}
+.row-stock .upd{font-size:.65rem;color:var(--t3);text-align:right}
+.row-header{display:grid;grid-template-columns:50px 80px 1.2fr 1fr 80px 70px 75px 200px 70px 60px;gap:6px;padding:8px 12px;font-size:.68rem;color:var(--t3);font-weight:600;border-bottom:2px solid var(--bdr);margin:0 20px}
+@media(max-width:900px){.row-stock,.row-header{grid-template-columns:50px 70px 1fr 80px 70px 60px}.row-stock .grp-tag,.row-stock .tag,.row-header .h-grp,.row-header .h-concepts{display:none}}
 .bar.s0{background:var(--cyan)}.bar.s1{background:var(--green)}.bar.s2{background:var(--yellow)}.bar.s3{background:var(--red)}.bar.s4{background:var(--accent)}
 
 /* Detail modal */
@@ -97,11 +94,12 @@ header .meta{display:inline;color:var(--t3);font-size:.75rem;margin-left:10px}
     <option value="date">按更新</option>
     <option value="signal">按信号</option>
   </select>
+  <button class="refresh-btn" onclick="refreshCurrentPage()" id="refreshBtn">🔄 刷新行情</button>
 </div>
 
 <div class="count-info" id="countInfo"></div>
-<div class="grid-header" id="gridHeader" style="display:none;padding:0 20px 4px;font-size:.7rem;color:var(--t3);display:grid;grid-template-columns:1fr 100px 80px 80px;gap:10px">
-  <span>代码 / 名称</span><span>价格 / 涨幅</span><span>市值</span><span>更新</span>
+<div class="row-header" id="gridHeader">
+  <span>代码</span><span>名称</span><span class="h-grp">分组</span><span class="h-concepts">概念</span><span style="text-align:right">价格</span><span style="text-align:right">涨幅</span><span style="text-align:right">市值</span><span class="h-concepts">行业地位</span><span style="text-align:right">更新</span><span>K线</span>
 </div>
 <div id="content"></div>
 <div class="pagination" id="pagination"></div>
@@ -113,9 +111,14 @@ header .meta{display:inline;color:var(--t3);font-size:.75rem;margin-left:10px}
 
 <script>
 // ===== GLOBAL STATE =====
-let allStocks = [], allGroups = [], signalsMap = {};
+let allStocks = [], allGroups = [], signalsMap = {}, groupMap = {};
 let currentTab = 'stocks', filteredStocks = [];
-let pageSize = 24, currentPage = 1;
+let pageSize = 30, currentPage = 1;
+
+function findGroups(name){
+  const gs = groupMap[name];
+  return gs ? gs.join(',') : '';
+}
 
 // ===== INIT =====
 async function init(){
@@ -128,6 +131,8 @@ async function init(){
   try{
     const r = await fetch('data/groups.json');
     allGroups = await r.json();
+    // Build name->groups map
+    allGroups.forEach(g=>g.s.forEach(n=>{if(!groupMap[n])groupMap[n]=[];groupMap[n].push(g.n)}))
   }catch(e){}
 
   try{
@@ -179,25 +184,20 @@ function renderStocks(){
   if(!page.length){ grid.innerHTML='<div class="empty">没有匹配的个股</div>'; document.getElementById('pagination').innerHTML=''; return }
 
   grid.innerHTML = page.map(s=>{
-    const dims = s.dm||[];
-    const dimsHtml = dims.length ? `<div class="dims">${dims.map((v,i)=>`<div class="dim"><div class="bar s${i}" style="width:${Math.min(v*10,100)}%"></div></div>`).join('')}</div>` : '';
-    const pos = s.p.slice(0,2).join(' · ');
-    const scHtml = s.sc ? `<span class="signals">📡 ${s.sc}</span>` : '';
-    const upd = s.d ? `🕐${s.d.slice(5)}` : '';
-    return `<div class="card" onclick="openDetail('${s.c}')" id="card-${s.c}">
-      <div class="top">
-        <div><span class="code">${s.c}</span> <span class="name">${s.n}</span></div>
-        <span class="mention">${s.m}</span>
-      </div>
-      ${dimsHtml}
-      <div style="display:flex;justify-content:space-between;align-items:center;margin-top:6px">
-        <span class="mkt-price" id="pr-${s.c}">—</span>
-        <span class="mkt-chg" id="ch-${s.c}">—</span>
-        <span class="mkt-cap" id="mc-${s.c}">—</span>
-      </div>
-      <div class="row">${s.t.slice(0,4).map(t=>`<span class="tag">${t}</span>`).join('')}</div>
-      <div class="pos">${pos}</div>
-      <div class="footer"><span>${upd}</span>${scHtml}</div>
+    const pos = s.p.slice(0,2).join(' ');
+    const upd = s.d ? s.d.slice(5) : '';
+    const grp = findGroups(s.n);
+    return `<div class="row-stock" onclick="openDetail('${s.c}')" id="card-${s.c}">
+      <span class="code">${s.c}</span>
+      <span class="name" title="${s.n}">${s.n}</span>
+      <span class="grp-tag" title="${grp}">${grp||'—'}</span>
+      <span class="h-concepts">${s.t.slice(0,3).map(t=>`<span class="tag">${t}</span>`).join(' ')}</span>
+      <span class="mkt-price" id="pr-${s.c}">—</span>
+      <span class="mkt-chg" id="ch-${s.c}">—</span>
+      <span class="mkt-cap" id="mc-${s.c}">—</span>
+      <span style="font-size:.65rem;color:var(--t2);overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="${pos}">${pos||'—'}</span>
+      <span class="upd">${upd||'—'}</span>
+      <a class="kline-link" href="https://xueqiu.com/S/SH${s.c}" target="_blank" onclick="event.stopPropagation()">K线</a>
     </div>`;
   }).join('');
 
@@ -208,10 +208,17 @@ function renderStocks(){
     pg += `<button class="${i===currentPage?'active':''}" onclick="goPage(${i})">${i}</button>`;
   }
   document.getElementById('pagination').innerHTML = pg;
-  fetchMarketData(page.map(s=>s.c));
 }
 
 function goPage(p){currentPage=p;renderStocks();window.scrollTo(0,0)}
+
+function refreshCurrentPage(){
+  const start = (currentPage-1)*pageSize;
+  const page = filteredStocks.slice(start, start+pageSize);
+  const btn = document.getElementById('refreshBtn');
+  btn.textContent = '⏳ 刷新中...'; btn.disabled = true;
+  fetchMarketData(page.map(s=>s.c)).then(()=>{btn.textContent='🔄 刷新行情';btn.disabled=false});
+}
 
 // ===== MARKET DATA =====
 async function fetchMarketData(codes){
