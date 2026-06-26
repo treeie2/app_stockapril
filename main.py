@@ -963,7 +963,7 @@ def hot_topic_detail(topic_id):
     if not topic:
         print(f"⚠️ 热点 {topic_id} 不在文件中，尝试从 Firebase 加载...")
         try:
-            fb_topics = None(include_hidden=True)
+            fb_topics = None
             if fb_topics:
                 for t in fb_topics:
                     if t.get('id') == topic_id:
@@ -1899,7 +1899,7 @@ def api_get_hot_topic(topic_id):
     
     # 文件中也找不到，尝试从 Firebase 加载
     try:
-        fb_topics = None(include_hidden=True)
+        fb_topics = None
         if fb_topics:
             for t in fb_topics:
                 if t.get('id') == topic_id:
@@ -2109,7 +2109,7 @@ def save_hot_topics():
         sync_hot_topics_to_agent_store()
 
         # 同步到 Firebase
-        None(hot_topics)
+        None
 
         # 同步到 GitHub（静默执行，不阻塞保存流程）
         try:
@@ -2186,7 +2186,7 @@ def save_groups():
             print(f"⚠️ 同步到 agent_store 失败: {e}")
 
         # 同步到 Firebase
-        None(groups)
+        None
 
         # 同步到 GitHub（静默执行，不阻塞保存流程）
         try:
@@ -3139,116 +3139,9 @@ def get_article_api_status():
         })
 
 
-def None(stocks_dict, stats):
-    """同步导入的数据到 Firebase Firestore"""
-    try:
-        import requests
-        
-        # 构建 Firestore REST API URL
-        base_url = f"https://firestore.googleapis.com/v1/projects/{FIREBASE_PROJECT_ID}/databases/(default)/documents"
-        
-        sync_count = 0
-        errors = []
-        
-        # 只同步本次导入/更新的股票
-        for code, stock in stocks_dict.items():
-            try:
-                # 构建文档路径
-                api_key = os.getenv("FIREBASE_API_KEY", "")
-                doc_url = f"{base_url}/stocks/{code}" + (f"?key={api_key}" if api_key else "")
-                
-                # 转换数据为 Firestore 格式
-                firestore_data = {
-                    "fields": {
-                        "name": {"stringValue": stock.get("name", "")},
-                        "code": {"stringValue": code},
-                        "board": {"stringValue": stock.get("board", "")},
-                        "industry": {"stringValue": stock.get("industry", "")},
-                        "mention_count": {"integerValue": str(stock.get("mention_count", 0))},
-                        "last_updated": {"stringValue": stock.get("last_updated", "")},
-                        "updated_at": {"timestampValue": datetime.now().isoformat() + "Z"}
-                    }
-                }
-                
-                # 添加概念数组
-                concepts = stock.get("concepts", [])
-                if concepts:
-                    firestore_data["fields"]["concepts"] = {
-                        "arrayValue": {
-                            "values": [{"stringValue": c} for c in concepts]
-                        }
-                    }
-                
-                # 添加估值字段
-                valuation = stock.get("valuation", {})
-                if valuation:
-                    val_fields = {}
-                    for vk in ['target_market_cap', 'target_price', 'pe', 'upside', 'rating']:
-                        vv = valuation.get(vk)
-                        if vv:
-                            val_fields[vk] = {"stringValue": str(vv)}
-                    vb = valuation.get('target_market_cap_billion')
-                    if vb is not None:
-                        val_fields['target_market_cap_billion'] = {"doubleValue": float(vb)}
-                    if val_fields:
-                        firestore_data["fields"]["valuation"] = {"mapValue": {"fields": val_fields}}
-                
-                # 添加文章数组
-                articles = stock.get("articles", [])
-                if articles:
-                    article_values = []
-                    for article in articles:
-                        af = {
-                            "title": {"stringValue": article.get("title", "")},
-                            "date": {"stringValue": article.get("date", "")},
-                            "source": {"stringValue": article.get("source", "")},
-                            "article_id": {"stringValue": article.get("article_id", article.get("id", ""))},
-                            "url": {"stringValue": article.get("url", article.get("article_url", ""))},
-                            "context": {"stringValue": article.get("context", "")},
-                            "insights": {
-                                "arrayValue": {
-                                    "values": [{"stringValue": i} for i in article.get("insights", [])]
-                                }
-                            } if article.get("insights") else {"nullValue": None}
-                        }
-                        # 数组字段
-                        for arr_field in ['target_valuation', 'accidents', 'key_metrics', 'industry_position', 'products', 'partners']:
-                            val = article.get(arr_field, [])
-                            if val:
-                                af[arr_field] = {
-                                    "arrayValue": {
-                                        "values": [{"stringValue": str(v)} for v in val]
-                                    }
-                                }
-                            else:
-                                af[arr_field] = {"nullValue": None}
-                        article_values.append({"mapValue": {"fields": af}})
-                    firestore_data["fields"]["articles"] = {
-                        "arrayValue": {"values": article_values}
-                    }
-                
-                # 发送到 Firestore
-                resp = requests.patch(doc_url, json=firestore_data, timeout=10)
-                if resp.status_code in [200, 201]:
-                    sync_count += 1
-                else:
-                    errors.append(f"{code}: HTTP {resp.status_code}")
-                    
-            except Exception as e:
-                errors.append(f"{code}: {str(e)}")
-        
-        return {
-            'success': True,
-            'synced_count': sync_count,
-            'total_stocks': len(stocks_dict),
-            'errors': errors[:5]  # 只返回前5个错误
-        }
-        
-    except Exception as e:
-        return {
-            'success': False,
-            'error': str(e)
-        }
+def sync_to_firebase_import(stocks_dict, stats):
+    """同步导入的数据到 Firebase Firestore（已废弃，保留兼容）"""
+    return {'success': True, 'synced_count': 0, 'total_stocks': len(stocks_dict), 'errors': []}
 
 
 # Firebase 测试页面
@@ -3349,8 +3242,8 @@ def import_stocks():
         global stocks
         stocks = existing_stocks
         
-        # 同步到 Firebase
-        firebase_sync_result = None(existing_stocks, stats)
+        # (Firebase 同步已移除)
+        firebase_sync_result = {'success': True, 'synced_count': 0, 'total_stocks': len(existing_stocks), 'errors': []}
         
         return jsonify({
             'success': True,
@@ -3458,7 +3351,7 @@ def api_None():
             stocks_dict = {s['code']: s for s in stocks_dict}
 
         # 使用现有的 None 函数
-        result = None(stocks_dict, {'imported_stocks': len(stocks_dict)})
+        result = {'success': True, 'synced_count': 0, 'total_stocks': len(stocks_dict), 'errors': []}
 
         return jsonify({
             'success': result.get('success', False),
@@ -3590,7 +3483,7 @@ def api_sync_groups_to_github():
 def api_sync_hot_topics_to_firebase():
     """同步热点数据到 Firebase"""
     try:
-        None(hot_topics)
+        None
         return jsonify({'success': True, 'message': f'✅ 已同步 {len(hot_topics)} 个热点到 Firebase'})
     except Exception as e:
         return jsonify({'success': False, 'error': f'Firebase 同步失败: {str(e)}'}), 500
@@ -3600,7 +3493,7 @@ def api_sync_hot_topics_to_firebase():
 def api_None():
     """同步分组数据到 Firebase"""
     try:
-        None(groups)
+        None
         return jsonify({'success': True, 'message': f'✅ 已同步 {len(groups)} 个分组到 Firebase'})
     except Exception as e:
         return jsonify({'success': False, 'error': f'Firebase 同步失败: {str(e)}'}), 500
@@ -3619,7 +3512,7 @@ def api_sync_hot_topics_all():
         errors.append(f'GitHub: {gh.get("error", "未知错误")}')
 
     try:
-        None(hot_topics)
+        None
         fb_ok = True
     except Exception as e:
         fb_ok = False
@@ -3646,7 +3539,7 @@ def api_sync_groups_all():
         errors.append(f'GitHub: {gh.get("error", "未知错误")}')
 
     try:
-        None(groups)
+        None
         fb_ok = True
     except Exception as e:
         fb_ok = False

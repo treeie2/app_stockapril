@@ -1200,7 +1200,7 @@
             <div class="hot-topics-header">
                 <div class="hot-topics-title">🔥 本月热点</div>
                 <div style="display:flex;gap:.5rem;align-items:center;">
-                    <button class="sync-btn" onclick="syncHotTopicsAll()" title="同步热点到 GitHub + Firebase" style="display:flex;align-items:center;gap:.3rem;padding:.4rem .8rem;background:rgba(16,185,129,.1);border:1px solid rgba(16,185,129,.3);border-radius:20px;color:var(--green);font-size:.78rem;font-weight:600;cursor:pointer;transition:all .2s;">
+                    <button class="sync-btn" onclick="syncHotTopicsAll()" title="同步热点到 GitHub" style="display:flex;align-items:center;gap:.3rem;padding:.4rem .8rem;background:rgba(16,185,129,.1);border:1px solid rgba(16,185,129,.3);border-radius:20px;color:var(--green);font-size:.78rem;font-weight:600;cursor:pointer;transition:all .2s;">
                         <span>🔄</span> 同步
                     </button>
                     <button class="add-hot-topic-btn" onclick="openAddHotTopicModal()">
@@ -1785,166 +1785,6 @@
             }
         });
     </script>
-    
-    <!-- Firebase SDK -->
-    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore-compat.js"></script>
-    
-    <!-- Firebase 配置（内联以支持 Vercel 部署） -->
-    <script>
-    // Firebase 配置
-    const firebaseConfig = {
-        apiKey: "AIzaSyDnWABBE1WZ3H_il95-TcBqpIAH9sisLUo",
-        authDomain: "webstock-724.firebaseapp.com",
-        projectId: "webstock-724",
-        storageBucket: "webstock-724.firebasestorage.app",
-        messagingSenderId: "249403550581",
-        appId: "1:249403550581:web:16a0aeaadad8f22501413c"
-    };
-
-    // 初始化 Firebase
-    let db = null;
-
-    async function initFirebase() {
-        if (db) return db;
-        
-        try {
-            const app = firebase.initializeApp(firebaseConfig);
-            db = firebase.firestore();
-            console.log('✅ Firebase 初始化成功');
-            return db;
-        } catch (error) {
-            console.error('❌ Firebase 初始化失败:', error);
-            throw error;
-        }
-    }
-
-    // 获取所有股票数据
-    async function getAllStocksFromFirebase() {
-        const db = await initFirebase();
-        
-        try {
-            const snapshot = await db.collection('stocks').get();
-            const stocks = [];
-            
-            snapshot.forEach(doc => {
-                stocks.push({
-                    code: doc.id,
-                    ...doc.data()
-                });
-            });
-            
-            console.log(`📊 从 Firebase 获取到 ${stocks.length} 只股票`);
-            return stocks;
-        } catch (error) {
-            console.error('❌ 获取股票数据失败:', error);
-            throw error;
-        }
-    }
-
-    // 导出函数供其他模块使用
-    window.FirebaseDB = {
-        init: initFirebase,
-        getAllStocks: getAllStocksFromFirebase
-    };
-    </script>
-    
-    <!-- Firebase 数据加载 -->
-    <script>
-        // 标记是否使用 Firebase
-        const useFirebase = true;
-        
-        // 从 Firebase 加载股票数据
-        async function loadStocksFromFirebase() {
-            try {
-                console.log('🔄 正在从 Firebase 加载数据...');
-                const stocks = await FirebaseDB.getAllStocks();
-                
-                if (stocks && stocks.length > 0) {
-                    console.log(`✅ 从 Firebase 加载了 ${stocks.length} 只股票`);
-                    renderStocksFromFirebase(stocks);
-                    return true;
-                } else {
-                    console.log('⚠️ Firebase 中没有股票数据');
-                    return false;
-                }
-            } catch (error) {
-                console.error('❌ 从 Firebase 加载失败:', error);
-                return false;
-            }
-        }
-        
-        // 渲染 Firebase 数据到页面
-        function renderStocksFromFirebase(stocks) {
-            const tbody = document.querySelector('.stocks-table tbody');
-            if (!tbody) return;
-            
-            // 清空现有内容
-            tbody.innerHTML = '';
-            
-            // 按提及次数排序
-            stocks.sort((a, b) => (b.mention_count || 0) - (a.mention_count || 0));
-            
-            // 只显示前 50 只
-            const displayStocks = stocks.slice(0, 50);
-            
-            displayStocks.forEach(stock => {
-                const row = document.createElement('tr');
-                row.className = 'stock-row';
-                row.onclick = () => window.location.href = `/stock/${stock.code}`;
-                
-                const concepts = stock.concepts?.slice(0, 3).map(c => 
-                    `<span class="concept-tag" onclick="event.stopPropagation(); window.location.href='/concept/${encodeURIComponent(c)}'">${c}</span>`
-                ).join('') || '';
-                
-                const latestArticle = stock.articles?.[0];
-                const insight = latestArticle?.insights?.[0] || '';
-                
-                row.innerHTML = `
-                    <td>
-                        <div class="stock-name">${stock.name || ''}</div>
-                        <div class="stock-code">${stock.code || ''}</div>
-                    </td>
-                    <td>
-                        <div class="concepts-wrap">${concepts}</div>
-                    </td>
-                    <td>
-                        <div class="insight-text" title="${insight}">${insight.substring(0, 60)}${insight.length > 60 ? '...' : ''}</div>
-                    </td>
-                    <td class="mention-count">${stock.mention_count || 0}</td>
-                    <td class="price-cell">-</td>
-                    <td class="change-cell">-</td>
-                `;
-                
-                tbody.appendChild(row);
-            });
-            
-            // 更新统计
-            document.querySelector('.stats-grid').innerHTML = `
-                <div class="stat-card">
-                    <div class="stat-value">${stocks.length}</div>
-                    <div class="stat-label">股票总数</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-value">${new Set(stocks.flatMap(s => s.concepts || [])).size}</div>
-                    <div class="stat-label">概念标签</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-value">${stocks.reduce((sum, s) => sum + (s.articles?.length || 0), 0)}</div>
-                    <div class="stat-label">文章总数</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-value">${stocks.filter(s => (s.articles?.length || 0) > 0).length}</div>
-                    <div class="stat-label">有研报股票</div>
-                </div>
-            `;
-            
-            // 添加 Firebase 标识
-            const title = document.querySelector('h1');
-            if (title && !title.innerHTML.includes('🔥')) {
-                title.innerHTML += ' <span style="font-size:0.5em;color:#ff6b35">🔥 Firebase</span>';
-            }
-        }
         
         // ============================================
         // 热点数据加载（通过 API）
@@ -2205,14 +2045,8 @@
         
         let currentEditingGroupId = null;
         
-        // 页面加载时尝试从 Firebase 获取数据
+        // 页面加载时加载数据
         document.addEventListener('DOMContentLoaded', async () => {
-            if (useFirebase) {
-                const success = await loadStocksFromFirebase();
-                if (!success) {
-                    console.log('⚠️ Firebase 加载失败，使用本地数据');
-                }
-            }
             // 加载热点数据
             loadHotTopics();
         });
@@ -2776,12 +2610,6 @@
         
         // 页面加载时调用
         document.addEventListener('DOMContentLoaded', async () => {
-            if (useFirebase) {
-                const success = await loadStocksFromFirebase();
-                if (!success) {
-                    console.log('⚠️ Firebase 加载失败，使用本地数据');
-                }
-            }
             // 加载热点数据
             loadHotTopics();
             // 加载分组数据
@@ -2855,15 +2683,6 @@
             document.querySelector(`.tab-btn[data-tab="${name}"]`).classList.add('active');
             document.getElementById(`tab-${name}`).classList.add('active');
             if (name === 'signals') lytInit();
-        }
-                        <p>${g.description||''}</p>
-                        <div style="font-size:.65rem;color:var(--t3);margin-bottom:6px">${(g.stocks||[]).length} 只个股</div>
-                        <div class="tags">${(g.stocks||[]).slice(0,8).map(s=>`<span class="tag">${s}</span>`).join('')}</div>
-                    </div>
-                `).join('');
-            } catch(e) {
-                grid.innerHTML = '<div style="text-align:center;padding:40px;color:var(--rose);grid-column:1/-1">加载失败</div>';
-            }
         }
 
         // ============================================
