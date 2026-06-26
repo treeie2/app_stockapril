@@ -710,6 +710,8 @@ stocks = {}
 concepts = {}
 hot_topics = []
 groups = []
+lyt_scores = {}
+lyt_signals = {"total": 0, "dates": [], "signals": {}}
 _data_loaded = False
 
 def load_all_data():
@@ -790,6 +792,9 @@ def load_all_data():
         # 4. 加载分组数据（本地）
         load_groups_data()
         
+        # 5. 加载 lyt 数据（五维评分 + 每日信号）
+        load_lyt_data()
+        
         print(f"📊 数据加载完成：{len(stocks)} 只股票，{len(concepts)} 个概念，{len(hot_topics)} 个热点，{len(groups)} 个分组")
         _data_loaded = True
         
@@ -799,6 +804,22 @@ def load_all_data():
         traceback.print_exc()
         _data_loaded = True
         raise
+
+
+def load_lyt_data():
+    """加载 lyt 数据（五维评分 + 每日信号）"""
+    global lyt_scores, lyt_signals
+    try:
+        lyt_signal_file = BASE_DIR / "data" / "signals" / "lyt_daily_signals.json"
+        if lyt_signal_file.exists():
+            with open(lyt_signal_file, 'r', encoding='utf-8') as f:
+                lyt_signals = json.load(f)
+            print(f"📡 lyt 信号加载成功：{lyt_signals.get('total', 0)} 条")
+        
+        # scores 已嵌入 stocks_master.json 的 lyt_score 字段
+        print(f"📊 lyt 五维评分：已嵌入 stocks（lyt_score 字段）")
+    except Exception as e:
+        print(f"⚠️ lyt 数据加载失败：{e}")
 
 
 def load_hot_topics_only():
@@ -979,7 +1000,8 @@ def dashboard():
         next_offset=offset + limit,
         limit=limit,
         offset=offset,
-        hot_topics=hot_topics)
+        hot_topics=hot_topics,
+        lyt_signals=lyt_signals)
 
 @app.route('/hot-topic/<topic_id>')
 def hot_topic_detail(topic_id):
