@@ -93,7 +93,10 @@ nav .brand { font-weight:700; font-size:1rem; color:var(--t1); }
 <div class="container">
     <div class="header-row">
         <h2 style="margin:0;font-size:1.3rem;">📁 股票分组</h2>
-        <span id="groupCount" style="font-size:.82rem;color:var(--t3);"></span>
+        <div style="display:flex;gap:8px;align-items:center;">
+            <input type="text" id="groupSearch" placeholder="搜索分组..." oninput="doSearch()" style="background:var(--bg-card);border:1px solid var(--border);color:var(--t1);padding:4px 10px;border-radius:6px;font-size:.75rem;width:140px;outline:none;">
+            <span id="groupCount" style="font-size:.82rem;color:var(--t3);white-space:nowrap;"></span>
+        </div>
     </div>
     <div class="category-nav">
         <button class="category-btn active" onclick="filterGroups('all')">全部</button>
@@ -103,6 +106,7 @@ nav .brand { font-weight:700; font-size:1rem; color:var(--t1); }
         <button class="sort-btn active" onclick="sortGroups('default')" id="sort-default">默认</button>
         <button class="sort-btn" onclick="sortGroups('avgChangeDesc')" id="sort-avgChangeDesc">涨幅 ↑</button>
         <button class="sort-btn" onclick="sortGroups('avgChangeAsc')" id="sort-avgChangeAsc">涨幅 ↓</button>
+        <button class="sort-btn" onclick="sortGroups('stocksDesc')" id="sort-stocksDesc">股票最多</button>
     </div>
     <div class="groups-grid" id="groupsGrid">
         <div style="text-align:center;padding:2rem;color:var(--t3);grid-column:1/-1;">加载中...</div>
@@ -229,6 +233,19 @@ function getFilteredGroups() {
     let groups = currentCategory === 'all' || currentCategory === '全部'
         ? [...allGroups]
         : allGroups.filter(g => g.category === currentCategory);
+    
+    // 搜索过滤
+    const q = (document.getElementById('groupSearch').value || '').trim().toLowerCase();
+    if (q) {
+        groups = groups.filter(g => 
+            g.name.toLowerCase().includes(q) || 
+            (g.description||'').toLowerCase().includes(q) ||
+            (g.stocks||[]).some(s => {
+                const n = (typeof s === 'string' ? s : (s.name || s.code || '')).toLowerCase();
+                return n.includes(q);
+            })
+        );
+    }
 
     if (currentSort === 'avgChangeDesc') {
         groups.sort((a, b) => {
@@ -242,6 +259,8 @@ function getFilteredGroups() {
             const bv = b.avgChange === null ? Infinity : b.avgChange;
             return av - bv;
         });
+    } else if (currentSort === 'stocksDesc') {
+        groups.sort((a, b) => (b.stocks||[]).length - (a.stocks||[]).length);
     }
     return groups;
 }
@@ -258,9 +277,9 @@ function renderGroups(groups) {
         const stocks = g.stocks || [];
         const avgChangeHtml = g.avgChange !== null
             ? `<div class="group-avg-change ${getChangeClass(g.avgChange)}">${formatChange(g.avgChange)}</div>`
-            : '';
+            : `<div class="group-avg-change flat">--</div>`;
 
-        const stocksHtml = stocks.slice(0, 8).map(s => {
+        const stocksHtml = stocks.slice(0, 10).map(s => {
             const name = typeof s === 'string' ? s : (s.name || s.code || s);
             const code = s.code || name;
             const priceData = stockPriceCache[code];
@@ -268,23 +287,23 @@ function renderGroups(groups) {
             if (priceData && typeof priceData.pct === 'number') {
                 const cls = priceData.pct > 0 ? 'up' : (priceData.pct < 0 ? 'down' : 'flat');
                 const sign = priceData.pct > 0 ? '+' : '';
-                changeHtml = `<span class="stock-tag-change ${cls}">${sign}${priceData.pct}%</span>`;
+                changeHtml = `<span class="stock-tag-change ${cls}">${sign}${priceData.pct.toFixed(1)}%</span>`;
             }
-            return `<a href="/stock/${encodeURIComponent(code)}" class="stock-tag" style="background:rgba(${hexToRgb(color)},.12);color:${color};" onclick="event.stopPropagation();">${name.substring(0,6)}${changeHtml}</a>`;
+            return `<a href="/stock/${encodeURIComponent(code)}" class="stock-tag" style="background:rgba(${hexToRgb(color)},.12);color:${color};border:1px solid rgba(${hexToRgb(color)},.2);">${name.substring(0,8)}${changeHtml}</a>`;
         }).join('');
-        const more = stocks.length > 8 ? ` +${stocks.length - 8}` : '';
+        const more = stocks.length > 10 ? ` <span style="font-size:.72rem;color:var(--t3);">+${stocks.length - 10}</span>` : '';
 
         return `
         <div class="group-card" onclick="location.href='/group/${g.id}'" style="border-left:3px solid ${color};">
             ${avgChangeHtml}
-            <div style="display:flex;align-items:center;gap:.5rem;padding-right:4.5rem;">
-                <span style="font-size:1.3rem;">${g.icon || '📁'}</span>
+            <div style="display:flex;align-items:center;gap:.5rem;padding-right:5.5rem;">
+                <span style="font-size:1.4rem;">${g.icon || '📁'}</span>
                 <span style="font-weight:700;font-size:.95rem;color:${color};">${g.name}</span>
-                ${g.category ? `<span style="font-size:.7rem;background:rgba(${hexToRgb(color)},.15);color:${color};padding:.15rem .4rem;border-radius:10px;">${g.category}</span>` : ''}
-                <span style="font-size:.72rem;color:var(--t3);margin-left:auto;">${stocks.length}只</span>
+                ${g.category ? `<span style="font-size:.68rem;background:rgba(${hexToRgb(color)},.15);color:${color};padding:.12rem .4rem;border-radius:10px;border:1px solid rgba(${hexToRgb(color)},.25);">${g.category}</span>` : ''}
+                <span style="font-size:.72rem;color:var(--t3);margin-left:auto;white-space:nowrap;">${stocks.length} 只股票</span>
             </div>
-            ${g.description ? `<div style="font-size:.75rem;color:var(--t3);line-height:1.4;margin-top:.5rem;">${g.description.substring(0,80)}${g.description.length>80?'...':''}</div>` : ''}
-            <div class="group-stocks">${stocksHtml}${more ? `<span style="font-size:.72rem;color:var(--t3);">${more}</span>` : ''}</div>
+            ${g.description ? `<div style="font-size:.74rem;color:var(--t3);line-height:1.4;margin-top:.55rem;">${g.description.substring(0,100)}${g.description.length>100?'...':''}</div>` : ''}
+            <div class="group-stocks">${stocksHtml}${more}</div>
         </div>`;
     }).join('');
 }
@@ -300,6 +319,13 @@ function sortGroups(sortType) {
     document.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('active'));
     document.getElementById(`sort-${sortType}`).classList.add('active');
     currentSort = sortType;
+    renderGroups(getFilteredGroups());
+}
+
+function doSearch() {
+    currentSort = 'default';
+    document.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('active'));
+    document.getElementById('sort-default').classList.add('active');
     renderGroups(getFilteredGroups());
 }
 

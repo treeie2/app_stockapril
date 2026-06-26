@@ -2976,10 +2976,13 @@
                     chgCls=chg>=0?'up':'down';
                 }
 
+                var kurl = (c.charAt(0)==='6') ? 'https://gu.qq.com/sh'+c :
+                           (c.charAt(0)==='8'||c.charAt(0)==='4') ? 'https://gu.qq.com/bj'+c :
+                           'https://gu.qq.com/sz'+c;
                 rows+='<tr><td class="pl"><a href="/stock/'+c+'" style="color:var(--c);text-decoration:none">'+c+'</a></td><td>'+nm+'</td><td class="'+chgCls+'">'+chgStr+'</td>'
                     +'<td class="scr '+scrCls+'">'+(typeof scr==='number'?scr.toFixed(1):scr)+'</td>'
                     +'<td>'+tags+'</td><td>'+gtags+'</td>'
-                    +'<td></td></tr>';
+                    +'<td style="font-size:10px"><a href="'+kurl+'" target="_blank" style="color:var(--cyan);text-decoration:none;background:rgba(0,255,255,.08);padding:2px 6px;border-radius:3px;border:1px solid rgba(0,255,255,.2)">K</a></td></tr>';
             });
             document.getElementById('tb').innerHTML=rows||'<tr><td colspan=7 style="padding:20px;color:var(--t2)">点击上方信号按钮筛选</td></tr>';
         }

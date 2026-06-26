@@ -10,20 +10,6 @@ from flask import Flask, jsonify, render_template, request, send_file, send_from
 import json, gzip, os, re, requests
 from pathlib import Path
 from datetime import datetime
-# Firebase 导入（可选，失败不影响主功能）
-try:
-    from firebase_hot_topics import sync_to_firebase, sync_groups_to_firebase, load_from_firebase
-    print("[INFO] Firebase 模块加载成功")
-except ImportError as e:
-    print(f"[INFO] Firebase 模块不可用: {e}")
-    # 定义空函数作为后备
-    def sync_to_firebase(*args, **kwargs):
-        pass
-    def sync_groups_to_firebase(*args, **kwargs):
-        pass
-    def load_from_firebase(*args, **kwargs):
-        return None
-
 # 延迟导入 akshare（避免加载慢）
 def get_akshare():
     try:
@@ -215,166 +201,6 @@ try:
 except Exception as e:
     print(f"  ⚠️ 社保基金数据加载失败：{e}")
 
-# Firebase 配置
-FIREBASE_PROJECT_ID = os.getenv("FIREBASE_PROJECT_ID", "webstock-724")
-FIREBASE_API_KEY = os.getenv("FIREBASE_API_KEY", "")  # 在 Vercel 环境变量中配置
-FIREBASE_BASE_URL = f"https://firestore.googleapis.com/v1/projects/{FIREBASE_PROJECT_ID}/databases/(default)/documents"
-
-# Firebase Admin SDK 初始化（用于写入操作）
-_firestore_client = None
-def get_firestore_client():
-    """获取 Firestore 客户端（优先使用 Admin SDK）"""
-    global _firestore_client
-    if _firestore_client is not None:
-        return _firestore_client
-    
-    try:
-        import firebase_admin
-        from firebase_admin import credentials, firestore
-        
-        # 如果已经初始化，直接返回 client
-        if firebase_admin._apps:
-            _firestore_client = firestore.client()
-            print("  ✅ 使用已初始化的 Firebase App")
-            return _firestore_client
-        
-        creds_json = None
-        # 1. 尝试从本地文件加载
-        creds_path = Path(__file__).parent / '.trae' / 'rules' / 'firebase-credentials.json'
-        if not creds_path.exists():
-            creds_path = Path(__file__).parent.parent / '.trae' / 'rules' / 'firebase-credentials.json'
-        if creds_path.exists():
-            creds_json = json.loads(creds_path.read_text(encoding='utf-8'))
-            print("  ✅ 从本地文件加载 Firebase 服务账号")
-        
-        # 2. 尝试从环境变量加载
-        if not creds_json:
-            env_creds = os.getenv("FIREBASE_CREDENTIALS_JSON")
-            if env_creds:
-                import base64
-                try:
-                    creds_json = json.loads(base64.b64decode(env_creds).decode('utf-8'))
-                except:
-                    creds_json = json.loads(env_creds)
-                print("  ✅ 从环境变量加载 Firebase 服务账号")
-        
-        if creds_json:
-            cred = credentials.Certificate(creds_json)
-            firebase_admin.initialize_app(cred)
-            _firestore_client = firestore.client()
-            print("  ✅ Firebase Admin SDK 初始化成功")
-            return _firestore_client
-        else:
-            print("  ⚠️ 未找到 Firebase 服务账号凭证，将使用 REST API")
-            return None
-    except Exception as e:
-        print(f"  ⚠️ Firebase Admin SDK 初始化失败: {e}")
-        return None
-
-def load_data_from_firebase():
-    """从 Firebase 加载股票数据（支持分页）"""
-    print("📋 尝试从 Firebase 加载数据...")
-    
-    try:
-        all_stocks = {}
-        all_concepts = {}
-        page_token = None
-        
-        while True:
-            api_key = os.getenv("FIREBASE_API_KEY", "")
-            url = f"{FIREBASE_BASE_URL}/stocks" + (f"?key={api_key}" if api_key else "")
-            if page_token:
-                url += f"&pageToken={page_token}" if "?" in url else f"?pageToken={page_token}"
-            
-            response = requests.get(url, timeout=5)
-            
-            if response.status_code != 200:
-                print(f"  ⚠️ Firebase 加载失败：HTTP {response.status_code}")
-                break
-                
-            data = response.json()
-            documents = data.get('documents', [])
-            
-            if not documents:
-                break
-            
-            # 处理当前页的股票
-            for doc in documents:
-                fields = doc.get('fields', {})
-                
-                code = fields.get('code', {}).get('stringValue', '')
-                if not code:
-                    continue
-                
-                stock = {
-                    'name': fields.get('name', {}).get('stringValue', ''),
-                    'code': code,
-                    'board': fields.get('board', {}).get('stringValue', ''),
-                    'industry': fields.get('industry', {}).get('stringValue', ''),
-                    'concepts': [],
-                    'products': [],
-                    'core_business': [],
-                    'industry_position': [],
-                    'chain': [],
-                    'partners': [],
-                    'mention_count': int(fields.get('mention_count', {}).get('integerValue', '0') or 0),
-                    'last_updated': fields.get('last_updated', {}).get('stringValue', ''),
-                    'articles': []
-                }
-                
-                # 获取概念
-                concepts_arr = fields.get('concepts', {}).get('arrayValue', {}).get('values', [])
-                stock['concepts'] = [c.get('stringValue', '') for c in concepts_arr if c.get('stringValue')]
-                
-                # 构建概念索引
-                for concept in stock['concepts']:
-                    if concept not in all_concepts:
-                        all_concepts[concept] = {'stocks': []}
-                    all_concepts[concept]['stocks'].append(code)
-                
-                # 获取文章
-                articles = fields.get('articles', {}).get('arrayValue', {}).get('values', [])
-                for article in articles:
-                    article_fields = article.get('mapValue', {}).get('fields', {})
-                    article_data = {
-                        'title': article_fields.get('title', {}).get('stringValue', ''),
-                        'date': article_fields.get('date', {}).get('stringValue', ''),
-                        'source': article_fields.get('source', {}).get('stringValue', ''),
-                        'accidents': [],
-                        'insights': [],
-                        'key_metrics': [],
-                        'target_valuation': []
-                    }
-                    
-                    accidents = article_fields.get('accidents', {}).get('arrayValue', {}).get('values', [])
-                    article_data['accidents'] = [a.get('stringValue', '') for a in accidents if a.get('stringValue')]
-                    
-                    insights = article_fields.get('insights', {}).get('arrayValue', {}).get('values', [])
-                    article_data['insights'] = [i.get('stringValue', '') for i in insights if i.get('stringValue')]
-                    
-                    metrics = article_fields.get('key_metrics', {}).get('arrayValue', {}).get('values', [])
-                    article_data['key_metrics'] = [m.get('stringValue', '') for m in metrics if m.get('stringValue')]
-                    
-                    tv = article_fields.get('target_valuation', {}).get('arrayValue', {}).get('values', [])
-                    article_data['target_valuation'] = [t.get('stringValue', '') for t in tv if t.get('stringValue')]
-                    
-                    stock['articles'].append(article_data)
-                
-                all_stocks[code] = stock
-            
-            # 检查是否有下一页
-            page_token = data.get('nextPageToken')
-            if not page_token:
-                break
-        
-        print(f"  ✅ 从 Firebase 加载 {len(all_stocks)} 只股票")
-        print(f"  ✅ 加载 {len(all_concepts)} 个概念")
-        return all_stocks, all_concepts
-        
-    except Exception as e:
-        print(f"  ⚠️ Firebase 加载出错：{e}")
-        return None, None
-
 def load_data_incremental(days=7):
     """从增量文件加载最近 N 天的数据"""
     print(f"📋 从增量文件加载最近 {days} 天数据...")
@@ -423,7 +249,7 @@ def load_data_incremental(days=7):
 
 
 # ============================================================
-# Supabase 配置（可选 - 替代 Firebase）
+# Supabase 配置
 # ============================================================
 # 优先级：环境变量 > supabase_config.json
 _SUPABASE_CONFIG_FILE = BASE_DIR / "supabase_config.json"
@@ -871,7 +697,7 @@ def load_hot_topics_only():
     print("📋 [Vercel] 加载热点和股票数据...")
     
     try:
-        # 1. 从本地 master 文件加载股票数据（跳过 Firebase 避免超时）
+        # 1. 从本地 master 文件加载股票数据
         if not stocks:
             print("📋 [Vercel] 从本地加载股票数据...")
             try:
@@ -1137,7 +963,7 @@ def hot_topic_detail(topic_id):
     if not topic:
         print(f"⚠️ 热点 {topic_id} 不在文件中，尝试从 Firebase 加载...")
         try:
-            fb_topics = load_from_firebase(include_hidden=True)
+            fb_topics = None(include_hidden=True)
             if fb_topics:
                 for t in fb_topics:
                     if t.get('id') == topic_id:
@@ -1310,17 +1136,8 @@ def api_hot_topics():
     except Exception as e:
         print(f"[API] 本地文件加载失败: {e}")
     
-    # 方法2: 如果本地为空，尝试 Firebase
-    if not topics:
-        try:
-            from firebase_hot_topics import load_from_firebase
-            fb_topics = load_from_firebase(include_hidden=False)
-            if fb_topics:
-                topics = fb_topics
-                print(f"[API] 从 Firebase 加载了 {len(topics)} 个热点")
-        except Exception as e:
-            print(f"[API] Firebase 加载失败: {e}")
-    
+
+
     # 只返回 display=true 的热点
     visible_topics = [t for t in topics if t.get('display', True)]
     
@@ -1447,7 +1264,7 @@ def stock_detail(code):
     # 剥离 .SH/.SZ/.BJ 后缀，统一为纯数字 code
     code = re.sub(r'\.(SH|SZ|BJ)$', '', code)
     
-    # 直接从本地数据加载（Firebase 同步由 Admin SDK 在编辑时处理）
+    # 直接从本地数据加载
     load_all_data()
     if code not in stocks:
         # 尝试按名称查找（兼容分组/热点用名称链接）
@@ -1834,101 +1651,7 @@ def api_stock_article_delete(code):
     
     save_stocks_to_file(code)
     
-    firebase_synced = False
-    firebase_error = None
-    try:
-        db = get_firestore_client()
-        if db:
-            from google.cloud.firestore import SERVER_TIMESTAMP
-            doc_ref = db.collection('stocks').document(code)
-            stock = stocks[code]
-            doc_ref.set({
-                'name': stock.get('name', ''),
-                'code': code,
-                'board': stock.get('board', ''),
-                'industry': stock.get('industry', ''),
-                'concepts': stock.get('concepts', []),
-                'products': stock.get('products', []),
-                'core_business': stock.get('core_business', []),
-                'industry_position': stock.get('industry_position', []),
-                'chain': stock.get('chain', []),
-                'partners': stock.get('partners', []),
-                'mention_count': stock.get('mention_count', 0),
-                'last_updated': stock.get('last_updated', ''),
-                'updated_at': SERVER_TIMESTAMP,
-                'articles': [
-                    {
-                        'title': a.get('title', ''),
-                        'date': a.get('date', ''),
-                        'source': a.get('source', ''),
-                        'accidents': a.get('accidents', []),
-                        'insights': a.get('insights', []),
-                        'key_metrics': a.get('key_metrics', []),
-                        'target_valuation': a.get('target_valuation', []),
-                    }
-                    for a in stock.get('articles', [])
-                ]
-            })
-            firebase_synced = True
-        else:
-            import requests
-            base_url = f"https://firestore.googleapis.com/v1/projects/{FIREBASE_PROJECT_ID}/databases/(default)/documents"
-            api_key = os.getenv("FIREBASE_API_KEY", "")
-            doc_url = f"{base_url}/stocks/{code}" + (f"?key={api_key}" if api_key else "")
-            
-            stock = stocks[code]
-            firestore_data = {
-                "fields": {
-                    "name": {"stringValue": stock.get("name", "")},
-                    "code": {"stringValue": code},
-                    "board": {"stringValue": stock.get("board", "")},
-                    "industry": {"stringValue": stock.get("industry", "")},
-                    "mention_count": {"integerValue": str(stock.get("mention_count", 0))},
-                    "last_updated": {"stringValue": stock.get("last_updated", "")},
-                    "updated_at": {"timestampValue": datetime.now().isoformat() + "Z"}
-                }
-            }
-            
-            concepts = stock.get("concepts", [])
-            if concepts:
-                firestore_data["fields"]["concepts"] = {
-                    "arrayValue": {"values": [{"stringValue": c} for c in concepts]}
-                }
-            
-            articles_list = stock.get("articles", [])
-            article_values = []
-            for article in articles_list:
-                af = {
-                    "title": {"stringValue": article.get("title", "")},
-                    "date": {"stringValue": article.get("date", "")},
-                    "source": {"stringValue": article.get("source", "")},
-                    "article_id": {"stringValue": article.get("article_id", article.get("id", ""))},
-                    "url": {"stringValue": article.get("url", article.get("article_url", ""))},
-                    "context": {"stringValue": article.get("context", "")},
-                    "insights": {
-                        "arrayValue": {"values": [{"stringValue": i} for i in article.get("insights", [])]}
-                    } if article.get("insights") else {"nullValue": None}
-                }
-                for arr_field in ['target_valuation', 'accidents', 'key_metrics', 'industry_position', 'products', 'partners']:
-                    val = article.get(arr_field, [])
-                    if val:
-                        af[arr_field] = {"arrayValue": {"values": [{"stringValue": str(v)} for v in val]}}
-                    else:
-                        af[arr_field] = {"nullValue": None}
-                article_values.append({"mapValue": {"fields": af}})
-            
-            firestore_data["fields"]["articles"] = {
-                "arrayValue": {"values": article_values}
-            }
-            
-            resp = requests.patch(doc_url, json=firestore_data, timeout=15)
-            if resp.status_code in [200, 201]:
-                firebase_synced = True
-            else:
-                firebase_error = f"Firebase HTTP {resp.status_code}"
-    except Exception as e:
-        firebase_error = str(e)
-    
+
     github_synced = False
     github_error = None
     try:
@@ -1976,9 +1699,7 @@ def api_stock_article_delete(code):
         'success': True,
         'deleted_title': deleted_title,
         'remaining_count': len(articles),
-        'firebase_synced': firebase_synced,
-        'firebase_error': firebase_error,
-        'github_synced': github_synced,
+'github_synced': github_synced,
         'github_error': github_error,
         'supabase_synced': supabase_synced,
         'supabase_error': supabase_error,
@@ -2043,107 +1764,12 @@ def api_stock_article_edit(code):
     # 保存到文件
     save_stocks_to_file(code)
     
-    # 同步到 Firebase（单只股票）
-    firebase_synced = False
-    firebase_error = None
-    try:
-        db = get_firestore_client()
-        if db:
-            from google.cloud.firestore import SERVER_TIMESTAMP
-            doc_ref = db.collection('stocks').document(code)
-            stock = stocks[code]
-            doc_ref.set({
-                'name': stock.get('name', ''),
-                'code': code,
-                'board': stock.get('board', ''),
-                'industry': stock.get('industry', ''),
-                'concepts': stock.get('concepts', []),
-                'products': stock.get('products', []),
-                'core_business': stock.get('core_business', []),
-                'industry_position': stock.get('industry_position', []),
-                'chain': stock.get('chain', []),
-                'partners': stock.get('partners', []),
-                'mention_count': stock.get('mention_count', 0),
-                'last_updated': stock.get('last_updated', ''),
-                'updated_at': SERVER_TIMESTAMP,
-                'articles': [
-                    {
-                        'title': a.get('title', ''),
-                        'date': a.get('date', ''),
-                        'source': a.get('source', ''),
-                        'accidents': a.get('accidents', []),
-                        'insights': a.get('insights', []),
-                        'key_metrics': a.get('key_metrics', []),
-                        'target_valuation': a.get('target_valuation', []),
-                    }
-                    for a in stock.get('articles', [])
-                ]
-            })
-            firebase_synced = True
-        else:
-            import requests
-            base_url = f"https://firestore.googleapis.com/v1/projects/{FIREBASE_PROJECT_ID}/databases/(default)/documents"
-            api_key = os.getenv("FIREBASE_API_KEY", "")
-            doc_url = f"{base_url}/stocks/{code}" + (f"?key={api_key}" if api_key else "")
-            
-            stock = stocks[code]
-            firestore_data = {
-                "fields": {
-                    "name": {"stringValue": stock.get("name", "")},
-                    "code": {"stringValue": code},
-                    "board": {"stringValue": stock.get("board", "")},
-                    "industry": {"stringValue": stock.get("industry", "")},
-                    "mention_count": {"integerValue": str(stock.get("mention_count", 0))},
-                    "last_updated": {"stringValue": stock.get("last_updated", "")},
-                    "updated_at": {"timestampValue": datetime.now().isoformat() + "Z"}
-                }
-            }
-            
-            concepts = stock.get("concepts", [])
-            if concepts:
-                firestore_data["fields"]["concepts"] = {
-                    "arrayValue": {"values": [{"stringValue": c} for c in concepts]}
-                }
-            
-            articles_data = stock.get("articles", [])
-            article_values = []
-            for article_item in articles_data:
-                af = {
-                    "title": {"stringValue": article_item.get("title", "")},
-                    "date": {"stringValue": article_item.get("date", "")},
-                    "source": {"stringValue": article_item.get("source", "")},
-                    "article_id": {"stringValue": article_item.get("article_id", article_item.get("id", ""))},
-                    "url": {"stringValue": article_item.get("url", article_item.get("article_url", ""))},
-                    "context": {"stringValue": article_item.get("context", "")},
-                    "insights": {
-                        "arrayValue": {"values": [{"stringValue": i} for i in article_item.get("insights", [])]}
-                    } if article_item.get("insights") else {"nullValue": None}
-                }
-                for arr_field in ['target_valuation', 'accidents', 'key_metrics', 'industry_position', 'products', 'partners']:
-                    val = article_item.get(arr_field, [])
-                    if val:
-                        af[arr_field] = {"arrayValue": {"values": [{"stringValue": str(v)} for v in val]}}
-                    else:
-                        af[arr_field] = {"nullValue": None}
-                article_values.append({"mapValue": {"fields": af}})
-            
-            firestore_data["fields"]["articles"] = {
-                "arrayValue": {"values": article_values}
-            }
-            
-            resp = requests.patch(doc_url, json=firestore_data, timeout=15)
-            if resp.status_code in [200, 201]:
-                firebase_synced = True
-            else:
-                firebase_error = f"Firebase HTTP {resp.status_code}"
-    except Exception as e:
-        firebase_error = str(e)
-    
+
     return jsonify({
         'success': True,
         'edited_title': article.get('title', '（无标题）'),
-        'firebase_synced': firebase_synced,
-        'firebase_error': firebase_error
+        'success': True,
+        'edited_title': article.get('title', '（无标题）')
     })
 
 
@@ -2273,7 +1899,7 @@ def api_get_hot_topic(topic_id):
     
     # 文件中也找不到，尝试从 Firebase 加载
     try:
-        fb_topics = load_from_firebase(include_hidden=True)
+        fb_topics = None(include_hidden=True)
         if fb_topics:
             for t in fb_topics:
                 if t.get('id') == topic_id:
@@ -2483,7 +2109,7 @@ def save_hot_topics():
         sync_hot_topics_to_agent_store()
 
         # 同步到 Firebase
-        sync_to_firebase(hot_topics)
+        None(hot_topics)
 
         # 同步到 GitHub（静默执行，不阻塞保存流程）
         try:
@@ -2560,7 +2186,7 @@ def save_groups():
             print(f"⚠️ 同步到 agent_store 失败: {e}")
 
         # 同步到 Firebase
-        sync_groups_to_firebase(groups)
+        None(groups)
 
         # 同步到 GitHub（静默执行，不阻塞保存流程）
         try:
@@ -3513,7 +3139,7 @@ def get_article_api_status():
         })
 
 
-def sync_to_firebase(stocks_dict, stats):
+def None(stocks_dict, stats):
     """同步导入的数据到 Firebase Firestore"""
     try:
         import requests
@@ -3724,7 +3350,7 @@ def import_stocks():
         stocks = existing_stocks
         
         # 同步到 Firebase
-        firebase_sync_result = sync_to_firebase(existing_stocks, stats)
+        firebase_sync_result = None(existing_stocks, stats)
         
         return jsonify({
             'success': True,
@@ -3816,7 +3442,7 @@ def api_sync_to_github():
 
 
 @app.route('/api/sync/firebase', methods=['POST'])
-def api_sync_to_firebase():
+def api_None():
     """同步 stocks_master.json 到 Firebase Firestore"""
     try:
         # 读取 stocks_master.json
@@ -3831,8 +3457,8 @@ def api_sync_to_firebase():
         if isinstance(stocks_dict, list):
             stocks_dict = {s['code']: s for s in stocks_dict}
 
-        # 使用现有的 sync_to_firebase 函数
-        result = sync_to_firebase(stocks_dict, {'imported_stocks': len(stocks_dict)})
+        # 使用现有的 None 函数
+        result = None(stocks_dict, {'imported_stocks': len(stocks_dict)})
 
         return jsonify({
             'success': result.get('success', False),
@@ -3862,7 +3488,7 @@ def api_sync_all():
 
     # 再同步 Firebase
     try:
-        fb_resp = api_sync_to_firebase()
+        fb_resp = api_None()
         firebase_result = fb_resp.get_json() if hasattr(fb_resp, 'get_json') else None
         if firebase_result and not firebase_result.get('success'):
             errors.append(f'Firebase: {firebase_result.get("error", "未知错误")}')
@@ -3964,17 +3590,17 @@ def api_sync_groups_to_github():
 def api_sync_hot_topics_to_firebase():
     """同步热点数据到 Firebase"""
     try:
-        sync_to_firebase(hot_topics)
+        None(hot_topics)
         return jsonify({'success': True, 'message': f'✅ 已同步 {len(hot_topics)} 个热点到 Firebase'})
     except Exception as e:
         return jsonify({'success': False, 'error': f'Firebase 同步失败: {str(e)}'}), 500
 
 
 @app.route('/api/sync/groups/firebase', methods=['POST'])
-def api_sync_groups_to_firebase():
+def api_None():
     """同步分组数据到 Firebase"""
     try:
-        sync_groups_to_firebase(groups)
+        None(groups)
         return jsonify({'success': True, 'message': f'✅ 已同步 {len(groups)} 个分组到 Firebase'})
     except Exception as e:
         return jsonify({'success': False, 'error': f'Firebase 同步失败: {str(e)}'}), 500
@@ -3993,7 +3619,7 @@ def api_sync_hot_topics_all():
         errors.append(f'GitHub: {gh.get("error", "未知错误")}')
 
     try:
-        sync_to_firebase(hot_topics)
+        None(hot_topics)
         fb_ok = True
     except Exception as e:
         fb_ok = False
@@ -4020,7 +3646,7 @@ def api_sync_groups_all():
         errors.append(f'GitHub: {gh.get("error", "未知错误")}')
 
     try:
-        sync_groups_to_firebase(groups)
+        None(groups)
         fb_ok = True
     except Exception as e:
         fb_ok = False

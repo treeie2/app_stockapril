@@ -1,23 +1,30 @@
 # stocks_master.json 使用说明
 
 **位置**: `data/stocks/stocks_master.json`
-**版本**: v3.0 | **衍生文件**: `stocks_meta.json` + `stocks_articles.json`
+**版本**: v3.1 | **衍生文件**: `stocks_meta.json` + `stocks_articles.json` + `stocks_master.json.gz`
 **数据量**: 3553 只 A 股 | **更新日期**: 2026-06-26
 
 ---
 
-## v3.0 数据架构
+## v3.1 数据架构
 
 ```
 stocks_master.json (8.5MB)  ← 唯一写入源，管线不变
     │
     │ build_derivatives.py
     ▼
-┌──────────────────────────────────────┐
-│ stocks_meta.json       (2.8MB)       │  ← Flask 启动加载（轻量）
-│ stocks_articles.json   (2.9MB)       │  ← 个股详情按需加载
-│ stocks_master.json.gz  (1.1MB)       │  ← Vercel/Docker 打包
-└──────────────────────────────────────┘
+┌──────────────────────────────────────────┐
+│ stocks_meta.json       (2.8MB)           │  ← Flask 启动加载（轻量，含 industry/concepts）
+│ stocks_articles.json   (2.9MB)           │  ← 个股详情按需加载
+│ stocks_master.json.gz  (1.1MB)           │  ← ModelScope 部署打包
+└──────────────────────────────────────────┘
+
+外部数据：
+┌──────────────────────────────────────────┐
+│ breakt/lyt.json        (~800KB)          │  ← lyt 老鸭头突破信号（每日）
+│ breakt/sc.json         (~10KB)           │  ← 五维评分（lyt_score）
+│ breakt/change.json     (~200KB)          │  ← 每日涨跌幅变动
+└──────────────────────────────────────────┘
 ```
 
 | 场景 | 数据源 | 说明 |
@@ -107,3 +114,15 @@ stock_arts = articles.get("002436", [])
 
 **Q: `mention_count` 的含义？**
 等于 `len(articles)`，新增文章后自动同步
+
+**Q: 行业/概念显示为"—" ？**
+`stocks_meta.json` 可能丢失了 industry/concepts 字段。运行 `python build_derivatives.py` 重建。
+
+**Q: lyt 信号（突破信号 Tab）数据在哪？**
+`breakt/lyt.json`，含 5207 条每日信号，通过 `/api/lyt-signals` API 访问。五维评分在 `breakt/sc.json`。
+
+**Q: 如何查看个股最新文章日期？**
+查看 `last_updated` 字段，格式 `YYYY-MM-DD`。衍生文件中的 `latest_date` 来自最近 article 的 `date`。
+
+**Q: 添加新文章后 mention_count 如何更新？**
+手动运行 `python build_derivatives.py` 或合并脚本自动 `mention_count = len(articles)`。

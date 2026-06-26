@@ -1,10 +1,19 @@
 # Raw Material 与数据处理流程规范
 
-**版本**: v3.0
+**版本**: v3.1
 **更新日期**: 2026-06-26
 **适用**: 微信文章→原始素材→结构化数据全流程（5 维度标准 + 轻量模式 + 数据分层）
 
 ---
+
+## 🆕 v3.1 变更说明（2026-06-26）
+
+### 数据架构简化 + Firebase 移除
+- **移除 Firebase 同步链路**：不再维护 Firestore 数据库
+- **三层部署**: GitHub（版本控制）→ Supabase（云端数据库）→ ModelScope（Web 展示）
+- **主页三 Tab**: 仪表盘 + 分组（跳转 /groups）+ 突破信号（lyt 老鸭头）
+- **行业/概念补齐**: 从同花顺 xls 批量补齐，行业覆盖率 99.7%
+- **stocks_meta.json 重建**: 包含 industry/concepts 等全部非 articles 字段
 
 ## 🆕 v3.0 变更说明（2026-06-26）
 
@@ -188,12 +197,14 @@ data/stocks_master_YYYY-MM-DD.json  ↓
 [合并到主数据 ← ← ← ← ← ← ← ← ← ← ┘
   ↓
 data/stocks/stocks_master.json（主数据，前端读取）
-    ↓
-[同步到 Firebase]  sync_stocks_to_firebase.py
-    ↓
-Firestore 数据库
-    ↓
-[Web 界面展示]（重启 Flask 生效）
+  ↓
+[build_derivatives.py] → stocks_meta.json + stocks_articles.json + .gz
+  ↓
+[Supabase 同步]  sync_to_supabase.py
+  ↓
+[ModelScope 部署]  https://treeie-aastock.ms.show
+  ↓
+[Web 界面展示]（三 Tab：仪表盘 / 分组 / 突破信号）
 ```
 
 ### Step 1: 创建 Raw Material
@@ -373,32 +384,29 @@ python scripts/merge_new_stocks.py
 python -c "import json; d=json.load(open('data/stocks/stocks_master.json','r',encoding='utf-8')); s=d['stocks'].get('002254',{}); print(s.get('name',''), len(s.get('articles',[])), 'articles'); [print('  -', a.get('title'), 'tv:', a.get('target_valuation')) for a in s.get('articles',[])]"
 ```
 
-### Step 4: 同步到 Supabase
+### Step 4: 重建衍生文件
 
 ```bash
-# 增量同步（推荐，每次合并后运行）
-python .trae/skills/wechat-fetch-research-embedded/scripts/sync_to_supabase.py --date 2026-06-20
-
-# 全量同步（首次或修复时使用）
-python .trae/skills/wechat-fetch-research-embedded/scripts/sync_to_supabase.py --full
+# 从 stocks_master.json 生成 meta + articles + gz
+python build_derivatives.py
+# 输出: stocks_meta.json (2.8MB) + stocks_articles.json (2.9MB) + stocks_master.json.gz (1.1MB)
 ```
 
-### Step 5: 推送 + Vercel 部署
-
-merge_new_stocks.py 已自动完成 git push。还需手动操作：
+### Step 5: 同步 + 部署
 
 ```bash
-# 1. 验证 json.gz 正确（~900KB，不是 60KB）
-python _regz.py
+# 1. 推 GitHub
+git add data/stocks/stocks_master.json data/stocks/*.json
+git add data/groups/ data/hot_topics/ breakt/
+git commit -m "feat: add stocks from YYYY-MM-DD article"
+git push origin main
 
-# 2. 同步到 Supabase
-python .trae/skills/wechat-fetch-research-embedded/scripts/sync_to_supabase.py --date 2026-06-20
+# 2. 同步到 Supabase（可选）
+python sync_to_supabase.py --date 2026-06-26
 
-# 3. 去 Vercel Dashboard (https://vercel.com/dashboard)
-#    → stockj 项目 → Deployments → Redeploy
+# 3. ModelScope 自动部署，或手动 Redeploy
+# https://modelscope.cn/studios/TREEIE/aastock
 ```
-
-> ⚠️ **Vercel 自动部署可能失效**，需手动 Redeploy。数据加载链：Supabase HTTP API → GitHub raw → 本地 .json.gz
 
 ---
 
@@ -504,7 +512,7 @@ python scripts/merge_new_stocks.py
 python -c "import json; d=json.load(open('data/stocks/stocks_master.json','r',encoding='utf-8')); print('Total:', len(d['stocks']), 'stocks')"
 ```
 
-#### 4. 同步到 Firebase
+#### 4. 同步到 Supabase
 
 ```bash
 # 增量同步（推荐，每次合并后运行）
@@ -546,12 +554,12 @@ git push origin main
 ### Q4: 合并后页面没有更新？
 **A**: 必须**重启 Flask 服务器**才能生效。`stocks_master.json` 在服务器启动时加载。
 
-### Q5: Firebase 同步失败怎么办？
+### Q5: Supabase 同步失败怎么办？
 **A**: 
-1. 检查 Firebase 凭证文件是否正确
+1. 检查 Supabase 连接和 API Key
 2. 检查网络连接
 3. 查看错误日志
-4. 可以跳过 Firebase 同步，先提交 Git
+4. 可以跳过 Supabase 同步，GitHub + ModelScope 即可正常展示
 
 ---
 
