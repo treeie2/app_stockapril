@@ -19,7 +19,7 @@
             color: var(--text-primary); text-decoration: none;
             font-size: 14px; font-weight: 500; transition: all 0.2s;
         }
-        .nav-btn:hover { border-color: var(--accent-blue); background: rgba(59,130,246,0.1); color: var(--accent-blue); }
+        .nav-btn:hover { border-color: var(--accent-blue); background: rgba(0,255,255,0.1); color: var(--accent-blue); }
         .nav-btn:disabled, .nav-btn.disabled { opacity: 0.4; cursor: not-allowed; }
         .sync-bar {
             position: fixed; bottom: 0; left: 0; right: 0;
@@ -43,11 +43,11 @@
         .sync-status.success { color: var(--accent-green); }
         .sync-status.error { color: var(--accent-rose); }
         .btn-edit {
-            background: rgba(59,130,246,0.15); color: var(--accent-blue);
-            padding: 8px 20px; border-radius: var(--radius-sm); border: 1px solid rgba(59,130,246,0.3);
+            background: rgba(0,255,255,0.15); color: var(--accent-blue);
+            padding: 8px 20px; border-radius: var(--radius-sm); border: 1px solid rgba(0,255,255,0.3);
             cursor: pointer; font-size: 14px; font-weight: 500; transition: all 0.2s;
         }
-        .btn-edit:hover { background: rgba(59,130,246,0.25); }
+        .btn-edit:hover { background: rgba(0,255,255,0.25); }
         .edit-section { display: none; margin: 20px 0; padding: 20px; background: var(--bg-card); border-radius: var(--radius-lg); border: 1px solid var(--border); }
         .edit-section.visible { display: block; }
         .edit-section h3 { margin: 0 0 16px; font-size: 16px; color: var(--text-primary); }
@@ -71,11 +71,11 @@
         }
         .btn-delete-article:hover { background: rgba(239,68,68,0.25); }
         .btn-edit-article {
-            background: rgba(59,130,246,0.15); color: var(--accent-blue);
-            padding: 4px 12px; border-radius: var(--radius-sm); border: 1px solid rgba(59,130,246,0.3);
+            background: rgba(0,255,255,0.15); color: var(--accent-blue);
+            padding: 4px 12px; border-radius: var(--radius-sm); border: 1px solid rgba(0,255,255,0.3);
             cursor: pointer; font-size: 12px; font-weight: 500; transition: all 0.2s; float: right;
         }
-        .btn-edit-article:hover { background: rgba(59,130,246,0.25); }
+        .btn-edit-article:hover { background: rgba(0,255,255,0.25); }
         .article-edit { margin-top: 10px; padding: 14px; background: var(--bg-secondary); border-radius: var(--radius-sm); border: 1px solid var(--border); }
         .article-edit .edit-field { margin-bottom: 10px; }
         .article-edit .edit-field label { display: block; font-size: 12px; color: var(--text-muted); margin-bottom: 2px; }
@@ -105,7 +105,7 @@
         .industry-bg {
             margin: 12px 0;
             padding: 12px 16px;
-            background: linear-gradient(135deg, rgba(6,182,212,0.06), rgba(99,179,237,0.03));
+            background: linear-gradient(135deg, rgba(0,255,255,0.06), rgba(99,179,237,0.03));
             border-left: 3px solid var(--accent-cyan);
             border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
         }
@@ -129,7 +129,7 @@
         .stock-header { display: flex; align-items: center; gap: 16px; margin-bottom: 24px; }
         .stock-code { font-size: 14px; color: var(--text-muted); }
         .stock-name { font-size: 28px; font-weight: 700; }
-        .tag { display: inline-block; padding: 2px 10px; border-radius: 20px; font-size: 12px; background: rgba(59,130,246,0.15); color: var(--accent-blue); margin: 2px; }
+        .tag { display: inline-block; padding: 2px 10px; border-radius: 20px; font-size: 12px; background: rgba(0,255,255,0.15); color: var(--accent-blue); margin: 2px; }
         .section { margin: 20px 0; padding: 20px; background: var(--bg-card); border-radius: var(--radius-lg); border: 1px solid var(--border); }
         .section h3 { margin: 0 0 12px; font-size: 16px; color: var(--text-primary); }
         .field-list { display: flex; flex-wrap: wrap; gap: 6px; }
@@ -145,7 +145,7 @@
         .price-item .value.up { color: var(--accent-rose); }
         .price-item .value.down { color: var(--accent-green); }
         .related-stock { display: inline-flex; align-items: center; gap: 6px; padding: 6px 14px; border-radius: var(--radius-sm); background: var(--bg-secondary); border: 1px solid var(--border); margin: 4px; text-decoration: none; color: var(--text-primary); font-size: 13px; transition: all 0.2s; }
-        .related-stock:hover { border-color: var(--accent-blue); background: rgba(59,130,246,0.1); }
+        .related-stock:hover { border-color: var(--accent-blue); background: rgba(0,255,255,0.1); }
         .related-stock .sim { font-size: 11px; color: var(--text-muted); }
         .loading-price { color: var(--text-muted); font-size: 14px; }
 
@@ -331,7 +331,7 @@
             {% if v.rating %}
             <div style="margin-top:12px;display:flex;gap:8px;align-items:center;">
                 <span style="font-size:13px;color:var(--text-muted);">机构评级</span>
-                <span style="padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;background:rgba(59,130,246,0.15);color:var(--accent-blue);border:1px solid rgba(59,130,246,0.3);">{{ v.rating }}</span>
+                <span style="padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;background:rgba(0,255,255,0.15);color:var(--accent-blue);border:1px solid rgba(0,255,255,0.3);">{{ v.rating }}</span>
             </div>
             {% endif %}
         </div>
@@ -484,8 +484,6 @@
     <!-- 底部同步栏 -->
     <div class="sync-bar">
         <button class="btn btn-github" onclick="syncToGithub()" id="btnGithub">⬆ 同步到 GitHub</button>
-        <button class="btn btn-firebase" onclick="syncToFirebase()" id="btnFirebase">🔥 同步到 Firebase</button>
-        <button class="btn btn-sync-all" onclick="syncAll()" id="btnSyncAll">🔄 同步全部</button>
         <div class="sync-status" id="syncStatus">就绪</div>
     </div>
 
@@ -536,52 +534,7 @@
             setButtonsLoading(false);
         }
 
-        async function syncToFirebase() {
-            setButtonsLoading(true);
-            const status = document.getElementById('syncStatus');
-            try {
-                const resp = await fetch('/api/sync/firebase', { method: 'POST' });
-                const data = await resp.json();
-                if (data.success) {
-                    status.textContent = '✅ Firebase 同步成功';
-                    status.className = 'sync-status success';
-                    showToast('✅ Firebase 同步成功', 'success');
-                } else {
-                    status.textContent = '❌ ' + (data.error || '同步失败');
-                    status.className = 'sync-status error';
-                    showToast('❌ ' + (data.error || '同步失败'), 'error');
-                }
-            } catch(e) {
-                status.textContent = '❌ 网络错误';
-                status.className = 'sync-status error';
-                showToast('❌ 网络错误: ' + e.message, 'error');
-            }
-            setButtonsLoading(false);
-        }
 
-        async function syncAll() {
-            setButtonsLoading(true);
-            const status = document.getElementById('syncStatus');
-            try {
-                const resp = await fetch('/api/sync/all', { method: 'POST' });
-                const data = await resp.json();
-                if (data.success) {
-                    status.textContent = '✅ GitHub + Firebase 全部同步成功';
-                    status.className = 'sync-status success';
-                    showToast('✅ 全部同步成功', 'success');
-                } else {
-                    const errs = data.errors ? data.errors.join('; ') : '未知错误';
-                    status.textContent = '❌ ' + errs;
-                    status.className = 'sync-status error';
-                    showToast('❌ ' + errs, 'error');
-                }
-            } catch(e) {
-                status.textContent = '❌ 网络错误';
-                status.className = 'sync-status error';
-                showToast('❌ 网络错误: ' + e.message, 'error');
-            }
-            setButtonsLoading(false);
-        }
 
         async function saveEdit() {
             const status = document.getElementById('saveStatus');
@@ -609,13 +562,13 @@
                 });
                 const result = await resp.json();
                 if (result.success) {
-                    status.textContent = '✅ 保存成功，正在同步到 GitHub 和 Firebase...';
-                    // 自动同步到 GitHub + Firebase
+                    status.textContent = '✅ 保存成功，正在同步到 GitHub...';
+                    // 自动同步到 GitHub
                     try {
-                        const syncResp = await fetch('/api/sync/all', { method: 'POST' });
+                        const syncResp = await fetch('/api/sync/github', { method: 'POST' });
                         const syncData = await syncResp.json();
                         if (syncData.success) {
-                            status.textContent = '✅ 保存并同步成功（GitHub + Firebase）';
+                            status.textContent = '✅ 保存并同步成功（GitHub）';
                             status.className = 'sync-status success';
                             showToast('✅ 保存并同步成功', 'success');
                         } else {
@@ -739,7 +692,7 @@
                     // 再同步 GitHub
                     try {
                         await fetch('/api/sync/github', { method: 'POST' });
-                        showToast('✅ 编辑成功，已同步到 GitHub + Firebase', 'success');
+                        showToast('✅ 编辑成功，已同步到 GitHub', 'success');
                     } catch(e) {
                         showToast('✅ 编辑成功，但 GitHub 同步失败', 'warning');
                     }

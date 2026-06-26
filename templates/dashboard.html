@@ -2804,7 +2804,7 @@
                 const result = await response.json();
 
                 if (result.success) {
-                    showToast('✅ 热点已同步到 GitHub + Firebase', 'var(--green)');
+                    showToast('✅ 热点已同步到 GitHub', 'var(--green)');
                 } else {
                     const errMsg = (result.errors || []).join('; ') || '未知错误';
                     showToast('⚠️ 同步部分失败: ' + errMsg, 'var(--amber)');
@@ -2831,7 +2831,7 @@
                 const result = await response.json();
 
                 if (result.success) {
-                    showToast('✅ 分组已同步到 GitHub + Firebase', 'var(--green)');
+                    showToast('✅ 分组已同步到 GitHub', 'var(--green)');
                 } else {
                     const errMsg = (result.errors || []).join('; ') || '未知错误';
                     showToast('⚠️ 同步部分失败: ' + errMsg, 'var(--amber)');

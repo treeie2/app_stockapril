@@ -15,12 +15,12 @@
             --bg-card-hover: #16202e;
             --border: rgba(99, 179, 237, 0.12);
             --border-hover: rgba(99, 179, 237, 0.35);
-            --accent-blue: #3b82f6;
-            --accent-cyan: #06b6d4;
-            --accent-green: #10b981;
-            --accent-amber: #f59e0b;
-            --accent-rose: #f43f5e;
-            --accent-purple: #8b5cf6;
+            --accent-blue: #00ffff;
+            --accent-cyan: #00ffff;
+            --accent-green: #00ff88;
+            --accent-amber: #f8e71c;
+            --accent-rose: #ff0077;
+            --accent-purple: #a855f7;
             --text-primary: #e2e8f0;
             --text-secondary: #94a3b8;
             --text-muted: #4b5563;
@@ -44,8 +44,8 @@
             inset: 0;
             z-index: 0;
             background: 
-                radial-gradient(ellipse 60% 40% at 30% 0%, rgba(59,130,246,0.07) 0%, transparent 60%),
-                radial-gradient(ellipse 40% 30% at 90% 70%, rgba(6,182,212,0.05) 0%, transparent 50%);
+                radial-gradient(ellipse 60% 40% at 30% 0%, rgba(0,255,255,0.07) 0%, transparent 60%),
+                radial-gradient(ellipse 40% 30% at 90% 70%, rgba(0,255,255,0.05) 0%, transparent 50%);
             pointer-events: none;
         }
         
@@ -95,7 +95,7 @@
         
         .nav-link.active {
             color: var(--accent-cyan);
-            background: rgba(6,182,212,0.1);
+            background: rgba(0,255,255,0.1);
         }
         
         /* 主容器 */
@@ -303,7 +303,7 @@
         }
         .nav-links-mobile.on { display: flex; }
         .nav-links-mobile .nav-link { padding: .6rem .85rem; font-size: .9rem; }
-        .nav-links-mobile .nav-link.active { color: var(--accent-cyan); background: rgba(6,182,212,.1); }
+        .nav-links-mobile .nav-link.active { color: var(--accent-cyan); background: rgba(0,255,255,.1); }
 
         /* Enhanced responsive */
         @media (max-width: 768px) {

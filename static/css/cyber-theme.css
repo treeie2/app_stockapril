@@ -1,14 +1,14 @@
 /* Cyber Research Theme - Shared Styles */
 :root {
-    --primary: #00f0ff;
+    --primary: #00ffff;
     --secondary: #7b2fff;
-    --accent: #ff00ff;
-    --bg-dark: #0a0a0f;
-    --bg-card: #12121a;
-    --bg-glass: rgba(18, 18, 26, 0.8);
-    --border: rgba(0, 240, 255, 0.2);
-    --text: #e0e0e0;
-    --text-dim: #8888aa;
+    --accent: #ff0077;
+    --bg-dark: #00041a;
+    --bg-card: #000c2a;
+    --bg-glass: rgba(0, 12, 42, 0.8);
+    --border: rgba(0, 255, 255, 0.2);
+    --text: #e0f2ff;
+    --text-dim: #4a6388;
 }
 
 * { box-sizing: border-box; }

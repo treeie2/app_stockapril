@@ -15,8 +15,8 @@
             inset: 0;
             z-index: 0;
             background: 
-                radial-gradient(ellipse 80% 40% at 20% 10%, rgba(59,130,246,0.06) 0%, transparent 60%),
-                radial-gradient(ellipse 60% 30% at 80% 80%, rgba(6,182,212,0.05) 0%, transparent 50%);
+                radial-gradient(ellipse 80% 40% at 20% 10%, rgba(0,255,255,0.06) 0%, transparent 60%),
+                radial-gradient(ellipse 60% 30% at 80% 80%, rgba(0,255,255,0.05) 0%, transparent 50%);
             pointer-events: none;
         }
         
@@ -38,7 +38,7 @@
             font-size: 1rem;
             font-weight: 700;
             letter-spacing: 0.12em;
-            color: #06b6d4;
+            color: #00ffff;
             text-decoration: none;
             display: flex;
             align-items: center;
@@ -61,7 +61,7 @@
         }
         
         .nav-link.active {
-            color: #06b6d4;
+            color: #00ffff;
         }
         
         .container {
@@ -128,7 +128,7 @@
             border: 1px solid rgba(99, 179, 237, 0.12);
             background: rgba(255,255,255,0.03);
             border-radius: 8px;
-            color: #06b6d4;
+            color: #00ffff;
             cursor: pointer;
             align-items: center;
             justify-content: center;
@@ -148,7 +148,7 @@
         }
         .nav-links-mobile.on { display: flex; }
         .nav-links-mobile .nav-link { padding: 0.6rem 0.85rem; font-size: 0.9rem; }
-        .nav-links-mobile .nav-link.active { color: #06b6d4; background: rgba(6,182,212,0.1); }
+        .nav-links-mobile .nav-link.active { color: #00ffff; background: rgba(0,255,255,0.1); }
 
         /* Responsive */
         @media (max-width: 768px) {
@@ -325,7 +325,7 @@
                     </div>
                     <div class="price-row">
                         <span class="price-label">涨跌幅</span>
-                        <span class="price-value" style="color: #f43f5e;">+2.35%</span>
+                        <span class="price-value" style="color: #ff0077;">+2.35%</span>
                     </div>
                     <div class="price-row">
                         <span class="price-label">总市值</span>
@@ -486,21 +486,21 @@
             <div class="card" style="background: rgba(255,255,255,0.03); border: 1px solid rgba(99, 179, 237, 0.12); border-radius: 16px; padding: 1.5rem;">
                 <div class="demo-title">📖 使用说明</div>
                 <div style="color: #94a3b8; line-height: 1.8; font-size: 0.85rem;">
-                    <p style="margin-bottom: 0.75rem;"><strong style="color: #06b6d4;">文件位置:</strong></p>
+                    <p style="margin-bottom: 0.75rem;"><strong style="color: #00ffff;">文件位置:</strong></p>
                     <ul style="margin-left: 1.5rem; margin-bottom: 1rem;">
                         <li>CSS: <code style="background: rgba(255,255,255,0.05); padding: 0.15rem 0.4rem; border-radius: 4px; font-family: 'JetBrains Mono', monospace;">/static/css/stock-card.css</code></li>
                         <li>模板：<code style="background: rgba(255,255,255,0.05); padding: 0.15rem 0.4rem; border-radius: 4px; font-family: 'JetBrains Mono', monospace;">/templates/components/stock_card.html</code></li>
                     </ul>
                     
-                    <p style="margin-bottom: 0.75rem;"><strong style="color: #06b6d4;">使用方式:</strong></p>
+                    <p style="margin-bottom: 0.75rem;"><strong style="color: #00ffff;">使用方式:</strong></p>
                     <p style="margin-bottom: 1rem; font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; background: rgba(255,255,255,0.05); padding: 0.75rem; border-radius: 6px;">
                         {% raw %}{% set card_type = 'base' %}
 {% set stock_data = stock %}
 {% include 'components/stock_card.html' %}{% endraw %}
                     </p>
                     
-                    <p style="margin-bottom: 0.75rem;"><strong style="color: #06b6d4;">文档:</strong></p>
-                    <p>查看 <a href="/STOCK_CARD_UI_2.0.md" style="color: #06b6d4; text-decoration: underline;">STOCK_CARD_UI_2.0.md</a> 获取完整说明</p>
+                    <p style="margin-bottom: 0.75rem;"><strong style="color: #00ffff;">文档:</strong></p>
+                    <p>查看 <a href="/STOCK_CARD_UI_2.0.md" style="color: #00ffff; text-decoration: underline;">STOCK_CARD_UI_2.0.md</a> 获取完整说明</p>
                 </div>
             </div>
         </div>
@@ -528,7 +528,7 @@
                     const changeClass = d.change >= 0 ? 'change-up' : 'change-down';
                     const changeSign = d.change >= 0 ? '+' : '';
                     el.innerHTML = `
-                        <span class="price-val" style="color:${d.change>=0?'#f43f5e':'#10b981'}">${d.price.toFixed(2)}</span>
+                        <span class="price-val" style="color:${d.change>=0?'#ff0077':'#00ff88'}">${d.price.toFixed(2)}</span>
                         <span class="${changeClass}">${changeSign}${d.change.toFixed(2)}%</span>
                         <span class="market-cap">${d.marketCap.toFixed(1)}亿</span>
                     `;

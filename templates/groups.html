@@ -8,15 +8,15 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
 :root {
-    --bg: #0a0e17;
-    --bg-card: rgba(15,22,35,.9);
-    --border: rgba(59,130,246,.15);
-    --blue: #3b82f6;
-    --green: #10b981;
-    --red: #ef4444;
-    --t1: #e2e8f0;
-    --t2: #94a3b8;
-    --t3: #64748b;
+    --bg: #00041a;
+    --bg-card: rgba(0,12,42,.9);
+    --border: rgba(0,255,255,.12);
+    --blue: #00ffff;
+    --green: #00ff88;
+    --red: #ff0077;
+    --t1: #e0f2ff;
+    --t2: #a0c4ff;
+    --t3: #4a6388;
 }
 * { margin:0; padding:0; box-sizing:border-box; }
 body { font-family:'Inter',sans-serif; background:var(--bg); color:var(--t1); min-height:100vh; }
@@ -75,7 +75,7 @@ nav .brand { font-weight:700; font-size:1rem; color:var(--t1); }
 }
 .loading-box { text-align:center; }
 .loading-spinner {
-    width:36px; height:36px; border:3px solid rgba(59,130,246,.2);
+    width:36px; height:36px; border:3px solid rgba(0,255,255,.2);
     border-top-color:var(--blue); border-radius:50%;
     animation:spin 1s linear infinite; margin:0 auto .75rem;
 }
@@ -254,7 +254,7 @@ function renderGroups(groups) {
     }
 
     grid.innerHTML = groups.map(g => {
-        const color = g.color || '#3b82f6';
+        const color = g.color || '#00ffff';
         const stocks = g.stocks || [];
         const avgChangeHtml = g.avgChange !== null
             ? `<div class="group-avg-change ${getChangeClass(g.avgChange)}">${formatChange(g.avgChange)}</div>`
