@@ -887,6 +887,48 @@ def load_hot_topics_only():
 # 懒加载数据（在第一次请求时加载）
 # load_all_data()
 
+# ==================== lyt 突破信号 API ====================
+@app.route('/api/lyt-signals')
+def api_lyt_signals():
+    """返回 lyt 每日信号数据"""
+    import json
+    try:
+        sig_file = BASE_DIR / "breakt" / "lyt_daily_signals.json"
+        if sig_file.exists():
+            with open(sig_file, 'r', encoding='utf-8') as f:
+                return jsonify(json.load(f))
+    except Exception as e:
+        print(f"lyt signals error: {e}")
+    return jsonify({"total": 0, "dates": [], "signals": {}, "names": {}})
+
+@app.route('/api/lyt-scores')
+def api_lyt_scores():
+    """返回 lyt 五维评分（从 stocks_master 提取）"""
+    import json
+    try:
+        scores = {}
+        for code, s in stocks.items():
+            score = s.get('lyt_score')
+            if score is not None:
+                scores[code] = score if isinstance(score, dict) else {"score": score}
+        return jsonify(scores)
+    except Exception as e:
+        print(f"lyt scores error: {e}")
+    return jsonify({})
+
+@app.route('/api/lyt-changes')
+def api_lyt_changes():
+    """返回 lyt 涨跌幅变动数据"""
+    import json
+    try:
+        chg_file = BASE_DIR / "breakt" / "lyt_changes.json"
+        if chg_file.exists():
+            with open(chg_file, 'r', encoding='utf-8') as f:
+                return jsonify(json.load(f))
+    except Exception as e:
+        print(f"lyt changes error: {e}")
+    return jsonify({})
+
 @app.route('/')
 def dashboard():
     # Vercel 环境：从 GitHub raw 加载最新数据
