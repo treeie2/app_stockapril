@@ -1186,11 +1186,11 @@
     </nav>
     
     <div class="wrap">
-        <!-- Three-Tab Navigation (simple inline) -->
+        <!-- Two-Tab Navigation (simple inline) -->
         <div class="tab-nav">
-            <button id="tabBtnDash" class="tab-btn active" onclick="document.getElementById('tab-dashboard').style.display='block';document.getElementById('tab-signals').style.display='none';this.classList.add('active');document.getElementById('tabBtnSig').classList.remove('active')">📊 仪表盘</button>
+            <button id="tabBtnDash" class="tab-btn active" onclick="document.getElementById('tab-dashboard').style.display='block';this.classList.add('active')">📊 仪表盘</button>
             <a href="/groups" class="tab-btn" style="text-decoration:none;display:inline-flex;align-items:center">📁 分组</a>
-            <button id="tabBtnSig" class="tab-btn" onclick="document.getElementById('tab-signals').style.display='block';document.getElementById('tab-dashboard').style.display='none';this.classList.add('active');document.getElementById('tabBtnDash').classList.remove('active');if(typeof lytInit==='function')lytInit()">📡 突破信号</button>
+            <a href="/lyt" class="tab-btn" style="text-decoration:none;display:inline-flex;align-items:center">📡 突破信号</a>
         </div>
 
         <!-- Tab: Dashboard -->
@@ -1399,41 +1399,9 @@
     
 </div><!-- end tab-dashboard -->
 
-<!-- Tab: Signals (lyt 老鸭头完整版) -->
-<div class="tab-panel" id="tab-signals">
-    <div class="lyt-wrap">
-        <div class="lyt-h">
-            <div><div class="page-title">📡 Daily Stock Signals</div><div class="page-sub" id="dinfo">--</div></div>
-            <div class="lyt-ctrl">
-                <input type="date" id="dp" onchange="lytRender()">
-                <button class="btn" onclick="lytRender()">Go</button>
-            </div>
-        </div>
-        <div class="lyt-sp" id="sp"></div>
-        <div class="lyt-gp-wrap"><div class="lyt-gp" id="gp" style="max-height:42px;overflow-y:hidden"></div></div>
-        <div style="text-align:right;margin-bottom:8px"><span class="tag" id="gptoggle" style="cursor:pointer;font-size:10px" onclick="var g=document.getElementById('gp');g.style.maxHeight=g.style.maxHeight==='42px'?'200px':'42px';this.textContent=this.textContent==='展开'?'收起':'展开'">展开</span></div>
-        <div class="lyt-tw">
-            <table>
-                <thead><tr><th>代码</th><th>名称</th><th>涨幅</th><th>五维</th><th>信号</th><th>分组</th><th>K</th></tr></thead>
-                <tbody id="tb"></tbody>
-            </table>
-        </div>
-    </div>
-</div>
-
 <script>
-        // ─── Tab Switching (defined early for all sections) ───
-        function switchTab(name) {
-            document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-            document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
-            var btn = document.querySelector('.tab-btn[data-tab=\"' + name + '\"]');
-            if (btn) btn.classList.add('active');
-            var panel = document.getElementById('tab-' + name);
-            if (panel) panel.classList.add('active');
-            if (name === 'signals') { if (typeof lytInit === 'function') lytInit(); }
-        }
 
-        // ─── Lyt Signals (copied here for early availability) ───
+        // ─── Mobile nav toggle ───
         var S=['启动','抢筹','突破','爆发','转强','起涨','主升','加速','强攻'];
         var C=['#ff9800','#e91e63','#2196f3','#f44336','#4caf50','#9c27b0','#ffd700','#00ffff','#ff0077'];
         var Dlyt=null, FDlyt=null, GRlyt=null, CHlyt=null, ASlyt={}, AGlyt={};

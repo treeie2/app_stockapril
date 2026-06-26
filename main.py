@@ -1073,6 +1073,11 @@ def groups_list():
     """所有分组列表页"""
     return render_template('groups.html')
 
+@app.route('/lyt')
+def lyt_page():
+    """突破信号页（lyt 老鸭头）"""
+    return render_template('lyt.html')
+
 @app.route('/group/<group_id>')
 def group_detail(group_id):
     """分组详情页"""
