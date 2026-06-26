@@ -4,4 +4,4 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt gunicorn
 COPY . .
 EXPOSE 7860
-CMD ["gunicorn", "main:app", "-b", "0.0.0.0:7860", "-w", "2", "--timeout", "120"]
+CMD ["gunicorn", "main:app", "-b", "0.0.0.0:7860", "-w", "1", "--timeout", "600", "--preload"]

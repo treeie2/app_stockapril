@@ -744,8 +744,13 @@ def load_all_data():
         return False
     
     try:
-        # ─── 优先 GitHub raw（最可靠，总最新） ───
-        if not _load_from_github_fallback():
+        # ─── 优先本地文件（最快，Docker已打包） ───
+        loaded, loaded_c = load_data_from_local()
+        if loaded:
+            stocks.update(loaded)
+            concepts.update(loaded_c)
+            print(f"  ✅ 本地文件: {len(loaded)} stocks")
+        elif not _load_from_github_fallback():
             # ─── 回退：Supabase ───
             print("  尝试 Supabase...")
             sb_stocks, sb_concepts = load_data_from_supabase_http()
@@ -754,7 +759,6 @@ def load_all_data():
                 concepts.update(sb_concepts)
                 print(f"  ✅ Supabase: {len(sb_stocks)} stocks")
             else:
-                # ─── 最终回退：本地文件 ───
                 print("  尝试本地文件...")
                 loaded, loaded_c = load_data_from_local()
                 if loaded:
