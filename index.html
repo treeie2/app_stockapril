@@ -31,6 +31,9 @@ header .meta{display:inline;color:var(--t3);font-size:.75rem;margin-left:10px}
 .card .tag.yl{background:rgba(245,158,11,.15);color:var(--yellow)}
 .card .pos{font-size:.7rem;color:var(--t2);margin-top:6px;line-height:1.4}
 .card .footer{display:flex;justify-content:space-between;margin-top:10px;font-size:.65rem;color:var(--t3)}
+.mkt-price{font-size:.85rem;font-weight:600;font-family:monospace}
+.mkt-chg{font-size:.75rem;font-weight:600;font-family:monospace}
+.mkt-cap{font-size:.65rem;font-family:monospace;color:var(--t3)}
 .card .signals{color:var(--cyan)}
 .card .dims{display:flex;gap:4px;margin-top:6px}
 .card .dim{width:40px;height:4px;border-radius:2px;background:var(--bdr);overflow:hidden}
@@ -177,15 +180,21 @@ function renderStocks(){
     const dimsHtml = dims.length ? `<div class="dims">${dims.map((v,i)=>`<div class="dim"><div class="bar s${i}" style="width:${Math.min(v*10,100)}%"></div></div>`).join('')}</div>` : '';
     const pos = s.p.slice(0,2).join(' · ');
     const scHtml = s.sc ? `<span class="signals">📡 ${s.sc}</span>` : '';
-    return `<div class="card" onclick="openDetail('${s.c}')">
+    const upd = s.d ? `🕐${s.d.slice(5)}` : '';
+    return `<div class="card" onclick="openDetail('${s.c}')" id="card-${s.c}">
       <div class="top">
         <div><span class="code">${s.c}</span> <span class="name">${s.n}</span></div>
         <span class="mention">${s.m}</span>
       </div>
       ${dimsHtml}
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-top:6px">
+        <span class="mkt-price" id="pr-${s.c}">—</span>
+        <span class="mkt-chg" id="ch-${s.c}">—</span>
+        <span class="mkt-cap" id="mc-${s.c}">—</span>
+      </div>
       <div class="row">${s.t.slice(0,4).map(t=>`<span class="tag">${t}</span>`).join('')}</div>
       <div class="pos">${pos}</div>
-      <div class="footer"><span>${s.d||'-'}</span>${scHtml}</div>
+      <div class="footer"><span>${upd}</span>${scHtml}</div>
     </div>`;
   }).join('');
 
@@ -196,9 +205,30 @@ function renderStocks(){
     pg += `<button class="${i===currentPage?'active':''}" onclick="goPage(${i})">${i}</button>`;
   }
   document.getElementById('pagination').innerHTML = pg;
+  fetchMarketData(page.map(s=>s.c));
 }
 
 function goPage(p){currentPage=p;renderStocks();window.scrollTo(0,0)}
+
+// ===== MARKET DATA =====
+async function fetchMarketData(codes){
+  if(!codes.length) return;
+  const prefix = c => (c.startsWith('6')?'1.':'0.')+c;
+  const batch = (arr,n) => Array.from({length:Math.ceil(arr.length/n)},(_,i)=>arr.slice(i*n,i*n+n));
+  for(const chunk of batch(codes,80)){
+    const secids = chunk.map(prefix).join(',');
+    try{
+      const r = await fetch(`https://push2.eastmoney.com/api/qt/ulist.np?fltt=2&fields=f2,f3,f20,f12&secids=${secids}`);
+      const d = await r.json();
+      if(d.data&&d.data.diff){d.data.diff.forEach(q=>{
+        const c = q.f12, elP = document.getElementById('pr-'+c), elC = document.getElementById('ch-'+c), elM = document.getElementById('mc-'+c);
+        if(elP){elP.textContent=q.f2!=='-'?(q.f2/1).toFixed(2):'—';elP.style.color='#e2e8f0'}
+        if(elC){const v=parseFloat(q.f3);elC.textContent=isNaN(v)?'—':(v>0?'+':'')+v.toFixed(2)+'%';elC.style.color=v>0?'#ef4444':v<0?'#10b981':'#94a3b8'}
+        if(elM){const v=parseFloat(q.f20);elM.textContent=v>0?(v>1e8?(v/1e8).toFixed(0)+'亿':(v/1e4).toFixed(0)+'万'):'—';elM.style.color='#64748b'}
+      })}
+    }catch(e){}
+  }
+}
 
 // ===== DETAIL =====
 async function openDetail(code){
