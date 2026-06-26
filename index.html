@@ -64,9 +64,6 @@ header .meta{display:inline;color:var(--t3);font-size:.75rem;margin-left:10px}
 .group-stocks{margin-top:8px}
 .group-stocks .s-item{display:inline-block;padding:2px 8px;margin:2px;background:rgba(99,102,241,.1);border-radius:4px;font-size:.7rem;cursor:pointer}
 .group-stocks .s-item:hover{background:var(--accent);color:#fff}
-.grp-chg{font-size:.75rem;font-weight:600;margin-left:6px}
-.grp-refresh{background:none;border:1px solid var(--bdr);color:var(--t3);padding:2px 8px;border-radius:4px;font-size:.65rem;cursor:pointer}
-.grp-refresh:hover{background:var(--accent);color:#fff;border-color:var(--accent)}
 
 .pagination{display:flex;justify-content:center;gap:6px;padding:16px}
 .pagination button{padding:6px 14px;background:var(--card);border:1px solid var(--bdr);color:var(--t2);border-radius:6px;cursor:pointer;font-size:.8rem}
@@ -103,6 +100,9 @@ header .meta{display:inline;color:var(--t3);font-size:.75rem;margin-left:10px}
 </div>
 
 <div class="count-info" id="countInfo"></div>
+<div class="grid-header" id="gridHeader" style="display:none;padding:0 20px 4px;font-size:.7rem;color:var(--t3);display:grid;grid-template-columns:1fr 100px 80px 80px;gap:10px">
+  <span>代码 / 名称</span><span>价格 / 涨幅</span><span>市值</span><span>更新</span>
+</div>
 <div id="content"></div>
 <div class="pagination" id="pagination"></div>
 
