@@ -8,16 +8,19 @@ description: |
   （3）合并到 stocks_master.json；（4）同步 GitHub + Supabase。
 ---
 
-# wechat-fetch-research-embedded (v3.0)
+# wechat-fetch-research-embedded (v3.1)
 
 > 云端龙虾环境专用。通过飞书接收微信文章链接，自动化投研数据流水线。
+> v3.1 新增：`build_derivatives.py` 生成轻量 meta + articles，Flask 启动快 3x
 
 ## 目录约定
 
 ```
 项目根目录 (f:/app_stockapril)/
 ├── data/stocks/
-│   ├── stocks_master.json           # 主数据库（前端读取）
+│   ├── stocks_master.json           # 主数据库（唯一写入源）
+│   ├── stocks_meta.json             # 轻量版（Flask 启动，2.8MB）
+│   ├── stocks_articles.json         # 文章分离（按需加载）
 │   ├── stocks_master.json.gz        # 压缩版
 │   ├── stocks_index.json            # 全局索引
 │   └── YYYY-MM-DD.json              # 日期分片
@@ -25,6 +28,9 @@ description: |
 │   └── groups.json                  # 分组数据
 ├── data/hot_topics/
 │   └── hot_topics.json              # 热门题材
+├── breakt/
+│   ├── lyt_daily_signals.json       # lyt 5207 条信号（老鸭头）
+│   └── lyt_changes.json             # lyt 变动记录
 ├── .trae/skills/wechat-fetch-research-embedded/
 │   ├── SKILL.md                     # 本文件
 │   ├── config.json                  # LLM 配置

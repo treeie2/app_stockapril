@@ -573,24 +573,32 @@ def load_data_from_local():
     print("📋 从数据源加载数据...")
     print(f"  BASE_DIR: {BASE_DIR}")
     
-    # v2.4: .json.gz 优先（Vercel 部署排除 .json）
+    # v3.0: stocks_meta.json 优先（轻量，无 articles）
     possible_paths = [
+        BASE_DIR / 'data' / 'stocks' / 'stocks_meta.json',
         BASE_DIR / 'data' / 'stocks' / 'stocks_master.json.gz',
         BASE_DIR / 'data' / 'stocks' / 'stocks_master.json',
+        BASE_DIR / 'static' / 'stocks_meta.json',
         BASE_DIR / 'static' / 'stocks_master.json.gz',
         BASE_DIR / 'static' / 'stocks_master.json',
+        BASE_DIR.parent / 'data' / 'stocks' / 'stocks_meta.json',
         BASE_DIR.parent / 'data' / 'stocks' / 'stocks_master.json.gz',
         BASE_DIR.parent / 'data' / 'stocks' / 'stocks_master.json',
+        BASE_DIR.parent / 'static' / 'stocks_meta.json',
         BASE_DIR.parent / 'static' / 'stocks_master.json.gz',
         BASE_DIR.parent / 'static' / 'stocks_master.json',
         # Vercel api 目录特殊处理
+        Path(__file__).parent / 'stocks_meta.json',
         Path(__file__).parent / 'stocks_master.json.gz',
         Path(__file__).parent / 'stocks_master.json',
+        Path(__file__).parent.parent / 'stocks_meta.json',
         Path(__file__).parent.parent / 'stocks_master.json.gz',
         Path(__file__).parent.parent / 'stocks_master.json',
         # 绝对路径（Vercel serverless 环境）
+        Path('/var/task/data/stocks/stocks_meta.json'),
         Path('/var/task/data/stocks/stocks_master.json.gz'),
         Path('/var/task/data/stocks/stocks_master.json'),
+        Path('/var/task/static/stocks_meta.json'),
         Path('/var/task/static/stocks_master.json.gz'),
         Path('/var/task/static/stocks_master.json'),
         Path('/var/task/api/stocks_master.json'),
@@ -712,6 +720,7 @@ hot_topics = []
 groups = []
 lyt_scores = {}
 lyt_signals = {"total": 0, "dates": [], "signals": {}}
+_articles_cache = {}
 _data_loaded = False
 
 def load_all_data():
@@ -820,6 +829,36 @@ def load_lyt_data():
         print(f"📊 lyt 五维评分：已嵌入 stocks（lyt_score 字段）")
     except Exception as e:
         print(f"⚠️ lyt 数据加载失败：{e}")
+
+
+def load_articles_for_stock(code):
+    """按需加载单只股票的 articles（避免启动时加载全部 8MB）"""
+    global _articles_cache
+    if code in _articles_cache:
+        return _articles_cache[code]
+    
+    # 1. 先查内存中是否已有
+    if code in stocks and stocks[code].get("articles"):
+        _articles_cache[code] = stocks[code]["articles"]
+        return stocks[code]["articles"]
+    
+    # 2. 从 stocks_articles.json 按需加载
+    arts_file = BASE_DIR / "data" / "stocks" / "stocks_articles.json"
+    if not arts_file.exists():
+        arts_file = Path("/var/task/data/stocks/stocks_articles.json")
+    
+    try:
+        import json as _json
+        with open(arts_file, "r", encoding="utf-8") as f:
+            all_arts = _json.load(f)
+        _articles_cache[code] = all_arts.get(code, [])
+        # 回填到内存
+        if code in stocks:
+            stocks[code]["articles"] = _articles_cache[code]
+        return _articles_cache[code]
+    except Exception as e:
+        print(f"⚠️ 按需加载 articles 失败({code}): {e}")
+    return []
 
 
 def load_hot_topics_only():
@@ -1403,7 +1442,11 @@ def stock_detail(code):
             return jsonify({'error': '股票不存在'}), 404
     d = stocks[code]
     
-    # 构建完整的 stock 对象
+    # v3.0: 按需加载 articles（stocks_meta.json 不含 articles）
+    if not d.get("articles") and d.get("article_count", 0) > 0:
+        d["articles"] = load_articles_for_stock(code)
+        d["mention_count"] = d.get("article_count", 0)
+    
     stock = {
         'code': code,
         'name': d.get('name', ''),

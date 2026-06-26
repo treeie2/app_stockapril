@@ -1,16 +1,25 @@
 # Raw Material 与数据处理流程规范
 
-**版本**: v2.9
-**更新日期**: 2026-06-21
-**适用**: 微信文章→原始素材→结构化数据全流程（5 维度标准 + 轻量模式）
+**版本**: v3.0
+**更新日期**: 2026-06-26
+**适用**: 微信文章→原始素材→结构化数据全流程（5 维度标准 + 轻量模式 + 数据分层）
 
 ---
+
+## 🆕 v3.0 变更说明（2026-06-26）
+
+### 数据分层架构 + lyt 突破信号
+- **stocks_master.json 保持不变**：唯一写入源，管线不受影响
+- **新增 stocks_meta.json**（2.8MB）：不含 articles，Flask 启动快 3x
+- **新增 stocks_articles.json**：articles 分离，详情页按需加载
+- **build_derivatives.py**：从 master 生成 meta + articles + gz
+- **ModelScope 部署**：https://modelscope.cn/studios/TREEIE/aastock
+- **三 Tab 首页**：仪表盘 + 分组 + 突破信号（lyt 老鸭头）
 
 ## 🆕 v2.9 变更说明（2026-06-21）
 
 ### json.gz 自动生成 + Supabase 同步
-- **merge_new_stocks.py** 保存主文件时自动生成 `stocks_master.json.gz`（~914KB）
-- **Vercel 优先读取 `.gz`**：加载更快，节省空间
+- **merge_new_stocks.py** 保存主文件时自动生成 `stocks_master.json.gz`
 - **Supabase 替代 Firebase**：`sync_to_supabase.py` 全量/增量同步
 - **日期格式强制 YYYY-MM-DD**：`normalize_dates.py` 检查和修复
 
