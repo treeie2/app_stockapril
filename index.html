@@ -114,18 +114,18 @@ let pageSize = 24, currentPage = 1;
 // ===== INIT =====
 async function init(){
   try{
-    const r = await fetch('data/summary.json.gz');
+    const r = await fetch('data/summary.json');
     allStocks = await r.json();
     document.getElementById('updateTime').textContent = ' | ' + allStocks.length + ' 只个股';
   }catch(e){console.error('summary load failed',e)}
 
   try{
-    const r = await fetch('data/groups.json.gz');
+    const r = await fetch('data/groups.json');
     allGroups = await r.json();
   }catch(e){}
 
   try{
-    const r = await fetch('data/signals.json.gz');
+    const r = await fetch('data/signals.json');
     signalsMap = await r.json();
   }catch(e){}
 
