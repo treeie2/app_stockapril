@@ -1,0 +1,3946 @@
+{
+  "date": "2026-06-19",
+  "update_count": 83,
+  "stocks": {
+    "300604": {
+      "name": "长川科技",
+      "code": "300604",
+      "board": "SZ",
+      "industry": "",
+      "concepts": [],
+      "products": [
+        "SOC芯片测试机",
+        "SoC测试设备",
+        "存储测试设备",
+        "模拟测试机"
+      ],
+      "core_business": [
+        "半导体测试设备的研发、生产和销售。"
+      ],
+      "industry_position": [
+        "产品布局最全",
+        "国产SoC与存储测试机的领头羊"
+      ],
+      "chain": [
+        "中游-设备"
+      ],
+      "partners": [
+        "H客户"
+      ],
+      "mention_count": 2,
+      "articles": [
+        {
+          "title": "今天的一些信息整理6.19",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/BXLCmC6P5o6CDI8tNeijAg",
+          "industry_background": [],
+          "accidents": [
+            "STS8600系列面向高性能SOC芯片测试，包括人工智能（AI）、高性能计算（H..."
+          ],
+          "insights": [
+            "深度绑定H客户，显著受益于爱德万断供。公司产品布局最全。"
+          ],
+          "key_metrics": [
+            "市场空间是模拟测试机4-6倍"
+          ],
+          "target_valuation": []
+        },
+        {
+          "title": "SK海力士12层HBM4E送样催化下：存储与先进封装产业链深度价值机会分析",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/tJ90ZHfjTi9KPDaZMjBN5g",
+          "industry_background": [],
+          "accidents": [
+            "HBM4E因多引脚、高层数，测试工艺已由基础的成品测试进化为高复杂度的KGD（K..."
+          ],
+          "insights": [
+            "公司是国产SoC与存储测试机的领头羊，存储测试第二成长曲线已开始进入兑现周期。"
+          ],
+          "key_metrics": [
+            "2025年归母净利润达13.31亿元，同比大涨190.42%",
+            "净利润量级跃迁至4.58亿元至13.31亿元"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "300679": {
+      "name": "电连技术",
+      "code": "300679",
+      "board": "SZ",
+      "industry": "",
+      "concepts": [],
+      "products": [
+        "NVPogopin",
+        "RubinUltra正交背板Pogopin"
+      ],
+      "core_business": [],
+      "industry_position": [
+        "未来有望成为主力供应商"
+      ],
+      "chain": [],
+      "partners": [
+        "富士康"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "今天的一些信息整理6.19",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/BXLCmC6P5o6CDI8tNeijAg",
+          "industry_background": [],
+          "accidents": [
+            "公司前期给富士康送样RubinUltra正交背板Pogopin测试顺利，不存在出局情况。",
+            "公司在产能方面积极筹备。"
+          ],
+          "insights": [
+            "有助于在客户端拿下大份额，未来有望成为主力供应商。",
+            "NVPogopin业务有望带领公司迈向百亿甚至千亿收入梯队。"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "300806": {
+      "name": "斯迪克",
+      "code": "300806",
+      "board": "SZ",
+      "industry": "",
+      "concepts": [],
+      "products": [
+        "MLCC离型膜",
+        "光学膜",
+        "基膜"
+      ],
+      "core_business": [
+        "实现核心原材料自给"
+      ],
+      "industry_position": [
+        "同业最优",
+        "存量头部企业抢占份额优势明显"
+      ],
+      "chain": [],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "今天的一些信息整理6.19",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/BXLCmC6P5o6CDI8tNeijAg",
+          "industry_background": [],
+          "accidents": [
+            "现有3条基膜线，2条专供MLCC（4w吨产能，同业最优）、1条配套光学膜，实现核心原材料自给。",
+            "斯迪克拥有百人设备团队，设备交货周期为6个月，且是针对MLCC离型膜的专用设备，相比日韩通用设备机速更高。"
+          ],
+          "insights": [
+            "自有基膜自给，对标同业优势显著，成本与供应链稳定性更强。",
+            "下游需求高增，头部客户突破在即。",
+            "高端产能需配套专属拉伸、涂布设备，海外进口设备周期8个月-1.5年，新玩家扩产难度极大；且基膜扩产周期2年，存量头部企业抢占份额优势明显。"
+          ],
+          "key_metrics": [
+            "4w吨产能",
+            "设备交货周期为6个月",
+            "海外进口设备周期8个月-1.5年",
+            "基膜扩产周期2年"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "301369": {
+      "name": "联动科技",
+      "code": "301369",
+      "board": "SZ",
+      "industry": "电子-半导体设备-测试设备",
+      "concepts": [],
+      "products": [
+        "SoC测试机",
+        "功率半导体测试机"
+      ],
+      "core_business": [
+        "从功率半导体测试机起家，覆盖全球主流功率器件公司"
+      ],
+      "industry_position": [
+        "功率芯片测试机龙头"
+      ],
+      "chain": [
+        "中游-设备制造"
+      ],
+      "partners": [
+        "天数智芯"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "今天的一些信息整理6.19",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/BXLCmC6P5o6CDI8tNeijAg",
+          "industry_background": [
+            "“AI +车规+存储”高景气共振，AI芯片尺寸更大、更复杂，测试时长增加导致分选机环节通胀，拉动分选机市场翻倍以上增长，国内竞争格局更优"
+          ],
+          "accidents": [
+            "新推出SoC测试机9800面向AI、大算力市场",
+            "与天数智芯战略合作"
+          ],
+          "insights": [
+            "功率芯片测试机龙头，延伸至SoC领域",
+            "有望打破海外垄断"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "688200": {
+      "name": "华峰测控",
+      "code": "688200",
+      "board": "SH",
+      "industry": "电子-半导体设备-测试设备",
+      "concepts": [],
+      "products": [
+        "SoC测试机",
+        "模拟测试机"
+      ],
+      "core_business": [
+        "半导体自动化测试系统（ATE）"
+      ],
+      "industry_position": [
+        "SoC量产的唯一国内品牌",
+        "模拟测试国内第一"
+      ],
+      "chain": [
+        "中游-设备制造"
+      ],
+      "partners": [
+        "H客户",
+        "北美头部X公司"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "今天的一些信息整理6.19",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/BXLCmC6P5o6CDI8tNeijAg",
+          "industry_background": [
+            "“AI +车规+存储”高景气共振，AI芯片尺寸更大、更复杂，测试时长增加导致分选机环节通胀，拉动分选机市场翻倍以上增长，国内竞争格局更优",
+            "国产替代空间巨大；爱德万25年收入接近500亿，27年预计达到800亿；泰瑞达25年收入220亿，27年预计达到400亿，中国4家上市ATE公司25年合计收入仅80亿"
+          ],
+          "accidents": [
+            "STS8600系列则面向高性能SOC芯片测试，包括人工智能（AI）、高性能计算（HPC）及汽车电子等",
+            "8600已经通过算力相关客户验证",
+            "收购新加坡STI是北美头部X公司供应商"
+          ],
+          "insights": [
+            "模拟国内第一，SoC今年有望实现订单0到1的突破",
+            "是目前SoC量产的唯一国内品牌，后续受益于H客户AI芯片放量及两存扩产"
+          ],
+          "key_metrics": [
+            "市场空间是模拟测试机4-6倍"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "688809": {
+      "name": "强一股份",
+      "code": "688809",
+      "board": "SH",
+      "industry": "电子-半导体设备-测试设备",
+      "concepts": [],
+      "products": [
+        "MEMS探针卡"
+      ],
+      "core_business": [
+        "探针卡研发、生产与销售"
+      ],
+      "industry_position": [
+        "全球第六、唯一内资探针卡龙头"
+      ],
+      "chain": [
+        "中游-设备制造"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "今天的一些信息整理6.19",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/BXLCmC6P5o6CDI8tNeijAg",
+          "industry_background": [
+            "“AI +车规+存储”高景气共振，AI芯片尺寸更大、更复杂，测试时长增加导致分选机环节通胀，拉动分选机市场翻倍以上增长，国内竞争格局更优",
+            "AI 算力/存储高景气"
+          ],
+          "accidents": [
+            "MEMS探针卡“卡脖子”突破，全链条自主可控"
+          ],
+          "insights": [
+            "全球第六、唯一内资探针卡龙头",
+            "AI算力+存储测试双轮驱动，测试时长是原来3-5倍，探针卡量价齐升"
+          ],
+          "key_metrics": [
+            "测试时长是原来3-5倍"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "000039": {
+      "name": "中集集团",
+      "code": "000039",
+      "board": "SZ",
+      "industry": "交通运输-航运港口-集装箱制造",
+      "concepts": [],
+      "products": [
+        "储能箱",
+        "冷藏箱",
+        "干货集装箱",
+        "模块化数据中心",
+        "预制化数据中心技术"
+      ],
+      "core_business": [
+        "为AI及云计算客户提供预制化数据中心技术与制造交付服务",
+        "全球领先的集装箱制造企业，业务涵盖干货集装箱、冷藏箱和特种箱等。"
+      ],
+      "industry_position": [
+        "中国造箱企业占据了全球90%以上的市场份额，中集集团是代表企业。",
+        "全球集装箱制造行业的绝对霸主，在干货集装箱和冷藏箱领域的市占率常年稳居全球第一。"
+      ],
+      "chain": [
+        "上游-设备制造"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "航线全面爆舱：相关受益概念分析",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/PM_kj8LtIweaTRVRfGBYxQ",
+          "industry_background": [
+            "中美航线全面爆舱、舱位紧张，集装箱设备制造与租赁板块迎来‘物理短缺与周期复苏’的双重共振景气红利。",
+            "中东局势及绕行好望角使船舶平均航程显著拉长，集装箱重箱和空箱在跨太平洋航线上的往返周转天数大幅增加。",
+            "大量的空箱滞留在美西、美东及欧洲目的港，无法及时运回中国各出口始发口岸，直接导致了宁波、上海、深圳等港口的物理性‘一箱难求’。"
+          ],
+          "accidents": [
+            "进入2026年，集装箱板块呈现加速复苏态势，公司在2026年第一季度实现营业收入...",
+            "在中美航线爆舱、备箱需求暴增的背景下，中集干箱业务的订单能见度和排产价格大幅攀升。"
+          ],
+          "insights": [
+            "作为全球集装箱制造行业的绝对霸主，市占率常年稳居全球第一，将直接受益于‘物理性短缺’转化为的新箱制造订单。",
+            "其‘集装箱+’卫星增量业务（如储能箱批量向欧美交付）以及海工底部的强劲复苏，正在构建起强劲的业绩增长新动能。"
+          ],
+          "key_metrics": [
+            "2025年实现营业收入1566.11亿元，归母净利润为2.21亿元。",
+            "2026年第一季度实现营业收入360.26亿元，归母净利润5.438亿元。",
+            "券商对中集集团2024-2026年的归母净利润预测分别达到27.8亿元、38.6亿元和48.7亿元。"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "002463": {
+      "name": "沪电股份",
+      "code": "002463",
+      "board": "SZ",
+      "industry": "电子-印制电路板",
+      "concepts": [],
+      "products": [
+        "CoWoP技术",
+        "PCB",
+        "mSAP工艺",
+        "光模块PCB",
+        "光铜融合技术"
+      ],
+      "core_business": [
+        "PCB制造。",
+        "光模块PCB制造",
+        "投资设立全资子公司，搭建前沿技术与先进工艺的孵化平台，布局下一代技术方向"
+      ],
+      "industry_position": [
+        "PCB Top4",
+        "以技术创新为引擎拓宽差异化护城河",
+        "光模块PCB龙头",
+        "头部PCB厂商。"
+      ],
+      "chain": [
+        "下游-电子制造（PCB）",
+        "中游-PCB制造",
+        "中游-制造/加工"
+      ],
+      "partners": [],
+      "mention_count": 3,
+      "articles": [
+        {
+          "title": "PCB钻针的超级β——AI算力链核心资产",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/KzrjcxNpGg6gIlWpvCltjw",
+          "industry_background": [
+            "AI服务器从试点采购进入放量阶段，PCB层数、孔密度和加工难度全面提升，钻针消耗量直接增加，高端微钻需求被放大。",
+            "面对进口替代窗口，国内厂商分成钨产业链原生厂商和新进入厂商两类，核心都是卡位高端棒材和纳米级碳化钨粉这两个最紧缺的环节。"
+          ],
+          "accidents": [
+            "2025年Q1净利润同比增长48%。"
+          ],
+          "insights": [
+            "作为头部PCB厂商，在AI服务器放量阶段业绩集中兑现。"
+          ],
+          "key_metrics": [
+            "2025年Q1净利润同比+48%"
+          ],
+          "target_valuation": []
+        },
+        {
+          "title": "2026-06-18 机构调研汇总",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/Cd4jVdNNvb3ztY60jOPyaA",
+          "industry_background": [],
+          "accidents": [
+            "2026年初公司在常州市金坛区投资设立全资子公司，搭建CoWoP等前沿技术与mSAP等先进工艺的孵化平台。",
+            "布局光铜融合等下一代技术方向。"
+          ],
+          "insights": [
+            "构建“研发-中试-验证-应用”闭环体系，系统提升产品的信号传输、电源分配及功能集成能力。",
+            "将研发端技术前瞻性与制造端大规模量产能力深度耦合，以技术创新为引擎拓宽差异化护城河。"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        },
+        {
+          "title": "第二篇：算力硬件制造赛道（PCB+高速链接+铜箔+树脂+电子布）AI服务器PCB供不应求！铜箔/树脂/电子布同步涨价",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/IJhC6z29mP4tURmfreNoxw",
+          "industry_background": [
+            "AI算力爆发带动PCB全产业链需求上行",
+            "上游铜箔、高频树脂、电子布受原料、海外供给约束同步涨价",
+            "中游PCB企业开启大规模扩产卡位高端产能",
+            "国内打通从玻纤、树脂、铜箔到PCB、高速连接器的完整产业链，不再依赖海外基材进口"
+          ],
+          "accidents": [
+            "年内百亿级扩产落地"
+          ],
+          "insights": [
+            "光模块PCB龙头",
+            "800G/1.6T配套板出货量国内前列"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "000893": {
+      "name": "亚钾国际",
+      "code": "000893",
+      "board": "SZ",
+      "industry": "",
+      "concepts": [],
+      "products": [
+        "氯化钾"
+      ],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "2026-06-18 机构调研汇总",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/Cd4jVdNNvb3ztY60jOPyaA",
+          "industry_background": [],
+          "accidents": [
+            "截至6月17日国产氯化钾60%晶价格3280元/吨，走势平稳。",
+            "东南亚市场处需求旺季，据阿格斯数据氯化钾标准现货CFR为395-423美元/吨，..."
+          ],
+          "insights": [
+            "__THIN__"
+          ],
+          "key_metrics": [
+            "国产氯化钾60%晶价格3280元/吨",
+            "氯化钾标准现货CFR为395-423美元/吨",
+            "泰国/越南大颗粒CFR为430-440美元/吨",
+            "较印度钾肥大合同价格高出12-40美元/吨"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "000951": {
+      "name": "中国重汽",
+      "code": "000951",
+      "board": "SZ",
+      "industry": "",
+      "concepts": [],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "2026-06-18 机构调研汇总",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/Cd4jVdNNvb3ztY60jOPyaA",
+          "industry_background": [],
+          "accidents": [
+            "公司2025年分红比例提升至58%，近五年来持续稳步提升分红比例，近日已对外披露年度权益分派实施公告。",
+            "在经营业绩稳健增长的基础上，公司承诺在保障健康运营前提下持续提高现金分红比例。"
+          ],
+          "insights": [
+            "努力为投资者创造合理可预期的回报。"
+          ],
+          "key_metrics": [
+            "2025年分红比例提升至58%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "001267": {
+      "name": "汇绿生态",
+      "code": "001267",
+      "board": "SZ",
+      "industry": "",
+      "concepts": [],
+      "products": [
+        "400G/800G高速光模块"
+      ],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "2026-06-18 机构调研汇总",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/Cd4jVdNNvb3ztY60jOPyaA",
+          "industry_background": [],
+          "accidents": [
+            "鄂州一期150万只已于2025年底投产聚焦400G/800G高速光模块；马来西亚...",
+            "公司将根据订单灵活释放产能，确保稳定交付。"
+          ],
+          "insights": [
+            "__THIN__"
+          ],
+          "key_metrics": [
+            "鄂州一期150万只",
+            "马来西亚基地100-150万只",
+            "鄂州二期300万只",
+            "预计2027年底投产"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "002152": {
+      "name": "广电运通",
+      "code": "002152",
+      "board": "SZ",
+      "industry": "计算机-金融IT-金融设备及服务",
+      "concepts": [],
+      "products": [
+        "AI机器人",
+        "数字人民币技术服务",
+        "超柜机器人"
+      ],
+      "core_business": [
+        "提供数字人民币全栈技术服务，并切入具身智能赛道研发AI机器人。"
+      ],
+      "industry_position": [
+        "国内少数可提供数字人民币全栈技术服务的公司"
+      ],
+      "chain": [],
+      "partners": [
+        "国有大行"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "2026-06-18 机构调研汇总",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/Cd4jVdNNvb3ztY60jOPyaA",
+          "industry_background": [],
+          "accidents": [
+            "公司2025年底成立超智机器公司正式切入具身智能赛道，已完成超柜机器人、网点AI机器人两款产品研发。",
+            "G100网点AI机器人与G200人形机器人已亮相第十五届广州金交会，两款产品均搭..."
+          ],
+          "insights": [
+            "广电运通是国内少数可提供数字人民币全栈技术服务的公司，已打造广州、北部湾等地市数字人民币区域性平台，覆盖批发零售、公共服务、跨境结算等多元领域。",
+            "公司深度参与金融机构数字化转型，拓展数字支付、数据服务、数字财政等增量业务。",
+            "全国超22万个银行网点存在机器人应用需求。"
+          ],
+          "key_metrics": [
+            "全国超22万个银行网点存在机器人应用需求。"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "002003": {
+      "name": "伟星股份",
+      "code": "002003",
+      "board": "SZ",
+      "industry": "",
+      "concepts": [],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "2026-06-18 机构调研汇总",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/Cd4jVdNNvb3ztY60jOPyaA",
+          "industry_background": [],
+          "accidents": [
+            "公司将对现有海外园区进行技术改造、扩充品类等，不断提升全球制造保障能力。"
+          ],
+          "insights": [
+            "公司未来几年资本开支的主要方向包括现有工厂智能制造水平的改进提升、推进募投项目达产达效以及海外产能扩张等。",
+            "在风险控制前提下审慎决策重大资本开支。"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "301421": {
+      "name": "波长光电",
+      "code": "301421",
+      "board": "SZ",
+      "industry": "",
+      "concepts": [],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "2026-06-18 机构调研汇总",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/Cd4jVdNNvb3ztY60jOPyaA",
+          "industry_background": [],
+          "accidents": [
+            "公司首发前限售股68,868,390股拟于2026年8月23日解除限售，占总股本59.52%"
+          ],
+          "insights": [],
+          "key_metrics": [
+            "解禁股数68,868,390股",
+            "占总股本59.52%",
+            "解禁日期2026年8月23日"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "301468": {
+      "name": "博盈特焊",
+      "code": "301468",
+      "board": "SZ",
+      "industry": "机械设备-专用设备",
+      "concepts": [],
+      "products": [
+        "垃圾焚烧设备"
+      ],
+      "core_business": [
+        "垃圾焚烧等特种焊接设备的研发、生产和销售"
+      ],
+      "industry_position": [
+        "产品累计进入阿联酋、英国、日本、美国、巴西、法国、德国等主要市场，覆盖亚洲、欧洲、北美及拉美地区"
+      ],
+      "chain": [
+        "中游-专用设备制造"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "2026-06-18 机构调研汇总",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/Cd4jVdNNvb3ztY60jOPyaA",
+          "industry_background": [],
+          "accidents": [
+            "2025年公司海外垃圾焚烧市场营收约1.45亿元，在手订单充足"
+          ],
+          "insights": [
+            "国际份额逐步提升"
+          ],
+          "key_metrics": [
+            "2025年海外垃圾焚烧市场营收约1.45亿元"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "000657": {
+      "name": "中钨高新",
+      "code": "000657",
+      "board": "SZ",
+      "industry": "有色金属-钨",
+      "concepts": [],
+      "products": [
+        "PCB钻针",
+        "硬质合金棒材",
+        "纳米级碳化钨粉"
+      ],
+      "core_business": [
+        "通过子公司金洲精工实现从钨矿、粉末、棒材到PCB钻针的全产业链整合。"
+      ],
+      "industry_position": [
+        "具备钨矿→粉末→棒材→钻针的全产业链垂直整合，在供应稳定性和成本竞争力上占据高地。",
+        "是高端市场的精密工具标杆。"
+      ],
+      "chain": [
+        "上游-原材料（钨矿），中游-材料加工（粉末、棒材），下游-工具制造（PCB钻针）"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "PCB钻针的超级β——AI算力链核心资产",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/KzrjcxNpGg6gIlWpvCltjw",
+          "industry_background": [
+            "AI服务器从试点采购进入放量阶段，PCB层数、孔密度和加工难度全面提升，钻针消耗量直接增加，高端微钻需求被放大。",
+            "面对进口替代窗口，国内厂商分成钨产业链原生厂商和新进入厂商两类，核心都是卡位高端棒材和纳米级碳化钨粉这两个最紧缺的环节。"
+          ],
+          "accidents": [
+            "2025年钻针月产能已达约8000万支。",
+            "具备钨矿→粉末→棒材→钻针的全产业链垂直整合。"
+          ],
+          "insights": [
+            "是高端市场的精密工具标杆，具备'极小径、超长刃、高端涂层'三大工艺。",
+            "在供应稳定性和成本竞争力上占据高地。"
+          ],
+          "key_metrics": [
+            "2025年钻针月产能已达约8000万支。"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "300476": {
+      "name": "胜宏科技",
+      "code": "300476",
+      "board": "SZ",
+      "industry": "电子-印制电路板",
+      "concepts": [],
+      "products": [
+        "1.6T光模块板",
+        "AI服务器PCB",
+        "PCB"
+      ],
+      "core_business": [
+        "AI服务器PCB制造",
+        "PCB制造"
+      ],
+      "industry_position": [
+        "AI服务器PCB龙头",
+        "PCB Top1",
+        "头部PCB厂商"
+      ],
+      "chain": [
+        "下游-应用",
+        "中游-PCB制造"
+      ],
+      "partners": [
+        "海外头部云厂商",
+        "鼎泰高科"
+      ],
+      "mention_count": 2,
+      "articles": [
+        {
+          "title": "PCB钻针的超级β——AI算力链核心资产",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/KzrjcxNpGg6gIlWpvCltjw",
+          "industry_background": [
+            "AI服务器带动PCB向高多层、微孔化演进，钻针用量和价格同步上行。",
+            "2026年1月Rubin全面投产，PCB进入更高层数+M9超硬板材的新阶段，钻针用量与价格再次大幅上行。行业景气红利从头部向二线扩散。",
+            "行业格局从'两强争霸'变成'双寡头+多家新势力'，优质二线产能的资产价值被重新定价。"
+          ],
+          "accidents": [
+            "2026年Q1净利润同比+339%。"
+          ],
+          "insights": [
+            "深度渗透鼎泰高科等头部PCB钻针厂商的供应链。",
+            "作为AI服务器PCB核心供应商，受益于PCB层数、孔密度和加工难度提升带来的需求增长。"
+          ],
+          "key_metrics": [
+            "Q1净利润同比+339%"
+          ],
+          "target_valuation": []
+        },
+        {
+          "title": "第二篇：算力硬件制造赛道（PCB+高速链接+铜箔+树脂+电子布）AI服务器PCB供不应求！铜箔/树脂/电子布同步涨价",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/IJhC6z29mP4tURmfreNoxw",
+          "industry_background": [
+            "AI算力爆发带动全产业链需求上行",
+            "高端PCB掀起扩产涨价潮，年内13家企业投资超600亿，PCB单月最高涨价40%",
+            "上游铜箔、树脂、电子布同步传导涨价红利",
+            "算力硬件全产业链国产替代加速"
+          ],
+          "accidents": [
+            "胜宏、东山精密等PCB龙头切入海外头部云厂商供应链",
+            "抛出200亿扩产计划"
+          ],
+          "insights": [
+            "AI服务器PCB龙头",
+            "优先胜宏科技、东山精密，AI服务器、光模块PCB缺口巨大，扩产落地带动业绩高增"
+          ],
+          "key_metrics": [
+            "1.6T光模块板批量供货"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "300868": {
+      "name": "杰美特",
+      "code": "300868",
+      "board": "SZ",
+      "industry": "电子-电子元件-电子工具",
+      "concepts": [],
+      "products": [
+        "CVD纳米导电金刚石涂层",
+        "PCB钻针"
+      ],
+      "core_business": [
+        "通过收购戴尔蒙德，专注CVD纳米导电金刚石涂层技术，生产PCB钻针。"
+      ],
+      "industry_position": [
+        "具备0.1mm钻针量产能力，技术可延伸至0.05mm级别",
+        "行业新势力"
+      ],
+      "chain": [
+        "中游-钻针制造及设计"
+      ],
+      "partners": [
+        "戴尔蒙德"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "PCB钻针的超级β——AI算力链核心资产",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/KzrjcxNpGg6gIlWpvCltjw",
+          "industry_background": [
+            "AI服务器带动PCB向高多层、微孔化演进，钻针用量和价格同步上行。",
+            "2026年1月Rubin全面投产，PCB进入更高层数+M9超硬板材的新阶段，钻针用量与价格再次大幅上行。行业景气红利从头部向二线扩散。",
+            "行业格局从'两强争霸'变成'双寡头+多家新势力'，优质二线产能的资产价值被重新定价。"
+          ],
+          "accidents": [
+            "2026年3月收购戴尔蒙德52%股权，股价上涨142%。"
+          ],
+          "insights": [
+            "通过收购戴尔蒙德获得CVD纳米导电金刚石涂层技术，切入高端PCB钻针赛道。",
+            "作为行业新势力，受益于景气红利从头部向二线扩散带来的资产重估。"
+          ],
+          "key_metrics": [
+            "股价上涨142%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "301362": {
+      "name": "民爆光电",
+      "code": "301362",
+      "board": "SZ",
+      "industry": "电子-电子元件-电子工具",
+      "concepts": [],
+      "products": [
+        "PCB钻针",
+        "极小径微钻"
+      ],
+      "core_business": [
+        "通过控股厦芝精密，从事PCB钻针的研发、生产和销售。"
+      ],
+      "industry_position": [
+        "控股的厦芝精密0.20mm以下极小径微钻具备50倍径量产能力",
+        "行业新势力"
+      ],
+      "chain": [
+        "中游-钻针制造及设计"
+      ],
+      "partners": [
+        "厦芝精密"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "PCB钻针的超级β——AI算力链核心资产",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/KzrjcxNpGg6gIlWpvCltjw",
+          "industry_background": [
+            "AI服务器带动PCB向高多层、微孔化演进，钻针用量和价格同步上行。",
+            "2026年1月Rubin全面投产，PCB进入更高层数+M9超硬板材的新阶段，钻针用量与价格再次大幅上行。行业景气红利从头部向二线扩散。",
+            "行业格局从'两强争霸'变成'双寡头+多家新势力'，优质二线产能的资产价值被重新定价。"
+          ],
+          "accidents": [
+            "2026年1月收购厦芝精密51%股权，股价自宣布后上涨315.8%。"
+          ],
+          "insights": [
+            "通过控股厦芝精密获得纯正日系技术血统和高端微钻产能，快速切入高景气赛道。",
+            "作为行业新势力，受益于景气红利从头部向二线扩散带来的资产重估。"
+          ],
+          "key_metrics": [
+            "股价上涨315.8%",
+            "预计2026年底月产能达4000万支",
+            "预计2027年底月产能达1亿支"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "301377": {
+      "name": "鼎泰高科",
+      "code": "301377",
+      "board": "SZ",
+      "industry": "电子-电子元件-电子工具",
+      "concepts": [],
+      "products": [
+        "CNC六轴联动磨床",
+        "PCB钻针"
+      ],
+      "core_business": [
+        "全球PCB钻针的研发、生产和销售，控股子公司从事CNC磨床自研。"
+      ],
+      "industry_position": [
+        "全球PCB钻针销量第一的龙头",
+        "合计市占率2024年已达49.9%",
+        "行业双寡头之一"
+      ],
+      "chain": [
+        "中游-钻针制造及设计"
+      ],
+      "partners": [
+        "景旺电子",
+        "深南电路",
+        "胜宏科技"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "PCB钻针的超级β——AI算力链核心资产",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/KzrjcxNpGg6gIlWpvCltjw",
+          "industry_background": [
+            "AI服务器带动PCB向高多层、微孔化演进，钻针用量和价格同步上行。",
+            "2026年1月Rubin全面投产，PCB进入更高层数+M9超硬板材的新阶段，钻针用量与价格再次大幅上行。行业景气红利从头部向二线扩散。",
+            "行业格局从'两强争霸'变成'双寡头+多家新势力'，优质二线产能的资产价值被重新定价。"
+          ],
+          "accidents": [
+            "股价在第二阶段累计上涨673%，市值突破600亿。",
+            "2026Q1营收同比+92.3%、净利润同比+259%。"
+          ],
+          "insights": [
+            "作为全球PCB钻针销量第一的龙头，深度绑定胜宏科技等头部PCB客户，充分受益于AI服务器带来的高端钻针需求爆发。",
+            "自研CNC六轴联动磨床缩短扩产周期，具备快速响应需求的能力。"
+          ],
+          "key_metrics": [
+            "股价累计上涨673%",
+            "市值突破600亿",
+            "2026Q1营收同比+92.3%",
+            "净利润同比+259%",
+            "2025年收入同比+35.7%",
+            "净利同比+91.1%",
+            "0.2mm以下微钻占比从2022H1的13%提升到2025年的29.65%",
+            "涂层钻针占比从2023年的24.01%提升到2025年的39.40%",
+            "月产能已突破1亿支"
+          ],
+          "target_valuation": [
+            "市值突破600亿"
+          ]
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "688059": {
+      "name": "华锐精密",
+      "code": "688059",
+      "board": "SH",
+      "industry": "机械设备-通用设备-金属制品",
+      "concepts": [],
+      "products": [
+        "PCB棒材",
+        "硬质合金数控刀具"
+      ],
+      "core_business": [
+        "硬质合金数控刀具研发与生产，切入PCB棒材业务"
+      ],
+      "industry_position": [
+        "新进入厂商，代表横向延伸路径"
+      ],
+      "chain": [
+        "上游-材料（棒材）"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "PCB钻针的超级β——AI算力链核心资产",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/KzrjcxNpGg6gIlWpvCltjw",
+          "industry_background": [
+            "AI算力链带动PCB向高多层、微孔化演进",
+            "PCB钻针行业从低景气加工型行业向AI算力链核心耗材产业重定价",
+            "2026年1月Rubin全面投产，PCB进入更高层数+M9超硬板材新阶段，钻针用量与价格再次大幅上行",
+            "行业格局从双寡头主导转向双寡头+多家新势力，景气红利从头部向二线扩散"
+          ],
+          "accidents": [
+            "2025年下半年引进PCB棒材生产新工艺",
+            "棒材产线已于2026年4月建成，正在给下游客户送样"
+          ],
+          "insights": [
+            "代表横向延伸路径，凭硬质合金数控刀具研发积累切入棒材业务",
+            "卡位高端棒材和纳米级碳化钨粉这两个最紧缺的环节",
+            "切入AI服务器高端PCB加工耗材赛道"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "688257": {
+      "name": "新锐股份",
+      "code": "688257",
+      "board": "SH",
+      "industry": "机械设备-通用设备-金属制品",
+      "concepts": [],
+      "products": [
+        "PCB钻针",
+        "铣刀"
+      ],
+      "core_business": [
+        "通过收购慧联电子，构建粉末、棒材、钻针的闭环业务"
+      ],
+      "industry_position": [
+        "慧联电子铣刀产销量全球第一，钻针业务稳居行业领先梯队",
+        "新势力，通过并购进入"
+      ],
+      "chain": [
+        "中游-工具制造"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "PCB钻针的超级β——AI算力链核心资产",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/KzrjcxNpGg6gIlWpvCltjw",
+          "industry_background": [
+            "AI算力链带动PCB向高多层、微孔化演进",
+            "PCB钻针行业从低景气加工型行业向AI算力链核心耗材产业重定价",
+            "2026年1月Rubin全面投产，PCB进入更高层数+M9超硬板材新阶段，钻针用量与价格再次大幅上行",
+            "行业格局从双寡头主导转向双寡头+多家新势力，景气红利从头部向二线扩散"
+          ],
+          "accidents": [
+            "2026年2月收购慧联电子70%股权，股价自宣布后上涨95.2%"
+          ],
+          "insights": [
+            "代表纵向整合路径，通过收购慧联电子构建'粉末—棒材—钻针'闭环",
+            "卡位高端棒材和纳米级碳化钨粉这两个最紧缺的环节",
+            "母公司棒材直供形成'材料自研+工具设计'深度协同",
+            "作为新势力，受益于行业景气红利从头部向二线扩散"
+          ],
+          "key_metrics": [
+            "年产2亿支PCB工具"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "688308": {
+      "name": "欧科亿",
+      "code": "688308",
+      "board": "SH",
+      "industry": "机械设备-通用设备-金属制品",
+      "concepts": [],
+      "products": [
+        "PCB钻针"
+      ],
+      "core_business": [
+        "通过收购永鑫精工进入PCB钻针业务"
+      ],
+      "industry_position": [
+        "新势力，通过并购进入"
+      ],
+      "chain": [
+        "中游-工具制造"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "PCB钻针的超级β——AI算力链核心资产",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/KzrjcxNpGg6gIlWpvCltjw",
+          "industry_background": [
+            "AI算力链带动PCB向高多层、微孔化演进",
+            "PCB钻针行业从低景气加工型行业向AI算力链核心耗材产业重定价",
+            "2026年1月Rubin全面投产，PCB进入更高层数+M9超硬板材新阶段，钻针用量与价格再次大幅上行",
+            "行业格局从双寡头主导转向双寡头+多家新势力，景气红利从头部向二线扩散"
+          ],
+          "accidents": [
+            "2026年5月收购永鑫精工51%股权，股价上涨25%"
+          ],
+          "insights": [
+            "作为新势力，受益于行业景气红利从头部向二线扩散",
+            "通过收购获得PCB钻针产能和技术"
+          ],
+          "key_metrics": [
+            "永鑫精工目前年产能3.5亿支",
+            "已实现0.075mm微钻批量出货",
+            "2025年10月已成功向下游核心客户供货"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "300001": {
+      "name": "特锐德",
+      "code": "300001",
+      "board": "SZ",
+      "industry": "电力设备-输变电设备",
+      "concepts": [],
+      "products": [
+        "AIDC智算中心供电方案",
+        "快充桩",
+        "高压预制舱变电站"
+      ],
+      "core_business": [
+        "电力设备业务（占收70%、净利约80%）和电动汽车充电业务（特来电，占收30%、净利约20%）"
+      ],
+      "industry_position": [
+        "特来电在快充桩（>250kW）保有量排全国第二，运营电量市占率领先"
+      ],
+      "chain": [
+        "中游-电力设备制造与充电运营"
+      ],
+      "partners": [
+        "伊顿（Eaton）"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "瑞银——特锐德——基本面稳健向好；AIDC（智算中心）解决方案推出；目标价上调至55元人民币，重申买入（附下载）",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/E59f1QouDJzBjho94cWIKA",
+          "industry_background": [
+            "国内充电需求预计2025-30年CAGR 24%",
+            "受益风电装机及配网改造",
+            "受益EV渗透率提升（乘用车超60%，商用车加速）"
+          ],
+          "accidents": [
+            "截至2026年6月9日中标额同比+46%（其中62%为高压预制舱变电站）",
+            "2026年6月发布SST 1.0（2.5MW，效率98.51%）",
+            "与伊顿（Eaton）达成战略合作，共同推进国际大型数据中心电源解决方案"
+          ],
+          "insights": [
+            "公司推出AIDC智算中心电源方案，缩短交付周期至5个月，降低综合成本20%，市场潜力尚未被定价",
+            "海外（中东及东南亚）拓展顺利，预计海外收入占比提升，拉升毛利率",
+            "当前交易于23x远期PE，低于5年均值0.8个标准差，未反映基本面向好及AIDC技术突破"
+          ],
+          "key_metrics": [
+            "2026/27年净利Rmb13.35亿/16.99亿（+33%/27% YoY）",
+            "2026/27年板块净利率提升至10.3%/11.4%",
+            "海外收入占比从2025年9%提升至2026/27年15%/20%",
+            "2026E/2027E 营收：188.7亿 / 217.5亿元人民币",
+            "2026E/2027E 归母净利润：16.05亿 / 20.46亿元",
+            "对应PE：2026E 24x，2027E 19x"
+          ],
+          "target_valuation": [
+            "目标价：从 Rmb33.00 上调至 Rmb55.00",
+            "基于SOTP分部估值，电力设备业务给30x 2027E PE，充电业务给20x 2027E PE"
+          ]
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "000338": {
+      "name": "潍柴动力",
+      "code": "000338",
+      "board": "SZ",
+      "industry": "电力设备-电源设备-内燃机及燃料电池",
+      "concepts": [],
+      "products": [
+        "SOFC",
+        "储能",
+        "燃气发动机"
+      ],
+      "core_business": [
+        "提供燃气机、SOFC、储能一体化解决方案。"
+      ],
+      "industry_position": [
+        "具备燃气机+SOFC+储能一体化解决方案能力，成本与供应链优势突出。"
+      ],
+      "chain": [
+        "中游-发电设备制造与集成"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "摩根大通——AI数据中心(AIDC)电源供应链：电网瓶颈与SOFC政策顺风开启AIDC现场发电新时代（附下载）",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/1R0jbdHszZHQhE5tTZZGTA",
+          "industry_background": [
+            "美国及全球数据中心用电需求激增，但电网接入延迟和能源短缺直接影响项目进度，促使运营商转向现场发电方案（燃气轮机、燃气发动机、固体氧化物燃料电池SOFC）以确保可靠供电。",
+            "全球SOFC需求预计2030年达20–30GW；中国政策支持（参照锂电/光伏早期扶持路径）加速产能建设和降本，生命周期度电成本约0.08–0.15美元，具备快速启停、低温运行优势，被视为集成现场供电方案核心组件。"
+          ],
+          "accidents": [
+            "AIDC备用/主用发动机2026年出货量预计3,500–4,000台（多数下半年交付）。",
+            "SOFC产能规划：2026年30MW→2027年200MW→2028年600MW→2030年1GW。"
+          ],
+          "insights": [
+            "具备燃气机+SOFC+储能一体化解决方案能力，成本与供应链优势突出。"
+          ],
+          "key_metrics": [
+            "AIDC备用/主用发动机2026年出货量预计3,500–4,000台。",
+            "SOFC产能规划：2026年30MW，2027年200MW，2028年600MW，2030年1GW。",
+            "H股目标价52港元（现价35.22港元，上行约48%），A股目标价49元人民币（现价28.01元，上行约75%）。"
+          ],
+          "target_valuation": [
+            "H股目标价52港元，A股目标价49元人民币。"
+          ]
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "603606": {
+      "name": "东方电缆",
+      "code": "603606",
+      "board": "SH",
+      "industry": "电力设备-线缆部件-海缆",
+      "concepts": [],
+      "products": [
+        "海底电缆",
+        "海洋工程敷设",
+        "高压陆缆"
+      ],
+      "core_business": [
+        "电力电缆、海底电缆、海洋工程装备的研发、制造、销售和服务。"
+      ],
+      "industry_position": [
+        "海缆制造+海洋工程敷设能力，行业集中度最高、进入壁垒最强环节。"
+      ],
+      "chain": [
+        "中游-海缆制造与敷设"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "摩根大通——东方电缆：中标大单是吸引投资者重新关注的恰当时机—近期超跌 unjustified，维持超配（Overweight），目标价￥61（附下载）",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/znXoVv7RKbKPnI-eswwvlA",
+          "industry_background": [
+            "2026年3月国家发改委首次明确提出2030年全国海上风电装机目标100GW。中国有'五年规划'超额完成历史（过往平均超额约90%），地方政府预计最早2026年下半年启动新项目核准→后续海缆订单持续落地。"
+          ],
+          "accidents": [
+            "6月10日晚公告新签合计52亿元订单，其中海底电缆4亿元。",
+            "股价自5月中旬至6月10日累计跌约30%（同期沪深指仅-4%）。",
+            "公告当日股价反弹约8%。"
+          ],
+          "insights": [
+            "近期超跌 unjustified，主因是欧盟贸易摩擦情绪波及风电上游，但东方电缆欧盟敞口几乎为零（英国订单约占海缆在手订单17%，且英国风险已被过度定价）。摩根大通认为更多是资金轮动导致超跌，已现技术性底部信号。",
+            "中标大单是吸引投资者重新关注的恰当时机。",
+            "海缆制造+海洋工程敷设能力是行业集中度最高、进入壁垒最强环节，构成护城河。",
+            "当前交易于FY27E 14x PE，对应2025–27E盈利CAGR >30%，具备长期成长。"
+          ],
+          "key_metrics": [
+            "52亿元",
+            "30%",
+            "8%",
+            "14x PE",
+            ">30%",
+            "21x FY28E前瞻PE",
+            "￥61",
+            "￥37.59",
+            "62%"
+          ],
+          "target_valuation": [
+            "目标价￥61（2027年6月，基于21x FY28E前瞻PE，贴近三年历史均值）。"
+          ]
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "300750": {
+      "name": "宁德时代",
+      "code": "300750",
+      "board": "SZ",
+      "industry": "电力设备-电池-锂电池",
+      "concepts": [],
+      "products": [
+        "储能电池",
+        "动力电池"
+      ],
+      "core_business": [
+        "专注于新能源汽车动力电池系统、储能系统的研发、生产和销售"
+      ],
+      "industry_position": [
+        "全球动力电池龙头",
+        "技术平台强、资金充裕、运营记录好"
+      ],
+      "chain": [
+        "中游-电池制造"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "摩根大通——中国电池产业链：供给侧改革与全球贸易紧张下的择优配置——宁德时代为首选（附下载）",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/g5ZpmM25TRbQQSPQfumIWQ",
+          "industry_background": [
+            "中国电池供应链面临需求担忧、锂成本上升、资金轮动至AI/科技及地缘不确定性。国内最新产能控制政策（供给侧改革）是重塑行业供需的真正催化剂，欧盟对华贸易摩擦、美国关税及1260H列名影响偏中性。工信部、发改委、能源局、市监总局联合收紧新建电池项目及扩产审批，准入门槛提高，加速淘汰低效低端产能，利好龙头市占率与行业利润率修复。2026年7月1日生效的国务院令第837号将ODI审查升格为行政法规，海外项目审批复杂度上升。欧盟考虑反补贴、进口配额等措施，美国拟对华追加12.5% 301关税，但动力/储能电池对美出口本已受高关税影响。"
+          ],
+          "accidents": [
+            "已于2025年1月被列入美国1260H“中国军事企业”名单（属咨询性质，无直接投...",
+            "匈牙利德布勒森一期（34GWh）建设及爬坡不受影响，二期时间表存在不确定性。"
+          ],
+          "insights": [
+            "摩根大通认为其是穿越周期的首选。",
+            "技术平台强、资金充裕、运营记录好，政策资源将优先向其倾斜。"
+          ],
+          "key_metrics": [
+            "A股收盘价394.85元（2026-06-12）"
+          ],
+          "target_valuation": [
+            "A股目标价520元（上行约32%）",
+            "港股目标价780港元"
+          ]
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "603659": {
+      "name": "璞泰来",
+      "code": "603659",
+      "board": "SH",
+      "industry": "电力设备-电池-电池化学品",
+      "concepts": [],
+      "products": [
+        "负极材料",
+        "锂电设备",
+        "隔膜"
+      ],
+      "core_business": [
+        "锂离子电池关键材料及自动化工艺设备的研发、生产和销售"
+      ],
+      "industry_position": [
+        "锂电材料龙头"
+      ],
+      "chain": [
+        "上游-关键材料及设备"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "摩根大通——中国电池产业链：供给侧改革与全球贸易紧张下的择优配置——宁德时代为首选（附下载）",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/g5ZpmM25TRbQQSPQfumIWQ",
+          "industry_background": [
+            "中国电池供应链面临需求担忧、锂成本上升、资金轮动至AI/科技及地缘不确定性。国内最新产能控制政策（供给侧改革）是重塑行业供需的真正催化剂，欧盟对华贸易摩擦、美国关税及1260H列名影响偏中性。工信部、发改委、能源局、市监总局联合收紧新建电池项目及扩产审批，准入门槛提高，加速淘汰低效低端产能，利好龙头市占率与行业利润率修复。2026年7月1日生效的国务院令第837号将ODI审查升格为行政法规，海外项目审批复杂度上升。欧盟考虑反补贴、进口配额等措施，美国拟对华追加12.5% 301关税，但动力/储能电池对美出口本已受高关税影响。"
+          ],
+          "accidents": [
+            "摩根大通于2026年5月30日将其评级上调至超配（OW）。"
+          ],
+          "insights": [
+            "__THIN__"
+          ],
+          "key_metrics": [
+            "收盘价28.34元（2026-06-12）"
+          ],
+          "target_valuation": [
+            "目标价42元（上行约48%）"
+          ]
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "002409": {
+      "name": "雅克科技",
+      "code": "002409",
+      "board": "SZ",
+      "industry": "化工-电子化学品",
+      "concepts": [],
+      "products": [
+        "High-K前驱体",
+        "LNG保温板材",
+        "金属前驱体",
+        "阻燃剂"
+      ],
+      "core_business": [
+        "高端晶圆制造原材料，特别是半导体前驱体的研发、生产和销售。"
+      ],
+      "industry_position": [
+        "A股中极少数在高端晶圆制造原材料端具有全球性垄断实力的企业。",
+        "全球仅默克、信越化学与雅克科技等三家公司能够量产7N级超高纯前驱体。"
+      ],
+      "chain": [
+        "上游-原材料"
+      ],
+      "partners": [
+        "SK海力士",
+        "先科半导体"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "SK海力士12层HBM4E送样催化下：存储与先进封装产业链深度价值机会分析",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/tJ90ZHfjTi9KPDaZMjBN5g",
+          "industry_background": [],
+          "accidents": [
+            "宜兴基地于2026年将前驱体产能扩建至2000吨/年。",
+            "公司明确公告指出，目前公司并没有六氟化钨（WF6）相关业务。"
+          ],
+          "insights": [
+            "是HBM4E所采用的1c制程DRAM工艺中，因线宽微缩导致前驱体单晶圆消耗量几何级数增加的核心受益者。",
+            "全球仅默克、信越化学与雅克科技等三家公司能够量产满足HBM4E要求的超高纯前驱体，短期内几乎没有任何国内竞争对手。",
+            "通过先科半导体深度绑定SK海力士，是其高端前驱体的核心供应商。",
+            "随着半导体前驱体稼动率由59%向满载爬升，下半年前驱体业务的持续高增将驱动其整体毛利率结构显著优化，其估值具备极强的补涨空间。"
+          ],
+          "key_metrics": [
+            "2025年实现营业收入86.11亿元（同比+25.49%），归母净利润10.00亿元（同比+14.77%）。",
+            "2026年一季度实现营收19.73亿元（同比-6.85%），归母净利润2.67亿元（同比+2.47%）。",
+            "前驱体产能扩建至2000吨/年，全球市占率稳步向18%迈进。",
+            "半导体前驱体稼动率由59%向满载爬升。"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "300054": {
+      "name": "鼎龙股份",
+      "code": "300054",
+      "board": "SZ",
+      "industry": "化工-电子化学品",
+      "concepts": [],
+      "products": [
+        "ArF光刻胶",
+        "KrF光刻胶",
+        "临时键合胶",
+        "打印耗材"
+      ],
+      "core_business": [
+        "半导体材料（先进封装材料、光刻胶）的研发、生产和销售，已成为公司核心的第一动力源。"
+      ],
+      "industry_position": [
+        "成功突破了“化工合成-纯化-光刻胶混配”的全链条自主研发。"
+      ],
+      "chain": [
+        "上游-材料"
+      ],
+      "partners": [
+        "长江存储",
+        "长鑫存储"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "SK海力士12层HBM4E送样催化下：存储与先进封装产业链深度价值机会分析",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/tJ90ZHfjTi9KPDaZMjBN5g",
+          "industry_background": [],
+          "accidents": [
+            "2026年一季度，公司预告归母净利润同比大幅增长70.22%至84.41%（预计达到2.4亿元至2.6亿元）。"
+          ],
+          "insights": [
+            "临时键合胶产品已经可以稳定支持HBM4E乃至下一代HBM5的极薄晶圆更高层数堆叠。",
+            "KrF、ArF晶圆光刻胶在长江存储、长鑫存储等头部大厂的产线上实现常态化、加仑级批量供货，成功突破了“化工合成-纯化-光刻胶混配”的全链条自主研发。",
+            "材料平台的规模效应和定价权已经得到充分验证。"
+          ],
+          "key_metrics": [
+            "2025年，公司半导体先进封装材料业务销售收入达到1176万元。",
+            "2025年实现营业收入36.6亿元（同比+9.66%），归母净利润7.20亿元（同比+38.32%）。",
+            "2025年半导体核心业务的收入占比历史性地达到了57%，首次超越传统打印耗材。",
+            "2026年一季度预告归母净利润同比大幅增长70.22%至84.41%（预计达到2.4亿元至2.6亿元）。"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "300151": {
+      "name": "昌红科技",
+      "code": "300151",
+      "board": "SZ",
+      "industry": "电子-半导体-材料",
+      "concepts": [],
+      "products": [
+        "晶圆传送材料",
+        "高分子半导体载体"
+      ],
+      "core_business": [
+        "高分子半导体高纯度耗材的研发、生产和销售。"
+      ],
+      "industry_position": [],
+      "chain": [
+        "上游-耗材"
+      ],
+      "partners": [
+        "国内某头部存储芯片厂商"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "SK海力士12层HBM4E送样催化下：存储与先进封装产业链深度价值机会分析",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/tJ90ZHfjTi9KPDaZMjBN5g",
+          "industry_background": [],
+          "accidents": [
+            "半导体相关高分子产品已于2025年顺利导入国内某头部存储芯片厂商的供应链体系。",
+            "于2026年获得了订单份额的大幅上升。",
+            "在另一家逻辑和高端存储厂的验证也正处于积极推进中。"
+          ],
+          "insights": [
+            "成功攻克了高分子半导体载体及晶圆传送材料等高纯度耗材的技术屏障。",
+            "有望在材料国产化的边缘替代中贡献极高弹性。"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "300475": {
+      "name": "香农芯创",
+      "code": "300475",
+      "board": "SZ",
+      "industry": "电子-半导体-分销",
+      "concepts": [],
+      "products": [
+        "企业级SSD",
+        "存储芯片分销"
+      ],
+      "core_business": [
+        "SK海力士存储芯片在中国市场的代理分销，以及旗下海普存储的企业级SSD业务。"
+      ],
+      "industry_position": [
+        "SK海力士在中国市场最为稳定的代理分销商。"
+      ],
+      "chain": [
+        "中游-分销"
+      ],
+      "partners": [
+        "SK海力士",
+        "国内主流算力设备大厂"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "SK海力士12层HBM4E送样催化下：存储与先进封装产业链深度价值机会分析",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/tJ90ZHfjTi9KPDaZMjBN5g",
+          "industry_background": [],
+          "accidents": [
+            "公司旗下的海普存储在企业级SSD（固态硬盘）领域已成功通过国内主流算力设备大厂的验证对接，并取得了规模销售。"
+          ],
+          "insights": [
+            "作为SK海力士在中国市场最为稳定的代理分销商，是HBM4E及下一代高端存储放量在A股最先兑现业绩的标的。"
+          ],
+          "key_metrics": [
+            "2026年海普存储的营业收入预计将迎来显著的增长。"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "300757": {
+      "name": "罗博特科",
+      "code": "300757",
+      "board": "SZ",
+      "industry": "机械设备-自动化设备",
+      "concepts": [],
+      "products": [
+        "光电测试设备",
+        "硅光耦合设备",
+        "高精密贴片设备"
+      ],
+      "core_business": [
+        "工业自动化设备的研发、制造和销售。"
+      ],
+      "industry_position": [
+        "控股的德国ficonTEC在硅光耦合、高精密贴片和光电测试设备上占据全球制高点"
+      ],
+      "chain": [
+        "中游-设备"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "SK海力士12层HBM4E送样催化下：存储与先进封装产业链深度价值机会分析",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/tJ90ZHfjTi9KPDaZMjBN5g",
+          "industry_background": [],
+          "accidents": [
+            "公司近期与某纳斯达克上市公司签署了总金额高达6亿元的硅光设备量产化常态订单，并预..."
+          ],
+          "insights": [
+            "公司控股的德国ficonTEC在硅光耦合、高精密贴片和光电测试设备上占据全球制高点，在算力芯片向下一代CPO及光互连演进过程中，其设备稀缺性将在中长期维度上转换为极强的股价爆发力。"
+          ],
+          "key_metrics": [
+            "签署了总金额高达6亿元的硅光设备量产化常态订单"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "688535": {
+      "name": "华海诚科",
+      "code": "688535",
+      "board": "SH",
+      "industry": "化工-电子化学品",
+      "concepts": [],
+      "products": [
+        "液态塑封材料（LMC）",
+        "颗粒状塑封料（GMC）"
+      ],
+      "core_business": [
+        "环氧塑封料等半导体封装材料的研发、生产和销售"
+      ],
+      "industry_position": [
+        "环氧塑封料的销量和出货量直接跃居全球第二"
+      ],
+      "chain": [
+        "上游-封装材料"
+      ],
+      "partners": [
+        "佛智芯"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "SK海力士12层HBM4E送样催化下：存储与先进封装产业链深度价值机会分析",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/tJ90ZHfjTi9KPDaZMjBN5g",
+          "industry_background": [],
+          "accidents": [
+            "2025年10月顺利完成了对衡所华威电子的100%股权过户"
+          ],
+          "insights": [
+            "自主研发的EMG-900-ACF颗粒状塑封料（GMC）和液态塑封材料（LMC）在佛智芯通过了严格的应用验证，性能与外资同类竞品相当，先进封装材料的单价是基础EMC单价的10倍以上，将直接重塑公司的盈利空间。"
+          ],
+          "key_metrics": [
+            "2025年实现营收4.58亿元（同比+38.12%）",
+            "2025年归母净利润2425.21万元（同比-39.47%）",
+            "2025年研发费用同比暴增89.57%至5005.68万元",
+            "2025年计提了2505万元的股权激励费用",
+            "2025年经调整归母净利润实际将接近7000万元"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "000088": {
+      "name": "盐田港",
+      "code": "000088",
+      "board": "SZ",
+      "industry": "交通运输-航运港口-港口",
+      "concepts": [],
+      "products": [
+        "港口服务"
+      ],
+      "core_business": [
+        "港口运营与投资，是华南地区的核心集装箱枢纽港。"
+      ],
+      "industry_position": [
+        "盐田港区是全球集装箱吞吐量最大的单一港区，也是华南地区的核心集装箱枢纽港。"
+      ],
+      "chain": [
+        "中游-港口运营"
+      ],
+      "partners": [
+        "洋浦中远海运特种运输有限公司"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "航线全面爆舱：相关受益概念分析",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/PM_kj8LtIweaTRVRfGBYxQ",
+          "industry_background": [
+            "跨太平洋东向航线货量居高不下，空箱流向严重失衡。",
+            "这种典型的‘重箱去、空箱回’的不对称特征，加剧了中国沿海主要港口（如业内相关公司）的空箱匮乏，导致货运代理商需要不断在订舱系统上刷新放舱信息，形成了运价、舱位和空箱三位一体的紧平衡状态。"
+          ],
+          "accidents": [
+            "2025年，盐田港实现营业收入8.58亿元，同比增长8.16%，实现归母净利润14.48亿元，创下其历史新高。",
+            "2026年第一季度，公司延续‘开门红’态势，实现营业收入1.94亿元，同比增长1...",
+            "公司近期成功引进战略投资者洋浦中远海运特种运输有限公司。"
+          ],
+          "insights": [
+            "作为华南地区的核心集装箱枢纽港，美线爆舱和运价高企伴随着码头吞吐量的稳步攀升，公司通过参股码头获取的投资收益实现大幅上涨。",
+            "引进战略投资者极大补齐了其运力和航线资源短板，使‘航运+港口+物流’一体化运营能力显著增强。"
+          ],
+          "key_metrics": [
+            "2025年实现营业收入8.58亿元，同比增长8.16%，归母净利润14.48亿元。",
+            "2026年第一季度实现营业收入1.94亿元，同比增长13.25%，归母净利润3.41亿元，同比增长8.85%。"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "001872": {
+      "name": "招商港口",
+      "code": "001872",
+      "board": "SZ",
+      "industry": "交通运输-航运港口-港口",
+      "concepts": [],
+      "products": [
+        "港口投资",
+        "港口运营"
+      ],
+      "core_business": [
+        "招商局集团旗下全球化的港口投资与运营平台。"
+      ],
+      "industry_position": [
+        "招商局集团旗下全球化的港口投资与运营平台。"
+      ],
+      "chain": [
+        "中游-港口运营"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "航线全面爆舱：相关受益概念分析",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/PM_kj8LtIweaTRVRfGBYxQ",
+          "industry_background": [
+            "中美航线爆舱及前置备货带来美国目的港货量的反弹。"
+          ],
+          "accidents": [
+            "2025年，公司实现利润总额89亿元（归属于上市公司股东的净利润为46亿元）。",
+            "2025年，公司海外地区收入达到65.10亿元，同比增长18.16%，海外板块营业毛利率高企于57.38%。"
+          ],
+          "insights": [
+            "作为招商局集团旗下全球化的港口投资与运营平台，其海外港口运营实体直接受益于美国目的港吞吐量上行与操作规费上涨。",
+            "海外业务极高的毛利水平为上市主体提供了强大的业绩弹性与安全边际。"
+          ],
+          "key_metrics": [
+            "2025年实现利润总额89亿元，归属于上市公司股东的净利润为46亿元。",
+            "2025年海外地区收入65.10亿元，同比增长18.16%，营业毛利率57.38%。",
+            "行业一致预期，招商港口2025-2027年归母净利润预测分别为46.9、51.3、55.7亿元。"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "301039": {
+      "name": "中集车辆",
+      "code": "301039",
+      "board": "SZ",
+      "industry": "汽车-汽车零部件-商用车零部件",
+      "concepts": [],
+      "products": [
+        "专用车上装",
+        "半挂车",
+        "集装箱底盘骨架车"
+      ],
+      "core_business": [
+        "全球领先的半挂车与专用车上装制造企业。"
+      ],
+      "industry_position": [
+        "全球领先的半挂车与专用车上装制造龙头。"
+      ],
+      "chain": [
+        "上游-设备制造"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "航线全面爆舱：相关受益概念分析",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/PM_kj8LtIweaTRVRfGBYxQ",
+          "industry_background": [
+            "随着中美航线货量暴增以及洛杉矶港、长滩港在2026年第二季度进口货运量的爆发式增长，美国陆路对集装箱底盘骨架车（Chassis）和集装箱骨架半挂车的需求出现显著的回补性反弹。"
+          ],
+          "accidents": [
+            "2025年实现营业收入201.78亿元，归母净利润为9.04亿元，扣非归属于上市公司股东的净利润为8.55亿元。",
+            "中国市场营收实现93.31亿元（同比增长7.55%），北美市场营收为48.75亿元（同比下降29.53%）。"
+          ],
+          "insights": [
+            "作为主要的底盘及骨架车供应商，其在北美本地化的生产基地及全球供应链网络，将极大受益于港口拖车需求的反弹。"
+          ],
+          "key_metrics": [
+            "2025年实现营业收入201.78亿元，归母净利润为9.04亿元。",
+            "2025年中国市场营收93.31亿元，同比增长7.55%；北美市场营收48.75亿元，同比下降29.53%。"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "600150": {
+      "name": "中国船舶",
+      "code": "600150",
+      "board": "SH",
+      "industry": "国防军工-船舶制造-船舶制造",
+      "concepts": [],
+      "products": [
+        "LNG运输船",
+        "大型邮轮",
+        "大型集装箱船"
+      ],
+      "core_business": [
+        "设计、建造和销售各类船舶，包括集装箱船、LNG船、邮轮等高端船型"
+      ],
+      "industry_position": [
+        "全球规模领先的造船旗舰"
+      ],
+      "chain": [
+        "上游-船舶装备制造"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "航线全面爆舱：相关受益概念分析",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/PM_kj8LtIweaTRVRfGBYxQ",
+          "industry_background": [
+            "中美航线爆舱及红海危机导致的全球可用有效运力偏紧",
+            "新船造价指数持续高位运行"
+          ],
+          "accidents": [
+            "班轮巨头为了追求长期运力保障和绿色环保转型，继续加大对大型甲醇及氨预留集装箱船的投资"
+          ],
+          "insights": [
+            "作为全球规模领先的造船旗舰",
+            "手持订单极其充沛，新接订单和高附加值高端船型（如大型邮轮、LNG船）占比持续拔高，使其直接受益于海运复苏的长期装备红利"
+          ],
+          "key_metrics": [
+            "2025年第一季度实现营业收入同比增长3.85%",
+            "2025年第一季度净利润同比大增180.99%",
+            "预测2026年营收将增长13.70%",
+            "预测2026年净利润将保持42.86%的高速增长态势"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "601866": {
+      "name": "中远海发",
+      "code": "601866",
+      "board": "SH",
+      "industry": "交通运输-航运-集装箱制造与租赁",
+      "concepts": [],
+      "products": [
+        "集装箱制造",
+        "集装箱租赁"
+      ],
+      "core_business": [
+        "中远海运集团旗下的产融协同平台，业务涵盖集装箱制造与租赁"
+      ],
+      "industry_position": [
+        "与中集集团等中国造箱企业占据了全球90%以上的市场份额",
+        "旗下箱队规模突破410万TEU，居全球前列"
+      ],
+      "chain": [
+        "上游-设备制造与租赁"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "航线全面爆舱：相关受益概念分析",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/PM_kj8LtIweaTRVRfGBYxQ",
+          "industry_background": [
+            "中美航线全面爆舱，舱位紧张",
+            "中东局势及绕行好望角使船舶平均航程显著拉长，集装箱周转天数大幅增加",
+            "出口退税政策调整导致出口完税成本上升，货主压缩物流费用，加剧集装箱需求"
+          ],
+          "accidents": [
+            "美线爆舱带来的空箱短缺直接推动了中远海发“租造协同”优势的变现"
+          ],
+          "insights": [
+            "新箱售价的提升直接增厚了其制造业务的毛利水平，而海运周转天数拉长则推升了市场集装箱租赁的租金中枢和租期长度",
+            "旗下宁波、青岛等多家箱厂已获评国家级绿色/5G工厂，先进的智能制造和数智化运营能力使其在此轮设备抢购潮中展现出更强的交期和盈利弹性"
+          ],
+          "key_metrics": [
+            "2025年实现营业收入252.01亿元",
+            "2025年利润总额达20.67亿元",
+            "2025年归母扣非净利润为15.44亿元",
+            "2025年销售集装箱近180万TEU",
+            "2025年集装箱制造业务实现营业收入221.31亿元",
+            "旗下箱队规模突破410万TEU，居全球前列",
+            "2025年集装箱租赁业务实现营业收入55.31亿元"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "601919": {
+      "name": "中远海控",
+      "code": "601919",
+      "board": "SH",
+      "industry": "交通运输-航运-集装箱航运",
+      "concepts": [],
+      "products": [
+        "集装箱航运"
+      ],
+      "core_business": [
+        "全球运力规模居前的集装箱航运巨头，通过中远海运集运和东方海外货航实施双品牌运作"
+      ],
+      "industry_position": [
+        "全球运力规模居前的集装箱航运巨头"
+      ],
+      "chain": [
+        "航运服务"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "航线全面爆舱：相关受益概念分析",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/PM_kj8LtIweaTRVRfGBYxQ",
+          "industry_background": [
+            "中美航线全面爆舱，舱位紧张",
+            "中东局势及绕行好望角使船舶平均航程显著拉长，集装箱周转天数大幅增加",
+            "出口退税政策调整导致出口完税成本上升，货主压缩物流费用，加剧集装箱需求"
+          ],
+          "accidents": [
+            "中美航线的爆舱和美西、美东线运价的大幅拉升"
+          ],
+          "insights": [
+            "作为全球运力规模居前的集装箱航运巨头，在跨太平洋航线上部署了强大的自有及联盟运力",
+            "美线业务贡献了极高的利润弹性"
+          ],
+          "key_metrics": [
+            "2025年录得营业收入2195.04亿元，同比下滑6.14%",
+            "2025年归母净利润达308.6亿元",
+            "2026年第一季度实现归母净利润58.77亿元",
+            "跨太平洋航线平均即期运价每上升100美元/FEU，将为其年化利润带来约1.5亿至2亿美元的边际增量"
+          ],
+          "target_valuation": []
+        }
+      ]
+    },
+    "603128": {
+      "name": "华贸物流",
+      "code": "603128",
+      "board": "SH",
+      "industry": "交通运输-物流-跨境物流",
+      "concepts": [],
+      "products": [
+        "特种物流",
+        "跨境电商物流",
+        "跨境空运货代"
+      ],
+      "core_business": [
+        "跨境空运货代，并向特种物流及跨境电商物流延伸。"
+      ],
+      "industry_position": [
+        "国内跨境空运货代领域的绝对龙头",
+        "在香港、上海、深圳等主要口岸拥有极强的产业资源"
+      ],
+      "chain": [
+        "中游-物流服务"
+      ],
+      "partners": [
+        "俄罗斯货航",
+        "南方航空",
+        "卢森堡货航"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "航线全面爆舱：相关受益概念分析",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/PM_kj8LtIweaTRVRfGBYxQ",
+          "industry_background": [
+            "美线爆舱及海运周期受阻，高时效货物向航空货运大规模外流",
+            "2026年第20周全球航空平均即期运价同比大涨48%",
+            "北美等主要航线表现出极强的运价弹性"
+          ],
+          "accidents": [
+            "海运爆舱导致供应链不确定性，促使大量电子元器件、高端快消品和跨境电商独立站货物转向空运"
+          ],
+          "insights": [
+            "作为国内跨境空运货代领域的绝对龙头，拥有极强的产业资源",
+            "通过收购向特种物流及跨境电商物流深度延伸",
+            "通过与全球顶尖货运航空的股权和协议纽带构建了强大的空运运力池",
+            "通过出色的航空货代网络，能够高效实现运力变现与利润率的大幅修复",
+            "空运货代优势突出，受益于海运高价值品溢流空运"
+          ],
+          "key_metrics": [
+            "2025年实现归母净利润4.88亿元",
+            "拟每10股派发2.24元红利"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "603836": {
+      "name": "海程邦达",
+      "code": "603836",
+      "board": "SH",
+      "industry": "交通运输-物流-供应链管理",
+      "concepts": [],
+      "products": [
+        "专业清关",
+        "供应链管理",
+        "精益合同物流"
+      ],
+      "core_business": [
+        "针对半导体、汽车等高科技产业提供高度定制化的精益合同物流服务。"
+      ],
+      "industry_position": [
+        "在泛半导体高端跨境供应链具备领先清关仓配优势",
+        "泛捷国际货运及供应链物流管理专家"
+      ],
+      "chain": [
+        "中游-物流服务"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "航线全面爆舱：相关受益概念分析",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/PM_kj8LtIweaTRVRfGBYxQ",
+          "industry_background": [
+            "美线爆舱及海运周期受阻，高时效货物向航空货运大规模外流",
+            "2026年第20周全球航空平均即期运价同比大涨48%",
+            "北美等主要航线表现出极强的运价弹性"
+          ],
+          "accidents": [
+            "近期披露了2026年限制性股票激励计划草案，考核目标为2026年净利润不低于1亿元",
+            "中美航线‘抢出口’浪潮，232条款在半导体及电子零部件领域关税加征预期刺激半导体产业链企业赶工出货、集中出运"
+          ],
+          "insights": [
+            "作为泛捷国际货运及供应链物流管理专家，针对半导体、汽车等高科技产业提供高度定制化的精益合同物流服务",
+            "凭借在泛半导体物流领域的专业清关和恒温恒湿仓储拖车体系，保障了高端货物的安全拿舱与运输",
+            "稳定的拿舱定价权在爆舱期可实现通道溢价的极致化提升",
+            "在泛半导体高端跨境供应链具备领先清关仓配优势"
+          ],
+          "key_metrics": [
+            "2025年实现归母净利润2613万元",
+            "2026年第一季度实现归母净利润1205.28万元，同比增长226.36%",
+            "2026年限制性股票激励计划考核目标为净利润不低于1亿元"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "603967": {
+      "name": "中创物流",
+      "code": "603967",
+      "board": "SH",
+      "industry": "交通运输-物流-综合物流",
+      "concepts": [],
+      "products": [
+        "口岸应急物流",
+        "国际货运代理",
+        "精益合同物流"
+      ],
+      "core_business": [
+        "以‘国际货运代理’与‘精益合同物流’为双核心业态，搭建跨境综合物流网络。"
+      ],
+      "industry_position": [
+        "聚焦沿海主要口岸，搭建跨境综合物流网络"
+      ],
+      "chain": [
+        "中游-物流服务"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "航线全面爆舱：相关受益概念分析",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/PM_kj8LtIweaTRVRfGBYxQ",
+          "industry_background": [
+            "美线爆舱及海运周期受阻，高时效货物向航空货运大规模外流",
+            "2026年第20周全球航空平均即期运价同比大涨48%",
+            "北美等主要航线表现出极强的运价弹性"
+          ],
+          "accidents": [
+            "中美航线全面爆舱，口岸物流节点的空箱调配、多式联运衔接和重载集卡运输需求成倍增加"
+          ],
+          "insights": [
+            "以‘国际货运代理’与‘精益合同物流’为双核心业态，搭建起集关务、仓储、拖车及港口服务于一体的跨境综合物流网络",
+            "依托覆盖跨境物流全链条的自营实体网络，能够在订舱之外，为客户提供一揽子口岸应急物流服务，显著提高单箱综合物流服务价值"
+          ],
+          "key_metrics": [
+            "2026年第一季度实现营业总收入21.75亿元",
+            "2026年第一季度归属于上市公司股东的净利润达9882.64万元",
+            "资产负债率维持在31.46%的低位"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "002475": {
+      "name": "立讯精密",
+      "code": "002475",
+      "board": "SZ",
+      "industry": "电子-消费电子-电子系统组装",
+      "concepts": [],
+      "products": [
+        "AI服务器背板链接组件",
+        "传感组件",
+        "机器人线束",
+        "高速连接器"
+      ],
+      "core_business": [
+        "机器人电子配套龙头。",
+        "高速连接器制造"
+      ],
+      "industry_position": [
+        "机器人电子配套龙头",
+        "高速连接器龙头",
+        "高速链接 Top1"
+      ],
+      "chain": [
+        "中游-核心零部件",
+        "中游-高速链接组件"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "机器人概念板块5000台人形机器人大单落地！16只主力重仓零部件龙头抢占千亿赛道？88%散户错追无核心技术小票踏空主升浪？",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/JCv63S3iLs4QDWMTw3liVw",
+          "industry_background": [
+            "国内五千台人形机器人大单落地，工信部推出实景实训专项，特斯拉、国产人形机器人加速量产。",
+            "机器人核心零部件国产替代空间超95%，人形机器人行业年均增速超80%，伺服、减速器订单缺口百亿级别。"
+          ],
+          "accidents": [
+            "人形机器人传感、控制组件批量交付。"
+          ],
+          "insights": [
+            "同时配套AI算力硬件，双赛道景气共振增厚利润。"
+          ],
+          "key_metrics": [
+            "主力净流入8.13亿"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "002050": {
+      "name": "三花智控",
+      "code": "002050",
+      "board": "SZ",
+      "industry": "机械设备-自动化设备-机器人",
+      "concepts": [],
+      "products": [
+        "伺服电机",
+        "谐波减速器"
+      ],
+      "core_business": [
+        "机器人动力核心部件龙头。"
+      ],
+      "industry_position": [
+        "机器人动力核心部件龙头"
+      ],
+      "chain": [
+        "中游-核心零部件"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "机器人概念板块5000台人形机器人大单落地！16只主力重仓零部件龙头抢占千亿赛道？88%散户错追无核心技术小票踏空主升浪？",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/JCv63S3iLs4QDWMTw3liVw",
+          "industry_background": [
+            "国内五千台人形机器人大单落地，工信部推出实景实训专项，特斯拉、国产人形机器人加速量产。",
+            "机器人核心零部件国产替代空间超95%，人形机器人行业年均增速超80%，伺服、减速器订单缺口百亿级别。"
+          ],
+          "accidents": [
+            "人形机器人专用减速器定点供货。"
+          ],
+          "insights": [
+            "国产替代加速，订单随量产持续翻倍。"
+          ],
+          "key_metrics": [
+            "主力净流入4.05亿"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "002179": {
+      "name": "中航光电",
+      "code": "002179",
+      "board": "SZ",
+      "industry": "电子-电子元件-连接器",
+      "concepts": [],
+      "products": [
+        "高速连接器"
+      ],
+      "core_business": [
+        "工业连接器龙头。"
+      ],
+      "industry_position": [
+        "工业连接器龙头"
+      ],
+      "chain": [
+        "中游-核心零部件"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "机器人概念板块5000台人形机器人大单落地！16只主力重仓零部件龙头抢占千亿赛道？88%散户错追无核心技术小票踏空主升浪？",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/JCv63S3iLs4QDWMTw3liVw",
+          "industry_background": [
+            "国内五千台人形机器人大单落地，工信部推出实景实训专项，特斯拉、国产人形机器人加速量产。",
+            "机器人核心零部件国产替代空间超95%，人形机器人行业年均增速超80%，伺服、减速器订单缺口百亿级别。"
+          ],
+          "accidents": [
+            "人形机器人关节高速连接器独家供货。"
+          ],
+          "insights": [
+            "国产化进程持续替代海外产品。"
+          ],
+          "key_metrics": [
+            "主力净流入4.88亿"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "000564": {
+      "name": "供销大集",
+      "code": "000564",
+      "board": "SZ",
+      "industry": "",
+      "concepts": [],
+      "products": [
+        "物业运营"
+      ],
+      "core_business": [
+        "运营管理商业物业。"
+      ],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "2026-06-18 机构调研汇总",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/Cd4jVdNNvb3ztY60jOPyaA",
+          "industry_background": [],
+          "accidents": [
+            "公司2026年将继续深耕海南自贸港、粤港澳大湾区两大核心区域，精准对接区域发展政策红利。",
+            "公司运营管理约281万平方米物业分布于全国19个省份、54个城市。"
+          ],
+          "insights": [],
+          "key_metrics": [
+            "281万平方米",
+            "19个省份",
+            "54个城市"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "002353": {
+      "name": "杰瑞股份",
+      "code": "002353",
+      "board": "SZ",
+      "industry": "机械设备",
+      "concepts": [],
+      "products": [
+        "燃气轮机"
+      ],
+      "core_business": [
+        "与西门子能源等国际厂商合作，围绕燃气轮机技术与授权开展业务。"
+      ],
+      "industry_position": [
+        "与多家国际知名燃气轮机厂商建立长期稳定合作关系。"
+      ],
+      "chain": [],
+      "partners": [
+        "西门子能源"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "2026-06-18 机构调研汇总",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/Cd4jVdNNvb3ztY60jOPyaA",
+          "industry_background": [],
+          "accidents": [
+            "公司与西门子能源围绕其SGT系列燃气轮机相关技术与授权合作达成签约。",
+            "公司已与多家国际知名燃气轮机厂商建立长期稳定合作关系，搭建多元化供应体系。"
+          ],
+          "insights": [
+            "该系列燃气轮机可灵活适配数据中心等多种应用场景。",
+            "形成多源供给格局，强化保供能力。"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "002362": {
+      "name": "汉王科技",
+      "code": "002362",
+      "board": "SZ",
+      "industry": "",
+      "concepts": [],
+      "products": [],
+      "core_business": [],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "2026-06-18 机构调研汇总",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/Cd4jVdNNvb3ztY60jOPyaA",
+          "industry_background": [],
+          "accidents": [
+            "2025年主要孵化的创新技术研发项目均已取得阶段性成果。",
+            "2026年相关研发项目进一步聚焦，重点进入商业化推广阶段。"
+          ],
+          "insights": [
+            "预计未来研发投入占营收比将逐步下降。"
+          ],
+          "key_metrics": [
+            "2025年经审计营业收入18.89亿元",
+            "2025年经审计净资产9.49亿元"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "002646": {
+      "name": "天佑德酒",
+      "code": "002646",
+      "board": "SZ",
+      "industry": "食品饮料-白酒",
+      "concepts": [],
+      "products": [
+        "28°青柠风味酒",
+        "无醇青稞气泡酒",
+        "流沙系列(威士忌风格)"
+      ],
+      "core_business": [
+        "研发和推广低度化、年轻化的青稞酒产品。"
+      ],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "2026-06-18 机构调研汇总",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/Cd4jVdNNvb3ztY60jOPyaA",
+          "industry_background": [],
+          "accidents": [
+            "28°青柠风味酒'互助麻雀儿'已上市。",
+            "流沙系列(威士忌风格)已推出。",
+            "无醇青稞气泡酒正在研发。"
+          ],
+          "insights": [
+            "持续丰富低度化产品线。",
+            "借鉴白青稞成功模式，通过抖音等新渠道推广，主打酒量小或喜欢微醺的年轻消费群体，满足社交情绪价值需求。"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "603308": {
+      "name": "应流股份",
+      "code": "603308",
+      "board": "SH",
+      "industry": "机械设备-通用设备-机械基础件",
+      "concepts": [],
+      "products": [
+        "高温合金部件"
+      ],
+      "core_business": [
+        "为燃气轮机和航空发动机制造商供应高温合金部件。"
+      ],
+      "industry_position": [
+        "为西门子能源、贝克休斯等海外燃气轮机龙头供应高温合金部件。"
+      ],
+      "chain": [
+        "上游-原材料/核心部件"
+      ],
+      "partners": [
+        "安萨尔多",
+        "斗山",
+        "西门子能源",
+        "贝克休斯"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "摩根大通——AI数据中心(AIDC)电源供应链：电网瓶颈与SOFC政策顺风开启AIDC现场发电新时代（附下载）",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/1R0jbdHszZHQhE5tTZZGTA",
+          "industry_background": [
+            "美国及全球数据中心用电需求激增，但电网接入延迟和能源短缺直接影响项目进度，促使运营商转向现场发电方案（燃气轮机、燃气发动机、固体氧化物燃料电池SOFC）以确保可靠供电。",
+            "全球SOFC需求预计2030年达20–30GW；中国政策支持（参照锂电/光伏早期扶持路径）加速产能建设和降本，生命周期度电成本约0.08–0.15美元，具备快速启停、低温运行优势，被视为集成现场供电方案核心组件。"
+          ],
+          "accidents": [
+            "近期增长来自为西门子能源、贝克休斯、安萨尔多、斗山等海外燃气轮机龙头供应高温合金部件（新件+MRO双轮驱动）。",
+            "国内燃气轮机部件国产化采购改善提供第二增长曲线。",
+            "航空发动机部件预计2027–2028年起显著贡献。"
+          ],
+          "insights": [],
+          "key_metrics": [
+            "目标价95元人民币（现价60.31元，上行约58%）。"
+          ],
+          "target_valuation": [
+            "目标价95元人民币。"
+          ]
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "002156": {
+      "name": "通富微电",
+      "code": "002156",
+      "board": "SZ",
+      "industry": "电子-半导体-封测",
+      "concepts": [],
+      "products": [
+        "Bumping",
+        "RDL",
+        "晶圆键合",
+        "系统级封装（SiP）"
+      ],
+      "core_business": [
+        "半导体封装测试服务。"
+      ],
+      "industry_position": [
+        "国内封测巨头"
+      ],
+      "chain": [
+        "下游-封装测试"
+      ],
+      "partners": [
+        "AMD"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "SK海力士12层HBM4E送样催化下：存储与先进封装产业链深度价值机会分析",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/tJ90ZHfjTi9KPDaZMjBN5g",
+          "industry_background": [],
+          "accidents": [
+            "公司目前已经打通了全套12英寸RDL、Bumping以及高精度的晶圆键合工艺，良率稳定在95%至97%的高水准。"
+          ],
+          "insights": [
+            "作为国内封测巨头，深度绑定了AMD等高性能算力芯片设计厂商。",
+            "在玻璃基板双面铜厚磨平等新兴代工路径上进行了深度前瞻布局，这为算力GPU加HBM的系统级封装（SiP）提供了本土化的配套代工可能。"
+          ],
+          "key_metrics": [
+            "12英寸RDL、Bumping及晶圆键合工艺良率稳定在95%至97%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "688300": {
+      "name": "联瑞新材",
+      "code": "688300",
+      "board": "SH",
+      "industry": "电子-半导体-材料",
+      "concepts": [],
+      "products": [
+        "ArF晶圆光刻胶",
+        "KrF晶圆光刻胶",
+        "Low-α球形硅微粉"
+      ],
+      "core_business": [
+        "无机非金属粉体材料的研发、生产和销售，包括用于先进封装的球形硅微粉和晶圆光刻胶。"
+      ],
+      "industry_position": [
+        "国内唯一实现适配HBM高阶Low-α球形硅微粉量产并参与国际竞争的厂商。"
+      ],
+      "chain": [
+        "上游-材料"
+      ],
+      "partners": [
+        "长江存储",
+        "长鑫存储"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "SK海力士12层HBM4E送样催化下：存储与先进封装产业链深度价值机会分析",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/tJ90ZHfjTi9KPDaZMjBN5g",
+          "industry_background": [
+            "在所有先进封装塑料耗材中，无机填料（主要是二氧化硅与氧化铝）的体积填充率通常高达70%~90%，是决定材料热膨胀系数和散热性能的核心。"
+          ],
+          "accidents": [
+            "公司是目前国内唯一实现适配HBM高阶Low-α球形硅微粉量产并参与国际竞争的厂商。",
+            "2025年，公司半导体先进封装材料业务销售收入达到1176万元。",
+            "公司旗下的KrF、ArF晶圆光刻胶在长江存储、长鑫存储等头部大厂的产线上实现常态化、加仑级批量供货。",
+            "2026年一季度，公司预告归母净利润同比大幅增长70.22%至84.41%（预计达到2.4亿元至2.6亿元）。"
+          ],
+          "insights": [
+            "HBM封装用塑封料所使用的二氧化硅粉体必须具备极高的球形度、超细的粒径以及微乎其微的放射性元素（Low-α球形硅微粉），以防止高密度芯片在运行中发生软错误。",
+            "成功突破了“化工合成-纯化-光刻胶混配”的全链条自主研发。",
+            "其材料平台的规模效应和定价权已经得到充分验证。"
+          ],
+          "key_metrics": [
+            "2025年半导体先进封装材料业务销售收入1176万元",
+            "2026年一季度预告归母净利润同比增长70.22%至84.41%",
+            "预计2026年一季度归母净利润2.4亿元至2.6亿元"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "688082": {
+      "name": "盛美上海",
+      "code": "688082",
+      "board": "SH",
+      "industry": "机械设备-半导体设备",
+      "concepts": [],
+      "products": [
+        "SAPS兆声波单片清洗设备",
+        "多阳极电镀铜设备"
+      ],
+      "core_business": [
+        "半导体专用设备的研发、生产和销售，主要产品包括清洗设备、电镀设备等。"
+      ],
+      "industry_position": [
+        "湿法清洗与电镀设备国产化的绝对主力。"
+      ],
+      "chain": [
+        "上游-设备"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "SK海力士12层HBM4E送样催化下：存储与先进封装产业链深度价值机会分析",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/tJ90ZHfjTi9KPDaZMjBN5g",
+          "industry_background": [
+            "在HBM工艺中，硅通孔（TSV）作为电气连接的骨架，其电镀铜和深孔清洗工序直接决定了芯片的成品良率。TSV成本在HBM整体成本中占比接近30%。"
+          ],
+          "accidents": [
+            "公司是湿法清洗与电镀设备国产化的绝对主力。",
+            "2025年，公司营收及归母净利润均保持了20%以上的强劲增长，2025年合并报表净利润增长达21.05%。",
+            "公司在手合同订单总金额极其充沛。",
+            "2025年盛美上海经营活动现金流量净额为2.39亿元，同比骤降80.36%。"
+          ],
+          "insights": [
+            "公司的SAPS兆声波单片清洗设备专门攻克TSV深孔中微米级残渣的清洗难题，而多阳极电镀铜设备则可实现TSV微孔中高均匀性、无缝隙的铜层沉积。",
+            "设备完全满足HBM高纵深比的制造规范。",
+            "投资者在注重其高成长设备龙头属性的同时，需关注其存货跌价准备与运营资本回收周期。"
+          ],
+          "key_metrics": [
+            "2025年合并报表净利润增长21.05%",
+            "经营活动现金流量净额2.39亿元（同比-80.36%）"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "600026": {
+      "name": "中远海能",
+      "code": "600026",
+      "board": "SH",
+      "industry": "交通运输-航运-油运",
+      "concepts": [],
+      "products": [
+        "油品运输",
+        "液化天然气（LNG）运输"
+      ],
+      "core_business": [
+        "全球最大的油品和液化天然气（LNG）运输商之一"
+      ],
+      "industry_position": [
+        "全球最大的油品和液化天然气（LNG）运输商之一"
+      ],
+      "chain": [
+        "中游-运输服务"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "航线全面爆舱：相关受益概念分析",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/PM_kj8LtIweaTRVRfGBYxQ",
+          "industry_background": [
+            "集运主干航线全面爆舱、舱位极度受限",
+            "海运板块整体在运力周转受阻（绕行好望角、红海改线）背景下展现出的系统性景气度共振",
+            "油轮板块本身具备极强的确定性上升周期"
+          ],
+          "accidents": [
+            "2025年实现营业收入238.92亿元，同比增长2.68%，实现归母净利润40.37亿元",
+            "主流投资机构预期2026年其净利润将达到123.96亿元，同比增幅有望达到207.03%"
+          ],
+          "insights": [
+            "集运爆舱带来的港口拥堵、燃油加油需求上升以及综合租船费率的上行，将间接加速油运板块运价中枢的超预期拔高",
+            "作为全球最大的油品和液化天然气（LNG）运输商之一，为整个能源运输板块的运价中枢上行提供了坚实支撑"
+          ],
+          "key_metrics": [
+            "2025年营业收入238.92亿元，同比增长2.68%",
+            "2025年归母净利润40.37亿元",
+            "预期2026年净利润123.96亿元，同比增幅207.03%"
+          ],
+          "target_valuation": []
+        }
+      ]
+    },
+    "600018": {
+      "name": "上港集团",
+      "code": "600018",
+      "board": "SH",
+      "industry": "交通运输-港口",
+      "concepts": [],
+      "products": [
+        "集装箱码头运营"
+      ],
+      "core_business": [
+        "运营全球第一大集装箱枢纽港——上海港"
+      ],
+      "industry_position": [
+        "全球第一大集装箱枢纽港——上海港的绝对霸主",
+        "国内港口板块中展现出‘一骑绝尘’的领军地位"
+      ],
+      "chain": [
+        "中游-港口服务"
+      ],
+      "partners": [
+        "中远海控"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "航线全面爆舱：相关受益概念分析",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/PM_kj8LtIweaTRVRfGBYxQ",
+          "industry_background": [
+            "集运主干航线全面爆舱、舱位极度受限",
+            "海运板块整体在运力周转受阻（绕行好望角、红海改线）背景下展现出的系统性景气度共振"
+          ],
+          "accidents": [
+            "2025年录得净利润高达150亿元",
+            "中美航线爆舱期间，大量来自华东腹地的出口重箱通过洋山港和外高桥港区出运"
+          ],
+          "insights": [
+            "作为运营全球第一大集装箱枢纽港——上海港的绝对霸主，在国内港口板块中展现出‘一骑绝尘’的领军地位",
+            "上海港作为跨太平洋航线班轮挂靠频次最高、大船舱位最集中的出发港，其码头利用率和集装箱吞吐量持续高位运行",
+            "作为中远海控等多家航运平台的重要战略股东，航运景气度的跃升通过极其丰厚的投资收益大幅反哺了上港集团的利润表"
+          ],
+          "key_metrics": [
+            "2025年净利润150亿元"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "600320": {
+      "name": "振华重工",
+      "code": "600320",
+      "board": "SH",
+      "industry": "机械设备-专用设备",
+      "concepts": [],
+      "products": [
+        "5G智慧港口系统",
+        "港口起重机（岸桥、场桥）"
+      ],
+      "core_business": [
+        "全球最大的重型装备及港口机械制造巨头"
+      ],
+      "industry_position": [
+        "主营的港口起重机业务表现出极高的行业定价权",
+        "全球最大的重型装备及港口机械制造巨头",
+        "在全球港机市场具有绝对优势"
+      ],
+      "chain": [
+        "上游-装备制造"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "航线全面爆舱：相关受益概念分析",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/PM_kj8LtIweaTRVRfGBYxQ",
+          "industry_background": [
+            "中美主干航线爆舱和运力高位运转，迫使全球各大港口枢纽为了解决压港、压货等供应链延误瓶颈，必须全方位加大对港口码头智能化、数智化改造的投资"
+          ],
+          "accidents": [
+            "2025年实现扣非归母净利润约9.53亿元"
+          ],
+          "insights": [
+            "作为全球最大的重型装备及港口机械制造巨头，其主营的港口起重机业务表现出极高的行业定价权",
+            "凭借在全球港机市场的绝对优势，通过向全球交付自动化岸桥和5G智慧港口系统，深度分享了全球港口吞吐量维持高位所带来的基建设备红利"
+          ],
+          "key_metrics": [
+            "2025年扣非归母净利润约9.53亿元"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "601298": {
+      "name": "青岛港",
+      "code": "601298",
+      "board": "SH",
+      "industry": "交通运输-港口",
+      "concepts": [],
+      "products": [
+        "港口物流",
+        "自动化码头运营",
+        "集装箱装卸"
+      ],
+      "core_business": [
+        "提供港口装卸、仓储、物流等综合服务"
+      ],
+      "industry_position": [
+        "一带一路和中日韩贸易的关键枢纽",
+        "我国北方集装箱港口的绝对龙头"
+      ],
+      "chain": [
+        "港口服务"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "航线全面爆舱：相关受益概念分析",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/PM_kj8LtIweaTRVRfGBYxQ",
+          "industry_background": [
+            "中美航线全面爆舱，舱位紧张",
+            "中东局势及绕行好望角使船舶平均航程显著拉长，集装箱周转天数大幅增加",
+            "出口退税政策调整导致出口完税成本上升，货主压缩物流费用，加剧集装箱匮乏"
+          ],
+          "accidents": [
+            "2025年实现货物吞吐量7.22亿吨（同比增长4.1%），完成集装箱吞吐量3420万TEU（同比增长6.3%）"
+          ],
+          "insights": [
+            "作为北方集装箱港口的绝对龙头，在运力紧缺、美线爆舱期间成为船公司北方补箱和集拼的首选挂靠港",
+            "自动化码头的高效运营和出色的箱流周转速度带来优势",
+            "集装箱吞吐量持续超预期增长，叠加堆存和港口物流衍生服务的增量，推动其财务基本面利润率持续高位运行"
+          ],
+          "key_metrics": [
+            "2025年货物吞吐量7.22亿吨，同比增长4.1%",
+            "2025年集装箱吞吐量3420万TEU，同比增长6.3%",
+            "2025年综合毛利率高达36.7%",
+            "2025年归母净利润达52.7亿元"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "601598": {
+      "name": "中国外运",
+      "code": "601598",
+      "board": "SH",
+      "industry": "交通运输-物流",
+      "concepts": [],
+      "products": [
+        "专业物流",
+        "货运代理",
+        "门到门履约"
+      ],
+      "core_business": [
+        "提供综合物流服务，包括货运代理、专业物流等"
+      ],
+      "industry_position": [
+        "中国最大的综合物流运营商",
+        "在海运货代领域拥有全球化的服务网络和无可比拟的规模壁垒"
+      ],
+      "chain": [
+        "物流服务"
+      ],
+      "partners": [
+        "中远海运",
+        "长荣",
+        "马士基"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "航线全面爆舱：相关受益概念分析",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/PM_kj8LtIweaTRVRfGBYxQ",
+          "industry_background": [
+            "中美航线全面爆舱，舱位紧张",
+            "中东局势及绕行好望角使船舶平均航程显著拉长，集装箱周转天数大幅增加",
+            "出口退税政策调整导致出口完税成本上升，货主压缩物流费用，加剧集装箱匮乏"
+          ],
+          "accidents": [
+            "2026年第一季度实现营业总收入215.49亿元，归母净利润达6.81亿元，同比平稳上涨5.65%"
+          ],
+          "insights": [
+            "凭借卓越的舱位掌控力和雄厚的海外目的港清关、拖车资源，能够为外贸大客户提供稳定的门到门履约保障",
+            "直接享受运费上行带来的通道溢价增厚"
+          ],
+          "key_metrics": [
+            "2025年实现归母净利润40.218亿元",
+            "2025年扣非归母净利润为16.78亿元",
+            "2026年第一季度营业总收入215.49亿元",
+            "2026年第一季度归母净利润6.81亿元，同比上涨5.65%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "601872": {
+      "name": "招商轮船",
+      "code": "601872",
+      "board": "SH",
+      "industry": "交通运输-航运",
+      "concepts": [],
+      "products": [
+        "散货运输",
+        "油运",
+        "滚装船运输",
+        "特种船运输",
+        "集装箱运输"
+      ],
+      "core_business": [
+        "提供油、散、集、特、滚五大航运细分领域的运输服务"
+      ],
+      "industry_position": [
+        "多元化航运龙头"
+      ],
+      "chain": [
+        "航运服务"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "航线全面爆舱：相关受益概念分析",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/PM_kj8LtIweaTRVRfGBYxQ",
+          "industry_background": [
+            "中美航线全面爆舱，舱位紧张",
+            "中东局势及绕行好望角使船舶平均航程显著拉长，集装箱周转天数大幅增加",
+            "出口退税政策调整导致出口完税成本上升，货主压缩物流费用，加剧集装箱匮乏"
+          ],
+          "accidents": [
+            "2025年度归母净利润预计达到60亿至66亿元，同比增长17%至29%"
+          ],
+          "insights": [
+            "中美主航线的景气度飙升，直接推升了其集装箱业务的综合费率水平，也通过资产溢价效应，使得其集装箱船队出租及自营收益大幅上行",
+            "集装箱资产与处于景气高位的油运资产形成强力的双轮驱动"
+          ],
+          "key_metrics": [
+            "2025年度归母净利润预计60亿至66亿元，同比增长17%至29%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "002384": {
+      "name": "东山精密",
+      "code": "002384",
+      "board": "SZ",
+      "industry": "电子1PCB",
+      "concepts": [],
+      "products": [
+        "PCB",
+        "结构件"
+      ],
+      "core_business": [
+        "算力PCB+结构件一体化"
+      ],
+      "industry_position": [
+        "PCB Top2"
+      ],
+      "chain": [
+        "中游-PCB制造"
+      ],
+      "partners": [
+        "海外头部算力客户"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "第二篇：算力硬件制造赛道（PCB+高速链接+铜箔+树脂+电子布）AI服务器PCB供不应求！铜箔/树脂/电子布同步涨价",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/IJhC6z29mP4tURmfreNoxw",
+          "industry_background": [
+            "AI算力爆发带动PCB全产业链需求上行",
+            "上游铜箔、高频树脂、电子布受原料、海外供给约束同步涨价",
+            "中游PCB企业开启大规模扩产卡位高端产能",
+            "国内打通从玻纤、树脂、铜箔到PCB、高速连接器的完整产业链，不再依赖海外基材进口"
+          ],
+          "accidents": [
+            "绑定海外头部算力客户",
+            "单日主力流入15.5亿"
+          ],
+          "insights": [
+            "算力PCB+结构件一体化",
+            "PCB业务占比55%"
+          ],
+          "key_metrics": [
+            "PCB业务占比55%",
+            "单日主力流入15.5亿"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "603256": {
+      "name": "宏和科技",
+      "code": "603256",
+      "board": "SH",
+      "industry": "电子-电子元件-电子布",
+      "concepts": [],
+      "products": [
+        "低介电布",
+        "极薄电子布"
+      ],
+      "core_business": [
+        "电子布制造"
+      ],
+      "industry_position": [
+        "4μm/9μm极薄电子布全球龙头",
+        "电子布Top1"
+      ],
+      "chain": [
+        "上游-基材"
+      ],
+      "partners": [
+        "英伟达"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "第二篇：算力硬件制造赛道（PCB+高速链接+铜箔+树脂+电子布）AI服务器PCB供不应求！铜箔/树脂/电子布同步涨价",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/IJhC6z29mP4tURmfreNoxw",
+          "industry_background": [
+            "AI服务器PCB供不应求，高端PCB掀起扩产涨价潮，PCB单月最高涨价40%",
+            "上游基材供给收紧，电子布年内5轮提价，上游材料企业毛利率持续上行",
+            "算力硬件全产业链国产替代加速，铜箔、电子布实现完全自主配套"
+          ],
+          "accidents": [
+            "4μm/9μm极薄电子布全球龙头，低介电布通过英伟达认证"
+          ],
+          "insights": [
+            "电子布业务占比70%，是上游涨价材料主线核心受益标的"
+          ],
+          "key_metrics": [
+            "电子布业务占比70%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "688227": {
+      "name": "品高股份",
+      "code": "688227",
+      "board": "SH",
+      "industry": "",
+      "concepts": [],
+      "products": [
+        "云计算AI基础设施"
+      ],
+      "core_business": [
+        "核心业务云计算AI基础设施"
+      ],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "人工智能全产业链主线：八部门发文力挺AI消费！18只AI细分龙头资金持续加码？91%散户分不清虚实标的踏空行情？",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/OiFqeA6egQMFKiYGGDea0A",
+          "industry_background": [
+            "八部门出台政策推进AI消费落地，培育AI消费新增长点",
+            "海内外大模型迭代提速，AI赋能出行、金融、终端多场景落地",
+            "全产业链国产替代空间超90%，AI应用、算力配套年均增速75%"
+          ],
+          "accidents": [
+            "八部门政策带动政企数字化预算提升"
+          ],
+          "insights": [
+            "面向政务、金融提供AI云底座",
+            "算力配套订单稳步放量"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "000537": {
+      "name": "绿发电力",
+      "code": "000537",
+      "board": "SZ",
+      "industry": "",
+      "concepts": [],
+      "products": [
+        "新能源电力"
+      ],
+      "core_business": [
+        "新能源电力运营。"
+      ],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "2026-06-18 机构调研汇总",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/Cd4jVdNNvb3ztY60jOPyaA",
+          "industry_background": [
+            "随着136号文实施新能源全面进入市场化竞争。"
+          ],
+          "accidents": [
+            "2025年收回新能源补贴款22.82亿元。"
+          ],
+          "insights": [
+            "公司将电量电价作为经营工作重中之重，对增量项目严把投资准入关、强化立项评审。",
+            "存量项目通过精益化运营降低度电成本、优化交易策略提升度电收益水平。"
+          ],
+          "key_metrics": [
+            "2025年收回新能源补贴款22.82亿元。"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "000795": {
+      "name": "英洛华",
+      "code": "000795",
+      "board": "SZ",
+      "industry": "",
+      "concepts": [],
+      "products": [
+        "电动代步车",
+        "电动轮椅",
+        "电声产品",
+        "电机"
+      ],
+      "core_business": [
+        "健康器材业务主要产品为电动轮椅和电动代步车，定位中高端市场。海外业务以ODM/OEM为主，国内线上自有品牌销售。"
+      ],
+      "industry_position": [],
+      "chain": [],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "2026-06-18 机构调研汇总",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/Cd4jVdNNvb3ztY60jOPyaA",
+          "industry_background": [],
+          "accidents": [
+            "越南基地作为电机、健康器材及电声产品生产基地已按计划投产运行。"
+          ],
+          "insights": [
+            "为应对贸易摩擦和拓展海外市场提供产能支撑。"
+          ],
+          "key_metrics": [
+            "海外业务占比约80%。"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "001314": {
+      "name": "亿道信息",
+      "code": "001314",
+      "board": "SZ",
+      "industry": "计算机-人工智能",
+      "concepts": [],
+      "products": [
+        "边缘计算AI"
+      ],
+      "core_business": [
+        "聚焦AI模型在边缘计算领域的应用与发展，推动技术成果转化。"
+      ],
+      "industry_position": [],
+      "chain": [],
+      "partners": [
+        "ISV及开发者社区",
+        "存储伙伴",
+        "算法厂商",
+        "粤港澳大湾区数字经济研究院",
+        "芯片巨头"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "2026-06-18 机构调研汇总",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/Cd4jVdNNvb3ztY60jOPyaA",
+          "industry_background": [],
+          "accidents": [
+            "公司与粤港澳大湾区数字经济研究院联手共同建设IDEA亿道边缘计算人工智能实验室，聚焦AI模型在边缘计算领域的应用与发展。"
+          ],
+          "insights": [
+            "公司携手芯片巨头、存储伙伴、算法厂商、ISV及开发者社区等合作伙伴共建生态，共同推进AI技术的普惠化进程，2025年已积极导入国内外大客户并显现成效。"
+          ],
+          "key_metrics": [
+            "2025年"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "300913": {
+      "name": "兆龙互连",
+      "code": "300913",
+      "board": "SZ",
+      "industry": "电子-连接器",
+      "concepts": [],
+      "products": [
+        "连接器",
+        "高速数据线"
+      ],
+      "core_business": [
+        "高速数据线、连接器专精企业，数据中心布线刚需"
+      ],
+      "industry_position": [
+        "高速链接Top2"
+      ],
+      "chain": [
+        "中游-高速链接组件"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "第二篇：算力硬件制造赛道（PCB+高速链接+铜箔+树脂+电子布）AI服务器PCB供不应求！铜箔/树脂/电子布同步涨价",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/IJhC6z29mP4tURmfreNoxw",
+          "industry_background": [
+            "AI算力爆发带动全产业链需求上行",
+            "上游铜箔、高频树脂、电子布受原料、海外供给约束同步涨价",
+            "中游PCB企业开启大规模扩产卡位高端产能",
+            "国内打通从玻纤、树脂、铜箔到PCB、高速连接器的完整产业链，不再依赖海外基材进口"
+          ],
+          "accidents": [
+            "高速数据线、连接器专精企业，数据中心布线刚需，业务增速持续翻倍"
+          ],
+          "insights": [
+            "高速链接配套主线，算力整机高密度链接需求持续扩容"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "600110": {
+      "name": "诺德股份",
+      "code": "600110",
+      "board": "SH",
+      "industry": "有色金属-铜加工",
+      "concepts": [],
+      "products": [
+        "极薄铜箔",
+        "电子铜箔"
+      ],
+      "core_business": [
+        "电子铜箔龙头，PCB配套极薄铜箔"
+      ],
+      "industry_position": [
+        "铜箔Top1"
+      ],
+      "chain": [
+        "上游基材-铜箔"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "第二篇：算力硬件制造赛道（PCB+高速链接+铜箔+树脂+电子布）AI服务器PCB供不应求！铜箔/树脂/电子布同步涨价",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/IJhC6z29mP4tURmfreNoxw",
+          "industry_background": [
+            "AI算力爆发带动全产业链需求上行",
+            "上游铜箔、高频树脂、电子布受原料、海外供给约束同步涨价",
+            "中游PCB企业开启大规模扩产卡位高端产能",
+            "国内打通从玻纤、树脂、铜箔到PCB、高速连接器的完整产业链，不再依赖海外基材进口"
+          ],
+          "accidents": [
+            "电子铜箔龙头，PCB配套极薄铜箔业务占比88%，算力高阶板刚需材料，主力资金持续流入"
+          ],
+          "insights": [
+            "上游涨价材料主线，铜箔供需偏紧，涨价带来毛利率提升"
+          ],
+          "key_metrics": [
+            "PCB配套极薄铜箔业务占比88%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "601208": {
+      "name": "东材科技",
+      "code": "601208",
+      "board": "SH",
+      "industry": "化工-合成树脂",
+      "concepts": [],
+      "products": [
+        "PPE高频树脂"
+      ],
+      "core_business": [
+        "PPE高频树脂龙头，适配AI覆铜板"
+      ],
+      "industry_position": [
+        "树脂Top1"
+      ],
+      "chain": [
+        "上游基材-树脂"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "第二篇：算力硬件制造赛道（PCB+高速链接+铜箔+树脂+电子布）AI服务器PCB供不应求！铜箔/树脂/电子布同步涨价",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/IJhC6z29mP4tURmfreNoxw",
+          "industry_background": [
+            "AI算力爆发带动全产业链需求上行",
+            "上游铜箔、高频树脂、电子布受原料、海外供给约束同步涨价",
+            "中游PCB企业开启大规模扩产卡位高端产能",
+            "国内打通从玻纤、树脂、铜箔到PCB、高速连接器的完整产业链，不再依赖海外基材进口"
+          ],
+          "accidents": [
+            "PPE高频树脂龙头，适配AI覆铜板，树脂业务占比62%，海外供给断供核心受益标的"
+          ],
+          "insights": [
+            "上游涨价材料主线，树脂供需偏紧，涨价带来毛利率提升",
+            "海外供给断供核心受益标的"
+          ],
+          "key_metrics": [
+            "树脂业务占比62%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "300166": {
+      "name": "东方国信",
+      "code": "300166",
+      "board": "SZ",
+      "industry": "计算机-软件开发-IT服务",
+      "concepts": [],
+      "products": [
+        "工业AI大数据平台",
+        "政企AI算力服务"
+      ],
+      "core_business": [
+        "工业AI大数据平台"
+      ],
+      "industry_position": [
+        "政企AI算力服务商"
+      ],
+      "chain": [
+        "算力底座与光通信配套"
+      ],
+      "partners": [
+        "多家制造企业"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "人工智能全产业链主线：八部门发文力挺AI消费！18只AI细分龙头资金持续加码？91%散户分不清虚实标的踏空行情？",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/OiFqeA6egQMFKiYGGDea0A",
+          "industry_background": [
+            "八部门出台政策推进AI消费落地，培育AI消费新增长点",
+            "海内外大模型迭代提速，AI赋能出行、金融、终端多场景落地",
+            "全产业链国产替代空间超90%",
+            "AI应用、算力配套年均增速75%"
+          ],
+          "accidents": [
+            "政策刺激政企数字化采购"
+          ],
+          "insights": [
+            "深耕工业大模型落地，多家制造企业长期定点合作",
+            "全年营收弹性充足"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "002600": {
+      "name": "领益智造",
+      "code": "002600",
+      "board": "SZ",
+      "industry": "机械设备-机器人",
+      "concepts": [],
+      "products": [
+        "关节",
+        "壳体",
+        "精密结构件"
+      ],
+      "core_business": [
+        "机器人精密结构件"
+      ],
+      "industry_position": [
+        "人形机身结构件供应商"
+      ],
+      "chain": [
+        "中游-零部件制造"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "机器人概念板块5000台人形机器人大单落地！16只主力重仓零部件龙头抢占千亿赛道？88%散户错追无核心技术小票踏空主升浪？",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/JCv63S3iLs4QDWMTw3liVw",
+          "industry_background": [
+            "人形机器人行业年均增速超80%",
+            "机器人核心零部件国产替代空间超95%",
+            "伺服、减速器订单缺口百亿级别"
+          ],
+          "accidents": [
+            "人形机器人关节、壳体批量供货整机厂"
+          ],
+          "insights": [
+            "行业规模化量产打开长期增量空间"
+          ],
+          "key_metrics": [
+            "主力净流入9.28亿"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "300975": {
+      "name": "商络电子",
+      "code": "300975",
+      "board": "SZ",
+      "industry": "电子-电子元件",
+      "concepts": [],
+      "products": [
+        "功率被动元件",
+        "驱动电路专用元件"
+      ],
+      "core_business": [
+        "机器人功率被动元件"
+      ],
+      "industry_position": [
+        "工控元件配套厂商"
+      ],
+      "chain": [
+        "中游-零部件制造"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "机器人概念板块5000台人形机器人大单落地！16只主力重仓零部件龙头抢占千亿赛道？88%散户错追无核心技术小票踏空主升浪？",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/JCv63S3iLs4QDWMTw3liVw",
+          "industry_background": [
+            "人形机器人行业年均增速超80%",
+            "机器人核心零部件国产替代空间超95%",
+            "伺服、减速器订单缺口百亿级别"
+          ],
+          "accidents": [
+            "人形机器人驱动电路专用元件量产"
+          ],
+          "insights": [
+            "五千台大单直接拉动元件采购需求"
+          ],
+          "key_metrics": [
+            "主力净流入4.43亿"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "601138": {
+      "name": "工业富联",
+      "code": "601138",
+      "board": "SH",
+      "industry": "机器人",
+      "concepts": [],
+      "products": [
+        "人形机器人整机代工"
+      ],
+      "core_business": [
+        "核心业务人形机器人整机代工"
+      ],
+      "industry_position": [
+        "全球机器人组装龙头"
+      ],
+      "chain": [
+        "整机组装"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "机器人概念板块5000台人形机器人大单落地！16只主力重仓零部件龙头抢占千亿赛道？88%散户错追无核心技术小票踏空主升浪？",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/JCv63S3iLs4QDWMTw3liVw",
+          "industry_background": [
+            "机器人核心零部件国产替代空间超95%",
+            "人形机器人行业年均增速超80%",
+            "伺服、减速器订单缺口百亿级别",
+            "人形机器人进入商业化落地拐点"
+          ],
+          "accidents": [
+            "国内五千台人形机器人大单落地",
+            "主力净流入45.7亿",
+            "承接海内外人形机器人整机组装大单"
+          ],
+          "insights": [
+            "五千台战略订单带动配套零部件全链需求，业绩弹性行业第一"
+          ],
+          "key_metrics": [
+            "主力净流入45.7亿"
+          ],
+          "target_valuation": []
+        }
+      ]
+    },
+    "688017": {
+      "name": "绿的谐波",
+      "code": "688017",
+      "board": "SH",
+      "industry": "机器人",
+      "concepts": [],
+      "products": [
+        "谐波减速器"
+      ],
+      "core_business": [
+        "核心业务伺服电机、谐波减速器"
+      ],
+      "industry_position": [
+        "机器人动力核心部件龙头"
+      ],
+      "chain": [
+        "核心零部件"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "机器人概念板块5000台人形机器人大单落地！16只主力重仓零部件龙头抢占千亿赛道？88%散户错追无核心技术小票踏空主升浪？",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/JCv63S3iLs4QDWMTw3liVw",
+          "industry_background": [
+            "机器人核心零部件国产替代空间超95%",
+            "人形机器人行业年均增速超80%",
+            "伺服、减速器订单缺口百亿级别",
+            "人形机器人进入商业化落地拐点"
+          ],
+          "accidents": [
+            "主力净流入4.02亿"
+          ],
+          "insights": [
+            "人形机器人专用减速器定点供货，国产替代加速",
+            "订单随量产持续翻倍"
+          ],
+          "key_metrics": [
+            "主力净流入4.02亿"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "002916": {
+      "name": "深南电路",
+      "code": "002916",
+      "board": "SZ",
+      "industry": "电子-电子元件-印制电路板",
+      "concepts": [],
+      "products": [
+        "ABF载板",
+        "PCB",
+        "服务器高阶PCB"
+      ],
+      "core_business": [
+        "PCB制造。",
+        "服务器高阶PCB制造"
+      ],
+      "industry_position": [
+        "PCB行业排名第三（PCBTop3）",
+        "头部PCB供应链的重要成员。",
+        "服务器高阶PCB龙头"
+      ],
+      "chain": [
+        "下游-电子制造",
+        "中游-PCB制造"
+      ],
+      "partners": [
+        "鼎泰高科"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "第二篇：算力硬件制造赛道（PCB+高速链接+铜箔+树脂+电子布）AI服务器PCB供不应求！铜箔/树脂/电子布同步涨价",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/IJhC6z29mP4tURmfreNoxw",
+          "industry_background": [
+            "AI算力爆发带动PCB全产业链需求上行",
+            "高端PCB（AI服务器、1.6T光模块）供不应求，单月最高涨价40%",
+            "上游铜箔、树脂、电子布同步传导涨价红利，供给收紧",
+            "算力硬件全产业链国产替代加速"
+          ],
+          "accidents": [
+            "国内算力基地核心供应商"
+          ],
+          "insights": [
+            "服务器高阶PCB龙头",
+            "高端产能持续释放"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "002805": {
+      "name": "丰元股份",
+      "code": "002805",
+      "board": "SZ",
+      "industry": "电力设备-电池-锂电正极材料",
+      "concepts": [],
+      "products": [
+        "磷酸铁锂"
+      ],
+      "core_business": [
+        "聚焦高端磷酸铁锂产品"
+      ],
+      "industry_position": [
+        "与下游核心客户达成深度战略合作"
+      ],
+      "chain": [
+        "中游-正极材料"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "2026-06-18 机构调研汇总",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/Cd4jVdNNvb3ztY60jOPyaA",
+          "industry_background": [],
+          "accidents": [
+            "加快推进下游头部客户的产品认证、试样验证与批量供货落地"
+          ],
+          "insights": [
+            "聚焦高端磷酸铁锂产品，坚持以销定产原则",
+            "与下游核心客户达成深度战略合作并开展联合研发",
+            "客户结构不断优化为新增产能有序消化提供保障"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "002927": {
+      "name": "泰永长征",
+      "code": "002927",
+      "board": "SZ",
+      "industry": "电力设备-电网设备-输变电设备",
+      "concepts": [],
+      "products": [
+        "800V机型"
+      ],
+      "core_business": [
+        "串联混合与并联混合双架构覆盖光伏、储能、电力等多场景应用"
+      ],
+      "industry_position": [
+        "主流800V机型全面采用国产器件，国产化程度较高"
+      ],
+      "chain": [
+        "中游-设备制造"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "2026-06-18 机构调研汇总",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/Cd4jVdNNvb3ztY60jOPyaA",
+          "industry_background": [],
+          "accidents": [
+            "主流800V机型全面采用国产器件"
+          ],
+          "insights": [
+            "拥有两大全链路生产基地，原材料可自主加工，产能调配灵活无瓶颈",
+            "国产化程度较高",
+            "串联混合与并联混合双架构覆盖光伏、储能、电力等多场景应用"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "300157": {
+      "name": "新锦动力",
+      "code": "300157",
+      "board": "SZ",
+      "industry": "机械设备-专用设备-能源设备",
+      "concepts": [],
+      "products": [
+        "备品备件",
+        "服务"
+      ],
+      "core_business": [
+        "提供备品备件和服务业务"
+      ],
+      "industry_position": [
+        "服务业务具备客户粘性强、毛利率更高、周期波动弱特征"
+      ],
+      "chain": [
+        "中游-设备与服务"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "2026-06-18 机构调研汇总",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/Cd4jVdNNvb3ztY60jOPyaA",
+          "industry_background": [],
+          "accidents": [
+            "2026年一季度备品备件和服务收入占比已达30%",
+            "订单储备规模较去年同期实现稳步增长"
+          ],
+          "insights": [
+            "服务业务具备客户粘性强、毛利率更高、周期波动弱特征",
+            "订单涵盖国内绿氨新建、存量化工装置节能改造、海外化肥成套装备等多类项目，可支撑未来2-3年业绩交付"
+          ],
+          "key_metrics": [
+            "2026年一季度备品备件和服务收入占比已达30%"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "300250": {
+      "name": "初灵信息",
+      "code": "300250",
+      "board": "SZ",
+      "industry": "计算机-IT服务-系统集成",
+      "concepts": [],
+      "products": [
+        "智算网",
+        "边缘计算产品"
+      ],
+      "core_business": [
+        "提供智算网（边缘计算）产品，解决异构算力同步调度问题"
+      ],
+      "industry_position": [
+        "在解决异构算力同步调度问题上具有较大技术壁垒"
+      ],
+      "chain": [
+        "中游-解决方案"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "2026-06-18 机构调研汇总",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/Cd4jVdNNvb3ztY60jOPyaA",
+          "industry_background": [],
+          "accidents": [
+            "公司智算网即为边缘计算产品，重点解决企业车间或写字楼场景中不同厂家算力卡之间异构算力的同步调度问题"
+          ],
+          "insights": [
+            "该技术挑战具有较大壁垒",
+            "公司将持续关注边缘计算领域并购机会但会保持谨慎"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "600428": {
+      "name": "中远海特",
+      "code": "600428",
+      "board": "SH",
+      "industry": "交通运输-航运",
+      "concepts": [],
+      "products": [
+        "多用途船",
+        "汽车船",
+        "纸浆船"
+      ],
+      "core_business": [
+        "特种船运输"
+      ],
+      "industry_position": [
+        "特种船运输领域的绝对全球龙头"
+      ],
+      "chain": [
+        "航运服务提供商"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "航线全面爆舱：相关受益概念分析",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/PM_kj8LtIweaTRVRfGBYxQ",
+          "industry_background": [
+            "全球航运市场特别是中美航线经历‘爆舱风暴’",
+            "2026年5月中国货物贸易出口金额同比增长19.4%",
+            "运力供需矛盾急剧恶化",
+            "中美主干航线运价实现翻倍跳涨",
+            "美国洛杉矶港2026年4月、5月吞吐量同比分别增长5.7%和17%",
+            "空箱流向严重失衡，中国沿海主要港口空箱匮乏"
+          ],
+          "accidents": [
+            "本轮集运主干航线全面爆舱、舱位极度受限",
+            "部分因爆舱无法及时通过集装箱运输的非标件杂货或机械设备，纷纷流向特种多用途船"
+          ],
+          "insights": [
+            "作为特种船运输领域的绝对全球龙头，其多用途船和重吊船表现出了极佳的替代性功能",
+            "‘以特代集’的贸易转移直接推高了中远海特多用途船型的租金和运价水平，显著增厚了其非标准箱运输业务的毛利空间"
+          ],
+          "key_metrics": [
+            "2025年实现营业收入232.11亿元，同比增长38.32%",
+            "2025年归母净利润达到17.8亿元"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "601022": {
+      "name": "宁波远洋",
+      "code": "601022",
+      "board": "SH",
+      "industry": "交通运输-航运",
+      "concepts": [],
+      "products": [
+        "内支线",
+        "近洋支线"
+      ],
+      "core_business": [
+        "近洋及内支线集装箱航运"
+      ],
+      "industry_position": [
+        "我国华东地区近洋及内支线集装箱航运的核心龙头",
+        "深度绑定全球货物吞吐量第一的超级枢纽港——宁波舟山港"
+      ],
+      "chain": [
+        "航运服务提供商"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "航线全面爆舱：相关受益概念分析",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/PM_kj8LtIweaTRVRfGBYxQ",
+          "industry_background": [
+            "全球航运市场特别是中美航线经历‘爆舱风暴’",
+            "2026年5月中国货物贸易出口金额同比增长19.4%",
+            "运力供需矛盾急剧恶化",
+            "中美主干航线运价实现翻倍跳涨",
+            "美国洛杉矶港2026年4月、5月吞吐量同比分别增长5.7%和17%",
+            "空箱流向严重失衡，中国沿海主要港口空箱匮乏"
+          ],
+          "accidents": [
+            "中美航线爆舱及大船舱位紧缺",
+            "宁波舟山港的外贸出运量持续高位运行"
+          ],
+          "insights": [
+            "作为我国华东地区近洋及内支线集装箱航运的核心龙头，深度绑定全球货物吞吐量第一的超级枢纽港——宁波舟山港",
+            "作为主要的外贸喂给内支线和近洋航线运营商，直接承接了外贸干线溢出的中转集拼业务",
+            "伴随母港集装箱吞吐量的快速提升，其近洋支线的货运量及综合毛利率空间得以显著拓宽"
+          ],
+          "key_metrics": [
+            "2026年第一季度实现营业总收入15.70亿元，同比增长14.38%",
+            "2026年第一季度实现归属于上市公司股东的净利润1.396亿元"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "600176": {
+      "name": "中国巨石",
+      "code": "600176",
+      "board": "SH",
+      "industry": "建筑材料-玻纤",
+      "concepts": [],
+      "products": [
+        "电子玻纤纱"
+      ],
+      "core_business": [
+        "电子玻纤纱龙头，电子布上游原料"
+      ],
+      "industry_position": [
+        "电子布Top2",
+        "电子玻纤纱龙头"
+      ],
+      "chain": [
+        "上游基材-电子布原料"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "第二篇：算力硬件制造赛道（PCB+高速链接+铜箔+树脂+电子布）AI服务器PCB供不应求！铜箔/树脂/电子布同步涨价",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/IJhC6z29mP4tURmfreNoxw",
+          "industry_background": [
+            "AI算力爆发直接带动全产业链需求上行",
+            "上游铜箔、高频树脂、电子布受原料、海外供给约束同步涨价",
+            "中游PCB企业开启大规模扩产卡位高端产能",
+            "国内已经打通从玻纤、树脂、铜箔到PCB、高速连接器的完整产业链，不再依赖海外基材进口"
+          ],
+          "accidents": [
+            "电子布年内5轮提价"
+          ],
+          "insights": [
+            "电子玻纤纱龙头，电子布上游原料",
+            "扩产带动需求放量"
+          ],
+          "key_metrics": [
+            "玻纤业务占比75%",
+            "电子布年内5轮提价"
+          ],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    },
+    "002354": {
+      "name": "天娱数科",
+      "code": "002354",
+      "board": "SZ",
+      "industry": "",
+      "concepts": [],
+      "products": [
+        "3D打印机身",
+        "AI数字人",
+        "营销智能体"
+      ],
+      "core_business": [
+        "文娱AI应用厂商",
+        "覆盖机器人3D打印机身等核心环节"
+      ],
+      "industry_position": [],
+      "chain": [
+        "上游-核心零部件"
+      ],
+      "partners": [],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "人工智能全产业链主线：八部门发文力挺AI消费！18只AI细分龙头资金持续加码？91%散户分不清虚实标的踏空行情？",
+          "date": "2026-06-19",
+          "source": "https://mp.weixin.qq.com/s/OiFqeA6egQMFKiYGGDea0A",
+          "industry_background": [
+            "八部门出台政策推进AI消费落地",
+            "海内外大模型迭代提速",
+            "AI赋能出行、金融、终端多场景落地",
+            "全产业链国产替代空间超90%",
+            "AI应用、算力配套年均增速75%",
+            "落地场景企业订单缺口持续扩张"
+          ],
+          "accidents": [
+            "AI数字人、智能广告系统落地品牌方"
+          ],
+          "insights": [
+            "AI消费政策直接拉动C端付费规模",
+            "618大促带动AI营销订单大幅增长"
+          ],
+          "key_metrics": [],
+          "target_valuation": []
+        }
+      ],
+      "last_updated": "2026-06-19"
+    }
+  }
+}

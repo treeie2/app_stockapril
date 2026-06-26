@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>搜索 - 个股研究数据库</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/cyber-theme.css">
+    <style>
+/* Mobile Responsive Enhancements */
+.nav-mobile-toggle {
+    display: none;
+    width: 38px;
+    height: 38px;
+    border: 1px solid var(--border);
+    background: rgba(255,255,255,0.03);
+    border-radius: 8px;
+    color: var(--primary);
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    flex-shrink: 0;
+}
+.nav-links-mobile {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    gap: 0.25rem;
+    margin-top: 0.75rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--border);
+}
+.nav-links-mobile.on { display: flex; }
+.nav-links-mobile a {
+    padding: 0.5rem 0.75rem;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    color: var(--text-dim, #94a3b8);
+    text-decoration: none;
+    transition: background 0.2s;
+}
+.nav-links-mobile a:hover,
+.nav-links-mobile a.active-mobile {
+    color: var(--primary, #06b6d4);
+    background: rgba(0, 240, 255, 0.08);
+}
+
+@media (max-width: 768px) {
+    .nav-mobile-toggle { display: flex; }
+    
+    /* Hide original desktop nav links row */
+    /* Links inside nav use flex gap-4; collapse them to a single toggle */
+    
+    h1.text-4xl { font-size: 1.5rem !important; }
+    main.py-8 { padding-top: 1rem !important; padding-bottom: 2rem !important; }
+    main.px-4 { padding-left: 0.75rem !important; padding-right: 0.75rem !important; }
+    
+    /* Search form: stack */
+    form.flex.gap-3 { flex-direction: column !important; gap: 0.5rem !important; }
+    form input[type="text"] { font-size: 0.85rem !important; padding: 0.75rem 0.9rem !important; width: 100% !important; }
+    form button[type="submit"] { width: 100% !important; padding: 0.75rem !important; font-size: 0.9rem !important; }
+    
+    /* Table → Cards */
+    div.overflow-x-auto table,
+    div.overflow-x-auto thead,
+    div.overflow-x-auto tbody,
+    div.overflow-x-auto tr,
+    div.overflow-x-auto td { display: block; width: 100% !important; }
+    div.overflow-x-auto th { display: none; }
+    div.overflow-x-auto tr {
+        padding: 1rem;
+        margin-bottom: 0.6rem;
+        border-bottom: 1px solid var(--border, rgba(99,179,237,0.1)) !important;
+        background: rgba(0,0,0,0.2);
+        border-radius: 10px;
+        box-sizing: border-box;
+    }
+    div.overflow-x-auto tr:last-child { border-bottom: 1px solid var(--border) !important; }
+    div.overflow-x-auto td {
+        padding: 0.35rem 0 !important;
+        font-size: 0.85rem;
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        gap: 0.75rem;
+        border: none !important;
+    }
+    div.overflow-x-auto td::before {
+        content: attr(data-label);
+        color: var(--text-dim, #94a3b8);
+        font-size: 0.7rem;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        flex-shrink: 0;
+    }
+    div.overflow-x-auto td:first-child { display: none !important; }
+    div.overflow-x-auto td:nth-child(2) a {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    div.overflow-x-auto td:nth-child(2) {
+        padding-bottom: 0.5rem !important;
+        margin-bottom: 0.3rem;
+        border-bottom: 1px solid var(--border) !important;
+    }
+    div.overflow-x-auto td:nth-child(2)::before { display: none; }
+    
+    /* Hot searches tags */
+    .flex.flex-wrap.gap-2 .tag {
+        font-size: 0.78rem;
+        padding: 0.35rem 0.7rem;
+    }
+    
+    .section-title { font-size: 1rem !important; }
+    
+    /* Results header row */
+    .mb-6 .flex.items-center.justify-between {
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+    
+    footer.py-6 { padding: 1.25rem 1rem; font-size: 0.78rem; }
+}
+@media (max-width: 400px) {
+    h1.text-4xl { font-size: 1.25rem !important; }
+    .mb-8 { margin-bottom: 1.25rem !important; }
+    div.overflow-x-auto tr { padding: 0.75rem; }
+}
+    </style>
+</head>
+<body>
+    <div class="bg-grid"></div>
+    <div class="bg-glow"></div>
+    
+    <nav class="nav-glass">
+        <div class="max-w-7xl mx-auto px-4 py-3">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center gap-6">
+                    <a href="/" class="title-tech text-xl font-bold">CYBER<span style="color: var(--primary)">RESEARCH</span></a>
+                    <div class="flex gap-4">
+                        <a href="/" class="nav-link text-sm">仪表板</a>
+                        <a href="/stocks" class="nav-link text-sm">股票列表</a>
+                        <a href="/social-security-new" class="nav-link text-sm">社保新进</a>
+                        <a href="/concepts" class="nav-link text-sm">概念大全</a>
+                        <a href="/search" class="nav-link text-sm" style="color: var(--primary)">搜索</a>
+                    </div>
+                </div>
+                <button class="nav-mobile-toggle" id="navToggle" aria-label="菜单">☰</button>
+            </div>
+            <div class="nav-links-mobile" id="navLinks">
+                <a href="/" class="nav-link text-sm">仪表板</a>
+                <a href="/stocks" class="nav-link text-sm">股票列表</a>
+                <a href="/social-security-new" class="nav-link text-sm">社保新进</a>
+                <a href="/concepts" class="nav-link text-sm">概念大全</a>
+                <a href="/search" class="nav-link text-sm active-mobile" style="color: var(--primary)">搜索</a>
+            </div>
+        </div>
+    </nav>
+    
+    <main class="max-w-7xl mx-auto px-4 py-8 relative z-10">
+        <div class="mb-8">
+            <h1 class="text-4xl font-bold title-tech mb-2">🔍 智能搜索</h1>
+            <p class="text-gray-500">快速查找股票 · 支持代码/名称搜索</p>
+        </div>
+        
+        <!-- 搜索框 -->
+        <div class="card mb-6">
+            <form class="flex gap-3">
+                <input type="text" name="q" value="{{ query }}" placeholder="输入股票名称或代码（如：300308 或 中际旭创）" 
+                       class="flex-1 px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 transition"
+                       style="background: rgba(0,0,0,0.3); border-color: var(--border); color: var(--text);"
+                       autofocus>
+                <button type="submit" class="px-8 py-3 rounded-lg font-medium transition"
+                    style="background: var(--primary); color: #000;"
+                    onmouseover="this.style.opacity='0.9'"
+                    onmouseout="this.style.opacity='1'">
+                    🔍 搜索
+                </button>
+            </form>
+        </div>
+
+        {% if query %}
+        <!-- 搜索结果 -->
+        <div class="card">
+            <div class="flex items-center justify-between mb-6">
+                <div class="section-title" style="margin-bottom: 0;">
+                    <span style="color: var(--primary)">⚡</span> 搜索结果：{{ total }} 条
+                </div>
+                {% if total > 0 %}
+                <span class="badge badge-primary">按提及次数排序</span>
+                {% endif %}
+            </div>
+            
+            {% if total == 0 %}
+            <div class="text-center py-12" style="color: var(--text-dim);">
+                <div class="text-6xl mb-4">🔍</div>
+                <p class="text-lg">未找到匹配的股票</p>
+                <p class="text-sm mt-2">试试其他关键词或检查输入是否正确</p>
+            </div>
+            {% else %}
+            <div class="overflow-x-auto">
+                <table class="min-w-full">
+                    <thead>
+                        <tr class="border-b" style="border-color: var(--border);">
+                            <th class="px-4 py-3 text-left text-xs font-bold uppercase tracking-wider" style="color: var(--text-dim);" data-label="#">#</th>
+                            <th class="px-4 py-3 text-left text-xs font-bold uppercase tracking-wider" style="color: var(--text-dim);" data-label="股票">股票</th>
+                            <th class="px-4 py-3 text-left text-xs font-bold uppercase tracking-wider" style="color: var(--text-dim);" data-label="提及次数">提及次数</th>
+                            <th class="px-4 py-3 text-left text-xs font-bold uppercase tracking-wider" style="color: var(--text-dim);" data-label="概念">概念标签</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for r in results %}
+                        <tr class="border-b hover:bg-white/5 transition" style="border-color: rgba(255,255,255,0.05);">
+                            <td class="px-4 py-4 text-sm font-mono" style="color: var(--text-dim);" data-label="#">{{ loop.index }}</td>
+                            <td class="px-4 py-4" data-label="股票">
+                                <a href="/stock/{{ r.code }}" class="text-white font-medium hover:text-[var(--primary)] transition">
+                                    {{ r.name }}
+                                    <span class="text-xs font-mono" style="color: var(--text-dim);">({{ r.code }})</span>
+                                </a>
+                                {% if r.match_fields %}
+                                <div class="mt-1 flex flex-wrap gap-1">
+                                    {% for field in r.match_fields %}
+                                    <span class="text-xs px-2 py-0.5 rounded" style="background: rgba(0, 240, 255, 0.15); color: var(--primary);">{{ field }}</span>
+                                    {% endfor %}
+                                </div>
+                                {% endif %}
+                            </td>
+                            <td class="px-4 py-4" data-label="提及次数">
+                                <span class="badge badge-primary">{{ r.mention_count }}</span>
+                            </td>
+                            <td class="px-4 py-4" data-label="概念">
+                                <div class="flex flex-wrap gap-1">
+                                    {% for c in r.concepts %}
+                                    <a href="/concept/{{ c }}" class="tag">{{ c }}</a>
+                                    {% endfor %}
+                                </div>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            {% endif %}
+        </div>
+        {% endif %}
+        
+        <!-- 热门搜索 -->
+        {% if not query %}
+        <div class="card">
+            <div class="section-title mb-4">🔥 热门搜索</div>
+            <div class="flex flex-wrap gap-2">
+                {% for stock in top_stocks %}
+                <a href="/stock/{{ stock.code }}" class="tag">{{ stock.name }} ({{ stock.code }})</a>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+    </main>
+    
+    <footer class="relative z-10 border-t" style="border-color: var(--border); background: var(--bg-card);">
+        <div class="max-w-7xl mx-auto px-4 py-6 text-center text-gray-500 text-sm">
+            <p>CYBER<span style="color: var(--primary);">RESEARCH</span> © 2026 - AI-Powered Investment Research Platform</p>
+        </div>
+    </footer>
+<script>
+// Mobile nav toggle
+const navToggle = document.getElementById('navToggle');
+const navLinks = document.getElementById('navLinks');
+if (navToggle && navLinks) {
+    navToggle.addEventListener('click', () => {
+        navLinks.classList.toggle('on');
+        navToggle.textContent = navLinks.classList.contains('on') ? '✕' : '☰';
+    });
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+{
+  "stocks": [
+    {
+      "name": "强一股份",
+      "code": "688809",
+      "board": "SH",
+      "industry": "电子-半导体-集成电路测试",
+      "concepts": [],
+      "products": [
+        "CP探针卡",
+        "MEMS探针卡"
+      ],
+      "core_business": [
+        "高端MEMS探针卡业务"
+      ],
+      "industry_position": [
+        "国产CP探针卡龙头",
+        "国内少有的具备MEMS探针量产能力的厂商"
+      ],
+      "chain": [
+        "中游-半导体测试设备及耗材"
+      ],
+      "partners": [
+        "国产存储客户",
+        "国内绝大多数龙头企业（CPU+GPU）",
+        "国内龙头B客户"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "强一股份公告点评：预告倍增，算力通胀标的",
+          "date": "2026-06-20",
+          "source": "manual://02_qiangyi",
+          "industry_background": [
+            "AI算力需求爆发",
+            "半导体行业景气周期"
+          ],
+          "accidents": [
+            "2026年1-2月公司实现营收1.64亿元，同比增长158%"
+          ],
+          "insights": [
+            "公司是国产CP探针卡龙头，是国内少有的具备MEMS探针量产的厂商",
+            "在算力领域是国内龙头B客户的核心供应商，并全面切入国产CPU+GPU",
+            "在存储领域，公司全套国产化的能力较为稀缺，有望通过国产存储客户验证"
+          ],
+          "key_metrics": [
+            "2026年1-2月营收1.64亿元",
+            "同比增长158%"
+          ],
+          "target_valuation": []
+        }
+      ]
+    }
+  ]
+}

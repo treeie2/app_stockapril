@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ stock.name }} ({{ stock.code }}) - 个股详情</title>
+    <link rel="stylesheet" href="/static/css/stock-card.css">
+    <style>
+        .nav-bar {
+            display: flex; justify-content: space-between; align-items: center;
+            background: var(--bg-card); border: 1px solid var(--border);
+            border-radius: var(--radius-lg); padding: 16px 20px; margin: 20px 0;
+        }
+        .nav-bar .nav-info { font-size: 14px; color: var(--text-muted); }
+        .nav-btn {
+            display: inline-flex; align-items: center; gap: 8px;
+            padding: 10px 20px; border-radius: var(--radius-sm);
+            background: var(--bg-secondary); border: 1px solid var(--border);
+            color: var(--text-primary); text-decoration: none;
+            font-size: 14px; font-weight: 500; transition: all 0.2s;
+        }
+        .nav-btn:hover { border-color: var(--accent-blue); background: rgba(59,130,246,0.1); color: var(--accent-blue); }
+        .nav-btn:disabled, .nav-btn.disabled { opacity: 0.4; cursor: not-allowed; }
+        .sync-bar {
+            position: fixed; bottom: 0; left: 0; right: 0;
+            background: var(--bg-card); border-top: 1px solid var(--border);
+            padding: 12px 24px; display: flex; gap: 12px; align-items: center;
+            z-index: 1000; backdrop-filter: blur(12px);
+        }
+        .sync-bar .btn {
+            padding: 8px 20px; border-radius: var(--radius-sm); border: none;
+            cursor: pointer; font-size: 14px; font-weight: 500;
+            transition: all 0.2s; display: flex; align-items: center; gap: 6px;
+        }
+        .btn-github { background: #2dba4e; color: #fff; }
+        .btn-github:hover { background: #25a042; }
+        .btn-firebase { background: #ffca28; color: #1a1a2e; }
+        .btn-firebase:hover { background: #f5c000; }
+        .btn-sync-all { background: var(--accent-blue); color: #fff; }
+        .btn-sync-all:hover { background: #2563eb; }
+        .btn:disabled { opacity: 0.5; cursor: not-allowed; }
+        .sync-status { font-size: 13px; color: var(--text-secondary); margin-left: auto; }
+        .sync-status.success { color: var(--accent-green); }
+        .sync-status.error { color: var(--accent-rose); }
+        .btn-edit {
+            background: rgba(59,130,246,0.15); color: var(--accent-blue);
+            padding: 8px 20px; border-radius: var(--radius-sm); border: 1px solid rgba(59,130,246,0.3);
+            cursor: pointer; font-size: 14px; font-weight: 500; transition: all 0.2s;
+        }
+        .btn-edit:hover { background: rgba(59,130,246,0.25); }
+        .edit-section { display: none; margin: 20px 0; padding: 20px; background: var(--bg-card); border-radius: var(--radius-lg); border: 1px solid var(--border); }
+        .edit-section.visible { display: block; }
+        .edit-section h3 { margin: 0 0 16px; font-size: 16px; color: var(--text-primary); }
+        .edit-field { margin-bottom: 14px; }
+        .edit-field label { display: block; font-size: 13px; color: var(--text-secondary); margin-bottom: 4px; }
+        .edit-field textarea, .edit-field input {
+            width: 100%; padding: 8px 12px; border-radius: var(--radius-sm);
+            border: 1px solid var(--border); background: var(--bg-secondary);
+            color: var(--text-primary); font-size: 14px; resize: vertical;
+        }
+        .edit-field textarea:focus, .edit-field input:focus {
+            outline: none; border-color: var(--accent-blue); box-shadow: var(--glow-blue);
+        }
+        .btn-save { background: var(--accent-blue); color: #fff; padding: 10px 24px; border: none; border-radius: var(--radius-sm); cursor: pointer; font-size: 14px; }
+        .btn-save:hover { background: #2563eb; }
+        .btn-delete-article {
+            background: rgba(239,68,68,0.15); color: var(--accent-rose);
+            padding: 4px 12px; border-radius: var(--radius-sm); border: 1px solid rgba(239,68,68,0.3);
+            cursor: pointer; font-size: 12px; font-weight: 500; transition: all 0.2s; float: right;
+            margin-left: 8px;
+        }
+        .btn-delete-article:hover { background: rgba(239,68,68,0.25); }
+        .btn-edit-article {
+            background: rgba(59,130,246,0.15); color: var(--accent-blue);
+            padding: 4px 12px; border-radius: var(--radius-sm); border: 1px solid rgba(59,130,246,0.3);
+            cursor: pointer; font-size: 12px; font-weight: 500; transition: all 0.2s; float: right;
+        }
+        .btn-edit-article:hover { background: rgba(59,130,246,0.25); }
+        .article-edit { margin-top: 10px; padding: 14px; background: var(--bg-secondary); border-radius: var(--radius-sm); border: 1px solid var(--border); }
+        .article-edit .edit-field { margin-bottom: 10px; }
+        .article-edit .edit-field label { display: block; font-size: 12px; color: var(--text-muted); margin-bottom: 2px; }
+        .article-edit .edit-field input,
+        .article-edit .edit-field textarea {
+            width: 100%; padding: 6px 10px; border-radius: 4px;
+            border: 1px solid var(--border); background: var(--bg-card);
+            color: var(--text-primary); font-size: 13px; resize: vertical;
+            box-sizing: border-box;
+        }
+        .article-edit .edit-field input:focus,
+        .article-edit .edit-field textarea:focus {
+            outline: none; border-color: var(--accent-blue);
+        }
+        .btn-save-article {
+            background: var(--accent-blue); color: #fff;
+            padding: 6px 16px; border: none; border-radius: 4px;
+            cursor: pointer; font-size: 13px; margin-right: 8px;
+        }
+        .btn-save-article:hover { background: #2563eb; }
+        .btn-cancel-article {
+            background: transparent; color: var(--text-secondary);
+            padding: 6px 16px; border: 1px solid var(--border); border-radius: 4px;
+            cursor: pointer; font-size: 13px;
+        }
+        .btn-cancel-article:hover { background: var(--bg-secondary); }
+        .industry-bg {
+            margin: 12px 0;
+            padding: 12px 16px;
+            background: linear-gradient(135deg, rgba(6,182,212,0.06), rgba(99,179,237,0.03));
+            border-left: 3px solid var(--accent-cyan);
+            border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+        }
+        .industry-bg strong {
+            color: var(--accent-cyan);
+            font-size: 13px;
+        }
+        .industry-bg li {
+            color: var(--text-secondary);
+            font-size: 13px;
+            line-height: 1.6;
+        }
+        .toast {
+            position: fixed; top: 20px; right: 20px; padding: 12px 24px;
+            border-radius: var(--radius-sm); font-size: 14px; z-index: 2000;
+            animation: slideIn 0.3s ease;
+        }
+        .toast.success { background: var(--accent-green); color: #fff; }
+        .toast.error { background: var(--accent-rose); color: #fff; }
+        @keyframes slideIn { from { transform: translateX(100%); opacity: 0; } to { transform: translateX(0); opacity: 1; } }
+        .stock-header { display: flex; align-items: center; gap: 16px; margin-bottom: 24px; }
+        .stock-code { font-size: 14px; color: var(--text-muted); }
+        .stock-name { font-size: 28px; font-weight: 700; }
+        .tag { display: inline-block; padding: 2px 10px; border-radius: 20px; font-size: 12px; background: rgba(59,130,246,0.15); color: var(--accent-blue); margin: 2px; }
+        .section { margin: 20px 0; padding: 20px; background: var(--bg-card); border-radius: var(--radius-lg); border: 1px solid var(--border); }
+        .section h3 { margin: 0 0 12px; font-size: 16px; color: var(--text-primary); }
+        .field-list { display: flex; flex-wrap: wrap; gap: 6px; }
+        .article-card { padding: 16px; margin: 12px 0; background: var(--bg-secondary); border-radius: var(--radius-md); border: 1px solid var(--border); }
+        .article-card h4 { margin: 0 0 8px; font-size: 15px; }
+        .article-card .meta { font-size: 12px; color: var(--text-muted); margin-bottom: 8px; }
+        .article-card ul { margin: 4px 0; padding-left: 20px; font-size: 13px; color: var(--text-secondary); }
+        .article-card ul li { margin: 2px 0; }
+        .price-row { display: flex; gap: 24px; flex-wrap: wrap; }
+        .price-item { text-align: center; min-width: 100px; }
+        .price-item .label { font-size: 12px; color: var(--text-muted); margin-bottom: 4px; }
+        .price-item .value { font-size: 22px; font-weight: 700; }
+        .price-item .value.up { color: var(--accent-rose); }
+        .price-item .value.down { color: var(--accent-green); }
+        .related-stock { display: inline-flex; align-items: center; gap: 6px; padding: 6px 14px; border-radius: var(--radius-sm); background: var(--bg-secondary); border: 1px solid var(--border); margin: 4px; text-decoration: none; color: var(--text-primary); font-size: 13px; transition: all 0.2s; }
+        .related-stock:hover { border-color: var(--accent-blue); background: rgba(59,130,246,0.1); }
+        .related-stock .sim { font-size: 11px; color: var(--text-muted); }
+        .loading-price { color: var(--text-muted); font-size: 14px; }
+
+        /* ─── Mobile Responsive ─── */
+        @media (max-width: 768px) {
+            div[style*="max-width: 900px"] { padding: 12px 12px 100px !important; }
+            .nav-bar { padding: 12px; flex-wrap: wrap; gap: 6px; margin: 10px 0; }
+            .nav-btn { padding: 8px 12px; font-size: 12px; }
+            .nav-info { order: 3; width: 100%; text-align: center; font-size: 12px; margin-top: 4px; }
+            .stock-header { flex-wrap: wrap; gap: 8px; }
+            .stock-header > div:first-child { width: 100%; }
+            .stock-header > div:nth-child(2) { margin-left: 0 !important; flex-direction: row !important; align-items: center; gap: 16px; width: 100%; }
+            .stock-header > div:nth-child(2) > div { flex: 1; text-align: center; }
+            .stock-name { font-size: 22px; }
+            .section { padding: 14px; margin: 12px 0; border-radius: 12px; }
+            .section h3 { font-size: 14px; }
+            .price-row { flex-direction: column; gap: 12px; }
+            .price-item { min-width: auto; width: 100%; display: flex; justify-content: space-between; align-items: center; padding: 6px 0; border-bottom: 1px solid var(--border); }
+            .price-item:last-child { border-bottom: none; }
+            .price-item .label { margin-bottom: 0; font-size: 11px; }
+            .price-item .value { font-size: 18px; }
+            .article-card { padding: 12px; }
+            .article-card h4 { font-size: 13px; }
+            .article-card .meta { font-size: 11px; }
+            .article-card ul { font-size: 12px; padding-left: 16px; }
+            .tag { font-size: 11px; padding: 2px 8px; }
+            .sync-bar { padding: 10px 12px; gap: 8px; flex-wrap: wrap; justify-content: center; }
+            .sync-bar .btn { padding: 6px 12px; font-size: 12px; }
+            .sync-status { margin-left: 0; font-size: 11px; width: 100%; text-align: center; order: 5; }
+            .industry-bg { padding: 10px 12px; font-size: 12px; }
+            .edit-field label { font-size: 12px; }
+            .edit-field input, .edit-field textarea { padding: 6px 10px; font-size: 13px; }
+            .toast { padding: 8px 14px; font-size: 12px; right: 12px; top: 12px; left: 12px; }
+            .topic-meta { flex-wrap: wrap; gap: 10px; }
+            .topic-header { padding: 16px; }
+            .topic-title { font-size: 20px; }
+            .topic-drivers { font-size: 13px; line-height: 1.7; padding: 10px; }
+        }
+        @media (max-width: 400px) {
+            .stock-name { font-size: 20px; }
+            .section { padding: 12px; }
+            .price-item .value { font-size: 16px; }
+        }
+    </style>
+</head>
+<body>
+    <div style="max-width: 900px; margin: 0 auto; padding: 20px 20px 80px;">
+        <!-- 上一页 / 下一页导航 -->
+        <div class="nav-bar">
+            <div>
+                {% if stock.nav.prev %}
+                <a href="/stock/{{ stock.nav.prev.code }}" class="nav-btn">← {{ stock.nav.prev.name }}</a>
+                {% else %}
+                <span class="nav-btn disabled">← 已是第一个</span>
+                {% endif %}
+            </div>
+            <div class="nav-info">{{ stock.nav.index }} / {{ stock.nav.total }}</div>
+            <div>
+                {% if stock.nav.next %}
+                <a href="/stock/{{ stock.nav.next.code }}" class="nav-btn">{{ stock.nav.next.name }} →</a>
+                {% else %}
+                <span class="nav-btn disabled">已是最后一个 →</span>
+                {% endif %}
+            </div>
+        </div>
+
+        <!-- 股票头部 -->
+        <div class="stock-header">
+            <div>
+                <div class="stock-name">{{ stock.name }}</div>
+                <div class="stock-code">{{ stock.code }} · {{ stock.board }} · {{ stock.industry }}</div>
+            </div>
+            <div style="margin-left: auto; display: flex; align-items: center; gap: 12px;">
+                <button class="btn-edit" onclick="toggleEdit()">✏️ 编辑</button>
+                <div style="text-align: right;">
+                    <div style="font-size: 13px; color: var(--text-muted);">提及次数</div>
+                    <div style="font-size: 24px; font-weight: 700; color: var(--accent-cyan);">{{ stock.mention_count }}</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 概念标签 -->
+        {% if stock.concepts %}
+        <div class="section">
+            <h3>🏷️ 概念标签</h3>
+            <div class="field-list">
+                {% for c in stock.concepts %}<span class="tag">{{ c }}</span>{% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
+        <!-- 🌐 行业赛道背景（聚合自所有文章） -->
+        {% if stock.industry_background %}
+        <div class="section">
+            <h3>🌐 行业赛道背景</h3>
+            <ul style="margin:0;padding-left:20px;color:var(--text-secondary);font-size:13px;line-height:1.8;">
+                {% for item in stock.industry_background %}<li>{{ item }}</li>{% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+
+        <!-- 所属分组 -->
+        {% if stock.groups and stock.groups|length > 0 %}
+        <div class="section">
+            <h3>📁 所属分组</h3>
+            <div class="field-list">
+                {% for group in stock.groups %}
+                <a href="/group/{{ group.id }}" class="tag" style="background:rgba({{ group.color_rgb }},0.15);color:{{ group.color }};border:1px solid rgba({{ group.color_rgb }},0.3);text-decoration:none;">{{ group.icon }} {{ group.name }}</a>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+        <div class="section">
+            <h3>🏢 公司画像</h3>
+            {% if stock.core_business %}
+            <div class="edit-field"><label>核心业务</label><div class="field-list">{% for item in stock.core_business %}<span class="tag">{{ item }}</span>{% endfor %}</div></div>
+            {% endif %}
+            {% if stock.industry_position %}
+            <div class="edit-field"><label>行业地位</label><div class="field-list">{% for item in stock.industry_position %}<span class="tag">{{ item }}</span>{% endfor %}</div></div>
+            {% endif %}
+            {% if stock.chain %}
+            <div class="edit-field"><label>产业链</label><div class="field-list">{% for item in stock.chain %}<span class="tag">{{ item }}</span>{% endfor %}</div></div>
+            {% endif %}
+            {% if stock.partners %}
+            <div class="edit-field"><label>合作伙伴</label><div class="field-list">{% for item in stock.partners %}<span class="tag">{{ item }}</span>{% endfor %}</div></div>
+            {% endif %}
+        </div>
+
+        <!-- 实时行情 -->
+        <div class="section">
+            <h3>📊 实时行情</h3>
+            <div class="price-row" id="marketData">
+                <div class="price-item">
+                    <div class="label">股价</div>
+                    <div class="value" id="mdPrice"><span class="loading-price">加载中...</span></div>
+                </div>
+                <div class="price-item">
+                    <div class="label">涨跌幅</div>
+                    <div class="value" id="mdChange"><span class="loading-price">—</span></div>
+                </div>
+                <div class="price-item">
+                    <div class="label">市盈率 (PE)</div>
+                    <div class="value" id="mdPe"><span class="loading-price">—</span></div>
+                </div>
+                <div class="price-item">
+                    <div class="label">总市值</div>
+                    <div class="value" id="mdMc"><span class="loading-price">—</span></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 机构估值（来自研报分析） -->
+        {% set v = stock.valuation %}
+        {% if v and (v.target_market_cap or v.target_price or v.pe or v.upside or v.rating) %}
+        <div class="section">
+            <h3>🎯 机构估值</h3>
+            <div class="price-row">
+                {% if v.target_market_cap %}
+                <div class="price-item">
+                    <div class="label">目标市值</div>
+                    <div class="value" style="font-size:20px;color:var(--accent-cyan);">{{ v.target_market_cap }}</div>
+                </div>
+                {% endif %}
+                {% if v.target_price %}
+                <div class="price-item">
+                    <div class="label">目标价</div>
+                    <div class="value" style="font-size:20px;color:var(--accent-blue);">{{ v.target_price }}</div>
+                </div>
+                {% endif %}
+                {% if v.pe %}
+                <div class="price-item">
+                    <div class="label">参考 PE</div>
+                    <div class="value" style="font-size:20px;color:var(--accent-violet);">{{ v.pe }}</div>
+                </div>
+                {% endif %}
+                {% if v.upside %}
+                <div class="price-item">
+                    <div class="label">上涨空间</div>
+                    <div class="value" style="font-size:20px;color:var(--accent-rose);">{{ v.upside }}</div>
+                </div>
+                {% endif %}
+            </div>
+            {% if v.rating %}
+            <div style="margin-top:12px;display:flex;gap:8px;align-items:center;">
+                <span style="font-size:13px;color:var(--text-muted);">机构评级</span>
+                <span style="padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;background:rgba(59,130,246,0.15);color:var(--accent-blue);border:1px solid rgba(59,130,246,0.3);">{{ v.rating }}</span>
+            </div>
+            {% endif %}
+        </div>
+        {% endif %}
+
+        <!-- 目标估值（来自文章） -->
+        {% set tv_items = [] %}
+        {% for article in stock.articles %}
+          {% if article.target_valuation %}
+            {% for tv in article.target_valuation %}
+              {% if tv %}{% set _ = tv_items.append(tv) %}{% endif %}
+            {% endfor %}
+          {% endif %}
+        {% endfor %}
+        {% if tv_items %}
+        <div class="section">
+            <h3>🎯 目标估值</h3>
+            <ul style="margin:0;padding-left:20px;font-size:14px;color:var(--text-secondary);line-height:1.8;">
+            {% for item in tv_items %}
+                <li>{{ item }}</li>
+            {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+
+        <!-- 关联个股 -->
+        <div class="section">
+            <h3>🔗 关联个股</h3>
+            <div id="relatedStocks"><span class="loading-price">加载中...</span></div>
+        </div>
+
+        <!-- 编辑区域 -->
+        <div class="edit-section" id="editSection">
+            <h3>✏️ 编辑股票信息</h3>
+            <div class="edit-field">
+                <label>核心业务（每行一个）</label>
+                <textarea id="editCoreBusiness" rows="3">{% for item in stock.core_business %}{{ item }}
+{% endfor %}</textarea>
+            </div>
+            <div class="edit-field">
+                <label>行业地位（每行一个）</label>
+                <textarea id="editIndustryPosition" rows="3">{% for item in stock.industry_position %}{{ item }}
+{% endfor %}</textarea>
+            </div>
+            <div class="edit-field">
+                <label>产业链（每行一个）</label>
+                <textarea id="editChain" rows="2">{% for item in stock.chain %}{{ item }}
+{% endfor %}</textarea>
+            </div>
+            <div class="edit-field">
+                <label>合作伙伴（每行一个）</label>
+                <textarea id="editPartners" rows="2">{% for item in stock.partners %}{{ item }}
+{% endfor %}</textarea>
+            </div>
+            <div class="edit-field">
+                <label>目标市值（如：1100亿、1.1千亿）</label>
+                <input id="editTargetMarketCap" type="text" placeholder="例：1100亿">
+            </div>
+            <button class="btn-save" onclick="saveEdit()">💾 保存并同步</button>
+            <div class="sync-status" id="saveStatus" style="margin-top: 10px;"></div>
+        </div>
+
+        <!-- 文章列表-行内编辑 -->
+        <div class="section">
+            <h3>📄 相关文章（{{ stock.articles|length }} 篇）<small style="color:var(--accent-cyan);font-size:12px;"> v2.4 · 含行业背景</small></h3>
+            {% for article in stock.articles %}
+            <div class="article-card" id="articleCard{{ loop.index0 }}" data-source="{{ article.source }}">
+                <button class="btn-delete-article" onclick="deleteArticle('{{ article.source }}')">🗑 删除</button>
+                <button class="btn-edit-article" onclick="toggleEditArticle({{ loop.index0 }})" id="editBtn{{ loop.index0 }}">✏️ 编辑</button>
+                <!-- 显示模式 v2.4 -->
+                <div id="display{{ loop.index0 }}">
+                    <h4>{{ article.title }}</h4>
+                    <div class="meta">{{ article.date }} · <a href="{{ article.source }}" target="_blank" style="color: var(--accent-cyan);">原文链接</a></div>
+                    {% if article.industry_background and article.industry_background|length > 0 %}
+                    <div class="industry-bg">
+                        <strong>🌐 行业/赛道背景：</strong>
+                        <ul>{% for item in article.industry_background %}<li>{{ item }}</li>{% endfor %}</ul>
+                    </div>
+                    {% endif %}
+                    {% if article.accidents %}
+                    <div><strong>⚡ 催化剂/事件：</strong>
+                        <ul>{% for item in article.accidents %}<li>{{ item }}</li>{% endfor %}</ul>
+                    </div>
+                    {% endif %}
+                    {% if article.insights %}
+                    <div><strong>核心洞察：</strong>
+                        <ul>{% for item in article.insights %}<li>{{ item }}</li>{% endfor %}</ul>
+                    </div>
+                    {% endif %}
+                    {% if article.key_metrics %}
+                    <div><strong>关键指标：</strong>
+                        <ul>{% for item in article.key_metrics %}<li>{{ item }}</li>{% endfor %}</ul>
+                    </div>
+                    {% endif %}
+                    {% if article.target_valuation %}
+                    <div><strong>目标估值：</strong>
+                        <ul>{% for item in article.target_valuation %}<li>{{ item }}</li>{% endfor %}</ul>
+                    </div>
+                    {% endif %}
+                </div>
+                <!-- 编辑模式 -->
+                <div class="article-edit" id="editArea{{ loop.index0 }}" style="display:none;">
+                    <div class="edit-field">
+                        <label>标题</label>
+                        <input type="text" class="edit-title" value="{{ article.title }}">
+                    </div>
+                    <div class="edit-field">
+                        <label>日期</label>
+                        <input type="text" class="edit-date" value="{{ article.date }}" placeholder="YYYY-MM-DD">
+                    </div>
+                    <div class="edit-field">
+                        <label>原文链接</label>
+                        <input type="text" class="edit-source" value="{{ article.source }}">
+                    </div>
+                    <div class="edit-field">
+                        <label>🌐 行业/赛道背景（每行一条，严禁出现公司名）</label>
+                        <textarea class="edit-industry-bg" rows="2">{% for item in article.industry_background %}{{ item }}
+{% endfor %}</textarea>
+                    </div>
+                    <div class="edit-field">
+                        <label>⚡ 催化剂/事件（每行一条，≤60字）</label>
+                        <textarea class="edit-accidents" rows="3">{% for item in article.accidents %}{{ item }}
+{% endfor %}</textarea>
+                    </div>
+                    <div class="edit-field">
+                        <label>核心洞察（每行一条）</label>
+                        <textarea class="edit-insights" rows="3">{% for item in article.insights %}{{ item }}
+{% endfor %}</textarea>
+                    </div>
+                    <div class="edit-field">
+                        <label>关键指标（每行一条）</label>
+                        <textarea class="edit-metrics" rows="3">{% for item in article.key_metrics %}{{ item }}
+{% endfor %}</textarea>
+                    </div>
+                    <div class="edit-field">
+                        <label>目标估值（每行一条）</label>
+                        <textarea class="edit-valuation" rows="2">{% for item in article.target_valuation %}{{ item }}
+{% endfor %}</textarea>
+                    </div>
+                    <button class="btn-save-article" onclick="saveArticleEdit({{ loop.index0 }})">💾 保存</button>
+                    <button class="btn-cancel-article" onclick="cancelArticleEdit({{ loop.index0 }})">取消</button>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
+        
+    </div>
+
+    <!-- 底部同步栏 -->
+    <div class="sync-bar">
+        <button class="btn btn-github" onclick="syncToGithub()" id="btnGithub">⬆ 同步到 GitHub</button>
+        <button class="btn btn-firebase" onclick="syncToFirebase()" id="btnFirebase">🔥 同步到 Firebase</button>
+        <button class="btn btn-sync-all" onclick="syncAll()" id="btnSyncAll">🔄 同步全部</button>
+        <div class="sync-status" id="syncStatus">就绪</div>
+    </div>
+
+    <script>
+        const STOCK_CODE = '{{ stock.code }}';
+
+        function toggleEdit() {
+            const section = document.getElementById('editSection');
+            section.classList.toggle('visible');
+            const btn = document.querySelector('.btn-edit');
+            btn.textContent = section.classList.contains('visible') ? '🔒 关闭编辑' : '✏️ 编辑';
+        }
+
+        function showToast(msg, type) {
+            const t = document.createElement('div');
+            t.className = `toast ${type}`;
+            t.textContent = msg;
+            document.body.appendChild(t);
+            setTimeout(() => t.remove(), 3000);
+        }
+
+        function setButtonsLoading(loading) {
+            document.querySelectorAll('.sync-bar .btn').forEach(b => b.disabled = loading);
+            document.getElementById('syncStatus').textContent = loading ? '同步中...' : '就绪';
+            document.getElementById('syncStatus').className = 'sync-status';
+        }
+
+        async function syncToGithub() {
+            setButtonsLoading(true);
+            const status = document.getElementById('syncStatus');
+            try {
+                const resp = await fetch('/api/sync/github', { method: 'POST' });
+                const data = await resp.json();
+                if (data.success) {
+                    status.textContent = '✅ GitHub 同步成功';
+                    status.className = 'sync-status success';
+                    showToast('✅ GitHub 同步成功', 'success');
+                } else {
+                    status.textContent = '❌ ' + (data.error || '同步失败');
+                    status.className = 'sync-status error';
+                    showToast('❌ ' + (data.error || '同步失败'), 'error');
+                }
+            } catch(e) {
+                status.textContent = '❌ 网络错误';
+                status.className = 'sync-status error';
+                showToast('❌ 网络错误: ' + e.message, 'error');
+            }
+            setButtonsLoading(false);
+        }
+
+        async function syncToFirebase() {
+            setButtonsLoading(true);
+            const status = document.getElementById('syncStatus');
+            try {
+                const resp = await fetch('/api/sync/firebase', { method: 'POST' });
+                const data = await resp.json();
+                if (data.success) {
+                    status.textContent = '✅ Firebase 同步成功';
+                    status.className = 'sync-status success';
+                    showToast('✅ Firebase 同步成功', 'success');
+                } else {
+                    status.textContent = '❌ ' + (data.error || '同步失败');
+                    status.className = 'sync-status error';
+                    showToast('❌ ' + (data.error || '同步失败'), 'error');
+                }
+            } catch(e) {
+                status.textContent = '❌ 网络错误';
+                status.className = 'sync-status error';
+                showToast('❌ 网络错误: ' + e.message, 'error');
+            }
+            setButtonsLoading(false);
+        }
+
+        async function syncAll() {
+            setButtonsLoading(true);
+            const status = document.getElementById('syncStatus');
+            try {
+                const resp = await fetch('/api/sync/all', { method: 'POST' });
+                const data = await resp.json();
+                if (data.success) {
+                    status.textContent = '✅ GitHub + Firebase 全部同步成功';
+                    status.className = 'sync-status success';
+                    showToast('✅ 全部同步成功', 'success');
+                } else {
+                    const errs = data.errors ? data.errors.join('; ') : '未知错误';
+                    status.textContent = '❌ ' + errs;
+                    status.className = 'sync-status error';
+                    showToast('❌ ' + errs, 'error');
+                }
+            } catch(e) {
+                status.textContent = '❌ 网络错误';
+                status.className = 'sync-status error';
+                showToast('❌ 网络错误: ' + e.message, 'error');
+            }
+            setButtonsLoading(false);
+        }
+
+        async function saveEdit() {
+            const status = document.getElementById('saveStatus');
+            status.className = 'sync-status';
+            status.textContent = '保存中...';
+
+            const data = {};
+            const coreBusiness = document.getElementById('editCoreBusiness').value.trim();
+            const industryPosition = document.getElementById('editIndustryPosition').value.trim();
+            const chain = document.getElementById('editChain').value.trim();
+            const partners = document.getElementById('editPartners').value.trim();
+            const targetMarketCap = document.getElementById('editTargetMarketCap').value.trim();
+
+            if (coreBusiness) data.core_business = coreBusiness.split('\n').map(s => s.trim()).filter(Boolean);
+            if (industryPosition) data.industry_position = industryPosition.split('\n').map(s => s.trim()).filter(Boolean);
+            if (chain) data.chain = chain.split('\n').map(s => s.trim()).filter(Boolean);
+            if (partners) data.partners = partners.split('\n').map(s => s.trim()).filter(Boolean);
+            if (targetMarketCap) data.target_market_cap = targetMarketCap;
+
+            try {
+                const resp = await fetch(`/api/stock/${STOCK_CODE}/edit`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(data)
+                });
+                const result = await resp.json();
+                if (result.success) {
+                    status.textContent = '✅ 保存成功，正在同步到 GitHub 和 Firebase...';
+                    // 自动同步到 GitHub + Firebase
+                    try {
+                        const syncResp = await fetch('/api/sync/all', { method: 'POST' });
+                        const syncData = await syncResp.json();
+                        if (syncData.success) {
+                            status.textContent = '✅ 保存并同步成功（GitHub + Firebase）';
+                            status.className = 'sync-status success';
+                            showToast('✅ 保存并同步成功', 'success');
+                        } else {
+                            const errs = syncData.errors ? syncData.errors.join('; ') : '同步部分失败';
+                            status.textContent = '⚠️ 已保存，但同步有误: ' + errs;
+                            status.className = 'sync-status error';
+                            showToast('⚠️ 已保存，但同步有误', 'error');
+                        }
+                    } catch(e) {
+                        status.textContent = '⚠️ 已保存，但同步失败: ' + e.message;
+                        status.className = 'sync-status error';
+                        showToast('⚠️ 已保存，但同步失败', 'error');
+                    }
+                } else {
+                    status.textContent = '❌ 保存失败: ' + (result.error || '未知错误');
+                    status.className = 'sync-status error';
+                    showToast('❌ 保存失败: ' + (result.error || '未知错误'), 'error');
+                }
+            } catch(e) {
+                status.textContent = '❌ 网络错误: ' + e.message;
+                status.className = 'sync-status error';
+                showToast('❌ 网络错误: ' + e.message, 'error');
+            }
+        }
+
+        // ─── 删除文章 ───
+        async function deleteArticle(source) {
+            const card = document.querySelector(`.article-card[data-source="${CSS.escape(source)}"]`);
+            const title = card ? card.querySelector('h4').textContent : '这篇文章';
+            if (!confirm(`确定要删除「${title}」吗？此操作不可撤销。`)) return;
+
+            const status = document.getElementById('syncStatus');
+            status.textContent = '删除中...';
+            status.className = 'sync-status';
+
+            try {
+                const resp = await fetch(`/api/stock/${STOCK_CODE}/article/delete`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ article_source: source })
+                });
+                const result = await resp.json();
+                if (result.success) {
+                    if (card) {
+                        card.style.transition = 'opacity 0.3s, transform 0.3s';
+                        card.style.opacity = '0';
+                        card.style.transform = 'translateX(30px)';
+                        setTimeout(() => card.remove(), 300);
+                    }
+                    const countEl = document.querySelector('h3 small');
+                    const h3 = document.querySelector('.section > h3');
+                    if (h3) {
+                        h3.innerHTML = `📄 相关文章（${result.remaining_count} 篇）<small style="color:var(--accent-cyan);font-size:12px;"> v2.4 · 含行业背景</small>`;
+                    }
+                    const msgs = [];
+                    if (result.firebase_synced) msgs.push('Firebase');
+                    if (result.github_synced) msgs.push('GitHub');
+                    if (result.supabase_synced) msgs.push('Supabase');
+                    const syncText = msgs.length > 0 ? `已同步 ${msgs.join(' / ')}` : '本地已删除';
+                    showToast(`✅ 已删除「${result.deleted_title}」，${syncText}`, 'success');
+                    status.textContent = `✅ 删除成功 · ${syncText}`;
+                    status.className = 'sync-status success';
+                } else {
+                    showToast('❌ 删除失败: ' + (result.error || '未知错误'), 'error');
+                    status.textContent = '❌ 删除失败';
+                    status.className = 'sync-status error';
+                }
+            } catch(e) {
+                showToast('❌ 网络错误: ' + e.message, 'error');
+                status.textContent = '❌ 网络错误';
+                status.className = 'sync-status error';
+            }
+        }
+
+        // ─── 行内编辑文章 ───
+        function toggleEditArticle(index) {
+            const display = document.getElementById('display' + index);
+            const editArea = document.getElementById('editArea' + index);
+            const btn = document.getElementById('editBtn' + index);
+            if (editArea.style.display === 'none') {
+                display.style.display = 'none';
+                editArea.style.display = 'block';
+                btn.textContent = '🔒 关闭编辑';
+            } else {
+                cancelArticleEdit(index);
+            }
+        }
+
+        function cancelArticleEdit(index) {
+            document.getElementById('display' + index).style.display = 'block';
+            document.getElementById('editArea' + index).style.display = 'none';
+            document.getElementById('editBtn' + index).textContent = '✏️ 编辑';
+        }
+
+        async function saveArticleEdit(index) {
+            const editArea = document.getElementById('editArea' + index);
+            const data = {
+                article_index: index,
+                title: editArea.querySelector('.edit-title').value.trim(),
+                date: editArea.querySelector('.edit-date').value.trim(),
+                source: editArea.querySelector('.edit-source').value.trim(),
+                industry_background: editArea.querySelector('.edit-industry-bg').value.split('\n').map(s => s.trim()).filter(Boolean),
+                accidents: editArea.querySelector('.edit-accidents').value.split('\n').map(s => s.trim()).filter(Boolean),
+                insights: editArea.querySelector('.edit-insights').value.split('\n').map(s => s.trim()).filter(Boolean),
+                key_metrics: editArea.querySelector('.edit-metrics').value.split('\n').map(s => s.trim()).filter(Boolean),
+                target_valuation: editArea.querySelector('.edit-valuation').value.split('\n').map(s => s.trim()).filter(Boolean)
+            };
+
+            const btn = editArea.querySelector('.btn-save-article');
+            btn.textContent = '⏳ 保存中...';
+            btn.disabled = true;
+
+            try {
+                const resp = await fetch(`/api/stock/${STOCK_CODE}/article/edit`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(data)
+                });
+                const result = await resp.json();
+                if (result.success) {
+                    // 再同步 GitHub
+                    try {
+                        await fetch('/api/sync/github', { method: 'POST' });
+                        showToast('✅ 编辑成功，已同步到 GitHub + Firebase', 'success');
+                    } catch(e) {
+                        showToast('✅ 编辑成功，但 GitHub 同步失败', 'warning');
+                    }
+                    setTimeout(() => location.reload(), 1500);
+                } else {
+                    showToast('❌ 编辑失败: ' + (result.error || '未知错误'), 'error');
+                    btn.textContent = '💾 保存';
+                    btn.disabled = false;
+                }
+            } catch(e) {
+                showToast('❌ 网络错误: ' + e.message, 'error');
+                btn.textContent = '💾 保存';
+                btn.disabled = false;
+            }
+        }
+
+        // ─── 实时行情 ───
+        async function fetchMarketData() {
+            try {
+                const resp = await fetch(`/api/market-data?codes=${STOCK_CODE}`);
+                const data = await resp.json();
+                const md = data[STOCK_CODE];
+                if (md && md.price) {
+                    const isUp = md.change >= 0;
+                    const cls = isUp ? 'up' : 'down';
+                    const sign = isUp ? '+' : '';
+                    document.getElementById('mdPrice').innerHTML = `<span class="value ${cls}">${md.price.toFixed(2)}</span>`;
+                    document.getElementById('mdChange').innerHTML = `<span class="value ${cls}">${sign}${md.change.toFixed(2)}%</span>`;
+                    document.getElementById('mdPe').innerHTML = `<span class="value">${md.peRatio ? md.peRatio.toFixed(2) : '—'}</span>`;
+                    document.getElementById('mdMc').innerHTML = `<span class="value">${md.marketCap ? md.marketCap.toFixed(0) + '亿' : '—'}</span>`;
+                } else {
+                    document.getElementById('mdPrice').innerHTML = '<span class="value" style="color:var(--text-muted)">暂无数据</span>';
+                }
+            } catch(e) {
+                document.getElementById('mdPrice').innerHTML = '<span class="value" style="color:var(--text-muted)">获取失败</span>';
+            }
+        }
+
+        // ─── 关联个股 ───
+        async function fetchRelatedStocks() {
+            try {
+                const resp = await fetch(`/api/stock/${STOCK_CODE}/similar?top=8&min_sim=0.15`);
+                const data = await resp.json();
+                const container = document.getElementById('relatedStocks');
+                if (data.similar && data.similar.length > 0) {
+                    container.innerHTML = data.similar.map(s =>
+                        `<a href="/stock/${s.code}" class="related-stock">
+                            <span>${s.name}</span>
+                            <span class="sim">${(s.similarity * 100).toFixed(0)}%</span>
+                        </a>`
+                    ).join('');
+                } else {
+                    container.innerHTML = '<span style="color:var(--text-muted);font-size:13px;">暂无关联个股</span>';
+                }
+            } catch(e) {
+                document.getElementById('relatedStocks').innerHTML = '<span style="color:var(--text-muted);font-size:13px;">加载失败</span>';
+            }
+        }
+
+        // 页面加载时自动获取行情和关联个股
+        document.addEventListener('DOMContentLoaded', function() {
+            fetchMarketData();
+            fetchRelatedStocks();
+        });
+    </script>
+</body>
+</html>

@@ -1,22 +1,125 @@
-# Flask Web Application Example
+# 🚂 Railway 部署 - 个股研究数据库
 
-This is a modern Python web application example built with Flask 3.0.3, a lightweight WSGI web application framework designed to make getting started quick and easy, with the ability to scale up to complex applications.
+## ✅ 部署文件已准备
 
-## Project Description
+位置：`/home/admin/openclaw/workspace/railway-deploy/`
 
-This project creates a lightweight web service using Flask. The application demonstrates Flask's core features, including its simple routing system and development server. The server listens on port 8080 and provides a basic endpoint that returns a "Hello World!" message. Flask's minimalist design and flexibility make it ideal for both small projects and large applications, with an extensive ecosystem of extensions for adding functionality like database integration, form validation, and authentication.
+**文件列表：**
+- `main.py` - Flask 应用（简化版，使用示例数据）
+- `requirements.txt` - Python 依赖
+- `Procfile` - Railway 启动命令
+- `.railway.json` - Railway 配置
 
-## Environment
+---
 
-This project runs on a Debian 12 system with Python and Flask 3.0.3, which is pre-configured in the Devbox environment. You don't need to worry about setting up Python, virtual environments, or Flask dependencies yourself. The development environment includes all necessary tools for building and running Flask applications. If you need to make adjustments to match your specific requirements, you can modify the configuration files accordingly.
+## 📝 部署步骤
 
-## Project Execution
+### 第 1 步：注册 Railway
 
-**Development mode:** For normal development environment, simply enter Devbox and run `bash entrypoint.sh` in the terminal. This will activate the virtual environment and start the Flask development server with debug mode enabled for automatic reloading.
+**访问：** https://railway.app/
 
-**Production mode:** After release, the project will be automatically packaged into a Docker image and deployed according to the `entrypoint.sh` script with production parameters (run `bash entrypoint.sh production`). This will install Gunicorn as a production WSGI server and run the application with worker processes for better performance and reliability.
+**注册：**
+- 用 GitHub 账号登录（推荐）
+- 或 Google/邮箱
 
+---
 
-DevBox: Code. Build. Deploy. We've Got the Rest.
+### 第 2 步：创建新项目
 
-With DevBox, you can focus entirely on writing great code while we handle the infrastructure, scaling, and deployment. Seamless development from start to production. 
+1. 点击 **New Project**
+2. 选择 **Deploy from GitHub repo**
+
+---
+
+### 第 3 步：连接 GitHub
+
+**选项 A: 直接推送（推荐）**
+
+```bash
+cd /home/admin/openclaw/workspace/railway-deploy
+
+# 初始化 Git
+git init
+git add .
+git commit -m "Initial commit - Stock Research DB"
+
+# 创建 GitHub 仓库（在 GitHub 网站）
+# 然后推送
+git remote add origin https://github.com/YOUR_USERNAME/stock-research.git
+git push -u origin main
+```
+
+**选项 B: Railway CLI 部署**
+
+```bash
+# 安装 Railway CLI
+npm install -g @railway/cli
+
+# 登录
+railway login
+
+# 初始化项目
+railway init
+
+# 部署
+railway up
+```
+
+---
+
+### 第 4 步：在 Railway 配置
+
+1. **Variables** - 无需配置（示例数据）
+2. **Settings** - 自动检测 Python
+3. **Deploy** - 自动开始部署
+
+---
+
+### 第 5 步：获取域名
+
+部署成功后，Railway 会提供：
+```
+https://stock-research-production.up.railway.app
+```
+
+---
+
+## ✅ 完成！
+
+**访问你的网站：**
+- Railway 分配的域名
+- 或绑定自定义域名
+
+---
+
+## 💰 费用
+
+- **免费额度**: $5/月
+- **实际使用**: 约 $2-3/月（个人使用）
+- **超出**: 按量计费
+
+---
+
+## 📊 与本地版本对比
+
+| 功能 | 本地版本 | Railway 版本 |
+|------|---------|-------------|
+| 数据源 | 本地 JSON 文件 | 示例数据 |
+| 股票数量 | 1502 只 | 示例 10 只 |
+| 文章数据 | 731 篇 | 无 |
+| 搜索功能 | ✅ | ⏳ 待添加 |
+| 访问速度 | 本地最快 | 全球 CDN |
+| 可用性 | 需保持运行 | 99.9% SLA |
+
+---
+
+## 🔧 后续优化
+
+1. **连接真实数据** - 用 Railway 环境变量配置数据源
+2. **添加搜索** - 集成搜索功能
+3. **数据库** - 用 Railway PostgreSQL
+4. **定时更新** - Railway Cron
+
+---
+
+**需要我帮你推送到 GitHub 吗？** 或者你想手动操作？

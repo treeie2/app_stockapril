@@ -1,0 +1,40 @@
+# Cloudflare R2 同步 Docker Compose 配置
+# 解决 Windows Python 3.14 SSL 兼容性问题
+
+version: '3.8'
+
+services:
+  r2-sync:
+    build:
+      context: .
+      dockerfile: Dockerfile.r2
+    image: stock-research-r2:latest
+    container_name: stock-research-r2
+    volumes:
+      # 挂载本地 raw_material 目录到容器
+      - ./raw_material:/app/raw_material
+      # 挂载 config.json（可选，如果要用本地配置覆盖）
+      - ./config.json:/app/config.json:ro
+    environment:
+      # 可以通过环境变量覆盖配置
+      - R2_ACCOUNT_ID=${R2_ACCOUNT_ID:-}
+      - R2_ACCESS_KEY_ID=${R2_ACCESS_KEY_ID:-}
+      - R2_SECRET_ACCESS_KEY=${R2_SECRET_ACCESS_KEY:-}
+      - R2_BUCKET_NAME=${R2_BUCKET_NAME:-stock-research}
+    # 默认命令
+    command: ["--mode", "list"]
+
+  # 快捷命令：列出 R2 文件
+  r2-list:
+    extends: r2-sync
+    command: ["--mode", "list"]
+
+  # 快捷命令：同步本地到 R2
+  r2-sync-up:
+    extends: r2-sync
+    command: ["--mode", "sync-up", "--dir", "/app/raw_material"]
+
+  # 快捷命令：同步 R2 到本地
+  r2-sync-down:
+    extends: r2-sync
+    command: ["--mode", "sync-down", "--dir", "/app/raw_material"]

@@ -1,0 +1,56 @@
+# ── Browser profiles (Playwright cache) ──
+.browser_profile/
+
+# ── Skills folders ──
+.trae/skills/wechat-fetch-research-embedded/.browser_profile/
+.trae/skills/wechat-fetch-research-embedded/assets/
+.trae/skills/wechat-fetch-research-embedded/raw_material/
+.trae/skills/wechat-fetch-research-embedded/data/
+.trae/
+.claude/
+.qoder/
+.skills/
+.agents/
+.codeartsdoer/
+.htsc-skills/
+
+# ── Database & backup ──
+dataconnect/
+archived/
+docs/
+
+# ── Large intermediate data ──
+data/stocks_JL.json
+data/stocks_LJRZ.json
+data/stocks_gyzb.json
+data/stocks_dns.json
+data/stocks_batch100.json
+data/stocks_master_2026-*.json
+data/stocks/2026-*.json
+data/master/
+data/stocks_master_friday.json
+data/stocks_master_friday.json.gz
+data/stocks_luojirenzhe.json
+data/stocks_douniushicaijin.json
+
+# ── Raw JSON (use .gz instead) ──
+
+# ── Old backups ──
+stocks_master (1).json
+
+# ── Raw material & temp ──
+raw_material/
+compen/
+txt/
+tmp_article*.txt
+new_article*.txt
+wechat-fetch-research-embedded_v2.4.zip
+
+# ── Dev scripts ──
+scripts/process_articles/
+skills/
+
+# ── Python cache ──
+__pycache__/
+*.pyc
+*.pyo

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>概念：{{ concept }}</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+:root {
+    --bg: #080c14;
+    --bg-card: #0f1623;
+    --bg-card-hover: #131d2e;
+    --border: rgba(99,179,237,0.12);
+    --border-h: rgba(99,179,237,0.3);
+    --cyan: #06b6d4;
+    --blue: #3b82f6;
+    --t1: #e2e8f0;
+    --t2: #94a3b8;
+    --t3: #6b7280;
+}
+body {
+    background: var(--bg) !important;
+    color: var(--t1);
+    min-height: 100vh;
+}
+body::before {
+    content:'';
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+    background: radial-gradient(ellipse 60% 40% at 30% 0%, rgba(59,130,246,0.06) 0%, transparent 60%);
+}
+nav {
+    background: rgba(8,12,20,0.9) !important;
+    border-bottom: 1px solid var(--border);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+nav a { color: var(--t2) !important; text-decoration: none; font-size: 0.8rem; padding: 0.35rem 0.75rem; border-radius: 6px; transition: all 0.2s; }
+nav a:hover { background: rgba(255,255,255,0.05); color: var(--t1) !important; }
+nav a.font-bold { color: var(--cyan) !important; background: rgba(6,182,212,0.1); }
+
+/* Mobile nav toggle */
+.nav-toggle {
+    display: none;
+    width: 36px; height: 36px;
+    border: 1px solid var(--border);
+    background: rgba(255,255,255,0.03);
+    border-radius: 6px;
+    color: var(--cyan);
+    cursor: pointer;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-left: auto;
+}
+.nav-links-mobile {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    gap: 0.2rem;
+    margin-top: 0.75rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--border);
+    order: 99;
+}
+.nav-links-mobile.on { display: flex; }
+.nav-links-mobile a { padding: 0.5rem 0.75rem !important; font-size: 0.85rem !important; }
+.nav-links-mobile a.active-mobile { background: rgba(6,182,212,0.1); color: var(--cyan) !important; }
+
+/* Override Tailwind light colors */
+.bg-white { background-color: var(--bg-card) !important; color: var(--t1) !important; }
+.bg-gray-50 { background-color: rgba(255,255,255,0.02) !important; }
+.bg-gray-100 { background-color: rgba(255,255,255,0.05) !important; }
+.text-gray-600, .text-gray-500, .text-gray-400 { color: var(--t2) !important; }
+.text-blue-600 { color: var(--cyan) !important; }
+.text-blue-600:hover { color: var(--blue) !important; }
+.rounded, .rounded-full { border-radius: 10px !important; }
+.shadow { box-shadow: 0 2px 12px rgba(0,0,0,0.3) !important; }
+main { position: relative; z-index: 1; }
+.text-2xl { font-size: 1.25rem; }
+table { width: 100%; }
+tbody tr { border-top: 1px solid var(--border); }
+tbody tr:hover { background: var(--bg-card-hover) !important; }
+.font-mono { font-family: 'JetBrains Mono', monospace; }
+td { padding: 0.75rem 1rem; vertical-align: middle; }
+th { padding: 0.75rem 1rem; font-size: 0.75rem; color: var(--t3); text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600; }
+
+/* Responsive - Table to Cards */
+@media (max-width: 768px) {
+    nav { padding: 0.75rem 1rem !important; flex-wrap: wrap; }
+    nav > div { flex-wrap: wrap; gap: 0.3rem; width: 100%; }
+    .nav-toggle { display: flex; }
+    /* Hide desktop inline links on mobile - they're shown in nav-links-mobile */
+    nav > div > a:not(:first-child) { display: none; }
+    nav > div > a:first-child { font-weight: 700; color: var(--cyan) !important; font-size: 0.85rem; letter-spacing: 0.1em; }
+    
+    main { padding: 1rem !important; }
+    h1.text-2xl { font-size: 1.1rem !important; margin-bottom: 0.5rem; }
+    
+    /* Table → Cards */
+    table, thead, tbody, tr, td { display: block; width: 100% !important; box-sizing: border-box; }
+    thead, th { display: none !important; }
+    tbody tr {
+        padding: 0.85rem 1rem;
+        margin-bottom: 0.6rem;
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        background: var(--bg-card);
+        box-sizing: border-box;
+    }
+    tbody td {
+        padding: 0.3rem 0 !important;
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        gap: 0.75rem;
+        font-size: 0.85rem;
+        border: none !important;
+    }
+    tbody td::before {
+        content: attr(data-label);
+        color: var(--t3);
+        font-size: 0.7rem;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        flex-shrink: 0;
+    }
+    tbody td:first-child {
+        padding-bottom: 0.5rem !important;
+        margin-bottom: 0.3rem;
+        border-bottom: 1px solid var(--border) !important;
+    }
+    tbody td:first-child::before { display: none; }
+    tbody td:first-child a {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    
+    .px-2.py-1 { padding: 0.2rem 0.5rem !important; }
+    .text-xs { font-size: 0.7rem !important; }
+}
+@media (max-width: 400px) {
+    main { padding: 0.75rem 0.5rem !important; }
+    tbody tr { padding: 0.75rem; }
+    h1.text-2xl { font-size: 1rem !important; }
+}
+    </style>
+</head>
+<body class="bg-gray-50">
+    <nav class="bg-white shadow p-4">
+        <div class="max-w-6xl mx-auto flex flex-wrap gap-3 items-center">
+            <a href="/" class="text-blue-600">仪表板</a>
+            <button class="nav-toggle" id="navToggle" aria-label="菜单">☰</button>
+            <div class="nav-links-mobile" id="navLinks">
+                <a href="/stocks">股票列表</a>
+                <a href="/concepts" class="font-bold active-mobile">概念大全</a>
+                <a href="/search">搜索</a>
+            </div>
+        </div>
+    </nav>
+    <main class="max-w-7xl mx-auto p-4">
+        <h1 class="text-2xl font-bold mb-4">🏷️ 概念：{{ concept }}</h1>
+        <p class="text-gray-600 mb-4">{{ stocks|length }} 只股票</p>
+        <div class="bg-white rounded shadow">
+            <table class="min-w-full">
+                <thead class="bg-gray-50">
+                    <tr>
+                        <th class="px-4 py-2 text-left" data-label="代码">代码</th>
+                        <th class="px-4 py-2 text-left" data-label="名称">名称</th>
+                        <th class="px-4 py-2 text-left" data-label="提及次数">提及</th>
+                        <th class="px-4 py-2 text-left" data-label="概念">其他概念</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for s in stocks %}
+                    <tr class="border-t hover:bg-gray-50">
+                        <td class="px-4 py-2 font-mono" data-label="代码">{{ s.code }}</td>
+                        <td class="px-4 py-2" data-label="名称">
+                            <a href="/stock/{{ s.code }}" class="text-blue-600 hover:underline">{{ s.name }}</a>
+                        </td>
+                        <td class="px-4 py-2" data-label="提及次数">{{ s.mention_count }}</td>
+                        <td class="px-4 py-2" data-label="概念">
+                            {% for c in s.other_concepts[:5] %}
+                            <a href="/concept/{{ c }}" class="px-2 py-1 bg-gray-100 text-xs rounded mr-1">{{ c }}</a>
+                            {% endfor %}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <script>
+const navToggle = document.getElementById('navToggle');
+const navLinks = document.getElementById('navLinks');
+if (navToggle && navLinks) {
+    navToggle.addEventListener('click', () => {
+        navLinks.classList.toggle('on');
+        navToggle.textContent = navLinks.classList.contains('on') ? '✕' : '☰';
+    });
+}
+    </script>
+</body>
+</html>

@@ -1,0 +1,535 @@
+/* Stock Card Components - 深蓝商务风格 */
+/* 参考设计更新 2026-03-18 */
+
+:root {
+    --bg-primary: #080c14;
+    --bg-secondary: #0d1220;
+    --bg-card: #111827;
+    --bg-card-hover: #16202e;
+    --border: rgba(99, 179, 237, 0.12);
+    --border-hover: rgba(99, 179, 237, 0.35);
+    --accent-blue: #3b82f6;
+    --accent-cyan: #06b6d4;
+    --accent-green: #10b981;
+    --accent-amber: #f59e0b;
+    --accent-rose: #f43f5e;
+    --accent-purple: #8b5cf6;
+    --text-primary: #e2e8f0;
+    --text-secondary: #94a3b8;
+    --text-muted: #4b5563;
+    --glow-blue: 0 0 20px rgba(59, 130, 246, 0.15);
+    --glow-cyan: 0 0 20px rgba(6, 182, 212, 0.15);
+    --radius-sm: 6px;
+    --radius-md: 10px;
+    --radius-lg: 16px;
+}
+
+* { box-sizing: border-box; }
+
+body {
+    font-family: 'Inter', -apple-system, 'Noto Sans SC', sans-serif;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    min-height: 100vh;
+}
+
+/* ============================================
+   基础个股卡片 (Base Stock Card)
+   ============================================ */
+
+.stock-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 1.25rem;
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.stock-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, rgba(59,130,246,0.04) 0%, transparent 60%);
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.stock-card:hover {
+    border-color: var(--border-hover);
+    background: var(--bg-card-hover);
+    transform: translateY(-2px);
+    box-shadow: var(--glow-blue), 0 8px 24px rgba(0,0,0,0.3);
+}
+
+.stock-card:hover::before {
+    opacity: 1;
+}
+
+/* 卡片头部 */
+.stock-card-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+.stock-name {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    line-height: 1.3;
+    transition: color 0.2s;
+}
+
+.stock-card:hover .stock-name {
+    color: var(--accent-cyan);
+}
+
+.stock-code {
+    font-size: 0.72rem;
+    font-family: 'JetBrains Mono', monospace;
+    color: var(--text-muted);
+    margin-top: 0.15rem;
+}
+
+/* 热度徽章 */
+.mention-badge {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    background: rgba(245, 158, 11, 0.1);
+    border: 1px solid rgba(245,158,11,0.25);
+    border-radius: 20px;
+    padding: 0.2rem 0.6rem;
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: var(--accent-amber);
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.mention-badge-high {
+    background: rgba(244, 63, 94, 0.1);
+    border-color: rgba(244,63,94,0.25);
+    color: var(--accent-rose);
+}
+
+.mention-badge-medium {
+    background: rgba(245, 158, 11, 0.1);
+    border-color: rgba(245,158,11,0.25);
+    color: var(--accent-amber);
+}
+
+.mention-badge-low {
+    background: rgba(6, 182, 212, 0.1);
+    border-color: rgba(6,182,212,0.25);
+    color: var(--accent-cyan);
+}
+
+/* 指标网格 */
+.stock-metrics {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+    margin: 0.5rem 0;
+}
+
+.metric-item {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    padding: 0.6rem;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+.metric-item:hover {
+    background: rgba(59,130,246,0.08);
+    border-color: var(--accent-blue);
+}
+
+.metric-value {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--accent-cyan);
+}
+
+.metric-label {
+    font-size: 0.65rem;
+    color: var(--text-muted);
+    margin-top: 0.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+/* 概念标签 - 6 色循环系统 */
+.concepts-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+}
+
+.concept-tag {
+    font-size: 0.68rem;
+    padding: 0.18rem 0.58rem;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: all 0.15s;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.concept-tag-0 { background: rgba(59,130,246,0.12); border: 1px solid rgba(59,130,246,0.3); color: #93c5fd; }
+.concept-tag-1 { background: rgba(6,182,212,0.12); border: 1px solid rgba(6,182,212,0.3); color: #67e8f9; }
+.concept-tag-2 { background: rgba(16,185,129,0.12); border: 1px solid rgba(16,185,129,0.3); color: #6ee7b7; }
+.concept-tag-3 { background: rgba(245,158,11,0.12); border: 1px solid rgba(245,158,11,0.3); color: #fcd34d; }
+.concept-tag-4 { background: rgba(244,63,94,0.12); border: 1px solid rgba(244,63,94,0.3); color: #fda4af; }
+.concept-tag-5 { background: rgba(139,92,246,0.12); border: 1px solid rgba(139,92,246,0.3); color: #c4b5fd; }
+
+.concept-tag:hover {
+    filter: brightness(1.3);
+    transform: scale(1.05);
+}
+
+/* 分隔线 */
+.card-divider {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 0.5rem 0;
+}
+
+/* 板块/行业标签 */
+.board-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.board-tag {
+    font-size: 0.68rem;
+    padding: 0.15rem 0.55rem;
+    border-radius: 4px;
+    font-weight: 500;
+    background: rgba(139, 92, 246, 0.12);
+    border: 1px solid rgba(139,92,246,0.25);
+    color: #a78bfa;
+}
+
+.industry-tag {
+    font-size: 0.68rem;
+    color: var(--text-muted);
+}
+
+/* 市场行情行 */
+.market-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.78rem;
+}
+
+.price-val {
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 600;
+}
+
+.change-up {
+    color: var(--accent-rose);
+}
+
+.change-down {
+    color: var(--accent-green);
+}
+
+.market-cap {
+    color: var(--text-muted);
+    font-size: 0.72rem;
+    margin-left: auto;
+}
+
+.market-loading {
+    color: var(--text-muted);
+    font-size: 0.72rem;
+    font-style: italic;
+}
+
+/* 最新文章预览 */
+.latest-article {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.article-label {
+    font-size: 0.65rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+
+.article-title {
+    font-size: 0.78rem;
+    color: var(--text-secondary);
+    line-height: 1.4;
+}
+
+.article-meta {
+    font-size: 0.68rem;
+    color: var(--text-muted);
+}
+
+/* ============================================
+   详细卡片 (Detail Card)
+   ============================================ */
+
+.stock-detail-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 1.5rem;
+    position: relative;
+}
+
+.stock-detail-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, var(--accent-blue), var(--accent-cyan), var(--accent-purple));
+    border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+}
+
+.detail-card-title {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 1.25rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.detail-card-title::before {
+    content: '';
+    width: 3px;
+    height: 14px;
+    background: linear-gradient(180deg, var(--accent-blue), var(--accent-cyan));
+    border-radius: 2px;
+}
+
+/* 价格行 */
+.price-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid var(--border);
+}
+
+.price-row:last-child {
+    border-bottom: none;
+}
+
+.price-label {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+}
+
+.price-value {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+/* ============================================
+   紧凑卡片 (Compact Card)
+   ============================================ */
+
+.stock-card-compact {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    padding: 0.75rem 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    transition: all 0.2s;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
+.stock-card-compact:hover {
+    background: rgba(59,130,246,0.08);
+    border-color: var(--accent-blue);
+    transform: translateX(4px);
+}
+
+.compact-code {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    background: rgba(255,255,255,0.05);
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    min-width: 70px;
+    text-align: center;
+}
+
+.compact-info {
+    flex: 1;
+}
+
+.compact-name {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--text-primary);
+    margin-bottom: 0.15rem;
+}
+
+.compact-meta {
+    font-size: 0.68rem;
+    color: var(--text-muted);
+}
+
+.compact-similarity {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.25rem 0.6rem;
+    border-radius: 6px;
+    background: linear-gradient(135deg, rgba(59,130,246,0.15), rgba(6,182,212,0.15));
+    color: var(--accent-cyan);
+    border: 1px solid rgba(6,182,212,0.3);
+}
+
+/* ============================================
+   时间轴组件 (Timeline)
+   ============================================ */
+
+.timeline {
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 6px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: linear-gradient(180deg, var(--accent-blue), var(--accent-cyan), transparent);
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 1.25rem;
+    padding: 0.875rem;
+    background: rgba(255,255,255,0.03);
+    border-radius: var(--radius-md);
+    border-left: 3px solid var(--accent-blue);
+    transition: all 0.2s;
+}
+
+.timeline-item:hover {
+    background: rgba(59,130,246,0.08);
+    transform: translateX(4px);
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -1.375rem;
+    top: 1rem;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--accent-blue);
+    border: 2px solid var(--bg-card);
+    box-shadow: 0 0 10px rgba(59,130,246,0.5);
+}
+
+.timeline-date {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    color: var(--accent-cyan);
+    margin-bottom: 0.4rem;
+}
+
+.timeline-content {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+}
+
+.timeline-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-top: 0.5rem;
+}
+
+.timeline-tag {
+    font-size: 0.65rem;
+    padding: 0.15rem 0.5rem;
+    border-radius: 8px;
+    background: rgba(139,92,246,0.12);
+    color: #c4b5fd;
+    border: 1px solid rgba(139,92,246,0.25);
+}
+
+/* ============================================
+   响应式适配
+   ============================================ */
+
+@media (max-width: 768px) {
+    .stock-card {
+        padding: 1rem;
+    }
+    
+    .stock-name {
+        font-size: 0.95rem;
+    }
+    
+    .stock-metrics {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.5rem;
+    }
+    
+    .metric-value {
+        font-size: 1rem;
+    }
+}
+
+/* ============================================
+   动画效果
+   ============================================ */
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(12px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.stock-card-animate {
+    animation: fadeIn 0.4s ease-out;
+}
+
+.stock-card-stagger-1 { animation-delay: 0.05s; }
+.stock-card-stagger-2 { animation-delay: 0.1s; }
+.stock-card-stagger-3 { animation-delay: 0.15s; }
+.stock-card-stagger-4 { animation-delay: 0.2s; }
+.stock-card-stagger-5 { animation-delay: 0.25s; }
+.stock-card-stagger-6 { animation-delay: 0.3s; }

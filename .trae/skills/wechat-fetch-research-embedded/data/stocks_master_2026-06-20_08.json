@@ -1,0 +1,55 @@
+{
+  "stocks": [
+    {
+      "name": "盈方微",
+      "code": "000670",
+      "board": "SZ",
+      "industry": "电子-电子元件-被动元件",
+      "concepts": [],
+      "products": [
+        "MLCC分销",
+        "半导体分销",
+        "被动元件分销"
+      ],
+      "core_business": [
+        "通过重大资产重组切入MLCC分销赛道"
+      ],
+      "industry_position": [
+        "代理村田、三星电机等国际一线MLCC品牌",
+        "国内稀缺的高端MLCC渠道商"
+      ],
+      "chain": [
+        "中游-分销/渠道"
+      ],
+      "partners": [
+        "三星电机",
+        "华为",
+        "小米",
+        "村田",
+        "比亚迪"
+      ],
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "盈方微：MLCC赛道重整，低估的电子元器件分销玩家",
+          "date": "2026-06-20",
+          "source": "manual://01_yingfangwei",
+          "industry_background": [
+            "MLCC行业景气回升"
+          ],
+          "accidents": [
+            "拟8.97亿元购买上海肖克利100%股份，构成重大资产重组"
+          ],
+          "insights": [
+            "公司性质将从'亏损芯片股'转变为'MLCC渠道龙头'，估值逻辑彻底重构",
+            "肖克利多年深耕渠道，客户壁垒+授权资质构成双重护城河"
+          ],
+          "key_metrics": [
+            "2026年Q1亏损1170万"
+          ],
+          "target_valuation": []
+        }
+      ]
+    }
+  ]
+}

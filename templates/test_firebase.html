@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase 测试页面</title>
+    <style>
+        :root {
+            --bg: #080c14;
+            --bg-card: #0f1623;
+            --border: rgba(99,179,237,0.12);
+            --cyan: #06b6d4;
+            --blue: #3b82f6;
+            --green: #10b981;
+            --rose: #f43f5e;
+            --amber: #f59e0b;
+            --t1: #e2e8f0;
+            --t2: #94a3b8;
+            --t3: #4b5563;
+        }
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--t1);
+            min-height: 100vh;
+            margin: 0;
+        }
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            z-index: 0;
+            pointer-events: none;
+            background: radial-gradient(ellipse 80% 40% at 15% 0%, rgba(59,130,246,0.06) 0%, transparent 60%),
+                        radial-gradient(ellipse 50% 30% at 85% 80%, rgba(6,182,212,0.04) 0%, transparent 50%);
+        }
+
+        /* Navigation */
+        .navbar {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(8,12,20,0.88);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            height: 60px;
+            flex-wrap: wrap;
+        }
+        .navbar-brand {
+            font-size: 0.95rem;
+            font-weight: 700;
+            letter-spacing: 0.12em;
+            color: var(--cyan);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-right: 0.5rem;
+        }
+        .nav-link {
+            padding: 0.4rem 0.85rem;
+            border-radius: 6px;
+            color: var(--t2);
+            text-decoration: none;
+            font-size: 0.82rem;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+        .nav-link:hover { color: var(--t1); background: rgba(255,255,255,0.05); }
+        .nav-link.active { color: var(--cyan); background: rgba(6,182,212,0.1); }
+
+        /* Mobile Nav Toggle */
+        .nav-toggle {
+            display: none;
+            width: 38px; height: 38px;
+            border: 1px solid var(--border);
+            background: rgba(255,255,255,0.03);
+            border-radius: 8px;
+            color: var(--cyan);
+            cursor: pointer;
+            align-items: center;
+            justify-content: center;
+            font-size: 1rem;
+            margin-left: auto;
+            flex-shrink: 0;
+        }
+        .nav-links-mobile {
+            display: none;
+            width: 100%;
+            flex-direction: column;
+            gap: 0.25rem;
+            margin-top: 0.5rem;
+            padding-top: 0.5rem;
+            border-top: 1px solid var(--border);
+            order: 99;
+        }
+        .nav-links-mobile.on { display: flex; }
+        .nav-links-mobile .nav-link { padding: 0.6rem 0.85rem; font-size: 0.9rem; }
+
+        /* Main Container */
+        .container {
+            position: relative;
+            z-index: 1;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        h1 {
+            color: var(--t1);
+            font-size: 1.75rem;
+            margin-bottom: 1.5rem;
+        }
+        h2 { color: var(--t1); font-size: 1.2rem; margin: 1.5rem 0 1rem; }
+
+        .status {
+            padding: 1rem;
+            border-radius: 10px;
+            margin: 1rem 0;
+            font-weight: 500;
+            border: 1px solid;
+        }
+        .status.success { background: rgba(16,185,129,0.1); border-color: rgba(16,185,129,0.3); color: var(--green); }
+        .status.error { background: rgba(244,63,94,0.1); border-color: rgba(244,63,94,0.3); color: var(--rose); }
+        .status.loading { background: rgba(245,158,11,0.1); border-color: rgba(245,158,11,0.3); color: var(--amber); }
+
+        .stock-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.25rem;
+            margin: 1rem 0;
+            transition: border-color 0.2s;
+        }
+        .stock-card:hover { border-color: rgba(99,179,237,0.25); }
+        .stock-name { font-size: 1.1rem; font-weight: 600; color: var(--t1); }
+        .stock-code { color: var(--t3); font-size: 0.85rem; font-family: monospace; }
+        .concepts { margin: 0.75rem 0; display: flex; flex-wrap: wrap; gap: 0.3rem; }
+        .concept-tag {
+            display: inline-block;
+            background: rgba(59,130,246,0.12);
+            border: 1px solid rgba(59,130,246,0.28);
+            color: #93c5fd;
+            padding: 0.2rem 0.6rem;
+            border-radius: 20px;
+            font-size: 0.72rem;
+            font-weight: 500;
+        }
+        .mention-count {
+            color: var(--amber);
+            font-weight: 600;
+            font-size: 0.85rem;
+            margin-top: 0.5rem;
+        }
+        .articles { margin-top: 0.75rem; }
+        .article {
+            background: rgba(255,255,255,0.02);
+            padding: 0.75rem;
+            border-radius: 8px;
+            margin: 0.5rem 0;
+            font-size: 0.85rem;
+        }
+        .article-title { font-weight: 500; color: var(--t1); margin-bottom: 0.25rem; }
+        .article-source { color: var(--t3); font-size: 0.75rem; }
+        .insights { margin-top: 0.5rem; padding-left: 1.25rem; }
+        .insights li { color: var(--t2); margin: 0.25rem 0; line-height: 1.5; }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 1rem;
+            margin: 1.5rem 0;
+        }
+        .stat-box {
+            background: var(--bg-card);
+            padding: 1.25rem;
+            border-radius: 12px;
+            text-align: center;
+            border: 1px solid var(--border);
+        }
+        .stat-value {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: var(--cyan);
+        }
+        .stat-label { color: var(--t2); margin-top: 0.25rem; font-size: 0.85rem; }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .navbar {
+                padding: 0.75rem 1rem;
+                height: auto;
+                gap: 0.35rem;
+            }
+            .nav-toggle { display: flex; }
+            .navbar > .nav-link { display: none; }
+            .navbar-brand { font-size: 0.85rem; }
+
+            .container { padding: 1rem; }
+            h1 { font-size: 1.3rem; margin-bottom: 1rem; }
+            h2 { font-size: 1rem; }
+
+            .status { padding: 0.75rem; font-size: 0.85rem; margin: 0.75rem 0; }
+            .stats { grid-template-columns: 1fr 1fr; gap: 0.6rem; margin: 1rem 0; }
+            .stat-box { padding: 1rem; border-radius: 10px; }
+            .stat-value { font-size: 1.4rem; }
+            .stat-label { font-size: 0.75rem; }
+
+            .stock-card { padding: 1rem; margin: 0.75rem 0; }
+            .stock-name { font-size: 1rem; }
+            .stock-code { font-size: 0.78rem; }
+            .concept-tag { font-size: 0.68rem; padding: 0.15rem 0.5rem; }
+            .article { padding: 0.6rem; font-size: 0.78rem; }
+        }
+        @media (max-width: 400px) {
+            .container { padding: 0.75rem 0.5rem; }
+            .stats { grid-template-columns: 1fr 1fr; gap: 0.5rem; }
+            .stat-box { padding: 0.75rem; }
+            .stat-value { font-size: 1.2rem; }
+        }
+    </style>
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <a href="/" class="navbar-brand">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
+            </svg>
+            CYBERRESEARCH
+        </a>
+        <a href="/" class="nav-link">仪表板</a>
+        <a href="/stocks" class="nav-link">股票列表</a>
+        <a href="/concepts" class="nav-link">概念大全</a>
+        <a href="/search" class="nav-link">搜索</a>
+        <a href="/test-firebase" class="nav-link active">🔥 Firebase 测试</a>
+        <button class="nav-toggle" id="navToggle" aria-label="菜单">☰</button>
+        <div class="nav-links-mobile" id="navLinks">
+            <a href="/" class="nav-link">仪表板</a>
+            <a href="/stocks" class="nav-link">股票列表</a>
+            <a href="/concepts" class="nav-link">概念大全</a>
+            <a href="/search" class="nav-link">搜索</a>
+            <a href="/test-firebase" class="nav-link active">🔥 Firebase 测试</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>🔥 Firebase 数据测试</h1>
+        
+        <div id="status" class="status loading">
+            🔄 正在初始化 Firebase...
+        </div>
+        
+        <div class="stats" id="stats" style="display:none;">
+        <div class="stat-box">
+            <div class="stat-value" id="totalStocks">-</div>
+            <div class="stat-label">股票总数</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-value" id="totalConcepts">-</div>
+            <div class="stat-label">概念标签</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-value" id="totalArticles">-</div>
+            <div class="stat-label">文章总数</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-value" id="totalMentions">-</div>
+            <div class="stat-label">总提及次数</div>
+        </div>
+    </div>
+    
+    <div id="stocks"></div>
+    </div>
+
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore-compat.js"></script>
+
+    <script>
+        // Firebase 配置
+        const firebaseConfig = {
+            apiKey: "AIzaSyDnWABBE1WZ3H_il95-TcBqpIAH9sisLUo",
+            authDomain: "webstock-724.firebaseapp.com",
+            projectId: "webstock-724",
+            storageBucket: "webstock-724.firebasestorage.app",
+            messagingSenderId: "249403550581",
+            appId: "1:249403550581:web:16a0aeaadad8f22501413c"
+        };
+
+        const statusDiv = document.getElementById('status');
+        const stocksDiv = document.getElementById('stocks');
+        const statsDiv = document.getElementById('stats');
+
+        async function init() {
+            try {
+                const app = firebase.initializeApp(firebaseConfig);
+                const db = firebase.firestore();
+
+                statusDiv.className = 'status loading';
+                statusDiv.innerHTML = '🔄 正在从 Firestore 加载股票数据...';
+
+                const snapshot = await db.collection('stocks').get();
+                const stocks = [];
+
+                snapshot.forEach(doc => {
+                    stocks.push({ code: doc.id, ...doc.data() });
+                });
+
+                statusDiv.className = 'status success';
+                statusDiv.innerHTML = `✅ 成功从 Firebase 加载 ${stocks.length} 只股票数据！`;
+
+                const allConcepts = new Set();
+                let totalArticles = 0;
+                let totalMentions = 0;
+
+                stocks.forEach(stock => {
+                    (stock.concepts || []).forEach(c => allConcepts.add(c));
+                    totalArticles += (stock.articles || []).length;
+                    totalMentions += stock.mention_count || 0;
+                });
+
+                document.getElementById('totalStocks').textContent = stocks.length;
+                document.getElementById('totalConcepts').textContent = allConcepts.size;
+                document.getElementById('totalArticles').textContent = totalArticles;
+                document.getElementById('totalMentions').textContent = totalMentions;
+                statsDiv.style.display = 'grid';
+
+                stocks.sort((a, b) => (b.mention_count || 0) - (a.mention_count || 0));
+                const displayStocks = stocks.slice(0, 10);
+                stocksDiv.innerHTML = '<h2>📈 热门股票 (前10只)</h2>';
+
+                displayStocks.forEach(stock => {
+                    const concepts = (stock.concepts || [])
+                        .slice(0, 5)
+                        .map(c => `<span class="concept-tag">${c}</span>`)
+                        .join('');
+
+                    const articles = (stock.articles || [])
+                        .slice(0, 2)
+                        .map(article => {
+                            const insights = (article.insights || [])
+                                .map(i => `<li>${i}</li>`)
+                                .join('');
+                            return `
+                                <div class="article">
+                                    <div class="article-title">${article.title || ''}</div>
+                                    <div class="article-source">${article.source || ''} · ${article.date || ''}</div>
+                                    ${insights ? `<ul class="insights">${insights}</ul>` : ''}
+                                </div>
+                            `;
+                        })
+                        .join('');
+
+                    const card = document.createElement('div');
+                    card.className = 'stock-card';
+                    card.innerHTML = `
+                        <div class="stock-name">${stock.name || ''} <span class="stock-code">(${stock.code})</span></div>
+                        <div class="concepts">${concepts}</div>
+                        <div class="mention-count">🔥 提及 ${stock.mention_count || 0} 次</div>
+                        <div class="articles">${articles}</div>
+                    `;
+                    stocksDiv.appendChild(card);
+                });
+
+                if (stocks.length > 10) {
+                    const more = document.createElement('div');
+                    more.style.textAlign = 'center';
+                    more.style.padding = '20px';
+                    more.style.color = 'var(--t3)';
+                    more.innerHTML = `... 还有 ${stocks.length - 10} 只股票 ...`;
+                    stocksDiv.appendChild(more);
+                }
+            } catch (error) {
+                console.error('错误:', error);
+                statusDiv.className = 'status error';
+                statusDiv.innerHTML = `❌ 错误: ${error.message}`;
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', init);
+
+        // 移动端导航切换
+        const navToggle = document.getElementById('navToggle');
+        const navLinks = document.getElementById('navLinks');
+        if (navToggle && navLinks) {
+            navToggle.addEventListener('click', () => {
+                navLinks.classList.toggle('on');
+                navToggle.textContent = navLinks.classList.contains('on') ? '✕' : '☰';
+            });
+        }
+    </script>
+</body>
+</html>

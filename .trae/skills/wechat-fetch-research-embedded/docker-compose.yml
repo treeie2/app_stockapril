@@ -1,0 +1,116 @@
+version: '3.8'
+
+services:
+  wechat-fetch:
+    build: .
+    image: wechat-fetch-research:latest
+    container_name: wechat-fetch
+    
+    # Environment variables
+    environment:
+      # API Configuration
+      - PRIMARY_API_KEY=${PRIMARY_API_KEY}
+      - PRIMARY_BASE_URL=${PRIMARY_BASE_URL:-https://ark.cn-beijing.volces.com/api/v3}
+      - PRIMARY_MODEL=${PRIMARY_MODEL:-deepseek-v3-2-251201}
+      - FALLBACK_API_KEY=${FALLBACK_API_KEY}
+      - FALLBACK_BASE_URL=${FALLBACK_BASE_URL:-https://api.siliconflow.cn/v1}
+      - FALLBACK_MODEL=${FALLBACK_MODEL:-Qwen/Qwen2.5-72B-Instruct}
+      
+      # Firebase
+      - FIREBASE_CREDENTIALS_PATH=/secrets/firebase-credentials.json
+      
+      # GitHub
+      - GITHUB_TOKEN=${GITHUB_TOKEN}
+      - GITHUB_REPO=${GITHUB_REPO}
+      
+      # Paths
+      - DATA_DIR=/app/data
+      - RAW_MATERIAL_DIR=/app/raw_material
+      - STOCK_XLS_PATH=/app/assets/全部个股.xls
+      
+      # Logging
+      - LOG_LEVEL=${LOG_LEVEL:-INFO}
+      - LOG_FILE=/app/logs/pipeline.log
+    
+    # Volumes
+    volumes:
+      # Data persistence
+      - ./data:/app/data
+      - ./raw_material:/app/raw_material
+      - ./logs:/app/logs
+      
+      # Secrets (mount your credential files here)
+      - ./secrets:/secrets:ro
+      
+      # Browser profile persistence (for login state)
+      - browser_profile:/app/raw_material/.browser_profile
+    
+    # For headed mode (VNC)
+    ports:
+      - "5900:5900"  # VNC port for browser visualization
+    
+    # Resource limits
+    deploy:
+      resources:
+        limits:
+          memory: 4G
+        reservations:
+          memory: 1G
+    
+    # Restart policy
+    restart: unless-stopped
+    
+    # Command (override for different modes)
+    # command: python scripts/pipeline.py --url "..." --sync-firestore
+
+  # Optional: Redis for task queue
+  redis:
+    image: redis:7-alpine
+    container_name: wechat-fetch-redis
+    volumes:
+      - redis_data:/data
+    restart: unless-stopped
+    profiles:
+      - queue
+
+  # Optional: Celery worker for async tasks
+  worker:
+    build: .
+    image: wechat-fetch-research:latest
+    container_name: wechat-fetch-worker
+    environment:
+      - PRIMARY_API_KEY=${PRIMARY_API_KEY}
+      - FALLBACK_API_KEY=${FALLBACK_API_KEY}
+      - CELERY_BROKER_URL=redis://redis:6379/0
+      - CELERY_RESULT_BACKEND=redis://redis:6379/0
+    volumes:
+      - ./data:/app/data
+      - ./raw_material:/app/raw_material
+      - ./logs:/app/logs
+      - ./secrets:/secrets:ro
+      - browser_profile:/app/raw_material/.browser_profile
+    depends_on:
+      - redis
+    command: celery -A tasks worker --loglevel=info
+    profiles:
+      - queue
+    restart: unless-stopped
+
+  # Optional: Flower for monitoring Celery
+  flower:
+    image: mher/flower:latest
+    container_name: wechat-fetch-flower
+    environment:
+      - CELERY_BROKER_URL=redis://redis:6379/0
+      - FLOWER_PORT=5555
+    ports:
+      - "5555:5555"
+    depends_on:
+      - redis
+    profiles:
+      - queue
+    restart: unless-stopped
+
+volumes:
+  browser_profile:
+  redis_data:

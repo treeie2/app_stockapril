@@ -1,0 +1,636 @@
+---
+name: wechat-fetch-research-embedded
+description: 把微信公众号文章链接转成可结构化投研素材并沉淀到 JSON 数据库的工作流技能（v2.10）。内置《全部个股.xls》和《数据结构规范_v2》，支持 Docker 部署。适用场景：你给出一个或多个 mp.weixin.qq.com 链接，需要（1）可靠读取公众号正文并落盘 raw_material；（2）从 raw_material 识别提到的个股（自动映射内置 stock list）；（3）按内置《数据结构规范_v2》执行 5 维度抽取；（4）**增量合并到按日期分片的 JSON 文件**；（5）同步到 GitHub；（6）增量同步到 Supabase PostgreSQL。
+---
+
+# wechat-fetch-research-embedded (v2.10)
+
+> ⚠️ **重要路径说明**：本技能输出到 `data/stocks/` 目录（前端读取），**不是** `data/master/`。详见下方目录约定。
+
+## 快速开始（推荐工作流）
+
+**输入**：微信公众号文章 URL（单篇或多篇）
+
+**输出**：
+- `raw_material/raw_material_YYYY-MM-DD.md`（原始正文沉淀）
+- `data/stocks_master_YYYY-MM-DD.json`（当日抽取结果，中间产物）
+- **`data/stocks/YYYY-MM-DD.json`**（按日期分片存储）
+- **`data/stocks/stocks_index.json`**（全局索引）
+- **`data/stocks/stocks_master.json`**（主数据文件，前端读取）
+- （可选）同步到 Firebase Firestore
+- （可选）同步到 GitHub
+- （推荐）同步到 Supabase PostgreSQL
+
+> 数据结构以 `references/数据结构规范_v2.md` 为准。
+
+---
+
+## v2.10 变更说明
+
+### 标题过滤优化 + 分组自动填充
+- **移除过度拦截**：`r'供应格局梳理'` 从 BROAD_LIST_TITLE 中移除（有具体事件时不该拦截，如旺矽预付款→探针卡紧缺）
+- **分组关联流程**：当用户发送文章链接给特定分组时，不仅走 pipeline，还会直接填充分组股票
+- **空分组处理**："晶圆中测探针卡"等空分组补充了具体股票
+
+## v2.9 变更说明
+
+### stocks_master.json.gz 自动生成
+- **merge_new_stocks.py** 保存主文件时自动生成 `.json.gz` 压缩版（914KB vs 5MB）
+- **Vercel 优先读取 `.gz`**：节省部署空间，加载更快
+- **merge_utils.py** 新增 `_save_gz()` 函数
+- **已修复**：历史 gz 损坏（60KB）导致 Vercel 只读到 3360 stocks → 重新生成为 914KB/3506 stocks
+
+## v2.8 变更说明
+
+### 日期格式规范化（YYYY-MM-DD）
+- **统一格式**：所有 `last_updated` / `article.date` 必须为 `YYYY-MM-DD`
+- **防御性校验**：`merge_new_stocks.py` 合并后自动扫描修复不一致格式
+- **规范函数**：`merge_utils.py` 新增 `normalize_date_string()` / `normalize_all_stock_dates()`
+- **修复范围**：支持 YYYYMMDD → YYYY-MM-DD、YYYY/MM/DD → YYYY-MM-DD、MM.DD → 当年
+
+### v2.7 变更说明
+
+### 标题过滤移除 + 本地股票扫描
+- **移除 BROAD_LIST_TITLE 规则**：不再按标题整篇拒绝"每日汇总/首板逻辑"文章
+- **本地预扫描** `local_scan_stock_names()`：0 API 调用，正则匹配 5191 只股票名到文章
+- **上下文提取** `_extract_context_for_stocks()`：每批只传 ±2 行相关段落（6000→500 字）
+- **缩略名过滤**：2-3 字股票名需数字上下文验证，避免"中控"→"中控技术"误匹配
+
+## v2.6 变更说明
+
+### Supabase 同步集成
+- **`scripts/sync_to_supabase.py`** 全新脚本：支持 `--full` 全量同步和 `--date` 日期增量同步
+- **`pipeline.py`** 新增 `--sync-supabase` 参数：一条命令完成 GitHub + Supabase 双写
+- **`_lobster_quick.py`** 新增 Step 7 增量 Supabase 同步：龙虾终端自动同步
+
+### v2.5 变更说明
+
+### 代码质量优化
+- **共享合并模块** `merge_utils.py`：消除 6 个脚本中重复的文章去重/字段合并/分片读写逻辑
+- **路径统一**：所有脚本输出到 `data/stocks/`（废弃 `data/master/`）
+- **安全修复**：移除 `.env.example` 中硬编码的 R2 真实凭证
+- **清理冗余**：删除 `{data,raw_material}` 残留目录
+- **脚本归档**：一次性脚本（merge_harmony/merge_articles/add_*）移至 `scripts/archived/`
+- **merge_new_stocks.py** 重构为使用 merge_utils，代码量减少 40%
+
+---
+
+## v2.4 变更说明
+
+### 新增：5 维度抽取标准 + 硬性规则清洗
+
+在 v2.3 三道防线基础上，升级为严格的 **5 维度** 个股数据抽取标准，新增 `industry_background`（行业/赛道背景）字段，并集成 `clean_extracted_stock()` 后置硬性规则清洗函数。
+
+---
+
+**5 维度标准：**
+
+| 维度 | 字段名 | 定义 | 红线约束 |
+|------|--------|------|----------|
+| 1 | `industry_background` | 行业/赛道宏观趋势、政策红利、供需变化 | **严禁出现公司名称**；同赛道股票内容一致 |
+| 2 | `insights` | 个股投资逻辑、竞争优势、受益逻辑 | 必须指向具体个股，严禁泛行业科普 |
+| 3 | `accidents` | 客观事实/动作/项目进展 | 单条 ≤60 字，严禁主观推测词 |
+| 4 | `key_metrics` | 量化财务/业务数据 | 每一条**必须包含阿拉伯数字** |
+| 5 | `target_valuation` | 资产定价锚点 | 必须包含市值数额/目标股价/PE/PB |
+
+**clean_extracted_stock() 硬性规则清洗（后置执行）：**
+- `key_metrics` → 强制要求包含 `\d`，否则丢弃
+- `target_valuation` → 强制要求包含估值单位词（亿/元/PE/PB/倍/市值/目标价）+ 数字
+- `accidents` → 强制限制单条 ≤60 字
+- `industry_background` → 自动替换混入的公司名为"业内相关公司"
+
+**轻量模式（v2.4 新增）：不浪费第一层信息**
+
+当个股未通过投研质量过滤（`__THIN__` 标记或 substance≤1），但 LLM 提取到了有价值的 `products`/`core_business`/`industry_position`/`chain`/`partners` 时：
+
+- ❌ **不写 article**（不产生低质量投研数据）
+- ✅ **静默合并第一层字段**（products/core_business/industry_position/chain/partners）
+- ✅ **mention_count 不变**（因为这不是一篇有效的独立分析）
+
+| 场景 | 处理 |
+|------|------|
+| 投研质量通过 | 写完整 article + 更新第一层 + mention_count+1 |
+| `__THIN__` 或有第一层信息但 substance≤1 | 轻量合并第一层字段，mention_count 不变 |
+| 完全无信息 | 丢弃 |
+
+---
+
+**第一道防线：Python 启发式预过滤（前置拦截）**
+
+`is_valid_stock_context()` 函数在提取前评估文本块质量：
+
+```python
+SIGNAL_KEYWORDS = [
+    "订单", "放量", "营收", "净利润", "市占率", "份额",
+    "估值", "目标价", "PE", "催化", "突破", "中标", "预期",
+    "产能", "量产", "扩产", "涨", "跌", "收购", "并购",
+    "回购", "分红", "业绩", "毛利率", "净利率", "ROE",
+    "新品", "客户", "合同", "项目",
+]
+```
+
+规则：
+| 条件 | 判定 |
+|------|------|
+| 文本长度 < 30 字符 | ❌ 拒绝（一笔带过） |
+| 包含 >= 1 个信号关键词 | ✅ 放行 |
+| 长度 > 100 字符 | ✅ 放行（有足够上下文） |
+
+---
+
+**第二道防线：优化 AI Prompt（源头控制）**
+
+**识别阶段（SYSTEM_IDENTIFY）**：
+- 仅识别有实质性分析的个股，拒绝行业背景举例
+- 个股被罗列（如"推荐A、B、C等"）→ 不识别
+- 个股仅作为行业背景提及 → 不识别
+
+**提取阶段（SYSTEM_EXTRACT）**：
+AI 在提取前对每只股票做三步判断：
+1. 该公司是否有独立的事件/催化剂描述（非行业泛论）？
+2. 描述中是否有至少一个具体数字、时间节点或明确判断？
+3. 该公司是否被当作主角而非行业背景举例？
+
+| 判定 | 处理 |
+|------|------|
+| 全部为否 → | 跳过该公司，不输出 |
+| 有 accidents → | 正常提取 |
+| accidents 为空但有 insights/key_metrics → | accidents 填写 `["__THIN__"]` 标记 |
+
+---
+
+**第三道防线：后置数据清理（规范执行）**
+
+`clean_extracted_data()` 在写入 JSON 前强制执行：
+
+1. **`__THIN__` 标记检测**：清理由 AI 标记的"行业背景型"个股条目
+2. **内容量检查**：文章四字段全为空 → 丢弃该文章
+3. **空节点清理**：个股下无任何有效文章 → 移除整个股票节点
+
+**防伪对比**：
+
+| 防线 | 位置 | 作用 | 成本 |
+|------|------|------|------|
+| 第一道 | Python脚本 | 标题关键词匹配 + 文本长度/信号词过滤 | 零 API 调用 |
+| 第二道 | AI Prompt | 三步判断 + `__THIN__` 标记区分行业背景型 | Prompt token |
+| 第三道 | 后处理 | 强制执行字段非空规则 + 清理无效节点 | 零 API 调用 |
+
+**判断标准**：
+| 保留 ✅ | 删除 ❌ |
+|---------|---------|
+| 二级标题点名个股 + 后跟大段分析 | 多股罗列："推荐A、B、C等" |
+| 有实质性投研内容（insights/metrics） | 行业综述，个股仅顺带提及 |
+| 单一标的深度分析 | 每日汇总/首板逻辑 |
+| 事件驱动型个股分析 | 非A股（港股/美股） |
+| AI 三步判断全部通过 | `__THIN__` 标记（行业背景型） |
+
+---
+
+## Complete Workflow: 生成 → 保存 → 推送 → 上线
+
+### 步骤 1: 生成数据
+
+#### 方式 A: 统一 Pipeline（推荐）
+
+单条命令完成全流程：
+
+```powershell
+cd e:/github/stock-research-backup
+python scripts/pipeline.py `
+  --url "https://mp.weixin.qq.com/s/..." `
+  --sync-firestore `
+  --sync-github
+```
+
+这会自动执行：
+1. 抓取公众号文章正文
+2. 保存到 `raw_material/raw_material_YYYY-MM-DD.md`
+3. 抽取个股结构化信息
+4. 增量合并到日期分片（stocks_master.json）
+5. （可选）同步到 Firestore
+6. （可选）同步到 GitHub
+7. （可选）增量同步到 Supabase PostgreSQL
+
+#### 方式 B: 分步执行
+
+**Step 1.1: 抓取正文**
+```powershell
+python scripts/fetch_wechat_via_browser_dom.py `
+  --url "https://mp.weixin.qq.com/s/..." `
+  --out_text "tmp_article.txt" `
+  --user_data_dir ".browser_profile"
+```
+
+**Step 1.2: 转换为 raw_material 格式**
+```powershell
+python scripts/fetch_wechat_to_raw_material.py `
+  --url "https://mp.weixin.qq.com/s/..." `
+  --out "raw_material/raw_material_2026-04-21.md" `
+  --manual_text_file "tmp_article.txt"
+```
+
+**Step 2: 抽取个股信息**
+```powershell
+python scripts/extract_stocks_from_raw_material.py `
+  --raw "raw_material/raw_material_2026-04-21.md" `
+  --stock_xls "./assets/全部个股.xls" `
+  --out_json "data/stocks_master_2026-04-21.json" `
+  --mode merge
+```
+
+**Step 2.5: 合并到主数据（关键步骤！）**
+```powershell
+python scripts/merge_new_stocks.py
+```
+
+该脚本会自动：
+1. 读取 `data/stocks_master_YYYY-MM-DD.json`（Step 2 的输出）
+2. 按 `source` 去重合并到 `data/stocks/stocks_master.json`
+3. 同步更新 `data/stocks/YYYY-MM-DD.json` 分片文件
+4. 累加 `mention_count`
+
+> ⚠️ **注意**：`incremental_update.py`（旧版脚本）将数据写入 `.trae/skills/.../data/master/` 目录，**前端不读取该路径**。必须运行 `merge_new_stocks.py` 才能让前端看到新数据。
+
+### 步骤 2: 保存到本地
+
+数据会自动保存到以下位置：
+
+```
+e:/github/stock-research-backup/
+├── raw_material/
+│   └── raw_material_2026-04-21.md
+└── data/
+    ├── stocks_master_2026-04-21.json (中间产物)
+    └── stocks/
+        ├── stocks_index.json (全局索引)
+        ├── stocks_master.json (主数据，前端读取)
+        └── 2026-04-21.json (分片文件)
+```
+
+**分片文件格式：**
+```json
+{
+  "date": "2026-04-21",
+  "update_count": 15,
+  "stocks": {
+    "688227": { "name": "品高股份", "articles": [...], ... },
+    "300593": { "name": "新雷能", ... }
+  }
+}
+```
+
+### 步骤 3: 推送到 GitHub
+
+#### 方式 A: 自动推送（推荐）
+
+在运行 pipeline 时添加 `--sync-github` 参数：
+
+```powershell
+python scripts/pipeline.py `
+  --url "https://mp.weixin.qq.com/s/..." `
+  --sync-github
+```
+
+#### 方式 B: 手动推送
+
+```powershell
+cd e:/github/stock-research-backup
+git add data/stocks/stocks_master.json data/stocks/2026-04-21.json data/stocks/stocks_index.json
+git commit -m "Update stock data: 2026-04-21 (+15 stocks)"
+git push origin main
+```
+
+### 步骤 4: 上线（Vercel 自动部署）
+
+推送后，Vercel 会自动：
+1. 检测到 GitHub 仓库更新
+2. 触发自动构建和部署
+3. 更新线上数据
+
+**验证部署：**
+- 访问 https://vercel.com/dashboard
+- 查看部署状态
+- 访问线上网站验证数据已更新
+
+### 步骤 5: 同步到 Supabase（推荐）
+
+#### 方式 A: Pipeline 自动同步
+
+```bash
+python scripts/pipeline.py \
+  --url "https://mp.weixin.qq.com/s/..." \
+  --sync-github --sync-supabase
+```
+
+#### 方式 B: 独立脚本同步
+
+```bash
+# 全量同步 stocks_master.json → Supabase
+python scripts/sync_to_supabase.py --full
+
+# 增量同步指定日期
+python scripts/sync_to_supabase.py --date 2026-06-20
+```
+
+**Supabase 数据表：**
+- `stocks` — 股票主表（code, name, articles JSONB, mention_count 等）
+- `groups_data` — 分组表（行业/概念分组及其股票列表）
+- `hot_topics` — 热门题材表
+- 数据库地址：https://fcnzwhjpzfojeszzlyeo.supabase.co
+
+---
+
+## v2.0 核心变更：按日期分片存储
+
+### 为什么需要分片？
+
+旧版将所有股票存储在单一 `stocks_master.json` 中，随着数据积累：
+- 文件越来越大（3000+ 股票时可达数 MB）
+- 每次同步需要传输整个文件
+- 重复运行可能导致文章重复添加
+
+### 新架构
+
+```
+data/stocks/
+├── stocks_index.json           # 索引文件（股票代码 → 最后更新日期）
+├── stocks_master.json          # 主文件（前端读取）
+└── 2026-04-17.json            # 当日更新
+    ️ ...                       # 历史分片
+```
+
+### 分片文件格式
+
+```json
+{
+  "date": "2026-04-17",
+  "update_count": 15,
+  "stocks": {
+    "688227": { "name": "品高股份", "articles": [...], ... },
+    "300593": { "name": "新雷能", ... }
+  }
+}
+```
+
+---
+
+## 部署方式
+
+### 方式一：Docker Compose（推荐，适合服务器部署）
+
+```bash
+cp .env.example .env
+docker-compose up -d
+docker-compose run --rm wechat-fetch \
+  python scripts/pipeline.py \
+  --url "https://mp.weixin.qq.com/s/..." \
+  --sync-github
+```
+
+详见 [DEPLOY.md](DEPLOY.md)
+
+### 方式二：统一 Pipeline（推荐，单条命令完成全流程）
+
+```bash
+python scripts/pipeline.py \
+  --url "https://mp.weixin.qq.com/s/..." \
+  --sync-firestore \
+  --sync-github
+```
+
+### 方式三：分步执行
+
+见下方详细步骤。
+
+---
+
+## Step 1：抓取公众号正文 → 写入 raw_material
+
+公众号经常出现"环境异常/去验证/反爬"，导致 **直接 HTTP 抓取失败或拿不到全文**。本技能提供两种方式：
+
+### 方式 A：外部 Reader（可选）
+如果你有可用的 link reader / 代理 / 可访问环境（例如 MCP reader），可直接把正文喂给落盘脚本：
+
+- `python scripts/fetch_wechat_to_raw_material.py --url "<mp_url>" --out "raw_material/raw_material_2026-04-03.md" --mcp_server <server_name> --mcp_tool <tool_name>`
+
+### 方式 B：浏览器登录态抓取（推荐，最稳）
+本技能内置 **Playwright 浏览器 DOM 抽取**，不尝试绕过微信安全机制；如遇"去验证/登录"，你需要在弹出的真实浏览器里手动完成一次验证。
+
+1) 先用浏览器抓取正文到临时文件：
+- `python scripts/fetch_wechat_via_browser_dom.py --url "<mp_url>" --out_text "tmp_article.txt" --user_data_dir ".browser_profile" --timeout 300`
+
+2) 再把临时正文落盘为 raw_material：
+- `python scripts/fetch_wechat_to_raw_material.py --url "<mp_url>" --out "raw_material/raw_material_2026-04-03.md" --manual_text_file "tmp_article.txt"`
+
+> 说明：`--manual_text_file` 模式等价于"外部 reader 已经拿到正文"，脚本负责 **统一 raw_material 结构**（source/fetched_at/title/date + content）。
+
+---
+
+## Step 2：从 raw_material 抽取个股结构化信息 → 写入 JSON
+
+### 方式 A: LLM 管道提取
+
+```bash
+python scripts/extract_stocks_from_raw_material.py \
+  --raw "raw_material/raw_material_2026-04-03.md" \
+  --stock_xls "./assets/全部个股.xls" \
+  --out_json "data/stocks_master_2026-04-03.json" \
+  --mode merge
+```
+
+> 本 skill **已内置** `assets/全部个股.xls` 与 `references/数据结构规范_v2.md`。
+
+### 方式 B: AI 辅助提取（推荐）
+
+AI 从文章内容提取以下 **9 个字段**：
+
+**结构化数据字段**：
+| 字段 | 类型 | 说明 | 示例 |
+|------|------|------|------|
+| `industry_background` | string[] | 行业/赛道背景，严禁公司名 | `["AI服务器出货量爆发，驱动高阶PCB需求"]` |
+| `accidents` | string[] | 事件/催化剂，事实性描述，≤60字 | `["二季度订单加速放量"]` |
+| `insights` | string[] | 个股投研观点，原文或忠实改写 | `["国产交换芯片龙头"]` |
+| `key_metrics` | string[] | 关键指标，必须包含数字 | `["2026年AEC收入10-15亿元"]` |
+| `target_valuation` | string[] | 目标估值/目标价，含具体数值 | `["370亿"]` |
+
+**个股数据字段**（从文章上下文推断）：
+| 字段 | 类型 | 说明 | 示例 |
+|------|------|------|------|
+| `core_business` | string[] | 核心业务/主要产品 | `["交换芯片研发与销售"]` |
+| `industry_position` | string[] | 行业地位/竞争优势 | `["国产交换芯片龙头"]` |
+| `chain` | string[] | 产业链位置 | `["中游-芯片设计"]` |
+| `partners` | string[] | 合作伙伴公司名称 | `["阿里巴巴", "字节跳动"]` |
+
+然后调用 `process_article.py` 自动完成行业/概念映射和合并。
+
+---
+
+## Step 2.5（关键步骤）：合并到主数据
+
+将 Step 2 的抽取结果 **合并** 到前端读取的主数据文件：
+
+```bash
+python scripts/merge_new_stocks.py
+```
+
+**自动完成：**
+1. 读取 `data/stocks_master_YYYY-MM-DD.json`（Step 2 的输出）
+2. 按 `source` 去重合并到 `data/stocks/stocks_master.json`
+3. 同步更新 `data/stocks/YYYY-MM-DD.json` 分片文件
+4. 累加 `mention_count`
+
+**智能去重**：
+- 文章按 `(source, title)` 去重
+- `core_business`, `industry_position`, `chain`, `partners` 等 set 字段自动合并
+- 同一股票同一天只保留最新版本
+
+> ⚠️ **重要**：`incremental_update.py`（旧版）写入 `.trae/skills/.../data/master/` 目录，前端不读取。**必须使用 `merge_new_stocks.py`**。
+
+---
+
+## Step 3（可选）：同步 JSON 到 Firebase Firestore
+
+```bash
+python sync_to_firestore.py \
+  --credentials ".trae/rules/firebase-credentials.json" \
+  --json "data/stocks/stocks_master.json" \
+  --on_exists merge
+```
+
+### 数据模型
+- 股票文档：`stocks/{stock_code}`（只写入股票基础字段 + 计数）
+- 文章子集合：`stocks/{stock_code}/articles/{article_id}`
+  - `article_id = sha1(source)`（天然去重）
+
+### 同步规则
+- 不再把 articles 数组写回 stocks 文档
+- 每篇文章单独写入子集合 doc（按 source 哈希去重）
+- 仅当新文章写入成功时，使用事务对 `stocks/{code}` 的 `article_count`/`mention_count` 做 `Increment(1)`
+- 已存在文章默认 `skip`（也可用 `--on_exists update` 更新内容）
+
+---
+
+## Step 4（可选）：同步到 GitHub
+
+### 推荐方式：手动 git 操作
+
+```bash
+cd e:/github/stock-research-backup
+git add data/stocks/stocks_master.json data/stocks/YYYY-MM-DD.json data/stocks/stocks_index.json
+git commit -m "feat: 添加 YYYY-MM-DD 数据（N只股票）"
+git push origin main
+```
+
+### 自动方式：pipeline 集成
+
+```bash
+python scripts/pipeline.py \
+  --url "https://mp.weixin.qq.com/s/..." \
+  --sync-github
+```
+
+---
+
+## 目录约定
+
+```
+├── raw_material/                    # 原始文章正文沉淀（Markdown）
+│   └── raw_material_YYYY-MM-DD.md
+├── data/
+│   ├── stocks_master_YYYY-MM-DD.json # 当日抽取结果（中间产物）
+│   └── stocks/                      # 分片存储（核心输出，前端读取）
+│       ├── stocks_index.json        # 全局索引
+│       ├── stocks_master.json       # 主数据文件
+│       ├── 2026-04-17.json          # 按日期分片
+│       └── ...
+├── assets/
+│   └── 全部个股.xls                 # 内置股票列表
+├── archived/
+│   ├── 同花顺行业.xls               # 行业映射
+│   └── 所属概念.xls                 # 概念映射
+└── references/
+    └── 数据结构规范_v2.md            # 数据结构定义
+```
+
+---
+
+## 脚本清单
+
+| 脚本 | 功能 | 版本 |
+|------|------|------|
+| `scripts/pipeline.py` | **统一 Pipeline**（集成全流程） | v2.5 |
+| `scripts/merge_new_stocks.py` | **⭐ 合并到主数据**（推荐，使用 merge_utils） | v2.5 |
+| `scripts/merge_utils.py` | **共享合并模块**（消除重复逻辑） | v2.5 NEW |
+| `scripts/incremental_update.py` | **增量更新**（按日期分片维护） | v2.5 |
+| `scripts/map_industry_concept.py` | **批量更新行业/概念**（从同花顺映射） | v2.2 |
+| `scripts/sync_to_github.py` | **GitHub 同步** | v2.5 |
+| `scripts/sync_to_supabase.py` | **Supabase 同步**（全量/增量） | v1.0 |
+| `scripts/normalize_dates.py` | **日期格式规范化**（YYYY-MM-DD） | v1.0 NEW |
+| `scripts/fetch_wechat_to_raw_material.py` | 正文落盘为 raw_material | v1.x |
+| `scripts/fetch_wechat_via_browser_dom.py` | 浏览器 DOM 抽取全文 | v1.x |
+| `scripts/extract_stocks_from_raw_material.py` | LLM 抽取个股信息 | v1.x |
+| `scripts/sync_to_firestore.py` | 同步到 Firestore | v1.x |
+| `scripts/sync_to_r2.py` | 同步到 Cloudflare R2 | v1.x |
+| `scripts/process_article.py` | AI 辅助提取（手动调用） | v2.2 |
+| `scripts/archived/` | 一次性/已废弃脚本归档 | — |
+
+---
+
+## Pipeline 完整流程图
+
+```
+┌──────────────────────────────────────────────────────────────────────┐
+│                    pipeline.py (v2.6)                                │
+├──────────────────────────────────────────────────────────────────────┤
+│                                                                      │
+│  URL ──→ [Step 1] 浏览器/requests 抓取 ──→ raw_material/*.md        │
+│                    │                                                │
+│                    ▼                                                │
+│             [Step 2] LLM/AI 抽取 ──→ stocks_master_*.json            │
+│                    │                                                │
+│                    ▼                                                │
+│   [Step 2.5] ⭐ merge_new_stocks.py（关键步骤！）                   │
+│              │         │                                            │
+│              ▼         ▼                                            │
+│   data/stocks/stocks_master.json   data/stocks/YYYY-MM-DD            │
+│              │                                                      │
+│              ├─→ [Step 3] Firestore (可选)                         │
+│              ├─→ [Step 4] GitHub push (可选)                       │
+│              └─→ [Step 5] Supabase upsert (推荐)                   │
+│                                                                      │
+└──────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 常见坑（务必看）
+
+1. **公众号"去验证"**：遇到验证页时，需要在浏览器里人工点一下，验证通过后再抽正文。
+2. **公众号反爬**：直接抓 HTML 常失败或内容不全；优先用"浏览器 DOM 提取正文"兜底。
+3. **股票简称歧义**：抽取到的简称可能是同名词/简称重叠；脚本会尽量映射到《全部个股.xls》，无法映射则不入库。
+4. **文章去重**：`merge_new_stocks.py` 已实现按 `(source, title)` 双键去重，重复运行不会产生重复文章。
+5. **set 字段合并**：`core_business`, `industry_position`, `chain`, `partners` 使用 set 合并，不会重复。
+6. **mention_count 累加**：每次更新会累加 mention_count，如需重置请手动编辑。
+7. **⭐ 路径问题**：`incremental_update.py` 写入 `.trae/skills/.../data/master/`，**前端不读取**。务必使用 `merge_new_stocks.py`。
+8. **行业字段**：`industry` 必须使用三级分类（如"电子-半导体-集成电路"），禁止使用"创业板/科创板"等板块名。
+9. **⭐ v2.4 轻量模式**：`__THIN__` 或投研内容不足的个股不会写入 article，但仍会静默合并第一层字段（products/core_business/industry_position/chain/partners），mention_count 不变。
+10. **⭐ v2.6 Supabase 同步**：需要 `pip install supabase`。使用 `--sync-supabase` 可选参数增量同步当日数据。独立全量同步：`python scripts/sync_to_supabase.py --full`。
+11. **⭐ v2.8 日期格式**：所有日期统一为 `YYYY-MM-DD`（如 `2026-06-20`）。禁止 YYYYMMDD、YYYY/MM/DD、MM.DD。merge_new_stocks.py 合并后自动规范化。手动修复：`python scripts/normalize_dates.py`。
+12. **⭐ v2.9 json.gz 文件**：Vercel 优先读取 `stocks_master.json.gz`（压缩版），`merge_new_stocks.py` 合并后自动生成。如 gz 损坏导致数据异常，运行 `python _regz.py` 重新生成。
+
+---
+
+## 抽取规则（核心点）
+
+- **先识别个股**：从 raw_material 中抽取"候选个股名/代码" → 映射到《全部个股.xls》（代码+简称）。
+- **再按文章维度抽 5 维度字段**：对每篇文章、每只股票，抽取：
+  - `industry_background`：行业/赛道宏观背景，严禁出现公司名称
+  - `accidents`：事件/催化剂/行业新闻（短句，超 60 字需压缩）
+  - `insights`：投研观点/逻辑
+  - `key_metrics`：量化指标/市占率/财务/产能等（必须包含数字）
+  - `target_valuation`：估值/目标市值/空间/测算（必须包含具体数值）
+  - `core_business`：核心业务/主要产品
+  - `industry_position`：行业地位/竞争优势
+  - `chain`：产业链位置
+  - `partners`：合作伙伴
+- **结构化输出**：组织成 `stocks[].articles[]`，并按 `source`（URL）去重追加。
