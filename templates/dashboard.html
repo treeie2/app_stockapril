@@ -10,20 +10,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <style>
         :root {
-            --bg: #080c14;
-            --bg-card: #0f1623;
-            --bg-row-hover: #131d2e;
-            --border: rgba(99,179,237,0.1);
-            --border-h: rgba(99,179,237,0.3);
-            --cyan: #06b6d4;
-            --blue: #3b82f6;
-            --green: #10b981;
-            --rose: #f43f5e;
-            --amber: #f59e0b;
-            --purple: #8b5cf6;
-            --t1: #e2e8f0;
-            --t2: #94a3b8;
-            --t3: #4b5563;
+            --bg: #00041a;
+            --bg-card: #000c2a;
+            --bg-row-hover: #001a4d;
+            --border: rgba(0,255,255,0.12);
+            --border-h: rgba(0,255,255,0.3);
+            --cyan: #00ffff;
+            --blue: #00ccff;
+            --green: #00ff88;
+            --rose: #ff0077;
+            --amber: #f8e71c;
+            --purple: #a855f7;
+            --t1: #e0f2ff;
+            --t2: #a0c4ff;
+            --t3: #4a6388;
             --mono: 'JetBrains Mono', monospace;
             --r: 8px;
         }
@@ -41,8 +41,8 @@
             z-index:0;
             pointer-events:none;
             background:
-                radial-gradient(ellipse 80% 40% at 15% 0%, rgba(59,130,246,.06) 0%, transparent 60%),
-                radial-gradient(ellipse 50% 30% at 85% 80%, rgba(6,182,212,.04) 0%, transparent 50%);
+                radial-gradient(ellipse 80% 40% at 15% 0%, rgba(0,255,255,.04) 0%, transparent 60%),
+                radial-gradient(ellipse 50% 30% at 85% 80%, rgba(0,255,255,.02) 0%, transparent 50%);
         }
         /* ─── Navbar ─── */
         .nav {
@@ -134,7 +134,7 @@
         }
         .search-wrap input:focus {
             border-color:var(--blue);
-            background:rgba(59,130,246,.06);
+            background:rgba(0,255,255,.06);
         }
         .search-wrap .si {
             position:absolute;
@@ -166,7 +166,7 @@
             font-size:.76rem;
             transition:background .12s;
         }
-        .sug-item:hover { background:rgba(59,130,246,.1); }
+        .sug-item:hover { background:rgba(0,255,255,.1); }
         .sug-code {
             color:var(--t3);
             font-family:var(--mono);
@@ -295,11 +295,11 @@
             font-size:12px;
         }
         .edit-topic-btn {
-            background:rgba(6,182,212,0.1);
+            background:rgba(0,255,255,0.1);
             color:var(--cyan);
         }
         .edit-topic-btn:hover {
-            background:rgba(6,182,212,0.25);
+            background:rgba(0,255,255,0.25);
             transform:scale(1.1);
         }
         .delete-topic-btn {
@@ -326,8 +326,8 @@
         .hot-stock-tag {
             display:inline-block;
             padding:.25rem .6rem;
-            background:rgba(59,130,246,.12);
-            border:1px solid rgba(59,130,246,.25);
+            background:rgba(0,255,255,.12);
+            border:1px solid rgba(0,255,255,.25);
             border-radius:15px;
             color:var(--blue);
             font-size:.72rem;
@@ -335,7 +335,7 @@
             transition:all .15s;
         }
         .hot-stock-tag:hover {
-            background:rgba(59,130,246,.25);
+            background:rgba(0,255,255,.25);
             color:#60a5fa;
         }
         @media (max-width:768px) {
@@ -364,8 +364,8 @@
         }
         .fulltext-search-input:focus {
             border-color:var(--blue);
-            background:rgba(59,130,246,.08);
-            box-shadow:0 0 20px rgba(59,130,246,.15);
+            background:rgba(0,255,255,.08);
+            box-shadow:0 0 20px rgba(0,255,255,.15);
         }
         .fulltext-search-input::placeholder {
             color:var(--t3);
@@ -395,7 +395,7 @@
         }
         .fulltext-search-btn:hover {
             transform:translateY(-50%) scale(1.05);
-            box-shadow:0 4px 12px rgba(59,130,246,.4);
+            box-shadow:0 4px 12px rgba(0,255,255,.4);
         }
         .fulltext-search-results {
             background:var(--bg-card);
@@ -415,7 +415,7 @@
             transition:background .15s;
         }
         .search-result-item:hover {
-            background:rgba(59,130,246,.08);
+            background:rgba(0,255,255,.08);
         }
         .search-result-item:last-child {
             border-bottom:none;
@@ -432,7 +432,7 @@
             font-family:var(--mono);
             font-size:.75rem;
             color:var(--cyan);
-            background:rgba(6,182,212,.15);
+            background:rgba(0,255,255,.15);
             padding:.15rem .4rem;
             border-radius:4px;
         }
@@ -516,7 +516,7 @@
         .fbtn:hover {
             border-color:var(--blue);
             color:var(--t1);
-            background:rgba(59,130,246,.08);
+            background:rgba(0,255,255,.08);
         }
         .fbtn.active {
             background:var(--blue);
@@ -802,8 +802,8 @@
             font-weight:500;
             white-space:nowrap;
         }
-        .t0 { background:rgba(59,130,246,.12); border:1px solid rgba(59,130,246,.28); color:#93c5fd; }
-        .t1 { background:rgba(6,182,212,.12); border:1px solid rgba(6,182,212,.28); color:#67e8f9; }
+        .t0 { background:rgba(0,255,255,.12); border:1px solid rgba(0,255,255,.28); color:#a0c4ff; }
+        .t1 { background:rgba(0,255,255,.12); border:1px solid rgba(0,255,255,.28); color:#00ffcc; }
         .t2 { background:rgba(16,185,129,.12); border:1px solid rgba(16,185,129,.28); color:#6ee7b7; }
         .t3c { background:rgba(245,158,11,.12); border:1px solid rgba(245,158,11,.28); color:#fcd34d; }
         .t4 { background:rgba(244,63,94,.12); border:1px solid rgba(244,63,94,.28); color:#fda4af; }
@@ -826,8 +826,8 @@
             display:inline-flex;
             align-items:center;
             gap:.2rem;
-            background:rgba(6,182,212,.08);
-            border:1px solid rgba(6,182,212,.2);
+            background:rgba(0,255,255,.08);
+            border:1px solid rgba(0,255,255,.2);
             color:var(--cyan);
             border-radius:20px;
             padding:.12rem .5rem;
@@ -1015,7 +1015,7 @@
                 transition:background .15s;
             }
             .tbl-wrap tbody tr:active {
-                background:rgba(59,130,246,.08);
+                background:rgba(0,255,255,.08);
             }
             .tbl-wrap tbody td {
                 display:flex;
@@ -1157,7 +1157,7 @@
         </div>
         
         <!-- 分组入口 -->
-        <div style="margin:1.5rem 0;padding:1.25rem;background:linear-gradient(135deg, rgba(59,130,246,.08) 0%, rgba(139,92,246,.06) 100%);border:1px solid rgba(59,130,246,.15);border-radius:12px;">
+        <div style="margin:1.5rem 0;padding:1.25rem;background:linear-gradient(135deg, rgba(0,255,255,.08) 0%, rgba(139,92,246,.06) 100%);border:1px solid rgba(0,255,255,.15);border-radius:12px;">
             <div style="display:flex;justify-content:space-between;align-items:center;">
                 <div style="font-size:1rem;font-weight:700;color:var(--blue);display:flex;align-items:center;gap:.5rem;">
                     📁 股票分组
@@ -1940,17 +1940,17 @@
                     let html = '';
                     data.groups.forEach(group => {
                         const stocksHtml = (group.stocks || []).slice(0, 6).map(stock => 
-                            `<a href="/stock/${encodeURIComponent(stock.code || stock)}" class="hot-stock-tag" style="background:rgba(${hexToRgb(group.color || '#3b82f6')},.12);border-color:rgba(${hexToRgb(group.color || '#3b82f6')},.25);color:${group.color || '#3b82f6'};" onclick="event.stopPropagation();">${escapeHtml(stock.name || stock)}</a>`
+                            `<a href="/stock/${encodeURIComponent(stock.code || stock)}" class="hot-stock-tag" style="background:rgba(${hexToRgb(group.color || '#00ffff')},.12);border-color:rgba(${hexToRgb(group.color || '#00ffff')},.25);color:${group.color || '#00ffff'};" onclick="event.stopPropagation();">${escapeHtml(stock.name || stock)}</a>`
                         ).join('');
                         const moreCount = (group.stocks || []).length - 6;
                         
                         html += `
-                        <div class="group-card" data-group-id="${group.id}" onclick="window.location='/group/${group.id}'" style="cursor:pointer;background:rgba(15,22,35,.8);border:1px solid rgba(${hexToRgb(group.color || '#3b82f6')},.2);border-radius:10px;padding:1rem;transition:all .2s;">
+                        <div class="group-card" data-group-id="${group.id}" onclick="window.location='/group/${group.id}'" style="cursor:pointer;background:rgba(15,22,35,.8);border:1px solid rgba(${hexToRgb(group.color || '#00ffff')},.2);border-radius:10px;padding:1rem;transition:all .2s;">
                             <div style="display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem;position:relative;">
                                 <span style="font-size:1.2rem;">${group.icon || '📁'}</span>
                                 <a href="/group/${group.id}" style="font-size:.95rem;font-weight:600;color:${group.color || 'var(--blue)'};flex:1;text-decoration:none;">${escapeHtml(group.name)}</a>
                                 <div style="display:flex;gap:6px;margin-left:auto;">
-                                    <button class="edit-group-btn" onclick="event.stopPropagation();openEditGroupModal('${group.id}')" title="编辑分组" style="width:24px;height:24px;border-radius:50%;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .2s;font-size:12px;background:rgba(6,182,212,0.1);color:var(--cyan);">✏️</button>
+                                    <button class="edit-group-btn" onclick="event.stopPropagation();openEditGroupModal('${group.id}')" title="编辑分组" style="width:24px;height:24px;border-radius:50%;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .2s;font-size:12px;background:rgba(0,255,255,0.1);color:var(--cyan);">✏️</button>
                                     <button class="delete-group-btn" onclick="event.stopPropagation();deleteGroup('${group.id}', '${escapeHtml(group.name)}')" title="删除分组" style="width:24px;height:24px;border-radius:50%;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .2s;font-size:12px;background:rgba(244,63,94,0.1);color:var(--rose);">×</button>
                                 </div>
                             </div>
@@ -2000,7 +2000,7 @@
             document.getElementById('groupName').value = '';
             document.getElementById('groupDesc').value = '';
             document.getElementById('groupIcon').value = '📁';
-            document.getElementById('groupColor').value = '#3b82f6';
+            document.getElementById('groupColor').value = '#00ffff';
             document.getElementById('groupStocks').value = '';
             document.getElementById('addGroupModal').style.display = 'flex';
         }
@@ -2022,7 +2022,7 @@
                     document.getElementById('groupName').value = group.name || '';
                     document.getElementById('groupDesc').value = group.description || '';
                     document.getElementById('groupIcon').value = group.icon || '📁';
-                    document.getElementById('groupColor').value = group.color || '#3b82f6';
+                    document.getElementById('groupColor').value = group.color || '#00ffff';
                     document.getElementById('groupStocks').value = (group.stocks || []).join(', ');
                     document.getElementById('addGroupModal').style.display = 'flex';
                 })
@@ -2211,7 +2211,7 @@
                 </div>
                 <div class="form-group">
                     <label>颜色</label>
-                    <input type="color" id="groupColor" value="#3b82f6" style="width:60px;height:36px;border:none;border-radius:6px;cursor:pointer;">
+                    <input type="color" id="groupColor" value="#00ffff" style="width:60px;height:36px;border:none;border-radius:6px;cursor:pointer;">
                 </div>
                 <div class="form-group">
                     <label>包含股票（用逗号分隔）</label>
@@ -2310,7 +2310,7 @@
         .form-group select:focus,
         .form-group textarea:focus {
             border-color:var(--cyan);
-            background:rgba(6,182,212,.08);
+            background:rgba(0,255,255,.08);
         }
         .form-group textarea {
             resize:vertical;
