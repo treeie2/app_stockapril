@@ -810,7 +810,7 @@ def load_lyt_data():
     """加载 lyt 数据（五维评分 + 每日信号）"""
     global lyt_scores, lyt_signals
     try:
-        lyt_signal_file = BASE_DIR / "data" / "signals" / "lyt_daily_signals.json"
+        lyt_signal_file = BASE_DIR / "breakt" / "lyt_daily_signals.json"
         if lyt_signal_file.exists():
             with open(lyt_signal_file, 'r', encoding='utf-8') as f:
                 lyt_signals = json.load(f)
