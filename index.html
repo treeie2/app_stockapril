@@ -61,6 +61,8 @@ header .meta{display:inline;color:var(--t3);font-size:.75rem;margin-left:10px}
 .group-stocks{margin-top:8px}
 .group-stocks .s-item{display:inline-block;padding:2px 8px;margin:2px;background:rgba(99,102,241,.1);border-radius:4px;font-size:.7rem;cursor:pointer}
 .group-stocks .s-item:hover{background:var(--accent);color:#fff}
+.gschg{font-weight:600}
+
 
 .pagination{display:flex;justify-content:center;gap:6px;padding:16px}
 .pagination button{padding:6px 14px;background:var(--card);border:1px solid var(--bdr);color:var(--t2);border-radius:6px;cursor:pointer;font-size:.8rem}
@@ -114,6 +116,7 @@ header .meta{display:inline;color:var(--t3);font-size:.75rem;margin-left:10px}
 let allStocks = [], allGroups = [], signalsMap = {}, groupMap = {};
 let currentTab = 'stocks', filteredStocks = [];
 let pageSize = 30, currentPage = 1;
+let groupChgMap = {};  // group_name -> avg_chg
 
 function findGroups(name){
   const gs = groupMap[name];
@@ -302,45 +305,64 @@ function closeModal(){document.getElementById('modalOverlay').classList.remove('
 
 // ===== GROUPS =====
 function showGroups(){
-  document.getElementById('content').innerHTML = allGroups.length ? allGroups.map(g=>`
-    <div class="group-card">
-      <div class="gn">${g.n} <span class="grp-chg" id="gchg-${g.n.replace(/[^a-zA-Z0-9\u4e00-\u9fa5]/g,'')}">—</span></div>
+  renderGroups(allGroups);
+  document.getElementById('pagination').innerHTML='';
+  document.getElementById('countInfo').textContent = `共 ${allGroups.length} 个分组`;
+}
+
+function renderGroups(groups){
+  const sorted = [...groups].sort((a,b)=>{
+    const va = groupChgMap[a.n] || -999; const vb = groupChgMap[b.n] || -999;
+    return vb - va;
+  });
+  document.getElementById('content').innerHTML = sorted.map(g=>{
+    const chg = groupChgMap[g.n];
+    const chgStr = chg !== undefined ? ((chg>0?'+':'')+chg.toFixed(2)+'%') : '—';
+    const chgColor = chg !== undefined ? (chg>0?'#ef4444':chg<0?'#10b981':'#94a3b8') : '#64748b';
+    return `<div class="group-card">
+      <div class="gn">${g.n} <span class="grp-chg" style="color:${chgColor}">${chgStr}</span></div>
       <div class="gd">${g.d||''}</div>
       <div class="gs">${g.s.length} 只个股 | <button class="grp-refresh" onclick="refreshGroup('${g.n.replace(/'/g,"\\'")}','${g.s.join(',').replace(/'/g,"\\'")}',event)">🔄 刷新涨幅</button></div>
       <div class="gc">来源: ${g.src}</div>
-      <div class="group-stocks" style="display:none">${g.s.map(s=>`<span class="s-item" onclick="event.stopPropagation();openDetailByName('${s}')">${s}</span>`).join('')}</div>
-    </div>
-  `).join('') : '<div class="empty">暂无分组</div>';
-  document.getElementById('pagination').innerHTML='';
-  document.getElementById('countInfo').textContent = `共 ${allGroups.length} 个分组`;
+      <div class="group-stocks" style="display:none" id="gs-${g.n.replace(/[^a-zA-Z0-9\u4e00-\u9fa5]/g,'')}">${g.s.map(s=>`<span class="s-item" onclick="event.stopPropagation();openDetailByName('${s}')">${s} <span class="gschg" id="gsi-${s.replace(/[^a-zA-Z0-9\u4e00-\u9fa5]/g,'')}"></span></span>`).join('')}</div>
+    </div>`;
+  }).join('');
+  if(!sorted.length) document.getElementById('content').innerHTML = '<div class="empty">暂无分组</div>';
 }
 
 function toggleGroup(el,name){el.querySelector('.group-stocks').style.display=el.querySelector('.group-stocks').style.display==='none'?'block':'none'}
 async function refreshGroup(gn, codesStr, e){
   e.stopPropagation();
-  const codes = codesStr.split(',');
+  const names = codesStr.split(',');
   const id = gn.replace(/[^a-zA-Z0-9\u4e00-\u9fa5]/g,'');
   const el = document.getElementById('gchg-'+id);
   if(!el) return;
   el.textContent = '⏳';
   try{
     const nameMap = {}; allStocks.forEach(s=>nameMap[s.n]=s.c);
-    const validCodes = codes.map(n=>nameMap[n]).filter(c=>c);
+    const validCodes = names.map(n=>nameMap[n]).filter(c=>c);
+    const codeName = {}; names.forEach(n=>{const c=nameMap[n];if(c)codeName[c]=n});
     const prefix = c => (c.startsWith('6')?'1.':'0.')+c;
     const secids = validCodes.map(prefix).join(',');
-    const r = await fetch(`https://push2.eastmoney.com/api/qt/ulist.np?fltt=2&fields=f3&secids=${secids}`);
+    const r = await fetch(`https://push2.eastmoney.com/api/qt/ulist.np?fltt=2&fields=f2,f3,f12&secids=${secids}`);
     const d = await r.json();
+    const chgs = [];
     if(d.data&&d.data.diff){
-      const chgs = d.data.diff.map(q=>parseFloat(q.f3)).filter(v=>!isNaN(v));
-      if(chgs.length){
-        const avg = chgs.reduce((a,b)=>a+b,0)/chgs.length;
-        const up = chgs.filter(v=>v>0).length;
-        el.textContent = (avg>0?'+':'')+avg.toFixed(2)+'%';
-        el.style.color = avg>0?'#ef4444':avg<0?'#10b981':'#94a3b8';
-        el.title = `${up}/${chgs.length} 涨`;
-      }else{el.textContent='—'}
+      d.data.diff.forEach(q=>{
+        const c = q.f12, n = codeName[c];
+        const v = parseFloat(q.f3);
+        if(!isNaN(v)) chgs.push(v);
+        // Update individual stock chg
+        const si = document.getElementById('gsi-'+n.replace(/[^a-zA-Z0-9\u4e00-\u9fa5]/g,''));
+        if(si){si.textContent=(v>0?'+':'')+v.toFixed(2)+'%';si.style.color=v>0?'#ef4444':v<0?'#10b981':'#94a3b8';si.style.fontSize='.6rem';si.style.marginLeft='4px'}
+      });
     }
-  }catch(e){el.textContent='—'}
+    if(chgs.length){
+      const avg = chgs.reduce((a,b)=>a+b,0)/chgs.length;
+      groupChgMap[gn] = avg;
+    }else{groupChgMap[gn] = undefined}
+    renderGroups(allGroups); // re-sort
+  }catch(e){groupChgMap[gn] = undefined; renderGroups(allGroups)}
 }
 async function openDetailByName(name){
   const s = allStocks.find(x=>x.n===name);
