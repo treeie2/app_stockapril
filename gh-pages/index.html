@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>个股研究数据库</title>
+<style>
+:root{--bg:#0f1117;--card:#1a1d2e;--bdr:#2a2d3e;--t1:#e2e8f0;--t2:#94a3b8;--t3:#64748b;--accent:#6366f1;--green:#10b981;--red:#ef4444;--yellow:#f59e0b;--cyan:#06b6d4}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--t1);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;min-height:100vh}
+header{position:sticky;top:0;z-index:100;background:var(--bg);border-bottom:1px solid var(--bdr);padding:12px 20px}
+header h1{font-size:1.1rem;font-weight:600;color:var(--accent);display:inline}
+header .meta{display:inline;color:var(--t3);font-size:.75rem;margin-left:10px}
+.tabs{display:flex;gap:0;margin:12px 0 0}
+.tab{padding:6px 16px;border:1px solid var(--bdr);background:var(--card);color:var(--t2);font-size:.8rem;cursor:pointer;border-radius:6px 6px 0 0;margin-right:-1px}
+.tab.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+.toolbar{display:flex;gap:8px;padding:12px 20px;flex-wrap:wrap}
+.toolbar input,.toolbar select{padding:6px 12px;background:var(--card);border:1px solid var(--bdr);color:var(--t1);border-radius:6px;font-size:.8rem}
+.toolbar input{flex:1;min-width:200px}
+.toolbar input:focus,.toolbar select:focus{outline:none;border-color:var(--accent)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:10px;padding:0 20px 20px}
+.card{background:var(--card);border:1px solid var(--bdr);border-radius:10px;padding:14px;cursor:pointer;transition:all .15s}
+.card:hover{border-color:var(--accent);transform:translateY(-1px)}
+.card .top{display:flex;justify-content:space-between;align-items:flex-start}
+.card .code{font-size:.7rem;color:var(--t3);font-family:monospace}
+.card .name{font-size:.95rem;font-weight:600}
+.card .mention{font-size:.7rem;background:var(--accent);color:#fff;padding:1px 8px;border-radius:10px;white-space:nowrap}
+.card .row{display:flex;gap:8px;margin-top:8px;flex-wrap:wrap}
+.card .tag{font-size:.65rem;padding:2px 8px;border-radius:4px;background:rgba(99,102,241,.15);color:var(--accent)}
+.card .tag.gr{background:rgba(16,185,129,.15);color:var(--green)}
+.card .tag.yl{background:rgba(245,158,11,.15);color:var(--yellow)}
+.card .pos{font-size:.7rem;color:var(--t2);margin-top:6px;line-height:1.4}
+.card .footer{display:flex;justify-content:space-between;margin-top:10px;font-size:.65rem;color:var(--t3)}
+.card .signals{color:var(--cyan)}
+.card .dims{display:flex;gap:4px;margin-top:6px}
+.card .dim{width:40px;height:4px;border-radius:2px;background:var(--bdr);overflow:hidden}
+.card .dim .bar{height:100%;border-radius:2px}
+.bar.s0{background:var(--cyan)}.bar.s1{background:var(--green)}.bar.s2{background:var(--yellow)}.bar.s3{background:var(--red)}.bar.s4{background:var(--accent)}
+
+/* Detail modal */
+.modal-overlay{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.7);z-index:200;display:none;justify-content:center;align-items:flex-start;overflow-y:auto;padding:40px 20px}
+.modal-overlay.show{display:flex}
+.modal{background:var(--card);border:1px solid var(--bdr);border-radius:12px;width:100%;max-width:700px;padding:24px;position:relative}
+.modal .close{position:absolute;top:12px;right:16px;font-size:1.3rem;color:var(--t3);cursor:pointer;background:none;border:none}
+.modal h2{font-size:1.2rem;margin-bottom:4px}
+.modal .sub{font-size:.75rem;color:var(--t3);margin-bottom:16px}
+.modal .section{margin-bottom:16px}
+.modal .section h3{font-size:.8rem;color:var(--t3);margin-bottom:6px;text-transform:uppercase;letter-spacing:.5px}
+.modal .section p,.modal .section li{font-size:.8rem;color:var(--t2);line-height:1.6}
+.modal .section ul{padding-left:16px}
+.modal .chart-link{display:inline-block;padding:4px 12px;background:var(--accent);color:#fff;border-radius:4px;font-size:.75rem;text-decoration:none;margin:2px}
+.modal .chart-link:hover{opacity:.85}
+
+/* Group page */
+.group-card{background:var(--card);border:1px solid var(--bdr);border-radius:10px;padding:14px;cursor:pointer;margin-bottom:8px}
+.group-card:hover{border-color:var(--accent)}
+.group-card .gn{font-size:.9rem;font-weight:600;margin-bottom:4px}
+.group-card .gd{font-size:.7rem;color:var(--t3);margin-bottom:4px}
+.group-card .gs{font-size:.7rem;color:var(--t2)}
+.group-card .gc{font-size:.65rem;color:var(--t3);margin-top:4px}
+.group-stocks{margin-top:8px}
+.group-stocks .s-item{display:inline-block;padding:2px 8px;margin:2px;background:rgba(99,102,241,.1);border-radius:4px;font-size:.7rem;cursor:pointer}
+.group-stocks .s-item:hover{background:var(--accent);color:#fff}
+
+.pagination{display:flex;justify-content:center;gap:6px;padding:16px}
+.pagination button{padding:6px 14px;background:var(--card);border:1px solid var(--bdr);color:var(--t2);border-radius:6px;cursor:pointer;font-size:.8rem}
+.pagination button:hover,.pagination button.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+.pagination button:disabled{opacity:.3;cursor:default}
+
+.count-info{padding:0 20px 8px;font-size:.75rem;color:var(--t3)}
+.empty{padding:40px;text-align:center;color:var(--t3);font-size:.9rem}
+.loading{text-align:center;padding:60px;color:var(--t3)}
+
+@media(max-width:600px){.grid{grid-template-columns:1fr}.toolbar{flex-direction:column}}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>📊 个股研究数据库</h1>
+  <span class="meta" id="updateTime"></span>
+  <div class="tabs">
+    <button class="tab active" onclick="switchTab('stocks')">📋 个股</button>
+    <button class="tab" onclick="switchTab('groups')">📁 分组</button>
+    <button class="tab" onclick="switchTab('pulse')">📡 信号</button>
+  </div>
+</header>
+
+<div class="toolbar" id="toolbar">
+  <input type="text" id="search" placeholder="搜索代码/名称/概念/业务..." oninput="doSearch()">
+  <select id="sortBy" onchange="doSearch()">
+    <option value="mention">按热度</option>
+    <option value="name">按名称</option>
+    <option value="date">按更新</option>
+    <option value="signal">按信号</option>
+  </select>
+</div>
+
+<div class="count-info" id="countInfo"></div>
+<div id="content"></div>
+<div class="pagination" id="pagination"></div>
+
+<!-- Detail Modal -->
+<div class="modal-overlay" id="modalOverlay" onclick="if(event.target===this)closeModal()">
+  <div class="modal" id="modal"></div>
+</div>
+
+<script>
+// ===== GLOBAL STATE =====
+let allStocks = [], allGroups = [], signalsMap = {};
+let currentTab = 'stocks', filteredStocks = [];
+let pageSize = 24, currentPage = 1;
+
+// ===== INIT =====
+async function init(){
+  try{
+    const r = await fetch('data/summary.json.gz');
+    allStocks = await r.json();
+    document.getElementById('updateTime').textContent = ' | ' + allStocks.length + ' 只个股';
+  }catch(e){console.error('summary load failed',e)}
+
+  try{
+    const r = await fetch('data/groups.json.gz');
+    allGroups = await r.json();
+  }catch(e){}
+
+  try{
+    const r = await fetch('data/signals.json.gz');
+    signalsMap = await r.json();
+  }catch(e){}
+
+  doSearch();
+}
+
+function switchTab(tab){
+  currentTab = tab;
+  document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active',t.textContent.includes(tab==='stocks'?'个股':tab==='groups'?'分组':'信号')));
+  if(tab==='groups') showGroups();
+  else if(tab==='pulse') showPulse();
+  else doSearch();
+}
+
+// ===== SEARCH =====
+function doSearch(){
+  if(currentTab!=='stocks') return;
+  const q = document.getElementById('search').value.toLowerCase();
+  const sort = document.getElementById('sortBy').value;
+
+  filteredStocks = allStocks.filter(s=>{
+    if(!q) return true;
+    return s.c.includes(q) || s.n.toLowerCase().includes(q) ||
+           s.t.some(t=>t.toLowerCase().includes(q)) ||
+           s.b.some(t=>t.toLowerCase().includes(q));
+  });
+
+  switch(sort){
+    case 'name': filteredStocks.sort((a,b)=>a.c.localeCompare(b.c)); break;
+    case 'date': filteredStocks.sort((a,b)=>b.d.localeCompare(a.d)); break;
+    case 'signal': filteredStocks.sort((a,b)=>b.sc-a.sc); break;
+    default: filteredStocks.sort((a,b)=>b.m-a.m);
+  }
+
+  currentPage = 1;
+  document.getElementById('countInfo').textContent = `共 ${filteredStocks.length} 只`;
+  renderStocks();
+}
+
+function renderStocks(){
+  const start = (currentPage-1)*pageSize;
+  const page = filteredStocks.slice(start, start+pageSize);
+  const grid = document.getElementById('content');
+
+  if(!page.length){ grid.innerHTML='<div class="empty">没有匹配的个股</div>'; document.getElementById('pagination').innerHTML=''; return }
+
+  grid.innerHTML = page.map(s=>{
+    const dims = s.dm||[];
+    const dimsHtml = dims.length ? `<div class="dims">${dims.map((v,i)=>`<div class="dim"><div class="bar s${i}" style="width:${Math.min(v*10,100)}%"></div></div>`).join('')}</div>` : '';
+    const pos = s.p.slice(0,2).join(' · ');
+    const scHtml = s.sc ? `<span class="signals">📡 ${s.sc}</span>` : '';
+    return `<div class="card" onclick="openDetail('${s.c}')">
+      <div class="top">
+        <div><span class="code">${s.c}</span> <span class="name">${s.n}</span></div>
+        <span class="mention">${s.m}</span>
+      </div>
+      ${dimsHtml}
+      <div class="row">${s.t.slice(0,4).map(t=>`<span class="tag">${t}</span>`).join('')}</div>
+      <div class="pos">${pos}</div>
+      <div class="footer"><span>${s.d||'-'}</span>${scHtml}</div>
+    </div>`;
+  }).join('');
+
+  // Pagination
+  const totalPages = Math.ceil(filteredStocks.length/pageSize);
+  let pg = '';
+  for(let i=1;i<=totalPages;i++){
+    pg += `<button class="${i===currentPage?'active':''}" onclick="goPage(${i})">${i}</button>`;
+  }
+  document.getElementById('pagination').innerHTML = pg;
+}
+
+function goPage(p){currentPage=p;renderStocks();window.scrollTo(0,0)}
+
+// ===== DETAIL =====
+async function openDetail(code){
+  document.getElementById('modalOverlay').classList.add('show');
+  document.getElementById('modal').innerHTML = '<div class="loading">加载中...</div>';
+  try{
+    const r = await fetch(`stock/${code}.json`);
+    const d = await r.json();
+    const arts = d.arts||[];
+    const charts = buildChartLinks(code);
+    document.getElementById('modal').innerHTML = `
+      <button class="close" onclick="closeModal()">×</button>
+      <h2>${d.n} <span style="font-size:.8rem;color:var(--t3)">${d.c}</span></h2>
+      <div class="sub">${d.i||''} | ${d.b||''} | 研究${d.m||0}次</div>
+      ${d.t.length?`<div class="section"><div class="row">${d.t.map(t=>`<span class="tag">${t}</span>`).join('')}</div></div>`:''}
+      ${d.cb.length?`<div class="section"><h3>核心业务</h3><ul>${d.cb.map(x=>`<li>${x}</li>`).join('')}</ul></div>`:''}
+      ${d.ip.length?`<div class="section"><h3>行业地位</h3><ul>${d.ip.map(x=>`<li>${x}</li>`).join('')}</ul></div>`:''}
+      ${d.ch.length?`<div class="section"><h3>产业链</h3><p>${d.ch.join(' → ')}</p></div>`:''}
+      ${d.pa.length?`<div class="section"><h3>合作伙伴</h3><p>${d.pa.join('、')}</p></div>`:''}
+      ${d.pr.length?`<div class="section"><h3>主营产品</h3><p>${d.pr.join('、')}</p></div>`:''}
+      ${charts?`<div class="section"><h3>📈 图表</h3>${charts}</div>`:''}
+      <div class="section"><h3>📰 研究文章 (${arts.length})</h3>
+        ${arts.map((a,i)=>`<div style="padding:8px 0;border-bottom:1px solid var(--bdr)">
+          <div style="font-size:.8rem;font-weight:600">${a.ti||'无标题'}</div>
+          <div style="font-size:.7rem;color:var(--t3)">${a.dt||''}</div>
+          ${(a.ac||[]).slice(0,3).map(x=>`<div style="font-size:.7rem;color:var(--t2);margin:2px 0">• ${x}</div>`).join('')}
+          ${(a.km||[]).slice(0,3).map(x=>`<div style="font-size:.65rem;color:var(--accent);margin:1px 0">📊 ${x}</div>`).join('')}
+        </div>`).join('')}
+      </div>
+    `;
+  }catch(e){
+    document.getElementById('modal').innerHTML = `<button class="close" onclick="closeModal()">×</button><div class="empty">加载失败: ${e}</div>`;
+  }
+}
+
+function buildChartLinks(code){
+  const known = {
+    '000967':'02','002452':'01','002046':'02','002156':'03','002580':'06',
+    '002861':'03','000925':'04','000519':'05','688689':'10','300440':'06',
+    '301265':'05','600719':'01','603010':'08','603061':'08',
+    '600596':'09','688179':'09','300966':'10','600516':'10',
+    '300540':'11','600584':'11','002068':'12','002876':'12'
+  };
+  let html = '';
+  for(let i=1;i<=13;i++){
+    const suffix = known[code] || (i<10?'0'+i:i);
+    html += `<a class="chart-link" href="charts/chart_${suffix}_${code}.html" target="_blank">图表${suffix}</a>`;
+  }
+  // Only show if at least one chart exists (we check first one)
+  return `<a class="chart-link" href="javascript:void(0)" onclick="tryCharts('${code}')">📈 打开图表</a>`;
+}
+
+async function tryCharts(code){
+  for(let i=1;i<=13;i++){
+    try{const r=await fetch(`charts/chart_${String(i).padStart(2,'0')}_${code}.html`,{method:'HEAD'});if(r.ok){window.open(`charts/chart_${String(i).padStart(2,'0')}_${code}.html`);return}}catch(e){}
+  }
+  alert('暂无图表数据');
+}
+
+function closeModal(){document.getElementById('modalOverlay').classList.remove('show')}
+
+// ===== GROUPS =====
+function showGroups(){
+  document.getElementById('content').innerHTML = allGroups.length ? allGroups.map(g=>`
+    <div class="group-card" onclick="toggleGroup(this,'${g.n}')">
+      <div class="gn">${g.n}</div>
+      <div class="gd">${g.d||''}</div>
+      <div class="gs">${g.s.length} 只个股</div>
+      <div class="gc">来源: ${g.src}</div>
+      <div class="group-stocks" style="display:none">${g.s.map(s=>`<span class="s-item" onclick="event.stopPropagation();openDetailByName('${s}')">${s}</span>`).join('')}</div>
+    </div>
+  `).join('') : '<div class="empty">暂无分组</div>';
+  document.getElementById('pagination').innerHTML='';
+  document.getElementById('countInfo').textContent = `共 ${allGroups.length} 个分组`;
+}
+
+function toggleGroup(el,name){el.querySelector('.group-stocks').style.display=el.querySelector('.group-stocks').style.display==='none'?'block':'none'}
+async function openDetailByName(name){
+  const s = allStocks.find(x=>x.n===name);
+  if(s) openDetail(s.c);
+}
+
+// ===== PULSE =====
+function showPulse(){
+  let html = '<div class="count-info">最新信号个股</div>';
+  const stockWithSignals = allStocks.filter(s=>s.sc>0).sort((a,b)=>b.sc-a.sc).slice(0,100);
+  html += '<div class="grid">' + stockWithSignals.map(s=>`
+    <div class="card" onclick="openDetail('${s.c}')">
+      <div class="top"><span class="code">${s.c}</span><span class="name">${s.n}</span><span class="mention">${s.sc}📡</span></div>
+      <div class="row">${s.t.slice(0,3).map(t=>`<span class="tag">${t}</span>`).join('')}</div>
+      <div class="footer"><span>${s.ls||''}</span></div>
+    </div>
+  `).join('') + '</div>';
+  document.getElementById('content').innerHTML = html;
+  document.getElementById('pagination').innerHTML='';
+  document.getElementById('countInfo').textContent = `共 ${stockWithSignals.length} 只有信号`;
+}
+
+// ===== KEYBOARD =====
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal()});
+
+init();
+</script>
+</body>
+</html>
