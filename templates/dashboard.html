@@ -1186,11 +1186,11 @@
     </nav>
     
     <div class="wrap">
-        <!-- Three-Tab Navigation -->
+        <!-- Three-Tab Navigation (simple inline) -->
         <div class="tab-nav">
-            <button class="tab-btn active" data-tab="dashboard" onclick="switchTab('dashboard')">📊 仪表盘</button>
+            <button id="tabBtnDash" class="tab-btn active" onclick="document.getElementById('tab-dashboard').style.display='block';document.getElementById('tab-signals').style.display='none';this.classList.add('active');document.getElementById('tabBtnSig').classList.remove('active')">📊 仪表盘</button>
             <a href="/groups" class="tab-btn" style="text-decoration:none;display:inline-flex;align-items:center">📁 分组</a>
-            <button class="tab-btn" data-tab="signals" onclick="switchTab('signals')">📡 突破信号</button>
+            <button id="tabBtnSig" class="tab-btn" onclick="document.getElementById('tab-signals').style.display='block';document.getElementById('tab-dashboard').style.display='none';this.classList.add('active');document.getElementById('tabBtnDash').classList.remove('active');if(typeof lytInit==='function')lytInit()">📡 突破信号</button>
         </div>
 
         <!-- Tab: Dashboard -->
