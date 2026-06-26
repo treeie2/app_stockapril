@@ -1,0 +1,155 @@
+<!DOCTYPE html><html lang="zh"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Daily Stock Signals</title>
+<style>
+:root{--bg:#00041a;--bg2:#000c2a;--h:#001a4d;--t:#e0f2ff;--t2:#a0c4ff;--c:#00ffff;--y:#f8e71c;--u:#00ff88;--d:#ff0077;--b:rgba(0,255,255,.3)}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--t);font-family:'Microsoft YaHei',sans-serif;padding:20px}
+.h{display:flex;justify-content:space-between;align-items:center;padding-bottom:16px;border-bottom:2px solid var(--b);margin-bottom:16px;flex-wrap:wrap;gap:10px}
+h1{color:var(--c);font-size:22px;letter-spacing:2px;text-shadow:0 0 10px rgba(0,255,255,.5)}
+.ctrl{display:flex;gap:8px;align-items:center}
+input[type=date]{background:var(--bg2);color:var(--c);border:1px solid var(--c);padding:6px 10px;border-radius:6px;font-size:14px;outline:none}
+.btn{background:transparent;color:var(--c);border:1px solid var(--c);padding:5px 12px;border-radius:6px;font-size:12px;cursor:pointer}.btn:hover{background:var(--c);color:var(--bg)}
+.info{display:flex;gap:14px;margin-bottom:14px;flex-wrap:wrap}
+.tag{background:rgba(160,196,255,.1);padding:5px 10px;border-radius:6px;font-size:13px;color:var(--t2);border:1px solid rgba(160,196,255,.2)}
+.sp{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:8px}
+.gp{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px}
+.sb{padding:6px 10px;border-radius:6px;cursor:pointer;border:1px solid;font-size:12px;text-align:center;width:78px;flex:none;opacity:.35;transition:.2s;user-select:none}
+.sb.on{opacity:1;box-shadow:0 0 10px}
+.gb{padding:4px 10px;border-radius:6px;cursor:pointer;border:1px solid rgba(160,196,255,.3);font-size:11px;text-align:center;opacity:.5;transition:.2s;user-select:none;background:rgba(160,196,255,.05);color:var(--t2)}
+.gb.on{opacity:1;border-color:var(--c);color:var(--c);background:rgba(0,255,255,.08)}
+.sc{font-size:20px;font-weight:bold;display:block;line-height:1.2}
+.sl{font-size:10px;display:block}
+.tw{background:var(--bg2);border-radius:10px;overflow:hidden;border:1px solid var(--b);max-height:72vh;overflow-y:auto}
+table{width:100%;border-collapse:collapse;font-size:12px}
+th{padding:7px 10px;text-align:left;color:var(--t2);background:rgba(0,12,42,.95);border-bottom:1px solid var(--b);position:sticky;top:0;z-index:1;font-size:11px;white-space:nowrap}
+td{padding:5px 10px;border-bottom:1px solid rgba(0,255,255,.06)}
+tr:hover{background:var(--h)}
+.pl{font-family:Consolas,monospace;color:var(--c)}
+.up{color:var(--u)}.down{color:var(--d)}
+.kl{display:inline-block;color:var(--c);border:1px solid var(--c);padding:2px 8px;border-radius:3px;font-size:11px;text-decoration:none}.kl:hover{background:var(--c);color:var(--bg)}
+.st{display:inline-block;padding:1px 5px;border-radius:3px;font-size:10px;margin:1px;font-weight:600;border:1px solid}
+.scr{font-weight:bold;font-size:13px}
+.scr.s70{color:#00ff88}.scr.s50{color:#00ffcc}.scr.s30{color:#ffcc00}.scr.s0{color:#ff4466}
+.grptag{display:inline-block;padding:1px 5px;border-radius:3px;font-size:9px;margin:1px;background:rgba(0,255,255,.08);color:var(--t2);border:1px solid rgba(0,255,255,.15)}
+</style></head><body>
+<div class="h"><div><h1>Daily Stock Signals</h1><div class="info"><span class="tag" id="dinfo">--</span><span class="tag" id="tinfo">--</span></div></div>
+<div class="ctrl"><input type="date" id="dp" onchange="render()"><button class="btn" onclick="render()">Go</button></div></div>
+<div class="sp" id="sp"></div>
+<div class="gp" id="gp" style="max-height:42px;overflow-y:hidden;position:relative"></div><div style="text-align:right;margin-bottom:8px"><span class="tag" id="gptoggle" style="cursor:pointer;font-size:10px" onclick="var g=document.getElementById('gp');g.style.maxHeight=g.style.maxHeight=='42px'?'200px':'42px';this.textContent=this.textContent=='展开'?'收起':'展开'">展开</span></div>
+<div class="tw"><table><thead><tr><th>Code</th><th>Name</th><th>涨幅</th><th>五维</th><th>Signals</th><th>分组</th><th>K</th></tr></thead><tbody id="tb"></tbody></table></div>
+<script>
+var S=['启动','抢筹','突破','爆发','转强','起涨','主升','加速','强攻'];
+var C=['#ff9800','#e91e63','#2196f3','#f44336','#4caf50','#9c27b0','#ffd700','#00ffff','#ff0077'];
+var D=null, FD=null, GR=null, CH=null, AS={}, AG={};
+S.forEach(function(s){AS[s]=false;});
+
+// Score color
+function scolor(s){if(s>=70)return's70';if(s>=50)return's50';if(s>=30)return's30';return's0';}
+
+(function(){
+  Promise.all([
+    fetch('daily_signals.json').then(function(r){return r.json();}),
+    fetch('five_dim_scores.json').then(function(r){return r.json();}).catch(function(){return{};}),
+    fetch('stock_groups.json').then(function(r){return r.json();}).catch(function(){return{};}),
+    fetch('changes.json').then(function(r){return r.json();}).catch(function(){return{};})
+  ]).then(function(results){
+    D=results[0]; FD=results[1]||{}; GR=results[2]||{}; CH=results[3]||{};
+    document.getElementById('dp').value=D.dates[D.dates.length-1];
+    document.getElementById('dp').min=D.dates[0];
+    document.getElementById('dp').max=D.dates[D.dates.length-1];
+    // Init group buttons
+    var gnames=Object.keys(GR);
+    gnames.forEach(function(g){AG[g]=false;});
+    render();
+  }).catch(function(e){
+    document.getElementById('tb').innerHTML='<tr><td colspan=7 style="color:#ff0077;padding:20px">Error: '+e.message+'</td></tr>';
+  });
+})();
+
+function render(){
+  if(!D){return;}
+  var dt=document.getElementById('dp').value;
+  var sigs=D.signals[dt]||{};
+  var nn=D.names||{};
+  document.getElementById('dinfo').textContent=dt;
+  
+  // Signal buttons
+  var sp='';var any=false;
+  S.forEach(function(s,i){AS[s]=AS[s]||false;if(AS[s])any=true;});
+  S.forEach(function(s,i){
+    var cnt=(sigs[s]||[]).length;
+    sp+='<div class="sb'+(AS[s]?' on':'')+'" style="color:'+C[i]+';border-color:'+C[i]+'" onclick="AS[\''+s+'\']=!AS[\''+s+'\'];render()"><span class="sc">'+cnt+'</span><span class="sl">'+s+'</span></div>';
+  });
+  document.getElementById('sp').innerHTML=sp;
+  
+  // Group buttons
+  var gnames=Object.keys(GR);
+  var gp='<span class="tag" style="font-size:11px">分组:</span>';
+  var anyg=false;
+  gnames.forEach(function(g){if(AG[g])anyg=true;});
+  gp+='<div class="gb'+(anyg?'':' on')+'" onclick="AG={};render()">全部</div>';
+  gnames.forEach(function(g){
+    gp+='<div class="gb'+(AG[g]?' on':'')+'" onclick="AG[\''+g+'\']=!AG[\''+g+'\'];render()">'+g+'</div>';
+  });
+  document.getElementById('gp').innerHTML=gp;
+  
+  // Compute matching stocks
+  var sm={};var first=true;
+  S.forEach(function(sig){
+    var use=!any||AS[sig];
+    if(!use)return;
+    var es=sigs[sig]||[];
+    var cm={};es.forEach(function(e){cm[e.code]=e.close;});
+    if(!any){for(var c in cm){if(!sm[c])sm[c]={s:[],cl:cm[c]};sm[c].s.push(sig);}}
+    else if(first){for(var c in cm)sm[c]={s:[sig],cl:cm[c]};first=false;}
+    else{var nm={};for(var c in sm){if(cm[c]!==undefined){sm[c].s.push(sig);nm[c]=sm[c];}}sm=nm;}
+  });
+  
+  // Filter by group
+  if(anyg){
+    var gset={};
+    gnames.forEach(function(g){if(AG[g]){GR[g].stocks.forEach(function(c){gset[c]=g;});}});
+    var nm={};
+    for(var c in sm){if(gset[c]!==undefined){nm[c]=sm[c];}}
+    sm=nm;
+  }
+  
+  var codes=Object.keys(sm).sort(function(a,b){
+    var sa=FD[a]?FD[a].score:0;
+    var sb=FD[b]?FD[b].score:0;
+    if(sb!==sa)return sb-sa;
+    return sm[b].s.length-sm[a].s.length;
+  });
+  document.getElementById('tinfo').textContent=codes.length+' stocks';
+  
+  var rows='';
+  codes.forEach(function(c){
+    var e=sm[c],nm=nn[c]||'';
+    var tags=e.s.map(function(s){var i=S.indexOf(s);return '<span class="st" style="color:'+C[i]+';border-color:'+C[i]+'">'+s+'</span>';}).join(' ');
+    var fd=FD[c]||{};
+    var scr=fd.score!==undefined?fd.score:'-';
+    var scrCls=typeof scr==='number'?scolor(scr):'';
+    
+    // Find groups for this stock
+    var gtags='';
+    gnames.forEach(function(g){
+      if(GR[g].stocks.indexOf(c)!==-1){
+        gtags+='<span class="grptag">'+g+'</span>';
+      }
+    });
+    
+    // Get change percentage
+    var chg=CH[dt]?CH[dt][c]:null;
+    var chgStr='-', chgCls='';
+    if(chg!==null&&chg!==undefined){
+      chgStr=(chg>=0?'+':'')+chg.toFixed(2)+'%';
+      chgCls=chg>=0?'up':'down';
+    }
+    
+    rows+='<tr><td class="pl"><a href="https://stockj.vercel.app/stock/'+c+'" target="_blank" style="color:var(--c);text-decoration:none">'+c+'</a></td><td>'+nm+'</td><td class="'+chgCls+'">'+chgStr+'</td>'
+      +'<td class="scr '+scrCls+'">'+(typeof scr==='number'?scr.toFixed(1):scr)+'</td>'
+      +'<td>'+tags+'</td><td>'+gtags+'</td>'
+      +'<td><a class="kl" href="chart.html?code='+c+'" target="_blank">K</a></td></tr>';
+  });
+  document.getElementById('tb').innerHTML=rows||'<tr><td colspan=7 style="padding:20px;color:var(--t2)">Click signals above to filter</td></tr>';
+}
+</script></body></html>
