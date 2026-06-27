@@ -15707,7 +15707,7 @@
     },
     "000823": {
       "core_business": [],
-      "last_updated": "2026-05-31",
+      "last_updated": "2026-06-27",
       "industry_position": [],
       "valuation": {},
       "industry": "电子-元件-印制电路板",
@@ -15735,9 +15735,57 @@
         "证金持股"
       ],
       "code": "000823",
-      "mention_count": 0,
+      "mention_count": 1,
       "partners": [],
-      "articles": [],
+      "articles": [
+        {
+          "title": "超声电子深度价值分析报告：PCB+覆铜板+算力硬件",
+          "date": "2026-06-27",
+          "source": "https://mp.weixin.qq.com/s/2S4toO1yQZTgvaMak4wefw",
+          "accidents": [
+            "2025年营收63.31亿元同比+9.98%",
+            "高性能HDI技改新增24万㎡/年高端产能",
+            "可转债完成约98.5%转股，应付债券清零"
+          ],
+          "insights": [
+            "PCB+CCL纵向一体化，正从传统汽车电子向AI算力转型",
+            "2025年经营现金流6.87亿元同比+47.41%",
+            "SOTP估值：PCB 25-30x PE，CCL 1.5-2x PB，PB 1.65-1.8倍具安全边际"
+          ],
+          "key_metrics": [
+            "2025年营收63.31亿元",
+            "PCB营收31.50亿元同比+13.44%",
+            "CCL营收11.09亿元同比+11.94%",
+            "经营现金流6.87亿元同比+47.41%"
+          ],
+          "target_valuation": [
+            "2026年扣非净利润预期2.8-3.2亿元，动态PE 35-40x"
+          ],
+          "products": [
+            "高性能HDI印制板",
+            "覆铜板CCL",
+            "液晶显示器",
+            "超声电子仪器"
+          ],
+          "core_business": [
+            "PCB印制线路板",
+            "CCL覆铜板",
+            "液晶显示",
+            "超声仪器"
+          ],
+          "industry_position": [
+            "国内PCB+CCL双产业链老牌企业"
+          ],
+          "chain": [
+            "PCB/CCL→AI服务器/交换机/加速卡"
+          ],
+          "partners": [
+            "数通与通信大客户",
+            "全球芯片商",
+            "CSP云端服务商"
+          ]
+        }
+      ],
       "board": "SZ",
       "products": [],
       "chain": [],
