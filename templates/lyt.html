@@ -72,7 +72,7 @@ tr:hover{background:var(--h)}
 
 <div class="tw">
     <table>
-        <thead><tr><th>Code</th><th>Name</th><th>涨幅</th><th>五维</th><th>Signals</th><th>分组</th><th>K</th></tr></thead>
+        <thead><tr><th>Code</th><th>Name</th><th>涨幅</th><th>五维</th><th>信号类型</th><th>最新日</th><th>分组</th><th>K线</th></tr></thead>
         <tbody id="tb"></tbody>
     </table>
 </div>
@@ -86,7 +86,7 @@ S.forEach(function(s){AS[s]=false;});
 function scolor(s){if(s>=70)return's70';if(s>=50)return's50';if(s>=30)return's30';return's0';}
 
 (function(){
-  document.getElementById('tb').innerHTML='<tr><td colspan=7 style=\"text-align:center;padding:30px;color:var(--t2)\">Loading...</td></tr>';
+  document.getElementById('tb').innerHTML='<tr><td colspan=8 style=\"text-align:center;padding:30px;color:var(--t2)\">Loading...</td></tr>';
   Promise.all([
     fetch('/api/lyt-signals').then(function(r){return r.json();}),
     fetch('/api/lyt-scores').then(function(r){return r.json();}).catch(function(){return{};}),
@@ -102,7 +102,7 @@ function scolor(s){if(s>=70)return's70';if(s>=50)return's50';if(s>=30)return's30
     gnames.forEach(function(g){AG[g]=false;});
     render();
   }).catch(function(e){
-    document.getElementById('tb').innerHTML='<tr><td colspan=7 style=\"color:#ff0077;padding:20px\">Error: '+e.message+'</td></tr>';
+    document.getElementById('tb').innerHTML='<tr><td colspan=8 style=\"color:#ff0077;padding:20px\">Error: '+e.message+'</td></tr>';
   });
 })();
 
@@ -165,7 +165,13 @@ function render(){
   var rows='';
   codes.forEach(function(c){
     var e=sm[c],nm=nn[c]||'';
-    var tags=e.s.map(function(s){var i=S.indexOf(s);var sd=(SD[c]||{})[s]||[];var lastDate=sd.length>0?sd[sd.length-1].slice(5):'';return '<span class="st" style="color:'+C[i]+';border-color:'+C[i]+'" title="'+s+': '+sd.join(',')+'">'+s+(lastDate?' <small>'+lastDate+'</small>':'')+'</span>';}).join(' ');
+    var tags=e.s.map(function(s){var i=S.indexOf(s);return '<span class="st" style="color:'+C[i]+';border-color:'+C[i]+'" title="'+s+'">'+s+'</span>';}).join(' ');
+    // Latest signal date for this stock
+    var sdAll=SD[c]||{};
+    var allDates=[];
+    for(var sn in sdAll){allDates=allDates.concat(sdAll[sn]);}
+    allDates.sort();
+    var latestDate=allDates.length>0?allDates[allDates.length-1].slice(5):'-';
     var fd=FD[c]||{};
     var scr=fd.score!==undefined?fd.score:'-';
     var scrCls=typeof scr==='number'?scolor(scr):'';
@@ -186,10 +192,10 @@ function render(){
     
     rows+='<tr><td class="pl"><a href="/stock/'+c+'" style="color:var(--c);text-decoration:none">'+c+'</a></td><td>'+nm+'</td><td class="'+chgCls+'">'+chgStr+'</td>'
       +'<td class="scr '+scrCls+'">'+(typeof scr==='number'?scr.toFixed(1):scr)+'</td>'
-      +'<td>'+tags+'</td><td>'+gtags+'</td>'
-      +'<td><a class="kl" href="/chart?code='+c+'" target="_blank">K</a></td></tr>';
+      +'<td>'+tags+'</td><td style="color:var(--c);font-size:11px;white-space:nowrap">'+latestDate+'</td><td>'+gtags+'</td>'
+      +'<td><a class="kl" href="/chart?code='+c+'">K</a></td></tr>';
   });
-  document.getElementById('tb').innerHTML=rows||'<tr><td colspan=7 style="padding:20px;color:var(--t2)">Click signals above to filter</td></tr>';
+  document.getElementById('tb').innerHTML=rows||'<tr><td colspan=8 style="padding:20px;color:var(--t2)">Click signals above to filter</td></tr>';
 }
 </script>
 </body>
