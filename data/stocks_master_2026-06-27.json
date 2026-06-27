@@ -1,6 +1,6 @@
 {
   "date": "2026-06-27",
-  "source": "https://mp.weixin.qq.com/s/gXzcNp-IBU7q-He55BQdqA, https://mp.weixin.qq.com/s/5vsAnrnZe3uR22d6w68jQg, https://mp.weixin.qq.com/s/MwvHfSzX3fzX_lgBwY_NGg, https://mp.weixin.qq.com/s/2S4toO1yQZTgvaMak4wefw, https://mp.weixin.qq.com/s/QtUSNHv3-YQbY9CAmnjSmg, https://mp.weixin.qq.com/s/KD3uUjT4RCSNhZj7jT6AVQ, https://mp.weixin.qq.com/s/M0_-60MM1GVjH36fEUkDfQ",
+  "source": "https://mp.weixin.qq.com/s/gXzcNp-IBU7q-He55BQdqA, https://mp.weixin.qq.com/s/5vsAnrnZe3uR22d6w68jQg, https://mp.weixin.qq.com/s/MwvHfSzX3fzX_lgBwY_NGg, https://mp.weixin.qq.com/s/2S4toO1yQZTgvaMak4wefw, https://mp.weixin.qq.com/s/QtUSNHv3-YQbY9CAmnjSmg, https://mp.weixin.qq.com/s/KD3uUjT4RCSNhZj7jT6AVQ, https://mp.weixin.qq.com/s/M0_-60MM1GVjH36fEUkDfQ, https://mp.weixin.qq.com/s/orMNMaQrTHuUJMsIme8OVg",
   "stocks": [
     {
       "code": "300260",
@@ -520,6 +520,56 @@
           ],
           "partners": [
             "国内主要军机主机厂"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "300861",
+      "name": "美畅股份",
+      "articles": [
+        {
+          "title": "美畅股份深度价值分析报告：碳化硅切割+钨丝金刚线+一季报增长",
+          "date": "2026-06-27",
+          "source": "https://mp.weixin.qq.com/s/orMNMaQrTHuUJMsIme8OVg",
+          "accidents": [
+            "2026Q1营收5.91亿元同比+39.71%，归母净利润1.94亿元同比+634%",
+            "扣非归母净利润1.77亿元同比暴增918.26%",
+            "钨丝金刚线出货占比超85%，具备28μm及以下稳定量产能力"
+          ],
+          "insights": [
+            "全球金刚线出货量最大，市场份额超40%，钨丝一体化闭环（钨粉-母线-金刚线-废钨回收）",
+            "碳化硅切割专用金刚线已切入SiC及半导体硅衬底切片，光伏→半导体延伸",
+            "资产负债率仅8.06%，毛利率39.07%，全道母线自制比例快速爬升"
+          ],
+          "key_metrics": [
+            "2026Q1营收5.91亿元同比+39.71%",
+            "归母净利润1.94亿元同比+634%",
+            "扣非净利润1.77亿元同比+918.26%",
+            "毛利率39.07%",
+            "资产负债率8.06%"
+          ],
+          "target_valuation": [
+            "业绩拐点+钨丝线主导+SiC半导体切割三重催化"
+          ],
+          "products": [
+            "钨丝金刚线(28μm及以下)",
+            "碳化硅切割专用金刚线",
+            "废钨回收"
+          ],
+          "core_business": [
+            "光伏金刚线",
+            "半导体SiC切割",
+            "钨丝母线"
+          ],
+          "industry_position": [
+            "全球金刚线出货量第一，市占率超40%"
+          ],
+          "chain": [
+            "钨粉→母线→金刚线→光伏/半导体切割"
+          ],
+          "partners": [
+            "隆基绿能"
           ]
         }
       ]
