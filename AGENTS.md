@@ -216,6 +216,164 @@ t["topics"].append({
 })
 ```
 
+---
+
+## 📋 Group & Hot Topics SKILL（分组 + 热点处理规范）
+
+> 当 AI 收到飞书消息包含「新增分组」「新增热点」「创建题材」等关键词时，按本规范执行。
+
+### 触发词
+
+| 关键词 | 操作 |
+|--------|------|
+| `新增分组：XXX` | 创建股票分组 |
+| `新增热点：XXX` / `新增题材：XXX` | 创建市场热点/题材 |
+| `更新分组：XXX` | 追加股票到已有分组 |
+| `查询分组` | 列出全部分组 |
+| `删除分组：XXX` | 删除指定分组 |
+
+### 分组处理（Group）
+
+#### 输入格式
+```
+新增分组：7纳米
+https://mp.weixin.qq.com/s/xxx
+中芯国际, 华虹公司, 北方华创, 中微公司
+```
+
+#### AI 执行流程
+
+1. **解析输入** — 提取分组名、文章 URL（如有）、股票列表
+2. **查码** — 从 `stocks_master.json` 把股票名称映射为 6 位代码
+3. **构建分组 JSON** — 按格式写入 `data/groups/groups.json`
+4. **推 GitHub** — `git add data/groups/groups.json && git commit && git push`
+
+#### 分组 JSON 模板
+
+```python
+import json, time, os
+from datetime import datetime
+
+# 读取现数据
+gfile = "data/groups/groups.json"
+g = json.load(open(gfile, "r", encoding="utf-8"))
+
+# 智能推断 category
+def infer_category(name, desc=""):
+    text = name + desc
+    if any(k in text for k in ["AI","算力","液冷","光模块","CPO","GPU","服务器"]): return "AI算力链"
+    if any(k in text for k in ["半导体","芯片","硅","光刻","靶材","气体","CMP","封测"]): return "半导体材料"
+    if any(k in text for k in ["封装","PCB","基板","载板","玻璃"]): return "封装与PCB"
+    if any(k in text for k in ["电容","电感","连接器","功率","MLCC","变压器","氮化镓"]): return "元器件"
+    if any(k in text for k in ["锂","钴","镍","锑","铟","钨","稀土","钼","铋"]): return "稀有金属"
+    if any(k in text for k in ["光伏","储能","氢","电池","磷酸铁"]): return "新能源"
+    if any(k in text for k in ["机器人","人形","仿真","具身"]): return "物理AI与机器人"
+    if any(k in text for k in ["航天","卫星","SpaceX","低空"]): return "航天"
+    if any(k in text for k in ["5G","通讯","手机","鸿蒙","折叠"]): return "通讯电子"
+    if any(k in text for k in ["华为","昇腾","鲲鹏"]): return "华为产业链"
+    return "产业链/IPO"
+
+# 名称→代码映射
+master = json.load(open("data/stocks/stocks_master.json", "r", encoding="utf-8"))
+name_to_code = {}
+for code, stock in master.get("stocks", {}).items():
+    name_to_code[stock["name"]] = code
+
+# 构建新分组
+new_group = {
+    "id": f"group_{int(time.time()*1000)}_{'分组名'}",
+    "name": "分组名",
+    "description": "分组描述（≤200字）",
+    "color": "#3b82f6",           # 随机选一个 hex 色
+    "icon": "📊",
+    "stocks": ["000333", "002475"],  # 6位代码
+    "created_at": datetime.now().strftime("%Y-%m-%d"),
+    "updated_at": datetime.now().strftime("%Y-%m-%d"),
+    "category": infer_category("分组名", "描述")
+}
+
+# 去重检查
+existing_names = {grp["name"] for grp in g["groups"]}
+if new_group["name"] in existing_names:
+    print(f"⚠️ 分组「{new_group['name']}」已存在，追加股票")
+    for grp in g["groups"]:
+        if grp["name"] == new_group["name"]:
+            for code in new_group["stocks"]:
+                if code not in grp["stocks"]:
+                    grp["stocks"].append(code)
+            grp["updated_at"] = datetime.now().strftime("%Y-%m-%d")
+else:
+    g["groups"].append(new_group)
+
+# 写入
+json.dump(g, open(gfile, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+```
+
+### 热点处理（Hot Topic）
+
+#### 输入格式
+```
+新增热点：算电协同
+AI算力+绿色电力一体化，多用户绿电直连政策发布
+协鑫能科, 润泽科技, 晶科科技, 三峡能源
+```
+
+#### AI 执行流程
+
+1. **解析** — 热点名 + 驱动逻辑 + 股票列表
+2. **查码** — 名称→代码映射
+3. **写入** `data/hot_topics/hot_topics.json`
+4. **推 GitHub**
+
+#### 热点 JSON 模板
+
+```python
+import json, time
+from datetime import datetime
+
+hfile = "data/hot_topics/hot_topics.json"
+h = json.load(open(hfile, "r", encoding="utf-8"))
+
+new_topic = {
+    "id": f"topic_{int(time.time()*1000)}",
+    "name": "题材名",
+    "drivers": "驱动逻辑/催化剂描述",
+    "stocks": [{"code": "000333", "name": "美的集团"}],
+    "display": True,
+    "created_at": datetime.now().strftime("%Y-%m-%d"),
+    "updated_at": datetime.now().strftime("%Y-%m-%d"),
+    "category": "分类"
+}
+
+# 去重
+existing_names = {t["name"] for t in h["topics"]}
+if new_topic["name"] not in existing_names:
+    h["topics"].append(new_topic)
+    json.dump(h, open(hfile, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+```
+
+### 推 GitHub 统一命令
+
+```bash
+cd f:/app_stockapril
+git add data/groups/groups.json data/hot_topics/hot_topics.json
+git commit -m "feat: add group/hot-topic - XXX"
+git push origin main
+```
+
+### 飞书汇报格式
+
+```
+✅ 分组/热点已创建
+
+📋 类型：分组 / 热点
+📛 名称：XXX
+📊 股票：N 只（代码1 名称1, 代码2 名称2）
+📂 分类：AI算力链
+🔄 GitHub: 已推送
+🔄 ModelScope: 自动构建中 → https://treeie-aastock.ms.show
+```
+
 ## 错误处理
 
 | 场景 | 处理 |
