@@ -1575,35 +1575,34 @@
         // default sort by last updated
         sortRows('updated');
         
-        // Auto fetch market data on page load
-        fetchMarket(false);
-        
         // ─── Market data ───
         let marketLoaded = false;
+        let marketLoading = false;
+        
         async function fetchMarket(force = false) {
+            if (marketLoading && !force) return;  // prevent concurrent fetches
+            marketLoading = true;
+            
             const codes = rows.map(r => r.dataset.code);
-            if(!codes.length) return;
+            if(!codes.length) { marketLoading = false; return; }
             
             const btn = document.getElementById('refreshBtn');
+            let loaded = 0;
             
             if(force) {
                 btn?.classList.add('refreshing');
                 rows.forEach(r => {
                     const code = r.dataset.code;
                     const pEl = document.getElementById(`p-${code}`);
-                    const cEl = document.getElementById(`c-${code}`);
-                    const mcEl = document.getElementById(`mc-${code}`);
                     if(pEl) pEl.innerHTML = '<span class="loading-price">🔄</span>';
-                    if(cEl) cEl.innerHTML = '<span class="loading-price">—</span>';
-                    if(mcEl) mcEl.innerHTML = '<span style="color:var(--t3)">—</span>';
                 });
             }
             
             try {
                 const res = await fetch(`/api/market-data?codes=${codes.join(',')}`);
+                if (!res.ok) throw new Error('HTTP ' + res.status);
                 const data = await res.json();
                 
-                let loaded = 0;
                 codes.forEach(code => {
                     const d = data[code];
                     const pEl = document.getElementById(`p-${code}`);
@@ -1612,55 +1611,52 @@
                     if(!pEl) return;
                     if(!d || !d.price) {
                         pEl.innerHTML = '<span style="color:var(--t3)">—</span>';
-                        cEl.innerHTML = '<span style="color:var(--t3)">—</span>';
+                        if(cEl) cEl.innerHTML = '<span style="color:var(--t3)">—</span>';
                         return;
                     }
                     loaded++;
                     const isUp = d.change >= 0;
                     const cls = isUp ? 'up' : 'down';
                     const sign = isUp ? '+' : '';
-                    pEl.innerHTML = `<span class="col-price ${cls}">${d.price.toFixed(2)}</span>`;
-                    cEl.innerHTML = `<span class="col-chg ${cls}">${sign}${d.change.toFixed(2)}%</span>`;
+                    pEl.innerHTML = '<span class="col-price ' + cls + '">' + d.price.toFixed(2) + '</span>';
+                    if(cEl) cEl.innerHTML = '<span class="col-chg ' + cls + '">' + sign + d.change.toFixed(2) + '%</span>';
                     if(mcEl)
-                        mcEl.innerHTML = d.marketCap ? `<span class="col-cap">${d.marketCap.toFixed(0)}亿</span>` : '—';
-                    const row = document.querySelector(`tr[data-code="${code}"]`);
+                        mcEl.innerHTML = d.marketCap ? '<span class="col-cap">' + d.marketCap.toFixed(0) + '亿</span>' : '—';
+                    const row = document.querySelector('tr[data-code="' + code + '"]');
                     if(row) row.dataset.chg = d.change;
                 });
                 
-                if(loaded > 0) marketLoaded = true;
+                if(loaded > 0) { marketLoaded = true; console.log('行情更新: ' + loaded + '只'); }
                 
-                // 更新按钮文本
                 if(btn) {
-                    const textSpan = btn.querySelector('.btn-text');
+                    var textSpan = btn.querySelector('.btn-text');
                     if(textSpan) textSpan.textContent = loaded > 0 ? '已更新' : '无数据';
-                    setTimeout(() => { if(textSpan) textSpan.textContent = '刷新股价'; }, 2000);
+                    setTimeout(function() { if(textSpan) textSpan.textContent = '刷新股价'; }, 2000);
                 }
             } catch(e) {
-                console.log('行情获取失败', e);
+                console.warn('行情获取失败: ' + e.message);
                 if(force) {
-                    rows.forEach(r => {
-                        const code = r.dataset.code;
-                        const pEl = document.getElementById(`p-${code}`);
-                        const cEl = document.getElementById(`c-${code}`);
-                        if(pEl) pEl.innerHTML = '<span style="color:var(--t3)">—</span>';
-                        if(cEl) cEl.innerHTML = '<span style="color:var(--t3)">—</span>';
-                    });
                     alert('行情获取失败，请稍后重试');
                 }
             } finally {
                 if(force && btn) {
-                btn.classList.remove('refreshing');
-                const status = document.getElementById('refreshStatus');
-                if(status) {
-                    status.textContent = loaded > 0 ? `✅ 已更新 ${loaded} 只股票` : '⚠️ 无数据';
-                    setTimeout(() => status.textContent = '', 3000);
+                    btn.classList.remove('refreshing');
+                    var status = document.getElementById('refreshStatus');
+                    if(status) {
+                        status.textContent = loaded > 0 ? '\u2705 已更新 ' + loaded + ' 只股票' : '\u26a0\ufe0f 无数据';
+                        setTimeout(function() { status.textContent = ''; }, 3000);
+                    }
                 }
-            }
+                marketLoading = false;
             }
         }
-        // 3 秒后自动刷新一次
-        setTimeout(() => fetchMarket(false), 3000);
-        setInterval(fetchMarket, 60000);
+        
+        // 页面加载后自动获取行情（延迟确保DOM完全渲染）
+        setTimeout(function() { fetchMarket(false); }, 800);
+        // 3秒后再确认一次
+        setTimeout(function() { if(!marketLoaded) fetchMarket(false); }, 3000);
+        // 每60秒刷新
+        setInterval(function() { fetchMarket(false); }, 60000);
         
         // 手动刷新函数
         function refreshMarket() {
