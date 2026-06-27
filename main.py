@@ -1845,6 +1845,10 @@ def api_stocks_batch_details():
 
 @app.route('/api/search/suggest')
 def api_suggest():
+    try:
+        load_all_data()
+    except Exception as e:
+        print(f"⚠️ 数据加载失败：{e}")
     q = request.args.get('q', '')
     if len(q) < 1:
         return jsonify({'suggestions': []})
