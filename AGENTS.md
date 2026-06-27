@@ -74,8 +74,13 @@ AI 直接编写 Python 脚本完成三件事：
 #### 4A. 推 GitHub
 ```bash
 cd f:/app_stockapril
-git add data/stocks/stocks_master.json data/stocks/*.json data/groups/ data/hot_topics/
+git add data/stocks/stocks_master.json data/stocks/*.json data/groups/groups.json data/hot_topics/
 git commit -m "feat: add stocks from YYYY-MM-DD article"
+git push origin main
+
+# 如果是分组更新：
+git add data/groups/groups.json
+git commit -m "feat: update groups - GROUP_NAME"
 git push origin main
 ```
 
@@ -111,22 +116,93 @@ git add -A && git commit -m "sync: YYYY-MM-DD" && git push origin master
 
 ## 分组管理
 
-### 创建分组
-```python
-# 读取 groups.json
-g = json.load(open("data/groups/groups.json", "r", encoding="utf-8"))
-g["groups"].append({
-    "name": "分组名",
-    "description": "描述",
-    "stocks": ["股票名1", "股票名2", ...],
-    "source": "来源",
-    "color": "#6366f1"
-})
-json.dump(g, open("data/groups/groups.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+### 分组数据流
+
+```
+通达信/同花顺 客户端
+    ↓ 导出 .sel / .txt
+/tmp/stock_groups/
+    ↓ process_groups.py
+data/groups/groups.json  ← 前端读取
+    ↓ git push
+GitHub → ModelScope 自动部署
 ```
 
-### 补充分组内容
-从微信文章提取的个股，自动归属到对应分组。
+### 方式 A：自动处理（推荐）
+
+从 `/tmp/stock_groups/` 批量处理所有分组文件：
+
+```bash
+# 预览（不写入）
+python process_groups.py --dry-run
+
+# 正式处理
+python process_groups.py
+
+# 处理单个文件
+python process_groups.py --file /tmp/stock_groups/THS_7纳米.txt
+```
+
+脚本自动完成：名称→代码映射、去重、推送到 GitHub。
+
+### 方式 B：AI 手动创建分组
+
+当用户通过飞书发送「新增分组：XXX」时，AI 直接操作 `groups.json`：
+
+```python
+import json, time
+
+g = json.load(open("data/groups/groups.json", "r", encoding="utf-8"))
+
+# 检查重名
+if any(grp["name"] == "分组名" for grp in g["groups"]):
+    print("分组已存在，跳过")
+else:
+    g["groups"].append({
+        "id": f"group_{int(time.time()*1000)}",
+        "name": "分组名",
+        "description": "分组描述",
+        "color": "#6366f1",
+        "icon": "📊",
+        "stocks": ["股票名1", "股票名2"],  # 用名称，AI 自动换码
+        "created_at": datetime.now().strftime("%Y-%m-%d"),
+        "updated_at": datetime.now().strftime("%Y-%m-%d"),
+        "category": "分类"
+    })
+    json.dump(g, open("data/groups/groups.json", "w", encoding="utf-8"),
+              ensure_ascii=False, indent=2)
+```
+
+### 分组格式规范
+
+```json
+{
+  "id": "group_1719000000000_分组名",
+  "name": "分组名",
+  "description": "简短描述（≤200字）",
+  "color": "#3b82f6",
+  "icon": "📊",
+  "stocks": ["000333", "002475"],  // 6位代码，非名称
+  "category": "AI算力链",
+  "created_at": "2026-06-27",
+  "updated_at": "2026-06-27"
+}
+```
+
+### category 分类规范
+
+| category | 适用范围 |
+|----------|------|
+| `AI算力链` | AI芯片、算力租赁、液冷、光模块 |
+| `半导体材料` | 硅片、光刻胶、靶材、气体 |
+| `封装与PCB` | 先进封装、基板、PCB |
+| `元器件` | 电容、电感、连接器、功率器件 |
+| `稀有金属` | 锑、铟、钨、稀土 |
+| `新能源` | 锂电、光伏、储能 |
+| `物理AI与机器人` | 人形机器人、仿真、运动控制 |
+| `航天` | 商业航天、SpaceX链 |
+| `通讯电子` | 5G、手机、鸿蒙 |
+| `华为产业链` | 华为生态相关 |
 
 ## 热门题材
 
