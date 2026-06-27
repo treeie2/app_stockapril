@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>K线信号</title>
+<style>
+:root{--bg:#00041a;--bg2:#000c2a;--h:#001a4d;--t:#e0f2ff;--t2:#a0c4ff;--c:#00ffff;--u:#00ff88;--d:#ff0077;--b:rgba(0,255,255,.3)}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--t);font-family:'Microsoft YaHei',sans-serif;padding:12px}
+nav{display:flex;align-items:center;gap:1rem;padding:.5rem 0;border-bottom:1px solid var(--b);margin-bottom:12px}
+nav a{color:var(--t2);text-decoration:none;font-size:13px;font-weight:500}
+nav a:hover{color:var(--c)}
+nav .brand{font-weight:700;color:var(--t);font-size:14px}
+.h{display:flex;justify-content:space-between;align-items:center;padding-bottom:10px;border-bottom:1px solid var(--b);margin-bottom:10px;flex-wrap:wrap;gap:8px}
+h1{color:var(--c);font-size:18px;letter-spacing:1px}
+.tag{background:rgba(160,196,255,.1);padding:3px 8px;border-radius:4px;font-size:11px;color:var(--t2);border:1px solid rgba(160,196,255,.2)}
+.info{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:8px;align-items:center}
+.legend{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:10px;align-items:center}
+.leg{display:flex;align-items:center;gap:4px;font-size:10px;color:var(--t2)}
+.leg .dot{width:8px;height:8px;border-radius:50%;flex:none}
+canvas{display:block;background:var(--bg2);border-radius:8px;border:1px solid var(--b);width:100%;max-width:100%}
+.loading{text-align:center;padding:40px;color:var(--t2)}
+.error{text-align:center;padding:40px;color:var(--d)}
+</style>
+</head>
+<body>
+<nav>
+    <a href="/" class="brand">&#128202; Stock Research</a>
+    <a href="/">个股</a>
+    <a href="/groups">分组</a>
+    <a href="/lyt" style="color:var(--c);font-weight:700">突破信号</a>
+</nav>
+
+<div class="h">
+    <div>
+        <h1 id="title">K线信号 — Loading...</h1>
+        <div class="info">
+            <span class="tag" id="codeTag">--</span>
+            <span class="tag" id="nameTag">--</span>
+        </div>
+    </div>
+    <div style="display:flex;gap:6px;align-items:center">
+        <select id="rangeSel" onchange="reload()" style="background:var(--bg2);color:var(--c);border:1px solid var(--c);padding:4px 8px;border-radius:4px;font-size:11px">
+            <option value="60">60天</option>
+            <option value="120">120天</option>
+            <option value="250" selected>250天</option>
+        </select>
+    </div>
+</div>
+
+<div class="legend" id="legend"></div>
+<canvas id="cv"></canvas>
+<div id="status" class="loading">Loading K-line data...</div>
+
+<script>
+// Signal config
+var SN=['启动','抢筹','突破','爆发','转强','起涨','主升','加速','强攻'];
+var SC=['#ff9800','#e91e63','#2196f3','#f44336','#4caf50','#9c27b0','#ffd700','#00ffff','#ff0077'];
+
+// Parse URL params
+var params = new URLSearchParams(location.search);
+var CODE = params.get('code') || '';
+
+async function load() {
+    if (!CODE) { document.getElementById('status').innerHTML='<div class="error">Missing ?code=</div>'; return; }
+    document.getElementById('codeTag').textContent = CODE;
+
+    // 1. Get signal dates for this stock
+    var sigResp = await fetch('/api/lyt-signals').then(r=>r.json());
+    var sigs = sigResp.signals || {};
+    var names = sigResp.names || {};
+    var stockName = names[CODE] || CODE;
+    document.getElementById('nameTag').textContent = stockName;
+    document.getElementById('title').textContent = 'K线信号 — ' + stockName;
+
+    // Collect all signal dates + types for this code
+    var signalDates = {}; // date -> [signal types]
+    var allDates = sigResp.dates || [];
+    for (var d=0; d<allDates.length; d++) {
+        var dt = allDates[d];
+        var daySigs = sigs[dt] || {};
+        for (var s=0; s<SN.length; s++) {
+            var sigName = SN[s];
+            var entries = daySigs[sigName] || [];
+            for (var e=0; e<entries.length; e++) {
+                if (entries[e].code === CODE) {
+                    if (!signalDates[dt]) signalDates[dt] = [];
+                    signalDates[dt].push(sigName);
+                }
+            }
+        }
+    }
+
+    // Build legend
+    var usedSignals = {};
+    var legHtml = '';
+    for (var dt in signalDates) {
+        for (var i=0; i<signalDates[dt].length; i++) {
+            usedSignals[signalDates[dt][i]] = true;
+        }
+    }
+    for (var s=0; s<SN.length; s++) {
+        if (usedSignals[SN[s]]) {
+            legHtml += '<div class="leg"><div class="dot" style="background:'+SC[s]+'"></div>'+SN[s]+'</div>';
+        }
+    }
+    document.getElementById('legend').innerHTML = legHtml;
+
+    // 2. Get K-line data from Tencent
+    var range = document.getElementById('rangeSel').value || 250;
+    var prefix = CODE.charAt(0)==='6' ? 'sh' : (CODE.charAt(0)==='8'||CODE.charAt(0)==='4' ? 'bj' : 'sz');
+    var kurl = 'https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param='+prefix+CODE+',day,,,'+range+',qfq';
+    var kResp = await fetch(kurl).then(r=>r.json());
+
+    var klines = [];
+    try {
+        var data = kResp.data[prefix+CODE];
+        if (!data) {
+            // Try qfqday
+            var keys = Object.keys(kResp.data || {});
+            if (keys.length > 0) data = kResp.data[keys[0]];
+        }
+        if (data && data.qfqday) {
+            klines = data.qfqday;
+        } else if (data && data.day) {
+            klines = data.day;
+        }
+    } catch(e) {}
+
+    if (!klines || klines.length === 0) {
+        // Fallback: try sina API
+        var sinaCode = (CODE.charAt(0)==='6'?'sh':'sz')+CODE;
+        var sinaResp = await fetch('https://money.finance.sina.com.cn/quotes_service/api/json_v2.php/CN_MarketData.getKLineData?symbol='+sinaCode+'&scale=240&ma=no&datalen='+range).then(r=>r.text());
+        try {
+            klines = JSON.parse(sinaResp);
+        } catch(e2) {}
+    }
+
+    if (!klines || klines.length === 0) {
+        document.getElementById('status').innerHTML = '<div class="error">无法获取K线数据</div>';
+        return;
+    }
+    document.getElementById('status').innerHTML = '';
+
+    // Parse K-line data
+    var bars = [];
+    for (var i=0; i<klines.length; i++) {
+        var k = klines[i];
+        var date = k[0] || k.day || '';
+        if (date.length === 8) date = date.slice(0,4)+'-'+date.slice(4,6)+'-'+date.slice(6,8);
+        bars.push({
+            date: date,
+            open: parseFloat(k[1] || k.open || 0),
+            close: parseFloat(k[2] || k.close || 0),
+            high: parseFloat(k[3] || k.high || 0),
+            low: parseFloat(k[4] || k.low || 0),
+            vol: parseFloat(k[5] || k.volume || 0)
+        });
+    }
+
+    // Draw
+    drawChart(bars, signalDates);
+}
+
+function drawChart(bars, signalDates) {
+    var cv = document.getElementById('cv');
+    var ctx = cv.getContext('2d');
+
+    var W = cv.parentElement.clientWidth - 4;
+    var H = Math.min(window.innerHeight - 280, 500);
+    if (H < 300) H = 300;
+
+    var dpr = window.devicePixelRatio || 1;
+    cv.width = W * dpr;
+    cv.height = H * dpr;
+    cv.style.width = W + 'px';
+    cv.style.height = H + 'px';
+    ctx.scale(dpr, dpr);
+
+    var pad = {top: 30, right: 60, bottom: 60, left: 60};
+    var pw = W - pad.left - pad.right;
+    var ph = H - pad.top - pad.bottom;
+
+    // Compute price range
+    var allPrices = [];
+    for (var i=0; i<bars.length; i++) {
+        allPrices.push(bars[i].high, bars[i].low);
+    }
+    var priceMin = Math.min.apply(null, allPrices);
+    var priceMax = Math.max.apply(null, allPrices);
+    var pricePad = (priceMax - priceMin) * 0.05;
+    priceMin -= pricePad;
+    priceMax += pricePad;
+    if (priceMin < 0) priceMin = 0;
+
+    var candleW = Math.max(2, Math.min(8, pw / bars.length * 0.6));
+    var candleGap = pw / bars.length;
+
+    function x(i) { return pad.left + candleGap * i + candleGap / 2; }
+    function y(p) { return pad.top + ph * (1 - (p - priceMin) / (priceMax - priceMin)); }
+
+    // Clear
+    ctx.clearRect(0, 0, W, H);
+
+    // Grid
+    ctx.strokeStyle = 'rgba(0,255,255,0.06)';
+    ctx.lineWidth = 0.5;
+    var gridLines = 5;
+    for (var g=0; g<=gridLines; g++) {
+        var gy = pad.top + ph * g / gridLines;
+        ctx.beginPath();
+        ctx.moveTo(pad.left, gy);
+        ctx.lineTo(pad.left + pw, gy);
+        ctx.stroke();
+
+        var price = priceMax - (priceMax - priceMin) * g / gridLines;
+        ctx.fillStyle = 'rgba(160,196,255,0.4)';
+        ctx.font = '9px Consolas';
+        ctx.textAlign = 'right';
+        ctx.fillText(price.toFixed(2), pad.left - 4, gy + 3);
+    }
+
+    // Draw candles
+    for (var i=0; i<bars.length; i++) {
+        var b = bars[i];
+        var isUp = b.close >= b.open;
+        var col = isUp ? '#00ff88' : '#ff0077';
+        var cx = x(i);
+
+        // Wick
+        ctx.strokeStyle = col;
+        ctx.lineWidth = 1;
+        ctx.beginPath();
+        ctx.moveTo(cx, y(b.high));
+        ctx.lineTo(cx, y(b.low));
+        ctx.stroke();
+
+        // Body
+        var bodyTop = y(Math.max(b.open, b.close));
+        var bodyH = Math.max(1, Math.abs(y(b.open) - y(b.close)));
+        ctx.fillStyle = isUp ? 'rgba(0,255,136,0.8)' : 'rgba(255,0,119,0.8)';
+        ctx.fillRect(cx - candleW/2, bodyTop, candleW, bodyH);
+
+        // Date labels (every ~20 bars)
+        if (i % Math.max(1, Math.floor(bars.length/8)) === 0 || i === bars.length-1) {
+            ctx.fillStyle = 'rgba(160,196,255,0.5)';
+            ctx.font = '9px';
+            ctx.textAlign = 'center';
+            ctx.fillText(b.date.slice(5), cx, pad.top + ph + 15);
+        }
+    }
+
+    // Draw signal markers
+    for (var i=0; i<bars.length; i++) {
+        var dt = bars[i].date;
+        var sigs = signalDates[dt];
+        if (!sigs || sigs.length === 0) continue;
+
+        var cx = x(i);
+        var by = y(bars[i].low) + 4;
+
+        for (var s=0; s<sigs.length; s++) {
+            var si = SN.indexOf(sigs[s]);
+            if (si < 0) continue;
+            var sc = SC[si];
+            var sy = by + s * 12;
+
+            // Triangle marker
+            ctx.fillStyle = sc;
+            ctx.beginPath();
+            ctx.moveTo(cx, sy + 6);
+            ctx.lineTo(cx - 4, sy);
+            ctx.lineTo(cx + 4, sy);
+            ctx.closePath();
+            ctx.fill();
+
+            // Signal label
+            ctx.fillStyle = sc;
+            ctx.font = 'bold 8px';
+            ctx.textAlign = 'center';
+            ctx.fillText(sigs[s], cx, sy - 2);
+        }
+    }
+
+    // Right-side price axis
+    ctx.fillStyle = 'rgba(160,196,255,0.4)';
+    ctx.font = '9px Consolas';
+    ctx.textAlign = 'left';
+    for (var g=0; g<=gridLines; g++) {
+        var gy = pad.top + ph * g / gridLines;
+        var price = priceMax - (priceMax - priceMin) * g / gridLines;
+        ctx.fillText(price.toFixed(2), pad.left + pw + 6, gy + 3);
+    }
+}
+
+function reload() { load(); }
+
+window.addEventListener('resize', function() {
+    if (document.getElementById('cv').width > 0) reload();
+});
+
+load();
+</script>
+</body>
+</html>

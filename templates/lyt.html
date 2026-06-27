@@ -183,14 +183,10 @@ function render(){
       chgCls=chg>=0?'up':'down';
     }
     
-    var kurl = (c.charAt(0)==='6') ? 'https://gu.qq.com/sh'+c :
-               (c.charAt(0)==='8'||c.charAt(0)==='4') ? 'https://gu.qq.com/bj'+c :
-               'https://gu.qq.com/sz'+c;
-    
     rows+='<tr><td class="pl"><a href="/stock/'+c+'" style="color:var(--c);text-decoration:none">'+c+'</a></td><td>'+nm+'</td><td class="'+chgCls+'">'+chgStr+'</td>'
       +'<td class="scr '+scrCls+'">'+(typeof scr==='number'?scr.toFixed(1):scr)+'</td>'
       +'<td>'+tags+'</td><td>'+gtags+'</td>'
-      +'<td><a class="kl" href="'+kurl+'" target="_blank">K</a></td></tr>';
+      +'<td><a class="kl" href="/chart?code='+c+'" target="_blank">K</a></td></tr>';
   });
   document.getElementById('tb').innerHTML=rows||'<tr><td colspan=7 style="padding:20px;color:var(--t2)">Click signals above to filter</td></tr>';
 }
