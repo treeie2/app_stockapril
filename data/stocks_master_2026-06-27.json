@@ -1,6 +1,6 @@
 {
   "date": "2026-06-27",
-  "source": "https://mp.weixin.qq.com/s/gXzcNp-IBU7q-He55BQdqA, https://mp.weixin.qq.com/s/5vsAnrnZe3uR22d6w68jQg, https://mp.weixin.qq.com/s/MwvHfSzX3fzX_lgBwY_NGg, https://mp.weixin.qq.com/s/2S4toO1yQZTgvaMak4wefw, https://mp.weixin.qq.com/s/QtUSNHv3-YQbY9CAmnjSmg, https://mp.weixin.qq.com/s/KD3uUjT4RCSNhZj7jT6AVQ",
+  "source": "https://mp.weixin.qq.com/s/gXzcNp-IBU7q-He55BQdqA, https://mp.weixin.qq.com/s/5vsAnrnZe3uR22d6w68jQg, https://mp.weixin.qq.com/s/MwvHfSzX3fzX_lgBwY_NGg, https://mp.weixin.qq.com/s/2S4toO1yQZTgvaMak4wefw, https://mp.weixin.qq.com/s/QtUSNHv3-YQbY9CAmnjSmg, https://mp.weixin.qq.com/s/KD3uUjT4RCSNhZj7jT6AVQ, https://mp.weixin.qq.com/s/M0_-60MM1GVjH36fEUkDfQ",
   "stocks": [
     {
       "code": "300260",
@@ -473,6 +473,53 @@
             "尊界",
             "蔚来",
             "理想"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "603261",
+      "name": "立航科技",
+      "articles": [
+        {
+          "title": "立航科技深度价值分析报告：成功摘帽，流动性与估值双重释放",
+          "date": "2026-06-27",
+          "source": "https://mp.weixin.qq.com/s/M0_-60MM1GVjH36fEUkDfQ",
+          "accidents": [
+            "成功摘帽，撤销其他风险警示",
+            "2025年营收2.36亿元同比+25.53%，归母净利润扭亏为盈",
+            "2026Q1营收0.67亿元同比+42.55%，连续3个季度盈利"
+          ],
+          "insights": [
+            "摘帽后纳入融资融券标的+机构可投池，流动性溢价释放",
+            "军机挂架/地面保障设备受益于新型号批产列装",
+            "无人机业务从部件配套向整机系统集成升级"
+          ],
+          "key_metrics": [
+            "2025年营收2.36亿元同比+25.53%",
+            "2026Q1营收0.67亿元同比+42.55%",
+            "连续3个季度盈利"
+          ],
+          "target_valuation": [
+            "摘帽估值修复+军机列装+无人机整机三重催化"
+          ],
+          "products": [
+            "军机挂架",
+            "地面保障设备",
+            "无人机部件/整机"
+          ],
+          "core_business": [
+            "航空零部件制造",
+            "无人机系统"
+          ],
+          "industry_position": [
+            "军机挂架细分领域龙头"
+          ],
+          "chain": [
+            "航空制造→军机配套→无人机"
+          ],
+          "partners": [
+            "国内主要军机主机厂"
           ]
         }
       ]
