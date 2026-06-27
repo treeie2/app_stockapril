@@ -1439,6 +1439,10 @@ def concept_detail(name):
 
 @app.route('/search')
 def search():
+    try:
+        load_all_data()
+    except Exception as e:
+        print(f"⚠️ 数据加载失败：{e}")
     q = request.args.get('q', '').lower().strip()
     results = []
     
@@ -3276,6 +3280,11 @@ def import_stocks():
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 7860))
     print(f"🚀 启动于 port {port}")
+    # 启动时预加载数据
+    try:
+        load_all_data()
+    except Exception as e:
+        print(f"⚠️ 启动预加载失败: {e}")
     app.run(host='0.0.0.0', port=port, debug=False)
 
 
