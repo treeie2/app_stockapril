@@ -31440,8 +31440,8 @@
       "full_name": "多氟多（002407）全称为多氟多新材料股份有限公司"
     },
     "002409": {
-      "mention_count": 9,
-      "last_updated": "2026-06-13",
+      "mention_count": 11,
+      "last_updated": "2026-06-27",
       "concepts": [
         "OLED",
         "专精特新",
@@ -31683,6 +31683,49 @@
           ],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "title": "半导体设备的「埃米时代」预期差",
+          "date": "2026-06-27",
+          "source": "https://mp.weixin.qq.com/s/5vsAnrnZe3uR22d6w68jQg",
+          "accidents": [
+            "全球唯一量产6N级高纯二氯二氧化钼(MoO2Cl2)前驱体，市占率65%-70%",
+            "全球唯一获SK海力士HBM4介电层前驱体认证供应商，订单锁定至2031年",
+            "淮安100吨/年钼前驱体产能2026Q4投产"
+          ],
+          "insights": [
+            "2026年钼前驱体业务预期贡献5-8亿元营收，毛利率60%以上",
+            "2027年钼前驱体单项业务营收预计12-18亿元，成为第一大成长引擎",
+            "全面进入三星、美光全球三大HBM原厂供应链"
+          ],
+          "key_metrics": [
+            "钼前驱体市占率65%-70%",
+            "2026年钼业务预期5-8亿元",
+            "毛利率60%以上",
+            "HBM4订单锁定至2031年"
+          ],
+          "target_valuation": [],
+          "products": [
+            "高纯钼前驱体MoO2Cl2",
+            "HBM4高纯ALD介质前驱体"
+          ],
+          "core_business": [
+            "半导体前驱体材料",
+            "ALD材料"
+          ],
+          "industry_position": [
+            "全球钼前驱体绝对龙头",
+            "HBM4前驱体独家供应商"
+          ],
+          "chain": [
+            "半导体材料→前驱体→ALD沉积"
+          ],
+          "partners": [
+            "SK海力士",
+            "三星",
+            "美光",
+            "本土存储大厂"
+          ]
         }
       ],
       "industry": "电子-半导体-半导体材料",
@@ -64205,8 +64248,8 @@
       ]
     },
     "300751": {
-      "mention_count": 2,
-      "last_updated": "2026-06-14",
+      "mention_count": 3,
+      "last_updated": "2026-06-27",
       "partners": [],
       "concepts": [
         "锂电池概念",
@@ -64275,6 +64318,46 @@
             "半导体订单35-40亿"
           ],
           "target_valuation": []
+        },
+        {
+          "title": "半导体设备的「埃米时代」预期差",
+          "date": "2026-06-27",
+          "source": "https://mp.weixin.qq.com/s/5vsAnrnZe3uR22d6w68jQg",
+          "accidents": [
+            "2025年中全自动晶圆级混合键合设备正式交付国内半导体客户",
+            "开发出全自动晶圆临时键合机MX-21D1、激光解键合机MX-22D1",
+            "高选择比刻蚀设备和混合键合设备已用于HBM先进DRAM堆叠工艺"
+          ],
+          "insights": [
+            "MX-21D1一托二腔体设计键合效率提升60%，TTV控制在5微米以内",
+            "由光伏设备向半导体HBM及三维封装核心设备转型",
+            "2026年批量验收和放量将直接打开半导体业务估值空间"
+          ],
+          "key_metrics": [
+            "MX-21D1键合效率提升60%",
+            "TTV控制在5微米以内",
+            "2025年混合键合设备正式出货"
+          ],
+          "target_valuation": [],
+          "products": [
+            "晶圆临时键合机MX-21D1",
+            "激光解键合机MX-22D1",
+            "晶圆熔融/混合键合机MX-11D1"
+          ],
+          "core_business": [
+            "光伏设备",
+            "半导体先进封装设备"
+          ],
+          "industry_position": [
+            "光伏设备龙头",
+            "半导体混合键合设备新进入者"
+          ],
+          "chain": [
+            "半导体设备→先进封装键合"
+          ],
+          "partners": [
+            "国内半导体客户"
+          ]
         }
       ],
       "board": "SZ",
@@ -109669,8 +109752,8 @@
       "list_date": "20200828"
     },
     "688019": {
-      "mention_count": 2,
-      "last_updated": "2026-05-22",
+      "mention_count": 3,
+      "last_updated": "2026-06-27",
       "concepts": [
         "先进封装",
         "光刻胶",
@@ -109744,6 +109827,46 @@
             "长鑫存储",
             "长江存储"
           ]
+        },
+        {
+          "title": "半导体设备的「埃米时代」预期差",
+          "date": "2026-06-27",
+          "source": "https://mp.weixin.qq.com/s/5vsAnrnZe3uR22d6w68jQg",
+          "accidents": [
+            "CMP抛光液全球市占率约10%，铜及铜阻挡层抛光液占CMP总规模45%",
+            "前瞻性自研钴(Co)抛光液、钌(Ru)抛光液迎合埃米节点材料迭代",
+            "机构预测2026年净利润10.45亿元同比+33.36%"
+          ],
+          "insights": [
+            "CMP抛光液全品类覆盖，功能性湿化学品放量速度大幅提升",
+            "埃米级互连线去铜化（钴/钌替代）推动新材料抛光液进口替代",
+            "2024年CMP抛光液板块营收15.5亿元"
+          ],
+          "key_metrics": [
+            "2026年预测净利润10.45亿元",
+            "同比+33.36%",
+            "全球CMP抛光液市占率约10%",
+            "2024年CMP抛光液营收15.5亿元"
+          ],
+          "target_valuation": [],
+          "products": [
+            "铜及铜阻挡层CMP抛光液",
+            "钴抛光液",
+            "钌抛光液",
+            "功能性湿化学品"
+          ],
+          "core_business": [
+            "CMP抛光液",
+            "功能性湿化学品"
+          ],
+          "industry_position": [
+            "国内CMP抛光液龙头",
+            "全球市占率约10%"
+          ],
+          "chain": [
+            "半导体材料→CMP抛光液"
+          ],
+          "partners": []
         }
       ],
       "industry": "电子-电子化学品-电子化学品Ⅲ",
@@ -110923,8 +111046,8 @@
       "name": "纵横股份"
     },
     "688072": {
-      "mention_count": 9,
-      "last_updated": "2026-06-13",
+      "mention_count": 10,
+      "last_updated": "2026-06-27",
       "partners": [
         "SK海力士"
       ],
@@ -111125,6 +111248,49 @@
           "industry_position": [],
           "chain": [],
           "partners": []
+        },
+        {
+          "title": "半导体设备的「埃米时代」预期差",
+          "date": "2026-06-27",
+          "source": "https://mp.weixin.qq.com/s/5vsAnrnZe3uR22d6w68jQg",
+          "accidents": [
+            "2026Q1营收11.12亿元同比+56.97%，三维集成设备放量",
+            "Dione 300混合键合设备达国际同类水平，获头部客户重复订单",
+            "Propus表面预处理设备为国内唯一进入量产线的D2W设备"
+          ],
+          "insights": [
+            "三维集成业务正成为继PECVD/ALD之后的第二增长曲线",
+            "W2W混合键合设备Dione 300对标EVG/SUSS，D2W设备Pleione实现百纳米级芯片键合",
+            "2026H2起伴随国内三维集成产线试产，重复订单进入放量期"
+          ],
+          "key_metrics": [
+            "2026Q1营收11.12亿元",
+            "同比+56.97%",
+            "D2W精度达百纳米级"
+          ],
+          "target_valuation": [
+            "估值体系有望向50-60倍PE溢价中枢靠拢"
+          ],
+          "products": [
+            "W2W混合键合设备Dione 300",
+            "D2W键合设备Pleione",
+            "低应力熔融键合设备Dione 300F",
+            "表面预处理设备Propus"
+          ],
+          "core_business": [
+            "半导体薄膜沉积设备",
+            "三维集成/混合键合设备"
+          ],
+          "industry_position": [
+            "国内PECVD/ALD龙头",
+            "混合键合设备国内领先"
+          ],
+          "chain": [
+            "半导体前道设备→先进封装混合键合"
+          ],
+          "partners": [
+            "国内头部晶圆厂"
+          ]
         }
       ],
       "board": "SH",
@@ -112112,8 +112278,8 @@
       "partners": []
     },
     "688120": {
-      "mention_count": 9,
-      "last_updated": "2026-06-13",
+      "mention_count": 10,
+      "last_updated": "2026-06-27",
       "partners": [],
       "concepts": [
         "MicroLED概念",
@@ -112330,6 +112496,45 @@
           "core_business": [],
           "industry_position": [],
           "chain": [],
+          "partners": []
+        },
+        {
+          "title": "半导体设备的「埃米时代」预期差",
+          "date": "2026-06-27",
+          "source": "https://mp.weixin.qq.com/s/5vsAnrnZe3uR22d6w68jQg",
+          "accidents": [
+            "推出国内首台12英寸超精密晶圆减薄机Versatile-GP300",
+            "推出国内首台8英寸留环减薄机Versatile-GR200",
+            "机构预测2026年净利润均值14.24亿元同比+31.38%"
+          ],
+          "insights": [
+            "打破日本荏原在超精密晶圆减薄设备领域的垄断",
+            "留环减薄机GR200可稳定加工至80微米以下极端厚度",
+            "背面供电及多芯片堆叠拉动减薄设备订单自2026H2爆发"
+          ],
+          "key_metrics": [
+            "2026年预测净利润14.24亿元",
+            "同比+31.38%",
+            "GR200加工极限80微米以下"
+          ],
+          "target_valuation": [
+            "方正证券维持买入评级，目标价258.24元"
+          ],
+          "products": [
+            "12寸精密减薄机Versatile-GP300",
+            "8寸留环减薄机Versatile-GR200",
+            "CMP化学机械抛光设备"
+          ],
+          "core_business": [
+            "晶圆减薄与CMP抛光设备"
+          ],
+          "industry_position": [
+            "国内CMP设备龙头",
+            "打破海外减薄设备垄断"
+          ],
+          "chain": [
+            "半导体前道设备→晶圆减薄/CMP"
+          ],
           "partners": []
         }
       ],
@@ -142952,7 +143157,7 @@
       "code": "300567",
       "name": "精测电子",
       "concept": "",
-      "mention_count": 5,
+      "mention_count": 6,
       "articles": [
         {
           "source": "https://mp.weixin.qq.com/s/Aauj5Qwi3abLDXIOt8RtHg",
@@ -143059,9 +143264,55 @@
           "industry_position": [],
           "chain": [],
           "partners": []
+        },
+        {
+          "title": "精测电子，2倍空间？",
+          "date": "2026-06-27",
+          "source": "https://mp.weixin.qq.com/s/gXzcNp-IBU7q-He55BQdqA",
+          "accidents": [
+            "半年合计公告DRAM客户10亿订单，先进逻辑客户5.7亿大单",
+            "湖北星辰新一轮融资29.2亿元，25年营收7.36亿元同比+92.67%",
+            "上海精测签订明场缺陷检测设备合同1.35亿元"
+          ],
+          "insights": [
+            "华西机械维持板块弹性首推，一年维度看2倍空间，目标市值2000亿",
+            "25/26Q1半导体收入13.18/3.02亿元同比+71.6%/+42.19%，增速高于飞测",
+            "量测设备国产替代加速期已到，膜厚/OCD/明暗场26年持续突破"
+          ],
+          "key_metrics": [
+            "收盘价: N/A",
+            "PE: N/A",
+            "PB: N/A",
+            "25年半导体收入13.18亿元同比+71.6%",
+            "26Q1半导体收入3.02亿元同比+42.19%"
+          ],
+          "target_valuation": [
+            "目标市值2000亿（主业1500亿+先进封装500亿）"
+          ],
+          "products": [
+            "膜厚测量设备",
+            "OCD光学关键尺寸测量",
+            "明场光学缺陷检测设备",
+            "暗场缺陷检测设备"
+          ],
+          "core_business": [
+            "半导体前道量测检测设备"
+          ],
+          "industry_position": [
+            "国内量测设备龙头",
+            "明场缺陷检测突破卡脖子"
+          ],
+          "chain": [
+            "半导体前道量测"
+          ],
+          "partners": [
+            "DRAM客户",
+            "先进逻辑客户",
+            "湖北星辰"
+          ]
         }
       ],
-      "last_updated": "2026-06-13",
+      "last_updated": "2026-06-27",
       "concepts": [
         "AI眼镜",
         "MR(混合现实)",
