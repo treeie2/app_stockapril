@@ -1,6 +1,6 @@
 {
   "date": "2026-06-27",
-  "source": "https://mp.weixin.qq.com/s/gXzcNp-IBU7q-He55BQdqA, https://mp.weixin.qq.com/s/5vsAnrnZe3uR22d6w68jQg, https://mp.weixin.qq.com/s/MwvHfSzX3fzX_lgBwY_NGg, https://mp.weixin.qq.com/s/2S4toO1yQZTgvaMak4wefw",
+  "source": "https://mp.weixin.qq.com/s/gXzcNp-IBU7q-He55BQdqA, https://mp.weixin.qq.com/s/5vsAnrnZe3uR22d6w68jQg, https://mp.weixin.qq.com/s/MwvHfSzX3fzX_lgBwY_NGg, https://mp.weixin.qq.com/s/2S4toO1yQZTgvaMak4wefw, https://mp.weixin.qq.com/s/QtUSNHv3-YQbY9CAmnjSmg",
   "stocks": [
     {
       "code": "300260",
@@ -358,6 +358,64 @@
             "数通与通信大客户",
             "全球芯片商",
             "CSP云端服务商"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "603650",
+      "name": "彤程新材",
+      "articles": [
+        {
+          "title": "彤程新材：突破“卡脖子”的绝对龙头",
+          "date": "2026-06-27",
+          "source": "https://mp.weixin.qq.com/s/QtUSNHv3-YQbY9CAmnjSmg",
+          "accidents": [
+            "2025年ArF光刻胶销售额同比爆发式增长超800%",
+            "2026Q1营收10.49亿元同比+22.51%，净利润1.82亿元同比+13.83%",
+            "2026年2月向港交所递表拟A+H双平台上市"
+          ],
+          "insights": [
+            "北京科华是唯一被SEMI列入全球光刻胶八强的中国企业，ArF国产化率仅2%",
+            "KrF光刻胶保持近50%高增速，G4级EBR已达量产可满足40nm以下制程",
+            "SOTP估值：橡胶助剂15-18x PE，电子化学品40-50x PE高溢价"
+          ],
+          "key_metrics": [
+            "2025年营收34.29亿元同比+4.85%",
+            "2025年归母净利润5.63亿元同比+8.9%",
+            "2026Q1营收10.49亿元同比+22.51%",
+            "ArF光刻胶2025年同比+800%",
+            "KrF光刻胶增速近50%"
+          ],
+          "target_valuation": [
+            "SOTP: 橡胶助剂15-18x PE + 电子化学品40-50x PE"
+          ],
+          "products": [
+            "ArF光刻胶",
+            "KrF光刻胶",
+            "g/i线光刻胶",
+            "G4/G5级EBR试剂",
+            "CMP抛光垫",
+            "特种橡胶助剂"
+          ],
+          "core_business": [
+            "半导体光刻胶",
+            "电子化学品",
+            "特种橡胶助剂"
+          ],
+          "industry_position": [
+            "全球最大轮胎橡胶用特种酚醛树脂供应商",
+            "北京科华-全球光刻胶八强唯一中国企业"
+          ],
+          "chain": [
+            "半导体材料→光刻胶→先进制程"
+          ],
+          "partners": [
+            "普利司通",
+            "米其林",
+            "固特异",
+            "国内头部晶圆厂",
+            "国内最大面板厂"
           ]
         }
       ]
