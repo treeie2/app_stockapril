@@ -80,7 +80,7 @@ tr:hover{background:var(--h)}
 <script>
 var S=['启动','抢筹','突破','爆发','转强','起涨','主升','加速','强攻'];
 var C=['#ff9800','#e91e63','#2196f3','#f44336','#4caf50','#9c27b0','#ffd700','#00ffff','#ff0077'];
-var D=null, FD=null, GR=null, CH=null, AS={}, AG={};
+var D=null, FD=null, GR=null, CH=null, SD=null, AS={}, AG={};
 S.forEach(function(s){AS[s]=false;});
 
 function scolor(s){if(s>=70)return's70';if(s>=50)return's50';if(s>=30)return's30';return's0';}
@@ -91,9 +91,10 @@ function scolor(s){if(s>=70)return's70';if(s>=50)return's50';if(s>=30)return's30
     fetch('/api/lyt-signals').then(function(r){return r.json();}),
     fetch('/api/lyt-scores').then(function(r){return r.json();}).catch(function(){return{};}),
     fetch('/api/lyt-groups').then(function(r){return r.json();}).catch(function(){return{};}),
-    fetch('/api/lyt-changes').then(function(r){return r.json();}).catch(function(){return{};})
+    fetch('/api/lyt-changes').then(function(r){return r.json();}).catch(function(){return{};}),
+    fetch('/api/lyt-signal-dates').then(function(r){return r.json();}).catch(function(){return{};})
   ]).then(function(results){
-    D=results[0]; FD=results[1]||{}; GR=results[2]||{}; CH=results[3]||{};
+    D=results[0]; FD=results[1]||{}; GR=results[2]||{}; CH=results[3]||{}; SD=results[4]||{};
     document.getElementById('dp').value=D.dates[D.dates.length-1];
     document.getElementById('dp').min=D.dates[0];
     document.getElementById('dp').max=D.dates[D.dates.length-1];
@@ -164,7 +165,7 @@ function render(){
   var rows='';
   codes.forEach(function(c){
     var e=sm[c],nm=nn[c]||'';
-    var tags=e.s.map(function(s){var i=S.indexOf(s);return '<span class="st" style="color:'+C[i]+';border-color:'+C[i]+'">'+s+'</span>';}).join(' ');
+    var tags=e.s.map(function(s){var i=S.indexOf(s);var sd=(SD[c]||{})[s]||[];var lastDate=sd.length>0?sd[sd.length-1].slice(5):'';return '<span class="st" style="color:'+C[i]+';border-color:'+C[i]+'" title="'+s+': '+sd.join(',')+'">'+s+(lastDate?' <small>'+lastDate+'</small>':'')+'</span>';}).join(' ');
     var fd=FD[c]||{};
     var scr=fd.score!==undefined?fd.score:'-';
     var scrCls=typeof scr==='number'?scolor(scr):'';

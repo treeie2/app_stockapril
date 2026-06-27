@@ -794,6 +794,32 @@ def api_lyt_changes():
         print(f"lyt changes error: {e}")
     return jsonify({})
 
+@app.route('/api/lyt-signal-dates')
+def api_lyt_signal_dates():
+    """返回每只股票每种信号的日期列表 {code: {signal: [date,...]}}"""
+    import json
+    try:
+        sig_file = BASE_DIR / "breakt" / "lyt_daily_signals.json"
+        if sig_file.exists():
+            with open(sig_file, 'r', encoding='utf-8') as f:
+                sig_data = json.load(f)
+            result = {}
+            signals_all = sig_data.get("signals", {})
+            for date_str, day_signals in signals_all.items():
+                for sig_name, entries in day_signals.items():
+                    for entry in entries:
+                        code = entry.get("code", "")
+                        if code:
+                            if code not in result:
+                                result[code] = {}
+                            if sig_name not in result[code]:
+                                result[code][sig_name] = []
+                            result[code][sig_name].append(date_str)
+            return jsonify(result)
+    except Exception as e:
+        print(f"lyt signal dates error: {e}")
+    return jsonify({})
+
 @app.route('/api/lyt-groups')
 def api_lyt_groups():
     """返回 lyt 格式的分组数据 {groupName: {stocks:[code,...]}}"""
