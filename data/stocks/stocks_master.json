@@ -195,7 +195,7 @@
       "core_business": [
         "PCB、封装基板光模块 PCB 供应高端 PCB 研发生产"
       ],
-      "last_updated": "2026-06-13",
+      "last_updated": "2026-06-27",
       "industry_position": [
         "FSD域控制器PCB供应商",
         "国内PCB龙头"
@@ -223,7 +223,7 @@
         "融资融券"
       ],
       "code": "002916",
-      "mention_count": 8,
+      "mention_count": 9,
       "partners": [
         "光模块龙头厂商"
       ],
@@ -400,6 +400,34 @@
           "core_business": [],
           "industry_position": [],
           "chain": [],
+          "partners": []
+        },
+        {
+          "title": "今天的一些信息整理6.27",
+          "date": "2026-06-27",
+          "source": "https://mp.weixin.qq.com/s/G0iAMpJPs8SSgDfxVoPQUw",
+          "accidents": [
+            "PCB发函确认涨价，原材料价格翻倍"
+          ],
+          "insights": [
+            "AI算力需求对PCB产业链通胀传导"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "products": [
+            "高多层PCB",
+            "封装基板"
+          ],
+          "core_business": [
+            "印制电路板",
+            "封装基板"
+          ],
+          "industry_position": [
+            "国内PCB/封装基板龙头"
+          ],
+          "chain": [
+            "PCB/基板→AI服务器/芯片封装"
+          ],
           "partners": []
         }
       ],
@@ -931,8 +959,8 @@
       "list_date": "20221221"
     },
     "603256": {
-      "mention_count": 8,
-      "last_updated": "2026-06-13",
+      "mention_count": 9,
+      "last_updated": "2026-06-27",
       "partners": [
         "英伟达",
         "台积电"
@@ -1142,6 +1170,39 @@
           "core_business": [],
           "industry_position": [],
           "chain": [],
+          "partners": []
+        },
+        {
+          "title": "今天的一些信息整理6.27",
+          "date": "2026-06-27",
+          "source": "https://mp.weixin.qq.com/s/G0iAMpJPs8SSgDfxVoPQUw",
+          "accidents": [
+            "PCB核心材料严重缺货，建滔/生益/南亚订单排满交期2-3个月",
+            "PCB发函确认涨价，原材料价格已翻倍",
+            "紧张情况预计到2027年下半年才逐步缓解"
+          ],
+          "insights": [
+            "电子布是AI服务器关键材料，产线24小时满产",
+            "上游材料拥有极强成本转嫁能力与绝对议价权"
+          ],
+          "key_metrics": [
+            "原材料价格翻倍",
+            "交期拉长至2-3个月"
+          ],
+          "target_valuation": [],
+          "products": [
+            "电子布",
+            "电子级玻璃纤维布"
+          ],
+          "core_business": [
+            "电子级玻璃纤维布"
+          ],
+          "industry_position": [
+            "电子布龙头"
+          ],
+          "chain": [
+            "电子布→CCL→PCB→AI服务器"
+          ],
           "partners": []
         }
       ],
@@ -21973,7 +22034,7 @@
       "core_business": [
         "中材科技（002080）全称为中材科技股份有限公司，所属行业为玻璃玻纤。公司主营业务聚焦风电叶片、玻璃纤维及制品、锂电池"
       ],
-      "last_updated": "2026-06-13",
+      "last_updated": "2026-06-27",
       "industry_position": [
         "龙头",
         "国内唯一、全球第二家能量产低膨胀系数(Low-C",
@@ -22013,7 +22074,7 @@
         "融资融券"
       ],
       "code": "002080",
-      "mention_count": 6,
+      "mention_count": 7,
       "partners": [
         "华为",
         "英伟达"
@@ -22139,6 +22200,34 @@
           "core_business": [],
           "industry_position": [],
           "chain": [],
+          "partners": []
+        },
+        {
+          "title": "今天的一些信息整理6.27",
+          "date": "2026-06-27",
+          "source": "https://mp.weixin.qq.com/s/G0iAMpJPs8SSgDfxVoPQUw",
+          "accidents": [
+            "PCB核心材料严重缺货，原材料价格翻倍",
+            "上游材料迎来超级卖方市场"
+          ],
+          "insights": [
+            "电子布受益AI算力需求指数级暴增"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "products": [
+            "电子布",
+            "玻纤"
+          ],
+          "core_business": [
+            "玻纤及制品"
+          ],
+          "industry_position": [
+            "电子布供应商"
+          ],
+          "chain": [
+            "电子布→CCL→PCB"
+          ],
           "partners": []
         }
       ],
@@ -31613,8 +31702,8 @@
       ]
     },
     "002407": {
-      "mention_count": 5,
-      "last_updated": "2026-06-26",
+      "mention_count": 6,
+      "last_updated": "2026-06-27",
       "concepts": [
         "PVDF概念",
         "中芯国际概念",
@@ -31757,6 +31846,47 @@
           "industry_position": [],
           "chain": [],
           "partners": []
+        },
+        {
+          "title": "今天的一些信息整理6.27",
+          "date": "2026-06-27",
+          "source": "https://mp.weixin.qq.com/s/G0iAMpJPs8SSgDfxVoPQUw",
+          "accidents": [
+            "半导体氢氟酸涨价20-30%，产能4万吨满产",
+            "电子级氨水获台积电认证并批量供货",
+            "六氟磷酸锂全球市占率约20%，全年出货量有望超6万吨"
+          ],
+          "insights": [
+            "氟化工龙头跃迁为全球半导体产业链核心供应商",
+            "电池业务年底产能50GWh，远期120GWh，氟芯大圆柱成本远低于行业平均"
+          ],
+          "key_metrics": [
+            "氢氟酸产能4万吨",
+            "六氟全球市占率20%",
+            "电池年底50GWh"
+          ],
+          "target_valuation": [],
+          "products": [
+            "半导体氢氟酸G5级",
+            "电子级氨水",
+            "六氟磷酸锂",
+            "氟芯大圆柱电池"
+          ],
+          "core_business": [
+            "氟化工",
+            "锂电池"
+          ],
+          "industry_position": [
+            "全球六氟磷酸锂龙头",
+            "半导体氢氟酸核心供应商"
+          ],
+          "chain": [
+            "氟资源→氢氟酸→六氟磷酸锂→锂电池"
+          ],
+          "partners": [
+            "台积电",
+            "长鑫存储"
+          ]
         }
       ],
       "industry": "基础化工-化学制品-氟化工",
@@ -56158,8 +56288,8 @@
       ]
     },
     "300383": {
-      "mention_count": 0,
-      "last_updated": "2026-06-05",
+      "mention_count": 1,
+      "last_updated": "2026-06-27",
       "concepts": [
         "AIGC概念",
         "DeepSeek概念",
@@ -56181,7 +56311,45 @@
         "算力租赁",
         "融资融券"
       ],
-      "articles": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理6.27",
+          "date": "2026-06-27",
+          "source": "https://mp.weixin.qq.com/s/G0iAMpJPs8SSgDfxVoPQUw",
+          "accidents": [
+            "算力租赁模式升级：保底租金+Token分成",
+            "传统裸金属出租净利率约20%，Token分成后有望提升至40%",
+            "单台8卡B300月Token流水约88-93万元"
+          ],
+          "insights": [
+            "Token工厂模式做到下限锁死、上限打开",
+            "Z要求H透传合同，大模型To B Token订单通过H作为通道"
+          ],
+          "key_metrics": [
+            "单台月Token流水88-93万",
+            "净利率20%→40%"
+          ],
+          "target_valuation": [],
+          "products": [
+            "算力租赁",
+            "Token工厂"
+          ],
+          "core_business": [
+            "IDC数据中心",
+            "算力租赁"
+          ],
+          "industry_position": [
+            "国内IDC龙头"
+          ],
+          "chain": [
+            "算力租赁→Token工厂→大模型推理"
+          ],
+          "partners": [
+            "H客户",
+            "Z客户"
+          ]
+        }
+      ],
       "industry": "通信-通信服务-通信应用增值服务",
       "board": "SZ",
       "code": "300383",
@@ -58956,7 +59124,7 @@
       "core_business": [
         "PCBmSAP PCB 生产"
       ],
-      "last_updated": "2026-06-13",
+      "last_updated": "2026-06-27",
       "industry_position": [
         "全球PCB龙头"
       ],
@@ -58994,7 +59162,7 @@
         "融资融券"
       ],
       "code": "300476",
-      "mention_count": 8,
+      "mention_count": 9,
       "partners": [
         "光模块厂商"
       ],
@@ -59193,6 +59361,34 @@
             "摩根大通目标价600港元(+77%)",
             "2025-28净利CAGR 81%"
           ]
+        },
+        {
+          "title": "今天的一些信息整理6.27",
+          "date": "2026-06-27",
+          "source": "https://mp.weixin.qq.com/s/G0iAMpJPs8SSgDfxVoPQUw",
+          "accidents": [
+            "PCB发函确认涨价，原材料价格翻倍",
+            "多层PCB材料缺货和交期影响严重"
+          ],
+          "insights": [
+            "AI算力需求对PCB产业链通胀传导完成全链路闭环"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "products": [
+            "高多层PCB",
+            "HDI板"
+          ],
+          "core_business": [
+            "印制电路板PCB"
+          ],
+          "industry_position": [
+            "国内PCB龙头"
+          ],
+          "chain": [
+            "PCB→AI服务器/数据中心"
+          ],
+          "partners": []
         }
       ],
       "board": "SZ",
@@ -94521,8 +94717,8 @@
       "partners": []
     },
     "601636": {
-      "mention_count": 3,
-      "last_updated": "2026-06-13",
+      "mention_count": 4,
+      "last_updated": "2026-06-27",
       "partners": [],
       "concepts": [
         "光伏概念",
@@ -94594,6 +94790,46 @@
           "core_business": [],
           "industry_position": [],
           "chain": [],
+          "partners": []
+        },
+        {
+          "title": "今天的一些信息整理6.27",
+          "date": "2026-06-27",
+          "source": "https://mp.weixin.qq.com/s/G0iAMpJPs8SSgDfxVoPQUw",
+          "accidents": [
+            "拟定增不超过14.3亿用于UTG及玻璃基板等项目",
+            "UTG已攻克配方核心技术，低损耗玻璃基板已实现200×200mm小批量送样",
+            "规划年产117万平米产能，测算收入40亿左右"
+          ],
+          "insights": [
+            "UTG+射频玻璃基板双赛道，定增项目有望贡献约10亿利润",
+            "底部市值160亿+定增项目200亿=360亿目标市值"
+          ],
+          "key_metrics": [
+            "定增14.3亿",
+            "117万平米产能",
+            "测算收入40亿",
+            "目标市值360亿"
+          ],
+          "target_valuation": [
+            "360亿市值"
+          ],
+          "products": [
+            "UTG超薄柔性玻璃",
+            "低损耗低膨胀射频玻璃基板",
+            "FTO导电玻璃",
+            "新能源汽车玻璃"
+          ],
+          "core_business": [
+            "浮法玻璃",
+            "高端玻璃(UTG/玻璃基板)"
+          ],
+          "industry_position": [
+            "国内玻璃龙头"
+          ],
+          "chain": [
+            "玻璃→UTG折叠屏/射频玻璃基板"
+          ],
           "partners": []
         }
       ],
@@ -107424,8 +107660,8 @@
       "partners": []
     },
     "603986": {
-      "mention_count": 6,
-      "last_updated": "2026-06-13",
+      "mention_count": 7,
+      "last_updated": "2026-06-27",
       "partners": [
         "平头哥(阿里)"
       ],
@@ -107594,6 +107830,47 @@
             "上游-存储芯片"
           ],
           "partners": []
+        },
+        {
+          "title": "今天的一些信息整理6.27",
+          "date": "2026-06-27",
+          "source": "https://mp.weixin.qq.com/s/G0iAMpJPs8SSgDfxVoPQUw",
+          "accidents": [
+            "大摩大幅上调2026-2028年EPS预期30%/46%/53%",
+            "目标价上调至888元，乐观情形1543元",
+            "预计2027年在长鑫存储平台量产16G LPDDR4和32G DDR4"
+          ],
+          "insights": [
+            "MCU市场份额持续提升(尤其汽车MCU)，NOR闪存价格上行",
+            "利基型DRAM价格反弹，估值隐含2026年53倍PE"
+          ],
+          "key_metrics": [
+            "目标价888元",
+            "乐观情形1543元",
+            "2026年PE 53倍",
+            "EPS上调30-53%"
+          ],
+          "target_valuation": [
+            "888-1543元目标价"
+          ],
+          "products": [
+            "NOR Flash",
+            "MCU",
+            "DRAM"
+          ],
+          "core_business": [
+            "存储芯片",
+            "MCU微控制器"
+          ],
+          "industry_position": [
+            "国内NOR Flash/MCU龙头"
+          ],
+          "chain": [
+            "存储→NOR/DRAM→AI/汽车"
+          ],
+          "partners": [
+            "长鑫存储"
+          ]
         }
       ],
       "board": "SH",
@@ -145371,9 +145648,47 @@
       "code": "300671",
       "name": "富满微",
       "concept": "",
-      "mention_count": 0,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "今天的一些信息整理6.27",
+          "date": "2026-06-27",
+          "source": "https://mp.weixin.qq.com/s/G0iAMpJPs8SSgDfxVoPQUw",
+          "accidents": [
+            "2026H1利润0.9-1.1亿，Q2单季经营利润约1亿超预期",
+            "累计平均涨价20-30%，LED驱动再次涨价",
+            "积极布局AI模拟器件Drmos，目标北美客户"
+          ],
+          "insights": [
+            "Q2同比扭亏环比+300%，自有封测产线成本可控",
+            "AI模拟芯片布局超预期，部分物料预计年底出产品"
+          ],
+          "key_metrics": [
+            "H1利润中枢1亿",
+            "Q2经营利润约1亿",
+            "累计涨价20-30%"
+          ],
+          "target_valuation": [],
+          "products": [
+            "LED驱动芯片",
+            "Drmos(AI模拟器件)"
+          ],
+          "core_business": [
+            "模拟芯片",
+            "LED驱动"
+          ],
+          "industry_position": [
+            "国内模拟芯片龙头"
+          ],
+          "chain": [
+            "模拟芯片→AI服务器电源/消费电子"
+          ],
+          "partners": [
+            "北美客户"
+          ]
+        }
+      ],
+      "last_updated": "2026-06-27",
       "concepts": [
         "5G",
         "MCU芯片",

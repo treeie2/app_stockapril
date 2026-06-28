@@ -88,7 +88,7 @@
       "core_business": [
         "PCB、封装基板光模块 PCB 供应高端 PCB 研发生产"
       ],
-      "last_updated": "2026-06-13",
+      "last_updated": "2026-06-27",
       "industry_position": [
         "FSD域控制器PCB供应商",
         "国内PCB龙头"
@@ -116,7 +116,7 @@
         "融资融券"
       ],
       "code": "002916",
-      "mention_count": 8,
+      "mention_count": 9,
       "partners": [
         "光模块龙头厂商"
       ],
@@ -133,7 +133,7 @@
       "name": "深南电路",
       "processed_by": "tbox",
       "processed_at": "2026-05-21T19:08:06.096198+08:00",
-      "article_count": 8
+      "article_count": 9
     },
     "688048": {
       "mention_count": 5,
@@ -263,8 +263,8 @@
       "article_count": 12
     },
     "603256": {
-      "mention_count": 8,
-      "last_updated": "2026-06-13",
+      "mention_count": 9,
+      "last_updated": "2026-06-27",
       "partners": [
         "英伟达",
         "台积电"
@@ -315,7 +315,7 @@
         "电子级玻璃纤维布（超薄布），高端电子布龙头"
       ],
       "full_name": "宏和科技（603256）全称为宏和电子材料科技股份有限公司",
-      "article_count": 8
+      "article_count": 9
     },
     "000837": {
       "mention_count": 2,
@@ -10781,7 +10781,7 @@
       "core_business": [
         "中材科技（002080）全称为中材科技股份有限公司，所属行业为玻璃玻纤。公司主营业务聚焦风电叶片、玻璃纤维及制品、锂电池"
       ],
-      "last_updated": "2026-06-13",
+      "last_updated": "2026-06-27",
       "industry_position": [
         "龙头",
         "国内唯一、全球第二家能量产低膨胀系数(Low-C",
@@ -10821,7 +10821,7 @@
         "融资融券"
       ],
       "code": "002080",
-      "mention_count": 6,
+      "mention_count": 7,
       "partners": [
         "华为",
         "英伟达"
@@ -10838,7 +10838,7 @@
       ],
       "name": "中材科技",
       "full_name": "中材科技（002080）全称为中材科技股份有限公司",
-      "article_count": 6
+      "article_count": 7
     },
     "002082": {
       "core_business": [],
@@ -17170,8 +17170,8 @@
       "article_count": 0
     },
     "002407": {
-      "mention_count": 5,
-      "last_updated": "2026-06-26",
+      "mention_count": 6,
+      "last_updated": "2026-06-27",
       "concepts": [
         "PVDF概念",
         "中芯国际概念",
@@ -17220,7 +17220,7 @@
         "电解液产业链"
       ],
       "full_name": "多氟多（002407）全称为多氟多新材料股份有限公司",
-      "article_count": 5
+      "article_count": 6
     },
     "002409": {
       "mention_count": 11,
@@ -31562,8 +31562,8 @@
       "article_count": 1
     },
     "300383": {
-      "mention_count": 0,
-      "last_updated": "2026-06-05",
+      "mention_count": 1,
+      "last_updated": "2026-06-27",
       "concepts": [
         "AIGC概念",
         "DeepSeek概念",
@@ -31590,7 +31590,7 @@
       "code": "300383",
       "name": "光环新网",
       "partners": [],
-      "article_count": 0
+      "article_count": 1
     },
     "300386": {
       "mention_count": 0,
@@ -33305,7 +33305,7 @@
       "core_business": [
         "PCBmSAP PCB 生产"
       ],
-      "last_updated": "2026-06-13",
+      "last_updated": "2026-06-27",
       "industry_position": [
         "全球PCB龙头"
       ],
@@ -33343,7 +33343,7 @@
         "融资融券"
       ],
       "code": "300476",
-      "mention_count": 8,
+      "mention_count": 9,
       "partners": [
         "光模块厂商"
       ],
@@ -33359,7 +33359,7 @@
       "name": "胜宏科技",
       "concept": "AI;PCB;PTFE;高多层",
       "description": "与客户联合开发PTFE方案，布局高多层PCB市场，解决多层板应用技术难题",
-      "article_count": 8
+      "article_count": 9
     },
     "300480": {
       "mention_count": 2,
@@ -55501,8 +55501,8 @@
       "article_count": 1
     },
     "601636": {
-      "mention_count": 3,
-      "last_updated": "2026-06-13",
+      "mention_count": 4,
+      "last_updated": "2026-06-27",
       "partners": [],
       "concepts": [
         "光伏概念",
@@ -55527,7 +55527,7 @@
       "core_business": [
         "浮法玻璃+光伏玻璃+电子玻璃，光伏玻璃扩产+电子玻璃国产替代"
       ],
-      "article_count": 3
+      "article_count": 4
     },
     "601658": {
       "mention_count": 0,
@@ -63402,8 +63402,8 @@
       "article_count": 0
     },
     "603986": {
-      "mention_count": 6,
-      "last_updated": "2026-06-13",
+      "mention_count": 7,
+      "last_updated": "2026-06-27",
       "partners": [
         "平头哥(阿里)"
       ],
@@ -63452,7 +63452,7 @@
       ],
       "processed_by": "tbox",
       "processed_at": "2026-05-20T11:46:50.489842+08:00",
-      "article_count": 6
+      "article_count": 7
     },
     "603990": {
       "mention_count": 2,
@@ -87600,8 +87600,8 @@
       "code": "300671",
       "name": "富满微",
       "concept": "",
-      "mention_count": 0,
-      "last_updated": "2026-05-31",
+      "mention_count": 1,
+      "last_updated": "2026-06-27",
       "concepts": [
         "5G",
         "MCU芯片",
@@ -87625,7 +87625,7 @@
       "industry": "电子-半导体-模拟芯片设计",
       "board": "SZ",
       "partners": [],
-      "article_count": 0
+      "article_count": 1
     },
     "300672": {
       "code": "300672",
