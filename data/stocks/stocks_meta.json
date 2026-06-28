@@ -1,6 +1,6 @@
 {
   "version": "3.0",
-  "updated_at": "2026-06-28",
+  "updated_at": "2026-06-14",
   "stocks": {
     "002962": {
       "mention_count": 2,
@@ -3480,7 +3480,7 @@
       "core_business": [
         "申万宏源（000166）全称为申万宏源集团股份有限公司，所属行业为券商类。 公司主营业务涵盖金融投资、"
       ],
-      "last_updated": "2026-06-28",
+      "last_updated": "2026-06-13",
       "industry_position": [],
       "valuation": {},
       "industry": "非银金融-证券-证券Ⅲ",
@@ -3495,7 +3495,7 @@
         "证金持股"
       ],
       "code": "000166",
-      "mention_count": 3,
+      "mention_count": 2,
       "partners": [],
       "board": "SZ",
       "products": [
@@ -3504,7 +3504,7 @@
       "chain": [],
       "name": "申万宏源",
       "full_name": "申万宏源（000166）全称为**申万宏源集团股份有限公司",
-      "article_count": 3
+      "article_count": 2
     },
     "000301": {
       "core_business": [
@@ -5213,7 +5213,7 @@
       "core_business": [
         "控股昆仑银行（CIPS直接参与者）垄断中哈贸易结算业务"
       ],
-      "last_updated": "2026-06-28",
+      "last_updated": "2026-06-05",
       "industry_position": [],
       "valuation": {},
       "industry": "非银金融-多元金融-多元金融Ⅲ",
@@ -5238,7 +5238,7 @@
         "融资融券"
       ],
       "code": "000617",
-      "mention_count": 1,
+      "mention_count": 0,
       "partners": [
         "* **逻辑**"
       ],
@@ -5246,7 +5246,7 @@
       "products": [],
       "chain": [],
       "name": "中油资本",
-      "article_count": 1
+      "article_count": 0
     },
     "000625": {
       "core_business": [],
@@ -6784,7 +6784,7 @@
     },
     "000823": {
       "core_business": [],
-      "last_updated": "2026-06-28",
+      "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
       "industry": "电子-元件-印制电路板",
@@ -6812,13 +6812,13 @@
         "证金持股"
       ],
       "code": "000823",
-      "mention_count": 1,
+      "mention_count": 0,
       "partners": [],
       "board": "SZ",
       "products": [],
       "chain": [],
       "name": "超声电子",
-      "article_count": 1
+      "article_count": 0
     },
     "000830": {
       "core_business": [
@@ -9253,7 +9253,7 @@
       "core_business": [
         "电影制作与发行院线电影制作主旋律精品内容"
       ],
-      "last_updated": "2026-06-28",
+      "last_updated": "2026-06-13",
       "industry_position": [
         "龙头",
         "主旋律龙头",
@@ -9278,7 +9278,7 @@
         "AIGC"
       ],
       "code": "001330",
-      "mention_count": 3,
+      "mention_count": 2,
       "partners": [],
       "board": "SZ",
       "products": [
@@ -9290,7 +9290,7 @@
         "下游-影视制作"
       ],
       "name": "博纳影业",
-      "article_count": 3
+      "article_count": 2
     },
     "001332": {
       "core_business": [
@@ -10348,8 +10348,8 @@
       "article_count": 0
     },
     "002046": {
-      "mention_count": 5,
-      "last_updated": "2026-06-28",
+      "mention_count": 3,
+      "last_updated": "2026-06-13",
       "partners": [],
       "concepts": [
         "中芯国际概念",
@@ -10396,7 +10396,7 @@
         "金刚石功能化材料特种材料精密制造半导体设备航天轴承轴承及超硬材料制品金刚石散热片"
       ],
       "full_name": "国机精工（002046）全称为国机精工集团股份有限公司",
-      "article_count": 5
+      "article_count": 4
     },
     "002047": {
       "mention_count": 0,
@@ -12093,7 +12093,7 @@
     },
     "002152": {
       "core_business": [],
-      "last_updated": "2026-06-28",
+      "last_updated": "2026-05-31",
       "industry_position": [],
       "valuation": {},
       "industry": "计算机-计算机设备-其他计算机设备",
@@ -12143,7 +12143,7 @@
         "鸿蒙概念"
       ],
       "code": "002152",
-      "mention_count": 1,
+      "mention_count": 0,
       "partners": [],
       "board": "SZ",
       "products": [
@@ -12154,7 +12154,7 @@
         "服务"
       ],
       "name": "广电运通",
-      "article_count": 1
+      "article_count": 0
     },
     "002153": {
       "core_business": [],
@@ -13203,7 +13203,7 @@
       "core_business": [
         "风电整机制造"
       ],
-      "last_updated": "2026-06-28",
+      "last_updated": "2026-06-05",
       "industry_position": [
         "龙头",
         "市占率第一",
@@ -13241,7 +13241,7 @@
         "风电"
       ],
       "code": "002202",
-      "mention_count": 1,
+      "mention_count": 0,
       "partners": [],
       "board": "SZ",
       "products": [
@@ -13252,7 +13252,7 @@
         "中游-制造"
       ],
       "name": "金风科技",
-      "article_count": 1
+      "article_count": 0
     },
     "002203": {
       "core_business": [
@@ -15076,7 +15076,7 @@
     },
     "002298": {
       "core_business": [],
-      "last_updated": "2026-06-28",
+      "last_updated": "2026-06-05",
       "industry_position": [],
       "valuation": {},
       "industry": "电力设备-电网设备-输变电设备",
@@ -15131,13 +15131,13 @@
         "高铁"
       ],
       "code": "002298",
-      "mention_count": 1,
+      "mention_count": 0,
       "partners": [],
       "board": "SZ",
       "products": [],
       "chain": [],
       "name": "中电鑫龙",
-      "article_count": 1
+      "article_count": 0
     },
     "002299": {
       "core_business": [],
@@ -17170,8 +17170,8 @@
       "article_count": 0
     },
     "002407": {
-      "mention_count": 5,
-      "last_updated": "2026-06-28",
+      "mention_count": 3,
+      "last_updated": "2026-06-13",
       "concepts": [
         "PVDF概念",
         "中芯国际概念",
@@ -17220,11 +17220,11 @@
         "电解液产业链"
       ],
       "full_name": "多氟多（002407）全称为多氟多新材料股份有限公司",
-      "article_count": 5
+      "article_count": 4
     },
     "002409": {
-      "mention_count": 11,
-      "last_updated": "2026-06-28",
+      "mention_count": 9,
+      "last_updated": "2026-06-13",
       "concepts": [
         "OLED",
         "专精特新",
@@ -17273,7 +17273,7 @@
       ],
       "full_name": "江苏雅克科技股份有限公司",
       "list_date": "20100525",
-      "article_count": 11
+      "article_count": 10
     },
     "002413": {
       "mention_count": 0,
@@ -22356,8 +22356,8 @@
       "article_count": 1
     },
     "002800": {
-      "mention_count": 1,
-      "last_updated": "2026-06-28",
+      "mention_count": 0,
+      "last_updated": "2026-05-10",
       "concepts": [
         "一带一路",
         "统一大市场",
@@ -22372,7 +22372,7 @@
       "code": "002800",
       "name": "天顺股份",
       "partners": [],
-      "article_count": 1
+      "article_count": 0
     },
     "002805": {
       "mention_count": 0,
@@ -22720,8 +22720,8 @@
       "article_count": 0
     },
     "002828": {
-      "mention_count": 1,
-      "last_updated": "2026-06-28",
+      "mention_count": 0,
+      "last_updated": "2026-05-10",
       "concepts": [
         "一带一路",
         "碳中和",
@@ -22739,7 +22739,7 @@
       "code": "002828",
       "name": "贝肯能源",
       "partners": [],
-      "article_count": 1
+      "article_count": 0
     },
     "002837": {
       "mention_count": 9,
@@ -23531,8 +23531,8 @@
       "article_count": 0
     },
     "002906": {
-      "mention_count": 3,
-      "last_updated": "2026-06-28",
+      "mention_count": 2,
+      "last_updated": "2026-06-13",
       "concepts": [
         "DeepSeek概念",
         "一体化压铸",
@@ -23582,7 +23582,7 @@
       "code": "002906",
       "name": "华阳集团",
       "partners": [],
-      "article_count": 3
+      "article_count": 2
     },
     "002909": {
       "mention_count": 1,
@@ -28275,8 +28275,8 @@
       "article_count": 3
     },
     "300184": {
-      "mention_count": 1,
-      "last_updated": "2026-06-28",
+      "mention_count": 0,
+      "last_updated": "2026-05-31",
       "concepts": [
         "2025年报预增",
         "5G",
@@ -28326,7 +28326,7 @@
         "设备",
         "芯片"
       ],
-      "article_count": 1
+      "article_count": 0
     },
     "300189": {
       "mention_count": 0,
@@ -29663,8 +29663,8 @@
       "article_count": 0
     },
     "300260": {
-      "mention_count": 7,
-      "last_updated": "2026-06-28",
+      "mention_count": 6,
+      "last_updated": "2026-06-13",
       "concepts": [
         "OLED",
         "中芯国际概念",
@@ -29698,7 +29698,7 @@
       ],
       "full_name": "昆山新莱洁净应用材料股份有限公司",
       "list_date": "20110906",
-      "article_count": 7
+      "article_count": 6
     },
     "300261": {
       "mention_count": 1,
@@ -34574,8 +34574,8 @@
       "article_count": 0
     },
     "300576": {
-      "mention_count": 2,
-      "last_updated": "2026-06-28",
+      "mention_count": 1,
+      "last_updated": "2026-06-14",
       "concepts": [
         "粤港澳大湾区",
         "干膜",
@@ -34613,7 +34613,7 @@
       "chain": [
         "上游-PCB材料"
       ],
-      "article_count": 2
+      "article_count": 1
     },
     "300579": {
       "mention_count": 0,
@@ -34963,8 +34963,8 @@
       "article_count": 4
     },
     "300603": {
-      "mention_count": 3,
-      "last_updated": "2026-06-28",
+      "mention_count": 2,
+      "last_updated": "2026-05-31",
       "concepts": [
         "5G",
         "AI应用",
@@ -35011,7 +35011,7 @@
         "IDC数据中心运营+云计算+安防系统集成，东数西算节点运营商，新疆/华南数据中心上架率提升"
       ],
       "chain": [],
-      "article_count": 3
+      "article_count": 2
     },
     "300604": {
       "mention_count": 5,
@@ -36620,8 +36620,8 @@
       "article_count": 0
     },
     "300721": {
-      "mention_count": 6,
-      "last_updated": "2026-06-28",
+      "mention_count": 4,
+      "last_updated": "2026-06-13",
       "concepts": [
         "OLED",
         "光刻胶",
@@ -36654,7 +36654,7 @@
       ],
       "partners": [],
       "full_name": "怡达股份（300721）全称为江苏怡达化学股份有限公司",
-      "article_count": 6
+      "article_count": 5
     },
     "300724": {
       "mention_count": 1,
@@ -36962,8 +36962,8 @@
       "article_count": 6
     },
     "300751": {
-      "mention_count": 3,
-      "last_updated": "2026-06-28",
+      "mention_count": 2,
+      "last_updated": "2026-06-14",
       "partners": [],
       "concepts": [
         "锂电池概念",
@@ -37009,7 +37009,7 @@
       "core_business": [
         "太阳能电池丝网印刷设备（PERC/HJT），光伏设备龙头"
       ],
-      "article_count": 3
+      "article_count": 2
     },
     "300753": {
       "mention_count": 0,
@@ -37792,8 +37792,8 @@
       "article_count": 0
     },
     "300806": {
-      "mention_count": 4,
-      "last_updated": "2026-06-28",
+      "mention_count": 3,
+      "last_updated": "2026-06-13",
       "concepts": [
         "PCB概念",
         "专精特新",
@@ -37827,7 +37827,7 @@
       "industry_position": [
         "粘材料、热管理复合材料及薄膜包装材料的研发、生产和销售。  根据2025年报数据，电子级胶粘材料是核心收入来源，营收15.61亿元，占比51"
       ],
-      "article_count": 4
+      "article_count": 3
     },
     "300809": {
       "mention_count": 1,
@@ -38223,8 +38223,8 @@
       "article_count": 1
     },
     "300850": {
-      "mention_count": 1,
-      "last_updated": "2026-06-28",
+      "mention_count": 0,
+      "last_updated": "2026-05-10",
       "concepts": [
         "高端装备",
         "风电",
@@ -38255,7 +38255,7 @@
       "code": "300850",
       "name": "新强联",
       "partners": [],
-      "article_count": 1
+      "article_count": 0
     },
     "300851": {
       "mention_count": 0,
@@ -38425,8 +38425,8 @@
       "article_count": 3
     },
     "300859": {
-      "mention_count": 2,
-      "last_updated": "2026-06-28",
+      "mention_count": 1,
+      "last_updated": "2026-05-10",
       "concepts": [
         "旅游概念",
         "飞行汽车(eVTOL)",
@@ -38449,7 +38449,7 @@
       "core_business": [
         "西域旅游(新疆旅游)"
       ],
-      "article_count": 2
+      "article_count": 1
     },
     "300860": {
       "mention_count": 0,
@@ -38504,8 +38504,8 @@
       "article_count": 0
     },
     "300870": {
-      "mention_count": 6,
-      "last_updated": "2026-06-28",
+      "mention_count": 5,
+      "last_updated": "2026-06-13",
       "concepts": [
         "WiFi 6",
         "一带一路",
@@ -38550,7 +38550,7 @@
       "partners": [
         "谷歌"
       ],
-      "article_count": 6
+      "article_count": 5
     },
     "300877": {
       "mention_count": 1,
@@ -61534,8 +61534,8 @@
       "article_count": 2
     },
     "603650": {
-      "mention_count": 4,
-      "last_updated": "2026-06-28",
+      "mention_count": 3,
+      "last_updated": "2026-06-13",
       "concepts": [
         "光刻胶",
         "沪股通",
@@ -61570,7 +61570,7 @@
         "抛光"
       ],
       "full_name": "彤程新材（603650）全称为彤程新材料集团股份有限公司",
-      "article_count": 4
+      "article_count": 3
     },
     "603659": {
       "mention_count": 3,
@@ -64723,8 +64723,8 @@
       "article_count": 10
     },
     "688019": {
-      "mention_count": 3,
-      "last_updated": "2026-06-28",
+      "mention_count": 2,
+      "last_updated": "2026-05-22",
       "concepts": [
         "先进封装",
         "光刻胶",
@@ -64764,7 +64764,7 @@
         "材料",
         "特气"
       ],
-      "article_count": 3
+      "article_count": 2
     },
     "688020": {
       "name": "方邦股份",
@@ -65459,8 +65459,8 @@
       "article_count": 0
     },
     "688072": {
-      "mention_count": 10,
-      "last_updated": "2026-06-28",
+      "mention_count": 9,
+      "last_updated": "2026-06-13",
       "partners": [
         "SK海力士"
       ],
@@ -65490,7 +65490,7 @@
         "拓荆科技（688072）全称为拓荆科技股份有限公司，所属行业为半导体类。公司主营业务聚焦高端半导体专用设备的研发、生产、"
       ],
       "full_name": "拓荆科技（688072）全称为拓荆科技股份有限公司",
-      "article_count": 10
+      "article_count": 9
     },
     "688080": {
       "mention_count": 0,
@@ -66103,8 +66103,8 @@
       "article_count": 1
     },
     "688120": {
-      "mention_count": 10,
-      "last_updated": "2026-06-28",
+      "mention_count": 9,
+      "last_updated": "2026-06-13",
       "partners": [],
       "concepts": [
         "MicroLED概念",
@@ -66139,7 +66139,7 @@
       "core_business": [
         "离子注入设备耗材零部件服务磨划设备半导体抛光设备的研发与生产CMP 设备制造"
       ],
-      "article_count": 10
+      "article_count": 9
     },
     "688122": {
       "mention_count": 1,
@@ -75398,8 +75398,8 @@
       "code": "000159",
       "name": "国际实业",
       "concept": "",
-      "mention_count": 1,
-      "last_updated": "2026-06-28",
+      "mention_count": 0,
+      "last_updated": "2026-05-31",
       "core_business": [],
       "industry_position": [],
       "valuation": {},
@@ -75418,7 +75418,7 @@
       "board": "SZ",
       "products": [],
       "chain": [],
-      "article_count": 1
+      "article_count": 0
     },
     "000407": {
       "code": "000407",
@@ -79018,8 +79018,8 @@
       "code": "002166",
       "name": "莱茵生物",
       "concept": "",
-      "mention_count": 1,
-      "last_updated": "2026-06-28",
+      "mention_count": 0,
+      "last_updated": "2026-05-31",
       "core_business": [],
       "industry_position": [],
       "valuation": {},
@@ -79046,7 +79046,7 @@
       "board": "SZ",
       "products": [],
       "chain": [],
-      "article_count": 1
+      "article_count": 0
     },
     "002182": {
       "code": "002182",
@@ -82874,8 +82874,8 @@
       "code": "002912",
       "name": "中新赛克",
       "concept": "",
-      "mention_count": 1,
-      "last_updated": "2026-06-28",
+      "mention_count": 0,
+      "last_updated": "2026-05-31",
       "concepts": [
         "AI应用",
         "AI智能体",
@@ -82912,7 +82912,7 @@
       "industry": "计算机-计算机设备-其他计算机设备",
       "board": "SZ",
       "partners": [],
-      "article_count": 1
+      "article_count": 0
     },
     "002913": {
       "code": "002913",
@@ -86594,8 +86594,8 @@
       "code": "300567",
       "name": "精测电子",
       "concept": "",
-      "mention_count": 6,
-      "last_updated": "2026-06-28",
+      "mention_count": 5,
+      "last_updated": "2026-06-13",
       "concepts": [
         "AI眼镜",
         "MR(混合现实)",
@@ -86635,7 +86635,7 @@
         "芯片"
       ],
       "full_name": "精测电子（300567）全称为武汉精测电子集团股份有限公司",
-      "article_count": 6
+      "article_count": 5
     },
     "300569": {
       "code": "300569",
@@ -89176,8 +89176,8 @@
       "code": "300861",
       "name": "美畅股份",
       "concept": "",
-      "mention_count": 1,
-      "last_updated": "2026-06-28",
+      "mention_count": 0,
+      "last_updated": "2026-05-31",
       "concepts": [
         "2025年报预增",
         "光伏概念",
@@ -89189,7 +89189,7 @@
       "industry": "机械设备-通用设备-磨具磨料",
       "board": "SZ",
       "partners": [],
-      "article_count": 1
+      "article_count": 0
     },
     "300871": {
       "code": "300871",
@@ -92224,8 +92224,8 @@
       "code": "301501",
       "name": "恒鑫生活",
       "concept": "",
-      "mention_count": 1,
-      "last_updated": "2026-06-28",
+      "mention_count": 0,
+      "last_updated": "2026-05-31",
       "concepts": [
         "一带一路",
         "专精特新",
@@ -92236,7 +92236,7 @@
       "industry": "轻工制造-家居用品-其他家居用品",
       "board": "SZ",
       "partners": [],
-      "article_count": 1
+      "article_count": 0
     },
     "301525": {
       "code": "301525",
@@ -92686,8 +92686,8 @@
       "code": "301630",
       "name": "同宇新材",
       "concept": "",
-      "mention_count": 3,
-      "last_updated": "2026-06-28",
+      "mention_count": 1,
+      "last_updated": "2026-06-13",
       "concepts": [
         "PCB概念",
         "专精特新",
@@ -92706,7 +92706,7 @@
       "industry_position": [
         "产和销售，产品主要应用于覆铜板生产领域。根据2025年报数据，电子树脂业务收入达11.95亿元，占总营业收入比例高达99.37%，显示出极高"
       ],
-      "article_count": 3
+      "article_count": 2
     },
     "301633": {
       "code": "301633",
@@ -110214,8 +110214,8 @@
     "003026": {
       "code": "003026",
       "name": "中晶科技",
-      "mention_count": 5,
-      "last_updated": "2026-06-28",
+      "mention_count": 3,
+      "last_updated": "2026-06-13",
       "partners": [],
       "board": "SZ",
       "core_business": [
@@ -110231,7 +110231,7 @@
         "硅片"
       ],
       "full_name": "中晶科技（003026）全称为浙江中晶科技股份有限公司",
-      "article_count": 5
+      "article_count": 4
     },
     "000727": {
       "code": "000727",
@@ -112478,8 +112478,8 @@
       "code": "000920",
       "name": "沃顿科技",
       "board": "SZ",
-      "last_updated": "2026-06-28",
-      "mention_count": 3,
+      "last_updated": "2026-06-13",
+      "mention_count": 2,
       "core_business": [
         "膜分离(反渗透膜/纳滤膜)，水处理/盐湖提锂膜，中车旗下"
       ],
@@ -112487,7 +112487,7 @@
       "chain": [],
       "concepts": [],
       "partners": [],
-      "article_count": 3
+      "article_count": 2
     },
     "600198": {
       "code": "600198",
@@ -112557,8 +112557,8 @@
       "code": "000718",
       "name": "苏宁环球",
       "board": "SZ",
-      "last_updated": "2026-06-28",
-      "mention_count": 2,
+      "last_updated": "2026-06-13",
+      "mention_count": 1,
       "core_business": [
         "房地产开发+医美(南京)，地产+医美双线"
       ],
@@ -112566,7 +112566,7 @@
       "chain": [],
       "concepts": [],
       "partners": [],
-      "article_count": 2
+      "article_count": 1
     },
     "001282": {
       "code": "001282",
@@ -113190,8 +113190,8 @@
       "code": "000552",
       "name": "甘肃能化",
       "board": "SZ",
-      "last_updated": "2026-06-28",
-      "mention_count": 3,
+      "last_updated": "2026-06-13",
+      "mention_count": 2,
       "core_business": [
         "煤炭开采+煤化工(甘肃靖远)，煤电联营+煤化工转型"
       ],
@@ -113199,7 +113199,7 @@
       "chain": [],
       "concepts": [],
       "partners": [],
-      "article_count": 3
+      "article_count": 2
     },
     "600582": {
       "code": "600582",
@@ -113269,8 +113269,8 @@
       "code": "002139",
       "name": "拓邦股份",
       "board": "SZ",
-      "last_updated": "2026-06-28",
-      "mention_count": 2,
+      "last_updated": "2026-06-13",
+      "mention_count": 1,
       "core_business": [
         "智能控制器(家电/电动工具)，控制器中游，人形机器人"
       ],
@@ -113278,7 +113278,7 @@
       "chain": [],
       "concepts": [],
       "partners": [],
-      "article_count": 2
+      "article_count": 1
     },
     "002355": {
       "code": "002355",
@@ -113862,139 +113862,6 @@
       "name": "三和管桩",
       "mention_count": 1,
       "last_updated": "2026-06-26",
-      "article_count": 1
-    },
-    "002674": {
-      "code": "002674",
-      "name": "兴业科技",
-      "mention_count": 1,
-      "last_updated": "2026-06-28",
-      "article_count": 1
-    },
-    "603261": {
-      "code": "603261",
-      "name": "立航科技",
-      "mention_count": 1,
-      "last_updated": "2026-06-28",
-      "article_count": 1
-    },
-    "000633": {
-      "name": "合金投资",
-      "code": "000633",
-      "mention_count": 1,
-      "last_updated": "2026-06-28",
-      "article_count": 1
-    },
-    "300507": {
-      "name": "苏奥传感",
-      "code": "300507",
-      "mention_count": 1,
-      "last_updated": "2026-06-28",
-      "article_count": 1
-    },
-    "300558": {
-      "name": "贝达药业",
-      "code": "300558",
-      "mention_count": 1,
-      "last_updated": "2026-06-28",
-      "article_count": 1
-    },
-    "002726": {
-      "name": "ST龙大",
-      "code": "002726",
-      "mention_count": 1,
-      "last_updated": "2026-06-28",
-      "article_count": 1
-    },
-    "300588": {
-      "name": "熙菱信息",
-      "code": "300588",
-      "mention_count": 1,
-      "last_updated": "2026-06-28",
-      "article_count": 1
-    },
-    "300313": {
-      "name": "天山生物",
-      "code": "300313",
-      "mention_count": 1,
-      "last_updated": "2026-06-28",
-      "article_count": 1
-    },
-    "301301": {
-      "name": "川宁生物",
-      "code": "301301",
-      "mention_count": 1,
-      "last_updated": "2026-06-28",
-      "article_count": 1
-    },
-    "002668": {
-      "name": "TCL智家",
-      "code": "002668",
-      "mention_count": 1,
-      "last_updated": "2026-06-28",
-      "article_count": 1
-    },
-    "301039": {
-      "name": "中集车辆",
-      "code": "301039",
-      "mention_count": 1,
-      "last_updated": "2026-06-28",
-      "article_count": 1
-    },
-    "002948": {
-      "name": "青岛银行",
-      "code": "002948",
-      "mention_count": 1,
-      "last_updated": "2026-06-28",
-      "article_count": 1
-    },
-    "002524": {
-      "name": "光正眼科",
-      "code": "002524",
-      "mention_count": 1,
-      "last_updated": "2026-06-28",
-      "article_count": 1
-    },
-    "301139": {
-      "name": "*ST元道",
-      "code": "301139",
-      "mention_count": 1,
-      "last_updated": "2026-06-28",
-      "article_count": 1
-    },
-    "300904": {
-      "name": "威力传动",
-      "code": "300904",
-      "mention_count": 1,
-      "last_updated": "2026-06-28",
-      "article_count": 1
-    },
-    "301608": {
-      "name": "博实结",
-      "code": "301608",
-      "mention_count": 1,
-      "last_updated": "2026-06-28",
-      "article_count": 1
-    },
-    "002142": {
-      "name": "宁波银行",
-      "code": "002142",
-      "mention_count": 1,
-      "last_updated": "2026-06-28",
-      "article_count": 1
-    },
-    "001390": {
-      "name": "古麒绒材",
-      "code": "001390",
-      "mention_count": 1,
-      "last_updated": "2026-06-28",
-      "article_count": 1
-    },
-    "300978": {
-      "name": "东箭科技",
-      "code": "300978",
-      "mention_count": 1,
-      "last_updated": "2026-06-28",
       "article_count": 1
     }
   }
