@@ -1831,8 +1831,8 @@
       "list_date": "20100316"
     },
     "002865": {
-      "mention_count": 3,
-      "last_updated": "2026-06-13",
+      "mention_count": 4,
+      "last_updated": "2026-06-28",
       "partners": [
         "中科宇航"
       ],
@@ -1900,6 +1900,50 @@
           "industry_position": [],
           "chain": [],
           "partners": []
+        },
+        {
+          "title": "0628信息汇总",
+          "date": "2026-06-28",
+          "source": "https://mp.weixin.qq.com/s/_BCPXV8Opsz2fO437R7CWg",
+          "accidents": [
+            "形成太空能源及材料+卫星制造+卫星运营完整卫星产业链闭环",
+            "巡天千河控股星枢天算，承接上海太空算力联盟1000颗算力卫星发射计划",
+            "CPI膜27年按30万平出货，对应4-5亿归母净利润"
+          ],
+          "insights": [
+            "国内卫星全产业链完整闭环的小SpaceX，商业航天业务看250e市值",
+            "CPI膜30xPE看150e市值，叠加地面主业100-150e"
+          ],
+          "key_metrics": [
+            "CPI膜27年30万平出货",
+            "归母净利润4-5亿",
+            "商业航天估值250亿",
+            "地面主业100-150亿"
+          ],
+          "target_valuation": [
+            "CPI膜150亿+商业航天250亿+地面150亿=550亿"
+          ],
+          "products": [
+            "CPI膜",
+            "卫星制造",
+            "卫星运营",
+            "太空能源及材料"
+          ],
+          "core_business": [
+            "光伏电池",
+            "商业航天(卫星全产业链)"
+          ],
+          "industry_position": [
+            "国内卫星全产业链闭环企业"
+          ],
+          "chain": [
+            "太空能源→卫星制造→卫星运营"
+          ],
+          "partners": [
+            "巡天千河",
+            "星枢天算",
+            "上海太空算力联盟"
+          ]
         }
       ],
       "board": "SZ",
@@ -119703,8 +119747,8 @@
       "partners": []
     },
     "688419": {
-      "mention_count": 1,
-      "last_updated": "2026-06-13",
+      "mention_count": 2,
+      "last_updated": "2026-06-28",
       "code": "688419",
       "articles": [
         {
@@ -119725,6 +119769,52 @@
           "industry_position": [],
           "chain": [],
           "partners": []
+        },
+        {
+          "title": "0628信息汇总",
+          "date": "2026-06-28",
+          "source": "https://mp.weixin.qq.com/s/_BCPXV8Opsz2fO437R7CWg",
+          "accidents": [
+            "国内稀缺c-molding样机出货厂商，样机历经3年研发",
+            "已在长电/通富/华天/太极等五六家头部客户排队等验证结果",
+            "外资大幅上调TOWA目标价至2-4倍"
+          ],
+          "insights": [
+            "多层混合键合+玻璃基板共同指向c-molding需求系统性放量",
+            "玻璃基板脆性高，c-molding压力仅5-20kgf/cm²是更优方案",
+            "今年的耐科就是去年的芯碁微装，纯0到1，放量节奏一模一样"
+          ],
+          "key_metrics": [
+            "30年中国存储产能目标140万片NAND+DRAM",
+            "存量Molding设备需求800台+逻辑200台=1000台",
+            "每年市场空间40亿(250台×1500万)"
+          ],
+          "target_valuation": [
+            "c-molding批量订单落地后估值体系切换"
+          ],
+          "products": [
+            "c-molding(压缩成型)设备",
+            "t-molding(传递成型)设备"
+          ],
+          "core_business": [
+            "半导体封装设备"
+          ],
+          "industry_position": [
+            "国内稀缺c-molding设备厂商",
+            "t-molding曾超越TOWA"
+          ],
+          "chain": [
+            "半导体后道封装→molding设备"
+          ],
+          "partners": [
+            "长电科技",
+            "通富微电",
+            "华天科技",
+            "太极实业",
+            "Intel",
+            "三星",
+            "台积电"
+          ]
         }
       ],
       "board": "SH",
@@ -146078,7 +146168,7 @@
       "code": "300814",
       "name": "中富电路",
       "concept": "",
-      "mention_count": 2,
+      "mention_count": 3,
       "articles": [
         {
           "source": "https://mp.weixin.qq.com/s/FB_Yi85_u5JS4uYFe1O7ag",
@@ -146135,9 +146225,48 @@
             "谷歌",
             "AWS"
           ]
+        },
+        {
+          "title": "0628信息汇总",
+          "date": "2026-06-28",
+          "source": "https://mp.weixin.qq.com/s/_BCPXV8Opsz2fO437R7CWg",
+          "accidents": [
+            "谷歌/NV贡献显著利润弹性，谷歌寻求三星&Intel代工TPU",
+            "明年或为8.5亿定增技改产线购置设备",
+            "卡位全球最核心的二三次电源PCB项目"
+          ],
+          "insights": [
+            "三次电源全球核心卡位，功能性PCB中最陡峭增速环节",
+            "未来三年市场空间有望逐年数倍增长",
+            "谷歌TPU代工或为未来三年最核心弹性来源"
+          ],
+          "key_metrics": [
+            "定增技改8.5亿",
+            "市场空间未来三年逐年数倍增长"
+          ],
+          "target_valuation": [],
+          "products": [
+            "二三次电源PCB",
+            "功能性PCB"
+          ],
+          "core_business": [
+            "印制电路板PCB"
+          ],
+          "industry_position": [
+            "全球二三次电源PCB核心供应商"
+          ],
+          "chain": [
+            "PCB→电源管理→AI服务器/TPU"
+          ],
+          "partners": [
+            "谷歌",
+            "NV(英伟达)",
+            "三星",
+            "Intel"
+          ]
         }
       ],
-      "last_updated": "2026-06-13",
+      "last_updated": "2026-06-28",
       "concepts": [
         "5G",
         "MiniLED",
@@ -172541,10 +172670,52 @@
           "industry_position": [],
           "chain": [],
           "partners": []
+        },
+        {
+          "title": "0628信息汇总",
+          "date": "2026-06-28",
+          "source": "https://mp.weixin.qq.com/s/_BCPXV8Opsz2fO437R7CWg",
+          "accidents": [
+            "绑定佛智芯供应TGV电镀设备&药水，WGGD前来询价",
+            "拟布局铜箔产业延伸进入hvlp4(18um)",
+            "复合集流体验证进展顺利"
+          ],
+          "insights": [
+            "玻璃基板深度卡位，TGV电镀设备+药水引领半导体封装革命",
+            "从设备&药水向下游铜箔延伸，预计单条线利润1亿"
+          ],
+          "key_metrics": [
+            "hvlp4铜箔18um(12+3+3)",
+            "单条线利润预计1亿"
+          ],
+          "target_valuation": [],
+          "products": [
+            "TGV电镀设备",
+            "电镀药水",
+            "hvlp4铜箔"
+          ],
+          "core_business": [
+            "表面处理化学品",
+            "电镀设备",
+            "铜箔"
+          ],
+          "industry_position": [
+            "玻璃基板TGV电镀设备供应商"
+          ],
+          "chain": [
+            "电镀设备/药水→玻璃基板TGV→铜箔"
+          ],
+          "partners": [
+            "佛智芯",
+            "WGGD",
+            "SY",
+            "JT",
+            "GH"
+          ]
         }
       ],
-      "last_updated": "2026-06-04",
-      "mention_count": 3,
+      "last_updated": "2026-06-28",
+      "mention_count": 4,
       "products": [
         "设备",
         "铜箔"
