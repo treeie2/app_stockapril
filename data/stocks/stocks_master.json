@@ -655,8 +655,8 @@
       ]
     },
     "688498": {
-      "mention_count": 10,
-      "last_updated": "2026-06-13",
+      "mention_count": 12,
+      "last_updated": "2026-06-28",
       "partners": [
         "英伟达",
         "全球头部光模块厂商"
@@ -872,6 +872,34 @@
           "partners": [
             "英伟达"
           ]
+        },
+        {
+          "title": "今天的一些信息整理6.28",
+          "date": "2026-06-28",
+          "source": "https://mp.weixin.qq.com/s/UpzBnksrnKtIG8QXndBqWA",
+          "accidents": [
+            "NPO内置方案激光器100-200mw，价值量有望提升",
+            "龙头核心供应链"
+          ],
+          "insights": [
+            "NPO产业趋势明确，激光器价值量提升"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "products": [
+            "EML激光器芯片",
+            "光芯片"
+          ],
+          "core_business": [
+            "光芯片"
+          ],
+          "industry_position": [
+            "国内光芯片龙头"
+          ],
+          "chain": [
+            "光芯片→光模块→NPO"
+          ],
+          "partners": []
         }
       ],
       "board": "SH",
@@ -2545,8 +2573,8 @@
       ]
     },
     "300308": {
-      "mention_count": 22,
-      "last_updated": "2026-06-13",
+      "mention_count": 23,
+      "last_updated": "2026-06-28",
       "partners": [
         "谷歌TPU V8发布后的订单",
         "英伟达",
@@ -3043,6 +3071,35 @@
             "英伟达",
             "北美云厂商"
           ]
+        },
+        {
+          "title": "今天的一些信息整理6.28",
+          "date": "2026-06-28",
+          "source": "https://mp.weixin.qq.com/s/UpzBnksrnKtIG8QXndBqWA",
+          "accidents": [
+            "龙头凭借硅光能力实现较大批量1.6T出货",
+            "业绩有望超预期"
+          ],
+          "insights": [
+            "业绩为王，NPO创新为矛",
+            "核心物料紧缺情况下1.6T出货"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "products": [
+            "1.6T光模块",
+            "硅光模块"
+          ],
+          "core_business": [
+            "光模块"
+          ],
+          "industry_position": [
+            "全球光模块龙头"
+          ],
+          "chain": [
+            "光模块→AI数据中心"
+          ],
+          "partners": []
         }
       ],
       "board": "SZ",
@@ -3187,8 +3244,8 @@
       ]
     },
     "300408": {
-      "mention_count": 8,
-      "last_updated": "2026-06-13",
+      "mention_count": 9,
+      "last_updated": "2026-06-28",
       "partners": [
         "华为、浪潮等核心客户",
         "英伟达Rubin架构交付进度：Q3是否如期启动全球交付，首批客户",
@@ -3363,6 +3420,43 @@
           ],
           "chain": [
             "上游-电子元器件"
+          ],
+          "partners": []
+        },
+        {
+          "title": "今天的一些信息整理6.28",
+          "date": "2026-06-28",
+          "source": "https://mp.weixin.qq.com/s/UpzBnksrnKtIG8QXndBqWA",
+          "accidents": [
+            "MLCC涨价传导，假设明年涨价1X MLCC利润86亿",
+            "三星/太阳诱电7月调价转产催化",
+            "消费级市场受转产影响同步涨价"
+          ],
+          "insights": [
+            "涨价1X对应4300亿市值(40%空间)，涨价2X对应6000亿(翻倍空间)",
+            "SOFC 1260亿+其他430亿+MLCC 2560亿=4300亿"
+          ],
+          "key_metrics": [
+            "涨价1X: MLCC利润86亿",
+            "涨价2X: MLCC对应4400亿市值",
+            "合计6000亿市值(翻倍空间)"
+          ],
+          "target_valuation": [
+            "4300-6000亿市值"
+          ],
+          "products": [
+            "MLCC",
+            "SOFC固体氧化物燃料电池"
+          ],
+          "core_business": [
+            "电子陶瓷",
+            "MLCC"
+          ],
+          "industry_position": [
+            "国内MLCC头部企业"
+          ],
+          "chain": [
+            "MLCC→AI服务器/消费电子"
           ],
           "partners": []
         }
@@ -6341,8 +6435,8 @@
       "list_date": "20190722"
     },
     "688106": {
-      "mention_count": 4,
-      "last_updated": "2026-06-13",
+      "mention_count": 5,
+      "last_updated": "2026-06-28",
       "partners": [],
       "name": "金宏气体",
       "industry_position": [
@@ -6422,6 +6516,36 @@
           "core_business": [],
           "industry_position": [],
           "chain": [],
+          "partners": []
+        },
+        {
+          "title": "今天的一些信息整理6.28",
+          "date": "2026-06-28",
+          "source": "https://mp.weixin.qq.com/s/UpzBnksrnKtIG8QXndBqWA",
+          "accidents": [
+            "半导体高纯二氧化碳库存跌破一个月",
+            "液态CO2价格较年初+20%"
+          ],
+          "insights": [
+            "高纯CO2短缺利好气体供应商"
+          ],
+          "key_metrics": [
+            "液态CO2价格较年初+20%"
+          ],
+          "target_valuation": [],
+          "products": [
+            "高纯二氧化碳",
+            "电子特气"
+          ],
+          "core_business": [
+            "电子特种气体"
+          ],
+          "industry_position": [
+            "国内电子特气龙头"
+          ],
+          "chain": [
+            "高纯CO2→半导体清洗"
+          ],
           "partners": []
         }
       ],
@@ -7325,8 +7449,8 @@
       ]
     },
     "688548": {
-      "mention_count": 5,
-      "last_updated": "2026-06-13",
+      "mention_count": 6,
+      "last_updated": "2026-06-28",
       "partners": [
         "长江存储",
         "长鑫存储"
@@ -7433,6 +7557,39 @@
           "core_business": [],
           "industry_position": [],
           "chain": [],
+          "partners": []
+        },
+        {
+          "title": "今天的一些信息整理6.28",
+          "date": "2026-06-28",
+          "source": "https://mp.weixin.qq.com/s/UpzBnksrnKtIG8QXndBqWA",
+          "accidents": [
+            "半导体高纯二氧化碳库存跌破一个月水平",
+            "液态二氧化碳价格较年初上涨约20%",
+            "三星月用1800-2000吨，SK海力士600-700吨"
+          ],
+          "insights": [
+            "炼油及石化工厂开工率下降导致CO2产量大幅减少",
+            "提高单价也难以确保额外供应量"
+          ],
+          "key_metrics": [
+            "液态CO2价格较年初+20%",
+            "三星月用1800-2000吨"
+          ],
+          "target_valuation": [],
+          "products": [
+            "高纯二氧化碳",
+            "电子大宗气体"
+          ],
+          "core_business": [
+            "电子大宗气体"
+          ],
+          "industry_position": [
+            "国内电子大宗气体龙头"
+          ],
+          "chain": [
+            "高纯CO2→半导体超临界清洗"
+          ],
           "partners": []
         }
       ],
@@ -17124,7 +17281,7 @@
       "core_business": [
         "钽铌材料生产超导材料高温合金材料"
       ],
-      "last_updated": "2026-06-12",
+      "last_updated": "2026-06-28",
       "industry_position": [
         "国内钽铌龙头企业",
         "超导铌材全球市占率达70%",
@@ -17149,7 +17306,7 @@
         "超级电容"
       ],
       "code": "000962",
-      "mention_count": 1,
+      "mention_count": 2,
       "partners": [
         "蓝箭航天"
       ],
@@ -17176,6 +17333,40 @@
             "与巴西Taboca矿业签订5.4亿元采购合同锁定3000吨铁钽铌合金",
             "募投项目新增湿法冶金3000吨、火法冶金1000吨、高端制品145吨产能"
           ]
+        },
+        {
+          "title": "今天的一些信息整理6.28",
+          "date": "2026-06-28",
+          "source": "https://mp.weixin.qq.com/s/UpzBnksrnKtIG8QXndBqWA",
+          "accidents": [
+            "电容器级钽粉全球市占率20%，超高纯钽粉25%+，钽丝50%+",
+            "刚果金Rubaya矿区塌方影响全球钽供应15%"
+          ],
+          "insights": [
+            "AI敞口最大、上涨斜率最陡的金属品种",
+            "钽电容+钽靶材+高温合金三重需求驱动"
+          ],
+          "key_metrics": [
+            "钽粉全球市占率20%",
+            "超高纯钽粉25%+",
+            "钽丝50%+"
+          ],
+          "target_valuation": [],
+          "products": [
+            "电容器级钽粉",
+            "超高纯钽粉",
+            "钽丝"
+          ],
+          "core_business": [
+            "钽铌冶炼加工"
+          ],
+          "industry_position": [
+            "全球钽铌龙头"
+          ],
+          "chain": [
+            "钽→钽电容/靶材→AI服务器/芯片"
+          ],
+          "partners": []
         }
       ],
       "board": "SZ",
@@ -23711,8 +23902,8 @@
       "name": "北纬科技"
     },
     "002149": {
-      "mention_count": 4,
-      "last_updated": "2026-06-13",
+      "mention_count": 6,
+      "last_updated": "2026-06-28",
       "partners": [],
       "concepts": [
         "商业航天",
@@ -23830,6 +24021,36 @@
             "上游-航天材料"
           ],
           "partners": []
+        },
+        {
+          "title": "今天的一些信息整理6.28",
+          "date": "2026-06-28",
+          "source": "https://mp.weixin.qq.com/s/UpzBnksrnKtIG8QXndBqWA",
+          "accidents": [
+            "长征10号乙或首飞在即，中国复用火箭回收验证有望再次开展",
+            "SpaceX拟在美推出零售业务并布局光模块"
+          ],
+          "insights": [
+            "SpaceX链独立且确定，钽铌复材耗材+钛NV code"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "products": [
+            "钽铌复材耗材",
+            "钛合金"
+          ],
+          "core_business": [
+            "稀有金属材料"
+          ],
+          "industry_position": [
+            "SpaceX供应链材料供应商"
+          ],
+          "chain": [
+            "稀有金属→航天复材→SpaceX/火箭"
+          ],
+          "partners": [
+            "SpaceX"
+          ]
         }
       ],
       "board": "SZ",
@@ -30565,8 +30786,8 @@
       ]
     },
     "002384": {
-      "mention_count": 6,
-      "last_updated": "2026-06-13",
+      "mention_count": 8,
+      "last_updated": "2026-06-28",
       "concepts": [
         "2026一季报预增",
         "5G",
@@ -30743,6 +30964,34 @@
           "insights": [],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理6.28",
+          "date": "2026-06-28",
+          "source": "https://mp.weixin.qq.com/s/UpzBnksrnKtIG8QXndBqWA",
+          "accidents": [
+            "凭借大幅度投产光芯片和光模块，自供EML实力突出"
+          ],
+          "insights": [
+            "NPO激光器价值量提升，自供EML优势明显"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "products": [
+            "EML光芯片",
+            "光模块"
+          ],
+          "core_business": [
+            "PCB",
+            "光模块/光芯片"
+          ],
+          "industry_position": [
+            "光芯片+光模块一体化"
+          ],
+          "chain": [
+            "光芯片→光模块→NPO"
+          ],
+          "partners": []
         }
       ],
       "industry": "电子-元件-印制电路板",
@@ -41285,8 +41534,8 @@
       "list_date": "20170306"
     },
     "002859": {
-      "mention_count": 7,
-      "last_updated": "2026-06-13",
+      "mention_count": 9,
+      "last_updated": "2026-06-28",
       "concepts": [
         "PET铜箔",
         "一带一路",
@@ -41483,6 +41732,43 @@
             "上游-电子材料"
           ],
           "partners": []
+        },
+        {
+          "title": "今天的一些信息整理6.28",
+          "date": "2026-06-28",
+          "source": "https://mp.weixin.qq.com/s/UpzBnksrnKtIG8QXndBqWA",
+          "accidents": [
+            "高端离型膜紧缺，公司上调扩产规划，规划产能翻倍至20亿平/年",
+            "当前产能4亿平/年满产，在建3.4亿平2027年初投产",
+            "产品已给三星、村田批量供货"
+          ],
+          "insights": [
+            "国内能供应MLCC高端离型膜的公司非常少，享受AI高容头部大厂供应商逻辑",
+            "单平米有望3-4元，20亿平对应60-80亿营收空间"
+          ],
+          "key_metrics": [
+            "当前产能4亿平/年",
+            "规划总产能20亿平/年(2028-2029)",
+            "单平米3-4元"
+          ],
+          "target_valuation": [],
+          "products": [
+            "MLCC高端离型膜"
+          ],
+          "core_business": [
+            "电子元器件薄型载带",
+            "离型膜"
+          ],
+          "industry_position": [
+            "国内MLCC离型膜龙头"
+          ],
+          "chain": [
+            "MLCC→离型膜→三星/村田"
+          ],
+          "partners": [
+            "三星",
+            "村田"
+          ]
         }
       ],
       "industry": "电子-其他电子-其他电子Ⅲ",
@@ -49486,8 +49772,8 @@
       "partners": []
     },
     "300136": {
-      "mention_count": 7,
-      "last_updated": "2026-06-14",
+      "mention_count": 8,
+      "last_updated": "2026-06-28",
       "partners": [
         "特斯拉",
         "苹果"
@@ -49686,6 +49972,36 @@
           "industry_position": [],
           "chain": [],
           "partners": []
+        },
+        {
+          "title": "今天的一些信息整理6.28",
+          "date": "2026-06-28",
+          "source": "https://mp.weixin.qq.com/s/UpzBnksrnKtIG8QXndBqWA",
+          "accidents": [
+            "SpaceX链，地面终端→上星"
+          ],
+          "insights": [
+            "商业航天资金关注度提升，SpaceX上市后频轨资源竞争激化"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "products": [
+            "卫星地面终端",
+            "天线"
+          ],
+          "core_business": [
+            "射频天线",
+            "卫星通信"
+          ],
+          "industry_position": [
+            "SpaceX供应链"
+          ],
+          "chain": [
+            "天线→卫星通信→SpaceX星链"
+          ],
+          "partners": [
+            "SpaceX"
+          ]
         }
       ],
       "board": "SZ",
@@ -60465,8 +60781,8 @@
       ]
     },
     "300570": {
-      "mention_count": 6,
-      "last_updated": "2026-06-13",
+      "mention_count": 7,
+      "last_updated": "2026-06-28",
       "partners": [],
       "concepts": [
         "5G",
@@ -60610,6 +60926,36 @@
           "industry_position": [],
           "chain": [],
           "partners": []
+        },
+        {
+          "title": "今天的一些信息整理6.28",
+          "date": "2026-06-28",
+          "source": "https://mp.weixin.qq.com/s/UpzBnksrnKtIG8QXndBqWA",
+          "accidents": [
+            "NPO交换机前面板主要采用MPO-16/32，通道数提升带动价值量",
+            "阿里UPN网络下一代6.4T NPO有望使用shuffle"
+          ],
+          "insights": [
+            "MPO和shuffle双重受益NPO产业趋势"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "products": [
+            "MPO连接器",
+            "shuffle box"
+          ],
+          "core_business": [
+            "光器件"
+          ],
+          "industry_position": [
+            "MPO/shuffle龙头"
+          ],
+          "chain": [
+            "MPO/shuffle→NPO交换机"
+          ],
+          "partners": [
+            "阿里"
+          ]
         }
       ],
       "board": "SZ",
@@ -64543,8 +64889,8 @@
       "name": "爱朋医疗"
     },
     "300757": {
-      "mention_count": 3,
-      "last_updated": "2026-06-13",
+      "mention_count": 4,
+      "last_updated": "2026-06-28",
       "concepts": [
         "BC电池",
         "HJT电池",
@@ -64619,6 +64965,35 @@
           "core_business": [],
           "industry_position": [],
           "chain": [],
+          "partners": []
+        },
+        {
+          "title": "今天的一些信息整理6.28",
+          "date": "2026-06-28",
+          "source": "https://mp.weixin.qq.com/s/UpzBnksrnKtIG8QXndBqWA",
+          "accidents": [
+            "CPO产业趋势半导体化，光设备演变成半导体设备带来重估",
+            "康宁GlassBridge仅是远期方案，现有FAU仍被广泛使用"
+          ],
+          "insights": [
+            "坚定做多2-3年内CPO带来业绩大爆发的个股",
+            "光设备演变成半导体设备带来估值重估"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "products": [
+            "CPO光互联设备"
+          ],
+          "core_business": [
+            "光伏自动化设备",
+            "CPO设备"
+          ],
+          "industry_position": [
+            "CPO设备龙头"
+          ],
+          "chain": [
+            "CPO→光互联→AI数据中心"
+          ],
           "partners": []
         }
       ],
@@ -68718,8 +69093,8 @@
       "name": "扬电科技"
     },
     "301013": {
-      "mention_count": 4,
-      "last_updated": "2026-06-13",
+      "mention_count": 6,
+      "last_updated": "2026-06-28",
       "concepts": [
         "5G",
         "OLED",
@@ -68847,6 +69222,44 @@
           "insights": [],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "title": "今天的一些信息整理6.28",
+          "date": "2026-06-28",
+          "source": "https://mp.weixin.qq.com/s/UpzBnksrnKtIG8QXndBqWA",
+          "accidents": [
+            "散单涨价领先，按目前价格对应明年MLCC利润6亿",
+            "正与前村田团队布局AI产品",
+            "预计28年再实现翻倍扩产"
+          ],
+          "insights": [
+            "散单为主有望Q2兑现业绩，整体业绩有望达8.5亿",
+            "30XPE看255亿市值50%空间，整体看翻倍空间"
+          ],
+          "key_metrics": [
+            "明年MLCC利润6亿",
+            "整体业绩有望达8.5亿",
+            "30XPE 255亿市值"
+          ],
+          "target_valuation": [
+            "255亿市值(50%空间)，翻倍空间"
+          ],
+          "products": [
+            "MLCC"
+          ],
+          "core_business": [
+            "MLCC",
+            "自动化设备"
+          ],
+          "industry_position": [
+            "MLCC散单供应商"
+          ],
+          "chain": [
+            "MLCC→消费电子/服务器"
+          ],
+          "partners": [
+            "前村田团队"
+          ]
         }
       ],
       "industry": "机械设备-专用设备-其他专用设备",
@@ -83686,8 +84099,8 @@
       ]
     },
     "600500": {
-      "mention_count": 8,
-      "last_updated": "2026-06-13",
+      "mention_count": 9,
+      "last_updated": "2026-06-28",
       "concepts": [
         "一带一路",
         "上海自贸区",
@@ -83882,6 +84295,42 @@
           "industry_position": [],
           "chain": [],
           "partners": []
+        },
+        {
+          "title": "今天的一些信息整理6.28",
+          "date": "2026-06-28",
+          "source": "https://mp.weixin.qq.com/s/UpzBnksrnKtIG8QXndBqWA",
+          "accidents": [
+            "子公司南通星辰是台系覆铜板厂商PPO树脂核心供应商",
+            "现有产能2280吨/年，规划扩产3000吨",
+            "已成为海外NV产业链树脂最核心国内供应商"
+          ],
+          "insights": [
+            "电子级PPO供应偏紧，多家核心供应商满产",
+            "7月后海外需求进一步增长，价格上调预期增强"
+          ],
+          "key_metrics": [
+            "现有产能2280吨/年",
+            "规划扩产3000吨"
+          ],
+          "target_valuation": [],
+          "products": [
+            "PPO树脂"
+          ],
+          "core_business": [
+            "化工新材料",
+            "PPO树脂"
+          ],
+          "industry_position": [
+            "NV产业链PPO树脂核心国内供应商"
+          ],
+          "chain": [
+            "PPO树脂→覆铜板→AI服务器"
+          ],
+          "partners": [
+            "台系覆铜板厂商",
+            "NV(英伟达)"
+          ]
         }
       ],
       "industry": "基础化工-化学制品-其他化学制品",
@@ -108929,8 +109378,8 @@
       "partners": []
     },
     "605589": {
-      "mention_count": 9,
-      "last_updated": "2026-06-13",
+      "mention_count": 10,
+      "last_updated": "2026-06-28",
       "core_business": [
         "已开发适用于钠电池的硬碳负极材料。"
       ],
@@ -109107,6 +109556,42 @@
           "industry_position": [],
           "chain": [],
           "partners": []
+        },
+        {
+          "title": "今天的一些信息整理6.28",
+          "date": "2026-06-28",
+          "source": "https://mp.weixin.qq.com/s/UpzBnksrnKtIG8QXndBqWA",
+          "accidents": [
+            "PPO/OPE产能1500吨/年满产，在建2000吨/年",
+            "碳氢树脂已有+在建合计1100吨/年",
+            "是国产头部覆铜板厂商核心供应商"
+          ],
+          "insights": [
+            "PPO树脂供应偏紧，价格上调预期增强"
+          ],
+          "key_metrics": [
+            "PPO/OPE 1500吨/年",
+            "在建2000吨/年",
+            "碳氢树脂1100吨/年"
+          ],
+          "target_valuation": [],
+          "products": [
+            "PPO/OPE树脂",
+            "碳氢树脂"
+          ],
+          "core_business": [
+            "合成树脂",
+            "生物质化工"
+          ],
+          "industry_position": [
+            "国产覆铜板PPO核心供应商"
+          ],
+          "chain": [
+            "PPO树脂→覆铜板→AI服务器"
+          ],
+          "partners": [
+            "国产头部覆铜板厂商"
+          ]
         }
       ],
       "board": "SH",
@@ -110240,8 +110725,8 @@
       "name": "国盾量子"
     },
     "688028": {
-      "mention_count": 0,
-      "last_updated": "2026-05-28",
+      "mention_count": 1,
+      "last_updated": "2026-06-28",
       "concepts": [
         "沪股通",
         "芯片概念",
@@ -110253,7 +110738,47 @@
         "工业母机",
         "新能源汽车"
       ],
-      "articles": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理6.28",
+          "date": "2026-06-28",
+          "source": "https://mp.weixin.qq.com/s/UpzBnksrnKtIG8QXndBqWA",
+          "accidents": [
+            "金刚石微钻2026年至今收入已超2025全年，预计至少翻倍以上增长",
+            "2025Q4切入PCB领域，5-6家客户验证中",
+            "年底产能从8万支提升至65万支，2027年目标日产能8000支+"
+          ],
+          "insights": [
+            "半导体钻针1000元/支，毛利率高",
+            "2027年大规模放量，年产能200-300万支"
+          ],
+          "key_metrics": [
+            "2024年营收约500万",
+            "2025年约1500万",
+            "2026年至少翻倍",
+            "年底产能65万支"
+          ],
+          "target_valuation": [],
+          "products": [
+            "金刚石微钻",
+            "钻石声学振膜",
+            "金刚石热管理器件"
+          ],
+          "core_business": [
+            "超硬刀具",
+            "金刚石功能材料"
+          ],
+          "industry_position": [
+            "金刚石微钻国内龙头"
+          ],
+          "chain": [
+            "金刚石→半导体/PCB微钻"
+          ],
+          "partners": [
+            "PCB头部客户"
+          ]
+        }
+      ],
       "industry": "机械设备-通用设备-磨具磨料",
       "board": "SH",
       "code": "688028",
@@ -112195,8 +112720,8 @@
       ]
     },
     "688110": {
-      "mention_count": 2,
-      "last_updated": "2026-06-13",
+      "mention_count": 3,
+      "last_updated": "2026-06-28",
       "partners": [],
       "concepts": [
         "汽车芯片",
@@ -112246,6 +112771,41 @@
           "core_business": [],
           "industry_position": [],
           "chain": [],
+          "partners": []
+        },
+        {
+          "title": "今天的一些信息整理6.28",
+          "date": "2026-06-28",
+          "source": "https://mp.weixin.qq.com/s/UpzBnksrnKtIG8QXndBqWA",
+          "accidents": [
+            "Q1/Q2 SLC涨价50%，Q3有望继续上涨50%，Q4维持30-50%",
+            "Q1毛利率超过缺芯时期，Q2毛利率有望突破60%",
+            "三星/铠侠/美光持续减产SLC/MLC供给"
+          ],
+          "insights": [
+            "SLC NAND利基涨价核心标的，今年的SLC有望成为去年的DDR4",
+            "27年SLC价格涨幅有望翻倍，中长期无新增产能",
+            "国产利基存储尚未演绎周期切成长逻辑"
+          ],
+          "key_metrics": [
+            "SLC Q1/Q2涨价50%",
+            "Q2毛利率有望突破60%",
+            "SLC NAND营收占比70%+"
+          ],
+          "target_valuation": [],
+          "products": [
+            "SLC NAND",
+            "MCP"
+          ],
+          "core_business": [
+            "存储芯片(SLC NAND)"
+          ],
+          "industry_position": [
+            "国内SLC NAND龙头"
+          ],
+          "chain": [
+            "存储→SLC NAND→工业/网通"
+          ],
           "partners": []
         }
       ],
@@ -115217,8 +115777,8 @@
       ]
     },
     "688206": {
-      "mention_count": 0,
-      "last_updated": "2026-05-10",
+      "mention_count": 1,
+      "last_updated": "2026-06-28",
       "concepts": [
         "沪股通",
         "芯片概念",
@@ -115230,7 +115790,47 @@
       "industry_position": [
         "龙头"
       ],
-      "articles": [],
+      "articles": [
+        {
+          "title": "今天的一些信息整理6.28",
+          "date": "2026-06-28",
+          "source": "https://mp.weixin.qq.com/s/UpzBnksrnKtIG8QXndBqWA",
+          "accidents": [
+            "拟19亿收购物理IP龙头锐成芯微100%股权(6.7xPS)",
+            "拟2.74亿收购高速接口IP龙头纳能微45.64%股权(5.6xPS)",
+            "2026Q1锐成芯微营收0.52亿+47.4%，纳能微0.24亿+31.6%"
+          ],
+          "insights": [
+            "IP业务并购渐行渐近，营收将大幅增长",
+            "业绩对赌提升：锐成芯微累计净利≥1.2亿，纳能微≥0.75亿"
+          ],
+          "key_metrics": [
+            "锐成芯微收购对价19亿",
+            "纳能微收购对价2.74亿",
+            "2026Q1营收+47.4%/+31.6%"
+          ],
+          "target_valuation": [],
+          "products": [
+            "EDA软件",
+            "物理IP",
+            "高速接口IP"
+          ],
+          "core_business": [
+            "EDA工具",
+            "半导体IP"
+          ],
+          "industry_position": [
+            "国内EDA龙头"
+          ],
+          "chain": [
+            "EDA→IP→芯片设计"
+          ],
+          "partners": [
+            "锐成芯微",
+            "纳能微"
+          ]
+        }
+      ],
       "industry": "计算机-软件开发-垂直应用软件",
       "board": "SH",
       "code": "688206",
@@ -122988,8 +123588,8 @@
       "partners": []
     },
     "688629": {
-      "mention_count": 2,
-      "last_updated": "2026-06-13",
+      "mention_count": 3,
+      "last_updated": "2026-06-28",
       "concepts": [
         "5G",
         "低空经济",
@@ -123056,6 +123656,49 @@
           "industry_position": [],
           "chain": [],
           "partners": []
+        },
+        {
+          "title": "今天的一些信息整理6.28",
+          "date": "2026-06-28",
+          "source": "https://mp.weixin.qq.com/s/UpzBnksrnKtIG8QXndBqWA",
+          "accidents": [
+            "昇腾950配套线模组6月首次大规模交付，订单环比增长十倍",
+            "CPU socket已批量供货2家国内龙头",
+            "NPO已切入H客户供应链，直接供应6.4T硅光NPO光模块"
+          ],
+          "insights": [
+            "H客户A5主力供应商份额绝对第一，Z客户需求呈指数型爆发",
+            "NPO跳过前序产品直接供应6.4T，价值量远超连接器",
+            "光铜并进布局大超预期"
+          ],
+          "key_metrics": [
+            "6月订单环比增长十倍",
+            "A5平台产能Q3大幅提升",
+            "27年产能再翻倍"
+          ],
+          "target_valuation": [],
+          "products": [
+            "线模组",
+            "Socket连接器",
+            "NPO光模块",
+            "AEC 400G",
+            "MPO/FAU"
+          ],
+          "core_business": [
+            "AI光铜互联",
+            "连接器"
+          ],
+          "industry_position": [
+            "国内AI光铜互联龙头",
+            "H客户A5主力供应商"
+          ],
+          "chain": [
+            "连接器→AI服务器→昇腾/NPO"
+          ],
+          "partners": [
+            "H客户(华为)",
+            "Z客户"
+          ]
         }
       ],
       "industry": "国防军工-军工电子-军工电子Ⅲ",
@@ -123074,8 +123717,8 @@
       ]
     },
     "688630": {
-      "mention_count": 5,
-      "last_updated": "2026-06-13",
+      "mention_count": 6,
+      "last_updated": "2026-06-28",
       "concepts": [
         "2025年报预增",
         "2026一季报预增",
@@ -123206,6 +123849,40 @@
           "industry_position": [],
           "chain": [],
           "partners": []
+        },
+        {
+          "title": "今天的一些信息整理6.28",
+          "date": "2026-06-28",
+          "source": "https://mp.weixin.qq.com/s/UpzBnksrnKtIG8QXndBqWA",
+          "accidents": [
+            "甬矽电子103亿扩产先进封装，设备迎增量",
+            "设备已通过CoWoS-L工艺验证",
+            "封测大厂集中开启扩产周期"
+          ],
+          "insights": [
+            "国内稀缺先进封装RDL设备供应商，充分受益本轮封测扩产",
+            "先进封装国产替代逻辑不断强化"
+          ],
+          "key_metrics": [
+            "甬矽三期投资103亿"
+          ],
+          "target_valuation": [],
+          "products": [
+            "先进封装RDL设备"
+          ],
+          "core_business": [
+            "直写光刻设备",
+            "先进封装设备"
+          ],
+          "industry_position": [
+            "国内稀缺先进封装RDL设备供应商"
+          ],
+          "chain": [
+            "先进封装→RDL→CoWoS-L"
+          ],
+          "partners": [
+            "甬矽电子"
+          ]
         }
       ],
       "industry": "机械设备-专用设备-其他专用设备",
@@ -149907,7 +150584,7 @@
       "code": "301360",
       "name": "荣旗科技",
       "concept": "MLCC;等静压设备",
-      "mention_count": 3,
+      "mention_count": 4,
       "articles": [
         {
           "title": "今天的一些信息整理6.2",
@@ -149982,9 +150659,36 @@
           "industry_position": [],
           "chain": [],
           "partners": []
+        },
+        {
+          "title": "今天的一些信息整理6.28",
+          "date": "2026-06-28",
+          "source": "https://mp.weixin.qq.com/s/UpzBnksrnKtIG8QXndBqWA",
+          "accidents": [
+            "CPO产业趋势半导体化，光设备演变成半导体设备"
+          ],
+          "insights": [
+            "CPO 2-3年内业绩大爆发"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "products": [
+            "CPO相关零部件"
+          ],
+          "core_business": [
+            "精密零部件",
+            "CPO"
+          ],
+          "industry_position": [
+            "CPO产业链供应商"
+          ],
+          "chain": [
+            "CPO→光互联"
+          ],
+          "partners": []
         }
       ],
-      "last_updated": "2026-06-13",
+      "last_updated": "2026-06-28",
       "concepts": [
         "AI眼镜",
         "MR(混合现实)",
@@ -164046,7 +164750,7 @@
       "code": "688090",
       "name": "瑞松科技",
       "concept": "",
-      "mention_count": 7,
+      "mention_count": 8,
       "articles": [
         {
           "title": "瑞松科技，3倍空间？",
@@ -164198,9 +164902,49 @@
           "industry_position": [],
           "chain": [],
           "partners": []
+        },
+        {
+          "title": "今天的一些信息整理6.28",
+          "date": "2026-06-28",
+          "source": "https://mp.weixin.qq.com/s/UpzBnksrnKtIG8QXndBqWA",
+          "accidents": [
+            "康宁GlassBridge加速24/48通道数方案量产",
+            "被动耦合进一步要求MT-光纤插装工艺升级",
+            "芯数越高越需要瑞松PLR"
+          ],
+          "insights": [
+            "终极卖铲人高度受益高芯数趋势",
+            "以明年3500台出货量预计，对应7亿利润增量",
+            "第一目标价320亿"
+          ],
+          "key_metrics": [
+            "明年3500台出货量",
+            "7亿利润增量",
+            "目标市值320亿"
+          ],
+          "target_valuation": [
+            "第一目标价320亿"
+          ],
+          "products": [
+            "PLR(光纤插装设备)"
+          ],
+          "core_business": [
+            "机器人系统集成",
+            "光纤插装设备"
+          ],
+          "industry_position": [
+            "GlassBridge MT插芯插装设备龙头"
+          ],
+          "chain": [
+            "GlassBridge→MT插芯→CPO/NPO"
+          ],
+          "partners": [
+            "康宁",
+            "北美客户"
+          ]
         }
       ],
-      "last_updated": "2026-06-13",
+      "last_updated": "2026-06-28",
       "concepts": [
         "AI应用",
         "专精特新",
@@ -166460,7 +167204,7 @@
       "code": "688409",
       "name": "富创精密",
       "concept": "",
-      "mention_count": 5,
+      "mention_count": 6,
       "articles": [
         {
           "source": "https://mp.weixin.qq.com/s/_AxJ67eFzTt1FMrzZK2-ZQ",
@@ -166570,9 +167314,39 @@
           "industry_position": [],
           "chain": [],
           "partners": []
+        },
+        {
+          "title": "今天的一些信息整理6.28",
+          "date": "2026-06-28",
+          "source": "https://mp.weixin.qq.com/s/UpzBnksrnKtIG8QXndBqWA",
+          "accidents": [
+            "半导体零部件国产化率低位，陶瓷件/真空泵等5-10%",
+            "中韩台半导体扩产潮来袭"
+          ],
+          "insights": [
+            "AI通胀逻辑再演绎，上游零部件卡位设备扩产",
+            "优先国产化率低位环节"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "products": [
+            "陶瓷件",
+            "真空泵",
+            "半导体零部件"
+          ],
+          "core_business": [
+            "半导体精密零部件"
+          ],
+          "industry_position": [
+            "国内半导体零部件龙头"
+          ],
+          "chain": [
+            "零部件→半导体设备→晶圆厂"
+          ],
+          "partners": []
         }
       ],
-      "last_updated": "2026-06-13",
+      "last_updated": "2026-06-28",
       "concepts": [
         "DeepSeek概念",
         "专精特新",
