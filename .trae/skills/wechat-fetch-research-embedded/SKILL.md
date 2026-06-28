@@ -1,17 +1,18 @@
 ---
 name: wechat-fetch-research-embedded
 description: |
-  微信文章 → 结构化投研数据 完整流水线（v3.0）。
+  微信文章 → 结构化投研数据 完整流水线（v3.2）。
   适用场景：从 mp.weixin.qq.com 文章链接提取个股信息并沉淀到 JSON 数据库。
   云端龙虾环境通过飞书接收文章链接，自动执行全流程。
   核心能力：（1）抓取文章正文；（2）LLM 提取个股结构化数据；
-  （3）合并到 stocks_master.json；（4）同步 GitHub + Supabase。
+  （3）合并到 stocks_master.json；（4）构建衍生文件；
+  （5）同步 GitHub + Supabase。
 ---
 
-# wechat-fetch-research-embedded (v3.1)
+# wechat-fetch-research-embedded (v3.2)
 
 > 云端龙虾环境专用。通过飞书接收微信文章链接，自动化投研数据流水线。
-> v3.1 新增：`build_derivatives.py` 生成轻量 meta + articles，Flask 启动快 3x
+> v3.2 新增：`build_derivatives.py` 强制步骤 — 解决「前端看不到新数据」根本原因
 
 ## 目录约定
 
@@ -151,9 +152,9 @@ python .trae/skills/wechat-fetch-research-embedded/scripts/extract_stocks_from_r
 
 ---
 
-### 阶段 3：合并 + 同步
+### 阶段 3：合并 + 构建衍生 + 同步
 
-**目标**：将当日提取结果合并到主数据文件，推送上线
+**目标**：将当日提取结果合并到主数据文件，构建衍生文件（Flask 实际加载），推送上线
 
 #### Step 3A：合并主数据（关键步骤）
 
@@ -167,7 +168,25 @@ python .trae/skills/wechat-fetch-research-embedded/scripts/merge_new_stocks.py
 - 同步更新 `data/stocks/YYYY-MM-DD.json` 分片
 - 累加 `mention_count`
 - 更新 `updated_at` 时间戳
-- 生成 `stocks_master.json.gz`
+
+#### Step 3A-2：构建衍生文件 ⚠️ 必须执行
+
+> **这是最容易遗漏的步骤，遗漏会导致前端看不到任何新数据！**
+
+```bash
+cd f:/app_stockapril && python build_derivatives.py
+```
+
+**为什么必须执行？** Flask 启动时实际加载的文件是：
+- `data/stocks/stocks_meta.json`（优先）
+- `data/stocks/stocks_master.json.gz`（Docker/Vercel 回退）
+
+**不执行此步骤** → 前端永远显示旧数据，无论 master 是否已更新。
+
+`build_derivatives.py` 生成：
+1. `stocks_meta.json` — Flask 优先加载的轻量版（2.8MB）
+2. `stocks_articles.json` — 文章拆分（按需加载）
+3. `stocks_master.json.gz` — 压缩版（1.1MB, Docker/Vercel）
 
 #### Step 3B：同步 GitHub
 
@@ -186,7 +205,20 @@ python .trae/skills/wechat-fetch-research-embedded/scripts/sync_to_supabase.py \
   --date 2026-06-25
 ```
 
-#### Step 3D：同步 ModelScope（可选）
+#### Step 3D：重启服务 + 验证（本地开发）
+
+```bash
+# 1. 停旧服务
+taskkill /f /im python.exe
+
+# 2. 重新启动
+cd f:/app_stockapril && python main.py
+
+# 3. 验证新数据可见
+# 访问 http://localhost:7860/board 确认新股票出现
+```
+
+#### Step 3E：同步 ModelScope（可选）
 
 ```bash
 cd /path/to/aastock
@@ -238,3 +270,40 @@ git add -A && git commit -m "sync: 2026-06-25" && git push origin master
 | `scripts/config.py` | LLM 配置管理 | ✅ |
 | `scripts/map_industry_concept.py` | 行业概念映射 | 🔧 |
 | `scripts/normalize_dates.py` | 日期修复 | 🔧 |
+
+---
+
+## 常见问题
+
+### Q: 更新了文章但前端看不到新数据？
+
+**根因**：遗漏了 `build_derivatives.py` 步骤。
+
+Flask 加载的是 `stocks_meta.json`（优先）或 `stocks_master.json.gz`，而非 `stocks_master.json`。
+
+**修复**：
+```bash
+cd f:/app_stockapril
+python build_derivatives.py    # 从 master 重新生成 meta + gz
+taskkill /f /im python.exe     # 停服务
+python main.py                  # 重启
+```
+
+### Q: 如何验证数据已正确加载？
+
+检查 Flask 启动日志：
+```
+✅ 加载 3525 只股票    ← 应匹配 master 中的 stock_count
+📊 数据加载完成：3525 只股票
+```
+
+如果日志显示的数量与 `stocks_master.json` 不一致，说明衍生文件未更新。
+
+### Q: 完整检查清单
+
+每次更新文章后：
+- [ ] `merge_new_stocks.py` 执行成功
+- [ ] `build_derivatives.py` 执行成功 ⚠️ 最容易遗漏
+- [ ] `git push` 已推送
+- [ ] Flask 已重启（本地）/ Vercel 已自动部署
+- [ ] 访问 `/board` 确认新股票可见

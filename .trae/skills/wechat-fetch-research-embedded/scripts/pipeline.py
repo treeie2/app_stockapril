@@ -1,14 +1,18 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Main pipeline orchestrator for wechat-fetch-research-embedded skill.
+"""Main pipeline orchestrator for wechat-fetch-research-embedded skill (v3.2).
 
 This module provides a unified interface for the complete workflow:
 1. Fetch article content
 2. Extract stock information
-3. Incremental merge to date-based shards
+3. Incremental merge to date-based shards + build derivatives
 4. Sync to Firestore (optional)
 5. Sync to GitHub shards (optional)
 6. Sync to Supabase (optional)
+
+Key change in v3.2: build_derivatives.py is now MANDATORY after merge.
+Flask loads stocks_meta.json and stocks_master.json.gz — NOT stocks_master.json.
+Skipping this step causes "new data not visible on frontend".
 
 Usage:
     python scripts/pipeline.py --url "https://mp.weixin.qq.com/s/..."
@@ -24,6 +28,9 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from scripts.config import get_config, reset_config
 from scripts.logger import get_logger, reset_logger, setup_logger
+
+# 项目根目录 (f:/app_stockapril)
+PROJECT_ROOT = Path(__file__).parent.parent.parent.parent.parent
 
 
 def run_pipeline(
@@ -222,6 +229,26 @@ def run_pipeline(
             
             logger.info(f"[Pipeline] Shard merge completed: +{shard_stats['new_stocks']} new, ~{shard_stats['updated_stocks']} updated")
         
+        # Step 3.6: Build derivatives (MANDATORY — Flask loads meta/gz, not master)
+        logger.info(f"[Pipeline] Step 3.6: Building derivatives (meta + gz)")
+
+        # 调用项目根目录的 build_derivatives.py
+        build_script = PROJECT_ROOT / "build_derivatives.py"
+        if build_script.exists():
+            import subprocess
+            build_result = subprocess.run(
+                [sys.executable, str(build_script)],
+                cwd=str(PROJECT_ROOT),
+                capture_output=True, text=True, timeout=120
+            )
+            if build_result.returncode == 0:
+                logger.info(f"[Pipeline] Derivatives built successfully")
+            else:
+                logger.error(f"[Pipeline] build_derivatives failed: {build_result.stderr[:500]}")
+                result["errors"].append(f"build_derivatives: {build_result.stderr[:200]}")
+        else:
+            logger.warning(f"[Pipeline] build_derivatives.py not found at {build_script}")
+
         # Step 4: Sync to Firestore (optional)
         if sync_firestore:
             logger.info(f"[Pipeline] Step 4: Syncing to Firestore")
