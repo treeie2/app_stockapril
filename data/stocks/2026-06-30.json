@@ -1,0 +1,509 @@
+{
+  "date": "2026-06-30",
+  "update_count": 12,
+  "stocks": {
+    "000962": {
+      "code": "000962",
+      "name": "东方钽业",
+      "articles": [
+        {
+          "title": "聚变堆超导磁体全链突破",
+          "date": "2026-06-30",
+          "source": "https://mp.weixin.qq.com/s/ABRXiL9BmZFPKJSIj8zxFA",
+          "accidents": [
+            "CRAFT环向场超导磁体通过验收，全球尺寸最大",
+            "高纯铌材全球超导市场占有率60%-70%",
+            "ITER项目认证中国唯一铌材供应商"
+          ],
+          "insights": [
+            "低温超导线材最上游不可替代的资源+材料双卡位",
+            "国内NbTi/Nb₃Sn线材扩产及CFETR/BEST启动拉动铌材需求"
+          ],
+          "key_metrics": [
+            "超导铌材全球市占率60%-70%",
+            "ITER唯一中国铌材供应商"
+          ],
+          "target_valuation": [],
+          "products": [
+            "高纯铌材",
+            "钽粉",
+            "钽丝",
+            "钽铌深加工"
+          ],
+          "core_business": [
+            "钽铌稀有金属"
+          ],
+          "industry_position": [
+            "全球超导级高纯铌材寡头"
+          ],
+          "chain": [
+            "铌材→超导线材→聚变磁体"
+          ],
+          "partners": [
+            "西部超导",
+            "ITER"
+          ]
+        }
+      ]
+    },
+    "002149": {
+      "code": "002149",
+      "name": "西部材料",
+      "articles": [
+        {
+          "title": "聚变堆超导磁体全链突破",
+          "date": "2026-06-30",
+          "source": "https://mp.weixin.qq.com/s/ABRXiL9BmZFPKJSIj8zxFA",
+          "accidents": [
+            "为ITER供应超导线材用钽铌阻隔层板带材",
+            "提供钨铜热沉组件、抗辐照难熔金属构件",
+            "国内核电控制棒唯一供应商"
+          ],
+          "insights": [
+            "难熔金属复合材料技术积累深厚",
+            "钨铜复合热沉组件需求随聚变装置增加线性放大"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "products": [
+            "钽铌阻隔层板带",
+            "钨铜热沉组件",
+            "抗辐照难熔金属构件"
+          ],
+          "core_business": [
+            "难熔金属复合材料"
+          ],
+          "industry_position": [
+            "核级难熔金属复合材料龙头"
+          ],
+          "chain": [
+            "难熔金属→超导磁体配套→聚变堆"
+          ],
+          "partners": [
+            "ITER",
+            "西北有色金属研究院"
+          ]
+        }
+      ]
+    },
+    "688122": {
+      "code": "688122",
+      "name": "西部超导",
+      "articles": [
+        {
+          "title": "聚变堆超导磁体全链突破",
+          "date": "2026-06-30",
+          "source": "https://mp.weixin.qq.com/s/ABRXiL9BmZFPKJSIj8zxFA",
+          "accidents": [
+            "CRAFT环向场超导磁体NbTi/Nb₃Sn线材主力供应商",
+            "国内唯一实现低温超导线材商业化量产",
+            "2026年合肥设子公司，产能扩至年产200吨级"
+          ],
+          "insights": [
+            "全球仅2-3家企业具备ITER级Nb₃Sn量产能力",
+            "聚变工程堆线材订单已排产至2027年",
+            "超导+军工钛合金双轮驱动"
+          ],
+          "key_metrics": [
+            "低温超导线材产能200吨/年",
+            "全球2-3家ITER级Nb₃Sn量产企业之一"
+          ],
+          "target_valuation": [],
+          "products": [
+            "NbTi低温超导线材",
+            "Nb₃Sn低温超导线材",
+            "超导MRI线材"
+          ],
+          "core_business": [
+            "低温超导线材",
+            "军工钛合金"
+          ],
+          "industry_position": [
+            "中国低温超导线材龙头",
+            "核聚变磁体核心材料唯一国产供应商"
+          ],
+          "chain": [
+            "超导线材→环向场/极向场磁体→托卡马克"
+          ],
+          "partners": [
+            "CRAFT",
+            "ITER",
+            "CFETR",
+            "BEST"
+          ]
+        }
+      ]
+    },
+    "600105": {
+      "code": "600105",
+      "name": "永鼎股份",
+      "articles": [
+        {
+          "title": "聚变堆超导磁体全链突破",
+          "date": "2026-06-30",
+          "source": "https://mp.weixin.qq.com/s/ABRXiL9BmZFPKJSIj8zxFA",
+          "accidents": [
+            "子公司东部超导实现千米级REBCO带材稳定量产",
+            "带材已通过BEST紧凑型聚变装置及星火一号验证",
+            "国内少数具备IBAD+MOCVD工艺千米级带材量产能力"
+          ],
+          "insights": [
+            "高温超导带材是紧凑型聚变堆中心螺管线圈核心材料",
+            "高温超导业务占比逐步提升"
+          ],
+          "key_metrics": [
+            "千米级REBCO带材量产"
+          ],
+          "target_valuation": [],
+          "products": [
+            "REBCO二代高温超导带材"
+          ],
+          "core_business": [
+            "光通信",
+            "高温超导带材"
+          ],
+          "industry_position": [
+            "国内二代高温超导带材稀缺标的"
+          ],
+          "chain": [
+            "高温超导带材→中心螺管→紧凑型聚变堆"
+          ],
+          "partners": [
+            "BEST",
+            "星火一号"
+          ]
+        }
+      ]
+    },
+    "600577": {
+      "code": "600577",
+      "name": "精达股份",
+      "articles": [
+        {
+          "title": "聚变堆超导磁体全链突破",
+          "date": "2026-06-30",
+          "source": "https://mp.weixin.qq.com/s/ABRXiL9BmZFPKJSIj8zxFA",
+          "accidents": [
+            "持有上海超导约18.15%股权为第一大股东",
+            "上海超导科创板IPO已获受理",
+            "上海超导是国内二代REBCO带材头部企业"
+          ],
+          "insights": [
+            "主业电磁线提供稳定现金流，超导股权投资赋予期权属性",
+            "核聚变高温超导赛道弹性标的"
+          ],
+          "key_metrics": [
+            "持有上海超导18.15%股权"
+          ],
+          "target_valuation": [],
+          "products": [
+            "电磁线",
+            "间接布局高温超导带材"
+          ],
+          "core_business": [
+            "电磁线"
+          ],
+          "industry_position": [
+            "参股上海超导，间接卡位高温超导"
+          ],
+          "chain": [
+            "电磁线→参股→高温超导带材→聚变"
+          ],
+          "partners": [
+            "上海超导"
+          ]
+        }
+      ]
+    },
+    "600363": {
+      "code": "600363",
+      "name": "联创光电",
+      "articles": [
+        {
+          "title": "聚变堆超导磁体全链突破",
+          "date": "2026-06-30",
+          "source": "https://mp.weixin.qq.com/s/ABRXiL9BmZFPKJSIj8zxFA",
+          "accidents": [
+            "完成国内首个基于超导集束缆线的D型超导线圈验证",
+            "参与江西星火一号混合堆项目超导磁体研制",
+            "高温超导磁体技术进入工程化阶段"
+          ],
+          "insights": [
+            "高温超导磁体工程化先行者",
+            "超导感应加热设备已实现收入"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "products": [
+            "高温超导磁体",
+            "超导感应加热设备"
+          ],
+          "core_business": [
+            "光电子",
+            "高温超导磁体"
+          ],
+          "industry_position": [
+            "国内高温超导磁体工程化先锋"
+          ],
+          "chain": [
+            "高温超导磁体→商业聚变堆"
+          ],
+          "partners": [
+            "星火一号"
+          ]
+        }
+      ]
+    },
+    "688186": {
+      "code": "688186",
+      "name": "广大特材",
+      "articles": [
+        {
+          "title": "聚变堆超导磁体全链突破",
+          "date": "2026-06-30",
+          "source": "https://mp.weixin.qq.com/s/ABRXiL9BmZFPKJSIj8zxFA",
+          "accidents": [
+            "实现核聚变超导线圈铠甲材料批量供应",
+            "参与BEST项目TF线圈盒加工",
+            "拟投约4.79亿元扩产特种合金产线"
+          ],
+          "insights": [
+            "磁体大型结构件国产替代参与者",
+            "随着多个聚变装置启动建设需求阶梯式上升"
+          ],
+          "key_metrics": [
+            "拟投资4.79亿元扩产"
+          ],
+          "target_valuation": [],
+          "products": [
+            "超导线圈盒/铠甲材料",
+            "特种合金钢"
+          ],
+          "core_business": [
+            "特种合金钢"
+          ],
+          "industry_position": [
+            "核聚变超导线圈盒特种合金材料供应商"
+          ],
+          "chain": [
+            "特种合金→线圈盒→聚变磁体"
+          ],
+          "partners": [
+            "BEST"
+          ]
+        }
+      ]
+    },
+    "688102": {
+      "code": "688102",
+      "name": "斯瑞新材",
+      "articles": [
+        {
+          "title": "聚变堆超导磁体全链突破",
+          "date": "2026-06-30",
+          "source": "https://mp.weixin.qq.com/s/ABRXiL9BmZFPKJSIj8zxFA",
+          "accidents": [
+            "高强高导铜合金电流引线已在EAST等装置装机运行",
+            "难熔钨基构件可用于第一壁与偏滤器区域"
+          ],
+          "insights": [
+            "磁体系统小而关键的零组件供应商"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "products": [
+            "高强高导铜铬锆合金",
+            "难熔金属零组件"
+          ],
+          "core_business": [
+            "高强高导铜合金",
+            "难熔金属"
+          ],
+          "industry_position": [
+            "托卡马克磁体零组件细分领先"
+          ],
+          "chain": [
+            "铜合金/难熔金属→磁体零组件→聚变装置"
+          ],
+          "partners": [
+            "EAST"
+          ]
+        }
+      ]
+    },
+    "600875": {
+      "code": "600875",
+      "name": "东方电气",
+      "articles": [
+        {
+          "title": "聚变堆超导磁体全链突破",
+          "date": "2026-06-30",
+          "source": "https://mp.weixin.qq.com/s/ABRXiL9BmZFPKJSIj8zxFA",
+          "accidents": [
+            "ITER项目超导磁体核心结构部件制造商",
+            "曾为HL-2M打造中心柱",
+            "具备大型线圈盒加工、超导线圈绕制辅助能力"
+          ],
+          "insights": [
+            "国有高端装备制造在核聚变磁体领域主要承载者"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "products": [
+            "超导线圈盒",
+            "磁体结构部件",
+            "线圈加工/总装"
+          ],
+          "core_business": [
+            "电力设备"
+          ],
+          "industry_position": [
+            "大型托卡马克超导磁体结构件国企龙头"
+          ],
+          "chain": [
+            "磁体结构件→线圈加工→聚变主机"
+          ],
+          "partners": [
+            "ITER",
+            "HL-2M",
+            "CFETR"
+          ]
+        }
+      ]
+    },
+    "002639": {
+      "code": "002639",
+      "name": "雪人集团",
+      "articles": [
+        {
+          "title": "聚变堆超导磁体全链突破",
+          "date": "2026-06-30",
+          "source": "https://mp.weixin.qq.com/s/ABRXiL9BmZFPKJSIj8zxFA",
+          "accidents": [
+            "大型氦气螺杆压缩机在EAST、CRAFT等装置稳定运行",
+            "定制氦气压缩机通过中科院等离子体所验证"
+          ],
+          "insights": [
+            "极低温制冷系统是每台聚变装置必配单元",
+            "多台聚变装置并行建设带来可观增量"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "products": [
+            "大型氦气螺杆压缩机",
+            "极低温制冷系统"
+          ],
+          "core_business": [
+            "制冷设备"
+          ],
+          "industry_position": [
+            "大科学装置极低温氦制冷核心供应商"
+          ],
+          "chain": [
+            "氦制冷→4.2K/1.8K低温→超导磁体运行"
+          ],
+          "partners": [
+            "EAST",
+            "CRAFT",
+            "中科院等离子体所"
+          ]
+        }
+      ]
+    },
+    "603063": {
+      "code": "603063",
+      "name": "禾望电气",
+      "articles": [
+        {
+          "title": "禾望电气：中压UPS出海+AIDC供电新方案",
+          "date": "2026-06-30",
+          "source": "https://mp.weixin.qq.com/s/ABRXiL9BmZFPKJSIj8zxFA",
+          "accidents": [
+            "Vertiv要求公司在墨西哥建厂扩产满足Meta中压UPS需求",
+            "中压UPS模块已通过V验证，为V独供",
+            "Q3将有大批量订单落地，价值量翻倍至2+元/w"
+          ],
+          "insights": [
+            "中压UPS不是过渡方案，是Meta等CSP牵头的AIDC供电新路径",
+            "下一代中压UPS+SST方案将成独立于HVDC的新一代供电方案",
+            "27年增厚8-10e利润，中期看480亿目标市值翻倍空间"
+          ],
+          "key_metrics": [
+            "价值量2+元/w",
+            "27年增厚8-10e利润",
+            "目标市值480亿"
+          ],
+          "target_valuation": [
+            "主业180亿+中压UPS 300亿=480亿目标市值"
+          ],
+          "products": [
+            "中压UPS模块",
+            "中压UPS系统集成",
+            "UPS+SST下一代方案"
+          ],
+          "core_business": [
+            "电力电子",
+            "新能源变流器",
+            "AIDC供电"
+          ],
+          "industry_position": [
+            "Vertiv中压UPS独供",
+            "Meta数据中心供应链"
+          ],
+          "chain": [
+            "中压UPS→AIDC供电→Meta/Vertiv"
+          ],
+          "partners": [
+            "Vertiv",
+            "Meta"
+          ]
+        }
+      ]
+    },
+    "688037": {
+      "code": "688037",
+      "name": "芯源微",
+      "articles": [
+        {
+          "title": "芯源微：涂胶显影国产替代+先进封装",
+          "date": "2026-06-30",
+          "source": "https://mp.weixin.qq.com/s/ABRXiL9BmZFPKJSIj8zxFA",
+          "accidents": [
+            "新一代超高产能涂胶显影机FTAlkaid取得积极进展",
+            "高温SPM清洗设备打破国外垄断",
+            "临时键合/解键合设备达国际先进水平获多家客户订单"
+          ],
+          "insights": [
+            "前道涂胶显影设备国产化率极低，日系TEL占绝大多数份额",
+            "涂胶显影是产线上唯一与光刻机联机作业的核心设备",
+            "多领域并进打破海外垄断"
+          ],
+          "key_metrics": [
+            "前道涂胶显影市场规模约百亿",
+            "国产化率极低"
+          ],
+          "target_valuation": [
+            "涂胶显影国产替代10倍空间"
+          ],
+          "products": [
+            "offline/I-line/KrF/ArF涂胶显影机",
+            "FTAlkaid超高产能涂胶显影机",
+            "高温SPM清洗设备",
+            "临时键合/解键合机"
+          ],
+          "core_business": [
+            "半导体前道涂胶显影设备",
+            "先进封装设备"
+          ],
+          "industry_position": [
+            "国内量产型前道涂胶显影设备龙头"
+          ],
+          "chain": [
+            "涂胶显影→光刻→先进封装"
+          ],
+          "partners": []
+        }
+      ]
+    }
+  }
+}

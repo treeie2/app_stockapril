@@ -1,6 +1,6 @@
 {
   "version": "2.3",
-  "updated_at": "2026-06-28",
+  "updated_at": "2026-06-30",
   "stocks": {
     "002962": {
       "mention_count": 2,
@@ -2058,8 +2058,8 @@
       ]
     },
     "002971": {
-      "mention_count": 3,
-      "last_updated": "2026-06-13",
+      "mention_count": 5,
+      "last_updated": "2026-06-29",
       "partners": [
         "长江存储"
       ],
@@ -2135,6 +2135,33 @@
           ],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "title": "二氧化碳概念股",
+          "date": "2026-06-29",
+          "source": "https://mp.weixin.qq.com/s/JLl0UL-2y_6vTr_RWX2_nw",
+          "accidents": [
+            "华中区域二氧化碳供应龙头",
+            "自研高纯提纯工艺"
+          ],
+          "insights": [
+            "配套钢厂、化工尾气回收项目"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "products": [
+            "高纯二氧化碳"
+          ],
+          "core_business": [
+            "工业气体"
+          ],
+          "industry_position": [
+            "华中CO2供应龙头"
+          ],
+          "chain": [
+            "尾气回收→高纯CO2"
+          ],
+          "partners": []
         }
       ],
       "board": "SZ",
@@ -5357,8 +5384,8 @@
       "list_date": "19981028"
     },
     "600378": {
-      "mention_count": 12,
-      "last_updated": "2026-06-13",
+      "mention_count": 13,
+      "last_updated": "2026-06-29",
       "partners": [],
       "name": "昊华科技",
       "industry_position": [
@@ -5585,6 +5612,34 @@
           "core_business": [],
           "industry_position": [],
           "chain": [],
+          "partners": []
+        },
+        {
+          "title": "二氧化碳概念股",
+          "date": "2026-06-29",
+          "source": "https://mp.weixin.qq.com/s/JLl0UL-2y_6vTr_RWX2_nw",
+          "accidents": [
+            "掌握变压吸附(PSA)提纯二氧化碳核心技术"
+          ],
+          "insights": [
+            "碳捕集吸附分离龙头，供应煤化工/电厂碳分离装置"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "products": [
+            "PSA提纯装置",
+            "碳分离装置"
+          ],
+          "core_business": [
+            "氟化工",
+            "碳捕集"
+          ],
+          "industry_position": [
+            "碳捕集吸附分离龙头"
+          ],
+          "chain": [
+            "PSA→CO2提纯→煤化工/电厂"
+          ],
           "partners": []
         }
       ],
@@ -6496,8 +6551,8 @@
       "list_date": "20190722"
     },
     "688106": {
-      "mention_count": 5,
-      "last_updated": "2026-06-28",
+      "mention_count": 6,
+      "last_updated": "2026-06-29",
       "partners": [],
       "name": "金宏气体",
       "industry_position": [
@@ -6608,6 +6663,36 @@
             "高纯CO2→半导体清洗"
           ],
           "partners": []
+        },
+        {
+          "title": "二氧化碳概念股",
+          "date": "2026-06-29",
+          "source": "https://mp.weixin.qq.com/s/JLl0UL-2y_6vTr_RWX2_nw",
+          "accidents": [
+            "国内电子级高纯二氧化碳(6N/7N)龙头",
+            "已批量供货台积电、长鑫存储等"
+          ],
+          "insights": [
+            "半导体先进制程超临界清洗用高纯CO2国产替代逻辑强"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "products": [
+            "高纯二氧化碳(6N/7N)"
+          ],
+          "core_business": [
+            "电子特种气体"
+          ],
+          "industry_position": [
+            "国内电子级高纯CO2龙头"
+          ],
+          "chain": [
+            "高纯CO2→半导体超临界清洗"
+          ],
+          "partners": [
+            "台积电",
+            "长鑫存储"
+          ]
         }
       ],
       "board": "SH",
@@ -7003,8 +7088,8 @@
       ]
     },
     "688268": {
-      "mention_count": 12,
-      "last_updated": "2026-06-13",
+      "mention_count": 14,
+      "last_updated": "2026-06-29",
       "partners": [
         "云南锗业"
       ],
@@ -7293,6 +7378,36 @@
           ],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "title": "二氧化碳概念股",
+          "date": "2026-06-29",
+          "source": "https://mp.weixin.qq.com/s/JLl0UL-2y_6vTr_RWX2_nw",
+          "accidents": [
+            "高纯二氧化碳产品批量供应长江存储、中芯国际等"
+          ],
+          "insights": [
+            "国内特种气体龙头，适配先进制程清洗与刻蚀"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "products": [
+            "高纯二氧化碳",
+            "特种气体"
+          ],
+          "core_business": [
+            "特种气体"
+          ],
+          "industry_position": [
+            "国内特种气体龙头"
+          ],
+          "chain": [
+            "高纯CO2→先进制程清洗/刻蚀"
+          ],
+          "partners": [
+            "长江存储",
+            "中芯国际"
+          ]
         }
       ],
       "board": "SH",
@@ -7510,8 +7625,8 @@
       ]
     },
     "688548": {
-      "mention_count": 6,
-      "last_updated": "2026-06-28",
+      "mention_count": 7,
+      "last_updated": "2026-06-29",
       "partners": [
         "长江存储",
         "长鑫存储"
@@ -7650,6 +7765,32 @@
           ],
           "chain": [
             "高纯CO2→半导体超临界清洗"
+          ],
+          "partners": []
+        },
+        {
+          "title": "二氧化碳概念股",
+          "date": "2026-06-29",
+          "source": "https://mp.weixin.qq.com/s/JLl0UL-2y_6vTr_RWX2_nw",
+          "accidents": [
+            "量产5N电子级二氧化碳，供给珠三角晶圆/显示面板产业链"
+          ],
+          "insights": [
+            "大湾区大宗电子气体龙头"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "products": [
+            "电子级二氧化碳(5N)"
+          ],
+          "core_business": [
+            "电子大宗气体"
+          ],
+          "industry_position": [
+            "大湾区电子气体龙头"
+          ],
+          "chain": [
+            "电子级CO2→晶圆/面板"
           ],
           "partners": []
         }
@@ -15621,7 +15762,7 @@
       "core_business": [
         "许可项目:建设工程施工,特种设备设计,特种设备制造,特种设备安装改造修理,检验检测服务一般项目:通用设备制造(不含特种设备制造);制冷,空调设备制造;制冷,空调"
       ],
-      "last_updated": "2026-06-13",
+      "last_updated": "2026-06-29",
       "industry_position": [
         "大型工商压缩机市占率第一"
       ],
@@ -15663,7 +15804,7 @@
         "雅下水电概念"
       ],
       "code": "000811",
-      "mention_count": 5,
+      "mention_count": 6,
       "partners": [
         "Dayone",
         "北美头部EPC",
@@ -15755,6 +15896,34 @@
           "core_business": [],
           "industry_position": [],
           "chain": [],
+          "partners": []
+        },
+        {
+          "title": "二氧化碳概念股",
+          "date": "2026-06-29",
+          "source": "https://mp.weixin.qq.com/s/JLl0UL-2y_6vTr_RWX2_nw",
+          "accidents": [
+            "CCUS全流程低温装备龙头"
+          ],
+          "insights": [
+            "主营二氧化碳压缩机、液化制冷机组，覆盖电厂/钢铁/化工碳捕集液化全环节"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "products": [
+            "二氧化碳压缩机",
+            "液化制冷机组"
+          ],
+          "core_business": [
+            "低温冷冻设备",
+            "CCUS装备"
+          ],
+          "industry_position": [
+            "CCUS低温装备龙头"
+          ],
+          "chain": [
+            "CCUS→CO2压缩/液化"
+          ],
           "partners": []
         }
       ],
@@ -16057,7 +16226,7 @@
       "core_business": [
         "有机硅单体、化工新材料"
       ],
-      "last_updated": "2026-06-09",
+      "last_updated": "2026-06-29",
       "industry_position": [
         "有机硅单体产能40万吨/年，全球第一甲酸"
       ],
@@ -16080,7 +16249,7 @@
         "融资融券"
       ],
       "code": "000830",
-      "mention_count": 1,
+      "mention_count": 2,
       "partners": [],
       "articles": [
         {
@@ -16108,6 +16277,32 @@
           ],
           "chain": [
             "上游-DMP"
+          ],
+          "partners": []
+        },
+        {
+          "title": "二氧化碳概念股",
+          "date": "2026-06-29",
+          "source": "https://mp.weixin.qq.com/s/JLl0UL-2y_6vTr_RWX2_nw",
+          "accidents": [
+            "具备先进的二氧化碳气提法生产尿素工艺"
+          ],
+          "insights": [
+            "CO2资源化利用→尿素"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "products": [
+            "尿素(CO2气提法)"
+          ],
+          "core_business": [
+            "煤化工"
+          ],
+          "industry_position": [
+            "CO2气提法尿素龙头"
+          ],
+          "chain": [
+            "CO2→尿素"
           ],
           "partners": []
         }
@@ -17342,7 +17537,7 @@
       "core_business": [
         "钽铌材料生产超导材料高温合金材料"
       ],
-      "last_updated": "2026-06-28",
+      "last_updated": "2026-06-30",
       "industry_position": [
         "国内钽铌龙头企业",
         "超导铌材全球市占率达70%",
@@ -17367,7 +17562,7 @@
         "超级电容"
       ],
       "code": "000962",
-      "mention_count": 2,
+      "mention_count": 3,
       "partners": [
         "蓝箭航天"
       ],
@@ -17428,6 +17623,44 @@
             "钽→钽电容/靶材→AI服务器/芯片"
           ],
           "partners": []
+        },
+        {
+          "title": "聚变堆超导磁体全链突破",
+          "date": "2026-06-30",
+          "source": "https://mp.weixin.qq.com/s/ABRXiL9BmZFPKJSIj8zxFA",
+          "accidents": [
+            "CRAFT环向场超导磁体通过验收，全球尺寸最大",
+            "高纯铌材全球超导市场占有率60%-70%",
+            "ITER项目认证中国唯一铌材供应商"
+          ],
+          "insights": [
+            "低温超导线材最上游不可替代的资源+材料双卡位",
+            "国内NbTi/Nb₃Sn线材扩产及CFETR/BEST启动拉动铌材需求"
+          ],
+          "key_metrics": [
+            "超导铌材全球市占率60%-70%",
+            "ITER唯一中国铌材供应商"
+          ],
+          "target_valuation": [],
+          "products": [
+            "高纯铌材",
+            "钽粉",
+            "钽丝",
+            "钽铌深加工"
+          ],
+          "core_business": [
+            "钽铌稀有金属"
+          ],
+          "industry_position": [
+            "全球超导级高纯铌材寡头"
+          ],
+          "chain": [
+            "铌材→超导线材→聚变磁体"
+          ],
+          "partners": [
+            "西部超导",
+            "ITER"
+          ]
         }
       ],
       "board": "SZ",
@@ -23991,8 +24224,8 @@
       "name": "北纬科技"
     },
     "002149": {
-      "mention_count": 6,
-      "last_updated": "2026-06-28",
+      "mention_count": 7,
+      "last_updated": "2026-06-30",
       "partners": [],
       "concepts": [
         "商业航天",
@@ -24139,6 +24372,40 @@
           ],
           "partners": [
             "SpaceX"
+          ]
+        },
+        {
+          "title": "聚变堆超导磁体全链突破",
+          "date": "2026-06-30",
+          "source": "https://mp.weixin.qq.com/s/ABRXiL9BmZFPKJSIj8zxFA",
+          "accidents": [
+            "为ITER供应超导线材用钽铌阻隔层板带材",
+            "提供钨铜热沉组件、抗辐照难熔金属构件",
+            "国内核电控制棒唯一供应商"
+          ],
+          "insights": [
+            "难熔金属复合材料技术积累深厚",
+            "钨铜复合热沉组件需求随聚变装置增加线性放大"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "products": [
+            "钽铌阻隔层板带",
+            "钨铜热沉组件",
+            "抗辐照难熔金属构件"
+          ],
+          "core_business": [
+            "难熔金属复合材料"
+          ],
+          "industry_position": [
+            "核级难熔金属复合材料龙头"
+          ],
+          "chain": [
+            "难熔金属→超导磁体配套→聚变堆"
+          ],
+          "partners": [
+            "ITER",
+            "西北有色金属研究院"
           ]
         }
       ],
@@ -27989,7 +28256,7 @@
       "core_business": [
         "基本盘提供抗风险底座是一家深耕润滑、液压及热管理系统的传统风电/重型装备制造企业作为国内风电液压润滑油箱和冷却系统的核心供应商"
       ],
-      "last_updated": "2026-06-05",
+      "last_updated": "2026-06-29",
       "industry_position": [
         "作为国内风电液压润滑油箱和冷却系统的核心供应商，公司受益于海上风电大型化和风电出海的大趋势"
       ],
@@ -28023,7 +28290,7 @@
         "高端装备"
       ],
       "code": "002272",
-      "mention_count": 1,
+      "mention_count": 2,
       "partners": [
         "存储芯片行业迎来涨价潮"
       ],
@@ -28050,6 +28317,32 @@
             "：新老业务交替阶段，研发投入和三费（销售、管理、财务费用）增速较快，一季度三费占营收比重已达20.27%，导致短期净利润承压。"
           ],
           "target_valuation": []
+        },
+        {
+          "title": "二氧化碳概念股",
+          "date": "2026-06-29",
+          "source": "https://mp.weixin.qq.com/s/JLl0UL-2y_6vTr_RWX2_nw",
+          "accidents": [
+            "为超临界二氧化碳发电机组定制开发高性能冷却器"
+          ],
+          "insights": [
+            "适配超临界高温高压特殊工况"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "products": [
+            "高性能冷却器"
+          ],
+          "core_business": [
+            "润滑冷却设备"
+          ],
+          "industry_position": [
+            "超临界CO2冷却器供应商"
+          ],
+          "chain": [
+            "超临界CO2发电→冷却器"
+          ],
+          "partners": []
         }
       ],
       "board": "SZ",
@@ -29172,7 +29465,7 @@
     },
     "002318": {
       "core_business": [],
-      "last_updated": "2026-05-10",
+      "last_updated": "2026-06-29",
       "industry_position": [],
       "valuation": {},
       "industry": "钢铁-钢铁-特钢",
@@ -29188,9 +29481,36 @@
         "深股通"
       ],
       "code": "002318",
-      "mention_count": 0,
+      "mention_count": 1,
       "partners": [],
-      "articles": [],
+      "articles": [
+        {
+          "title": "二氧化碳概念股",
+          "date": "2026-06-29",
+          "source": "https://mp.weixin.qq.com/s/JLl0UL-2y_6vTr_RWX2_nw",
+          "accidents": [
+            "为超临界二氧化碳发电系统提供关键特种管材"
+          ],
+          "insights": [
+            "耐高温高压合金管材龙头"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "products": [
+            "耐高温高压合金管材"
+          ],
+          "core_business": [
+            "特种管材"
+          ],
+          "industry_position": [
+            "耐高温高压合金管材龙头"
+          ],
+          "chain": [
+            "超临界CO2发电→特种管材"
+          ],
+          "partners": []
+        }
+      ],
       "board": "SZ",
       "products": [],
       "chain": [],
@@ -35911,8 +36231,8 @@
       "name": "春兴精工"
     },
     "002549": {
-      "mention_count": 4,
-      "last_updated": "2026-06-13",
+      "mention_count": 5,
+      "last_updated": "2026-06-29",
       "concepts": [
         "专精特新",
         "俄乌冲突概念",
@@ -35995,6 +36315,37 @@
           "industry_position": [],
           "chain": [],
           "partners": []
+        },
+        {
+          "title": "二氧化碳概念股",
+          "date": "2026-06-29",
+          "source": "https://mp.weixin.qq.com/s/JLl0UL-2y_6vTr_RWX2_nw",
+          "accidents": [
+            "国内高纯二氧化碳(5N/6N)龙头，依托石化尾气提纯",
+            "光刻气通过ASML子公司认证"
+          ],
+          "insights": [
+            "产品覆盖半导体清洗、食品级及电子级"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "products": [
+            "高纯二氧化碳(5N/6N)",
+            "光刻气"
+          ],
+          "core_business": [
+            "高纯气体",
+            "光刻气"
+          ],
+          "industry_position": [
+            "国内高纯CO2龙头"
+          ],
+          "chain": [
+            "石化尾气→高纯CO2→半导体/食品"
+          ],
+          "partners": [
+            "ASML子公司"
+          ]
         }
       ],
       "industry": "环保-环境治理-大气治理",
@@ -44807,8 +45158,8 @@
       "name": "兆威机电"
     },
     "003022": {
-      "mention_count": 1,
-      "last_updated": "2026-06-11",
+      "mention_count": 2,
+      "last_updated": "2026-06-29",
       "concepts": [
         "HJT电池",
         "PEEK材料",
@@ -44853,6 +45204,35 @@
           ],
           "chain": [
             "环氧丙烷产业链"
+          ],
+          "partners": []
+        },
+        {
+          "title": "二氧化碳概念股",
+          "date": "2026-06-29",
+          "source": "https://mp.weixin.qq.com/s/JLl0UL-2y_6vTr_RWX2_nw",
+          "accidents": [
+            "全球首套5万吨级二氧化碳基PPC可降解塑料量产"
+          ],
+          "insights": [
+            "二氧化碳直接作为核心聚合原料，实现碳资源化"
+          ],
+          "key_metrics": [
+            "5万吨级CO2基PPC"
+          ],
+          "target_valuation": [],
+          "products": [
+            "CO2基PPC可降解塑料"
+          ],
+          "core_business": [
+            "新材料",
+            "可降解塑料"
+          ],
+          "industry_position": [
+            "CO2基PPC全球首套量产"
+          ],
+          "chain": [
+            "CO2→PPC可降解塑料"
           ],
           "partners": []
         }
@@ -69575,8 +69955,8 @@
       ]
     },
     "301033": {
-      "mention_count": 0,
-      "last_updated": "2026-05-10",
+      "mention_count": 1,
+      "last_updated": "2026-06-29",
       "concepts": [
         "医美概念",
         "牙科医疗",
@@ -69584,7 +69964,34 @@
         "3D打印",
         "医疗器械概念"
       ],
-      "articles": [],
+      "articles": [
+        {
+          "title": "二氧化碳概念股",
+          "date": "2026-06-29",
+          "source": "https://mp.weixin.qq.com/s/JLl0UL-2y_6vTr_RWX2_nw",
+          "accidents": [
+            "规模化生产工业与电子级二氧化碳"
+          ],
+          "insights": [
+            "西南工业气体龙头，配套成渝半导体集群"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "products": [
+            "工业/电子级二氧化碳"
+          ],
+          "core_business": [
+            "工业气体"
+          ],
+          "industry_position": [
+            "西南工业气体龙头"
+          ],
+          "chain": [
+            "工业气体→成渝半导体集群"
+          ],
+          "partners": []
+        }
+      ],
       "industry": "医药生物-医疗器械-医疗耗材",
       "board": "SZ",
       "products": [
@@ -78257,8 +78664,8 @@
       "partners": []
     },
     "600105": {
-      "mention_count": 3,
-      "last_updated": "2026-06-13",
+      "mention_count": 4,
+      "last_updated": "2026-06-30",
       "partners": [
         "国内头部光模块厂商",
         "中国移动研究院"
@@ -78351,6 +78758,41 @@
           "industry_position": [],
           "chain": [],
           "partners": []
+        },
+        {
+          "title": "聚变堆超导磁体全链突破",
+          "date": "2026-06-30",
+          "source": "https://mp.weixin.qq.com/s/ABRXiL9BmZFPKJSIj8zxFA",
+          "accidents": [
+            "子公司东部超导实现千米级REBCO带材稳定量产",
+            "带材已通过BEST紧凑型聚变装置及星火一号验证",
+            "国内少数具备IBAD+MOCVD工艺千米级带材量产能力"
+          ],
+          "insights": [
+            "高温超导带材是紧凑型聚变堆中心螺管线圈核心材料",
+            "高温超导业务占比逐步提升"
+          ],
+          "key_metrics": [
+            "千米级REBCO带材量产"
+          ],
+          "target_valuation": [],
+          "products": [
+            "REBCO二代高温超导带材"
+          ],
+          "core_business": [
+            "光通信",
+            "高温超导带材"
+          ],
+          "industry_position": [
+            "国内二代高温超导带材稀缺标的"
+          ],
+          "chain": [
+            "高温超导带材→中心螺管→紧凑型聚变堆"
+          ],
+          "partners": [
+            "BEST",
+            "星火一号"
+          ]
         }
       ],
       "board": "SH",
@@ -82105,8 +82547,8 @@
       "partners": []
     },
     "600363": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-30",
       "concepts": [
         "2025年报预增",
         "OLED",
@@ -82141,6 +82583,39 @@
             "西部超导作为ITER项目超导线材核心供应商"
           ],
           "key_metrics": []
+        },
+        {
+          "title": "聚变堆超导磁体全链突破",
+          "date": "2026-06-30",
+          "source": "https://mp.weixin.qq.com/s/ABRXiL9BmZFPKJSIj8zxFA",
+          "accidents": [
+            "完成国内首个基于超导集束缆线的D型超导线圈验证",
+            "参与江西星火一号混合堆项目超导磁体研制",
+            "高温超导磁体技术进入工程化阶段"
+          ],
+          "insights": [
+            "高温超导磁体工程化先行者",
+            "超导感应加热设备已实现收入"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "products": [
+            "高温超导磁体",
+            "超导感应加热设备"
+          ],
+          "core_business": [
+            "光电子",
+            "高温超导磁体"
+          ],
+          "industry_position": [
+            "国内高温超导磁体工程化先锋"
+          ],
+          "chain": [
+            "高温超导磁体→商业聚变堆"
+          ],
+          "partners": [
+            "星火一号"
+          ]
         }
       ],
       "industry": "电子-消费电子-消费电子零部件及组装",
@@ -82973,8 +83448,8 @@
       "partners": []
     },
     "600426": {
-      "mention_count": 0,
-      "last_updated": "2026-05-10",
+      "mention_count": 1,
+      "last_updated": "2026-06-29",
       "concepts": [
         "沪股通",
         "融资融券",
@@ -82986,7 +83461,36 @@
         "龙头",
         "鲁恒升：溶剂环节龙头"
       ],
-      "articles": [],
+      "articles": [
+        {
+          "title": "二氧化碳概念股",
+          "date": "2026-06-29",
+          "source": "https://mp.weixin.qq.com/s/JLl0UL-2y_6vTr_RWX2_nw",
+          "accidents": [
+            "回收装置尾气提纯二氧化碳"
+          ],
+          "insights": [
+            "用于合成碳酸二甲酯、尿素、纯碱等化工品"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "products": [
+            "碳酸二甲酯",
+            "尿素",
+            "纯碱"
+          ],
+          "core_business": [
+            "煤化工"
+          ],
+          "industry_position": [
+            "煤化工龙头"
+          ],
+          "chain": [
+            "CO2→碳酸二甲酯/尿素/纯碱"
+          ],
+          "partners": []
+        }
+      ],
       "industry": "基础化工-农化制品-氮肥",
       "board": "SH",
       "code": "600426",
@@ -85968,8 +86472,8 @@
       "name": "信雅达"
     },
     "600577": {
-      "mention_count": 0,
-      "last_updated": "2026-05-31",
+      "mention_count": 1,
+      "last_updated": "2026-06-30",
       "concepts": [
         "ERP概念",
         "人形机器人",
@@ -85991,7 +86495,42 @@
         "铜缆高速连接",
         "高压快充"
       ],
-      "articles": [],
+      "articles": [
+        {
+          "title": "聚变堆超导磁体全链突破",
+          "date": "2026-06-30",
+          "source": "https://mp.weixin.qq.com/s/ABRXiL9BmZFPKJSIj8zxFA",
+          "accidents": [
+            "持有上海超导约18.15%股权为第一大股东",
+            "上海超导科创板IPO已获受理",
+            "上海超导是国内二代REBCO带材头部企业"
+          ],
+          "insights": [
+            "主业电磁线提供稳定现金流，超导股权投资赋予期权属性",
+            "核聚变高温超导赛道弹性标的"
+          ],
+          "key_metrics": [
+            "持有上海超导18.15%股权"
+          ],
+          "target_valuation": [],
+          "products": [
+            "电磁线",
+            "间接布局高温超导带材"
+          ],
+          "core_business": [
+            "电磁线"
+          ],
+          "industry_position": [
+            "参股上海超导，间接卡位高温超导"
+          ],
+          "chain": [
+            "电磁线→参股→高温超导带材→聚变"
+          ],
+          "partners": [
+            "上海超导"
+          ]
+        }
+      ],
       "industry": "电力设备-电网设备-线缆部件及其他",
       "board": "SH",
       "code": "600577",
@@ -90391,8 +90930,8 @@
       "partners": []
     },
     "600875": {
-      "mention_count": 1,
-      "last_updated": "2026-06-13",
+      "mention_count": 3,
+      "last_updated": "2026-06-30",
       "concepts": [
         "ChatGPT概念",
         "DeepSeek概念",
@@ -90438,6 +90977,67 @@
           "industry_position": [],
           "chain": [],
           "partners": []
+        },
+        {
+          "title": "二氧化碳概念股",
+          "date": "2026-06-29",
+          "source": "https://mp.weixin.qq.com/s/JLl0UL-2y_6vTr_RWX2_nw",
+          "accidents": [
+            "为超临界二氧化碳发电机组提供压缩机/透平机等核心设备"
+          ],
+          "insights": [
+            "国内发电设备制造龙头，深度参与超临界CO2发电示范项目"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "products": [
+            "超临界CO2压缩机",
+            "透平机"
+          ],
+          "core_business": [
+            "发电设备"
+          ],
+          "industry_position": [
+            "国内发电设备龙头"
+          ],
+          "chain": [
+            "超临界CO2发电→压缩机/透平"
+          ],
+          "partners": []
+        },
+        {
+          "title": "聚变堆超导磁体全链突破",
+          "date": "2026-06-30",
+          "source": "https://mp.weixin.qq.com/s/ABRXiL9BmZFPKJSIj8zxFA",
+          "accidents": [
+            "ITER项目超导磁体核心结构部件制造商",
+            "曾为HL-2M打造中心柱",
+            "具备大型线圈盒加工、超导线圈绕制辅助能力"
+          ],
+          "insights": [
+            "国有高端装备制造在核聚变磁体领域主要承载者"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "products": [
+            "超导线圈盒",
+            "磁体结构部件",
+            "线圈加工/总装"
+          ],
+          "core_business": [
+            "电力设备"
+          ],
+          "industry_position": [
+            "大型托卡马克超导磁体结构件国企龙头"
+          ],
+          "chain": [
+            "磁体结构件→线圈加工→聚变主机"
+          ],
+          "partners": [
+            "ITER",
+            "HL-2M",
+            "CFETR"
+          ]
         }
       ],
       "industry": "电力设备-其他电源设备-其他电源设备Ⅲ",
@@ -98520,8 +99120,8 @@
       ]
     },
     "603063": {
-      "mention_count": 1,
-      "last_updated": "2026-06-04",
+      "mention_count": 2,
+      "last_updated": "2026-06-30",
       "concepts": [
         "储能",
         "光伏概念",
@@ -98553,6 +99153,50 @@
           ],
           "key_metrics": [],
           "target_valuation": []
+        },
+        {
+          "title": "禾望电气：中压UPS出海+AIDC供电新方案",
+          "date": "2026-06-30",
+          "source": "https://mp.weixin.qq.com/s/ABRXiL9BmZFPKJSIj8zxFA",
+          "accidents": [
+            "Vertiv要求公司在墨西哥建厂扩产满足Meta中压UPS需求",
+            "中压UPS模块已通过V验证，为V独供",
+            "Q3将有大批量订单落地，价值量翻倍至2+元/w"
+          ],
+          "insights": [
+            "中压UPS不是过渡方案，是Meta等CSP牵头的AIDC供电新路径",
+            "下一代中压UPS+SST方案将成独立于HVDC的新一代供电方案",
+            "27年增厚8-10e利润，中期看480亿目标市值翻倍空间"
+          ],
+          "key_metrics": [
+            "价值量2+元/w",
+            "27年增厚8-10e利润",
+            "目标市值480亿"
+          ],
+          "target_valuation": [
+            "主业180亿+中压UPS 300亿=480亿目标市值"
+          ],
+          "products": [
+            "中压UPS模块",
+            "中压UPS系统集成",
+            "UPS+SST下一代方案"
+          ],
+          "core_business": [
+            "电力电子",
+            "新能源变流器",
+            "AIDC供电"
+          ],
+          "industry_position": [
+            "Vertiv中压UPS独供",
+            "Meta数据中心供应链"
+          ],
+          "chain": [
+            "中压UPS→AIDC供电→Meta/Vertiv"
+          ],
+          "partners": [
+            "Vertiv",
+            "Meta"
+          ]
         }
       ],
       "industry": "电力设备-风电设备-风电零部件",
@@ -99847,8 +100491,8 @@
       "partners": []
     },
     "603169": {
-      "mention_count": 0,
-      "last_updated": "2026-05-10",
+      "mention_count": 1,
+      "last_updated": "2026-06-29",
       "concepts": [
         "一带一路",
         "沪股通",
@@ -99881,7 +100525,38 @@
       "industry_position": [
         "技术优势：国内唯一掌握全堆级核聚变装置关键装备的企业，承建中科院合肥EAST装置"
       ],
-      "articles": [],
+      "articles": [
+        {
+          "title": "二氧化碳概念股",
+          "date": "2026-06-29",
+          "source": "https://mp.weixin.qq.com/s/JLl0UL-2y_6vTr_RWX2_nw",
+          "accidents": [
+            "承接百万吨级CCUS成套设备订单",
+            "制造超临界二氧化碳高压容器"
+          ],
+          "insights": [
+            "大型压力容器、CO捕集提纯反应器制造商"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "products": [
+            "CCUS成套设备",
+            "超临界CO2高压容器",
+            "PCHE换热器"
+          ],
+          "core_business": [
+            "压力容器",
+            "CCUS装备"
+          ],
+          "industry_position": [
+            "CCUS装备龙头"
+          ],
+          "chain": [
+            "CCUS→CO2高压容器/换热器"
+          ],
+          "partners": []
+        }
+      ],
       "industry": "机械设备-专用设备-能源及重型设备",
       "board": "SH",
       "code": "603169",
@@ -111168,8 +111843,8 @@
       "full_name": "星环科技（688031）全称为星环信息科技(上海)股份有限公司"
     },
     "688037": {
-      "mention_count": 8,
-      "last_updated": "2026-06-13",
+      "mention_count": 9,
+      "last_updated": "2026-06-30",
       "partners": [],
       "concepts": [
         "中芯国际概念",
@@ -111365,6 +112040,45 @@
           "core_business": [],
           "industry_position": [],
           "chain": [],
+          "partners": []
+        },
+        {
+          "title": "芯源微：涂胶显影国产替代+先进封装",
+          "date": "2026-06-30",
+          "source": "https://mp.weixin.qq.com/s/ABRXiL9BmZFPKJSIj8zxFA",
+          "accidents": [
+            "新一代超高产能涂胶显影机FTAlkaid取得积极进展",
+            "高温SPM清洗设备打破国外垄断",
+            "临时键合/解键合设备达国际先进水平获多家客户订单"
+          ],
+          "insights": [
+            "前道涂胶显影设备国产化率极低，日系TEL占绝大多数份额",
+            "涂胶显影是产线上唯一与光刻机联机作业的核心设备",
+            "多领域并进打破海外垄断"
+          ],
+          "key_metrics": [
+            "前道涂胶显影市场规模约百亿",
+            "国产化率极低"
+          ],
+          "target_valuation": [
+            "涂胶显影国产替代10倍空间"
+          ],
+          "products": [
+            "offline/I-line/KrF/ArF涂胶显影机",
+            "FTAlkaid超高产能涂胶显影机",
+            "高温SPM清洗设备",
+            "临时键合/解键合机"
+          ],
+          "core_business": [
+            "半导体前道涂胶显影设备",
+            "先进封装设备"
+          ],
+          "industry_position": [
+            "国内量产型前道涂胶显影设备龙头"
+          ],
+          "chain": [
+            "涂胶显影→光刻→先进封装"
+          ],
           "partners": []
         }
       ],
@@ -112811,8 +113525,8 @@
       "partners": []
     },
     "688102": {
-      "mention_count": 2,
-      "last_updated": "2026-06-13",
+      "mention_count": 3,
+      "last_updated": "2026-06-30",
       "concepts": [
         "3D打印",
         "DeepSeek概念",
@@ -112874,6 +113588,37 @@
           "industry_position": [],
           "chain": [],
           "partners": []
+        },
+        {
+          "title": "聚变堆超导磁体全链突破",
+          "date": "2026-06-30",
+          "source": "https://mp.weixin.qq.com/s/ABRXiL9BmZFPKJSIj8zxFA",
+          "accidents": [
+            "高强高导铜合金电流引线已在EAST等装置装机运行",
+            "难熔钨基构件可用于第一壁与偏滤器区域"
+          ],
+          "insights": [
+            "磁体系统小而关键的零组件供应商"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "products": [
+            "高强高导铜铬锆合金",
+            "难熔金属零组件"
+          ],
+          "core_business": [
+            "高强高导铜合金",
+            "难熔金属"
+          ],
+          "industry_position": [
+            "托卡马克磁体零组件细分领先"
+          ],
+          "chain": [
+            "铜合金/难熔金属→磁体零组件→聚变装置"
+          ],
+          "partners": [
+            "EAST"
+          ]
         }
       ],
       "industry": "有色金属-金属新材料-其他金属新材料",
@@ -113555,8 +114300,8 @@
       ]
     },
     "688122": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-30",
       "concepts": [
         "储能",
         "军工",
@@ -113588,6 +114333,48 @@
             "西部超导作为ITER项目超导线材核心供应商"
           ],
           "key_metrics": []
+        },
+        {
+          "title": "聚变堆超导磁体全链突破",
+          "date": "2026-06-30",
+          "source": "https://mp.weixin.qq.com/s/ABRXiL9BmZFPKJSIj8zxFA",
+          "accidents": [
+            "CRAFT环向场超导磁体NbTi/Nb₃Sn线材主力供应商",
+            "国内唯一实现低温超导线材商业化量产",
+            "2026年合肥设子公司，产能扩至年产200吨级"
+          ],
+          "insights": [
+            "全球仅2-3家企业具备ITER级Nb₃Sn量产能力",
+            "聚变工程堆线材订单已排产至2027年",
+            "超导+军工钛合金双轮驱动"
+          ],
+          "key_metrics": [
+            "低温超导线材产能200吨/年",
+            "全球2-3家ITER级Nb₃Sn量产企业之一"
+          ],
+          "target_valuation": [],
+          "products": [
+            "NbTi低温超导线材",
+            "Nb₃Sn低温超导线材",
+            "超导MRI线材"
+          ],
+          "core_business": [
+            "低温超导线材",
+            "军工钛合金"
+          ],
+          "industry_position": [
+            "中国低温超导线材龙头",
+            "核聚变磁体核心材料唯一国产供应商"
+          ],
+          "chain": [
+            "超导线材→环向场/极向场磁体→托卡马克"
+          ],
+          "partners": [
+            "CRAFT",
+            "ITER",
+            "CFETR",
+            "BEST"
+          ]
         }
       ],
       "industry": "国防军工-军工装备-航空装备",
@@ -117280,8 +118067,8 @@
       ]
     },
     "688267": {
-      "mention_count": 1,
-      "last_updated": "2026-06-11",
+      "mention_count": 2,
+      "last_updated": "2026-06-29",
       "concepts": [
         "回购增持再贷款概念",
         "沪股通",
@@ -117322,6 +118109,32 @@
           ],
           "chain": [
             "环氧丙烷产业链"
+          ],
+          "partners": []
+        },
+        {
+          "title": "二氧化碳概念股",
+          "date": "2026-06-29",
+          "source": "https://mp.weixin.qq.com/s/JLl0UL-2y_6vTr_RWX2_nw",
+          "accidents": [
+            "二氧化碳催化转化核心催化剂龙头"
+          ],
+          "insights": [
+            "催化剂用于CO加氢制甲醇、CO2合成烯烃等碳资源化转化"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "products": [
+            "CO2催化转化催化剂"
+          ],
+          "core_business": [
+            "催化剂"
+          ],
+          "industry_position": [
+            "CO2催化转化催化剂龙头"
+          ],
+          "chain": [
+            "CO2→催化剂→甲醇/烯烃"
           ],
           "partners": []
         }
@@ -138402,7 +139215,7 @@
       "code": "002639",
       "name": "雪人集团",
       "concept": "",
-      "mention_count": 2,
+      "mention_count": 3,
       "articles": [
         {
           "title": "杭氧股份、九丰能源、侨源股份、雪人集团，谁是氦气概念潜力老大？",
@@ -138434,9 +139247,42 @@
           "industry_position": [],
           "chain": [],
           "partners": []
+        },
+        {
+          "title": "聚变堆超导磁体全链突破",
+          "date": "2026-06-30",
+          "source": "https://mp.weixin.qq.com/s/ABRXiL9BmZFPKJSIj8zxFA",
+          "accidents": [
+            "大型氦气螺杆压缩机在EAST、CRAFT等装置稳定运行",
+            "定制氦气压缩机通过中科院等离子体所验证"
+          ],
+          "insights": [
+            "极低温制冷系统是每台聚变装置必配单元",
+            "多台聚变装置并行建设带来可观增量"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "products": [
+            "大型氦气螺杆压缩机",
+            "极低温制冷系统"
+          ],
+          "core_business": [
+            "制冷设备"
+          ],
+          "industry_position": [
+            "大科学装置极低温氦制冷核心供应商"
+          ],
+          "chain": [
+            "氦制冷→4.2K/1.8K低温→超导磁体运行"
+          ],
+          "partners": [
+            "EAST",
+            "CRAFT",
+            "中科院等离子体所"
+          ]
         }
       ],
-      "last_updated": "2026-06-13",
+      "last_updated": "2026-06-30",
       "concepts": [
         "一带一路",
         "东数西算(算力)",
@@ -165637,9 +166483,44 @@
       "code": "688186",
       "name": "广大特材",
       "concept": "",
-      "mention_count": 0,
-      "articles": [],
-      "last_updated": "2026-05-31",
+      "mention_count": 1,
+      "articles": [
+        {
+          "title": "聚变堆超导磁体全链突破",
+          "date": "2026-06-30",
+          "source": "https://mp.weixin.qq.com/s/ABRXiL9BmZFPKJSIj8zxFA",
+          "accidents": [
+            "实现核聚变超导线圈铠甲材料批量供应",
+            "参与BEST项目TF线圈盒加工",
+            "拟投约4.79亿元扩产特种合金产线"
+          ],
+          "insights": [
+            "磁体大型结构件国产替代参与者",
+            "随着多个聚变装置启动建设需求阶梯式上升"
+          ],
+          "key_metrics": [
+            "拟投资4.79亿元扩产"
+          ],
+          "target_valuation": [],
+          "products": [
+            "超导线圈盒/铠甲材料",
+            "特种合金钢"
+          ],
+          "core_business": [
+            "特种合金钢"
+          ],
+          "industry_position": [
+            "核聚变超导线圈盒特种合金材料供应商"
+          ],
+          "chain": [
+            "特种合金→线圈盒→聚变磁体"
+          ],
+          "partners": [
+            "BEST"
+          ]
+        }
+      ],
+      "last_updated": "2026-06-30",
       "concepts": [
         "2025年报预增",
         "专精特新",
@@ -187635,9 +188516,78 @@
         }
       ],
       "last_updated": "2026-06-27"
+    },
+    "003027": {
+      "code": "003027",
+      "name": "同兴环保",
+      "articles": [
+        {
+          "title": "二氧化碳概念股",
+          "date": "2026-06-29",
+          "source": "https://mp.weixin.qq.com/s/JLl0UL-2y_6vTr_RWX2_nw",
+          "accidents": [
+            "自研二氧化碳专用吸收剂"
+          ],
+          "insights": [
+            "提供钢厂/电厂CCUS工程总包+吸收剂配套服务"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "products": [
+            "CO2专用吸收剂",
+            "CCUS工程总包"
+          ],
+          "core_business": [
+            "环保工程",
+            "CCUS"
+          ],
+          "industry_position": [
+            "CCUS吸收剂供应商"
+          ],
+          "chain": [
+            "CCUS→吸收剂→钢厂/电厂"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-06-29"
+    },
+    "002665": {
+      "code": "002665",
+      "name": "首航高科",
+      "articles": [
+        {
+          "title": "二氧化碳概念股",
+          "date": "2026-06-29",
+          "source": "https://mp.weixin.qq.com/s/JLl0UL-2y_6vTr_RWX2_nw",
+          "accidents": [
+            "超前布局超临界二氧化碳+光热发电技术闭环"
+          ],
+          "insights": [
+            "适配光热电站项目及储能场景"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "products": [
+            "超临界CO2+光热发电系统"
+          ],
+          "core_business": [
+            "光热发电",
+            "储能"
+          ],
+          "industry_position": [
+            "超临界CO2光热发电先行者"
+          ],
+          "chain": [
+            "超临界CO2→光热发电→储能"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-06-29"
     }
   },
-  "stock_count": 3525,
+  "stock_count": 3527,
   "total": 3201,
   "last_updated": "2026-06-14"
 }

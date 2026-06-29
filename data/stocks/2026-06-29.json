@@ -1,0 +1,615 @@
+{
+  "date": "2026-06-29",
+  "update_count": 18,
+  "stocks": {
+    "688106": {
+      "code": "688106",
+      "name": "金宏气体",
+      "articles": [
+        {
+          "title": "二氧化碳概念股",
+          "date": "2026-06-29",
+          "source": "https://mp.weixin.qq.com/s/JLl0UL-2y_6vTr_RWX2_nw",
+          "accidents": [
+            "国内电子级高纯二氧化碳(6N/7N)龙头",
+            "已批量供货台积电、长鑫存储等"
+          ],
+          "insights": [
+            "半导体先进制程超临界清洗用高纯CO2国产替代逻辑强"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "products": [
+            "高纯二氧化碳(6N/7N)"
+          ],
+          "core_business": [
+            "电子特种气体"
+          ],
+          "industry_position": [
+            "国内电子级高纯CO2龙头"
+          ],
+          "chain": [
+            "高纯CO2→半导体超临界清洗"
+          ],
+          "partners": [
+            "台积电",
+            "长鑫存储"
+          ]
+        }
+      ]
+    },
+    "002549": {
+      "code": "002549",
+      "name": "凯美特气",
+      "articles": [
+        {
+          "title": "二氧化碳概念股",
+          "date": "2026-06-29",
+          "source": "https://mp.weixin.qq.com/s/JLl0UL-2y_6vTr_RWX2_nw",
+          "accidents": [
+            "国内高纯二氧化碳(5N/6N)龙头，依托石化尾气提纯",
+            "光刻气通过ASML子公司认证"
+          ],
+          "insights": [
+            "产品覆盖半导体清洗、食品级及电子级"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "products": [
+            "高纯二氧化碳(5N/6N)",
+            "光刻气"
+          ],
+          "core_business": [
+            "高纯气体",
+            "光刻气"
+          ],
+          "industry_position": [
+            "国内高纯CO2龙头"
+          ],
+          "chain": [
+            "石化尾气→高纯CO2→半导体/食品"
+          ],
+          "partners": [
+            "ASML子公司"
+          ]
+        }
+      ]
+    },
+    "688268": {
+      "code": "688268",
+      "name": "华特气体",
+      "articles": [
+        {
+          "title": "二氧化碳概念股",
+          "date": "2026-06-29",
+          "source": "https://mp.weixin.qq.com/s/JLl0UL-2y_6vTr_RWX2_nw",
+          "accidents": [
+            "高纯二氧化碳产品批量供应长江存储、中芯国际等"
+          ],
+          "insights": [
+            "国内特种气体龙头，适配先进制程清洗与刻蚀"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "products": [
+            "高纯二氧化碳",
+            "特种气体"
+          ],
+          "core_business": [
+            "特种气体"
+          ],
+          "industry_position": [
+            "国内特种气体龙头"
+          ],
+          "chain": [
+            "高纯CO2→先进制程清洗/刻蚀"
+          ],
+          "partners": [
+            "长江存储",
+            "中芯国际"
+          ]
+        }
+      ]
+    },
+    "688548": {
+      "code": "688548",
+      "name": "广钢气体",
+      "articles": [
+        {
+          "title": "二氧化碳概念股",
+          "date": "2026-06-29",
+          "source": "https://mp.weixin.qq.com/s/JLl0UL-2y_6vTr_RWX2_nw",
+          "accidents": [
+            "量产5N电子级二氧化碳，供给珠三角晶圆/显示面板产业链"
+          ],
+          "insights": [
+            "大湾区大宗电子气体龙头"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "products": [
+            "电子级二氧化碳(5N)"
+          ],
+          "core_business": [
+            "电子大宗气体"
+          ],
+          "industry_position": [
+            "大湾区电子气体龙头"
+          ],
+          "chain": [
+            "电子级CO2→晶圆/面板"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "002971": {
+      "code": "002971",
+      "name": "和远气体",
+      "articles": [
+        {
+          "title": "二氧化碳概念股",
+          "date": "2026-06-29",
+          "source": "https://mp.weixin.qq.com/s/JLl0UL-2y_6vTr_RWX2_nw",
+          "accidents": [
+            "华中区域二氧化碳供应龙头",
+            "自研高纯提纯工艺"
+          ],
+          "insights": [
+            "配套钢厂、化工尾气回收项目"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "products": [
+            "高纯二氧化碳"
+          ],
+          "core_business": [
+            "工业气体"
+          ],
+          "industry_position": [
+            "华中CO2供应龙头"
+          ],
+          "chain": [
+            "尾气回收→高纯CO2"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "301033": {
+      "code": "301033",
+      "name": "侨源股份",
+      "articles": [
+        {
+          "title": "二氧化碳概念股",
+          "date": "2026-06-29",
+          "source": "https://mp.weixin.qq.com/s/JLl0UL-2y_6vTr_RWX2_nw",
+          "accidents": [
+            "规模化生产工业与电子级二氧化碳"
+          ],
+          "insights": [
+            "西南工业气体龙头，配套成渝半导体集群"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "products": [
+            "工业/电子级二氧化碳"
+          ],
+          "core_business": [
+            "工业气体"
+          ],
+          "industry_position": [
+            "西南工业气体龙头"
+          ],
+          "chain": [
+            "工业气体→成渝半导体集群"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "000811": {
+      "code": "000811",
+      "name": "冰轮环境",
+      "articles": [
+        {
+          "title": "二氧化碳概念股",
+          "date": "2026-06-29",
+          "source": "https://mp.weixin.qq.com/s/JLl0UL-2y_6vTr_RWX2_nw",
+          "accidents": [
+            "CCUS全流程低温装备龙头"
+          ],
+          "insights": [
+            "主营二氧化碳压缩机、液化制冷机组，覆盖电厂/钢铁/化工碳捕集液化全环节"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "products": [
+            "二氧化碳压缩机",
+            "液化制冷机组"
+          ],
+          "core_business": [
+            "低温冷冻设备",
+            "CCUS装备"
+          ],
+          "industry_position": [
+            "CCUS低温装备龙头"
+          ],
+          "chain": [
+            "CCUS→CO2压缩/液化"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "600378": {
+      "code": "600378",
+      "name": "昊华科技",
+      "articles": [
+        {
+          "title": "二氧化碳概念股",
+          "date": "2026-06-29",
+          "source": "https://mp.weixin.qq.com/s/JLl0UL-2y_6vTr_RWX2_nw",
+          "accidents": [
+            "掌握变压吸附(PSA)提纯二氧化碳核心技术"
+          ],
+          "insights": [
+            "碳捕集吸附分离龙头，供应煤化工/电厂碳分离装置"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "products": [
+            "PSA提纯装置",
+            "碳分离装置"
+          ],
+          "core_business": [
+            "氟化工",
+            "碳捕集"
+          ],
+          "industry_position": [
+            "碳捕集吸附分离龙头"
+          ],
+          "chain": [
+            "PSA→CO2提纯→煤化工/电厂"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "603169": {
+      "code": "603169",
+      "name": "兰石重装",
+      "articles": [
+        {
+          "title": "二氧化碳概念股",
+          "date": "2026-06-29",
+          "source": "https://mp.weixin.qq.com/s/JLl0UL-2y_6vTr_RWX2_nw",
+          "accidents": [
+            "承接百万吨级CCUS成套设备订单",
+            "制造超临界二氧化碳高压容器"
+          ],
+          "insights": [
+            "大型压力容器、CO捕集提纯反应器制造商"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "products": [
+            "CCUS成套设备",
+            "超临界CO2高压容器",
+            "PCHE换热器"
+          ],
+          "core_business": [
+            "压力容器",
+            "CCUS装备"
+          ],
+          "industry_position": [
+            "CCUS装备龙头"
+          ],
+          "chain": [
+            "CCUS→CO2高压容器/换热器"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "003027": {
+      "code": "003027",
+      "name": "同兴环保",
+      "articles": [
+        {
+          "title": "二氧化碳概念股",
+          "date": "2026-06-29",
+          "source": "https://mp.weixin.qq.com/s/JLl0UL-2y_6vTr_RWX2_nw",
+          "accidents": [
+            "自研二氧化碳专用吸收剂"
+          ],
+          "insights": [
+            "提供钢厂/电厂CCUS工程总包+吸收剂配套服务"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "products": [
+            "CO2专用吸收剂",
+            "CCUS工程总包"
+          ],
+          "core_business": [
+            "环保工程",
+            "CCUS"
+          ],
+          "industry_position": [
+            "CCUS吸收剂供应商"
+          ],
+          "chain": [
+            "CCUS→吸收剂→钢厂/电厂"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-06-29"
+    },
+    "688267": {
+      "code": "688267",
+      "name": "中触媒",
+      "articles": [
+        {
+          "title": "二氧化碳概念股",
+          "date": "2026-06-29",
+          "source": "https://mp.weixin.qq.com/s/JLl0UL-2y_6vTr_RWX2_nw",
+          "accidents": [
+            "二氧化碳催化转化核心催化剂龙头"
+          ],
+          "insights": [
+            "催化剂用于CO加氢制甲醇、CO2合成烯烃等碳资源化转化"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "products": [
+            "CO2催化转化催化剂"
+          ],
+          "core_business": [
+            "催化剂"
+          ],
+          "industry_position": [
+            "CO2催化转化催化剂龙头"
+          ],
+          "chain": [
+            "CO2→催化剂→甲醇/烯烃"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "003022": {
+      "code": "003022",
+      "name": "联泓新科",
+      "articles": [
+        {
+          "title": "二氧化碳概念股",
+          "date": "2026-06-29",
+          "source": "https://mp.weixin.qq.com/s/JLl0UL-2y_6vTr_RWX2_nw",
+          "accidents": [
+            "全球首套5万吨级二氧化碳基PPC可降解塑料量产"
+          ],
+          "insights": [
+            "二氧化碳直接作为核心聚合原料，实现碳资源化"
+          ],
+          "key_metrics": [
+            "5万吨级CO2基PPC"
+          ],
+          "target_valuation": [],
+          "products": [
+            "CO2基PPC可降解塑料"
+          ],
+          "core_business": [
+            "新材料",
+            "可降解塑料"
+          ],
+          "industry_position": [
+            "CO2基PPC全球首套量产"
+          ],
+          "chain": [
+            "CO2→PPC可降解塑料"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "600875": {
+      "code": "600875",
+      "name": "东方电气",
+      "articles": [
+        {
+          "title": "二氧化碳概念股",
+          "date": "2026-06-29",
+          "source": "https://mp.weixin.qq.com/s/JLl0UL-2y_6vTr_RWX2_nw",
+          "accidents": [
+            "为超临界二氧化碳发电机组提供压缩机/透平机等核心设备"
+          ],
+          "insights": [
+            "国内发电设备制造龙头，深度参与超临界CO2发电示范项目"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "products": [
+            "超临界CO2压缩机",
+            "透平机"
+          ],
+          "core_business": [
+            "发电设备"
+          ],
+          "industry_position": [
+            "国内发电设备龙头"
+          ],
+          "chain": [
+            "超临界CO2发电→压缩机/透平"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "002272": {
+      "code": "002272",
+      "name": "川润股份",
+      "articles": [
+        {
+          "title": "二氧化碳概念股",
+          "date": "2026-06-29",
+          "source": "https://mp.weixin.qq.com/s/JLl0UL-2y_6vTr_RWX2_nw",
+          "accidents": [
+            "为超临界二氧化碳发电机组定制开发高性能冷却器"
+          ],
+          "insights": [
+            "适配超临界高温高压特殊工况"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "products": [
+            "高性能冷却器"
+          ],
+          "core_business": [
+            "润滑冷却设备"
+          ],
+          "industry_position": [
+            "超临界CO2冷却器供应商"
+          ],
+          "chain": [
+            "超临界CO2发电→冷却器"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "002318": {
+      "code": "002318",
+      "name": "久立特材",
+      "articles": [
+        {
+          "title": "二氧化碳概念股",
+          "date": "2026-06-29",
+          "source": "https://mp.weixin.qq.com/s/JLl0UL-2y_6vTr_RWX2_nw",
+          "accidents": [
+            "为超临界二氧化碳发电系统提供关键特种管材"
+          ],
+          "insights": [
+            "耐高温高压合金管材龙头"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "products": [
+            "耐高温高压合金管材"
+          ],
+          "core_business": [
+            "特种管材"
+          ],
+          "industry_position": [
+            "耐高温高压合金管材龙头"
+          ],
+          "chain": [
+            "超临界CO2发电→特种管材"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "002665": {
+      "code": "002665",
+      "name": "首航高科",
+      "articles": [
+        {
+          "title": "二氧化碳概念股",
+          "date": "2026-06-29",
+          "source": "https://mp.weixin.qq.com/s/JLl0UL-2y_6vTr_RWX2_nw",
+          "accidents": [
+            "超前布局超临界二氧化碳+光热发电技术闭环"
+          ],
+          "insights": [
+            "适配光热电站项目及储能场景"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "products": [
+            "超临界CO2+光热发电系统"
+          ],
+          "core_business": [
+            "光热发电",
+            "储能"
+          ],
+          "industry_position": [
+            "超临界CO2光热发电先行者"
+          ],
+          "chain": [
+            "超临界CO2→光热发电→储能"
+          ],
+          "partners": []
+        }
+      ],
+      "last_updated": "2026-06-29"
+    },
+    "000830": {
+      "code": "000830",
+      "name": "鲁西化工",
+      "articles": [
+        {
+          "title": "二氧化碳概念股",
+          "date": "2026-06-29",
+          "source": "https://mp.weixin.qq.com/s/JLl0UL-2y_6vTr_RWX2_nw",
+          "accidents": [
+            "具备先进的二氧化碳气提法生产尿素工艺"
+          ],
+          "insights": [
+            "CO2资源化利用→尿素"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "products": [
+            "尿素(CO2气提法)"
+          ],
+          "core_business": [
+            "煤化工"
+          ],
+          "industry_position": [
+            "CO2气提法尿素龙头"
+          ],
+          "chain": [
+            "CO2→尿素"
+          ],
+          "partners": []
+        }
+      ]
+    },
+    "600426": {
+      "code": "600426",
+      "name": "华鲁恒升",
+      "articles": [
+        {
+          "title": "二氧化碳概念股",
+          "date": "2026-06-29",
+          "source": "https://mp.weixin.qq.com/s/JLl0UL-2y_6vTr_RWX2_nw",
+          "accidents": [
+            "回收装置尾气提纯二氧化碳"
+          ],
+          "insights": [
+            "用于合成碳酸二甲酯、尿素、纯碱等化工品"
+          ],
+          "key_metrics": [],
+          "target_valuation": [],
+          "products": [
+            "碳酸二甲酯",
+            "尿素",
+            "纯碱"
+          ],
+          "core_business": [
+            "煤化工"
+          ],
+          "industry_position": [
+            "煤化工龙头"
+          ],
+          "chain": [
+            "CO2→碳酸二甲酯/尿素/纯碱"
+          ],
+          "partners": []
+        }
+      ]
+    }
+  }
+}

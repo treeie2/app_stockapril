@@ -1,6 +1,6 @@
 {
   "version": "3.0",
-  "updated_at": "2026-06-28",
+  "updated_at": "2026-06-30",
   "stocks": {
     "002962": {
       "mention_count": 2,
@@ -560,8 +560,8 @@
       "article_count": 4
     },
     "002971": {
-      "mention_count": 3,
-      "last_updated": "2026-06-13",
+      "mention_count": 5,
+      "last_updated": "2026-06-29",
       "partners": [
         "长江存储"
       ],
@@ -596,7 +596,7 @@
         "电子气体研发生产综合型气体公司"
       ],
       "full_name": "和远气体（002971）全称为湖北和远气体股份有限公司",
-      "article_count": 4
+      "article_count": 5
     },
     "003031": {
       "mention_count": 6,
@@ -1433,8 +1433,8 @@
       "article_count": 14
     },
     "600378": {
-      "mention_count": 12,
-      "last_updated": "2026-06-13",
+      "mention_count": 13,
+      "last_updated": "2026-06-29",
       "partners": [],
       "name": "昊华科技",
       "industry_position": [
@@ -1496,7 +1496,7 @@
       "description": "子公司中昊晨光PTFE产能3.3万吨/年，技术对标国际，用于5G基站及高端装备密封",
       "full_name": "昊华化工科技集团股份有限公司",
       "list_date": "20010111",
-      "article_count": 12
+      "article_count": 13
     },
     "600584": {
       "mention_count": 10,
@@ -1710,8 +1710,8 @@
       "article_count": 11
     },
     "688106": {
-      "mention_count": 5,
-      "last_updated": "2026-06-28",
+      "mention_count": 6,
+      "last_updated": "2026-06-29",
       "partners": [],
       "name": "金宏气体",
       "industry_position": [
@@ -1759,7 +1759,7 @@
       "core_business": [
         "电子气体综合供应电子特气国产供应商"
       ],
-      "article_count": 5
+      "article_count": 6
     },
     "688146": {
       "mention_count": 9,
@@ -1860,8 +1860,8 @@
       "article_count": 1
     },
     "688268": {
-      "mention_count": 12,
-      "last_updated": "2026-06-13",
+      "mention_count": 14,
+      "last_updated": "2026-06-29",
       "partners": [
         "云南锗业"
       ],
@@ -1904,7 +1904,7 @@
       ],
       "full_name": "广东华特气体股份有限公司",
       "list_date": "20191226",
-      "article_count": 13
+      "article_count": 14
     },
     "688305": {
       "mention_count": 1,
@@ -1992,8 +1992,8 @@
       "article_count": 2
     },
     "688548": {
-      "mention_count": 6,
-      "last_updated": "2026-06-28",
+      "mention_count": 7,
+      "last_updated": "2026-06-29",
       "partners": [
         "长江存储",
         "长鑫存储"
@@ -2032,7 +2032,7 @@
       "core_business": [
         "电子大宗气体供应电子大宗气体供应商"
       ],
-      "article_count": 6
+      "article_count": 7
     },
     "688697": {
       "mention_count": 1,
@@ -6594,7 +6594,7 @@
       "core_business": [
         "许可项目:建设工程施工,特种设备设计,特种设备制造,特种设备安装改造修理,检验检测服务一般项目:通用设备制造(不含特种设备制造);制冷,空调设备制造;制冷,空调"
       ],
-      "last_updated": "2026-06-13",
+      "last_updated": "2026-06-29",
       "industry_position": [
         "大型工商压缩机市占率第一"
       ],
@@ -6636,7 +6636,7 @@
         "雅下水电概念"
       ],
       "code": "000811",
-      "mention_count": 5,
+      "mention_count": 6,
       "partners": [
         "Dayone",
         "北美头部EPC",
@@ -6654,7 +6654,7 @@
       "name": "冰轮环境",
       "full_name": "冰轮环境技术股份有限公司",
       "list_date": "19980528",
-      "article_count": 5
+      "article_count": 6
     },
     "000815": {
       "core_business": [
@@ -6824,7 +6824,7 @@
       "core_business": [
         "有机硅单体、化工新材料"
       ],
-      "last_updated": "2026-06-09",
+      "last_updated": "2026-06-29",
       "industry_position": [
         "有机硅单体产能40万吨/年，全球第一甲酸"
       ],
@@ -6847,7 +6847,7 @@
         "融资融券"
       ],
       "code": "000830",
-      "mention_count": 1,
+      "mention_count": 2,
       "partners": [],
       "board": "SZ",
       "products": [],
@@ -6855,7 +6855,7 @@
         "中游-单体"
       ],
       "name": "鲁西化工",
-      "article_count": 1
+      "article_count": 2
     },
     "000831": {
       "core_business": [
@@ -7762,7 +7762,7 @@
       "core_business": [
         "钽铌材料生产超导材料高温合金材料"
       ],
-      "last_updated": "2026-06-28",
+      "last_updated": "2026-06-30",
       "industry_position": [
         "国内钽铌龙头企业",
         "超导铌材全球市占率达70%",
@@ -7787,7 +7787,7 @@
         "超级电容"
       ],
       "code": "000962",
-      "mention_count": 2,
+      "mention_count": 3,
       "partners": [
         "蓝箭航天"
       ],
@@ -7806,7 +7806,7 @@
         "商业航天-上游-高温合金"
       ],
       "name": "东方钽业",
-      "article_count": 2
+      "article_count": 3
     },
     "000963": {
       "core_business": [
@@ -11986,8 +11986,8 @@
       "article_count": 0
     },
     "002149": {
-      "mention_count": 6,
-      "last_updated": "2026-06-28",
+      "mention_count": 7,
+      "last_updated": "2026-06-30",
       "partners": [],
       "concepts": [
         "商业航天",
@@ -12031,7 +12031,7 @@
         "稀有金属材料（钛/锆/钽/铌），军工稀有金属材料龙头"
       ],
       "full_name": "西部材料（002149）全称为西部金属材料股份有限公司",
-      "article_count": 6
+      "article_count": 7
     },
     "002151": {
       "core_business": [
@@ -14650,7 +14650,7 @@
       "core_business": [
         "基本盘提供抗风险底座是一家深耕润滑、液压及热管理系统的传统风电/重型装备制造企业作为国内风电液压润滑油箱和冷却系统的核心供应商"
       ],
-      "last_updated": "2026-06-05",
+      "last_updated": "2026-06-29",
       "industry_position": [
         "作为国内风电液压润滑油箱和冷却系统的核心供应商，公司受益于海上风电大型化和风电出海的大趋势"
       ],
@@ -14684,7 +14684,7 @@
         "高端装备"
       ],
       "code": "002272",
-      "mention_count": 1,
+      "mention_count": 2,
       "partners": [
         "存储芯片行业迎来涨价潮"
       ],
@@ -14699,7 +14699,7 @@
         "华为公布昇腾芯片roadmap"
       ],
       "name": "川润股份",
-      "article_count": 1
+      "article_count": 2
     },
     "002276": {
       "core_business": [],
@@ -15472,7 +15472,7 @@
     },
     "002318": {
       "core_business": [],
-      "last_updated": "2026-05-10",
+      "last_updated": "2026-06-29",
       "industry_position": [],
       "valuation": {},
       "industry": "钢铁-钢铁-特钢",
@@ -15488,13 +15488,13 @@
         "深股通"
       ],
       "code": "002318",
-      "mention_count": 0,
+      "mention_count": 1,
       "partners": [],
       "board": "SZ",
       "products": [],
       "chain": [],
       "name": "久立特材",
-      "article_count": 0
+      "article_count": 1
     },
     "002320": {
       "core_business": [
@@ -19543,8 +19543,8 @@
       "article_count": 0
     },
     "002549": {
-      "mention_count": 4,
-      "last_updated": "2026-06-13",
+      "mention_count": 5,
+      "last_updated": "2026-06-29",
       "concepts": [
         "专精特新",
         "俄乌冲突概念",
@@ -19575,7 +19575,7 @@
       ],
       "full_name": "湖南凯美特气体股份有限公司",
       "list_date": "20110218",
-      "article_count": 4
+      "article_count": 5
     },
     "002550": {
       "mention_count": 0,
@@ -24718,8 +24718,8 @@
       "article_count": 4
     },
     "003022": {
-      "mention_count": 1,
-      "last_updated": "2026-06-11",
+      "mention_count": 2,
+      "last_updated": "2026-06-29",
       "concepts": [
         "HJT电池",
         "PEEK材料",
@@ -24751,7 +24751,7 @@
       "chain": [
         "环氧丙烷产业链"
       ],
-      "article_count": 1
+      "article_count": 2
     },
     "003029": {
       "mention_count": 0,
@@ -39918,8 +39918,8 @@
       "article_count": 1
     },
     "301033": {
-      "mention_count": 0,
-      "last_updated": "2026-05-10",
+      "mention_count": 1,
+      "last_updated": "2026-06-29",
       "concepts": [
         "医美概念",
         "牙科医疗",
@@ -39940,7 +39940,7 @@
       "code": "301033",
       "name": "迈普医学",
       "partners": [],
-      "article_count": 0
+      "article_count": 1
     },
     "301055": {
       "mention_count": 0,
@@ -45312,8 +45312,8 @@
       "article_count": 0
     },
     "600105": {
-      "mention_count": 3,
-      "last_updated": "2026-06-13",
+      "mention_count": 4,
+      "last_updated": "2026-06-30",
       "partners": [
         "国内头部光模块厂商",
         "中国移动研究院"
@@ -45368,7 +45368,7 @@
       "core_business": [
         "磷化铟光芯片IDM全产业链"
       ],
-      "article_count": 3
+      "article_count": 4
     },
     "600110": {
       "mention_count": 6,
@@ -47481,8 +47481,8 @@
       "article_count": 1
     },
     "600363": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-30",
       "concepts": [
         "2025年报预增",
         "OLED",
@@ -47526,7 +47526,7 @@
       ],
       "code": "600363",
       "name": "联创光电",
-      "article_count": 1
+      "article_count": 2
     },
     "600366": {
       "mention_count": 0,
@@ -48081,8 +48081,8 @@
       "article_count": 0
     },
     "600426": {
-      "mention_count": 0,
-      "last_updated": "2026-05-10",
+      "mention_count": 1,
+      "last_updated": "2026-06-29",
       "concepts": [
         "沪股通",
         "融资融券",
@@ -48102,7 +48102,7 @@
       "products": [
         "化工"
       ],
-      "article_count": 0
+      "article_count": 1
     },
     "600433": {
       "mention_count": 0,
@@ -49612,8 +49612,8 @@
       "article_count": 1
     },
     "600577": {
-      "mention_count": 0,
-      "last_updated": "2026-05-31",
+      "mention_count": 1,
+      "last_updated": "2026-06-30",
       "concepts": [
         "ERP概念",
         "人形机器人",
@@ -49640,7 +49640,7 @@
       "code": "600577",
       "name": "精达股份",
       "partners": [],
-      "article_count": 0
+      "article_count": 1
     },
     "600578": {
       "mention_count": 1,
@@ -52592,8 +52592,8 @@
       "article_count": 1
     },
     "600875": {
-      "mention_count": 1,
-      "last_updated": "2026-06-13",
+      "mention_count": 3,
+      "last_updated": "2026-06-30",
       "concepts": [
         "ChatGPT概念",
         "DeepSeek概念",
@@ -52638,7 +52638,7 @@
       "code": "600875",
       "name": "东方电气",
       "partners": [],
-      "article_count": 1
+      "article_count": 3
     },
     "600877": {
       "mention_count": 0,
@@ -57694,8 +57694,8 @@
       "article_count": 1
     },
     "603063": {
-      "mention_count": 1,
-      "last_updated": "2026-06-04",
+      "mention_count": 2,
+      "last_updated": "2026-06-30",
       "concepts": [
         "储能",
         "光伏概念",
@@ -57729,7 +57729,7 @@
         "高压DC-DC变流模块"
       ],
       "partners": [],
-      "article_count": 1
+      "article_count": 2
     },
     "603067": {
       "mention_count": 0,
@@ -58595,8 +58595,8 @@
       "article_count": 0
     },
     "603169": {
-      "mention_count": 0,
-      "last_updated": "2026-05-10",
+      "mention_count": 1,
+      "last_updated": "2026-06-29",
       "concepts": [
         "一带一路",
         "沪股通",
@@ -58634,7 +58634,7 @@
       "code": "603169",
       "name": "兰石重装",
       "partners": [],
-      "article_count": 0
+      "article_count": 1
     },
     "603177": {
       "mention_count": 0,
@@ -64975,8 +64975,8 @@
       "article_count": 3
     },
     "688037": {
-      "mention_count": 8,
-      "last_updated": "2026-06-13",
+      "mention_count": 9,
+      "last_updated": "2026-06-30",
       "partners": [],
       "concepts": [
         "中芯国际概念",
@@ -65007,7 +65007,7 @@
       "core_business": [
         "半导体设备（涂胶显影、清洗、先进封装）涂胶显影设备"
       ],
-      "article_count": 8
+      "article_count": 9
     },
     "688039": {
       "mention_count": 0,
@@ -65814,8 +65814,8 @@
       "article_count": 1
     },
     "688102": {
-      "mention_count": 2,
-      "last_updated": "2026-06-13",
+      "mention_count": 3,
+      "last_updated": "2026-06-30",
       "concepts": [
         "3D打印",
         "DeepSeek概念",
@@ -65861,7 +65861,7 @@
       "core_business": [
         "铜基合金/铬锆铜/高温合金，半导体靶材+电接触材料"
       ],
-      "article_count": 2
+      "article_count": 3
     },
     "688103": {
       "mention_count": 0,
@@ -66142,8 +66142,8 @@
       "article_count": 10
     },
     "688122": {
-      "mention_count": 1,
-      "last_updated": "2026-05-31",
+      "mention_count": 2,
+      "last_updated": "2026-06-30",
       "concepts": [
         "储能",
         "军工",
@@ -66182,7 +66182,7 @@
       ],
       "code": "688122",
       "name": "西部超导",
-      "article_count": 1
+      "article_count": 2
     },
     "688123": {
       "mention_count": 4,
@@ -67988,8 +67988,8 @@
       "article_count": 1
     },
     "688267": {
-      "mention_count": 1,
-      "last_updated": "2026-06-11",
+      "mention_count": 2,
+      "last_updated": "2026-06-29",
       "concepts": [
         "回购增持再贷款概念",
         "沪股通",
@@ -68014,7 +68014,7 @@
       "chain": [
         "环氧丙烷产业链"
       ],
-      "article_count": 1
+      "article_count": 2
     },
     "688270": {
       "mention_count": 0,
@@ -81626,8 +81626,8 @@
       "code": "002639",
       "name": "雪人集团",
       "concept": "",
-      "mention_count": 2,
-      "last_updated": "2026-06-13",
+      "mention_count": 3,
+      "last_updated": "2026-06-30",
       "concepts": [
         "一带一路",
         "东数西算(算力)",
@@ -81678,7 +81678,7 @@
         "氦气设备"
       ],
       "partners": [],
-      "article_count": 2
+      "article_count": 3
     },
     "002649": {
       "code": "002649",
@@ -102837,8 +102837,8 @@
       "code": "688186",
       "name": "广大特材",
       "concept": "",
-      "mention_count": 0,
-      "last_updated": "2026-05-31",
+      "mention_count": 1,
+      "last_updated": "2026-06-30",
       "concepts": [
         "2025年报预增",
         "专精特新",
@@ -102863,7 +102863,7 @@
       "industry": "电力设备-风电设备-风电零部件",
       "board": "SH",
       "partners": [],
-      "article_count": 0
+      "article_count": 1
     },
     "688189": {
       "code": "688189",
@@ -113976,6 +113976,18 @@
       "code": "603261",
       "name": "立航科技",
       "last_updated": "2026-06-27",
+      "article_count": 1
+    },
+    "003027": {
+      "code": "003027",
+      "name": "同兴环保",
+      "last_updated": "2026-06-29",
+      "article_count": 1
+    },
+    "002665": {
+      "code": "002665",
+      "name": "首航高科",
+      "last_updated": "2026-06-29",
       "article_count": 1
     }
   }
